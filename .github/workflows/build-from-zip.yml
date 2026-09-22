@@ -38,32 +38,8 @@ jobs:
           SRC="$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github"
           sed -i 's/compileSdk = 37/compileSdk = 36/' "$SRC/app/build.gradle.kts"
           sed -i 's/targetSdk = 37/targetSdk = 36/' "$SRC/app/build.gradle.kts"
-          python3 - "$SRC/app/src/main/java/com/ayhan/chineselearning/MandarinTtsPlayer.kt" <<'PY'
-import sys
-from pathlib import Path
-p = Path(sys.argv[1])
-s = p.read_text(encoding="utf-8")
-old = '            tts.speak(text, TextToSpeech.QUEUE_FLUSH, Bundle(), utteranceId)\n        }\n        if (ready) action() else pending = action\n    }\n\n    private fun playFile'
-new = '''            tts.speak(text, TextToSpeech.QUEUE_FLUSH, Bundle(), utteranceId)
-            Unit
-        }
-        if (ready) action() else pending = action
-    }
-
-    fun speak(
-        text: String,
-        voiceProfileId: String,
-        speed: Float,
-        onDone: (() -> Unit)? = null
-    ) {
-        speakDirect(text, voiceProfileId, speed, onDone)
-    }
-
-    private fun playFile'''
-if old not in s:
-    raise SystemExit("MandarinTtsPlayer patch anchor not found")
-p.write_text(s.replace(old, new, 1), encoding="utf-8")
-PY
+          TTS_FILE="$SRC/app/src/main/java/com/ayhan/chineselearning/MandarinTtsPlayer.kt"
+          python3 -c 'import sys; from pathlib import Path; p=Path(sys.argv[1]); s=p.read_text(encoding="utf-8"); s=s.replace("            tts.speak(text, TextToSpeech.QUEUE_FLUSH, Bundle(), utteranceId)\\n        }\\n        if (ready) action() else pending = action", "            tts.speak(text, TextToSpeech.QUEUE_FLUSH, Bundle(), utteranceId)\\n            Unit\\n        }\\n        if (ready) action() else pending = action", 1); s=s.replace("    private fun playFile", "    fun speak(text: String, voiceProfileId: String, speed: Float, onDone: (() -> Unit)? = null) {\\n        speakDirect(text, voiceProfileId, speed, onDone)\\n    }\\n\\n    private fun playFile", 1); p.write_text(s, encoding="utf-8")' "$TTS_FILE"
           grep -q 'compileSdk = 36' "$SRC/app/build.gradle.kts"
           grep -q 'targetSdk = 36' "$SRC/app/build.gradle.kts"
           echo "SRC=$SRC" >> "$GITHUB_ENV"
