@@ -243,10 +243,16 @@ private fun SceneDecor(theme: String, p: StagePalette) {
 }
 
 @Composable
-private fun CartoonCat(name: String, isActive: Boolean, accent: Color) {
+private fun CartoonCat(name: String, isActive: Boolean, isSpeaking: Boolean, accent: Color) {
     val infinite = rememberInfiniteTransition(label = "catMotion-$name")
     val bob by infinite.animateFloat(-1.5f, 1.5f, infiniteRepeatable(tween(900), RepeatMode.Reverse), label = "catBob")
     val scale by animateFloatAsState(if (isActive) 1.09f else 1f, tween(220), label = "catScale")
+    val mouth by infinite.animateFloat(
+        initialValue = 3f,
+        targetValue = if (isActive && isSpeaking) 12f else 3f,
+        animationSpec = infiniteRepeatable(tween(150), RepeatMode.Reverse),
+        label = "catMouth"
+    )
     Column(
         modifier = Modifier.width(104.dp).height(210.dp).offset(y = bob.dp).scale(scale),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -259,6 +265,14 @@ private fun CartoonCat(name: String, isActive: Boolean, accent: Color) {
                 Box(Modifier.size(7.dp).background(Color(0xFF272226), CircleShape))
                 Box(Modifier.size(7.dp).background(Color(0xFF272226), CircleShape))
             }
+            Box(
+                Modifier
+                    .width(18.dp)
+                    .height(mouth.dp)
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 12.dp)
+                    .background(Color(0xFF7A3D35), RoundedCornerShape(6.dp))
+            )
         }
         Box(Modifier.width(86.dp).height(96.dp).background(Color(0xFFD98945), RoundedCornerShape(40.dp))) {
             if (isActive) Box(Modifier.width(34.dp).height(5.dp).align(Alignment.TopCenter).padding(top = 12.dp).background(accent, CircleShape))
@@ -267,9 +281,9 @@ private fun CartoonCat(name: String, isActive: Boolean, accent: Color) {
 }
 
 @Composable
-private fun CartoonCharacter(name: String, profile: CharacterProfile?, isActive: Boolean, accent: Color) {
+private fun CartoonCharacter(name: String, profile: CharacterProfile?, isActive: Boolean, isSpeaking: Boolean, accent: Color) {
     if (profile?.role?.contains("cat", true) == true) {
-        CartoonCat(name, isActive, accent)
+        CartoonCat(name, isActive, isSpeaking, accent)
         return
     }
 
@@ -293,6 +307,12 @@ private fun CartoonCharacter(name: String, profile: CharacterProfile?, isActive:
         label = "speakerScale"
     )
     val opacity = if (isActive) 1f else 0.92f
+    val mouth by infinite.animateFloat(
+        initialValue = 4f,
+        targetValue = if (isActive && isSpeaking) 13f else 4f,
+        animationSpec = infiniteRepeatable(tween(135), RepeatMode.Reverse),
+        label = "mouth"
+    )
 
     Column(
         modifier = Modifier
@@ -358,8 +378,8 @@ private fun CartoonCharacter(name: String, profile: CharacterProfile?, isActive:
                 Box(Modifier.size(6.dp).background(Color(0xFF2A2528), CircleShape))
             }
             Box(
-                Modifier.width(if (isActive) 22.dp else 16.dp).height(4.dp).align(Alignment.BottomCenter).padding(bottom = 18.dp)
-                    .background(Color(0xFF9D5D62), RoundedCornerShape(4.dp))
+                Modifier.width(if (isActive) 22.dp else 16.dp).height(mouth.dp).align(Alignment.BottomCenter).padding(bottom = 16.dp)
+                    .background(Color(0xFF8E4A50), RoundedCornerShape(8.dp))
             )
         }
 
@@ -376,6 +396,7 @@ fun SceneStage(
     location: LocationProfile?,
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
+    isSpeaking: Boolean,
     modifier: Modifier = Modifier
 ) {
     val theme = location?.theme ?: "generic"
@@ -432,7 +453,7 @@ fun SceneStage(
                         contentScale = ContentScale.Fit
                     )
                 } else {
-                    CartoonCharacter(name, profile, isActive, colors.accent)
+                    CartoonCharacter(name, profile, isActive, isSpeaking, colors.accent)
                 }
             }
         }
