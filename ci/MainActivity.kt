@@ -21,6 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import java.text.Normalizer
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +33,49 @@ class MainActivity : ComponentActivity() {
 private val PurpleTop = Color(0xFF4B2B73)
 private val PurpleBottom = Color(0xFF211132)
 private val Accent = Color(0xFFFFC857)
+
+private val speakerRoleTr = mapOf(
+    "旁白" to "Anlatıcı", "主持人" to "Sunucu", "乘客" to "Yolcu", "亲家" to "Dünür",
+    "伴侣" to "Partner", "供应商" to "Tedarikçi", "保安" to "Güvenlik", "公司职员" to "Şirket çalışanı",
+    "兽医" to "Veteriner", "创业者" to "Girişimci", "助理" to "Asistan", "医生" to "Doktor",
+    "司机" to "Şoför", "同事" to "İş arkadaşı", "同事甲" to "İş arkadaşı A", "同事乙" to "İş arkadaşı B",
+    "同学" to "Sınıf arkadaşı", "员工" to "Çalışan", "售货员" to "Satış görevlisi", "商户" to "Esnaf",
+    "图书管理员" to "Kütüphaneci", "场地方经理" to "Mekân yöneticisi", "奶奶" to "Büyükanne",
+    "好朋友" to "Yakın arkadaş", "孙辈" to "Torun", "客户" to "Müşteri", "家人" to "Aile üyesi",
+    "宾客" to "Misafir", "导师" to "Danışman", "导游" to "Rehber", "小朋友" to "Çocuk",
+    "居民" to "Mahalle sakini", "工作人员" to "Görevli", "年轻人" to "Genç", "年轻创业者" to "Genç girişimci",
+    "年轻顾客" to "Genç müşteri", "店员" to "Mağaza görevlisi", "张雨桐伴侣" to "Zhang Yutong'un partneri",
+    "律师" to "Avukat", "志愿者" to "Gönüllü", "快递员" to "Kurye", "技术志愿者" to "Teknik gönüllü",
+    "护士" to "Hemşire", "招聘者" to "İşe alım görevlisi", "摊主" to "Tezgâhtar", "收银员" to "Kasiyer",
+    "新同事" to "Yeni iş arkadaşı", "新同学" to "Yeni sınıf arkadaşı", "新员工" to "Yeni çalışan",
+    "新朋友" to "Yeni arkadaş", "朋友" to "Arkadaş", "服务员" to "Servis görevlisi",
+    "李晨妻子" to "Li Chen'in eşi", "爷爷" to "Büyükbaba", "王师傅" to "Usta Wang",
+    "环保小组成员" to "Çevre grubu üyesi", "理发师" to "Kuaför", "理财顾问" to "Finans danışmanı",
+    "社区代表" to "Toplum temsilcisi", "社区居民" to "Mahalle sakini", "社区工作人员" to "Toplum merkezi görevlisi",
+    "社区负责人" to "Toplum merkezi sorumlusu", "经理" to "Müdür", "老师" to "Öğretmen",
+    "老顾客" to "Eski müşteri", "表演者" to "Sanatçı", "记者" to "Gazeteci", "路人" to "Yoldan geçen",
+    "邮局工作人员" to "Postane görevlisi", "邻居" to "Komşu", "酒店工作人员" to "Otel görevlisi",
+    "银行工作人员" to "Banka görevlisi", "队友" to "Takım arkadaşı", "青年志愿者" to "Genç gönüllü",
+    "面试官" to "Mülakatçı", "项目成员" to "Proje üyesi", "顾客" to "Müşteri"
+)
+
+private fun latinSpeakerName(pinyin: String): String {
+    val normalized = Normalizer.normalize(pinyin, Normalizer.Form.NFD)
+    return normalized.replace(Regex("\\p{M}+"), "").replace("ü", "u").replace("Ü", "U").trim()
+}
+
+private fun speakerDisplayName(
+    zhName: String,
+    showTurkish: Boolean,
+    profiles: Map<String, CharacterProfile>
+): String {
+    val raw = zhName.ifBlank { "旁白" }
+    if (!showTurkish) return raw
+    speakerRoleTr[raw]?.let { return it }
+    val profile = profiles[raw]
+    val latin = profile?.pinyin.orEmpty().let(::latinSpeakerName)
+    return latin.ifBlank { raw }
+}
 
 private enum class SceneMode { STORY, FLASHCARDS, COMPREHENSION, PRONUNCIATION, INTERACTIVE, SENTENCE_PRACTICE, EXAM_HUB, EXAM_VOCAB, EXAM_SENTENCE }
 
@@ -661,7 +705,7 @@ private fun SceneScreen(
                     shape = RoundedCornerShape(10.dp)
                 ) {
                     Text(
-                        current?.speaker.orEmpty().ifBlank { "旁白" },
+                        speakerDisplayName(current?.speaker.orEmpty(), showTurkish, characterProfiles),
                         modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
                         fontWeight = FontWeight.Bold,
                         fontSize = 13.sp
