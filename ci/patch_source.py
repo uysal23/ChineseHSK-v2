@@ -6,7 +6,9 @@ if len(sys.argv) != 2:
 
 root = Path(sys.argv[1])
 gradle = root / "app" / "build.gradle.kts"
-tts = root / "app" / "src" / "main" / "java" / "com" / "ayhan" / "chineselearning" / "MandarinTtsPlayer.kt"
+src_dir = root / "app" / "src" / "main" / "java" / "com" / "ayhan" / "chineselearning"
+tts = src_dir / "MandarinTtsPlayer.kt"
+scene_stage = src_dir / "SceneStage.kt"
 
 g = gradle.read_text(encoding="utf-8")
 g = g.replace("compileSdk = 37", "compileSdk = 36")
@@ -38,6 +40,11 @@ if "    fun speak(\n" not in s:
     s = s.replace(anchor, wrapper + anchor, 1)
 
 tts.write_text(s, encoding="utf-8")
+
+override = Path(__file__).resolve().parent / "SceneStage.kt"
+if not override.exists():
+    raise SystemExit("SceneStage CI override missing")
+scene_stage.write_text(override.read_text(encoding="utf-8"), encoding="utf-8")
 
 assert "compileSdk = 36" in gradle.read_text(encoding="utf-8")
 assert "targetSdk = 36" in gradle.read_text(encoding="utf-8")
