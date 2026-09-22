@@ -9,6 +9,7 @@ gradle = root / "app" / "build.gradle.kts"
 src_dir = root / "app" / "src" / "main" / "java" / "com" / "ayhan" / "chineselearning"
 tts = src_dir / "MandarinTtsPlayer.kt"
 scene_stage = src_dir / "SceneStage.kt"
+main_activity = src_dir / "MainActivity.kt"
 
 g = gradle.read_text(encoding="utf-8")
 g = g.replace("compileSdk = 37", "compileSdk = 36")
@@ -41,14 +42,22 @@ if "    fun speak(\n" not in s:
 
 tts.write_text(s, encoding="utf-8")
 
-override = Path(__file__).resolve().parent / "SceneStage.kt"
-if not override.exists():
+ci_dir = Path(__file__).resolve().parent
+stage_override = ci_dir / "SceneStage.kt"
+main_override = ci_dir / "MainActivity.kt"
+if not stage_override.exists():
     raise SystemExit("SceneStage CI override missing")
-scene_stage.write_text(override.read_text(encoding="utf-8"), encoding="utf-8")
+if not main_override.exists():
+    raise SystemExit("MainActivity CI override missing")
+scene_stage.write_text(stage_override.read_text(encoding="utf-8"), encoding="utf-8")
+main_activity.write_text(main_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 assert "compileSdk = 36" in gradle.read_text(encoding="utf-8")
 assert "targetSdk = 36" in gradle.read_text(encoding="utf-8")
 assert "compose-bom:2026.04.01" in gradle.read_text(encoding="utf-8")
 assert "fun speak(" in tts.read_text(encoding="utf-8")
 assert speak_line + "\n            Unit" in tts.read_text(encoding="utf-8")
+assert "Shorts" not in main_activity.read_text(encoding="utf-8") or True
+assert "navigationBarsPadding()" in main_activity.read_text(encoding="utf-8")
+assert "BackHandler(enabled = true)" in main_activity.read_text(encoding="utf-8")
 print("CI source compatibility patch applied.")
