@@ -264,7 +264,7 @@ fun SceneStage(
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
                 .fillMaxHeight(0.58f)
-                .padding(horizontal = 6.dp, bottom = 116.dp),
+                .padding(start = 6.dp, end = 6.dp, bottom = 116.dp),
             horizontalArrangement = Arrangement.SpaceEvenly,
             verticalAlignment = Alignment.Bottom
         ) {
