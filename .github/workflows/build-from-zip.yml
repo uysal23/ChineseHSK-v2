@@ -1,4 +1,5 @@
 name: Build Chinese HSK v2 from ZIP
+# visual fallback refresh
 
 on:
   push:
