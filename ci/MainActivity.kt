@@ -537,6 +537,7 @@ private fun SceneScreen(
         )
     }
     var autoPlay by remember(scene.id) { mutableStateOf(progress.autoPlayDefault()) }
+    var speakingNow by remember(scene.id) { mutableStateOf(false) }
     var speed by remember(scene.id) {
         mutableFloatStateOf(progress.playbackSpeed(scene.learning.defaultSpeechSpeed))
     }
@@ -557,7 +558,9 @@ private fun SceneScreen(
 
     LaunchedEffect(currentIndex, autoPlay, speed, scene.id) {
         if (autoPlay && current != null) {
+            speakingNow = true
             audioPlayer.playDialogue(current, speed) {
+                speakingNow = false
                 if (currentIndex < scene.dialogues.lastIndex) {
                     currentIndex += 1
                 } else {
@@ -609,6 +612,7 @@ private fun SceneScreen(
             location = location,
             characterProfiles = characterProfiles,
             activeSpeaker = current?.speaker.orEmpty(),
+            isSpeaking = speakingNow,
             modifier = Modifier.fillMaxSize()
         )
 
@@ -646,6 +650,7 @@ private fun SceneScreen(
             Button(
                 onClick = {
                     autoPlay = false
+                    speakingNow = false
                     audioPlayer.stop()
                     onBack()
                 },
@@ -805,6 +810,7 @@ private fun SceneScreen(
                 Button(
                     onClick = {
                         autoPlay = false
+                        speakingNow = false
                         audioPlayer.stop()
                         if (currentIndex > 0) currentIndex--
                     },
@@ -826,6 +832,7 @@ private fun SceneScreen(
                     onClick = {
                         if (autoPlay) {
                             autoPlay = false
+                            speakingNow = false
                             audioPlayer.stop()
                         } else {
                             autoPlay = true
@@ -850,6 +857,7 @@ private fun SceneScreen(
                 Button(
                     onClick = {
                         autoPlay = false
+                        speakingNow = false
                         audioPlayer.stop()
                         if (currentIndex < scene.dialogues.lastIndex) currentIndex++
                     },
