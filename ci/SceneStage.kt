@@ -1,7 +1,13 @@
 package com.ayhan.chineselearning
 
 import android.graphics.BitmapFactory
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -20,13 +26,23 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-private data class StagePalette(val top: Color, val middle: Color, val bottom: Color, val accent: Color)
+private data class StagePalette(val sky: Color, val wall: Color, val floor: Color, val accent: Color)
+private data class CartoonStyle(
+    val skin: Color,
+    val hair: Color,
+    val shirt: Color,
+    val jacket: Color,
+    val trousers: Color,
+    val hairStyle: Int,
+    val accessory: Int
+)
 
 private fun portraitVariantFor(profile: CharacterProfile?, level: String): String {
     if (profile == null) return ""
@@ -34,27 +50,76 @@ private fun portraitVariantFor(profile: CharacterProfile?, level: String): Strin
 }
 
 private fun palette(theme: String, timeOfDay: String): StagePalette {
-    val night = timeOfDay.contains("night", ignoreCase = true) || timeOfDay.contains("evening", ignoreCase = true)
-    if (night) return StagePalette(
-        Color(0xFF172033),
-        Color(0xFF28364B),
-        Color(0xFF090B10),
-        Color(0xFFFFC857)
-    )
+    val night = timeOfDay.contains("night", true) || timeOfDay.contains("evening", true)
+    if (night) return StagePalette(Color(0xFF17243B), Color(0xFF293954), Color(0xFF171A25), Color(0xFFFFC857))
     return when (theme) {
-        "home" -> StagePalette(Color(0xFFD7B08A), Color(0xFF9A6D52), Color(0xFF4A322A), Color(0xFFFFD09A))
-        "cafe" -> StagePalette(Color(0xFFC38761), Color(0xFF7D4B36), Color(0xFF351F1A), Color(0xFFFFC857))
-        "school" -> StagePalette(Color(0xFF9AB7D2), Color(0xFF5F7E9A), Color(0xFF263849), Color(0xFFFFD67E))
-        "health" -> StagePalette(Color(0xFFA9D4CA), Color(0xFF699A92), Color(0xFF27443F), Color(0xFFFFFFFF))
-        "transport" -> StagePalette(Color(0xFF9BA2AF), Color(0xFF626B79), Color(0xFF242A32), Color(0xFFFFC857))
-        "work" -> StagePalette(Color(0xFF9AA6BC), Color(0xFF657187), Color(0xFF2B3445), Color(0xFFFFC857))
-        "nature" -> StagePalette(Color(0xFF9FC18E), Color(0xFF5D8B59), Color(0xFF29462E), Color(0xFFFFE18A))
-        "market" -> StagePalette(Color(0xFFD5A17E), Color(0xFF9C684E), Color(0xFF4E342A), Color(0xFFFFC857))
-        "hotel" -> StagePalette(Color(0xFFB5A5C9), Color(0xFF7D6A94), Color(0xFF342B42), Color(0xFFFFD88B))
-        "community" -> StagePalette(Color(0xFFA5B0C8), Color(0xFF6C7894), Color(0xFF313B50), Color(0xFFFFD36B))
-        "service" -> StagePalette(Color(0xFFAAB8C4), Color(0xFF6C7D8B), Color(0xFF2E3A44), Color(0xFFFFD36B))
-        else -> StagePalette(Color(0xFF8E729F), Color(0xFF624A75), Color(0xFF241B2C), Color(0xFFFFC857))
+        "home" -> StagePalette(Color(0xFFCFE6F6), Color(0xFFF1D5BB), Color(0xFF9C765D), Color(0xFFFFC857))
+        "cafe" -> StagePalette(Color(0xFFFFE3C7), Color(0xFFC98055), Color(0xFF694534), Color(0xFFFFC857))
+        "school" -> StagePalette(Color(0xFFCCE6F6), Color(0xFFF2E9D3), Color(0xFF9D8065), Color(0xFFFFD15C))
+        "health" -> StagePalette(Color(0xFFD9F1F0), Color(0xFFF4FAFA), Color(0xFF8DAEB0), Color(0xFF55C2B7))
+        "transport" -> StagePalette(Color(0xFFB9D1E4), Color(0xFF65778D), Color(0xFF303845), Color(0xFFFFC857))
+        "work" -> StagePalette(Color(0xFFD8E3F0), Color(0xFFB4C1D1), Color(0xFF596677), Color(0xFFFFC857))
+        "nature" -> StagePalette(Color(0xFFAED9F3), Color(0xFF78AD63), Color(0xFF567C47), Color(0xFFFFDA70))
+        "market" -> StagePalette(Color(0xFFFFD7B0), Color(0xFFE49B69), Color(0xFF8C5C45), Color(0xFFFFC857))
+        "hotel" -> StagePalette(Color(0xFFE0D7EF), Color(0xFFAA93BD), Color(0xFF5B4A67), Color(0xFFFFD074))
+        "community" -> StagePalette(Color(0xFFD6E4F0), Color(0xFFA5B6C9), Color(0xFF667488), Color(0xFFFFD36B))
+        "service" -> StagePalette(Color(0xFFD7E3EC), Color(0xFFA7B7C3), Color(0xFF62717A), Color(0xFFFFD36B))
+        else -> StagePalette(Color(0xFFC9DDF0), Color(0xFF9D84B0), Color(0xFF5A4768), Color(0xFFFFC857))
     }
+}
+
+private fun styleFor(profile: CharacterProfile?, name: String): CartoonStyle {
+    val key = profile?.id ?: name
+    val role = profile?.role.orEmpty().lowercase()
+    val hash = key.hashCode() and Int.MAX_VALUE
+    val skins = listOf(Color(0xFFF0C39B), Color(0xFFE8B58F), Color(0xFFDFA782), Color(0xFFF4CBA8))
+    val hairs = listOf(Color(0xFF231E20), Color(0xFF3A2B27), Color(0xFF51382C), Color(0xFF17171A))
+    val baseShirts = listOf(Color(0xFF4777B8), Color(0xFFB05D75), Color(0xFF4F9272), Color(0xFF8A68B3), Color(0xFFC27B43))
+
+    var shirt = baseShirts[hash % baseShirts.size]
+    var jacket = shirt.copy(alpha = 0.88f)
+    var trousers = Color(0xFF374151)
+    var accessory = hash % 4
+
+    when {
+        profile?.id?.contains("ZHANGWEI") == true -> {
+            shirt = Color(0xFF3F6EA8); jacket = Color(0xFF274C7D); trousers = Color(0xFF303A4A); accessory = 1
+        }
+        profile?.id?.contains("LIUMEI") == true -> {
+            shirt = Color(0xFFC86B82); jacket = Color(0xFF944B63); trousers = Color(0xFF4D4552); accessory = 2
+        }
+        profile?.id?.contains("LICHEN") == true -> {
+            shirt = Color(0xFF4D947F); jacket = Color(0xFF2E6758); trousers = Color(0xFF33443F); accessory = 1
+        }
+        profile?.id?.contains("ZHANGYUTONG") == true -> {
+            shirt = Color(0xFF8A67BA); jacket = Color(0xFF684895); trousers = Color(0xFF464052); accessory = 3
+        }
+        role.contains("doctor") || role.contains("nurse") || role.contains("vet") -> {
+            shirt = Color(0xFFEEF8F6); jacket = Color(0xFFFFFFFF); trousers = Color(0xFF6C8790); accessory = 3
+        }
+        role.contains("teacher") || role.contains("mentor") -> {
+            shirt = Color(0xFF5D79A8); jacket = Color(0xFF405C8C); accessory = 1
+        }
+        role.contains("security") -> {
+            shirt = Color(0xFF34495E); jacket = Color(0xFF233241); trousers = Color(0xFF222B34); accessory = 0
+        }
+        role.contains("service") || role.contains("sales") || role.contains("waiter") -> {
+            shirt = Color(0xFFD78545); jacket = Color(0xFFAC6332); accessory = 2
+        }
+        role.contains("volunteer") || role.contains("guide") -> {
+            shirt = Color(0xFF4E9A68); jacket = Color(0xFF33724A); accessory = 2
+        }
+    }
+
+    return CartoonStyle(
+        skin = skins[hash % skins.size],
+        hair = hairs[(hash / 3) % hairs.size],
+        shirt = shirt,
+        jacket = jacket,
+        trousers = trousers,
+        hairStyle = (hash / 7) % 4,
+        accessory = accessory
+    )
 }
 
 @Composable
@@ -71,155 +136,236 @@ private fun rememberAssetBitmap(path: String): ImageBitmap? {
 }
 
 @Composable
-private fun CinematicFallbackBackground(theme: String, colors: StagePalette) {
+private fun SceneDecor(theme: String, p: StagePalette) {
     Box(
         Modifier
             .fillMaxSize()
-            .background(Brush.verticalGradient(listOf(colors.top, colors.middle, colors.bottom)))
+            .background(Brush.verticalGradient(listOf(p.sky, p.wall, p.floor)))
     ) {
-        Box(
-            Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.42f)
-                .align(Alignment.BottomCenter)
-                .background(Color.Black.copy(alpha = 0.18f))
-        )
-
         when (theme) {
-            "home", "hotel" -> {
-                Box(
-                    Modifier
-                        .fillMaxWidth(0.64f)
-                        .fillMaxHeight(0.16f)
-                        .align(Alignment.BottomStart)
-                        .padding(start = 18.dp, bottom = 116.dp)
-                        .background(Color.White.copy(alpha = 0.08f), RoundedCornerShape(22.dp))
-                )
-                Box(
-                    Modifier
-                        .width(120.dp)
-                        .height(150.dp)
-                        .align(Alignment.CenterEnd)
-                        .padding(end = 20.dp)
-                        .background(colors.accent.copy(alpha = 0.12f), RoundedCornerShape(28.dp))
-                )
+            "home" -> {
+                Box(Modifier.width(132.dp).height(178.dp).align(Alignment.TopEnd).padding(top = 74.dp, end = 18.dp)
+                    .background(Color(0xFFBCE0F6), RoundedCornerShape(10.dp))) {
+                    Box(Modifier.width(4.dp).fillMaxHeight().align(Alignment.Center).background(Color.White.copy(alpha = .75f)))
+                    Box(Modifier.height(4.dp).fillMaxWidth().align(Alignment.Center).background(Color.White.copy(alpha = .75f)))
+                }
+                Box(Modifier.fillMaxWidth(.72f).height(96.dp).align(Alignment.BottomStart).padding(start = 16.dp, bottom = 172.dp)
+                    .background(Color(0xFF8E5E4B), RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp)))
+                Box(Modifier.width(40.dp).height(112.dp).align(Alignment.CenterStart).padding(start = 18.dp)
+                    .background(Color(0xFFD9B46F), RoundedCornerShape(20.dp)))
             }
-            "cafe", "market" -> {
-                Box(
-                    Modifier
-                        .fillMaxWidth(0.86f)
-                        .height(26.dp)
-                        .align(Alignment.BottomCenter)
-                        .padding(bottom = 144.dp)
-                        .background(Color.White.copy(alpha = 0.10f), RoundedCornerShape(13.dp))
-                )
-                Row(
-                    Modifier.align(Alignment.Center).padding(top = 90.dp),
-                    horizontalArrangement = Arrangement.spacedBy(24.dp)
-                ) {
+            "cafe" -> {
+                Row(Modifier.align(Alignment.TopCenter).padding(top = 86.dp), horizontalArrangement = Arrangement.spacedBy(54.dp)) {
                     repeat(3) {
-                        Box(
-                            Modifier
-                                .width(56.dp)
-                                .height(98.dp)
-                                .background(Color.Black.copy(alpha = 0.10f), RoundedCornerShape(12.dp))
-                        )
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Box(Modifier.width(2.dp).height(38.dp).background(Color(0xFF5A382A)))
+                            Box(Modifier.size(28.dp).background(Color(0xFFFFD27A), CircleShape))
+                        }
+                    }
+                }
+                Box(Modifier.fillMaxWidth(.88f).height(106.dp).align(Alignment.BottomCenter).padding(bottom = 164.dp)
+                    .background(Color(0xFF6C4030), RoundedCornerShape(topStart = 14.dp, topEnd = 14.dp)))
+                Row(Modifier.align(Alignment.Center).padding(top = 78.dp), horizontalArrangement = Arrangement.spacedBy(28.dp)) {
+                    repeat(3) { Box(Modifier.size(18.dp).background(Color(0xFFF0E0D2), RoundedCornerShape(5.dp))) }
+                }
+            }
+            "school" -> {
+                Box(Modifier.fillMaxWidth(.72f).height(148.dp).align(Alignment.TopCenter).padding(top = 78.dp)
+                    .background(Color(0xFF325A4E), RoundedCornerShape(8.dp)))
+                Row(Modifier.align(Alignment.BottomCenter).padding(bottom = 176.dp), horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                    repeat(3) { Box(Modifier.width(86.dp).height(48.dp).background(Color(0xFFB98A5D), RoundedCornerShape(8.dp))) }
+                }
+            }
+            "health" -> {
+                Box(Modifier.size(62.dp).align(Alignment.TopEnd).padding(top = 90.dp, end = 30.dp)
+                    .background(Color.White, RoundedCornerShape(10.dp))) {
+                    Box(Modifier.width(14.dp).height(44.dp).align(Alignment.Center).background(Color(0xFFE45353)))
+                    Box(Modifier.width(44.dp).height(14.dp).align(Alignment.Center).background(Color(0xFFE45353)))
+                }
+                Box(Modifier.fillMaxWidth(.68f).height(86.dp).align(Alignment.BottomStart).padding(start = 20.dp, bottom = 174.dp)
+                    .background(Color(0xFFEFF8F8), RoundedCornerShape(20.dp)))
+            }
+            "transport" -> {
+                Row(Modifier.align(Alignment.TopCenter).padding(top = 80.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    repeat(3) { Box(Modifier.width(92.dp).height(126.dp).background(Color(0xFF90BDD8), RoundedCornerShape(12.dp))) }
+                }
+                Row(Modifier.align(Alignment.BottomCenter).padding(bottom = 174.dp), horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                    repeat(3) { Box(Modifier.width(88.dp).height(64.dp).background(Color(0xFF46566C), RoundedCornerShape(16.dp))) }
+                }
+            }
+            "work", "service" -> {
+                Row(Modifier.align(Alignment.Center).padding(top = 36.dp), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+                    repeat(2) {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Box(Modifier.width(94.dp).height(62.dp).background(Color(0xFF334354), RoundedCornerShape(8.dp)))
+                            Box(Modifier.width(122.dp).height(16.dp).background(Color(0xFF7D6653), RoundedCornerShape(5.dp)))
+                        }
                     }
                 }
             }
-            "school", "work", "service", "health" -> {
-                Box(
-                    Modifier
-                        .fillMaxWidth(0.76f)
-                        .fillMaxHeight(0.22f)
-                        .align(Alignment.CenterEnd)
-                        .padding(end = 18.dp)
-                        .background(Color.White.copy(alpha = 0.09f), RoundedCornerShape(18.dp))
-                )
-            }
             "nature" -> {
-                Box(
-                    Modifier
-                        .size(150.dp)
-                        .align(Alignment.TopEnd)
-                        .padding(top = 64.dp, end = 28.dp)
-                        .background(Color(0xFFFFF0A0).copy(alpha = 0.16f), CircleShape)
-                )
+                Box(Modifier.size(96.dp).align(Alignment.TopEnd).padding(top = 68.dp, end = 30.dp)
+                    .background(Color(0xFFFFE28B), CircleShape))
+                Row(Modifier.align(Alignment.BottomCenter).padding(bottom = 150.dp), horizontalArrangement = Arrangement.spacedBy(54.dp)) {
+                    repeat(3) {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Box(Modifier.size(86.dp).background(Color(0xFF4E8F55), CircleShape))
+                            Box(Modifier.width(18.dp).height(70.dp).background(Color(0xFF76543D)))
+                        }
+                    }
+                }
+            }
+            "market" -> {
+                Row(Modifier.align(Alignment.TopCenter).padding(top = 82.dp), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    repeat(3) { Box(Modifier.width(90.dp).height(38.dp).background(if (it % 2 == 0) Color(0xFFD95959) else Color(0xFFF3D36A))) }
+                }
+                Row(Modifier.align(Alignment.BottomCenter).padding(bottom = 174.dp), horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                    repeat(3) { Box(Modifier.width(84.dp).height(72.dp).background(Color(0xFF9F714E), RoundedCornerShape(6.dp))) }
+                }
+            }
+            "hotel" -> {
+                Box(Modifier.fillMaxWidth(.76f).height(92.dp).align(Alignment.BottomCenter).padding(bottom = 174.dp)
+                    .background(Color(0xFF5E476A), RoundedCornerShape(topStart = 18.dp, topEnd = 18.dp)))
+                Box(Modifier.width(120.dp).height(164.dp).align(Alignment.TopEnd).padding(top = 82.dp, end = 22.dp)
+                    .background(Color(0xFFEEDB9B), RoundedCornerShape(18.dp)))
+            }
+            else -> {
+                Box(Modifier.fillMaxWidth(.72f).height(110.dp).align(Alignment.BottomCenter).padding(bottom = 174.dp)
+                    .background(Color.White.copy(alpha = .12f), RoundedCornerShape(24.dp)))
             }
         }
 
         Box(
-            Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.25f)
-                .align(Alignment.TopCenter)
-                .background(
-                    Brush.verticalGradient(
-                        listOf(Color.Black.copy(alpha = 0.16f), Color.Transparent)
-                    )
-                )
+            Modifier.fillMaxWidth().height(200.dp).align(Alignment.TopCenter)
+                .background(Brush.verticalGradient(listOf(Color.Black.copy(alpha = .16f), Color.Transparent)))
         )
     }
 }
 
 @Composable
-private fun FallbackSilhouette(
-    name: String,
-    isActive: Boolean,
-    accent: Color
-) {
-    val scale by animateFloatAsState(if (isActive) 1.05f else 0.92f, label = "fallbackCharacterScale")
-    val opacity = if (isActive) 1f else 0.72f
-    val cloth = when ((name.hashCode() and Int.MAX_VALUE) % 6) {
-        0 -> Color(0xFF4E6FA8)
-        1 -> Color(0xFF8D5B6C)
-        2 -> Color(0xFF567E67)
-        3 -> Color(0xFF8A6A49)
-        4 -> Color(0xFF675987)
-        else -> Color(0xFF4F747D)
+private fun CartoonCat(name: String, isActive: Boolean, accent: Color) {
+    val infinite = rememberInfiniteTransition(label = "catMotion-$name")
+    val bob by infinite.animateFloat(-1.5f, 1.5f, infiniteRepeatable(tween(900), RepeatMode.Reverse), label = "catBob")
+    val scale by animateFloatAsState(if (isActive) 1.09f else 1f, tween(220), label = "catScale")
+    Column(
+        modifier = Modifier.width(104.dp).height(210.dp).offset(y = bob.dp).scale(scale),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Bottom
+    ) {
+        Box(Modifier.size(78.dp).background(Color(0xFFD98945), CircleShape)) {
+            Box(Modifier.size(26.dp).align(Alignment.TopStart).background(Color(0xFFD98945), RoundedCornerShape(3.dp)).graphicsLayer { rotationZ = 45f })
+            Box(Modifier.size(26.dp).align(Alignment.TopEnd).background(Color(0xFFD98945), RoundedCornerShape(3.dp)).graphicsLayer { rotationZ = 45f })
+            Row(Modifier.align(Alignment.Center).padding(top = 5.dp), horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                Box(Modifier.size(7.dp).background(Color(0xFF272226), CircleShape))
+                Box(Modifier.size(7.dp).background(Color(0xFF272226), CircleShape))
+            }
+        }
+        Box(Modifier.width(86.dp).height(96.dp).background(Color(0xFFD98945), RoundedCornerShape(40.dp))) {
+            if (isActive) Box(Modifier.width(34.dp).height(5.dp).align(Alignment.TopCenter).padding(top = 12.dp).background(accent, CircleShape))
+        }
     }
+}
+
+@Composable
+private fun CartoonCharacter(name: String, profile: CharacterProfile?, isActive: Boolean, accent: Color) {
+    if (profile?.role?.contains("cat", true) == true) {
+        CartoonCat(name, isActive, accent)
+        return
+    }
+
+    val style = remember(profile?.id, name) { styleFor(profile, name) }
+    val infinite = rememberInfiniteTransition(label = "characterMotion-$name")
+    val bob by infinite.animateFloat(
+        initialValue = -1.2f,
+        targetValue = 1.8f,
+        animationSpec = infiniteRepeatable(tween(if (isActive) 780 else 1250, easing = FastOutSlowInEasing), RepeatMode.Reverse),
+        label = "bob"
+    )
+    val tilt by infinite.animateFloat(
+        initialValue = if (isActive) -0.9f else -0.25f,
+        targetValue = if (isActive) 0.9f else 0.25f,
+        animationSpec = infiniteRepeatable(tween(if (isActive) 980 else 1600), RepeatMode.Reverse),
+        label = "tilt"
+    )
+    val scale by animateFloatAsState(
+        targetValue = if (isActive) 1.09f else 1.00f,
+        animationSpec = tween(220),
+        label = "speakerScale"
+    )
+    val opacity = if (isActive) 1f else 0.92f
 
     Column(
         modifier = Modifier
-            .width(112.dp)
-            .height(300.dp)
+            .width(122.dp)
+            .height(326.dp)
+            .offset(y = bob.dp)
+            .graphicsLayer {
+                rotationZ = tilt
+                shadowElevation = if (isActive) 22f else 8f
+            }
             .scale(scale)
             .alpha(opacity),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Bottom
     ) {
-        Box(
-            modifier = Modifier
-                .size(70.dp)
-                .background(Color(0xFFE4B891), CircleShape)
-        ) {
+        Box(Modifier.width(104.dp).height(64.dp)) {
             Box(
-                Modifier
-                    .fillMaxWidth()
-                    .height(26.dp)
-                    .align(Alignment.TopCenter)
-                    .background(Color(0xFF2B2528), RoundedCornerShape(topStart = 36.dp, topEnd = 36.dp))
+                Modifier.width(18.dp).height(62.dp).align(Alignment.BottomStart).padding(start = 18.dp)
+                    .background(style.skin, RoundedCornerShape(10.dp))
+                    .graphicsLayer { rotationZ = if (isActive) 5f else 2f }
+            )
+            Box(
+                Modifier.width(18.dp).height(62.dp).align(Alignment.BottomEnd).padding(end = 18.dp)
+                    .background(style.skin, RoundedCornerShape(10.dp))
+                    .graphicsLayer { rotationZ = if (isActive) -5f else -2f }
             )
         }
+
         Box(
-            modifier = Modifier
-                .width(if (isActive) 104.dp else 94.dp)
-                .height(if (isActive) 190.dp else 174.dp)
+            Modifier.width(106.dp).height(140.dp)
                 .background(
-                    if (isActive) cloth else cloth.copy(alpha = 0.9f),
-                    RoundedCornerShape(topStart = 46.dp, topEnd = 46.dp, bottomStart = 16.dp, bottomEnd = 16.dp)
+                    Brush.verticalGradient(listOf(style.jacket, style.shirt)),
+                    RoundedCornerShape(topStart = 38.dp, topEnd = 38.dp, bottomStart = 16.dp, bottomEnd = 16.dp)
                 )
         ) {
-            if (isActive) {
-                Box(
-                    Modifier
-                        .width(38.dp)
-                        .height(5.dp)
-                        .align(Alignment.TopCenter)
-                        .padding(top = 14.dp)
-                        .background(accent, CircleShape)
-                )
+            Box(Modifier.width(34.dp).height(8.dp).align(Alignment.TopCenter).padding(top = 13.dp).background(accent.copy(alpha = if (isActive) .95f else .25f), CircleShape))
+            if (style.accessory == 1) {
+                Box(Modifier.width(10.dp).height(58.dp).align(Alignment.TopCenter).padding(top = 16.dp).background(Color(0xFFE7E0D6), RoundedCornerShape(4.dp)))
+            } else if (style.accessory == 2) {
+                Box(Modifier.size(22.dp).align(Alignment.TopEnd).padding(top = 18.dp, end = 14.dp).background(Color(0xFFFFD56A), CircleShape))
+            } else if (style.accessory == 3) {
+                Box(Modifier.width(42.dp).height(12.dp).align(Alignment.TopCenter).padding(top = 18.dp).background(Color(0xFF79C7C0), RoundedCornerShape(6.dp)))
             }
+        }
+
+        Box(Modifier.width(72.dp).height(16.dp).background(style.skin, RoundedCornerShape(8.dp)))
+
+        Box(Modifier.size(82.dp).background(style.skin, CircleShape)) {
+            when (style.hairStyle) {
+                0 -> Box(Modifier.fillMaxWidth().height(30.dp).align(Alignment.TopCenter).background(style.hair, RoundedCornerShape(topStart = 42.dp, topEnd = 42.dp, bottomEnd = 10.dp)))
+                1 -> {
+                    Box(Modifier.fillMaxWidth().height(25.dp).align(Alignment.TopCenter).background(style.hair, RoundedCornerShape(topStart = 42.dp, topEnd = 42.dp)))
+                    Box(Modifier.width(16.dp).height(48.dp).align(Alignment.TopStart).background(style.hair, RoundedCornerShape(8.dp)))
+                }
+                2 -> {
+                    Box(Modifier.fillMaxWidth().height(28.dp).align(Alignment.TopCenter).background(style.hair, RoundedCornerShape(42.dp)))
+                    Box(Modifier.size(26.dp).align(Alignment.TopEnd).background(style.hair, CircleShape))
+                }
+                else -> Box(Modifier.fillMaxWidth().height(34.dp).align(Alignment.TopCenter).background(style.hair, RoundedCornerShape(topStart = 42.dp, topEnd = 42.dp, bottomStart = 14.dp, bottomEnd = 14.dp)))
+            }
+            Row(Modifier.align(Alignment.Center).padding(top = 9.dp), horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                Box(Modifier.size(6.dp).background(Color(0xFF2A2528), CircleShape))
+                Box(Modifier.size(6.dp).background(Color(0xFF2A2528), CircleShape))
+            }
+            Box(
+                Modifier.width(if (isActive) 22.dp else 16.dp).height(4.dp).align(Alignment.BottomCenter).padding(bottom = 18.dp)
+                    .background(Color(0xFF9D5D62), RoundedCornerShape(4.dp))
+            )
+        }
+
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Box(Modifier.width(34.dp).height(72.dp).background(style.trousers, RoundedCornerShape(bottomStart = 12.dp, bottomEnd = 12.dp)))
+            Box(Modifier.width(34.dp).height(72.dp).background(style.trousers, RoundedCornerShape(bottomStart = 12.dp, bottomEnd = 12.dp)))
         }
     }
 }
@@ -234,19 +380,16 @@ fun SceneStage(
 ) {
     val theme = location?.theme ?: "generic"
     val colors = palette(theme, scene.production.timeOfDay)
-    val baseCast = scene.production.characters.ifEmpty {
-        scene.dialogues.map { it.speaker }.filter { it.isNotBlank() && it != "旁白" }.distinct()
-    }
-    val cast = buildList {
-        if (activeSpeaker.isNotBlank() && activeSpeaker != "旁白") add(activeSpeaker)
-        addAll(baseCast.filter { it != activeSpeaker && it != "旁白" })
-    }.distinct().take(4)
 
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-            .background(Color.Black)
-    ) {
+    // Stable cast order: speaker changes must never make characters jump to different positions.
+    val cast = remember(scene.id) {
+        (scene.production.characters + scene.dialogues.map { it.speaker })
+            .filter { it.isNotBlank() && it != "旁白" }
+            .distinct()
+            .take(4)
+    }
+
+    Box(modifier.fillMaxSize().background(Color.Black)) {
         val backgroundBitmap = rememberAssetBitmap(location?.backgroundAsset.orEmpty())
         if (backgroundBitmap != null) {
             Image(
@@ -256,15 +399,15 @@ fun SceneStage(
                 contentScale = ContentScale.Crop
             )
         } else {
-            CinematicFallbackBackground(theme, colors)
+            SceneDecor(theme, colors)
         }
 
         Row(
             modifier = Modifier
                 .align(Alignment.BottomCenter)
                 .fillMaxWidth()
-                .fillMaxHeight(0.58f)
-                .padding(start = 6.dp, end = 6.dp, bottom = 116.dp),
+                .fillMaxHeight(0.61f)
+                .padding(start = 2.dp, end = 2.dp, bottom = 110.dp),
             horizontalArrangement = Arrangement.SpaceEvenly,
             verticalAlignment = Alignment.Bottom
         ) {
@@ -272,42 +415,36 @@ fun SceneStage(
                 val profile = characterProfiles[name]
                 val isActive = name == activeSpeaker
                 val portraitBitmap = rememberAssetBitmap(portraitVariantFor(profile, scene.level))
-                val scale by animateFloatAsState(if (isActive) 1.07f else 0.93f, label = "speakerScale")
-                val alpha = if (isActive) 1f else 0.74f
+                val scale by animateFloatAsState(if (isActive) 1.09f else 1f, tween(220), label = "assetScale-$name")
+                val infinite = rememberInfiniteTransition(label = "assetMotion-$name")
+                val bob by infinite.animateFloat(-1f, 1.5f, infiniteRepeatable(tween(if (isActive) 820 else 1400), RepeatMode.Reverse), label = "assetBob")
 
                 if (portraitBitmap != null) {
                     Image(
                         bitmap = portraitBitmap,
                         contentDescription = name,
                         modifier = Modifier
-                            .fillMaxHeight(if (isActive) 0.98f else 0.88f)
-                            .widthIn(min = 92.dp, max = 170.dp)
+                            .fillMaxHeight(if (isActive) 0.98f else 0.90f)
+                            .widthIn(min = 96.dp, max = 174.dp)
+                            .offset(y = bob.dp)
                             .scale(scale)
-                            .alpha(alpha),
+                            .alpha(if (isActive) 1f else .92f),
                         contentScale = ContentScale.Fit
                     )
                 } else {
-                    FallbackSilhouette(name, isActive, colors.accent)
+                    CartoonCharacter(name, profile, isActive, colors.accent)
                 }
             }
         }
 
         if (location != null) {
             Surface(
-                modifier = Modifier
-                    .align(Alignment.TopEnd)
-                    .statusBarsPadding()
-                    .padding(top = 68.dp, end = 12.dp),
-                color = Color.Black.copy(alpha = 0.52f),
+                modifier = Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 68.dp, end = 12.dp),
+                color = Color.Black.copy(alpha = 0.48f),
                 contentColor = Color.White,
                 shape = RoundedCornerShape(12.dp)
             ) {
-                Text(
-                    location.nameTr,
-                    modifier = Modifier.padding(horizontal = 9.dp, vertical = 5.dp),
-                    fontSize = 10.sp,
-                    fontWeight = FontWeight.SemiBold
-                )
+                Text(location.nameTr, modifier = Modifier.padding(horizontal = 9.dp, vertical = 5.dp), fontSize = 10.sp, fontWeight = FontWeight.SemiBold)
             }
         }
     }
