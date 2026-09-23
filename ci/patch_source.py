@@ -5,6 +5,18 @@ if len(sys.argv) != 2:
     raise SystemExit("usage: patch_source.py <source-root>")
 
 root = Path(sys.argv[1])
+# TEMP learning-layout diagnostics
+for _p in (root / "app" / "src" / "main" / "java").rglob("LearningScreens.kt"):
+    _t = _p.read_text(encoding="utf-8")
+    for _name in ["StudyShell", "ComprehensionScreen", "PronunciationPracticeScreen", "InteractiveDialogueScreen", "SentencePracticeScreen", "VocabularyExamScreen", "SentenceExamScreen"]:
+        _i = _t.find("fun " + _name + "(")
+        if _i >= 0:
+            _j = _t.find("\n@Composable", _i + 20)
+            if _j < 0:
+                _j = min(len(_t), _i + 14000)
+            print("=== LAYOUT_DIAG_BEGIN:", _name, "===")
+            print(_t[max(0, _i - 120):_j])
+            print("=== LAYOUT_DIAG_END:", _name, "===")
 # TEMP voice diagnostics
 for _p in (root / "app" / "src" / "main" / "java").rglob("*.kt"):
     try:
