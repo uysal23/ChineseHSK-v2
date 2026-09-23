@@ -75,7 +75,10 @@ class OfflineMandarinRecognizer(context: Context) {
             override fun onBeginningOfSpeech() = Unit
             override fun onRmsChanged(rmsdB: Float) = Unit
             override fun onBufferReceived(buffer: ByteArray?) = Unit
-            override fun onEndOfSpeech() {\n                try { sr.stopListening() } catch (_: Throwable) { }\n            }
+            override fun onEndOfSpeech() {
+                onSpeechEnd()
+                try { sr.stopListening() } catch (_: Throwable) { }
+            }
             override fun onPartialResults(partialResults: Bundle?) = Unit
             override fun onEvent(eventType: Int, params: Bundle?) = Unit
 
