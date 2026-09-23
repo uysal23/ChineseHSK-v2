@@ -24,7 +24,8 @@ class OfflineMandarinRecognizer(context: Context) {
     fun start(
         onListening: () -> Unit,
         onResult: (String) -> Unit,
-        onError: (String) -> Unit
+        onError: (String) -> Unit,
+        onSpeechEnd: () -> Unit = {}
     ) {
         runId += 1
         val id = runId
@@ -32,7 +33,7 @@ class OfflineMandarinRecognizer(context: Context) {
             destroyNow()
             val onDevice = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
                 SpeechRecognizer.isOnDeviceRecognitionAvailable(appContext)
-            startEngine(id, onDevice, true, onListening, onResult, onError)
+            startEngine(id, onDevice, true, onListening, onResult, onError, onSpeechEnd)
         }
     }
 
@@ -42,7 +43,8 @@ class OfflineMandarinRecognizer(context: Context) {
         allowFallback: Boolean,
         onListening: () -> Unit,
         onResult: (String) -> Unit,
-        onError: (String) -> Unit
+        onError: (String) -> Unit,
+        onSpeechEnd: () -> Unit
     ) {
         if (id != runId) return
 
@@ -59,7 +61,7 @@ class OfflineMandarinRecognizer(context: Context) {
         } catch (_: Throwable) {
             if (onDevice && allowFallback) {
                 main.postDelayed({
-                    startEngine(id, false, false, onListening, onResult, onError)
+                    startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
                 }, 200)
             } else {
                 onError("Konuşma tanıma motoru başlatılamadı.")
@@ -90,7 +92,7 @@ class OfflineMandarinRecognizer(context: Context) {
                 if (onDevice && allowFallback && error in fallbackErrors) {
                     destroyNow()
                     main.postDelayed({
-                        startEngine(id, false, false, onListening, onResult, onError)
+                        startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
                     }, 300)
                 } else {
                     onError(messageFor(error))
@@ -127,7 +129,7 @@ class OfflineMandarinRecognizer(context: Context) {
             destroyNow()
             if (onDevice && allowFallback) {
                 main.postDelayed({
-                    startEngine(id, false, false, onListening, onResult, onError)
+                    startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
                 }, 300)
             } else {
                 onError("Konuşma tanıma başlatılamadı. Tekrar deneyin.")
