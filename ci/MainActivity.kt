@@ -81,7 +81,7 @@ private fun speakerDisplayName(
 
 private enum class SceneMode { STORY, FLASHCARDS, COMPREHENSION, PRONUNCIATION, INTERACTIVE, SENTENCE_PRACTICE, EXAM_HUB, EXAM_VOCAB, EXAM_SENTENCE }
 
-private enum class RootMode { WELCOME, DASHBOARD, LEVELS, PLACEMENT, DAILY_REVIEW, WEAK_WORDS, HABITS, PROGRESS, SETTINGS, SYSTEM_CHECK }
+private enum class RootMode { WELCOME, DASHBOARD, LEVELS, PLACEMENT, DAILY_REVIEW, WEAK_WORDS, HABITS, PROGRESS, SETTINGS, ADVANCED_SETTINGS, SYSTEM_CHECK }
 
 @Composable
 fun ChineseJourneyApp() {
@@ -197,6 +197,8 @@ fun ChineseJourneyApp() {
             showFavorites -> showFavorites = false
             selectedLevel != null -> selectedLevel = null
             rootMode == RootMode.PLACEMENT && !onboardingComplete -> rootMode = RootMode.WELCOME
+            rootMode == RootMode.PLACEMENT && onboardingComplete -> rootMode = RootMode.SETTINGS
+            rootMode == RootMode.ADVANCED_SETTINGS || rootMode == RootMode.SYSTEM_CHECK -> rootMode = RootMode.SETTINGS
             rootMode != RootMode.DASHBOARD && onboardingComplete -> rootMode = RootMode.DASHBOARD
             else -> Unit
         }
@@ -224,10 +226,11 @@ fun ChineseJourneyApp() {
                 rootMode == RootMode.PLACEMENT && selectedScene == null && selectedLevel == null && !showFavorites -> PlacementTestScreen(
                     onBack = { rootMode = if (onboardingComplete) RootMode.DASHBOARD else RootMode.WELCOME },
                     onComplete = { level, score, total ->
+                        val returnToSettings = onboardingComplete
                         progress.savePlacementResult(level, score, total)
                         onboardingComplete = true
                         progressVersion++
-                        rootMode = RootMode.DASHBOARD
+                        rootMode = if (returnToSettings) RootMode.SETTINGS else RootMode.DASHBOARD
                     }
                 )
                 rootMode == RootMode.DAILY_REVIEW && selectedScene == null && selectedLevel == null && !showFavorites -> DailyReviewScreen(
@@ -251,11 +254,11 @@ fun ChineseJourneyApp() {
                 rootMode == RootMode.SYSTEM_CHECK && selectedScene == null && selectedLevel == null && !showFavorites -> SystemCheckScreen(
                     repo = repo,
                     progress = progress,
-                    onBack = { rootMode = RootMode.DASHBOARD }
+                    onBack = { rootMode = RootMode.SETTINGS }
                 )
-                rootMode == RootMode.SETTINGS && selectedScene == null && selectedLevel == null && !showFavorites -> SettingsScreen(
+                rootMode == RootMode.ADVANCED_SETTINGS && selectedScene == null && selectedLevel == null && !showFavorites -> AdvancedSettingsScreen(
                     progress = progress,
-                    onBack = { rootMode = RootMode.DASHBOARD },
+                    onBack = { rootMode = RootMode.SETTINGS },
                     onThemeChanged = { mode ->
                         themeMode = mode
                         progressVersion++
@@ -265,6 +268,24 @@ fun ChineseJourneyApp() {
                         themeMode = progress.themeMode()
                         progressVersion++
                     }
+                )
+                rootMode == RootMode.SETTINGS && selectedScene == null && selectedLevel == null && !showFavorites -> SettingsHubScreen(
+                    progress = progress,
+                    progressVersion = progressVersion,
+                    adminMode = adminMode,
+                    onAdminModeChanged = { enabled ->
+                        AdminSession.active = enabled
+                        adminMode = enabled
+                        progressVersion++
+                    },
+                    onThemeChanged = { mode ->
+                        themeMode = mode
+                        progressVersion++
+                    },
+                    onBack = { rootMode = RootMode.DASHBOARD },
+                    onAdvancedSettings = { rootMode = RootMode.ADVANCED_SETTINGS },
+                    onSystemCheck = { rootMode = RootMode.SYSTEM_CHECK },
+                    onPlacement = { rootMode = RootMode.PLACEMENT }
                 )
                 showFavorites -> FavoritesScreen(repo, progress) { showFavorites = false }
                 selectedScene != null && sceneMode == SceneMode.FLASHCARDS -> FlashCardScreen(
@@ -344,25 +365,12 @@ fun ChineseJourneyApp() {
                     progress = progress,
                     progressVersion = progressVersion,
                     adminMode = adminMode,
-                    onAdminModeChanged = { enabled ->
-                        AdminSession.active = enabled
-                        adminMode = enabled
-                        progressVersion++
-                    },
-                    onThemeChanged = { mode ->
-                        themeMode = mode
-                        progressVersion++
-                    },
                     onContinue = { continueLearning() },
                     onLevels = { rootMode = RootMode.LEVELS },
                     onFavorites = { showFavorites = true },
                     onDailyReview = { rootMode = RootMode.DAILY_REVIEW },
-                    onWeakWords = { rootMode = RootMode.WEAK_WORDS },
-                    onHabits = { rootMode = RootMode.HABITS },
                     onProgress = { rootMode = RootMode.PROGRESS },
-                    onSettings = { rootMode = RootMode.SETTINGS },
-                    onSystemCheck = { rootMode = RootMode.SYSTEM_CHECK },
-                    onPlacement = { rootMode = RootMode.PLACEMENT }
+                    onSettings = { rootMode = RootMode.SETTINGS }
                 )
             }
         }
