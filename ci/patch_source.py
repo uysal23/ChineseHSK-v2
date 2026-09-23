@@ -78,6 +78,12 @@ admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="u
 
 ls = learning_screens.read_text(encoding="utf-8")
 
+pron_start = ls.find("@Composable\nfun PronunciationPracticeScreen(")
+pron_end = ls.find("\n@Composable\nfun InteractiveDialogueScreen", pron_start)
+if pron_start < 0 or pron_end < 0:
+    raise SystemExit("PronunciationPracticeScreen block missing")
+pron = ls[pron_start:pron_end]
+
 state_anchor = """    var status by remember(index) { mutableStateOf("") }
     val tts = remember { MandarinTtsPlayer(context) }
     val recognizer = remember { OfflineMandarinRecognizer(context) }
@@ -97,12 +103,12 @@ state_replacement = """    var status by remember(index) { mutableStateOf("") }
         }
     }
 """
-if state_anchor not in ls:
+if state_anchor not in pron:
     raise SystemExit("Pronunciation recorder state anchor missing")
-ls = ls.replace(state_anchor, state_replacement, 1)
+pron = pron.replace(state_anchor, state_replacement, 1)
 
-start_fn = ls.find("    fun startRecognition() {")
-end_fn = ls.find("\n\n    val permissionLauncher", start_fn)
+start_fn = pron.find("    fun startRecognition() {")
+end_fn = pron.find("\n\n    val permissionLauncher", start_fn)
 if start_fn < 0 or end_fn < 0:
     raise SystemExit("Pronunciation startRecognition block missing")
 start_code = """    fun startRecognition() {
@@ -148,7 +154,7 @@ start_code = """    fun startRecognition() {
             }
         )
     }"""
-ls = ls[:start_fn] + start_code + ls[end_fn:]
+pron = pron[:start_fn] + start_code + pron[end_fn:]
 
 record_button_anchor = """                    OutlinedButton(onClick = {
                         if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) startRecognition()
@@ -171,9 +177,9 @@ record_button_replacement = record_button_anchor + """                    if (ha
                         }
                     }
 """
-if record_button_anchor not in ls:
+if record_button_anchor not in pron:
     raise SystemExit("Pronunciation record button anchor missing")
-ls = ls.replace(record_button_anchor, record_button_replacement, 1)
+pron = pron.replace(record_button_anchor, record_button_replacement, 1)
 
 prev_anchor = """                OutlinedButton(onClick = { if (index > 0) index-- }, enabled = index > 0, modifier = Modifier.weight(1f)) { Text("← Önceki") }
 """
@@ -190,9 +196,9 @@ prev_replacement = """                OutlinedButton(
                     modifier = Modifier.weight(1f)
                 ) { Text("← Önceki") }
 """
-if prev_anchor not in ls:
+if prev_anchor not in pron:
     raise SystemExit("Pronunciation previous button anchor missing")
-ls = ls.replace(prev_anchor, prev_replacement, 1)
+pron = pron.replace(prev_anchor, prev_replacement, 1)
 
 next_anchor = """                Button(onClick = { if (index < items.lastIndex) index++ }, enabled = index < items.lastIndex, modifier = Modifier.weight(1f), colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)) { Text("Sonraki →", color = StudyTop) }
 """
@@ -210,10 +216,11 @@ next_replacement = """                Button(
                     colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
                 ) { Text("Sonraki →", color = StudyTop) }
 """
-if next_anchor not in ls:
+if next_anchor not in pron:
     raise SystemExit("Pronunciation next button anchor missing")
-ls = ls.replace(next_anchor, next_replacement, 1)
+pron = pron.replace(next_anchor, next_replacement, 1)
 
+ls = ls[:pron_start] + pron + ls[pron_end:]
 learning_screens.write_text(ls, encoding="utf-8")
 
 
