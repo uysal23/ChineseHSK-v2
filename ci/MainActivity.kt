@@ -454,7 +454,8 @@ private fun SceneListScreen(
             verticalArrangement = Arrangement.spacedBy(9.dp)
         ) {
             items(scenes) { scene ->
-                val unlocked = adminMode || remember(scene.id, progressVersion) { progress.isSceneUnlocked(scene.level, scene.number) }
+                val unlockedNormally = remember(scene.id, progressVersion) { progress.isSceneUnlocked(scene.level, scene.number) }
+                val unlocked = adminMode || unlockedNormally
                 val mastered = remember(scene.id, progressVersion) { progress.isSceneMastered(scene.id) }
                 val openable = adminMode || (scene.isOpenable && unlocked)
                 Card(
