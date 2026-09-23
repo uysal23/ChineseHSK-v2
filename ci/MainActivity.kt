@@ -572,6 +572,11 @@ private fun SceneScreen(
     var controlsVisible by remember(scene.id) { mutableStateOf(true) }
 
     val current = scene.dialogues.getOrNull(currentIndex)
+    val bubbleSpeakers = remember(scene.id) {
+        scene.dialogues.map { it.speaker }.filter { it.isNotBlank() && it != "旁白" }.distinct()
+    }
+    val bubbleSpeakerIndex = bubbleSpeakers.indexOf(current?.speaker.orEmpty()).coerceAtLeast(0)
+    val bubbleOnLeft = bubbleSpeakerIndex % 2 == 0
     val mastered = remember(progressVersion, scene.id) { progress.isSceneMastered(scene.id) }
 
     BackHandler(enabled = showStudyMenu) {
@@ -782,34 +787,59 @@ private fun SceneScreen(
 
             Spacer(Modifier.height(12.dp))
 
-            Text(
-                current?.zh.orEmpty(),
-                color = Color.White,
-                fontSize = 29.sp,
-                lineHeight = 37.sp,
-                fontWeight = FontWeight.Bold
-            )
-            if (showPinyin) {
-                Text(
-                    current?.pinyin.orEmpty(),
-                    color = Color(0xFFFFE9B0),
-                    fontSize = 17.sp,
-                    lineHeight = 23.sp,
-                    fontWeight = FontWeight.Medium,
-                    modifier = Modifier.padding(top = 6.dp)
-                )
-            }
-            if (showTurkish) {
-                Text(
-                    current?.tr.orEmpty(),
-                    color = Color.White.copy(alpha = 0.92f),
-                    fontSize = 16.sp,
-                    lineHeight = 22.sp,
-                    modifier = Modifier.padding(top = 5.dp)
-                )
+            Box(Modifier.fillMaxWidth()) {
+                Column(
+                    modifier = Modifier
+                        .align(if (bubbleOnLeft) Alignment.CenterStart else Alignment.CenterEnd)
+                        .fillMaxWidth(0.92f),
+                    horizontalAlignment = if (bubbleOnLeft) Alignment.Start else Alignment.End
+                ) {
+                    Surface(
+                        color = Color.White.copy(alpha = 0.97f),
+                        contentColor = Color(0xFF211D25),
+                        shape = RoundedCornerShape(22.dp),
+                        shadowElevation = 8.dp
+                    ) {
+                        Column(Modifier.padding(horizontal = 18.dp, vertical = 14.dp)) {
+                            Text(
+                                current?.zh.orEmpty(),
+                                color = Color(0xFF211D25),
+                                fontSize = 27.sp,
+                                lineHeight = 34.sp,
+                                fontWeight = FontWeight.Bold
+                            )
+                            if (showPinyin) {
+                                Text(
+                                    current?.pinyin.orEmpty(),
+                                    color = Color(0xFF735B18),
+                                    fontSize = 16.sp,
+                                    lineHeight = 22.sp,
+                                    fontWeight = FontWeight.Medium,
+                                    modifier = Modifier.padding(top = 5.dp)
+                                )
+                            }
+                            if (showTurkish) {
+                                Text(
+                                    current?.tr.orEmpty(),
+                                    color = Color(0xFF4D4652),
+                                    fontSize = 15.sp,
+                                    lineHeight = 21.sp,
+                                    modifier = Modifier.padding(top = 4.dp)
+                                )
+                            }
+                        }
+                    }
+                    Text(
+                        if (bubbleOnLeft) "◢" else "◣",
+                        color = Color.White.copy(alpha = 0.97f),
+                        fontSize = 24.sp,
+                        lineHeight = 18.sp,
+                        modifier = Modifier.padding(horizontal = 24.dp)
+                    )
+                }
             }
 
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(8.dp))
 
             if (controlsVisible) {
                 Row(
