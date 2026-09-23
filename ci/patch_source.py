@@ -72,6 +72,12 @@ recognizer_file.write_text(recognizer_override.read_text(encoding="utf-8"), enco
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
+# TEMP diagnostics: print the pronunciation composable around startRecognition for maintenance.
+_probe = ls.find("fun startRecognition()")
+if _probe >= 0:
+    print("=== PRONUNCIATION_SOURCE_BEGIN ===")
+    print(ls[max(0, _probe - 6000):min(len(ls), _probe + 10000)])
+    print("=== PRONUNCIATION_SOURCE_END ===")
 needle = """    fun startRecognition() {\n        val item = items.getOrNull(index) ?: return\n        recognized = \"\"\n        score = null\n"""
 replacement = """    fun startRecognition() {\n        val item = items.getOrNull(index) ?: return\n        tts.stop()\n        recognizer.stop()\n        status = \"Konuşma tanıma hazırlanıyor…\"\n        recognized = \"\"\n        score = null\n"""
 if needle not in ls:
