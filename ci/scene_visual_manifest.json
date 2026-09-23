@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "runtimePattern": "chinese_course/media/scenes/{sceneId}.webp",
+  "sourceInventoryCount": 162,
+  "counts": {
+    "FINAL_SELECTED": 29,
+    "FAMILY_REFERENCE": 30,
+    "HOLD_CAST_MISMATCH": 53,
+    "UI_REFERENCE_ONLY": 48,
+    "REJECT_UNRELATED": 2
+  },
+  "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+  "rules": {
+    "noBakedUi": true,
+    "noBakedSubtitles": true,
+    "noBakedSpeechBubbles": true,
+    "speakerScale": "1.08-1.10x in app",
+    "mouthAnimation": "in app",
+    "hsk5hsk6EarlyAgeReuseForbidden": true
+  },
+  "scenes": [
+    {
+      "sceneId": "ZH_HSK1_SC008",
+      "sourceFile": "yeni_şehir_i_stasyonunda_sıcak_karşılama.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC008.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC010",
+      "sourceFile": "yeni_evde_mutlu_taşınma_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC010.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC019",
+      "sourceFile": "alplerde_sıcak_bir_aile_kahvaltısı.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC019.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC020",
+      "sourceFile": "yeni_evde_mutlu_aile_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC020.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC022",
+      "sourceFile": "i_lk_dersin_neşesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC022.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC024",
+      "sourceFile": "küçük_kızın_i_lk_okul_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC024.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC031",
+      "sourceFile": "ofiste_sıcak_karşılama.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC031.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC032",
+      "sourceFile": "sıcak_ofis_karşılama_anı.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC032.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC041",
+      "sourceFile": "sevimli_kedi_muayenesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC041.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK1_SC048",
+      "sourceFile": "sıcak_bir_karşılama_merkezi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC048.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC003",
+      "sourceFile": "alp_kasabasında_neşeli_pazar_alışverişi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC003.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC007",
+      "sourceFile": "sıcacık_dağ_manzaralı_doğum_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC007.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC010",
+      "sourceFile": "göl_kenarında_altın_saat_pikniği.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC010.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC021",
+      "sourceFile": "alp_köyü_kütüphanesinde_kitap_keyfi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC021.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC034",
+      "sourceFile": "dağ_kasabasında_neşeli_dayanışma_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC034.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC039",
+      "sourceFile": "şefkatli_veteriner_muayenesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK2_SC039.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC020",
+      "sourceFile": "mei_nin_kafesi_büyük_açılışı.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC020.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC021",
+      "sourceFile": "güneşli_dağ_kasabası_kafesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC021.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC027",
+      "sourceFile": "yağmurlu_günde_aile_fırını.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC027.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC034",
+      "sourceFile": "fener_festivali_nde_aile_gezintisi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC034.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC046",
+      "sourceFile": "birlikte_daha_güçlü_mahalle_dayanışması.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC046.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK3_SC048",
+      "sourceFile": "sıcak_mahalle_kafesinde_aile_mutluluğu.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC048.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC002",
+      "sourceFile": "aile_bahçesinde_neşeli_hasat.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC002.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC004",
+      "sourceFile": "dağ_kasabasında_neşeli_aile_kavuşması.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC004.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC007",
+      "sourceFile": "dağ_köyünde_neşeli_aile_kafesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC007.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC008",
+      "sourceFile": "aileyle_sıcak_mantı_akşamı.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC008.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC038",
+      "sourceFile": "hastanede_neşeli_aile_ziyareti.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC038.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC041",
+      "sourceFile": "dağ_kasabasında_yardımlaşma_günü.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC041.webp",
+      "status": "FINAL_SELECTED"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC049",
+      "sourceFile": "çok_kuşaklı_ailenin_karlı_köyde_neşesi.png",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC049.webp",
+      "status": "FINAL_SELECTED"
+    }
+  ]
+}
