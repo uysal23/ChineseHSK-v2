@@ -106,9 +106,18 @@ if password_import not in afs:
         raise SystemExit("AppFlowScreens import anchor missing")
     afs = afs.replace(import_anchor, import_anchor + password_import, 1)
 
-if "fun SettingsScreen(" not in afs:
-    raise SystemExit("Original SettingsScreen not found")
-afs = afs.replace("fun SettingsScreen(", "fun AdvancedSettingsScreen(", 1)
+settings_owner = None
+for candidate in src_dir.glob("*.kt"):
+    candidate_text = candidate.read_text(encoding="utf-8")
+    if "fun SettingsScreen(" in candidate_text:
+        candidate.write_text(
+            candidate_text.replace("fun SettingsScreen(", "fun AdvancedSettingsScreen(", 1),
+            encoding="utf-8"
+        )
+        settings_owner = candidate
+        break
+if settings_owner is None:
+    raise SystemExit("Original SettingsScreen not found in source directory")
 
 dashboard_start = afs.find("@Composable\nfun DashboardScreen(")
 dashboard_end = afs.find("\n@Composable\nprivate fun DashboardAction", dashboard_start)
@@ -117,11 +126,11 @@ if dashboard_start < 0 or dashboard_end < 0:
 dashboard_code = dashboard_fragment.read_text(encoding="utf-8").rstrip() + "\n"
 afs = afs[:dashboard_start] + dashboard_code + afs[dashboard_end:]
 
-advanced_start = afs.find("@Composable\nfun AdvancedSettingsScreen(")
-if advanced_start < 0:
-    raise SystemExit("AdvancedSettingsScreen block not found after rename")
+settings_insert = afs.find("\n@Composable\nprivate fun DashboardAction")
+if settings_insert < 0:
+    raise SystemExit("SettingsHub insertion anchor not found")
 settings_code = settings_fragment.read_text(encoding="utf-8").rstrip() + "\n\n"
-afs = afs[:advanced_start] + settings_code + afs[advanced_start:]
+afs = afs[:settings_insert] + "\n" + settings_code + afs[settings_insert:]
 app_flow_screens.write_text(afs, encoding="utf-8")
 
 # Admin mode bypasses exam-stage locks without mutating saved progress.
@@ -199,5 +208,5 @@ assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "AdminSession.active" in learning_screens.read_text(encoding="utf-8")
 assert "Admin Girişi" in app_flow_screens.read_text(encoding="utf-8")
 assert "fun SettingsHubScreen(" in app_flow_screens.read_text(encoding="utf-8")
-assert "fun AdvancedSettingsScreen(" in app_flow_screens.read_text(encoding="utf-8")
+assert any("fun AdvancedSettingsScreen(" in p.read_text(encoding="utf-8") for p in src_dir.glob("*.kt"))
 print("CI source compatibility patch applied.")
