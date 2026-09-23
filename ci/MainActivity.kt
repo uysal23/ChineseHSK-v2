@@ -96,6 +96,7 @@ fun ChineseJourneyApp() {
     var progressVersion by remember { mutableIntStateOf(0) }
     var onboardingComplete by remember { mutableStateOf(progress.isOnboardingComplete()) }
     var themeMode by remember { mutableIntStateOf(progress.themeMode()) }
+    var adminMode by remember { mutableStateOf(AdminSession.active) }
     var rootMode by remember {
         mutableStateOf(if (progress.isOnboardingComplete()) RootMode.DASHBOARD else RootMode.WELCOME)
     }
@@ -106,7 +107,7 @@ fun ChineseJourneyApp() {
     }
 
     fun openScene(scene: SceneInfo) {
-        if (scene.isOpenable && progress.isSceneUnlocked(scene.level, scene.number)) {
+        if (adminMode || (scene.isOpenable && progress.isSceneUnlocked(scene.level, scene.number))) {
             selectedScene = repo.loadScene(scene.level, scene.id)
             progress.saveLastScene(scene.id)
             sceneMode = SceneMode.STORY
@@ -118,7 +119,7 @@ fun ChineseJourneyApp() {
         if (lastId.isNotBlank()) {
             val levelId = lastId.substringAfter("ZH_").substringBefore("_SC")
             val meta = runCatching { repo.loadSceneIndex(levelId).firstOrNull { it.id == lastId } }.getOrNull()
-            if (meta != null && progress.isSceneUnlocked(meta.level, meta.number)) {
+            if (meta != null && (adminMode || progress.isSceneUnlocked(meta.level, meta.number))) {
                 openScene(meta)
                 return
             }
@@ -127,7 +128,7 @@ fun ChineseJourneyApp() {
         for (levelNo in start..6) {
             val levelId = "HSK$levelNo"
             val candidate = repo.loadSceneIndex(levelId).firstOrNull {
-                progress.isSceneUnlocked(levelId, it.number) && !progress.isSceneMastered(it.id)
+                (adminMode || progress.isSceneUnlocked(levelId, it.number)) && !progress.isSceneMastered(it.id)
             }
             if (candidate != null) {
                 openScene(candidate)
@@ -328,6 +329,7 @@ fun ChineseJourneyApp() {
                     scenes = remember(selectedLevel!!.id) { repo.loadSceneIndex(selectedLevel!!.id) },
                     progress = progress,
                     progressVersion = progressVersion,
+                    adminMode = adminMode,
                     onBack = { selectedLevel = null },
                     onScene = { item -> openScene(item) }
                 )
@@ -341,6 +343,16 @@ fun ChineseJourneyApp() {
                     levels = levels,
                     progress = progress,
                     progressVersion = progressVersion,
+                    adminMode = adminMode,
+                    onAdminModeChanged = { enabled ->
+                        AdminSession.active = enabled
+                        adminMode = enabled
+                        progressVersion++
+                    },
+                    onThemeChanged = { mode ->
+                        themeMode = mode
+                        progressVersion++
+                    },
                     onContinue = { continueLearning() },
                     onLevels = { rootMode = RootMode.LEVELS },
                     onFavorites = { showFavorites = true },
@@ -431,19 +443,20 @@ private fun SceneListScreen(
     scenes: List<SceneInfo>,
     progress: ProgressStore,
     progressVersion: Int,
+    adminMode: Boolean,
     onBack: () -> Unit,
     onScene: (SceneInfo) -> Unit
 ) {
     Column(Modifier.fillMaxSize()) {
-        Header(level.title, "Sahneler sınav başarısına göre sırayla açılır", onBack)
+        Header(level.title, if (adminMode) "🔓 Admin modu · Tüm sahneler açık" else "Sahneler sınav başarısına göre sırayla açılır", onBack)
         LazyColumn(
             contentPadding = PaddingValues(horizontal = 18.dp, vertical = 8.dp),
             verticalArrangement = Arrangement.spacedBy(9.dp)
         ) {
             items(scenes) { scene ->
-                val unlocked = remember(scene.id, progressVersion) { progress.isSceneUnlocked(scene.level, scene.number) }
+                val unlocked = adminMode || remember(scene.id, progressVersion) { progress.isSceneUnlocked(scene.level, scene.number) }
                 val mastered = remember(scene.id, progressVersion) { progress.isSceneMastered(scene.id) }
-                val openable = scene.isOpenable && unlocked
+                val openable = adminMode || (scene.isOpenable && unlocked)
                 Card(
                     modifier = Modifier.fillMaxWidth().clickable(enabled = openable) { onScene(scene) },
                     colors = CardDefaults.cardColors(
@@ -468,6 +481,7 @@ private fun SceneListScreen(
                         Text(
                             when {
                                 mastered -> "✓ Geçildi"
+                                adminMode -> "🔓 Admin"
                                 !unlocked -> "🔒 Kilitli"
                                 scene.complete -> "Açık"
                                 scene.productionStatus == "dialogue_draft" -> "Taslak"
