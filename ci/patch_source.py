@@ -53,6 +53,7 @@ main_override = ci_dir / "MainActivity.kt"
 recognizer_override = ci_dir / "OfflineMandarinRecognizer.kt"
 admin_override = ci_dir / "AdminSession.kt"
 dashboard_fragment = ci_dir / "DashboardScreen.fragment.kt"
+settings_fragment = ci_dir / "SettingsHub.fragment.kt"
 if not stage_override.exists():
     raise SystemExit("SceneStage CI override missing")
 if not main_override.exists():
@@ -63,6 +64,8 @@ if not admin_override.exists():
     raise SystemExit("AdminSession CI override missing")
 if not dashboard_fragment.exists():
     raise SystemExit("Dashboard fragment missing")
+if not settings_fragment.exists():
+    raise SystemExit("Settings hub fragment missing")
 scene_stage.write_text(stage_override.read_text(encoding="utf-8"), encoding="utf-8")
 main_activity.write_text(main_override.read_text(encoding="utf-8"), encoding="utf-8")
 recognizer_file.write_text(recognizer_override.read_text(encoding="utf-8"), encoding="utf-8")
@@ -103,12 +106,22 @@ if password_import not in afs:
         raise SystemExit("AppFlowScreens import anchor missing")
     afs = afs.replace(import_anchor, import_anchor + password_import, 1)
 
+if "fun SettingsScreen(" not in afs:
+    raise SystemExit("Original SettingsScreen not found")
+afs = afs.replace("fun SettingsScreen(", "fun AdvancedSettingsScreen(", 1)
+
 dashboard_start = afs.find("@Composable\nfun DashboardScreen(")
 dashboard_end = afs.find("\n@Composable\nprivate fun DashboardAction", dashboard_start)
 if dashboard_start < 0 or dashboard_end < 0:
     raise SystemExit("DashboardScreen block not found")
-fragment = dashboard_fragment.read_text(encoding="utf-8").rstrip() + "\n"
-afs = afs[:dashboard_start] + fragment + afs[dashboard_end:]
+dashboard_code = dashboard_fragment.read_text(encoding="utf-8").rstrip() + "\n"
+afs = afs[:dashboard_start] + dashboard_code + afs[dashboard_end:]
+
+advanced_start = afs.find("@Composable\nfun AdvancedSettingsScreen(")
+if advanced_start < 0:
+    raise SystemExit("AdvancedSettingsScreen block not found after rename")
+settings_code = settings_fragment.read_text(encoding="utf-8").rstrip() + "\n\n"
+afs = afs[:advanced_start] + settings_code + afs[advanced_start:]
 app_flow_screens.write_text(afs, encoding="utf-8")
 
 # Admin mode bypasses exam-stage locks without mutating saved progress.
@@ -185,4 +198,6 @@ assert "tts.stop()" in learning_screens.read_text(encoding="utf-8")
 assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "AdminSession.active" in learning_screens.read_text(encoding="utf-8")
 assert "Admin Girişi" in app_flow_screens.read_text(encoding="utf-8")
+assert "fun SettingsHubScreen(" in app_flow_screens.read_text(encoding="utf-8")
+assert "fun AdvancedSettingsScreen(" in app_flow_screens.read_text(encoding="utf-8")
 print("CI source compatibility patch applied.")
