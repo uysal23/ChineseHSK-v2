@@ -379,7 +379,7 @@ fun ChineseJourneyApp() {
 }
 
 @Composable
-private fun Header(title: String, subtitle: String? = null, onBack: (() -> Unit)? = null) {
+fun Header(title: String, subtitle: String? = null, onBack: (() -> Unit)? = null) {
     Column(Modifier.fillMaxWidth().padding(20.dp)) {
         if (onBack != null) {
             Text(
