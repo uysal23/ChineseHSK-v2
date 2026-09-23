@@ -11,6 +11,7 @@ tts = src_dir / "MandarinTtsPlayer.kt"
 scene_stage = src_dir / "SceneStage.kt"
 main_activity = src_dir / "MainActivity.kt"
 recognizer_file = src_dir / "OfflineMandarinRecognizer.kt"
+voice_recorder_file = src_dir / "UserVoiceRecorder.kt"
 learning_screens = src_dir / "LearningScreens.kt"
 app_flow_screens = src_dir / "AppFlowScreens.kt"
 progress_store = src_dir / "ProgressStore.kt"
@@ -51,6 +52,7 @@ ci_dir = Path(__file__).resolve().parent
 stage_override = ci_dir / "SceneStage.kt"
 main_override = ci_dir / "MainActivity.kt"
 recognizer_override = ci_dir / "OfflineMandarinRecognizer.kt"
+voice_recorder_override = ci_dir / "UserVoiceRecorder.kt"
 admin_override = ci_dir / "AdminSession.kt"
 dashboard_fragment = ci_dir / "DashboardScreen.fragment.kt"
 settings_fragment = ci_dir / "SettingsHub.fragment.kt"
@@ -60,6 +62,8 @@ if not main_override.exists():
     raise SystemExit("MainActivity CI override missing")
 if not recognizer_override.exists():
     raise SystemExit("OfflineMandarinRecognizer CI override missing")
+if not voice_recorder_override.exists():
+    raise SystemExit("UserVoiceRecorder CI override missing")
 if not admin_override.exists():
     raise SystemExit("AdminSession CI override missing")
 if not dashboard_fragment.exists():
@@ -69,21 +73,148 @@ if not settings_fragment.exists():
 scene_stage.write_text(stage_override.read_text(encoding="utf-8"), encoding="utf-8")
 main_activity.write_text(main_override.read_text(encoding="utf-8"), encoding="utf-8")
 recognizer_file.write_text(recognizer_override.read_text(encoding="utf-8"), encoding="utf-8")
+voice_recorder_file.write_text(voice_recorder_override.read_text(encoding="utf-8"), encoding="utf-8")
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
-# TEMP diagnostics: print the pronunciation composable around startRecognition for maintenance.
-_probe = ls.find("fun startRecognition()")
-if _probe >= 0:
-    print("=== PRONUNCIATION_SOURCE_BEGIN ===")
-    print(ls[max(0, _probe - 6000):min(len(ls), _probe + 10000)])
-    print("=== PRONUNCIATION_SOURCE_END ===")
-needle = """    fun startRecognition() {\n        val item = items.getOrNull(index) ?: return\n        recognized = \"\"\n        score = null\n"""
-replacement = """    fun startRecognition() {\n        val item = items.getOrNull(index) ?: return\n        tts.stop()\n        recognizer.stop()\n        status = \"Konuşma tanıma hazırlanıyor…\"\n        recognized = \"\"\n        score = null\n"""
-if needle not in ls:
-    raise SystemExit("Pronunciation startRecognition anchor missing")
-learning_screens.write_text(ls.replace(needle, replacement, 1), encoding="utf-8")
 
+state_anchor = """    var status by remember(index) { mutableStateOf("") }
+    val tts = remember { MandarinTtsPlayer(context) }
+    val recognizer = remember { OfflineMandarinRecognizer(context) }
+    DisposableEffect(Unit) { onDispose { tts.shutdown(); recognizer.destroy() } }
+"""
+state_replacement = """    var status by remember(index) { mutableStateOf("") }
+    var hasRecording by remember(scene.id) { mutableStateOf(false) }
+    var isPlayingRecording by remember(scene.id) { mutableStateOf(false) }
+    val tts = remember { MandarinTtsPlayer(context) }
+    val recognizer = remember { OfflineMandarinRecognizer(context) }
+    val voiceRecorder = remember(scene.id) { UserVoiceRecorder(context) }
+    DisposableEffect(Unit) {
+        onDispose {
+            tts.shutdown()
+            recognizer.destroy()
+            voiceRecorder.clear()
+        }
+    }
+"""
+if state_anchor not in ls:
+    raise SystemExit("Pronunciation recorder state anchor missing")
+ls = ls.replace(state_anchor, state_replacement, 1)
+
+start_fn = ls.find("    fun startRecognition() {")
+end_fn = ls.find("\n\n    val permissionLauncher", start_fn)
+if start_fn < 0 or end_fn < 0:
+    raise SystemExit("Pronunciation startRecognition block missing")
+start_code = """    fun startRecognition() {
+        val item = items.getOrNull(index) ?: return
+        tts.stop()
+        recognizer.stop()
+        voiceRecorder.clear()
+        hasRecording = false
+        isPlayingRecording = false
+        status = "Konuşma tanıma hazırlanıyor…"
+        recognized = ""
+        score = null
+
+        val recordingStarted = voiceRecorder.start()
+        if (!recordingStarted) {
+            status = "Ses kaydı başlatılamadı; konuşma karşılaştırması devam ediyor."
+        }
+
+        recognizer.start(
+            onListening = {
+                status = if (recordingStarted) "Dinliyorum ve kaydediyorum…" else "Dinliyorum…"
+            },
+            onResult = { text ->
+                val saved = voiceRecorder.stop()
+                if (saved) hasRecording = true
+                recognized = text
+                val value = chineseTextSimilarity(item.zh, text)
+                score = value
+                progress.savePronunciationBest(item.id, value)
+                status = ""
+            },
+            onError = { message ->
+                val saved = voiceRecorder.stop()
+                if (saved) hasRecording = true
+                status = message
+            },
+            onSpeechEnd = {
+                val saved = voiceRecorder.stop()
+                if (saved) {
+                    hasRecording = true
+                    status = "Kayıt tamamlandı, sonuç hazırlanıyor…"
+                }
+            }
+        )
+    }"""
+ls = ls[:start_fn] + start_code + ls[end_fn:]
+
+record_button_anchor = """                    OutlinedButton(onClick = {
+                        if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) startRecognition()
+                        else permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                    }) { Text("🎙 Söyle ve Karşılaştır") }
+"""
+record_button_replacement = record_button_anchor + """                    if (hasRecording) {
+                        Spacer(Modifier.height(8.dp))
+                        OutlinedButton(
+                            onClick = {
+                                voiceRecorder.stopPlayback()
+                                val started = voiceRecorder.play {
+                                    isPlayingRecording = false
+                                }
+                                isPlayingRecording = started
+                                if (!started) status = "Ses kaydı oynatılamadı."
+                            }
+                        ) {
+                            Text(if (isPlayingRecording) "🔊 Kaydın Oynatılıyor…" else "▶ Kaydımı Dinle")
+                        }
+                    }
+"""
+if record_button_anchor not in ls:
+    raise SystemExit("Pronunciation record button anchor missing")
+ls = ls.replace(record_button_anchor, record_button_replacement, 1)
+
+prev_anchor = """                OutlinedButton(onClick = { if (index > 0) index-- }, enabled = index > 0, modifier = Modifier.weight(1f)) { Text("← Önceki") }
+"""
+prev_replacement = """                OutlinedButton(
+                    onClick = {
+                        if (index > 0) {
+                            voiceRecorder.clear()
+                            hasRecording = false
+                            isPlayingRecording = false
+                            index--
+                        }
+                    },
+                    enabled = index > 0,
+                    modifier = Modifier.weight(1f)
+                ) { Text("← Önceki") }
+"""
+if prev_anchor not in ls:
+    raise SystemExit("Pronunciation previous button anchor missing")
+ls = ls.replace(prev_anchor, prev_replacement, 1)
+
+next_anchor = """                Button(onClick = { if (index < items.lastIndex) index++ }, enabled = index < items.lastIndex, modifier = Modifier.weight(1f), colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)) { Text("Sonraki →", color = StudyTop) }
+"""
+next_replacement = """                Button(
+                    onClick = {
+                        if (index < items.lastIndex) {
+                            voiceRecorder.clear()
+                            hasRecording = false
+                            isPlayingRecording = false
+                            index++
+                        }
+                    },
+                    enabled = index < items.lastIndex,
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
+                ) { Text("Sonraki →", color = StudyTop) }
+"""
+if next_anchor not in ls:
+    raise SystemExit("Pronunciation next button anchor missing")
+ls = ls.replace(next_anchor, next_replacement, 1)
+
+learning_screens.write_text(ls, encoding="utf-8")
 
 
 # Dashboard profile/admin support.
@@ -209,6 +340,10 @@ assert "Shorts" not in main_activity.read_text(encoding="utf-8") or True
 assert "navigationBarsPadding()" in main_activity.read_text(encoding="utf-8")
 assert "BackHandler(enabled = true)" in main_activity.read_text(encoding="utf-8")
 assert "SpeechRecognizer.createSpeechRecognizer" in recognizer_file.read_text(encoding="utf-8")
+assert "onSpeechEnd()" in recognizer_file.read_text(encoding="utf-8")
+assert "class UserVoiceRecorder" in voice_recorder_file.read_text(encoding="utf-8")
+assert "Kaydımı Dinle" in learning_screens.read_text(encoding="utf-8")
+assert "voiceRecorder.start()" in learning_screens.read_text(encoding="utf-8")
 assert "tts.stop()" in learning_screens.read_text(encoding="utf-8")
 assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "AdminSession.active" in learning_screens.read_text(encoding="utf-8")
