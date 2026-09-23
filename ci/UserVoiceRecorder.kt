@@ -20,11 +20,13 @@ class UserVoiceRecorder(context: Context) {
         const val CHANNEL_COUNT = 1
         const val ENCODING = AudioFormat.ENCODING_PCM_16BIT
 
-        private const val MAX_CAPTURE_MS = 15_000L
-        private const val NO_SPEECH_TIMEOUT_MS = 6_000L
-        private const val MIN_CAPTURE_MS = 900L
-        private const val END_SILENCE_MS = 950L
-        private const val VOICE_RMS_THRESHOLD = 520.0
+        private const val MAX_CAPTURE_MS = 20_000L
+        private const val NO_SPEECH_TIMEOUT_MS = 10_000L
+        private const val ARMING_MS = 500L
+        private const val MIN_CAPTURE_MS = 1_800L
+        private const val END_SILENCE_MS = 1_400L
+        private const val VOICE_CONFIRM_MS = 350L
+        private const val VOICE_RMS_THRESHOLD = 700.0
     }
 
     private val appContext = context.applicationContext
@@ -56,7 +58,7 @@ class UserVoiceRecorder(context: Context) {
 
         val next = try {
             AudioRecord(
-                MediaRecorder.AudioSource.VOICE_RECOGNITION,
+                MediaRecorder.AudioSource.MIC,
                 SAMPLE_RATE,
                 AudioFormat.CHANNEL_IN_MONO,
                 ENCODING,
@@ -84,6 +86,7 @@ class UserVoiceRecorder(context: Context) {
             val thread = Thread({
                 var heardSpeech = false
                 var lastVoiceAt = 0L
+                var voicedAccumulatedMs = 0L
                 val startedAt = android.os.SystemClock.elapsedRealtime()
                 val buffer = ByteArray(maxOf(minBuffer, 2048))
 
@@ -102,10 +105,21 @@ class UserVoiceRecorder(context: Context) {
                             val now = android.os.SystemClock.elapsedRealtime()
                             val elapsed = now - startedAt
                             val rms = pcm16Rms(buffer, count)
+                            val samples = (count / 2).coerceAtLeast(1)
+                            val chunkMs = ((samples * 1000L) / SAMPLE_RATE).coerceAtLeast(1L)
 
-                            if (rms >= VOICE_RMS_THRESHOLD) {
-                                heardSpeech = true
-                                lastVoiceAt = now
+                            if (elapsed >= ARMING_MS) {
+                                if (rms >= VOICE_RMS_THRESHOLD) {
+                                    voicedAccumulatedMs += chunkMs
+                                    lastVoiceAt = now
+                                } else if (!heardSpeech) {
+                                    voicedAccumulatedMs = (voicedAccumulatedMs - (chunkMs / 2)).coerceAtLeast(0L)
+                                }
+
+                                if (!heardSpeech && voicedAccumulatedMs >= VOICE_CONFIRM_MS) {
+                                    heardSpeech = true
+                                    lastVoiceAt = now
+                                }
                             }
 
                             if (heardSpeech && elapsed >= MIN_CAPTURE_MS && now - lastVoiceAt >= END_SILENCE_MS) {
