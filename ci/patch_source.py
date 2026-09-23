@@ -11,7 +11,7 @@ for _p in (root / "app" / "src" / "main" / "java").rglob("*.kt"):
         _t = _p.read_text(encoding="utf-8")
     except Exception:
         continue
-    if "class DialogueAudioPlayer" in _t or "data class CharacterProfile" in _t or "data class Dialogue" in _t:
+    if "class DialogueAudioPlayer" in _t or "class VoiceIdentityResolver" in _t or "class MandarinTtsPlayer" in _t or "data class CharacterProfile" in _t or "data class Dialogue" in _t:
         print("=== VOICE_DIAG_FILE:", _p.name, "===")
         print(_t)
         print("=== VOICE_DIAG_END ===")
