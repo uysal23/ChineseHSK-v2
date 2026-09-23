@@ -397,6 +397,12 @@ fun SceneStage(
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
     isSpeaking: Boolean,
+    dialogueZh: String,
+    dialoguePinyin: String,
+    dialogueTr: String,
+    showPinyin: Boolean,
+    showTurkish: Boolean,
+    speakerLabel: String,
     modifier: Modifier = Modifier
 ) {
     val theme = location?.theme ?: "generic"
@@ -409,6 +415,9 @@ fun SceneStage(
             .distinct()
             .take(4)
     }
+
+    val activeIndex = cast.indexOf(activeSpeaker).let { if (it < 0) 0 else it }
+    val bubbleOnLeft = activeIndex < ((cast.size + 1) / 2).coerceAtLeast(1)
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
@@ -471,6 +480,70 @@ fun SceneStage(
             }
 
         }
+        if (dialogueZh.isNotBlank()) {
+            Column(
+                modifier = Modifier
+                    .align(if (bubbleOnLeft) Alignment.CenterStart else Alignment.CenterEnd)
+                    .offset(y = (-92).dp)
+                    .padding(
+                        start = if (bubbleOnLeft) 14.dp else 72.dp,
+                        end = if (bubbleOnLeft) 72.dp else 14.dp
+                    )
+                    .widthIn(min = 170.dp, max = 310.dp),
+                horizontalAlignment = if (bubbleOnLeft) Alignment.Start else Alignment.End
+            ) {
+                Surface(
+                    color = Color.White.copy(alpha = 0.97f),
+                    contentColor = Color(0xFF211D25),
+                    shape = RoundedCornerShape(20.dp),
+                    shadowElevation = 12.dp
+                ) {
+                    Column(Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
+                        Text(
+                            speakerLabel,
+                            color = Color(0xFF7A5600),
+                            fontSize = 12.sp,
+                            fontWeight = FontWeight.Black
+                        )
+                        Text(
+                            dialogueZh,
+                            color = Color(0xFF211D25),
+                            fontSize = 22.sp,
+                            lineHeight = 28.sp,
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(top = 3.dp)
+                        )
+                        if (showPinyin && dialoguePinyin.isNotBlank()) {
+                            Text(
+                                dialoguePinyin,
+                                color = Color(0xFF735B18),
+                                fontSize = 14.sp,
+                                lineHeight = 19.sp,
+                                fontWeight = FontWeight.Medium,
+                                modifier = Modifier.padding(top = 4.dp)
+                            )
+                        }
+                        if (showTurkish && dialogueTr.isNotBlank()) {
+                            Text(
+                                dialogueTr,
+                                color = Color(0xFF4D4652),
+                                fontSize = 13.sp,
+                                lineHeight = 18.sp,
+                                modifier = Modifier.padding(top = 3.dp)
+                            )
+                        }
+                    }
+                }
+                Text(
+                    if (bubbleOnLeft) "◢" else "◣",
+                    color = Color.White.copy(alpha = 0.97f),
+                    fontSize = 28.sp,
+                    lineHeight = 20.sp,
+                    modifier = Modifier.padding(horizontal = 30.dp)
+                )
+            }
+        }
+
         if (location != null) {
             Surface(
                 modifier = Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 68.dp, end = 12.dp),
