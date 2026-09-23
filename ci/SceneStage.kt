@@ -411,53 +411,66 @@ fun SceneStage(
     }
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
+        val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
+        val sceneArtBitmap = rememberAssetBitmap(sceneArtPath)
         val backgroundBitmap = rememberAssetBitmap(location?.backgroundAsset.orEmpty())
-        if (backgroundBitmap != null) {
-            Image(
-                bitmap = backgroundBitmap,
-                contentDescription = location?.nameTr ?: "Sahne arka planı",
-                modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop
-            )
-        } else {
-            SceneDecor(theme, colors)
+        when {
+            sceneArtBitmap != null -> {
+                Image(
+                    bitmap = sceneArtBitmap,
+                    contentDescription = scene.titleTr.ifBlank { location?.nameTr ?: "Sahne görseli" },
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            }
+            backgroundBitmap != null -> {
+                Image(
+                    bitmap = backgroundBitmap,
+                    contentDescription = location?.nameTr ?: "Sahne arka planı",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            }
+            else -> SceneDecor(theme, colors)
         }
 
-        Row(
-            modifier = Modifier
-                .align(Alignment.BottomCenter)
-                .fillMaxWidth()
-                .fillMaxHeight(0.61f)
-                .padding(start = 2.dp, end = 2.dp, bottom = 110.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly,
-            verticalAlignment = Alignment.Bottom
-        ) {
-            cast.forEach { name ->
-                val profile = characterProfiles[name]
-                val isActive = name == activeSpeaker
-                val portraitBitmap = rememberAssetBitmap(portraitVariantFor(profile, scene.level))
-                val scale by animateFloatAsState(if (isActive) 1.09f else 1f, tween(220), label = "assetScale-$name")
-                val infinite = rememberInfiniteTransition(label = "assetMotion-$name")
-                val bob by infinite.animateFloat(-1f, 1.5f, infiniteRepeatable(tween(if (isActive) 820 else 1400), RepeatMode.Reverse), label = "assetBob")
+        if (sceneArtBitmap == null) {
+            Row(
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .fillMaxWidth()
+                    .fillMaxHeight(0.61f)
+                    .padding(start = 2.dp, end = 2.dp, bottom = 110.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly,
+                verticalAlignment = Alignment.Bottom
+            ) {
+                cast.forEach { name ->
+                    val profile = characterProfiles[name]
+                    val isActive = name == activeSpeaker
+                    val portraitBitmap = rememberAssetBitmap(portraitVariantFor(profile, scene.level))
+                    val scale by animateFloatAsState(if (isActive) 1.09f else 1f, tween(220), label = "assetScale-$name")
+                    val infinite = rememberInfiniteTransition(label = "assetMotion-$name")
+                    val bob by infinite.animateFloat(-1f, 1.5f, infiniteRepeatable(tween(if (isActive) 820 else 1400), RepeatMode.Reverse), label = "assetBob")
 
-                if (portraitBitmap != null) {
-                    Image(
-                        bitmap = portraitBitmap,
-                        contentDescription = name,
-                        modifier = Modifier
-                            .fillMaxHeight(if (isActive) 0.98f else 0.90f)
-                            .widthIn(min = 96.dp, max = 174.dp)
-                            .offset(y = bob.dp)
-                            .scale(scale)
-                            .alpha(if (isActive) 1f else .92f),
-                        contentScale = ContentScale.Fit
-                    )
-                } else {
-                    CartoonCharacter(name, profile, isActive, isSpeaking, colors.accent)
+                    if (portraitBitmap != null) {
+                        Image(
+                            bitmap = portraitBitmap,
+                            contentDescription = name,
+                            modifier = Modifier
+                                .fillMaxHeight(if (isActive) 0.98f else 0.90f)
+                                .widthIn(min = 96.dp, max = 174.dp)
+                                .offset(y = bob.dp)
+                                .scale(scale)
+                                .alpha(if (isActive) 1f else .92f),
+                            contentScale = ContentScale.Fit
+                        )
+                    } else {
+                        CartoonCharacter(name, profile, isActive, isSpeaking, colors.accent)
+                    }
                 }
             }
-        }
 
+        }
         if (location != null) {
             Surface(
                 modifier = Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = 68.dp, end = 12.dp),
