@@ -6,6 +6,7 @@ on:
     branches: [ main ]
     paths:
       - chinese_hsk_android_github_v2.0.0.zip
+      - visual_pack_v1.zip
       - .github/workflows/build-from-zip.yml
       - ci/**
   workflow_dispatch:
@@ -39,6 +40,19 @@ jobs:
           test "$(tr -d '\r\n' < "$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github/VERSION")" = "2.0.0"
           SRC="$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github"
           python3 ci/patch_source.py "$SRC"
+
+          if [ -f visual_pack_v1.zip ]; then
+            rm -rf "$RUNNER_TEMP/chinese-hsk-visuals"
+            mkdir -p "$RUNNER_TEMP/chinese-hsk-visuals"
+            unzip -q visual_pack_v1.zip -d "$RUNNER_TEMP/chinese-hsk-visuals"
+            mkdir -p "$SRC/app/src/main/assets/chinese_course/media/scenes"
+            cp "$RUNNER_TEMP/chinese-hsk-visuals"/scenes/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
+            cp "$RUNNER_TEMP/chinese-hsk-visuals"/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
+            echo "Installed $(find "$SRC/app/src/main/assets/chinese_course/media/scenes" -maxdepth 1 -name '*.webp' | wc -l) scene visuals."
+          else
+            echo "visual_pack_v1.zip not present; continuing with generated visual fallback."
+          fi
+
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
       - name: Setup Java 17
