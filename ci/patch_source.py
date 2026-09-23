@@ -77,6 +77,14 @@ voice_recorder_file.write_text(voice_recorder_override.read_text(encoding="utf-8
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
+if "import androidx.compose.foundation.verticalScroll" not in ls:
+    import_anchor = "import androidx.compose.foundation.layout.*\n"
+    if import_anchor in ls:
+        ls = ls.replace(
+            import_anchor,
+            import_anchor + "import androidx.compose.foundation.rememberScrollState\nimport androidx.compose.foundation.verticalScroll\n",
+            1
+        )
 
 pron_start = ls.find("@Composable\nfun PronunciationPracticeScreen(")
 pron_end = ls.find("\n@Composable\nfun InteractiveDialogueScreen", pron_start)
@@ -107,6 +115,12 @@ if state_anchor not in pron:
     raise SystemExit("Pronunciation recorder state anchor missing")
 pron = pron.replace(state_anchor, state_replacement, 1)
 
+pron = pron.replace(
+    "Column(Modifier.fillMaxSize().padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center)",
+    "Column(Modifier.fillMaxSize().padding(18.dp).verticalScroll(rememberScrollState()), horizontalAlignment = Alignment.CenterHorizontally)",
+    1
+)
+
 start_fn = pron.find("    fun startRecognition() {")
 end_fn = pron.find("\n\n    val permissionLauncher", start_fn)
 if start_fn < 0 or end_fn < 0:
@@ -118,41 +132,44 @@ start_code = """    fun startRecognition() {
         voiceRecorder.clear()
         hasRecording = false
         isPlayingRecording = false
-        status = "Konuşma tanıma hazırlanıyor…"
+        status = "Dinliyorum ve kaydediyorum…"
         recognized = ""
         score = null
 
-        val recordingStarted = voiceRecorder.start()
-        if (!recordingStarted) {
-            status = "Ses kaydı başlatılamadı; konuşma karşılaştırması devam ediyor."
+        val recordingStarted = voiceRecorder.start { heardSpeech ->
+            hasRecording = voiceRecorder.hasRecording()
+            isPlayingRecording = false
+
+            val source = voiceRecorder.openRecognitionSource()
+            if (source == null) {
+                status = if (hasRecording) {
+                    "Kayıt tamamlandı. Bu cihazda otomatik ses analizi desteklenmiyor."
+                } else {
+                    "Ses kaydı oluşturulamadı. Tekrar deneyin."
+                }
+                return@start
+            }
+
+            status = if (heardSpeech) "Kayıt tamamlandı, telaffuz analiz ediliyor…" else "Kayıt tamamlandı, ses analiz ediliyor…"
+            recognizer.start(
+                source = source,
+                onListening = { status = "Telaffuz analiz ediliyor…" },
+                onResult = { text ->
+                    recognized = text
+                    val value = chineseTextSimilarity(item.zh, text)
+                    score = value
+                    progress.savePronunciationBest(item.id, value)
+                    status = ""
+                },
+                onError = { message ->
+                    status = message
+                }
+            )
         }
 
-        recognizer.start(
-            onListening = {
-                status = if (recordingStarted) "Dinliyorum ve kaydediyorum…" else "Dinliyorum…"
-            },
-            onResult = { text ->
-                val saved = voiceRecorder.stop()
-                if (saved) hasRecording = true
-                recognized = text
-                val value = chineseTextSimilarity(item.zh, text)
-                score = value
-                progress.savePronunciationBest(item.id, value)
-                status = ""
-            },
-            onError = { message ->
-                val saved = voiceRecorder.stop()
-                if (saved) hasRecording = true
-                status = message
-            },
-            onSpeechEnd = {
-                val saved = voiceRecorder.stop()
-                if (saved) {
-                    hasRecording = true
-                    status = "Kayıt tamamlandı, sonuç hazırlanıyor…"
-                }
-            }
-        )
+        if (!recordingStarted) {
+            status = "Ses kaydı başlatılamadı. Mikrofonu kullanan başka bir uygulama olmadığını kontrol edin."
+        }
     }"""
 pron = pron[:start_fn] + start_code + pron[end_fn:]
 
@@ -161,7 +178,14 @@ record_button_anchor = """                    OutlinedButton(onClick = {
                         else permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
                     }) { Text("🎙 Söyle ve Karşılaştır") }
 """
-record_button_replacement = record_button_anchor + """                    if (hasRecording) {
+record_button_replacement = """                    OutlinedButton(
+                        onClick = {
+                            if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) startRecognition()
+                            else permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                        },
+                        modifier = Modifier.fillMaxWidth()
+                    ) { Text("🎙 Söyle ve Karşılaştır") }
+                    if (hasRecording) {
                         Spacer(Modifier.height(8.dp))
                         OutlinedButton(
                             onClick = {
@@ -171,7 +195,8 @@ record_button_replacement = record_button_anchor + """                    if (ha
                                 }
                                 isPlayingRecording = started
                                 if (!started) status = "Ses kaydı oynatılamadı."
-                            }
+                            },
+                            modifier = Modifier.fillMaxWidth()
                         ) {
                             Text(if (isPlayingRecording) "🔊 Kaydın Oynatılıyor…" else "▶ Kaydımı Dinle")
                         }
@@ -181,11 +206,18 @@ if record_button_anchor not in pron:
     raise SystemExit("Pronunciation record button anchor missing")
 pron = pron.replace(record_button_anchor, record_button_replacement, 1)
 
+pron = pron.replace(
+    'Button(onClick = { tts.speak(item.zh, "PRONUNCIATION", 0.78f) }, colors = ButtonDefaults.buttonColors(containerColor = StudyAccent))',
+    'Button(onClick = { tts.speak(item.zh, "PRONUNCIATION", 0.78f) }, modifier = Modifier.fillMaxWidth(), colors = ButtonDefaults.buttonColors(containerColor = StudyAccent))',
+    1
+)
+
 prev_anchor = """                OutlinedButton(onClick = { if (index > 0) index-- }, enabled = index > 0, modifier = Modifier.weight(1f)) { Text("← Önceki") }
 """
 prev_replacement = """                OutlinedButton(
                     onClick = {
                         if (index > 0) {
+                            recognizer.stop()
                             voiceRecorder.clear()
                             hasRecording = false
                             isPlayingRecording = false
@@ -205,6 +237,7 @@ next_anchor = """                Button(onClick = { if (index < items.lastIndex)
 next_replacement = """                Button(
                     onClick = {
                         if (index < items.lastIndex) {
+                            recognizer.stop()
                             voiceRecorder.clear()
                             hasRecording = false
                             isPlayingRecording = false
@@ -222,7 +255,6 @@ pron = pron.replace(next_anchor, next_replacement, 1)
 
 ls = ls[:pron_start] + pron + ls[pron_end:]
 learning_screens.write_text(ls, encoding="utf-8")
-
 
 # Dashboard profile/admin support.
 ps = progress_store.read_text(encoding="utf-8")
@@ -347,10 +379,10 @@ assert "Shorts" not in main_activity.read_text(encoding="utf-8") or True
 assert "navigationBarsPadding()" in main_activity.read_text(encoding="utf-8")
 assert "BackHandler(enabled = true)" in main_activity.read_text(encoding="utf-8")
 assert "SpeechRecognizer.createSpeechRecognizer" in recognizer_file.read_text(encoding="utf-8")
-assert "onSpeechEnd()" in recognizer_file.read_text(encoding="utf-8")
+assert "EXTRA_AUDIO_SOURCE" in recognizer_file.read_text(encoding="utf-8")
 assert "class UserVoiceRecorder" in voice_recorder_file.read_text(encoding="utf-8")
 assert "Kaydımı Dinle" in learning_screens.read_text(encoding="utf-8")
-assert "voiceRecorder.start()" in learning_screens.read_text(encoding="utf-8")
+assert "voiceRecorder.start" in learning_screens.read_text(encoding="utf-8")
 assert "tts.stop()" in learning_screens.read_text(encoding="utf-8")
 assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "AdminSession.active" in learning_screens.read_text(encoding="utf-8")
