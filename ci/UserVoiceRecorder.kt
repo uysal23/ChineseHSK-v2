@@ -5,6 +5,7 @@ import android.media.AudioFormat
 import android.media.AudioRecord
 import android.media.MediaPlayer
 import android.media.MediaRecorder
+import android.os.Build
 import android.os.Handler
 import android.os.Looper
 import android.os.ParcelFileDescriptor
@@ -169,6 +170,7 @@ class UserVoiceRecorder(context: Context) {
     }
 
     fun openRecognitionSource(): ParcelFileDescriptor? {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) return null
         val file = pcmFile ?: return null
         if (!file.exists() || file.length() <= 0L) return null
         return try {
