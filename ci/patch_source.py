@@ -101,6 +101,59 @@ voice_recorder_file.write_text(voice_recorder_override.read_text(encoding="utf-8
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
+
+# Keep study navigation reachable on compact/tall-content phones.
+def _make_study_screen_scroll_safe(source: str, screen_name: str) -> str:
+    start = source.find("@Composable\nfun " + screen_name + "(")
+    if start < 0:
+        start = source.find("@Composable\nprivate fun " + screen_name + "(")
+    if start < 0:
+        return source
+    end = source.find("\n@Composable\n", start + 20)
+    if end < 0:
+        end = len(source)
+    block = source[start:end]
+
+    # LazyColumn screens should keep one scroll owner and reserve room for system navigation.
+    if "LazyColumn(" in block:
+        block = block.replace(
+            "contentPadding = PaddingValues(18.dp)",
+            "contentPadding = PaddingValues(start = 18.dp, end = 18.dp, top = 18.dp, bottom = 120.dp)",
+            1
+        )
+        block = block.replace(
+            "contentPadding = PaddingValues(horizontal = 18.dp, vertical = 8.dp)",
+            "contentPadding = PaddingValues(start = 18.dp, end = 18.dp, top = 8.dp, bottom = 120.dp)",
+            1
+        )
+    else:
+        for pad in ("18.dp", "20.dp"):
+            old = "Modifier.fillMaxSize().padding(" + pad + ")"
+            new = (
+                "Modifier.fillMaxSize()"
+                ".verticalScroll(rememberScrollState())"
+                ".navigationBarsPadding()"
+                ".padding(start = " + pad + ", end = " + pad + ", top = " + pad + ", bottom = 112.dp)"
+            )
+            if old in block:
+                block = block.replace(old, new, 1)
+                break
+
+    # Extra safety for explicit bottom navigation rows/buttons.
+    block = block.replace(
+        "Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp))",
+        "Row(Modifier.fillMaxWidth().navigationBarsPadding(), horizontalArrangement = Arrangement.spacedBy(12.dp))"
+    )
+    return source[:start] + block + source[end:]
+
+for _screen in (
+    "ComprehensionScreen",
+    "InteractiveDialogueScreen",
+    "SentencePracticeScreen",
+    "VocabularyExamScreen",
+    "SentenceExamScreen",
+):
+    ls = _make_study_screen_scroll_safe(ls, _screen)
 if "import androidx.compose.foundation.verticalScroll" not in ls:
     import_anchor = "import androidx.compose.foundation.layout.*\n"
     if import_anchor in ls:
