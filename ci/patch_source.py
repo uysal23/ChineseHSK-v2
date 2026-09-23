@@ -109,6 +109,7 @@ state_anchor = """    var status by remember(index) { mutableStateOf("") }
 """
 state_replacement = """    var status by remember(index) { mutableStateOf("") }
     var hasRecording by remember(scene.id) { mutableStateOf(false) }
+    var isRecording by remember(scene.id) { mutableStateOf(false) }
     var isPlayingRecording by remember(scene.id) { mutableStateOf(false) }
     val tts = remember { MandarinTtsPlayer(context) }
     val recognizer = remember { OfflineMandarinRecognizer(context) }
@@ -141,12 +142,14 @@ start_code = """    fun startRecognition() {
         recognizer.stop()
         voiceRecorder.clear()
         hasRecording = false
+        isRecording = false
         isPlayingRecording = false
         status = "Dinliyorum ve kaydediyorum…"
         recognized = ""
         score = null
 
         val recordingStarted = voiceRecorder.start { heardSpeech ->
+            isRecording = false
             hasRecording = voiceRecorder.hasRecording()
             isPlayingRecording = false
 
@@ -177,7 +180,11 @@ start_code = """    fun startRecognition() {
             )
         }
 
-        if (!recordingStarted) {
+        if (recordingStarted) {
+            isRecording = true
+            status = "Dinliyorum… Konuşun. Bitince otomatik durur veya Kaydı Bitir'e basın."
+        } else {
+            isRecording = false
             status = "Ses kaydı başlatılamadı. Mikrofonu kullanan başka bir uygulama olmadığını kontrol edin."
         }
     }"""
@@ -190,11 +197,19 @@ record_button_anchor = """                    OutlinedButton(onClick = {
 """
 record_button_replacement = """                    OutlinedButton(
                         onClick = {
-                            if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) startRecognition()
-                            else permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                            if (isRecording) {
+                                voiceRecorder.stop()
+                                status = "Kayıt tamamlanıyor…"
+                            } else if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+                                startRecognition()
+                            } else {
+                                permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                            }
                         },
                         modifier = Modifier.fillMaxWidth()
-                    ) { Text("🎙 Söyle ve Karşılaştır") }
+                    ) {
+                        Text(if (isRecording) "⏹ Kaydı Bitir" else "🎙 Söyle ve Karşılaştır")
+                    }
                     if (hasRecording) {
                         Spacer(Modifier.height(8.dp))
                         OutlinedButton(
@@ -230,6 +245,7 @@ prev_replacement = """                OutlinedButton(
                             recognizer.stop()
                             voiceRecorder.clear()
                             hasRecording = false
+                            isRecording = false
                             isPlayingRecording = false
                             index--
                         }
@@ -250,6 +266,7 @@ next_replacement = """                Button(
                             recognizer.stop()
                             voiceRecorder.clear()
                             hasRecording = false
+                            isRecording = false
                             isPlayingRecording = false
                             index++
                         }
