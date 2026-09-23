@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -16,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -544,6 +546,7 @@ private fun SceneScreen(
     var narratorPlaying by remember(scene.id) { mutableStateOf(false) }
     var narratorAutoStarted by remember(scene.id) { mutableStateOf(false) }
     var showStudyMenu by remember(scene.id) { mutableStateOf(false) }
+    var controlsVisible by remember(scene.id) { mutableStateOf(true) }
 
     val current = scene.dialogues.getOrNull(currentIndex)
     val mastered = remember(progressVersion, scene.id) { progress.isSceneMastered(scene.id) }
@@ -613,7 +616,13 @@ private fun SceneScreen(
             characterProfiles = characterProfiles,
             activeSpeaker = current?.speaker.orEmpty(),
             isSpeaking = speakingNow,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier
+                .fillMaxSize()
+                .pointerInput(scene.id) {
+                    detectTapGestures(
+                        onTap = { controlsVisible = !controlsVisible }
+                    )
+                }
         )
 
         Box(
@@ -639,32 +648,19 @@ private fun SceneScreen(
                 )
         )
 
-        Row(
+        Box(
             modifier = Modifier
                 .align(Alignment.TopCenter)
                 .fillMaxWidth()
                 .statusBarsPadding()
-                .padding(horizontal = 14.dp, vertical = 10.dp),
-            verticalAlignment = Alignment.CenterVertically
+                .padding(horizontal = 14.dp, vertical = 10.dp)
         ) {
-            Button(
-                onClick = {
-                    autoPlay = false
-                    speakingNow = false
-                    audioPlayer.stop()
-                    onBack()
-                },
-                contentPadding = PaddingValues(horizontal = 13.dp, vertical = 8.dp),
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFF211D25),
-                    contentColor = Color.White
-                ),
-                shape = RoundedCornerShape(16.dp)
+            Column(
+                modifier = Modifier
+                    .align(Alignment.TopCenter)
+                    .padding(horizontal = 64.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text("←", fontSize = 21.sp, fontWeight = FontWeight.Black)
-            }
-            Spacer(Modifier.width(10.dp))
-            Column(Modifier.weight(1f)) {
                 Text(
                     scene.titleZh,
                     color = Color.White,
@@ -680,16 +676,38 @@ private fun SceneScreen(
                     maxLines = 1
                 )
             }
-            Button(
-                onClick = { showStudyMenu = true },
-                contentPadding = PaddingValues(horizontal = 13.dp, vertical = 8.dp),
-                colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFF211D25),
-                    contentColor = Color.White
-                ),
-                shape = RoundedCornerShape(16.dp)
-            ) {
-                Text(if (mastered) "✓ Çalış" else "Çalış", fontWeight = FontWeight.Bold)
+
+            if (controlsVisible) {
+                Button(
+                    onClick = {
+                        autoPlay = false
+                        speakingNow = false
+                        audioPlayer.stop()
+                        onBack()
+                    },
+                    modifier = Modifier.align(Alignment.TopStart),
+                    contentPadding = PaddingValues(horizontal = 13.dp, vertical = 8.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFF211D25),
+                        contentColor = Color.White
+                    ),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text("←", fontSize = 21.sp, fontWeight = FontWeight.Black)
+                }
+
+                Button(
+                    onClick = { showStudyMenu = true },
+                    modifier = Modifier.align(Alignment.TopEnd),
+                    contentPadding = PaddingValues(horizontal = 13.dp, vertical = 8.dp),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFF211D25),
+                        contentColor = Color.White
+                    ),
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Text(if (mastered) "✓ Çalış" else "Çalış", fontWeight = FontWeight.Bold)
+                }
             }
         }
 
@@ -770,110 +788,116 @@ private fun SceneScreen(
 
             Spacer(Modifier.height(12.dp))
 
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                Button(
-                    onClick = { showPinyin = !showPinyin },
-                    modifier = Modifier.weight(1f).height(42.dp),
-                    contentPadding = PaddingValues(horizontal = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = if (showPinyin) Accent else Color(0xFF2B2730),
-                        contentColor = if (showPinyin) Color(0xFF2B2100) else Color.White
-                    ),
-                    shape = RoundedCornerShape(14.dp)
+            if (controlsVisible) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Text(if (showPinyin) "Pinyin ✓" else "Pinyin", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    Button(
+                        onClick = { showPinyin = !showPinyin },
+                        modifier = Modifier.weight(1f).height(42.dp),
+                        contentPadding = PaddingValues(horizontal = 8.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = if (showPinyin) Accent else Color(0xFF2B2730),
+                            contentColor = if (showPinyin) Color(0xFF2B2100) else Color.White
+                        ),
+                        shape = RoundedCornerShape(14.dp)
+                    ) {
+                        Text(if (showPinyin) "Pinyin ✓" else "Pinyin", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    }
+                    Button(
+                        onClick = { showTurkish = !showTurkish },
+                        modifier = Modifier.weight(1f).height(42.dp),
+                        contentPadding = PaddingValues(horizontal = 8.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = if (showTurkish) Accent else Color(0xFF2B2730),
+                            contentColor = if (showTurkish) Color(0xFF2B2100) else Color.White
+                        ),
+                        shape = RoundedCornerShape(14.dp)
+                    ) {
+                        Text(if (showTurkish) "Türkçe ✓" else "Türkçe", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    }
                 }
-                Button(
-                    onClick = { showTurkish = !showTurkish },
-                    modifier = Modifier.weight(1f).height(42.dp),
-                    contentPadding = PaddingValues(horizontal = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = if (showTurkish) Accent else Color(0xFF2B2730),
-                        contentColor = if (showTurkish) Color(0xFF2B2100) else Color.White
-                    ),
-                    shape = RoundedCornerShape(14.dp)
-                ) {
-                    Text(if (showTurkish) "Türkçe ✓" else "Türkçe", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                }
-            }
-
-            Spacer(Modifier.height(8.dp))
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Button(
-                    onClick = {
-                        autoPlay = false
-                        speakingNow = false
-                        audioPlayer.stop()
-                        if (currentIndex > 0) currentIndex--
-                    },
-                    enabled = currentIndex > 0,
-                    modifier = Modifier.weight(1f).height(54.dp),
-                    contentPadding = PaddingValues(horizontal = 5.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFF2B2730),
-                        contentColor = Color.White,
-                        disabledContainerColor = Color(0xFF1B181E),
-                        disabledContentColor = Color(0xFF726A78)
-                    ),
-                    shape = RoundedCornerShape(17.dp)
-                ) {
-                    Text("← Geri", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+    
+                Spacer(Modifier.height(8.dp))
+    
                 }
 
-                Button(
-                    onClick = {
-                        if (autoPlay) {
+            if (controlsVisible) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Button(
+                        onClick = {
                             autoPlay = false
                             speakingNow = false
                             audioPlayer.stop()
-                        } else {
-                            autoPlay = true
-                        }
-                    },
-                    modifier = Modifier.weight(1.22f).height(58.dp),
-                    contentPadding = PaddingValues(horizontal = 5.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Accent,
-                        contentColor = Color(0xFF2B2100)
-                    ),
-                    shape = RoundedCornerShape(20.dp)
-                ) {
-                    Text(
-                        if (autoPlay) "⏸ Duraklat" else "▶ Başlat",
-                        fontWeight = FontWeight.Black,
-                        fontSize = 14.sp,
-                        textAlign = TextAlign.Center
-                    )
+                            if (currentIndex > 0) currentIndex--
+                        },
+                        enabled = currentIndex > 0,
+                        modifier = Modifier.weight(1f).height(54.dp),
+                        contentPadding = PaddingValues(horizontal = 5.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = Color(0xFF2B2730),
+                            contentColor = Color.White,
+                            disabledContainerColor = Color(0xFF1B181E),
+                            disabledContentColor = Color(0xFF726A78)
+                        ),
+                        shape = RoundedCornerShape(17.dp)
+                    ) {
+                        Text("← Geri", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    }
+    
+                    Button(
+                        onClick = {
+                            if (autoPlay) {
+                                autoPlay = false
+                                speakingNow = false
+                                audioPlayer.stop()
+                            } else {
+                                autoPlay = true
+                            }
+                        },
+                        modifier = Modifier.weight(1.22f).height(58.dp),
+                        contentPadding = PaddingValues(horizontal = 5.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = Accent,
+                            contentColor = Color(0xFF2B2100)
+                        ),
+                        shape = RoundedCornerShape(20.dp)
+                    ) {
+                        Text(
+                            if (autoPlay) "⏸ Duraklat" else "▶ Başlat",
+                            fontWeight = FontWeight.Black,
+                            fontSize = 14.sp,
+                            textAlign = TextAlign.Center
+                        )
+                    }
+    
+                    Button(
+                        onClick = {
+                            autoPlay = false
+                            speakingNow = false
+                            audioPlayer.stop()
+                            if (currentIndex < scene.dialogues.lastIndex) currentIndex++
+                        },
+                        enabled = currentIndex < scene.dialogues.lastIndex,
+                        modifier = Modifier.weight(1f).height(54.dp),
+                        contentPadding = PaddingValues(horizontal = 5.dp),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = Color(0xFF2B2730),
+                            contentColor = Color.White,
+                            disabledContainerColor = Color(0xFF1B181E),
+                            disabledContentColor = Color(0xFF726A78)
+                        ),
+                        shape = RoundedCornerShape(17.dp)
+                    ) {
+                        Text("İleri →", fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                    }
                 }
-
-                Button(
-                    onClick = {
-                        autoPlay = false
-                        speakingNow = false
-                        audioPlayer.stop()
-                        if (currentIndex < scene.dialogues.lastIndex) currentIndex++
-                    },
-                    enabled = currentIndex < scene.dialogues.lastIndex,
-                    modifier = Modifier.weight(1f).height(54.dp),
-                    contentPadding = PaddingValues(horizontal = 5.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFF2B2730),
-                        contentColor = Color.White,
-                        disabledContainerColor = Color(0xFF1B181E),
-                        disabledContentColor = Color(0xFF726A78)
-                    ),
-                    shape = RoundedCornerShape(17.dp)
-                ) {
-                    Text("İleri →", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                }
+    
             }
         }
     }
