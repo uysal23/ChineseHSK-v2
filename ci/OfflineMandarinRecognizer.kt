@@ -2,10 +2,12 @@ package com.ayhan.chineselearning
 
 import android.content.Context
 import android.content.Intent
+import android.media.AudioFormat
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.os.ParcelFileDescriptor
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
@@ -14,6 +16,7 @@ class OfflineMandarinRecognizer(context: Context) {
     private val appContext = context.applicationContext
     private val main = Handler(Looper.getMainLooper())
     private var recognizer: SpeechRecognizer? = null
+    private var audioSource: ParcelFileDescriptor? = null
     private var runId = 0
 
     fun isAvailable(): Boolean =
@@ -22,18 +25,23 @@ class OfflineMandarinRecognizer(context: Context) {
                 SpeechRecognizer.isOnDeviceRecognitionAvailable(appContext))
 
     fun start(
+        source: ParcelFileDescriptor? = null,
         onListening: () -> Unit,
         onResult: (String) -> Unit,
-        onError: (String) -> Unit,
-        onSpeechEnd: () -> Unit = {}
+        onError: (String) -> Unit
     ) {
         runId += 1
         val id = runId
         main.post {
             destroyNow()
-            val onDevice = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
+            audioSource = source
+
+            val useExternalAudio = source != null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
+            val onDevice = !useExternalAudio &&
+                Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
                 SpeechRecognizer.isOnDeviceRecognitionAvailable(appContext)
-            startEngine(id, onDevice, true, onListening, onResult, onError, onSpeechEnd)
+
+            startEngine(id, onDevice, !useExternalAudio, useExternalAudio, onListening, onResult, onError)
         }
     }
 
@@ -41,10 +49,10 @@ class OfflineMandarinRecognizer(context: Context) {
         id: Int,
         onDevice: Boolean,
         allowFallback: Boolean,
+        useExternalAudio: Boolean,
         onListening: () -> Unit,
         onResult: (String) -> Unit,
-        onError: (String) -> Unit,
-        onSpeechEnd: () -> Unit
+        onError: (String) -> Unit
     ) {
         if (id != runId) return
 
@@ -53,6 +61,7 @@ class OfflineMandarinRecognizer(context: Context) {
                 SpeechRecognizer.createOnDeviceSpeechRecognizer(appContext)
             } else {
                 if (!SpeechRecognizer.isRecognitionAvailable(appContext)) {
+                    closeAudioSource()
                     onError("Telefonda konuşma tanıma hizmeti bulunamadı.")
                     return
                 }
@@ -61,9 +70,10 @@ class OfflineMandarinRecognizer(context: Context) {
         } catch (_: Throwable) {
             if (onDevice && allowFallback) {
                 main.postDelayed({
-                    startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
+                    startEngine(id, false, false, useExternalAudio, onListening, onResult, onError)
                 }, 200)
             } else {
+                closeAudioSource()
                 onError("Konuşma tanıma motoru başlatılamadı.")
             }
             return
@@ -75,10 +85,7 @@ class OfflineMandarinRecognizer(context: Context) {
             override fun onBeginningOfSpeech() = Unit
             override fun onRmsChanged(rmsdB: Float) = Unit
             override fun onBufferReceived(buffer: ByteArray?) = Unit
-            override fun onEndOfSpeech() {
-                onSpeechEnd()
-                try { sr.stopListening() } catch (_: Throwable) { }
-            }
+            override fun onEndOfSpeech() = Unit
             override fun onPartialResults(partialResults: Bundle?) = Unit
             override fun onEvent(eventType: Int, params: Bundle?) = Unit
 
@@ -93,20 +100,23 @@ class OfflineMandarinRecognizer(context: Context) {
                     SpeechRecognizer.ERROR_LANGUAGE_UNAVAILABLE
                 )
                 if (onDevice && allowFallback && error in fallbackErrors) {
-                    destroyNow()
+                    destroyRecognizerOnly()
                     main.postDelayed({
-                        startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
+                        startEngine(id, false, false, useExternalAudio, onListening, onResult, onError)
                     }, 300)
                 } else {
+                    closeAudioSource()
                     onError(messageFor(error))
                 }
             }
 
             override fun onResults(results: Bundle?) {
+                if (id != runId) return
                 val best = results
                     ?.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
                     ?.firstOrNull()
                     .orEmpty()
+                closeAudioSource()
                 if (best.isBlank()) onError("Konuşma algılanamadı. Tekrar deneyin.")
                 else onResult(best)
             }
@@ -118,13 +128,21 @@ class OfflineMandarinRecognizer(context: Context) {
             putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, false)
             putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, true)
             putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 5)
-            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS, 900L)
-            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS, 700L)
-            putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS, 400L)
+
+            if (useExternalAudio && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                val sourceNow = audioSource
+                if (sourceNow != null) {
+                    putExtra(RecognizerIntent.EXTRA_AUDIO_SOURCE, sourceNow)
+                    putExtra(RecognizerIntent.EXTRA_AUDIO_SOURCE_CHANNEL_COUNT, UserVoiceRecorder.CHANNEL_COUNT)
+                    putExtra(RecognizerIntent.EXTRA_AUDIO_SOURCE_ENCODING, AudioFormat.ENCODING_PCM_16BIT)
+                    putExtra(RecognizerIntent.EXTRA_AUDIO_SOURCE_SAMPLING_RATE, UserVoiceRecorder.SAMPLE_RATE)
+                }
+            }
         }
 
         try {
             sr.startListening(intent)
+            if (useExternalAudio) onListening()
         } catch (_: SecurityException) {
             destroyNow()
             onError("Mikrofon izni verilmemiş.")
@@ -132,7 +150,7 @@ class OfflineMandarinRecognizer(context: Context) {
             destroyNow()
             if (onDevice && allowFallback) {
                 main.postDelayed({
-                    startEngine(id, false, false, onListening, onResult, onError, onSpeechEnd)
+                    startEngine(id, false, false, useExternalAudio, onListening, onResult, onError)
                 }, 300)
             } else {
                 onError("Konuşma tanıma başlatılamadı. Tekrar deneyin.")
@@ -141,10 +159,10 @@ class OfflineMandarinRecognizer(context: Context) {
     }
 
     private fun messageFor(error: Int): String = when (error) {
-        SpeechRecognizer.ERROR_AUDIO -> "Mikrofon kullanılamıyor."
+        SpeechRecognizer.ERROR_AUDIO -> "Ses analizi başlatılamadı."
         SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS -> "Mikrofon izni verilmemiş."
         SpeechRecognizer.ERROR_NO_MATCH -> "Konuşma anlaşılmadı. Tekrar deneyin."
-        SpeechRecognizer.ERROR_SPEECH_TIMEOUT -> "Ses algılanmadı. Düğmeden sonra konuşun."
+        SpeechRecognizer.ERROR_SPEECH_TIMEOUT -> "Ses algılanmadı. Tekrar deneyin."
         SpeechRecognizer.ERROR_RECOGNIZER_BUSY -> "Konuşma tanıyıcı meşgul. Tekrar deneyin."
         SpeechRecognizer.ERROR_LANGUAGE_NOT_SUPPORTED -> "Mandarin tanıma desteklenmiyor."
         SpeechRecognizer.ERROR_LANGUAGE_UNAVAILABLE -> "Mandarin konuşma modeli telefonda hazır değil."
@@ -156,7 +174,7 @@ class OfflineMandarinRecognizer(context: Context) {
     fun stop() {
         runId += 1
         main.post {
-            try { recognizer?.stopListening() } catch (_: Throwable) { }
+            try { recognizer?.cancel() } catch (_: Throwable) { }
             destroyNow()
         }
     }
@@ -166,10 +184,20 @@ class OfflineMandarinRecognizer(context: Context) {
         main.post { destroyNow() }
     }
 
-    private fun destroyNow() {
+    private fun destroyRecognizerOnly() {
         try { recognizer?.cancel() } catch (_: Throwable) { }
         try { recognizer?.destroy() } catch (_: Throwable) { }
         recognizer = null
+    }
+
+    private fun closeAudioSource() {
+        try { audioSource?.close() } catch (_: Throwable) { }
+        audioSource = null
+    }
+
+    private fun destroyNow() {
+        destroyRecognizerOnly()
+        closeAudioSource()
     }
 }
 
