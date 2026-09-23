@@ -5,6 +5,16 @@ if len(sys.argv) != 2:
     raise SystemExit("usage: patch_source.py <source-root>")
 
 root = Path(sys.argv[1])
+# TEMP voice diagnostics
+for _p in (root / "app" / "src" / "main" / "java").rglob("*.kt"):
+    try:
+        _t = _p.read_text(encoding="utf-8")
+    except Exception:
+        continue
+    if "class DialogueAudioPlayer" in _t or "data class CharacterProfile" in _t or "data class Dialogue" in _t:
+        print("=== VOICE_DIAG_FILE:", _p.name, "===")
+        print(_t)
+        print("=== VOICE_DIAG_END ===")
 gradle = root / "app" / "build.gradle.kts"
 src_dir = root / "app" / "src" / "main" / "java" / "com" / "ayhan" / "chineselearning"
 tts = src_dir / "MandarinTtsPlayer.kt"
