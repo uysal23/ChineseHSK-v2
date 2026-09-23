@@ -26,6 +26,8 @@ learning_screens = src_dir / "LearningScreens.kt"
 app_flow_screens = src_dir / "AppFlowScreens.kt"
 progress_store = src_dir / "ProgressStore.kt"
 admin_session = src_dir / "AdminSession.kt"
+dialogue_audio_player = src_dir / "DialogueAudioPlayer.kt"
+voice_identity_resolver = src_dir / "VoiceIdentityResolver.kt"
 
 g = gradle.read_text(encoding="utf-8")
 g = g.replace("compileSdk = 37", "compileSdk = 36")
@@ -283,6 +285,27 @@ pron = pron.replace(next_anchor, next_replacement, 1)
 ls = ls[:pron_start] + pron + ls[pron_end:]
 learning_screens.write_text(ls, encoding="utf-8")
 
+# Lock dialogue voice identity: use one deterministic TTS profile per speaker and bypass mixed authored/TTS dialogue audio.
+dap = dialogue_audio_player.read_text(encoding="utf-8")
+play_start = dap.find("    fun playDialogue(dialogue: DialogueLine, speed: Float, onDone: (() -> Unit)? = null) {")
+play_end = dap.find("\n    fun playNarrator(", play_start)
+if play_start < 0 or play_end < 0:
+    raise SystemExit("DialogueAudioPlayer.playDialogue block missing")
+play_code = """    fun playDialogue(dialogue: DialogueLine, speed: Float, onDone: (() -> Unit)? = null) {
+        stopAuthoredAudio()
+        val profileId = voiceResolver.profileForSpeaker(dialogue.speaker)
+        val stableCacheId = "VOICE_" + profileId + "_" + dialogue.id
+        tts.playOrCache(stableCacheId, dialogue.zh, profileId, speed, onDone)
+    }
+"""
+dap = dap[:play_start] + play_code + dap[play_end:]
+dialogue_audio_player.write_text(dap, encoding="utf-8")
+
+# Ensure named characters resolve through their manifest voiceProfileId first.
+vir = voice_identity_resolver.read_text(encoding="utf-8")
+if "fun profileForSpeaker" not in vir:
+    raise SystemExit("VoiceIdentityResolver.profileForSpeaker missing")
+
 # Dashboard profile/admin support.
 ps = progress_store.read_text(encoding="utf-8")
 theme_anchor = '''    fun themeMode(): Int = prefs.getInt("setting_theme", THEME_PURPLE).coerceIn(THEME_PURPLE, THEME_LIGHT)
@@ -410,6 +433,7 @@ assert "EXTRA_AUDIO_SOURCE" in recognizer_file.read_text(encoding="utf-8")
 assert "class UserVoiceRecorder" in voice_recorder_file.read_text(encoding="utf-8")
 assert "Kaydımı Dinle" in learning_screens.read_text(encoding="utf-8")
 assert "voiceRecorder.start" in learning_screens.read_text(encoding="utf-8")
+assert "stableCacheId" in dialogue_audio_player.read_text(encoding="utf-8")
 assert "tts.stop()" in learning_screens.read_text(encoding="utf-8")
 assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "AdminSession.active" in learning_screens.read_text(encoding="utf-8")
