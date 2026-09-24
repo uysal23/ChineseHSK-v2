@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC048",
   "level": "HSK3",
   "sourceTitleZh": "咖啡馆一周年",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC048_001",
       "speaker": "刘梅",
-      "zh": "今天就把“咖啡馆一周年”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ kā fēi guǎn yī zhōu nián ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Kafenin İlk Yıldönümü” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“咖啡馆一周年”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ kā fēi guǎn yī zhōu nián ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Kafenin İlk Yıldönümü” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC048_002",

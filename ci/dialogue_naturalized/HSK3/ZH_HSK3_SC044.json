@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC044",
   "level": "HSK3",
   "sourceTitleZh": "雨桐第一次认真想未来",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_001",
       "speaker": "张雨桐",
-      "zh": "今天就把“雨桐第一次认真想未来”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ yǔ tóng dì yī cì rèn zhēn xiǎng wèi lái ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Yutong’un İlk Ciddi Kararı” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“雨桐第一次认真想未来”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yǔ tóng dì yī cì rèn zhēn xiǎng wèi lái ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Yutong’un İlk Ciddi Kararı” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_002",

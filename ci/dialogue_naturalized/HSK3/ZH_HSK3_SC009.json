@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC009",
   "level": "HSK3",
   "sourceTitleZh": "位置很好，房租太高",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC009_001",
       "speaker": "刘梅",
-      "zh": "今天就把“位置很好，房租太高”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ wèi zhì hěn hǎo, fáng zū tài gāo ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “İyi Yer Ama Yüksek Kira” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“位置很好，房租太高”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ wèi zhì hěn hǎo, fáng zū tài gāo ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “İyi Yer Ama Yüksek Kira” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC009_002",

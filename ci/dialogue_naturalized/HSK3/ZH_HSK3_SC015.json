@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC015",
   "level": "HSK3",
   "sourceTitleZh": "老桌子的故事",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_001",
       "speaker": "刘梅",
-      "zh": "今天就把“老桌子的故事”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ lǎo zhuō zi de gù shì ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Eski Masanın Hikâyesi” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“老桌子的故事”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lǎo zhuō zi de gù shì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Eski Masanın Hikâyesi” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC015_002",

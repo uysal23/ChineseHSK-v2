@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC046",
   "level": "HSK3",
   "sourceTitleZh": "社区募捐",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC046_001",
       "speaker": "刘梅",
-      "zh": "今天就把“社区募捐”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ shè qū mù juān ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Mahalle Yardım Kampanyası” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“社区募捐”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ shè qū mù juān ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Mahalle Yardım Kampanyası” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC046_002",

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC047",
   "level": "HSK3",
   "sourceTitleZh": "张伟升职了",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC047_001",
       "speaker": "张伟",
-      "zh": "今天就把“张伟升职了”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ zhāng wěi shēng zhí le ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Zhang’ın Terfisi” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“张伟升职了”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhāng wěi shēng zhí le ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Zhang’ın Terfisi” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC047_002",

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC036",
   "level": "HSK3",
   "sourceTitleZh": "面粉用完了",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_001",
       "speaker": "刘梅",
-      "zh": "今天就把“面粉用完了”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ miàn fěn yòng wán le ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “Malzeme Eksikliği” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“面粉用完了”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ miàn fěn yòng wán le ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “Malzeme Eksikliği” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_002",

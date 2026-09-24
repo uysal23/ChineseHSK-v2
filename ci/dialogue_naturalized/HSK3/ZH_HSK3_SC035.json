@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 4,
+  "naturalizationVersion": 5,
   "sceneId": "ZH_HSK3_SC035",
   "level": "HSK3",
   "sourceTitleZh": "第一个大订单",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_001",
       "speaker": "刘梅",
-      "zh": "今天就把“第一个大订单”这件事好好聊一聊吧。",
-      "pinyin": "Jīn tiān jiù bǎ “ dì yí gè dà dìng dān ” zhè jiàn shì hǎo hǎo liáo yī liáo ba.",
-      "tr": "Bugün “İlk Büyük Sipariş” konusunu açıkça konuşalım."
+      "zh": "今天正好有时间，我们把“第一个大订单”这件事认真聊一聊吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè dà dìng dān ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
+      "tr": "Bugün vaktimiz varken “İlk Büyük Sipariş” konusunu açıkça ve ciddi biçimde konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_002",
