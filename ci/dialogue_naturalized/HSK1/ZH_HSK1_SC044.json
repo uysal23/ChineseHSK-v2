@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC044",
   "level": "HSK1",
   "sourceTitleZh": "乐乐的全家福",
@@ -514,7 +514,7 @@
       "id": "DLG_ZH_HSK1_SC044_073",
       "speaker": "张乐乐",
       "zh": "这个是画吗？",
-      "pinyin": "Zhè gè shì huà ma?",
+      "pinyin": "Zhè ge shì huà ma?",
       "tr": "Bu, resim mı?"
     },
     {

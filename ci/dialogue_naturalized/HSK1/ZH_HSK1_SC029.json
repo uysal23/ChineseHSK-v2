@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC029",
   "level": "HSK1",
   "sourceTitleZh": "工作面试",
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC029_027",
       "speaker": "公司职员",
       "zh": "这个是电脑吗？",
-      "pinyin": "Zhè gè shì diàn nǎo ma?",
+      "pinyin": "Zhè ge shì diàn nǎo ma?",
       "tr": "Bu, bilgisayar mı?"
     },
     {
@@ -626,7 +626,7 @@
       "id": "DLG_ZH_HSK1_SC029_089",
       "speaker": "张伟",
       "zh": "这个是电脑吗？",
-      "pinyin": "Zhè gè shì diàn nǎo ma?",
+      "pinyin": "Zhè ge shì diàn nǎo ma?",
       "tr": "Bu, bilgisayar mı?"
     },
     {

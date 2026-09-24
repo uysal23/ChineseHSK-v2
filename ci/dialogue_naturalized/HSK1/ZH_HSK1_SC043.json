@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC043",
   "level": "HSK1",
   "sourceTitleZh": "雨桐的第一次考试",
@@ -192,28 +192,28 @@
       "id": "DLG_ZH_HSK1_SC043_027",
       "speaker": "张伟",
       "zh": "这是试卷，对吗？",
-      "pinyin": "Zhè shì shì juǎn, duì ma?",
+      "pinyin": "Zhè shì shì juàn, duì ma?",
       "tr": "Bu, sınav kâğıdı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_028",
       "speaker": "张乐乐",
       "zh": "没错，是试卷。",
-      "pinyin": "Méi cuò, shì shì juǎn.",
+      "pinyin": "Méi cuò, shì shì juàn.",
       "tr": "Evet, bu sınav kâğıdı."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_029",
       "speaker": "张雨桐",
       "zh": "试卷呢？",
-      "pinyin": "Shì juǎn ne?",
+      "pinyin": "Shì juàn ne?",
       "tr": "Sınav kâğıdı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_030",
       "speaker": "刘梅",
       "zh": "试卷在这儿。",
-      "pinyin": "Shì juǎn zài zhèr.",
+      "pinyin": "Shì juàn zài zhèr.",
       "tr": "Sınav kâğıdı burada."
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC043_046",
       "speaker": "刘梅",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {
@@ -430,7 +430,7 @@
       "id": "DLG_ZH_HSK1_SC043_061",
       "speaker": "张雨桐",
       "zh": "这个是书吗？",
-      "pinyin": "Zhè gè shì shū ma?",
+      "pinyin": "Zhè ge shì shū ma?",
       "tr": "Bu, kitap mı?"
     },
     {
@@ -465,21 +465,21 @@
       "id": "DLG_ZH_HSK1_SC043_066",
       "speaker": "刘梅",
       "zh": "没错，是试卷。",
-      "pinyin": "Méi cuò, shì shì juǎn.",
+      "pinyin": "Méi cuò, shì shì juàn.",
       "tr": "Evet, bu sınav kâğıdı."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_067",
       "speaker": "张伟",
       "zh": "试卷呢？",
-      "pinyin": "Shì juǎn ne?",
+      "pinyin": "Shì juàn ne?",
       "tr": "Sınav kâğıdı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_068",
       "speaker": "张乐乐",
       "zh": "你看，试卷在这儿。",
-      "pinyin": "Nǐ kàn, shì juǎn zài zhèr.",
+      "pinyin": "Nǐ kàn, shì juàn zài zhèr.",
       "tr": "Sınav kâğıdı burada."
     },
     {
@@ -626,14 +626,14 @@
       "id": "DLG_ZH_HSK1_SC043_089",
       "speaker": "张雨桐",
       "zh": "这是试卷，对吗？",
-      "pinyin": "Zhè shì shì juǎn, duì ma?",
+      "pinyin": "Zhè shì shì juàn, duì ma?",
       "tr": "Bu, sınav kâğıdı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_090",
       "speaker": "刘梅",
       "zh": "没错，是试卷。",
-      "pinyin": "Méi cuò, shì shì juǎn.",
+      "pinyin": "Méi cuò, shì shì juàn.",
       "tr": "Evet, bu sınav kâğıdı."
     },
     {
@@ -647,7 +647,7 @@
       "id": "DLG_ZH_HSK1_SC043_092",
       "speaker": "张乐乐",
       "zh": "试卷在这儿。",
-      "pinyin": "Shì juǎn zài zhèr.",
+      "pinyin": "Shì juàn zài zhèr.",
       "tr": "Sınav kâğıdı burada."
     },
     {

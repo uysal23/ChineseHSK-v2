@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC020",
   "level": "HSK1",
   "sourceTitleZh": "全家福",
@@ -52,7 +52,7 @@
       "id": "DLG_ZH_HSK1_SC020_007",
       "speaker": "张雨桐",
       "zh": "没错，是照片。",
-      "pinyin": "Méi cuò, shì zhào piàn.",
+      "pinyin": "Méi cuò, shì zhào piān.",
       "tr": "Evet, bu fotoğraf."
     },
     {
@@ -66,7 +66,7 @@
       "id": "DLG_ZH_HSK1_SC020_009",
       "speaker": "张伟",
       "zh": "你看，照片在这儿。",
-      "pinyin": "Nǐ kàn, zhào piàn zài zhèr.",
+      "pinyin": "Nǐ kàn, zhào piān zài zhèr.",
       "tr": "Fotoğraf burada."
     },
     {
@@ -129,7 +129,7 @@
       "id": "DLG_ZH_HSK1_SC020_018",
       "speaker": "刘梅",
       "zh": "这个是椅子吗？",
-      "pinyin": "Zhè gè shì yǐ zi ma?",
+      "pinyin": "Zhè ge shì yǐ zi ma?",
       "tr": "Bu, sandalye mı?"
     },
     {
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC020_027",
       "speaker": "张雨桐",
       "zh": "这个是桌子吗？",
-      "pinyin": "Zhè gè shì zhuō zi ma?",
+      "pinyin": "Zhè ge shì zhuō zi ma?",
       "tr": "Bu, masa mı?"
     },
     {
@@ -346,28 +346,28 @@
       "id": "DLG_ZH_HSK1_SC020_049",
       "speaker": "张伟",
       "zh": "这是照片，对吗？",
-      "pinyin": "Zhè shì zhào piàn, duì ma?",
+      "pinyin": "Zhè shì zhào piān, duì ma?",
       "tr": "Bu, fotoğraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC020_050",
       "speaker": "刘梅",
       "zh": "没错，是照片。",
-      "pinyin": "Méi cuò, shì zhào piàn.",
+      "pinyin": "Méi cuò, shì zhào piān.",
       "tr": "Evet, bu fotoğraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC020_051",
       "speaker": "张雨桐",
       "zh": "照片呢？",
-      "pinyin": "Zhào piàn ne?",
+      "pinyin": "Zhào piān ne?",
       "tr": "Fotoğraf nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC020_052",
       "speaker": "张乐乐",
       "zh": "你看，照片在这儿。",
-      "pinyin": "Nǐ kàn, zhào piàn zài zhèr.",
+      "pinyin": "Nǐ kàn, zhào piān zài zhèr.",
       "tr": "Fotoğraf burada."
     },
     {
@@ -521,21 +521,21 @@
       "id": "DLG_ZH_HSK1_SC020_074",
       "speaker": "刘梅",
       "zh": "嗯，对，这是照片。",
-      "pinyin": "Èn, duì, zhè shì zhào piàn.",
+      "pinyin": "Èn, duì, zhè shì zhào piān.",
       "tr": "Evet, bu fotoğraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC020_075",
       "speaker": "张雨桐",
       "zh": "那照片在哪儿？",
-      "pinyin": "Nà zhào piàn zài nǎr?",
+      "pinyin": "Nà zhào piān zài nǎr?",
       "tr": "Fotoğraf nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC020_076",
       "speaker": "张乐乐",
       "zh": "照片在这儿。",
-      "pinyin": "Zhào piàn zài zhèr.",
+      "pinyin": "Zhào piān zài zhèr.",
       "tr": "Fotoğraf burada."
     },
     {
@@ -570,7 +570,7 @@
       "id": "DLG_ZH_HSK1_SC020_081",
       "speaker": "张伟",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
@@ -598,7 +598,7 @@
       "id": "DLG_ZH_HSK1_SC020_085",
       "speaker": "张伟",
       "zh": "这个是椅子吗？",
-      "pinyin": "Zhè gè shì yǐ zi ma?",
+      "pinyin": "Zhè ge shì yǐ zi ma?",
       "tr": "Bu, sandalye mı?"
     },
     {

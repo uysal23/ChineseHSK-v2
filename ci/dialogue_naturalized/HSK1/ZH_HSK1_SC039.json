@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC039",
   "level": "HSK1",
   "sourceTitleZh": "突然下雨了",
@@ -45,7 +45,7 @@
       "id": "DLG_ZH_HSK1_SC039_006",
       "speaker": "刘梅",
       "zh": "这个是雨吗？",
-      "pinyin": "Zhè gè shì yǔ ma?",
+      "pinyin": "Zhè ge shì yǔ ma?",
       "tr": "Bu, yağmur mı?"
     },
     {
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC039_010",
       "speaker": "刘梅",
       "zh": "这个是雨伞吗？",
-      "pinyin": "Zhè gè shì yǔ sǎn ma?",
+      "pinyin": "Zhè ge shì yǔ sǎn ma?",
       "tr": "Bu, şemsiye mı?"
     },
     {
@@ -542,7 +542,7 @@
       "id": "DLG_ZH_HSK1_SC039_077",
       "speaker": "张伟",
       "zh": "这个是雨伞吗？",
-      "pinyin": "Zhè gè shì yǔ sǎn ma?",
+      "pinyin": "Zhè ge shì yǔ sǎn ma?",
       "tr": "Bu, şemsiye mı?"
     },
     {
@@ -570,7 +570,7 @@
       "id": "DLG_ZH_HSK1_SC039_081",
       "speaker": "张伟",
       "zh": "这个是天气吗？",
-      "pinyin": "Zhè gè shì tiān qì ma?",
+      "pinyin": "Zhè ge shì tiān qì ma?",
       "tr": "Bu, hava mı?"
     },
     {

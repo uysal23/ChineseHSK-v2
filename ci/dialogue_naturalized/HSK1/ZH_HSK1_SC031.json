@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC031",
   "level": "HSK1",
   "sourceTitleZh": "上班第一天",
@@ -276,7 +276,7 @@
       "id": "DLG_ZH_HSK1_SC031_039",
       "speaker": "保安",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
@@ -374,7 +374,7 @@
       "id": "DLG_ZH_HSK1_SC031_053",
       "speaker": "张伟",
       "zh": "这个是卡吗？",
-      "pinyin": "Zhè gè shì kǎ ma?",
+      "pinyin": "Zhè ge shì kǎ ma?",
       "tr": "Bu, kart mı?"
     },
     {

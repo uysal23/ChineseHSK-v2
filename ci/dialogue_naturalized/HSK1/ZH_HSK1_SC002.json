@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC002",
   "level": "HSK1",
   "sourceTitleZh": "火车票在哪儿？",
@@ -45,7 +45,7 @@
       "id": "DLG_ZH_HSK1_SC002_006",
       "speaker": "刘梅",
       "zh": "这个是火车票吗？",
-      "pinyin": "Zhè gè shì huǒ chē piào ma?",
+      "pinyin": "Zhè ge shì huǒ chē piào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC002_010",
       "speaker": "刘梅",
       "zh": "这个是包吗？",
-      "pinyin": "Zhè gè shì bāo ma?",
+      "pinyin": "Zhè ge shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
@@ -220,7 +220,7 @@
       "id": "DLG_ZH_HSK1_SC002_031",
       "speaker": "张雨桐",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC002_035",
       "speaker": "张雨桐",
       "zh": "这个是时间吗？",
-      "pinyin": "Zhè gè shì shí jiān ma?",
+      "pinyin": "Zhè ge shì shí jiān ma?",
       "tr": "Bu, zaman mı?"
     },
     {
@@ -346,7 +346,7 @@
       "id": "DLG_ZH_HSK1_SC002_049",
       "speaker": "张伟",
       "zh": "这个是火车票吗？",
-      "pinyin": "Zhè gè shì huǒ chē piào ma?",
+      "pinyin": "Zhè ge shì huǒ chē piào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
@@ -374,7 +374,7 @@
       "id": "DLG_ZH_HSK1_SC002_053",
       "speaker": "张伟",
       "zh": "这个是包吗？",
-      "pinyin": "Zhè gè shì bāo ma?",
+      "pinyin": "Zhè ge shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
@@ -486,7 +486,7 @@
       "id": "DLG_ZH_HSK1_SC002_069",
       "speaker": "张伟",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
@@ -654,7 +654,7 @@
       "id": "DLG_ZH_HSK1_SC002_093",
       "speaker": "张伟",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {

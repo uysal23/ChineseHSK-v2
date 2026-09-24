@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC012",
   "level": "HSK1",
   "sourceTitleZh": "新家的第一个晚上",
@@ -430,7 +430,7 @@
       "id": "DLG_ZH_HSK1_SC012_061",
       "speaker": "刘梅",
       "zh": "这个是桌子吗？",
-      "pinyin": "Zhè gè shì zhuō zi ma?",
+      "pinyin": "Zhè ge shì zhuō zi ma?",
       "tr": "Bu, masa mı?"
     },
     {
@@ -542,7 +542,7 @@
       "id": "DLG_ZH_HSK1_SC012_077",
       "speaker": "刘梅",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
@@ -598,7 +598,7 @@
       "id": "DLG_ZH_HSK1_SC012_085",
       "speaker": "刘梅",
       "zh": "这个是桌子吗？",
-      "pinyin": "Zhè gè shì zhuō zi ma?",
+      "pinyin": "Zhè ge shì zhuō zi ma?",
       "tr": "Bu, masa mı?"
     },
     {
@@ -654,7 +654,7 @@
       "id": "DLG_ZH_HSK1_SC012_093",
       "speaker": "刘梅",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {

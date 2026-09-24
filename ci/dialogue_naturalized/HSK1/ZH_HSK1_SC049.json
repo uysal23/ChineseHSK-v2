@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC049",
   "level": "HSK1",
   "sourceTitleZh": "来新城三个月了",
@@ -430,7 +430,7 @@
       "id": "DLG_ZH_HSK1_SC049_061",
       "speaker": "张伟",
       "zh": "这个是新的吗？",
-      "pinyin": "Zhè gè shì xīn de ma?",
+      "pinyin": "Zhè ge shì xīn de ma?",
       "tr": "Bu, yeni mı?"
     },
     {
@@ -570,7 +570,7 @@
       "id": "DLG_ZH_HSK1_SC049_081",
       "speaker": "张伟",
       "zh": "这个是旧的吗？",
-      "pinyin": "Zhè gè shì jiù de ma?",
+      "pinyin": "Zhè ge shì jiù de ma?",
       "tr": "Bu, eski mı?"
     },
     {
@@ -598,7 +598,7 @@
       "id": "DLG_ZH_HSK1_SC049_085",
       "speaker": "张伟",
       "zh": "这个是新的吗？",
-      "pinyin": "Zhè gè shì xīn de ma?",
+      "pinyin": "Zhè ge shì xīn de ma?",
       "tr": "Bu, yeni mı?"
     },
     {

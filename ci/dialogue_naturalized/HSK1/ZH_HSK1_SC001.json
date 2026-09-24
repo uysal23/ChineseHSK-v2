@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC001",
   "level": "HSK1",
   "sourceTitleZh": "搬家的最后几个箱子",
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC001_035",
       "speaker": "王师傅",
       "zh": "这个是书吗？",
-      "pinyin": "Zhè gè shì shū ma?",
+      "pinyin": "Zhè ge shì shū ma?",
       "tr": "Bu, kitap mı?"
     },
     {
@@ -486,7 +486,7 @@
       "id": "DLG_ZH_HSK1_SC001_069",
       "speaker": "张乐乐",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
@@ -654,7 +654,7 @@
       "id": "DLG_ZH_HSK1_SC001_093",
       "speaker": "张雨桐",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {

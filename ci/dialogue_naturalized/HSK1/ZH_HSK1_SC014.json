@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC014",
   "level": "HSK1",
   "sourceTitleZh": "有人敲门",
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC014_010",
       "speaker": "张伟",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
@@ -542,7 +542,7 @@
       "id": "DLG_ZH_HSK1_SC014_077",
       "speaker": "刘梅",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC034",
   "level": "HSK1",
   "sourceTitleZh": "错过公交车",
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC034_035",
       "speaker": "工作人员",
       "zh": "这个是电话吗？",
-      "pinyin": "Zhè gè shì diàn huà ma?",
+      "pinyin": "Zhè ge shì diàn huà ma?",
       "tr": "Bu, telefon mı?"
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC034_046",
       "speaker": "乘客",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {
@@ -542,7 +542,7 @@
       "id": "DLG_ZH_HSK1_SC034_077",
       "speaker": "张伟",
       "zh": "这个是时间吗？",
-      "pinyin": "Zhè gè shì shí jiān ma?",
+      "pinyin": "Zhè ge shì shí jiān ma?",
       "tr": "Bu, zaman mı?"
     },
     {

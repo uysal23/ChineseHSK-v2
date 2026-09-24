@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC041",
   "level": "HSK1",
   "sourceTitleZh": "咪咪去看兽医",
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC041_027",
       "speaker": "兽医",
       "zh": "这个是药吗？",
-      "pinyin": "Zhè gè shì yào ma?",
+      "pinyin": "Zhè ge shì yào ma?",
       "tr": "Bu, ilaç mı?"
     },
     {
@@ -458,7 +458,7 @@
       "id": "DLG_ZH_HSK1_SC041_065",
       "speaker": "刘梅",
       "zh": "这个是药吗？",
-      "pinyin": "Zhè gè shì yào ma?",
+      "pinyin": "Zhè ge shì yào ma?",
       "tr": "Bu, ilaç mı?"
     },
     {
@@ -626,7 +626,7 @@
       "id": "DLG_ZH_HSK1_SC041_089",
       "speaker": "刘梅",
       "zh": "这个是药吗？",
-      "pinyin": "Zhè gè shì yào ma?",
+      "pinyin": "Zhè ge shì yào ma?",
       "tr": "Bu, ilaç mı?"
     },
     {

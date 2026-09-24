@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK5_SC024",
   "level": "HSK5",
   "sourceTitleZh": "张伟的中年体检",
@@ -23,142 +23,142 @@
     {
       "id": "DLG_ZH_HSK5_SC024_003",
       "speaker": "刘梅",
-      "zh": "对，先把问题定义清楚，后面才好讨论。",
-      "pinyin": "Duì, xiān bǎ wèn tí dìng yì qīng chǔ, hòu miàn cái hǎo tǎo lùn.",
-      "tr": "Evet, önce sorunu net tanımlarsak sonrası daha kolay tartışılır."
+      "zh": "这次我们不能只凭感觉判断，最好把事实、影响和选择都摆出来。",
+      "pinyin": "Zhè cì wǒmen bù néng zhǐ píng gǎnjué pànduàn, zuìhǎo bǎ shìshí, yǐngxiǎng hé xuǎnzé dōu bǎi chūlái.",
+      "tr": "Bu kez yalnızca hislerimize göre karar veremeyiz; olguları, etkileri ve seçenekleri ortaya koymak daha iyi."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_004",
       "speaker": "护士",
-      "zh": "我们也要把不同的影响一起摆出来。",
-      "pinyin": "Wǒ men yě yào bǎ bù tóng de yǐng xiǎng yī qǐ bǎi chū lái.",
-      "tr": "Farklı etkileri de birlikte ortaya koymalıyız."
+      "zh": "我同意，先把问题定义清楚，后面的讨论才有意义。",
+      "pinyin": "Wǒ tóngyì, xiān bǎ wèntí dìngyì qīngchu, hòumiàn de tǎolùn cái yǒu yìyì.",
+      "tr": "Katılıyorum; önce sorunu net tanımlarsak sonraki tartışma anlamlı olur."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_005",
       "speaker": "张伟",
-      "zh": "我觉得预防保健这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé yù fáng bǎo jiàn zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence koruyucu sağlık konusunu da göz ardı etmemeliyiz."
+      "zh": "那我们分别说说最在意的是什么。",
+      "pinyin": "Nà wǒmen fēnbié shuōshuo zuì zàiyì de shì shénme.",
+      "tr": "O zaman herkes en çok neyi önemsediğini söylesin."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_006",
       "speaker": "医生",
-      "zh": "这样才能知道真正需要解决的是什么。",
-      "pinyin": "Zhè yàng cái néng zhī dào zhēn zhèng xū yào jiě jué de shì shén me.",
-      "tr": "Böylece gerçekten neyin çözülmesi gerektiğini anlayabiliriz."
+      "zh": "好，也把能确认的依据一起说出来。",
+      "pinyin": "Hǎo, yě bǎ néng quèrèn de yījù yìqǐ shuō chūlái.",
+      "tr": "Tamam, doğrulayabildiğimiz dayanakları da birlikte söyleyelim."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_007",
       "speaker": "刘梅",
-      "zh": "这一点值得继续确认。",
-      "pinyin": "Zhè yī diǎn zhí dé jì xù què rèn.",
-      "tr": "Bu noktayı teyit etmeye devam etmek gerekiyor."
+      "zh": "关于预防保健，我想再听听大家的看法。",
+      "pinyin": "Guānyú yùfáng bǎojiàn, wǒ xiǎng zài tīngting dàjiā de kànfa.",
+      "tr": "Koruyucu sağlık konusunda herkesin fikrini bir kez daha duymak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_008",
       "speaker": "护士",
-      "zh": "好，先记下来，不急着下结论。",
-      "pinyin": "Hǎo, xiān jì xià lái, bù jí zhe xià jié lùn.",
-      "tr": "Tamam, önce not edelim; hemen sonuca varmayalım."
+      "zh": "这个信息很关键。",
+      "pinyin": "Zhège xìnxī hěn guānjiàn.",
+      "tr": "Bu bilgi çok kritik."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_009",
       "speaker": "张伟",
-      "zh": "说到症状，你怎么看？",
-      "pinyin": "Shuō dào zhèng zhuàng, nǐ zěn me kàn?",
-      "tr": "belirti konusunda ne düşünüyorsun?"
+      "zh": "症状是我们不能忽略的一点。",
+      "pinyin": "Zhèngzhuàng shì wǒmen bù néng hūlüè de yìdiǎn.",
+      "tr": "Belirti göz ardı edemeyeceğimiz bir nokta."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_010",
       "speaker": "医生",
-      "zh": "我觉得先把事实和判断分开比较好。",
-      "pinyin": "Wǒ jué dé xiān bǎ shì shí hé pàn duàn fēn kāi bǐ jiào hǎo.",
-      "tr": "Bence önce olgularla yorumları ayırmak daha iyi."
+      "zh": "这样解释以后，我更理解你的立场了。",
+      "pinyin": "Zhèyàng jiěshì yǐhòu, wǒ gèng lǐjiě nǐ de lìchǎng le.",
+      "tr": "Böyle açıklayınca bakış açını daha iyi anladım."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_011",
       "speaker": "刘梅",
-      "zh": "对，先把问题定义清楚，后面才好讨论。",
-      "pinyin": "Duì, xiān bǎ wèn tí dìng yì qīng chǔ, hòu miàn cái hǎo tǎo lùn.",
-      "tr": "Evet, önce sorunu net tanımlarsak sonrası daha kolay tartışılır."
+      "zh": "我们把血压也列进考虑范围吧。",
+      "pinyin": "Wǒmen bǎ xuèyā yě liè jìn kǎolǜ fànwéi ba.",
+      "tr": "Tansiyon konusunu da değerlendirme kapsamına alalım."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_012",
       "speaker": "护士",
-      "zh": "我们也要把不同的影响一起摆出来。",
-      "pinyin": "Wǒ men yě yào bǎ bù tóng de yǐng xiǎng yī qǐ bǎi chū lái.",
-      "tr": "Farklı etkileri de birlikte ortaya koymalıyız."
+      "zh": "这一点值得继续确认。",
+      "pinyin": "Zhè yìdiǎn zhíde jìxù quèrèn.",
+      "tr": "Bu nokta doğrulanmaya devam edilmeye değer."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_013",
       "speaker": "张伟",
-      "zh": "我觉得血压这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé xuè yā zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence tansiyon konusunu da göz ardı etmemeliyiz."
+      "zh": "如果检查发生变化，计划也得调整。",
+      "pinyin": "Rúguǒ jiǎnchá fāshēng biànhuà, jìhuà yě děi tiáozhěng.",
+      "tr": "Muayene / kontrol değişirse planı da ayarlamak gerekir."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_014",
       "speaker": "医生",
-      "zh": "这样才能知道真正需要解决的是什么。",
-      "pinyin": "Zhè yàng cái néng zhī dào zhēn zhèng xū yào jiě jué de shì shén me.",
-      "tr": "Böylece gerçekten neyin çözülmesi gerektiğini anlayabiliriz."
+      "zh": "我同意先把它列为优先问题。",
+      "pinyin": "Wǒ tóngyì xiān bǎ tā liè wéi yōuxiān wèntí.",
+      "tr": "Bunu öncelikli konu olarak belirlemeye katılıyorum."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_015",
       "speaker": "刘梅",
-      "zh": "这一点值得继续确认。",
-      "pinyin": "Zhè yī diǎn zhí dé jì xù què rèn.",
-      "tr": "Bu noktayı teyit etmeye devam etmek gerekiyor."
+      "zh": "关于健康，我想再听听大家的看法。",
+      "pinyin": "Guānyú jiànkāng, wǒ xiǎng zài tīngting dàjiā de kànfa.",
+      "tr": "Sağlık konusunda herkesin fikrini bir kez daha duymak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_016",
       "speaker": "护士",
-      "zh": "好，先记下来，不急着下结论。",
-      "pinyin": "Hǎo, xiān jì xià lái, bù jí zhe xià jié lùn.",
-      "tr": "Tamam, önce not edelim; hemen sonuca varmayalım."
+      "zh": "这个角度会影响最后的判断。",
+      "pinyin": "Zhège jiǎodù huì yǐngxiǎng zuìhòu de pànduàn.",
+      "tr": "Bu açı nihai değerlendirmeyi etkiler."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_017",
       "speaker": "张伟",
-      "zh": "那这一步要不要先检查一下？",
-      "pinyin": "Nà zhè yī bù yào bù yào xiān jiǎn chá yī xià?",
-      "tr": "O zaman bu adımda önce muayene / kontrol gerekir mi?"
+      "zh": "医生是我们不能忽略的一点。",
+      "pinyin": "Yīshēng shì wǒmen bù néng hūlüè de yìdiǎn.",
+      "tr": "Doktor göz ardı edemeyeceğimiz bir nokta."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_018",
       "speaker": "医生",
-      "zh": "我觉得先把事实和判断分开比较好。",
-      "pinyin": "Wǒ jué dé xiān bǎ shì shí hé pàn duàn fēn kāi bǐ jiào hǎo.",
-      "tr": "Bence önce olgularla yorumları ayırmak daha iyi."
+      "zh": "我们也要看看有没有反面的证据。",
+      "pinyin": "Wǒmen yě yào kànkan yǒu méiyǒu fǎnmiàn de zhèngjù.",
+      "tr": "Ters yönde kanıt olup olmadığına da bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_019",
       "speaker": "刘梅",
-      "zh": "对，先把问题定义清楚，后面才好讨论。",
-      "pinyin": "Duì, xiān bǎ wèn tí dìng yì qīng chǔ, hòu miàn cái hǎo tǎo lùn.",
-      "tr": "Evet, önce sorunu net tanımlarsak sonrası daha kolay tartışılır."
+      "zh": "我们把生活方式也列进考虑范围吧。",
+      "pinyin": "Wǒmen bǎ shēnghuó fāngshì yě liè jìn kǎolǜ fànwéi ba.",
+      "tr": "Yaşam tarzı konusunu da değerlendirme kapsamına alalım."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_020",
       "speaker": "护士",
-      "zh": "我们也要把不同的影响一起摆出来。",
-      "pinyin": "Wǒ men yě yào bǎ bù tóng de yǐng xiǎng yī qǐ bǎi chū lái.",
-      "tr": "Farklı etkileri de birlikte ortaya koymalıyız."
+      "zh": "先记下来，等信息完整一点再决定。",
+      "pinyin": "Xiān jì xiàlái, děng xìnxī wánzhěng yìdiǎn zài juédìng.",
+      "tr": "Şimdilik not edelim, bilgiler biraz daha tamamlanınca karar veririz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_021",
       "speaker": "张伟",
-      "zh": "我觉得健康这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé jiàn kāng zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence sağlık konusunu da göz ardı etmemeliyiz."
+      "zh": "如果风险发生变化，计划也得调整。",
+      "pinyin": "Rúguǒ fēngxiǎn fāshēng biànhuà, jìhuà yě děi tiáozhěng.",
+      "tr": "Risk değişirse planı da ayarlamak gerekir."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_022",
       "speaker": "医生",
-      "zh": "有不同意见没关系，关键是把理由说清楚。",
-      "pinyin": "Yǒu bù tóng yì jiàn méi guān xì, guān jiàn shì bǎ lǐ yóu shuō qīng chǔ.",
-      "tr": "Farklı görüşler sorun değil; önemli olan gerekçeleri açıkça söylemek."
+      "zh": "我觉得这个建议比较稳妥。",
+      "pinyin": "Wǒ juéde zhège jiànyì bǐjiào wěntuǒ.",
+      "tr": "Bence bu öneri oldukça temkinli."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_023",
@@ -499,170 +499,170 @@
     {
       "id": "DLG_ZH_HSK5_SC024_071",
       "speaker": "刘梅",
-      "zh": "如果有新信息，要尽快共享。",
-      "pinyin": "Rú guǒ yǒu xīn xìn xī, yào jǐn kuài gòng xiǎng.",
-      "tr": "Yeni bilgi çıkarsa mümkün olduğunca hızlı paylaşılmalı."
+      "zh": "刚才的事实和风险已经比较清楚了，接下来把决定落下来。",
+      "pinyin": "Gāng cái de shì shí hé fēng xiǎn yǐ jīng bǐ jiào qīng chǔ le, jiē xià lái bǎ jué dìng là xià lái.",
+      "tr": "Olgular ve riskler artık oldukça net; şimdi kararı somutlaştıralım."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_072",
       "speaker": "护士",
-      "zh": "透明一点，反而更容易建立信任。",
-      "pinyin": "Tòu míng yī diǎn, fǎn ér gèng róng yì jiàn lì xìn rèn.",
-      "tr": "Daha şeffaf olmak güven kurmayı kolaylaştırır."
+      "zh": "说到预防保健，你怎么看？",
+      "pinyin": "Shuō dào yù fáng bǎo jiàn, nǐ zěn me kàn?",
+      "tr": "koruyucu sağlık konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK5_SC024_073",
       "speaker": "张伟",
-      "zh": "说到医生，你怎么看？",
-      "pinyin": "Shuō dào yī shēng, nǐ zěn me kàn?",
-      "tr": "doktor konusunda ne düşünüyorsun?"
+      "zh": "我觉得这一点需要先说明白理由。",
+      "pinyin": "Wǒ jué de zhè yì diǎn xū yào xiān shuō míng bái lǐ yóu.",
+      "tr": "Bence önce bunun gerekçesini açıkça anlatmak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_074",
       "speaker": "医生",
-      "zh": "我同意，后面的责任也要分清楚。",
-      "pinyin": "Wǒ tóng yì, hòu miàn de zé rèn yě yào fēn qīng chǔ.",
-      "tr": "Katılıyorum; sonraki sorumlulukları da netleştirmeliyiz."
+      "zh": "对，不然别人很难理解这个决定。",
+      "pinyin": "Duì, bù rán bié rén hěn nán lǐ jiě zhè ge jué dìng.",
+      "tr": "Evet, yoksa başkalarının bu kararı anlaması zor olur."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_075",
       "speaker": "刘梅",
-      "zh": "团队做的决定，也要一起面对结果。",
-      "pinyin": "Tuán duì zuò de jué dìng, yě yào yī qǐ miàn duì jié guǒ.",
-      "tr": "Ekip olarak alınan kararın sonucunu da birlikte karşılamalıyız."
+      "zh": "我觉得症状这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhèng zhuàng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence belirti konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_076",
       "speaker": "护士",
-      "zh": "我会把结论和没解决的问题分别记下来。",
-      "pinyin": "Wǒ huì bǎ jié lùn hé méi jiě jué de wèn tí fēn bié jì xià lái.",
-      "tr": "Sonuçları ve çözülmemiş sorunları ayrı ayrı not edeceğim."
+      "zh": "我们也要看看有没有相反的情况。",
+      "pinyin": "Wǒ men yě yào kàn kàn yǒu méi yǒu xiāng fǎn de qíng kuàng.",
+      "tr": "Ters yönde bir durum olup olmadığına da bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_077",
       "speaker": "张伟",
-      "zh": "我觉得预防保健这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé yù fáng bǎo jiàn zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence koruyucu sağlık konusunu da göz ardı etmemeliyiz."
+      "zh": "如果有，就把它一起放进判断里。",
+      "pinyin": "Rú guǒ yǒu, jiù bǎ tā yì qǐ fàng jìn pàn duàn lǐ.",
+      "tr": "Varsa onu da değerlendirmeye dahil edelim."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_078",
       "speaker": "医生",
-      "zh": "这样下次就不用从头开始。",
-      "pinyin": "Zhè yàng xià cì jiù bù yòng cóng tóu kāi shǐ.",
-      "tr": "Böylece bir dahaki sefere baştan başlamamız gerekmez."
+      "zh": "这样会比只看一个角度稳妥。",
+      "pinyin": "Zhè yàng huì bǐ zhǐ kàn yí gè jiǎo dù wěn tuǒ.",
+      "tr": "Bu, yalnızca tek açıdan bakmaktan daha temkinli olur."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_079",
       "speaker": "刘梅",
-      "zh": "如果有新信息，要尽快共享。",
-      "pinyin": "Rú guǒ yǒu xīn xìn xī, yào jǐn kuài gòng xiǎng.",
-      "tr": "Yeni bilgi çıkarsa mümkün olduğunca hızlı paylaşılmalı."
+      "zh": "说到血压，你怎么看？",
+      "pinyin": "Shuō dào xuè yā, nǐ zěn me kàn?",
+      "tr": "tansiyon konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK5_SC024_080",
       "speaker": "护士",
-      "zh": "透明一点，反而更容易建立信任。",
-      "pinyin": "Tòu míng yī diǎn, fǎn ér gèng róng yì jiàn lì xìn rèn.",
-      "tr": "Daha şeffaf olmak güven kurmayı kolaylaştırır."
+      "zh": "我觉得可以先设一个可以检查的标准。",
+      "pinyin": "Wǒ jué de kě yǐ xiān shè yí gè kě yǐ jiǎn chá de biāo zhǔn.",
+      "tr": "Bence önce kontrol edilebilir bir ölçüt belirleyebiliriz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_081",
       "speaker": "张伟",
-      "zh": "说到症状，你怎么看？",
-      "pinyin": "Shuō dào zhèng zhuàng, nǐ zěn me kàn?",
-      "tr": "belirti konusunda ne düşünüyorsun?"
+      "zh": "对，到时候用结果说话。",
+      "pinyin": "Duì, dào shí hòu yòng jié guǒ shuō huà.",
+      "tr": "Evet, zamanı geldiğinde sonucu esas alırız."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_082",
       "speaker": "医生",
-      "zh": "现在主要事实、风险和选择都比较清楚了。",
-      "pinyin": "Xiàn zài zhǔ yào shì shí、 fēng xiǎn hé xuǎn zé dōu bǐ jiào qīng chǔ le.",
-      "tr": "Artık temel olgular, riskler ve seçenekler oldukça net."
+      "zh": "我觉得先检查一下比较好。",
+      "pinyin": "Wǒ jué de xiān jiǎn chá yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “muayene / kontrol” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_083",
       "speaker": "刘梅",
-      "zh": "我们先按今天确定的优先顺序推进。",
-      "pinyin": "Wǒ men xiān àn jīn tiān què dìng de yōu xiān shùn xù tuī jìn.",
-      "tr": "Bugün belirlediğimiz öncelik sırasına göre ilerleyelim."
+      "zh": "那就把时间和责任也一起定下来。",
+      "pinyin": "Nà jiù bǎ shí jiān hé zé rèn yě yì qǐ dìng xià lái.",
+      "tr": "O zaman zamanlamayı ve sorumlulukları da birlikte belirleyelim."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_084",
       "speaker": "护士",
-      "zh": "如果新信息出现，就及时重新评估。",
-      "pinyin": "Rú guǒ xīn xìn xī chū xiàn, jiù jí shí zhòng xīn píng gū.",
-      "tr": "Yeni bilgi çıkarsa zamanında yeniden değerlendirelim."
+      "zh": "好，这样执行的时候不会互相等。",
+      "pinyin": "Hǎo, zhè yàng zhí xíng de shí hòu bú huì hù xiāng děng.",
+      "tr": "Tamam, böylece uygulama sırasında birbirimizi beklemeyiz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_085",
       "speaker": "张伟",
-      "zh": "我觉得血压这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé xuè yā zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence tansiyon konusunu da göz ardı etmemeliyiz."
+      "zh": "说到健康，你怎么看？",
+      "pinyin": "Shuō dào jiàn kāng, nǐ zěn me kàn?",
+      "tr": "sağlık konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK5_SC024_086",
       "speaker": "医生",
-      "zh": "这样既不会太草率，也不会一直拖下去。",
-      "pinyin": "Zhè yàng jì bù huì tài cǎo lǜ, yě bù huì yī zhí tuō xià qù.",
-      "tr": "Böylece ne fazla aceleci oluruz ne de işi gereksiz uzatırız."
+      "zh": "我还想确认，这个选择会影响到谁。",
+      "pinyin": "Wǒ hái xiǎng què rèn, zhè ge xuǎn zé huì yǐng xiǎng dào shuí.",
+      "tr": "Bu seçimin kimi etkileyeceğini de teyit etmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_087",
       "speaker": "刘梅",
-      "zh": "这次至少是充分讨论以后做的决定。",
-      "pinyin": "Zhè cì zhì shǎo shì chōng fēn tǎo lùn yǐ hòu zuò de jué dìng.",
-      "tr": "Bu karar en azından yeterli bir tartışmadan sonra alındı."
+      "zh": "这个问题很重要，不能只看我们自己。",
+      "pinyin": "Zhè ge wèn tí hěn zhòng yào, bù néng zhǐ kàn wǒ men zì jǐ.",
+      "tr": "Bu önemli bir soru; yalnızca kendimize bakamayız."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_088",
       "speaker": "护士",
-      "zh": "好，那就按计划继续。",
-      "pinyin": "Hǎo, nà jiù àn jì huà jì xù.",
-      "tr": "Tamam, plana göre devam edelim."
+      "zh": "我觉得医生这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yī shēng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence doktor konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_089",
       "speaker": "张伟",
-      "zh": "那这一步要不要先检查一下？",
-      "pinyin": "Nà zhè yī bù yào bù yào xiān jiǎn chá yī xià?",
-      "tr": "O zaman bu adımda önce muayene / kontrol gerekir mi?"
+      "zh": "如果有人有不同意见，就把理由说清楚。",
+      "pinyin": "Rú guǒ yǒu rén yǒu bù tóng yì jiàn, jiù bǎ lǐ yóu shuō qīng chǔ.",
+      "tr": "Farklı görüşü olan varsa gerekçesini açıkça anlatsın."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_090",
       "speaker": "医生",
-      "zh": "现在主要事实、风险和选择都比较清楚了。",
-      "pinyin": "Xiàn zài zhǔ yào shì shí、 fēng xiǎn hé xuǎn zé dōu bǐ jiào qīng chǔ le.",
-      "tr": "Artık temel olgular, riskler ve seçenekler oldukça net."
+      "zh": "对，分歧本身不是问题。",
+      "pinyin": "Duì, fēn qí běn shēn bú shì wèn tí.",
+      "tr": "Evet, görüş ayrılığının kendisi sorun değildir."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_091",
       "speaker": "刘梅",
-      "zh": "我们先按今天确定的优先顺序推进。",
-      "pinyin": "Wǒ men xiān àn jīn tiān què dìng de yōu xiān shùn xù tuī jìn.",
-      "tr": "Bugün belirlediğimiz öncelik sırasına göre ilerleyelim."
+      "zh": "说到预防保健，你怎么看？",
+      "pinyin": "Shuō dào yù fáng bǎo jiàn, nǐ zěn me kàn?",
+      "tr": "koruyucu sağlık konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK5_SC024_092",
       "speaker": "护士",
-      "zh": "如果新信息出现，就及时重新评估。",
-      "pinyin": "Rú guǒ xīn xìn xī chū xiàn, jiù jí shí zhòng xīn píng gū.",
-      "tr": "Yeni bilgi çıkarsa zamanında yeniden değerlendirelim."
+      "zh": "我觉得现在已经可以做一个暂时的决定了。",
+      "pinyin": "Wǒ jué de xiàn zài yǐ jīng kě yǐ zuò yí gè zàn shí de jué dìng le.",
+      "tr": "Bence artık geçici bir karar verebiliriz."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_093",
       "speaker": "张伟",
-      "zh": "我觉得健康这一点也不能忽略。",
-      "pinyin": "Wǒ jué dé jiàn kāng zhè yī diǎn yě bù néng hū lüè.",
-      "tr": "Bence sağlık konusunu da göz ardı etmemeliyiz."
+      "zh": "那就设一个复查时间，之后再评估。",
+      "pinyin": "Nà jiù shè yí gè fù chá shí jiān, zhī hòu zài píng gū.",
+      "tr": "O zaman bir yeniden değerlendirme zamanı belirleyelim."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_094",
       "speaker": "医生",
-      "zh": "这样既不会太草率，也不会一直拖下去。",
-      "pinyin": "Zhè yàng jì bù huì tài cǎo lǜ, yě bù huì yī zhí tuō xià qù.",
-      "tr": "Böylece ne fazla aceleci oluruz ne de işi gereksiz uzatırız."
+      "zh": "好，这样既不草率，也不会一直拖下去。",
+      "pinyin": "Hǎo, zhè yàng jì bù cǎo shuài, yě bú huì yì zhí tuō xià qù.",
+      "tr": "Tamam, böylece ne aceleci oluruz ne de işi sürekli uzatırız."
     },
     {
       "id": "DLG_ZH_HSK5_SC024_095",

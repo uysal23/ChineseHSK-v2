@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC005",
   "level": "HSK1",
   "sourceTitleZh": "丢失的玩具",
@@ -45,7 +45,7 @@
       "id": "DLG_ZH_HSK1_SC005_006",
       "speaker": "张雨桐",
       "zh": "这个是玩具吗？",
-      "pinyin": "Zhè gè shì wán jù ma?",
+      "pinyin": "Zhè ge shì wán jù ma?",
       "tr": "Bu, oyuncak mı?"
     },
     {
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC005_010",
       "speaker": "张雨桐",
       "zh": "这个是座位吗？",
-      "pinyin": "Zhè gè shì zuò wèi ma?",
+      "pinyin": "Zhè ge shì zuò wèi ma?",
       "tr": "Bu, koltuk / oturma yeri mı?"
     },
     {
@@ -129,7 +129,7 @@
       "id": "DLG_ZH_HSK1_SC005_018",
       "speaker": "张雨桐",
       "zh": "这个是包吗？",
-      "pinyin": "Zhè gè shì bāo ma?",
+      "pinyin": "Zhè ge shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC005_027",
       "speaker": "刘梅",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
@@ -542,7 +542,7 @@
       "id": "DLG_ZH_HSK1_SC005_077",
       "speaker": "张乐乐",
       "zh": "这个是座位吗？",
-      "pinyin": "Zhè gè shì zuò wèi ma?",
+      "pinyin": "Zhè ge shì zuò wèi ma?",
       "tr": "Bu, koltuk / oturma yeri mı?"
     },
     {

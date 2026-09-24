@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC022",
   "level": "HSK1",
   "sourceTitleZh": "新班级",
@@ -276,7 +276,7 @@
       "id": "DLG_ZH_HSK1_SC022_039",
       "speaker": "同学",
       "zh": "这个是书吗？",
-      "pinyin": "Zhè gè shì shū ma?",
+      "pinyin": "Zhè ge shì shū ma?",
       "tr": "Bu, kitap mı?"
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC022_046",
       "speaker": "张雨桐",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {

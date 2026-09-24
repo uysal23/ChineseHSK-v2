@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC013",
   "level": "HSK1",
   "sourceTitleZh": "咪咪在柜子旁边",
@@ -45,7 +45,7 @@
       "id": "DLG_ZH_HSK1_SC013_006",
       "speaker": "刘梅",
       "zh": "这个是猫吗？",
-      "pinyin": "Zhè gè shì māo ma?",
+      "pinyin": "Zhè ge shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
@@ -129,7 +129,7 @@
       "id": "DLG_ZH_HSK1_SC013_018",
       "speaker": "刘梅",
       "zh": "这个是桌子吗？",
-      "pinyin": "Zhè gè shì zhuō zi ma?",
+      "pinyin": "Zhè ge shì zhuō zi ma?",
       "tr": "Bu, masa mı?"
     },
     {
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC013_027",
       "speaker": "张雨桐",
       "zh": "这个是椅子吗？",
-      "pinyin": "Zhè gè shì yǐ zi ma?",
+      "pinyin": "Zhè ge shì yǐ zi ma?",
       "tr": "Bu, sandalye mı?"
     },
     {

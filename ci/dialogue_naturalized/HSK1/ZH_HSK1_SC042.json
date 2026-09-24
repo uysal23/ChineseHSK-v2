@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC042",
   "level": "HSK1",
   "sourceTitleZh": "在宠物店买东西",
@@ -192,7 +192,7 @@
       "id": "DLG_ZH_HSK1_SC042_027",
       "speaker": "店员",
       "zh": "这个是元吗？",
-      "pinyin": "Zhè gè shì yuán ma?",
+      "pinyin": "Zhè ge shì yuán ma?",
       "tr": "Bu, yuan mı?"
     },
     {
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC042_035",
       "speaker": "店员",
       "zh": "这个是包吗？",
-      "pinyin": "Zhè gè shì bāo ma?",
+      "pinyin": "Zhè ge shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
@@ -430,7 +430,7 @@
       "id": "DLG_ZH_HSK1_SC042_061",
       "speaker": "刘梅",
       "zh": "这个是钱吗？",
-      "pinyin": "Zhè gè shì qián ma?",
+      "pinyin": "Zhè ge shì qián ma?",
       "tr": "Bu, para mı?"
     },
     {

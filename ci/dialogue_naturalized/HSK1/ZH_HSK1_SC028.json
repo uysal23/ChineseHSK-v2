@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC028",
   "level": "HSK1",
   "sourceTitleZh": "面试前的准备",
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC028_010",
       "speaker": "刘梅",
       "zh": "这个是衬衫吗？",
-      "pinyin": "Zhè gè shì chèn shān ma?",
+      "pinyin": "Zhè ge shì chèn shān ma?",
       "tr": "Bu, gömlek mı?"
     },
     {
@@ -346,7 +346,7 @@
       "id": "DLG_ZH_HSK1_SC028_049",
       "speaker": "张伟",
       "zh": "这个是衣服吗？",
-      "pinyin": "Zhè gè shì yī fú ma?",
+      "pinyin": "Zhè ge shì yī fú ma?",
       "tr": "Bu, kıyafet mı?"
     },
     {
@@ -374,7 +374,7 @@
       "id": "DLG_ZH_HSK1_SC028_053",
       "speaker": "张伟",
       "zh": "这个是衬衫吗？",
-      "pinyin": "Zhè gè shì chèn shān ma?",
+      "pinyin": "Zhè ge shì chèn shān ma?",
       "tr": "Bu, gömlek mı?"
     },
     {

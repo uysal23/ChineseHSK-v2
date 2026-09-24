@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC015",
   "level": "HSK1",
   "sourceTitleZh": "请邻居喝茶",
@@ -458,7 +458,7 @@
       "id": "DLG_ZH_HSK1_SC015_065",
       "speaker": "刘梅",
       "zh": "这个是杯子吗？",
-      "pinyin": "Zhè gè shì bēi zi ma?",
+      "pinyin": "Zhè ge shì bēi zi ma?",
       "tr": "Bu, bardak mı?"
     },
     {

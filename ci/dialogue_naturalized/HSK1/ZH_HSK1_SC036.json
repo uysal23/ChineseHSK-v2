@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC036",
   "level": "HSK1",
   "sourceTitleZh": "孩子们一起玩",
@@ -129,7 +129,7 @@
       "id": "DLG_ZH_HSK1_SC036_018",
       "speaker": "小朋友",
       "zh": "这个是球吗？",
-      "pinyin": "Zhè gè shì qiú ma?",
+      "pinyin": "Zhè ge shì qiú ma?",
       "tr": "Bu, top mı?"
     },
     {
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC036_035",
       "speaker": "张雨桐",
       "zh": "这个是椅子吗？",
-      "pinyin": "Zhè gè shì yǐ zi ma?",
+      "pinyin": "Zhè ge shì yǐ zi ma?",
       "tr": "Bu, sandalye mı?"
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC036_046",
       "speaker": "小朋友",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {

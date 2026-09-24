@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC021",
   "level": "HSK1",
   "sourceTitleZh": "新高中的校门",
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC021_035",
       "speaker": "工作人员",
       "zh": "这个是门吗？",
-      "pinyin": "Zhè gè shì mén ma?",
+      "pinyin": "Zhè ge shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
@@ -276,7 +276,7 @@
       "id": "DLG_ZH_HSK1_SC021_039",
       "speaker": "工作人员",
       "zh": "这个是班吗？",
-      "pinyin": "Zhè gè shì bān ma?",
+      "pinyin": "Zhè ge shì bān ma?",
       "tr": "Bu, sınıf / şube mı?"
     },
     {

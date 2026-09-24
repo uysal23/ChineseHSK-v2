@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC017",
   "level": "HSK1",
   "sourceTitleZh": "第一次去超市",
@@ -248,7 +248,7 @@
       "id": "DLG_ZH_HSK1_SC017_035",
       "speaker": "张乐乐",
       "zh": "这个是包吗？",
-      "pinyin": "Zhè gè shì bāo ma?",
+      "pinyin": "Zhè ge shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC017_046",
       "speaker": "张伟",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {

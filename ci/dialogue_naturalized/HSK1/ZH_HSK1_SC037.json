@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 3,
+  "naturalizationVersion": 4,
   "sceneId": "ZH_HSK1_SC037",
   "level": "HSK1",
   "sourceTitleZh": "公园里的星期天",
@@ -73,7 +73,7 @@
       "id": "DLG_ZH_HSK1_SC037_010",
       "speaker": "刘梅",
       "zh": "这个是天气吗？",
-      "pinyin": "Zhè gè shì tiān qì ma?",
+      "pinyin": "Zhè ge shì tiān qì ma?",
       "tr": "Bu, hava mı?"
     },
     {
@@ -101,7 +101,7 @@
       "id": "DLG_ZH_HSK1_SC037_014",
       "speaker": "刘梅",
       "zh": "这个是树吗？",
-      "pinyin": "Zhè gè shì shù ma?",
+      "pinyin": "Zhè ge shì shù ma?",
       "tr": "Bu, ağaç mı?"
     },
     {
@@ -325,7 +325,7 @@
       "id": "DLG_ZH_HSK1_SC037_046",
       "speaker": "刘梅",
       "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "pinyin": "Méi shì, bú kè qì.",
       "tr": "Rica ederim."
     },
     {
@@ -374,7 +374,7 @@
       "id": "DLG_ZH_HSK1_SC037_053",
       "speaker": "张伟",
       "zh": "这个是天气吗？",
-      "pinyin": "Zhè gè shì tiān qì ma?",
+      "pinyin": "Zhè ge shì tiān qì ma?",
       "tr": "Bu, hava mı?"
     },
     {
@@ -402,7 +402,7 @@
       "id": "DLG_ZH_HSK1_SC037_057",
       "speaker": "张伟",
       "zh": "这个是树吗？",
-      "pinyin": "Zhè gè shì shù ma?",
+      "pinyin": "Zhè ge shì shù ma?",
       "tr": "Bu, ağaç mı?"
     },
     {
@@ -486,7 +486,7 @@
       "id": "DLG_ZH_HSK1_SC037_069",
       "speaker": "张伟",
       "zh": "这个是球吗？",
-      "pinyin": "Zhè gè shì qiú ma?",
+      "pinyin": "Zhè ge shì qiú ma?",
       "tr": "Bu, top mı?"
     },
     {
@@ -570,7 +570,7 @@
       "id": "DLG_ZH_HSK1_SC037_081",
       "speaker": "张伟",
       "zh": "这个是树吗？",
-      "pinyin": "Zhè gè shì shù ma?",
+      "pinyin": "Zhè ge shì shù ma?",
       "tr": "Bu, ağaç mı?"
     },
     {
