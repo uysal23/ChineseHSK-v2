@@ -20,17 +20,17 @@ class UserVoiceRecorder(context: Context) {
         const val CHANNEL_COUNT = 1
         const val ENCODING = AudioFormat.ENCODING_PCM_16BIT
 
-        private const val MAX_CAPTURE_MS = 10_000L
-        private const val NO_SPEECH_TIMEOUT_MS = 4_500L
-        private const val ARMING_MS = 250L
-        private const val MIN_CAPTURE_MS = 700L
-        private const val END_SILENCE_MS = 850L
-        private const val VOICE_CONFIRM_MS = 120L
-        private const val MIN_VOICE_RMS_THRESHOLD = 320.0
-        private const val NOISE_MULTIPLIER = 2.0
-        private const val TRAILING_NOISE_MULTIPLIER = 1.35
-        private const val TRAILING_PEAK_RATIO = 0.16
-        private const val CALIBRATION_RMS_CAP = 450.0
+        private const val MAX_CAPTURE_MS = 8_000L
+        private const val NO_SPEECH_TIMEOUT_MS = 3_500L
+        private const val ARMING_MS = 200L
+        private const val MIN_CAPTURE_MS = 650L
+        private const val END_SILENCE_MS = 700L
+        private const val VOICE_CONFIRM_MS = 100L
+        private const val MIN_VOICE_RMS_THRESHOLD = 260.0
+        private const val NOISE_MULTIPLIER = 1.55
+        private const val TRAILING_NOISE_MULTIPLIER = 1.25
+        private const val TRAILING_PEAK_RATIO = 0.26
+        private const val CALIBRATION_RMS_CAP = 2_000.0
     }
 
     private val appContext = context.applicationContext
@@ -89,8 +89,8 @@ class UserVoiceRecorder(context: Context) {
 
             val thread = Thread({
                 var heardSpeech = false
-                var lastVoiceAt = 0L
                 var voicedAccumulatedMs = 0L
+                var silenceAccumulatedMs = 0L
                 var peakVoiceRms = 0.0
                 var noiseFloorRms = 180.0
                 var noiseSamples = 0
@@ -140,21 +140,31 @@ class UserVoiceRecorder(context: Context) {
                                     startThreshold
                                 }
 
-                                if (rms >= activeThreshold) {
-                                    peakVoiceRms = maxOf(peakVoiceRms, rms)
-                                    voicedAccumulatedMs += chunkMs
-                                    lastVoiceAt = now
-                                } else if (!heardSpeech) {
-                                    voicedAccumulatedMs = (voicedAccumulatedMs - chunkMs).coerceAtLeast(0L)
-                                }
+                                if (!heardSpeech) {
+                                    if (rms >= startThreshold) {
+                                        peakVoiceRms = maxOf(peakVoiceRms, rms)
+                                        voicedAccumulatedMs += chunkMs
+                                    } else {
+                                        voicedAccumulatedMs = (voicedAccumulatedMs - chunkMs).coerceAtLeast(0L)
+                                    }
 
-                                if (!heardSpeech && voicedAccumulatedMs >= VOICE_CONFIRM_MS) {
-                                    heardSpeech = true
-                                    lastVoiceAt = now
+                                    if (voicedAccumulatedMs >= VOICE_CONFIRM_MS) {
+                                        heardSpeech = true
+                                        silenceAccumulatedMs = 0L
+                                    }
+                                } else {
+                                    if (rms >= activeThreshold) {
+                                        peakVoiceRms = maxOf(peakVoiceRms, rms)
+                                        // A short noise spike must not reset the entire silence window.
+                                        silenceAccumulatedMs =
+                                            (silenceAccumulatedMs - (chunkMs * 2)).coerceAtLeast(0L)
+                                    } else {
+                                        silenceAccumulatedMs += chunkMs
+                                    }
                                 }
                             }
 
-                            if (heardSpeech && elapsed >= MIN_CAPTURE_MS && now - lastVoiceAt >= END_SILENCE_MS) {
+                            if (heardSpeech && elapsed >= MIN_CAPTURE_MS && silenceAccumulatedMs >= END_SILENCE_MS) {
                                 break
                             }
                             if (!heardSpeech && elapsed >= NO_SPEECH_TIMEOUT_MS) {
