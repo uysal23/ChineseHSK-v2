@@ -96,6 +96,17 @@ jobs:
               raise SystemExit("No dialogue-bearing files detected.")
           PY
 
+          PROJECT="$(find "$RAW" -type f -path '*/scripts/compile_authoring.py' -printf '%h/..\n' | head -n 1)"
+          test -n "$PROJECT"
+          PROJECT="$(cd "$PROJECT" && pwd)"
+          mkdir -p ci/dialogue_source_snapshot/scripts
+          for name in compile_authoring.py validate_content.py audit_content_quality.py validate_app_flow.py; do
+            if [ -f "$PROJECT/scripts/$name" ]; then
+              cp "$PROJECT/scripts/$name" "ci/dialogue_source_snapshot/scripts/$name"
+            fi
+          done
+          test -f ci/dialogue_source_snapshot/scripts/compile_authoring.py
+
       - name: Commit snapshot
         shell: bash
         run: |
