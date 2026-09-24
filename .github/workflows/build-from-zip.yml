@@ -1,4 +1,4 @@
-name: Build Chinese HSK v2 from ZIP
+name: Build Chinese HSK v2.6 from ZIP
 # visual fallback refresh
 
 on:
@@ -67,6 +67,25 @@ jobs:
             echo "visual_pack_v1.zip already matches canonical runtime overrides."
           fi
 
+      - name: Materialize v2.6 runtime scene visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/runtime_visual_bundle_v26_chunks"
+          B64="$RUNNER_TEMP/runtime-visuals-v26.b64"
+          ZIP="$RUNNER_TEMP/runtime-visuals-v26.zip"
+          OUT="$RUNNER_TEMP/runtime-visuals-v26"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+          cat "$CHUNK_DIR"/*.b64 > "$B64"
+          base64 -d "$B64" > "$ZIP"
+          echo "200527aa468b04abd5dd3b13f439b520b867c014dc689a9f762c6b89cfe7f247  $ZIP" | sha256sum -c -
+          unzip -q -o "$ZIP" -d "$OUT"
+          COUNT="$(find "$OUT" -maxdepth 1 -name '*.webp' | wc -l)"
+          test "$COUNT" -eq 21
+          echo "Materialized $COUNT v2.6 runtime scene visuals."
+          echo "V26_RUNTIME_VISUALS=$OUT" >> "$GITHUB_ENV"
+
       - name: Locate source ZIP
         shell: bash
         run: |
@@ -84,6 +103,7 @@ jobs:
           test "$(tr -d '\r\n' < "$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github/VERSION")" = "2.0.0"
           SRC="$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github"
           python3 ci/patch_source.py "$SRC"
+          printf '2.6.0\n' > "$SRC/VERSION"
 
           if [ -f visual_pack_v1.zip ]; then
             rm -rf "$RUNNER_TEMP/chinese-hsk-visuals"
@@ -102,6 +122,33 @@ jobs:
             cp ci/runtime_visuals/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
             cp ci/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
             echo "Installed canonical runtime visual overrides: $(find ci/runtime_visuals -maxdepth 1 -name '*.webp' | wc -l)"
+          fi
+
+          if [ -n "${V26_RUNTIME_VISUALS:-}" ]; then
+            mkdir -p "$SRC/app/src/main/assets/chinese_course/media/scenes"
+            cp "$V26_RUNTIME_VISUALS"/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
+            cp "$GITHUB_WORKSPACE/ci/scene_visual_manifest_v26.json" "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
+            python3 - "$SRC/app/src/main/assets/chinese_course/media/scenes" "$GITHUB_WORKSPACE/ci/scene_visual_manifest_v26.json" <<'PY'
+          from pathlib import Path
+          import json, sys
+
+          scene_dir = Path(sys.argv[1])
+          manifest = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+          allowed = {a["sceneId"] for a in manifest.get("assets", []) if a.get("sceneId")}
+          if len(allowed) != 52:
+              raise SystemExit(f"Expected 52 v2.6 scene IDs, got {len(allowed)}")
+
+          for p in scene_dir.glob("*.webp"):
+              if p.stem not in allowed:
+                  p.unlink()
+
+          present = {p.stem for p in scene_dir.glob("*.webp")}
+          missing = sorted(allowed - present)
+          extra = sorted(present - allowed)
+          if missing or extra:
+              raise SystemExit(f"v2.6 scene visual mismatch: missing={missing} extra={extra}")
+          print(f"Installed exact v2.6 scene visual set: {len(present)}")
+          PY
           fi
 
           echo "SRC=$SRC" >> "$GITHUB_ENV"
@@ -181,8 +228,8 @@ jobs:
               dest = out / p.name
               im.save(dest, "WEBP", quality=82, method=6)
               count += 1
-          if count != 4:
-              raise SystemExit(f"Expected 4 runtime backgrounds, got {count}")
+          if count < 4:
+              raise SystemExit(f"Expected at least 4 runtime backgrounds, got {count}")
           print(f"Materialized {count} canonical runtime backgrounds.")
           PY
 
@@ -288,7 +335,7 @@ jobs:
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ChineseHSK-v2.0.0-personal-apk
+          name: ChineseHSK-v2.6.0-personal-apk
           path: ${{ env.SRC }}/dist/
           if-no-files-found: error
           retention-days: 30

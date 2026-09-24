@@ -1,33 +1,50 @@
 # ChineseHSK-v2 Görsel Süreklilik Kılavuzu
 
-## Canonical ana aile
-- Zhang Wei: kısa koyu saç, siyah dikdörtgen gözlük, mavi/lacivert dış katman.
-- Liu Mei: uzun koyu kahverengi saç, krem/bej sıcak tonlar.
-- Yutong: uzun koyu saç, pembe/mor palet; HSK seviyesi ilerledikçe kontrollü yaşlandır.
-- Lele: kısa koyu saç, mavi/yeşil palet; HSK seviyesi ilerledikçe kontrollü yaşlandır.
-- Mimi: turuncu-beyaz tekir kedi.
-- Büyükanne/Büyükbaba: HSK4+; gri saç, sıcak yüz oranları, aynı 3D/2.5D dünya.
+## Final görsel kuralı
+- 9:16 dikey, tam ekran sahne sanatı.
+- Uygulama butonları, altyazı, Pinyin/Türkçe, konuşma balonu görsele gömülmez.
+- Doğal çevre tabelaları olabilir; ders/UI metni olamaz.
+- Konuşan karakterin %8–10 büyümesi ve ağız animasyonu uygulama katmanında yapılır.
 
-## Değişmez final kuralları
-- 9:16 tam ekran, sinematik 3D/2.5D çizgi-film.
-- Ders UI'si, Pinyin/Türkçe altyazı ve konuşma balonları görsele gömülmez.
-- Doğal mekân tabelaları olabilir.
-- Konuşan karakterin %8–10 büyümesi ve ağız hareketi uygulama katmanında yapılır.
-- Aynı karakterin yüz, saç, ten, ana kıyafet paleti ve yaş dönemi korunur.
-- HSK5–6 için HSK1–3 çocuk görselleri tekrar kullanılmaz; yaşlandırılmış canonical set gerekir.
+## Canonical ana aile (erken/orta dönem)
+- **Zhang Wei:** kısa koyu saç, siyah dikdörtgen gözlük, mavi/lacivert dış katman.
+- **Liu Mei:** uzun koyu kahverengi saç, krem/bej sıcak tonlar.
+- **Yutong:** uzun koyu saç, pembe/mor palet; HSK ilerledikçe kontrollü yaşlandır.
+- **Lele:** kısa koyu saç, mavi/yeşil palet; HSK ilerledikçe kontrollü yaşlandır.
+- **Mimi:** turuncu-beyaz tekir.
+- **Büyükanne/Büyükbaba:** HSK4+; gri saç, aynı yüz oranları ve sıcak stil.
 
-## Statüler
-- FINAL_SELECTED: doğrudan sceneId'ye bağlı final asset.
-- FAMILY_REFERENCE: aynı aile/stil; final eşleme veya yaş kontrolü bekliyor.
-- HOLD_CAST_MISMATCH: kaliteli ama canonical yüz/yaş setine uymuyor; uygulamaya girmez.
-- UI_REFERENCE_ONLY: UI tasarım referansı.
-- REJECT_UNRELATED: uygulama sahnesi değil.
+## Dönem kilidi
+- HSK1–2: çocuklar daha küçük; ev/okul/mahalle başlangıç dönemi.
+- HSK3: kafe kuruluş dönemi; karakter yüzleri aynı, yaş ilerlemesi hafif.
+- HSK4: büyükanne/büyükbaba ve ergenlik dönemi; yaş ilerlemesi görünür.
+- HSK5–6: erken dönem çocuk görselleri **yeniden kullanılmaz**; yeni yaşlandırılmış canonical set üretilecek.
 
-## Yeni sahne görseli kabul kapısı
+## Tutarlılık kararı
+- `FINAL_SELECTED`: doğrudan sahneye bağlı ve canonical kimlikle uyumlu.
+- `FAMILY_REFERENCE`: doğru stil/karakter ailesinde ancak final eşleme veya yaş kontrolü bekliyor.
+- `HOLD_CAST_MISMATCH`: kaliteli fakat başka yüz/yaş seti; uygulamaya konmaz, yalnız referans.
+- `UI_REFERENCE_ONLY`: tasarım referansı; sahne asset'i değildir.
+- `REJECT_UNRELATED`: uygulama dışı/alakasız.
 
-- FINAL_SELECTED yapılmadan önce sahnenin gerçek `sceneId`, `locationId` ve `production.characters` alanları kaynak JSON'dan doğrulanır.
-- Sahne görseli Android dikey kullanım standardında **9:16** hazırlanır; yatay 16:9 görseller runtime sahne görseli olarak seçilmez.
-- Zhang ailesi kanonundaki sahnelere Li Wei/Elif gibi alternatif bir cast bağlanmaz; bu tür görseller yalnızca `HOLD_CAST_MISMATCH` referansı olabilir.
-- Görsel, sahnenin olayını ve karakter listesini gerçekten göstermiyorsa aynı konuyu çağrıştırsa bile FINAL_SELECTED yapılamaz.
-- Yeni final görsel mevcut `chinese_course/media/scenes/{sceneId}.webp` dosyasını ancak aynı sahne için açıkça daha doğru bir kanonik görselse değiştirebilir.
 
+## v2.4 Görsel Kalıp Kilidi
+
+- ALT_TRAVEL_CAST sahnelerinde aynı iki ana genç karakterin yüz geometrisi, saç biçimi, yaş görünümü ve temel kıyafet paleti korunacaktır.
+- Erkek: kısa dağınık siyah saç, bej açık gömlek/ceket, beyaz tişört, mavi jean, siyah sırt çantası.
+- Kadın: omuz hizasında koyu saç ve perçem, açık mavi hırka, beyaz gömlek, lacivert etek, krem çapraz çanta, beyaz spor ayakkabı.
+- Görsel dil: 9:16, sinematik 3D/2.5D anime-gerçekçilik, sıcak doğal ışık, temiz doygun renkler, yumuşak alan derinliği.
+- Aynı continuity grubunda farklı yüz stili, farklı çizim tekniği, foto-gerçekçi/karikatür karışımı veya rastgele kıyafet değişimi kullanılmayacaktır.
+
+
+## v2.5 Yeni Eklemeler
+
+- Bu turda eczane, postane, otobüs, sinema ve telefon mağazası sahneleri de ALT_TRAVEL_CAST continuity grubuna dahil edildi.
+- Aynı iki ana genç karakterin kilitli yüz ve kıyafet kalıbı korunmaya devam eder.
+
+
+## v2.6 Kıyafet Kuralı
+
+- ALT_TRAVEL_CAST continuity grubunda kadın karakterlerde mini etek kullanılmayacaktır.
+- Kadın karakter alt giyiminde diz hizası veya daha uzun etek, pantolon ya da uzun şort tercih edilir.
+- Önceki sahnelerde aynı karakterin kıyafet silüeti mümkün olduğunca korunur; ani stil kırılması yapılmaz.
