@@ -183,14 +183,14 @@ jobs:
           python3 scripts/compile_authoring.py
 
           # Authoring blueprints are compiled first because they overwrite scene JSONs.
-          # Apply the final naturalized dialogue corpus only after compilation so it
+          # Apply the FINAL v5 scene-coherent dialogue corpus only after compilation so it
           # becomes the runtime content that is validated and packaged into the APK.
-          python3 "$GITHUB_WORKSPACE/ci/validate_dialogue_naturalization.py" \
+          python3 "$GITHUB_WORKSPACE/ci/validate_dialogue_final.py" \
             "$GITHUB_WORKSPACE/ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels" \
-            "$GITHUB_WORKSPACE/ci/dialogue_naturalized"
+            "$GITHUB_WORKSPACE/ci/dialogue_final_v5"
           python3 "$GITHUB_WORKSPACE/ci/apply_dialogue_naturalization.py" \
             "$PWD" \
-            "$GITHUB_WORKSPACE/ci/dialogue_naturalized"
+            "$GITHUB_WORKSPACE/ci/dialogue_final_v5"
 
           python3 scripts/build_media_catalog.py
           python3 scripts/validate_content.py --strict
