@@ -84,6 +84,11 @@ voice_resolver_file.write_text(voice_resolver_override.read_text(encoding="utf-8
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
+_probe = ls.find("fun startRecognition()")
+if _probe >= 0:
+    print("=== PRONUNCIATION_SOURCE_BEGIN ===")
+    print(ls[max(0, _probe - 4500):min(len(ls), _probe + 9000)])
+    print("=== PRONUNCIATION_SOURCE_END ===")
 
 # Keep study navigation reachable on compact/tall-content phones.
 def _make_study_screen_scroll_safe(source: str, screen_name: str) -> str:
