@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "createdFor": "ChineseHSK-v2",
+  "createdAt": "2026-09-24",
+  "policy": "Generated candidates that fail runtime continuity stay out of FINAL_SELECTED until regenerated with canonical cast and portrait composition.",
+  "candidates": [
+    {
+      "sourceFile": "eczanede_soğuk_algınlığı_danışmanlığı.png",
+      "conceptualTargetSceneId": "ZH_HSK1_SC042",
+      "status": "HOLD_CAST_MISMATCH",
+      "continuityGroup": "ALT_TRAVEL_CAST",
+      "width": 1672,
+      "height": 941,
+      "aspect": "16:9",
+      "requiredRegeneration": "Zhang family scene cast + pet-shop/vet-recommended-product story + 9:16 portrait"
+    },
+    {
+      "sourceFile": "çince_kitaplarla_kültür_yolculuğu.png",
+      "conceptualTargetSceneId": "ZH_HSK2_SC021",
+      "status": "HOLD_CAST_MISMATCH",
+      "continuityGroup": "ALT_TRAVEL_CAST",
+      "width": 1672,
+      "height": 941,
+      "aspect": "16:9",
+      "requiredRegeneration": "Lele + Liu Mei + librarian + library-card/borrowing story + 9:16 portrait"
+    },
+    {
+      "sourceFile": "çin_hızlı_tren_i_stasyonunda_bilet_yardımı.png",
+      "conceptualTargetSceneId": "ZH_HSK4_SC027",
+      "status": "HOLD_CAST_MISMATCH",
+      "continuityGroup": "ALT_TRAVEL_CAST",
+      "width": 1672,
+      "height": 941,
+      "aspect": "16:9",
+      "requiredRegeneration": "Zhang Wei + Liu Mei + Lele + station staff + delayed-train story + 9:16 portrait"
+    },
+    {
+      "sourceFile": "butikte_neşeli_kazak_denemesi.png",
+      "conceptualTargetSceneId": "ZH_HSK2_SC017",
+      "status": "HOLD_CAST_MISMATCH",
+      "continuityGroup": "ALT_TRAVEL_CAST",
+      "width": 1672,
+      "height": 941,
+      "aspect": "16:9",
+      "requiredRegeneration": "Liu Mei + Yutong + Lele + clerk + winter-clothing size/exchange story + 9:16 portrait"
+    }
+  ]
+}

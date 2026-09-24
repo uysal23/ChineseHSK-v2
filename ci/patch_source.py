@@ -5,25 +5,6 @@ if len(sys.argv) != 2:
     raise SystemExit("usage: patch_source.py <source-root>")
 
 root = Path(sys.argv[1])
-# SCENE_MAP_PROBE_V1
-probe_terms = ["eczane","ilaç","soğuk algın","kitapçı","kitabevi","kitap","hızlı tren","tren ist","bilet","giyim","kıyafet","mağaza","药店","书店","高铁","火车站","衣服","服装"]
-print("=== SCENE_MAP_PROBE_BEGIN ===")
-for p in root.rglob("*"):
-    if p.is_file() and p.suffix.lower() in {".json",".jsonl",".yaml",".yml",".txt",".md",".kt",".py"} and p.stat().st_size < 5_000_000:
-        try:
-            t = p.read_text(encoding="utf-8")
-        except Exception:
-            continue
-        low = t.lower()
-        if any(term.lower() in low for term in probe_terms):
-            lines = t.splitlines()
-            for idx, line in enumerate(lines):
-                ll = line.lower()
-                if any(term.lower() in ll for term in probe_terms):
-                    a=max(0,idx-2); b=min(len(lines),idx+3)
-                    print(f"FILE={p.relative_to(root)} LINE={idx+1}")
-                    for q in lines[a:b]: print(q[:700])
-print("=== SCENE_MAP_PROBE_END ===")
 gradle = root / "app" / "build.gradle.kts"
 src_dir = root / "app" / "src" / "main" / "java" / "com" / "ayhan" / "chineselearning"
 tts = src_dir / "MandarinTtsPlayer.kt"
