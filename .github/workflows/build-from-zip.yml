@@ -192,6 +192,48 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Apply generated HSK3 scene overrides
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle_chunks"
+          B64="$RUNNER_TEMP/hsk3-scene-overrides.b64"
+          ZIP="$RUNNER_TEMP/hsk3-scene-overrides.zip"
+          RAW="$RUNNER_TEMP/hsk3-scene-overrides"
+          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+
+          rm -rf "$RAW"
+          mkdir -p "$RAW" "$SCENE_DIR"
+          cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"
+          base64 -d "$B64" > "$ZIP"
+          echo "e9fadc19f313f8b135bebd7b297011b2bafc6d086cd98587576b1e0e6d82fa04  $ZIP" | sha256sum -c -
+          unzip -q -o "$ZIP" -d "$RAW"
+
+          python3 - "$RAW" "$SCENE_DIR" <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import shutil, sys
+
+          raw = Path(sys.argv[1]) / "scenes"
+          scene_dir = Path(sys.argv[2])
+          wanted = {f"ZH_HSK3_SC{i:03d}" for i in range(11, 30)}
+          files = sorted(raw.glob("ZH_HSK3_SC*.webp"))
+          found = {p.stem for p in files}
+
+          if found != wanted:
+              raise SystemExit(
+                  f"HSK3 override mismatch: missing={sorted(wanted-found)} extra={sorted(found-wanted)}"
+              )
+
+          for p in files:
+              with Image.open(p) as im:
+                  if im.size != (941, 1672):
+                      raise SystemExit(f"Unexpected dimensions for {p.name}: {im.size}")
+              shutil.copy2(p, scene_dir / p.name)
+
+          print(f"Applied {len(files)} generated HSK3 scene overrides (SC011-SC029).")
+          PY
+
       - name: Materialize canonical runtime backgrounds
         shell: bash
         run: |
