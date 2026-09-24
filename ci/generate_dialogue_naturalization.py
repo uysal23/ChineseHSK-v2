@@ -22,7 +22,7 @@ REBUILD_RANGES = {
     "HSK3": [(1, 18), (76, 94)],
     "HSK4": [(78, 94)],
     "HSK5": [(71, 94)],
-    "HSK6": [(1, 92)],
+    "HSK6": [(1, 100)],
 }
 
 BLOCKS = {
@@ -287,10 +287,18 @@ HSK6_FLOW = [
     ("有变化我们再一起商量。","Bir değişiklik olursa yeniden birlikte konuşuruz."),
     ("听到这里，我已经放心多了。","Bu noktaya gelince kendimi çok daha rahat hissediyorum."),
     ("那就这样，下一步我们一起面对。","O zaman böyle yapalım; sonraki adımla birlikte yüzleşiriz."),
+    ("今天最重要的几件事已经说清楚了。","Bugün en önemli birkaç konuyu netleştirdik."),
+    ("剩下的不用一次全部解决。","Kalan her şeyi tek seferde çözmek zorunda değiliz."),
+    ("有新情况，我们再及时调整。","Yeni bir durum olursa zamanında yeniden ayarlarız."),
+    ("大家都知道接下来该注意什么了。","Artık herkes bundan sonra nelere dikkat etmesi gerektiğini biliyor."),
+    ("好，先把眼前最重要的事情做好。","Tamam, önce şu anda en önemli olan şeyi iyi yapalım."),
+    ("其他细节可以边走边看。","Diğer ayrıntıları süreç içinde değerlendirebiliriz."),
+    ("有变化就及时联系。","Bir değişiklik olursa hemen iletişim kuralım."),
+    ("那今天就先到这里吧。","O zaman bugünlük burada bitirelim."),
 ]
 
-if len(HSK6_FLOW) != 92:
-    raise RuntimeError(f"HSK6 flow must have 92 turns, got {len(HSK6_FLOW)}")
+if len(HSK6_FLOW) != 100:
+    raise RuntimeError(f"HSK6 flow must have 100 turns, got {len(HSK6_FLOW)}")
 
 HSK6_REFLECT_SCENES = {
     "ZH_HSK6_SC005","ZH_HSK6_SC008","ZH_HSK6_SC009",
@@ -303,10 +311,10 @@ HSK6_REFLECT_SCENES = {
 }
 HSK6_CELEBRATE_SCENES = {
     "ZH_HSK6_SC001","ZH_HSK6_SC002","ZH_HSK6_SC007",
-    "ZH_HSK6_SC010","ZH_HSK6_SC021","ZH_HSK6_SC024",
-    "ZH_HSK6_SC028","ZH_HSK6_SC044",
+    "ZH_HSK6_SC010","ZH_HSK6_SC021","ZH_HSK6_SC022",
+    "ZH_HSK6_SC024","ZH_HSK6_SC028","ZH_HSK6_SC044",
 }
-HSK6_WAIT_SCENES = {"ZH_HSK6_SC022","ZH_HSK6_SC023"}
+HSK6_WAIT_SCENES = {"ZH_HSK6_SC023"}
 HSK6_CRISIS_SCENES = {
     "ZH_HSK6_SC006","ZH_HSK6_SC013","ZH_HSK6_SC036",
     "ZH_HSK6_SC037","ZH_HSK6_SC038","ZH_HSK6_SC041",
@@ -371,6 +379,14 @@ HSK6_REFLECT_OVERRIDES = {
     87: ("那就把今天记住的先好好留下来。","O zaman bugün hatırladıklarımızı önce iyi biçimde koruyalım."),
     89: ("好，我会把今天说到的重点记下来。","Tamam, bugün konuştuğumuz önemli noktaları not edeceğim."),
     92: ("那就这样，以后想起新的故事我们再接着聊。","O zaman böyle bırakalım; ileride yeni bir hikâye hatırlarsak yeniden devam ederiz."),
+    93: ("今天聊完，我对这段经历又有了新的理解。","Bugünkü konuşmadan sonra bu deneyimi yeniden ve daha derinden anlıyorum."),
+    94: ("很多细节以后可能还会慢慢想起来。","Birçok ayrıntı ileride yavaş yavaş yeniden aklımıza gelebilir."),
+    95: ("不必急着给过去下一个最后的结论。","Geçmiş hakkında hemen kesin bir sonuca varmak zorunda değiliz."),
+    96: ("能把这些故事重新说出来，本身就很有意义。","Bu hikâyeleri yeniden anlatabilmek bile başlı başına anlamlı."),
+    97: ("以后再想起什么，我们就继续补上。","İleride başka bir şey hatırlarsak eklemeye devam ederiz."),
+    98: ("这些记忆留在大家心里，本身就很珍贵。","Bu anıların hepimizin içinde kalması zaten çok değerli."),
+    99: ("好，今天先聊到这里。","Tamam, bugünlük burada bırakalım."),
+    100: ("下次想起来，我们再接着讲。","Bir dahaki sefere aklımıza geldiğinde anlatmaya devam ederiz."),
 }
 
 HSK6_CELEBRATE_OVERRIDES = {
@@ -421,6 +437,14 @@ HSK6_CELEBRATE_OVERRIDES = {
     87: ("那就先把眼前该做的做好。","O zaman önce şu anda yapılması gerekenleri iyi yapalım."),
     89: ("好，今天说到的安排我记住了。","Tamam, bugün konuştuğumuz düzenlemeleri aklımda tutacağım."),
     92: ("那就这样，接下来大家一起往前走吧。","O zaman böyle yapalım; bundan sonra hep birlikte ilerleyelim."),
+    93: ("今天最重要的是把好消息和真实的想法都分享出来了。","Bugün en önemlisi güzel haberi ve gerçek düşüncelerimizi paylaşmış olmamız."),
+    94: ("后面的事情不用一次全都安排好。","Sonraki her şeyi tek seferde planlamak zorunda değiliz."),
+    95: ("需要帮忙的时候就随时说。","Yardıma ihtiyaç olduğunda hemen söyleyin."),
+    96: ("大家都在，不用一个人把所有事情扛下来。","Herkes burada; bütün yükü tek başına taşımaya gerek yok."),
+    97: ("先好好享受眼前这个阶段吧。","Önce içinde bulunduğumuz bu dönemin tadını çıkaralım."),
+    98: ("以后有新的安排，我们再一起商量。","İleride yeni bir düzenleme olduğunda yeniden birlikte konuşuruz."),
+    99: ("今天说完，我心里踏实多了。","Bugün konuştuktan sonra içim çok daha rahat."),
+    100: ("好，那就带着这份期待慢慢往前走。","Tamam, bu güzel beklentiyle adım adım ilerleyelim."),
 }
 
 HSK6_WAIT_OVERRIDES = {
@@ -437,6 +461,25 @@ HSK6_WAIT_OVERRIDES = {
     73: ("回头看，最难熬的那段时间已经过去一些了。","Geriye bakınca en zor bekleyiş kısmının biraz geride kaldığını görüyoruz."),
     83: ("我觉得大家能在这里互相陪着已经很重要了。","Bence burada birbirimize eşlik edebilmemiz bile çok önemli."),
     92: ("那就这样，我们继续一起等消息。","O zaman böyle yapalım; haberi birlikte beklemeye devam edelim."),
+    93: ("现在能做的就是继续等确定的消息。","Şu anda yapabileceğimiz şey kesin haberi beklemeye devam etmek."),
+    94: ("大家都在这里，先别一个人担心。","Herkes burada; kaygınla tek başına kalma."),
+    95: ("有消息我们马上互相告诉。","Bir haber gelirse hemen birbirimize söyleyelim."),
+    96: ("累了就坐一会儿，别一直硬撑着。","Yorulduysan biraz otur; sürekli güçlü durmaya çalışma."),
+    97: ("只要有新的情况，我们再一起商量。","Yeni bir durum olduğunda yeniden birlikte konuşuruz."),
+    98: ("好，先安静等一会儿。","Tamam, şimdi biraz sakin biçimde bekleyelim."),
+    99: ("我现在比刚才踏实一点了。","Şimdi az öncekine göre biraz daha sakinim."),
+    100: ("嗯，我们一起等。","Evet, birlikte bekleyelim."),
+}
+
+HSK6_CRISIS_OVERRIDES = {
+    93: ("现在最重要的风险和分工已经说清楚了。","En önemli riskler ve görev paylaşımı artık net."),
+    94: ("先按应急安排执行，不要各自行动。","Önce acil durum planına göre hareket edelim; herkes kendi başına davranmasın."),
+    95: ("有变化就立刻通知所有人。","Bir değişiklik olursa herkese hemen haber verelim."),
+    96: ("保持联系，先确认每个人都安全。","İletişimde kalalım ve önce herkesin güvende olduğundan emin olalım."),
+    97: ("先处理最紧急的部分。","Önce en acil kısmı halledelim."),
+    98: ("安全以后再处理其他问题。","Güvenlik sağlandıktan sonra diğer sorunlara geçeriz."),
+    99: ("最后再确认一次联系方式。","Son olarak iletişim bilgilerini bir kez daha teyit edelim."),
+    100: ("好，就按这个方案行动。","Tamam, bu plana göre hareket edelim."),
 }
 
 def adapt_hsk6_generic(scene_id, turn, role):
@@ -449,6 +492,8 @@ def adapt_hsk6_generic(scene_id, turn, role):
         return HSK6_CELEBRATE_OVERRIDES.get(turn,role)
     if mode=="wait":
         return HSK6_WAIT_OVERRIDES.get(turn,role)
+    if mode=="crisis":
+        return HSK6_CRISIS_OVERRIDES.get(turn,role)
     return role
 
 def hsk6_followup(mode, is_question, variant):
@@ -770,10 +815,10 @@ def term_question(card, level, variant=0):
 
     if level=="HSK6":
         forms=[
-            (f"先说说{z}吧，你最在意的是什么？", f"Önce {t} konusunu konuşalım; senin için en önemli nokta ne?"),
-            (f"回到{z}这件事，你现在怎么看？", f"{t} konusuna dönersek, şu anda ne düşünüyorsun?"),
-            (f"如果把{z}也考虑进去，你觉得会有什么影响？", f"{t} konusunu da hesaba katarsak sence nasıl bir etkisi olur?"),
-            (f"关于{z}，还有什么需要先确认的吗？", f"{t} konusunda önce teyit etmemiz gereken başka bir şey var mı?"),
+            (f"说到{z}，你最先想到的是什么？", f"{t} denince aklına ilk ne geliyor?"),
+            (f"关于{z}，你现在怎么看？", f"{t} konusunda şu anda ne düşünüyorsun?"),
+            (f"{z}这件事，对你来说最重要的是什么？", f"{t} konusunda senin için en önemli nokta ne?"),
+            (f"说到{z}，还有什么想补充的吗？", f"{t} konusunda eklemek istediğin başka bir şey var mı?"),
             (f"现在再看{z}，你的想法和刚开始一样吗？", f"{t} konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"),
         ]
         return forms[variant % len(forms)]
@@ -797,10 +842,10 @@ def term_statement(card, level, variant=0):
     if level=="HSK6":
         forms=[
             (f"我觉得{z}这一点确实不能忽略。", f"Bence {t} konusunu kesinlikle göz ardı edemeyiz."),
-            (f"对，{z}会直接影响我们后面的安排。", f"Evet, {t} sonraki planımızı doğrudan etkileyebilir."),
-            (f"关于{z}，我更希望先把事实说清楚。", f"{t} konusunda önce olguları netleştirmeyi tercih ederim."),
+            (f"对，{z}会影响我们后面怎么看这件事。", f"Evet, {t} bundan sonra bu konuya nasıl bakacağımızı etkileyebilir."),
+            (f"关于{z}，我觉得大家的想法都应该说出来。", f"{t} konusunda bence herkes düşüncesini açıkça söylemeli."),
             (f"至少在{z}这件事上，我们已经知道彼此最在意什么了。", f"En azından {t} konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."),
-            (f"说到{z}，我觉得还是要给彼此一点调整空间。", f"{t} konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."),
+            (f"说到{z}，我觉得还是要给彼此一点空间。", f"{t} konusunda bence birbirimize biraz alan bırakmalıyız."),
         ]
         return forms[variant % len(forms)]
 
@@ -834,6 +879,24 @@ def scaffold_line(level, turn, data, cards, term_cursor):
         first=cards[0]
         z=str(first.get("zh","这件事")).strip()
         t=str(first.get("tr","bu konu")).strip()
+        if level=="HSK6":
+            mode=hsk6_mode(scene_id)
+            if mode=="reflect":
+                zh=f"说到{z}，我一下子想起了很多事，今天正好大家一起聊聊吧。"
+                tr=f"{t} deyince aklıma birçok şey geliyor; bugün hep birlikte biraz konuşalım."
+            elif mode=="celebrate":
+                zh=f"既然说到{z}，大家也把现在的心情都说说吧。"
+                tr=f"{t} konusu açılmışken herkes şu an ne hissettiğini paylaşsın."
+            elif mode=="wait":
+                zh="大家都在这里等消息，先别让自己太紧张。"
+                tr="Hepimiz burada haber bekliyoruz; önce kendimizi fazla germeyelim."
+            elif mode=="crisis":
+                zh=f"关于{z}，我们先把现在的情况和接下来要做的事说清楚。"
+                tr=f"{t} konusunda önce mevcut durumu ve bundan sonra ne yapacağımızı netleştirelim."
+            else:
+                zh=f"关于{z}，我们今天把各自的想法和实际问题都说清楚吧。"
+                tr=f"{t} konusunda bugün herkes düşüncesini ve pratik sorunları açıkça ortaya koysun."
+            return zh,tr,True
         return (
             f"今天正好有时间，我们聊聊{z}这件事吧。",
             f"Bugün vaktimiz varken {t} konusunu konuşalım.",
@@ -1004,7 +1067,7 @@ def main():
         )
 
         patch={
-            "naturalizationVersion":6,
+            "naturalizationVersion":7,
             "sceneId":scene_id,
             "level":level,
             "sourceTitleZh":data.get("titleZh"),
@@ -1021,7 +1084,7 @@ def main():
         stats[level]["rebuiltTurns"]+=rebuilt
 
     report={
-        "naturalizationVersion":6,
+        "naturalizationVersion":7,
         "sceneCount":len(files),
         "turnCount":sum(x["turns"] for x in stats.values()),
         "changedTurnCount":sum(x["changedTurns"] for x in stats.values()),
