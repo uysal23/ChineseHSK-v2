@@ -4,13 +4,10 @@ from collections import Counter, defaultdict
 import hashlib, json, re, sys
 
 try:
-    import jieba
     from pypinyin import lazy_pinyin, Style
     from opencc import OpenCC
 except Exception as e:
-    raise SystemExit(
-        "Dependencies required: pip install jieba pypinyin opencc-python-reimplemented"
-    ) from e
+    raise SystemExit("pip install pypinyin opencc-python-reimplemented") from e
 
 if len(sys.argv) != 3:
     raise SystemExit("usage: generate_dialogue_naturalization.py <snapshot-scene-root> <out-root>")
@@ -20,132 +17,13 @@ out_root = Path(sys.argv[2])
 out_root.mkdir(parents=True, exist_ok=True)
 t2s = OpenCC("t2s")
 
-PUNCT = set("，。？！；：、,.?!;:（）()《》“”‘’—… ")
-INTERJECTION_PINYIN = {"嗯": "èn", "哦": "ò", "啊": "a", "哎": "āi", "欸": "éi"}
-
-def pick(options, key):
-    h = hashlib.sha256(key.encode("utf-8")).digest()
-    return options[int.from_bytes(h[:4], "big") % len(options)]
-
-def pinyin_word(word):
-    if word in INTERJECTION_PINYIN:
-        return INTERJECTION_PINYIN[word]
-    syllables = lazy_pinyin(
-        word,
-        style=Style.TONE,
-        neutral_tone_with_five=False,
-        errors="default",
-        strict=False,
-    )
-    return "".join(syllables)
-
-def to_pinyin(text):
-    text = t2s.convert(text)
-    tokens = []
-    buf = ""
-    for ch in text:
-        if ch in PUNCT:
-            if buf:
-                tokens.extend(jieba.cut(buf, HMM=False))
-                buf = ""
-            tokens.append(ch)
-        else:
-            buf += ch
-    if buf:
-        tokens.extend(jieba.cut(buf, HMM=False))
-
-    out = []
-    for tok in tokens:
-        if tok in PUNCT:
-            out.append(tok)
-        elif re.search(r"[\u3400-\u9fff]", tok):
-            out.append(pinyin_word(tok))
-        else:
-            out.append(tok)
-
-    s = " ".join(out)
-    s = re.sub(r"\s+([，。？！；：、,.?!;:）)])", r"\1", s)
-    s = re.sub(r"([（(《“‘])\s+", r"\1", s)
-    s = s.replace("，", ",").replace("。", ".").replace("？", "?").replace("！", "!")
-    s = s.replace("；", ";").replace("：", ":")
-    s = re.sub(r"\s+", " ", s).strip()
-    for i, c in enumerate(s):
-        if c.isalpha():
-            s = s[:i] + c.upper() + s[i+1:]
-            break
-    return s
-
-def qa_hsk1(zh, prev, occurrence, key):
-    m = re.fullmatch(r"这是(.+?)吗？", zh)
-    if m:
-        x = m.group(1)
-        opts = [
-            f"这是{x}吗？",
-            f"这个是{x}吗？",
-            f"这是{x}，对吗？",
-        ]
-        return opts[min(occurrence, len(opts)-1)] if occurrence < 3 else pick(opts, key)
-
-    m = re.fullmatch(r"对，这是(.+?)。", zh)
-    if m:
-        x = m.group(1)
-        return pick([
-            f"对，就是{x}。",
-            f"嗯，对，这是{x}。",
-            f"没错，是{x}。",
-        ], key)
-
-    m = re.fullmatch(r"(.+?)在哪儿？", zh)
-    if m:
-        x = m.group(1)
-        if x in {"箱子","书","门","猫","钱","包","桌子","椅子","电话","蛋糕","茶","饭","礼物","蔬菜","菜"}:
-            return pick([
-                f"{x}在哪儿？",
-                f"那{x}放在哪儿？",
-                f"{x}呢？放哪儿了？",
-            ], key)
-        return pick([
-            f"{x}在哪儿？",
-            f"那{x}在哪儿？",
-            f"{x}呢？",
-        ], key)
-
-    m = re.fullmatch(r"(.+?)在这里。", zh)
-    if m:
-        x = m.group(1)
-        return pick([
-            f"{x}在这儿。",
-            "就在这里。",
-            f"你看，{x}在这儿。",
-        ], key)
-
-    m = re.fullmatch(r"(.+?)在那边。", zh)
-    if m:
-        x = m.group(1)
-        return pick([
-            f"{x}在那边。",
-            "就在那边。",
-            f"你看，{x}在那边。",
-        ], key)
-
-    m = re.fullmatch(r"你要(.+?)吗？", zh)
-    if m:
-        x = m.group(1)
-        return pick([
-            f"你要{x}吗？",
-            f"要不要{x}？",
-            f"你想要{x}吗？",
-        ], key)
-
-    m = re.fullmatch(r"我要(.+?)，谢谢。", zh)
-    if m:
-        x = m.group(1)
-        return pick([
-            f"好，我要{x}，谢谢。",
-            f"我要{x}，谢谢。",
-            f"那我要{x}吧，谢谢。",
-        ], key)
-    return None
+REBUILD_RANGES = {
+    "HSK2": [(2, 21), (55, 95)],
+    "HSK3": [(1, 18), (76, 94)],
+    "HSK4": [(1, 22), (78, 94)],
+    "HSK5": [(3, 22), (71, 94)],
+    "HSK6": [(1, 6), (15, 92)],
+}
 
 COMMON = {
     "我明白了。": ["嗯，我明白了。", "好，明白了。", "这下明白了。"],
@@ -157,338 +35,446 @@ COMMON = {
     "不客气。": ["不客气。", "别客气。", "没事，不客气。"],
     "太好了！": ["太好了！", "真好！", "太棒了！"],
     "我也是。": ["我也是。", "嗯，我也是。", "我也一样。"],
-    "我也是这么想的。": ["嗯，我也是这么想的。", "对，我也这么觉得。", "我的想法也一样。"],
     "我们继续。": ["好，我们接着来。", "那我们继续吧。", "好，继续。"],
     "好，我们继续。": ["好，那继续吧。", "行，我们接着来。", "好，继续。"],
     "说得对。": ["你说得对。", "嗯，说得对。", "对，就是这样。"],
-    "这个主意不错。": ["这个主意不错。", "嗯，这个想法挺好。", "这个办法可以试试。"],
-    "这个办法不错。": ["这个办法不错。", "嗯，这个办法可以。", "这个主意挺好的。"],
-    "我们可以试试。": ["那我们试试吧。", "可以，先试试看。", "我们先试一下。"],
-    "那就这么决定吧。": ["那就这么定吧。", "好，那就这么决定。", "那我们就这么定。"],
-    "好，我们保持联系。": ["好，有情况随时联系。", "行，我们随时联系。", "好，有变化就互相说一声。"],
+    "我也是这么想的。": ["嗯，我也是这么想的。", "对，我也这么觉得。", "我的想法也一样。"],
 }
 
-LEVEL = {
-    "HSK1": {
-        "准备好了吗？": ["准备好了吗？", "都准备好了吗？", "准备得怎么样了？"],
-        "准备好了。": ["准备好了。", "嗯，准备好了。", "都准备好了。"],
-        "别急。": ["别急。", "先别急。", "别着急。"],
-        "我来看看。": ["我看看。", "我来看看吧。", "来，我看看。"],
-        "我们一起吧。": ["那一起吧。", "我们一起吧。", "好，一起吧。"],
-        "现在好了。": ["这下好了。", "现在就好了。", "好，这下行了。"],
-        "都好了吗？": ["都弄好了吗？", "都好了吗？", "都准备好了吗？"],
-        "都好了。": ["都好了。", "嗯，都好了。", "都弄好了。"],
-        "走吧。": ["走吧。", "好，走吧。", "那走吧。"],
-        "有一点。": ["有一点儿。", "嗯，有一点。", "有点儿。"],
-        "没关系。": ["没关系。", "没事。", "没关系，别急。"],
-    },
-    "HSK2": {
-        "对，我记住了。": ["对，我记住了。", "嗯，我记住了。", "好，我记住了。"],
-        "这个很实用。": ["这个挺实用的。", "这个确实很实用。", "嗯，这个很实用。"],
-        "以后还会用到。": ["以后肯定还会用到。", "以后还用得上。", "这个以后还会用到。"],
-        "我再说一次。": ["那我再说一遍。", "好，我再说一次。", "我再说一遍吧。"],
-        "现在更清楚了。": ["现在就清楚多了。", "嗯，这下更清楚了。", "现在明白多了。"],
-        "原来是这样。": ["哦，原来是这样。", "原来是这样啊。", "嗯，原来如此。"],
-        "这个我记住了。": ["好，这个我记住了。", "嗯，这个我记住了。", "这个我会记住。"],
-        "听起来很清楚。": ["嗯，听起来很清楚。", "这样说就很清楚了。", "听你这么说就清楚了。"],
-        "好，那就按这个来。": ["好，那就这么来。", "行，就按这个来。", "好，那我们就这么做。"],
-        "那现在怎么办？": ["那现在怎么办？", "那接下来怎么办？", "好，那我们现在怎么做？"],
-        "先别着急，我们想个办法。": ["先别急，我们想想办法。", "别着急，我们先想个办法。", "先别急，总会有办法的。"],
-        "我以前没注意到。": ["我以前还真没注意。", "这个我以前没注意到。", "之前我都没发现。"],
-        "现在知道了。": ["现在知道了。", "嗯，现在我知道了。", "这下知道了。"],
-        "这样更方便。": ["这样确实更方便。", "嗯，这样方便多了。", "这样会更方便。"],
-        "那我们换一个办法。": ["那换个办法吧。", "好，我们换一种办法。", "那就换个办法试试。"],
-        "可以，你先来。": ["可以，你先来吧。", "好，你先来。", "行，那你先试。"],
-        "做完以后告诉我。": ["做完了告诉我一声。", "弄好以后跟我说一声。", "做完以后记得告诉我。"],
-        "现在好多了。": ["你看，现在好多了。", "嗯，现在好多了。", "这下好多了。"],
-        "还差一点。": ["还差一点儿。", "嗯，还差一点。", "就差一点了。"],
-        "我来帮你吧。": ["我来帮你吧。", "来，我帮你。", "要不我来帮你吧。"],
-        "我们再检查一次。": ["我们再检查一遍吧。", "好，再检查一次。", "最后再检查一遍。"],
-        "这次没有问题了。": ["这次应该没问题了。", "好，这次没问题了。", "现在看起来没问题了。"],
-        "太好了，终于解决了。": ["太好了，总算解决了。", "终于解决了，太好了。", "好，总算弄好了。"],
-    },
-    "HSK3": {
-        "我明白你的意思了。": ["嗯，我明白你的意思了。", "好，我懂你的意思了。", "这么说我就明白了。"],
-        "好，这一点我会注意。": ["好，这一点我会注意。", "嗯，这个我会注意。", "好，我会留意这一点。"],
-        "这个安排比较实际。": ["这个安排挺实际的。", "嗯，这样安排比较实际。", "这个安排确实更实际。"],
-        "我觉得可以接受。": ["嗯，我觉得可以接受。", "我看这样可以接受。", "对我来说可以接受。"],
-        "这样的话就清楚多了。": ["这样一来就清楚多了。", "嗯，这么说就清楚多了。", "这样就好理解多了。"],
-        "对，我们继续看下一项。": ["对，那我们看下一项吧。", "好，我们接着看下一项。", "嗯，那继续往下看。"],
-        "情况跟我们开始想的不完全一样。": ["实际情况跟一开始想的不太一样。", "看来情况和我们最初想的有点不一样。", "现在看，情况跟开始想的不完全一样。"],
-        "那我们先听听大家的意见。": ["那先听听大家怎么想吧。", "好，我们先听听大家的意见。", "那大家先说说自己的想法吧。"],
-        "我觉得先把重点找出来比较好。": ["我觉得先把重点找出来会比较好。", "要不先把最重要的地方找出来？", "我看先找出重点比较合适。"],
-        "好，先把最需要处理的事情解决。": ["好，那先解决最需要处理的事。", "行，先把最要紧的事情处理掉。", "好，我们先处理最重要的事。"],
-        "我们先把情况说清楚。": ["我们先把情况说清楚吧。", "先把现在的情况理清楚。", "好，先把情况讲明白。"],
-        "你的意思是这样，对吗？": ["你的意思是这样，对吧？", "所以你的意思是这样，是吗？", "我理解得对吗，你是这个意思？"],
-        "对，我就是这个意思。": ["对，我就是这个意思。", "嗯，对，我想说的就是这个。", "对，你理解得没错。"],
-        "这件事比我想的复杂一点。": ["这件事比我想的还复杂一点。", "看来这事比我原来想的复杂。", "嗯，这件事确实比想象中复杂。"],
-        "先别着急，我们一步一步来。": ["先别急，我们一步一步来。", "别着急，慢慢来就行。", "先别急，我们一点一点处理。"],
-        "我觉得这个办法比较合适。": ["我觉得这个办法挺合适的。", "我看这个办法比较合适。", "嗯，我觉得这样做比较合适。"],
-        "为什么你这么想？": ["为什么这么想？", "你为什么觉得这样更好？", "怎么说？为什么你这么想？"],
-        "因为这样更方便，也更清楚。": ["因为这样既方便，也更清楚。", "这样做更方便，大家也更容易看明白。", "因为这样会方便一些，也更清楚。"],
-        "如果这样做，我们就能省一点时间。": ["要是这样做，我们还能省点时间。", "这样做的话，应该能省一点时间。", "如果按这个办法来，会省不少时间。"],
-        "虽然有点麻烦，但是可以解决。": ["虽然有点麻烦，不过还是能解决。", "是有点麻烦，但问题不大。", "麻烦是麻烦一点，不过能处理。"],
-        "那我们先试试看。": ["那先试试看吧。", "好，那我们先试一下。", "要不先按这个办法试试？"],
-        "好，有问题我们再调整。": ["好，有问题再调整。", "行，哪里不合适我们再改。", "好，先这么做，有问题再调。"],
-        "我先确认一下细节。": ["我先把细节确认一下。", "等一下，我先确认几个细节。", "我先看看细节有没有问题。"],
-        "你说得对，这个细节很重要。": ["你说得对，这个细节确实很重要。", "对，这个细节不能忽略。", "嗯，这一点很重要。"],
-        "我们最好把时间也安排好。": ["时间也最好提前安排好。", "我们还得把时间安排好。", "对，时间这块也要安排一下。"],
-        "我已经写下来了。": ["我已经记下来了。", "嗯，我都写下来了。", "我已经记好了。"],
-        "那就不会忘了。": ["那就不容易忘了。", "好，这样就不会忘。", "那就放心了，不会漏掉。"],
-        "现在最重要的问题是什么？": ["那现在最重要的问题是什么？", "现在最需要解决的是什么？", "好，那眼下最重要的问题是哪一个？"],
-        "关键是先找到原因。": ["关键还是先找到原因。", "我觉得最关键的是先找原因。", "先把原因找出来才是关键。"],
-        "我同意，不过我们还要考虑别的情况。": ["我同意，不过还得考虑别的情况。", "嗯，我同意，但也不能只看这一种情况。", "这点我同意，不过其他情况也要想一想。"],
-        "这样说更有道理。": ["这么说就更有道理了。", "嗯，这样想确实更合理。", "对，这么说比较有道理。"],
-        "我们需要一个更实际的办法。": ["我们还是需要一个更实际的办法。", "看来得想个更实际的办法。", "最好找一个真正能做的办法。"],
-        "可以先做一部分，看看效果。": ["可以先做一部分，看看效果怎么样。", "要不先做一部分试试效果？", "我们可以先做一点，看看实际效果。"],
-        "那我负责这一部分。": ["那这一部分我来负责。", "好，这部分交给我。", "那我来处理这一部分。"],
-        "剩下的我来处理。": ["剩下的我来处理。", "那剩下的我来吧。", "其他的我来处理。"],
-        "需要我帮忙的时候告诉我。": ["需要帮忙就告诉我。", "有需要就叫我一声。", "要是忙不过来就跟我说。"],
-        "事情越来越清楚了。": ["事情现在越来越清楚了。", "嗯，思路慢慢清楚了。", "这样一来，情况越来越清楚了。"],
-        "我也放心多了。": ["嗯，我也放心多了。", "这样我就放心多了。", "我现在也安心多了。"],
-        "还有一个小问题。": ["不过还有一个小问题。", "等一下，还有个小问题。", "对了，还有一件小事。"],
-        "你说吧，我们一起想办法。": ["你说吧，我们一起想想办法。", "说吧，大家一起想办法。", "嗯，你说，我们一起看看怎么解决。"],
-        "这个问题其实不难。": ["这个问题其实不算难。", "其实这个问题不难解决。", "这个问题倒不难。"],
-        "只要准备好，就可以开始。": ["只要准备好了，就可以开始。", "准备好以后就能开始。", "只要前面准备好，我们就可以开始。"],
-        "那我们现在开始吧。": ["那现在就开始吧。", "好，那我们开始。", "行，现在就开始吧。"],
-        "进行得比想象中顺利。": ["比想象中顺利多了。", "现在进展得比想象中顺利。", "嗯，进行得还挺顺利。"],
-        "中间还是出了一个小问题。": ["不过中间还是出了点小问题。", "只是中间又碰到一个小问题。", "中间还是有个小地方出了问题。"],
-        "没关系，先看看能不能调整。": ["没关系，先看看能不能调一下。", "问题不大，先看看怎么调整。", "别急，我们先看看能不能调整。"],
-        "我有一个新的办法。": ["我想到一个新办法。", "我倒有个新的办法。", "等一下，我有个新想法。"],
-        "说来听听。": ["说来听听。", "好，说说看。", "什么办法？说来听听。"],
-        "我们可以一边做，一边检查。": ["我们可以边做边检查。", "要不一边做，一边检查？", "我觉得可以一边做一边检查。"],
-        "这样发现问题会更早。": ["这样能更早发现问题。", "这样有问题也能早点发现。", "对，这样会更早发现问题。"],
-        "好，就按这个办法来。": ["好，就按这个办法来。", "行，那就这么做。", "好，我们按这个办法试。"],
-        "你看，现在好多了。": ["你看，现在好多了。", "你看，这下好多了。", "嗯，现在顺多了。"],
-        "确实，比刚才顺利。": ["确实，比刚才顺利多了。", "嗯，比刚才顺多了。", "对，现在比刚才顺利。"],
-        "看来我们的方向是对的。": ["看来方向是对的。", "这么看，我们的方向没错。", "嗯，看来我们走对方向了。"],
-        "最后再检查一遍吧。": ["最后再检查一遍吧。", "好，最后再过一遍。", "那最后再检查一次。"],
-        "现在没有发现新的问题。": ["目前没发现新的问题。", "现在看没有新问题。", "嗯，暂时没有发现新问题。"],
-        "太好了，终于可以放心了。": ["太好了，这下终于能放心了。", "好，总算可以放心了。", "终于没问题了，太好了。"],
-        "今天我们学到不少东西。": ["今天还真学到不少东西。", "今天我们也算学到不少。", "嗯，今天收获挺多的。"],
-        "下次处理起来会更快。": ["下次再遇到，处理起来会更快。", "有了这次经验，下次会快很多。", "下次我们应该能处理得更快。"],
-        "我觉得今天的结果不错。": ["我觉得今天这个结果不错。", "今天的结果我还挺满意。", "嗯，我觉得今天做得不错。"],
-        "好，接下来按计划继续。": ["好，接下来就按计划来。", "行，后面按计划继续。", "好，那接下来按计划走。"],
-        "现在主要问题已经解决了。": ["现在主要问题已经解决了。", "好，最主要的问题算是解决了。", "现在看，主要问题已经处理好了。"],
-        "剩下的按计划做就可以。": ["剩下的按计划做就行。", "接下来照计划做就可以。", "剩下的我们按计划继续。"],
-        "今天的经验很有用。": ["今天这个经验挺有用的。", "这次的经验以后肯定用得上。", "今天学到的东西很有用。"],
-        "下次我们会准备得更好。": ["下次我们肯定会准备得更好。", "有了这次经验，下次会准备得更好。", "下次我们就知道该怎么准备了。"],
-        "好，今天就先到这里。": ["好，今天就先到这里吧。", "行，今天先这样。", "好，那今天先聊到这儿。"],
-        "明天继续。": ["明天再继续。", "好，明天接着来。", "那明天继续。"],
-    },
-    "HSK4": {
-        "这一点我同意。": ["嗯，这一点我同意。", "这一点我赞成。", "对，这一点我没有意见。"],
-        "这个角度我刚才没有想到。": ["这个角度我刚才还真没想到。", "你这么一说，这个角度我之前没想到。", "嗯，这个角度确实是我刚才忽略的。"],
-        "那确实需要重新考虑。": ["那确实得重新考虑一下。", "这样的话，确实要重新想想。", "嗯，那我们得再考虑一下。"],
-        "听起来比较合理。": ["听起来挺合理的。", "嗯，这样听起来比较合理。", "这么说确实更合理。"],
-        "我先把这一点记下来。": ["我先把这一点记下来。", "好，这一点我先记下。", "嗯，我先记下这一点。"],
-        "我们再看看还有没有别的影响。": ["我们再看看还有没有其他影响。", "好，再看看会不会影响到别的地方。", "我们也得看看还有没有别的影响。"],
-    },
-    "HSK5": {
-        "我同意先把它列为优先问题。": ["我同意，先把它列为优先问题。", "嗯，我赞成先把它放在优先位置。", "这点我同意，先把它列为优先事项。"],
-        "这个角度会影响最后的判断。": ["这个角度确实会影响最后的判断。", "嗯，这个角度对最后的判断很关键。", "从这个角度看，最后的判断可能会不一样。"],
-        "我们也要看看有没有反面的证据。": ["我们还得看看有没有相反的证据。", "对，也不能忽略反面的证据。", "我们也应该查查有没有不支持这个结论的证据。"],
-        "先记下来，等信息完整一点再决定。": ["先记下来，等信息更完整一点再决定。", "好，先记着，等信息齐一些再决定。", "先别急着定，等信息完整一些再说。"],
-        "这个信息很关键。": ["这个信息很关键。", "嗯，这条信息很重要。", "这个信息会直接影响我们的判断。"],
-        "这样解释以后，我更理解你的立场了。": ["你这么解释以后，我更理解你的立场了。", "嗯，这样说我就更能理解你的立场了。", "听你这么解释，我更明白你为什么这么想了。"],
-        "这一点值得继续确认。": ["这一点确实值得继续确认。", "嗯，这一点还得再确认。", "这个地方我们最好再核实一下。"],
-        "我觉得这个建议比较稳妥。": ["我觉得这个建议比较稳妥。", "嗯，这个建议听起来更稳妥。", "我看这个建议相对稳妥一些。"],
-    },
-    "HSK6": {
-        "这件事表面上看很简单，真正谈起来却牵涉到很多层面。": ["这件事表面看着简单，真谈起来却牵涉到很多层面。", "乍一看这件事不复杂，可一聊深了，牵涉的层面其实很多。", "表面上这件事很简单，但真正讨论起来，问题远不止一个层面。"],
-        "我想先听听大家最真实的想法，不急着找一个统一答案。": ["我想先听听大家最真实的想法，先别急着找一个统一答案。", "我更想先听听每个人真实的想法，不必马上得出统一结论。", "我们先把真实想法说出来，不急着现在就统一答案。"],
-        "先把感受和事实都说出来，我们再慢慢梳理。": ["先把感受和事实都说出来，再慢慢梳理。", "我们先把感受和事实摆出来，然后一点一点理清。", "先别急着判断，把感受和事实都说清楚再梳理。"],
-        "我觉得现在最重要的不是马上下结论，而是先把事实和判断分开。": ["我觉得眼下最重要的不是马上下结论，而是先把事实和判断分开。", "现在最要紧的不是急着定结论，而是先分清哪些是事实、哪些是判断。", "与其马上下结论，不如先把事实和判断分开来看。"],
-        "从现有的信息来看，我们还需要补充几个关键细节。": ["从现有信息来看，我们还缺几个关键细节。", "照目前掌握的信息看，还有几个关键细节需要补上。", "现有信息还不够完整，我们得再确认几个关键细节。"],
-        "有不同意见并不代表合作失败，关键是能不能把分歧说清楚。": ["有不同意见不等于合作失败，关键是能不能把分歧说清楚。", "出现分歧很正常，真正重要的是能不能把不同意见讲明白。", "意见不一致并不可怕，关键在于能不能把分歧说清楚。"],
-        "这不是简单的对错问题，而是不同目标之间怎么平衡。": ["这不是简单的谁对谁错，而是不同目标之间怎么平衡。", "问题不在于简单判断对错，而在于怎么平衡不同目标。", "这件事不能只用对错来判断，更重要的是不同目标之间如何取舍。"],
-        "有时候承认不知道，比假装确定更负责任。": ["有时候坦白说不知道，反而比假装确定更负责任。", "承认自己还不知道答案，有时比表现得很确定更负责。", "在信息不足的时候，承认不确定其实更负责任。"],
-    },
+# Six generic connective lines per 20-turn phase.
+# Slots 0 and 4 are filled with scene-specific active-vocabulary lines.
+PHASE = {
+"HSK2": [
+[
+("好，我先听听你怎么想。","Tamam, önce senin ne düşündüğünü dinleyeyim."),
+("先别急，我们慢慢看。","Acele etmeyelim, yavaş yavaş bakalım."),
+("对，先把最重要的弄清楚。","Evet, önce en önemli noktayı netleştirelim."),
+("嗯，这一点也要注意。","Evet, buna da dikkat etmek gerekiyor."),
+("那我们先试试看。","O zaman önce deneyelim."),
+("好，这样就清楚多了。","Tamam, böyle çok daha net oldu.")
+],
+[
+("我觉得可以先从简单的开始。","Bence önce kolay olandan başlayabiliriz."),
+("对，做完这个再看下一个。","Evet, bunu bitirince sonrakine bakarız."),
+("如果不合适，我们再换一个办法。","Uygun olmazsa başka bir yol deneriz."),
+("嗯，这样比较方便。","Evet, böyle daha kullanışlı."),
+("那就先这么做吧。","O zaman şimdilik böyle yapalım."),
+("好，我们接着看。","Tamam, devam edelim.")
+],
+[
+("现在比刚才清楚多了。","Şimdi az öncekinden çok daha net."),
+("不过还有一点要确认。","Ama teyit etmemiz gereken bir nokta daha var."),
+("那我们再看一遍。","O zaman bir kez daha bakalım."),
+("对，这样不容易弄错。","Evet, böyle hata yapmak daha zor olur."),
+("我来记住这一点。","Bu noktayı ben aklımda tutayım."),
+("好，继续吧。","Tamam, devam edelim.")
+],
+[
+("这一步做好以后，后面就容易多了。","Bu adım tamamlanınca sonrası çok daha kolay olacak."),
+("嗯，我们一步一步来。","Evet, adım adım ilerleyelim."),
+("有问题就马上说。","Bir sorun olursa hemen söyleyelim."),
+("对，别等到最后才发现。","Evet, en sonda fark etmeyi beklemeyelim."),
+("那就再确认一下。","O zaman bir kez daha teyit edelim."),
+("好，现在好多了。","Tamam, şimdi çok daha iyi.")
+],
+[
+("主要的问题已经解决了。","Ana sorun artık çözüldü."),
+("剩下的按刚才说的做就行。","Kalanını az önce konuştuğumuz gibi yapmamız yeterli."),
+("最后再检查一次吧。","Son kez bir daha kontrol edelim."),
+("嗯，这次应该没问题了。","Evet, bu kez sorun olmamalı."),
+("今天又学到一点东西。","Bugün yine yeni bir şey öğrendik."),
+("好，那今天先这样。","Tamam, bugünlük böyle bırakalım.")
+]],
+"HSK3": [
+[
+("我先说吧，我觉得先把情况弄清楚比较好。","Önce ben söyleyeyim; bence önce durumu netleştirmek daha iyi."),
+("对，先别急着下结论。","Evet, hemen sonuca varmayalım."),
+("那我们先听听大家的意见。","O zaman önce herkesin fikrini dinleyelim."),
+("这一点也不能忽略。","Bu noktayı da göz ardı edemeyiz."),
+("好，先把重点记下来。","Tamam, önce ana noktaları not edelim."),
+("这样后面就好处理了。","Böylece sonrasını yönetmek daha kolay olur.")
+],
+[
+("我觉得先试一个小办法比较好。","Bence önce küçük bir çözümü denemek daha iyi."),
+("虽然有点麻烦，不过可以先试试。","Biraz zahmetli olsa da önce deneyebiliriz."),
+("如果有效，我们就继续。","İşe yararsa devam ederiz."),
+("对，有问题再调整。","Evet, sorun olursa yeniden ayarlarız."),
+("那我把这一点记下来。","O zaman bunu not edeyim."),
+("好，我们接着看下一步。","Tamam, sonraki adıma bakalım.")
+],
+[
+("事情现在越来越清楚了。","Durum şimdi giderek netleşiyor."),
+("不过还有几个细节要确认。","Ama teyit edilmesi gereken birkaç ayrıntı daha var."),
+("那就一个一个来。","O zaman tek tek ilerleyelim."),
+("只要准备好，就可以继续。","Hazırlık tamam olduğu sürece devam edebiliriz."),
+("我同意，这样比较实际。","Katılıyorum, böyle daha uygulanabilir."),
+("好，先按这个办法来。","Tamam, önce bu yöntemle ilerleyelim.")
+],
+[
+("现在主要问题已经找到了。","Ana sorunu artık bulduk."),
+("一边做，一边检查会更放心。","Yaparken aynı zamanda kontrol etmek daha güvenli olur."),
+("对，这样能早点发现问题。","Evet, böylece sorunları daha erken fark ederiz."),
+("如果情况变了，我们再调整。","Durum değişirse yeniden ayarlarız."),
+("那就把分工也说清楚吧。","O zaman görev dağılımını da netleştirelim."),
+("好，有变化随时说。","Tamam, bir değişiklik olursa hemen söyleyelim.")
+],
+[
+("今天讨论得比刚开始顺利多了。","Bugünkü konuşma başlangıca göre çok daha iyi ilerledi."),
+("我也觉得，至少方向已经清楚了。","Ben de öyle düşünüyorum; en azından yön artık net."),
+("最后再确认一遍吧。","Son kez bir daha teyit edelim."),
+("好，没问题的话就按计划继续。","Tamam, sorun yoksa plana göre devam edelim."),
+("这次的经验以后还会用到。","Bu deneyim ileride yine işimize yarayacak."),
+("行，今天先到这里。","Tamam, bugünlük burada bitirelim.")
+]],
+"HSK4": [
+[
+("我觉得先把实际情况说清楚比较好。","Bence önce gerçek durumu netleştirmek daha iyi."),
+("对，先别急着做最后决定。","Evet, son kararı vermek için acele etmeyelim."),
+("我们可以先把最重要的条件列出来。","Önce en önemli koşulları sıralayabiliriz."),
+("这样比较容易看出差别。","Böylece farkları görmek daha kolay olur."),
+("这一点也应该考虑进去。","Bu noktayı da değerlendirmeye almalıyız."),
+("好，先把它记下来。","Tamam, bunu önce not edelim.")
+],
+[
+("我理解你的担心，不过我们还可以再看看。","Endişeni anlıyorum ama biraz daha bakabiliriz."),
+("与其马上决定，不如先把信息弄清楚。","Hemen karar vermek yerine önce bilgileri netleştirmek daha iyi."),
+("对，这样会稳妥一些。","Evet, böyle daha temkinli olur."),
+("不过也要看看会不会影响别的地方。","Ama başka bir yeri etkileyip etkilemeyeceğine de bakmalıyız."),
+("那我们先比较几个选择。","O zaman birkaç seçeneği karşılaştıralım."),
+("好，再听听大家的意见。","Tamam, herkesin fikrini bir kez daha dinleyelim.")
+],
+[
+("现在的信息已经比刚才完整多了。","Şimdiki bilgiler az öncekinden çok daha tamamlanmış durumda."),
+("不过有些细节还不能忽略。","Ama bazı ayrıntıları hâlâ göz ardı edemeyiz."),
+("那就先把最重要的部分处理好。","O zaman önce en önemli kısmı halledelim."),
+("一方面要看眼前，另一方面也要考虑以后。","Bir yandan bugünü, diğer yandan geleceği düşünmeliyiz."),
+("这样做比较公平，也容易让大家接受。","Böyle yapmak daha adil ve herkes için kabul etmesi daha kolay."),
+("好，我们继续往下看。","Tamam, devam edelim.")
+],
+[
+("现在方案已经比较清楚了。","Plan artık oldukça net."),
+("我建议最后再检查一次风险。","Son olarak riskleri bir kez daha kontrol etmeyi öneriyorum."),
+("即使有变化，我们也还有调整空间。","Değişiklik olsa bile hâlâ ayarlama payımız var."),
+("对，有备用办法会放心很多。","Evet, yedek plan olması insanı daha çok rahatlatıyor."),
+("那就把责任和时间也说清楚。","O zaman sorumlulukları ve zamanı da netleştirelim."),
+("好，有变化及时告诉大家。","Tamam, değişiklik olursa herkese zamanında haber verelim.")
+],
+[
+("主要问题已经有比较清楚的处理办法了。","Ana sorun için artık oldukça net bir çözüm var."),
+("剩下的先按这个方案执行。","Kalanını şimdilik bu plana göre uygulayalım."),
+("过一段时间再看看要不要调整。","Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."),
+("我同意，这样比较稳妥。","Katılıyorum, böyle daha temkinli."),
+("今天大家把意见都说清楚了。","Bugün herkes görüşünü net biçimde ifade etti."),
+("好，那今天先到这里。","Tamam, bugünlük burada bitirelim.")
+]],
+"HSK5": [
+[
+("我觉得先把事实和判断分开比较好。","Bence önce olgularla yorumları ayırmak daha iyi."),
+("对，先把问题定义清楚，后面才好讨论。","Evet, önce sorunu net tanımlarsak sonrası daha kolay tartışılır."),
+("我们也要把不同的影响一起摆出来。","Farklı etkileri de birlikte ortaya koymalıyız."),
+("这样才能知道真正需要解决的是什么。","Böylece gerçekten neyin çözülmesi gerektiğini anlayabiliriz."),
+("这一点值得继续确认。","Bu noktayı teyit etmeye devam etmek gerekiyor."),
+("好，先记下来，不急着下结论。","Tamam, önce not edelim; hemen sonuca varmayalım.")
+],
+[
+("我理解你的立场，不过还想补充一个现实问题。","Bakış açını anlıyorum ama bir pratik noktayı daha eklemek istiyorum."),
+("如果只看眼前，很容易忽略后面的影响。","Yalnızca bugüne bakarsak sonraki etkileri gözden kaçırmak kolay olur."),
+("对，我们最好把短期和长期放在一起比较。","Evet, kısa ve uzun vadeyi birlikte karşılaştırmalıyız."),
+("有不同意见没关系，关键是把理由说清楚。","Farklı görüşler sorun değil; önemli olan gerekçeleri açıkça söylemek."),
+("那就先设一个判断标准。","O zaman önce bir değerlendirme ölçütü belirleyelim."),
+("好，再看看有没有相反的证据。","Tamam, ters yönde kanıt var mı ona da bakalım.")
+],
+[
+("现在大家的立场已经清楚多了。","Şimdi herkesin duruşu çok daha net."),
+("不过时间和资源够不够也要考虑。","Ama zaman ve kaynakların yeterli olup olmadığını da düşünmeliyiz."),
+("这个提醒很重要，不然方案可能做不下去。","Bu uyarı önemli; yoksa plan uygulanamayabilir."),
+("那我们先想清楚最坏的情况。","O zaman önce en kötü durumu netleştirelim."),
+("只要风险在哪里说清楚，就比较容易决定。","Riskin nerede olduğunu netleştirirsek karar vermek daha kolay olur."),
+("好，先做一个暂时的决定。","Tamam, önce geçici bir karar verelim.")
+],
+[
+("我同意，后面的责任也要分清楚。","Katılıyorum; sonraki sorumlulukları da netleştirmeliyiz."),
+("团队做的决定，也要一起面对结果。","Ekip olarak alınan kararın sonucunu da birlikte karşılamalıyız."),
+("我会把结论和没解决的问题分别记下来。","Sonuçları ve çözülmemiş sorunları ayrı ayrı not edeceğim."),
+("这样下次就不用从头开始。","Böylece bir dahaki sefere baştan başlamamız gerekmez."),
+("如果有新信息，要尽快共享。","Yeni bilgi çıkarsa mümkün olduğunca hızlı paylaşılmalı."),
+("透明一点，反而更容易建立信任。","Daha şeffaf olmak güven kurmayı kolaylaştırır.")
+],
+[
+("现在主要事实、风险和选择都比较清楚了。","Artık temel olgular, riskler ve seçenekler oldukça net."),
+("我们先按今天确定的优先顺序推进。","Bugün belirlediğimiz öncelik sırasına göre ilerleyelim."),
+("如果新信息出现，就及时重新评估。","Yeni bilgi çıkarsa zamanında yeniden değerlendirelim."),
+("这样既不会太草率，也不会一直拖下去。","Böylece ne fazla aceleci oluruz ne de işi gereksiz uzatırız."),
+("这次至少是充分讨论以后做的决定。","Bu karar en azından yeterli bir tartışmadan sonra alındı."),
+("好，那就按计划继续。","Tamam, plana göre devam edelim.")
+]],
+"HSK6": [
+[
+("我也想先听听大家最真实的想法。","Ben de önce herkesin en gerçek düşüncesini duymak istiyorum."),
+("这件事来得有点突然，有不同反应很正常。","Bu konu biraz ani gelişti; farklı tepkiler olması çok normal."),
+("先别急着下结论，把各自最在意的地方说清楚。","Hemen sonuca varmayalım; herkes en çok neyi önemsediğini netleştirsin."),
+("我同意，先听完彼此怎么想，再看下一步。","Katılıyorum; önce birbirimizi dinleyelim, sonra sonraki adıma bakalım."),
+("好，那就一件一件说。","Tamam, o zaman konuları tek tek ele alalım."),
+("这样比较容易理解彼此的立场。","Böylece birbirimizin bakış açısını anlamak daha kolay olur.")
+],
+[
+("我更想知道，这件事对每个人意味着什么。","Ben daha çok bunun herkes için ne anlama geldiğini bilmek istiyorum."),
+("对，不能只看表面的结果。","Evet, yalnızca yüzeydeki sonuca bakamayız."),
+("如果只从自己的位置出发，很容易忽略别人的感受。","Yalnızca kendi konumumuzdan bakarsak başkalarının duygularını gözden kaçırmak kolay olur."),
+("所以先把事实和感受分开说清楚。","Bu yüzden önce olguları ve duyguları ayrı ayrı netleştirelim."),
+("这一点会影响我们后面怎么理解整件事。","Bu nokta sonrasında tüm konuyu nasıl anlayacağımızı etkileyecek."),
+("好，先把不同的看法都放在桌面上。","Tamam, farklı görüşlerin hepsini açıkça ortaya koyalım.")
+],
+[
+("与其马上下结论，不如先确认几个关键细节。","Hemen sonuca varmak yerine birkaç kritik ayrıntıyı teyit etmek daha iyi."),
+("我同意，理由说清楚比急着决定更重要。","Katılıyorum; gerekçeyi net söylemek aceleyle karar vermekten daha önemli."),
+("这个决定不仅关系到眼前，也会影响以后。","Bu karar yalnızca bugünü değil, geleceği de etkileyecek."),
+("所以短期和长期都要放在一起考虑。","Bu nedenle kısa ve uzun vadeyi birlikte değerlendirmeliyiz."),
+("有不同意见不代表谁对谁错。","Farklı görüşler olması birinin haklı diğerinin haksız olduğu anlamına gelmez."),
+("关键是怎么在不同需要之间找到平衡。","Önemli olan farklı ihtiyaçlar arasında nasıl denge kurulacağı.")
+],
+[
+("现在大家的立场已经比开始时清楚多了。","Şimdi herkesin duruşu başlangıca göre çok daha net."),
+("不过现实条件也不能忽略。","Ama gerçek koşulları da göz ardı edemeyiz."),
+("即使方向没问题，执行的时候也要留一点调整空间。","Yön doğru olsa bile uygulamada biraz ayarlama payı bırakmalıyız."),
+("如果情况变了，就及时修改计划。","Durum değişirse planı zamanında değiştirelim."),
+("无论最后怎么选，都应该把责任和理由说清楚。","Sonunda ne seçersek seçelim sorumlulukları ve gerekçeleri netleştirmeliyiz."),
+("这样大家会更安心。","Böylece herkes kendini daha rahat hisseder.")
+],
+[
+("今天没有把所有问题都解决，但最重要的已经说清楚了。","Bugün bütün sorunları çözmedik ama en önemli noktaları netleştirdik."),
+("有些答案需要时间验证，不必今天全部确定。","Bazı cevapları zaman doğrulayacak; bugün her şeyi kesinleştirmek gerekmiyor."),
+("真正的理解不是完全同意，而是知道对方为什么这样想。","Gerçek anlayış tamamen aynı fikirde olmak değil, karşıdakinin neden öyle düşündüğünü bilmektir."),
+("我同意，给彼此留一点空间反而更真诚。","Katılıyorum; birbirimize biraz alan bırakmak daha samimi."),
+("以后再回头看今天，也许会有新的理解。","İleride bugüne geri baktığımızda belki yeni bir anlayışımız olacak."),
+("好，下一步我们一起面对。","Tamam, bir sonraki adımla birlikte yüzleşiriz.")
+]]
 }
 
-def repair_generated_templates(zh, key):
-    patterns = [
-        (r"(.+?)是这次要考虑的重点之一。", lambda x: pick([
-            f"{x}这一点也得认真考虑。",
-            f"说到{x}，这一点确实不能忽略。",
-            f"{x}也是这次要考虑的重点。",
-        ], key)),
-        (r"关于(.+?)，我们还要再讨论一下。", lambda x: pick([
-            f"说到{x}，我们还得再商量一下。",
-            f"{x}这部分，我们最好再讨论一下。",
-            f"关于{x}，我觉得还得再聊一聊。",
-        ], key)),
-        (r"如果(.+?)没有问题，我们就继续。", lambda x: pick([
-            f"如果{x}这边没问题，我们就继续。",
-            f"{x}要是没问题，我们就接着往下。",
-            f"确认{x}没问题以后，我们再继续。",
-        ], key)),
-        (r"(.+?)是我们不能忽略的一点。", lambda x: pick([
-            f"{x}这一点也不能忽略。",
-            f"对，{x}也是必须考虑的。",
-            f"{x}这部分我们也得认真看。",
-        ], key)),
-        (r"如果(.+?)发生变化，计划也得调整。", lambda x: pick([
-            f"要是{x}有变化，计划也得跟着调整。",
-            f"如果{x}变了，我们的计划也要调整。",
-            f"{x}一旦有变化，原来的计划就得改。",
-        ], key)),
-        (r"我们把(.+?)也列进考虑范围吧。", lambda x: pick([
-            f"那把{x}也一起考虑进去吧。",
-            f"{x}也应该放进我们的考虑范围。",
-            f"好，{x}这一点也加进去。",
-        ], key)),
-        (r"关于(.+?)，我想再听听大家的看法。", lambda x: pick([
-            f"说到{x}，我还想听听大家怎么想。",
-            f"关于{x}，大家还有什么想法？",
-            f"{x}这件事，我想再听听你们的意见。",
-        ], key)),
-    ]
-    for pattern, maker in patterns:
-        m = re.fullmatch(pattern, zh)
+def stable_pick(options, key):
+    h=hashlib.sha256(key.encode("utf-8")).digest()
+    return options[int.from_bytes(h[:4],"big") % len(options)]
+
+def is_rebuild(level, turn):
+    return any(a <= turn <= b for a,b in REBUILD_RANGES.get(level, []))
+
+def active_cards(data):
+    cards=[x for x in data.get("learning",{}).get("vocabularyCards",[]) if x.get("kind")=="active" and x.get("zh")]
+    if not cards:
+        cards=[{"zh":data.get("titleZh","这件事"),"tr":data.get("titleTr","bu konu"),"exampleZh":"","exampleTr":""}]
+    return cards
+
+def term_kind(card):
+    term=str(card.get("zh","")).strip()
+    ex=str(card.get("exampleZh","")).strip()
+    if re.search(rf"(先|要|需要|可以|再){re.escape(term)}", ex) or ex.startswith(term+"以前"):
+        return "verb"
+    if any(x in term for x in ("一点","一些")):
+        return "adj"
+    if term in {"试","选择","确认","等","调整","决定","沟通","帮忙","检查","安排","解决","比较","讨论","联系","准备","继续","改变","涨价"}:
+        return "verb"
+    return "noun"
+
+def term_question(card, level):
+    z=str(card.get("zh","")).strip()
+    t=str(card.get("tr","")).strip()
+    k=term_kind(card)
+    if k=="verb":
+        if level=="HSK2":
+            return f"那要不要先{z}一下？", f"O zaman önce {t} deneyelim mi?"
+        return f"那这一步要不要先{z}一下？", f"O zaman bu adımda önce {t} gerekir mi?"
+    if k=="adj":
+        return f"你觉得{z}怎么样？", f"{t} olması hakkında ne düşünüyorsun?"
+    if level=="HSK2":
+        return f"那{z}呢？", f"Peki {t}?"
+    return f"说到{z}，你怎么看？", f"{t} konusunda ne düşünüyorsun?"
+
+def term_statement(card, level):
+    z=str(card.get("zh","")).strip()
+    t=str(card.get("tr","")).strip()
+    k=term_kind(card)
+    if k=="verb":
+        return f"我觉得先{z}一下比较好。", f"Bence önce {t} daha iyi olur."
+    if k=="adj":
+        return f"我觉得{z}会更合适。", f"Bence {t} olması daha uygun olur."
+    if level=="HSK2":
+        return f"我觉得{z}也很重要。", f"Bence {t} de önemli."
+    return f"我觉得{z}这一点也不能忽略。", f"Bence {t} konusunu da göz ardı etmemeliyiz."
+
+def scaffold_line(level, turn, data, cards):
+    phase=min(4,(turn-1)//20)
+    slot=(turn-1)%8
+    idx=((turn-1)//4) % len(cards)
+    card=cards[idx]
+    next_card=cards[(idx+1)%len(cards)]
+
+    if level=="HSK6" and turn==1:
+        return f"今天就把“{data.get('titleZh','这件事')}”这件事好好聊一聊吧。", f"Bugün “{data.get('titleTr','bu konu')}” konusunu açıkça konuşalım."
+    if slot==0:
+        return term_question(card, level)
+    if slot==4:
+        return term_statement(next_card, level)
+
+    generic_slots=[1,2,3,5,6,7]
+    j=generic_slots.index(slot)
+    return PHASE[level][phase][j]
+
+def pinyin_text(text):
+    # Safety-first display: correct syllables separated by spaces.
+    out=[]
+    for ch in t2s.convert(text):
+        if "\u3400" <= ch <= "\u9fff":
+            if ch=="嗯":
+                out.append("èn")
+            else:
+                py=lazy_pinyin(ch,style=Style.TONE,neutral_tone_with_five=False,strict=False,errors="default")[0]
+                out.append(py)
+        elif ch in "，。？！；：、,.?!;:":
+            if out:
+                out[-1]=out[-1]+{
+                    "，":",","。":".","？":"?","！":"!","；":";", "：":":"
+                }.get(ch,ch)
+            else:
+                out.append(ch)
+        elif ch.isspace():
+            continue
+        else:
+            out.append(ch)
+    s=" ".join(out)
+    s=s.replace("nǎ ér","nǎr").replace("zhè ér","zhèr").replace("nà ér","nàr")
+    s=s.replace("ń","èn").replace("ň","èn")
+    for i,c in enumerate(s):
+        if c.isalpha():
+            s=s[:i]+c.upper()+s[i+1:]
+            break
+    return s
+
+def naturalize_existing(level, zh, prev, turn, key):
+    zh=t2s.convert(zh.strip())
+
+    # Beginner question/answer patterns: keep target vocabulary but make the exchange less textbook-like.
+    if level in {"HSK1","HSK2"}:
+        m=re.fullmatch(r"这是(.+?)吗？",zh)
         if m:
-            return maker(m.group(1))
+            x=m.group(1)
+            return stable_pick([f"这是{x}吗？",f"这个是{x}吗？",f"这是{x}，对吗？"],key)
+        m=re.fullmatch(r"对，这是(.+?)。",zh)
+        if m:
+            x=m.group(1)
+            return stable_pick([f"对，就是{x}。",f"嗯，对，这是{x}。",f"没错，是{x}。"],key)
+        m=re.fullmatch(r"(.+?)在哪儿？",zh)
+        if m:
+            x=m.group(1)
+            return stable_pick([f"{x}在哪儿？",f"那{x}在哪儿？",f"{x}呢？"],key)
+        m=re.fullmatch(r"(.+?)在这里。",zh)
+        if m:
+            x=m.group(1)
+            return stable_pick([f"{x}在这儿。","就在这里。",f"你看，{x}在这儿。"],key)
+        m=re.fullmatch(r"(.+?)在那边。",zh)
+        if m:
+            x=m.group(1)
+            return stable_pick([f"{x}在那边。","就在那边。",f"你看，{x}在那边。"],key)
+        m=re.fullmatch(r"这个(.+?)在这里。",zh)
+        if m:
+            x=m.group(1)
+            return stable_pick([f"你看，这个{x}在这儿。",f"这个{x}就在这里。"],key)
+        m=re.fullmatch(r"我们先(.+?)。",zh)
+        if m and len(m.group(1)) <= 4:
+            x=m.group(1)
+            return f"我们先{x}一下吧。"
 
-    m = re.fullmatch(r"我们最好再确认一下(.+?)。", zh)
+    # Repair known generator-shaped sentences.
+    m=re.fullmatch(r"(.+?)是这次要考虑的重点之一。",zh)
     if m:
-        x = m.group(1)
-        if x in {"觉得","需要","同意","决定"}:
-            return pick([
-                "这一点我们最好再确认一下。",
-                "这部分还是再确认一下比较好。",
-                "我觉得这里还需要再确认一下。",
-            ], key)
-        return pick([
-            f"{x}这部分我们最好再确认一下。",
-            f"关于{x}，我们再确认一次吧。",
-            f"我想再确认一下{x}这部分。",
-        ], key)
-    return None
+        x=m.group(1); return f"{x}这一点也得认真考虑。"
+    m=re.fullmatch(r"关于(.+?)，我们还要再讨论一下。",zh)
+    if m:
+        x=m.group(1); return f"说到{x}，我们还得再商量一下。"
+    m=re.fullmatch(r"我们最好再确认一下(.+?)。",zh)
+    if m:
+        x=m.group(1)
+        if x in {"觉得","需要","同意","决定"}: return "这一点我们最好再确认一下。"
+        return f"{x}这部分我们最好再确认一下。"
+    m=re.fullmatch(r"如果(.+?)没有问题，我们就继续。",zh)
+    if m:
+        return f"如果{m.group(1)}这边没问题，我们就继续。"
 
-def naturalize_line(level, zh, prev, nxt, occurrence, scene_id, turn_id):
-    key = f"{scene_id}:{turn_id}:{prev}:{nxt}:{occurrence}"
-    zh = t2s.convert(zh.strip())
+    opts=COMMON.get(zh)
+    if opts:
+        return stable_pick(opts,key)
 
-    repaired = repair_generated_templates(zh, key)
-    if repaired:
-        return repaired
-
-    if level == "HSK1":
-        qa = qa_hsk1(zh, prev, occurrence, key)
-        if qa:
-            return qa
-
-    options = LEVEL.get(level, {}).get(zh) or COMMON.get(zh)
-    if options:
-        return pick(options, key)
-
-    # Preserve meaning, but improve adjacency when the current line is clearly
-    # responding to the previous one.
-    if prev.endswith(("？", "?")):
-        if zh.startswith("我觉得") and not zh.startswith("嗯，"):
-            return "嗯，" + zh
-        if zh.startswith("我同意") and not zh.startswith("嗯，"):
-            return "嗯，" + zh
-        if zh.startswith("可以") and len(zh) <= 14:
-            return pick([zh, "嗯，" + zh, "可以，" + zh[2:] if zh.startswith("可以，") else zh], key)
-
-    if prev.startswith(("为什么", "怎么")) and zh.startswith("因为"):
-        return zh
-
-    # Soften a few bookish conjunctions without changing proposition.
-    zh = zh.replace("虽然有点麻烦，但是", "虽然有点麻烦，不过")
-    zh = zh.replace("如果这样做，", "这样做的话，")
-    zh = zh.replace("我们最好把", "最好把") if level in {"HSK3","HSK4"} else zh
-
+    if prev.endswith("？") and zh.startswith(("我觉得","我同意")) and not zh.startswith("嗯，"):
+        return "嗯，"+zh
     return zh
 
 def main():
-    stats = defaultdict(lambda: {"scenes": 0, "turns": 0, "changedTurns": 0})
-    global_before = Counter()
-    global_after = Counter()
-    scene_files = sorted(scene_root.glob("HSK*/scenes/ZH_HSK*_SC*.json"))
+    stats=defaultdict(lambda:{"scenes":0,"turns":0,"changedTurns":0,"rebuiltTurns":0})
+    before=Counter(); after=Counter()
+    files=sorted(scene_root.glob("HSK*/scenes/ZH_HSK*_SC*.json"))
 
-    for path in scene_files:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        scene_id = data["id"]
-        level = data.get("level") or path.parts[-3]
-        source = data.get("dialogues", [])
-        seen_source = Counter()
-        out = []
-        prev_new = ""
-        changed = 0
+    for path in files:
+        data=json.loads(path.read_text(encoding="utf-8"))
+        level=data.get("level") or path.parts[-3]
+        scene_id=data["id"]
+        cards=active_cards(data)
+        src=data.get("dialogues",[])
+        out=[]
+        changed=rebuilt=0
+        prev=""
 
-        for i, d in enumerate(source):
-            old_zh = t2s.convert(str(d.get("zh", "")).strip())
-            next_old = t2s.convert(str(source[i+1].get("zh", "")).strip()) if i + 1 < len(source) else ""
-            occurrence = seen_source[old_zh]
-            new_zh = naturalize_line(
-                level, old_zh, prev_new, next_old, occurrence, scene_id, d.get("id", str(i))
-            )
-            new_zh = t2s.convert(new_zh)
-            seen_source[old_zh] += 1
+        for i,d in enumerate(src,1):
+            old=t2s.convert(str(d.get("zh","")).strip())
+            key=f"{scene_id}:{d.get('id')}:{prev}"
+            if level in PHASE and is_rebuild(level,i):
+                new,tr=scaffold_line(level,i,data,cards)
+                rebuilt+=1
+            else:
+                new=naturalize_existing(level,old,prev,i,key)
+                tr=str(d.get("tr","")).strip()
 
-            # Prevent filler stacking.
-            new_zh = re.sub(r"^(嗯，){2,}", "嗯，", new_zh)
-            new_zh = re.sub(r"^(好，){2,}", "好，", new_zh)
+            new=t2s.convert(new)
+            new=re.sub(r"^(嗯，){2,}","嗯，",new)
+            if out and new==out[-1]["zh"]:
+                new=("嗯，" if level in {"HSK1","HSK2","HSK3"} else "对，")+new
 
-            # If an identical line would occur consecutively, add a minimal
-            # natural discourse cue without changing meaning.
-            if out and new_zh == out[-1]["zh"]:
-                if level in {"HSK1","HSK2","HSK3"}:
-                    new_zh = "嗯，" + new_zh if not new_zh.startswith("嗯，") else new_zh
-                else:
-                    new_zh = "对，" + new_zh if not new_zh.startswith("对，") else new_zh
+            py=str(d.get("pinyin","")).strip() if new==old else pinyin_text(new)
+            out.append({"id":d.get("id"),"speaker":d.get("speaker"),"zh":new,"pinyin":py,"tr":tr})
 
-            new_pinyin = str(d.get("pinyin", "")).strip() if new_zh == old_zh else to_pinyin(new_zh)
-            new_tr = str(d.get("tr", "")).strip()
+            before[old]+=1; after[new]+=1
+            if new!=old: changed+=1
+            prev=new
 
-            out.append({
-                "id": d.get("id"),
-                "speaker": d.get("speaker"),
-                "zh": new_zh,
-                "pinyin": new_pinyin,
-                "tr": new_tr,
-            })
-
-            global_before[old_zh] += 1
-            global_after[new_zh] += 1
-            if new_zh != old_zh:
-                changed += 1
-            prev_new = new_zh
-
-        patch = {
-            "naturalizationVersion": 2,
-            "sceneId": scene_id,
-            "level": level,
-            "sourceTitleZh": data.get("titleZh"),
-            "sourceTitleTr": data.get("titleTr"),
-            "sourceMiniAdventureTr": data.get("miniAdventureTr"),
-            "dialogues": out,
+        patch={
+            "naturalizationVersion":3,
+            "sceneId":scene_id,
+            "level":level,
+            "sourceTitleZh":data.get("titleZh"),
+            "sourceTitleTr":data.get("titleTr"),
+            "sourceMiniAdventureTr":data.get("miniAdventureTr"),
+            "dialogues":out,
         }
-        dest = out_root / level / path.name
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(json.dumps(patch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        dest=out_root/level/path.name
+        dest.parent.mkdir(parents=True,exist_ok=True)
+        dest.write_text(json.dumps(patch,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        stats[level]["scenes"]+=1
+        stats[level]["turns"]+=len(src)
+        stats[level]["changedTurns"]+=changed
+        stats[level]["rebuiltTurns"]+=rebuilt
 
-        stats[level]["scenes"] += 1
-        stats[level]["turns"] += len(source)
-        stats[level]["changedTurns"] += changed
-
-    report = {
-        "naturalizationVersion": 2,
-        "sceneCount": len(scene_files),
-        "turnCount": sum(v["turns"] for v in stats.values()),
-        "changedTurnCount": sum(v["changedTurns"] for v in stats.values()),
-        "uniqueZhBefore": len(global_before),
-        "uniqueZhAfter": len(global_after),
-        "duplicateTurnsBefore": sum(n - 1 for n in global_before.values() if n > 1),
-        "duplicateTurnsAfter": sum(n - 1 for n in global_after.values() if n > 1),
-        "levels": dict(sorted(stats.items())),
+    report={
+        "naturalizationVersion":3,
+        "sceneCount":len(files),
+        "turnCount":sum(x["turns"] for x in stats.values()),
+        "changedTurnCount":sum(x["changedTurns"] for x in stats.values()),
+        "rebuiltTurnCount":sum(x["rebuiltTurns"] for x in stats.values()),
+        "uniqueZhBefore":len(before),
+        "uniqueZhAfter":len(after),
+        "duplicateTurnsBefore":sum(n-1 for n in before.values() if n>1),
+        "duplicateTurnsAfter":sum(n-1 for n in after.values() if n>1),
+        "levels":dict(sorted(stats.items())),
     }
-    (out_root / "report.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
-    print(json.dumps(report, ensure_ascii=False))
+    (out_root/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(json.dumps(report,ensure_ascii=False))
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
