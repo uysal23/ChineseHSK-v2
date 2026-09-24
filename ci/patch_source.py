@@ -221,10 +221,14 @@ start_code = """    fun startRecognition() {
                     val value = chineseTextSimilarity(item.zh, text)
                     score = value
                     progress.savePronunciationBest(item.id, value)
-                    status = ""
+                    status = "Kayıt hazır. ▶ Kaydımı Dinle ile kendi sesini kontrol edebilirsin."
                 },
                 onError = { message ->
-                    status = message
+                    status = if (hasRecording) {
+                        message + " Kayıt yine de dinlenebilir."
+                    } else {
+                        message
+                    }
                 }
             )
         }
