@@ -9,6 +9,8 @@ on:
       - visual_pack_v1.zip
       - .github/workflows/build-from-zip.yml
       - ci/**
+  release:
+    types: [published]
   workflow_dispatch:
 
 permissions:
@@ -150,6 +152,61 @@ jobs:
           fi
 
           echo "SRC=$SRC" >> "$GITHUB_ENV"
+
+      - name: Install generated Mandarin voice pack
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          DEST="$SRC/app/src/main/assets"
+          TMP="$RUNNER_TEMP/mandarin-voice-pack"
+          rm -rf "$TMP"
+          mkdir -p "$TMP"
+
+          FOUND=0
+          if gh release view voice-pack-v1 >/dev/null 2>&1; then
+            for attempt in 1 2 3 4 5 6; do
+              if gh release download voice-pack-v1 \
+                  --pattern "ChineseHSK-voice-pack-v1.zip" \
+                  --dir "$TMP" \
+                  --clobber; then
+                FOUND=1
+                break
+              fi
+              sleep 10
+            done
+          fi
+
+          if [ "$FOUND" -eq 1 ]; then
+            unzip -q -o "$TMP/ChineseHSK-voice-pack-v1.zip" -d "$DEST"
+            python3 - "$DEST/chinese_course/media/audio_manifest.json" "$DEST" <<'PY'
+          import json, sys
+          from pathlib import Path
+
+          manifest_path = Path(sys.argv[1])
+          assets_root = Path(sys.argv[2])
+          data = json.loads(manifest_path.read_text(encoding="utf-8"))
+          assets = data.get("assets", {})
+          if len(assets) != 30000:
+              raise SystemExit(f"Expected 30000 generated dialogue mappings, got {len(assets)}")
+          missing = []
+          for dialogue_id, rel in assets.items():
+              p = assets_root / rel.removeprefix("chinese_course/")
+              if not p.exists() or p.stat().st_size < 256:
+                  missing.append((dialogue_id, rel))
+                  if len(missing) >= 20:
+                      break
+          if missing:
+              raise SystemExit(f"Generated voice assets missing: {missing}")
+          print(
+              f"Installed generated voice pack: {len(assets)} dialogue mappings, "
+              f"{data.get('uniqueAudioCount', 0)} unique Opus files."
+          )
+          PY
+          else
+            echo "voice-pack-v1 is not published yet; APK will use offline TTS fallback."
+          fi
 
       - name: Setup Java 17
         uses: actions/setup-java@v6
