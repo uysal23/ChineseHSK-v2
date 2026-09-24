@@ -18,12 +18,181 @@ out_root.mkdir(parents=True, exist_ok=True)
 t2s = OpenCC("t2s")
 
 REBUILD_RANGES = {
-    "HSK2": [(2, 21), (55, 95)],
+    "HSK2": [(55, 95)],
     "HSK3": [(1, 18), (76, 94)],
-    "HSK4": [(1, 22), (78, 94)],
-    "HSK5": [(3, 22), (71, 94)],
-    "HSK6": [(1, 6), (15, 92)],
+    "HSK4": [(78, 94)],
+    "HSK5": [(71, 94)],
+    "HSK6": [(1, 6), (71, 92)],
 }
+
+BLOCKS = {
+    ("HSK2",55,95): [
+        ("好，我们把刚才看的再整理一下。","Tamam, az önce baktıklarımızı bir kez daha toparlayalım."),
+        ("先从最需要确认的地方开始。","Önce en çok teyit edilmesi gereken yerden başlayalım."),
+        "Q",
+        ("我觉得先看实际情况比较好。","Bence önce gerçek duruma bakmak daha iyi."),
+        ("对，不合适就换一个。","Evet, uygun değilse başka birini deneriz."),
+        ("别急，慢慢来。","Acele etmeyelim, yavaş yavaş ilerleyelim."),
+        "S",
+        ("这样就清楚多了。","Böylece çok daha net oldu."),
+        ("那再看下一个。","O zaman sonrakine bakalım."),
+        ("好，我记住了。","Tamam, aklımda."),
+        "Q",
+        ("我先试试看。","Önce bir deneyeyim."),
+        ("如果不合适，我就换。","Uygun olmazsa değiştiririm."),
+        ("对，这样比较方便。","Evet, böyle daha kullanışlı."),
+        "S",
+        ("那就先这么做吧。","O zaman şimdilik böyle yapalım."),
+        ("做完以后我们再检查。","Bitirdikten sonra bir kez daha kontrol ederiz."),
+        ("好，有问题马上说。","Tamam, sorun olursa hemen söyleyelim."),
+        "Q",
+        ("我觉得这个选择可以。","Bence bu seçenek uygun."),
+        ("不过还要再比较一下。","Ama yine de biraz daha karşılaştırmak gerekiyor."),
+        ("对，比较一下会更清楚。","Evet, karşılaştırınca daha net olur."),
+        "S",
+        ("那再试一次。","O zaman bir kez daha deneyelim."),
+        ("现在比刚才好多了。","Şimdi az öncekinden çok daha iyi."),
+        ("嗯，已经很接近了。","Evet, artık oldukça yaklaştık."),
+        "Q",
+        ("我觉得这次可以先定下来。","Bence bu kez şimdilik karar verebiliriz."),
+        ("好，不过最后再确认一次。","Tamam, ama son kez bir daha teyit edelim."),
+        ("对，别漏掉细节。","Evet, ayrıntıları atlamayalım."),
+        "S",
+        ("这样就不容易弄错了。","Böylece hata yapmak daha zor olur."),
+        ("那把剩下的也看完。","O zaman kalanlara da bakalım."),
+        ("好，快结束了。","Tamam, neredeyse bitti."),
+        "Q",
+        ("我觉得主要问题已经解决了。","Bence ana sorun artık çözüldü."),
+        ("剩下的按刚才说的做就行。","Kalanını az önce konuştuğumuz gibi yapmamız yeterli."),
+        ("最后再检查一次吧。","Son kez bir daha kontrol edelim."),
+        "S",
+        ("嗯，这次应该没问题了。","Evet, bu kez sorun olmamalı."),
+        ("好，那这一部分就完成了。","Tamam, bu kısmı da tamamladık."),
+    ],
+    ("HSK3",1,18): [
+        "TITLE",
+        ("好，先听听大家怎么想。","Tamam, önce herkesin ne düşündüğünü dinleyelim."),
+        "Q",
+        ("我先说吧，我最担心的是实际情况会不会跟我们想的一样。","Önce ben söyleyeyim; en çok gerçek durumun düşündüğümüz gibi olup olmayacağını merak ediyorum."),
+        ("对，所以先把重点找出来。","Evet, bu yüzden önce ana noktayı bulalım."),
+        ("那就一项一项看。","O zaman maddeleri tek tek ele alalım."),
+        "S",
+        ("这点我同意，先记下来。","Bu noktaya katılıyorum, önce not edelim."),
+        "Q",
+        ("我觉得先把这一点说清楚比较好。","Bence önce bu noktayı netleştirmek daha iyi."),
+        ("对，不然等会儿容易混在一起。","Evet, yoksa birazdan konular birbirine karışabilir."),
+        ("那就先确认大家的想法。","O zaman önce herkesin fikrini netleştirelim."),
+        "S",
+        ("好，这一项先放在这里。","Tamam, bu maddeyi şimdilik burada bırakalım."),
+        "Q",
+        ("我觉得这部分也需要认真考虑。","Bence bu kısmı da ciddi biçimde değerlendirmek gerekiyor."),
+        ("嗯，先别急着决定。","Evet, karar vermek için acele etmeyelim."),
+        ("好，我们把这些都说清楚以后再看下一步。","Tamam, bunları netleştirdikten sonra sonraki adıma bakalım."),
+    ],
+    ("HSK3",76,94): [
+        ("刚才的办法基本可行，不过最后还要把几件事确认清楚。","Az önceki yöntem genel olarak uygulanabilir; ama son olarak birkaç noktayı netleştirmeliyiz."),
+        "Q",
+        ("我觉得这一点现在已经比刚开始清楚多了。","Bence bu nokta başlangıca göre artık çok daha net."),
+        ("对，先把需要做的事情分一下。","Evet, önce yapılacak işleri paylaştıralım."),
+        ("好，有变化就及时说。","Tamam, değişiklik olursa hemen söyleyelim."),
+        "S",
+        ("这样安排以后，后面会顺利很多。","Böyle düzenleyince sonrası çok daha sorunsuz ilerler."),
+        ("我同意，不过还得留一点调整空间。","Katılıyorum, ama biraz ayarlama payı bırakmak gerekiyor."),
+        ("没问题，遇到情况再改。","Sorun değil, durum çıkarsa yeniden değiştiririz."),
+        "Q",
+        ("我觉得这部分可以先按现在的想法来。","Bence bu kısmı şimdilik mevcut fikrimize göre yapabiliriz."),
+        ("那就先试，效果不好再调整。","O zaman önce deneyelim; sonuç iyi olmazsa yeniden ayarlarız."),
+        ("好，我把这个也记下来。","Tamam, bunu da not ediyorum."),
+        "S",
+        ("现在主要问题已经基本说清楚了。","Ana sorun artık büyük ölçüde netleşti."),
+        ("对，剩下的就是按计划做。","Evet, geriye plana göre uygulamak kalıyor."),
+        ("最后再确认一遍吧。","Son kez bir daha teyit edelim."),
+        "Q",
+        ("好，这一点确认以后我们就可以收尾了。","Tamam, bu noktayı da teyit edince konuşmayı tamamlayabiliriz."),
+    ],
+    ("HSK4",78,94): [
+        ("前面的方案已经比较清楚了，最后再把细节过一遍。","Önceki plan artık oldukça net; son olarak ayrıntıları bir kez daha gözden geçirelim."),
+        "Q",
+        ("我觉得这一点需要结合实际情况看。","Bence bu noktayı gerçek koşullarla birlikte değerlendirmek gerekiyor."),
+        ("对，不能只看一个方面。","Evet, yalnızca tek bir açıdan bakamayız."),
+        "S",
+        ("那就把可能的变化也算进去。","O zaman olası değişiklikleri de hesaba katalım."),
+        ("好，这样会稳妥一些。","Tamam, böyle daha temkinli olur."),
+        "Q",
+        ("我想先确认一下，这会不会影响刚才的安排。","Önce bunun az önceki planı etkileyip etkilemeyeceğini teyit etmek istiyorum."),
+        ("如果会，就提前留出调整空间。","Etkileyecekse önceden ayarlama payı bırakalım."),
+        "S",
+        ("这样一来，大家的责任也更清楚。","Böylece herkesin sorumluluğu da daha net olur."),
+        ("对，有变化就及时沟通。","Evet, değişiklik olursa zamanında iletişim kuralım."),
+        "Q",
+        ("我觉得现在的信息已经够我们做一个决定了。","Bence mevcut bilgiler artık bir karar vermek için yeterli."),
+        ("我同意，不过执行以后还要再看效果。","Katılıyorum, ama uyguladıktan sonra sonucu yeniden değerlendirmeliyiz."),
+        "S",
+    ],
+    ("HSK5",71,94): [
+        ("刚才的事实和风险已经比较清楚了，接下来把决定落下来。","Olgular ve riskler artık oldukça net; şimdi kararı somutlaştıralım."),
+        "Q",
+        ("我觉得这一点需要先说明白理由。","Bence önce bunun gerekçesini açıkça anlatmak gerekiyor."),
+        ("对，不然别人很难理解这个决定。","Evet, yoksa başkalarının bu kararı anlaması zor olur."),
+        "S",
+        ("我们也要看看有没有相反的情况。","Ters yönde bir durum olup olmadığına da bakmalıyız."),
+        ("如果有，就把它一起放进判断里。","Varsa onu da değerlendirmeye dahil edelim."),
+        ("这样会比只看一个角度稳妥。","Bu, yalnızca tek açıdan bakmaktan daha temkinli olur."),
+        "Q",
+        ("我觉得可以先设一个可以检查的标准。","Bence önce kontrol edilebilir bir ölçüt belirleyebiliriz."),
+        ("对，到时候用结果说话。","Evet, zamanı geldiğinde sonucu esas alırız."),
+        "S",
+        ("那就把时间和责任也一起定下来。","O zaman zamanlamayı ve sorumlulukları da birlikte belirleyelim."),
+        ("好，这样执行的时候不会互相等。","Tamam, böylece uygulama sırasında birbirimizi beklemeyiz."),
+        "Q",
+        ("我还想确认，这个选择会影响到谁。","Bu seçimin kimi etkileyeceğini de teyit etmek istiyorum."),
+        ("这个问题很重要，不能只看我们自己。","Bu önemli bir soru; yalnızca kendimize bakamayız."),
+        "S",
+        ("如果有人有不同意见，就把理由说清楚。","Farklı görüşü olan varsa gerekçesini açıkça anlatsın."),
+        ("对，分歧本身不是问题。","Evet, görüş ayrılığının kendisi sorun değildir."),
+        "Q",
+        ("我觉得现在已经可以做一个暂时的决定了。","Bence artık geçici bir karar verebiliriz."),
+        ("那就设一个复查时间，之后再评估。","O zaman bir yeniden değerlendirme zamanı belirleyelim."),
+        ("好，这样既不草率，也不会一直拖下去。","Tamam, böylece ne aceleci oluruz ne de işi sürekli uzatırız."),
+    ],
+    ("HSK6",1,6): [
+        "TITLE",
+        ("我也想先听听大家最真实的想法。","Ben de önce herkesin en gerçek düşüncesini duymak istiyorum."),
+        ("这件事来得有点突然，有不同反应很正常。","Bu konu biraz ani gelişti; farklı tepkiler olması çok normal."),
+        ("先别急着下结论，把各自最在意的地方说清楚。","Hemen sonuca varmayalım; herkes en çok neyi önemsediğini netleştirsin."),
+        "S",
+        ("我同意，先听完彼此怎么想，再看下一步。","Katılıyorum; önce birbirimizi dinleyelim, sonra sonraki adıma bakalım."),
+    ],
+    ("HSK6",71,92): [
+        ("现在最重要的不是再扩大讨论，而是把刚才说清楚的几点落下来。","Şimdi önemli olan tartışmayı büyütmek değil, az önce netleştirdiğimiz noktaları somutlaştırmak."),
+        ("对，先确认大家都理解彼此的想法。","Evet, önce herkesin birbirinin düşüncesini anladığından emin olalım."),
+        "Q",
+        ("我觉得这一点可以再说得具体一点。","Bence bu noktayı biraz daha somut ifade edebiliriz."),
+        ("我最关心的是，这个决定会不会让谁觉得被忽略。","En çok bu kararın birine kendini göz ardı edilmiş hissettirip hissettirmeyeceğini önemsiyorum."),
+        ("那就把每个人的顾虑再说一遍。","O zaman herkesin kaygısını bir kez daha söyleyelim."),
+        "S",
+        ("这样做不是为了重新争论，而是为了避免误会。","Bunu yeniden tartışmak için değil, yanlış anlamaları önlemek için yapıyoruz."),
+        ("我同意，真正需要决定的事情其实已经不多了。","Katılıyorum; aslında karar verilmesi gereken çok az konu kaldı."),
+        ("那就把能现在决定的先定下来。","O zaman şimdi karar verebileceklerimizi netleştirelim."),
+        "Q",
+        ("我觉得这部分可以留一点时间。","Bence bu kısım için biraz zaman bırakabiliriz."),
+        ("有些答案不用今天一次说完。","Bazı cevapların bugün tek seferde verilmesi gerekmiyor."),
+        ("只要大家知道下一步怎么走就够了。","Herkes sonraki adımın ne olduğunu bildiği sürece yeterli."),
+        "S",
+        ("我也会把自己的想法再整理一下。","Ben de kendi düşüncelerimi yeniden toparlayacağım."),
+        ("以后如果情况变化，我们再一起谈。","İleride durum değişirse yeniden birlikte konuşuruz."),
+        ("对，重要的是保持这种沟通方式。","Evet, önemli olan bu iletişim biçimini sürdürmek."),
+        "Q",
+        ("现在听起来比刚开始清楚多了。","Şimdi başlangıca göre çok daha net geliyor."),
+        ("嗯，我也安心多了。","Evet, ben de çok daha rahatladım."),
+        ("好，那最后再确认一下我们刚才的决定。","Tamam, son olarak az önceki kararımızı bir kez daha teyit edelim."),
+    ],
+}
+
+for (lvl,a,b), seq in BLOCKS.items():
+    expected=b-a+1
+    if len(seq)!=expected:
+        raise RuntimeError(f"BLOCK length mismatch {lvl} {a}-{b}: {len(seq)} != {expected}")
 
 COMMON = {
     "我明白了。": ["嗯，我明白了。", "好，明白了。", "这下明白了。"],
@@ -278,13 +447,14 @@ def term_kind(card):
 def term_question(card, level):
     z=str(card.get("zh","")).strip()
     t=str(card.get("tr","")).strip()
+    ex=str(card.get("exampleZh","")).strip()
     k=term_kind(card)
     if k=="verb":
-        if level=="HSK2":
-            return f"那要不要先{z}一下？", f"O zaman önce {t} deneyelim mi?"
-        return f"那这一步要不要先{z}一下？", f"O zaman bu adımda önce {t} gerekir mi?"
+        if ex.startswith(z+"以前"):
+            return f"说到{z}，你现在怎么看？", f"{t} konusunda şu anda ne düşünüyorsun?"
+        return f"那要不要先{z}一下？", f"O zaman önce “{t}” kısmını ele alalım mı?"
     if k=="adj":
-        return f"你觉得{z}怎么样？", f"{t} olması hakkında ne düşünüyorsun?"
+        return f"你觉得{z}怎么样？", f"“{t}” seçeneği hakkında ne düşünüyorsun?"
     if level=="HSK2":
         return f"那{z}呢？", f"Peki {t}?"
     return f"说到{z}，你怎么看？", f"{t} konusunda ne düşünüyorsun?"
@@ -292,71 +462,70 @@ def term_question(card, level):
 def term_statement(card, level):
     z=str(card.get("zh","")).strip()
     t=str(card.get("tr","")).strip()
+    ex=str(card.get("exampleZh","")).strip()
     k=term_kind(card)
     if k=="verb":
-        return f"我觉得先{z}一下比较好。", f"Bence önce {t} daha iyi olur."
+        if ex.startswith(z+"以前"):
+            return f"我觉得{z}以前还要再确认一下。", f"Bence {t} öncesinde bir kez daha teyit etmek gerekiyor."
+        return f"我觉得先{z}一下比较好。", f"Bence önce “{t}” kısmını ele almak daha iyi olur."
     if k=="adj":
-        return f"我觉得{z}会更合适。", f"Bence {t} olması daha uygun olur."
+        return f"我觉得{z}会更合适。", f"Bence “{t}” seçeneği daha uygun olur."
     if level=="HSK2":
         return f"我觉得{z}也很重要。", f"Bence {t} de önemli."
     return f"我觉得{z}这一点也不能忽略。", f"Bence {t} konusunu da göz ardı etmemeliyiz."
 
-def scaffold_line(level, turn, data, cards, term_cursor):
-    phase=min(4,(turn-1)//20)
-    slot=(turn-1)%8
+def block_role(level, turn):
+    for (lvl,a,b), seq in BLOCKS.items():
+        if lvl==level and a <= turn <= b:
+            return seq[turn-a]
+    return None
 
-    if level=="HSK6" and turn==1:
+def scaffold_line(level, turn, data, cards, term_cursor):
+    role=block_role(level,turn)
+    if role is None:
+        raise RuntimeError(f"No block role for {level} turn {turn}")
+
+    if role=="TITLE":
         return (
             f"今天就把“{data.get('titleZh','这件事')}”这件事好好聊一聊吧。",
             f"Bugün “{data.get('titleTr','bu konu')}” konusunu açıkça konuşalım.",
             False,
         )
 
-    if slot==0:
+    if role=="Q":
         card=cards[term_cursor % len(cards)]
-        zh,tr=term_question(card, level)
+        zh,tr=term_question(card,level)
         return zh,tr,True
 
-    if slot==4:
+    if role=="S":
         card=cards[term_cursor % len(cards)]
-        zh,tr=term_statement(card, level)
+        zh,tr=term_statement(card,level)
         return zh,tr,True
 
-    generic_slots=[1,2,3,5,6,7]
-    j=generic_slots.index(slot)
-    zh,tr=PHASE[level][phase][j]
+    zh,tr=role
     return zh,tr,False
 
 def pinyin_text(text):
-    # Safety-first display: correct syllables separated by spaces.
-    out=[]
-    for ch in t2s.convert(text):
-        if "\u3400" <= ch <= "\u9fff":
-            if ch=="嗯":
-                out.append("èn")
-            else:
-                py=lazy_pinyin(ch,style=Style.TONE,neutral_tone_with_five=False,strict=False,errors="default")[0]
-                out.append(py)
-        elif ch in "，。？！；：、,.?!;:":
-            if out:
-                out[-1]=out[-1]+{
-                    "，":",","。":".","？":"?","！":"!","；":";", "：":":"
-                }.get(ch,ch)
-            else:
-                out.append(ch)
-        elif ch.isspace():
-            continue
-        else:
-            out.append(ch)
-    s=" ".join(out)
+    text=t2s.convert(text)
+    parts=lazy_pinyin(
+        text,
+        style=Style.TONE,
+        neutral_tone_with_five=False,
+        strict=False,
+        errors=lambda x:list(x),
+    )
+    s=" ".join(parts)
+    s=re.sub(r"\s+([，。？！；：、,.?!;:])",r"\1",s)
+    s=s.replace("，",",").replace("。",".").replace("？","?").replace("！","!")
+    s=s.replace("；",";").replace("：",":")
     s=s.replace("nǎ ér","nǎr").replace("zhè ér","zhèr").replace("nà ér","nàr")
     s=s.replace("ń","èn").replace("ň","èn")
+    s=re.sub(r"\s+"," ",s).strip()
     for i,c in enumerate(s):
         if c.isalpha():
             s=s[:i]+c.upper()+s[i+1:]
             break
     return s
-
 def naturalize_existing(level, zh, prev, turn, key):
     zh=t2s.convert(zh.strip())
 
@@ -455,8 +624,33 @@ def main():
             if new!=old: changed+=1
             prev=new
 
+        # Final safety net: every active vocabulary item that existed in the
+        # source dialogue must still appear at least once after rebuilding.
+        original_text="".join(t2s.convert(str(x.get("zh",""))) for x in src)
+        final_text="".join(x["zh"] for x in out)
+        missing=[c for c in cards if str(c.get("zh","")).strip() in original_text and str(c.get("zh","")).strip() not in final_text]
+        if missing:
+            candidates=[
+                pos for pos in range(1,len(out)+1)
+                if is_rebuild(level,pos) and isinstance(block_role(level,pos),tuple)
+            ]
+            used=set()
+            for card,pos in zip(missing,candidates):
+                if pos in used:
+                    continue
+                zh,tr=term_statement(card,level)
+                out[pos-1]["zh"]=zh
+                out[pos-1]["pinyin"]=pinyin_text(zh)
+                out[pos-1]["tr"]=tr
+                used.add(pos)
+
+        changed=sum(
+            1 for old_item,new_item in zip(src,out)
+            if t2s.convert(str(old_item.get("zh","")).strip()) != new_item["zh"]
+        )
+
         patch={
-            "naturalizationVersion":3,
+            "naturalizationVersion":4,
             "sceneId":scene_id,
             "level":level,
             "sourceTitleZh":data.get("titleZh"),
@@ -473,7 +667,7 @@ def main():
         stats[level]["rebuiltTurns"]+=rebuilt
 
     report={
-        "naturalizationVersion":3,
+        "naturalizationVersion":4,
         "sceneCount":len(files),
         "turnCount":sum(x["turns"] for x in stats.values()),
         "changedTurnCount":sum(x["changedTurns"] for x in stats.values()),
