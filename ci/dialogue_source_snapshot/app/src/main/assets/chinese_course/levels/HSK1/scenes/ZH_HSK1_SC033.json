@@ -1,0 +1,1161 @@
+{
+  "schemaVersion": 2,
+  "id": "ZH_HSK1_SC033",
+  "level": "HSK1",
+  "number": 33,
+  "titleZh": "午饭点什么？",
+  "titleTr": "Öğle Yemeği Siparişi",
+  "productionStatus": "complete",
+  "complete": true,
+  "miniAdventureTr": "Zhang menüde ne seçeceğine karar veremez ve arkadaşından yardım ister.",
+  "learning": {
+    "communicationGoals": [
+      "yemek sipariş etmek",
+      "öneri istemek"
+    ],
+    "vocabularyTheme": "öğle yemeği ve menü",
+    "grammarTheme": "你吃什么?, 我要…, 这个好吃吗?",
+    "pronunciationTheme": "hǎochī",
+    "targetActiveVocabularyCount": {
+      "min": 3,
+      "max": 6
+    },
+    "defaultSpeechSpeed": 0.8,
+    "defaultSubtitleMode": "ZH_PINYIN_TR",
+    "vocabularyCards": [
+      {
+        "id": "VOC_ZH_HSK1_SC033_001",
+        "zh": "菜单",
+        "pinyin": "càidān",
+        "tr": "menü",
+        "exampleZh": "这是菜单。",
+        "examplePinyin": "Zhè shì càidān.",
+        "exampleTr": "Bu menü.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_002",
+        "zh": "午饭",
+        "pinyin": "wǔfàn",
+        "tr": "öğle yemeği",
+        "exampleZh": "这是午饭。",
+        "examplePinyin": "Zhè shì wǔfàn.",
+        "exampleTr": "Bu öğle yemeği.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_003",
+        "zh": "饭",
+        "pinyin": "fàn",
+        "tr": "yemek",
+        "exampleZh": "这是饭。",
+        "examplePinyin": "Zhè shì fàn.",
+        "exampleTr": "Bu yemek.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_004",
+        "zh": "米饭",
+        "pinyin": "mǐfàn",
+        "tr": "pirinç / pilav",
+        "exampleZh": "这是米饭。",
+        "examplePinyin": "Zhè shì mǐfàn.",
+        "exampleTr": "Bu pirinç / pilav.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_005",
+        "zh": "面条",
+        "pinyin": "miàntiáo",
+        "tr": "erişte / noodle",
+        "exampleZh": "这是面条。",
+        "examplePinyin": "Zhè shì miàntiáo.",
+        "exampleTr": "Bu erişte / noodle.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_006",
+        "zh": "汤",
+        "pinyin": "tāng",
+        "tr": "çorba",
+        "exampleZh": "这是汤。",
+        "examplePinyin": "Zhè shì tāng.",
+        "exampleTr": "Bu çorba.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_007",
+        "zh": "鸡肉",
+        "pinyin": "jīròu",
+        "tr": "tavuk",
+        "exampleZh": "这是鸡肉。",
+        "examplePinyin": "Zhè shì jīròu.",
+        "exampleTr": "Bu tavuk.",
+        "kind": "review"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC033_008",
+        "zh": "水",
+        "pinyin": "shuǐ",
+        "tr": "su",
+        "exampleZh": "这是水。",
+        "examplePinyin": "Zhè shì shuǐ.",
+        "exampleTr": "Bu su.",
+        "kind": "review"
+      }
+    ],
+    "sentenceExercises": [
+      {
+        "id": "SENT_ZH_HSK1_SC033_001",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "菜单",
+          "在",
+          "这里"
+        ],
+        "answerTokens": [
+          "菜单",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_002",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "这是___。",
+        "options": [
+          "菜单",
+          "午饭",
+          "饭"
+        ],
+        "answer": "菜单"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_003",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "这里",
+          "在",
+          "午饭"
+        ],
+        "answerTokens": [
+          "午饭",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_004",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "这是",
+          "饭"
+        ],
+        "answerTokens": [
+          "这是",
+          "饭"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_005",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "午饭在___。",
+        "options": [
+          "这里",
+          "谢谢",
+          "很好"
+        ],
+        "answer": "这里"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_006",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "在哪儿",
+          "菜单"
+        ],
+        "answerTokens": [
+          "菜单",
+          "在哪儿"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_007",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "饭"
+        ],
+        "answerTokens": [
+          "我",
+          "喜欢",
+          "饭"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_008",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "___，谢谢。",
+        "options": [
+          "好的",
+          "在哪儿",
+          "不是"
+        ],
+        "answer": "好的"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC033_009",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "一起",
+          "我们",
+          "吧"
+        ],
+        "answerTokens": [
+          "我们",
+          "一起",
+          "吧"
+        ]
+      }
+    ],
+    "comprehensionQuestions": [
+      {
+        "id": "COMP_ZH_HSK1_SC033_001",
+        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "optionsTr": [
+          "Öğle Yemeği Siparişi",
+          "Bir havaalanı yolculuğu",
+          "Bir spor maçı"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC033_002",
+        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Belli değil"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC033_003",
+        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Sahne bitmiyor"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC033_004",
+        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "optionsTr": [
+          "Zhang ailesinin yeni kasabadaki yaşamına",
+          "Bir tarih belgeseline",
+          "Bir spor turnuvasına"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "pronunciationItems": [
+      {
+        "id": "PRON_ZH_HSK1_SC033_001",
+        "zh": "这是菜单。",
+        "pinyin": "Zhè shì càidān.",
+        "tr": "Bu menü.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC033_002",
+        "zh": "这是午饭。",
+        "pinyin": "Zhè shì wǔfàn.",
+        "tr": "Bu öğle yemeği.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC033_003",
+        "zh": "这是饭。",
+        "pinyin": "Zhè shì fàn.",
+        "tr": "Bu yemek.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC033_004",
+        "zh": "这是米饭。",
+        "pinyin": "Zhè shì mǐfàn.",
+        "tr": "Bu pirinç / pilav.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      }
+    ],
+    "interactiveDialogue": [
+      {
+        "id": "INT_ZH_HSK1_SC033_001",
+        "promptZh": "菜单在哪儿？",
+        "promptPinyin": "Càidān zài nǎr?",
+        "promptTr": "Menü nerede?",
+        "options": [
+          {
+            "zh": "在这里。",
+            "tr": "Burada.",
+            "correct": true
+          },
+          {
+            "zh": "谢谢。",
+            "tr": "Teşekkürler.",
+            "correct": false
+          },
+          {
+            "zh": "我很好。",
+            "tr": "Ben iyiyim.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC033_002",
+        "promptZh": "这是午饭吗？",
+        "promptPinyin": "Zhè shì wǔfàn ma?",
+        "promptTr": "Bu öğle yemeği mı?",
+        "options": [
+          {
+            "zh": "对，是的。",
+            "tr": "Evet.",
+            "correct": true
+          },
+          {
+            "zh": "我叫张伟。",
+            "tr": "Benim adım Zhang Wei.",
+            "correct": false
+          },
+          {
+            "zh": "明天见。",
+            "tr": "Yarın görüşürüz.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC033_003",
+        "promptZh": "你喜欢饭吗？",
+        "promptPinyin": "Nǐ xǐhuan fàn ma?",
+        "promptTr": "Yemek seviyor musun?",
+        "options": [
+          {
+            "zh": "喜欢。",
+            "tr": "Seviyorum.",
+            "correct": true
+          },
+          {
+            "zh": "在右边。",
+            "tr": "Sağ tarafta.",
+            "correct": false
+          },
+          {
+            "zh": "五点。",
+            "tr": "Saat beş.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "examRules": {
+      "vocabularyPassPercent": 90,
+      "sentencePassPercent": 85,
+      "lockNextSceneUntilPassed": true
+    },
+    "examStages": [
+      {
+        "stage": 1,
+        "type": "vocabulary",
+        "passPercent": 90
+      },
+      {
+        "stage": 2,
+        "type": "sentence",
+        "passPercent": 85,
+        "requiresStage": 1
+      }
+    ],
+    "flashCardPolicy": {
+      "allowPrevious": true,
+      "allowNext": true,
+      "allowFavorite": true,
+      "favoritesStudyMode": true
+    }
+  },
+  "locationId": "LOC_ZH_CANTEEN_001",
+  "story": {
+    "previousSceneId": "ZH_HSK1_SC032",
+    "nextSceneId": "ZH_HSK1_SC034"
+  },
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC033_001",
+      "speaker": "张伟",
+      "zh": "大家一起去吃午饭。",
+      "pinyin": "Dàjiā yìqǐ qù chī wǔfàn.",
+      "tr": "Herkes birlikte öğle yemeğine gidiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_002",
+      "speaker": "同事",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_003",
+      "speaker": "服务员",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_004",
+      "speaker": "同事",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_005",
+      "speaker": "张伟",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_006",
+      "speaker": "同事",
+      "zh": "这是菜单吗？",
+      "pinyin": "Zhè shì càidān ma?",
+      "tr": "Bu, menü mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_007",
+      "speaker": "服务员",
+      "zh": "对，这是菜单。",
+      "pinyin": "Duì, zhè shì càidān.",
+      "tr": "Evet, bu menü."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_008",
+      "speaker": "同事",
+      "zh": "菜单在哪儿？",
+      "pinyin": "Càidān zài nǎr?",
+      "tr": "Menü nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_009",
+      "speaker": "张伟",
+      "zh": "菜单在这里。",
+      "pinyin": "Càidān zài zhèlǐ.",
+      "tr": "Menü burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_010",
+      "speaker": "同事",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
+      "tr": "Öğle yemeği ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_011",
+      "speaker": "服务员",
+      "zh": "我要午饭，谢谢。",
+      "pinyin": "Wǒ yào wǔfàn, xièxie.",
+      "tr": "Öğle yemeği istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_012",
+      "speaker": "同事",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_013",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_014",
+      "speaker": "同事",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_015",
+      "speaker": "服务员",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_016",
+      "speaker": "同事",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_017",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_018",
+      "speaker": "同事",
+      "zh": "你要米饭吗？",
+      "pinyin": "Nǐ yào mǐfàn ma?",
+      "tr": "Pirinç / pilav ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_019",
+      "speaker": "服务员",
+      "zh": "我要米饭，谢谢。",
+      "pinyin": "Wǒ yào mǐfàn, xièxie.",
+      "tr": "Pirinç / pilav istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_020",
+      "speaker": "同事",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_021",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_022",
+      "speaker": "同事",
+      "zh": "张伟看不懂一个菜名。",
+      "pinyin": "Zhāng Wěi kàn bù dǒng yí ge càimíng.",
+      "tr": "Zhang Wei bir yemek adını anlamıyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_023",
+      "speaker": "服务员",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_024",
+      "speaker": "同事",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_025",
+      "speaker": "张伟",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_026",
+      "speaker": "同事",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_027",
+      "speaker": "服务员",
+      "zh": "你要面条吗？",
+      "pinyin": "Nǐ yào miàntiáo ma?",
+      "tr": "Erişte / noodle ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_028",
+      "speaker": "同事",
+      "zh": "我要面条，谢谢。",
+      "pinyin": "Wǒ yào miàntiáo, xièxie.",
+      "tr": "Erişte / noodle istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_029",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_030",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_031",
+      "speaker": "服务员",
+      "zh": "你要汤吗？",
+      "pinyin": "Nǐ yào tāng ma?",
+      "tr": "Çorba ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_032",
+      "speaker": "同事",
+      "zh": "我要汤，谢谢。",
+      "pinyin": "Wǒ yào tāng, xièxie.",
+      "tr": "Çorba istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_033",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_034",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_035",
+      "speaker": "服务员",
+      "zh": "你要鸡肉吗？",
+      "pinyin": "Nǐ yào jīròu ma?",
+      "tr": "Tavuk ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_036",
+      "speaker": "同事",
+      "zh": "我要鸡肉，谢谢。",
+      "pinyin": "Wǒ yào jīròu, xièxie.",
+      "tr": "Tavuk istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_037",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_038",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_039",
+      "speaker": "服务员",
+      "zh": "你要水吗？",
+      "pinyin": "Nǐ yào shuǐ ma?",
+      "tr": "Su ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_040",
+      "speaker": "同事",
+      "zh": "我要水，谢谢。",
+      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "tr": "Su istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_041",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_042",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_043",
+      "speaker": "服务员",
+      "zh": "同事帮他选了一份饭。",
+      "pinyin": "Tóngshì bāng tā xuǎn le yí fèn fàn.",
+      "tr": "İş arkadaşı yemek seçmesine yardım ediyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_044",
+      "speaker": "同事",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_045",
+      "speaker": "张伟",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxie nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_046",
+      "speaker": "同事",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_047",
+      "speaker": "服务员",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_048",
+      "speaker": "同事",
+      "zh": "我们继续。",
+      "pinyin": "Wǒmen jìxù.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_049",
+      "speaker": "张伟",
+      "zh": "这是菜单吗？",
+      "pinyin": "Zhè shì càidān ma?",
+      "tr": "Bu, menü mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_050",
+      "speaker": "同事",
+      "zh": "对，这是菜单。",
+      "pinyin": "Duì, zhè shì càidān.",
+      "tr": "Evet, bu menü."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_051",
+      "speaker": "服务员",
+      "zh": "菜单在哪儿？",
+      "pinyin": "Càidān zài nǎr?",
+      "tr": "Menü nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_052",
+      "speaker": "同事",
+      "zh": "菜单在这里。",
+      "pinyin": "Càidān zài zhèlǐ.",
+      "tr": "Menü burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_053",
+      "speaker": "张伟",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
+      "tr": "Öğle yemeği ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_054",
+      "speaker": "同事",
+      "zh": "我要午饭，谢谢。",
+      "pinyin": "Wǒ yào wǔfàn, xièxie.",
+      "tr": "Öğle yemeği istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_055",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_056",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_057",
+      "speaker": "张伟",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_058",
+      "speaker": "同事",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_059",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_060",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_061",
+      "speaker": "张伟",
+      "zh": "你要米饭吗？",
+      "pinyin": "Nǐ yào mǐfàn ma?",
+      "tr": "Pirinç / pilav ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_062",
+      "speaker": "同事",
+      "zh": "我要米饭，谢谢。",
+      "pinyin": "Wǒ yào mǐfàn, xièxie.",
+      "tr": "Pirinç / pilav istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_063",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_064",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_065",
+      "speaker": "张伟",
+      "zh": "你要面条吗？",
+      "pinyin": "Nǐ yào miàntiáo ma?",
+      "tr": "Erişte / noodle ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_066",
+      "speaker": "同事",
+      "zh": "我要面条，谢谢。",
+      "pinyin": "Wǒ yào miàntiáo, xièxie.",
+      "tr": "Erişte / noodle istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_067",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_068",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_069",
+      "speaker": "张伟",
+      "zh": "你要汤吗？",
+      "pinyin": "Nǐ yào tāng ma?",
+      "tr": "Çorba ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_070",
+      "speaker": "同事",
+      "zh": "我要汤，谢谢。",
+      "pinyin": "Wǒ yào tāng, xièxie.",
+      "tr": "Çorba istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_071",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_072",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_073",
+      "speaker": "张伟",
+      "zh": "这是菜单吗？",
+      "pinyin": "Zhè shì càidān ma?",
+      "tr": "Bu, menü mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_074",
+      "speaker": "同事",
+      "zh": "对，这是菜单。",
+      "pinyin": "Duì, zhè shì càidān.",
+      "tr": "Evet, bu menü."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_075",
+      "speaker": "服务员",
+      "zh": "菜单在哪儿？",
+      "pinyin": "Càidān zài nǎr?",
+      "tr": "Menü nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_076",
+      "speaker": "同事",
+      "zh": "菜单在这里。",
+      "pinyin": "Càidān zài zhèlǐ.",
+      "tr": "Menü burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_077",
+      "speaker": "张伟",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
+      "tr": "Öğle yemeği ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_078",
+      "speaker": "同事",
+      "zh": "我要午饭，谢谢。",
+      "pinyin": "Wǒ yào wǔfàn, xièxie.",
+      "tr": "Öğle yemeği istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_079",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_080",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_081",
+      "speaker": "张伟",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_082",
+      "speaker": "同事",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_083",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_084",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_085",
+      "speaker": "张伟",
+      "zh": "你要米饭吗？",
+      "pinyin": "Nǐ yào mǐfàn ma?",
+      "tr": "Pirinç / pilav ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_086",
+      "speaker": "同事",
+      "zh": "我要米饭，谢谢。",
+      "pinyin": "Wǒ yào mǐfàn, xièxie.",
+      "tr": "Pirinç / pilav istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_087",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_088",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_089",
+      "speaker": "张伟",
+      "zh": "你要面条吗？",
+      "pinyin": "Nǐ yào miàntiáo ma?",
+      "tr": "Erişte / noodle ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_090",
+      "speaker": "同事",
+      "zh": "我要面条，谢谢。",
+      "pinyin": "Wǒ yào miàntiáo, xièxie.",
+      "tr": "Erişte / noodle istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_091",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_092",
+      "speaker": "同事",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_093",
+      "speaker": "张伟",
+      "zh": "你要汤吗？",
+      "pinyin": "Nǐ yào tāng ma?",
+      "tr": "Çorba ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_094",
+      "speaker": "同事",
+      "zh": "我要汤，谢谢。",
+      "pinyin": "Wǒ yào tāng, xièxie.",
+      "tr": "Çorba istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_095",
+      "speaker": "服务员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_096",
+      "speaker": "同事",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīntiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_097",
+      "speaker": "张伟",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_098",
+      "speaker": "同事",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_099",
+      "speaker": "服务员",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC033_100",
+      "speaker": "同事",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ],
+  "production": {
+    "scenePurposeTr": "Zhang menüde ne seçeceğine karar veremez ve arkadaşından yardım ister.",
+    "timeOfDay": "day",
+    "atmosphere": "sıcak, doğal, günlük yaşam odaklı",
+    "characters": [
+      "张伟",
+      "同事",
+      "服务员",
+      "同事"
+    ],
+    "locationId": "LOC_ZH_CANTEEN_001",
+    "visual": {
+      "reuseLocation": true,
+      "newVisualRequired": false,
+      "style": "visual_novel_theatre"
+    },
+    "audio": {
+      "voiceLanguage": "zh-CN",
+      "narratorProfile": "NARRATOR_ZH_001",
+      "defaultSpeechSpeed": 0.8
+    },
+    "animation": {
+      "level": "minimal",
+      "mouthMode": "AUTO_SIMPLE",
+      "blink": true,
+      "speakerFocus": true
+    },
+    "continuityNoteTr": "Öğle Yemeği Siparişi olayı ana aile kronolojisinde sahne 33 olarak kaydedilir."
+  },
+  "editorialStatus": "generated_full_v1_requires_native_review",
+  "dialogueCount": 100
+}
