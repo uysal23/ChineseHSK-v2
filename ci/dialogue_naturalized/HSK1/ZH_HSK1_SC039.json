@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC039",
   "level": "HSK1",
   "sourceTitleZh": "突然下雨了",
@@ -24,14 +24,14 @@
       "id": "DLG_ZH_HSK1_SC039_003",
       "speaker": "张乐乐",
       "zh": "没错。",
-      "pinyin": "Méicuò.",
+      "pinyin": "Méi cuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_004",
       "speaker": "张雨桐",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
@@ -44,57 +44,57 @@
     {
       "id": "DLG_ZH_HSK1_SC039_006",
       "speaker": "刘梅",
-      "zh": "这是雨吗？",
-      "pinyin": "Zhè shì yǔ ma?",
+      "zh": "这个是雨吗？",
+      "pinyin": "Zhè gè shì yǔ ma?",
       "tr": "Bu, yağmur mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_007",
       "speaker": "张乐乐",
-      "zh": "没错，是雨。",
-      "pinyin": "Méicuò, shì yǔ.",
+      "zh": "对，就是雨。",
+      "pinyin": "Duì, jiù shì yǔ.",
       "tr": "Evet, bu yağmur."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_008",
       "speaker": "张雨桐",
-      "zh": "雨呢？",
-      "pinyin": "Yǔ ne?",
+      "zh": "雨在哪儿？",
+      "pinyin": "Yǔ zài nǎr?",
       "tr": "Yağmur nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_009",
       "speaker": "张伟",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "雨在这儿。",
+      "pinyin": "Yǔ zài zhèr.",
       "tr": "Yağmur burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_010",
       "speaker": "刘梅",
-      "zh": "这是雨伞吗？",
-      "pinyin": "Zhè shì yǔsǎn ma?",
+      "zh": "这个是雨伞吗？",
+      "pinyin": "Zhè gè shì yǔ sǎn ma?",
       "tr": "Bu, şemsiye mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_011",
       "speaker": "张乐乐",
-      "zh": "嗯，对，这是雨伞。",
-      "pinyin": "Èn, duì, zhè shì yǔsǎn.",
+      "zh": "没错，是雨伞。",
+      "pinyin": "Méi cuò, shì yǔ sǎn.",
       "tr": "Evet, bu şemsiye."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_012",
       "speaker": "张雨桐",
-      "zh": "那雨伞在哪儿？",
-      "pinyin": "Nà yǔsǎn zài nǎér?",
+      "zh": "雨伞在哪儿？",
+      "pinyin": "Yǔsǎn zài nǎr?",
       "tr": "Şemsiye nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_013",
       "speaker": "张伟",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "你看，雨伞在这儿。",
+      "pinyin": "Nǐ kàn, yǔ sǎn zài zhèr.",
       "tr": "Şemsiye burada."
     },
     {
@@ -107,22 +107,22 @@
     {
       "id": "DLG_ZH_HSK1_SC039_015",
       "speaker": "张乐乐",
-      "zh": "没错，是天气。",
-      "pinyin": "Méicuò, shì tiānqì.",
+      "zh": "对，就是天气。",
+      "pinyin": "Duì, jiù shì tiān qì.",
       "tr": "Evet, bu hava."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_016",
       "speaker": "张雨桐",
       "zh": "那天气在哪儿？",
-      "pinyin": "Nà tiānqì zài nǎér?",
+      "pinyin": "Nà tiān qì zài nǎr?",
       "tr": "Hava nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_017",
       "speaker": "张伟",
-      "zh": "天气在这儿。",
-      "pinyin": "Tiānqì zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Hava burada."
     },
     {
@@ -135,22 +135,22 @@
     {
       "id": "DLG_ZH_HSK1_SC039_019",
       "speaker": "张乐乐",
-      "zh": "没错，是外套。",
-      "pinyin": "Méicuò, shì wàitào.",
+      "zh": "对，就是外套。",
+      "pinyin": "Duì, jiù shì wài tào.",
       "tr": "Evet, bu mont."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_020",
       "speaker": "张雨桐",
       "zh": "外套呢？",
-      "pinyin": "Wàitào ne?",
+      "pinyin": "Wài tào ne?",
       "tr": "Mont nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_021",
       "speaker": "张伟",
-      "zh": "外套在这儿。",
-      "pinyin": "Wàitào zài zhèér.",
+      "zh": "你看，外套在这儿。",
+      "pinyin": "Nǐ kàn, wài tào zài zhèr.",
       "tr": "Mont burada."
     },
     {
@@ -163,29 +163,29 @@
     {
       "id": "DLG_ZH_HSK1_SC039_023",
       "speaker": "张乐乐",
-      "zh": "别着急。",
-      "pinyin": "Biézháojí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_024",
       "speaker": "张雨桐",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_025",
       "speaker": "张伟",
-      "zh": "好，一起吧。",
-      "pinyin": "Hǎo, yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_026",
       "speaker": "刘梅",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Tamam."
     },
     {
@@ -198,15 +198,15 @@
     {
       "id": "DLG_ZH_HSK1_SC039_028",
       "speaker": "张雨桐",
-      "zh": "你看，路在那边。",
-      "pinyin": "Nǐ kàn, lù zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_029",
       "speaker": "张伟",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -219,29 +219,29 @@
     {
       "id": "DLG_ZH_HSK1_SC039_031",
       "speaker": "张乐乐",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎr?",
+      "zh": "那家在哪儿？",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_032",
       "speaker": "张雨桐",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nàbian.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_033",
       "speaker": "张伟",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_034",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -268,8 +268,8 @@
     {
       "id": "DLG_ZH_HSK1_SC039_038",
       "speaker": "刘梅",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -282,22 +282,22 @@
     {
       "id": "DLG_ZH_HSK1_SC039_040",
       "speaker": "张雨桐",
-      "zh": "有点儿。",
-      "pinyin": "Yǒudiǎnér.",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
       "tr": "Biraz."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_041",
       "speaker": "张伟",
-      "zh": "没关系，别急。",
-      "pinyin": "Méiguānxì, biéjí.",
+      "zh": "没关系。",
+      "pinyin": "Méi guānxi.",
       "tr": "Sorun değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_042",
       "speaker": "刘梅",
-      "zh": "那我们继续吧。",
-      "pinyin": "Nà wǒmen jìxù ba.",
+      "zh": "好，继续。",
+      "pinyin": "Hǎo, jì xù.",
       "tr": "Devam edelim."
     },
     {
@@ -310,78 +310,78 @@
     {
       "id": "DLG_ZH_HSK1_SC039_044",
       "speaker": "张雨桐",
-      "zh": "真好！",
-      "pinyin": "Zhēn hǎo!",
+      "zh": "太棒了！",
+      "pinyin": "Tài bàng le!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_045",
       "speaker": "张伟",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_046",
       "speaker": "刘梅",
-      "zh": "别客气。",
-      "pinyin": "Bié kèqì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_047",
       "speaker": "张乐乐",
-      "zh": "这下好了。",
-      "pinyin": "Zhè xià hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_048",
       "speaker": "张雨桐",
-      "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_049",
       "speaker": "张伟",
-      "zh": "这个是雨吗？",
-      "pinyin": "Zhège shì yǔ ma?",
+      "zh": "这是雨吗？",
+      "pinyin": "Zhè shì yǔ ma?",
       "tr": "Bu, yağmur mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_050",
       "speaker": "刘梅",
-      "zh": "没错，是雨。",
-      "pinyin": "Méicuò, shì yǔ.",
+      "zh": "嗯，对，这是雨。",
+      "pinyin": "Èn, duì, zhè shì yǔ.",
       "tr": "Evet, bu yağmur."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_051",
       "speaker": "张乐乐",
-      "zh": "那雨在哪儿？",
-      "pinyin": "Nà yǔ zài nǎér?",
+      "zh": "雨呢？",
+      "pinyin": "Yǔ ne?",
       "tr": "Yağmur nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_052",
       "speaker": "张雨桐",
       "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Yağmur burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_053",
       "speaker": "张伟",
-      "zh": "这个是雨伞吗？",
-      "pinyin": "Zhège shì yǔsǎn ma?",
+      "zh": "这是雨伞吗？",
+      "pinyin": "Zhè shì yǔsǎn ma?",
       "tr": "Bu, şemsiye mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_054",
       "speaker": "刘梅",
       "zh": "嗯，对，这是雨伞。",
-      "pinyin": "Èn, duì, zhè shì yǔsǎn.",
+      "pinyin": "Èn, duì, zhè shì yǔ sǎn.",
       "tr": "Evet, bu şemsiye."
     },
     {
@@ -394,64 +394,64 @@
     {
       "id": "DLG_ZH_HSK1_SC039_056",
       "speaker": "张雨桐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "你看，雨伞在这儿。",
+      "pinyin": "Nǐ kàn, yǔ sǎn zài zhèr.",
       "tr": "Şemsiye burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_057",
       "speaker": "张伟",
-      "zh": "这个是天气吗？",
-      "pinyin": "Zhège shì tiānqì ma?",
+      "zh": "这是天气吗？",
+      "pinyin": "Zhè shì tiānqì ma?",
       "tr": "Bu, hava mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_058",
       "speaker": "刘梅",
       "zh": "没错，是天气。",
-      "pinyin": "Méicuò, shì tiānqì.",
+      "pinyin": "Méi cuò, shì tiān qì.",
       "tr": "Evet, bu hava."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_059",
       "speaker": "张乐乐",
-      "zh": "那天气在哪儿？",
-      "pinyin": "Nà tiānqì zài nǎér?",
+      "zh": "天气呢？",
+      "pinyin": "Tiān qì ne?",
       "tr": "Hava nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_060",
       "speaker": "张雨桐",
-      "zh": "天气在这儿。",
-      "pinyin": "Tiānqì zài zhèér.",
+      "zh": "你看，天气在这儿。",
+      "pinyin": "Nǐ kàn, tiān qì zài zhèr.",
       "tr": "Hava burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_061",
       "speaker": "张伟",
-      "zh": "这个是外套吗？",
-      "pinyin": "Zhège shì wàitào ma?",
+      "zh": "这是外套，对吗？",
+      "pinyin": "Zhè shì wài tào, duì ma?",
       "tr": "Bu, mont mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_062",
       "speaker": "刘梅",
-      "zh": "对，就是外套。",
-      "pinyin": "Duì, jiùshì wàitào.",
+      "zh": "没错，是外套。",
+      "pinyin": "Méi cuò, shì wài tào.",
       "tr": "Evet, bu mont."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_063",
       "speaker": "张乐乐",
-      "zh": "外套在哪儿？",
-      "pinyin": "Wàitào zài nǎr?",
+      "zh": "那外套在哪儿？",
+      "pinyin": "Nà wài tào zài nǎr?",
       "tr": "Mont nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_064",
       "speaker": "张雨桐",
-      "zh": "外套在这儿。",
-      "pinyin": "Wàitào zài zhèér.",
+      "zh": "你看，外套在这儿。",
+      "pinyin": "Nǐ kàn, wài tào zài zhèr.",
       "tr": "Mont burada."
     },
     {
@@ -464,50 +464,50 @@
     {
       "id": "DLG_ZH_HSK1_SC039_066",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "路在那边。",
+      "pinyin": "Lù zài nàbian.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_067",
       "speaker": "张乐乐",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_068",
       "speaker": "张雨桐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_069",
       "speaker": "张伟",
       "zh": "那家在哪儿？",
-      "pinyin": "Nà jiā zài nǎér?",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_070",
       "speaker": "刘梅",
-      "zh": "家在那边。",
-      "pinyin": "Jiā zài nàbian.",
+      "zh": "你看，家在那边。",
+      "pinyin": "Nǐ kàn, jiā zài nà biān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_071",
       "speaker": "张乐乐",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_072",
       "speaker": "张雨桐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -520,8 +520,8 @@
     {
       "id": "DLG_ZH_HSK1_SC039_074",
       "speaker": "刘梅",
-      "zh": "没错，是雨。",
-      "pinyin": "Méicuò, shì yǔ.",
+      "zh": "对，就是雨。",
+      "pinyin": "Duì, jiù shì yǔ.",
       "tr": "Evet, bu yağmur."
     },
     {
@@ -534,120 +534,120 @@
     {
       "id": "DLG_ZH_HSK1_SC039_076",
       "speaker": "张雨桐",
-      "zh": "你看，雨在这儿。",
-      "pinyin": "Nǐ kàn, yǔ zài zhèér.",
+      "zh": "雨在这儿。",
+      "pinyin": "Yǔ zài zhèr.",
       "tr": "Yağmur burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_077",
       "speaker": "张伟",
-      "zh": "这是雨伞，对吗？",
-      "pinyin": "Zhè shì yǔsǎn, duì ma?",
+      "zh": "这个是雨伞吗？",
+      "pinyin": "Zhè gè shì yǔ sǎn ma?",
       "tr": "Bu, şemsiye mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_078",
       "speaker": "刘梅",
-      "zh": "嗯，对，这是雨伞。",
-      "pinyin": "Èn, duì, zhè shì yǔsǎn.",
+      "zh": "对，就是雨伞。",
+      "pinyin": "Duì, jiù shì yǔ sǎn.",
       "tr": "Evet, bu şemsiye."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_079",
       "speaker": "张乐乐",
       "zh": "那雨伞在哪儿？",
-      "pinyin": "Nà yǔsǎn zài nǎér?",
+      "pinyin": "Nà yǔ sǎn zài nǎr?",
       "tr": "Şemsiye nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_080",
       "speaker": "张雨桐",
       "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Şemsiye burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_081",
       "speaker": "张伟",
-      "zh": "这是天气，对吗？",
-      "pinyin": "Zhè shì tiānqì, duì ma?",
+      "zh": "这个是天气吗？",
+      "pinyin": "Zhè gè shì tiān qì ma?",
       "tr": "Bu, hava mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_082",
       "speaker": "刘梅",
-      "zh": "没错，是天气。",
-      "pinyin": "Méicuò, shì tiānqì.",
+      "zh": "对，就是天气。",
+      "pinyin": "Duì, jiù shì tiān qì.",
       "tr": "Evet, bu hava."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_083",
       "speaker": "张乐乐",
-      "zh": "天气在哪儿？",
-      "pinyin": "Tiānqì zài nǎr?",
+      "zh": "天气呢？",
+      "pinyin": "Tiān qì ne?",
       "tr": "Hava nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_084",
       "speaker": "张雨桐",
       "zh": "你看，天气在这儿。",
-      "pinyin": "Nǐ kàn, tiānqì zài zhèér.",
+      "pinyin": "Nǐ kàn, tiān qì zài zhèr.",
       "tr": "Hava burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_085",
       "speaker": "张伟",
-      "zh": "这是外套，对吗？",
-      "pinyin": "Zhè shì wàitào, duì ma?",
+      "zh": "这是外套吗？",
+      "pinyin": "Zhè shì wàitào ma?",
       "tr": "Bu, mont mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_086",
       "speaker": "刘梅",
-      "zh": "没错，是外套。",
-      "pinyin": "Méicuò, shì wàitào.",
+      "zh": "嗯，对，这是外套。",
+      "pinyin": "Èn, duì, zhè shì wài tào.",
       "tr": "Evet, bu mont."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_087",
       "speaker": "张乐乐",
-      "zh": "那外套在哪儿？",
-      "pinyin": "Nà wàitào zài nǎér?",
+      "zh": "外套在哪儿？",
+      "pinyin": "Wàitào zài nǎr?",
       "tr": "Mont nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_088",
       "speaker": "张雨桐",
-      "zh": "你看，外套在这儿。",
-      "pinyin": "Nǐ kàn, wàitào zài zhèér.",
+      "zh": "外套在这儿。",
+      "pinyin": "Wài tào zài zhèr.",
       "tr": "Mont burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_089",
       "speaker": "张伟",
-      "zh": "路呢？",
-      "pinyin": "Lù ne?",
+      "zh": "路在哪儿？",
+      "pinyin": "Lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC039_090",
       "speaker": "刘梅",
       "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_091",
       "speaker": "张乐乐",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_092",
       "speaker": "张雨桐",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -660,15 +660,15 @@
     {
       "id": "DLG_ZH_HSK1_SC039_094",
       "speaker": "刘梅",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_095",
       "speaker": "张乐乐",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -681,15 +681,15 @@
     {
       "id": "DLG_ZH_HSK1_SC039_097",
       "speaker": "张伟",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC039_098",
       "speaker": "刘梅",
-      "zh": "都弄好了吗？",
-      "pinyin": "Dōu nòng hǎolema?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {

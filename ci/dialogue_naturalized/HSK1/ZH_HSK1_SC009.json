@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC009",
   "level": "HSK1",
   "sourceTitleZh": "第一次坐出租车",
@@ -30,15 +30,15 @@
     {
       "id": "DLG_ZH_HSK1_SC009_004",
       "speaker": "司机",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_005",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -58,15 +58,15 @@
     {
       "id": "DLG_ZH_HSK1_SC009_008",
       "speaker": "司机",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_009",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -93,36 +93,36 @@
     {
       "id": "DLG_ZH_HSK1_SC009_013",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_014",
       "speaker": "刘梅",
       "zh": "那路在哪儿？",
-      "pinyin": "Nà lù zài nǎér?",
+      "pinyin": "Nà lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_015",
       "speaker": "李晨",
-      "zh": "路在那边。",
-      "pinyin": "Lù zài nàbian.",
+      "zh": "你看，路在那边。",
+      "pinyin": "Nǐ kàn, lù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_016",
       "speaker": "司机",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_017",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -149,8 +149,8 @@
     {
       "id": "DLG_ZH_HSK1_SC009_021",
       "speaker": "张伟",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
@@ -163,29 +163,29 @@
     {
       "id": "DLG_ZH_HSK1_SC009_023",
       "speaker": "李晨",
-      "zh": "先别急。",
-      "pinyin": "Xiān biéjí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_024",
       "speaker": "司机",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_025",
       "speaker": "张伟",
-      "zh": "好，一起吧。",
-      "pinyin": "Hǎo, yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_026",
       "speaker": "刘梅",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "行。",
+      "pinyin": "Xíng.",
       "tr": "Tamam."
     },
     {
@@ -198,15 +198,15 @@
     {
       "id": "DLG_ZH_HSK1_SC009_028",
       "speaker": "司机",
-      "zh": "你看，城市在那边。",
-      "pinyin": "Nǐ kàn, chéngshì zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Şehir şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_029",
       "speaker": "张伟",
       "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -240,8 +240,8 @@
     {
       "id": "DLG_ZH_HSK1_SC009_034",
       "speaker": "刘梅",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
@@ -275,29 +275,29 @@
     {
       "id": "DLG_ZH_HSK1_SC009_039",
       "speaker": "李晨",
-      "zh": "家呢？",
-      "pinyin": "Jiā ne?",
+      "zh": "那家在哪儿？",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_040",
       "speaker": "司机",
       "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_041",
       "speaker": "张伟",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_042",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -317,29 +317,29 @@
     {
       "id": "DLG_ZH_HSK1_SC009_045",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "真谢谢你。",
+      "pinyin": "Zhēn xiè xiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_046",
       "speaker": "刘梅",
-      "zh": "别客气。",
-      "pinyin": "Bié kèqì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_047",
       "speaker": "李晨",
-      "zh": "现在就好了。",
-      "pinyin": "Xiànzài jiù hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_048",
       "speaker": "司机",
-      "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
       "tr": "Devam edelim."
     },
     {
@@ -394,36 +394,36 @@
     {
       "id": "DLG_ZH_HSK1_SC009_056",
       "speaker": "司机",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_057",
       "speaker": "张伟",
-      "zh": "那路在哪儿？",
-      "pinyin": "Nà lù zài nǎér?",
+      "zh": "路在哪儿？",
+      "pinyin": "Lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_058",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "路在那边。",
+      "pinyin": "Lù zài nàbian.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_059",
       "speaker": "李晨",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_060",
       "speaker": "司机",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -450,36 +450,36 @@
     {
       "id": "DLG_ZH_HSK1_SC009_064",
       "speaker": "司机",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_065",
       "speaker": "张伟",
-      "zh": "城市呢？",
-      "pinyin": "Chéngshì ne?",
+      "zh": "城市在哪儿？",
+      "pinyin": "Chéngshì zài nǎr?",
       "tr": "Şehir nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_066",
       "speaker": "刘梅",
-      "zh": "你看，城市在那边。",
-      "pinyin": "Nǐ kàn, chéngshì zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Şehir şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_067",
       "speaker": "李晨",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_068",
       "speaker": "司机",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -507,7 +507,7 @@
       "id": "DLG_ZH_HSK1_SC009_072",
       "speaker": "司机",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkürler."
     },
     {
@@ -527,15 +527,15 @@
     {
       "id": "DLG_ZH_HSK1_SC009_075",
       "speaker": "李晨",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_076",
       "speaker": "司机",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -562,8 +562,8 @@
     {
       "id": "DLG_ZH_HSK1_SC009_080",
       "speaker": "司机",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkürler."
     },
     {
@@ -576,22 +576,22 @@
     {
       "id": "DLG_ZH_HSK1_SC009_082",
       "speaker": "刘梅",
-      "zh": "路在那边。",
-      "pinyin": "Lù zài nàbian.",
+      "zh": "你看，路在那边。",
+      "pinyin": "Nǐ kàn, lù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_083",
       "speaker": "李晨",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_084",
       "speaker": "司机",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -618,36 +618,36 @@
     {
       "id": "DLG_ZH_HSK1_SC009_088",
       "speaker": "司机",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_089",
       "speaker": "张伟",
-      "zh": "城市在哪儿？",
-      "pinyin": "Chéngshì zài nǎr?",
+      "zh": "那城市在哪儿？",
+      "pinyin": "Nà chéng shì zài nǎr?",
       "tr": "Şehir nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_090",
       "speaker": "刘梅",
-      "zh": "你看，城市在那边。",
-      "pinyin": "Nǐ kàn, chéngshì zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Şehir şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_091",
       "speaker": "李晨",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_092",
       "speaker": "司机",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -681,29 +681,29 @@
     {
       "id": "DLG_ZH_HSK1_SC009_097",
       "speaker": "张伟",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_098",
       "speaker": "刘梅",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC009_099",
       "speaker": "李晨",
-      "zh": "嗯，都好了。",
-      "pinyin": "Èn, dōu hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC009_100",
       "speaker": "司机",
-      "zh": "那走吧。",
-      "pinyin": "Nà zǒu ba.",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]

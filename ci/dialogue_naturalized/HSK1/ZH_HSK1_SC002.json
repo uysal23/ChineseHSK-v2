@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC002",
   "level": "HSK1",
   "sourceTitleZh": "火车票在哪儿？",
@@ -24,7 +24,7 @@
       "id": "DLG_ZH_HSK1_SC002_003",
       "speaker": "张雨桐",
       "zh": "没错。",
-      "pinyin": "Méicuò.",
+      "pinyin": "Méi cuò.",
       "tr": "Evet."
     },
     {
@@ -37,64 +37,64 @@
     {
       "id": "DLG_ZH_HSK1_SC002_005",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_006",
       "speaker": "刘梅",
-      "zh": "这是火车票吗？",
-      "pinyin": "Zhè shì huǒchēpiào ma?",
+      "zh": "这个是火车票吗？",
+      "pinyin": "Zhè gè shì huǒ chē piào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_007",
       "speaker": "张雨桐",
-      "zh": "没错，是火车票。",
-      "pinyin": "Méicuò, shì huǒchēpiào.",
+      "zh": "对，就是火车票。",
+      "pinyin": "Duì, jiù shì huǒ chē piào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_008",
       "speaker": "张乐乐",
       "zh": "那火车票在哪儿？",
-      "pinyin": "Nà huǒchēpiào zài nǎér?",
+      "pinyin": "Nà huǒ chē piào zài nǎr?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_009",
       "speaker": "张伟",
-      "zh": "火车票在这儿。",
-      "pinyin": "Huǒchēpiào zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Tren bileti burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_010",
       "speaker": "刘梅",
-      "zh": "这是包吗？",
-      "pinyin": "Zhè shì bāo ma?",
+      "zh": "这个是包吗？",
+      "pinyin": "Zhè gè shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_011",
       "speaker": "张雨桐",
       "zh": "对，就是包。",
-      "pinyin": "Duì, jiùshì bāo.",
+      "pinyin": "Duì, jiù shì bāo.",
       "tr": "Evet, bu çanta."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_012",
       "speaker": "张乐乐",
-      "zh": "那包放在哪儿？",
-      "pinyin": "Nà bāo fàngzài nǎér?",
+      "zh": "包呢？",
+      "pinyin": "Bāo ne?",
       "tr": "Çanta nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_013",
       "speaker": "张伟",
-      "zh": "包在这儿。",
-      "pinyin": "Bāo zài zhèér.",
+      "zh": "你看，包在这儿。",
+      "pinyin": "Nǐ kàn, bāo zài zhèr.",
       "tr": "Çanta burada."
     },
     {
@@ -114,15 +114,15 @@
     {
       "id": "DLG_ZH_HSK1_SC002_016",
       "speaker": "张乐乐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_017",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -135,22 +135,22 @@
     {
       "id": "DLG_ZH_HSK1_SC002_019",
       "speaker": "张雨桐",
-      "zh": "嗯，有一点。",
-      "pinyin": "Èn, yǒu yìdiǎn.",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
       "tr": "Biraz."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_020",
       "speaker": "张乐乐",
-      "zh": "没关系，别急。",
-      "pinyin": "Méiguānxì, biéjí.",
+      "zh": "没关系。",
+      "pinyin": "Méi guānxi.",
       "tr": "Sorun değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_021",
       "speaker": "张伟",
-      "zh": "好，我们接着来。",
-      "pinyin": "Hǎo, wǒmen jiēzhe lái.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒ men jì xù ba.",
       "tr": "Devam edelim."
     },
     {
@@ -170,8 +170,8 @@
     {
       "id": "DLG_ZH_HSK1_SC002_024",
       "speaker": "张乐乐",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
@@ -184,8 +184,8 @@
     {
       "id": "DLG_ZH_HSK1_SC002_026",
       "speaker": "刘梅",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "行。",
+      "pinyin": "Xíng.",
       "tr": "Tamam."
     },
     {
@@ -212,22 +212,22 @@
     {
       "id": "DLG_ZH_HSK1_SC002_030",
       "speaker": "刘梅",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_031",
       "speaker": "张雨桐",
-      "zh": "这是门吗？",
-      "pinyin": "Zhè shì mén ma?",
+      "zh": "这个是门吗？",
+      "pinyin": "Zhè gè shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_032",
       "speaker": "张乐乐",
-      "zh": "嗯，对，这是门。",
-      "pinyin": "Èn, duì, zhè shì mén.",
+      "zh": "没错，是门。",
+      "pinyin": "Méi cuò, shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
@@ -240,64 +240,64 @@
     {
       "id": "DLG_ZH_HSK1_SC002_034",
       "speaker": "刘梅",
-      "zh": "你看，门在这儿。",
-      "pinyin": "Nǐ kàn, mén zài zhèér.",
+      "zh": "门在这儿。",
+      "pinyin": "Mén zài zhèr.",
       "tr": "Kapı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_035",
       "speaker": "张雨桐",
-      "zh": "这是时间吗？",
-      "pinyin": "Zhè shì shíjiān ma?",
+      "zh": "这个是时间吗？",
+      "pinyin": "Zhè gè shì shí jiān ma?",
       "tr": "Bu, zaman mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_036",
       "speaker": "张乐乐",
       "zh": "对，就是时间。",
-      "pinyin": "Duì, jiùshì shíjiān.",
+      "pinyin": "Duì, jiù shì shí jiān.",
       "tr": "Evet, bu zaman."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_037",
       "speaker": "张伟",
-      "zh": "时间在哪儿？",
-      "pinyin": "Shíjiān zài nǎr?",
+      "zh": "时间呢？",
+      "pinyin": "Shí jiān ne?",
       "tr": "Zaman nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_038",
       "speaker": "刘梅",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "你看，时间在这儿。",
+      "pinyin": "Nǐ kàn, shí jiān zài zhèr.",
       "tr": "Zaman burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_039",
       "speaker": "张雨桐",
-      "zh": "这是猫吗？",
-      "pinyin": "Zhè shì māo ma?",
+      "zh": "这是猫，对吗？",
+      "pinyin": "Zhè shì māo, duì ma?",
       "tr": "Bu, kedi mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_040",
       "speaker": "张乐乐",
-      "zh": "没错，是猫。",
-      "pinyin": "Méicuò, shì māo.",
+      "zh": "对，就是猫。",
+      "pinyin": "Duì, jiù shì māo.",
       "tr": "Evet, bu kedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_041",
       "speaker": "张伟",
-      "zh": "那猫放在哪儿？",
-      "pinyin": "Nà māo fàngzài nǎér?",
+      "zh": "那猫在哪儿？",
+      "pinyin": "Nà māo zài nǎr?",
       "tr": "Kedi nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_042",
       "speaker": "刘梅",
-      "zh": "猫在这儿。",
-      "pinyin": "Māo zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Kedi burada."
     },
     {
@@ -310,92 +310,92 @@
     {
       "id": "DLG_ZH_HSK1_SC002_044",
       "speaker": "张乐乐",
-      "zh": "太好了！",
-      "pinyin": "Tài hǎo le!",
+      "zh": "真好！",
+      "pinyin": "Zhēn hǎo!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_045",
       "speaker": "张伟",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_046",
       "speaker": "刘梅",
-      "zh": "没事，不客气。",
-      "pinyin": "Méishì, bù kèqì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_047",
       "speaker": "张雨桐",
-      "zh": "这下好了。",
-      "pinyin": "Zhè xià hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_048",
       "speaker": "张乐乐",
-      "zh": "那我们继续吧。",
-      "pinyin": "Nà wǒmen jìxù ba.",
+      "zh": "好，继续。",
+      "pinyin": "Hǎo, jì xù.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_049",
       "speaker": "张伟",
       "zh": "这个是火车票吗？",
-      "pinyin": "Zhège shì huǒchēpiào ma?",
+      "pinyin": "Zhè gè shì huǒ chē piào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_050",
       "speaker": "刘梅",
       "zh": "对，就是火车票。",
-      "pinyin": "Duì, jiùshì huǒchēpiào.",
+      "pinyin": "Duì, jiù shì huǒ chē piào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_051",
       "speaker": "张雨桐",
-      "zh": "火车票在哪儿？",
-      "pinyin": "Huǒchēpiào zài nǎr?",
+      "zh": "火车票呢？",
+      "pinyin": "Huǒ chē piào ne?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_052",
       "speaker": "张乐乐",
-      "zh": "火车票在这儿。",
-      "pinyin": "Huǒchēpiào zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Tren bileti burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_053",
       "speaker": "张伟",
       "zh": "这个是包吗？",
-      "pinyin": "Zhège shì bāo ma?",
+      "pinyin": "Zhè gè shì bāo ma?",
       "tr": "Bu, çanta mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_054",
       "speaker": "刘梅",
       "zh": "没错，是包。",
-      "pinyin": "Méicuò, shì bāo.",
+      "pinyin": "Méi cuò, shì bāo.",
       "tr": "Evet, bu çanta."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_055",
       "speaker": "张雨桐",
-      "zh": "包呢？放哪儿了？",
-      "pinyin": "Bāo ne? fàng nǎér le?",
+      "zh": "那包在哪儿？",
+      "pinyin": "Nà bāo zài nǎr?",
       "tr": "Çanta nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_056",
       "speaker": "张乐乐",
-      "zh": "你看，包在这儿。",
-      "pinyin": "Nǐ kàn, bāo zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Çanta burada."
     },
     {
@@ -415,15 +415,15 @@
     {
       "id": "DLG_ZH_HSK1_SC002_059",
       "speaker": "张雨桐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_060",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -436,8 +436,8 @@
     {
       "id": "DLG_ZH_HSK1_SC002_062",
       "speaker": "刘梅",
-      "zh": "嗯，有一点。",
-      "pinyin": "Èn, yǒu yìdiǎn.",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
       "tr": "Biraz."
     },
     {
@@ -450,8 +450,8 @@
     {
       "id": "DLG_ZH_HSK1_SC002_064",
       "speaker": "张乐乐",
-      "zh": "那我们继续吧。",
-      "pinyin": "Nà wǒmen jìxù ba.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
       "tr": "Devam edelim."
     },
     {
@@ -479,63 +479,63 @@
       "id": "DLG_ZH_HSK1_SC002_068",
       "speaker": "张乐乐",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_069",
       "speaker": "张伟",
       "zh": "这个是门吗？",
-      "pinyin": "Zhège shì mén ma?",
+      "pinyin": "Zhè gè shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_070",
       "speaker": "刘梅",
-      "zh": "对，就是门。",
-      "pinyin": "Duì, jiùshì mén.",
+      "zh": "没错，是门。",
+      "pinyin": "Méi cuò, shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_071",
       "speaker": "张雨桐",
-      "zh": "门在哪儿？",
-      "pinyin": "Mén zài nǎr?",
+      "zh": "门呢？",
+      "pinyin": "Mén ne?",
       "tr": "Kapı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_072",
       "speaker": "张乐乐",
       "zh": "你看，门在这儿。",
-      "pinyin": "Nǐ kàn, mén zài zhèér.",
+      "pinyin": "Nǐ kàn, mén zài zhèr.",
       "tr": "Kapı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_073",
       "speaker": "张伟",
-      "zh": "这是火车票，对吗？",
-      "pinyin": "Zhè shì huǒchēpiào, duì ma?",
+      "zh": "这是火车票吗？",
+      "pinyin": "Zhè shì huǒchēpiào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_074",
       "speaker": "刘梅",
-      "zh": "没错，是火车票。",
-      "pinyin": "Méicuò, shì huǒchēpiào.",
+      "zh": "对，就是火车票。",
+      "pinyin": "Duì, jiù shì huǒ chē piào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_075",
       "speaker": "张雨桐",
-      "zh": "那火车票在哪儿？",
-      "pinyin": "Nà huǒchēpiào zài nǎér?",
+      "zh": "火车票呢？",
+      "pinyin": "Huǒ chē piào ne?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_076",
       "speaker": "张乐乐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "火车票在这儿。",
+      "pinyin": "Huǒ chē piào zài zhèr.",
       "tr": "Tren bileti burada."
     },
     {
@@ -549,21 +549,21 @@
       "id": "DLG_ZH_HSK1_SC002_078",
       "speaker": "刘梅",
       "zh": "对，就是包。",
-      "pinyin": "Duì, jiùshì bāo.",
+      "pinyin": "Duì, jiù shì bāo.",
       "tr": "Evet, bu çanta."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_079",
       "speaker": "张雨桐",
-      "zh": "包呢？放哪儿了？",
-      "pinyin": "Bāo ne? fàng nǎér le?",
+      "zh": "包在哪儿？",
+      "pinyin": "Bāo zài nǎr?",
       "tr": "Çanta nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_080",
       "speaker": "张乐乐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "你看，包在这儿。",
+      "pinyin": "Nǐ kàn, bāo zài zhèr.",
       "tr": "Çanta burada."
     },
     {
@@ -583,15 +583,15 @@
     {
       "id": "DLG_ZH_HSK1_SC002_083",
       "speaker": "张雨桐",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_084",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -604,22 +604,22 @@
     {
       "id": "DLG_ZH_HSK1_SC002_086",
       "speaker": "刘梅",
-      "zh": "嗯，有一点。",
-      "pinyin": "Èn, yǒu yìdiǎn.",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
       "tr": "Biraz."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_087",
       "speaker": "张雨桐",
-      "zh": "没事。",
-      "pinyin": "Méishì.",
+      "zh": "没关系。",
+      "pinyin": "Méi guānxi.",
       "tr": "Sorun değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_088",
       "speaker": "张乐乐",
-      "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
       "tr": "Devam edelim."
     },
     {
@@ -646,29 +646,29 @@
     {
       "id": "DLG_ZH_HSK1_SC002_092",
       "speaker": "张乐乐",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_093",
       "speaker": "张伟",
-      "zh": "这是门，对吗？",
-      "pinyin": "Zhè shì mén, duì ma?",
+      "zh": "这个是门吗？",
+      "pinyin": "Zhè gè shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC002_094",
       "speaker": "刘梅",
-      "zh": "对，就是门。",
-      "pinyin": "Duì, jiùshì mén.",
+      "zh": "没错，是门。",
+      "pinyin": "Méi cuò, shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_095",
       "speaker": "张雨桐",
-      "zh": "那门放在哪儿？",
-      "pinyin": "Nà mén fàngzài nǎér?",
+      "zh": "门呢？",
+      "pinyin": "Mén ne?",
       "tr": "Kapı nerede?"
     },
     {
@@ -681,15 +681,15 @@
     {
       "id": "DLG_ZH_HSK1_SC002_097",
       "speaker": "张伟",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC002_098",
       "speaker": "刘梅",
-      "zh": "都弄好了吗？",
-      "pinyin": "Dōu nòng hǎolema?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {

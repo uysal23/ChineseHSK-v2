@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK4_SC020",
   "level": "HSK4",
   "sourceTitleZh": "小城摄影比赛",
@@ -9,156 +9,156 @@
     {
       "id": "DLG_ZH_HSK4_SC020_001",
       "speaker": "张乐乐",
-      "zh": "今天我们先谈谈摄影比赛。",
-      "pinyin": "Jīntiān wǒmen xiān tántan shèyǐng bǐsài.",
-      "tr": "Bugün önce fotoğraf yarışması hakkında konuşalım."
+      "zh": "说到摄影比赛，你怎么看？",
+      "pinyin": "Shuō dào shè yǐng bǐ sài, nǐ zěn me kàn?",
+      "tr": "fotoğraf yarışması konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC020_002",
       "speaker": "工作人员",
-      "zh": "今天我们先谈谈参赛作品。",
-      "pinyin": "Jīntiān wǒmen xiān tántan cānsài zuòpǐn.",
-      "tr": "Bugün önce yarışma eseri hakkında konuşalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_003",
       "speaker": "张伟",
-      "zh": "这次的情况比以前更复杂，所以我们得多考虑几步。",
-      "pinyin": "Zhè cì de qíngkuàng bǐ yǐqián gèng fùzá, suǒyǐ wǒmen děi duō kǎolǜ jǐ bù.",
-      "tr": "Bu kez durum eskisine göre daha karmaşık; bu yüzden birkaç adım sonrasını düşünmeliyiz."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_004",
       "speaker": "刘梅",
-      "zh": "我同意，先别急着做最后决定。",
-      "pinyin": "Wǒ tóngyì, xiān bié jízhe zuò zuìhòu juédìng.",
-      "tr": "Katılıyorum, son kararı vermek için acele etmeyelim."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_005",
       "speaker": "张乐乐",
-      "zh": "那我们先把最重要的条件列出来。",
-      "pinyin": "Nà wǒmen xiān bǎ zuì zhòngyào de tiáojiàn liè chūlái.",
-      "tr": "O zaman önce en önemli koşulları sıralayalım."
+      "zh": "我觉得参赛作品这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé cān sài zuò pǐn zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence yarışma eseri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_006",
       "speaker": "工作人员",
-      "zh": "好，这样比较容易比较。",
-      "pinyin": "Hǎo, zhèyàng bǐjiào róngyì bǐjiào.",
-      "tr": "Tamam, böyle karşılaştırmak daha kolay olur."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_007",
       "speaker": "张伟",
-      "zh": "关于摄影比赛，大家还有什么想法？",
-      "pinyin": "Guānyú shèyǐng bǐsài, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Fotoğraf yarışması konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_008",
       "speaker": "刘梅",
-      "zh": "对，这一点我没有意见。",
-      "pinyin": "Duì, zhè yìdiǎn wǒ méiyǒu yìjiàn.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_009",
       "speaker": "张乐乐",
-      "zh": "参赛作品这部分我们也得认真看。",
-      "pinyin": "Cānsài zuòpǐn zhèbùfèn wǒmen yě dé rènzhēn kàn.",
-      "tr": "Yarışma eseri göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到摄影，你怎么看？",
+      "pinyin": "Shuō dào shè yǐng, nǐ zěn me kàn?",
+      "tr": "fotoğrafçılık konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC020_010",
       "speaker": "工作人员",
-      "zh": "嗯，这个角度确实是我刚才忽略的。",
-      "pinyin": "Èn, zhège jiǎodù quèshí shì wǒ gāngcái hūlüè de.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_011",
       "speaker": "张伟",
-      "zh": "好，摄影这一点也加进去。",
-      "pinyin": "Hǎo, shèyǐng zhè yìdiǎn yě jiājìnqù.",
-      "tr": "Fotoğrafçılık konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_012",
       "speaker": "刘梅",
-      "zh": "那确实得重新考虑一下。",
-      "pinyin": "Nà quèshí dé chóngxīnkǎolǜ yīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_013",
       "speaker": "张乐乐",
-      "zh": "如果镜头变了，我们的计划也要调整。",
-      "pinyin": "Rúguǒ jìngtóu biàn le, wǒmen de jìhuà yě yào tiáozhěng.",
-      "tr": "Objektif / kamera bakışı değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得镜头这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé jìng tóu zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence objektif / kamera bakışı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_014",
       "speaker": "工作人员",
-      "zh": "这么说确实更合理。",
-      "pinyin": "Zhème shuō quèshí gèng hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_015",
       "speaker": "张伟",
-      "zh": "关于质量，大家还有什么想法？",
-      "pinyin": "Guānyú zhìliàng, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Kalite konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_016",
       "speaker": "刘梅",
-      "zh": "好，这一点我先记下。",
-      "pinyin": "Hǎo, zhè yìdiǎn wǒ xiān jìxià.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_017",
       "speaker": "张乐乐",
-      "zh": "对，准备也是必须考虑的。",
-      "pinyin": "Duì, zhǔnbèi yě shì bìxū kǎolǜ de.",
-      "tr": "Hazırlamak göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到质量，你怎么看？",
+      "pinyin": "Shuō dào zhì liàng, nǐ zěn me kàn?",
+      "tr": "kalite konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC020_018",
       "speaker": "工作人员",
-      "zh": "好，再看看会不会影响到别的地方。",
-      "pinyin": "Hǎo, zài kànkàn huì búhuì yǐngxiǎng dào biéde dìfāng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_019",
       "speaker": "张伟",
-      "zh": "那把安排也一起考虑进去吧。",
-      "pinyin": "Nà bǎ ānpái yě yìqǐ kǎolǜ jìnqù ba.",
-      "tr": "Planlama / düzenleme konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_020",
       "speaker": "刘梅",
-      "zh": "这一点我赞成。",
-      "pinyin": "Zhè yìdiǎn wǒ zànchéng.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_021",
       "speaker": "张乐乐",
-      "zh": "要是天赋有变化，计划也得跟着调整。",
-      "pinyin": "Yàoshì tiānfù yǒu biànhuà, jìhuà yě dé gēnzhe tiáozhěng.",
-      "tr": "Yetenek değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得先准备一下比较好。",
+      "pinyin": "Wǒ jué dé xiān zhǔn bèi yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce hazırlamak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_022",
       "speaker": "工作人员",
-      "zh": "你这么一说，这个角度我之前没想到。",
-      "pinyin": "Nǐ zhème yī shuō, zhège jiǎodù wǒ zhīqián méixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "不过也要看看会不会影响别的地方。",
+      "pinyin": "Bù guò yě yào kàn kàn huì bù huì yǐng xiǎng bié de dì fāng.",
+      "tr": "Ama başka bir yeri etkileyip etkilemeyeceğine de bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_023",
@@ -541,128 +541,128 @@
     {
       "id": "DLG_ZH_HSK4_SC020_077",
       "speaker": "张乐乐",
-      "zh": "好，有变化就互相说一声。",
-      "pinyin": "Hǎo, yǒu biànhuà jiù hùxiāng shuō yīshēng.",
+      "zh": "好，我们保持联系。",
+      "pinyin": "Hǎo, wǒmen bǎochí liánxì.",
       "tr": "Tamam, iletişimde kalalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_078",
       "speaker": "工作人员",
-      "zh": "好，摄影比赛这一点也加进去。",
-      "pinyin": "Hǎo, shèyǐng bǐsài zhè yìdiǎn yě jiājìnqù.",
-      "tr": "Fotoğraf yarışması konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，有备用办法会放心很多。",
+      "pinyin": "Duì, yǒu bèi yòng bàn fǎ huì fàng xīn hěn duō.",
+      "tr": "Evet, yedek plan olması insanı daha çok rahatlatıyor."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_079",
       "speaker": "张伟",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "那就把责任和时间也说清楚。",
+      "pinyin": "Nà jiù bǎ zé rèn hé shí jiān yě shuō qīng chǔ.",
+      "tr": "O zaman sorumlulukları ve zamanı da netleştirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_080",
       "speaker": "刘梅",
-      "zh": "如果参赛作品变了，我们的计划也要调整。",
-      "pinyin": "Rúguǒ cānsài zuòpǐn biàn le, wǒmen de jìhuà yě yào tiáozhěng.",
-      "tr": "Yarışma eseri değişirse planı da ayarlamak gerekir."
+      "zh": "好，有变化及时告诉大家。",
+      "pinyin": "Hǎo, yǒu biàn huà jí shí gào sù dà jiā.",
+      "tr": "Tamam, değişiklik olursa herkese zamanında haber verelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_081",
       "speaker": "张乐乐",
-      "zh": "这么说确实更合理。",
-      "pinyin": "Zhème shuō quèshí gèng hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "说到摄影比赛，你怎么看？",
+      "pinyin": "Shuō dào shè yǐng bǐ sài, nǐ zěn me kàn?",
+      "tr": "fotoğraf yarışması konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC020_082",
       "speaker": "工作人员",
-      "zh": "说到摄影，我还想听听大家怎么想。",
-      "pinyin": "Shuō dào shèyǐng, wǒ hái xiǎng tīngtīng dàjiā zěnme xiǎng.",
-      "tr": "Fotoğrafçılık konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_083",
       "speaker": "张伟",
-      "zh": "嗯，我先记下这一点。",
-      "pinyin": "Èn, wǒ xiān jìxià zhè yìdiǎn.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_084",
       "speaker": "刘梅",
-      "zh": "镜头这一点也不能忽略。",
-      "pinyin": "Jìngtóu zhè yìdiǎn yě bùnéng hūlüè.",
-      "tr": "Objektif / kamera bakışı göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_085",
       "speaker": "张乐乐",
-      "zh": "我们也得看看还有没有别的影响。",
-      "pinyin": "Wǒmen yě dé kànkàn háiyǒu méiyǒu biéde yǐngxiǎng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得参赛作品这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé cān sài zuò pǐn zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence yarışma eseri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_086",
       "speaker": "工作人员",
-      "zh": "质量也应该放进我们的考虑范围。",
-      "pinyin": "Zhìliàng yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Kalite konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_087",
       "speaker": "张伟",
-      "zh": "嗯，这一点我同意。",
-      "pinyin": "Èn, zhè yìdiǎn wǒ tóngyì.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "今天大家把意见都说清楚了。",
+      "pinyin": "Jīn tiān dà jiā bǎ yì jiàn dōu shuō qīng chǔ le.",
+      "tr": "Bugün herkes görüşünü net biçimde ifade etti."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_088",
       "speaker": "刘梅",
-      "zh": "如果准备变了，我们的计划也要调整。",
-      "pinyin": "Rúguǒ zhǔnbèi biàn le, wǒmen de jìhuà yě yào tiáozhěng.",
-      "tr": "Hazırlamak değişirse planı da ayarlamak gerekir."
+      "zh": "好，那今天先到这里。",
+      "pinyin": "Hǎo, nà jīn tiān xiān dào zhè lǐ.",
+      "tr": "Tamam, bugünlük burada bitirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_089",
       "speaker": "张乐乐",
-      "zh": "你这么一说，这个角度我之前没想到。",
-      "pinyin": "Nǐ zhème yī shuō, zhège jiǎodù wǒ zhīqián méixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "说到摄影，你怎么看？",
+      "pinyin": "Shuō dào shè yǐng, nǐ zěn me kàn?",
+      "tr": "fotoğrafçılık konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC020_090",
       "speaker": "工作人员",
-      "zh": "安排这件事，我想再听听你们的意见。",
-      "pinyin": "Ānpái zhèjiàn shì, wǒ xiǎng zài tīngtīng nǐmen de yìjiàn.",
-      "tr": "Planlama / düzenleme konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_091",
       "speaker": "张伟",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_092",
       "speaker": "刘梅",
-      "zh": "天赋这部分我们也得认真看。",
-      "pinyin": "Tiānfù zhèbùfèn wǒmen yě dé rènzhēn kàn.",
-      "tr": "Yetenek göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_093",
       "speaker": "张乐乐",
-      "zh": "听起来挺合理的。",
-      "pinyin": "Tīng qǐlái tǐng hélǐ de.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "我觉得镜头这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé jìng tóu zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence objektif / kamera bakışı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_094",
       "speaker": "工作人员",
-      "zh": "摄影比赛也应该放进我们的考虑范围。",
-      "pinyin": "Shèyǐng bǐsài yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Fotoğraf yarışması konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC020_095",

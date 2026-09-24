@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC031",
   "level": "HSK1",
   "sourceTitleZh": "上班第一天",
@@ -23,22 +23,22 @@
     {
       "id": "DLG_ZH_HSK1_SC031_003",
       "speaker": "保安",
-      "zh": "没错。",
-      "pinyin": "Méicuò.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_004",
       "speaker": "经理",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_005",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -51,78 +51,78 @@
     {
       "id": "DLG_ZH_HSK1_SC031_007",
       "speaker": "保安",
-      "zh": "没错，是工作卡。",
-      "pinyin": "Méicuò, shì gōngzuò kǎ.",
+      "zh": "嗯，对，这是工作卡。",
+      "pinyin": "Èn, duì, zhè shì gōng zuò kǎ.",
       "tr": "Evet, bu iş kartı."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_008",
       "speaker": "经理",
       "zh": "工作卡呢？",
-      "pinyin": "Gōngzuò kǎ ne?",
+      "pinyin": "Gōng zuò kǎ ne?",
       "tr": "Iş kartı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_009",
       "speaker": "张伟",
       "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Iş kartı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_010",
       "speaker": "同事",
-      "zh": "这是卡吗？",
-      "pinyin": "Zhè shì kǎ ma?",
+      "zh": "这是卡，对吗？",
+      "pinyin": "Zhè shì kǎ, duì ma?",
       "tr": "Bu, kart mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_011",
       "speaker": "保安",
-      "zh": "对，就是卡。",
-      "pinyin": "Duì, jiùshì kǎ.",
+      "zh": "嗯，对，这是卡。",
+      "pinyin": "Èn, duì, zhè shì kǎ.",
       "tr": "Evet, bu kart."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_012",
       "speaker": "经理",
-      "zh": "那卡在哪儿？",
-      "pinyin": "Nà kǎ zài nǎér?",
+      "zh": "卡呢？",
+      "pinyin": "Kǎ ne?",
       "tr": "Kart nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_013",
       "speaker": "张伟",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "你看，卡在这儿。",
+      "pinyin": "Nǐ kàn, kǎ zài zhèr.",
       "tr": "Kart burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_014",
       "speaker": "同事",
-      "zh": "那办公室在哪儿？",
-      "pinyin": "Nà bàngōngshì zài nǎér?",
+      "zh": "办公室呢？",
+      "pinyin": "Bàn gōng shì ne?",
       "tr": "Ofis nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_015",
       "speaker": "保安",
-      "zh": "你看，办公室在那边。",
-      "pinyin": "Nǐ kàn, bàngōngshì zài nàbiān.",
+      "zh": "办公室在那边。",
+      "pinyin": "Bàngōngshì zài nàbian.",
       "tr": "Ofis şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_016",
       "speaker": "经理",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_017",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -135,8 +135,8 @@
     {
       "id": "DLG_ZH_HSK1_SC031_019",
       "speaker": "保安",
-      "zh": "嗯，对。",
-      "pinyin": "Èn, duì.",
+      "zh": "对。",
+      "pinyin": "Duì.",
       "tr": "Evet."
     },
     {
@@ -163,29 +163,29 @@
     {
       "id": "DLG_ZH_HSK1_SC031_023",
       "speaker": "保安",
-      "zh": "别着急。",
-      "pinyin": "Biézháojí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_024",
       "speaker": "经理",
-      "zh": "我看看。",
-      "pinyin": "Wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_025",
       "speaker": "张伟",
-      "zh": "好，一起吧。",
-      "pinyin": "Hǎo, yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_026",
       "speaker": "同事",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Tamam."
     },
     {
@@ -212,8 +212,8 @@
     {
       "id": "DLG_ZH_HSK1_SC031_030",
       "speaker": "同事",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -240,8 +240,8 @@
     {
       "id": "DLG_ZH_HSK1_SC031_034",
       "speaker": "同事",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -254,50 +254,50 @@
     {
       "id": "DLG_ZH_HSK1_SC031_036",
       "speaker": "经理",
-      "zh": "嗯，对，这是电脑。",
-      "pinyin": "Èn, duì, zhè shì diànnǎo.",
+      "zh": "没错，是电脑。",
+      "pinyin": "Méi cuò, shì diàn nǎo.",
       "tr": "Evet, bu bilgisayar."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_037",
       "speaker": "张伟",
-      "zh": "电脑在哪儿？",
-      "pinyin": "Diànnǎo zài nǎr?",
+      "zh": "那电脑在哪儿？",
+      "pinyin": "Nà diàn nǎo zài nǎr?",
       "tr": "Bilgisayar nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_038",
       "speaker": "同事",
-      "zh": "你看，电脑在这儿。",
-      "pinyin": "Nǐ kàn, diànnǎo zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Bilgisayar burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_039",
       "speaker": "保安",
-      "zh": "这是门吗？",
-      "pinyin": "Zhè shì mén ma?",
+      "zh": "这个是门吗？",
+      "pinyin": "Zhè gè shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_040",
       "speaker": "经理",
       "zh": "对，就是门。",
-      "pinyin": "Duì, jiùshì mén.",
+      "pinyin": "Duì, jiù shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_041",
       "speaker": "张伟",
-      "zh": "门呢？放哪儿了？",
-      "pinyin": "Mén ne? fàng nǎér le?",
+      "zh": "那门在哪儿？",
+      "pinyin": "Nà mén zài nǎr?",
       "tr": "Kapı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_042",
       "speaker": "同事",
       "zh": "门在这儿。",
-      "pinyin": "Mén zài zhèér.",
+      "pinyin": "Mén zài zhèr.",
       "tr": "Kapı burada."
     },
     {
@@ -310,15 +310,15 @@
     {
       "id": "DLG_ZH_HSK1_SC031_044",
       "speaker": "经理",
-      "zh": "太棒了！",
-      "pinyin": "Tàibàngle!",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_045",
       "speaker": "张伟",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxie nǐ.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -331,99 +331,99 @@
     {
       "id": "DLG_ZH_HSK1_SC031_047",
       "speaker": "保安",
-      "zh": "这下好了。",
-      "pinyin": "Zhè xià hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_048",
       "speaker": "经理",
-      "zh": "好，我们接着来。",
-      "pinyin": "Hǎo, wǒmen jiēzhe lái.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒ men jì xù ba.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_049",
       "speaker": "张伟",
-      "zh": "这个是工作卡吗？",
-      "pinyin": "Zhège shì gōngzuò kǎ ma?",
+      "zh": "这是工作卡，对吗？",
+      "pinyin": "Zhè shì gōng zuò kǎ, duì ma?",
       "tr": "Bu, iş kartı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_050",
       "speaker": "同事",
-      "zh": "没错，是工作卡。",
-      "pinyin": "Méicuò, shì gōngzuò kǎ.",
+      "zh": "嗯，对，这是工作卡。",
+      "pinyin": "Èn, duì, zhè shì gōng zuò kǎ.",
       "tr": "Evet, bu iş kartı."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_051",
       "speaker": "保安",
       "zh": "工作卡呢？",
-      "pinyin": "Gōngzuò kǎ ne?",
+      "pinyin": "Gōng zuò kǎ ne?",
       "tr": "Iş kartı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_052",
       "speaker": "经理",
-      "zh": "工作卡在这儿。",
-      "pinyin": "Gōngzuò kǎ zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Iş kartı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_053",
       "speaker": "张伟",
       "zh": "这个是卡吗？",
-      "pinyin": "Zhège shì kǎ ma?",
+      "pinyin": "Zhè gè shì kǎ ma?",
       "tr": "Bu, kart mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_054",
       "speaker": "同事",
       "zh": "对，就是卡。",
-      "pinyin": "Duì, jiùshì kǎ.",
+      "pinyin": "Duì, jiù shì kǎ.",
       "tr": "Evet, bu kart."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_055",
       "speaker": "保安",
-      "zh": "卡呢？",
-      "pinyin": "Kǎ ne?",
+      "zh": "那卡在哪儿？",
+      "pinyin": "Nà kǎ zài nǎr?",
       "tr": "Kart nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_056",
       "speaker": "经理",
       "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Kart burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_057",
       "speaker": "张伟",
-      "zh": "那办公室在哪儿？",
-      "pinyin": "Nà bàngōngshì zài nǎér?",
+      "zh": "办公室在哪儿？",
+      "pinyin": "Bàngōngshì zài nǎr?",
       "tr": "Ofis nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_058",
       "speaker": "同事",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "你看，办公室在那边。",
+      "pinyin": "Nǐ kàn, bàn gōng shì zài nà biān.",
       "tr": "Ofis şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_059",
       "speaker": "保安",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_060",
       "speaker": "经理",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -436,22 +436,22 @@
     {
       "id": "DLG_ZH_HSK1_SC031_062",
       "speaker": "同事",
-      "zh": "嗯，对。",
-      "pinyin": "Èn, duì.",
+      "zh": "没错。",
+      "pinyin": "Méi cuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_063",
       "speaker": "保安",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_064",
       "speaker": "经理",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
@@ -479,7 +479,7 @@
       "id": "DLG_ZH_HSK1_SC031_068",
       "speaker": "经理",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -506,36 +506,36 @@
     {
       "id": "DLG_ZH_HSK1_SC031_072",
       "speaker": "经理",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_073",
       "speaker": "张伟",
-      "zh": "这是工作卡，对吗？",
-      "pinyin": "Zhè shì gōngzuò kǎ, duì ma?",
+      "zh": "这是工作卡吗？",
+      "pinyin": "Zhè shì gōngzuò kǎ ma?",
       "tr": "Bu, iş kartı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_074",
       "speaker": "同事",
       "zh": "嗯，对，这是工作卡。",
-      "pinyin": "Èn, duì, zhè shì gōngzuò kǎ.",
+      "pinyin": "Èn, duì, zhè shì gōng zuò kǎ.",
       "tr": "Evet, bu iş kartı."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_075",
       "speaker": "保安",
       "zh": "那工作卡在哪儿？",
-      "pinyin": "Nà gōngzuò kǎ zài nǎér?",
+      "pinyin": "Nà gōng zuò kǎ zài nǎr?",
       "tr": "Iş kartı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_076",
       "speaker": "经理",
-      "zh": "工作卡在这儿。",
-      "pinyin": "Gōngzuò kǎ zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Iş kartı burada."
     },
     {
@@ -548,50 +548,50 @@
     {
       "id": "DLG_ZH_HSK1_SC031_078",
       "speaker": "同事",
-      "zh": "对，就是卡。",
-      "pinyin": "Duì, jiùshì kǎ.",
+      "zh": "嗯，对，这是卡。",
+      "pinyin": "Èn, duì, zhè shì kǎ.",
       "tr": "Evet, bu kart."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_079",
       "speaker": "保安",
-      "zh": "卡呢？",
-      "pinyin": "Kǎ ne?",
+      "zh": "卡在哪儿？",
+      "pinyin": "Kǎ zài nǎr?",
       "tr": "Kart nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_080",
       "speaker": "经理",
       "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Kart burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_081",
       "speaker": "张伟",
-      "zh": "办公室呢？",
-      "pinyin": "Bàngōngshì ne?",
+      "zh": "办公室在哪儿？",
+      "pinyin": "Bàngōngshì zài nǎr?",
       "tr": "Ofis nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_082",
       "speaker": "同事",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "办公室在那边。",
+      "pinyin": "Bàngōngshì zài nàbian.",
       "tr": "Ofis şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_083",
       "speaker": "保安",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_084",
       "speaker": "经理",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -604,15 +604,15 @@
     {
       "id": "DLG_ZH_HSK1_SC031_086",
       "speaker": "同事",
-      "zh": "嗯，对。",
-      "pinyin": "Èn, duì.",
+      "zh": "对。",
+      "pinyin": "Duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_087",
       "speaker": "保安",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısın?"
     },
     {
@@ -646,8 +646,8 @@
     {
       "id": "DLG_ZH_HSK1_SC031_092",
       "speaker": "经理",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -681,29 +681,29 @@
     {
       "id": "DLG_ZH_HSK1_SC031_097",
       "speaker": "张伟",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_098",
       "speaker": "同事",
-      "zh": "都弄好了吗？",
-      "pinyin": "Dōu nòng hǎolema?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC031_099",
       "speaker": "保安",
-      "zh": "都弄好了。",
-      "pinyin": "Dōu nòng hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC031_100",
       "speaker": "经理",
-      "zh": "那走吧。",
-      "pinyin": "Nà zǒu ba.",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]

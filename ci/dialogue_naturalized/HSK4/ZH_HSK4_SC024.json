@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK4_SC024",
   "level": "HSK4",
   "sourceTitleZh": "午餐高峰停电了",
@@ -9,156 +9,156 @@
     {
       "id": "DLG_ZH_HSK4_SC024_001",
       "speaker": "刘梅",
-      "zh": "今天我们先谈谈停电。",
-      "pinyin": "Jīntiān wǒmen xiān tántan tíngdiàn.",
-      "tr": "Bugün önce elektrik kesintisi hakkında konuşalım."
+      "zh": "说到停电，你怎么看？",
+      "pinyin": "Shuō dào tíng diàn, nǐ zěn me kàn?",
+      "tr": "elektrik kesintisi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC024_002",
       "speaker": "员工",
-      "zh": "今天我们先谈谈紧急情况。",
-      "pinyin": "Jīntiān wǒmen xiān tántan jǐnjí qíngkuàng.",
-      "tr": "Bugün önce acil durum hakkında konuşalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_003",
       "speaker": "顾客",
-      "zh": "这次的情况比以前更复杂，所以我们得多考虑几步。",
-      "pinyin": "Zhè cì de qíngkuàng bǐ yǐqián gèng fùzá, suǒyǐ wǒmen děi duō kǎolǜ jǐ bù.",
-      "tr": "Bu kez durum eskisine göre daha karmaşık; bu yüzden birkaç adım sonrasını düşünmeliyiz."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_004",
       "speaker": "张伟",
-      "zh": "我同意，先别急着做最后决定。",
-      "pinyin": "Wǒ tóngyì, xiān bié jízhe zuò zuìhòu juédìng.",
-      "tr": "Katılıyorum, son kararı vermek için acele etmeyelim."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_005",
       "speaker": "刘梅",
-      "zh": "那我们先把最重要的条件列出来。",
-      "pinyin": "Nà wǒmen xiān bǎ zuì zhòngyào de tiáojiàn liè chūlái.",
-      "tr": "O zaman önce en önemli koşulları sıralayalım."
+      "zh": "我觉得紧急情况这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé jǐn jí qíng kuàng zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence acil durum konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_006",
       "speaker": "员工",
-      "zh": "好，这样比较容易比较。",
-      "pinyin": "Hǎo, zhèyàng bǐjiào róngyì bǐjiào.",
-      "tr": "Tamam, böyle karşılaştırmak daha kolay olur."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_007",
       "speaker": "顾客",
-      "zh": "说到停电，我还想听听大家怎么想。",
-      "pinyin": "Shuō dào tíngdiàn, wǒ hái xiǎng tīngtīng dàjiā zěnme xiǎng.",
-      "tr": "Elektrik kesintisi konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_008",
       "speaker": "张伟",
-      "zh": "这一点我赞成。",
-      "pinyin": "Zhè yìdiǎn wǒ zànchéng.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_009",
       "speaker": "刘梅",
-      "zh": "对，紧急情况也是必须考虑的。",
-      "pinyin": "Duì, jǐnjíqíngkuàng yě shì bìxū kǎolǜ de.",
-      "tr": "Acil durum göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到高峰时间，你怎么看？",
+      "pinyin": "Shuō dào gāo fēng shí jiān, nǐ zěn me kàn?",
+      "tr": "yoğun saat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC024_010",
       "speaker": "员工",
-      "zh": "这个角度我刚才还真没想到。",
-      "pinyin": "Zhège jiǎodù wǒ gāngcái hái zhēnméixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_011",
       "speaker": "顾客",
-      "zh": "高峰时间也应该放进我们的考虑范围。",
-      "pinyin": "Gāofēng shíjiān yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Yoğun saat konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_012",
       "speaker": "张伟",
-      "zh": "那确实得重新考虑一下。",
-      "pinyin": "Nà quèshí dé chóngxīnkǎolǜ yīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_013",
       "speaker": "刘梅",
-      "zh": "要是顾客有变化，计划也得跟着调整。",
-      "pinyin": "Yàoshì gùkè yǒu biànhuà, jìhuà yě dé gēnzhe tiáozhěng.",
-      "tr": "Müşteri değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé gù kè zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_014",
       "speaker": "员工",
-      "zh": "听起来挺合理的。",
-      "pinyin": "Tīng qǐlái tǐng hélǐ de.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_015",
       "speaker": "顾客",
-      "zh": "关于服务，大家还有什么想法？",
-      "pinyin": "Guānyú fúwù, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Hizmet konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_016",
       "speaker": "张伟",
-      "zh": "我先把这一点记下来。",
-      "pinyin": "Wǒ xiān bǎ zhè yìdiǎn jì xiàlái.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_017",
       "speaker": "刘梅",
-      "zh": "维修这一点也不能忽略。",
-      "pinyin": "Wéixiū zhè yìdiǎn yě bùnéng hūlüè.",
-      "tr": "Tamir göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到服务，你怎么看？",
+      "pinyin": "Shuō dào fú wù, nǐ zěn me kàn?",
+      "tr": "hizmet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC024_018",
       "speaker": "员工",
-      "zh": "我们也得看看还有没有别的影响。",
-      "pinyin": "Wǒmen yě dé kànkàn háiyǒu méiyǒu biéde yǐngxiǎng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_019",
       "speaker": "顾客",
-      "zh": "安全也应该放进我们的考虑范围。",
-      "pinyin": "Ānquán yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Güvenlik konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_020",
       "speaker": "张伟",
-      "zh": "嗯，这一点我同意。",
-      "pinyin": "Èn, zhè yìdiǎn wǒ tóngyì.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_021",
       "speaker": "刘梅",
-      "zh": "要是解决办法有变化，计划也得跟着调整。",
-      "pinyin": "Yàoshì jiějuébànfǎ yǒu biànhuà, jìhuà yě dé gēnzhe tiáozhěng.",
-      "tr": "Çözüm yolu değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得维修这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé wéi xiū zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence tamir konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_022",
       "speaker": "员工",
-      "zh": "嗯，这个角度确实是我刚才忽略的。",
-      "pinyin": "Èn, zhège jiǎodù quèshí shì wǒ gāngcái hūlüè de.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "不过也要看看会不会影响别的地方。",
+      "pinyin": "Bù guò yě yào kàn kàn huì bù huì yǐng xiǎng bié de dì fāng.",
+      "tr": "Ama başka bir yeri etkileyip etkilemeyeceğine de bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_023",
@@ -541,128 +541,128 @@
     {
       "id": "DLG_ZH_HSK4_SC024_077",
       "speaker": "刘梅",
-      "zh": "好，有变化就互相说一声。",
-      "pinyin": "Hǎo, yǒu biànhuà jiù hùxiāng shuō yīshēng.",
+      "zh": "好，我们保持联系。",
+      "pinyin": "Hǎo, wǒmen bǎochí liánxì.",
       "tr": "Tamam, iletişimde kalalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_078",
       "speaker": "员工",
-      "zh": "好，停电这一点也加进去。",
-      "pinyin": "Hǎo, tíngdiàn zhè yìdiǎn yě jiājìnqù.",
-      "tr": "Elektrik kesintisi konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，有备用办法会放心很多。",
+      "pinyin": "Duì, yǒu bèi yòng bàn fǎ huì fàng xīn hěn duō.",
+      "tr": "Evet, yedek plan olması insanı daha çok rahatlatıyor."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_079",
       "speaker": "顾客",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "那就把责任和时间也说清楚。",
+      "pinyin": "Nà jiù bǎ zé rèn hé shí jiān yě shuō qīng chǔ.",
+      "tr": "O zaman sorumlulukları ve zamanı da netleştirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_080",
       "speaker": "张伟",
-      "zh": "如果紧急情况变了，我们的计划也要调整。",
-      "pinyin": "Rúguǒ jǐnjíqíngkuàng biàn le, wǒmen de jìhuà yě yào tiáozhěng.",
-      "tr": "Acil durum değişirse planı da ayarlamak gerekir."
+      "zh": "好，有变化及时告诉大家。",
+      "pinyin": "Hǎo, yǒu biàn huà jí shí gào sù dà jiā.",
+      "tr": "Tamam, değişiklik olursa herkese zamanında haber verelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_081",
       "speaker": "刘梅",
-      "zh": "听起来挺合理的。",
-      "pinyin": "Tīng qǐlái tǐng hélǐ de.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "说到停电，你怎么看？",
+      "pinyin": "Shuō dào tíng diàn, nǐ zěn me kàn?",
+      "tr": "elektrik kesintisi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC024_082",
       "speaker": "员工",
-      "zh": "说到高峰时间，我还想听听大家怎么想。",
-      "pinyin": "Shuō dào gāofēng shíjiān, wǒ hái xiǎng tīngtīng dàjiā zěnme xiǎng.",
-      "tr": "Yoğun saat konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_083",
       "speaker": "顾客",
-      "zh": "好，这一点我先记下。",
-      "pinyin": "Hǎo, zhè yìdiǎn wǒ xiān jìxià.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_084",
       "speaker": "张伟",
-      "zh": "顾客这一点也不能忽略。",
-      "pinyin": "Gùkè zhè yìdiǎn yě bùnéng hūlüè.",
-      "tr": "Müşteri göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_085",
       "speaker": "刘梅",
-      "zh": "我们再看看还有没有其他影响。",
-      "pinyin": "Wǒmen zài kànkàn háiyǒu méiyǒu qítā yǐngxiǎng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得紧急情况这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé jǐn jí qíng kuàng zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence acil durum konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_086",
       "speaker": "员工",
-      "zh": "服务也应该放进我们的考虑范围。",
-      "pinyin": "Fúwù yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Hizmet konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_087",
       "speaker": "顾客",
-      "zh": "嗯，这一点我同意。",
-      "pinyin": "Èn, zhè yìdiǎn wǒ tóngyì.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "今天大家把意见都说清楚了。",
+      "pinyin": "Jīn tiān dà jiā bǎ yì jiàn dōu shuō qīng chǔ le.",
+      "tr": "Bugün herkes görüşünü net biçimde ifade etti."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_088",
       "speaker": "张伟",
-      "zh": "维修一旦有变化，原来的计划就得改。",
-      "pinyin": "Wéixiū yídàn yǒu biànhuà, yuánlái de jìhuà jiù dé gǎi.",
-      "tr": "Tamir değişirse planı da ayarlamak gerekir."
+      "zh": "好，那今天先到这里。",
+      "pinyin": "Hǎo, nà jīn tiān xiān dào zhè lǐ.",
+      "tr": "Tamam, bugünlük burada bitirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_089",
       "speaker": "刘梅",
-      "zh": "你这么一说，这个角度我之前没想到。",
-      "pinyin": "Nǐ zhème yī shuō, zhège jiǎodù wǒ zhīqián méixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "说到高峰时间，你怎么看？",
+      "pinyin": "Shuō dào gāo fēng shí jiān, nǐ zěn me kàn?",
+      "tr": "yoğun saat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC024_090",
       "speaker": "员工",
-      "zh": "关于安全，大家还有什么想法？",
-      "pinyin": "Guānyú ānquán, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Güvenlik konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_091",
       "speaker": "顾客",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_092",
       "speaker": "张伟",
-      "zh": "解决办法这部分我们也得认真看。",
-      "pinyin": "Jiějuébànfǎ zhèbùfèn wǒmen yě dé rènzhēn kàn.",
-      "tr": "Çözüm yolu göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_093",
       "speaker": "刘梅",
-      "zh": "这么说确实更合理。",
-      "pinyin": "Zhème shuō quèshí gèng hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé gù kè zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_094",
       "speaker": "员工",
-      "zh": "停电也应该放进我们的考虑范围。",
-      "pinyin": "Tíngdiàn yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Elektrik kesintisi konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC024_095",

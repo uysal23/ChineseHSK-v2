@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC016",
   "level": "HSK1",
   "sourceTitleZh": "超市在哪儿？",
@@ -23,15 +23,15 @@
     {
       "id": "DLG_ZH_HSK1_SC016_003",
       "speaker": "邻居",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_004",
       "speaker": "张乐乐",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
@@ -44,36 +44,36 @@
     {
       "id": "DLG_ZH_HSK1_SC016_006",
       "speaker": "刘梅",
-      "zh": "超市在哪儿？",
-      "pinyin": "Chāoshì zài nǎr?",
+      "zh": "那超市在哪儿？",
+      "pinyin": "Nà chāo shì zài nǎr?",
       "tr": "Süpermarket nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_007",
       "speaker": "邻居",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "超市在那边。",
+      "pinyin": "Chāoshì zài nàbian.",
       "tr": "Süpermarket şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_008",
       "speaker": "张乐乐",
       "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_009",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_010",
       "speaker": "刘梅",
-      "zh": "路呢？",
-      "pinyin": "Lù ne?",
+      "zh": "那路在哪儿？",
+      "pinyin": "Nà lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
@@ -86,15 +86,15 @@
     {
       "id": "DLG_ZH_HSK1_SC016_012",
       "speaker": "张乐乐",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_013",
       "speaker": "张伟",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -121,8 +121,8 @@
     {
       "id": "DLG_ZH_HSK1_SC016_017",
       "speaker": "张伟",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkürler."
     },
     {
@@ -163,15 +163,15 @@
     {
       "id": "DLG_ZH_HSK1_SC016_023",
       "speaker": "邻居",
-      "zh": "别着急。",
-      "pinyin": "Biézháojí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_024",
       "speaker": "张乐乐",
-      "zh": "我来看看吧。",
-      "pinyin": "Wǒ láikàn kànba.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
@@ -184,64 +184,64 @@
     {
       "id": "DLG_ZH_HSK1_SC016_026",
       "speaker": "刘梅",
-      "zh": "行。",
-      "pinyin": "Xíng.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_027",
       "speaker": "邻居",
       "zh": "那家在哪儿？",
-      "pinyin": "Nà jiā zài nǎér?",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_028",
       "speaker": "张乐乐",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nàbian.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_029",
       "speaker": "张伟",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_030",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_031",
       "speaker": "邻居",
-      "zh": "商店在哪儿？",
-      "pinyin": "Shāngdiàn zài nǎr?",
+      "zh": "商店呢？",
+      "pinyin": "Shāng diàn ne?",
       "tr": "Mağaza nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_032",
       "speaker": "张乐乐",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "商店在那边。",
+      "pinyin": "Shāngdiàn zài nàbian.",
       "tr": "Mağaza şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_033",
       "speaker": "张伟",
       "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_034",
       "speaker": "刘梅",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -268,8 +268,8 @@
     {
       "id": "DLG_ZH_HSK1_SC016_038",
       "speaker": "刘梅",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -297,7 +297,7 @@
       "id": "DLG_ZH_HSK1_SC016_042",
       "speaker": "刘梅",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -310,92 +310,92 @@
     {
       "id": "DLG_ZH_HSK1_SC016_044",
       "speaker": "张乐乐",
-      "zh": "真好！",
-      "pinyin": "Zhēn hǎo!",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_045",
       "speaker": "张伟",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxie nǐ.",
+      "zh": "真谢谢你。",
+      "pinyin": "Zhēn xiè xiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_046",
       "speaker": "刘梅",
-      "zh": "不客气。",
-      "pinyin": "Bú kèqi.",
+      "zh": "别客气。",
+      "pinyin": "Bié kè qì.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_047",
       "speaker": "邻居",
-      "zh": "好，这下行了。",
-      "pinyin": "Hǎo, zhè xiàxíng le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_048",
       "speaker": "张乐乐",
       "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "pinyin": "Hǎo, jì xù.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_049",
       "speaker": "张伟",
       "zh": "超市呢？",
-      "pinyin": "Chāoshì ne?",
+      "pinyin": "Chāo shì ne?",
       "tr": "Süpermarket nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_050",
       "speaker": "刘梅",
-      "zh": "超市在那边。",
-      "pinyin": "Chāoshì zài nàbian.",
+      "zh": "你看，超市在那边。",
+      "pinyin": "Nǐ kàn, chāo shì zài nà biān.",
       "tr": "Süpermarket şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_051",
       "speaker": "邻居",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_052",
       "speaker": "张乐乐",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_053",
       "speaker": "张伟",
       "zh": "那路在哪儿？",
-      "pinyin": "Nà lù zài nǎér?",
+      "pinyin": "Nà lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_054",
       "speaker": "刘梅",
       "zh": "你看，路在那边。",
-      "pinyin": "Nǐ kàn, lù zài nàbiān.",
+      "pinyin": "Nǐ kàn, lù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_055",
       "speaker": "邻居",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_056",
       "speaker": "张乐乐",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -422,8 +422,8 @@
     {
       "id": "DLG_ZH_HSK1_SC016_060",
       "speaker": "张乐乐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
@@ -457,113 +457,113 @@
     {
       "id": "DLG_ZH_HSK1_SC016_065",
       "speaker": "张伟",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎr?",
+      "zh": "家呢？",
+      "pinyin": "Jiā ne?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_066",
       "speaker": "刘梅",
       "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_067",
       "speaker": "邻居",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_068",
       "speaker": "张乐乐",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_069",
       "speaker": "张伟",
       "zh": "商店呢？",
-      "pinyin": "Shāngdiàn ne?",
+      "pinyin": "Shāng diàn ne?",
       "tr": "Mağaza nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_070",
       "speaker": "刘梅",
-      "zh": "你看，商店在那边。",
-      "pinyin": "Nǐ kàn, shāngdiàn zài nàbiān.",
+      "zh": "商店在那边。",
+      "pinyin": "Shāngdiàn zài nàbian.",
       "tr": "Mağaza şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_071",
       "speaker": "邻居",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_072",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_073",
       "speaker": "张伟",
-      "zh": "超市在哪儿？",
-      "pinyin": "Chāoshì zài nǎr?",
+      "zh": "那超市在哪儿？",
+      "pinyin": "Nà chāo shì zài nǎr?",
       "tr": "Süpermarket nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_074",
       "speaker": "刘梅",
       "zh": "你看，超市在那边。",
-      "pinyin": "Nǐ kàn, chāoshì zài nàbiān.",
+      "pinyin": "Nǐ kàn, chāo shì zài nà biān.",
       "tr": "Süpermarket şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_075",
       "speaker": "邻居",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_076",
       "speaker": "张乐乐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_077",
       "speaker": "张伟",
-      "zh": "路呢？",
-      "pinyin": "Lù ne?",
+      "zh": "路在哪儿？",
+      "pinyin": "Lù zài nǎr?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_078",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "你看，路在那边。",
+      "pinyin": "Nǐ kàn, lù zài nà biān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_079",
       "speaker": "邻居",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_080",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -591,7 +591,7 @@
       "id": "DLG_ZH_HSK1_SC016_084",
       "speaker": "张乐乐",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkürler."
     },
     {
@@ -618,57 +618,57 @@
     {
       "id": "DLG_ZH_HSK1_SC016_088",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_089",
       "speaker": "张伟",
-      "zh": "家呢？",
-      "pinyin": "Jiā ne?",
+      "zh": "那家在哪儿？",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_090",
       "speaker": "刘梅",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_091",
       "speaker": "邻居",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_092",
       "speaker": "张乐乐",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_093",
       "speaker": "张伟",
       "zh": "商店呢？",
-      "pinyin": "Shāngdiàn ne?",
+      "pinyin": "Shāng diàn ne?",
       "tr": "Mağaza nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC016_094",
       "speaker": "刘梅",
-      "zh": "你看，商店在那边。",
-      "pinyin": "Nǐ kàn, shāngdiàn zài nàbiān.",
+      "zh": "商店在那边。",
+      "pinyin": "Shāngdiàn zài nàbian.",
       "tr": "Mağaza şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_095",
       "speaker": "邻居",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -682,7 +682,7 @@
       "id": "DLG_ZH_HSK1_SC016_097",
       "speaker": "张伟",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -695,15 +695,15 @@
     {
       "id": "DLG_ZH_HSK1_SC016_099",
       "speaker": "邻居",
-      "zh": "嗯，都好了。",
-      "pinyin": "Èn, dōu hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC016_100",
       "speaker": "张乐乐",
-      "zh": "好，走吧。",
-      "pinyin": "Hǎo, zǒu ba.",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC044",
   "level": "HSK1",
   "sourceTitleZh": "乐乐的全家福",
@@ -23,8 +23,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_003",
       "speaker": "同学",
-      "zh": "嗯，对。",
-      "pinyin": "Èn, duì.",
+      "zh": "对。",
+      "pinyin": "Duì.",
       "tr": "Evet."
     },
     {
@@ -37,8 +37,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_005",
       "speaker": "张乐乐",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -51,22 +51,22 @@
     {
       "id": "DLG_ZH_HSK1_SC044_007",
       "speaker": "同学",
-      "zh": "嗯，对，这是画。",
-      "pinyin": "Èn, duì, zhè shì huà.",
+      "zh": "对，就是画。",
+      "pinyin": "Duì, jiù shì huà.",
       "tr": "Evet, bu resim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_008",
       "speaker": "同学",
-      "zh": "那画在哪儿？",
-      "pinyin": "Nà huà zài nǎér?",
+      "zh": "画呢？",
+      "pinyin": "Huà ne?",
       "tr": "Resim nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_009",
       "speaker": "张乐乐",
-      "zh": "画在这儿。",
-      "pinyin": "Huà zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Resim burada."
     },
     {
@@ -122,7 +122,7 @@
       "id": "DLG_ZH_HSK1_SC044_017",
       "speaker": "张乐乐",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -150,7 +150,7 @@
       "id": "DLG_ZH_HSK1_SC044_021",
       "speaker": "张乐乐",
       "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -170,22 +170,22 @@
     {
       "id": "DLG_ZH_HSK1_SC044_024",
       "speaker": "同学",
-      "zh": "我看看。",
-      "pinyin": "Wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_025",
       "speaker": "张乐乐",
-      "zh": "那一起吧。",
-      "pinyin": "Nà yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_026",
       "speaker": "老师",
-      "zh": "行。",
-      "pinyin": "Xíng.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Tamam."
     },
     {
@@ -212,8 +212,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_030",
       "speaker": "老师",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -240,8 +240,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_034",
       "speaker": "老师",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -254,29 +254,29 @@
     {
       "id": "DLG_ZH_HSK1_SC044_036",
       "speaker": "同学",
-      "zh": "对，就是图片。",
-      "pinyin": "Duì, jiùshì túpiàn.",
+      "zh": "没错，是图片。",
+      "pinyin": "Méi cuò, shì tú piàn.",
       "tr": "Evet, bu resim / görsel."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_037",
       "speaker": "张乐乐",
-      "zh": "图片呢？",
-      "pinyin": "Túpiàn ne?",
+      "zh": "那图片在哪儿？",
+      "pinyin": "Nà tú piàn zài nǎr?",
       "tr": "Resim / görsel nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_038",
       "speaker": "老师",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
+      "zh": "图片在这儿。",
+      "pinyin": "Tú piàn zài zhèr.",
       "tr": "Resim / görsel burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_039",
       "speaker": "同学",
-      "zh": "那学校在哪儿？",
-      "pinyin": "Nà xuéxiào zài nǎér?",
+      "zh": "学校呢？",
+      "pinyin": "Xué xiào ne?",
       "tr": "Okul nerede?"
     },
     {
@@ -289,15 +289,15 @@
     {
       "id": "DLG_ZH_HSK1_SC044_041",
       "speaker": "张乐乐",
-      "zh": "这下明白了。",
-      "pinyin": "Zhè xià míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_042",
       "speaker": "老师",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -317,57 +317,57 @@
     {
       "id": "DLG_ZH_HSK1_SC044_045",
       "speaker": "张乐乐",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxie nǐ.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_046",
       "speaker": "老师",
-      "zh": "没事，不客气。",
-      "pinyin": "Méishì, bù kèqì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_047",
       "speaker": "同学",
-      "zh": "现在就好了。",
-      "pinyin": "Xiànzài jiù hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_048",
       "speaker": "同学",
-      "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_049",
       "speaker": "张乐乐",
-      "zh": "这个是画吗？",
-      "pinyin": "Zhège shì huà ma?",
+      "zh": "这是画，对吗？",
+      "pinyin": "Zhè shì huà, duì ma?",
       "tr": "Bu, resim mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_050",
       "speaker": "老师",
-      "zh": "嗯，对，这是画。",
-      "pinyin": "Èn, duì, zhè shì huà.",
+      "zh": "没错，是画。",
+      "pinyin": "Méi cuò, shì huà.",
       "tr": "Evet, bu resim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_051",
       "speaker": "同学",
-      "zh": "画呢？",
-      "pinyin": "Huà ne?",
+      "zh": "画在哪儿？",
+      "pinyin": "Huà zài nǎr?",
       "tr": "Resim nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_052",
       "speaker": "同学",
-      "zh": "画在这儿。",
-      "pinyin": "Huà zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Resim burada."
     },
     {
@@ -394,8 +394,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_056",
       "speaker": "同学",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -450,8 +450,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_064",
       "speaker": "同学",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -478,8 +478,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_068",
       "speaker": "同学",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -506,36 +506,36 @@
     {
       "id": "DLG_ZH_HSK1_SC044_072",
       "speaker": "同学",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_073",
       "speaker": "张乐乐",
-      "zh": "这是画，对吗？",
-      "pinyin": "Zhè shì huà, duì ma?",
+      "zh": "这个是画吗？",
+      "pinyin": "Zhè gè shì huà ma?",
       "tr": "Bu, resim mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_074",
       "speaker": "老师",
-      "zh": "没错，是画。",
-      "pinyin": "Méicuò, shì huà.",
+      "zh": "嗯，对，这是画。",
+      "pinyin": "Èn, duì, zhè shì huà.",
       "tr": "Evet, bu resim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_075",
       "speaker": "同学",
       "zh": "那画在哪儿？",
-      "pinyin": "Nà huà zài nǎér?",
+      "pinyin": "Nà huà zài nǎr?",
       "tr": "Resim nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_076",
       "speaker": "同学",
-      "zh": "画在这儿。",
-      "pinyin": "Huà zài zhèér.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhè lǐ.",
       "tr": "Resim burada."
     },
     {
@@ -562,8 +562,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_080",
       "speaker": "同学",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -618,8 +618,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_088",
       "speaker": "同学",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -681,8 +681,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_097",
       "speaker": "张乐乐",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -695,8 +695,8 @@
     {
       "id": "DLG_ZH_HSK1_SC044_099",
       "speaker": "同学",
-      "zh": "都弄好了。",
-      "pinyin": "Dōu nòng hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {

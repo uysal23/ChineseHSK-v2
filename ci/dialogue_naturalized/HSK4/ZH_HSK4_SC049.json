@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK4_SC049",
   "level": "HSK4",
   "sourceTitleZh": "三代人的全家福",
@@ -9,156 +9,156 @@
     {
       "id": "DLG_ZH_HSK4_SC049_001",
       "speaker": "张伟",
-      "zh": "今天我们先谈谈三代人。",
-      "pinyin": "Jīntiān wǒmen xiān tántan sān dài rén.",
-      "tr": "Bugün önce üç kuşak hakkında konuşalım."
+      "zh": "说到三代人，你怎么看？",
+      "pinyin": "Shuō dào sān dài rén, nǐ zěn me kàn?",
+      "tr": "üç kuşak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC049_002",
       "speaker": "刘梅",
-      "zh": "今天我们先谈谈全家福。",
-      "pinyin": "Jīntiān wǒmen xiān tántan quánjiāfú.",
-      "tr": "Bugün önce aile fotoğrafı hakkında konuşalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_003",
       "speaker": "爷爷",
-      "zh": "这次的情况比以前更复杂，所以我们得多考虑几步。",
-      "pinyin": "Zhè cì de qíngkuàng bǐ yǐqián gèng fùzá, suǒyǐ wǒmen děi duō kǎolǜ jǐ bù.",
-      "tr": "Bu kez durum eskisine göre daha karmaşık; bu yüzden birkaç adım sonrasını düşünmeliyiz."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_004",
       "speaker": "奶奶",
-      "zh": "我同意，先别急着做最后决定。",
-      "pinyin": "Wǒ tóngyì, xiān bié jízhe zuò zuìhòu juédìng.",
-      "tr": "Katılıyorum, son kararı vermek için acele etmeyelim."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_005",
       "speaker": "张伟",
-      "zh": "那我们先把最重要的条件列出来。",
-      "pinyin": "Nà wǒmen xiān bǎ zuì zhòngyào de tiáojiàn liè chūlái.",
-      "tr": "O zaman önce en önemli koşulları sıralayalım."
+      "zh": "我觉得全家福这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé quán jiā fú zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence aile fotoğrafı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_006",
       "speaker": "刘梅",
-      "zh": "好，这样比较容易比较。",
-      "pinyin": "Hǎo, zhèyàng bǐjiào róngyì bǐjiào.",
-      "tr": "Tamam, böyle karşılaştırmak daha kolay olur."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_007",
       "speaker": "爷爷",
-      "zh": "说到三代人，我还想听听大家怎么想。",
-      "pinyin": "Shuō dào sāndàirén, wǒ hái xiǎng tīngtīng dàjiā zěnme xiǎng.",
-      "tr": "Üç kuşak konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_008",
       "speaker": "奶奶",
-      "zh": "对，这一点我没有意见。",
-      "pinyin": "Duì, zhè yìdiǎn wǒ méiyǒu yìjiàn.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_009",
       "speaker": "张伟",
-      "zh": "全家福这一点也不能忽略。",
-      "pinyin": "Quánjiāfú zhè yìdiǎn yě bùnéng hūlüè.",
-      "tr": "Aile fotoğrafı göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到一代人，你怎么看？",
+      "pinyin": "Shuō dào yī dài rén, nǐ zěn me kàn?",
+      "tr": "bir kuşak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC049_010",
       "speaker": "刘梅",
-      "zh": "这个角度我刚才还真没想到。",
-      "pinyin": "Zhège jiǎodù wǒ gāngcái hái zhēnméixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_011",
       "speaker": "爷爷",
-      "zh": "一代人也应该放进我们的考虑范围。",
-      "pinyin": "Yídàirén yě yīnggāi fàngjìn wǒmen de kǎolǜ fànwéi.",
-      "tr": "Bir kuşak konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_012",
       "speaker": "奶奶",
-      "zh": "那确实得重新考虑一下。",
-      "pinyin": "Nà quèshí dé chóngxīnkǎolǜ yīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_013",
       "speaker": "张伟",
-      "zh": "往事一旦有变化，原来的计划就得改。",
-      "pinyin": "Wǎngshì yídàn yǒu biànhuà, yuánlái de jìhuà jiù dé gǎi.",
-      "tr": "Geçmiş anılar değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得往事这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé wǎng shì zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence geçmiş anılar konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_014",
       "speaker": "刘梅",
-      "zh": "嗯，这样听起来比较合理。",
-      "pinyin": "Èn, zhèyàng tīng qǐlái bǐjiào hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "这样比较容易看出差别。",
+      "pinyin": "Zhè yàng bǐ jiào róng yì kàn chū chà bié.",
+      "tr": "Böylece farkları görmek daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_015",
       "speaker": "爷爷",
-      "zh": "关于家人，大家还有什么想法？",
-      "pinyin": "Guānyú jiārén, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Aile konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "这一点也应该考虑进去。",
+      "pinyin": "Zhè yī diǎn yě yīng gāi kǎo lǜ jìn qù.",
+      "tr": "Bu noktayı da değerlendirmeye almalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_016",
       "speaker": "奶奶",
-      "zh": "嗯，我先记下这一点。",
-      "pinyin": "Èn, wǒ xiān jìxià zhè yìdiǎn.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "好，先把它记下来。",
+      "pinyin": "Hǎo, xiān bǎ tā jì xià lái.",
+      "tr": "Tamam, bunu önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_017",
       "speaker": "张伟",
-      "zh": "照片这一点也不能忽略。",
-      "pinyin": "Zhàopiān zhè yìdiǎn yě bùnéng hūlüè.",
-      "tr": "Fotoğraf göz ardı edemeyeceğimiz bir nokta."
+      "zh": "说到家人，你怎么看？",
+      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
+      "tr": "aile konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC049_018",
       "speaker": "刘梅",
-      "zh": "我们也得看看还有没有别的影响。",
-      "pinyin": "Wǒmen yě dé kànkàn háiyǒu méiyǒu biéde yǐngxiǎng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得先把实际情况说清楚比较好。",
+      "pinyin": "Wǒ jué dé xiān bǎ shí jì qíng kuàng shuō qīng chǔ bǐ jiào hǎo.",
+      "tr": "Bence önce gerçek durumu netleştirmek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_019",
       "speaker": "爷爷",
-      "zh": "那把变化也一起考虑进去吧。",
-      "pinyin": "Nà bǎ biànhuà yě yìqǐ kǎolǜ jìnqù ba.",
-      "tr": "Değişim konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，先别急着做最后决定。",
+      "pinyin": "Duì, xiān bié jí zhe zuò zuì hòu jué dìng.",
+      "tr": "Evet, son kararı vermek için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_020",
       "speaker": "奶奶",
-      "zh": "这一点我赞成。",
-      "pinyin": "Zhè yìdiǎn wǒ zànchéng.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "我们可以先把最重要的条件列出来。",
+      "pinyin": "Wǒ men kě yǐ xiān bǎ zuì zhòng yào de tiáo jiàn liè chū lái.",
+      "tr": "Önce en önemli koşulları sıralayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_021",
       "speaker": "张伟",
-      "zh": "如果情绪变了，我们的计划也要调整。",
-      "pinyin": "Rúguǒ qíngxù biàn le, wǒmen de jìhuà yě yào tiáozhěng.",
-      "tr": "Duygusal durum değişirse planı da ayarlamak gerekir."
+      "zh": "我觉得照片这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé zhào piàn zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence fotoğraf konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_022",
       "speaker": "刘梅",
-      "zh": "这个角度我刚才还真没想到。",
-      "pinyin": "Zhège jiǎodù wǒ gāngcái hái zhēnméixiǎngdào.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "不过也要看看会不会影响别的地方。",
+      "pinyin": "Bù guò yě yào kàn kàn huì bù huì yǐng xiǎng bié de dì fāng.",
+      "tr": "Ama başka bir yeri etkileyip etkilemeyeceğine de bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_023",
@@ -541,128 +541,128 @@
     {
       "id": "DLG_ZH_HSK4_SC049_077",
       "speaker": "张伟",
-      "zh": "行，我们随时联系。",
-      "pinyin": "Xíng, wǒmen suíshí liánxì.",
+      "zh": "好，我们保持联系。",
+      "pinyin": "Hǎo, wǒmen bǎochí liánxì.",
       "tr": "Tamam, iletişimde kalalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_078",
       "speaker": "刘梅",
-      "zh": "好，三代人这一点也加进去。",
-      "pinyin": "Hǎo, sāndàirén zhè yìdiǎn yě jiājìnqù.",
-      "tr": "Üç kuşak konusunu da değerlendirme kapsamına alalım."
+      "zh": "对，有备用办法会放心很多。",
+      "pinyin": "Duì, yǒu bèi yòng bàn fǎ huì fàng xīn hěn duō.",
+      "tr": "Evet, yedek plan olması insanı daha çok rahatlatıyor."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_079",
       "speaker": "爷爷",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "那就把责任和时间也说清楚。",
+      "pinyin": "Nà jiù bǎ zé rèn hé shí jiān yě shuō qīng chǔ.",
+      "tr": "O zaman sorumlulukları ve zamanı da netleştirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_080",
       "speaker": "奶奶",
-      "zh": "全家福一旦有变化，原来的计划就得改。",
-      "pinyin": "Quánjiāfú yídàn yǒu biànhuà, yuánlái de jìhuà jiù dé gǎi.",
-      "tr": "Aile fotoğrafı değişirse planı da ayarlamak gerekir."
+      "zh": "好，有变化及时告诉大家。",
+      "pinyin": "Hǎo, yǒu biàn huà jí shí gào sù dà jiā.",
+      "tr": "Tamam, değişiklik olursa herkese zamanında haber verelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_081",
       "speaker": "张伟",
-      "zh": "嗯，这样听起来比较合理。",
-      "pinyin": "Èn, zhèyàng tīng qǐlái bǐjiào hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "说到三代人，你怎么看？",
+      "pinyin": "Shuō dào sān dài rén, nǐ zěn me kàn?",
+      "tr": "üç kuşak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC049_082",
       "speaker": "刘梅",
-      "zh": "关于一代人，大家还有什么想法？",
-      "pinyin": "Guānyú yídàirén, dàjiā háiyǒu shénme xiǎngfǎ?",
-      "tr": "Bir kuşak konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_083",
       "speaker": "爷爷",
-      "zh": "好，这一点我先记下。",
-      "pinyin": "Hǎo, zhè yìdiǎn wǒ xiān jìxià.",
-      "tr": "Bu noktayı not edeyim."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_084",
       "speaker": "奶奶",
-      "zh": "往事这部分我们也得认真看。",
-      "pinyin": "Wǎngshì zhèbùfèn wǒmen yě dé rènzhēn kàn.",
-      "tr": "Geçmiş anılar göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_085",
       "speaker": "张伟",
-      "zh": "我们也得看看还有没有别的影响。",
-      "pinyin": "Wǒmen yě dé kànkàn háiyǒu méiyǒu biéde yǐngxiǎng.",
-      "tr": "Başka etkileri var mı bir de ona bakalım."
+      "zh": "我觉得全家福这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé quán jiā fú zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence aile fotoğrafı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_086",
       "speaker": "刘梅",
-      "zh": "好，家人这一点也加进去。",
-      "pinyin": "Hǎo, jiārén zhè yìdiǎn yě jiājìnqù.",
-      "tr": "Aile konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_087",
       "speaker": "爷爷",
-      "zh": "这一点我赞成。",
-      "pinyin": "Zhè yìdiǎn wǒ zànchéng.",
-      "tr": "Bu noktaya katılıyorum."
+      "zh": "今天大家把意见都说清楚了。",
+      "pinyin": "Jīn tiān dà jiā bǎ yì jiàn dōu shuō qīng chǔ le.",
+      "tr": "Bugün herkes görüşünü net biçimde ifade etti."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_088",
       "speaker": "奶奶",
-      "zh": "照片一旦有变化，原来的计划就得改。",
-      "pinyin": "Zhàopiān yídàn yǒu biànhuà, yuánlái de jìhuà jiù dé gǎi.",
-      "tr": "Fotoğraf değişirse planı da ayarlamak gerekir."
+      "zh": "好，那今天先到这里。",
+      "pinyin": "Hǎo, nà jīn tiān xiān dào zhè lǐ.",
+      "tr": "Tamam, bugünlük burada bitirelim."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_089",
       "speaker": "张伟",
-      "zh": "嗯，这个角度确实是我刚才忽略的。",
-      "pinyin": "Èn, zhège jiǎodù quèshí shì wǒ gāngcái hūlüè de.",
-      "tr": "Bu açı daha önce aklıma gelmemişti."
+      "zh": "说到一代人，你怎么看？",
+      "pinyin": "Shuō dào yī dài rén, nǐ zěn me kàn?",
+      "tr": "bir kuşak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK4_SC049_090",
       "speaker": "刘梅",
-      "zh": "说到变化，我还想听听大家怎么想。",
-      "pinyin": "Shuō dào biànhuà, wǒ hái xiǎng tīngtīng dàjiā zěnme xiǎng.",
-      "tr": "Değişim konusunda herkesin fikrini bir kez daha duymak istiyorum."
+      "zh": "主要问题已经有比较清楚的处理办法了。",
+      "pinyin": "Zhǔ yào wèn tí yǐ jīng yǒu bǐ jiào qīng chǔ de chù lǐ bàn fǎ le.",
+      "tr": "Ana sorun için artık oldukça net bir çözüm var."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_091",
       "speaker": "爷爷",
-      "zh": "嗯，那我们得再考虑一下。",
-      "pinyin": "Èn, nà wǒmen dé zài kǎolǜyīxià.",
-      "tr": "O zaman gerçekten yeniden düşünmek gerekiyor."
+      "zh": "剩下的先按这个方案执行。",
+      "pinyin": "Shèng xià de xiān àn zhè gè fāng àn zhí xíng.",
+      "tr": "Kalanını şimdilik bu plana göre uygulayalım."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_092",
       "speaker": "奶奶",
-      "zh": "对，情绪也是必须考虑的。",
-      "pinyin": "Duì, qíngxù yě shì bìxū kǎolǜ de.",
-      "tr": "Duygusal durum göz ardı edemeyeceğimiz bir nokta."
+      "zh": "过一段时间再看看要不要调整。",
+      "pinyin": "Guò yī duàn shí jiān zài kàn kàn yào bù yào diào zhěng.",
+      "tr": "Bir süre sonra yeniden bakıp ayarlama gerekip gerekmediğine karar veririz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_093",
       "speaker": "张伟",
-      "zh": "嗯，这样听起来比较合理。",
-      "pinyin": "Èn, zhèyàng tīng qǐlái bǐjiào hélǐ.",
-      "tr": "Kulağa oldukça mantıklı geliyor."
+      "zh": "我觉得往事这一点也不能忽略。",
+      "pinyin": "Wǒ jué dé wǎng shì zhè yī diǎn yě bù néng hū lüè.",
+      "tr": "Bence geçmiş anılar konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_094",
       "speaker": "刘梅",
-      "zh": "那把三代人也一起考虑进去吧。",
-      "pinyin": "Nà bǎ sāndàirén yě yìqǐ kǎolǜ jìnqù ba.",
-      "tr": "Üç kuşak konusunu da değerlendirme kapsamına alalım."
+      "zh": "我同意，这样比较稳妥。",
+      "pinyin": "Wǒ tóng yì, zhè yàng bǐ jiào wěn tuǒ.",
+      "tr": "Katılıyorum, böyle daha temkinli."
     },
     {
       "id": "DLG_ZH_HSK4_SC049_095",

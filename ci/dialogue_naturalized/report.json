@@ -1,42 +1,49 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneCount": 300,
   "turnCount": 30000,
-  "changedTurnCount": 12846,
+  "changedTurnCount": 15657,
+  "rebuiltTurnCount": 13250,
   "uniqueZhBefore": 3163,
-  "uniqueZhAfter": 4213,
+  "uniqueZhAfter": 2760,
   "duplicateTurnsBefore": 26837,
-  "duplicateTurnsAfter": 25787,
+  "duplicateTurnsAfter": 27240,
   "levels": {
     "HSK1": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 2818
+      "changedTurns": 2154,
+      "rebuiltTurns": 0
     },
     "HSK2": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 2115
+      "changedTurns": 3303,
+      "rebuiltTurns": 3050
     },
     "HSK3": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 4147
+      "changedTurns": 1850,
+      "rebuiltTurns": 1850
     },
     "HSK4": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 1559
+      "changedTurns": 1950,
+      "rebuiltTurns": 1950
     },
     "HSK5": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 1807
+      "changedTurns": 2200,
+      "rebuiltTurns": 2200
     },
     "HSK6": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 400
+      "changedTurns": 4200,
+      "rebuiltTurns": 4200
     }
   }
 }

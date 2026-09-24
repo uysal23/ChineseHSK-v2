@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC035",
   "level": "HSK1",
   "sourceTitleZh": "李晨一家来做客",
@@ -24,7 +24,7 @@
       "id": "DLG_ZH_HSK1_SC035_003",
       "speaker": "李晨",
       "zh": "没错。",
-      "pinyin": "Méicuò.",
+      "pinyin": "Méi cuò.",
       "tr": "Evet."
     },
     {
@@ -37,8 +37,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_005",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -65,8 +65,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_009",
       "speaker": "张伟",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -93,8 +93,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_013",
       "speaker": "张伟",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -121,36 +121,36 @@
     {
       "id": "DLG_ZH_HSK1_SC035_017",
       "speaker": "张伟",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_018",
       "speaker": "刘梅",
-      "zh": "你想要饭吗？",
-      "pinyin": "Nǐ xiǎngyào fàn ma?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_019",
       "speaker": "李晨",
-      "zh": "那我要饭吧，谢谢。",
-      "pinyin": "Nà wǒ yàofàn ba, xièxiè.",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_020",
       "speaker": "李晨妻子",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_021",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -163,22 +163,22 @@
     {
       "id": "DLG_ZH_HSK1_SC035_023",
       "speaker": "李晨",
-      "zh": "先别急。",
-      "pinyin": "Xiān biéjí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_024",
       "speaker": "李晨妻子",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_025",
       "speaker": "张伟",
-      "zh": "那一起吧。",
-      "pinyin": "Nà yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
@@ -198,22 +198,22 @@
     {
       "id": "DLG_ZH_HSK1_SC035_028",
       "speaker": "李晨妻子",
-      "zh": "那我要茶吧，谢谢。",
-      "pinyin": "Nà wǒ yào chá ba, xièxiè.",
+      "zh": "我要茶，谢谢。",
+      "pinyin": "Wǒ yào chá, xièxie.",
       "tr": "Çay istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_029",
       "speaker": "张伟",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_030",
       "speaker": "刘梅",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -226,50 +226,50 @@
     {
       "id": "DLG_ZH_HSK1_SC035_032",
       "speaker": "李晨妻子",
-      "zh": "没错，是桌子。",
-      "pinyin": "Méicuò, shì zhuōzi.",
+      "zh": "嗯，对，这是桌子。",
+      "pinyin": "Èn, duì, zhè shì zhuō zi.",
       "tr": "Evet, bu masa."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_033",
       "speaker": "张伟",
-      "zh": "那桌子放在哪儿？",
-      "pinyin": "Nà zhuōzi fàngzài nǎér?",
+      "zh": "桌子呢？",
+      "pinyin": "Zhuō zi ne?",
       "tr": "Masa nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_034",
       "speaker": "刘梅",
       "zh": "桌子在这儿。",
-      "pinyin": "Zhuōzi zài zhèér.",
+      "pinyin": "Zhuō zi zài zhèr.",
       "tr": "Masa burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_035",
       "speaker": "李晨",
       "zh": "那家在哪儿？",
-      "pinyin": "Nà jiā zài nǎér?",
+      "pinyin": "Nà jiā zài nǎr?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_036",
       "speaker": "李晨妻子",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nàbian.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_037",
       "speaker": "张伟",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_038",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -282,22 +282,22 @@
     {
       "id": "DLG_ZH_HSK1_SC035_040",
       "speaker": "李晨妻子",
-      "zh": "好，我要蛋糕，谢谢。",
-      "pinyin": "Hǎo, wǒ yào dàngāo, xièxiè.",
+      "zh": "我要蛋糕，谢谢。",
+      "pinyin": "Wǒ yào dàngāo, xièxie.",
       "tr": "Kek / pasta istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_041",
       "speaker": "张伟",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_042",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -310,8 +310,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_044",
       "speaker": "李晨妻子",
-      "zh": "太好了！",
-      "pinyin": "Tài hǎo le!",
+      "zh": "真好！",
+      "pinyin": "Zhēn hǎo!",
       "tr": "Harika!"
     },
     {
@@ -325,21 +325,21 @@
       "id": "DLG_ZH_HSK1_SC035_046",
       "speaker": "刘梅",
       "zh": "别客气。",
-      "pinyin": "Bié kèqì.",
+      "pinyin": "Bié kè qì.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_047",
       "speaker": "李晨",
-      "zh": "现在就好了。",
-      "pinyin": "Xiànzài jiù hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_048",
       "speaker": "李晨妻子",
       "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "pinyin": "Hǎo, jì xù.",
       "tr": "Devam edelim."
     },
     {
@@ -366,8 +366,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_052",
       "speaker": "李晨妻子",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -394,8 +394,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_056",
       "speaker": "李晨妻子",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -422,50 +422,50 @@
     {
       "id": "DLG_ZH_HSK1_SC035_060",
       "speaker": "李晨妻子",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_061",
       "speaker": "张伟",
-      "zh": "你想要饭吗？",
-      "pinyin": "Nǐ xiǎngyào fàn ma?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_062",
       "speaker": "刘梅",
-      "zh": "好，我要饭，谢谢。",
-      "pinyin": "Hǎo, wǒ yàofàn, xièxiè.",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_063",
       "speaker": "李晨",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_064",
       "speaker": "李晨妻子",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_065",
       "speaker": "张伟",
-      "zh": "你想要茶吗？",
-      "pinyin": "Nǐ xiǎngyào chá ma?",
+      "zh": "你要茶吗？",
+      "pinyin": "Nǐ yào chá ma?",
       "tr": "Çay ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_066",
       "speaker": "刘梅",
-      "zh": "好，我要茶，谢谢。",
-      "pinyin": "Hǎo, wǒ yào chá, xièxiè.",
+      "zh": "我要茶，谢谢。",
+      "pinyin": "Wǒ yào chá, xièxie.",
       "tr": "Çay istiyorum, teşekkürler."
     },
     {
@@ -478,36 +478,36 @@
     {
       "id": "DLG_ZH_HSK1_SC035_068",
       "speaker": "李晨妻子",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_069",
       "speaker": "张伟",
-      "zh": "这个是桌子吗？",
-      "pinyin": "Zhège shì zhuōzi ma?",
+      "zh": "这是桌子，对吗？",
+      "pinyin": "Zhè shì zhuō zi, duì ma?",
       "tr": "Bu, masa mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_070",
       "speaker": "刘梅",
       "zh": "没错，是桌子。",
-      "pinyin": "Méicuò, shì zhuōzi.",
+      "pinyin": "Méi cuò, shì zhuō zi.",
       "tr": "Evet, bu masa."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_071",
       "speaker": "李晨",
-      "zh": "桌子在哪儿？",
-      "pinyin": "Zhuōzi zài nǎr?",
+      "zh": "那桌子在哪儿？",
+      "pinyin": "Nà zhuō zi zài nǎr?",
       "tr": "Masa nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_072",
       "speaker": "李晨妻子",
       "zh": "你看，桌子在这儿。",
-      "pinyin": "Nǐ kàn, zhuōzi zài zhèér.",
+      "pinyin": "Nǐ kàn, zhuō zi zài zhèr.",
       "tr": "Masa burada."
     },
     {
@@ -534,8 +534,8 @@
     {
       "id": "DLG_ZH_HSK1_SC035_076",
       "speaker": "李晨妻子",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
@@ -590,22 +590,22 @@
     {
       "id": "DLG_ZH_HSK1_SC035_084",
       "speaker": "李晨妻子",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_085",
       "speaker": "张伟",
-      "zh": "你想要饭吗？",
-      "pinyin": "Nǐ xiǎngyào fàn ma?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_086",
       "speaker": "刘梅",
-      "zh": "好，我要饭，谢谢。",
-      "pinyin": "Hǎo, wǒ yàofàn, xièxiè.",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
@@ -618,15 +618,15 @@
     {
       "id": "DLG_ZH_HSK1_SC035_088",
       "speaker": "李晨妻子",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_089",
       "speaker": "张伟",
-      "zh": "要不要茶？",
-      "pinyin": "Yào búyào chá?",
+      "zh": "你要茶吗？",
+      "pinyin": "Nǐ yào chá ma?",
       "tr": "Çay ister misin?"
     },
     {
@@ -639,36 +639,36 @@
     {
       "id": "DLG_ZH_HSK1_SC035_091",
       "speaker": "李晨",
-      "zh": "嗯，好。",
-      "pinyin": "Èn, hǎo.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_092",
       "speaker": "李晨妻子",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_093",
       "speaker": "张伟",
-      "zh": "这是桌子，对吗？",
-      "pinyin": "Zhè shì zhuōzi, duì ma?",
+      "zh": "这是桌子吗？",
+      "pinyin": "Zhè shì zhuōzi ma?",
       "tr": "Bu, masa mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_094",
       "speaker": "刘梅",
       "zh": "没错，是桌子。",
-      "pinyin": "Méicuò, shì zhuōzi.",
+      "pinyin": "Méi cuò, shì zhuō zi.",
       "tr": "Evet, bu masa."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_095",
       "speaker": "李晨",
-      "zh": "桌子呢？放哪儿了？",
-      "pinyin": "Zhuōzi ne? fàng nǎér le?",
+      "zh": "那桌子在哪儿？",
+      "pinyin": "Nà zhuō zi zài nǎr?",
       "tr": "Masa nerede?"
     },
     {
@@ -681,22 +681,22 @@
     {
       "id": "DLG_ZH_HSK1_SC035_097",
       "speaker": "张伟",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC035_098",
       "speaker": "刘梅",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC035_099",
       "speaker": "李晨",
-      "zh": "都弄好了。",
-      "pinyin": "Dōu nòng hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {

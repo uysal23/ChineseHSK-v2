@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 2,
+  "naturalizationVersion": 3,
   "sceneId": "ZH_HSK1_SC023",
   "level": "HSK1",
   "sourceTitleZh": "第一个新朋友",
@@ -23,22 +23,22 @@
     {
       "id": "DLG_ZH_HSK1_SC023_003",
       "speaker": "同学",
-      "zh": "嗯，对。",
-      "pinyin": "Èn, duì.",
+      "zh": "对。",
+      "pinyin": "Duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_004",
       "speaker": "老师",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_005",
       "speaker": "张雨桐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Èn, zhǔnbèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -72,8 +72,8 @@
     {
       "id": "DLG_ZH_HSK1_SC023_010",
       "speaker": "同学",
-      "zh": "你想要午饭吗？",
-      "pinyin": "Nǐ xiǎngyào wǔfàn ma?",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
       "tr": "Öğle yemeği ister misin?"
     },
     {
@@ -86,8 +86,8 @@
     {
       "id": "DLG_ZH_HSK1_SC023_012",
       "speaker": "老师",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
@@ -121,36 +121,36 @@
     {
       "id": "DLG_ZH_HSK1_SC023_017",
       "speaker": "张雨桐",
-      "zh": "嗯，我也是。",
-      "pinyin": "Èn, wǒ yě shì.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_018",
       "speaker": "同学",
-      "zh": "学校呢？",
-      "pinyin": "Xuéxiào ne?",
+      "zh": "学校在哪儿？",
+      "pinyin": "Xuéxiào zài nǎr?",
       "tr": "Okul nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_019",
       "speaker": "同学",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "学校在那边。",
+      "pinyin": "Xuéxiào zài nàbian.",
       "tr": "Okul şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_020",
       "speaker": "老师",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_021",
       "speaker": "张雨桐",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -163,36 +163,36 @@
     {
       "id": "DLG_ZH_HSK1_SC023_023",
       "speaker": "同学",
-      "zh": "别着急。",
-      "pinyin": "Biézháojí.",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_024",
       "speaker": "老师",
-      "zh": "我看看。",
-      "pinyin": "Wǒ kànkàn.",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_025",
       "speaker": "张雨桐",
-      "zh": "好，一起吧。",
-      "pinyin": "Hǎo, yìqǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_026",
       "speaker": "同学",
-      "zh": "行。",
-      "pinyin": "Xíng.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_027",
       "speaker": "同学",
-      "zh": "你想要饭吗？",
-      "pinyin": "Nǐ xiǎngyào fàn ma?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
@@ -205,36 +205,36 @@
     {
       "id": "DLG_ZH_HSK1_SC023_029",
       "speaker": "张雨桐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_030",
       "speaker": "同学",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_031",
       "speaker": "同学",
-      "zh": "教室呢？",
-      "pinyin": "Jiàoshì ne?",
+      "zh": "那教室在哪儿？",
+      "pinyin": "Nà jiào shì zài nǎr?",
       "tr": "Sınıf nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_032",
       "speaker": "老师",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "zh": "教室在那边。",
+      "pinyin": "Jiàoshì zài nàbian.",
       "tr": "Sınıf şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_033",
       "speaker": "张雨桐",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -269,7 +269,7 @@
       "id": "DLG_ZH_HSK1_SC023_038",
       "speaker": "同学",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkürler."
     },
     {
@@ -282,8 +282,8 @@
     {
       "id": "DLG_ZH_HSK1_SC023_040",
       "speaker": "老师",
-      "zh": "嗯，有一点。",
-      "pinyin": "Èn, yǒu yìdiǎn.",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
       "tr": "Biraz."
     },
     {
@@ -297,7 +297,7 @@
       "id": "DLG_ZH_HSK1_SC023_042",
       "speaker": "同学",
       "zh": "那我们继续吧。",
-      "pinyin": "Nà wǒmen jìxù ba.",
+      "pinyin": "Nà wǒ men jì xù ba.",
       "tr": "Devam edelim."
     },
     {
@@ -310,36 +310,36 @@
     {
       "id": "DLG_ZH_HSK1_SC023_044",
       "speaker": "老师",
-      "zh": "太棒了！",
-      "pinyin": "Tàibàngle!",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_045",
       "speaker": "张雨桐",
       "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_046",
       "speaker": "同学",
       "zh": "别客气。",
-      "pinyin": "Bié kèqì.",
+      "pinyin": "Bié kè qì.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_047",
       "speaker": "同学",
-      "zh": "现在就好了。",
-      "pinyin": "Xiànzài jiù hǎo le.",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_048",
       "speaker": "老师",
-      "zh": "好，继续。",
-      "pinyin": "Hǎo, jìxù.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒ men jì xù ba.",
       "tr": "Devam edelim."
     },
     {
@@ -366,15 +366,15 @@
     {
       "id": "DLG_ZH_HSK1_SC023_052",
       "speaker": "老师",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_053",
       "speaker": "张雨桐",
-      "zh": "要不要午饭？",
-      "pinyin": "Yào búyào wǔfàn?",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
       "tr": "Öğle yemeği ister misin?"
     },
     {
@@ -387,15 +387,15 @@
     {
       "id": "DLG_ZH_HSK1_SC023_055",
       "speaker": "同学",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_056",
       "speaker": "老师",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -429,36 +429,36 @@
     {
       "id": "DLG_ZH_HSK1_SC023_061",
       "speaker": "张雨桐",
-      "zh": "学校呢？",
-      "pinyin": "Xuéxiào ne?",
+      "zh": "学校在哪儿？",
+      "pinyin": "Xuéxiào zài nǎr?",
       "tr": "Okul nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_062",
       "speaker": "同学",
-      "zh": "学校在那边。",
-      "pinyin": "Xuéxiào zài nàbian.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Okul şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_063",
       "speaker": "同学",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_064",
       "speaker": "老师",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_065",
       "speaker": "张雨桐",
-      "zh": "要不要饭？",
-      "pinyin": "Yào búyào fàn?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
@@ -471,43 +471,43 @@
     {
       "id": "DLG_ZH_HSK1_SC023_067",
       "speaker": "同学",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_068",
       "speaker": "老师",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_069",
       "speaker": "张雨桐",
       "zh": "教室呢？",
-      "pinyin": "Jiàoshì ne?",
+      "pinyin": "Jiào shì ne?",
       "tr": "Sınıf nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_070",
       "speaker": "同学",
-      "zh": "你看，教室在那边。",
-      "pinyin": "Nǐ kàn, jiàoshì zài nàbiān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Sınıf şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_071",
       "speaker": "同学",
-      "zh": "好，明白了。",
-      "pinyin": "Hǎo, míngbái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_072",
       "speaker": "老师",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -534,15 +534,15 @@
     {
       "id": "DLG_ZH_HSK1_SC023_076",
       "speaker": "老师",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_077",
       "speaker": "张雨桐",
-      "zh": "你想要午饭吗？",
-      "pinyin": "Nǐ xiǎngyào wǔfàn ma?",
+      "zh": "你要午饭吗？",
+      "pinyin": "Nǐ yào wǔfàn ma?",
       "tr": "Öğle yemeği ister misin?"
     },
     {
@@ -555,15 +555,15 @@
     {
       "id": "DLG_ZH_HSK1_SC023_079",
       "speaker": "同学",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_080",
       "speaker": "老师",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -590,50 +590,50 @@
     {
       "id": "DLG_ZH_HSK1_SC023_084",
       "speaker": "老师",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_085",
       "speaker": "张雨桐",
       "zh": "那学校在哪儿？",
-      "pinyin": "Nà xuéxiào zài nǎér?",
+      "pinyin": "Nà xué xiào zài nǎr?",
       "tr": "Okul nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_086",
       "speaker": "同学",
       "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
+      "pinyin": "Jiù zài nà biān.",
       "tr": "Okul şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_087",
       "speaker": "同学",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_088",
       "speaker": "老师",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_089",
       "speaker": "张雨桐",
-      "zh": "你想要饭吗？",
-      "pinyin": "Nǐ xiǎngyào fàn ma?",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC023_090",
       "speaker": "同学",
-      "zh": "那我要饭吧，谢谢。",
-      "pinyin": "Nà wǒ yàofàn ba, xièxiè.",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
@@ -646,15 +646,15 @@
     {
       "id": "DLG_ZH_HSK1_SC023_092",
       "speaker": "老师",
-      "zh": "谢谢啊。",
-      "pinyin": "Xièxiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC023_093",
       "speaker": "张雨桐",
       "zh": "那教室在哪儿？",
-      "pinyin": "Nà jiàoshì zài nǎér?",
+      "pinyin": "Nà jiào shì zài nǎr?",
       "tr": "Sınıf nerede?"
     },
     {
@@ -668,7 +668,7 @@
       "id": "DLG_ZH_HSK1_SC023_095",
       "speaker": "同学",
       "zh": "嗯，我明白了。",
-      "pinyin": "Èn, wǒ míngbái le.",
+      "pinyin": "Èn, wǒ míng bái le.",
       "tr": "Anladım."
     },
     {
@@ -681,8 +681,8 @@
     {
       "id": "DLG_ZH_HSK1_SC023_097",
       "speaker": "张雨桐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
       "tr": "Ben de."
     },
     {
@@ -695,8 +695,8 @@
     {
       "id": "DLG_ZH_HSK1_SC023_099",
       "speaker": "同学",
-      "zh": "嗯，都好了。",
-      "pinyin": "Èn, dōu hǎo le.",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {
