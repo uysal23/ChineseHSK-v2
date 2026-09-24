@@ -1,0 +1,175 @@
+name: Generate Mandarin voice pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ci/generate_voice_audio.py"
+      - "ci/voice_cast_manifest.json"
+      - ".github/workflows/generate-voice-audio.yml"
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Restore Kokoro model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-hf-v1-${{ runner.os }}
+      - name: Install voice tooling
+        run: |
+          python -m pip install --disable-pip-version-check "kokoro>=0.9.4" "misaki[zh]>=0.9.4" soundfile numpy
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg
+      - name: Generate smoke samples
+        run: |
+          rm -rf voice-smoke
+          python ci/generate_voice_audio.py --level HSK1 --out voice-smoke --max-items 12
+          test "$(find voice-smoke/files -name '*.opus' | wc -l)" -eq 12
+          find voice-smoke/files -name '*.opus' -print0 | xargs -0 -n1 ffprobe -v error -show_entries format=duration -of csv=p=0
+      - name: Upload smoke samples
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mandarin-voice-smoke
+          path: voice-smoke
+          retention-days: 14
+
+  generate:
+    needs: smoke
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        level: [HSK1, HSK2, HSK3, HSK4, HSK5, HSK6]
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Restore Kokoro model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-hf-v1-${{ runner.os }}
+      - name: Install voice tooling
+        run: |
+          python -m pip install --disable-pip-version-check "kokoro>=0.9.4" "misaki[zh]>=0.9.4" soundfile numpy
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg
+      - name: Generate ${{ matrix.level }} voices
+        run: |
+          OUT="voice-${{ matrix.level }}"
+          rm -rf "$OUT"
+          python ci/generate_voice_audio.py --level "${{ matrix.level }}" --out "$OUT"
+          test -s "$OUT/audio_manifest_${{ matrix.level }}.json"
+          test "$(find "$OUT/files/${{ matrix.level }}" -name '*.opus' | wc -l)" -gt 0
+          du -sh "$OUT"
+      - name: Package level
+        run: |
+          cd "voice-${{ matrix.level }}"
+          zip -q -r "../voice-${{ matrix.level }}.zip" .
+      - name: Upload level voice pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: voice-${{ matrix.level }}
+          path: voice-${{ matrix.level }}.zip
+          retention-days: 14
+          compression-level: 0
+
+  package:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download all level packs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: voice-HSK*
+          path: level-artifacts
+      - name: Merge packs and manifests
+        run: |
+          set -euo pipefail
+          rm -rf merged unpack
+          mkdir -p merged/chinese_course/media/audio/generated unpack
+          for level in HSK1 HSK2 HSK3 HSK4 HSK5 HSK6; do
+            mkdir -p "unpack/$level"
+            unzip -q "level-artifacts/voice-$level/voice-$level.zip" -d "unpack/$level"
+            mkdir -p "merged/chinese_course/media/audio/generated/$level"
+            cp "unpack/$level/files/$level"/*.opus "merged/chinese_course/media/audio/generated/$level/"
+          done
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("unpack")
+          assets = {}
+          metadata = {}
+          levels = {}
+          total_unique = 0
+          for level in [f"HSK{i}" for i in range(1, 7)]:
+              p = root / level / f"audio_manifest_{level}.json"
+              data = json.loads(p.read_text(encoding="utf-8"))
+              assets.update(data["assets"])
+              metadata.update(data.get("metadata", {}))
+              levels[level] = {
+                  "uniqueAudioCount": data["uniqueAudioCount"],
+                  "dialogueMappingCount": data["dialogueMappingCount"],
+              }
+              total_unique += data["uniqueAudioCount"]
+
+          if len(assets) != 30000:
+              raise SystemExit(f"Expected 30000 dialogue mappings, got {len(assets)}")
+
+          manifest = {
+              "schemaVersion": 2,
+              "engine": "Kokoro-82M",
+              "language": "zh",
+              "codec": "opus",
+              "sampleRate": 24000,
+              "bitrate": "24k",
+              "dialogueMappingCount": len(assets),
+              "uniqueAudioCount": total_unique,
+              "levels": levels,
+              "assets": assets,
+              "metadata": metadata,
+          }
+          out = Path("merged/chinese_course/media/audio_manifest.json")
+          out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(json.dumps({"dialogues": len(assets), "uniqueAudio": total_unique, "levels": levels}, ensure_ascii=False))
+          PY
+          cp ci/voice_cast_manifest.json merged/chinese_course/voice_cast.json
+          cd merged
+          zip -q -r ../ChineseHSK-voice-pack-v1.zip chinese_course
+      - name: Upload complete pack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ChineseHSK-voice-pack-v1
+          path: ChineseHSK-voice-pack-v1.zip
+          retention-days: 30
+          compression-level: 0
+      - name: Publish voice pack release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view voice-pack-v1 >/dev/null 2>&1; then
+            gh release upload voice-pack-v1 ChineseHSK-voice-pack-v1.zip --clobber
+          else
+            gh release create voice-pack-v1 ChineseHSK-voice-pack-v1.zip \
+              --title "Chinese HSK Offline Voice Pack v1" \
+              --notes "Kokoro Mandarin offline dialogue audio. 30,000 dialogue IDs mapped to deduplicated Opus assets."
+          fi
