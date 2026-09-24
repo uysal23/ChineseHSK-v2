@@ -292,6 +292,221 @@ HSK6_FLOW = [
 if len(HSK6_FLOW) != 92:
     raise RuntimeError(f"HSK6 flow must have 92 turns, got {len(HSK6_FLOW)}")
 
+HSK6_REFLECT_SCENES = {
+    "ZH_HSK6_SC005","ZH_HSK6_SC008","ZH_HSK6_SC009",
+    "ZH_HSK6_SC015","ZH_HSK6_SC016","ZH_HSK6_SC025",
+    "ZH_HSK6_SC026","ZH_HSK6_SC027","ZH_HSK6_SC029",
+    "ZH_HSK6_SC033","ZH_HSK6_SC039","ZH_HSK6_SC040",
+    "ZH_HSK6_SC043","ZH_HSK6_SC045","ZH_HSK6_SC046",
+    "ZH_HSK6_SC047","ZH_HSK6_SC048","ZH_HSK6_SC049",
+    "ZH_HSK6_SC050",
+}
+HSK6_CELEBRATE_SCENES = {
+    "ZH_HSK6_SC001","ZH_HSK6_SC002","ZH_HSK6_SC007",
+    "ZH_HSK6_SC010","ZH_HSK6_SC021","ZH_HSK6_SC024",
+    "ZH_HSK6_SC028","ZH_HSK6_SC044",
+}
+HSK6_WAIT_SCENES = {"ZH_HSK6_SC022","ZH_HSK6_SC023"}
+HSK6_CRISIS_SCENES = {
+    "ZH_HSK6_SC006","ZH_HSK6_SC013","ZH_HSK6_SC036",
+    "ZH_HSK6_SC037","ZH_HSK6_SC038","ZH_HSK6_SC041",
+}
+
+def hsk6_mode(scene_id):
+    if scene_id in HSK6_REFLECT_SCENES:
+        return "reflect"
+    if scene_id in HSK6_CELEBRATE_SCENES:
+        return "celebrate"
+    if scene_id in HSK6_WAIT_SCENES:
+        return "wait"
+    if scene_id in HSK6_CRISIS_SCENES:
+        return "crisis"
+    return "plan"
+
+HSK6_REFLECT_OVERRIDES = {
+    3: ("这件事一提起来，我脑子里一下子冒出很多以前的画面。","Bu konu açılınca aklıma bir anda geçmişten birçok görüntü geliyor."),
+    7: ("先别急着总结，我们把想到的事情慢慢说出来。","Hemen sonuç çıkarmayalım; aklımıza gelenleri yavaş yavaş anlatalım."),
+    10: ("我先说一个我印象最深的细节。","Önce aklımda en güçlü kalan ayrıntıyı anlatayım."),
+    17: ("好，先把大家记得最清楚的都说出来。","Tamam, önce herkes en net hatırladığı şeyleri anlatsın."),
+    18: ("听听彼此记得的版本也挺有意思。","Birbirimizin hatırladığı farklı versiyonları dinlemek de ilginç."),
+    19: ("同一段经历，每个人记住的地方还真不一样。","Aynı deneyimde herkesin aklında kalan noktalar gerçekten farklı."),
+    24: ("有些感受当时没注意，现在回头看反而更清楚。","O zaman fark etmediğimiz bazı duygular, şimdi geriye bakınca daha net görünüyor."),
+    26: ("我觉得不用急着找答案，先把故事说完整。","Bence hemen bir cevap aramak yerine önce hikâyeyi tamamlayalım."),
+    28: ("那就先把还能记得的细节慢慢拼起来。","O zaman hâlâ hatırladığımız ayrıntıları yavaş yavaş bir araya getirelim."),
+    29: ("记不清的地方也没关系，不必勉强。","Net hatırlamadığımız yerler de sorun değil; zorlamaya gerek yok."),
+    34: ("这样听下来，很多事情的前后都连起来了。","Böyle dinleyince birçok olayın öncesi ve sonrası birbirine bağlanıyor."),
+    35: ("我还想听听，这些年大家的感受有没有变化。","Yıllar içinde herkesin duygularının değişip değişmediğini de duymak istiyorum."),
+    36: ("好，那就从后来发生的事接着说。","Tamam, o zaman sonrasında olanlardan devam edelim."),
+    37: ("现在再看这段经历，和当时的感觉已经不太一样了。","Bu deneyime şimdi baktığımda, o zamanki hissimden oldukça farklı geliyor."),
+    39: ("我更想知道，这段经历为什么到现在还让我们记得。","Ben daha çok bu deneyimin neden hâlâ aklımızda kaldığını merak ediyorum."),
+    41: ("这点我同意，有些意义是过很久以后才看得出来的。","Buna katılıyorum; bazı anlamlar ancak uzun zaman geçince ortaya çıkıyor."),
+    42: ("如果换成现在的我们，也许会有不一样的理解。","Bugünkü hâlimizle baksak belki farklı bir anlam çıkarırdık."),
+    44: ("我最在意的不是结果，而是当时大家为什么会那样想。","Benim için en önemli şey sonuç değil, o zaman neden öyle düşündüğümüz."),
+    46: ("对，不能只用现在的眼光去评价以前。","Evet, geçmişi yalnızca bugünün bakışıyla değerlendiremeyiz."),
+    47: ("把当时的条件放回去看，很多事情就容易理解了。","O dönemin koşullarını hesaba katınca birçok şeyi anlamak kolaylaşıyor."),
+    49: ("我觉得可以把这些故事好好留下来。","Bence bu hikâyeleri iyi biçimde koruyabiliriz."),
+    51: ("以后再回头看，也许还会有新的理解。","İleride yeniden baktığımızda belki yeni anlamlar çıkaracağız."),
+    52: ("这样既保留了记忆，也不会把过去说得太简单。","Böylece hem anıları koruruz hem de geçmişi gereğinden fazla basitleştirmemiş oluruz."),
+    53: ("嗯，这部分我听明白了。","Evet, bu kısmı şimdi daha iyi anladım."),
+    54: ("接下来再说说，这些经历到底给我们留下了什么。","Şimdi de bu deneyimlerin bize ne bıraktığını konuşalım."),
+    55: ("我先把刚才说到的几件事理一理。","Az önce konuştuğumuz birkaç şeyi önce bir toparlayayım."),
+    57: ("我觉得这些故事值得有人认真记下来。","Bence bu hikâyeler dikkatle kayda geçirilmeye değer."),
+    59: ("以后想起新的细节，再补上也不迟。","İleride yeni bir ayrıntı hatırlarsak eklemek için geç olmaz."),
+    60: ("对，记忆本来就会随着时间慢慢变化。","Evet, anılar zaten zamanla yavaş yavaş değişir."),
+    62: ("这一点我想再找找当时留下的东西。","Bu noktada o zamandan kalan şeylere yeniden bakmak istiyorum."),
+    64: ("大家记得的不一样也很正常。","Herkesin farklı hatırlaması da çok normal."),
+    65: ("这些不同反而能让这段经历更完整。","Bu farklılıklar aslında deneyimi daha bütünlüklü hâle getiriyor."),
+    67: ("现在听起来比刚开始有层次多了。","Şimdi konu başlangıca göre çok daha katmanlı geliyor."),
+    70: ("重要的是我们知道这些经历为什么到现在还重要。","Önemli olan bu deneyimlerin neden bugün hâlâ önemli olduğunu bilmemiz."),
+    71: ("好，最后再说说今天听完以后最大的感受。","Tamam, son olarak bugün bunları dinledikten sonraki en güçlü duygumuzu söyleyelim."),
+    72: ("我觉得已经比一开始更明白了。","Bence başlangıca göre çok daha iyi anlıyoruz."),
+    73: ("现在回头看，最开始想到的那些画面已经连得更完整了。","Şimdi geriye baktığımızda başlangıçta aklımıza gelen görüntüler daha bütünlüklü bir hâl aldı."),
+    75: ("我的感受比刚开始更清楚了。","Benim duygum başlangıca göre daha net."),
+    77: ("我也是，很多以前没想过的地方现在看清楚了。","Ben de; daha önce düşünmediğim birçok noktayı şimdi daha net görüyorum."),
+    78: ("有些理解还需要时间慢慢沉下来。","Bazı anlamların oturması için biraz zamana ihtiyaç var."),
+    80: ("对，不必今天把所有感受都说到最后。","Evet, bütün duyguları bugün son noktasına kadar açıklamak zorunda değiliz."),
+    82: ("只要愿意继续聊，以后还会有新的发现。","Konuşmaya devam etmeye açık olduğumuz sürece ileride yeni şeyler fark ederiz."),
+    83: ("我觉得这次最重要的是大家都把真实的感受说出来了。","Bence bu konuşmadaki en önemli şey herkesin gerçek duygusunu söylemesi oldu."),
+    85: ("这个问题现在不用急着有唯一答案。","Bu sorunun şu anda tek bir cevabı olmak zorunda değil."),
+    87: ("那就把今天记住的先好好留下来。","O zaman bugün hatırladıklarımızı önce iyi biçimde koruyalım."),
+    89: ("好，我会把今天说到的重点记下来。","Tamam, bugün konuştuğumuz önemli noktaları not edeceğim."),
+    92: ("那就这样，以后想起新的故事我们再接着聊。","O zaman böyle bırakalım; ileride yeni bir hikâye hatırlarsak yeniden devam ederiz."),
+}
+
+HSK6_CELEBRATE_OVERRIDES = {
+    3: ("这个消息一说出来，我第一反应还是高兴。","Bu haber söylenince ilk hissettiğim şey yine de sevinç oldu."),
+    7: ("先别急着想太远，大家先说说现在的感受。","Hemen çok ileriye gitmeyelim; önce şu an ne hissettiğimizi konuşalım."),
+    10: ("我先说，我其实挺激动的。","Önce ben söyleyeyim; aslında oldukça heyecanlıyım."),
+    17: ("好，先把想说的祝福和担心都说出来。","Tamam, önce söylemek istediğimiz iyi dilekleri ve kaygıları paylaşalım."),
+    18: ("高兴归高兴，有些现实问题也可以慢慢谈。","Sevinç ayrı; bazı pratik meseleleri de yavaş yavaş konuşabiliriz."),
+    19: ("我觉得大家的反应其实都很真实。","Bence herkesin tepkisi oldukça gerçek ve doğal."),
+    24: ("眼前先好好享受这个时刻，后面的事可以一步一步来。","Şimdilik bu anın tadını çıkaralım; sonrasını adım adım ele alırız."),
+    26: ("有些问题不用现在马上回答。","Bazı soruların cevabını hemen şimdi vermek gerekmiyor."),
+    28: ("先把确定的消息和安排说清楚就好。","Şimdilik kesinleşen haberleri ve temel düzenlemeleri netleştirmemiz yeterli."),
+    29: ("其他细节可以等以后再慢慢补。","Diğer ayrıntıları daha sonra yavaş yavaş tamamlayabiliriz."),
+    34: ("这样一说，大家的心情也放松多了。","Böyle konuşunca herkesin içi biraz daha rahatladı."),
+    35: ("接下来再聊聊，有什么地方需要我们帮忙。","Şimdi de hangi konularda yardım gerekebileceğini konuşalım."),
+    36: ("好，从最实际的事情开始。","Tamam, en pratik konudan başlayalım."),
+    37: ("现在最重要的是让当事人自己觉得舒服。","Şu anda en önemli şey, asıl ilgili kişinin kendini rahat hissetmesi."),
+    39: ("我希望大家的关心不会变成压力。","Herkesin ilgisinin baskıya dönüşmemesini istiyorum."),
+    41: ("对，支持比替别人做决定更重要。","Evet, destek olmak başkası adına karar vermekten daha önemli."),
+    42: ("需要的时候我们再一起商量。","Gerektiğinde yeniden birlikte konuşuruz."),
+    44: ("我更关心的是，当事人自己真正想要什么。","Ben daha çok asıl ilgili kişinin gerçekten ne istediğini önemsiyorum."),
+    46: ("对，不应该让一个人面对所有压力。","Evet, bütün baskıyla tek bir kişinin yüzleşmesini beklememeliyiz."),
+    47: ("是家里的事就一起支持，但也要尊重彼此的边界。","Aileyi ilgilendiriyorsa birlikte destek olalım ama birbirimizin sınırlarına da saygı duyalım."),
+    49: ("我觉得可以先定几个最基本的安排。","Bence önce birkaç temel düzenlemeyi netleştirebiliriz."),
+    51: ("后面的细节有变化再调整。","Sonraki ayrıntıları değişiklik oldukça ayarlarız."),
+    52: ("这样不会太着急，也不会什么都不准备。","Böylece ne acele etmiş oluruz ne de hazırlıksız kalırız."),
+    53: ("好，大家至少方向是一致的。","Tamam, en azından herkes genel yönde aynı fikirde."),
+    54: ("接下来需要谁帮忙，再具体说就行。","Sonrasında kimin yardımına ihtiyaç olursa o zaman netleştiririz."),
+    55: ("那我先把刚才说到的安排理一理。","O zaman az önce konuştuğumuz düzenlemeleri önce bir toparlayayım."),
+    57: ("我觉得最重要的还是需要的时候有人搭把手。","Bence en önemlisi ihtiyaç olduğunda birinin yardım edebilmesi."),
+    59: ("有新情况就及时告诉大家。","Yeni bir durum olursa herkese zamanında haber verelim."),
+    60: ("对，别让关心变成大家互相猜。","Evet, ilgimizin birbirimizin ne düşündüğünü tahmin etmeye dönüşmesine izin vermeyelim."),
+    62: ("这一点我可以帮着确认。","Bu noktayı teyit etmeye ben yardımcı olabilirim."),
+    64: ("其他人也看看自己能帮什么。","Diğerleri de nerede yardımcı olabileceklerine baksın."),
+    65: ("这样真需要帮忙时就不会手忙脚乱。","Böylece gerçekten yardım gerektiğinde telaş etmeyiz."),
+    67: ("现在比刚听到消息的时候踏实多了。","Şimdi haberi ilk duyduğumuz ana göre çok daha sakinim."),
+    70: ("重要的是大家都知道怎么支持彼此。","Önemli olan herkesin birbirini nasıl destekleyeceğini bilmesi."),
+    71: ("好，最后再看看还有没有遗漏的地方。","Tamam, son olarak gözden kaçan bir nokta var mı bakalım."),
+    72: ("没问题的话就先按现在的节奏来。","Sorun yoksa şimdilik bu tempoda ilerleyelim."),
+    73: ("现在回头看，刚听到消息时的那些担心已经少多了。","Şimdi geriye bakınca haberi ilk duyduğumuzdaki kaygılar çok azalmış görünüyor."),
+    75: ("我的心情也比刚开始轻松多了。","Benim de içim başlangıca göre çok daha rahat."),
+    77: ("我也是，现在更多的是期待。","Ben de; artık daha çok güzel bir beklenti hissediyorum."),
+    78: ("有些事情还是要等时间慢慢展开。","Bazı şeylerin zamanla yavaş yavaş ortaya çıkmasını beklemek gerekiyor."),
+    80: ("对，不必今天把后面的所有事情都安排完。","Evet, gelecekteki her şeyi bugün planlamak zorunda değiliz."),
+    82: ("有需要及时说，后面都能慢慢安排。","İhtiyaç olduğunda hemen söylersek sonrasını yavaş yavaş düzenleyebiliriz."),
+    83: ("我觉得这次最重要的是大家都把真实的想法说出来了。","Bence bu konuşmadaki en önemli şey herkesin gerçek düşüncesini söylemesi oldu."),
+    85: ("这个问题现在已经有比较清楚的想法了。","Bu konu hakkında artık oldukça net bir fikrimiz var."),
+    87: ("那就先把眼前该做的做好。","O zaman önce şu anda yapılması gerekenleri iyi yapalım."),
+    89: ("好，今天说到的安排我记住了。","Tamam, bugün konuştuğumuz düzenlemeleri aklımda tutacağım."),
+    92: ("那就这样，接下来大家一起往前走吧。","O zaman böyle yapalım; bundan sonra hep birlikte ilerleyelim."),
+}
+
+HSK6_WAIT_OVERRIDES = {
+    3: ("现在最难的其实就是等，大家心里都不太踏实。","Şu anda en zor şey beklemek; kimsenin içi tam rahat değil."),
+    7: ("先别想太多，能确认的消息我们一条一条听。","Çok fazla düşünmeyelim; doğrulanmış haberleri tek tek takip edelim."),
+    10: ("我最担心的就是一直没有消息。","Benim en büyük kaygım uzun süre haber gelmemesi."),
+    17: ("好，大家先把心里最担心的说出来。","Tamam, herkes önce içinde en çok kaygı duyduğu şeyi söylesin."),
+    24: ("现在猜再多也没用，还是等确定的消息。","Şu anda ne kadar tahmin etsek de faydası yok; kesin haberi beklemek daha iyi."),
+    35: ("接下来最重要的是互相陪着，别让谁一个人胡思乱想。","Şimdi en önemlisi birbirimize eşlik etmek ve kimseyi yalnız başına kaygıyla bırakmamak."),
+    37: ("我们现在能做的其实不多，但陪在这里本身就很重要。","Şu anda yapabileceğimiz çok şey yok ama burada birlikte olmak bile önemli."),
+    49: ("我觉得可以隔一会儿再问一次情况。","Bence biraz sonra durumu yeniden sorabiliriz."),
+    55: ("那我先把已经知道的消息理一理。","O zaman bildiğimiz kesin bilgileri önce bir toparlayayım."),
+    67: ("现在比刚才踏实一点了。","Şimdi az öncekine göre biraz daha sakinim."),
+    73: ("回头看，最难熬的那段时间已经过去一些了。","Geriye bakınca en zor bekleyiş kısmının biraz geride kaldığını görüyoruz."),
+    83: ("我觉得大家能在这里互相陪着已经很重要了。","Bence burada birbirimize eşlik edebilmemiz bile çok önemli."),
+    92: ("那就这样，我们继续一起等消息。","O zaman böyle yapalım; haberi birlikte beklemeye devam edelim."),
+}
+
+def adapt_hsk6_generic(scene_id, turn, role):
+    mode=hsk6_mode(scene_id)
+    if not isinstance(role, tuple):
+        return role
+    if mode=="reflect":
+        return HSK6_REFLECT_OVERRIDES.get(turn,role)
+    if mode=="celebrate":
+        return HSK6_CELEBRATE_OVERRIDES.get(turn,role)
+    if mode=="wait":
+        return HSK6_WAIT_OVERRIDES.get(turn,role)
+    return role
+
+def hsk6_followup(mode, is_question, variant):
+    if mode=="reflect":
+        q=[
+            ("说到这里，你最想起的是什么？","Buraya kadar konuştuktan sonra aklına en çok ne geliyor?"),
+            ("这段经历里，你印象最深的是哪一点？","Bu deneyimde aklında en güçlü kalan nokta hangisi?"),
+            ("如果从今天回头看，你最想补充什么？","Bugünden geriye baktığında en çok ne eklemek istersin?"),
+            ("听完这些，你有没有想起别的细节？","Bunları dinleyince aklına başka bir ayrıntı geldi mi?"),
+        ]
+        st=[
+            ("我觉得这一点现在比以前看得更清楚。","Bence bu noktayı şimdi geçmişe göre daha net görüyoruz."),
+            ("听你这么说，我也想起了不少以前的事。","Böyle anlatınca benim de geçmişten birçok şey aklıma geldi."),
+            ("对，这样把前后连起来就更容易理解了。","Evet, öncesi ve sonrasını bağlayınca anlamak daha kolay oluyor."),
+            ("有些感受过了很久才会真正明白。","Bazı duyguların anlamını ancak uzun zaman sonra gerçekten kavrıyoruz."),
+        ]
+    elif mode=="celebrate":
+        q=[
+            ("听到这里，你现在最期待的是什么？","Buraya kadar konuştuktan sonra en çok neyi bekliyorsun?"),
+            ("还有什么想说的祝福吗？","Söylemek istediğin başka bir iyi dilek var mı?"),
+            ("那你觉得现在最需要的是什么？","Peki sence şu anda en çok neye ihtiyaç var?"),
+            ("大家还有什么想补充的吗？","Herkesin eklemek istediği başka bir şey var mı?"),
+        ]
+        st=[
+            ("我觉得现在最重要的是让大家都轻松一点。","Bence şu anda en önemlisi herkesin biraz rahatlaması."),
+            ("对，高兴的同时也可以把实际事情慢慢安排好。","Evet, sevinirken pratik işleri de yavaş yavaş düzenleyebiliriz."),
+            ("至少现在大家都知道彼此怎么想了。","En azından artık herkes birbirinin ne düşündüğünü biliyor."),
+            ("我觉得这样一步一步来就很好。","Bence böyle adım adım ilerlemek çok iyi."),
+        ]
+    elif mode=="wait":
+        q=[
+            ("现在你最担心的是什么？","Şu anda seni en çok kaygılandıran şey ne?"),
+            ("还有什么消息需要再确认吗？","Yeniden teyit etmemiz gereken başka bir haber var mı?"),
+            ("要不要先休息一下，等新的消息？","Yeni haber gelene kadar biraz dinlenelim mi?"),
+            ("你现在感觉好一点了吗？","Şimdi kendini biraz daha iyi hissediyor musun?"),
+        ]
+        st=[
+            ("我觉得先等确定的消息最稳妥。","Bence en güvenlisi kesin haberi beklemek."),
+            ("对，现在互相陪着比乱猜更重要。","Evet, şu anda birbirimize eşlik etmek tahmin yürütmekten daha önemli."),
+            ("有消息以后我们再一起商量。","Haber gelince yeniden birlikte konuşuruz."),
+            ("先别急，大家都在这里。","Acele etme; herkes burada."),
+        ]
+    else:
+        q=[
+            ("说到这里，你现在最担心的还有什么？","Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"),
+            ("听完这些，你还想补充哪一点？","Bunları dinledikten sonra hangi noktayı eklemek istersin?"),
+            ("如果换个角度看，你会怎么想？","Başka bir açıdan bakarsan nasıl düşünürsün?"),
+            ("这一点大家还有不同意见吗？","Bu konuda hâlâ farklı görüşü olan var mı?"),
+        ]
+        st=[
+            ("我觉得这一点已经比刚开始清楚多了。","Bence bu nokta başlangıca göre çok daha net."),
+            ("至少大家都把自己的想法说出来了。","En azından herkes kendi düşüncesini açıkça söyledi."),
+            ("我同意，这样理解起来更完整。","Katılıyorum; böyle daha bütünlüklü anlaşılıyor."),
+            ("对，这个角度也值得保留。","Evet, bu bakış açısını da korumak gerekiyor."),
+        ]
+    arr=q if is_question else st
+    return arr[variant % len(arr)]
+
 for (lvl,a,b), seq in BLOCKS.items():
     expected=b-a+1
     if len(seq)!=expected:
@@ -606,8 +821,9 @@ def block_role(level, turn):
     return None
 
 def scaffold_line(level, turn, data, cards, term_cursor):
+    scene_id=data.get("id","")
     if level=="HSK6":
-        role=HSK6_FLOW[turn-1]
+        role=adapt_hsk6_generic(scene_id,turn,HSK6_FLOW[turn-1])
     else:
         role=block_role(level,turn)
 
@@ -615,18 +831,27 @@ def scaffold_line(level, turn, data, cards, term_cursor):
         raise RuntimeError(f"No block role for {level} turn {turn}")
 
     if role=="TITLE":
+        first=cards[0]
+        z=str(first.get("zh","这件事")).strip()
+        t=str(first.get("tr","bu konu")).strip()
         return (
-            f"今天正好有时间，我们把“{data.get('titleZh','这件事')}”这件事认真聊一聊吧。",
-            f"Bugün vaktimiz varken “{data.get('titleTr','bu konu')}” konusunu açıkça ve ciddi biçimde konuşalım.",
-            False,
+            f"今天正好有时间，我们聊聊{z}这件事吧。",
+            f"Bugün vaktimiz varken {t} konusunu konuşalım.",
+            True,
         )
 
     if role=="Q":
+        if level=="HSK6" and term_cursor >= len(cards):
+            zh,tr=hsk6_followup(hsk6_mode(scene_id),True,turn)
+            return zh,tr,False
         card=cards[term_cursor % len(cards)]
         zh,tr=term_question(card,level,term_cursor)
         return zh,tr,True
 
     if role=="S":
+        if level=="HSK6" and term_cursor >= len(cards):
+            zh,tr=hsk6_followup(hsk6_mode(scene_id),False,turn)
+            return zh,tr,False
         card=cards[term_cursor % len(cards)]
         zh,tr=term_statement(card,level,term_cursor)
         return zh,tr,True
@@ -779,7 +1004,7 @@ def main():
         )
 
         patch={
-            "naturalizationVersion":5,
+            "naturalizationVersion":6,
             "sceneId":scene_id,
             "level":level,
             "sourceTitleZh":data.get("titleZh"),
@@ -796,7 +1021,7 @@ def main():
         stats[level]["rebuiltTurns"]+=rebuilt
 
     report={
-        "naturalizationVersion":5,
+        "naturalizationVersion":6,
         "sceneCount":len(files),
         "turnCount":sum(x["turns"] for x in stats.values()),
         "changedTurnCount":sum(x["changedTurns"] for x in stats.values()),
