@@ -51,22 +51,44 @@ fun SettingsHubScreen(
 
             item {
                 SettingsSectionCard("🎨 Tema") {
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                        listOf(
-                            ProgressStore.THEME_PURPLE to "Mor",
-                            ProgressStore.THEME_DARK to "Koyu",
-                            ProgressStore.THEME_LIGHT to "Açık"
-                        ).forEach { (mode, label) ->
-                            FilterChip(
-                                selected = themeMode == mode,
-                                onClick = {
-                                    themeMode = mode
-                                    progress.saveThemeMode(mode)
-                                    onThemeChanged(mode)
-                                },
-                                label = { Text(label) },
-                                modifier = Modifier.weight(1f)
-                            )
+                    Text(
+                        "Tema rengini seç. Pastel temalarda metin ve buton kontrastı otomatik korunur.",
+                        color = Color(0xFF5F5963),
+                        fontSize = 12.sp,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    val themeChoices = listOf(
+                        ProgressStore.THEME_PURPLE to "Mor",
+                        ProgressStore.THEME_BLUE to "Mavi",
+                        ProgressStore.THEME_GREEN to "Yeşil",
+                        ProgressStore.THEME_ORANGE to "Turuncu",
+                        ProgressStore.THEME_PINK to "Pembe",
+                        ProgressStore.THEME_DARK to "Koyu",
+                        ProgressStore.THEME_LIGHT to "Açık"
+                    )
+                    themeChoices.chunked(4).forEach { rowChoices ->
+                        Row(
+                            Modifier.fillMaxWidth().padding(bottom = 6.dp),
+                            horizontalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            rowChoices.forEach { (mode, label) ->
+                                FilterChip(
+                                    selected = themeMode == mode,
+                                    onClick = {
+                                        themeMode = mode
+                                        progress.saveThemeMode(mode)
+                                        onThemeChanged(mode)
+                                    },
+                                    label = {
+                                        Text(
+                                            label,
+                                            fontSize = 11.sp,
+                                            fontWeight = if (themeMode == mode) FontWeight.Bold else FontWeight.Medium
+                                        )
+                                    },
+                                    modifier = Modifier.weight(1f)
+                                )
+                            }
                         }
                     }
                 }
@@ -247,7 +269,7 @@ private fun SettingsSectionCard(
     content: @Composable ColumnScope.() -> Unit
 ) {
     Card(
-        colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.97f)),
+        colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.97f), contentColor = Color(0xFF231F28)),
         shape = RoundedCornerShape(20.dp)
     ) {
         Column(Modifier.fillMaxWidth().padding(16.dp)) {
