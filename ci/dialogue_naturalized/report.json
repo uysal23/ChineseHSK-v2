@@ -1,13 +1,13 @@
 {
-  "naturalizationVersion": 6,
+  "naturalizationVersion": 7,
   "sceneCount": 300,
   "turnCount": 30000,
-  "changedTurnCount": 13131,
-  "rebuiltTurnCount": 10550,
+  "changedTurnCount": 13531,
+  "rebuiltTurnCount": 10950,
   "uniqueZhBefore": 3163,
-  "uniqueZhAfter": 3399,
+  "uniqueZhAfter": 3431,
   "duplicateTurnsBefore": 26837,
-  "duplicateTurnsAfter": 26601,
+  "duplicateTurnsAfter": 26569,
   "levels": {
     "HSK1": {
       "scenes": 50,
@@ -42,8 +42,8 @@
     "HSK6": {
       "scenes": 50,
       "turns": 5000,
-      "changedTurns": 4600,
-      "rebuiltTurns": 4600
+      "changedTurns": 5000,
+      "rebuiltTurns": 5000
     }
   }
 }

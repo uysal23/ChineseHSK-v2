@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 6,
+  "naturalizationVersion": 7,
   "sceneId": "ZH_HSK6_SC037",
   "level": "HSK6",
   "sourceTitleZh": "咖啡馆变成救助点",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们聊聊救助中心这件事吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiù zhù zhōng xīn zhè jiàn shì ba.",
-      "tr": "Bugün vaktimiz varken yardım merkezi konusunu konuşalım."
+      "zh": "关于救助中心，我们先把现在的情况和接下来要做的事说清楚。",
+      "pinyin": "Guān yú jiù zhù zhōng xīn, wǒ men xiān bǎ xiàn zài de qíng kuàng hé jiē xià lái yào zuò de shì shuō qīng chǔ.",
+      "tr": "yardım merkezi konusunda önce mevcut durumu ve bundan sonra ne yapacağımızı netleştirelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_004",
       "speaker": "社区负责人",
-      "zh": "回到协调这件事，你现在怎么看？",
-      "pinyin": "Huí dào xié tiáo zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "koordine etmek konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "关于协调，你现在怎么看？",
+      "pinyin": "Guān yú xié tiáo, nǐ xiàn zài zěn me kàn?",
+      "tr": "koordine etmek konusunda şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_006",
       "speaker": "张伟",
-      "zh": "关于志愿者，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú zhì yuàn zhě, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "gönüllü konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "关于志愿者，我觉得大家的想法都应该说出来。",
+      "pinyin": "Guān yú zhì yuàn zhě, wǒ jué de dà jiā de xiǎng fǎ dōu yīng gāi shuō chū lái.",
+      "tr": "gönüllü konusunda bence herkes düşüncesini açıkça söylemeli."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_009",
       "speaker": "刘梅",
-      "zh": "关于物资分配，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú wù zī fēn pèi, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "malzeme dağıtımı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到物资分配，还有什么想补充的吗？",
+      "pinyin": "Shuō dào wù zī fēn pèi, hái yǒu shén me xiǎng bǔ chōng de ma?",
+      "tr": "malzeme dağıtımı konusunda eklemek istediğin başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_011",
       "speaker": "志愿者",
-      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "说到语境，我觉得还是要给彼此一点空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz alan bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_014",
       "speaker": "张伟",
-      "zh": "先说说立场吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "说到立场，你最先想到的是什么？",
+      "pinyin": "Shuō dào lì chǎng, nǐ zuì xiān xiǎng dào de shì shén me?",
+      "tr": "tutum / bakış açısı denince aklına ilk ne geliyor?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_015",
@@ -653,58 +653,58 @@
     {
       "id": "DLG_ZH_HSK6_SC037_093",
       "speaker": "刘梅",
-      "zh": "今天没有把所有问题都解决，但我们已经知道真正重要的是什么。",
-      "pinyin": "Jīntiān méiyǒu bǎ suǒyǒu wèntí dōu jiějué, dàn wǒmen yǐjīng zhīdào zhēnzhèng zhòngyào de shì shénme.",
-      "tr": "Bugün bütün sorunları çözmedik ama gerçekten neyin önemli olduğunu biliyoruz."
+      "zh": "现在最重要的风险和分工已经说清楚了。",
+      "pinyin": "Xiàn zài zuì zhòng yào de fēng xiǎn hé fēn gōng yǐ jīng shuō qīng chǔ le.",
+      "tr": "En önemli riskler ve görev paylaşımı artık net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_094",
       "speaker": "张伟",
-      "zh": "有些答案需要时间验证，我们先把能做的事情做好。",
-      "pinyin": "Yǒuxiē dá’àn xūyào shíjiān yànzhèng, wǒmen xiān bǎ néng zuò de shìqing zuò hǎo.",
-      "tr": "Bazı cevapları zaman doğrulayacak; önce yapabildiğimiz şeyleri iyi yapalım."
+      "zh": "先按应急安排执行，不要各自行动。",
+      "pinyin": "Xiān àn yìng jí ān pái zhí xíng, bú yào gè zì xíng dòng.",
+      "tr": "Önce acil durum planına göre hareket edelim; herkes kendi başına davranmasın."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_095",
       "speaker": "志愿者",
-      "zh": "至少这次我们没有回避彼此真正关心的问题。",
-      "pinyin": "Zhìshǎo zhè cì wǒmen méiyǒu huíbì bǐcǐ zhēnzhèng guānxīn de wèntí.",
-      "tr": "En azından bu kez birbirimizin gerçekten önemsediği konulardan kaçmadık."
+      "zh": "有变化就立刻通知所有人。",
+      "pinyin": "Yǒu biàn huà jiù lì kè tōng zhī suǒ yǒu rén.",
+      "tr": "Bir değişiklik olursa herkese hemen haber verelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_096",
       "speaker": "社区负责人",
-      "zh": "以后再回头看今天，也许我们会有新的理解。",
-      "pinyin": "Yǐhòu zài huítóu kàn jīntiān, yěxǔ wǒmen huì yǒu xīn de lǐjiě.",
-      "tr": "İleride bugüne geri baktığımızda belki yeni bir anlayışımız olacak."
+      "zh": "保持联系，先确认每个人都安全。",
+      "pinyin": "Bǎo chí lián xì, xiān què rèn měi gè rén dōu ān quán.",
+      "tr": "İletişimde kalalım ve önce herkesin güvende olduğundan emin olalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_097",
       "speaker": "刘梅",
-      "zh": "不管接下来怎么变化，我们还是会继续把日子过下去。",
-      "pinyin": "Bùguǎn jiēxiàlái zěnme biànhuà, wǒmen háishi huì jìxù bǎ rìzi guò xiàqù.",
-      "tr": "Bundan sonra ne değişirse değişsin hayatımızı yaşamaya devam edeceğiz."
+      "zh": "先处理最紧急的部分。",
+      "pinyin": "Xiān chǔ lǐ zuì jǐn jí de bù fèn.",
+      "tr": "Önce en acil kısmı halledelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_098",
       "speaker": "张伟",
-      "zh": "好，今天先到这里，下一步我们一起面对。",
-      "pinyin": "Hǎo, jīntiān xiān dào zhèlǐ, xià yí bù wǒmen yìqǐ miànduì.",
-      "tr": "Tamam, bugünlük burada bitirelim; bir sonraki adımla birlikte yüzleşiriz."
+      "zh": "安全以后再处理其他问题。",
+      "pinyin": "Ān quán yǐ hòu zài chǔ lǐ qí tā wèn tí.",
+      "tr": "Güvenlik sağlandıktan sonra diğer sorunlara geçeriz."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_099",
       "speaker": "志愿者",
-      "zh": "把今天说过的话记住，比急着证明谁对谁错更重要。",
-      "pinyin": "Bǎ jīntiān shuō guo de huà jìzhù, bǐ jí zhe zhèngmíng shéi duì shéi cuò gèng zhòngyào.",
-      "tr": "Bugün söylenenleri hatırlamak, kimin haklı olduğunu aceleyle kanıtlamaktan daha önemli."
+      "zh": "最后再确认一次联系方式。",
+      "pinyin": "Zuì hòu zài què rèn yī cì lián xì fāng shì.",
+      "tr": "Son olarak iletişim bilgilerini bir kez daha teyit edelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_100",
       "speaker": "社区负责人",
-      "zh": "等我们走得再远一点，也许会更明白今天这个决定的意义。",
-      "pinyin": "Děng wǒmen zǒu de zài yuǎn yìdiǎn, yěxǔ huì gèng míngbai jīntiān zhège juédìng de yìyì.",
-      "tr": "Biraz daha yol aldıktan sonra belki bugünkü kararın anlamını daha iyi anlayacağız."
+      "zh": "好，就按这个方案行动。",
+      "pinyin": "Hǎo, jiù àn zhè ge fāng àn xíng dòng.",
+      "tr": "Tamam, bu plana göre hareket edelim."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 6,
+  "naturalizationVersion": 7,
   "sceneId": "ZH_HSK6_SC001",
   "level": "HSK6",
   "sourceTitleZh": "雨桐订婚了",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_001",
       "speaker": "张雨桐",
-      "zh": "今天正好有时间，我们聊聊订婚这件事吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo dìng hūn zhè jiàn shì ba.",
-      "tr": "Bugün vaktimiz varken nişanlanmak konusunu konuşalım."
+      "zh": "既然说到订婚，大家也把现在的心情都说说吧。",
+      "pinyin": "Jì rán shuō dào dìng hūn, dà jiā yě bǎ xiàn zài de xīn qíng dōu shuō shuō ba.",
+      "tr": "nişanlanmak konusu açılmışken herkes şu an ne hissettiğini paylaşsın."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_004",
       "speaker": "刘梅",
-      "zh": "回到婚讯这件事，你现在怎么看？",
-      "pinyin": "Huí dào hūn xùn zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "evlilik/nişan haberi konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "关于婚讯，你现在怎么看？",
+      "pinyin": "Guān yú hūn xùn, nǐ xiàn zài zěn me kàn?",
+      "tr": "evlilik/nişan haberi konusunda şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC001_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_006",
       "speaker": "伴侣",
-      "zh": "关于祝福，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú zhù fú, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "iyi dilek / kutlama konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "关于祝福，我觉得大家的想法都应该说出来。",
+      "pinyin": "Guān yú zhù fú, wǒ jué de dà jiā de xiǎng fǎ dōu yīng gāi shuō chū lái.",
+      "tr": "iyi dilek / kutlama konusunda bence herkes düşüncesini açıkça söylemeli."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_009",
       "speaker": "张雨桐",
-      "zh": "关于人生阶段，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú rén shēng jiē duàn, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "yaşam evresi konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到人生阶段，还有什么想补充的吗？",
+      "pinyin": "Shuō dào rén shēng jiē duàn, hái yǒu shén me xiǎng bǔ chōng de ma?",
+      "tr": "yaşam evresi konusunda eklemek istediğin başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC001_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_011",
       "speaker": "张伟",
-      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "说到语境，我觉得还是要给彼此一点空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz alan bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC001_014",
       "speaker": "伴侣",
-      "zh": "先说说立场吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "说到立场，你最先想到的是什么？",
+      "pinyin": "Shuō dào lì chǎng, nǐ zuì xiān xiǎng dào de shì shén me?",
+      "tr": "tutum / bakış açısı denince aklına ilk ne geliyor?"
     },
     {
       "id": "DLG_ZH_HSK6_SC001_015",
@@ -653,58 +653,58 @@
     {
       "id": "DLG_ZH_HSK6_SC001_093",
       "speaker": "张雨桐",
-      "zh": "今天没有把所有问题都解决，但我们已经知道真正重要的是什么。",
-      "pinyin": "Jīntiān méiyǒu bǎ suǒyǒu wèntí dōu jiějué, dàn wǒmen yǐjīng zhīdào zhēnzhèng zhòngyào de shì shénme.",
-      "tr": "Bugün bütün sorunları çözmedik ama gerçekten neyin önemli olduğunu biliyoruz."
+      "zh": "今天最重要的是把好消息和真实的想法都分享出来了。",
+      "pinyin": "Jīn tiān zuì zhòng yào de shì bǎ hǎo xiāo xī hé zhēn shí de xiǎng fǎ dōu fēn xiǎng chū lái le.",
+      "tr": "Bugün en önemlisi güzel haberi ve gerçek düşüncelerimizi paylaşmış olmamız."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_094",
       "speaker": "伴侣",
-      "zh": "有些答案需要时间验证，我们先把能做的事情做好。",
-      "pinyin": "Yǒuxiē dá’àn xūyào shíjiān yànzhèng, wǒmen xiān bǎ néng zuò de shìqing zuò hǎo.",
-      "tr": "Bazı cevapları zaman doğrulayacak; önce yapabildiğimiz şeyleri iyi yapalım."
+      "zh": "后面的事情不用一次全都安排好。",
+      "pinyin": "Hòu miàn de shì qíng bù yòng yī cì quán dōu ān pái hǎo.",
+      "tr": "Sonraki her şeyi tek seferde planlamak zorunda değiliz."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_095",
       "speaker": "张伟",
-      "zh": "至少这次我们没有回避彼此真正关心的问题。",
-      "pinyin": "Zhìshǎo zhè cì wǒmen méiyǒu huíbì bǐcǐ zhēnzhèng guānxīn de wèntí.",
-      "tr": "En azından bu kez birbirimizin gerçekten önemsediği konulardan kaçmadık."
+      "zh": "需要帮忙的时候就随时说。",
+      "pinyin": "Xū yào bāng máng de shí hòu jiù suí shí shuō.",
+      "tr": "Yardıma ihtiyaç olduğunda hemen söyleyin."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_096",
       "speaker": "刘梅",
-      "zh": "以后再回头看今天，也许我们会有新的理解。",
-      "pinyin": "Yǐhòu zài huítóu kàn jīntiān, yěxǔ wǒmen huì yǒu xīn de lǐjiě.",
-      "tr": "İleride bugüne geri baktığımızda belki yeni bir anlayışımız olacak."
+      "zh": "大家都在，不用一个人把所有事情扛下来。",
+      "pinyin": "Dà jiā dōu zài, bù yòng yí gè rén bǎ suǒ yǒu shì qíng káng xià lái.",
+      "tr": "Herkes burada; bütün yükü tek başına taşımaya gerek yok."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_097",
       "speaker": "张雨桐",
-      "zh": "不管接下来怎么变化，我们还是会继续把日子过下去。",
-      "pinyin": "Bùguǎn jiēxiàlái zěnme biànhuà, wǒmen háishi huì jìxù bǎ rìzi guò xiàqù.",
-      "tr": "Bundan sonra ne değişirse değişsin hayatımızı yaşamaya devam edeceğiz."
+      "zh": "先好好享受眼前这个阶段吧。",
+      "pinyin": "Xiān hǎo hǎo xiǎng shòu yǎn qián zhè ge jiē duàn ba.",
+      "tr": "Önce içinde bulunduğumuz bu dönemin tadını çıkaralım."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_098",
       "speaker": "伴侣",
-      "zh": "好，今天先到这里，下一步我们一起面对。",
-      "pinyin": "Hǎo, jīntiān xiān dào zhèlǐ, xià yí bù wǒmen yìqǐ miànduì.",
-      "tr": "Tamam, bugünlük burada bitirelim; bir sonraki adımla birlikte yüzleşiriz."
+      "zh": "以后有新的安排，我们再一起商量。",
+      "pinyin": "Yǐ hòu yǒu xīn de ān pái, wǒ men zài yì qǐ shāng liáng.",
+      "tr": "İleride yeni bir düzenleme olduğunda yeniden birlikte konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_099",
       "speaker": "张伟",
-      "zh": "把今天说过的话记住，比急着证明谁对谁错更重要。",
-      "pinyin": "Bǎ jīntiān shuō guo de huà jìzhù, bǐ jí zhe zhèngmíng shéi duì shéi cuò gèng zhòngyào.",
-      "tr": "Bugün söylenenleri hatırlamak, kimin haklı olduğunu aceleyle kanıtlamaktan daha önemli."
+      "zh": "今天说完，我心里踏实多了。",
+      "pinyin": "Jīn tiān shuō wán, wǒ xīn lǐ tà shí duō le.",
+      "tr": "Bugün konuştuktan sonra içim çok daha rahat."
     },
     {
       "id": "DLG_ZH_HSK6_SC001_100",
       "speaker": "刘梅",
-      "zh": "等我们走得再远一点，也许会更明白今天这个决定的意义。",
-      "pinyin": "Děng wǒmen zǒu de zài yuǎn yìdiǎn, yěxǔ huì gèng míngbai jīntiān zhège juédìng de yìyì.",
-      "tr": "Biraz daha yol aldıktan sonra belki bugünkü kararın anlamını daha iyi anlayacağız."
+      "zh": "好，那就带着这份期待慢慢往前走。",
+      "pinyin": "Hǎo, nà jiù dài zhe zhè fèn qī dài màn màn wǎng qián zǒu.",
+      "tr": "Tamam, bu güzel beklentiyle adım adım ilerleyelim."
     }
   ]
 }
