@@ -58,6 +58,7 @@ main_override = ci_dir / "MainActivity.kt"
 recognizer_override = ci_dir / "OfflineMandarinRecognizer.kt"
 voice_recorder_override = ci_dir / "UserVoiceRecorder.kt"
 voice_resolver_override = ci_dir / "VoiceIdentityResolver.kt"
+voice_cast_manifest = ci_dir / "voice_cast_manifest.json"
 admin_override = ci_dir / "AdminSession.kt"
 dashboard_fragment = ci_dir / "DashboardScreen.fragment.kt"
 settings_fragment = ci_dir / "SettingsHub.fragment.kt"
@@ -71,6 +72,8 @@ if not voice_recorder_override.exists():
     raise SystemExit("UserVoiceRecorder CI override missing")
 if not voice_resolver_override.exists():
     raise SystemExit("VoiceIdentityResolver CI override missing")
+if not voice_cast_manifest.exists():
+    raise SystemExit("Voice cast manifest missing")
 if not admin_override.exists():
     raise SystemExit("AdminSession CI override missing")
 if not dashboard_fragment.exists():
@@ -83,6 +86,9 @@ recognizer_file.write_text(recognizer_override.read_text(encoding="utf-8"), enco
 voice_recorder_file.write_text(voice_recorder_override.read_text(encoding="utf-8"), encoding="utf-8")
 voice_resolver_file.write_text(voice_resolver_override.read_text(encoding="utf-8"), encoding="utf-8")
 admin_session.write_text(admin_override.read_text(encoding="utf-8"), encoding="utf-8")
+voice_cast_target = root / "app" / "src" / "main" / "assets" / "chinese_course" / "voice_cast.json"
+voice_cast_target.parent.mkdir(parents=True, exist_ok=True)
+voice_cast_target.write_text(voice_cast_manifest.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
 # Keep study navigation reachable on compact/tall-content phones.
@@ -516,6 +522,7 @@ assert "Kaydımı Dinle" in learning_screens.read_text(encoding="utf-8")
 assert "voiceRecorder.start" in learning_screens.read_text(encoding="utf-8")
 assert "stableCacheId" in dialogue_audio_player.read_text(encoding="utf-8")
 assert "allProfiles.distinct().sorted()" in voice_resolver_file.read_text(encoding="utf-8")
+assert voice_cast_target.exists()
 assert "tts.stop()" in learning_screens.read_text(encoding="utf-8")
 assert "fun userName()" in progress_store.read_text(encoding="utf-8")
 assert "THEME_BLUE" in progress_store.read_text(encoding="utf-8")
