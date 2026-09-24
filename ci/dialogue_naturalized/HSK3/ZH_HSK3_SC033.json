@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC033",
   "level": "HSK3",
   "sourceTitleZh": "咖啡馆里的小争执",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“咖啡馆里的小争执”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ kā fēi guǎn lǐ de xiǎo zhēng zhí ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Kafede Küçük Bir Tartışma” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊争执这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhēng zhí zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken tartışma konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC033_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_003",
       "speaker": "顾客",
-      "zh": "说到争执，你怎么看？",
-      "pinyin": "Shuō dào zhēng zhí, nǐ zěn me kàn?",
-      "tr": "tartışma konusunda ne düşünüyorsun?"
+      "zh": "说到调解，你怎么看？",
+      "pinyin": "Shuō dào tiáo jiě, nǐ zěn me kàn?",
+      "tr": "arabuluculuk yapmak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_007",
       "speaker": "顾客",
-      "zh": "我觉得调解这一点也不能忽略。",
-      "pinyin": "Wǒ jué de tiáo jiě zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence arabuluculuk yapmak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC033_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_009",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到老桌子，你怎么看？",
+      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
+      "tr": "eski masa konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_013",
       "speaker": "刘梅",
-      "zh": "我觉得老桌子这一点也不能忽略。",
-      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得解决办法这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jiě jué bàn fǎ zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çözüm yolu konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC033_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_015",
       "speaker": "顾客",
-      "zh": "说到解决办法，你怎么看？",
-      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
-      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
+      "zh": "说到别客气，你怎么看？",
+      "pinyin": "Shuō dào bié kè qì, nǐ zěn me kàn?",
+      "tr": "çekinme / rica ederim konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_077",
       "speaker": "刘梅",
-      "zh": "说到别客气，你怎么看？",
-      "pinyin": "Shuō dào bié kè qì, nǐ zěn me kàn?",
-      "tr": "çekinme / rica ederim konusunda ne düşünüyorsun?"
+      "zh": "说到争执，你怎么看？",
+      "pinyin": "Shuō dào zhēng zhí, nǐ zěn me kàn?",
+      "tr": "tartışma konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_081",
       "speaker": "刘梅",
-      "zh": "我觉得争执这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhēng zhí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence tartışma konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得调解这一点也不能忽略。",
+      "pinyin": "Wǒ jué de tiáo jiě zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence arabuluculuk yapmak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC033_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_085",
       "speaker": "刘梅",
-      "zh": "说到调解，你怎么看？",
-      "pinyin": "Shuō dào tiáo jiě, nǐ zěn me kàn?",
-      "tr": "arabuluculuk yapmak konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_089",
       "speaker": "刘梅",
-      "zh": "我觉得顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得老桌子这一点也不能忽略。",
+      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC033_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC033_093",
       "speaker": "刘梅",
-      "zh": "说到老桌子，你怎么看？",
-      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
-      "tr": "eski masa konusunda ne düşünüyorsun?"
+      "zh": "说到解决办法，你怎么看？",
+      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
+      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC033_094",

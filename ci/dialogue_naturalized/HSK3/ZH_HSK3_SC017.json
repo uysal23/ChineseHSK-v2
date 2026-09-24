@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC017",
   "level": "HSK3",
   "sourceTitleZh": "怎么定价",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“怎么定价”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zěn me dìng jià ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Fiyat Belirleme” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊成本这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo chéng běn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken maliyet konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC017_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_003",
       "speaker": "顾客",
-      "zh": "说到成本，你怎么看？",
-      "pinyin": "Shuō dào chéng běn, nǐ zěn me kàn?",
-      "tr": "maliyet konusunda ne düşünüyorsun?"
+      "zh": "说到定价，你怎么看？",
+      "pinyin": "Shuō dào dìng jià, nǐ zěn me kàn?",
+      "tr": "fiyat belirleme konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_007",
       "speaker": "顾客",
-      "zh": "我觉得定价这一点也不能忽略。",
-      "pinyin": "Wǒ jué de dìng jià zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence fiyat belirleme konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得预算这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yù suàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence bütçe konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC017_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_009",
       "speaker": "刘梅",
-      "zh": "说到预算，你怎么看？",
-      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
-      "tr": "bütçe konusunda ne düşünüyorsun?"
+      "zh": "说到价格，你怎么看？",
+      "pinyin": "Shuō dào jià gé, nǐ zěn me kàn?",
+      "tr": "fiyat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_013",
       "speaker": "刘梅",
-      "zh": "我觉得价格这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jià gé zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence fiyat konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC017_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_015",
       "speaker": "顾客",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到必要，你怎么看？",
+      "pinyin": "Shuō dào bì yào, nǐ zěn me kàn?",
+      "tr": "gerekli konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_077",
       "speaker": "刘梅",
-      "zh": "说到必要，你怎么看？",
-      "pinyin": "Shuō dào bì yào, nǐ zěn me kàn?",
-      "tr": "gerekli konusunda ne düşünüyorsun?"
+      "zh": "说到成本，你怎么看？",
+      "pinyin": "Shuō dào chéng běn, nǐ zěn me kàn?",
+      "tr": "maliyet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_081",
       "speaker": "刘梅",
-      "zh": "我觉得成本这一点也不能忽略。",
-      "pinyin": "Wǒ jué de chéng běn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence maliyet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得定价这一点也不能忽略。",
+      "pinyin": "Wǒ jué de dìng jià zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence fiyat belirleme konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC017_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_085",
       "speaker": "刘梅",
-      "zh": "说到定价，你怎么看？",
-      "pinyin": "Shuō dào dìng jià, nǐ zěn me kàn?",
-      "tr": "fiyat belirleme konusunda ne düşünüyorsun?"
+      "zh": "说到预算，你怎么看？",
+      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
+      "tr": "bütçe konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_089",
       "speaker": "刘梅",
-      "zh": "我觉得预算这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yù suàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence bütçe konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得价格这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jià gé zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence fiyat konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC017_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC017_093",
       "speaker": "刘梅",
-      "zh": "说到价格，你怎么看？",
-      "pinyin": "Shuō dào jià gé, nǐ zěn me kàn?",
-      "tr": "fiyat konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC017_094",

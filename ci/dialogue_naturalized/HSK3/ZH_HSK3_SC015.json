@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC015",
   "level": "HSK3",
   "sourceTitleZh": "老桌子的故事",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“老桌子的故事”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lǎo zhuō zi de gù shì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Eski Masanın Hikâyesi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊二手这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo èr shǒu zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ikinci el konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC015_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_003",
       "speaker": "顾客",
-      "zh": "说到二手，你怎么看？",
-      "pinyin": "Shuō dào èr shǒu, nǐ zěn me kàn?",
-      "tr": "ikinci el konusunda ne düşünüyorsun?"
+      "zh": "说到老桌子，你怎么看？",
+      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
+      "tr": "eski masa konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC015_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_007",
       "speaker": "顾客",
-      "zh": "我觉得老桌子这一点也不能忽略。",
-      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得以前这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yǐ qián zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence önceden konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC015_008",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_013",
       "speaker": "刘梅",
-      "zh": "我觉得以前这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yǐ qián zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence önceden konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先买一下比较好。",
+      "pinyin": "Wǒ jué de xiān mǎi yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “satın almak” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC015_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_015",
       "speaker": "顾客",
-      "zh": "那要不要先买一下？",
-      "pinyin": "Nà yào bù yào xiān mǎi yī xià?",
-      "tr": "O zaman önce “satın almak” kısmını ele alalım mı?"
+      "zh": "说到价格，你怎么看？",
+      "pinyin": "Shuō dào jià gé, nǐ zěn me kàn?",
+      "tr": "fiyat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC015_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_077",
       "speaker": "刘梅",
-      "zh": "说到价格，你怎么看？",
-      "pinyin": "Shuō dào jià gé, nǐ zěn me kàn?",
-      "tr": "fiyat konusunda ne düşünüyorsun?"
+      "zh": "说到二手，你怎么看？",
+      "pinyin": "Shuō dào èr shǒu, nǐ zěn me kàn?",
+      "tr": "ikinci el konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC015_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_081",
       "speaker": "刘梅",
-      "zh": "我觉得二手这一点也不能忽略。",
-      "pinyin": "Wǒ jué de èr shǒu zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ikinci el konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得老桌子这一点也不能忽略。",
+      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC015_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_085",
       "speaker": "刘梅",
-      "zh": "说到老桌子，你怎么看？",
-      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
-      "tr": "eski masa konusunda ne düşünüyorsun?"
+      "zh": "说到以前，你怎么看？",
+      "pinyin": "Shuō dào yǐ qián, nǐ zěn me kàn?",
+      "tr": "önceden konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC015_086",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC015_093",
       "speaker": "刘梅",
-      "zh": "说到以前，你怎么看？",
-      "pinyin": "Shuō dào yǐ qián, nǐ zěn me kàn?",
-      "tr": "önceden konusunda ne düşünüyorsun?"
+      "zh": "那要不要先买一下？",
+      "pinyin": "Nà yào bù yào xiān mǎi yī xià?",
+      "tr": "O zaman önce “satın almak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC015_094",

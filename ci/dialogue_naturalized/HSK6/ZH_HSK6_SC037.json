@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC037",
   "level": "HSK6",
   "sourceTitleZh": "咖啡馆变成救助点",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“咖啡馆变成救助点”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ kā fēi guǎn biàn chéng jiù zhù diǎn ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Kafe Yardım Merkezi Oluyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊救助中心这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiù zhù zhōng xīn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken yardım merkezi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_004",
       "speaker": "社区负责人",
-      "zh": "先说说救助中心吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō jiù zhù zhōng xīn ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce yardım merkezi konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到协调这件事，你现在怎么看？",
+      "pinyin": "Huí dào xié tiáo zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "koordine etmek konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_006",
       "speaker": "张伟",
-      "zh": "对，协调会直接影响我们后面的安排。",
-      "pinyin": "Duì, xié tiáo huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, koordine etmek sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于志愿者，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú zhì yuàn zhě, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "gönüllü konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_009",
       "speaker": "刘梅",
-      "zh": "如果把志愿者也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ zhì yuàn zhě yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "gönüllü konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于物资分配，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú wù zī fēn pèi, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "malzeme dağıtımı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_011",
       "speaker": "志愿者",
-      "zh": "至少在物资分配这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài wù zī fēn pèi zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından malzeme dağıtımı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_014",
       "speaker": "张伟",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_016",
       "speaker": "社区负责人",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_020",
       "speaker": "社区负责人",
-      "zh": "回到救助中心这件事，你现在怎么看？",
-      "pinyin": "Huí dào jiù zhù zhōng xīn zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "yardım merkezi konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_022",
       "speaker": "张伟",
-      "zh": "关于协调，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú xié tiáo, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "koordine etmek konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_025",
       "speaker": "刘梅",
-      "zh": "关于志愿者，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú zhì yuàn zhě, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "gönüllü konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_027",
       "speaker": "志愿者",
-      "zh": "说到物资分配，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào wù zī fēn pèi, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "malzeme dağıtımı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_030",
       "speaker": "张伟",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_032",
       "speaker": "社区负责人",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_038",
       "speaker": "张伟",
-      "zh": "如果把救助中心也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ jiù zhù zhōng xīn yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "yardım merkezi konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_040",
       "speaker": "社区负责人",
-      "zh": "至少在协调这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài xié tiáo zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından koordine etmek konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_043",
       "speaker": "志愿者",
-      "zh": "现在再看志愿者，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn zhì yuàn zhě, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "gönüllü konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_045",
       "speaker": "刘梅",
-      "zh": "我觉得物资分配这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de wù zī fēn pèi zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence malzeme dağıtımı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_048",
       "speaker": "社区负责人",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_050",
       "speaker": "张伟",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_056",
       "speaker": "社区负责人",
-      "zh": "关于救助中心，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú jiù zhù zhōng xīn, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "yardım merkezi konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_058",
       "speaker": "张伟",
-      "zh": "说到协调，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào xié tiáo, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "koordine etmek konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_061",
       "speaker": "刘梅",
-      "zh": "先说说志愿者吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō zhì yuàn zhě ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce gönüllü konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_063",
       "speaker": "志愿者",
-      "zh": "对，物资分配会直接影响我们后面的安排。",
-      "pinyin": "Duì, wù zī fēn pèi huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, malzeme dağıtımı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_066",
       "speaker": "张伟",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_068",
       "speaker": "社区负责人",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_074",
       "speaker": "张伟",
-      "zh": "现在再看救助中心，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn jiù zhù zhōng xīn, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "yardım merkezi konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_076",
       "speaker": "社区负责人",
-      "zh": "我觉得协调这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de xié tiáo zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence koordine etmek konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_079",
       "speaker": "志愿者",
-      "zh": "回到志愿者这件事，你现在怎么看？",
-      "pinyin": "Huí dào zhì yuàn zhě zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "gönüllü konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_081",
       "speaker": "刘梅",
-      "zh": "关于物资分配，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú wù zī fēn pèi, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "malzeme dağıtımı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_084",
       "speaker": "社区负责人",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC037_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC037_086",
       "speaker": "张伟",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC037_087",

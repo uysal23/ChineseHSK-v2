@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC035",
   "level": "HSK6",
   "sourceTitleZh": "爷爷的菜园变成社区项目",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_001",
       "speaker": "爷爷",
-      "zh": "今天正好有时间，我们把“爷爷的菜园变成社区项目”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yé yé de cài yuán biàn chéng shè qū xiàng mù ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Büyükbabanın Bahçesi Topluluk Bahçesi Oluyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊社区花园这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo shè qū huā yuán zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken topluluk bahçesi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_004",
       "speaker": "刘梅",
-      "zh": "先说说社区花园吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō shè qū huā yuán ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce topluluk bahçesi konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到公共空间这件事，你现在怎么看？",
+      "pinyin": "Huí dào gōng gòng kōng jiān zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "kamusal alan konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_006",
       "speaker": "社区居民",
-      "zh": "对，公共空间会直接影响我们后面的安排。",
-      "pinyin": "Duì, gōng gòng kōng jiān huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, kamusal alan sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于可持续性，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú kě chí xù xìng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "sürdürülebilirlik konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_009",
       "speaker": "爷爷",
-      "zh": "如果把可持续性也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ kě chí xù xìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "sürdürülebilirlik konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于志愿维护，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú zhì yuàn wéi hù, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "gönüllü bakım konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_011",
       "speaker": "张乐乐",
-      "zh": "至少在志愿维护这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài zhì yuàn wéi hù zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından gönüllü bakım konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_014",
       "speaker": "社区居民",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_016",
       "speaker": "刘梅",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_020",
       "speaker": "刘梅",
-      "zh": "回到社区花园这件事，你现在怎么看？",
-      "pinyin": "Huí dào shè qū huā yuán zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "topluluk bahçesi konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_022",
       "speaker": "社区居民",
-      "zh": "关于公共空间，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú gōng gòng kōng jiān, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "kamusal alan konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_025",
       "speaker": "爷爷",
-      "zh": "关于可持续性，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú kě chí xù xìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "sürdürülebilirlik konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_027",
       "speaker": "张乐乐",
-      "zh": "说到志愿维护，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào zhì yuàn wéi hù, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "gönüllü bakım konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_030",
       "speaker": "社区居民",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_032",
       "speaker": "刘梅",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_038",
       "speaker": "社区居民",
-      "zh": "如果把社区花园也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ shè qū huā yuán yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "topluluk bahçesi konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_040",
       "speaker": "刘梅",
-      "zh": "至少在公共空间这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài gōng gòng kōng jiān zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından kamusal alan konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_043",
       "speaker": "张乐乐",
-      "zh": "现在再看可持续性，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn kě chí xù xìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "sürdürülebilirlik konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_045",
       "speaker": "爷爷",
-      "zh": "我觉得志愿维护这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de zhì yuàn wéi hù zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence gönüllü bakım konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_048",
       "speaker": "刘梅",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_050",
       "speaker": "社区居民",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_056",
       "speaker": "刘梅",
-      "zh": "关于社区花园，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú shè qū huā yuán, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "topluluk bahçesi konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_058",
       "speaker": "社区居民",
-      "zh": "说到公共空间，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào gōng gòng kōng jiān, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "kamusal alan konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_061",
       "speaker": "爷爷",
-      "zh": "先说说可持续性吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō kě chí xù xìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce sürdürülebilirlik konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_063",
       "speaker": "张乐乐",
-      "zh": "对，志愿维护会直接影响我们后面的安排。",
-      "pinyin": "Duì, zhì yuàn wéi hù huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, gönüllü bakım sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_066",
       "speaker": "社区居民",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_068",
       "speaker": "刘梅",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_074",
       "speaker": "社区居民",
-      "zh": "现在再看社区花园，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn shè qū huā yuán, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "topluluk bahçesi konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_076",
       "speaker": "刘梅",
-      "zh": "我觉得公共空间这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de gōng gòng kōng jiān zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence kamusal alan konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_079",
       "speaker": "张乐乐",
-      "zh": "回到可持续性这件事，你现在怎么看？",
-      "pinyin": "Huí dào kě chí xù xìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "sürdürülebilirlik konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_081",
       "speaker": "爷爷",
-      "zh": "关于志愿维护，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú zhì yuàn wéi hù, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "gönüllü bakım konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_084",
       "speaker": "刘梅",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC035_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC035_086",
       "speaker": "社区居民",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC035_087",

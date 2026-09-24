@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC034",
   "level": "HSK3",
   "sourceTitleZh": "街区节日",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“街区节日”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ jiē qū jié rì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Sokak Festivali” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊节日摊位这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jié rì tān wèi zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken festival standı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC034_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_003",
       "speaker": "顾客",
-      "zh": "说到节日摊位，你怎么看？",
-      "pinyin": "Shuō dào jié rì tān wèi, nǐ zěn me kàn?",
-      "tr": "festival standı konusunda ne düşünüyorsun?"
+      "zh": "说到节日，你怎么看？",
+      "pinyin": "Shuō dào jié rì, nǐ zěn me kàn?",
+      "tr": "bayram / festival konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_007",
       "speaker": "顾客",
-      "zh": "我觉得节日这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jié rì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence bayram / festival konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC034_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_009",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到卖，你怎么看？",
+      "pinyin": "Shuō dào mài, nǐ zěn me kàn?",
+      "tr": "satmak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_013",
       "speaker": "刘梅",
-      "zh": "我觉得卖这一点也不能忽略。",
-      "pinyin": "Wǒ jué de mài zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence satmak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先促销一下比较好。",
+      "pinyin": "Wǒ jué de xiān cù xiāo yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “promosyon” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC034_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_015",
       "speaker": "顾客",
-      "zh": "那要不要先促销一下？",
-      "pinyin": "Nà yào bù yào xiān cù xiāo yī xià?",
-      "tr": "O zaman önce “promosyon” kısmını ele alalım mı?"
+      "zh": "说到社区，你怎么看？",
+      "pinyin": "Shuō dào shè qū, nǐ zěn me kàn?",
+      "tr": "mahalle / topluluk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_077",
       "speaker": "刘梅",
-      "zh": "说到社区，你怎么看？",
-      "pinyin": "Shuō dào shè qū, nǐ zěn me kàn?",
-      "tr": "mahalle / topluluk konusunda ne düşünüyorsun?"
+      "zh": "说到节日摊位，你怎么看？",
+      "pinyin": "Shuō dào jié rì tān wèi, nǐ zěn me kàn?",
+      "tr": "festival standı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_081",
       "speaker": "刘梅",
-      "zh": "我觉得节日摊位这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jié rì tān wèi zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence festival standı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得节日这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jié rì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence bayram / festival konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC034_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_085",
       "speaker": "刘梅",
-      "zh": "说到节日，你怎么看？",
-      "pinyin": "Shuō dào jié rì, nǐ zěn me kàn?",
-      "tr": "bayram / festival konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_089",
       "speaker": "刘梅",
-      "zh": "我觉得顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得卖这一点也不能忽略。",
+      "pinyin": "Wǒ jué de mài zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence satmak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC034_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC034_093",
       "speaker": "刘梅",
-      "zh": "说到卖，你怎么看？",
-      "pinyin": "Shuō dào mài, nǐ zěn me kàn?",
-      "tr": "satmak konusunda ne düşünüyorsun?"
+      "zh": "那要不要先促销一下？",
+      "pinyin": "Nà yào bù yào xiān cù xiāo yī xià?",
+      "tr": "O zaman önce “promosyon” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC034_094",

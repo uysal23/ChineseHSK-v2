@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC031",
   "level": "HSK3",
   "sourceTitleZh": "雨桐的考试压力",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_001",
       "speaker": "张雨桐",
-      "zh": "今天正好有时间，我们把“雨桐的考试压力”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yǔ tóng de kǎo shì yā lì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Yutong’un Sınav Stresi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊考试压力这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo kǎo shì yā lì zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken sınav stresi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC031_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_003",
       "speaker": "刘梅",
-      "zh": "说到考试压力，你怎么看？",
-      "pinyin": "Shuō dào kǎo shì yā lì, nǐ zěn me kàn?",
-      "tr": "sınav stresi konusunda ne düşünüyorsun?"
+      "zh": "说到学习计划，你怎么看？",
+      "pinyin": "Shuō dào xué xí jì huà, nǐ zěn me kàn?",
+      "tr": "çalışma planı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_007",
       "speaker": "刘梅",
-      "zh": "我觉得学习计划这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xué xí jì huà zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence çalışma planı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得学习这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC031_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_009",
       "speaker": "张雨桐",
-      "zh": "说到学习，你怎么看？",
-      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
-      "tr": "ders çalışma konusunda ne düşünüyorsun?"
+      "zh": "那要不要先安排一下？",
+      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
+      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_013",
       "speaker": "张雨桐",
-      "zh": "我觉得先安排一下比较好。",
-      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
+      "zh": "我觉得先帮忙一下比较好。",
+      "pinyin": "Wǒ jué de xiān bāng máng yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “yardım etmek” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC031_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_015",
       "speaker": "刘梅",
-      "zh": "那要不要先帮忙一下？",
-      "pinyin": "Nà yào bù yào xiān bāng máng yī xià?",
-      "tr": "O zaman önce “yardım etmek” kısmını ele alalım mı?"
+      "zh": "说到需要，你怎么看？",
+      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
+      "tr": "gerekmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_077",
       "speaker": "张雨桐",
-      "zh": "说到需要，你怎么看？",
-      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
-      "tr": "gerekmek konusunda ne düşünüyorsun?"
+      "zh": "说到考试压力，你怎么看？",
+      "pinyin": "Shuō dào kǎo shì yā lì, nǐ zěn me kàn?",
+      "tr": "sınav stresi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_081",
       "speaker": "张雨桐",
-      "zh": "我觉得考试压力这一点也不能忽略。",
-      "pinyin": "Wǒ jué de kǎo shì yā lì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sınav stresi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得学习计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xué xí jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çalışma planı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC031_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_085",
       "speaker": "张雨桐",
-      "zh": "说到学习计划，你怎么看？",
-      "pinyin": "Shuō dào xué xí jì huà, nǐ zěn me kàn?",
-      "tr": "çalışma planı konusunda ne düşünüyorsun?"
+      "zh": "说到学习，你怎么看？",
+      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
+      "tr": "ders çalışma konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_089",
       "speaker": "张雨桐",
-      "zh": "我觉得学习这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先安排一下比较好。",
+      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC031_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC031_093",
       "speaker": "张雨桐",
-      "zh": "那要不要先安排一下？",
-      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
-      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
+      "zh": "那要不要先帮忙一下？",
+      "pinyin": "Nà yào bù yào xiān bāng máng yī xià?",
+      "tr": "O zaman önce “yardım etmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC031_094",

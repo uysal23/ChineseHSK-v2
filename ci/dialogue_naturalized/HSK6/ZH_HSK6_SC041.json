@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC041",
   "level": "HSK6",
   "sourceTitleZh": "张伟的健康提醒",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“张伟的健康提醒”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhāng wěi de jiàn kāng tí xǐng ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Zhang’ın Sağlık Uyarısı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊健康警告这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiàn kāng jǐng gào zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken sağlık uyarısı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_004",
       "speaker": "护士",
-      "zh": "先说说健康警告吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō jiàn kāng jǐng gào ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce sağlık uyarısı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到风险指标这件事，你现在怎么看？",
+      "pinyin": "Huí dào fēng xiǎn zhǐ biāo zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "risk göstergesi konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_006",
       "speaker": "医生",
-      "zh": "对，风险指标会直接影响我们后面的安排。",
-      "pinyin": "Duì, fēng xiǎn zhǐ biāo huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, risk göstergesi sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于检查，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú jiǎn chá, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "muayene / kontrol konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_009",
       "speaker": "张伟",
-      "zh": "如果把检查也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ jiǎn chá yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "muayene / kontrol konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于生活方式，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú shēng huó fāng shì, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "yaşam tarzı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_011",
       "speaker": "刘梅",
-      "zh": "至少在生活方式这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài shēng huó fāng shì zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından yaşam tarzı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_014",
       "speaker": "医生",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_016",
       "speaker": "护士",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_020",
       "speaker": "护士",
-      "zh": "回到健康警告这件事，你现在怎么看？",
-      "pinyin": "Huí dào jiàn kāng jǐng gào zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "sağlık uyarısı konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_022",
       "speaker": "医生",
-      "zh": "关于风险指标，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú fēng xiǎn zhǐ biāo, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "risk göstergesi konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_025",
       "speaker": "张伟",
-      "zh": "关于检查，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú jiǎn chá, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "muayene / kontrol konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_027",
       "speaker": "刘梅",
-      "zh": "说到生活方式，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào shēng huó fāng shì, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "yaşam tarzı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_030",
       "speaker": "医生",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_032",
       "speaker": "护士",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_038",
       "speaker": "医生",
-      "zh": "如果把健康警告也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ jiàn kāng jǐng gào yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "sağlık uyarısı konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_040",
       "speaker": "护士",
-      "zh": "至少在风险指标这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài fēng xiǎn zhǐ biāo zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından risk göstergesi konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_043",
       "speaker": "刘梅",
-      "zh": "现在再看检查，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn jiǎn chá, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "muayene / kontrol konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_045",
       "speaker": "张伟",
-      "zh": "我觉得生活方式这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de shēng huó fāng shì zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence yaşam tarzı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_048",
       "speaker": "护士",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_050",
       "speaker": "医生",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_056",
       "speaker": "护士",
-      "zh": "关于健康警告，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú jiàn kāng jǐng gào, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "sağlık uyarısı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_058",
       "speaker": "医生",
-      "zh": "说到风险指标，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào fēng xiǎn zhǐ biāo, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "risk göstergesi konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_061",
       "speaker": "张伟",
-      "zh": "先说说检查吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō jiǎn chá ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce muayene / kontrol konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_063",
       "speaker": "刘梅",
-      "zh": "对，生活方式会直接影响我们后面的安排。",
-      "pinyin": "Duì, shēng huó fāng shì huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, yaşam tarzı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_066",
       "speaker": "医生",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_068",
       "speaker": "护士",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_074",
       "speaker": "医生",
-      "zh": "现在再看健康警告，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn jiàn kāng jǐng gào, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "sağlık uyarısı konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_076",
       "speaker": "护士",
-      "zh": "我觉得风险指标这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de fēng xiǎn zhǐ biāo zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence risk göstergesi konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_079",
       "speaker": "刘梅",
-      "zh": "回到检查这件事，你现在怎么看？",
-      "pinyin": "Huí dào jiǎn chá zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "muayene / kontrol konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_081",
       "speaker": "张伟",
-      "zh": "关于生活方式，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú shēng huó fāng shì, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "yaşam tarzı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_084",
       "speaker": "护士",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC041_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC041_086",
       "speaker": "医生",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC041_087",

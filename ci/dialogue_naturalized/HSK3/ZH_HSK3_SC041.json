@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC041",
   "level": "HSK3",
   "sourceTitleZh": "爷爷来长住",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“爷爷来长住”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yé yé lái zhǎng zhù ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Büyükbaba İlk Uzun Ziyarette” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊农村这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo nóng cūn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken kırsal bölge konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC041_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_003",
       "speaker": "爷爷",
-      "zh": "说到农村，你怎么看？",
-      "pinyin": "Shuō dào nóng cūn, nǐ zěn me kàn?",
-      "tr": "kırsal bölge konusunda ne düşünüyorsun?"
+      "zh": "说到城市生活，你怎么看？",
+      "pinyin": "Shuō dào chéng shì shēng huó, nǐ zěn me kàn?",
+      "tr": "şehir hayatı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_007",
       "speaker": "爷爷",
-      "zh": "我觉得城市生活这一点也不能忽略。",
-      "pinyin": "Wǒ jué de chéng shì shēng huó zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence şehir hayatı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得爷爷奶奶这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yé yé nǎi nǎi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence büyükanne ve büyükbaba konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC041_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_009",
       "speaker": "张伟",
-      "zh": "说到爷爷奶奶，你怎么看？",
-      "pinyin": "Shuō dào yé yé nǎi nǎi, nǐ zěn me kàn?",
-      "tr": "büyükanne ve büyükbaba konusunda ne düşünüyorsun?"
+      "zh": "那要不要先比较一下？",
+      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
+      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_013",
       "speaker": "张伟",
-      "zh": "我觉得先比较一下比较好。",
-      "pinyin": "Wǒ jué de xiān bǐ jiào yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “karşılaştırmak” kısmını ele almak daha iyi olur."
+      "zh": "我觉得农场这一点也不能忽略。",
+      "pinyin": "Wǒ jué de nóng chǎng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çiftlik konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC041_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_015",
       "speaker": "爷爷",
-      "zh": "说到农场，你怎么看？",
-      "pinyin": "Shuō dào nóng chǎng, nǐ zěn me kàn?",
-      "tr": "çiftlik konusunda ne düşünüyorsun?"
+      "zh": "说到生活，你怎么看？",
+      "pinyin": "Shuō dào shēng huó, nǐ zěn me kàn?",
+      "tr": "hayat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_077",
       "speaker": "张伟",
-      "zh": "说到生活，你怎么看？",
-      "pinyin": "Shuō dào shēng huó, nǐ zěn me kàn?",
-      "tr": "hayat konusunda ne düşünüyorsun?"
+      "zh": "说到农村，你怎么看？",
+      "pinyin": "Shuō dào nóng cūn, nǐ zěn me kàn?",
+      "tr": "kırsal bölge konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_081",
       "speaker": "张伟",
-      "zh": "我觉得农村这一点也不能忽略。",
-      "pinyin": "Wǒ jué de nóng cūn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kırsal bölge konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得城市生活这一点也不能忽略。",
+      "pinyin": "Wǒ jué de chéng shì shēng huó zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence şehir hayatı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC041_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_085",
       "speaker": "张伟",
-      "zh": "说到城市生活，你怎么看？",
-      "pinyin": "Shuō dào chéng shì shēng huó, nǐ zěn me kàn?",
-      "tr": "şehir hayatı konusunda ne düşünüyorsun?"
+      "zh": "说到爷爷奶奶，你怎么看？",
+      "pinyin": "Shuō dào yé yé nǎi nǎi, nǐ zěn me kàn?",
+      "tr": "büyükanne ve büyükbaba konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_089",
       "speaker": "张伟",
-      "zh": "我觉得爷爷奶奶这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yé yé nǎi nǎi zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence büyükanne ve büyükbaba konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先比较一下比较好。",
+      "pinyin": "Wǒ jué de xiān bǐ jiào yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “karşılaştırmak” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC041_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC041_093",
       "speaker": "张伟",
-      "zh": "那要不要先比较一下？",
-      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
-      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
+      "zh": "说到农场，你怎么看？",
+      "pinyin": "Shuō dào nóng chǎng, nǐ zěn me kàn?",
+      "tr": "çiftlik konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC041_094",

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC013",
   "level": "HSK3",
   "sourceTitleZh": "办证件",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“办证件”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ bàn zhèng jiàn ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Ruhsat İşlemleri” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊许可证这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo xǔ kě zhèng zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ruhsat / izin belgesi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC013_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_003",
       "speaker": "顾客",
-      "zh": "说到许可证，你怎么看？",
-      "pinyin": "Shuō dào xǔ kě zhèng, nǐ zěn me kàn?",
-      "tr": "ruhsat / izin belgesi konusunda ne düşünüyorsun?"
+      "zh": "说到证件，你怎么看？",
+      "pinyin": "Shuō dào zhèng jiàn, nǐ zěn me kàn?",
+      "tr": "resmî belge konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_007",
       "speaker": "顾客",
-      "zh": "我觉得证件这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhèng jiàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence resmî belge konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得材料这一点也不能忽略。",
+      "pinyin": "Wǒ jué de cái liào zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence belge / evrak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC013_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_009",
       "speaker": "刘梅",
-      "zh": "说到材料，你怎么看？",
-      "pinyin": "Shuō dào cái liào, nǐ zěn me kàn?",
-      "tr": "belge / evrak konusunda ne düşünüyorsun?"
+      "zh": "说到表格，你怎么看？",
+      "pinyin": "Shuō dào biǎo gé, nǐ zěn me kàn?",
+      "tr": "form konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_013",
       "speaker": "刘梅",
-      "zh": "我觉得表格这一点也不能忽略。",
-      "pinyin": "Wǒ jué de biǎo gé zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence form konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先签字一下比较好。",
+      "pinyin": "Wǒ jué de xiān qiān zì yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “imza atmak” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC013_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_015",
       "speaker": "顾客",
-      "zh": "那要不要先签字一下？",
-      "pinyin": "Nà yào bù yào xiān qiān zì yī xià?",
-      "tr": "O zaman önce “imza atmak” kısmını ele alalım mı?"
+      "zh": "说到需要，你怎么看？",
+      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
+      "tr": "gerekmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_077",
       "speaker": "刘梅",
-      "zh": "说到需要，你怎么看？",
-      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
-      "tr": "gerekmek konusunda ne düşünüyorsun?"
+      "zh": "说到许可证，你怎么看？",
+      "pinyin": "Shuō dào xǔ kě zhèng, nǐ zěn me kàn?",
+      "tr": "ruhsat / izin belgesi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_081",
       "speaker": "刘梅",
-      "zh": "我觉得许可证这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xǔ kě zhèng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ruhsat / izin belgesi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得证件这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhèng jiàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence resmî belge konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC013_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_085",
       "speaker": "刘梅",
-      "zh": "说到证件，你怎么看？",
-      "pinyin": "Shuō dào zhèng jiàn, nǐ zěn me kàn?",
-      "tr": "resmî belge konusunda ne düşünüyorsun?"
+      "zh": "说到材料，你怎么看？",
+      "pinyin": "Shuō dào cái liào, nǐ zěn me kàn?",
+      "tr": "belge / evrak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_089",
       "speaker": "刘梅",
-      "zh": "我觉得材料这一点也不能忽略。",
-      "pinyin": "Wǒ jué de cái liào zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence belge / evrak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得表格这一点也不能忽略。",
+      "pinyin": "Wǒ jué de biǎo gé zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence form konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC013_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC013_093",
       "speaker": "刘梅",
-      "zh": "说到表格，你怎么看？",
-      "pinyin": "Shuō dào biǎo gé, nǐ zěn me kàn?",
-      "tr": "form konusunda ne düşünüyorsun?"
+      "zh": "那要不要先签字一下？",
+      "pinyin": "Nà yào bù yào xiān qiān zì yī xià?",
+      "tr": "O zaman önce “imza atmak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC013_094",

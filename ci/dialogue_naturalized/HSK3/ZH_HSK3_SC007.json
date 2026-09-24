@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC007",
   "level": "HSK3",
   "sourceTitleZh": "找合适的店面",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“找合适的店面”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhǎo hé shì de diàn miàn ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Uygun Dükkân Arayışı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊店面这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo diàn miàn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken dükkân / iş yeri konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC007_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_003",
       "speaker": "顾客",
-      "zh": "说到店面，你怎么看？",
-      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
-      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
+      "zh": "说到优点，你怎么看？",
+      "pinyin": "Shuō dào yōu diǎn, nǐ zěn me kàn?",
+      "tr": "avantaj konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_007",
       "speaker": "顾客",
-      "zh": "我觉得优点这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yōu diǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence avantaj konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得缺点这一点也不能忽略。",
+      "pinyin": "Wǒ jué de quē diǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence dezavantaj konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC007_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_009",
       "speaker": "刘梅",
-      "zh": "说到缺点，你怎么看？",
-      "pinyin": "Shuō dào quē diǎn, nǐ zěn me kàn?",
-      "tr": "dezavantaj konusunda ne düşünüyorsun?"
+      "zh": "说到位置，你怎么看？",
+      "pinyin": "Shuō dào wèi zhì, nǐ zěn me kàn?",
+      "tr": "konum konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_013",
       "speaker": "刘梅",
-      "zh": "我觉得位置这一点也不能忽略。",
-      "pinyin": "Wǒ jué de wèi zhì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence konum konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先比较一下比较好。",
+      "pinyin": "Wǒ jué de xiān bǐ jiào yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “karşılaştırmak” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC007_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_015",
       "speaker": "顾客",
-      "zh": "那要不要先比较一下？",
-      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
-      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
+      "zh": "说到需要，你怎么看？",
+      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
+      "tr": "gerekmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_077",
       "speaker": "刘梅",
-      "zh": "说到需要，你怎么看？",
-      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
-      "tr": "gerekmek konusunda ne düşünüyorsun?"
+      "zh": "说到店面，你怎么看？",
+      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
+      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_081",
       "speaker": "刘梅",
-      "zh": "我觉得店面这一点也不能忽略。",
-      "pinyin": "Wǒ jué de diàn miàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence dükkân / iş yeri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得优点这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yōu diǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence avantaj konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC007_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_085",
       "speaker": "刘梅",
-      "zh": "说到优点，你怎么看？",
-      "pinyin": "Shuō dào yōu diǎn, nǐ zěn me kàn?",
-      "tr": "avantaj konusunda ne düşünüyorsun?"
+      "zh": "说到缺点，你怎么看？",
+      "pinyin": "Shuō dào quē diǎn, nǐ zěn me kàn?",
+      "tr": "dezavantaj konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_089",
       "speaker": "刘梅",
-      "zh": "我觉得缺点这一点也不能忽略。",
-      "pinyin": "Wǒ jué de quē diǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence dezavantaj konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得位置这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèi zhì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence konum konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC007_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC007_093",
       "speaker": "刘梅",
-      "zh": "说到位置，你怎么看？",
-      "pinyin": "Shuō dào wèi zhì, nǐ zěn me kàn?",
-      "tr": "konum konusunda ne düşünüyorsun?"
+      "zh": "那要不要先比较一下？",
+      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
+      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC007_094",

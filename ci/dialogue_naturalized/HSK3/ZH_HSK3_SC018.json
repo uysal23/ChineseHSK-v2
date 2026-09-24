@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC018",
   "level": "HSK3",
   "sourceTitleZh": "第一个员工面试",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“第一个员工面试”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè yuán gōng miàn shì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “İlk Çalışan Adayı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊应聘者这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo yìng pìn zhě zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken iş başvurusu yapan kişi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC018_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_003",
       "speaker": "顾客",
-      "zh": "说到应聘者，你怎么看？",
-      "pinyin": "Shuō dào yìng pìn zhě, nǐ zěn me kàn?",
-      "tr": "iş başvurusu yapan kişi konusunda ne düşünüyorsun?"
+      "zh": "说到经验，你怎么看？",
+      "pinyin": "Shuō dào jīng yàn, nǐ zěn me kàn?",
+      "tr": "deneyim konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_007",
       "speaker": "顾客",
-      "zh": "我觉得经验这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jīng yàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence deneyim konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得工作时间这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng zuò shí jiān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çalışma saatleri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC018_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_009",
       "speaker": "刘梅",
-      "zh": "说到工作时间，你怎么看？",
-      "pinyin": "Shuō dào gōng zuò shí jiān, nǐ zěn me kàn?",
-      "tr": "çalışma saatleri konusunda ne düşünüyorsun?"
+      "zh": "说到评价，你怎么看？",
+      "pinyin": "Shuō dào píng jià, nǐ zěn me kàn?",
+      "tr": "değerlendirme konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_013",
       "speaker": "刘梅",
-      "zh": "我觉得评价这一点也不能忽略。",
-      "pinyin": "Wǒ jué de píng jià zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence değerlendirme konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得工作这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng zuò zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence iş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC018_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_015",
       "speaker": "顾客",
-      "zh": "说到工作，你怎么看？",
-      "pinyin": "Shuō dào gōng zuò, nǐ zěn me kàn?",
-      "tr": "iş konusunda ne düşünüyorsun?"
+      "zh": "说到责任，你怎么看？",
+      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
+      "tr": "sorumluluk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_077",
       "speaker": "刘梅",
-      "zh": "说到责任，你怎么看？",
-      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
-      "tr": "sorumluluk konusunda ne düşünüyorsun?"
+      "zh": "说到应聘者，你怎么看？",
+      "pinyin": "Shuō dào yìng pìn zhě, nǐ zěn me kàn?",
+      "tr": "iş başvurusu yapan kişi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_081",
       "speaker": "刘梅",
-      "zh": "我觉得应聘者这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yìng pìn zhě zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence iş başvurusu yapan kişi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得经验这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jīng yàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence deneyim konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC018_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_085",
       "speaker": "刘梅",
-      "zh": "说到经验，你怎么看？",
-      "pinyin": "Shuō dào jīng yàn, nǐ zěn me kàn?",
-      "tr": "deneyim konusunda ne düşünüyorsun?"
+      "zh": "说到工作时间，你怎么看？",
+      "pinyin": "Shuō dào gōng zuò shí jiān, nǐ zěn me kàn?",
+      "tr": "çalışma saatleri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_089",
       "speaker": "刘梅",
-      "zh": "我觉得工作时间这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gōng zuò shí jiān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence çalışma saatleri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得评价这一点也不能忽略。",
+      "pinyin": "Wǒ jué de píng jià zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence değerlendirme konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC018_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC018_093",
       "speaker": "刘梅",
-      "zh": "说到评价，你怎么看？",
-      "pinyin": "Shuō dào píng jià, nǐ zěn me kàn?",
-      "tr": "değerlendirme konusunda ne düşünüyorsun?"
+      "zh": "说到工作，你怎么看？",
+      "pinyin": "Shuō dào gōng zuò, nǐ zěn me kàn?",
+      "tr": "iş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC018_094",

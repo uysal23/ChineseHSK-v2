@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC004",
   "level": "HSK3",
   "sourceTitleZh": "雨桐准备学校旅行",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_001",
       "speaker": "张雨桐",
-      "zh": "今天正好有时间，我们把“雨桐准备学校旅行”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yǔ tóng zhǔn bèi xué xiào lǚ xíng ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Yutong Okul Gezisine Hazırlanıyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊学校旅行这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo xué xiào lǚ xíng zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken okul gezisi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC004_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_003",
       "speaker": "刘梅",
-      "zh": "说到学校旅行，你怎么看？",
-      "pinyin": "Shuō dào xué xiào lǚ xíng, nǐ zěn me kàn?",
-      "tr": "okul gezisi konusunda ne düşünüyorsun?"
+      "zh": "说到同意书，你怎么看？",
+      "pinyin": "Shuō dào tóng yì shū, nǐ zěn me kàn?",
+      "tr": "izin formu konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_007",
       "speaker": "刘梅",
-      "zh": "我觉得同意书这一点也不能忽略。",
-      "pinyin": "Wǒ jué de tóng yì shū zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence izin formu konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先准备一下比较好。",
+      "pinyin": "Wǒ jué de xiān zhǔn bèi yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “hazırlamak” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC004_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_009",
       "speaker": "张雨桐",
-      "zh": "那要不要先准备一下？",
-      "pinyin": "Nà yào bù yào xiān zhǔn bèi yī xià?",
-      "tr": "O zaman önce “hazırlamak” kısmını ele alalım mı?"
+      "zh": "说到材料，你怎么看？",
+      "pinyin": "Shuō dào cái liào, nǐ zěn me kàn?",
+      "tr": "belge / evrak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_013",
       "speaker": "张雨桐",
-      "zh": "我觉得材料这一点也不能忽略。",
-      "pinyin": "Wǒ jué de cái liào zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence belge / evrak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得记得这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jì de zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence hatırlamak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC004_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_015",
       "speaker": "刘梅",
-      "zh": "说到记得，你怎么看？",
-      "pinyin": "Shuō dào jì de, nǐ zěn me kàn?",
-      "tr": "hatırlamak konusunda ne düşünüyorsun?"
+      "zh": "说到需要，你怎么看？",
+      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
+      "tr": "gerekmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_077",
       "speaker": "张雨桐",
-      "zh": "说到需要，你怎么看？",
-      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
-      "tr": "gerekmek konusunda ne düşünüyorsun?"
+      "zh": "说到学校旅行，你怎么看？",
+      "pinyin": "Shuō dào xué xiào lǚ xíng, nǐ zěn me kàn?",
+      "tr": "okul gezisi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_081",
       "speaker": "张雨桐",
-      "zh": "我觉得学校旅行这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xué xiào lǚ xíng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence okul gezisi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得同意书这一点也不能忽略。",
+      "pinyin": "Wǒ jué de tóng yì shū zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence izin formu konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC004_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_085",
       "speaker": "张雨桐",
-      "zh": "说到同意书，你怎么看？",
-      "pinyin": "Shuō dào tóng yì shū, nǐ zěn me kàn?",
-      "tr": "izin formu konusunda ne düşünüyorsun?"
+      "zh": "那要不要先准备一下？",
+      "pinyin": "Nà yào bù yào xiān zhǔn bèi yī xià?",
+      "tr": "O zaman önce “hazırlamak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_089",
       "speaker": "张雨桐",
-      "zh": "我觉得先准备一下比较好。",
-      "pinyin": "Wǒ jué de xiān zhǔn bèi yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “hazırlamak” kısmını ele almak daha iyi olur."
+      "zh": "我觉得材料这一点也不能忽略。",
+      "pinyin": "Wǒ jué de cái liào zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence belge / evrak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC004_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC004_093",
       "speaker": "张雨桐",
-      "zh": "说到材料，你怎么看？",
-      "pinyin": "Shuō dào cái liào, nǐ zěn me kàn?",
-      "tr": "belge / evrak konusunda ne düşünüyorsun?"
+      "zh": "说到记得，你怎么看？",
+      "pinyin": "Shuō dào jì de, nǐ zěn me kàn?",
+      "tr": "hatırlamak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC004_094",

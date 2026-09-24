@@ -1,13 +1,13 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneCount": 300,
   "turnCount": 30000,
   "changedTurnCount": 13131,
   "rebuiltTurnCount": 10550,
   "uniqueZhBefore": 3163,
-  "uniqueZhAfter": 4144,
+  "uniqueZhAfter": 3399,
   "duplicateTurnsBefore": 26837,
-  "duplicateTurnsAfter": 25856,
+  "duplicateTurnsAfter": 26601,
   "levels": {
     "HSK1": {
       "scenes": 50,

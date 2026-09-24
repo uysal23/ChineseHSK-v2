@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC020",
   "level": "HSK3",
   "sourceTitleZh": "试营业",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“试营业”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ shì yíng yè ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Sessiz Açılış Denemesi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊试营业这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo shì yíng yè zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken deneme açılışı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC020_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_003",
       "speaker": "顾客",
-      "zh": "说到试营业，你怎么看？",
-      "pinyin": "Shuō dào shì yíng yè, nǐ zěn me kàn?",
-      "tr": "deneme açılışı konusunda ne düşünüyorsun?"
+      "zh": "说到服务，你怎么看？",
+      "pinyin": "Shuō dào fú wù, nǐ zěn me kàn?",
+      "tr": "hizmet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_007",
       "speaker": "顾客",
-      "zh": "我觉得服务这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fú wù zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence hizmet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得客人这一点也不能忽略。",
+      "pinyin": "Wǒ jué de kè rén zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence misafir konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC020_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_009",
       "speaker": "刘梅",
-      "zh": "说到客人，你怎么看？",
-      "pinyin": "Shuō dào kè rén, nǐ zěn me kàn?",
-      "tr": "misafir konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_013",
       "speaker": "刘梅",
-      "zh": "我觉得顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得菜单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de cài dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence menü konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC020_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_015",
       "speaker": "顾客",
-      "zh": "说到菜单，你怎么看？",
-      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
-      "tr": "menü konusunda ne düşünüyorsun?"
+      "zh": "那要不要先检查一下？",
+      "pinyin": "Nà yào bù yào xiān jiǎn chá yī xià?",
+      "tr": "O zaman önce “kontrol etmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_077",
       "speaker": "刘梅",
-      "zh": "那要不要先检查一下？",
-      "pinyin": "Nà yào bù yào xiān jiǎn chá yī xià?",
-      "tr": "O zaman önce “kontrol etmek” kısmını ele alalım mı?"
+      "zh": "说到试营业，你怎么看？",
+      "pinyin": "Shuō dào shì yíng yè, nǐ zěn me kàn?",
+      "tr": "deneme açılışı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_081",
       "speaker": "刘梅",
-      "zh": "我觉得试营业这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shì yíng yè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence deneme açılışı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得服务这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fú wù zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence hizmet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC020_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_085",
       "speaker": "刘梅",
-      "zh": "说到服务，你怎么看？",
-      "pinyin": "Shuō dào fú wù, nǐ zěn me kàn?",
-      "tr": "hizmet konusunda ne düşünüyorsun?"
+      "zh": "说到客人，你怎么看？",
+      "pinyin": "Shuō dào kè rén, nǐ zěn me kàn?",
+      "tr": "misafir konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_089",
       "speaker": "刘梅",
-      "zh": "我觉得客人这一点也不能忽略。",
-      "pinyin": "Wǒ jué de kè rén zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence misafir konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC020_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC020_093",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到菜单，你怎么看？",
+      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
+      "tr": "menü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC020_094",

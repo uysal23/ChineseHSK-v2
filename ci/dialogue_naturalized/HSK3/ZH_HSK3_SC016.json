@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC016",
   "level": "HSK3",
   "sourceTitleZh": "试菜单",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“试菜单”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ shì cài dān ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Menü Denemesi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊菜单这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo cài dān zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken menü konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC016_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_003",
       "speaker": "顾客",
-      "zh": "说到菜单，你怎么看？",
-      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
-      "tr": "menü konusunda ne düşünüyorsun?"
+      "zh": "说到味道，你怎么看？",
+      "pinyin": "Shuō dào wèi dào, nǐ zěn me kàn?",
+      "tr": "tat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_007",
       "speaker": "顾客",
-      "zh": "我觉得味道这一点也不能忽略。",
-      "pinyin": "Wǒ jué de wèi dào zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence tat konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得打分这一点也不能忽略。",
+      "pinyin": "Wǒ jué de dǎ fēn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence puan vermek konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC016_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_009",
       "speaker": "刘梅",
-      "zh": "说到打分，你怎么看？",
-      "pinyin": "Shuō dào dǎ fēn, nǐ zěn me kàn?",
-      "tr": "puan vermek konusunda ne düşünüyorsun?"
+      "zh": "说到好吃，你怎么看？",
+      "pinyin": "Shuō dào hǎo chī, nǐ zěn me kàn?",
+      "tr": "lezzetli konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_013",
       "speaker": "刘梅",
-      "zh": "我觉得好吃这一点也不能忽略。",
-      "pinyin": "Wǒ jué de hǎo chī zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence lezzetli konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先选择一下比较好。",
+      "pinyin": "Wǒ jué de xiān xuǎn zé yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “seçmek” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC016_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_015",
       "speaker": "顾客",
-      "zh": "那要不要先选择一下？",
-      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
-      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
+      "zh": "那要不要先比较一下？",
+      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
+      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_077",
       "speaker": "刘梅",
-      "zh": "那要不要先比较一下？",
-      "pinyin": "Nà yào bù yào xiān bǐ jiào yī xià?",
-      "tr": "O zaman önce “karşılaştırmak” kısmını ele alalım mı?"
+      "zh": "说到菜单，你怎么看？",
+      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
+      "tr": "menü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_081",
       "speaker": "刘梅",
-      "zh": "我觉得菜单这一点也不能忽略。",
-      "pinyin": "Wǒ jué de cài dān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence menü konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得味道这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèi dào zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence tat konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC016_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_085",
       "speaker": "刘梅",
-      "zh": "说到味道，你怎么看？",
-      "pinyin": "Shuō dào wèi dào, nǐ zěn me kàn?",
-      "tr": "tat konusunda ne düşünüyorsun?"
+      "zh": "说到打分，你怎么看？",
+      "pinyin": "Shuō dào dǎ fēn, nǐ zěn me kàn?",
+      "tr": "puan vermek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_089",
       "speaker": "刘梅",
-      "zh": "我觉得打分这一点也不能忽略。",
-      "pinyin": "Wǒ jué de dǎ fēn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence puan vermek konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得好吃这一点也不能忽略。",
+      "pinyin": "Wǒ jué de hǎo chī zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence lezzetli konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC016_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC016_093",
       "speaker": "刘梅",
-      "zh": "说到好吃，你怎么看？",
-      "pinyin": "Shuō dào hǎo chī, nǐ zěn me kàn?",
-      "tr": "lezzetli konusunda ne düşünüyorsun?"
+      "zh": "那要不要先选择一下？",
+      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
+      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC016_094",

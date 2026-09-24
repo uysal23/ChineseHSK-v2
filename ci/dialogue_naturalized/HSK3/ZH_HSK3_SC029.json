@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC029",
   "level": "HSK3",
   "sourceTitleZh": "酒店订错房",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“酒店订错房”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ jiǔ diàn dìng cuò fáng ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Otelde Yanlış Rezervasyon” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊预订这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo yù dìng zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken rezervasyon konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC029_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_003",
       "speaker": "刘梅",
-      "zh": "说到预订，你怎么看？",
-      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
-      "tr": "rezervasyon konusunda ne düşünüyorsun?"
+      "zh": "说到房型，你怎么看？",
+      "pinyin": "Shuō dào fáng xíng, nǐ zěn me kàn?",
+      "tr": "oda tipi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_007",
       "speaker": "刘梅",
-      "zh": "我觉得房型这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fáng xíng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence oda tipi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得预订这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yù dìng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence rezervasyon konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC029_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_009",
       "speaker": "张伟",
-      "zh": "说到预订，你怎么看？",
-      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
-      "tr": "rezervasyon konusunda ne düşünüyorsun?"
+      "zh": "说到发错文件，你怎么看？",
+      "pinyin": "Shuō dào fā cuò wén jiàn, nǐ zěn me kàn?",
+      "tr": "yanlış dosya göndermek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_013",
       "speaker": "张伟",
-      "zh": "我觉得发错文件这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fā cuò wén jiàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence yanlış dosya göndermek konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得投诉这一点也不能忽略。",
+      "pinyin": "Wǒ jué de tóu sù zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence şikâyet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC029_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_015",
       "speaker": "刘梅",
-      "zh": "说到投诉，你怎么看？",
-      "pinyin": "Shuō dào tóu sù, nǐ zěn me kàn?",
-      "tr": "şikâyet konusunda ne düşünüyorsun?"
+      "zh": "那要不要先换一个一下？",
+      "pinyin": "Nà yào bù yào xiān huàn yí gè yī xià?",
+      "tr": "O zaman önce “yenisiyle değiştirmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_077",
       "speaker": "张伟",
-      "zh": "那要不要先换一个一下？",
-      "pinyin": "Nà yào bù yào xiān huàn yí gè yī xià?",
-      "tr": "O zaman önce “yenisiyle değiştirmek” kısmını ele alalım mı?"
+      "zh": "说到预订，你怎么看？",
+      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
+      "tr": "rezervasyon konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_081",
       "speaker": "张伟",
-      "zh": "我觉得预订这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yù dìng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence rezervasyon konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得房型这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fáng xíng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence oda tipi konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC029_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_085",
       "speaker": "张伟",
-      "zh": "说到房型，你怎么看？",
-      "pinyin": "Shuō dào fáng xíng, nǐ zěn me kàn?",
-      "tr": "oda tipi konusunda ne düşünüyorsun?"
+      "zh": "说到预订，你怎么看？",
+      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
+      "tr": "rezervasyon konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_089",
       "speaker": "张伟",
-      "zh": "我觉得预订这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yù dìng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence rezervasyon konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得发错文件这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fā cuò wén jiàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence yanlış dosya göndermek konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC029_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC029_093",
       "speaker": "张伟",
-      "zh": "说到发错文件，你怎么看？",
-      "pinyin": "Shuō dào fā cuò wén jiàn, nǐ zěn me kàn?",
-      "tr": "yanlış dosya göndermek konusunda ne düşünüyorsun?"
+      "zh": "说到投诉，你怎么看？",
+      "pinyin": "Shuō dào tóu sù, nǐ zěn me kàn?",
+      "tr": "şikâyet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC029_094",

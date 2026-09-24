@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC012",
   "level": "HSK6",
   "sourceTitleZh": "第一个大客户",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_001",
       "speaker": "张乐乐",
-      "zh": "今天正好有时间，我们把“第一个大客户”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè dà kè hù ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “İlk Büyük Müşteri” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊商业委托这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo shāng yè wěi tuō zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ticari iş / komisyon konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_004",
       "speaker": "刘梅",
-      "zh": "先说说商业委托吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō shāng yè wěi tuō ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce ticari iş / komisyon konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到需求边界这件事，你现在怎么看？",
+      "pinyin": "Huí dào xū qiú biān jiè zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "talep kapsamı ve sınırları konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_006",
       "speaker": "客户",
-      "zh": "对，需求边界会直接影响我们后面的安排。",
-      "pinyin": "Duì, xū qiú biān jiè huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, talep kapsamı ve sınırları sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于报价，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú bào jià, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "fiyat teklifi konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_009",
       "speaker": "张乐乐",
-      "zh": "如果把报价也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ bào jià yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "fiyat teklifi konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于合作条款，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú hé zuò tiáo kuǎn, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "işbirliği şartları konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_011",
       "speaker": "助理",
-      "zh": "至少在合作条款这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài hé zuò tiáo kuǎn zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından işbirliği şartları konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_014",
       "speaker": "客户",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_016",
       "speaker": "刘梅",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_020",
       "speaker": "刘梅",
-      "zh": "回到商业委托这件事，你现在怎么看？",
-      "pinyin": "Huí dào shāng yè wěi tuō zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "ticari iş / komisyon konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_022",
       "speaker": "客户",
-      "zh": "关于需求边界，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú xū qiú biān jiè, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "talep kapsamı ve sınırları konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_025",
       "speaker": "张乐乐",
-      "zh": "关于报价，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú bào jià, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "fiyat teklifi konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_027",
       "speaker": "助理",
-      "zh": "说到合作条款，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào hé zuò tiáo kuǎn, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "işbirliği şartları konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_030",
       "speaker": "客户",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_032",
       "speaker": "刘梅",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_038",
       "speaker": "客户",
-      "zh": "如果把商业委托也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ shāng yè wěi tuō yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "ticari iş / komisyon konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_040",
       "speaker": "刘梅",
-      "zh": "至少在需求边界这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài xū qiú biān jiè zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından talep kapsamı ve sınırları konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_043",
       "speaker": "助理",
-      "zh": "现在再看报价，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn bào jià, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "fiyat teklifi konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_045",
       "speaker": "张乐乐",
-      "zh": "我觉得合作条款这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de hé zuò tiáo kuǎn zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence işbirliği şartları konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_048",
       "speaker": "刘梅",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_050",
       "speaker": "客户",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_056",
       "speaker": "刘梅",
-      "zh": "关于商业委托，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú shāng yè wěi tuō, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "ticari iş / komisyon konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_058",
       "speaker": "客户",
-      "zh": "说到需求边界，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào xū qiú biān jiè, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "talep kapsamı ve sınırları konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_061",
       "speaker": "张乐乐",
-      "zh": "先说说报价吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō bào jià ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce fiyat teklifi konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_063",
       "speaker": "助理",
-      "zh": "对，合作条款会直接影响我们后面的安排。",
-      "pinyin": "Duì, hé zuò tiáo kuǎn huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, işbirliği şartları sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_066",
       "speaker": "客户",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_068",
       "speaker": "刘梅",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_074",
       "speaker": "客户",
-      "zh": "现在再看商业委托，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn shāng yè wěi tuō, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "ticari iş / komisyon konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_076",
       "speaker": "刘梅",
-      "zh": "我觉得需求边界这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de xū qiú biān jiè zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence talep kapsamı ve sınırları konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_079",
       "speaker": "助理",
-      "zh": "回到报价这件事，你现在怎么看？",
-      "pinyin": "Huí dào bào jià zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "fiyat teklifi konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_081",
       "speaker": "张乐乐",
-      "zh": "关于合作条款，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú hé zuò tiáo kuǎn, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "işbirliği şartları konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_084",
       "speaker": "刘梅",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC012_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC012_086",
       "speaker": "客户",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC012_087",

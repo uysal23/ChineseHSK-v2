@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC032",
   "level": "HSK3",
   "sourceTitleZh": "乐乐没进球队",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_001",
       "speaker": "张乐乐",
-      "zh": "今天正好有时间，我们把“乐乐没进球队”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lè lè méi jìn qiú duì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Lele Takıma Seçilemedi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊选拔这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo xuǎn bá zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken seçme / eleme konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC032_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_003",
       "speaker": "张伟",
-      "zh": "说到选拔，你怎么看？",
-      "pinyin": "Shuō dào xuǎn bá, nǐ zěn me kàn?",
-      "tr": "seçme / eleme konusunda ne düşünüyorsun?"
+      "zh": "说到队，你怎么看？",
+      "pinyin": "Shuō dào duì, nǐ zěn me kàn?",
+      "tr": "takım konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_007",
       "speaker": "张伟",
-      "zh": "我觉得队这一点也不能忽略。",
-      "pinyin": "Wǒ jué de duì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence takım konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得失望这一点也不能忽略。",
+      "pinyin": "Wǒ jué de shī wàng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence hayal kırıklığı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC032_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_009",
       "speaker": "张乐乐",
-      "zh": "说到失望，你怎么看？",
-      "pinyin": "Shuō dào shī wàng, nǐ zěn me kàn?",
-      "tr": "hayal kırıklığı konusunda ne düşünüyorsun?"
+      "zh": "说到加油，你怎么看？",
+      "pinyin": "Shuō dào jiā yóu, nǐ zěn me kàn?",
+      "tr": "haydi / başarılar konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_013",
       "speaker": "张乐乐",
-      "zh": "我觉得加油这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiā yóu zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence haydi / başarılar konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先运动一下比较好。",
+      "pinyin": "Wǒ jué de xiān yùn dòng yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “egzersiz” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC032_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_015",
       "speaker": "张伟",
-      "zh": "那要不要先运动一下？",
-      "pinyin": "Nà yào bù yào xiān yùn dòng yī xià?",
-      "tr": "O zaman önce “egzersiz” kısmını ele alalım mı?"
+      "zh": "那要不要先再试一次一下？",
+      "pinyin": "Nà yào bù yào xiān zài shì yī cì yī xià?",
+      "tr": "O zaman önce “bir kez daha denemek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_077",
       "speaker": "张乐乐",
-      "zh": "那要不要先再试一次一下？",
-      "pinyin": "Nà yào bù yào xiān zài shì yī cì yī xià?",
-      "tr": "O zaman önce “bir kez daha denemek” kısmını ele alalım mı?"
+      "zh": "说到选拔，你怎么看？",
+      "pinyin": "Shuō dào xuǎn bá, nǐ zěn me kàn?",
+      "tr": "seçme / eleme konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_081",
       "speaker": "张乐乐",
-      "zh": "我觉得选拔这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xuǎn bá zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence seçme / eleme konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得队这一点也不能忽略。",
+      "pinyin": "Wǒ jué de duì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence takım konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC032_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_085",
       "speaker": "张乐乐",
-      "zh": "说到队，你怎么看？",
-      "pinyin": "Shuō dào duì, nǐ zěn me kàn?",
-      "tr": "takım konusunda ne düşünüyorsun?"
+      "zh": "说到失望，你怎么看？",
+      "pinyin": "Shuō dào shī wàng, nǐ zěn me kàn?",
+      "tr": "hayal kırıklığı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_089",
       "speaker": "张乐乐",
-      "zh": "我觉得失望这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shī wàng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence hayal kırıklığı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得加油这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jiā yóu zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence haydi / başarılar konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC032_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC032_093",
       "speaker": "张乐乐",
-      "zh": "说到加油，你怎么看？",
-      "pinyin": "Shuō dào jiā yóu, nǐ zěn me kàn?",
-      "tr": "haydi / başarılar konusunda ne düşünüyorsun?"
+      "zh": "那要不要先运动一下？",
+      "pinyin": "Nà yào bù yào xiān yùn dòng yī xià?",
+      "tr": "O zaman önce “egzersiz” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC032_094",

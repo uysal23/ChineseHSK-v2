@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC044",
   "level": "HSK3",
   "sourceTitleZh": "雨桐第一次认真想未来",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_001",
       "speaker": "张雨桐",
-      "zh": "今天正好有时间，我们把“雨桐第一次认真想未来”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yǔ tóng dì yī cì rèn zhēn xiǎng wèi lái ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Yutong’un İlk Ciddi Kararı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊专业这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhuān yè zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken üniversite alanı / bölüm konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_003",
       "speaker": "刘梅",
-      "zh": "说到专业，你怎么看？",
-      "pinyin": "Shuō dào zhuān yè, nǐ zěn me kàn?",
-      "tr": "üniversite alanı / bölüm konusunda ne düşünüyorsun?"
+      "zh": "那要不要先选择一下？",
+      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
+      "tr": "O zaman önce “seçim” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_007",
       "speaker": "刘梅",
-      "zh": "我觉得先选择一下比较好。",
-      "pinyin": "Wǒ jué de xiān xuǎn zé yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “seçim” kısmını ele almak daha iyi olur."
+      "zh": "我觉得未来计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèi lái jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gelecek planı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_009",
       "speaker": "张雨桐",
-      "zh": "说到未来计划，你怎么看？",
-      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
-      "tr": "gelecek planı konusunda ne düşünüyorsun?"
+      "zh": "说到学习，你怎么看？",
+      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
+      "tr": "ders çalışma konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_013",
       "speaker": "张雨桐",
-      "zh": "我觉得学习这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得职业发展这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhí yè fā zhǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence kariyer gelişimi konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_015",
       "speaker": "刘梅",
-      "zh": "说到职业发展，你怎么看？",
-      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
-      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
+      "zh": "说到爱好，你怎么看？",
+      "pinyin": "Shuō dào ài hào, nǐ zěn me kàn?",
+      "tr": "hobi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_077",
       "speaker": "张雨桐",
-      "zh": "说到爱好，你怎么看？",
-      "pinyin": "Shuō dào ài hào, nǐ zěn me kàn?",
-      "tr": "hobi konusunda ne düşünüyorsun?"
+      "zh": "说到专业，你怎么看？",
+      "pinyin": "Shuō dào zhuān yè, nǐ zěn me kàn?",
+      "tr": "üniversite alanı / bölüm konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_081",
       "speaker": "张雨桐",
-      "zh": "我觉得专业这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhuān yè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence üniversite alanı / bölüm konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先选择一下比较好。",
+      "pinyin": "Wǒ jué de xiān xuǎn zé yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “seçim” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_085",
       "speaker": "张雨桐",
-      "zh": "那要不要先选择一下？",
-      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
-      "tr": "O zaman önce “seçim” kısmını ele alalım mı?"
+      "zh": "说到未来计划，你怎么看？",
+      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
+      "tr": "gelecek planı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_089",
       "speaker": "张雨桐",
-      "zh": "我觉得未来计划这一点也不能忽略。",
-      "pinyin": "Wǒ jué de wèi lái jì huà zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence gelecek planı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得学习这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC044_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC044_093",
       "speaker": "张雨桐",
-      "zh": "说到学习，你怎么看？",
-      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
-      "tr": "ders çalışma konusunda ne düşünüyorsun?"
+      "zh": "说到职业发展，你怎么看？",
+      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
+      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC044_094",

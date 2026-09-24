@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC025",
   "level": "HSK3",
   "sourceTitleZh": "乐乐的作业角",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“乐乐的作业角”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lè lè de zuò yè jiǎo ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Lele’nin Ödev Köşesi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊作业角这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zuò yè jiǎo zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ödev köşesi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC025_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_003",
       "speaker": "顾客",
-      "zh": "说到作业角，你怎么看？",
-      "pinyin": "Shuō dào zuò yè jiǎo, nǐ zěn me kàn?",
-      "tr": "ödev köşesi konusunda ne düşünüyorsun?"
+      "zh": "说到学习，你怎么看？",
+      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
+      "tr": "ders çalışma konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_007",
       "speaker": "顾客",
-      "zh": "我觉得学习这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得老桌子这一点也不能忽略。",
+      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC025_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_009",
       "speaker": "刘梅",
-      "zh": "说到老桌子，你怎么看？",
-      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
-      "tr": "eski masa konusunda ne düşünüyorsun?"
+      "zh": "说到家人，你怎么看？",
+      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
+      "tr": "aile konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_013",
       "speaker": "刘梅",
-      "zh": "我觉得家人这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiā rén zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence aile konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence plan konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC025_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_015",
       "speaker": "顾客",
-      "zh": "说到计划，你怎么看？",
-      "pinyin": "Shuō dào jì huà, nǐ zěn me kàn?",
-      "tr": "plan konusunda ne düşünüyorsun?"
+      "zh": "说到咖啡馆的想法，你怎么看？",
+      "pinyin": "Shuō dào kā fēi guǎn de xiǎng fǎ, nǐ zěn me kàn?",
+      "tr": "kafe fikri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_077",
       "speaker": "刘梅",
-      "zh": "说到咖啡馆的想法，你怎么看？",
-      "pinyin": "Shuō dào kā fēi guǎn de xiǎng fǎ, nǐ zěn me kàn?",
-      "tr": "kafe fikri konusunda ne düşünüyorsun?"
+      "zh": "说到作业角，你怎么看？",
+      "pinyin": "Shuō dào zuò yè jiǎo, nǐ zěn me kàn?",
+      "tr": "ödev köşesi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_081",
       "speaker": "刘梅",
-      "zh": "我觉得作业角这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zuò yè jiǎo zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ödev köşesi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得学习这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xué xí zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence ders çalışma konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC025_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_085",
       "speaker": "刘梅",
-      "zh": "说到学习，你怎么看？",
-      "pinyin": "Shuō dào xué xí, nǐ zěn me kàn?",
-      "tr": "ders çalışma konusunda ne düşünüyorsun?"
+      "zh": "说到老桌子，你怎么看？",
+      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
+      "tr": "eski masa konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_089",
       "speaker": "刘梅",
-      "zh": "我觉得老桌子这一点也不能忽略。",
-      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得家人这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jiā rén zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence aile konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC025_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC025_093",
       "speaker": "刘梅",
-      "zh": "说到家人，你怎么看？",
-      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
-      "tr": "aile konusunda ne düşünüyorsun?"
+      "zh": "说到计划，你怎么看？",
+      "pinyin": "Shuō dào jì huà, nǐ zěn me kàn?",
+      "tr": "plan konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC025_094",

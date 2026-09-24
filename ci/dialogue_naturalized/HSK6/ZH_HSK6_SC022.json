@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC022",
   "level": "HSK6",
   "sourceTitleZh": "准备当外公",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“准备当外公”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhǔn bèi dāng wài gōng ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Büyükbaba Olmaya Hazırlık” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊爷爷角色这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo yé yé jué sè zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken büyükbaba rolü konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_002",
@@ -23,16 +23,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_003",
       "speaker": "李晨",
-      "zh": "这件事来得有点突然，有不同反应很正常。",
-      "pinyin": "Zhè jiàn shì lái de yǒu diǎn tū rán, yǒu bù tóng fǎn yìng hěn zhèng cháng.",
-      "tr": "Bu konu biraz ani gelişti; farklı tepkiler olması çok normal."
+      "zh": "现在最难的其实就是等，大家心里都不太踏实。",
+      "pinyin": "Xiàn zài zuì nán de qí shí jiù shì děng, dà jiā xīn lǐ dōu bù tài tà shí.",
+      "tr": "Şu anda en zor şey beklemek; kimsenin içi tam rahat değil."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_004",
       "speaker": "奶奶",
-      "zh": "先说说爷爷角色吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yé yé jué sè ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce büyükbaba rolü konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到期待这件事，你现在怎么看？",
+      "pinyin": "Huí dào qī dài zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "beklenti konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_005",
@@ -44,16 +44,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_006",
       "speaker": "刘梅",
-      "zh": "对，期待会直接影响我们后面的安排。",
-      "pinyin": "Duì, qī dài huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, beklenti sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于焦虑，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú jiāo lǜ, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "kaygı konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_007",
       "speaker": "李晨",
-      "zh": "先别急着找一个统一答案，大家可以把顾虑都说出来。",
-      "pinyin": "Xiān bié jí zhe zhǎo yí gè tǒng yī dá àn, dà jiā kě yǐ bǎ gù lǜ dōu shuō chū lái.",
-      "tr": "Hemen tek bir ortak cevap bulmaya çalışmayalım; herkes kaygılarını açıkça söylesin."
+      "zh": "先别想太多，能确认的消息我们一条一条听。",
+      "pinyin": "Xiān bié xiǎng tài duō, néng què rèn de xiāo xī wǒ men yī tiáo yī tiáo tīng.",
+      "tr": "Çok fazla düşünmeyelim; doğrulanmış haberleri tek tek takip edelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_008",
@@ -65,23 +65,23 @@
     {
       "id": "DLG_ZH_HSK6_SC022_009",
       "speaker": "张伟",
-      "zh": "如果把焦虑也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ jiāo lǜ yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "kaygı konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于代际责任，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú dài jì zé rèn, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "kuşaklar arası sorumluluk konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_010",
       "speaker": "刘梅",
-      "zh": "我先说一个我最担心的地方。",
-      "pinyin": "Wǒ xiān shuō yí gè wǒ zuì dān xīn de dì fāng.",
-      "tr": "Önce beni en çok düşündüren noktayı söyleyeyim."
+      "zh": "我最担心的就是一直没有消息。",
+      "pinyin": "Wǒ zuì dān xīn de jiù shì yì zhí méi yǒu xiāo xī.",
+      "tr": "Benim en büyük kaygım uzun süre haber gelmemesi."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_011",
       "speaker": "李晨",
-      "zh": "至少在代际责任这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài dài jì zé rèn zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından kuşaklar arası sorumluluk konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_014",
       "speaker": "刘梅",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_015",
@@ -114,16 +114,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_016",
       "speaker": "奶奶",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得先等确定的消息最稳妥。",
+      "pinyin": "Wǒ jué de xiān děng què dìng de xiāo xī zuì wěn tuǒ.",
+      "tr": "Bence en güvenlisi kesin haberi beklemek."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_017",
       "speaker": "张伟",
-      "zh": "好，第一轮先把大家最关心的点都说出来。",
-      "pinyin": "Hǎo, dì yī lún xiān bǎ dà jiā zuì guān xīn de diǎn dōu shuō chū lái.",
-      "tr": "Tamam, ilk aşamada herkesin en çok önemsediği noktaları ortaya koyalım."
+      "zh": "好，大家先把心里最担心的说出来。",
+      "pinyin": "Hǎo, dà jiā xiān bǎ xīn lǐ zuì dān xīn de shuō chū lái.",
+      "tr": "Tamam, herkes önce içinde en çok kaygı duyduğu şeyi söylesin."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_018",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_020",
       "speaker": "奶奶",
-      "zh": "回到爷爷角色这件事，你现在怎么看？",
-      "pinyin": "Huí dào yé yé jué sè zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "büyükbaba rolü konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "现在你最担心的是什么？",
+      "pinyin": "Xiàn zài nǐ zuì dān xīn de shì shén me?",
+      "tr": "Şu anda seni en çok kaygılandıran şey ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_022",
       "speaker": "刘梅",
-      "zh": "关于期待，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú qī dài, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "beklenti konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "有消息以后我们再一起商量。",
+      "pinyin": "Yǒu xiāo xī yǐ hòu wǒ men zài yì qǐ shāng liáng.",
+      "tr": "Haber gelince yeniden birlikte konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_023",
@@ -170,16 +170,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_024",
       "speaker": "奶奶",
-      "zh": "如果只顾眼前，后面的影响可能会被忽略。",
-      "pinyin": "Rú guǒ zhǐ gù yǎn qián, hòu miàn de yǐng xiǎng kě néng huì bèi hū lüè.",
-      "tr": "Yalnızca bugüne odaklanırsak sonraki etkileri gözden kaçırabiliriz."
+      "zh": "现在猜再多也没用，还是等确定的消息。",
+      "pinyin": "Xiàn zài cāi zài duō yě méi yòng, hái shì děng què dìng de xiāo xī.",
+      "tr": "Şu anda ne kadar tahmin etsek de faydası yok; kesin haberi beklemek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_025",
       "speaker": "张伟",
-      "zh": "关于焦虑，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú jiāo lǜ, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "kaygı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "还有什么消息需要再确认吗？",
+      "pinyin": "Hái yǒu shén me xiāo xī xū yào zài què rèn ma?",
+      "tr": "Yeniden teyit etmemiz gereken başka bir haber var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_027",
       "speaker": "李晨",
-      "zh": "说到代际责任，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào dài jì zé rèn, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "kuşaklar arası sorumluluk konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "先别急，大家都在这里。",
+      "pinyin": "Xiān bié jí, dà jiā dōu zài zhè lǐ.",
+      "tr": "Acele etme; herkes burada."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_030",
       "speaker": "刘梅",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "要不要先休息一下，等新的消息？",
+      "pinyin": "Yào bù yào xiān xiū xī yī xià, děng xīn de xiāo xī?",
+      "tr": "Yeni haber gelene kadar biraz dinlenelim mi?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_032",
       "speaker": "奶奶",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得先等确定的消息最稳妥。",
+      "pinyin": "Wǒ jué de xiān děng què dìng de xiāo xī zuì wěn tuǒ.",
+      "tr": "Bence en güvenlisi kesin haberi beklemek."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_033",
@@ -247,9 +247,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_035",
       "speaker": "李晨",
-      "zh": "那我们进入下一部分吧。",
-      "pinyin": "Nà wǒ men jìn rù xià yī bù fèn ba.",
-      "tr": "O zaman sonraki kısma geçelim."
+      "zh": "接下来最重要的是互相陪着，别让谁一个人胡思乱想。",
+      "pinyin": "Jiē xià lái zuì zhòng yào de shì hù xiāng péi zhe, bié ràng shuí yí gè rén hú sī luàn xiǎng.",
+      "tr": "Şimdi en önemlisi birbirimize eşlik etmek ve kimseyi yalnız başına kaygıyla bırakmamak."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_036",
@@ -261,16 +261,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_037",
       "speaker": "张伟",
-      "zh": "现在要考虑的是，接下来具体怎么做。",
-      "pinyin": "Xiàn zài yào kǎo lǜ de shì, jiē xià lái jù tǐ zěn me zuò.",
-      "tr": "Şimdi düşünmemiz gereken şey bundan sonra somut olarak ne yapacağımız."
+      "zh": "我们现在能做的其实不多，但陪在这里本身就很重要。",
+      "pinyin": "Wǒ men xiàn zài néng zuò de qí shí bù duō, dàn péi zài zhè lǐ běn shēn jiù hěn zhòng yào.",
+      "tr": "Şu anda yapabileceğimiz çok şey yok ama burada birlikte olmak bile önemli."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_038",
       "speaker": "刘梅",
-      "zh": "如果把爷爷角色也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yé yé jué sè yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "büyükbaba rolü konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "要不要先休息一下，等新的消息？",
+      "pinyin": "Yào bù yào xiān xiū xī yī xià, děng xīn de xiāo xī?",
+      "tr": "Yeni haber gelene kadar biraz dinlenelim mi?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_040",
       "speaker": "奶奶",
-      "zh": "至少在期待这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài qī dài zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından beklenti konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得先等确定的消息最稳妥。",
+      "pinyin": "Wǒ jué de xiān děng què dìng de xiāo xī zuì wěn tuǒ.",
+      "tr": "Bence en güvenlisi kesin haberi beklemek."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_043",
       "speaker": "李晨",
-      "zh": "现在再看焦虑，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn jiāo lǜ, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "kaygı konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "你现在感觉好一点了吗？",
+      "pinyin": "Nǐ xiàn zài gǎn jué hǎo yì diǎn le ma?",
+      "tr": "Şimdi kendini biraz daha iyi hissediyor musun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_045",
       "speaker": "张伟",
-      "zh": "我觉得代际责任这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de dài jì zé rèn zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence kuşaklar arası sorumluluk konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "对，现在互相陪着比乱猜更重要。",
+      "pinyin": "Duì, xiàn zài hù xiāng péi zhe bǐ luàn cāi gèng zhòng yào.",
+      "tr": "Evet, şu anda birbirimize eşlik etmek tahmin yürütmekten daha önemli."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_046",
@@ -338,23 +338,23 @@
     {
       "id": "DLG_ZH_HSK6_SC022_048",
       "speaker": "奶奶",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "现在你最担心的是什么？",
+      "pinyin": "Xiàn zài nǐ zuì dān xīn de shì shén me?",
+      "tr": "Şu anda seni en çok kaygılandıran şey ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_049",
       "speaker": "张伟",
-      "zh": "我觉得先设一个检查时间会比较好。",
-      "pinyin": "Wǒ jué de xiān shè yí gè jiǎn chá shí jiān huì bǐ jiào hǎo.",
-      "tr": "Bence önce bir kontrol zamanı belirlemek iyi olur."
+      "zh": "我觉得可以隔一会儿再问一次情况。",
+      "pinyin": "Wǒ jué de kě yǐ gé yī huì er zài wèn yī cì qíng kuàng.",
+      "tr": "Bence biraz sonra durumu yeniden sorabiliriz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_050",
       "speaker": "刘梅",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "有消息以后我们再一起商量。",
+      "pinyin": "Yǒu xiāo xī yǐ hòu wǒ men zài yì qǐ shāng liáng.",
+      "tr": "Haber gelince yeniden birlikte konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_051",
@@ -387,16 +387,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_055",
       "speaker": "李晨",
-      "zh": "那我先把刚才的结论整理一下。",
-      "pinyin": "Nà wǒ xiān bǎ gāng cái de jié lùn zhěng lǐ yī xià.",
-      "tr": "O zaman az önce vardığımız sonuçları önce ben toparlayayım."
+      "zh": "那我先把已经知道的消息理一理。",
+      "pinyin": "Nà wǒ xiān bǎ yǐ jīng zhī dào de xiāo xī lǐ yī lǐ.",
+      "tr": "O zaman bildiğimiz kesin bilgileri önce bir toparlayayım."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_056",
       "speaker": "奶奶",
-      "zh": "关于爷爷角色，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yé yé jué sè, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "büyükbaba rolü konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "现在你最担心的是什么？",
+      "pinyin": "Xiàn zài nǐ zuì dān xīn de shì shén me?",
+      "tr": "Şu anda seni en çok kaygılandıran şey ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_058",
       "speaker": "刘梅",
-      "zh": "说到期待，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào qī dài, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "beklenti konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "有消息以后我们再一起商量。",
+      "pinyin": "Yǒu xiāo xī yǐ hòu wǒ men zài yì qǐ shāng liáng.",
+      "tr": "Haber gelince yeniden birlikte konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_061",
       "speaker": "张伟",
-      "zh": "先说说焦虑吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō jiāo lǜ ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce kaygı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "还有什么消息需要再确认吗？",
+      "pinyin": "Hái yǒu shén me xiāo xī xū yào zài què rèn ma?",
+      "tr": "Yeniden teyit etmemiz gereken başka bir haber var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_063",
       "speaker": "李晨",
-      "zh": "对，代际责任会直接影响我们后面的安排。",
-      "pinyin": "Duì, dài jì zé rèn huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, kuşaklar arası sorumluluk sonraki planımızı doğrudan etkileyebilir."
+      "zh": "先别急，大家都在这里。",
+      "pinyin": "Xiān bié jí, dà jiā dōu zài zhè lǐ.",
+      "tr": "Acele etme; herkes burada."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_064",
@@ -464,23 +464,23 @@
     {
       "id": "DLG_ZH_HSK6_SC022_066",
       "speaker": "刘梅",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "要不要先休息一下，等新的消息？",
+      "pinyin": "Yào bù yào xiān xiū xī yī xià, děng xīn de xiāo xī?",
+      "tr": "Yeni haber gelene kadar biraz dinlenelim mi?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_067",
       "speaker": "李晨",
-      "zh": "我觉得现在比刚开始具体多了。",
-      "pinyin": "Wǒ jué de xiàn zài bǐ gāng kāi shǐ jù tǐ duō le.",
-      "tr": "Bence konu artık başlangıca göre çok daha somut."
+      "zh": "现在比刚才踏实一点了。",
+      "pinyin": "Xiàn zài bǐ gāng cái tà shí yì diǎn le.",
+      "tr": "Şimdi az öncekine göre biraz daha sakinim."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_068",
       "speaker": "奶奶",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得先等确定的消息最稳妥。",
+      "pinyin": "Wǒ jué de xiān děng què dìng de xiāo xī zuì wěn tuǒ.",
+      "tr": "Bence en güvenlisi kesin haberi beklemek."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_069",
@@ -513,16 +513,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_073",
       "speaker": "张伟",
-      "zh": "现在回头看，最开始担心的几个问题已经清楚多了。",
-      "pinyin": "Xiàn zài huí tóu kàn, zuì kāi shǐ dān xīn de jǐ gè wèn tí yǐ jīng qīng chǔ duō le.",
-      "tr": "Şimdi geri baktığımızda başlangıçta kaygı duyduğumuz birkaç konu çok daha net."
+      "zh": "回头看，最难熬的那段时间已经过去一些了。",
+      "pinyin": "Huí tóu kàn, zuì nán áo de nà duàn shí jiān yǐ jīng guò qù yī xiē le.",
+      "tr": "Geriye bakınca en zor bekleyiş kısmının biraz geride kaldığını görüyoruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_074",
       "speaker": "刘梅",
-      "zh": "现在再看爷爷角色，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yé yé jué sè, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "büyükbaba rolü konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "要不要先休息一下，等新的消息？",
+      "pinyin": "Yào bù yào xiān xiū xī yī xià, děng xīn de xiāo xī?",
+      "tr": "Yeni haber gelene kadar biraz dinlenelim mi?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_076",
       "speaker": "奶奶",
-      "zh": "我觉得期待这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de qī dài zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence beklenti konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得先等确定的消息最稳妥。",
+      "pinyin": "Wǒ jué de xiān děng què dìng de xiāo xī zuì wěn tuǒ.",
+      "tr": "Bence en güvenlisi kesin haberi beklemek."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_079",
       "speaker": "李晨",
-      "zh": "回到焦虑这件事，你现在怎么看？",
-      "pinyin": "Huí dào jiāo lǜ zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "kaygı konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "你现在感觉好一点了吗？",
+      "pinyin": "Nǐ xiàn zài gǎn jué hǎo yì diǎn le ma?",
+      "tr": "Şimdi kendini biraz daha iyi hissediyor musun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_081",
       "speaker": "张伟",
-      "zh": "关于代际责任，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú dài jì zé rèn, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "kuşaklar arası sorumluluk konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "对，现在互相陪着比乱猜更重要。",
+      "pinyin": "Duì, xiàn zài hù xiāng péi zhe bǐ luàn cāi gèng zhòng yào.",
+      "tr": "Evet, şu anda birbirimize eşlik etmek tahmin yürütmekten daha önemli."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_082",
@@ -583,16 +583,16 @@
     {
       "id": "DLG_ZH_HSK6_SC022_083",
       "speaker": "李晨",
-      "zh": "我觉得这次最重要的是大家都把真话说出来了。",
-      "pinyin": "Wǒ jué de zhè cì zuì zhòng yào de shì dà jiā dōu bǎ zhēn huà shuō chū lái le.",
-      "tr": "Bence bu konuşmadaki en önemli şey herkesin gerçek düşüncesini söylemiş olması."
+      "zh": "我觉得大家能在这里互相陪着已经很重要了。",
+      "pinyin": "Wǒ jué de dà jiā néng zài zhè lǐ hù xiāng péi zhe yǐ jīng hěn zhòng yào le.",
+      "tr": "Bence burada birbirimize eşlik edebilmemiz bile çok önemli."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_084",
       "speaker": "奶奶",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "现在你最担心的是什么？",
+      "pinyin": "Xiàn zài nǐ zuì dān xīn de shì shén me?",
+      "tr": "Şu anda seni en çok kaygılandıran şey ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC022_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_086",
       "speaker": "刘梅",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "有消息以后我们再一起商量。",
+      "pinyin": "Yǒu xiāo xī yǐ hòu wǒ men zài yì qǐ shāng liáng.",
+      "tr": "Haber gelince yeniden birlikte konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_087",
@@ -646,9 +646,9 @@
     {
       "id": "DLG_ZH_HSK6_SC022_092",
       "speaker": "奶奶",
-      "zh": "那就这样，下一步我们一起面对。",
-      "pinyin": "Nà jiù zhè yàng, xià yī bù wǒ men yì qǐ miàn duì.",
-      "tr": "O zaman böyle yapalım; sonraki adımla birlikte yüzleşiriz."
+      "zh": "那就这样，我们继续一起等消息。",
+      "pinyin": "Nà jiù zhè yàng, wǒ men jì xù yì qǐ děng xiāo xī.",
+      "tr": "O zaman böyle yapalım; haberi birlikte beklemeye devam edelim."
     },
     {
       "id": "DLG_ZH_HSK6_SC022_093",

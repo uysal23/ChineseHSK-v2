@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC028",
   "level": "HSK3",
   "sourceTitleZh": "张伟出差",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“张伟出差”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhāng wěi chū chāi ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Zhang’ın İş Gezisi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊出差这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo chū chāi zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken iş seyahati konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC028_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_003",
       "speaker": "刘梅",
-      "zh": "那要不要先出差一下？",
-      "pinyin": "Nà yào bù yào xiān chū chāi yī xià?",
-      "tr": "O zaman önce “iş seyahati” kısmını ele alalım mı?"
+      "zh": "那要不要先安排一下？",
+      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
+      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_007",
       "speaker": "刘梅",
-      "zh": "我觉得先安排一下比较好。",
-      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
+      "zh": "我觉得公交卡这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng jiāo kǎ zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence otobüs kartı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC028_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_009",
       "speaker": "张伟",
-      "zh": "说到公交卡，你怎么看？",
-      "pinyin": "Shuō dào gōng jiāo kǎ, nǐ zěn me kàn?",
-      "tr": "otobüs kartı konusunda ne düşünüyorsun?"
+      "zh": "说到预订，你怎么看？",
+      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
+      "tr": "rezervasyon konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_013",
       "speaker": "张伟",
-      "zh": "我觉得预订这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yù dìng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence rezervasyon konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先打电话一下比较好。",
+      "pinyin": "Wǒ jué de xiān dǎ diàn huà yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “telefon etmek” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC028_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_015",
       "speaker": "刘梅",
-      "zh": "那要不要先打电话一下？",
-      "pinyin": "Nà yào bù yào xiān dǎ diàn huà yī xià?",
-      "tr": "O zaman önce “telefon etmek” kısmını ele alalım mı?"
+      "zh": "说到家人，你怎么看？",
+      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
+      "tr": "aile konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_077",
       "speaker": "张伟",
-      "zh": "说到家人，你怎么看？",
-      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
-      "tr": "aile konusunda ne düşünüyorsun?"
+      "zh": "那要不要先出差一下？",
+      "pinyin": "Nà yào bù yào xiān chū chāi yī xià?",
+      "tr": "O zaman önce “iş seyahati” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_081",
       "speaker": "张伟",
-      "zh": "我觉得先出差一下比较好。",
-      "pinyin": "Wǒ jué de xiān chū chāi yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “iş seyahati” kısmını ele almak daha iyi olur."
+      "zh": "我觉得先安排一下比较好。",
+      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC028_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_085",
       "speaker": "张伟",
-      "zh": "那要不要先安排一下？",
-      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
-      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
+      "zh": "说到公交卡，你怎么看？",
+      "pinyin": "Shuō dào gōng jiāo kǎ, nǐ zěn me kàn?",
+      "tr": "otobüs kartı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_089",
       "speaker": "张伟",
-      "zh": "我觉得公交卡这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gōng jiāo kǎ zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence otobüs kartı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得预订这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yù dìng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence rezervasyon konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC028_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC028_093",
       "speaker": "张伟",
-      "zh": "说到预订，你怎么看？",
-      "pinyin": "Shuō dào yù dìng, nǐ zěn me kàn?",
-      "tr": "rezervasyon konusunda ne düşünüyorsun?"
+      "zh": "那要不要先打电话一下？",
+      "pinyin": "Nà yào bù yào xiān dǎ diàn huà yī xià?",
+      "tr": "O zaman önce “telefon etmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC028_094",

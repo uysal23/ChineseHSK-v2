@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC040",
   "level": "HSK3",
   "sourceTitleZh": "刘梅的账本",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“刘梅的账本”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ liú méi de zhàng běn ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Liu Mei’nin Kafe Defteri” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊账本这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhàng běn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken hesap defteri konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC040_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_003",
       "speaker": "顾客",
-      "zh": "说到账本，你怎么看？",
-      "pinyin": "Shuō dào zhàng běn, nǐ zěn me kàn?",
-      "tr": "hesap defteri konusunda ne düşünüyorsun?"
+      "zh": "说到收入，你怎么看？",
+      "pinyin": "Shuō dào shōu rù, nǐ zěn me kàn?",
+      "tr": "gelir konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC040_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_007",
       "speaker": "顾客",
-      "zh": "我觉得收入这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shōu rù zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence gelir konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得支出这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhī chū zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gider konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC040_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_009",
       "speaker": "刘梅",
-      "zh": "说到支出，你怎么看？",
-      "pinyin": "Shuō dào zhī chū, nǐ zěn me kàn?",
-      "tr": "gider konusunda ne düşünüyorsun?"
+      "zh": "说到成本，你怎么看？",
+      "pinyin": "Shuō dào chéng běn, nǐ zěn me kàn?",
+      "tr": "maliyet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC040_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_013",
       "speaker": "刘梅",
-      "zh": "我觉得成本这一点也不能忽略。",
-      "pinyin": "Wǒ jué de chéng běn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence maliyet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得预算这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yù suàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence bütçe konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC040_014",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_077",
       "speaker": "刘梅",
-      "zh": "说到预算，你怎么看？",
-      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
-      "tr": "bütçe konusunda ne düşünüyorsun?"
+      "zh": "说到账本，你怎么看？",
+      "pinyin": "Shuō dào zhàng běn, nǐ zěn me kàn?",
+      "tr": "hesap defteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC040_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_081",
       "speaker": "刘梅",
-      "zh": "我觉得账本这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhàng běn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence hesap defteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得收入这一点也不能忽略。",
+      "pinyin": "Wǒ jué de shōu rù zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gelir konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC040_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_085",
       "speaker": "刘梅",
-      "zh": "说到收入，你怎么看？",
-      "pinyin": "Shuō dào shōu rù, nǐ zěn me kàn?",
-      "tr": "gelir konusunda ne düşünüyorsun?"
+      "zh": "说到支出，你怎么看？",
+      "pinyin": "Shuō dào zhī chū, nǐ zěn me kàn?",
+      "tr": "gider konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC040_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_089",
       "speaker": "刘梅",
-      "zh": "我觉得支出这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhī chū zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence gider konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得成本这一点也不能忽略。",
+      "pinyin": "Wǒ jué de chéng běn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence maliyet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC040_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC040_093",
       "speaker": "刘梅",
-      "zh": "说到成本，你怎么看？",
-      "pinyin": "Shuō dào chéng běn, nǐ zěn me kàn?",
-      "tr": "maliyet konusunda ne düşünüyorsun?"
+      "zh": "说到预算，你怎么看？",
+      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
+      "tr": "bütçe konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC040_094",

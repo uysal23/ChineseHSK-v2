@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC026",
   "level": "HSK3",
   "sourceTitleZh": "第一个常客",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“第一个常客”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè cháng kè ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Kafenin İlk Düzenli Müşterisi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊常客这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo cháng kè zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken düzenli müşteri konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC026_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_003",
       "speaker": "顾客",
-      "zh": "说到常客，你怎么看？",
-      "pinyin": "Shuō dào cháng kè, nǐ zěn me kàn?",
-      "tr": "düzenli müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到聊天，你怎么看？",
+      "pinyin": "Shuō dào liáo tiān, nǐ zěn me kàn?",
+      "tr": "sohbet etmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_007",
       "speaker": "顾客",
-      "zh": "我觉得聊天这一点也不能忽略。",
-      "pinyin": "Wǒ jué de liáo tiān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sohbet etmek konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得早上这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zǎo shàng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sabah konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC026_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_009",
       "speaker": "刘梅",
-      "zh": "说到早上，你怎么看？",
-      "pinyin": "Shuō dào zǎo shàng, nǐ zěn me kàn?",
-      "tr": "sabah konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_013",
       "speaker": "刘梅",
-      "zh": "我觉得顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得日常这一点也不能忽略。",
+      "pinyin": "Wǒ jué de rì cháng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence günlük rutin konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC026_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_015",
       "speaker": "顾客",
-      "zh": "说到日常，你怎么看？",
-      "pinyin": "Shuō dào rì cháng, nǐ zěn me kàn?",
-      "tr": "günlük rutin konusunda ne düşünüyorsun?"
+      "zh": "说到欢迎，你怎么看？",
+      "pinyin": "Shuō dào huān yíng, nǐ zěn me kàn?",
+      "tr": "hoş geldin konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_077",
       "speaker": "刘梅",
-      "zh": "说到欢迎，你怎么看？",
-      "pinyin": "Shuō dào huān yíng, nǐ zěn me kàn?",
-      "tr": "hoş geldin konusunda ne düşünüyorsun?"
+      "zh": "说到常客，你怎么看？",
+      "pinyin": "Shuō dào cháng kè, nǐ zěn me kàn?",
+      "tr": "düzenli müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_081",
       "speaker": "刘梅",
-      "zh": "我觉得常客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de cháng kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence düzenli müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得聊天这一点也不能忽略。",
+      "pinyin": "Wǒ jué de liáo tiān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sohbet etmek konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC026_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_085",
       "speaker": "刘梅",
-      "zh": "说到聊天，你怎么看？",
-      "pinyin": "Shuō dào liáo tiān, nǐ zěn me kàn?",
-      "tr": "sohbet etmek konusunda ne düşünüyorsun?"
+      "zh": "说到早上，你怎么看？",
+      "pinyin": "Shuō dào zǎo shàng, nǐ zěn me kàn?",
+      "tr": "sabah konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_089",
       "speaker": "刘梅",
-      "zh": "我觉得早上这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zǎo shàng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sabah konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC026_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC026_093",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到日常，你怎么看？",
+      "pinyin": "Shuō dào rì cháng, nǐ zěn me kàn?",
+      "tr": "günlük rutin konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC026_094",

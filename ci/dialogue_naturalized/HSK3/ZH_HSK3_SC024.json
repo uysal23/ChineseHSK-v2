@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC024",
   "level": "HSK3",
   "sourceTitleZh": "雨桐在咖啡馆打工",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“雨桐在咖啡馆打工”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ yǔ tóng zài kā fēi guǎn dǎ gōng ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Yutong Kafede Çalışıyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊打工这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo dǎ gōng zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ücretli çalışmak konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC024_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_003",
       "speaker": "顾客",
-      "zh": "那要不要先打工一下？",
-      "pinyin": "Nà yào bù yào xiān dǎ gōng yī xià?",
-      "tr": "O zaman önce “ücretli çalışmak” kısmını ele alalım mı?"
+      "zh": "说到责任，你怎么看？",
+      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
+      "tr": "sorumluluk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_007",
       "speaker": "顾客",
-      "zh": "我觉得责任这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zé rèn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sorumluluk konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得顾客这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC024_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_009",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到服务，你怎么看？",
+      "pinyin": "Shuō dào fú wù, nǐ zěn me kàn?",
+      "tr": "hizmet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_013",
       "speaker": "刘梅",
-      "zh": "我觉得服务这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fú wù zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence hizmet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得工作时间这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng zuò shí jiān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çalışma saatleri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC024_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_015",
       "speaker": "顾客",
-      "zh": "说到工作时间，你怎么看？",
-      "pinyin": "Shuō dào gōng zuò shí jiān, nǐ zěn me kàn?",
-      "tr": "çalışma saatleri konusunda ne düşünüyorsun?"
+      "zh": "说到订单，你怎么看？",
+      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
+      "tr": "sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_077",
       "speaker": "刘梅",
-      "zh": "说到订单，你怎么看？",
-      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
-      "tr": "sipariş konusunda ne düşünüyorsun?"
+      "zh": "那要不要先打工一下？",
+      "pinyin": "Nà yào bù yào xiān dǎ gōng yī xià?",
+      "tr": "O zaman önce “ücretli çalışmak” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_081",
       "speaker": "刘梅",
-      "zh": "我觉得先打工一下比较好。",
-      "pinyin": "Wǒ jué de xiān dǎ gōng yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “ücretli çalışmak” kısmını ele almak daha iyi olur."
+      "zh": "我觉得责任这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zé rèn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sorumluluk konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC024_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_085",
       "speaker": "刘梅",
-      "zh": "说到责任，你怎么看？",
-      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
-      "tr": "sorumluluk konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_089",
       "speaker": "刘梅",
-      "zh": "我觉得顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得服务这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fú wù zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence hizmet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC024_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC024_093",
       "speaker": "刘梅",
-      "zh": "说到服务，你怎么看？",
-      "pinyin": "Shuō dào fú wù, nǐ zěn me kàn?",
-      "tr": "hizmet konusunda ne düşünüyorsun?"
+      "zh": "说到工作时间，你怎么看？",
+      "pinyin": "Shuō dào gōng zuò shí jiān, nǐ zěn me kàn?",
+      "tr": "çalışma saatleri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC024_094",

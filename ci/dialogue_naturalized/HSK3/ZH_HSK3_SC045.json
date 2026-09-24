@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC045",
   "level": "HSK3",
   "sourceTitleZh": "乐乐的科学展",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_001",
       "speaker": "张乐乐",
-      "zh": "今天正好有时间，我们把“乐乐的科学展”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lè lè de kē xué zhǎn ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Lele Bilim Fuarında” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊科学展这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo kē xué zhǎn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken bilim fuarı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC045_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_003",
       "speaker": "张伟",
-      "zh": "说到科学展，你怎么看？",
-      "pinyin": "Shuō dào kē xué zhǎn, nǐ zěn me kàn?",
-      "tr": "bilim fuarı konusunda ne düşünüyorsun?"
+      "zh": "说到实验，你怎么看？",
+      "pinyin": "Shuō dào shí yàn, nǐ zěn me kàn?",
+      "tr": "deney konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_007",
       "speaker": "张伟",
-      "zh": "我觉得实验这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shí yàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence deney konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得问题这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèn tí zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sorun konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC045_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_009",
       "speaker": "张乐乐",
-      "zh": "说到问题，你怎么看？",
-      "pinyin": "Shuō dào wèn tí, nǐ zěn me kàn?",
-      "tr": "sorun konusunda ne düşünüyorsun?"
+      "zh": "说到结果，你怎么看？",
+      "pinyin": "Shuō dào jié guǒ, nǐ zěn me kàn?",
+      "tr": "sonuç konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_013",
       "speaker": "张乐乐",
-      "zh": "我觉得结果这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jié guǒ zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sonuç konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得因为这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yīn wèi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence çünkü konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC045_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_015",
       "speaker": "张伟",
-      "zh": "说到因为，你怎么看？",
-      "pinyin": "Shuō dào yīn wèi, nǐ zěn me kàn?",
-      "tr": "çünkü konusunda ne düşünüyorsun?"
+      "zh": "说到解决办法，你怎么看？",
+      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
+      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_077",
       "speaker": "张乐乐",
-      "zh": "说到解决办法，你怎么看？",
-      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
-      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
+      "zh": "说到科学展，你怎么看？",
+      "pinyin": "Shuō dào kē xué zhǎn, nǐ zěn me kàn?",
+      "tr": "bilim fuarı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_081",
       "speaker": "张乐乐",
-      "zh": "我觉得科学展这一点也不能忽略。",
-      "pinyin": "Wǒ jué de kē xué zhǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence bilim fuarı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得实验这一点也不能忽略。",
+      "pinyin": "Wǒ jué de shí yàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence deney konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC045_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_085",
       "speaker": "张乐乐",
-      "zh": "说到实验，你怎么看？",
-      "pinyin": "Shuō dào shí yàn, nǐ zěn me kàn?",
-      "tr": "deney konusunda ne düşünüyorsun?"
+      "zh": "说到问题，你怎么看？",
+      "pinyin": "Shuō dào wèn tí, nǐ zěn me kàn?",
+      "tr": "sorun konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_089",
       "speaker": "张乐乐",
-      "zh": "我觉得问题这一点也不能忽略。",
-      "pinyin": "Wǒ jué de wèn tí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sorun konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得结果这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jié guǒ zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sonuç konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC045_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC045_093",
       "speaker": "张乐乐",
-      "zh": "说到结果，你怎么看？",
-      "pinyin": "Shuō dào jié guǒ, nǐ zěn me kàn?",
-      "tr": "sonuç konusunda ne düşünüyorsun?"
+      "zh": "说到因为，你怎么看？",
+      "pinyin": "Shuō dào yīn wèi, nǐ zěn me kàn?",
+      "tr": "çünkü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC045_094",

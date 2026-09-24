@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC036",
   "level": "HSK3",
   "sourceTitleZh": "面粉用完了",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“面粉用完了”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ miàn fěn yòng wán le ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Malzeme Eksikliği” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊面粉这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo miàn fěn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken un konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_003",
       "speaker": "顾客",
-      "zh": "说到面粉，你怎么看？",
-      "pinyin": "Shuō dào miàn fěn, nǐ zěn me kàn?",
-      "tr": "un konusunda ne düşünüyorsun?"
+      "zh": "说到供应商，你怎么看？",
+      "pinyin": "Shuō dào gōng yìng shāng, nǐ zěn me kàn?",
+      "tr": "tedarikçi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_007",
       "speaker": "顾客",
-      "zh": "我觉得供应商这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gōng yìng shāng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence tedarikçi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得还差这一点也不能忽略。",
+      "pinyin": "Wǒ jué de hái chà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence eksik kalmak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_009",
       "speaker": "刘梅",
-      "zh": "说到还差，你怎么看？",
-      "pinyin": "Shuō dào hái chà, nǐ zěn me kàn?",
-      "tr": "eksik kalmak konusunda ne düşünüyorsun?"
+      "zh": "说到马上，你怎么看？",
+      "pinyin": "Shuō dào mǎ shàng, nǐ zěn me kàn?",
+      "tr": "hemen konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_013",
       "speaker": "刘梅",
-      "zh": "我觉得马上这一点也不能忽略。",
-      "pinyin": "Wǒ jué de mǎ shàng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence hemen konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得订单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de dìng dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sipariş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_015",
       "speaker": "顾客",
-      "zh": "说到订单，你怎么看？",
-      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
-      "tr": "sipariş konusunda ne düşünüyorsun?"
+      "zh": "说到解决办法，你怎么看？",
+      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
+      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_077",
       "speaker": "刘梅",
-      "zh": "说到解决办法，你怎么看？",
-      "pinyin": "Shuō dào jiě jué bàn fǎ, nǐ zěn me kàn?",
-      "tr": "çözüm yolu konusunda ne düşünüyorsun?"
+      "zh": "说到面粉，你怎么看？",
+      "pinyin": "Shuō dào miàn fěn, nǐ zěn me kàn?",
+      "tr": "un konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_081",
       "speaker": "刘梅",
-      "zh": "我觉得面粉这一点也不能忽略。",
-      "pinyin": "Wǒ jué de miàn fěn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence un konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得供应商这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng yìng shāng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence tedarikçi konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_085",
       "speaker": "刘梅",
-      "zh": "说到供应商，你怎么看？",
-      "pinyin": "Shuō dào gōng yìng shāng, nǐ zěn me kàn?",
-      "tr": "tedarikçi konusunda ne düşünüyorsun?"
+      "zh": "说到还差，你怎么看？",
+      "pinyin": "Shuō dào hái chà, nǐ zěn me kàn?",
+      "tr": "eksik kalmak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_089",
       "speaker": "刘梅",
-      "zh": "我觉得还差这一点也不能忽略。",
-      "pinyin": "Wǒ jué de hái chà zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence eksik kalmak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得马上这一点也不能忽略。",
+      "pinyin": "Wǒ jué de mǎ shàng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence hemen konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC036_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC036_093",
       "speaker": "刘梅",
-      "zh": "说到马上，你怎么看？",
-      "pinyin": "Shuō dào mǎ shàng, nǐ zěn me kàn?",
-      "tr": "hemen konusunda ne düşünüyorsun?"
+      "zh": "说到订单，你怎么看？",
+      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
+      "tr": "sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC036_094",

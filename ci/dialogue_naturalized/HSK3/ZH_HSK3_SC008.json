@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC008",
   "level": "HSK3",
   "sourceTitleZh": "很便宜，但是太小",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“很便宜，但是太小”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ hěn pián yi, dàn shì tài xiǎo ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Çok Ucuz Ama Çok Küçük” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊店面这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo diàn miàn zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken dükkân / iş yeri konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC008_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_003",
       "speaker": "顾客",
-      "zh": "说到店面，你怎么看？",
-      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
-      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
+      "zh": "说到房租，你怎么看？",
+      "pinyin": "Shuō dào fáng zū, nǐ zěn me kàn?",
+      "tr": "kira konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_007",
       "speaker": "顾客",
-      "zh": "我觉得房租这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fáng zū zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kira konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得小这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xiǎo zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence küçük konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC008_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_009",
       "speaker": "刘梅",
-      "zh": "说到小，你怎么看？",
-      "pinyin": "Shuō dào xiǎo, nǐ zěn me kàn?",
-      "tr": "küçük konusunda ne düşünüyorsun?"
+      "zh": "说到缺点，你怎么看？",
+      "pinyin": "Shuō dào quē diǎn, nǐ zěn me kàn?",
+      "tr": "dezavantaj konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_013",
       "speaker": "刘梅",
-      "zh": "我觉得缺点这一点也不能忽略。",
-      "pinyin": "Wǒ jué de quē diǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence dezavantaj konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得优点这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yōu diǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence avantaj konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC008_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_015",
       "speaker": "顾客",
-      "zh": "说到优点，你怎么看？",
-      "pinyin": "Shuō dào yōu diǎn, nǐ zěn me kàn?",
-      "tr": "avantaj konusunda ne düşünüyorsun?"
+      "zh": "说到需要，你怎么看？",
+      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
+      "tr": "gerekmek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_077",
       "speaker": "刘梅",
-      "zh": "说到需要，你怎么看？",
-      "pinyin": "Shuō dào xū yào, nǐ zěn me kàn?",
-      "tr": "gerekmek konusunda ne düşünüyorsun?"
+      "zh": "说到店面，你怎么看？",
+      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
+      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_081",
       "speaker": "刘梅",
-      "zh": "我觉得店面这一点也不能忽略。",
-      "pinyin": "Wǒ jué de diàn miàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence dükkân / iş yeri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得房租这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fáng zū zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence kira konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC008_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_085",
       "speaker": "刘梅",
-      "zh": "说到房租，你怎么看？",
-      "pinyin": "Shuō dào fáng zū, nǐ zěn me kàn?",
-      "tr": "kira konusunda ne düşünüyorsun?"
+      "zh": "说到小，你怎么看？",
+      "pinyin": "Shuō dào xiǎo, nǐ zěn me kàn?",
+      "tr": "küçük konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_089",
       "speaker": "刘梅",
-      "zh": "我觉得小这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xiǎo zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence küçük konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得缺点这一点也不能忽略。",
+      "pinyin": "Wǒ jué de quē diǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence dezavantaj konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC008_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC008_093",
       "speaker": "刘梅",
-      "zh": "说到缺点，你怎么看？",
-      "pinyin": "Shuō dào quē diǎn, nǐ zěn me kàn?",
-      "tr": "dezavantaj konusunda ne düşünüyorsun?"
+      "zh": "说到优点，你怎么看？",
+      "pinyin": "Shuō dào yōu diǎn, nǐ zěn me kàn?",
+      "tr": "avantaj konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC008_094",

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC035",
   "level": "HSK3",
   "sourceTitleZh": "第一个大订单",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“第一个大订单”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè dà dìng dān ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “İlk Büyük Sipariş” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊大订单这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo dà dìng dān zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken büyük sipariş konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_003",
       "speaker": "顾客",
-      "zh": "说到大订单，你怎么看？",
-      "pinyin": "Shuō dào dà dìng dān, nǐ zěn me kàn?",
-      "tr": "büyük sipariş konusunda ne düşünüyorsun?"
+      "zh": "说到交货时间，你怎么看？",
+      "pinyin": "Shuō dào jiāo huò shí jiān, nǐ zěn me kàn?",
+      "tr": "teslim zamanı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_007",
       "speaker": "顾客",
-      "zh": "我觉得交货时间这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiāo huò shí jiān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence teslim zamanı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得份这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fèn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence porsiyon / adet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_009",
       "speaker": "刘梅",
-      "zh": "说到份，你怎么看？",
-      "pinyin": "Shuō dào fèn, nǐ zěn me kàn?",
-      "tr": "porsiyon / adet konusunda ne düşünüyorsun?"
+      "zh": "那要不要先安排一下？",
+      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
+      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_013",
       "speaker": "刘梅",
-      "zh": "我觉得先安排一下比较好。",
-      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
+      "zh": "我觉得订单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de dìng dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sipariş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_015",
       "speaker": "顾客",
-      "zh": "说到订单，你怎么看？",
-      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
-      "tr": "sipariş konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_077",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到大订单，你怎么看？",
+      "pinyin": "Shuō dào dà dìng dān, nǐ zěn me kàn?",
+      "tr": "büyük sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_081",
       "speaker": "刘梅",
-      "zh": "我觉得大订单这一点也不能忽略。",
-      "pinyin": "Wǒ jué de dà dìng dān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence büyük sipariş konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得交货时间这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jiāo huò shí jiān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence teslim zamanı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_085",
       "speaker": "刘梅",
-      "zh": "说到交货时间，你怎么看？",
-      "pinyin": "Shuō dào jiāo huò shí jiān, nǐ zěn me kàn?",
-      "tr": "teslim zamanı konusunda ne düşünüyorsun?"
+      "zh": "说到份，你怎么看？",
+      "pinyin": "Shuō dào fèn, nǐ zěn me kàn?",
+      "tr": "porsiyon / adet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_089",
       "speaker": "刘梅",
-      "zh": "我觉得份这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fèn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence porsiyon / adet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先安排一下比较好。",
+      "pinyin": "Wǒ jué de xiān ān pái yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “planlama / düzenleme” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC035_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC035_093",
       "speaker": "刘梅",
-      "zh": "那要不要先安排一下？",
-      "pinyin": "Nà yào bù yào xiān ān pái yī xià?",
-      "tr": "O zaman önce “planlama / düzenleme” kısmını ele alalım mı?"
+      "zh": "说到订单，你怎么看？",
+      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
+      "tr": "sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC035_094",

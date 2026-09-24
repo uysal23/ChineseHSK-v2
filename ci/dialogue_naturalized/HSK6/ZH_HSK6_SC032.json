@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC032",
   "level": "HSK6",
   "sourceTitleZh": "刘梅讲小生意",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“刘梅讲小生意”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ liú méi jiǎng xiǎo shēng yì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Liu Mei Girişimcilik Atölyesinde” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊创业工作坊这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo chuàng yè gōng zuō fang zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken girişimcilik atölyesi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_004",
       "speaker": "主持人",
-      "zh": "先说说创业工作坊吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō chuàng yè gōng zuō fang ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce girişimcilik atölyesi konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到失败经验这件事，你现在怎么看？",
+      "pinyin": "Huí dào shī bài jīng yàn zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "başarısızlık deneyimi konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_006",
       "speaker": "创业者",
-      "zh": "对，失败经验会直接影响我们后面的安排。",
-      "pinyin": "Duì, shī bài jīng yàn huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, başarısızlık deneyimi sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于现金流，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú xiàn jīn liú, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "nakit akışı konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_009",
       "speaker": "刘梅",
-      "zh": "如果把现金流也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ xiàn jīn liú yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "nakit akışı konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于顾客价值，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú gù kè jià zhí, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "müşteri değeri konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_011",
       "speaker": "张伟",
-      "zh": "至少在顾客价值这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài gù kè jià zhí zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından müşteri değeri konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_014",
       "speaker": "创业者",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_016",
       "speaker": "主持人",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_020",
       "speaker": "主持人",
-      "zh": "回到创业工作坊这件事，你现在怎么看？",
-      "pinyin": "Huí dào chuàng yè gōng zuō fang zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "girişimcilik atölyesi konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_022",
       "speaker": "创业者",
-      "zh": "关于失败经验，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú shī bài jīng yàn, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "başarısızlık deneyimi konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_025",
       "speaker": "刘梅",
-      "zh": "关于现金流，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú xiàn jīn liú, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "nakit akışı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_027",
       "speaker": "张伟",
-      "zh": "说到顾客价值，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào gù kè jià zhí, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "müşteri değeri konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_030",
       "speaker": "创业者",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_032",
       "speaker": "主持人",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_038",
       "speaker": "创业者",
-      "zh": "如果把创业工作坊也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ chuàng yè gōng zuō fang yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "girişimcilik atölyesi konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_040",
       "speaker": "主持人",
-      "zh": "至少在失败经验这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài shī bài jīng yàn zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından başarısızlık deneyimi konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_043",
       "speaker": "张伟",
-      "zh": "现在再看现金流，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn xiàn jīn liú, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "nakit akışı konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_045",
       "speaker": "刘梅",
-      "zh": "我觉得顾客价值这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de gù kè jià zhí zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence müşteri değeri konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_048",
       "speaker": "主持人",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_050",
       "speaker": "创业者",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_056",
       "speaker": "主持人",
-      "zh": "关于创业工作坊，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú chuàng yè gōng zuō fang, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "girişimcilik atölyesi konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_058",
       "speaker": "创业者",
-      "zh": "说到失败经验，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào shī bài jīng yàn, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "başarısızlık deneyimi konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_061",
       "speaker": "刘梅",
-      "zh": "先说说现金流吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō xiàn jīn liú ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce nakit akışı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_063",
       "speaker": "张伟",
-      "zh": "对，顾客价值会直接影响我们后面的安排。",
-      "pinyin": "Duì, gù kè jià zhí huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, müşteri değeri sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_066",
       "speaker": "创业者",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_068",
       "speaker": "主持人",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_074",
       "speaker": "创业者",
-      "zh": "现在再看创业工作坊，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn chuàng yè gōng zuō fang, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "girişimcilik atölyesi konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_076",
       "speaker": "主持人",
-      "zh": "我觉得失败经验这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de shī bài jīng yàn zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence başarısızlık deneyimi konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_079",
       "speaker": "张伟",
-      "zh": "回到现金流这件事，你现在怎么看？",
-      "pinyin": "Huí dào xiàn jīn liú zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "nakit akışı konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_081",
       "speaker": "刘梅",
-      "zh": "关于顾客价值，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú gù kè jià zhí, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "müşteri değeri konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_084",
       "speaker": "主持人",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC032_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC032_086",
       "speaker": "创业者",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC032_087",

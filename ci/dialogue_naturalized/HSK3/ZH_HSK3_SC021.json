@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC021",
   "level": "HSK3",
   "sourceTitleZh": "第一个真正的顾客",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“第一个真正的顾客”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ dì yí gè zhēn zhèng de gù kè ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “İlk Gerçek Müşteri” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊正式顾客这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhèng shì gù kè zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken gerçek/normal müşteri konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC021_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_003",
       "speaker": "顾客",
-      "zh": "说到正式顾客，你怎么看？",
-      "pinyin": "Shuō dào zhèng shì gù kè, nǐ zěn me kàn?",
-      "tr": "gerçek/normal müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到详细订单，你怎么看？",
+      "pinyin": "Shuō dào xiáng xì dìng dān, nǐ zěn me kàn?",
+      "tr": "ayrıntılı sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_007",
       "speaker": "顾客",
-      "zh": "我觉得详细订单这一点也不能忽略。",
-      "pinyin": "Wǒ jué de xiáng xì dìng dān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ayrıntılı sipariş konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得订单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de dìng dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sipariş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC021_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_009",
       "speaker": "刘梅",
-      "zh": "说到订单，你怎么看？",
-      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
-      "tr": "sipariş konusunda ne düşünüyorsun?"
+      "zh": "那要不要先确认一下？",
+      "pinyin": "Nà yào bù yào xiān què rèn yī xià?",
+      "tr": "O zaman önce “teyit etmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_013",
       "speaker": "刘梅",
-      "zh": "我觉得先确认一下比较好。",
-      "pinyin": "Wǒ jué de xiān què rèn yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “teyit etmek” kısmını ele almak daha iyi olur."
+      "zh": "我觉得菜单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de cài dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence menü konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC021_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_015",
       "speaker": "顾客",
-      "zh": "说到菜单，你怎么看？",
-      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
-      "tr": "menü konusunda ne düşünüyorsun?"
+      "zh": "说到顾客，你怎么看？",
+      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
+      "tr": "müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_077",
       "speaker": "刘梅",
-      "zh": "说到顾客，你怎么看？",
-      "pinyin": "Shuō dào gù kè, nǐ zěn me kàn?",
-      "tr": "müşteri konusunda ne düşünüyorsun?"
+      "zh": "说到正式顾客，你怎么看？",
+      "pinyin": "Shuō dào zhèng shì gù kè, nǐ zěn me kàn?",
+      "tr": "gerçek/normal müşteri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_081",
       "speaker": "刘梅",
-      "zh": "我觉得正式顾客这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhèng shì gù kè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence gerçek/normal müşteri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得详细订单这一点也不能忽略。",
+      "pinyin": "Wǒ jué de xiáng xì dìng dān zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence ayrıntılı sipariş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC021_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_085",
       "speaker": "刘梅",
-      "zh": "说到详细订单，你怎么看？",
-      "pinyin": "Shuō dào xiáng xì dìng dān, nǐ zěn me kàn?",
-      "tr": "ayrıntılı sipariş konusunda ne düşünüyorsun?"
+      "zh": "说到订单，你怎么看？",
+      "pinyin": "Shuō dào dìng dān, nǐ zěn me kàn?",
+      "tr": "sipariş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_089",
       "speaker": "刘梅",
-      "zh": "我觉得订单这一点也不能忽略。",
-      "pinyin": "Wǒ jué de dìng dān zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sipariş konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先确认一下比较好。",
+      "pinyin": "Wǒ jué de xiān què rèn yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “teyit etmek” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC021_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC021_093",
       "speaker": "刘梅",
-      "zh": "那要不要先确认一下？",
-      "pinyin": "Nà yào bù yào xiān què rèn yī xià?",
-      "tr": "O zaman önce “teyit etmek” kısmını ele alalım mı?"
+      "zh": "说到菜单，你怎么看？",
+      "pinyin": "Shuō dào cài dān, nǐ zěn me kàn?",
+      "tr": "menü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC021_094",

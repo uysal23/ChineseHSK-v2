@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC037",
   "level": "HSK3",
   "sourceTitleZh": "张伟可能升职",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“张伟可能升职”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhāng wěi kě néng shēng zhí ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Zhang’ın Terfi İhtimali” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊升职这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo shēng zhí zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken terfi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC037_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_003",
       "speaker": "同事",
-      "zh": "说到升职，你怎么看？",
-      "pinyin": "Shuō dào shēng zhí, nǐ zěn me kàn?",
-      "tr": "terfi konusunda ne düşünüyorsun?"
+      "zh": "说到职业发展，你怎么看？",
+      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
+      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_007",
       "speaker": "同事",
-      "zh": "我觉得职业发展这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhí yè fā zhǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kariyer gelişimi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得责任这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zé rèn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence sorumluluk konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC037_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_009",
       "speaker": "张伟",
-      "zh": "说到责任，你怎么看？",
-      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
-      "tr": "sorumluluk konusunda ne düşünüyorsun?"
+      "zh": "说到工作，你怎么看？",
+      "pinyin": "Shuō dào gōng zuò, nǐ zěn me kàn?",
+      "tr": "iş konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_013",
       "speaker": "张伟",
-      "zh": "我觉得工作这一点也不能忽略。",
-      "pinyin": "Wǒ jué de gōng zuò zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence iş konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得未来计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèi lái jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gelecek planı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC037_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_015",
       "speaker": "同事",
-      "zh": "说到未来计划，你怎么看？",
-      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
-      "tr": "gelecek planı konusunda ne düşünüyorsun?"
+      "zh": "说到家人，你怎么看？",
+      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
+      "tr": "aile konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_077",
       "speaker": "张伟",
-      "zh": "说到家人，你怎么看？",
-      "pinyin": "Shuō dào jiā rén, nǐ zěn me kàn?",
-      "tr": "aile konusunda ne düşünüyorsun?"
+      "zh": "说到升职，你怎么看？",
+      "pinyin": "Shuō dào shēng zhí, nǐ zěn me kàn?",
+      "tr": "terfi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_081",
       "speaker": "张伟",
-      "zh": "我觉得升职这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shēng zhí zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence terfi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得职业发展这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhí yè fā zhǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence kariyer gelişimi konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC037_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_085",
       "speaker": "张伟",
-      "zh": "说到职业发展，你怎么看？",
-      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
-      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
+      "zh": "说到责任，你怎么看？",
+      "pinyin": "Shuō dào zé rèn, nǐ zěn me kàn?",
+      "tr": "sorumluluk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_089",
       "speaker": "张伟",
-      "zh": "我觉得责任这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zé rèn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence sorumluluk konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得工作这一点也不能忽略。",
+      "pinyin": "Wǒ jué de gōng zuò zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence iş konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC037_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC037_093",
       "speaker": "张伟",
-      "zh": "说到工作，你怎么看？",
-      "pinyin": "Shuō dào gōng zuò, nǐ zěn me kàn?",
-      "tr": "iş konusunda ne düşünüyorsun?"
+      "zh": "说到未来计划，你怎么看？",
+      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
+      "tr": "gelecek planı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC037_094",

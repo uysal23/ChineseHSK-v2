@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC014",
   "level": "HSK3",
   "sourceTitleZh": "开始装修",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“开始装修”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ kāi shǐ zhuāng xiū ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Tadilat Başlıyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊装修这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhuāng xiū zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken tadilat konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_003",
       "speaker": "顾客",
-      "zh": "那要不要先装修一下？",
-      "pinyin": "Nà yào bù yào xiān zhuāng xiū yī xià?",
-      "tr": "O zaman önce “tadilat” kısmını ele alalım mı?"
+      "zh": "说到墙，你怎么看？",
+      "pinyin": "Shuō dào qiáng, nǐ zěn me kàn?",
+      "tr": "duvar konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_007",
       "speaker": "顾客",
-      "zh": "我觉得墙这一点也不能忽略。",
-      "pinyin": "Wǒ jué de qiáng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence duvar konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得颜色这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yán sè zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence renk konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_009",
       "speaker": "刘梅",
-      "zh": "说到颜色，你怎么看？",
-      "pinyin": "Shuō dào yán sè, nǐ zěn me kàn?",
-      "tr": "renk konusunda ne düşünüyorsun?"
+      "zh": "说到尺寸，你怎么看？",
+      "pinyin": "Shuō dào chǐ cùn, nǐ zěn me kàn?",
+      "tr": "ölçü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_013",
       "speaker": "刘梅",
-      "zh": "我觉得尺寸这一点也不能忽略。",
-      "pinyin": "Wǒ jué de chǐ cùn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ölçü konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得老桌子这一点也不能忽略。",
+      "pinyin": "Wǒ jué de lǎo zhuō zi zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence eski masa konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_015",
       "speaker": "顾客",
-      "zh": "说到老桌子，你怎么看？",
-      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
-      "tr": "eski masa konusunda ne düşünüyorsun?"
+      "zh": "那要不要先选择一下？",
+      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
+      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_077",
       "speaker": "刘梅",
-      "zh": "那要不要先选择一下？",
-      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
-      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
+      "zh": "那要不要先装修一下？",
+      "pinyin": "Nà yào bù yào xiān zhuāng xiū yī xià?",
+      "tr": "O zaman önce “tadilat” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_081",
       "speaker": "刘梅",
-      "zh": "我觉得先装修一下比较好。",
-      "pinyin": "Wǒ jué de xiān zhuāng xiū yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “tadilat” kısmını ele almak daha iyi olur."
+      "zh": "我觉得墙这一点也不能忽略。",
+      "pinyin": "Wǒ jué de qiáng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence duvar konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_085",
       "speaker": "刘梅",
-      "zh": "说到墙，你怎么看？",
-      "pinyin": "Shuō dào qiáng, nǐ zěn me kàn?",
-      "tr": "duvar konusunda ne düşünüyorsun?"
+      "zh": "说到颜色，你怎么看？",
+      "pinyin": "Shuō dào yán sè, nǐ zěn me kàn?",
+      "tr": "renk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_089",
       "speaker": "刘梅",
-      "zh": "我觉得颜色这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yán sè zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence renk konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得尺寸这一点也不能忽略。",
+      "pinyin": "Wǒ jué de chǐ cùn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence ölçü konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC014_093",
       "speaker": "刘梅",
-      "zh": "说到尺寸，你怎么看？",
-      "pinyin": "Shuō dào chǐ cùn, nǐ zěn me kàn?",
-      "tr": "ölçü konusunda ne düşünüyorsun?"
+      "zh": "说到老桌子，你怎么看？",
+      "pinyin": "Shuō dào lǎo zhuō zi, nǐ zěn me kàn?",
+      "tr": "eski masa konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_094",

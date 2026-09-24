@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC012",
   "level": "HSK3",
   "sourceTitleZh": "给咖啡馆起名字",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“给咖啡馆起名字”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ gěi kā fēi guǎn qǐ míng zì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Kafe İsmi Aranıyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊店名这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo diàn míng zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken kafe adı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC012_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_003",
       "speaker": "顾客",
-      "zh": "说到店名，你怎么看？",
-      "pinyin": "Shuō dào diàn míng, nǐ zěn me kàn?",
-      "tr": "kafe adı konusunda ne düşünüyorsun?"
+      "zh": "说到好记，你怎么看？",
+      "pinyin": "Shuō dào hǎo jì, nǐ zěn me kàn?",
+      "tr": "akılda kalıcı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_007",
       "speaker": "顾客",
-      "zh": "我觉得好记这一点也不能忽略。",
-      "pinyin": "Wǒ jué de hǎo jì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence akılda kalıcı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先选择一下比较好。",
+      "pinyin": "Wǒ jué de xiān xuǎn zé yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “seçmek” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC012_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_009",
       "speaker": "刘梅",
-      "zh": "那要不要先选择一下？",
-      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
-      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
+      "zh": "说到意思，你怎么看？",
+      "pinyin": "Shuō dào yì si, nǐ zěn me kàn?",
+      "tr": "anlam / niyet konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_013",
       "speaker": "刘梅",
-      "zh": "我觉得意思这一点也不能忽略。",
-      "pinyin": "Wǒ jué de yì si zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence anlam / niyet konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence plan konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC012_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_015",
       "speaker": "顾客",
-      "zh": "说到计划，你怎么看？",
-      "pinyin": "Shuō dào jì huà, nǐ zěn me kàn?",
-      "tr": "plan konusunda ne düşünüyorsun?"
+      "zh": "那要不要先决定一下？",
+      "pinyin": "Nà yào bù yào xiān jué dìng yī xià?",
+      "tr": "O zaman önce “karar vermek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_077",
       "speaker": "刘梅",
-      "zh": "那要不要先决定一下？",
-      "pinyin": "Nà yào bù yào xiān jué dìng yī xià?",
-      "tr": "O zaman önce “karar vermek” kısmını ele alalım mı?"
+      "zh": "说到店名，你怎么看？",
+      "pinyin": "Shuō dào diàn míng, nǐ zěn me kàn?",
+      "tr": "kafe adı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_081",
       "speaker": "刘梅",
-      "zh": "我觉得店名这一点也不能忽略。",
-      "pinyin": "Wǒ jué de diàn míng zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kafe adı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得好记这一点也不能忽略。",
+      "pinyin": "Wǒ jué de hǎo jì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence akılda kalıcı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC012_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_085",
       "speaker": "刘梅",
-      "zh": "说到好记，你怎么看？",
-      "pinyin": "Shuō dào hǎo jì, nǐ zěn me kàn?",
-      "tr": "akılda kalıcı konusunda ne düşünüyorsun?"
+      "zh": "那要不要先选择一下？",
+      "pinyin": "Nà yào bù yào xiān xuǎn zé yī xià?",
+      "tr": "O zaman önce “seçmek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_089",
       "speaker": "刘梅",
-      "zh": "我觉得先选择一下比较好。",
-      "pinyin": "Wǒ jué de xiān xuǎn zé yī xià bǐ jiào hǎo.",
-      "tr": "Bence önce “seçmek” kısmını ele almak daha iyi olur."
+      "zh": "我觉得意思这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yì si zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence anlam / niyet konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC012_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC012_093",
       "speaker": "刘梅",
-      "zh": "说到意思，你怎么看？",
-      "pinyin": "Shuō dào yì si, nǐ zěn me kàn?",
-      "tr": "anlam / niyet konusunda ne düşünüyorsun?"
+      "zh": "说到计划，你怎么看？",
+      "pinyin": "Shuō dào jì huà, nǐ zěn me kàn?",
+      "tr": "plan konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC012_094",

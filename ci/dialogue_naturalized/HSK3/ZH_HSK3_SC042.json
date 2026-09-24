@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC042",
   "level": "HSK3",
   "sourceTitleZh": "奶奶的厨房课",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_001",
       "speaker": "张伟",
-      "zh": "今天正好有时间，我们把“奶奶的厨房课”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ nǎi nǎi de chú fáng kè ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Büyükannenin Mutfak Dersi” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊家传菜这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiā chuán cài zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken aile tarifi konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC042_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_003",
       "speaker": "爷爷",
-      "zh": "说到家传菜，你怎么看？",
-      "pinyin": "Shuō dào jiā chuán cài, nǐ zěn me kàn?",
-      "tr": "aile tarifi konusunda ne düşünüyorsun?"
+      "zh": "说到菜谱，你怎么看？",
+      "pinyin": "Shuō dào cài pǔ, nǐ zěn me kàn?",
+      "tr": "tarif konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_007",
       "speaker": "爷爷",
-      "zh": "我觉得菜谱这一点也不能忽略。",
-      "pinyin": "Wǒ jué de cài pǔ zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence tarif konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得步骤这一点也不能忽略。",
+      "pinyin": "Wǒ jué de bù zhòu zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence adım konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC042_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_009",
       "speaker": "张伟",
-      "zh": "说到步骤，你怎么看？",
-      "pinyin": "Shuō dào bù zhòu, nǐ zěn me kàn?",
-      "tr": "adım konusunda ne düşünüyorsun?"
+      "zh": "说到做饭，你怎么看？",
+      "pinyin": "Shuō dào zuò fàn, nǐ zěn me kàn?",
+      "tr": "yemek yapmak konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_013",
       "speaker": "张伟",
-      "zh": "我觉得做饭这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zuò fàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence yemek yapmak konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得传统这一点也不能忽略。",
+      "pinyin": "Wǒ jué de chuán tǒng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gelenek konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC042_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_015",
       "speaker": "爷爷",
-      "zh": "说到传统，你怎么看？",
-      "pinyin": "Shuō dào chuán tǒng, nǐ zěn me kàn?",
-      "tr": "gelenek konusunda ne düşünüyorsun?"
+      "zh": "说到味道，你怎么看？",
+      "pinyin": "Shuō dào wèi dào, nǐ zěn me kàn?",
+      "tr": "tat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_077",
       "speaker": "张伟",
-      "zh": "说到味道，你怎么看？",
-      "pinyin": "Shuō dào wèi dào, nǐ zěn me kàn?",
-      "tr": "tat konusunda ne düşünüyorsun?"
+      "zh": "说到家传菜，你怎么看？",
+      "pinyin": "Shuō dào jiā chuán cài, nǐ zěn me kàn?",
+      "tr": "aile tarifi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_081",
       "speaker": "张伟",
-      "zh": "我觉得家传菜这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiā chuán cài zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence aile tarifi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得菜谱这一点也不能忽略。",
+      "pinyin": "Wǒ jué de cài pǔ zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence tarif konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC042_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_085",
       "speaker": "张伟",
-      "zh": "说到菜谱，你怎么看？",
-      "pinyin": "Shuō dào cài pǔ, nǐ zěn me kàn?",
-      "tr": "tarif konusunda ne düşünüyorsun?"
+      "zh": "说到步骤，你怎么看？",
+      "pinyin": "Shuō dào bù zhòu, nǐ zěn me kàn?",
+      "tr": "adım konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_089",
       "speaker": "张伟",
-      "zh": "我觉得步骤这一点也不能忽略。",
-      "pinyin": "Wǒ jué de bù zhòu zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence adım konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得做饭这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zuò fàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence yemek yapmak konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC042_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC042_093",
       "speaker": "张伟",
-      "zh": "说到做饭，你怎么看？",
-      "pinyin": "Shuō dào zuò fàn, nǐ zěn me kàn?",
-      "tr": "yemek yapmak konusunda ne düşünüyorsun?"
+      "zh": "说到传统，你怎么看？",
+      "pinyin": "Shuō dào chuán tǒng, nǐ zěn me kàn?",
+      "tr": "gelenek konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC042_094",

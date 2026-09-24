@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC011",
   "level": "HSK3",
   "sourceTitleZh": "全家开会",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“全家开会”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ quán jiā kāi huì ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Ailece Karar Toplantısı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊家庭会议这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiā tíng huì yì zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken aile toplantısı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC011_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_003",
       "speaker": "顾客",
-      "zh": "说到家庭会议，你怎么看？",
-      "pinyin": "Shuō dào jiā tíng huì yì, nǐ zěn me kàn?",
-      "tr": "aile toplantısı konusunda ne düşünüyorsun?"
+      "zh": "说到风险，你怎么看？",
+      "pinyin": "Shuō dào fēng xiǎn, nǐ zěn me kàn?",
+      "tr": "risk konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_007",
       "speaker": "顾客",
-      "zh": "我觉得风险这一点也不能忽略。",
-      "pinyin": "Wǒ jué de fēng xiǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence risk konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得好处这一点也不能忽略。",
+      "pinyin": "Wǒ jué de hǎo chù zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence fayda konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC011_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_009",
       "speaker": "刘梅",
-      "zh": "说到好处，你怎么看？",
-      "pinyin": "Shuō dào hǎo chù, nǐ zěn me kàn?",
-      "tr": "fayda konusunda ne düşünüyorsun?"
+      "zh": "说到生意，你怎么看？",
+      "pinyin": "Shuō dào shēng yì, nǐ zěn me kàn?",
+      "tr": "iş / ticaret konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_013",
       "speaker": "刘梅",
-      "zh": "我觉得生意这一点也不能忽略。",
-      "pinyin": "Wǒ jué de shēng yì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence iş / ticaret konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得预算这一点也不能忽略。",
+      "pinyin": "Wǒ jué de yù suàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence bütçe konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC011_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_015",
       "speaker": "顾客",
-      "zh": "说到预算，你怎么看？",
-      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
-      "tr": "bütçe konusunda ne düşünüyorsun?"
+      "zh": "那要不要先决定一下？",
+      "pinyin": "Nà yào bù yào xiān jué dìng yī xià?",
+      "tr": "O zaman önce “karar vermek” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_077",
       "speaker": "刘梅",
-      "zh": "那要不要先决定一下？",
-      "pinyin": "Nà yào bù yào xiān jué dìng yī xià?",
-      "tr": "O zaman önce “karar vermek” kısmını ele alalım mı?"
+      "zh": "说到家庭会议，你怎么看？",
+      "pinyin": "Shuō dào jiā tíng huì yì, nǐ zěn me kàn?",
+      "tr": "aile toplantısı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_081",
       "speaker": "刘梅",
-      "zh": "我觉得家庭会议这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiā tíng huì yì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence aile toplantısı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得风险这一点也不能忽略。",
+      "pinyin": "Wǒ jué de fēng xiǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence risk konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC011_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_085",
       "speaker": "刘梅",
-      "zh": "说到风险，你怎么看？",
-      "pinyin": "Shuō dào fēng xiǎn, nǐ zěn me kàn?",
-      "tr": "risk konusunda ne düşünüyorsun?"
+      "zh": "说到好处，你怎么看？",
+      "pinyin": "Shuō dào hǎo chù, nǐ zěn me kàn?",
+      "tr": "fayda konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_089",
       "speaker": "刘梅",
-      "zh": "我觉得好处这一点也不能忽略。",
-      "pinyin": "Wǒ jué de hǎo chù zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence fayda konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得生意这一点也不能忽略。",
+      "pinyin": "Wǒ jué de shēng yì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence iş / ticaret konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC011_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC011_093",
       "speaker": "刘梅",
-      "zh": "说到生意，你怎么看？",
-      "pinyin": "Shuō dào shēng yì, nǐ zěn me kàn?",
-      "tr": "iş / ticaret konusunda ne düşünüyorsun?"
+      "zh": "说到预算，你怎么看？",
+      "pinyin": "Shuō dào yù suàn, nǐ zěn me kàn?",
+      "tr": "bütçe konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC011_094",

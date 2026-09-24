@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK6_SC013",
   "level": "HSK6",
   "sourceTitleZh": "照片到底属于谁？",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_001",
       "speaker": "张乐乐",
-      "zh": "今天正好有时间，我们把“照片到底属于谁？”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ zhào piān dào dǐ shǔ yú shuí? ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Telif ve Kullanım Anlaşmazlığı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊著作权这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo zhù zuò quán zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken telif hakkı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_002",
@@ -30,9 +30,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_004",
       "speaker": "刘梅",
-      "zh": "先说说著作权吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō zhù zuò quán ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce telif hakkı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "回到授权这件事，你现在怎么看？",
+      "pinyin": "Huí dào shòu quán zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
+      "tr": "lisans / yetkilendirme konusuna dönersek, şu anda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_005",
@@ -44,9 +44,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_006",
       "speaker": "客户",
-      "zh": "对，授权会直接影响我们后面的安排。",
-      "pinyin": "Duì, shòu quán huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, lisans / yetkilendirme sonraki planımızı doğrudan etkileyebilir."
+      "zh": "关于使用范围，我更希望先把事实说清楚。",
+      "pinyin": "Guān yú shǐ yòng fàn wéi, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
+      "tr": "kullanım kapsamı konusunda önce olguları netleştirmeyi tercih ederim."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_007",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_009",
       "speaker": "张乐乐",
-      "zh": "如果把使用范围也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ shǐ yòng fàn wéi yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "kullanım kapsamı konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "关于署名，还有什么需要先确认的吗？",
+      "pinyin": "Guān yú shǔ míng, hái yǒu shén me xū yào xiān què rèn de ma?",
+      "tr": "eser sahibini belirtme konusunda önce teyit etmemiz gereken başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_010",
@@ -79,9 +79,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_011",
       "speaker": "律师",
-      "zh": "至少在署名这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài shǔ míng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından eser sahibini belirtme konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "说到语境，我觉得还是要给彼此一点调整空间。",
+      "pinyin": "Shuō dào yǔ jìng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
+      "tr": "bağlam konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_012",
@@ -100,9 +100,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_014",
       "speaker": "客户",
-      "zh": "现在再看语境，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn yǔ jìng, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "bağlam konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "先说说立场吧，你最在意的是什么？",
+      "pinyin": "Xiān shuō shuō lì chǎng ba, nǐ zuì zài yì de shì shén me?",
+      "tr": "Önce tutum / bakış açısı konusunu konuşalım; senin için en önemli nokta ne?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_015",
@@ -114,9 +114,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_016",
       "speaker": "刘梅",
-      "zh": "我觉得立场这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de lì chǎng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence tutum / bakış açısı konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_017",
@@ -142,9 +142,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_020",
       "speaker": "刘梅",
-      "zh": "回到著作权这件事，你现在怎么看？",
-      "pinyin": "Huí dào zhù zuò quán zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "telif hakkı konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_021",
@@ -156,9 +156,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_022",
       "speaker": "客户",
-      "zh": "关于授权，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú shòu quán, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "lisans / yetkilendirme konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_023",
@@ -177,9 +177,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_025",
       "speaker": "张乐乐",
-      "zh": "关于使用范围，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú shǐ yòng fàn wéi, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "kullanım kapsamı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_026",
@@ -191,9 +191,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_027",
       "speaker": "律师",
-      "zh": "说到署名，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào shǔ míng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "eser sahibini belirtme konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_028",
@@ -212,9 +212,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_030",
       "speaker": "客户",
-      "zh": "先说说语境吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō yǔ jìng ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce bağlam konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_031",
@@ -226,9 +226,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_032",
       "speaker": "刘梅",
-      "zh": "对，立场会直接影响我们后面的安排。",
-      "pinyin": "Duì, lì chǎng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, tutum / bakış açısı sonraki planımızı doğrudan etkileyebilir."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_033",
@@ -268,9 +268,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_038",
       "speaker": "客户",
-      "zh": "如果把著作权也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ zhù zuò quán yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "telif hakkı konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_039",
@@ -282,9 +282,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_040",
       "speaker": "刘梅",
-      "zh": "至少在授权这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài shòu quán zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından lisans / yetkilendirme konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_041",
@@ -303,9 +303,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_043",
       "speaker": "律师",
-      "zh": "现在再看使用范围，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn shǐ yòng fàn wéi, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "kullanım kapsamı konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_044",
@@ -317,9 +317,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_045",
       "speaker": "张乐乐",
-      "zh": "我觉得署名这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de shǔ míng zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence eser sahibini belirtme konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_046",
@@ -338,9 +338,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_048",
       "speaker": "刘梅",
-      "zh": "回到语境这件事，你现在怎么看？",
-      "pinyin": "Huí dào yǔ jìng zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "bağlam konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_049",
@@ -352,9 +352,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_050",
       "speaker": "客户",
-      "zh": "关于立场，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú lì chǎng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "tutum / bakış açısı konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_051",
@@ -394,9 +394,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_056",
       "speaker": "刘梅",
-      "zh": "关于著作权，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú zhù zuò quán, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "telif hakkı konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_057",
@@ -408,9 +408,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_058",
       "speaker": "客户",
-      "zh": "说到授权，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào shòu quán, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "lisans / yetkilendirme konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_059",
@@ -429,9 +429,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_061",
       "speaker": "张乐乐",
-      "zh": "先说说使用范围吧，你最在意的是什么？",
-      "pinyin": "Xiān shuō shuō shǐ yòng fàn wéi ba, nǐ zuì zài yì de shì shén me?",
-      "tr": "Önce kullanım kapsamı konusunu konuşalım; senin için en önemli nokta ne?"
+      "zh": "听完这些，你还想补充哪一点？",
+      "pinyin": "Tīng wán zhè xiē, nǐ hái xiǎng bǔ chōng nǎ yì diǎn?",
+      "tr": "Bunları dinledikten sonra hangi noktayı eklemek istersin?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_062",
@@ -443,9 +443,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_063",
       "speaker": "律师",
-      "zh": "对，署名会直接影响我们后面的安排。",
-      "pinyin": "Duì, shǔ míng huì zhí jiē yǐng xiǎng wǒ men hòu miàn de ān pái.",
-      "tr": "Evet, eser sahibini belirtme sonraki planımızı doğrudan etkileyebilir."
+      "zh": "对，这个角度也值得保留。",
+      "pinyin": "Duì, zhè ge jiǎo dù yě zhí de bǎo liú.",
+      "tr": "Evet, bu bakış açısını da korumak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_064",
@@ -464,9 +464,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_066",
       "speaker": "客户",
-      "zh": "如果把语境也考虑进去，你觉得会有什么影响？",
-      "pinyin": "Rú guǒ bǎ yǔ jìng yě kǎo lǜ jìn qù, nǐ jué de huì yǒu shén me yǐng xiǎng?",
-      "tr": "bağlam konusunu da hesaba katarsak sence nasıl bir etkisi olur?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_067",
@@ -478,9 +478,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_068",
       "speaker": "刘梅",
-      "zh": "至少在立场这件事上，我们已经知道彼此最在意什么了。",
-      "pinyin": "Zhì shǎo zài lì chǎng zhè jiàn shì shàng, wǒ men yǐ jīng zhī dào bǐ cǐ zuì zài yì shén me le.",
-      "tr": "En azından tutum / bakış açısı konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_069",
@@ -520,9 +520,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_074",
       "speaker": "客户",
-      "zh": "现在再看著作权，你的想法和刚开始一样吗？",
-      "pinyin": "Xiàn zài zài kàn zhù zuò quán, nǐ de xiǎng fǎ hé gāng kāi shǐ yī yàng ma?",
-      "tr": "telif hakkı konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"
+      "zh": "如果换个角度看，你会怎么想？",
+      "pinyin": "Rú guǒ huàn gè jiǎo dù kàn, nǐ huì zěn me xiǎng?",
+      "tr": "Başka bir açıdan bakarsan nasıl düşünürsün?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_075",
@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_076",
       "speaker": "刘梅",
-      "zh": "我觉得授权这一点确实不能忽略。",
-      "pinyin": "Wǒ jué de shòu quán zhè yì diǎn què shí bù néng hū lüè.",
-      "tr": "Bence lisans / yetkilendirme konusunu kesinlikle göz ardı edemeyiz."
+      "zh": "我觉得这一点已经比刚开始清楚多了。",
+      "pinyin": "Wǒ jué de zhè yì diǎn yǐ jīng bǐ gāng kāi shǐ qīng chǔ duō le.",
+      "tr": "Bence bu nokta başlangıca göre çok daha net."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_077",
@@ -555,9 +555,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_079",
       "speaker": "律师",
-      "zh": "回到使用范围这件事，你现在怎么看？",
-      "pinyin": "Huí dào shǐ yòng fàn wéi zhè jiàn shì, nǐ xiàn zài zěn me kàn?",
-      "tr": "kullanım kapsamı konusuna dönersek, şu anda ne düşünüyorsun?"
+      "zh": "这一点大家还有不同意见吗？",
+      "pinyin": "Zhè yì diǎn dà jiā hái yǒu bù tóng yì jiàn ma?",
+      "tr": "Bu konuda hâlâ farklı görüşü olan var mı?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_080",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_081",
       "speaker": "张乐乐",
-      "zh": "关于署名，我更希望先把事实说清楚。",
-      "pinyin": "Guān yú shǔ míng, wǒ gèng xī wàng xiān bǎ shì shí shuō qīng chǔ.",
-      "tr": "eser sahibini belirtme konusunda önce olguları netleştirmeyi tercih ederim."
+      "zh": "至少大家都把自己的想法说出来了。",
+      "pinyin": "Zhì shǎo dà jiā dōu bǎ zì jǐ de xiǎng fǎ shuō chū lái le.",
+      "tr": "En azından herkes kendi düşüncesini açıkça söyledi."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_082",
@@ -590,9 +590,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_084",
       "speaker": "刘梅",
-      "zh": "关于语境，还有什么需要先确认的吗？",
-      "pinyin": "Guān yú yǔ jìng, hái yǒu shén me xū yào xiān què rèn de ma?",
-      "tr": "bağlam konusunda önce teyit etmemiz gereken başka bir şey var mı?"
+      "zh": "说到这里，你现在最担心的还有什么？",
+      "pinyin": "Shuō dào zhè lǐ, nǐ xiàn zài zuì dān xīn de hái yǒu shén me?",
+      "tr": "Buraya kadar konuştuktan sonra hâlâ en çok neyi merak ediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK6_SC013_085",
@@ -604,9 +604,9 @@
     {
       "id": "DLG_ZH_HSK6_SC013_086",
       "speaker": "客户",
-      "zh": "说到立场，我觉得还是要给彼此一点调整空间。",
-      "pinyin": "Shuō dào lì chǎng, wǒ jué de hái shì yào gěi bǐ cǐ yì diǎn tiáo zhěng kōng jiān.",
-      "tr": "tutum / bakış açısı konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."
+      "zh": "我同意，这样理解起来更完整。",
+      "pinyin": "Wǒ tóng yì, zhè yàng lǐ jiě qǐ lái gèng wán zhěng.",
+      "tr": "Katılıyorum; böyle daha bütünlüklü anlaşılıyor."
     },
     {
       "id": "DLG_ZH_HSK6_SC013_087",

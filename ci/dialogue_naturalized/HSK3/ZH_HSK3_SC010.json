@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC010",
   "level": "HSK3",
   "sourceTitleZh": "老街角的店铺",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“老街角的店铺”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ lǎo jiē jiǎo de diàn pù ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Eski Köşe Dükkânı” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊街角店铺这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo jiē jiǎo diàn pù zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken köşe dükkânı konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC010_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_003",
       "speaker": "顾客",
-      "zh": "说到街角店铺，你怎么看？",
-      "pinyin": "Shuō dào jiē jiǎo diàn pù, nǐ zěn me kàn?",
-      "tr": "köşe dükkânı konusunda ne düşünüyorsun?"
+      "zh": "说到潜力，你怎么看？",
+      "pinyin": "Shuō dào qián lì, nǐ zěn me kàn?",
+      "tr": "potansiyel konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_007",
       "speaker": "顾客",
-      "zh": "我觉得潜力这一点也不能忽略。",
-      "pinyin": "Wǒ jué de qián lì zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence potansiyel konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得店面这一点也不能忽略。",
+      "pinyin": "Wǒ jué de diàn miàn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence dükkân / iş yeri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC010_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_009",
       "speaker": "刘梅",
-      "zh": "说到店面，你怎么看？",
-      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
-      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
+      "zh": "说到装修，你怎么看？",
+      "pinyin": "Shuō dào zhuāng xiū, nǐ zěn me kàn?",
+      "tr": "tadilat konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_013",
       "speaker": "刘梅",
-      "zh": "我觉得装修这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhuāng xiū zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence tadilat konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得墙这一点也不能忽略。",
+      "pinyin": "Wǒ jué de qiáng zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence duvar konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC010_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_015",
       "speaker": "顾客",
-      "zh": "说到墙，你怎么看？",
-      "pinyin": "Shuō dào qiáng, nǐ zěn me kàn?",
-      "tr": "duvar konusunda ne düşünüyorsun?"
+      "zh": "说到尺寸，你怎么看？",
+      "pinyin": "Shuō dào chǐ cùn, nǐ zěn me kàn?",
+      "tr": "ölçü konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_077",
       "speaker": "刘梅",
-      "zh": "说到尺寸，你怎么看？",
-      "pinyin": "Shuō dào chǐ cùn, nǐ zěn me kàn?",
-      "tr": "ölçü konusunda ne düşünüyorsun?"
+      "zh": "说到街角店铺，你怎么看？",
+      "pinyin": "Shuō dào jiē jiǎo diàn pù, nǐ zěn me kàn?",
+      "tr": "köşe dükkânı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_081",
       "speaker": "刘梅",
-      "zh": "我觉得街角店铺这一点也不能忽略。",
-      "pinyin": "Wǒ jué de jiē jiǎo diàn pù zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence köşe dükkânı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得潜力这一点也不能忽略。",
+      "pinyin": "Wǒ jué de qián lì zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence potansiyel konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC010_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_085",
       "speaker": "刘梅",
-      "zh": "说到潜力，你怎么看？",
-      "pinyin": "Shuō dào qián lì, nǐ zěn me kàn?",
-      "tr": "potansiyel konusunda ne düşünüyorsun?"
+      "zh": "说到店面，你怎么看？",
+      "pinyin": "Shuō dào diàn miàn, nǐ zěn me kàn?",
+      "tr": "dükkân / iş yeri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_089",
       "speaker": "刘梅",
-      "zh": "我觉得店面这一点也不能忽略。",
-      "pinyin": "Wǒ jué de diàn miàn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence dükkân / iş yeri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得装修这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhuāng xiū zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence tadilat konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC010_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC010_093",
       "speaker": "刘梅",
-      "zh": "说到装修，你怎么看？",
-      "pinyin": "Shuō dào zhuāng xiū, nǐ zěn me kàn?",
-      "tr": "tadilat konusunda ne düşünüyorsun?"
+      "zh": "说到墙，你怎么看？",
+      "pinyin": "Shuō dào qiáng, nǐ zěn me kàn?",
+      "tr": "duvar konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC010_094",

@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 5,
+  "naturalizationVersion": 6,
   "sceneId": "ZH_HSK3_SC049",
   "level": "HSK3",
   "sourceTitleZh": "全家谈未来",
@@ -9,9 +9,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_001",
       "speaker": "刘梅",
-      "zh": "今天正好有时间，我们把“全家谈未来”这件事认真聊一聊吧。",
-      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men bǎ “ quán jiā tán wèi lái ” zhè jiàn shì rèn zhēn liáo yī liáo ba.",
-      "tr": "Bugün vaktimiz varken “Aile Geleceği Konuşuyor” konusunu açıkça ve ciddi biçimde konuşalım."
+      "zh": "今天正好有时间，我们聊聊全家的未来这件事吧。",
+      "pinyin": "Jīn tiān zhèng hǎo yǒu shí jiān, wǒ men liáo liáo quán jiā de wèi lái zhè jiàn shì ba.",
+      "tr": "Bugün vaktimiz varken ailenin geleceği konusunu konuşalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC049_002",
@@ -23,9 +23,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_003",
       "speaker": "顾客",
-      "zh": "说到全家的未来，你怎么看？",
-      "pinyin": "Shuō dào quán jiā de wèi lái, nǐ zěn me kàn?",
-      "tr": "ailenin geleceği konusunda ne düşünüyorsun?"
+      "zh": "说到未来计划，你怎么看？",
+      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
+      "tr": "gelecek planı konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_004",
@@ -51,9 +51,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_007",
       "speaker": "顾客",
-      "zh": "我觉得未来计划这一点也不能忽略。",
-      "pinyin": "Wǒ jué de wèi lái jì huà zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence gelecek planı konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得职业发展这一点也不能忽略。",
+      "pinyin": "Wǒ jué de zhí yè fā zhǎn zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence kariyer gelişimi konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC049_008",
@@ -65,9 +65,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_009",
       "speaker": "刘梅",
-      "zh": "说到职业发展，你怎么看？",
-      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
-      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
+      "zh": "说到咖啡馆的想法，你怎么看？",
+      "pinyin": "Shuō dào kā fēi guǎn de xiǎng fǎ, nǐ zěn me kàn?",
+      "tr": "kafe fikri konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_010",
@@ -93,9 +93,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_013",
       "speaker": "刘梅",
-      "zh": "我觉得咖啡馆的想法这一点也不能忽略。",
-      "pinyin": "Wǒ jué de kā fēi guǎn de xiǎng fǎ zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kafe fikri konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得先学习一下比较好。",
+      "pinyin": "Wǒ jué de xiān xué xí yī xià bǐ jiào hǎo.",
+      "tr": "Bence önce “ders çalışma” kısmını ele almak daha iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC049_014",
@@ -107,9 +107,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_015",
       "speaker": "顾客",
-      "zh": "那要不要先学习一下？",
-      "pinyin": "Nà yào bù yào xiān xué xí yī xià?",
-      "tr": "O zaman önce “ders çalışma” kısmını ele alalım mı?"
+      "zh": "说到梦想，你怎么看？",
+      "pinyin": "Shuō dào mèng xiǎng, nǐ zěn me kàn?",
+      "tr": "hayal konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_016",
@@ -541,9 +541,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_077",
       "speaker": "刘梅",
-      "zh": "说到梦想，你怎么看？",
-      "pinyin": "Shuō dào mèng xiǎng, nǐ zěn me kàn?",
-      "tr": "hayal konusunda ne düşünüyorsun?"
+      "zh": "说到全家的未来，你怎么看？",
+      "pinyin": "Shuō dào quán jiā de wèi lái, nǐ zěn me kàn?",
+      "tr": "ailenin geleceği konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_078",
@@ -569,9 +569,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_081",
       "speaker": "刘梅",
-      "zh": "我觉得全家的未来这一点也不能忽略。",
-      "pinyin": "Wǒ jué de quán jiā de wèi lái zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence ailenin geleceği konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得未来计划这一点也不能忽略。",
+      "pinyin": "Wǒ jué de wèi lái jì huà zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence gelecek planı konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC049_082",
@@ -597,9 +597,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_085",
       "speaker": "刘梅",
-      "zh": "说到未来计划，你怎么看？",
-      "pinyin": "Shuō dào wèi lái jì huà, nǐ zěn me kàn?",
-      "tr": "gelecek planı konusunda ne düşünüyorsun?"
+      "zh": "说到职业发展，你怎么看？",
+      "pinyin": "Shuō dào zhí yè fā zhǎn, nǐ zěn me kàn?",
+      "tr": "kariyer gelişimi konusunda ne düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_086",
@@ -625,9 +625,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_089",
       "speaker": "刘梅",
-      "zh": "我觉得职业发展这一点也不能忽略。",
-      "pinyin": "Wǒ jué de zhí yè fā zhǎn zhè yì diǎn yě bù néng hū lüè.",
-      "tr": "Bence kariyer gelişimi konusunu da göz ardı etmemeliyiz."
+      "zh": "我觉得咖啡馆的想法这一点也不能忽略。",
+      "pinyin": "Wǒ jué de kā fēi guǎn de xiǎng fǎ zhè yì diǎn yě bù néng hū lüè.",
+      "tr": "Bence kafe fikri konusunu da göz ardı etmemeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC049_090",
@@ -653,9 +653,9 @@
     {
       "id": "DLG_ZH_HSK3_SC049_093",
       "speaker": "刘梅",
-      "zh": "说到咖啡馆的想法，你怎么看？",
-      "pinyin": "Shuō dào kā fēi guǎn de xiǎng fǎ, nǐ zěn me kàn?",
-      "tr": "kafe fikri konusunda ne düşünüyorsun?"
+      "zh": "那要不要先学习一下？",
+      "pinyin": "Nà yào bù yào xiān xué xí yī xià?",
+      "tr": "O zaman önce “ders çalışma” kısmını ele alalım mı?"
     },
     {
       "id": "DLG_ZH_HSK3_SC049_094",
