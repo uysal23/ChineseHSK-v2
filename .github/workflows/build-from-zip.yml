@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -22,6 +22,50 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
+      - name: Refresh visual pack from canonical overrides
+        shell: bash
+        run: |
+          set -euo pipefail
+          TMP="$RUNNER_TEMP/visual-pack-refresh"
+          rm -rf "$TMP"
+          mkdir -p "$TMP"
+          unzip -q visual_pack_v1.zip -d "$TMP"
+
+          NEED_REFRESH=0
+          if ! cmp -s ci/scene_visual_manifest.json "$TMP/scene_visual_manifest.json"; then
+            NEED_REFRESH=1
+          fi
+
+          if compgen -G "ci/runtime_visuals/*.webp" > /dev/null; then
+            for src in ci/runtime_visuals/*.webp; do
+              dest="$TMP/scenes/$(basename "$src")"
+              if [ ! -f "$dest" ] || ! cmp -s "$src" "$dest"; then
+                cp "$src" "$dest"
+                NEED_REFRESH=1
+              fi
+            done
+          fi
+
+          if [ "$NEED_REFRESH" -eq 1 ]; then
+            cp ci/scene_visual_manifest.json "$TMP/scene_visual_manifest.json"
+            rm -f "$GITHUB_WORKSPACE/visual_pack_v1.zip.new"
+            (
+              cd "$TMP"
+              zip -q -r "$GITHUB_WORKSPACE/visual_pack_v1.zip.new" scenes scene_visual_manifest.json
+            )
+            mv "$GITHUB_WORKSPACE/visual_pack_v1.zip.new" "$GITHUB_WORKSPACE/visual_pack_v1.zip"
+
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add visual_pack_v1.zip
+            if ! git diff --cached --quiet; then
+              git commit -m "visuals: refresh runtime pack to canonical finals [skip ci]"
+              git push origin HEAD:main
+            fi
+          else
+            echo "visual_pack_v1.zip already matches canonical runtime overrides."
+          fi
 
       - name: Locate source ZIP
         shell: bash
