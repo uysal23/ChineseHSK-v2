@@ -22,11 +22,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.scale
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -417,7 +421,6 @@ fun SceneStage(
     }
 
     val activeIndex = cast.indexOf(activeSpeaker).let { if (it < 0) 0 else it }
-    val bubbleOnLeft = activeIndex < ((cast.size + 1) / 2).coerceAtLeast(1)
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
@@ -480,67 +483,75 @@ fun SceneStage(
             }
 
         }
-        if (dialogueZh.isNotBlank()) {
-            Column(
-                modifier = Modifier
-                    .align(if (bubbleOnLeft) Alignment.CenterStart else Alignment.CenterEnd)
-                    .offset(y = (-92).dp)
-                    .padding(
-                        start = if (bubbleOnLeft) 14.dp else 72.dp,
-                        end = if (bubbleOnLeft) 72.dp else 14.dp
-                    )
-                    .widthIn(min = 170.dp, max = 310.dp),
-                horizontalAlignment = if (bubbleOnLeft) Alignment.Start else Alignment.End
-            ) {
-                Surface(
-                    color = Color.White.copy(alpha = 0.97f),
-                    contentColor = Color(0xFF211D25),
-                    shape = RoundedCornerShape(20.dp),
-                    shadowElevation = 12.dp
-                ) {
-                    Column(Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
-                        Text(
-                            speakerLabel,
-                            color = Color(0xFF7A5600),
-                            fontSize = 12.sp,
-                            fontWeight = FontWeight.Black
-                        )
-                        Text(
-                            dialogueZh,
-                            color = Color(0xFF211D25),
-                            fontSize = 22.sp,
-                            lineHeight = 28.sp,
-                            fontWeight = FontWeight.Bold,
-                            modifier = Modifier.padding(top = 3.dp)
-                        )
-                        if (showPinyin && dialoguePinyin.isNotBlank()) {
-                            Text(
-                                dialoguePinyin,
-                                color = Color(0xFF735B18),
-                                fontSize = 14.sp,
-                                lineHeight = 19.sp,
-                                fontWeight = FontWeight.Medium,
-                                modifier = Modifier.padding(top = 4.dp)
-                            )
-                        }
-                        if (showTurkish && dialogueTr.isNotBlank()) {
-                            Text(
-                                dialogueTr,
-                                color = Color(0xFF4D4652),
-                                fontSize = 13.sp,
-                                lineHeight = 18.sp,
-                                modifier = Modifier.padding(top = 3.dp)
-                            )
-                        }
-                    }
+        // The dialogue text lives in the bottom subtitle panel.  The stage bubble is
+        // intentionally empty: it only marks the character whose turn it is to speak.
+        if (dialogueZh.isNotBlank() && activeSpeaker.isNotBlank()) {
+            BoxWithConstraints(Modifier.fillMaxSize()) {
+                val mouthXFraction = when (cast.size.coerceAtLeast(1)) {
+                    1 -> 0.50f
+                    2 -> if (activeIndex == 0) 0.32f else 0.68f
+                    3 -> listOf(0.22f, 0.50f, 0.78f)[activeIndex.coerceIn(0, 2)]
+                    else -> listOf(0.15f, 0.38f, 0.62f, 0.85f)[activeIndex.coerceIn(0, 3)]
                 }
-                Text(
-                    if (bubbleOnLeft) "◢" else "◣",
-                    color = Color.White.copy(alpha = 0.97f),
-                    fontSize = 28.sp,
-                    lineHeight = 20.sp,
-                    modifier = Modifier.padding(horizontal = 30.dp)
-                )
+                val bubbleWidth = 46.dp
+                val bubbleHeight = 28.dp
+                val placeOnRight = mouthXFraction <= 0.50f
+                val horizontalNudge = if (placeOnRight) 34.dp else (-34).dp
+                val bubbleX = (
+                    maxWidth * mouthXFraction - bubbleWidth / 2 + horizontalNudge
+                ).coerceIn(6.dp, maxWidth - bubbleWidth - 6.dp)
+                val mouthYFraction = if (sceneArtBitmap != null) 0.40f else 0.63f
+                val bubbleY = (
+                    maxHeight * mouthYFraction - bubbleHeight / 2
+                ).coerceIn(92.dp, maxHeight - 220.dp)
+
+                Column(
+                    modifier = Modifier.offset(x = bubbleX, y = bubbleY),
+                    horizontalAlignment = if (placeOnRight) Alignment.Start else Alignment.End
+                ) {
+                    Box(
+                        Modifier
+                            .size(width = bubbleWidth, height = bubbleHeight)
+                            .background(
+                                Color.White.copy(alpha = 0.24f),
+                                RoundedCornerShape(9.dp)
+                            )
+                            .drawBehind {
+                                val stroke = 1.15.dp.toPx()
+                                drawRoundRect(
+                                    color = Color.White.copy(alpha = 0.76f),
+                                    cornerRadius = CornerRadius(9.dp.toPx(), 9.dp.toPx()),
+                                    style = Stroke(
+                                        width = stroke,
+                                        pathEffect = PathEffect.dashPathEffect(
+                                            floatArrayOf(5.dp.toPx(), 4.dp.toPx())
+                                        )
+                                    )
+                                )
+                            }
+                    )
+                    Box(
+                        Modifier
+                            .padding(
+                                start = if (placeOnRight) 7.dp else 0.dp,
+                                end = if (placeOnRight) 0.dp else 7.dp
+                            )
+                            .size(7.dp)
+                            .graphicsLayer { rotationZ = 45f }
+                            .background(Color.White.copy(alpha = 0.22f))
+                            .drawBehind {
+                                drawRect(
+                                    color = Color.White.copy(alpha = 0.70f),
+                                    style = Stroke(
+                                        width = 1.dp.toPx(),
+                                        pathEffect = PathEffect.dashPathEffect(
+                                            floatArrayOf(3.dp.toPx(), 2.dp.toPx())
+                                        )
+                                    )
+                                )
+                            }
+                    )
+                }
             }
         }
 
