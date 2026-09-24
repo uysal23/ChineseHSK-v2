@@ -81,7 +81,7 @@ def hsk1_repair(cat, zh, tr, focus, focus_tr, i):
         if zh in table:return table[zh]
     if cat=="school":
         table={
-            "这是我们的学生。":("这是我们班的同学。","Bu bizim sınıftan bir öğrenci."),
+            "这是我们的学生。":("这是我们班的学生。","Bu bizim sınıftan bir öğrenci."),
             "这是我们的老师。":("老师也在教室里。","Öğretmen de sınıfta."),
             "很高兴认识你。":("以后一起学习吧。","Bundan sonra birlikte çalışalım."),
             "我也是。":("好啊。","Olur."),
@@ -90,7 +90,7 @@ def hsk1_repair(cat, zh, tr, focus, focus_tr, i):
         if zh in table:return table[zh]
     if cat=="work":
         table={
-            "这是我们的朋友。":("他也知道这个工作的情况。","O da bu işin durumunu biliyor."),
+            "这是我们的朋友。":("这个朋友也知道工作的情况。","Bu arkadaş da işin durumunu biliyor."),
             "你好！":("你好，我想问一下工作。","Merhaba, iş hakkında bir şey sormak istiyorum."),
             "很高兴认识你。":("好，你先说说你的情况。","Tamam, önce durumunu anlat."),
             "我也是。":("好的。","Tamam."),
