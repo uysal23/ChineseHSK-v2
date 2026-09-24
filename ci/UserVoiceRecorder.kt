@@ -20,13 +20,17 @@ class UserVoiceRecorder(context: Context) {
         const val CHANNEL_COUNT = 1
         const val ENCODING = AudioFormat.ENCODING_PCM_16BIT
 
-        private const val MAX_CAPTURE_MS = 20_000L
-        private const val NO_SPEECH_TIMEOUT_MS = 10_000L
-        private const val ARMING_MS = 500L
-        private const val MIN_CAPTURE_MS = 1_800L
-        private const val END_SILENCE_MS = 1_400L
-        private const val VOICE_CONFIRM_MS = 350L
-        private const val VOICE_RMS_THRESHOLD = 700.0
+        private const val MAX_CAPTURE_MS = 10_000L
+        private const val NO_SPEECH_TIMEOUT_MS = 4_500L
+        private const val ARMING_MS = 250L
+        private const val MIN_CAPTURE_MS = 700L
+        private const val END_SILENCE_MS = 850L
+        private const val VOICE_CONFIRM_MS = 120L
+        private const val MIN_VOICE_RMS_THRESHOLD = 320.0
+        private const val NOISE_MULTIPLIER = 2.0
+        private const val TRAILING_NOISE_MULTIPLIER = 1.35
+        private const val TRAILING_PEAK_RATIO = 0.16
+        private const val CALIBRATION_RMS_CAP = 450.0
     }
 
     private val appContext = context.applicationContext
@@ -87,6 +91,9 @@ class UserVoiceRecorder(context: Context) {
                 var heardSpeech = false
                 var lastVoiceAt = 0L
                 var voicedAccumulatedMs = 0L
+                var peakVoiceRms = 0.0
+                var noiseFloorRms = 180.0
+                var noiseSamples = 0
                 val startedAt = android.os.SystemClock.elapsedRealtime()
                 val buffer = ByteArray(maxOf(minBuffer, 2048))
 
@@ -108,12 +115,37 @@ class UserVoiceRecorder(context: Context) {
                             val samples = (count / 2).coerceAtLeast(1)
                             val chunkMs = ((samples * 1000L) / SAMPLE_RATE).coerceAtLeast(1L)
 
+                            if (elapsed < ARMING_MS && rms > 0.0) {
+                                val calibrationRms = minOf(rms, CALIBRATION_RMS_CAP)
+                                noiseFloorRms = if (noiseSamples == 0) {
+                                    calibrationRms
+                                } else {
+                                    ((noiseFloorRms * noiseSamples) + calibrationRms) / (noiseSamples + 1)
+                                }
+                                noiseSamples += 1
+                            }
+
                             if (elapsed >= ARMING_MS) {
-                                if (rms >= VOICE_RMS_THRESHOLD) {
+                                val startThreshold = maxOf(
+                                    MIN_VOICE_RMS_THRESHOLD,
+                                    noiseFloorRms * NOISE_MULTIPLIER
+                                )
+                                val activeThreshold = if (heardSpeech) {
+                                    maxOf(
+                                        MIN_VOICE_RMS_THRESHOLD * 0.75,
+                                        noiseFloorRms * TRAILING_NOISE_MULTIPLIER,
+                                        peakVoiceRms * TRAILING_PEAK_RATIO
+                                    )
+                                } else {
+                                    startThreshold
+                                }
+
+                                if (rms >= activeThreshold) {
+                                    peakVoiceRms = maxOf(peakVoiceRms, rms)
                                     voicedAccumulatedMs += chunkMs
                                     lastVoiceAt = now
                                 } else if (!heardSpeech) {
-                                    voicedAccumulatedMs = (voicedAccumulatedMs - (chunkMs / 2)).coerceAtLeast(0L)
+                                    voicedAccumulatedMs = (voicedAccumulatedMs - chunkMs).coerceAtLeast(0L)
                                 }
 
                                 if (!heardSpeech && voicedAccumulatedMs >= VOICE_CONFIRM_MS) {
