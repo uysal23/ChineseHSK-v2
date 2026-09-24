@@ -347,20 +347,36 @@ pron = pron.replace(next_anchor, next_replacement, 1)
 ls = ls[:pron_start] + pron + ls[pron_end:]
 learning_screens.write_text(ls, encoding="utf-8")
 
-# Lock dialogue voice identity: use one deterministic TTS profile per speaker and bypass mixed authored/TTS dialogue audio.
+# Prefer the generated Kokoro dialogue pack. Legacy authored audio remains disabled;
+# if the generated asset is unavailable, fall back to the deterministic offline TTS cache.
 dap = dialogue_audio_player.read_text(encoding="utf-8")
+
+has_start = dap.find("    fun hasAuthoredAudio(dialogue: DialogueLine): Boolean {")
 play_start = dap.find("    fun playDialogue(dialogue: DialogueLine, speed: Float, onDone: (() -> Unit)? = null) {")
 play_end = dap.find("\n    fun playNarrator(", play_start)
-if play_start < 0 or play_end < 0:
-    raise SystemExit("DialogueAudioPlayer.playDialogue block missing")
-play_code = """    fun playDialogue(dialogue: DialogueLine, speed: Float, onDone: (() -> Unit)? = null) {
-        stopAuthoredAudio()
+if has_start < 0 or play_start < 0 or play_end < 0:
+    raise SystemExit("DialogueAudioPlayer authored/play blocks missing")
+
+generated_helper = """    private fun generatedDialoguePath(dialogueId: String): String =
+        catalog[dialogueId].orEmpty().takeIf {
+            it.startsWith("chinese_course/media/audio/generated/")
+        }.orEmpty()
+
+    fun hasAuthoredAudio(dialogue: DialogueLine): Boolean {
+        val path = generatedDialoguePath(dialogue.id)
+        return path.isNotBlank() && assetExists(path)
+    }
+
+    fun playDialogue(dialogue: DialogueLine, speed: Float, onDone: (() -> Unit)? = null) {
+        val path = generatedDialoguePath(dialogue.id)
+        if (path.isNotBlank() && playAsset(path, speed, onDone)) return
+
         val profileId = voiceResolver.profileForSpeaker(dialogue.speaker)
         val stableCacheId = "VOICE_" + profileId + "_" + dialogue.id
         tts.playOrCache(stableCacheId, dialogue.zh, profileId, speed, onDone)
     }
 """
-dap = dap[:play_start] + play_code + dap[play_end:]
+dap = dap[:has_start] + generated_helper + dap[play_end:]
 dialogue_audio_player.write_text(dap, encoding="utf-8")
 
 # Ensure named characters resolve through their manifest voiceProfileId first.
