@@ -170,6 +170,66 @@ fun ChineseJourneyApp() {
             onSurfaceVariant = Color(0xFF4D4552),
             outline = Color(0xFF7F7486)
         )
+        ProgressStore.THEME_BLUE -> lightColorScheme(
+            primary = Color(0xFF477A9E),
+            onPrimary = Color.White,
+            primaryContainer = Color(0xFFD8EAF4),
+            onPrimaryContainer = Color(0xFF173346),
+            secondary = Color(0xFFC58B5A),
+            onSecondary = Color(0xFF211408),
+            background = Color(0xFFEEF6FA),
+            onBackground = Color(0xFF18252D),
+            surface = Color(0xFFFAFDFE),
+            onSurface = Color(0xFF18252D),
+            surfaceVariant = Color(0xFFE3EFF5),
+            onSurfaceVariant = Color(0xFF3C5361),
+            outline = Color(0xFF718894)
+        )
+        ProgressStore.THEME_GREEN -> lightColorScheme(
+            primary = Color(0xFF4F7F68),
+            onPrimary = Color.White,
+            primaryContainer = Color(0xFFDCEDE2),
+            onPrimaryContainer = Color(0xFF183728),
+            secondary = Color(0xFFB27B54),
+            onSecondary = Color(0xFF231409),
+            background = Color(0xFFF0F7F2),
+            onBackground = Color(0xFF1C2921),
+            surface = Color(0xFFFBFDFB),
+            onSurface = Color(0xFF1C2921),
+            surfaceVariant = Color(0xFFE5F0E8),
+            onSurfaceVariant = Color(0xFF405448),
+            outline = Color(0xFF75887B)
+        )
+        ProgressStore.THEME_ORANGE -> lightColorScheme(
+            primary = Color(0xFFA86335),
+            onPrimary = Color.White,
+            primaryContainer = Color(0xFFF7DEC5),
+            onPrimaryContainer = Color(0xFF46240F),
+            secondary = Color(0xFF6F7E4B),
+            onSecondary = Color.White,
+            background = Color(0xFFFFF5EA),
+            onBackground = Color(0xFF302219),
+            surface = Color(0xFFFFFCF8),
+            onSurface = Color(0xFF302219),
+            surfaceVariant = Color(0xFFF5E8DA),
+            onSurfaceVariant = Color(0xFF604A3B),
+            outline = Color(0xFF947B69)
+        )
+        ProgressStore.THEME_PINK -> lightColorScheme(
+            primary = Color(0xFF9A5C70),
+            onPrimary = Color.White,
+            primaryContainer = Color(0xFFF3DCE4),
+            onPrimaryContainer = Color(0xFF45212E),
+            secondary = Color(0xFF6A7C9B),
+            onSecondary = Color.White,
+            background = Color(0xFFFFF2F5),
+            onBackground = Color(0xFF2E2025),
+            surface = Color(0xFFFFFBFC),
+            onSurface = Color(0xFF2E2025),
+            surfaceVariant = Color(0xFFF6E6EB),
+            onSurfaceVariant = Color(0xFF5C4650),
+            outline = Color(0xFF8D747E)
+        )
         else -> darkColorScheme(
             primary = Color(0xFF5A2D82),
             onPrimary = Color.White,
@@ -389,10 +449,10 @@ fun Header(title: String, subtitle: String? = null, onBack: (() -> Unit)? = null
                 fontWeight = FontWeight.SemiBold
             )
         }
-        Text(title, color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold)
+        Text(title, color = MaterialTheme.colorScheme.onPrimary, fontSize = 28.sp, fontWeight = FontWeight.Bold)
         if (subtitle != null) {
             Spacer(Modifier.height(6.dp))
-            Text(subtitle, color = Color.White.copy(alpha = 0.75f), fontSize = 15.sp)
+            Text(subtitle, color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.82f), fontSize = 15.sp)
         }
     }
 }
@@ -406,7 +466,7 @@ private fun LevelScreen(levels: List<LevelInfo>, onLevel: (LevelInfo) -> Unit, o
             modifier = Modifier.padding(horizontal = 18.dp).fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
         ) {
-            Text("★ Favori Kelimelerimi Çalış", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+            Text("★ Favori Kelimelerimi Çalış", color = MaterialTheme.colorScheme.onSecondary, fontWeight = FontWeight.Bold)
         }
         Spacer(Modifier.height(8.dp))
         LazyColumn(
