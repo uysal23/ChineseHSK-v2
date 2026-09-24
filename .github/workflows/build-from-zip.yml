@@ -147,12 +147,76 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Materialize canonical runtime backgrounds
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/runtime_background_bundle_chunks"
+          OUT="$GITHUB_WORKSPACE/ci/runtime_backgrounds"
+
+          if compgen -G "$CHUNK_DIR/*.b64" > /dev/null; then
+            B64="$RUNNER_TEMP/runtime-backgrounds.b64"
+            ZIP="$RUNNER_TEMP/runtime-backgrounds.zip"
+            RAW="$RUNNER_TEMP/runtime-backgrounds-raw"
+            rm -rf "$RAW"
+            mkdir -p "$RAW" "$OUT"
+
+            cat "$CHUNK_DIR"/*.b64 > "$B64"
+            base64 -d "$B64" > "$ZIP"
+            echo "06fdfaa59944693b6cfaf63ac3786e97a684d79ac025168fa17c0df48cc0da76  $ZIP" | sha256sum -c -
+            unzip -q -o "$ZIP" -d "$RAW"
+
+            python3 - "$RAW" "$OUT" <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import sys
+
+          src = Path(sys.argv[1])
+          out = Path(sys.argv[2])
+          out.mkdir(parents=True, exist_ok=True)
+          count = 0
+          for p in sorted(src.glob("*.webp")):
+              im = Image.open(p).convert("RGB")
+              im = im.resize((1280, 720), Image.Resampling.LANCZOS)
+              dest = out / p.name
+              im.save(dest, "WEBP", quality=82, method=6)
+              count += 1
+          if count != 4:
+              raise SystemExit(f"Expected 4 runtime backgrounds, got {count}")
+          print(f"Materialized {count} canonical runtime backgrounds.")
+          PY
+
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add ci/runtime_backgrounds
+            if ! git diff --cached --quiet; then
+              git commit -m "visuals: materialize four canonical location masters [skip ci]"
+              git push origin HEAD:main
+            fi
+          else
+            echo "No runtime background chunk bundle present; using committed canonical backgrounds."
+          fi
+
       - name: Validate media catalogs
         working-directory: ${{ env.SRC }}
         run: |
+          if compgen -G "$GITHUB_WORKSPACE/ci/runtime_backgrounds/*.webp" > /dev/null; then
+            mkdir -p app/src/main/assets/chinese_course/media/backgrounds
+            cp "$GITHUB_WORKSPACE"/ci/runtime_backgrounds/*.webp app/src/main/assets/chinese_course/media/backgrounds/
+            cp "$GITHUB_WORKSPACE/ci/runtime_background_canon_v1.json" app/src/main/assets/chinese_course/media/runtime_background_canon_v1.json
+            echo "Preinstalled canonical runtime backgrounds: $(find "$GITHUB_WORKSPACE/ci/runtime_backgrounds" -maxdepth 1 -name '*.webp' | wc -l)"
+          fi
+
           python3 scripts/build_visual_bible.py
           python3 scripts/build_visual_asset_queue.py
           python3 scripts/prepare_visual_assets.py
+
+          if compgen -G "$GITHUB_WORKSPACE/ci/runtime_backgrounds/*.webp" > /dev/null; then
+            mkdir -p app/src/main/assets/chinese_course/media/backgrounds
+            cp "$GITHUB_WORKSPACE"/ci/runtime_backgrounds/*.webp app/src/main/assets/chinese_course/media/backgrounds/
+            cp "$GITHUB_WORKSPACE/ci/runtime_background_canon_v1.json" app/src/main/assets/chinese_course/media/runtime_background_canon_v1.json
+            echo "Reinstalled canonical runtime backgrounds after preparation."
+          fi
 
           if compgen -G "$GITHUB_WORKSPACE/ci/runtime_characters/*/base.webp" > /dev/null; then
             COUNT=0
