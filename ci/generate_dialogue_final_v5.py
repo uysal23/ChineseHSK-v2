@@ -13,6 +13,7 @@ if len(sys.argv)!=4:
 
 base_root=Path(sys.argv[1]); v4_root=Path(sys.argv[2]); out_root=Path(sys.argv[3])
 out_root.mkdir(parents=True,exist_ok=True)
+CJK_RE=re.compile(r"[\u3400-\u9fff]")
 
 def pick(opts,key):
     h=int(hashlib.sha256(key.encode("utf-8")).hexdigest()[:8],16)
@@ -194,6 +195,8 @@ for bp in sorted(base_root.glob("HSK*/scenes/ZH_HSK*_SC*.json")):
         zh,tr=hsk1_variant(zh,tr,key)
       if level=="HSK5":
         zh,tr=align_hsk5(cat,zh,tr,trmap)
+      if CJK_RE.search(tr):
+        tr=str(o.get("tr","")).strip()
       out.append({"id":o["id"],"speaker":o["speaker"],"zh":zh,"pinyin":pinyin_text(zh),"tr":tr})
     payload={
       "naturalizationVersion":5,"status":"FINAL",
