@@ -301,23 +301,31 @@ def term_statement(card, level):
         return f"我觉得{z}也很重要。", f"Bence {t} de önemli."
     return f"我觉得{z}这一点也不能忽略。", f"Bence {t} konusunu da göz ardı etmemeliyiz."
 
-def scaffold_line(level, turn, data, cards):
+def scaffold_line(level, turn, data, cards, term_cursor):
     phase=min(4,(turn-1)//20)
     slot=(turn-1)%8
-    idx=((turn-1)//4) % len(cards)
-    card=cards[idx]
-    next_card=cards[(idx+1)%len(cards)]
 
     if level=="HSK6" and turn==1:
-        return f"今天就把“{data.get('titleZh','这件事')}”这件事好好聊一聊吧。", f"Bugün “{data.get('titleTr','bu konu')}” konusunu açıkça konuşalım."
+        return (
+            f"今天就把“{data.get('titleZh','这件事')}”这件事好好聊一聊吧。",
+            f"Bugün “{data.get('titleTr','bu konu')}” konusunu açıkça konuşalım.",
+            False,
+        )
+
     if slot==0:
-        return term_question(card, level)
+        card=cards[term_cursor % len(cards)]
+        zh,tr=term_question(card, level)
+        return zh,tr,True
+
     if slot==4:
-        return term_statement(next_card, level)
+        card=cards[term_cursor % len(cards)]
+        zh,tr=term_statement(card, level)
+        return zh,tr,True
 
     generic_slots=[1,2,3,5,6,7]
     j=generic_slots.index(slot)
-    return PHASE[level][phase][j]
+    zh,tr=PHASE[level][phase][j]
+    return zh,tr,False
 
 def pinyin_text(text):
     # Safety-first display: correct syllables separated by spaces.
@@ -421,12 +429,15 @@ def main():
         out=[]
         changed=rebuilt=0
         prev=""
+        term_cursor=0
 
         for i,d in enumerate(src,1):
             old=t2s.convert(str(d.get("zh","")).strip())
             key=f"{scene_id}:{d.get('id')}:{prev}"
             if level in PHASE and is_rebuild(level,i):
-                new,tr=scaffold_line(level,i,data,cards)
+                new,tr,used_term=scaffold_line(level,i,data,cards,term_cursor)
+                if used_term:
+                    term_cursor+=1
                 rebuilt+=1
             else:
                 new=naturalize_existing(level,old,prev,i,key)
