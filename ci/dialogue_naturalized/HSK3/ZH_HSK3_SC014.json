@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK3_SC014",
   "level": "HSK3",
   "sourceTitleZh": "开始装修",
@@ -10,700 +10,700 @@
       "id": "DLG_ZH_HSK3_SC014_001",
       "speaker": "刘梅",
       "zh": "店里的装修今天正式开始。",
-      "pinyin": "Diàn lǐ de zhuāng xiū jīn tiān zhèng shì kāi shǐ.",
+      "pinyin": "Diàn lǐ de zhuāngxiū jīntiān zhèngshì kāishǐ.",
       "tr": "Dükkânın tadilatı bugün resmen başladı."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_002",
       "speaker": "张伟",
       "zh": "今天先确认一下墙。",
-      "pinyin": "Jīn tiān xiān què rèn yī xià qiáng.",
+      "pinyin": "Jīntiān xiān quèrèn yíxià qiáng.",
       "tr": "Bugün önce duvar konusunu teyit edelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_003",
       "speaker": "顾客",
-      "zh": "看来情况和我们最初想的有点不一样。",
-      "pinyin": "Kàn lái qíng kuàng hé wǒ men zuì chū xiǎng de yǒu diǎn bù yī yàng.",
+      "zh": "现在看，情况跟开始想的不完全一样。",
+      "pinyin": "Xiànzài kàn, qíngkuàng gēn kāishǐ xiǎng de bù wánquán yīyàng.",
       "tr": "Durum başta düşündüğümüzle tamamen aynı değil."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_004",
       "speaker": "张雨桐",
-      "zh": "好，我们先听听大家的意见。",
-      "pinyin": "Hǎo, wǒ men xiān tīng tīng dà jiā de yì jiàn.",
+      "zh": "那大家先说说自己的想法吧。",
+      "pinyin": "Nà dàjiā xiān shuō shuō zìjǐ de xiǎngfǎ ba.",
       "tr": "O zaman önce herkesin fikrini dinleyelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_005",
       "speaker": "刘梅",
-      "zh": "要不先把最重要的地方找出来？",
-      "pinyin": "Yào bù xiān bǎ zuì zhòng yào de dì fāng zhǎo chū lái?",
+      "zh": "我看先找出重点比较合适。",
+      "pinyin": "Wǒ kàn xiān zhǎochū zhòngdiǎn bǐjiào héshì.",
       "tr": "Bence önce ana noktayı belirlemek daha iyi."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_006",
       "speaker": "张伟",
-      "zh": "好，我们先处理最重要的事。",
-      "pinyin": "Hǎo, wǒ men xiān chù lǐ zuì zhòng yào de shì.",
+      "zh": "好，那先解决最需要处理的事。",
+      "pinyin": "Hǎo, nà xiān jiějué zuì xūyào chǔlǐ de shì.",
       "tr": "Tamam, önce en çok çözülmesi gereken işi halledelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_007",
       "speaker": "顾客",
       "zh": "店里的装修今天正式开始。",
-      "pinyin": "Diàn lǐ de zhuāng xiū jīn tiān zhèng shì kāi shǐ.",
+      "pinyin": "Diàn lǐ de zhuāngxiū jīntiān zhèngshì kāishǐ.",
       "tr": "Dükkânın tadilatı bugün resmen başladı."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_008",
       "speaker": "张雨桐",
-      "zh": "这么说我就明白了。",
-      "pinyin": "Zhè me shuō wǒ jiù míng bái le.",
+      "zh": "嗯，我明白你的意思了。",
+      "pinyin": "Èn, wǒ míngbái nǐ de yìsi le.",
       "tr": "Ne demek istediğini anladım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_009",
       "speaker": "刘梅",
       "zh": "我已经把墙记下来了。",
-      "pinyin": "Wǒ yǐ jīng bǎ qiáng jì xià lái le.",
+      "pinyin": "Wǒ yǐjīng bǎ qiáng jì xiàlái le.",
       "tr": "Duvar notunu aldım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_010",
       "speaker": "张伟",
-      "zh": "好，这一点我会注意。",
-      "pinyin": "Hǎo, zhè yī diǎn wǒ huì zhù yì.",
+      "zh": "嗯，这个我会注意。",
+      "pinyin": "Èn, zhège wǒhuì zhùyì.",
       "tr": "Tamam, bu noktaya dikkat edeceğim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_011",
       "speaker": "顾客",
-      "zh": "颜色也是这次要考虑的重点。",
-      "pinyin": "Yán sè yě shì zhè cì yào kǎo lǜ de zhòng diǎn.",
+      "zh": "说到颜色，这一点确实不能忽略。",
+      "pinyin": "Shuō dào yánsè, zhè yìdiǎn quèshí bùnéng hūlüè.",
       "tr": "Renk bu kez değerlendirmemiz gereken ana noktalardan biri."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_012",
       "speaker": "张雨桐",
-      "zh": "嗯，我明白你的意思了。",
-      "pinyin": "Ń, wǒ míng bái nǐ de yì sī le.",
+      "zh": "好，我懂你的意思了。",
+      "pinyin": "Hǎo, wǒ dǒng nǐ de yìsi le.",
       "tr": "Ne demek istediğini anladım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_013",
       "speaker": "刘梅",
-      "zh": "我想再确认一下尺寸这部分。",
-      "pinyin": "Wǒ xiǎng zài què rèn yī xià chǐ cùn zhè bù fēn.",
+      "zh": "关于尺寸，我们再确认一次吧。",
+      "pinyin": "Guānyú chǐcùn, wǒmen zài quèrèn yīcì ba.",
       "tr": "Ölçü konusunu bir kez daha teyit etsek iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_014",
       "speaker": "张伟",
-      "zh": "好，我会留意这一点。",
-      "pinyin": "Hǎo, wǒ huì liú yì zhè yī diǎn.",
+      "zh": "嗯，这个我会注意。",
+      "pinyin": "Èn, zhège wǒhuì zhùyì.",
       "tr": "Tamam, bu noktaya dikkat edeceğim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_015",
       "speaker": "顾客",
       "zh": "确认老桌子没问题以后，我们再继续。",
-      "pinyin": "Què rèn lǎo zhuō zi méi wèn tí yǐ hòu, wǒ men zài jì xù.",
+      "pinyin": "Quèrèn lǎo zhuōzi méi wèntí yǐhòu, wǒmen zài jìxù.",
       "tr": "Eski masa konusunda sorun yoksa devam ederiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_016",
       "speaker": "张雨桐",
-      "zh": "这么说我就明白了。",
-      "pinyin": "Zhè me shuō wǒ jiù míng bái le.",
+      "zh": "嗯，我明白你的意思了。",
+      "pinyin": "Èn, wǒ míngbái nǐ de yìsi le.",
       "tr": "Ne demek istediğini anladım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_017",
       "speaker": "刘梅",
       "zh": "我们先选择，然后再看下一步。",
-      "pinyin": "Wǒ men xiān xuǎn zé, rán hòu zài kàn xià yī bù.",
+      "pinyin": "Wǒmen xiān xuǎnzé, ránhòu zài kàn xià yí bù.",
       "tr": "Önce seçmek, sonra sonraki adıma bakarız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_018",
       "speaker": "张伟",
       "zh": "嗯，这个我会注意。",
-      "pinyin": "Ń, zhè gè wǒ huì zhù yì.",
+      "pinyin": "Èn, zhège wǒhuì zhùyì.",
       "tr": "Tamam, bu noktaya dikkat edeceğim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_019",
       "speaker": "顾客",
-      "zh": "先把现在的情况理清楚。",
-      "pinyin": "Xiān bǎ xiàn zài de qíng kuàng lǐ qīng chǔ.",
+      "zh": "我们先把情况说清楚吧。",
+      "pinyin": "Wǒmen xiān bǎ qíngkuàng shuō qīngchǔ ba.",
       "tr": "Önce durumu netleştirelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_020",
       "speaker": "张雨桐",
-      "zh": "所以你的意思是这样，是吗？",
-      "pinyin": "Suǒ yǐ nǐ de yì sī shì zhè yàng, shì ma?",
+      "zh": "你的意思是这样，对吧？",
+      "pinyin": "Nǐ de yìsi shì zhèyàng, duì ba?",
       "tr": "Demek istediğin bu, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_021",
       "speaker": "刘梅",
-      "zh": "对，你理解得没错。",
-      "pinyin": "Duì, nǐ lǐ jiě dé méi cuò.",
+      "zh": "嗯，对，我想说的就是这个。",
+      "pinyin": "Èn, duì, wǒ xiǎng shuō de jiùshì zhège.",
       "tr": "Evet, tam olarak bunu demek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_022",
       "speaker": "张伟",
       "zh": "看来这事比我原来想的复杂。",
-      "pinyin": "Kàn lái zhè shì bǐ wǒ yuán lái xiǎng de fù zá.",
+      "pinyin": "Kànlái zhè shì bǐ wǒ yuánlái xiǎng de fùzá.",
       "tr": "Bu iş düşündüğümden biraz daha karmaşık."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_023",
       "speaker": "顾客",
-      "zh": "先别急，我们一点一点处理。",
-      "pinyin": "Xiān bié jí, wǒ men yī diǎn yī diǎn chù lǐ.",
+      "zh": "别着急，慢慢来就行。",
+      "pinyin": "Biézháojí, mànmànlái jiù xíng.",
       "tr": "Önce telaşlanmayalım, adım adım ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_024",
       "speaker": "张雨桐",
       "zh": "我看这个办法比较合适。",
-      "pinyin": "Wǒ kàn zhè gè bàn fǎ bǐ jiào hé shì.",
+      "pinyin": "Wǒ kàn zhège bànfǎ bǐjiào héshì.",
       "tr": "Bence bu yöntem daha uygun."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_025",
       "speaker": "刘梅",
       "zh": "为什么这么想？",
-      "pinyin": "Wèi shén me zhè me xiǎng?",
+      "pinyin": "Wèishénme zhème xiǎng?",
       "tr": "Neden böyle düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_026",
       "speaker": "张伟",
-      "zh": "因为这样既方便，也更清楚。",
-      "pinyin": "Yīn wèi zhè yàng jì fāng biàn, yě gèng qīng chǔ.",
+      "zh": "这样做更方便，大家也更容易看明白。",
+      "pinyin": "Zhèyàng zuò gèng fāngbiàn, dàjiā yě gèng róngyì kàn míngbái.",
       "tr": "Çünkü böyle hem daha kullanışlı hem de daha net."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_027",
       "speaker": "顾客",
-      "zh": "这样做的话，应该能省一点时间。",
-      "pinyin": "Zhè yàng zuò de huà, yīng gāi néng shěng yī diǎn shí jiān.",
+      "zh": "要是这样做，我们还能省点时间。",
+      "pinyin": "Yàoshì zhèyàng zuò, wǒmen hái néng shěng diǎn shíjiān.",
       "tr": "Böyle yaparsak biraz zaman kazanabiliriz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_028",
       "speaker": "张雨桐",
-      "zh": "虽然有点麻烦，不过还是能解决。",
-      "pinyin": "Suī rán yǒu diǎn má fán, bù guò hái shì néng jiě jué.",
+      "zh": "麻烦是麻烦一点，不过能处理。",
+      "pinyin": "Máfán shì máfán yìdiǎn, bùguò néng chǔlǐ.",
       "tr": "Biraz zahmetli olsa da çözülebilir."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_029",
       "speaker": "刘梅",
-      "zh": "那先试试看吧。",
-      "pinyin": "Nà xiān shì shì kàn ba.",
+      "zh": "好，那我们先试一下。",
+      "pinyin": "Hǎo, nà wǒmen xiān shìyīxià.",
       "tr": "O zaman önce deneyelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_030",
       "speaker": "张伟",
       "zh": "好，先这么做，有问题再调。",
-      "pinyin": "Hǎo, xiān zhè me zuò, yǒu wèn tí zài diào.",
+      "pinyin": "Hǎo, xiān zhème zuò, yǒu wèntí zài diào.",
       "tr": "Tamam, sorun olursa yeniden ayarlarız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_031",
       "speaker": "顾客",
-      "zh": "我先看看细节有没有问题。",
-      "pinyin": "Wǒ xiān kàn kàn xì jié yǒu méi yǒu wèn tí.",
+      "zh": "等一下，我先确认几个细节。",
+      "pinyin": "Děng yīxià, wǒ xiān quèrèn jǐgè xìjié.",
       "tr": "Önce ayrıntıları teyit edeyim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_032",
       "speaker": "张雨桐",
-      "zh": "你说得对，这个细节确实很重要。",
-      "pinyin": "Nǐ shuō dé duì, zhè gè xì jié què shí hěn zhòng yào.",
+      "zh": "对，这个细节不能忽略。",
+      "pinyin": "Duì, zhège xìjié bùnéng hūlüè.",
       "tr": "Haklısın, bu ayrıntı önemli."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_033",
       "speaker": "刘梅",
-      "zh": "时间也最好提前安排好。",
-      "pinyin": "Shí jiān yě zuì hǎo tí qián ān pái hǎo.",
+      "zh": "我们还得把时间安排好。",
+      "pinyin": "Wǒmen hái dé bǎ shíjiān ānpái hǎo.",
       "tr": "Zamanı da iyi planlasak iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_034",
       "speaker": "张伟",
-      "zh": "嗯，我都写下来了。",
-      "pinyin": "Ń, wǒ dōu xiě xià lái le.",
+      "zh": "我已经记下来了。",
+      "pinyin": "Wǒ yǐjīng jìxiàlái le.",
       "tr": "Not aldım bile."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_035",
       "speaker": "顾客",
-      "zh": "那就放心了，不会漏掉。",
-      "pinyin": "Nà jiù fàng xīn le, bù huì lòu diào.",
+      "zh": "那就不容易忘了。",
+      "pinyin": "Nà jiù bù róngyì wàng le.",
       "tr": "O zaman unutmayız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_036",
       "speaker": "张雨桐",
       "zh": "那现在最重要的问题是什么？",
-      "pinyin": "Nà xiàn zài zuì zhòng yào de wèn tí shì shén me?",
+      "pinyin": "Nà xiànzài zuì zhòngyào de wèntí shì shénme?",
       "tr": "Şimdi en önemli sorun ne?"
     },
     {
       "id": "DLG_ZH_HSK3_SC014_037",
       "speaker": "刘梅",
       "zh": "先把原因找出来才是关键。",
-      "pinyin": "Xiān bǎ yuán yīn zhǎo chū lái cái shì guān jiàn.",
+      "pinyin": "Xiān bǎ yuányīn zhǎo chūlái cái shì guānjiàn.",
       "tr": "Önemli olan önce nedeni bulmak."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_038",
       "speaker": "张伟",
       "zh": "这点我同意，不过其他情况也要想一想。",
-      "pinyin": "Zhè diǎn wǒ tóng yì, bù guò qí tā qíng kuàng yě yào xiǎng yī xiǎng.",
+      "pinyin": "Zhèdiǎn wǒ tóngyì, bùguò qítā qíngkuàng yě yào xiǎngyīxiǎng.",
       "tr": "Katılıyorum ama başka durumları da düşünmeliyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_039",
       "speaker": "顾客",
-      "zh": "对，这么说比较有道理。",
-      "pinyin": "Duì, zhè me shuō bǐ jiào yǒu dào lǐ.",
+      "zh": "嗯，这样想确实更合理。",
+      "pinyin": "Èn, zhèyàng xiǎng quèshí gèng hélǐ.",
       "tr": "Böyle söyleyince daha mantıklı."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_040",
       "speaker": "张雨桐",
       "zh": "看来得想个更实际的办法。",
-      "pinyin": "Kàn lái dé xiǎng gè gèng shí jì de bàn fǎ.",
+      "pinyin": "Kànlái dé xiǎng gè gèng shíjì de bànfǎ.",
       "tr": "Daha uygulanabilir bir çözüme ihtiyacımız var."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_041",
       "speaker": "刘梅",
       "zh": "我们可以先做一点，看看实际效果。",
-      "pinyin": "Wǒ men kě yǐ xiān zuò yī diǎn, kàn kàn shí jì xiào guǒ.",
+      "pinyin": "Wǒmen kěyǐ xiān zuò yìdiǎn, kànkàn shíjìxiàoguǒ.",
       "tr": "Önce bir kısmını yapıp sonucu görebiliriz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_042",
       "speaker": "张伟",
-      "zh": "这个办法可以试试。",
-      "pinyin": "Zhè gè bàn fǎ kě yǐ shì shì.",
+      "zh": "这个主意不错。",
+      "pinyin": "Zhège zhǔyi búcuò.",
       "tr": "Bu fikir fena değil."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_043",
       "speaker": "顾客",
       "zh": "那我来处理这一部分。",
-      "pinyin": "Nà wǒ lái chù lǐ zhè yī bù fēn.",
+      "pinyin": "Nà wǒ lái chǔlǐ zhè yībùfèn.",
       "tr": "O zaman bu kısmı ben üstleneyim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_044",
       "speaker": "张雨桐",
       "zh": "那剩下的我来吧。",
-      "pinyin": "Nà shèng xià de wǒ lái ba.",
+      "pinyin": "Nà shèngxià de wǒ lái ba.",
       "tr": "Kalanını ben hallederim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_045",
       "speaker": "刘梅",
-      "zh": "需要帮忙就告诉我。",
-      "pinyin": "Xū yào bāng máng jiù gào sù wǒ.",
+      "zh": "要是忙不过来就跟我说。",
+      "pinyin": "Yàoshì mángbùguòlái jiù gēn wǒ shuō.",
       "tr": "Yardıma ihtiyacın olduğunda bana söyle."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_046",
       "speaker": "张伟",
       "zh": "好，有变化就互相说一声。",
-      "pinyin": "Hǎo, yǒu biàn huà jiù hù xiāng shuō yī shēng.",
+      "pinyin": "Hǎo, yǒu biànhuà jiù hùxiāng shuō yīshēng.",
       "tr": "Tamam, iletişimde kalalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_047",
       "speaker": "顾客",
-      "zh": "事情现在越来越清楚了。",
-      "pinyin": "Shì qíng xiàn zài yuè lái yuè qīng chǔ le.",
+      "zh": "这样一来，情况越来越清楚了。",
+      "pinyin": "Zhèyàngyīlái, qíngkuàng yuèláiyuè qīngchǔ le.",
       "tr": "Durum giderek netleşiyor."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_048",
       "speaker": "张雨桐",
       "zh": "我现在也安心多了。",
-      "pinyin": "Wǒ xiàn zài yě ān xīn duō le.",
+      "pinyin": "Wǒ xiànzài yě ānxīn duō le.",
       "tr": "Ben de çok daha rahatladım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_049",
       "speaker": "刘梅",
-      "zh": "不过还有一个小问题。",
-      "pinyin": "Bù guò hái yǒu yī gè xiǎo wèn tí.",
+      "zh": "等一下，还有个小问题。",
+      "pinyin": "Děng yīxià, háiyǒu gè xiǎo wèntí.",
       "tr": "Bir küçük sorun daha var."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_050",
       "speaker": "张伟",
-      "zh": "嗯，你说，我们一起看看怎么解决。",
-      "pinyin": "Ń, nǐ shuō, wǒ men yī qǐ kàn kàn zěn me jiě jué.",
+      "zh": "说吧，大家一起想办法。",
+      "pinyin": "Shuō ba, dàjiā yìqǐ xiǎng bànfǎ.",
       "tr": "Söyle, birlikte çözüm düşünelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_051",
       "speaker": "顾客",
       "zh": "这个问题其实不算难。",
-      "pinyin": "Zhè gè wèn tí qí shí bù suàn nán.",
+      "pinyin": "Zhège wèntí qíshí bùsuàn nán.",
       "tr": "Bu sorun aslında zor değil."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_052",
       "speaker": "张雨桐",
-      "zh": "准备好以后就能开始。",
-      "pinyin": "Zhǔn bèi hǎo yǐ hòu jiù néng kāi shǐ.",
+      "zh": "只要前面准备好，我们就可以开始。",
+      "pinyin": "Zhǐyào qiánmiàn zhǔnbèi hǎo, wǒmen jiù kěyǐ kāishǐ.",
       "tr": "Hazırlık tamam olursa başlayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_053",
       "speaker": "刘梅",
-      "zh": "好，那我们开始。",
-      "pinyin": "Hǎo, nà wǒ men kāi shǐ.",
+      "zh": "那现在就开始吧。",
+      "pinyin": "Nà xiànzài jiù kāishǐ ba.",
       "tr": "O zaman şimdi başlayalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_054",
       "speaker": "张伟",
-      "zh": "现在进展得比想象中顺利。",
-      "pinyin": "Xiàn zài jìn zhǎn dé bǐ xiǎng xiàng zhōng shùn lì.",
+      "zh": "比想象中顺利多了。",
+      "pinyin": "Bǐ xiǎngxiàng zhōng shùnlì duō le.",
       "tr": "Düşündüğümüzden daha sorunsuz ilerliyor."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_055",
       "speaker": "顾客",
-      "zh": "不过中间还是出了点小问题。",
-      "pinyin": "Bù guò zhōng jiān hái shì chū le diǎn xiǎo wèn tí.",
+      "zh": "中间还是有个小地方出了问题。",
+      "pinyin": "Zhōngjiān háishì yǒu gè xiǎo dìfāng chū le wèntí.",
       "tr": "Arada yine küçük bir sorun çıktı."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_056",
       "speaker": "张雨桐",
-      "zh": "问题不大，先看看怎么调整。",
-      "pinyin": "Wèn tí bù dà, xiān kàn kàn zěn me diào zhěng.",
+      "zh": "别急，我们先看看能不能调整。",
+      "pinyin": "Biéjí, wǒmen xiān kànkàn néng bùnéng tiáozhěng.",
       "tr": "Sorun değil, önce ayarlayıp ayarlayamayacağımıza bakalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_057",
       "speaker": "刘梅",
       "zh": "我想到一个新办法。",
-      "pinyin": "Wǒ xiǎng dào yī gè xīn bàn fǎ.",
+      "pinyin": "Wǒ xiǎngdào yígè xīn bànfǎ.",
       "tr": "Yeni bir çözümüm var."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_058",
       "speaker": "张伟",
-      "zh": "好，说说看。",
-      "pinyin": "Hǎo, shuō shuō kàn.",
+      "zh": "说来听听。",
+      "pinyin": "Shuō lái tīngting.",
       "tr": "Anlat bakalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_059",
       "speaker": "顾客",
-      "zh": "我觉得可以一边做一边检查。",
-      "pinyin": "Wǒ jué dé kě yǐ yī biān zuò yī biān jiǎn chá.",
+      "zh": "我们可以边做边检查。",
+      "pinyin": "Wǒmen kěyǐ biān zuò biān jiǎnchá.",
       "tr": "Yaparken aynı anda kontrol edebiliriz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_060",
       "speaker": "张雨桐",
-      "zh": "对，这样会更早发现问题。",
-      "pinyin": "Duì, zhè yàng huì gèng zǎo fā xiàn wèn tí.",
+      "zh": "这样有问题也能早点发现。",
+      "pinyin": "Zhèyàng yǒu wèntí yě néng zǎodiǎn fāxiàn.",
       "tr": "Böylece sorunları daha erken fark ederiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_061",
       "speaker": "刘梅",
       "zh": "好，就按这个办法来。",
-      "pinyin": "Hǎo, jiù àn zhè gè bàn fǎ lái.",
+      "pinyin": "Hǎo, jiù àn zhège bànfǎ lái.",
       "tr": "Tamam, bu yönteme göre ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_062",
       "speaker": "张伟",
       "zh": "嗯，现在顺多了。",
-      "pinyin": "Ń, xiàn zài shùn duō le.",
+      "pinyin": "Èn, xiànzài shùn duō le.",
       "tr": "Bak, şimdi çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_063",
       "speaker": "顾客",
       "zh": "嗯，比刚才顺多了。",
-      "pinyin": "Ń, bǐ gāng cái shùn duō le.",
+      "pinyin": "Èn, bǐ gāngcái shùn duō le.",
       "tr": "Gerçekten, az öncekinden daha iyi gidiyor."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_064",
       "speaker": "张雨桐",
       "zh": "这么看，我们的方向没错。",
-      "pinyin": "Zhè me kàn, wǒ men de fāng xiàng méi cuò.",
+      "pinyin": "Zhème kàn, wǒmen de fāngxiàng méicuò.",
       "tr": "Görünüşe göre doğru yöndeyiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_065",
       "speaker": "刘梅",
       "zh": "好，最后再过一遍。",
-      "pinyin": "Hǎo, zuì hòu zài guò yī biàn.",
+      "pinyin": "Hǎo, zuìhòu zài guò yībiàn.",
       "tr": "Son olarak bir kez daha kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_066",
       "speaker": "张伟",
       "zh": "好的，我来检查第一部分。",
-      "pinyin": "Hǎo de, wǒ lái jiǎn chá dì yī bù fēn.",
+      "pinyin": "Hǎo de, wǒ lái jiǎnchá dì yí bùfen.",
       "tr": "Tamam, ilk kısmı ben kontrol edeyim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_067",
       "speaker": "顾客",
       "zh": "我负责后面的部分。",
-      "pinyin": "Wǒ fù zé hòu miàn de bù fēn.",
+      "pinyin": "Wǒ fùzé hòumiàn de bùfen.",
       "tr": "Ben sonraki kısmı kontrol ederim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_068",
       "speaker": "张雨桐",
-      "zh": "目前没发现新的问题。",
-      "pinyin": "Mù qián méi fā xiàn xīn de wèn tí.",
+      "zh": "现在看没有新问题。",
+      "pinyin": "Xiànzài kàn méiyǒu xīn wèntí.",
       "tr": "Şu anda yeni bir sorun görünmüyor."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_069",
       "speaker": "刘梅",
       "zh": "太好了，这下终于能放心了。",
-      "pinyin": "Tài hǎo le, zhè xià zhōng yú néng fàng xīn le.",
+      "pinyin": "Tàihǎole, zhè xià zhōngyú néng fàngxīn le.",
       "tr": "Harika, sonunda rahatlayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_070",
       "speaker": "张伟",
       "zh": "今天还真学到不少东西。",
-      "pinyin": "Jīn tiān hái zhēn xué dào bù shǎo dōng xī.",
+      "pinyin": "Jīntiān hái zhēn xuédào bùshǎo dōngxī.",
       "tr": "Bugün epey şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_071",
       "speaker": "顾客",
       "zh": "有了这次经验，下次会快很多。",
-      "pinyin": "Yǒu le zhè cì jīng yàn, xià cì huì kuài hěn duō.",
+      "pinyin": "Yǒu le zhècì jīngyàn, xiàcì huì kuài hěnduō.",
       "tr": "Bir dahaki sefere daha hızlı hallederiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_072",
       "speaker": "张雨桐",
-      "zh": "我觉得今天这个结果不错。",
-      "pinyin": "Wǒ jué dé jīn tiān zhè gè jié guǒ bù cuò.",
+      "zh": "今天的结果我还挺满意。",
+      "pinyin": "Jīntiān de jiéguǒ wǒ hái tǐng mǎnyì.",
       "tr": "Bence bugünkü sonuç iyi."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_073",
       "speaker": "刘梅",
       "zh": "对，我也这么觉得。",
-      "pinyin": "Duì, wǒ yě zhè me jué dé.",
+      "pinyin": "Duì, wǒ yě zhème juéde.",
       "tr": "Ben de öyle düşünüyorum."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_074",
       "speaker": "张伟",
       "zh": "那就这么定吧。",
-      "pinyin": "Nà jiù zhè me dìng ba.",
+      "pinyin": "Nà jiù zhème dìng ba.",
       "tr": "O zaman böyle karar verelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_075",
       "speaker": "顾客",
-      "zh": "好，那接下来按计划走。",
-      "pinyin": "Hǎo, nà jiē xià lái àn jì huà zǒu.",
+      "zh": "好，接下来就按计划来。",
+      "pinyin": "Hǎo, jiēxiàlái jiù ànjìhuà lái.",
       "tr": "Tamam, bundan sonra plana göre devam edelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_076",
       "speaker": "张雨桐",
       "zh": "这个时候最好先装修。",
-      "pinyin": "Zhè gè shí hòu zuì hǎo xiān zhuāng xiū.",
+      "pinyin": "Zhège shíhou zuìhǎo xiān zhuāngxiū.",
       "tr": "Bu durumda önce tadilat en iyisi."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_077",
       "speaker": "刘梅",
       "zh": "这个安排确实更实际。",
-      "pinyin": "Zhè gè ān pái què shí gèng shí jì.",
+      "pinyin": "Zhège ānpái quèshí gèng shíjì.",
       "tr": "Bu düzenleme oldukça uygulanabilir."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_078",
       "speaker": "张伟",
-      "zh": "墙这一点也得认真考虑。",
-      "pinyin": "Qiáng zhè yī diǎn yě dé rèn zhēn kǎo lǜ.",
+      "zh": "说到墙，这一点确实不能忽略。",
+      "pinyin": "Shuō dào qiáng, zhè yìdiǎn quèshí bùnéng hūlüè.",
       "tr": "Duvar bu kez değerlendirmemiz gereken ana noktalardan biri."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_079",
       "speaker": "顾客",
       "zh": "对我来说可以接受。",
-      "pinyin": "Duì wǒ lái shuō kě yǐ jiē shòu.",
+      "pinyin": "Duì wǒ láishuō kěyǐ jiēshòu.",
       "tr": "Bence kabul edilebilir."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_080",
       "speaker": "张雨桐",
       "zh": "颜色这部分我们最好再确认一下。",
-      "pinyin": "Yán sè zhè bù fēn wǒ men zuì hǎo zài què rèn yī xià.",
+      "pinyin": "Yánsè zhèbùfèn wǒmen zuìhǎo zài quèrèn yīxià.",
       "tr": "Renk konusunu bir kez daha teyit etsek iyi olur."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_081",
       "speaker": "刘梅",
-      "zh": "这样一来就清楚多了。",
-      "pinyin": "Zhè yàng yī lái jiù qīng chǔ duō le.",
+      "zh": "这样就好理解多了。",
+      "pinyin": "Zhèyàng jiù hǎo lǐjiě duō le.",
       "tr": "Böyle olunca çok daha net."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_082",
       "speaker": "张伟",
-      "zh": "确认尺寸没问题以后，我们再继续。",
-      "pinyin": "Què rèn chǐ cùn méi wèn tí yǐ hòu, wǒ men zài jì xù.",
+      "zh": "尺寸要是没问题，我们就接着往下。",
+      "pinyin": "Chǐcùn yàoshì méi wèntí, wǒmen jiù jiēzhe wǎng xià.",
       "tr": "Ölçü konusunda sorun yoksa devam ederiz."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_083",
       "speaker": "顾客",
       "zh": "对，那我们看下一项吧。",
-      "pinyin": "Duì, nà wǒ men kàn xià yī xiàng ba.",
+      "pinyin": "Duì, nà wǒmen kàn xià yīxiàng ba.",
       "tr": "Evet, sıradaki maddeye bakalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_084",
       "speaker": "张雨桐",
-      "zh": "老桌子这部分，我们最好再讨论一下。",
-      "pinyin": "Lǎo zhuō zi zhè bù fēn, wǒ men zuì hǎo zài tǎo lùn yī xià.",
+      "zh": "关于老桌子，我觉得还得再聊一聊。",
+      "pinyin": "Guānyú lǎo zhuōzi, wǒ juéde hái dé zàiliáo yī liáo.",
       "tr": "Eski masa konusunda biraz daha konuşmalıyız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_085",
       "speaker": "刘梅",
       "zh": "这一点以后还会用到。",
-      "pinyin": "Zhè yī diǎn yǐ hòu hái huì yòng dào.",
+      "pinyin": "Zhè yìdiǎn yǐhòu hái huì yòngdào.",
       "tr": "Bu nokta ileride yine işimize yarayacak."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_086",
       "speaker": "张伟",
       "zh": "这个时候最好先选择。",
-      "pinyin": "Zhè gè shí hòu zuì hǎo xiān xuǎn zé.",
+      "pinyin": "Zhège shíhou zuìhǎo xiān xuǎnzé.",
       "tr": "Bu durumda önce seçmek en iyisi."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_087",
       "speaker": "顾客",
-      "zh": "嗯，这样安排比较实际。",
-      "pinyin": "Ń, zhè yàng ān pái bǐ jiào shí jì.",
+      "zh": "这个安排挺实际的。",
+      "pinyin": "Zhège ānpái tǐng shíjì de.",
       "tr": "Bu düzenleme oldukça uygulanabilir."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_088",
       "speaker": "张雨桐",
-      "zh": "样子这一点也得认真考虑。",
-      "pinyin": "Yàng zi zhè yī diǎn yě dé rèn zhēn kǎo lǜ.",
+      "zh": "样子也是这次要考虑的重点。",
+      "pinyin": "Yàngzi yě shì zhècì yào kǎolǜ de zhòngdiǎn.",
       "tr": "Şekil / görünüm bu kez değerlendirmemiz gereken ana noktalardan biri."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_089",
       "speaker": "刘梅",
-      "zh": "对我来说可以接受。",
-      "pinyin": "Duì wǒ lái shuō kě yǐ jiē shòu.",
+      "zh": "我看这样可以接受。",
+      "pinyin": "Wǒ kàn zhèyàng kěyǐ jiēshòu.",
       "tr": "Bence kabul edilebilir."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_090",
       "speaker": "张伟",
       "zh": "我已经准备好改正了。",
-      "pinyin": "Wǒ yǐ jīng zhǔn bèi hǎo gǎi zhèng le.",
+      "pinyin": "Wǒ yǐjīng zhǔnbèi hǎo gǎizhèng le.",
       "tr": "Düzeltmek için hazırım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_091",
       "speaker": "顾客",
-      "zh": "这样一来就清楚多了。",
-      "pinyin": "Zhè yàng yī lái jiù qīng chǔ duō le.",
+      "zh": "这样就好理解多了。",
+      "pinyin": "Zhèyàng jiù hǎo lǐjiě duō le.",
       "tr": "Böyle olunca çok daha net."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_092",
       "speaker": "张雨桐",
       "zh": "这一步需要认真装修。",
-      "pinyin": "Zhè yī bù xū yào rèn zhēn zhuāng xiū.",
+      "pinyin": "Zhè yí bù xūyào rènzhēn zhuāngxiū.",
       "tr": "Bu adımda dikkatlice tadilat gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_093",
       "speaker": "刘梅",
-      "zh": "嗯，那继续往下看。",
-      "pinyin": "Ń, nà jì xù wǎng xià kàn.",
+      "zh": "好，我们接着看下一项。",
+      "pinyin": "Hǎo, wǒmen jiēzhe kàn xià yīxiàng.",
       "tr": "Evet, sıradaki maddeye bakalım."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_094",
       "speaker": "张伟",
       "zh": "关于墙，我觉得还得再聊一聊。",
-      "pinyin": "Guān yú qiáng, wǒ jué dé hái dé zài liáo yī liáo.",
+      "pinyin": "Guānyú qiáng, wǒ juéde hái dé zàiliáo yī liáo.",
       "tr": "Duvar konusunda biraz daha konuşmalıyız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_095",
       "speaker": "顾客",
-      "zh": "好，最主要的问题算是解决了。",
-      "pinyin": "Hǎo, zuì zhǔ yào de wèn tí suàn shì jiě jué le.",
+      "zh": "现在主要问题已经解决了。",
+      "pinyin": "Xiànzài zhǔyào wèntí yǐjīng jiějué le.",
       "tr": "Ana sorun artık çözüldü."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_096",
       "speaker": "张雨桐",
-      "zh": "剩下的我们按计划继续。",
-      "pinyin": "Shèng xià de wǒ men àn jì huà jì xù.",
+      "zh": "剩下的按计划做就行。",
+      "pinyin": "Shèngxià de ànjìhuà zuò jiù xíng.",
       "tr": "Kalanını plana göre yapmamız yeterli."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_097",
       "speaker": "刘梅",
       "zh": "今天学到的东西很有用。",
-      "pinyin": "Jīn tiān xué dào de dōng xī hěn yǒu yòng.",
+      "pinyin": "Jīntiān xuédào de dōngxī hěn yǒuyòng.",
       "tr": "Bugünkü deneyim çok faydalı."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_098",
       "speaker": "张伟",
-      "zh": "有了这次经验，下次会准备得更好。",
-      "pinyin": "Yǒu le zhè cì jīng yàn, xià cì huì zhǔn bèi dé gèng hǎo.",
+      "zh": "下次我们就知道该怎么准备了。",
+      "pinyin": "Xiàcì wǒmen jiù zhīdào gāi zěnme zhǔnbèi le.",
       "tr": "Bir dahaki sefere daha iyi hazırlanacağız."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_099",
       "speaker": "顾客",
-      "zh": "好，今天就先到这里吧。",
-      "pinyin": "Hǎo, jīn tiān jiù xiān dào zhè lǐ ba.",
+      "zh": "好，那今天先聊到这儿。",
+      "pinyin": "Hǎo, nà jīntiān xiānliáo dào zhèér.",
       "tr": "Tamam, bugünlük burada bitirelim."
     },
     {
       "id": "DLG_ZH_HSK3_SC014_100",
       "speaker": "张雨桐",
-      "zh": "明天再继续。",
-      "pinyin": "Míng tiān zài jì xù.",
+      "zh": "好，明天接着来。",
+      "pinyin": "Hǎo, míngtiān jiēzhe lái.",
       "tr": "Yarın devam ederiz."
     }
   ]

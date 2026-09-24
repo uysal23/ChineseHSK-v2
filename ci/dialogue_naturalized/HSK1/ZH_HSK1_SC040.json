@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK1_SC040",
   "level": "HSK1",
   "sourceTitleZh": "邻居的包裹",
@@ -10,7 +10,7 @@
       "id": "DLG_ZH_HSK1_SC040_001",
       "speaker": "张伟",
       "zh": "快递送来了一个包裹。",
-      "pinyin": "Kuài dì sòng lái le yī gè bāo guǒ.",
+      "pinyin": "Kuàidì sòng lái le yí ge bāoguǒ.",
       "tr": "Kurye bir paket getirdi."
     },
     {
@@ -23,85 +23,85 @@
     {
       "id": "DLG_ZH_HSK1_SC040_003",
       "speaker": "快递员",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "没错。",
+      "pinyin": "Méicuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_004",
       "speaker": "邻居",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_005",
       "speaker": "张伟",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔn bèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_006",
       "speaker": "刘梅",
       "zh": "这是包裹吗？",
-      "pinyin": "Zhè shì bāo guǒ ma?",
+      "pinyin": "Zhè shì bāoguǒ ma?",
       "tr": "Bu, paket / kargo mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_007",
       "speaker": "快递员",
-      "zh": "对，这是包裹。",
-      "pinyin": "Duì, zhè shì bāo guǒ.",
+      "zh": "对，就是包裹。",
+      "pinyin": "Duì, jiùshì bāoguǒ.",
       "tr": "Evet, bu paket / kargo."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_008",
       "speaker": "邻居",
       "zh": "包裹在哪儿？",
-      "pinyin": "Bāo guǒ zài nǎ ér?",
+      "pinyin": "Bāoguǒ zài nǎr?",
       "tr": "Paket / kargo nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_009",
       "speaker": "张伟",
-      "zh": "包裹在这里。",
-      "pinyin": "Bāo guǒ zài zhè lǐ.",
+      "zh": "包裹在这儿。",
+      "pinyin": "Bāoguǒ zài zhèér.",
       "tr": "Paket / kargo burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_010",
       "speaker": "刘梅",
       "zh": "你的地址是什么？",
-      "pinyin": "Nǐ de dì zhǐ shì shén me?",
+      "pinyin": "Nǐ de dìzhǐ shì shénme?",
       "tr": "Adres nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_011",
       "speaker": "快递员",
       "zh": "这是我的地址。",
-      "pinyin": "Zhè shì wǒ de dì zhǐ.",
+      "pinyin": "Zhè shì wǒ de dìzhǐ.",
       "tr": "Bu benim adres."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_012",
       "speaker": "邻居",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_013",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_014",
       "speaker": "刘梅",
       "zh": "这是我们的邻居。",
-      "pinyin": "Zhè shì wǒ men de lín jū.",
+      "pinyin": "Zhè shì wǒmen de línjū.",
       "tr": "Bu bizim komşu."
     },
     {
@@ -115,14 +115,14 @@
       "id": "DLG_ZH_HSK1_SC040_016",
       "speaker": "邻居",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_017",
       "speaker": "张伟",
-      "zh": "嗯，我也是。",
-      "pinyin": "Ń, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yīyàng.",
       "tr": "Ben de."
     },
     {
@@ -135,50 +135,50 @@
     {
       "id": "DLG_ZH_HSK1_SC040_019",
       "speaker": "快递员",
-      "zh": "对，这是门。",
-      "pinyin": "Duì, zhè shì mén.",
+      "zh": "嗯，对，这是门。",
+      "pinyin": "Èn, duì, zhè shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_020",
       "speaker": "邻居",
-      "zh": "门在哪儿？",
-      "pinyin": "Mén zài nǎ ér?",
+      "zh": "门呢？放哪儿了？",
+      "pinyin": "Mén ne? fàng nǎér le?",
       "tr": "Kapı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_021",
       "speaker": "张伟",
-      "zh": "门在这里。",
-      "pinyin": "Mén zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Kapı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_022",
       "speaker": "刘梅",
       "zh": "包裹上的名字不是张伟。",
-      "pinyin": "Bāo guǒ shàng de míng zì bù shì zhāng wěi.",
+      "pinyin": "Bāoguǒ shàng de míngzi bú shì Zhāng Wěi.",
       "tr": "Paketin üzerindeki isim Zhang Wei değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_023",
       "speaker": "快递员",
-      "zh": "别急。",
-      "pinyin": "Bié jí.",
+      "zh": "先别急。",
+      "pinyin": "Xiān biéjí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_024",
       "speaker": "邻居",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kàn kàn.",
+      "zh": "我来看看吧。",
+      "pinyin": "Wǒ láikàn kànba.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_025",
       "speaker": "张伟",
       "zh": "好，一起吧。",
-      "pinyin": "Hǎo, yī qǐ ba.",
+      "pinyin": "Hǎo, yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
@@ -191,218 +191,218 @@
     {
       "id": "DLG_ZH_HSK1_SC040_027",
       "speaker": "快递员",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎ ér?",
+      "zh": "家呢？",
+      "pinyin": "Jiā ne?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_028",
       "speaker": "邻居",
-      "zh": "家在那边。",
-      "pinyin": "Jiā zài nà biān.",
+      "zh": "你看，家在那边。",
+      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_029",
       "speaker": "张伟",
-      "zh": "好，我明白了。",
-      "pinyin": "Hǎo, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_030",
       "speaker": "刘梅",
       "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_031",
       "speaker": "快递员",
       "zh": "你的名字是什么？",
-      "pinyin": "Nǐ de míng zì shì shén me?",
+      "pinyin": "Nǐ de míngzi shì shénme?",
       "tr": "Isim nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_032",
       "speaker": "邻居",
       "zh": "这是我的名字。",
-      "pinyin": "Zhè shì wǒ de míng zì.",
+      "pinyin": "Zhè shì wǒ de míngzi.",
       "tr": "Bu benim isim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_033",
       "speaker": "张伟",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_034",
       "speaker": "刘梅",
       "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_035",
       "speaker": "快递员",
       "zh": "这是电话吗？",
-      "pinyin": "Zhè shì diàn huà ma?",
+      "pinyin": "Zhè shì diànhuà ma?",
       "tr": "Bu, telefon mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_036",
       "speaker": "邻居",
-      "zh": "对，这是电话。",
-      "pinyin": "Duì, zhè shì diàn huà.",
+      "zh": "对，就是电话。",
+      "pinyin": "Duì, jiùshì diànhuà.",
       "tr": "Evet, bu telefon."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_037",
       "speaker": "张伟",
       "zh": "电话在哪儿？",
-      "pinyin": "Diàn huà zài nǎ ér?",
+      "pinyin": "Diànhuà zài nǎr?",
       "tr": "Telefon nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_038",
       "speaker": "刘梅",
-      "zh": "电话在这里。",
-      "pinyin": "Diàn huà zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Telefon burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_039",
       "speaker": "快递员",
       "zh": "你的号码是什么？",
-      "pinyin": "Nǐ de hào mǎ shì shén me?",
+      "pinyin": "Nǐ de hàomǎ shì shénme?",
       "tr": "Numara nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_040",
       "speaker": "邻居",
       "zh": "这是我的号码。",
-      "pinyin": "Zhè shì wǒ de hào mǎ.",
+      "pinyin": "Zhè shì wǒ de hàomǎ.",
       "tr": "Bu benim numara."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_041",
       "speaker": "张伟",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_042",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xiè xiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_043",
       "speaker": "快递员",
       "zh": "他们把包裹送给邻居。",
-      "pinyin": "Tā men bǎ bāo guǒ sòng gěi lín jū.",
+      "pinyin": "Tāmen bǎ bāoguǒ sòng gěi línjū.",
       "tr": "Paketi komşuya veriyorlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_044",
       "speaker": "邻居",
-      "zh": "太好了！",
-      "pinyin": "Tài hǎo le!",
+      "zh": "太棒了！",
+      "pinyin": "Tàibàngle!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_045",
       "speaker": "张伟",
       "zh": "真谢谢你。",
-      "pinyin": "Zhēn xiè xiè nǐ.",
+      "pinyin": "Zhēn xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_046",
       "speaker": "刘梅",
-      "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_047",
       "speaker": "快递员",
-      "zh": "现在就好了。",
-      "pinyin": "Xiàn zài jiù hǎo le.",
+      "zh": "这下好了。",
+      "pinyin": "Zhè xià hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_048",
       "speaker": "邻居",
-      "zh": "那我们继续。",
-      "pinyin": "Nà wǒ men jì xù.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒmen jìxù ba.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_049",
       "speaker": "张伟",
-      "zh": "这是包裹吗？",
-      "pinyin": "Zhè shì bāo guǒ ma?",
+      "zh": "这个是包裹吗？",
+      "pinyin": "Zhège shì bāoguǒ ma?",
       "tr": "Bu, paket / kargo mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_050",
       "speaker": "刘梅",
-      "zh": "对，这是包裹。",
-      "pinyin": "Duì, zhè shì bāo guǒ.",
+      "zh": "对，就是包裹。",
+      "pinyin": "Duì, jiùshì bāoguǒ.",
       "tr": "Evet, bu paket / kargo."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_051",
       "speaker": "快递员",
-      "zh": "包裹在哪儿？",
-      "pinyin": "Bāo guǒ zài nǎ ér?",
+      "zh": "那包裹在哪儿？",
+      "pinyin": "Nà bāoguǒ zài nǎér?",
       "tr": "Paket / kargo nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_052",
       "speaker": "邻居",
-      "zh": "包裹在这里。",
-      "pinyin": "Bāo guǒ zài zhè lǐ.",
+      "zh": "你看，包裹在这儿。",
+      "pinyin": "Nǐ kàn, bāoguǒ zài zhèér.",
       "tr": "Paket / kargo burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_053",
       "speaker": "张伟",
       "zh": "你的地址是什么？",
-      "pinyin": "Nǐ de dì zhǐ shì shén me?",
+      "pinyin": "Nǐ de dìzhǐ shì shénme?",
       "tr": "Adres nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_054",
       "speaker": "刘梅",
       "zh": "这是我的地址。",
-      "pinyin": "Zhè shì wǒ de dì zhǐ.",
+      "pinyin": "Zhè shì wǒ de dìzhǐ.",
       "tr": "Bu benim adres."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_055",
       "speaker": "快递员",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_056",
       "speaker": "邻居",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_057",
       "speaker": "张伟",
       "zh": "这是我们的邻居。",
-      "pinyin": "Zhè shì wǒ men de lín jū.",
+      "pinyin": "Zhè shì wǒmen de línjū.",
       "tr": "Bu bizim komşu."
     },
     {
@@ -416,161 +416,161 @@
       "id": "DLG_ZH_HSK1_SC040_059",
       "speaker": "快递员",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_060",
       "speaker": "邻居",
       "zh": "嗯，我也是。",
-      "pinyin": "Ń, wǒ yě shì.",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_061",
       "speaker": "张伟",
-      "zh": "这是门吗？",
-      "pinyin": "Zhè shì mén ma?",
+      "zh": "这个是门吗？",
+      "pinyin": "Zhège shì mén ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_062",
       "speaker": "刘梅",
-      "zh": "对，这是门。",
-      "pinyin": "Duì, zhè shì mén.",
+      "zh": "对，就是门。",
+      "pinyin": "Duì, jiùshì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_063",
       "speaker": "快递员",
-      "zh": "门在哪儿？",
-      "pinyin": "Mén zài nǎ ér?",
+      "zh": "门呢？放哪儿了？",
+      "pinyin": "Mén ne? fàng nǎér le?",
       "tr": "Kapı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_064",
       "speaker": "邻居",
-      "zh": "门在这里。",
-      "pinyin": "Mén zài zhè lǐ.",
+      "zh": "门在这儿。",
+      "pinyin": "Mén zài zhèér.",
       "tr": "Kapı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_065",
       "speaker": "张伟",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎ ér?",
+      "zh": "家呢？",
+      "pinyin": "Jiā ne?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_066",
       "speaker": "刘梅",
       "zh": "家在那边。",
-      "pinyin": "Jiā zài nà biān.",
+      "pinyin": "Jiā zài nàbian.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_067",
       "speaker": "快递员",
-      "zh": "好，我明白了。",
-      "pinyin": "Hǎo, wǒ míng bái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_068",
       "speaker": "邻居",
       "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_069",
       "speaker": "张伟",
       "zh": "你的名字是什么？",
-      "pinyin": "Nǐ de míng zì shì shén me?",
+      "pinyin": "Nǐ de míngzi shì shénme?",
       "tr": "Isim nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_070",
       "speaker": "刘梅",
       "zh": "这是我的名字。",
-      "pinyin": "Zhè shì wǒ de míng zì.",
+      "pinyin": "Zhè shì wǒ de míngzi.",
       "tr": "Bu benim isim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_071",
       "speaker": "快递员",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_072",
       "speaker": "邻居",
       "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_073",
       "speaker": "张伟",
-      "zh": "这是包裹吗？",
-      "pinyin": "Zhè shì bāo guǒ ma?",
+      "zh": "这是包裹，对吗？",
+      "pinyin": "Zhè shì bāoguǒ, duì ma?",
       "tr": "Bu, paket / kargo mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_074",
       "speaker": "刘梅",
-      "zh": "对，这是包裹。",
-      "pinyin": "Duì, zhè shì bāo guǒ.",
+      "zh": "嗯，对，这是包裹。",
+      "pinyin": "Èn, duì, zhè shì bāoguǒ.",
       "tr": "Evet, bu paket / kargo."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_075",
       "speaker": "快递员",
-      "zh": "包裹在哪儿？",
-      "pinyin": "Bāo guǒ zài nǎ ér?",
+      "zh": "那包裹在哪儿？",
+      "pinyin": "Nà bāoguǒ zài nǎér?",
       "tr": "Paket / kargo nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_076",
       "speaker": "邻居",
-      "zh": "包裹在这里。",
-      "pinyin": "Bāo guǒ zài zhè lǐ.",
+      "zh": "你看，包裹在这儿。",
+      "pinyin": "Nǐ kàn, bāoguǒ zài zhèér.",
       "tr": "Paket / kargo burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_077",
       "speaker": "张伟",
       "zh": "你的地址是什么？",
-      "pinyin": "Nǐ de dì zhǐ shì shén me?",
+      "pinyin": "Nǐ de dìzhǐ shì shénme?",
       "tr": "Adres nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_078",
       "speaker": "刘梅",
       "zh": "这是我的地址。",
-      "pinyin": "Zhè shì wǒ de dì zhǐ.",
+      "pinyin": "Zhè shì wǒ de dìzhǐ.",
       "tr": "Bu benim adres."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_079",
       "speaker": "快递员",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_080",
       "speaker": "邻居",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xiè xiè.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_081",
       "speaker": "张伟",
       "zh": "这是我们的邻居。",
-      "pinyin": "Zhè shì wǒ men de lín jū.",
+      "pinyin": "Zhè shì wǒmen de línjū.",
       "tr": "Bu bizim komşu."
     },
     {
@@ -584,112 +584,112 @@
       "id": "DLG_ZH_HSK1_SC040_083",
       "speaker": "快递员",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_084",
       "speaker": "邻居",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_085",
       "speaker": "张伟",
-      "zh": "这是门吗？",
-      "pinyin": "Zhè shì mén ma?",
+      "zh": "这是门，对吗？",
+      "pinyin": "Zhè shì mén, duì ma?",
       "tr": "Bu, kapı mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_086",
       "speaker": "刘梅",
-      "zh": "对，这是门。",
-      "pinyin": "Duì, zhè shì mén.",
+      "zh": "嗯，对，这是门。",
+      "pinyin": "Èn, duì, zhè shì mén.",
       "tr": "Evet, bu kapı."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_087",
       "speaker": "快递员",
       "zh": "门在哪儿？",
-      "pinyin": "Mén zài nǎ ér?",
+      "pinyin": "Mén zài nǎr?",
       "tr": "Kapı nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_088",
       "speaker": "邻居",
-      "zh": "门在这里。",
-      "pinyin": "Mén zài zhè lǐ.",
+      "zh": "你看，门在这儿。",
+      "pinyin": "Nǐ kàn, mén zài zhèér.",
       "tr": "Kapı burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_089",
       "speaker": "张伟",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎ ér?",
+      "zh": "那家在哪儿？",
+      "pinyin": "Nà jiā zài nǎér?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_090",
       "speaker": "刘梅",
-      "zh": "家在那边。",
-      "pinyin": "Jiā zài nà biān.",
+      "zh": "你看，家在那边。",
+      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_091",
       "speaker": "快递员",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_092",
       "speaker": "邻居",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_093",
       "speaker": "张伟",
       "zh": "你的名字是什么？",
-      "pinyin": "Nǐ de míng zì shì shén me?",
+      "pinyin": "Nǐ de míngzi shì shénme?",
       "tr": "Isim nedir?"
     },
     {
       "id": "DLG_ZH_HSK1_SC040_094",
       "speaker": "刘梅",
       "zh": "这是我的名字。",
-      "pinyin": "Zhè shì wǒ de míng zì.",
+      "pinyin": "Zhè shì wǒ de míngzi.",
       "tr": "Bu benim isim."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_095",
       "speaker": "快递员",
       "zh": "我记下了。",
-      "pinyin": "Wǒ jì xià le.",
+      "pinyin": "Wǒ jìxià le.",
       "tr": "Not aldım."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_096",
       "speaker": "邻居",
       "zh": "今天学了很多。",
-      "pinyin": "Jīn tiān xué le hěn duō.",
+      "pinyin": "Jīntiān xué le hěn duō.",
       "tr": "Bugün çok şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_097",
       "speaker": "张伟",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yī yàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC040_098",
       "speaker": "刘梅",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "zh": "都弄好了吗？",
+      "pinyin": "Dōu nòng hǎolema?",
       "tr": "Her şey tamam mı?"
     },
     {
@@ -702,8 +702,8 @@
     {
       "id": "DLG_ZH_HSK1_SC040_100",
       "speaker": "邻居",
-      "zh": "好，走吧。",
-      "pinyin": "Hǎo, zǒu ba.",
+      "zh": "那走吧。",
+      "pinyin": "Nà zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]

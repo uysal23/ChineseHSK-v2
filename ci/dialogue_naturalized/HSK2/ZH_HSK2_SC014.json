@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK2_SC014",
   "level": "HSK2",
   "sourceTitleZh": "理发店里的误会",
@@ -10,266 +10,266 @@
       "id": "DLG_ZH_HSK2_SC014_001",
       "speaker": "张伟",
       "zh": "我想把头发剪短一点。",
-      "pinyin": "Wǒ xiǎng bǎ tóu fā jiǎn duǎn yī diǎn.",
+      "pinyin": "Wǒ xiǎng bǎ tóufa jiǎn duǎn yìdiǎn.",
       "tr": "Saçımı biraz daha kısa kestirmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_002",
       "speaker": "理发师",
       "zh": "今天事情不少。",
-      "pinyin": "Jīn tiān shì qíng bù shǎo.",
+      "pinyin": "Jīntiān shìqing bù shǎo.",
       "tr": "Bugün yapılacak epey iş var."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_003",
       "speaker": "刘梅",
       "zh": "我们先看看最重要的。",
-      "pinyin": "Wǒ men xiān kàn kàn zuì zhòng yào de.",
+      "pinyin": "Wǒmen xiān kànkan zuì zhòngyào de.",
       "tr": "Önce en önemli olana bakalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_004",
       "speaker": "张伟",
       "zh": "好，慢慢来。",
-      "pinyin": "Hǎo, màn màn lái.",
+      "pinyin": "Hǎo, mànmàn lái.",
       "tr": "Tamam, sakin sakin ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_005",
       "speaker": "理发师",
       "zh": "我今天去理发。",
-      "pinyin": "Wǒ jīn tiān qù lǐ fā.",
+      "pinyin": "Wǒ jīntiān qù lǐfà.",
       "tr": "Bugün saçımı kestirmeye gidiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_006",
       "speaker": "刘梅",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_007",
       "speaker": "张伟",
       "zh": "原来是这样啊。",
-      "pinyin": "Yuán lái shì zhè yàng a.",
+      "pinyin": "Yuánlái shì zhèyàng a.",
       "tr": "Demek böyleymiş."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_008",
       "speaker": "理发师",
       "zh": "我想再短一点。",
-      "pinyin": "Wǒ xiǎng zài duǎn yī diǎn.",
+      "pinyin": "Wǒ xiǎng zài duǎn yìdiǎn.",
       "tr": "Biraz daha kısa istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_009",
       "speaker": "刘梅",
       "zh": "好，这个我记住了。",
-      "pinyin": "Hǎo, zhè gè wǒ jì zhù le.",
+      "pinyin": "Hǎo, zhège wǒ jìzhù le.",
       "tr": "Bunu aklımda tutacağım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_010",
       "speaker": "张伟",
-      "zh": "听你这么说就清楚了。",
-      "pinyin": "Tīng nǐ zhè me shuō jiù qīng chǔ le.",
+      "zh": "嗯，听起来很清楚。",
+      "pinyin": "Èn, tīng qǐlái hěn qīngchǔ.",
       "tr": "Oldukça net görünüyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_011",
       "speaker": "理发师",
       "zh": "这个有点长。",
-      "pinyin": "Zhè gè yǒu diǎn zhǎng.",
+      "pinyin": "Zhège yǒudiǎn cháng.",
       "tr": "Bu biraz uzun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_012",
       "speaker": "刘梅",
-      "zh": "行，就按这个来。",
-      "pinyin": "Xíng, jiù àn zhè gè lái.",
+      "zh": "好，那我们就这么做。",
+      "pinyin": "Hǎo, nà wǒmen jiù zhème zuò.",
       "tr": "Tamam, o zaman buna göre ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_013",
       "speaker": "张伟",
       "zh": "我觉得可以。",
-      "pinyin": "Wǒ jué dé kě yǐ.",
+      "pinyin": "Wǒ juéde kěyǐ.",
       "tr": "Bence olur."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_014",
       "speaker": "理发师",
       "zh": "这个样子更适合你。",
-      "pinyin": "Zhè gè yàng zi gèng shì hé nǐ.",
+      "pinyin": "Zhège yàngzi gèng shìhé nǐ.",
       "tr": "Bu görünüm sana daha uygun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_015",
       "speaker": "刘梅",
       "zh": "对，这个很重要。",
-      "pinyin": "Duì, zhè gè hěn zhòng yào.",
+      "pinyin": "Duì, zhège hěn zhòngyào.",
       "tr": "Evet, bu önemli."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_016",
       "speaker": "张伟",
       "zh": "我们别忘了。",
-      "pinyin": "Wǒ men bié wàng le.",
+      "pinyin": "Wǒmen bié wàng le.",
       "tr": "Bunu unutmayalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_017",
       "speaker": "理发师",
       "zh": "不是这么短。",
-      "pinyin": "Bù shì zhè me duǎn.",
+      "pinyin": "Bú shì zhème duǎn.",
       "tr": "Bu kadar kısa değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_018",
       "speaker": "刘梅",
-      "zh": "那接下来怎么办？",
-      "pinyin": "Nà jiē xià lái zěn me bàn?",
+      "zh": "那现在怎么办？",
+      "pinyin": "Nà xiànzài zěnme bàn?",
       "tr": "Peki şimdi ne yapacağız?"
     },
     {
       "id": "DLG_ZH_HSK2_SC014_019",
       "speaker": "张伟",
-      "zh": "先别急，我们想想办法。",
-      "pinyin": "Xiān bié jí, wǒ men xiǎng xiǎng bàn fǎ.",
+      "zh": "别着急，我们先想个办法。",
+      "pinyin": "Biézháojí, wǒmen xiān xiǎnggèbànfǎ.",
       "tr": "Önce telaşlanmayalım, bir çözüm düşünelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_020",
       "speaker": "理发师",
       "zh": "我觉得可以先做最简单的。",
-      "pinyin": "Wǒ jué dé kě yǐ xiān zuò zuì jiǎn dān de.",
+      "pinyin": "Wǒ juéde kěyǐ xiān zuò zuì jiǎndān de.",
       "tr": "Bence önce en kolay kısmı yapabiliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_021",
       "speaker": "刘梅",
       "zh": "这样比较快。",
-      "pinyin": "Zhè yàng bǐ jiào kuài.",
+      "pinyin": "Zhèyàng bǐjiào kuài.",
       "tr": "Böyle daha hızlı olur."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_022",
       "speaker": "张伟",
       "zh": "理发师今天也来了。",
-      "pinyin": "Lǐ fā shī jīn tiān yě lái le.",
+      "pinyin": "Lǐfàshī jīntiān yě lái le.",
       "tr": "Berber bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_023",
       "speaker": "理发师",
       "zh": "对，这个也要注意。",
-      "pinyin": "Duì, zhè gè yě yào zhù yì.",
+      "pinyin": "Duì, zhège yě yào zhùyì.",
       "tr": "Evet, buna da dikkat etmek gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_024",
       "speaker": "刘梅",
       "zh": "那我们把它记下来。",
-      "pinyin": "Nà wǒ men bǎ tā jì xià lái.",
+      "pinyin": "Nà wǒmen bǎ tā jìxiàlái.",
       "tr": "O zaman bunu not edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_025",
       "speaker": "张伟",
       "zh": "这个礼物很漂亮。",
-      "pinyin": "Zhè gè lǐ wù hěn piāo liàng.",
+      "pinyin": "Zhège lǐwù hěn piàoliang.",
       "tr": "Bu hediye çok güzel."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_026",
       "speaker": "理发师",
-      "zh": "这个主意挺好的。",
-      "pinyin": "Zhè gè zhǔ yì tǐng hǎo de.",
+      "zh": "这个办法不错。",
+      "pinyin": "Zhège bànfǎ búcuò.",
       "tr": "Bu yöntem fena değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_027",
       "speaker": "刘梅",
-      "zh": "那我们试试吧。",
-      "pinyin": "Nà wǒ men shì shì ba.",
+      "zh": "我们先试一下。",
+      "pinyin": "Wǒmen xiān shìyīxià.",
       "tr": "Deneyebiliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_028",
       "speaker": "张伟",
       "zh": "我们先选择。",
-      "pinyin": "Wǒ men xiān xuǎn zé.",
+      "pinyin": "Wǒmen xiān xuǎnzé.",
       "tr": "Önce seçmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_029",
       "speaker": "理发师",
       "zh": "这个我以前没注意到。",
-      "pinyin": "Zhè gè wǒ yǐ qián méi zhù yì dào.",
+      "pinyin": "Zhège wǒ yǐqián méi zhùyì dào.",
       "tr": "Daha önce dikkat etmemiştim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_030",
       "speaker": "刘梅",
       "zh": "这下知道了。",
-      "pinyin": "Zhè xià zhī dào le.",
+      "pinyin": "Zhè xià zhīdào le.",
       "tr": "Şimdi öğrendim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_031",
       "speaker": "张伟",
       "zh": "我们先检查。",
-      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "pinyin": "Wǒmen xiān jiǎnchá.",
       "tr": "Önce kontrol etmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_032",
       "speaker": "理发师",
       "zh": "嗯，说得对。",
-      "pinyin": "Ń, shuō dé duì.",
+      "pinyin": "Èn, shuōdéduì.",
       "tr": "Doğru söylüyorsun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_033",
       "speaker": "刘梅",
-      "zh": "这样会更方便。",
-      "pinyin": "Zhè yàng huì gèng fāng biàn.",
+      "zh": "嗯，这样方便多了。",
+      "pinyin": "Èn, zhèyàng fāngbiàn duō le.",
       "tr": "Böyle daha kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_034",
       "speaker": "张伟",
       "zh": "因为时间不多，所以我们快一点。",
-      "pinyin": "Yīn wèi shí jiān bù duō, suǒ yǐ wǒ men kuài yī diǎn.",
+      "pinyin": "Yīnwèi shíjiān bù duō, suǒyǐ wǒmen kuài yìdiǎn.",
       "tr": "Zaman az olduğu için biraz hızlı olalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_035",
       "speaker": "理发师",
       "zh": "先做这个，再做下一个。",
-      "pinyin": "Xiān zuò zhè gè, zài zuò xià yī gè.",
+      "pinyin": "Xiān zuò zhège, zài zuò xià yí ge.",
       "tr": "Önce bunu, sonra sıradakini yapalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_036",
       "speaker": "刘梅",
       "zh": "这个办法比刚才的好。",
-      "pinyin": "Zhè gè bàn fǎ bǐ gāng cái de hǎo.",
+      "pinyin": "Zhège bànfǎ bǐ gāngcái de hǎo.",
       "tr": "Bu yöntem az öncekinden daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_037",
       "speaker": "张伟",
       "zh": "我已经试过一次了。",
-      "pinyin": "Wǒ yǐ jīng shì guò yī cì le.",
+      "pinyin": "Wǒ yǐjīng shìguo yí cì le.",
       "tr": "Bir kez denedim bile."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_038",
       "speaker": "理发师",
-      "zh": "那换个办法吧。",
-      "pinyin": "Nà huàn gè bàn fǎ ba.",
+      "zh": "那就换个办法试试。",
+      "pinyin": "Nà jiù huàn gè bànfǎ shìshì.",
       "tr": "O zaman başka bir yöntem deneyelim."
     },
     {
@@ -282,428 +282,428 @@
     {
       "id": "DLG_ZH_HSK2_SC014_040",
       "speaker": "张伟",
-      "zh": "做完以后记得告诉我。",
-      "pinyin": "Zuò wán yǐ hòu jì dé gào sù wǒ.",
+      "zh": "弄好以后跟我说一声。",
+      "pinyin": "Nòng hǎo yǐhòu gēn wǒ shuō yīshēng.",
       "tr": "Bitirince bana söyle."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_041",
       "speaker": "理发师",
       "zh": "没问题，我记得。",
-      "pinyin": "Méi wèn tí, wǒ jì dé.",
+      "pinyin": "Méi wèntí, wǒ jìde.",
       "tr": "Sorun yok, hatırlıyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_042",
       "speaker": "刘梅",
-      "zh": "这下好多了。",
-      "pinyin": "Zhè xià hǎo duō le.",
+      "zh": "嗯，现在好多了。",
+      "pinyin": "Èn, xiànzài hǎoduō le.",
       "tr": "Şimdi çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_043",
       "speaker": "张伟",
-      "zh": "就差一点了。",
-      "pinyin": "Jiù chà yī diǎn le.",
+      "zh": "嗯，还差一点。",
+      "pinyin": "Èn, hái chàyìdiǎn.",
       "tr": "Biraz daha eksik var."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_044",
       "speaker": "理发师",
-      "zh": "来，我帮你。",
-      "pinyin": "Lái, wǒ bāng nǐ.",
+      "zh": "要不我来帮你吧。",
+      "pinyin": "Yào bù wǒ lái bāng nǐ ba.",
       "tr": "Sana yardım edeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_045",
       "speaker": "刘梅",
       "zh": "谢谢，这样快多了。",
-      "pinyin": "Xiè xiè, zhè yàng kuài duō le.",
+      "pinyin": "Xièxie, zhèyàng kuài duō le.",
       "tr": "Teşekkürler, böyle çok daha hızlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_046",
       "speaker": "张伟",
-      "zh": "好，再检查一次。",
-      "pinyin": "Hǎo, zài jiǎn chá yī cì.",
+      "zh": "我们再检查一遍吧。",
+      "pinyin": "Wǒmen zài jiǎnchá yībiàn ba.",
       "tr": "Bir kez daha kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_047",
       "speaker": "理发师",
       "zh": "这次应该没问题了。",
-      "pinyin": "Zhè cì yīng gāi méi wèn tí le.",
+      "pinyin": "Zhècì yīnggāi méi wèntí le.",
       "tr": "Bu kez sorun kalmadı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_048",
       "speaker": "刘梅",
       "zh": "太好了，总算解决了。",
-      "pinyin": "Tài hǎo le, zǒng suàn jiě jué le.",
+      "pinyin": "Tàihǎole, zǒngsuàn jiějué le.",
       "tr": "Harika, sonunda çözüldü."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_049",
       "speaker": "张伟",
       "zh": "今天又学到一件事。",
-      "pinyin": "Jīn tiān yòu xué dào yī jiàn shì.",
+      "pinyin": "Jīntiān yòu xuédào yí jiàn shì.",
       "tr": "Bugün yine bir şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_050",
       "speaker": "理发师",
       "zh": "下次我们会更有经验。",
-      "pinyin": "Xià cì wǒ men huì gèng yǒu jīng yàn.",
+      "pinyin": "Xià cì wǒmen huì gèng yǒu jīngyàn.",
       "tr": "Bir dahaki sefere daha deneyimli olacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_051",
       "speaker": "刘梅",
-      "zh": "我的想法也一样。",
-      "pinyin": "Wǒ de xiǎng fǎ yě yī yàng.",
+      "zh": "对，我也这么觉得。",
+      "pinyin": "Duì, wǒ yě zhème juéde.",
       "tr": "Ben de böyle düşünüyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_052",
       "speaker": "张伟",
-      "zh": "那就这么定吧。",
-      "pinyin": "Nà jiù zhè me dìng ba.",
+      "zh": "那我们就这么定。",
+      "pinyin": "Nà wǒmen jiù zhème dìng.",
       "tr": "O zaman böyle karar verelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_053",
       "speaker": "理发师",
-      "zh": "好，那继续吧。",
-      "pinyin": "Hǎo, nà jì xù ba.",
+      "zh": "行，我们接着来。",
+      "pinyin": "Xíng, wǒmen jiēzhe lái.",
       "tr": "Tamam, devam edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_054",
       "speaker": "刘梅",
       "zh": "我今天去理发。",
-      "pinyin": "Wǒ jīn tiān qù lǐ fā.",
+      "pinyin": "Wǒ jīntiān qù lǐfà.",
       "tr": "Bugün saçımı kestirmeye gidiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_055",
       "speaker": "张伟",
-      "zh": "好，我记住了。",
-      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "zh": "对，我记住了。",
+      "pinyin": "Duì, wǒ jìzhù le.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_056",
       "speaker": "理发师",
       "zh": "我想再短一点。",
-      "pinyin": "Wǒ xiǎng zài duǎn yī diǎn.",
+      "pinyin": "Wǒ xiǎng zài duǎn yìdiǎn.",
       "tr": "Biraz daha kısa istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_057",
       "speaker": "刘梅",
-      "zh": "嗯，这个很实用。",
-      "pinyin": "Ń, zhè gè hěn shí yòng.",
+      "zh": "这个确实很实用。",
+      "pinyin": "Zhège quèshí hěn shíyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_058",
       "speaker": "张伟",
       "zh": "这个有点长。",
-      "pinyin": "Zhè gè yǒu diǎn zhǎng.",
+      "pinyin": "Zhège yǒudiǎn cháng.",
       "tr": "Bu biraz uzun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_059",
       "speaker": "理发师",
-      "zh": "以后肯定还会用到。",
-      "pinyin": "Yǐ hòu kěn dìng hái huì yòng dào.",
+      "zh": "这个以后还会用到。",
+      "pinyin": "Zhège yǐhòu hái huì yòngdào.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_060",
       "speaker": "刘梅",
       "zh": "这个样子更适合你。",
-      "pinyin": "Zhè gè yàng zi gèng shì hé nǐ.",
+      "pinyin": "Zhège yàngzi gèng shìhé nǐ.",
       "tr": "Bu görünüm sana daha uygun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_061",
       "speaker": "张伟",
-      "zh": "好，我再说一次。",
-      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "zh": "我再说一遍吧。",
+      "pinyin": "Wǒ zàishuō yībiàn ba.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_062",
       "speaker": "理发师",
       "zh": "理发师今天也来了。",
-      "pinyin": "Lǐ fā shī jīn tiān yě lái le.",
+      "pinyin": "Lǐfàshī jīntiān yě lái le.",
       "tr": "Berber bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_063",
       "speaker": "刘梅",
-      "zh": "现在就清楚多了。",
-      "pinyin": "Xiàn zài jiù qīng chǔ duō le.",
+      "zh": "现在明白多了。",
+      "pinyin": "Xiànzài míngbái duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_064",
       "speaker": "张伟",
       "zh": "这个礼物很漂亮。",
-      "pinyin": "Zhè gè lǐ wù hěn piāo liàng.",
+      "pinyin": "Zhège lǐwù hěn piàoliang.",
       "tr": "Bu hediye çok güzel."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_065",
       "speaker": "理发师",
-      "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jì zhù le.",
+      "zh": "嗯，我记住了。",
+      "pinyin": "Èn, wǒ jìzhù le.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_066",
       "speaker": "刘梅",
       "zh": "我们先选择。",
-      "pinyin": "Wǒ men xiān xuǎn zé.",
+      "pinyin": "Wǒmen xiān xuǎnzé.",
       "tr": "Önce seçmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_067",
       "speaker": "张伟",
-      "zh": "这个挺实用的。",
-      "pinyin": "Zhè gè tǐng shí yòng de.",
+      "zh": "嗯，这个很实用。",
+      "pinyin": "Èn, zhège hěn shíyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_068",
       "speaker": "理发师",
       "zh": "我们先检查。",
-      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "pinyin": "Wǒmen xiān jiǎnchá.",
       "tr": "Önce kontrol etmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_069",
       "speaker": "刘梅",
-      "zh": "这个以后还会用到。",
-      "pinyin": "Zhè gè yǐ hòu hái huì yòng dào.",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐhòu hái yòngdéshàng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_070",
       "speaker": "张伟",
       "zh": "我今天去理发。",
-      "pinyin": "Wǒ jīn tiān qù lǐ fā.",
+      "pinyin": "Wǒ jīntiān qù lǐfà.",
       "tr": "Bugün saçımı kestirmeye gidiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_071",
       "speaker": "理发师",
       "zh": "好，我再说一次。",
-      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "pinyin": "Hǎo, wǒ zàishuō yīcì.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_072",
       "speaker": "刘梅",
       "zh": "我想再短一点。",
-      "pinyin": "Wǒ xiǎng zài duǎn yī diǎn.",
+      "pinyin": "Wǒ xiǎng zài duǎn yìdiǎn.",
       "tr": "Biraz daha kısa istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_073",
       "speaker": "张伟",
       "zh": "嗯，这下更清楚了。",
-      "pinyin": "Ń, zhè xià gèng qīng chǔ le.",
+      "pinyin": "Èn, zhè xià gèng qīngchǔ le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_074",
       "speaker": "理发师",
       "zh": "这个有点长。",
-      "pinyin": "Zhè gè yǒu diǎn zhǎng.",
+      "pinyin": "Zhège yǒudiǎn cháng.",
       "tr": "Bu biraz uzun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_075",
       "speaker": "刘梅",
       "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jì zhù le.",
+      "pinyin": "Duì, wǒ jìzhù le.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_076",
       "speaker": "张伟",
       "zh": "这个样子更适合你。",
-      "pinyin": "Zhè gè yàng zi gèng shì hé nǐ.",
+      "pinyin": "Zhège yàngzi gèng shìhé nǐ.",
       "tr": "Bu görünüm sana daha uygun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_077",
       "speaker": "理发师",
       "zh": "这个确实很实用。",
-      "pinyin": "Zhè gè què shí hěn shí yòng.",
+      "pinyin": "Zhège quèshí hěn shíyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_078",
       "speaker": "刘梅",
       "zh": "理发师今天也来了。",
-      "pinyin": "Lǐ fā shī jīn tiān yě lái le.",
+      "pinyin": "Lǐfàshī jīntiān yě lái le.",
       "tr": "Berber bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_079",
       "speaker": "张伟",
       "zh": "这个以后还会用到。",
-      "pinyin": "Zhè gè yǐ hòu hái huì yòng dào.",
+      "pinyin": "Zhège yǐhòu hái huì yòngdào.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_080",
       "speaker": "理发师",
       "zh": "这个礼物很漂亮。",
-      "pinyin": "Zhè gè lǐ wù hěn piāo liàng.",
+      "pinyin": "Zhège lǐwù hěn piàoliang.",
       "tr": "Bu hediye çok güzel."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_081",
       "speaker": "刘梅",
-      "zh": "那我再说一遍。",
-      "pinyin": "Nà wǒ zài shuō yī biàn.",
+      "zh": "我再说一遍吧。",
+      "pinyin": "Wǒ zàishuō yībiàn ba.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_082",
       "speaker": "张伟",
       "zh": "我们先选择。",
-      "pinyin": "Wǒ men xiān xuǎn zé.",
+      "pinyin": "Wǒmen xiān xuǎnzé.",
       "tr": "Önce seçmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_083",
       "speaker": "理发师",
-      "zh": "现在就清楚多了。",
-      "pinyin": "Xiàn zài jiù qīng chǔ duō le.",
+      "zh": "现在明白多了。",
+      "pinyin": "Xiànzài míngbái duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_084",
       "speaker": "刘梅",
       "zh": "我们先检查。",
-      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "pinyin": "Wǒmen xiān jiǎnchá.",
       "tr": "Önce kontrol etmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_085",
       "speaker": "张伟",
-      "zh": "好，我记住了。",
-      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "zh": "嗯，我记住了。",
+      "pinyin": "Èn, wǒ jìzhù le.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_086",
       "speaker": "理发师",
       "zh": "我今天去理发。",
-      "pinyin": "Wǒ jīn tiān qù lǐ fā.",
+      "pinyin": "Wǒ jīntiān qù lǐfà.",
       "tr": "Bugün saçımı kestirmeye gidiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_087",
       "speaker": "刘梅",
-      "zh": "这个确实很实用。",
-      "pinyin": "Zhè gè què shí hěn shí yòng.",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhège tǐng shíyòng de.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_088",
       "speaker": "张伟",
       "zh": "我想再短一点。",
-      "pinyin": "Wǒ xiǎng zài duǎn yī diǎn.",
+      "pinyin": "Wǒ xiǎng zài duǎn yìdiǎn.",
       "tr": "Biraz daha kısa istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_089",
       "speaker": "理发师",
-      "zh": "以后还用得上。",
-      "pinyin": "Yǐ hòu hái yòng dé shàng.",
+      "zh": "以后肯定还会用到。",
+      "pinyin": "Yǐhòu kěndìng hái huì yòngdào.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_090",
       "speaker": "刘梅",
       "zh": "这个有点长。",
-      "pinyin": "Zhè gè yǒu diǎn zhǎng.",
+      "pinyin": "Zhège yǒudiǎn cháng.",
       "tr": "Bu biraz uzun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_091",
       "speaker": "张伟",
-      "zh": "那我再说一遍。",
-      "pinyin": "Nà wǒ zài shuō yī biàn.",
+      "zh": "我再说一遍吧。",
+      "pinyin": "Wǒ zàishuō yībiàn ba.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_092",
       "speaker": "理发师",
       "zh": "这个样子更适合你。",
-      "pinyin": "Zhè gè yàng zi gèng shì hé nǐ.",
+      "pinyin": "Zhège yàngzi gèng shìhé nǐ.",
       "tr": "Bu görünüm sana daha uygun."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_093",
       "speaker": "刘梅",
-      "zh": "嗯，这下更清楚了。",
-      "pinyin": "Ń, zhè xià gèng qīng chǔ le.",
+      "zh": "现在就清楚多了。",
+      "pinyin": "Xiànzài jiù qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_094",
       "speaker": "张伟",
       "zh": "理发师今天也来了。",
-      "pinyin": "Lǐ fā shī jīn tiān yě lái le.",
+      "pinyin": "Lǐfàshī jīntiān yě lái le.",
       "tr": "Berber bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_095",
       "speaker": "理发师",
       "zh": "这样可以，正好。",
-      "pinyin": "Zhè yàng kě yǐ, zhèng hǎo.",
+      "pinyin": "Zhèyàng kěyǐ, zhènghǎo.",
       "tr": "Böyle iyi, tam oldu."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_096",
       "speaker": "刘梅",
       "zh": "问题解决了。",
-      "pinyin": "Wèn tí jiě jué le.",
+      "pinyin": "Wèntí jiějué le.",
       "tr": "Sorun çözüldü."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_097",
       "speaker": "张伟",
       "zh": "大家都轻松多了。",
-      "pinyin": "Dà jiā dōu qīng sōng duō le.",
+      "pinyin": "Dàjiā dōu qīngsōng duō le.",
       "tr": "Herkes çok daha rahatladı."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_098",
       "speaker": "理发师",
       "zh": "今天很顺利。",
-      "pinyin": "Jīn tiān hěn shùn lì.",
+      "pinyin": "Jīntiān hěn shùnlì.",
       "tr": "Bugün işler yolunda gitti."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_099",
       "speaker": "刘梅",
       "zh": "下次会更容易。",
-      "pinyin": "Xià cì huì gèng róng yì.",
+      "pinyin": "Xià cì huì gèng róngyì.",
       "tr": "Bir dahaki sefere daha kolay olacak."
     },
     {
       "id": "DLG_ZH_HSK2_SC014_100",
       "speaker": "张伟",
       "zh": "好，我们回去吧。",
-      "pinyin": "Hǎo, wǒ men huí qù ba.",
+      "pinyin": "Hǎo, wǒmen huíqù ba.",
       "tr": "Tamam, geri dönelim."
     }
   ]

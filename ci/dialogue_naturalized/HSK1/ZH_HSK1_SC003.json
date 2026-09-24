@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK1_SC003",
   "level": "HSK1",
   "sourceTitleZh": "站台在哪儿？",
@@ -10,7 +10,7 @@
       "id": "DLG_ZH_HSK1_SC003_001",
       "speaker": "张伟",
       "zh": "我们要找站台。",
-      "pinyin": "Wǒ men yào zhǎo zhàn tái.",
+      "pinyin": "Wǒmen yào zhǎo zhàntái.",
       "tr": "Peronu bulmamız gerekiyor."
     },
     {
@@ -23,162 +23,162 @@
     {
       "id": "DLG_ZH_HSK1_SC003_003",
       "speaker": "工作人员",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_004",
       "speaker": "张乐乐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_005",
       "speaker": "张伟",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_006",
       "speaker": "刘梅",
       "zh": "车站在哪儿？",
-      "pinyin": "Chē zhàn zài nǎ ér?",
+      "pinyin": "Chēzhàn zài nǎr?",
       "tr": "Istasyon nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_007",
       "speaker": "工作人员",
-      "zh": "车站在那边。",
-      "pinyin": "Chē zhàn zài nà biān.",
+      "zh": "你看，车站在那边。",
+      "pinyin": "Nǐ kàn, chēzhàn zài nàbiān.",
       "tr": "Istasyon şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_008",
       "speaker": "张乐乐",
-      "zh": "好，我明白了。",
-      "pinyin": "Hǎo, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_009",
       "speaker": "张伟",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xiè xiè.",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_010",
       "speaker": "刘梅",
-      "zh": "站台在哪儿？",
-      "pinyin": "Zhàn tái zài nǎ ér?",
+      "zh": "那站台在哪儿？",
+      "pinyin": "Nà zhàntái zài nǎér?",
       "tr": "Peron nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_011",
       "speaker": "工作人员",
-      "zh": "站台在那边。",
-      "pinyin": "Zhàn tái zài nà biān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nàbiān.",
       "tr": "Peron şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_012",
       "speaker": "张乐乐",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "好，明白了。",
+      "pinyin": "Hǎo, míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_013",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_014",
       "speaker": "刘梅",
       "zh": "在左边吗？",
-      "pinyin": "Zài zuǒ biān ma?",
+      "pinyin": "Zài zuǒbian ma?",
       "tr": "Sol taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_015",
       "speaker": "工作人员",
       "zh": "对，在左边。",
-      "pinyin": "Duì, zài zuǒ biān.",
+      "pinyin": "Duì, zài zuǒbian.",
       "tr": "Evet, sol taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_016",
       "speaker": "张乐乐",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_017",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_018",
       "speaker": "刘梅",
       "zh": "在右边吗？",
-      "pinyin": "Zài yòu biān ma?",
+      "pinyin": "Zài yòubian ma?",
       "tr": "Sağ taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_019",
       "speaker": "工作人员",
       "zh": "对，在右边。",
-      "pinyin": "Duì, zài yòu biān.",
+      "pinyin": "Duì, zài yòubian.",
       "tr": "Evet, sağ taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_020",
       "speaker": "张乐乐",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_021",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_022",
       "speaker": "刘梅",
       "zh": "我们走错了。",
-      "pinyin": "Wǒ men zǒu cuò le.",
+      "pinyin": "Wǒmen zǒu cuò le.",
       "tr": "Yanlış yöne gittik."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_023",
       "speaker": "工作人员",
-      "zh": "别急。",
-      "pinyin": "Bié jí.",
+      "zh": "先别急。",
+      "pinyin": "Xiān biéjí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_024",
       "speaker": "张乐乐",
       "zh": "我来看看吧。",
-      "pinyin": "Wǒ lái kàn kàn ba.",
+      "pinyin": "Wǒ láikàn kànba.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_025",
       "speaker": "张伟",
-      "zh": "那一起吧。",
-      "pinyin": "Nà yī qǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
@@ -192,91 +192,91 @@
       "id": "DLG_ZH_HSK1_SC003_027",
       "speaker": "工作人员",
       "zh": "我们坐火车吗？",
-      "pinyin": "Wǒ men zuò huǒ chē ma?",
+      "pinyin": "Wǒmen zuò huǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_028",
       "speaker": "张乐乐",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒ men zuò huǒ chē.",
+      "pinyin": "Duì, wǒmen zuò huǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_029",
       "speaker": "张伟",
       "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_030",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_031",
       "speaker": "工作人员",
       "zh": "这是火车票吗？",
-      "pinyin": "Zhè shì huǒ chē piào ma?",
+      "pinyin": "Zhè shì huǒchēpiào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_032",
       "speaker": "张乐乐",
-      "zh": "对，这是火车票。",
-      "pinyin": "Duì, zhè shì huǒ chē piào.",
+      "zh": "对，就是火车票。",
+      "pinyin": "Duì, jiùshì huǒchēpiào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_033",
       "speaker": "张伟",
-      "zh": "火车票在哪儿？",
-      "pinyin": "Huǒ chē piào zài nǎ ér?",
+      "zh": "那火车票在哪儿？",
+      "pinyin": "Nà huǒchēpiào zài nǎér?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_034",
       "speaker": "刘梅",
-      "zh": "火车票在这里。",
-      "pinyin": "Huǒ chē piào zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Tren bileti burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_035",
       "speaker": "工作人员",
-      "zh": "路在哪儿？",
-      "pinyin": "Lù zài nǎ ér?",
+      "zh": "那路在哪儿？",
+      "pinyin": "Nà lù zài nǎér?",
       "tr": "Yol nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_036",
       "speaker": "张乐乐",
-      "zh": "路在那边。",
-      "pinyin": "Lù zài nà biān.",
+      "zh": "你看，路在那边。",
+      "pinyin": "Nǐ kàn, lù zài nàbiān.",
       "tr": "Yol şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_037",
       "speaker": "张伟",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_038",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_039",
       "speaker": "工作人员",
       "zh": "这是我们的人。",
-      "pinyin": "Zhè shì wǒ men de rén.",
+      "pinyin": "Zhè shì wǒmen de rén.",
       "tr": "Bu bizim insan."
     },
     {
@@ -290,420 +290,420 @@
       "id": "DLG_ZH_HSK1_SC003_041",
       "speaker": "张伟",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_042",
       "speaker": "刘梅",
       "zh": "嗯，我也是。",
-      "pinyin": "Ń, wǒ yě shì.",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_043",
       "speaker": "工作人员",
       "zh": "对，站台在右边。",
-      "pinyin": "Duì, zhàn tái zài yòu biān.",
+      "pinyin": "Duì, zhàntái zài yòubian.",
       "tr": "Evet, peron sağ tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_044",
       "speaker": "张乐乐",
-      "zh": "太棒了！",
-      "pinyin": "Tài bàng le!",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_045",
       "speaker": "张伟",
       "zh": "真谢谢你。",
-      "pinyin": "Zhēn xiè xiè nǐ.",
+      "pinyin": "Zhēn xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_046",
       "speaker": "刘梅",
-      "zh": "没事，不客气。",
-      "pinyin": "Méi shì, bù kè qì.",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_047",
       "speaker": "工作人员",
       "zh": "现在就好了。",
-      "pinyin": "Xiàn zài jiù hǎo le.",
+      "pinyin": "Xiànzài jiù hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_048",
       "speaker": "张乐乐",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jì xù ba.",
+      "zh": "好，继续。",
+      "pinyin": "Hǎo, jìxù.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_049",
       "speaker": "张伟",
-      "zh": "车站在哪儿？",
-      "pinyin": "Chē zhàn zài nǎ ér?",
+      "zh": "车站呢？",
+      "pinyin": "Chēzhàn ne?",
       "tr": "Istasyon nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_050",
       "speaker": "刘梅",
-      "zh": "车站在那边。",
-      "pinyin": "Chē zhàn zài nà biān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nàbiān.",
       "tr": "Istasyon şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_051",
       "speaker": "工作人员",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_052",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_053",
       "speaker": "张伟",
-      "zh": "站台在哪儿？",
-      "pinyin": "Zhàn tái zài nǎ ér?",
+      "zh": "那站台在哪儿？",
+      "pinyin": "Nà zhàntái zài nǎér?",
       "tr": "Peron nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_054",
       "speaker": "刘梅",
-      "zh": "站台在那边。",
-      "pinyin": "Zhàn tái zài nà biān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nàbiān.",
       "tr": "Peron şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_055",
       "speaker": "工作人员",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_056",
       "speaker": "张乐乐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_057",
       "speaker": "张伟",
       "zh": "在左边吗？",
-      "pinyin": "Zài zuǒ biān ma?",
+      "pinyin": "Zài zuǒbian ma?",
       "tr": "Sol taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_058",
       "speaker": "刘梅",
       "zh": "对，在左边。",
-      "pinyin": "Duì, zài zuǒ biān.",
+      "pinyin": "Duì, zài zuǒbian.",
       "tr": "Evet, sol taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_059",
       "speaker": "工作人员",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_060",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_061",
       "speaker": "张伟",
       "zh": "在右边吗？",
-      "pinyin": "Zài yòu biān ma?",
+      "pinyin": "Zài yòubian ma?",
       "tr": "Sağ taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_062",
       "speaker": "刘梅",
       "zh": "对，在右边。",
-      "pinyin": "Duì, zài yòu biān.",
+      "pinyin": "Duì, zài yòubian.",
       "tr": "Evet, sağ taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_063",
       "speaker": "工作人员",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_064",
       "speaker": "张乐乐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_065",
       "speaker": "张伟",
       "zh": "我们坐火车吗？",
-      "pinyin": "Wǒ men zuò huǒ chē ma?",
+      "pinyin": "Wǒmen zuò huǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_066",
       "speaker": "刘梅",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒ men zuò huǒ chē.",
+      "pinyin": "Duì, wǒmen zuò huǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_067",
       "speaker": "工作人员",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_068",
       "speaker": "张乐乐",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_069",
       "speaker": "张伟",
-      "zh": "这是火车票吗？",
-      "pinyin": "Zhè shì huǒ chē piào ma?",
+      "zh": "这个是火车票吗？",
+      "pinyin": "Zhège shì huǒchēpiào ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_070",
       "speaker": "刘梅",
-      "zh": "对，这是火车票。",
-      "pinyin": "Duì, zhè shì huǒ chē piào.",
+      "zh": "没错，是火车票。",
+      "pinyin": "Méicuò, shì huǒchēpiào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_071",
       "speaker": "工作人员",
-      "zh": "火车票在哪儿？",
-      "pinyin": "Huǒ chē piào zài nǎ ér?",
+      "zh": "那火车票在哪儿？",
+      "pinyin": "Nà huǒchēpiào zài nǎér?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_072",
       "speaker": "张乐乐",
-      "zh": "火车票在这里。",
-      "pinyin": "Huǒ chē piào zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Tren bileti burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_073",
       "speaker": "张伟",
       "zh": "车站在哪儿？",
-      "pinyin": "Chē zhàn zài nǎ ér?",
+      "pinyin": "Chēzhàn zài nǎr?",
       "tr": "Istasyon nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_074",
       "speaker": "刘梅",
-      "zh": "车站在那边。",
-      "pinyin": "Chē zhàn zài nà biān.",
+      "zh": "你看，车站在那边。",
+      "pinyin": "Nǐ kàn, chēzhàn zài nàbiān.",
       "tr": "Istasyon şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_075",
       "speaker": "工作人员",
       "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "pinyin": "Èn, wǒ míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_076",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_077",
       "speaker": "张伟",
       "zh": "站台在哪儿？",
-      "pinyin": "Zhàn tái zài nǎ ér?",
+      "pinyin": "Zhàntái zài nǎr?",
       "tr": "Peron nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_078",
       "speaker": "刘梅",
-      "zh": "站台在那边。",
-      "pinyin": "Zhàn tái zài nà biān.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nàbiān.",
       "tr": "Peron şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_079",
       "speaker": "工作人员",
-      "zh": "明白了。",
-      "pinyin": "Míng bái le.",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Èn, wǒ míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_080",
       "speaker": "张乐乐",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_081",
       "speaker": "张伟",
       "zh": "在左边吗？",
-      "pinyin": "Zài zuǒ biān ma?",
+      "pinyin": "Zài zuǒbian ma?",
       "tr": "Sol taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_082",
       "speaker": "刘梅",
       "zh": "对，在左边。",
-      "pinyin": "Duì, zài zuǒ biān.",
+      "pinyin": "Duì, zài zuǒbian.",
       "tr": "Evet, sol taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_083",
       "speaker": "工作人员",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_084",
       "speaker": "张乐乐",
       "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_085",
       "speaker": "张伟",
       "zh": "在右边吗？",
-      "pinyin": "Zài yòu biān ma?",
+      "pinyin": "Zài yòubian ma?",
       "tr": "Sağ taraf mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_086",
       "speaker": "刘梅",
       "zh": "对，在右边。",
-      "pinyin": "Duì, zài yòu biān.",
+      "pinyin": "Duì, zài yòubian.",
       "tr": "Evet, sağ taraf."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_087",
       "speaker": "工作人员",
       "zh": "这边走。",
-      "pinyin": "Zhè biān zǒu.",
+      "pinyin": "Zhèbiān zǒu.",
       "tr": "Bu taraftan gidin."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_088",
       "speaker": "张乐乐",
       "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_089",
       "speaker": "张伟",
       "zh": "我们坐火车吗？",
-      "pinyin": "Wǒ men zuò huǒ chē ma?",
+      "pinyin": "Wǒmen zuò huǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_090",
       "speaker": "刘梅",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒ men zuò huǒ chē.",
+      "pinyin": "Duì, wǒmen zuò huǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_091",
       "speaker": "工作人员",
       "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔn bèi dé zěn me yàng le?",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_092",
       "speaker": "张乐乐",
       "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_093",
       "speaker": "张伟",
-      "zh": "这是火车票吗？",
-      "pinyin": "Zhè shì huǒ chē piào ma?",
+      "zh": "这是火车票，对吗？",
+      "pinyin": "Zhè shì huǒchēpiào, duì ma?",
       "tr": "Bu, tren bileti mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_094",
       "speaker": "刘梅",
-      "zh": "对，这是火车票。",
-      "pinyin": "Duì, zhè shì huǒ chē piào.",
+      "zh": "没错，是火车票。",
+      "pinyin": "Méicuò, shì huǒchēpiào.",
       "tr": "Evet, bu tren bileti."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_095",
       "speaker": "工作人员",
       "zh": "火车票在哪儿？",
-      "pinyin": "Huǒ chē piào zài nǎ ér?",
+      "pinyin": "Huǒchēpiào zài nǎr?",
       "tr": "Tren bileti nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_096",
       "speaker": "张乐乐",
       "zh": "今天学了很多。",
-      "pinyin": "Jīn tiān xué le hěn duō.",
+      "pinyin": "Jīntiān xué le hěn duō.",
       "tr": "Bugün çok şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_097",
       "speaker": "张伟",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yī yàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_098",
       "speaker": "刘梅",
-      "zh": "都弄好了吗？",
-      "pinyin": "Dōu nòng hǎo le ma?",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC003_099",
       "speaker": "工作人员",
-      "zh": "嗯，都好了。",
-      "pinyin": "Ń, dōu hǎo le.",
+      "zh": "都弄好了。",
+      "pinyin": "Dōu nòng hǎo le.",
       "tr": "Her şey tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_100",
       "speaker": "张乐乐",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
+      "zh": "好，走吧。",
+      "pinyin": "Hǎo, zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]

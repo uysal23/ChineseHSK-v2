@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK1_SC045",
   "level": "HSK1",
   "sourceTitleZh": "第一个发薪日",
@@ -10,7 +10,7 @@
       "id": "DLG_ZH_HSK1_SC045_001",
       "speaker": "张伟",
       "zh": "张伟拿到第一个月的工资。",
-      "pinyin": "Zhāng wěi ná dào dì yī gè yuè de gōng zī.",
+      "pinyin": "Zhāng Wěi ná dào dì yí ge yuè de gōngzī.",
       "tr": "Zhang Wei ilk aylık maaşını aldı."
     },
     {
@@ -31,42 +31,42 @@
       "id": "DLG_ZH_HSK1_SC045_004",
       "speaker": "张乐乐",
       "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_005",
       "speaker": "张伟",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_006",
       "speaker": "刘梅",
       "zh": "这是工资吗？",
-      "pinyin": "Zhè shì gōng zī ma?",
+      "pinyin": "Zhè shì gōngzī ma?",
       "tr": "Bu, maaş mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_007",
       "speaker": "张雨桐",
-      "zh": "对，这是工资。",
-      "pinyin": "Duì, zhè shì gōng zī.",
+      "zh": "没错，是工资。",
+      "pinyin": "Méicuò, shì gōngzī.",
       "tr": "Evet, bu maaş."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_008",
       "speaker": "张乐乐",
       "zh": "工资在哪儿？",
-      "pinyin": "Gōng zī zài nǎ ér?",
+      "pinyin": "Gōngzī zài nǎr?",
       "tr": "Maaş nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_009",
       "speaker": "张伟",
-      "zh": "工资在这里。",
-      "pinyin": "Gōng zī zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Maaş burada."
     },
     {
@@ -79,29 +79,29 @@
     {
       "id": "DLG_ZH_HSK1_SC045_011",
       "speaker": "张雨桐",
-      "zh": "对，这是钱。",
-      "pinyin": "Duì, zhè shì qián.",
+      "zh": "没错，是钱。",
+      "pinyin": "Méicuò, shì qián.",
       "tr": "Evet, bu para."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_012",
       "speaker": "张乐乐",
-      "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎ ér?",
+      "zh": "那钱放在哪儿？",
+      "pinyin": "Nà qián fàngzài nǎér?",
       "tr": "Para nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_013",
       "speaker": "张伟",
-      "zh": "钱在这里。",
-      "pinyin": "Qián zài zhè lǐ.",
+      "zh": "你看，钱在这儿。",
+      "pinyin": "Nǐ kàn, qián zài zhèér.",
       "tr": "Para burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_014",
       "speaker": "刘梅",
       "zh": "晚上有时间吗？",
-      "pinyin": "Wǎn shàng yǒu shí jiān ma?",
+      "pinyin": "Wǎnshang yǒu shíjiān ma?",
       "tr": "Akşam vaktin var mı?"
     },
     {
@@ -115,7 +115,7 @@
       "id": "DLG_ZH_HSK1_SC045_016",
       "speaker": "张乐乐",
       "zh": "晚上见。",
-      "pinyin": "Wǎn shàng jiàn.",
+      "pinyin": "Wǎnshang jiàn.",
       "tr": "Akşam görüşürüz."
     },
     {
@@ -135,64 +135,64 @@
     {
       "id": "DLG_ZH_HSK1_SC045_019",
       "speaker": "张雨桐",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yào fàn, xiè xiè.",
+      "zh": "好，我要饭，谢谢。",
+      "pinyin": "Hǎo, wǒ yàofàn, xièxiè.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_020",
       "speaker": "张乐乐",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_021",
       "speaker": "张伟",
       "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xiè xiè.",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_022",
       "speaker": "刘梅",
       "zh": "大家想怎么庆祝。",
-      "pinyin": "Dà jiā xiǎng zěn me qìng zhù.",
+      "pinyin": "Dàjiā xiǎng zěnme qìngzhù.",
       "tr": "Herkes nasıl kutlayacağını düşünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_023",
       "speaker": "张雨桐",
-      "zh": "别急。",
-      "pinyin": "Bié jí.",
+      "zh": "先别急。",
+      "pinyin": "Xiān biéjí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_024",
       "speaker": "张乐乐",
       "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kàn kàn.",
+      "pinyin": "Lái, wǒ kànkàn.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_025",
       "speaker": "张伟",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒ men yī qǐ ba.",
+      "zh": "好，一起吧。",
+      "pinyin": "Hǎo, yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_026",
       "speaker": "刘梅",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "行。",
+      "pinyin": "Xíng.",
       "tr": "Tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_027",
       "speaker": "张雨桐",
       "zh": "这是我们的家人。",
-      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "pinyin": "Zhè shì wǒmen de jiārén.",
       "tr": "Bu bizim aile."
     },
     {
@@ -206,21 +206,21 @@
       "id": "DLG_ZH_HSK1_SC045_029",
       "speaker": "张伟",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_030",
       "speaker": "刘梅",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yī yàng.",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_031",
       "speaker": "张雨桐",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
@@ -233,176 +233,176 @@
     {
       "id": "DLG_ZH_HSK1_SC045_033",
       "speaker": "张伟",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_034",
       "speaker": "刘梅",
       "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔn bèi hǎo le.",
+      "pinyin": "Dōu zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_035",
       "speaker": "张雨桐",
       "zh": "今天忙吗？",
-      "pinyin": "Jīn tiān máng ma?",
+      "pinyin": "Jīntiān máng ma?",
       "tr": "Bugün yoğun musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_036",
       "speaker": "张乐乐",
-      "zh": "有一点儿。",
-      "pinyin": "Yǒu yī diǎn ér.",
+      "zh": "有点儿。",
+      "pinyin": "Yǒudiǎnér.",
       "tr": "Biraz."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_037",
       "speaker": "张伟",
-      "zh": "没关系，别急。",
-      "pinyin": "Méi guān xì, bié jí.",
+      "zh": "没关系。",
+      "pinyin": "Méi guānxi.",
       "tr": "Sorun değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_038",
       "speaker": "刘梅",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jì xù ba.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒmen jìxù ba.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_039",
       "speaker": "张雨桐",
       "zh": "这是菜单吗？",
-      "pinyin": "Zhè shì cài dān ma?",
+      "pinyin": "Zhè shì càidān ma?",
       "tr": "Bu, menü mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_040",
       "speaker": "张乐乐",
-      "zh": "对，这是菜单。",
-      "pinyin": "Duì, zhè shì cài dān.",
+      "zh": "对，就是菜单。",
+      "pinyin": "Duì, jiùshì càidān.",
       "tr": "Evet, bu menü."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_041",
       "speaker": "张伟",
       "zh": "菜单在哪儿？",
-      "pinyin": "Cài dān zài nǎ ér?",
+      "pinyin": "Càidān zài nǎr?",
       "tr": "Menü nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_042",
       "speaker": "刘梅",
-      "zh": "菜单在这里。",
-      "pinyin": "Cài dān zài zhè lǐ.",
+      "zh": "菜单在这儿。",
+      "pinyin": "Càidān zài zhèér.",
       "tr": "Menü burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_043",
       "speaker": "张雨桐",
       "zh": "他们决定晚上一起吃饭。",
-      "pinyin": "Tā men jué dìng wǎn shàng yī qǐ chī fàn.",
+      "pinyin": "Tāmen juédìng wǎnshang yìqǐ chīfàn.",
       "tr": "Akşam birlikte yemek yemeye karar veriyorlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_044",
       "speaker": "张乐乐",
       "zh": "太棒了！",
-      "pinyin": "Tài bàng le!",
+      "pinyin": "Tàibàngle!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_045",
       "speaker": "张伟",
-      "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "zh": "真谢谢你。",
+      "pinyin": "Zhēn xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_046",
       "speaker": "刘梅",
-      "zh": "别客气。",
-      "pinyin": "Bié kè qì.",
+      "zh": "没事，不客气。",
+      "pinyin": "Méishì, bù kèqì.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_047",
       "speaker": "张雨桐",
-      "zh": "这下好了。",
-      "pinyin": "Zhè xià hǎo le.",
+      "zh": "现在就好了。",
+      "pinyin": "Xiànzài jiù hǎo le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_048",
       "speaker": "张乐乐",
-      "zh": "那我们继续。",
-      "pinyin": "Nà wǒ men jì xù.",
+      "zh": "好，继续。",
+      "pinyin": "Hǎo, jìxù.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_049",
       "speaker": "张伟",
-      "zh": "这是工资吗？",
-      "pinyin": "Zhè shì gōng zī ma?",
+      "zh": "这个是工资吗？",
+      "pinyin": "Zhège shì gōngzī ma?",
       "tr": "Bu, maaş mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_050",
       "speaker": "刘梅",
-      "zh": "对，这是工资。",
-      "pinyin": "Duì, zhè shì gōng zī.",
+      "zh": "没错，是工资。",
+      "pinyin": "Méicuò, shì gōngzī.",
       "tr": "Evet, bu maaş."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_051",
       "speaker": "张雨桐",
-      "zh": "工资在哪儿？",
-      "pinyin": "Gōng zī zài nǎ ér?",
+      "zh": "那工资在哪儿？",
+      "pinyin": "Nà gōngzī zài nǎér?",
       "tr": "Maaş nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_052",
       "speaker": "张乐乐",
-      "zh": "工资在这里。",
-      "pinyin": "Gōng zī zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Maaş burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_053",
       "speaker": "张伟",
-      "zh": "这是钱吗？",
-      "pinyin": "Zhè shì qián ma?",
+      "zh": "这个是钱吗？",
+      "pinyin": "Zhège shì qián ma?",
       "tr": "Bu, para mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_054",
       "speaker": "刘梅",
-      "zh": "对，这是钱。",
-      "pinyin": "Duì, zhè shì qián.",
+      "zh": "嗯，对，这是钱。",
+      "pinyin": "Èn, duì, zhè shì qián.",
       "tr": "Evet, bu para."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_055",
       "speaker": "张雨桐",
       "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎ ér?",
+      "pinyin": "Qián zài nǎr?",
       "tr": "Para nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_056",
       "speaker": "张乐乐",
-      "zh": "钱在这里。",
-      "pinyin": "Qián zài zhè lǐ.",
+      "zh": "钱在这儿。",
+      "pinyin": "Qián zài zhèér.",
       "tr": "Para burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_057",
       "speaker": "张伟",
       "zh": "晚上有时间吗？",
-      "pinyin": "Wǎn shàng yǒu shí jiān ma?",
+      "pinyin": "Wǎnshang yǒu shíjiān ma?",
       "tr": "Akşam vaktin var mı?"
     },
     {
@@ -416,14 +416,14 @@
       "id": "DLG_ZH_HSK1_SC045_059",
       "speaker": "张雨桐",
       "zh": "晚上见。",
-      "pinyin": "Wǎn shàng jiàn.",
+      "pinyin": "Wǎnshang jiàn.",
       "tr": "Akşam görüşürüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_060",
       "speaker": "张乐乐",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Tamam."
     },
     {
@@ -437,28 +437,28 @@
       "id": "DLG_ZH_HSK1_SC045_062",
       "speaker": "刘梅",
       "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yào fàn, xiè xiè.",
+      "pinyin": "Wǒ yào fàn, xièxie.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_063",
       "speaker": "张雨桐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_064",
       "speaker": "张乐乐",
       "zh": "谢谢啊。",
-      "pinyin": "Xiè xiè a.",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_065",
       "speaker": "张伟",
       "zh": "这是我们的家人。",
-      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "pinyin": "Zhè shì wǒmen de jiārén.",
       "tr": "Bu bizim aile."
     },
     {
@@ -472,21 +472,21 @@
       "id": "DLG_ZH_HSK1_SC045_067",
       "speaker": "张雨桐",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_068",
       "speaker": "张乐乐",
-      "zh": "嗯，我也是。",
-      "pinyin": "Ń, wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yīyàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_069",
       "speaker": "张伟",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
@@ -499,78 +499,78 @@
     {
       "id": "DLG_ZH_HSK1_SC045_071",
       "speaker": "张雨桐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_072",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_073",
       "speaker": "张伟",
-      "zh": "这是工资吗？",
-      "pinyin": "Zhè shì gōng zī ma?",
+      "zh": "这是工资，对吗？",
+      "pinyin": "Zhè shì gōngzī, duì ma?",
       "tr": "Bu, maaş mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_074",
       "speaker": "刘梅",
-      "zh": "对，这是工资。",
-      "pinyin": "Duì, zhè shì gōng zī.",
+      "zh": "没错，是工资。",
+      "pinyin": "Méicuò, shì gōngzī.",
       "tr": "Evet, bu maaş."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_075",
       "speaker": "张雨桐",
       "zh": "工资在哪儿？",
-      "pinyin": "Gōng zī zài nǎ ér?",
+      "pinyin": "Gōngzī zài nǎr?",
       "tr": "Maaş nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_076",
       "speaker": "张乐乐",
-      "zh": "工资在这里。",
-      "pinyin": "Gōng zī zài zhè lǐ.",
+      "zh": "工资在这儿。",
+      "pinyin": "Gōngzī zài zhèér.",
       "tr": "Maaş burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_077",
       "speaker": "张伟",
-      "zh": "这是钱吗？",
-      "pinyin": "Zhè shì qián ma?",
+      "zh": "这是钱，对吗？",
+      "pinyin": "Zhè shì qián, duì ma?",
       "tr": "Bu, para mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_078",
       "speaker": "刘梅",
-      "zh": "对，这是钱。",
-      "pinyin": "Duì, zhè shì qián.",
+      "zh": "没错，是钱。",
+      "pinyin": "Méicuò, shì qián.",
       "tr": "Evet, bu para."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_079",
       "speaker": "张雨桐",
       "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎ ér?",
+      "pinyin": "Qián zài nǎr?",
       "tr": "Para nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_080",
       "speaker": "张乐乐",
-      "zh": "钱在这里。",
-      "pinyin": "Qián zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Para burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_081",
       "speaker": "张伟",
       "zh": "晚上有时间吗？",
-      "pinyin": "Wǎn shàng yǒu shí jiān ma?",
+      "pinyin": "Wǎnshang yǒu shíjiān ma?",
       "tr": "Akşam vaktin var mı?"
     },
     {
@@ -584,14 +584,14 @@
       "id": "DLG_ZH_HSK1_SC045_083",
       "speaker": "张雨桐",
       "zh": "晚上见。",
-      "pinyin": "Wǎn shàng jiàn.",
+      "pinyin": "Wǎnshang jiàn.",
       "tr": "Akşam görüşürüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_084",
       "speaker": "张乐乐",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "嗯，好。",
+      "pinyin": "Èn, hǎo.",
       "tr": "Tamam."
     },
     {
@@ -604,29 +604,29 @@
     {
       "id": "DLG_ZH_HSK1_SC045_086",
       "speaker": "刘梅",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yào fàn, xiè xiè.",
+      "zh": "好，我要饭，谢谢。",
+      "pinyin": "Hǎo, wǒ yàofàn, xièxiè.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_087",
       "speaker": "张雨桐",
-      "zh": "嗯，好。",
-      "pinyin": "Ń, hǎo.",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_088",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_089",
       "speaker": "张伟",
       "zh": "这是我们的家人。",
-      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "pinyin": "Zhè shì wǒmen de jiārén.",
       "tr": "Bu bizim aile."
     },
     {
@@ -640,21 +640,21 @@
       "id": "DLG_ZH_HSK1_SC045_091",
       "speaker": "张雨桐",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_092",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_093",
       "speaker": "张伟",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
@@ -667,36 +667,36 @@
     {
       "id": "DLG_ZH_HSK1_SC045_095",
       "speaker": "张雨桐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_096",
       "speaker": "张乐乐",
       "zh": "今天学了很多。",
-      "pinyin": "Jīn tiān xué le hěn duō.",
+      "pinyin": "Jīntiān xué le hěn duō.",
       "tr": "Bugün çok şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_097",
       "speaker": "张伟",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yī yàng.",
+      "zh": "嗯，我也是。",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC045_098",
       "speaker": "刘梅",
       "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC045_099",
       "speaker": "张雨桐",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
+      "zh": "都弄好了。",
+      "pinyin": "Dōu nòng hǎo le.",
       "tr": "Her şey tamam."
     },
     {

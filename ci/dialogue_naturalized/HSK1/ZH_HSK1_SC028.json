@@ -1,5 +1,5 @@
 {
-  "naturalizationVersion": 1,
+  "naturalizationVersion": 2,
   "sceneId": "ZH_HSK1_SC028",
   "level": "HSK1",
   "sourceTitleZh": "面试前的准备",
@@ -10,7 +10,7 @@
       "id": "DLG_ZH_HSK1_SC028_001",
       "speaker": "张伟",
       "zh": "张伟在准备面试。",
-      "pinyin": "Zhāng wěi zài zhǔn bèi miàn shì.",
+      "pinyin": "Zhāng Wěi zài zhǔnbèi miànshì.",
       "tr": "Zhang Wei iş görüşmesine hazırlanıyor."
     },
     {
@@ -23,141 +23,141 @@
     {
       "id": "DLG_ZH_HSK1_SC028_003",
       "speaker": "张雨桐",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_004",
       "speaker": "张乐乐",
       "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_005",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_006",
       "speaker": "刘梅",
       "zh": "这是衣服吗？",
-      "pinyin": "Zhè shì yī fú ma?",
+      "pinyin": "Zhè shì yīfu ma?",
       "tr": "Bu, kıyafet mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_007",
       "speaker": "张雨桐",
-      "zh": "对，这是衣服。",
-      "pinyin": "Duì, zhè shì yī fú.",
+      "zh": "嗯，对，这是衣服。",
+      "pinyin": "Èn, duì, zhè shì yīfú.",
       "tr": "Evet, bu kıyafet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_008",
       "speaker": "张乐乐",
-      "zh": "衣服在哪儿？",
-      "pinyin": "Yī fú zài nǎ ér?",
+      "zh": "衣服呢？",
+      "pinyin": "Yīfú ne?",
       "tr": "Kıyafet nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_009",
       "speaker": "张伟",
-      "zh": "衣服在这里。",
-      "pinyin": "Yī fú zài zhè lǐ.",
+      "zh": "衣服在这儿。",
+      "pinyin": "Yīfú zài zhèér.",
       "tr": "Kıyafet burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_010",
       "speaker": "刘梅",
       "zh": "这是衬衫吗？",
-      "pinyin": "Zhè shì chèn shān ma?",
+      "pinyin": "Zhè shì chènshān ma?",
       "tr": "Bu, gömlek mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_011",
       "speaker": "张雨桐",
-      "zh": "对，这是衬衫。",
-      "pinyin": "Duì, zhè shì chèn shān.",
+      "zh": "对，就是衬衫。",
+      "pinyin": "Duì, jiùshì chènshān.",
       "tr": "Evet, bu gömlek."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_012",
       "speaker": "张乐乐",
       "zh": "衬衫在哪儿？",
-      "pinyin": "Chèn shān zài nǎ ér?",
+      "pinyin": "Chènshān zài nǎr?",
       "tr": "Gömlek nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_013",
       "speaker": "张伟",
-      "zh": "衬衫在这里。",
-      "pinyin": "Chèn shān zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Gömlek burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_014",
       "speaker": "刘梅",
       "zh": "你喜欢蓝色吗？",
-      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "pinyin": "Nǐ xǐhuan lánsè ma?",
       "tr": "Mavi renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_015",
       "speaker": "张雨桐",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_016",
       "speaker": "张乐乐",
       "zh": "这个是蓝色的。",
-      "pinyin": "Zhè gè shì lán sè de.",
+      "pinyin": "Zhège shì lánsè de.",
       "tr": "Bu mavi renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_017",
       "speaker": "张伟",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_018",
       "speaker": "刘梅",
       "zh": "你喜欢红色吗？",
-      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "pinyin": "Nǐ xǐhuan hóngsè ma?",
       "tr": "Kırmızı renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_019",
       "speaker": "张雨桐",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_020",
       "speaker": "张乐乐",
       "zh": "这个是红色的。",
-      "pinyin": "Zhè gè shì hóng sè de.",
+      "pinyin": "Zhège shì hóngsè de.",
       "tr": "Bu kırmızı renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_021",
       "speaker": "张伟",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_022",
       "speaker": "刘梅",
       "zh": "家人不知道哪件衬衫最好。",
-      "pinyin": "Jiā rén bù zhī dào nǎ jiàn chèn shān zuì hǎo.",
+      "pinyin": "Jiārén bù zhīdào nǎ jiàn chènshān zuì hǎo.",
       "tr": "Aile hangi gömleğin en iyi olduğuna karar veremiyor."
     },
     {
@@ -170,15 +170,15 @@
     {
       "id": "DLG_ZH_HSK1_SC028_024",
       "speaker": "张乐乐",
-      "zh": "来，我看看。",
-      "pinyin": "Lái, wǒ kàn kàn.",
+      "zh": "我来看看吧。",
+      "pinyin": "Wǒ láikàn kànba.",
       "tr": "Ben bir bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_025",
       "speaker": "张伟",
-      "zh": "那一起吧。",
-      "pinyin": "Nà yī qǐ ba.",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
       "tr": "Birlikte yapalım."
     },
     {
@@ -192,518 +192,518 @@
       "id": "DLG_ZH_HSK1_SC028_027",
       "speaker": "张雨桐",
       "zh": "今天有面试吗？",
-      "pinyin": "Jīn tiān yǒu miàn shì ma?",
+      "pinyin": "Jīntiān yǒu miànshì ma?",
       "tr": "Bugün iş görüşmesi var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_028",
       "speaker": "张乐乐",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_029",
       "speaker": "张伟",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔn bèi dé zěn me yàng le?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_030",
       "speaker": "刘梅",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_031",
       "speaker": "张雨桐",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_032",
       "speaker": "张乐乐",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "没错。",
+      "pinyin": "Méicuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_033",
       "speaker": "张伟",
       "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔn bèi dé zěn me yàng le?",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_034",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_035",
       "speaker": "张雨桐",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎ ér?",
+      "zh": "家呢？",
+      "pinyin": "Jiā ne?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_036",
       "speaker": "张乐乐",
-      "zh": "家在那边。",
-      "pinyin": "Jiā zài nà biān.",
+      "zh": "你看，家在那边。",
+      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_037",
       "speaker": "张伟",
-      "zh": "嗯，我明白了。",
-      "pinyin": "Ń, wǒ míng bái le.",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míngbái le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_038",
       "speaker": "刘梅",
       "zh": "谢谢。",
-      "pinyin": "Xiè xiè.",
+      "pinyin": "Xièxie.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_039",
       "speaker": "张雨桐",
       "zh": "今天忙吗？",
-      "pinyin": "Jīn tiān máng ma?",
+      "pinyin": "Jīntiān máng ma?",
       "tr": "Bugün yoğun musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_040",
       "speaker": "张乐乐",
       "zh": "有一点儿。",
-      "pinyin": "Yǒu yī diǎn ér.",
+      "pinyin": "Yǒu yìdiǎnér.",
       "tr": "Biraz."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_041",
       "speaker": "张伟",
-      "zh": "没关系。",
-      "pinyin": "Méi guān xì.",
+      "zh": "没事。",
+      "pinyin": "Méishì.",
       "tr": "Sorun değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_042",
       "speaker": "刘梅",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jì xù ba.",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒmen jiēzhe lái.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_043",
       "speaker": "张雨桐",
       "zh": "大家选了蓝色衬衫。",
-      "pinyin": "Dà jiā xuǎn le lán sè chèn shān.",
+      "pinyin": "Dàjiā xuǎn le lánsè chènshān.",
       "tr": "Herkes mavi gömleği seçiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_044",
       "speaker": "张乐乐",
-      "zh": "太棒了！",
-      "pinyin": "Tài bàng le!",
+      "zh": "真好！",
+      "pinyin": "Zhēn hǎo!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_045",
       "speaker": "张伟",
-      "zh": "真谢谢你。",
-      "pinyin": "Zhēn xiè xiè nǐ.",
+      "zh": "谢谢啊。",
+      "pinyin": "Xièxiè a.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_046",
       "speaker": "刘梅",
-      "zh": "不客气。",
-      "pinyin": "Bù kè qì.",
+      "zh": "别客气。",
+      "pinyin": "Bié kèqì.",
       "tr": "Rica ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_047",
       "speaker": "张雨桐",
-      "zh": "这下好了。",
-      "pinyin": "Zhè xià hǎo le.",
+      "zh": "好，这下行了。",
+      "pinyin": "Hǎo, zhè xiàxíng le.",
       "tr": "Şimdi tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_048",
       "speaker": "张乐乐",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jì xù ba.",
+      "zh": "那我们继续吧。",
+      "pinyin": "Nà wǒmen jìxù ba.",
       "tr": "Devam edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_049",
       "speaker": "张伟",
-      "zh": "这是衣服吗？",
-      "pinyin": "Zhè shì yī fú ma?",
+      "zh": "这个是衣服吗？",
+      "pinyin": "Zhège shì yīfú ma?",
       "tr": "Bu, kıyafet mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_050",
       "speaker": "刘梅",
-      "zh": "对，这是衣服。",
-      "pinyin": "Duì, zhè shì yī fú.",
+      "zh": "对，就是衣服。",
+      "pinyin": "Duì, jiùshì yīfú.",
       "tr": "Evet, bu kıyafet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_051",
       "speaker": "张雨桐",
-      "zh": "衣服在哪儿？",
-      "pinyin": "Yī fú zài nǎ ér?",
+      "zh": "那衣服在哪儿？",
+      "pinyin": "Nà yīfú zài nǎér?",
       "tr": "Kıyafet nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_052",
       "speaker": "张乐乐",
-      "zh": "衣服在这里。",
-      "pinyin": "Yī fú zài zhè lǐ.",
+      "zh": "衣服在这儿。",
+      "pinyin": "Yīfú zài zhèér.",
       "tr": "Kıyafet burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_053",
       "speaker": "张伟",
-      "zh": "这是衬衫吗？",
-      "pinyin": "Zhè shì chèn shān ma?",
+      "zh": "这个是衬衫吗？",
+      "pinyin": "Zhège shì chènshān ma?",
       "tr": "Bu, gömlek mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_054",
       "speaker": "刘梅",
-      "zh": "对，这是衬衫。",
-      "pinyin": "Duì, zhè shì chèn shān.",
+      "zh": "对，就是衬衫。",
+      "pinyin": "Duì, jiùshì chènshān.",
       "tr": "Evet, bu gömlek."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_055",
       "speaker": "张雨桐",
       "zh": "衬衫在哪儿？",
-      "pinyin": "Chèn shān zài nǎ ér?",
+      "pinyin": "Chènshān zài nǎr?",
       "tr": "Gömlek nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_056",
       "speaker": "张乐乐",
-      "zh": "衬衫在这里。",
-      "pinyin": "Chèn shān zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Gömlek burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_057",
       "speaker": "张伟",
       "zh": "你喜欢蓝色吗？",
-      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "pinyin": "Nǐ xǐhuan lánsè ma?",
       "tr": "Mavi renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_058",
       "speaker": "刘梅",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_059",
       "speaker": "张雨桐",
       "zh": "这个是蓝色的。",
-      "pinyin": "Zhè gè shì lán sè de.",
+      "pinyin": "Zhège shì lánsè de.",
       "tr": "Bu mavi renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_060",
       "speaker": "张乐乐",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_061",
       "speaker": "张伟",
       "zh": "你喜欢红色吗？",
-      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "pinyin": "Nǐ xǐhuan hóngsè ma?",
       "tr": "Kırmızı renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_062",
       "speaker": "刘梅",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_063",
       "speaker": "张雨桐",
       "zh": "这个是红色的。",
-      "pinyin": "Zhè gè shì hóng sè de.",
+      "pinyin": "Zhège shì hóngsè de.",
       "tr": "Bu kırmızı renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_064",
       "speaker": "张乐乐",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_065",
       "speaker": "张伟",
       "zh": "今天有面试吗？",
-      "pinyin": "Jīn tiān yǒu miàn shì ma?",
+      "pinyin": "Jīntiān yǒu miànshì ma?",
       "tr": "Bugün iş görüşmesi var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_066",
       "speaker": "刘梅",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_067",
       "speaker": "张雨桐",
       "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_068",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_069",
       "speaker": "张伟",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_070",
       "speaker": "刘梅",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "没错。",
+      "pinyin": "Méicuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_071",
       "speaker": "张雨桐",
       "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_072",
       "speaker": "张乐乐",
       "zh": "嗯，准备好了。",
-      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_073",
       "speaker": "张伟",
-      "zh": "这是衣服吗？",
-      "pinyin": "Zhè shì yī fú ma?",
+      "zh": "这是衣服，对吗？",
+      "pinyin": "Zhè shì yīfú, duì ma?",
       "tr": "Bu, kıyafet mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_074",
       "speaker": "刘梅",
-      "zh": "对，这是衣服。",
-      "pinyin": "Duì, zhè shì yī fú.",
+      "zh": "没错，是衣服。",
+      "pinyin": "Méicuò, shì yīfú.",
       "tr": "Evet, bu kıyafet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_075",
       "speaker": "张雨桐",
-      "zh": "衣服在哪儿？",
-      "pinyin": "Yī fú zài nǎ ér?",
+      "zh": "衣服呢？",
+      "pinyin": "Yīfú ne?",
       "tr": "Kıyafet nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_076",
       "speaker": "张乐乐",
-      "zh": "衣服在这里。",
-      "pinyin": "Yī fú zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Kıyafet burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_077",
       "speaker": "张伟",
-      "zh": "这是衬衫吗？",
-      "pinyin": "Zhè shì chèn shān ma?",
+      "zh": "这是衬衫，对吗？",
+      "pinyin": "Zhè shì chènshān, duì ma?",
       "tr": "Bu, gömlek mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_078",
       "speaker": "刘梅",
-      "zh": "对，这是衬衫。",
-      "pinyin": "Duì, zhè shì chèn shān.",
+      "zh": "嗯，对，这是衬衫。",
+      "pinyin": "Èn, duì, zhè shì chènshān.",
       "tr": "Evet, bu gömlek."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_079",
       "speaker": "张雨桐",
-      "zh": "衬衫在哪儿？",
-      "pinyin": "Chèn shān zài nǎ ér?",
+      "zh": "衬衫呢？",
+      "pinyin": "Chènshān ne?",
       "tr": "Gömlek nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_080",
       "speaker": "张乐乐",
-      "zh": "衬衫在这里。",
-      "pinyin": "Chèn shān zài zhè lǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Gömlek burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_081",
       "speaker": "张伟",
       "zh": "你喜欢蓝色吗？",
-      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "pinyin": "Nǐ xǐhuan lánsè ma?",
       "tr": "Mavi renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_082",
       "speaker": "刘梅",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_083",
       "speaker": "张雨桐",
       "zh": "这个是蓝色的。",
-      "pinyin": "Zhè gè shì lán sè de.",
+      "pinyin": "Zhège shì lánsè de.",
       "tr": "Bu mavi renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_084",
       "speaker": "张乐乐",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_085",
       "speaker": "张伟",
       "zh": "你喜欢红色吗？",
-      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "pinyin": "Nǐ xǐhuan hóngsè ma?",
       "tr": "Kırmızı renk seviyor musun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_086",
       "speaker": "刘梅",
       "zh": "喜欢。",
-      "pinyin": "Xǐ huān.",
+      "pinyin": "Xǐhuan.",
       "tr": "Seviyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_087",
       "speaker": "张雨桐",
       "zh": "这个是红色的。",
-      "pinyin": "Zhè gè shì hóng sè de.",
+      "pinyin": "Zhège shì hóngsè de.",
       "tr": "Bu kırmızı renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_088",
       "speaker": "张乐乐",
       "zh": "很好看。",
-      "pinyin": "Hěn hǎo kàn.",
+      "pinyin": "Hěn hǎokàn.",
       "tr": "Çok güzel görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_089",
       "speaker": "张伟",
       "zh": "今天有面试吗？",
-      "pinyin": "Jīn tiān yǒu miàn shì ma?",
+      "pinyin": "Jīntiān yǒu miànshì ma?",
       "tr": "Bugün iş görüşmesi var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_090",
       "speaker": "刘梅",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "嗯，对。",
+      "pinyin": "Èn, duì.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_091",
       "speaker": "张雨桐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_092",
       "speaker": "张乐乐",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔn bèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Èn, zhǔnbèi hǎo le.",
       "tr": "Hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_093",
       "speaker": "张伟",
       "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōng zuò ma?",
+      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
       "tr": "İş mi arıyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_094",
       "speaker": "刘梅",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "没错。",
+      "pinyin": "Méicuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_095",
       "speaker": "张雨桐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_096",
       "speaker": "张乐乐",
       "zh": "今天学了很多。",
-      "pinyin": "Jīn tiān xué le hěn duō.",
+      "pinyin": "Jīntiān xué le hěn duō.",
       "tr": "Bugün çok şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_097",
       "speaker": "张伟",
       "zh": "嗯，我也是。",
-      "pinyin": "Ń, wǒ yě shì.",
+      "pinyin": "Èn, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_098",
       "speaker": "刘梅",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎo le ma?",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔnbèi hǎolema?",
       "tr": "Her şey tamam mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC028_099",
       "speaker": "张雨桐",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
+      "zh": "嗯，都好了。",
+      "pinyin": "Èn, dōu hǎo le.",
       "tr": "Her şey tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC028_100",
       "speaker": "张乐乐",
-      "zh": "好，走吧。",
-      "pinyin": "Hǎo, zǒu ba.",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
       "tr": "Hadi gidelim."
     }
   ]
