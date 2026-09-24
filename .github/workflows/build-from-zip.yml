@@ -161,6 +161,45 @@ jobs:
           python3 scripts/validate_audio_assets.py
           python3 scripts/build_media_readiness_report.py
 
+      - name: Stage visual production metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$RUNNER_TEMP/visual-production-metadata"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+          python3 - "$SRC" "$OUT" <<'PY'
+          from pathlib import Path
+          import shutil, sys
+
+          src = Path(sys.argv[1])
+          out = Path(sys.argv[2])
+          tokens = ("visual", "prompt", "character", "location", "asset_queue", "bible")
+          allowed = {".json", ".txt", ".md", ".yaml", ".yml"}
+
+          copied = 0
+          for p in src.rglob("*"):
+              if not p.is_file() or p.suffix.lower() not in allowed:
+                  continue
+              rel = p.relative_to(src)
+              name = str(rel).lower()
+              if not any(t in name for t in tokens):
+                  continue
+              dest = out / rel
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(p, dest)
+              copied += 1
+          print(f"Staged {copied} visual production metadata files.")
+          PY
+
+      - name: Upload visual production metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-production-metadata
+          path: ${{ runner.temp }}/visual-production-metadata/
+          if-no-files-found: error
+          retention-days: 30
+
       - name: Build personal APK
         working-directory: ${{ env.SRC }}
         run: gradle :app:assembleDebug --stacktrace
