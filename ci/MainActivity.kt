@@ -788,6 +788,55 @@ private fun SceneScreen(
 
             Spacer(Modifier.height(8.dp))
 
+            current?.let { line ->
+                Surface(
+                    modifier = Modifier.fillMaxWidth(),
+                    color = Color.Black.copy(alpha = 0.58f),
+                    contentColor = Color.White,
+                    shape = RoundedCornerShape(16.dp)
+                ) {
+                    Column(
+                        modifier = Modifier.padding(horizontal = 13.dp, vertical = 10.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Text(
+                            line.zh,
+                            color = Color.White,
+                            fontSize = 21.sp,
+                            lineHeight = 27.sp,
+                            fontWeight = FontWeight.Bold,
+                            textAlign = TextAlign.Center,
+                            maxLines = 3
+                        )
+                        if (showPinyin && line.pinyin.isNotBlank()) {
+                            Text(
+                                line.pinyin,
+                                color = Accent.copy(alpha = 0.96f),
+                                fontSize = 13.sp,
+                                lineHeight = 18.sp,
+                                fontWeight = FontWeight.Medium,
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier.padding(top = 3.dp),
+                                maxLines = 2
+                            )
+                        }
+                        if (showTurkish && line.tr.isNotBlank()) {
+                            Text(
+                                line.tr,
+                                color = Color.White.copy(alpha = 0.82f),
+                                fontSize = 13.sp,
+                                lineHeight = 18.sp,
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier.padding(top = 3.dp),
+                                maxLines = 2
+                            )
+                        }
+                    }
+                }
+            }
+
+            Spacer(Modifier.height(8.dp))
+
             if (controlsVisible) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
