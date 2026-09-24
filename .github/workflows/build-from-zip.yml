@@ -163,7 +163,7 @@ jobs:
 
             cat "$CHUNK_DIR"/*.b64 > "$B64"
             base64 -d "$B64" > "$ZIP"
-            echo "06fdfaa59944693b6cfaf63ac3786e97a684d79ac025168fa17c0df48cc0da76  $ZIP" | sha256sum -c -
+            echo "fa31c04fd2a7ec67412011ab4997b7d5531a6ea3d10e6981e093f11ad2dbfe03  $ZIP" | sha256sum -c -
             unzip -q -o "$ZIP" -d "$RAW"
 
             python3 - "$RAW" "$OUT" <<'PY'
