@@ -53,6 +53,13 @@ jobs:
             echo "visual_pack_v1.zip not present; continuing with generated visual fallback."
           fi
 
+          if compgen -G "ci/runtime_visuals/*.webp" > /dev/null; then
+            mkdir -p "$SRC/app/src/main/assets/chinese_course/media/scenes"
+            cp ci/runtime_visuals/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
+            cp ci/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
+            echo "Installed canonical runtime visual overrides: $(find ci/runtime_visuals -maxdepth 1 -name '*.webp' | wc -l)"
+          fi
+
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
       - name: Setup Java 17
