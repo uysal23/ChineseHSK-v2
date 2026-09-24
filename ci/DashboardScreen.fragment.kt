@@ -22,9 +22,9 @@ fun DashboardScreen(
         Column(Modifier.padding(horizontal = 20.dp, vertical = 18.dp)) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
-                    Text("中文生活", color = MaterialTheme.colorScheme.secondary, fontSize = 18.sp, fontWeight = FontWeight.Bold)
-                    Text(greeting, color = Color.White, fontSize = 30.sp, fontWeight = FontWeight.Bold)
-                    Text("Çince öğrenme yolculuğun · HSK$startLevel", color = Color.White.copy(alpha = 0.72f))
+                    Text("中文生活", color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.92f), fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                    Text(greeting, color = MaterialTheme.colorScheme.onPrimary, fontSize = 30.sp, fontWeight = FontWeight.Bold)
+                    Text("Çince öğrenme yolculuğun · HSK$startLevel", color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.82f))
                 }
                 if (adminMode) {
                     Surface(color = Color(0xFF1B7F4C), contentColor = Color.White, shape = RoundedCornerShape(14.dp)) {
@@ -39,7 +39,7 @@ fun DashboardScreen(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             item {
-                Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(22.dp)) {
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White, contentColor = Color(0xFF231F28)), shape = RoundedCornerShape(22.dp)) {
                     Column(Modifier.padding(18.dp)) {
                         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                             Column(Modifier.weight(1f)) {
@@ -74,7 +74,7 @@ fun DashboardScreen(
                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary),
                     shape = RoundedCornerShape(18.dp)
                 ) {
-                    Text("▶ Kaldığım Yerden Devam Et", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Black)
+                    Text("▶ Kaldığım Yerden Devam Et", color = MaterialTheme.colorScheme.onSecondary, fontWeight = FontWeight.Black)
                 }
             }
 
@@ -107,7 +107,7 @@ fun DashboardScreen(
             item {
                 Text(
                     "Seviye Durumu",
-                    color = Color.White,
+                    color = MaterialTheme.colorScheme.onBackground,
                     fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(top = 4.dp)
@@ -116,7 +116,7 @@ fun DashboardScreen(
             items(levels) { level ->
                 val levelNo = level.id.removePrefix("HSK").toIntOrNull() ?: 1
                 val count = remember(level.id, progressVersion) { progress.masteredCount(levelNo) }
-                Card(colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.94f))) {
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.94f), contentColor = Color(0xFF231F28))) {
                     Row(Modifier.fillMaxWidth().padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
                         Text(level.title, color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
                         Spacer(Modifier.weight(1f))
