@@ -371,7 +371,40 @@ if theme_anchor not in ps:
     raise SystemExit("ProgressStore theme anchor missing")
 
 if "THEME_BLUE" not in ps:
-    light_match = re.search(r'(?m)^(\s*)const val THEME_LIGHT\s*=\s*\d+\s*
+    lines = ps.splitlines()
+    expanded_lines = []
+    inserted = False
+    for line in lines:
+        expanded_lines.append(line)
+        if "const val THEME_LIGHT" in line:
+            indent = line[:len(line) - len(line.lstrip())]
+            expanded_lines.extend([
+                indent + "const val THEME_BLUE = 3",
+                indent + "const val THEME_GREEN = 4",
+                indent + "const val THEME_ORANGE = 5",
+                indent + "const val THEME_PINK = 6",
+            ])
+            inserted = True
+    if not inserted:
+        raise SystemExit("ProgressStore THEME_LIGHT constant missing")
+    ps = "\n".join(expanded_lines) + ("\n" if ps.endswith("\n") else "")
+
+expanded_theme_anchor = '''    fun themeMode(): Int = prefs.getInt("setting_theme", THEME_PURPLE).coerceIn(THEME_PURPLE, THEME_PINK)
+    fun saveThemeMode(mode: Int) = prefs.edit().putInt("setting_theme", mode.coerceIn(THEME_PURPLE, THEME_PINK)).apply()
+'''
+ps = ps.replace(theme_anchor, expanded_theme_anchor, 1)
+
+if "fun userName()" not in ps:
+    ps = ps.replace(
+        expanded_theme_anchor,
+        expanded_theme_anchor + '''
+    fun userName(): String = prefs.getString("setting_user_name", "").orEmpty()
+    fun saveUserName(value: String) = prefs.edit().putString("setting_user_name", value.trim().take(40)).apply()
+''',
+        1
+    )
+progress_store.write_text(ps, encoding="utf-8")
+
 afs = app_flow_screens.read_text(encoding="utf-8")
 password_import = "import androidx.compose.ui.text.input.PasswordVisualTransformation\n"
 if password_import not in afs:
