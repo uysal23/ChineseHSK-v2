@@ -7,6 +7,7 @@ on:
     paths:
       - ci/generate_dialogue_naturalization.py
       - ci/dialogue_source_snapshot/**
+      - ci/validate_dialogue_naturalization.py
       - .github/workflows/generate-dialogue-naturalization.yml
 
 permissions:
@@ -21,15 +22,19 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Install text tooling
-        run: python3 -m pip install --disable-pip-version-check pypinyin opencc-python-reimplemented
+        run: python3 -m pip install --disable-pip-version-check jieba pypinyin opencc-python-reimplemented
 
       - name: Generate scene-level naturalization overrides
         shell: bash
         run: |
           set -euo pipefail
           rm -rf ci/dialogue_naturalized
-          python3 ci/generate_dialogue_naturalization.py             ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels             ci/dialogue_naturalized
-          python3 ci/validate_dialogue_naturalization.py             ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels             ci/dialogue_naturalized
+          python3 ci/generate_dialogue_naturalization.py \
+            ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels \
+            ci/dialogue_naturalized
+          python3 ci/validate_dialogue_naturalization.py \
+            ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels \
+            ci/dialogue_naturalized
 
       - name: Commit naturalized dialogue corpus
         shell: bash
