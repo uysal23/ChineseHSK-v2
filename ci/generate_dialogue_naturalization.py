@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 from pathlib import Path
-from collections import defaultdict
+from collections import Counter, defaultdict
 import hashlib, json, re, sys
 
 try:
+    import jieba
     from pypinyin import lazy_pinyin, Style
-except Exception as e:
-    raise SystemExit("pypinyin is required: pip install pypinyin") from e
-
-try:
     from opencc import OpenCC
 except Exception as e:
-    raise SystemExit("opencc-python-reimplemented is required") from e
+    raise SystemExit(
+        "Dependencies required: pip install jieba pypinyin opencc-python-reimplemented"
+    ) from e
 
 if len(sys.argv) != 3:
     raise SystemExit("usage: generate_dialogue_naturalization.py <snapshot-scene-root> <out-root>")
@@ -22,34 +21,49 @@ out_root.mkdir(parents=True, exist_ok=True)
 t2s = OpenCC("t2s")
 
 PUNCT = set("，。？！；：、,.?!;:（）()《》“”‘’—… ")
+INTERJECTION_PINYIN = {"嗯": "èn", "哦": "ò", "啊": "a", "哎": "āi", "欸": "éi"}
 
-def stable_pick(options, key):
-    if not options:
-        raise ValueError("empty options")
-    digest = hashlib.sha256(key.encode("utf-8")).digest()
-    return options[int.from_bytes(digest[:4], "big") % len(options)]
+def pick(options, key):
+    h = hashlib.sha256(key.encode("utf-8")).digest()
+    return options[int.from_bytes(h[:4], "big") % len(options)]
+
+def pinyin_word(word):
+    if word in INTERJECTION_PINYIN:
+        return INTERJECTION_PINYIN[word]
+    syllables = lazy_pinyin(
+        word,
+        style=Style.TONE,
+        neutral_tone_with_five=False,
+        errors="default",
+        strict=False,
+    )
+    return "".join(syllables)
 
 def to_pinyin(text):
     text = t2s.convert(text)
-    parts = []
+    tokens = []
     buf = ""
     for ch in text:
-        if "\u3400" <= ch <= "\u9fff":
+        if ch in PUNCT:
             if buf:
-                parts.append(buf)
+                tokens.extend(jieba.cut(buf, HMM=False))
                 buf = ""
-            py = lazy_pinyin(ch, style=Style.TONE, neutral_tone_with_five=False, errors="default")[0]
-            parts.append(py)
-        elif ch in PUNCT:
-            if buf:
-                parts.append(buf)
-                buf = ""
-            parts.append(ch)
+            tokens.append(ch)
         else:
             buf += ch
     if buf:
-        parts.append(buf)
-    s = " ".join(parts)
+        tokens.extend(jieba.cut(buf, HMM=False))
+
+    out = []
+    for tok in tokens:
+        if tok in PUNCT:
+            out.append(tok)
+        elif re.search(r"[\u3400-\u9fff]", tok):
+            out.append(pinyin_word(tok))
+        else:
+            out.append(tok)
+
+    s = " ".join(out)
     s = re.sub(r"\s+([，。？！；：、,.?!;:）)])", r"\1", s)
     s = re.sub(r"([（(《“‘])\s+", r"\1", s)
     s = s.replace("，", ",").replace("。", ".").replace("？", "?").replace("！", "!")
@@ -61,26 +75,112 @@ def to_pinyin(text):
             break
     return s
 
-EXACT = {
+def qa_hsk1(zh, prev, occurrence, key):
+    m = re.fullmatch(r"这是(.+?)吗？", zh)
+    if m:
+        x = m.group(1)
+        opts = [
+            f"这是{x}吗？",
+            f"这个是{x}吗？",
+            f"这是{x}，对吗？",
+        ]
+        return opts[min(occurrence, len(opts)-1)] if occurrence < 3 else pick(opts, key)
+
+    m = re.fullmatch(r"对，这是(.+?)。", zh)
+    if m:
+        x = m.group(1)
+        return pick([
+            f"对，就是{x}。",
+            f"嗯，对，这是{x}。",
+            f"没错，是{x}。",
+        ], key)
+
+    m = re.fullmatch(r"(.+?)在哪儿？", zh)
+    if m:
+        x = m.group(1)
+        if x in {"箱子","书","门","猫","钱","包","桌子","椅子","电话","蛋糕","茶","饭","礼物","蔬菜","菜"}:
+            return pick([
+                f"{x}在哪儿？",
+                f"那{x}放在哪儿？",
+                f"{x}呢？放哪儿了？",
+            ], key)
+        return pick([
+            f"{x}在哪儿？",
+            f"那{x}在哪儿？",
+            f"{x}呢？",
+        ], key)
+
+    m = re.fullmatch(r"(.+?)在这里。", zh)
+    if m:
+        x = m.group(1)
+        return pick([
+            f"{x}在这儿。",
+            "就在这里。",
+            f"你看，{x}在这儿。",
+        ], key)
+
+    m = re.fullmatch(r"(.+?)在那边。", zh)
+    if m:
+        x = m.group(1)
+        return pick([
+            f"{x}在那边。",
+            "就在那边。",
+            f"你看，{x}在那边。",
+        ], key)
+
+    m = re.fullmatch(r"你要(.+?)吗？", zh)
+    if m:
+        x = m.group(1)
+        return pick([
+            f"你要{x}吗？",
+            f"要不要{x}？",
+            f"你想要{x}吗？",
+        ], key)
+
+    m = re.fullmatch(r"我要(.+?)，谢谢。", zh)
+    if m:
+        x = m.group(1)
+        return pick([
+            f"好，我要{x}，谢谢。",
+            f"我要{x}，谢谢。",
+            f"那我要{x}吧，谢谢。",
+        ], key)
+    return None
+
+COMMON = {
+    "我明白了。": ["嗯，我明白了。", "好，明白了。", "这下明白了。"],
+    "好的。": ["好的。", "好。", "嗯，好。"],
+    "好。": ["好。", "嗯，好。", "行。"],
+    "对。": ["对。", "嗯，对。", "没错。"],
+    "谢谢。": ["谢谢。", "谢谢啊。", "好，谢谢。"],
+    "谢谢你。": ["谢谢你。", "谢谢啊。", "真谢谢你。"],
+    "不客气。": ["不客气。", "别客气。", "没事，不客气。"],
+    "太好了！": ["太好了！", "真好！", "太棒了！"],
+    "我也是。": ["我也是。", "嗯，我也是。", "我也一样。"],
+    "我也是这么想的。": ["嗯，我也是这么想的。", "对，我也这么觉得。", "我的想法也一样。"],
+    "我们继续。": ["好，我们接着来。", "那我们继续吧。", "好，继续。"],
+    "好，我们继续。": ["好，那继续吧。", "行，我们接着来。", "好，继续。"],
+    "说得对。": ["你说得对。", "嗯，说得对。", "对，就是这样。"],
+    "这个主意不错。": ["这个主意不错。", "嗯，这个想法挺好。", "这个办法可以试试。"],
+    "这个办法不错。": ["这个办法不错。", "嗯，这个办法可以。", "这个主意挺好的。"],
+    "我们可以试试。": ["那我们试试吧。", "可以，先试试看。", "我们先试一下。"],
+    "那就这么决定吧。": ["那就这么定吧。", "好，那就这么决定。", "那我们就这么定。"],
+    "好，我们保持联系。": ["好，有情况随时联系。", "行，我们随时联系。", "好，有变化就互相说一声。"],
+}
+
+LEVEL = {
     "HSK1": {
-        "我明白了。": ["嗯，我明白了。", "好，我明白了。", "明白了。"],
-        "我们继续。": ["好，继续吧。", "那我们继续。", "好，我们接着来。"],
-        "现在好了。": ["这下好了。", "现在就好了。", "好，这下行了。"],
+        "准备好了吗？": ["准备好了吗？", "都准备好了吗？", "准备得怎么样了？"],
+        "准备好了。": ["准备好了。", "嗯，准备好了。", "都准备好了。"],
+        "别急。": ["别急。", "先别急。", "别着急。"],
         "我来看看。": ["我看看。", "我来看看吧。", "来，我看看。"],
         "我们一起吧。": ["那一起吧。", "我们一起吧。", "好，一起吧。"],
-        "太好了！": ["太好了！", "真好！", "太棒了！"],
+        "现在好了。": ["这下好了。", "现在就好了。", "好，这下行了。"],
         "都好了吗？": ["都弄好了吗？", "都好了吗？", "都准备好了吗？"],
         "都好了。": ["都好了。", "嗯，都好了。", "都弄好了。"],
         "走吧。": ["走吧。", "好，走吧。", "那走吧。"],
-        "没关系。": ["没关系。", "没事。", "没关系，别急。"],
         "有一点。": ["有一点儿。", "嗯，有一点。", "有点儿。"],
-        "好的。": ["好的。", "好。", "嗯，好。"],
-        "准备好了。": ["准备好了。", "都准备好了。", "嗯，准备好了。"],
-        "准备好了吗？": ["准备好了吗？", "都准备好了吗？", "准备得怎么样了？"],
-        "我也是。": ["我也是。", "嗯，我也是。", "我也一样。"],
-        "谢谢。": ["谢谢。", "谢谢啊。", "好，谢谢。"],
-        "谢谢你。": ["谢谢你。", "谢谢啊。", "真谢谢你。"],
-        "不客气。": ["不客气。", "没事，不客气。", "别客气。"],
+        "没关系。": ["没关系。", "没事。", "没关系，别急。"],
     },
     "HSK2": {
         "对，我记住了。": ["对，我记住了。", "嗯，我记住了。", "好，我记住了。"],
@@ -88,18 +188,14 @@ EXACT = {
         "以后还会用到。": ["以后肯定还会用到。", "以后还用得上。", "这个以后还会用到。"],
         "我再说一次。": ["那我再说一遍。", "好，我再说一次。", "我再说一遍吧。"],
         "现在更清楚了。": ["现在就清楚多了。", "嗯，这下更清楚了。", "现在明白多了。"],
-        "我明白了。": ["嗯，我明白了。", "好，我懂了。", "这下明白了。"],
         "原来是这样。": ["哦，原来是这样。", "原来是这样啊。", "嗯，原来如此。"],
         "这个我记住了。": ["好，这个我记住了。", "嗯，这个我记住了。", "这个我会记住。"],
         "听起来很清楚。": ["嗯，听起来很清楚。", "这样说就很清楚了。", "听你这么说就清楚了。"],
         "好，那就按这个来。": ["好，那就这么来。", "行，就按这个来。", "好，那我们就这么做。"],
         "那现在怎么办？": ["那现在怎么办？", "那接下来怎么办？", "好，那我们现在怎么做？"],
         "先别着急，我们想个办法。": ["先别急，我们想想办法。", "别着急，我们先想个办法。", "先别急，总会有办法的。"],
-        "这个办法不错。": ["这个办法不错。", "嗯，这个办法可以。", "这个主意挺好的。"],
-        "我们可以试试。": ["那我们试试吧。", "可以，先试试看。", "我们先试一下。"],
         "我以前没注意到。": ["我以前还真没注意。", "这个我以前没注意到。", "之前我都没发现。"],
         "现在知道了。": ["现在知道了。", "嗯，现在我知道了。", "这下知道了。"],
-        "说得对。": ["你说得对。", "嗯，说得对。", "对，就是这样。"],
         "这样更方便。": ["这样确实更方便。", "嗯，这样方便多了。", "这样会更方便。"],
         "那我们换一个办法。": ["那换个办法吧。", "好，我们换一种办法。", "那就换个办法试试。"],
         "可以，你先来。": ["可以，你先来吧。", "好，你先来。", "行，那你先试。"],
@@ -110,9 +206,6 @@ EXACT = {
         "我们再检查一次。": ["我们再检查一遍吧。", "好，再检查一次。", "最后再检查一遍。"],
         "这次没有问题了。": ["这次应该没问题了。", "好，这次没问题了。", "现在看起来没问题了。"],
         "太好了，终于解决了。": ["太好了，总算解决了。", "终于解决了，太好了。", "好，总算弄好了。"],
-        "我也是这么想的。": ["嗯，我也是这么想的。", "对，我也这么想。", "我的想法也一样。"],
-        "那就这么决定吧。": ["那就这么定吧。", "好，那就这么决定。", "那我们就这么定。"],
-        "好，我们继续。": ["好，那继续吧。", "行，我们接着来。", "好，继续。"],
     },
     "HSK3": {
         "我明白你的意思了。": ["嗯，我明白你的意思了。", "好，我懂你的意思了。", "这么说我就明白了。"],
@@ -148,11 +241,9 @@ EXACT = {
         "这样说更有道理。": ["这么说就更有道理了。", "嗯，这样想确实更合理。", "对，这么说比较有道理。"],
         "我们需要一个更实际的办法。": ["我们还是需要一个更实际的办法。", "看来得想个更实际的办法。", "最好找一个真正能做的办法。"],
         "可以先做一部分，看看效果。": ["可以先做一部分，看看效果怎么样。", "要不先做一部分试试效果？", "我们可以先做一点，看看实际效果。"],
-        "这个主意不错。": ["这个主意不错。", "嗯，这个想法挺好。", "这个办法可以试试。"],
         "那我负责这一部分。": ["那这一部分我来负责。", "好，这部分交给我。", "那我来处理这一部分。"],
         "剩下的我来处理。": ["剩下的我来处理。", "那剩下的我来吧。", "其他的我来处理。"],
         "需要我帮忙的时候告诉我。": ["需要帮忙就告诉我。", "有需要就叫我一声。", "要是忙不过来就跟我说。"],
-        "好，我们保持联系。": ["好，有情况随时联系。", "行，我们随时联系。", "好，有变化就互相说一声。"],
         "事情越来越清楚了。": ["事情现在越来越清楚了。", "嗯，思路慢慢清楚了。", "这样一来，情况越来越清楚了。"],
         "我也放心多了。": ["嗯，我也放心多了。", "这样我就放心多了。", "我现在也安心多了。"],
         "还有一个小问题。": ["不过还有一个小问题。", "等一下，还有个小问题。", "对了，还有一件小事。"],
@@ -177,8 +268,6 @@ EXACT = {
         "今天我们学到不少东西。": ["今天还真学到不少东西。", "今天我们也算学到不少。", "嗯，今天收获挺多的。"],
         "下次处理起来会更快。": ["下次再遇到，处理起来会更快。", "有了这次经验，下次会快很多。", "下次我们应该能处理得更快。"],
         "我觉得今天的结果不错。": ["我觉得今天这个结果不错。", "今天的结果我还挺满意。", "嗯，我觉得今天做得不错。"],
-        "我也是这么想的。": ["嗯，我也是这么想的。", "对，我也这么觉得。", "我的想法也一样。"],
-        "那就这么决定吧。": ["那就这么定吧。", "好，那就这么决定。", "那我们就这么定。"],
         "好，接下来按计划继续。": ["好，接下来就按计划来。", "行，后面按计划继续。", "好，那接下来按计划走。"],
         "现在主要问题已经解决了。": ["现在主要问题已经解决了。", "好，最主要的问题算是解决了。", "现在看，主要问题已经处理好了。"],
         "剩下的按计划做就可以。": ["剩下的按计划做就行。", "接下来照计划做就可以。", "剩下的我们按计划继续。"],
@@ -214,168 +303,192 @@ EXACT = {
         "有不同意见并不代表合作失败，关键是能不能把分歧说清楚。": ["有不同意见不等于合作失败，关键是能不能把分歧说清楚。", "出现分歧很正常，真正重要的是能不能把不同意见讲明白。", "意见不一致并不可怕，关键在于能不能把分歧说清楚。"],
         "这不是简单的对错问题，而是不同目标之间怎么平衡。": ["这不是简单的谁对谁错，而是不同目标之间怎么平衡。", "问题不在于简单判断对错，而在于怎么平衡不同目标。", "这件事不能只用对错来判断，更重要的是不同目标之间如何取舍。"],
         "有时候承认不知道，比假装确定更负责任。": ["有时候坦白说不知道，反而比假装确定更负责任。", "承认自己还不知道答案，有时比表现得很确定更负责。", "在信息不足的时候，承认不确定其实更负责任。"],
-    }
+    },
 }
 
-def relation_variant(level, zh, prev_zh, next_zh, scene_id, turn_id):
-    options = EXACT.get(level, {}).get(zh)
-    if options:
-        key = f"{scene_id}:{turn_id}:{prev_zh}:{next_zh}"
-        return stable_pick(options, key)
-
-    # Repair common generated template artifacts while preserving meaning.
-    m = re.fullmatch(r"(.+?)是这次要考虑的重点之一。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
+def repair_generated_templates(zh, key):
+    patterns = [
+        (r"(.+?)是这次要考虑的重点之一。", lambda x: pick([
             f"{x}这一点也得认真考虑。",
             f"说到{x}，这一点确实不能忽略。",
-            f"{x}也是这次要考虑的重点。"
-        ], f"{scene_id}:{turn_id}:focus")
-
-    m = re.fullmatch(r"关于(.+?)，我们还要再讨论一下。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
+            f"{x}也是这次要考虑的重点。",
+        ], key)),
+        (r"关于(.+?)，我们还要再讨论一下。", lambda x: pick([
             f"说到{x}，我们还得再商量一下。",
             f"{x}这部分，我们最好再讨论一下。",
-            f"关于{x}，我觉得还得再聊一聊。"
-        ], f"{scene_id}:{turn_id}:about")
-
-    m = re.fullmatch(r"如果(.+?)没有问题，我们就继续。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
+            f"关于{x}，我觉得还得再聊一聊。",
+        ], key)),
+        (r"如果(.+?)没有问题，我们就继续。", lambda x: pick([
             f"如果{x}这边没问题，我们就继续。",
             f"{x}要是没问题，我们就接着往下。",
-            f"确认{x}没问题以后，我们再继续。"
-        ], f"{scene_id}:{turn_id}:ifok")
+            f"确认{x}没问题以后，我们再继续。",
+        ], key)),
+        (r"(.+?)是我们不能忽略的一点。", lambda x: pick([
+            f"{x}这一点也不能忽略。",
+            f"对，{x}也是必须考虑的。",
+            f"{x}这部分我们也得认真看。",
+        ], key)),
+        (r"如果(.+?)发生变化，计划也得调整。", lambda x: pick([
+            f"要是{x}有变化，计划也得跟着调整。",
+            f"如果{x}变了，我们的计划也要调整。",
+            f"{x}一旦有变化，原来的计划就得改。",
+        ], key)),
+        (r"我们把(.+?)也列进考虑范围吧。", lambda x: pick([
+            f"那把{x}也一起考虑进去吧。",
+            f"{x}也应该放进我们的考虑范围。",
+            f"好，{x}这一点也加进去。",
+        ], key)),
+        (r"关于(.+?)，我想再听听大家的看法。", lambda x: pick([
+            f"说到{x}，我还想听听大家怎么想。",
+            f"关于{x}，大家还有什么想法？",
+            f"{x}这件事，我想再听听你们的意见。",
+        ], key)),
+    ]
+    for pattern, maker in patterns:
+        m = re.fullmatch(pattern, zh)
+        if m:
+            return maker(m.group(1))
 
     m = re.fullmatch(r"我们最好再确认一下(.+?)。", zh)
     if m:
         x = m.group(1)
-        # Broken generator cases such as “确认一下觉得” become neutral and natural.
-        if x in {"觉得", "需要", "同意", "决定"}:
-            return stable_pick([
+        if x in {"觉得","需要","同意","决定"}:
+            return pick([
                 "这一点我们最好再确认一下。",
                 "这部分还是再确认一下比较好。",
-                "我觉得这里还需要再确认一下。"
-            ], f"{scene_id}:{turn_id}:confirm-generic")
-        return stable_pick([
+                "我觉得这里还需要再确认一下。",
+            ], key)
+        return pick([
             f"{x}这部分我们最好再确认一下。",
             f"关于{x}，我们再确认一次吧。",
-            f"我想再确认一下{x}这部分。"
-        ], f"{scene_id}:{turn_id}:confirm")
+            f"我想再确认一下{x}这部分。",
+        ], key)
+    return None
 
-    m = re.fullmatch(r"(.+?)是我们不能忽略的一点。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
-            f"{x}这一点也不能忽略。",
-            f"对，{x}也是必须考虑的。",
-            f"{x}这部分我们也得认真看。"
-        ], f"{scene_id}:{turn_id}:cantignore")
+def naturalize_line(level, zh, prev, nxt, occurrence, scene_id, turn_id):
+    key = f"{scene_id}:{turn_id}:{prev}:{nxt}:{occurrence}"
+    zh = t2s.convert(zh.strip())
 
-    m = re.fullmatch(r"如果(.+?)发生变化，计划也得调整。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
-            f"要是{x}有变化，计划也得跟着调整。",
-            f"如果{x}变了，我们的计划也要调整。",
-            f"{x}一旦有变化，原来的计划就得改。"
-        ], f"{scene_id}:{turn_id}:change")
+    repaired = repair_generated_templates(zh, key)
+    if repaired:
+        return repaired
 
-    m = re.fullmatch(r"我们把(.+?)也列进考虑范围吧。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
-            f"那把{x}也一起考虑进去吧。",
-            f"{x}也应该放进我们的考虑范围。",
-            f"好，{x}这一点也加进去。"
-        ], f"{scene_id}:{turn_id}:include")
+    if level == "HSK1":
+        qa = qa_hsk1(zh, prev, occurrence, key)
+        if qa:
+            return qa
 
-    m = re.fullmatch(r"关于(.+?)，我想再听听大家的看法。", zh)
-    if m:
-        x = m.group(1)
-        return stable_pick([
-            f"说到{x}，我还想听听大家怎么想。",
-            f"关于{x}，大家还有什么想法？",
-            f"{x}这件事，我想再听听你们的意见。"
-        ], f"{scene_id}:{turn_id}:views")
+    options = LEVEL.get(level, {}).get(zh) or COMMON.get(zh)
+    if options:
+        return pick(options, key)
 
-    # Light context-sensitive smoothing for otherwise acceptable lines.
-    # Only touch when it improves adjacency without changing core semantics.
-    if prev_zh.endswith(("？", "?")):
-        if zh.startswith("我觉得"):
+    # Preserve meaning, but improve adjacency when the current line is clearly
+    # responding to the previous one.
+    if prev.endswith(("？", "?")):
+        if zh.startswith("我觉得") and not zh.startswith("嗯，"):
             return "嗯，" + zh
-        if zh.startswith("我同意"):
+        if zh.startswith("我同意") and not zh.startswith("嗯，"):
             return "嗯，" + zh
-        if zh.startswith("对，"):
-            return zh
-    if prev_zh.startswith(("为什么", "怎么")) and zh.startswith("因为"):
+        if zh.startswith("可以") and len(zh) <= 14:
+            return pick([zh, "嗯，" + zh, "可以，" + zh[2:] if zh.startswith("可以，") else zh], key)
+
+    if prev.startswith(("为什么", "怎么")) and zh.startswith("因为"):
         return zh
-    if zh.startswith("那我们") and prev_zh.endswith(("。", "！")):
-        return zh
+
+    # Soften a few bookish conjunctions without changing proposition.
+    zh = zh.replace("虽然有点麻烦，但是", "虽然有点麻烦，不过")
+    zh = zh.replace("如果这样做，", "这样做的话，")
+    zh = zh.replace("我们最好把", "最好把") if level in {"HSK3","HSK4"} else zh
+
     return zh
 
-def naturalize_scene(path):
-    data = json.loads(path.read_text(encoding="utf-8"))
-    level = data.get("level") or path.parts[-3]
-    scene_id = data["id"]
-    source = data.get("dialogues", [])
-    out = []
-    prev_new = ""
-    changed = 0
+def main():
+    stats = defaultdict(lambda: {"scenes": 0, "turns": 0, "changedTurns": 0})
+    global_before = Counter()
+    global_after = Counter()
+    scene_files = sorted(scene_root.glob("HSK*/scenes/ZH_HSK*_SC*.json"))
 
-    for i, d in enumerate(source):
-        old_zh = t2s.convert(str(d.get("zh", "")).strip())
-        next_old = t2s.convert(str(source[i+1].get("zh", "")).strip()) if i + 1 < len(source) else ""
-        new_zh = relation_variant(level, old_zh, prev_new, next_old, scene_id, d.get("id", str(i)))
-        new_zh = t2s.convert(new_zh)
+    for path in scene_files:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        scene_id = data["id"]
+        level = data.get("level") or path.parts[-3]
+        source = data.get("dialogues", [])
+        seen_source = Counter()
+        out = []
+        prev_new = ""
+        changed = 0
 
-        # Avoid accidental filler stacking.
-        new_zh = re.sub(r"^(嗯，){2,}", "嗯，", new_zh)
-        new_zh = re.sub(r"^(好，){2,}", "好，", new_zh)
+        for i, d in enumerate(source):
+            old_zh = t2s.convert(str(d.get("zh", "")).strip())
+            next_old = t2s.convert(str(source[i+1].get("zh", "")).strip()) if i + 1 < len(source) else ""
+            occurrence = seen_source[old_zh]
+            new_zh = naturalize_line(
+                level, old_zh, prev_new, next_old, occurrence, scene_id, d.get("id", str(i))
+            )
+            new_zh = t2s.convert(new_zh)
+            seen_source[old_zh] += 1
 
-        if new_zh != old_zh:
-            changed += 1
+            # Prevent filler stacking.
+            new_zh = re.sub(r"^(嗯，){2,}", "嗯，", new_zh)
+            new_zh = re.sub(r"^(好，){2,}", "好，", new_zh)
 
-        out.append({
-            "id": d.get("id"),
-            "speaker": d.get("speaker"),
-            "zh": new_zh,
-            "pinyin": to_pinyin(new_zh),
-            "tr": str(d.get("tr", "")).strip(),
-        })
-        prev_new = new_zh
+            # If an identical line would occur consecutively, add a minimal
+            # natural discourse cue without changing meaning.
+            if out and new_zh == out[-1]["zh"]:
+                if level in {"HSK1","HSK2","HSK3"}:
+                    new_zh = "嗯，" + new_zh if not new_zh.startswith("嗯，") else new_zh
+                else:
+                    new_zh = "对，" + new_zh if not new_zh.startswith("对，") else new_zh
 
-    return {
-        "naturalizationVersion": 1,
-        "sceneId": scene_id,
-        "level": level,
-        "sourceTitleZh": data.get("titleZh"),
-        "sourceTitleTr": data.get("titleTr"),
-        "sourceMiniAdventureTr": data.get("miniAdventureTr"),
-        "dialogues": out,
-    }, changed, len(source)
+            new_pinyin = str(d.get("pinyin", "")).strip() if new_zh == old_zh else to_pinyin(new_zh)
+            new_tr = str(d.get("tr", "")).strip()
 
-stats = defaultdict(lambda: {"scenes": 0, "turns": 0, "changedTurns": 0})
-scene_files = sorted(scene_root.glob("HSK*/scenes/ZH_HSK*_SC*.json"))
-for p in scene_files:
-    patch, changed, turns = naturalize_scene(p)
-    level = patch["level"]
-    dest = out_root / level / p.name
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(json.dumps(patch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    stats[level]["scenes"] += 1
-    stats[level]["turns"] += turns
-    stats[level]["changedTurns"] += changed
+            out.append({
+                "id": d.get("id"),
+                "speaker": d.get("speaker"),
+                "zh": new_zh,
+                "pinyin": new_pinyin,
+                "tr": new_tr,
+            })
 
-report = {
-    "sceneCount": len(scene_files),
-    "turnCount": sum(v["turns"] for v in stats.values()),
-    "changedTurnCount": sum(v["changedTurns"] for v in stats.values()),
-    "levels": dict(sorted(stats.items())),
-}
-(out_root / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(json.dumps(report, ensure_ascii=False))
+            global_before[old_zh] += 1
+            global_after[new_zh] += 1
+            if new_zh != old_zh:
+                changed += 1
+            prev_new = new_zh
+
+        patch = {
+            "naturalizationVersion": 2,
+            "sceneId": scene_id,
+            "level": level,
+            "sourceTitleZh": data.get("titleZh"),
+            "sourceTitleTr": data.get("titleTr"),
+            "sourceMiniAdventureTr": data.get("miniAdventureTr"),
+            "dialogues": out,
+        }
+        dest = out_root / level / path.name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(json.dumps(patch, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+        stats[level]["scenes"] += 1
+        stats[level]["turns"] += len(source)
+        stats[level]["changedTurns"] += changed
+
+    report = {
+        "naturalizationVersion": 2,
+        "sceneCount": len(scene_files),
+        "turnCount": sum(v["turns"] for v in stats.values()),
+        "changedTurnCount": sum(v["changedTurns"] for v in stats.values()),
+        "uniqueZhBefore": len(global_before),
+        "uniqueZhAfter": len(global_after),
+        "duplicateTurnsBefore": sum(n - 1 for n in global_before.values() if n > 1),
+        "duplicateTurnsAfter": sum(n - 1 for n in global_after.values() if n > 1),
+        "levels": dict(sorted(stats.items())),
+    }
+    (out_root / "report.json").write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    print(json.dumps(report, ensure_ascii=False))
+
+if __name__ == "__main__":
+    main()
