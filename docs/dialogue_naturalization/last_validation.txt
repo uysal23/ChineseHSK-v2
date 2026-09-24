@@ -1,0 +1,603 @@
+Validated 300 naturalized scenes / 30000 turns
+Warnings: 4756
+WARN ZH_HSK1_SC001:15: length ratio 1.60
+WARN ZH_HSK1_SC001:17: length ratio 1.67
+WARN ZH_HSK1_SC001:21: length ratio 1.67
+WARN ZH_HSK1_SC001:26: length ratio 2.00
+WARN ZH_HSK1_SC001:41: length ratio 0.60
+WARN ZH_HSK1_SC001:48: length ratio 1.60
+WARN ZH_HSK1_SC001:52: length ratio 1.50
+WARN ZH_HSK1_SC001:54: length ratio 2.00
+WARN ZH_HSK1_SC001:57: length ratio 0.60
+WARN ZH_HSK1_SC001:60: length ratio 1.67
+WARN ZH_HSK1_SC001:71: length ratio 0.60
+WARN ZH_HSK1_SC001:78: length ratio 2.00
+WARN ZH_HSK1_SC001:82: length ratio 1.60
+WARN ZH_HSK1_SC001:86: length ratio 1.50
+WARN ZH_HSK1_SC001:95: length ratio 0.60
+WARN ZH_HSK1_SC001:97: length ratio 1.50
+WARN ZH_HSK1_SC002:3: length ratio 1.50
+WARN ZH_HSK1_SC002:12: length ratio 0.60
+WARN ZH_HSK1_SC002:13: length ratio 1.60
+WARN ZH_HSK1_SC002:30: length ratio 1.50
+WARN ZH_HSK1_SC002:38: length ratio 1.50
+WARN ZH_HSK1_SC002:64: length ratio 1.60
+WARN ZH_HSK1_SC002:71: length ratio 0.60
+WARN ZH_HSK1_SC002:72: length ratio 1.60
+WARN ZH_HSK1_SC002:80: length ratio 1.60
+WARN ZH_HSK1_SC002:88: length ratio 1.60
+WARN ZH_HSK1_SC002:92: length ratio 1.50
+WARN ZH_HSK1_SC002:95: length ratio 0.60
+WARN ZH_HSK1_SC003:3: length ratio 2.00
+WARN ZH_HSK1_SC003:9: length ratio 1.67
+WARN ZH_HSK1_SC003:13: length ratio 1.67
+WARN ZH_HSK1_SC003:21: length ratio 1.67
+WARN ZH_HSK1_SC003:26: length ratio 2.00
+WARN ZH_HSK1_SC003:60: length ratio 1.67
+WARN ZH_HSK1_SC003:64: length ratio 1.67
+WARN ZH_HSK1_SC004:3: length ratio 1.50
+WARN ZH_HSK1_SC004:17: length ratio 1.67
+WARN ZH_HSK1_SC004:26: length ratio 2.00
+WARN ZH_HSK1_SC004:37: length ratio 0.60
+WARN ZH_HSK1_SC004:48: length ratio 1.60
+WARN ZH_HSK1_SC004:52: length ratio 1.67
+WARN ZH_HSK1_SC004:60: length ratio 1.67
+WARN ZH_HSK1_SC004:97: length ratio 1.50
+WARN ZH_HSK1_SC005:13: length ratio 1.50
+WARN ZH_HSK1_SC005:20: length ratio 0.60
+WARN ZH_HSK1_SC005:21: length ratio 1.60
+WARN ZH_HSK1_SC005:26: length ratio 2.00
+WARN ZH_HSK1_SC005:52: length ratio 1.50
+WARN ZH_HSK1_SC005:63: length ratio 0.60
+WARN ZH_HSK1_SC005:67: length ratio 0.60
+WARN ZH_HSK1_SC005:80: length ratio 1.50
+WARN ZH_HSK1_SC005:91: length ratio 0.60
+WARN ZH_HSK1_SC005:92: length ratio 1.60
+WARN ZH_HSK1_SC006:3: length ratio 1.50
+WARN ZH_HSK1_SC006:17: length ratio 1.67
+WARN ZH_HSK1_SC006:18: length ratio 0.60
+WARN ZH_HSK1_SC006:21: length ratio 1.67
+WARN ZH_HSK1_SC006:30: length ratio 1.67
+WARN ZH_HSK1_SC006:50: length ratio 1.50
+WARN ZH_HSK1_SC006:54: length ratio 1.50
+WARN ZH_HSK1_SC006:60: length ratio 1.67
+WARN ZH_HSK1_SC006:68: length ratio 1.67
+WARN ZH_HSK1_SC006:86: length ratio 1.60
+WARN ZH_HSK1_SC006:97: length ratio 1.50
+WARN ZH_HSK1_SC007:3: length ratio 2.00
+WARN ZH_HSK1_SC007:9: length ratio 1.67
+WARN ZH_HSK1_SC007:46: length ratio 1.75
+WARN ZH_HSK1_SC007:74: length ratio 1.50
+WARN ZH_HSK1_SC007:80: length ratio 1.50
+WARN ZH_HSK1_SC008:13: length ratio 1.50
+WARN ZH_HSK1_SC008:17: length ratio 1.50
+WARN ZH_HSK1_SC008:34: length ratio 1.50
+WARN ZH_HSK1_SC008:48: length ratio 1.60
+WARN ZH_HSK1_SC008:56: length ratio 1.50
+WARN ZH_HSK1_SC008:60: length ratio 1.50
+WARN ZH_HSK1_SC008:66: length ratio 1.50
+WARN ZH_HSK1_SC008:76: length ratio 1.67
+WARN ZH_HSK1_SC008:92: length ratio 1.67
+WARN ZH_HSK1_SC009:3: length ratio 2.00
+WARN ZH_HSK1_SC009:15: length ratio 1.60
+WARN ZH_HSK1_SC009:17: length ratio 1.67
+WARN ZH_HSK1_SC009:48: length ratio 1.60
+WARN ZH_HSK1_SC009:60: length ratio 1.67
+WARN ZH_HSK1_SC009:72: length ratio 1.67
+WARN ZH_HSK1_SC009:80: length ratio 1.67
+WARN ZH_HSK1_SC009:81: length ratio 0.60
+WARN ZH_HSK1_SC009:82: length ratio 1.60
+WARN ZH_HSK1_SC009:92: length ratio 1.67
+WARN ZH_HSK1_SC010:17: length ratio 1.67
+WARN ZH_HSK1_SC010:19: length ratio 1.50
+WARN ZH_HSK1_SC010:46: length ratio 1.75
+WARN ZH_HSK1_SC010:48: length ratio 1.60
+WARN ZH_HSK1_SC010:51: length ratio 0.60
+WARN ZH_HSK1_SC010:62: length ratio 1.50
+WARN ZH_HSK1_SC010:64: length ratio 1.67
+WARN ZH_HSK1_SC010:84: length ratio 1.67
+WARN ZH_HSK1_SC010:86: length ratio 1.50
+WARN ZH_HSK1_SC010:92: length ratio 1.67
+WARN ZH_HSK1_SC011:9: length ratio 1.50
+WARN ZH_HSK1_SC011:11: length ratio 1.50
+WARN ZH_HSK1_SC011:19: length ratio 1.50
+WARN ZH_HSK1_SC011:26: length ratio 2.00
+WARN ZH_HSK1_SC011:34: length ratio 1.60
+WARN ZH_HSK1_SC011:52: length ratio 1.50
+WARN ZH_HSK1_SC011:54: length ratio 1.50
+WARN ZH_HSK1_SC011:65: length ratio 0.60
+WARN ZH_HSK1_SC011:72: length ratio 1.60
+WARN ZH_HSK1_SC011:84: length ratio 1.67
+WARN ZH_HSK1_SC011:88: length ratio 1.67
+WARN ZH_HSK1_SC011:92: length ratio 1.67
+WARN ZH_HSK1_SC012:3: length ratio 2.00
+WARN ZH_HSK1_SC012:7: length ratio 1.60
+WARN ZH_HSK1_SC012:12: length ratio 0.60
+WARN ZH_HSK1_SC012:13: length ratio 1.60
+WARN ZH_HSK1_SC012:15: length ratio 1.50
+WARN ZH_HSK1_SC012:17: length ratio 1.67
+WARN ZH_HSK1_SC012:26: length ratio 2.00
+WARN ZH_HSK1_SC012:30: length ratio 1.50
+WARN ZH_HSK1_SC012:34: length ratio 1.60
+WARN ZH_HSK1_SC012:49: length ratio 0.60
+WARN ZH_HSK1_SC012:52: length ratio 1.67
+WARN ZH_HSK1_SC012:56: length ratio 1.60
+WARN ZH_HSK1_SC012:58: length ratio 1.50
+WARN ZH_HSK1_SC012:60: length ratio 1.67
+WARN ZH_HSK1_SC012:73: length ratio 0.60
+WARN ZH_HSK1_SC012:74: length ratio 1.60
+WARN ZH_HSK1_SC012:82: length ratio 1.50
+WARN ZH_HSK1_SC012:92: length ratio 1.50
+WARN ZH_HSK1_SC012:97: length ratio 1.50
+WARN ZH_HSK1_SC013:9: length ratio 1.60
+WARN ZH_HSK1_SC013:13: length ratio 1.50
+WARN ZH_HSK1_SC013:21: length ratio 1.50
+WARN ZH_HSK1_SC013:30: length ratio 1.50
+WARN ZH_HSK1_SC013:32: length ratio 1.50
+WARN ZH_HSK1_SC013:35: length ratio 0.60
+WARN ZH_HSK1_SC013:38: length ratio 1.67
+WARN ZH_HSK1_SC013:41: length ratio 0.60
+WARN ZH_HSK1_SC013:42: length ratio 1.60
+WARN ZH_HSK1_SC013:51: length ratio 0.60
+WARN ZH_HSK1_SC013:52: length ratio 1.60
+WARN ZH_HSK1_SC013:70: length ratio 1.50
+WARN ZH_HSK1_SC013:80: length ratio 1.50
+WARN ZH_HSK1_SC013:84: length ratio 1.67
+WARN ZH_HSK1_SC014:3: length ratio 1.50
+WARN ZH_HSK1_SC014:17: length ratio 1.50
+WARN ZH_HSK1_SC014:19: length ratio 1.60
+WARN ZH_HSK1_SC014:26: length ratio 2.00
+WARN ZH_HSK1_SC014:34: length ratio 1.67
+WARN ZH_HSK1_SC014:60: length ratio 1.50
+WARN ZH_HSK1_SC014:62: length ratio 1.60
+WARN ZH_HSK1_SC014:68: length ratio 1.50
+WARN ZH_HSK1_SC014:72: length ratio 1.67
+WARN ZH_HSK1_SC014:76: length ratio 1.50
+WARN ZH_HSK1_SC014:97: length ratio 1.50
+WARN ZH_HSK1_SC014: high within-scene repetition [('你好！', 10), ('很高兴认识你。', 10)]
+WARN ZH_HSK1_SC015:9: length ratio 1.67
+WARN ZH_HSK1_SC015:30: length ratio 1.50
+WARN ZH_HSK1_SC015:68: length ratio 1.50
+WARN ZH_HSK1_SC015:76: length ratio 1.67
+WARN ZH_HSK1_SC015:80: length ratio 1.67
+WARN ZH_HSK1_SC015:88: length ratio 1.67
+WARN ZH_HSK1_SC016:3: length ratio 2.00
+WARN ZH_HSK1_SC016:13: length ratio 1.67
+WARN ZH_HSK1_SC016:50: length ratio 1.50
+WARN ZH_HSK1_SC016:54: length ratio 1.60
+WARN ZH_HSK1_SC016:56: length ratio 1.67
+WARN ZH_HSK1_SC016:65: length ratio 0.60
+WARN ZH_HSK1_SC016:68: length ratio 1.67
+WARN ZH_HSK1_SC016:74: length ratio 1.50
+WARN ZH_HSK1_SC016:76: length ratio 1.67
+WARN ZH_HSK1_SC016:78: length ratio 1.60
+WARN ZH_HSK1_SC016:88: length ratio 1.67
+WARN ZH_HSK1_SC017:3: length ratio 1.50
+WARN ZH_HSK1_SC017:7: length ratio 1.50
+WARN ZH_HSK1_SC017:13: length ratio 1.67
+WARN ZH_HSK1_SC017:33: length ratio 0.60
+WARN ZH_HSK1_SC017:37: length ratio 0.60
+WARN ZH_HSK1_SC017:38: length ratio 1.60
+WARN ZH_HSK1_SC017:42: length ratio 1.67
+WARN ZH_HSK1_SC017:46: length ratio 1.75
+WARN ZH_HSK1_SC017:50: length ratio 1.50
+WARN ZH_HSK1_SC017:72: length ratio 1.60
+WARN ZH_HSK1_SC017:76: length ratio 1.67
+WARN ZH_HSK1_SC017:80: length ratio 1.67
+WARN ZH_HSK1_SC017:88: length ratio 1.67
+WARN ZH_HSK1_SC017: high within-scene repetition [('好。', 8)]
+WARN ZH_HSK1_SC018:3: length ratio 2.00
+WARN ZH_HSK1_SC018:9: length ratio 1.60
+WARN ZH_HSK1_SC018:13: length ratio 1.60
+WARN ZH_HSK1_SC018:15: length ratio 1.50
+WARN ZH_HSK1_SC018:29: length ratio 0.60
+WARN ZH_HSK1_SC018:38: length ratio 1.67
+WARN ZH_HSK1_SC018:46: length ratio 1.75
+WARN ZH_HSK1_SC018:48: length ratio 1.60
+WARN ZH_HSK1_SC018:51: length ratio 0.60
+WARN ZH_HSK1_SC018:52: length ratio 1.60
+WARN ZH_HSK1_SC018:58: length ratio 1.50
+WARN ZH_HSK1_SC018:60: length ratio 1.67
+WARN ZH_HSK1_SC018:62: length ratio 1.50
+WARN ZH_HSK1_SC018:80: length ratio 1.60
+WARN ZH_HSK1_SC018:86: length ratio 1.50
+WARN ZH_HSK1_SC018:92: length ratio 1.60
+WARN ZH_HSK1_SC018:97: length ratio 1.50
+WARN ZH_HSK1_SC019:3: length ratio 2.00
+WARN ZH_HSK1_SC019:21: length ratio 1.67
+WARN ZH_HSK1_SC019:34: length ratio 1.67
+WARN ZH_HSK1_SC019:68: length ratio 1.67
+WARN ZH_HSK1_SC019:72: length ratio 1.67
+WARN ZH_HSK1_SC019:76: length ratio 1.67
+WARN ZH_HSK1_SC019: high within-scene repetition [('好。', 9)]
+WARN ZH_HSK1_SC020:3: length ratio 1.50
+WARN ZH_HSK1_SC020:9: length ratio 1.50
+WARN ZH_HSK1_SC020:13: length ratio 1.50
+WARN ZH_HSK1_SC020:16: length ratio 0.60
+WARN ZH_HSK1_SC020:30: length ratio 1.50
+WARN ZH_HSK1_SC020:52: length ratio 1.50
+WARN ZH_HSK1_SC020:69: length ratio 0.60
+WARN ZH_HSK1_SC020:70: length ratio 1.60
+WARN ZH_HSK1_SC020:92: length ratio 1.50
+WARN ZH_HSK1_SC020:94: length ratio 1.60
+WARN ZH_HSK1_SC020:97: length ratio 1.50
+WARN ZH_HSK1_SC021:11: length ratio 1.50
+WARN ZH_HSK1_SC021:15: length ratio 1.50
+WARN ZH_HSK1_SC021:21: length ratio 1.50
+WARN ZH_HSK1_SC021:26: length ratio 2.00
+WARN ZH_HSK1_SC021:31: length ratio 0.60
+WARN ZH_HSK1_SC021:48: length ratio 1.60
+WARN ZH_HSK1_SC021:50: length ratio 1.50
+WARN ZH_HSK1_SC021:52: length ratio 1.67
+WARN ZH_HSK1_SC021:54: length ratio 1.50
+WARN ZH_HSK1_SC021:56: length ratio 1.67
+WARN ZH_HSK1_SC021:58: length ratio 1.50
+WARN ZH_HSK1_SC021:60: length ratio 1.67
+WARN ZH_HSK1_SC021:70: length ratio 1.60
+WARN ZH_HSK1_SC021:72: length ratio 1.67
+WARN ZH_HSK1_SC021:76: length ratio 1.67
+WARN ZH_HSK1_SC021:82: length ratio 1.50
+WARN ZH_HSK1_SC021:92: length ratio 1.50
+WARN ZH_HSK1_SC021:97: length ratio 1.50
+WARN ZH_HSK1_SC022:9: length ratio 1.67
+WARN ZH_HSK1_SC022:26: length ratio 2.00
+WARN ZH_HSK1_SC022:36: length ratio 1.50
+WARN ZH_HSK1_SC022:38: length ratio 1.67
+WARN ZH_HSK1_SC022:41: length ratio 0.60
+WARN ZH_HSK1_SC022:42: length ratio 1.60
+WARN ZH_HSK1_SC022:46: length ratio 1.75
+WARN ZH_HSK1_SC022:50: length ratio 1.50
+WARN ZH_HSK1_SC022:52: length ratio 1.67
+WARN ZH_HSK1_SC022:60: length ratio 1.50
+WARN ZH_HSK1_SC022:64: length ratio 1.60
+WARN ZH_HSK1_SC022:68: length ratio 1.67
+WARN ZH_HSK1_SC022:76: length ratio 1.67
+WARN ZH_HSK1_SC022:88: length ratio 1.60
+WARN ZH_HSK1_SC022:97: length ratio 1.50
+WARN ZH_HSK1_SC022: high within-scene repetition [('你好！', 9), ('很高兴认识你。', 9)]
+WARN ZH_HSK1_SC023:9: length ratio 1.50
+WARN ZH_HSK1_SC023:30: length ratio 1.67
+WARN ZH_HSK1_SC023:38: length ratio 1.67
+WARN ZH_HSK1_SC023:52: length ratio 1.50
+WARN ZH_HSK1_SC023:60: length ratio 1.50
+WARN ZH_HSK1_SC023:72: length ratio 1.67
+WARN ZH_HSK1_SC023:80: length ratio 1.67
+WARN ZH_HSK1_SC023:88: length ratio 1.67
+WARN ZH_HSK1_SC023:92: length ratio 1.67
+WARN ZH_HSK1_SC024:3: length ratio 2.00
+WARN ZH_HSK1_SC024:26: length ratio 2.00
+WARN ZH_HSK1_SC024:46: length ratio 1.75
+WARN ZH_HSK1_SC024:56: length ratio 1.50
+WARN ZH_HSK1_SC024:60: length ratio 1.50
+WARN ZH_HSK1_SC024:64: length ratio 1.50
+WARN ZH_HSK1_SC024:68: length ratio 1.50
+WARN ZH_HSK1_SC024:88: length ratio 1.50
+WARN ZH_HSK1_SC024:92: length ratio 1.50
+WARN ZH_HSK1_SC024:97: length ratio 1.50
+WARN ZH_HSK1_SC024: high within-scene repetition [('你好！', 13), ('很高兴认识你。', 13)]
+WARN ZH_HSK1_SC025:37: length ratio 0.60
+WARN ZH_HSK1_SC025:41: length ratio 0.60
+WARN ZH_HSK1_SC025:46: length ratio 1.75
+WARN ZH_HSK1_SC025:70: length ratio 1.50
+WARN ZH_HSK1_SC025:76: length ratio 1.50
+WARN ZH_HSK1_SC025:92: length ratio 1.50
+WARN ZH_HSK1_SC026:3: length ratio 1.50
+WARN ZH_HSK1_SC026:7: length ratio 1.50
+WARN ZH_HSK1_SC026:13: length ratio 1.50
+WARN ZH_HSK1_SC026:17: length ratio 1.67
+WARN ZH_HSK1_SC026:26: length ratio 2.00
+WARN ZH_HSK1_SC026:42: length ratio 1.60
+WARN ZH_HSK1_SC026:46: length ratio 1.75
+WARN ZH_HSK1_SC026:50: length ratio 2.00
+WARN ZH_HSK1_SC026:64: length ratio 1.50
+WARN ZH_HSK1_SC026:80: length ratio 1.50
+WARN ZH_HSK1_SC027:3: length ratio 2.00
+WARN ZH_HSK1_SC027:9: length ratio 1.50
+WARN ZH_HSK1_SC027:26: length ratio 2.00
+WARN ZH_HSK1_SC027:32: length ratio 2.00
+WARN ZH_HSK1_SC027:46: length ratio 1.75
+WARN ZH_HSK1_SC027:76: length ratio 1.50
+WARN ZH_HSK1_SC027:90: length ratio 1.50
+WARN ZH_HSK1_SC028:13: length ratio 1.50
+WARN ZH_HSK1_SC028:26: length ratio 2.00
+ERROR ZH_HSK2_SC001: active vocabulary disappeared from dialogue: 早上
+ERROR ZH_HSK2_SC002: active vocabulary disappeared from dialogue: 一个月
+ERROR ZH_HSK2_SC002: active vocabulary disappeared from dialogue: 服务台
+ERROR ZH_HSK2_SC003: active vocabulary disappeared from dialogue: 水果
+ERROR ZH_HSK2_SC003: active vocabulary disappeared from dialogue: 价格
+ERROR ZH_HSK2_SC004: active vocabulary disappeared from dialogue: 邻居
+ERROR ZH_HSK2_SC005: active vocabulary disappeared from dialogue: 运动
+ERROR ZH_HSK2_SC006: active vocabulary disappeared from dialogue: 晚一点回家
+ERROR ZH_HSK2_SC006: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK2_SC007: active vocabulary disappeared from dialogue: 礼物
+ERROR ZH_HSK2_SC007: active vocabulary disappeared from dialogue: 漂亮
+ERROR ZH_HSK2_SC008: active vocabulary disappeared from dialogue: 楼下
+ERROR ZH_HSK2_SC008: active vocabulary disappeared from dialogue: 猫
+ERROR ZH_HSK2_SC009: active vocabulary disappeared from dialogue: 流量
+ERROR ZH_HSK2_SC009: active vocabulary disappeared from dialogue: 比较
+ERROR ZH_HSK2_SC010: active vocabulary disappeared from dialogue: 食物
+ERROR ZH_HSK2_SC010: active vocabulary disappeared from dialogue: 包
+ERROR ZH_HSK2_SC011: active vocabulary disappeared from dialogue: 老师
+ERROR ZH_HSK2_SC011: active vocabulary disappeared from dialogue: 需要
+ERROR ZH_HSK2_SC012: active vocabulary disappeared from dialogue: 欢迎
+ERROR ZH_HSK2_SC012: active vocabulary disappeared from dialogue: 食物
+ERROR ZH_HSK2_SC014: active vocabulary disappeared from dialogue: 样子
+ERROR ZH_HSK2_SC015: active vocabulary disappeared from dialogue: 盐
+ERROR ZH_HSK2_SC015: active vocabulary disappeared from dialogue: 咸
+ERROR ZH_HSK2_SC015: active vocabulary disappeared from dialogue: 食物
+ERROR ZH_HSK2_SC016: active vocabulary disappeared from dialogue: 灯
+ERROR ZH_HSK2_SC016: active vocabulary disappeared from dialogue: 蜡烛
+ERROR ZH_HSK2_SC017: active vocabulary disappeared from dialogue: 尺码
+ERROR ZH_HSK2_SC017: active vocabulary disappeared from dialogue: 大一点
+ERROR ZH_HSK2_SC018: active vocabulary disappeared from dialogue: 失物招领处
+ERROR ZH_HSK2_SC018: active vocabulary disappeared from dialogue: 颜色
+ERROR ZH_HSK2_SC019: active vocabulary disappeared from dialogue: 休息
+ERROR ZH_HSK2_SC019: active vocabulary disappeared from dialogue: 药
+ERROR ZH_HSK2_SC020: active vocabulary disappeared from dialogue: 有意思
+ERROR ZH_HSK2_SC022: active vocabulary disappeared from dialogue: 赢
+ERROR ZH_HSK2_SC022: active vocabulary disappeared from dialogue: 加油
+ERROR ZH_HSK2_SC023: active vocabulary disappeared from dialogue: 小
+ERROR ZH_HSK2_SC024: active vocabulary disappeared from dialogue: 花钱
+ERROR ZH_HSK2_SC024: active vocabulary disappeared from dialogue: 省钱
+ERROR ZH_HSK2_SC025: active vocabulary disappeared from dialogue: 生活
+ERROR ZH_HSK2_SC027: active vocabulary disappeared from dialogue: 疼
+ERROR ZH_HSK2_SC027: active vocabulary disappeared from dialogue: 害怕
+ERROR ZH_HSK2_SC028: active vocabulary disappeared from dialogue: 方向
+ERROR ZH_HSK2_SC028: active vocabulary disappeared from dialogue: 一直走
+ERROR ZH_HSK2_SC029: active vocabulary disappeared from dialogue: 修改
+ERROR ZH_HSK2_SC029: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK2_SC030: active vocabulary disappeared from dialogue: 邮局
+ERROR ZH_HSK2_SC030: active vocabulary disappeared from dialogue: 城市
+ERROR ZH_HSK2_SC031: active vocabulary disappeared from dialogue: 身份证
+ERROR ZH_HSK2_SC031: active vocabulary disappeared from dialogue: 签字
+ERROR ZH_HSK2_SC033: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK2_SC034: active vocabulary disappeared from dialogue: 垃圾
+ERROR ZH_HSK2_SC034: active vocabulary disappeared from dialogue: 志愿者
+ERROR ZH_HSK2_SC035: active vocabulary disappeared from dialogue: 卖
+ERROR ZH_HSK2_SC035: active vocabulary disappeared from dialogue: 好吃
+ERROR ZH_HSK2_SC035: active vocabulary disappeared from dialogue: 蛋糕
+ERROR ZH_HSK2_SC036: active vocabulary disappeared from dialogue: 第一步
+ERROR ZH_HSK2_SC036: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK2_SC037: active vocabulary disappeared from dialogue: 紧张
+ERROR ZH_HSK2_SC037: active vocabulary disappeared from dialogue: 舞台
+ERROR ZH_HSK2_SC037: active vocabulary disappeared from dialogue: 校车
+ERROR ZH_HSK2_SC038: active vocabulary disappeared from dialogue: 意思
+ERROR ZH_HSK2_SC038: active vocabulary disappeared from dialogue: 和好
+ERROR ZH_HSK2_SC039: active vocabulary disappeared from dialogue: 少一点
+ERROR ZH_HSK2_SC039: active vocabulary disappeared from dialogue: 体重
+ERROR ZH_HSK2_SC039: active vocabulary disappeared from dialogue: 猫
+ERROR ZH_HSK2_SC040: active vocabulary disappeared from dialogue: 每天
+ERROR ZH_HSK2_SC040: active vocabulary disappeared from dialogue: 坚持
+ERROR ZH_HSK2_SC042: active vocabulary disappeared from dialogue: 看得见
+ERROR ZH_HSK2_SC043: active vocabulary disappeared from dialogue: 新鲜
+ERROR ZH_HSK2_SC043: active vocabulary disappeared from dialogue: 箱子
+ERROR ZH_HSK2_SC044: active vocabulary disappeared from dialogue: 够
+ERROR ZH_HSK2_SC045: active vocabulary disappeared from dialogue: 提高
+ERROR ZH_HSK2_SC046: active vocabulary disappeared from dialogue: 一样
+ERROR ZH_HSK2_SC046: active vocabulary disappeared from dialogue: 爱好
+ERROR ZH_HSK2_SC047: active vocabulary disappeared from dialogue: 摔倒
+ERROR ZH_HSK2_SC048: active vocabulary disappeared from dialogue: 暖和
+ERROR ZH_HSK2_SC048: active vocabulary disappeared from dialogue: 开了
+ERROR ZH_HSK2_SC049: active vocabulary disappeared from dialogue: 去过
+ERROR ZH_HSK3_SC001: active vocabulary disappeared from dialogue: 订单表
+ERROR ZH_HSK3_SC001: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC002: active vocabulary disappeared from dialogue: 蛋糕
+ERROR ZH_HSK3_SC002: active vocabulary disappeared from dialogue: 对不起
+ERROR ZH_HSK3_SC003: active vocabulary disappeared from dialogue: 项目组
+ERROR ZH_HSK3_SC003: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK3_SC003: active vocabulary disappeared from dialogue: 责任
+ERROR ZH_HSK3_SC004: active vocabulary disappeared from dialogue: 同意书
+ERROR ZH_HSK3_SC004: active vocabulary disappeared from dialogue: 材料
+ERROR ZH_HSK3_SC005: active vocabulary disappeared from dialogue: 规定
+ERROR ZH_HSK3_SC005: active vocabulary disappeared from dialogue: 进步
+ERROR ZH_HSK3_SC005: active vocabulary disappeared from dialogue: 修改
+ERROR ZH_HSK3_SC006: active vocabulary disappeared from dialogue: 生意
+ERROR ZH_HSK3_SC006: active vocabulary disappeared from dialogue: 梦想
+ERROR ZH_HSK3_SC007: active vocabulary disappeared from dialogue: 优点
+ERROR ZH_HSK3_SC007: active vocabulary disappeared from dialogue: 位置
+ERROR ZH_HSK3_SC008: active vocabulary disappeared from dialogue: 房租
+ERROR ZH_HSK3_SC008: active vocabulary disappeared from dialogue: 缺点
+ERROR ZH_HSK3_SC009: active vocabulary disappeared from dialogue: 房租
+ERROR ZH_HSK3_SC009: active vocabulary disappeared from dialogue: 定价
+ERROR ZH_HSK3_SC009: active vocabulary disappeared from dialogue: 优点
+ERROR ZH_HSK3_SC010: active vocabulary disappeared from dialogue: 潜力
+ERROR ZH_HSK3_SC010: active vocabulary disappeared from dialogue: 装修
+ERROR ZH_HSK3_SC010: active vocabulary disappeared from dialogue: 尺寸
+ERROR ZH_HSK3_SC011: active vocabulary disappeared from dialogue: 风险
+ERROR ZH_HSK3_SC011: active vocabulary disappeared from dialogue: 生意
+ERROR ZH_HSK3_SC012: active vocabulary disappeared from dialogue: 好记
+ERROR ZH_HSK3_SC013: active vocabulary disappeared from dialogue: 证件
+ERROR ZH_HSK3_SC013: active vocabulary disappeared from dialogue: 表格
+ERROR ZH_HSK3_SC014: active vocabulary disappeared from dialogue: 墙
+ERROR ZH_HSK3_SC014: active vocabulary disappeared from dialogue: 尺寸
+ERROR ZH_HSK3_SC014: active vocabulary disappeared from dialogue: 选择
+ERROR ZH_HSK3_SC015: active vocabulary disappeared from dialogue: 老桌子
+ERROR ZH_HSK3_SC015: active vocabulary disappeared from dialogue: 价格
+ERROR ZH_HSK3_SC016: active vocabulary disappeared from dialogue: 味道
+ERROR ZH_HSK3_SC016: active vocabulary disappeared from dialogue: 好吃
+ERROR ZH_HSK3_SC017: active vocabulary disappeared from dialogue: 定价
+ERROR ZH_HSK3_SC017: active vocabulary disappeared from dialogue: 价格
+ERROR ZH_HSK3_SC017: active vocabulary disappeared from dialogue: 必要
+ERROR ZH_HSK3_SC018: active vocabulary disappeared from dialogue: 评价
+ERROR ZH_HSK3_SC018: active vocabulary disappeared from dialogue: 责任
+ERROR ZH_HSK3_SC019: active vocabulary disappeared from dialogue: 错字
+ERROR ZH_HSK3_SC019: active vocabulary disappeared from dialogue: 对不起
+ERROR ZH_HSK3_SC020: active vocabulary disappeared from dialogue: 服务
+ERROR ZH_HSK3_SC020: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC021: active vocabulary disappeared from dialogue: 详细订单
+ERROR ZH_HSK3_SC022: active vocabulary disappeared from dialogue: 坏了
+ERROR ZH_HSK3_SC022: active vocabulary disappeared from dialogue: 步骤
+ERROR ZH_HSK3_SC023: active vocabulary disappeared from dialogue: 步骤
+ERROR ZH_HSK3_SC023: active vocabulary disappeared from dialogue: 修好
+ERROR ZH_HSK3_SC024: active vocabulary disappeared from dialogue: 责任
+ERROR ZH_HSK3_SC024: active vocabulary disappeared from dialogue: 服务
+ERROR ZH_HSK3_SC024: active vocabulary disappeared from dialogue: 订单
+ERROR ZH_HSK3_SC025: active vocabulary disappeared from dialogue: 学习
+ERROR ZH_HSK3_SC025: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK3_SC025: active vocabulary disappeared from dialogue: 咖啡馆的想法
+ERROR ZH_HSK3_SC026: active vocabulary disappeared from dialogue: 聊天
+ERROR ZH_HSK3_SC026: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC026: active vocabulary disappeared from dialogue: 欢迎
+ERROR ZH_HSK3_SC027: active vocabulary disappeared from dialogue: 促销
+ERROR ZH_HSK3_SC027: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC028: active vocabulary disappeared from dialogue: 预订
+ERROR ZH_HSK3_SC028: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK3_SC029: active vocabulary disappeared from dialogue: 房型
+ERROR ZH_HSK3_SC029: active vocabulary disappeared from dialogue: 发错文件
+ERROR ZH_HSK3_SC029: active vocabulary disappeared from dialogue: 换一个
+ERROR ZH_HSK3_SC030: active vocabulary disappeared from dialogue: 项目
+ERROR ZH_HSK3_SC030: active vocabulary disappeared from dialogue: 步骤
+ERROR ZH_HSK3_SC030: active vocabulary disappeared from dialogue: 家庭会议
+ERROR ZH_HSK3_SC031: active vocabulary disappeared from dialogue: 学习计划
+ERROR ZH_HSK3_SC032: active vocabulary disappeared from dialogue: 队
+ERROR ZH_HSK3_SC032: active vocabulary disappeared from dialogue: 加油
+ERROR ZH_HSK3_SC032: active vocabulary disappeared from dialogue: 再试一次
+ERROR ZH_HSK3_SC033: active vocabulary disappeared from dialogue: 调解
+ERROR ZH_HSK3_SC033: active vocabulary disappeared from dialogue: 老桌子
+ERROR ZH_HSK3_SC033: active vocabulary disappeared from dialogue: 别客气
+ERROR ZH_HSK3_SC034: active vocabulary disappeared from dialogue: 卖
+ERROR ZH_HSK3_SC034: active vocabulary disappeared from dialogue: 社区
+ERROR ZH_HSK3_SC035: active vocabulary disappeared from dialogue: 交货时间
+ERROR ZH_HSK3_SC035: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC036: active vocabulary disappeared from dialogue: 供应商
+ERROR ZH_HSK3_SC036: active vocabulary disappeared from dialogue: 马上
+ERROR ZH_HSK3_SC036: active vocabulary disappeared from dialogue: 解决办法
+ERROR ZH_HSK3_SC037: active vocabulary disappeared from dialogue: 职业发展
+ERROR ZH_HSK3_SC037: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK3_SC037: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK3_SC038: active vocabulary disappeared from dialogue: 遗憾
+ERROR ZH_HSK3_SC038: active vocabulary disappeared from dialogue: 朋友
+ERROR ZH_HSK3_SC038: active vocabulary disappeared from dialogue: 生活
+ERROR ZH_HSK3_SC039: active vocabulary disappeared from dialogue: 长期目标
+ERROR ZH_HSK3_SC039: active vocabulary disappeared from dialogue: 咖啡馆的想法
+ERROR ZH_HSK3_SC040: active vocabulary disappeared from dialogue: 收入
+ERROR ZH_HSK3_SC040: active vocabulary disappeared from dialogue: 成本
+ERROR ZH_HSK3_SC041: active vocabulary disappeared from dialogue: 城市生活
+ERROR ZH_HSK3_SC041: active vocabulary disappeared from dialogue: 生活
+ERROR ZH_HSK3_SC042: active vocabulary disappeared from dialogue: 菜谱
+ERROR ZH_HSK3_SC042: active vocabulary disappeared from dialogue: 做饭
+ERROR ZH_HSK3_SC042: active vocabulary disappeared from dialogue: 味道
+ERROR ZH_HSK3_SC043: active vocabulary disappeared from dialogue: 菜单
+ERROR ZH_HSK3_SC043: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC043: active vocabulary disappeared from dialogue: 打分
+ERROR ZH_HSK3_SC044: active vocabulary disappeared from dialogue: 选择
+ERROR ZH_HSK3_SC044: active vocabulary disappeared from dialogue: 学习
+ERROR ZH_HSK3_SC044: active vocabulary disappeared from dialogue: 爱好
+ERROR ZH_HSK3_SC045: active vocabulary disappeared from dialogue: 实验
+ERROR ZH_HSK3_SC045: active vocabulary disappeared from dialogue: 解决办法
+ERROR ZH_HSK3_SC046: active vocabulary disappeared from dialogue: 捐款
+ERROR ZH_HSK3_SC046: active vocabulary disappeared from dialogue: 社区
+ERROR ZH_HSK3_SC046: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK3_SC047: active vocabulary disappeared from dialogue: 责任
+ERROR ZH_HSK3_SC047: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK3_SC047: active vocabulary disappeared from dialogue: 未来计划
+ERROR ZH_HSK3_SC048: active vocabulary disappeared from dialogue: 回忆
+ERROR ZH_HSK3_SC048: active vocabulary disappeared from dialogue: 谢谢
+ERROR ZH_HSK3_SC048: active vocabulary disappeared from dialogue: 朋友
+ERROR ZH_HSK3_SC049: active vocabulary disappeared from dialogue: 未来计划
+ERROR ZH_HSK3_SC049: active vocabulary disappeared from dialogue: 咖啡馆的想法
+ERROR ZH_HSK3_SC049: active vocabulary disappeared from dialogue: 梦想
+ERROR ZH_HSK3_SC050: active vocabulary disappeared from dialogue: 爷爷奶奶
+ERROR ZH_HSK3_SC050: active vocabulary disappeared from dialogue: 农场
+ERROR ZH_HSK3_SC050: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC001: active vocabulary disappeared from dialogue: 理由
+ERROR ZH_HSK4_SC001: active vocabulary disappeared from dialogue: 独立
+ERROR ZH_HSK4_SC001: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC002: active vocabulary disappeared from dialogue: 农场
+ERROR ZH_HSK4_SC002: active vocabulary disappeared from dialogue: 农产品
+ERROR ZH_HSK4_SC002: active vocabulary disappeared from dialogue: 传统
+ERROR ZH_HSK4_SC003: active vocabulary disappeared from dialogue: 家庭照片
+ERROR ZH_HSK4_SC003: active vocabulary disappeared from dialogue: 传统
+ERROR ZH_HSK4_SC003: active vocabulary disappeared from dialogue: 以前
+ERROR ZH_HSK4_SC004: active vocabulary disappeared from dialogue: 分工
+ERROR ZH_HSK4_SC004: active vocabulary disappeared from dialogue: 安排
+ERROR ZH_HSK4_SC004: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC005: active vocabulary disappeared from dialogue: 独立
+ERROR ZH_HSK4_SC005: active vocabulary disappeared from dialogue: 位置
+ERROR ZH_HSK4_SC006: active vocabulary disappeared from dialogue: 种子
+ERROR ZH_HSK4_SC006: active vocabulary disappeared from dialogue: 资源
+ERROR ZH_HSK4_SC006: active vocabulary disappeared from dialogue: 农场
+ERROR ZH_HSK4_SC007: active vocabulary disappeared from dialogue: 改进
+ERROR ZH_HSK4_SC007: active vocabulary disappeared from dialogue: 沟通
+ERROR ZH_HSK4_SC008: active vocabulary disappeared from dialogue: 习惯
+ERROR ZH_HSK4_SC008: active vocabulary disappeared from dialogue: 尊重
+ERROR ZH_HSK4_SC008: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC009: active vocabulary disappeared from dialogue: 策略
+ERROR ZH_HSK4_SC009: active vocabulary disappeared from dialogue: 期望
+ERROR ZH_HSK4_SC009: active vocabulary disappeared from dialogue: 安排
+ERROR ZH_HSK4_SC010: active vocabulary disappeared from dialogue: 规则
+ERROR ZH_HSK4_SC010: active vocabulary disappeared from dialogue: 妥协
+ERROR ZH_HSK4_SC010: active vocabulary disappeared from dialogue: 习惯
+ERROR ZH_HSK4_SC011: active vocabulary disappeared from dialogue: 新员工
+ERROR ZH_HSK4_SC011: active vocabulary disappeared from dialogue: 服务
+ERROR ZH_HSK4_SC012: active vocabulary disappeared from dialogue: 培训
+ERROR ZH_HSK4_SC012: active vocabulary disappeared from dialogue: 负责
+ERROR ZH_HSK4_SC012: active vocabulary disappeared from dialogue: 沟通
+ERROR ZH_HSK4_SC013: active vocabulary disappeared from dialogue: 食材
+ERROR ZH_HSK4_SC013: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK4_SC014: active vocabulary disappeared from dialogue: 口碑
+ERROR ZH_HSK4_SC014: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK4_SC014: active vocabulary disappeared from dialogue: 改进
+ERROR ZH_HSK4_SC015: active vocabulary disappeared from dialogue: 领导能力
+ERROR ZH_HSK4_SC015: active vocabulary disappeared from dialogue: 项目组
+ERROR ZH_HSK4_SC015: active vocabulary disappeared from dialogue: 沟通
+ERROR ZH_HSK4_SC016: active vocabulary disappeared from dialogue: 协调
+ERROR ZH_HSK4_SC016: active vocabulary disappeared from dialogue: 尊重
+ERROR ZH_HSK4_SC016: active vocabulary disappeared from dialogue: 妥协
+ERROR ZH_HSK4_SC017: active vocabulary disappeared from dialogue: 隐私
+ERROR ZH_HSK4_SC017: active vocabulary disappeared from dialogue: 沟通
+ERROR ZH_HSK4_SC017: active vocabulary disappeared from dialogue: 尊重
+ERROR ZH_HSK4_SC018: active vocabulary disappeared from dialogue: 帮忙
+ERROR ZH_HSK4_SC018: active vocabulary disappeared from dialogue: 信任
+ERROR ZH_HSK4_SC018: active vocabulary disappeared from dialogue: 尊重
+ERROR ZH_HSK4_SC019: active vocabulary disappeared from dialogue: 镜头
+ERROR ZH_HSK4_SC019: active vocabulary disappeared from dialogue: 爱好
+ERROR ZH_HSK4_SC019: active vocabulary disappeared from dialogue: 学习
+ERROR ZH_HSK4_SC020: active vocabulary disappeared from dialogue: 参赛作品
+ERROR ZH_HSK4_SC020: active vocabulary disappeared from dialogue: 镜头
+ERROR ZH_HSK4_SC020: active vocabulary disappeared from dialogue: 准备
+ERROR ZH_HSK4_SC021: active vocabulary disappeared from dialogue: 农产品
+ERROR ZH_HSK4_SC021: active vocabulary disappeared from dialogue: 价格
+ERROR ZH_HSK4_SC021: active vocabulary disappeared from dialogue: 农场
+ERROR ZH_HSK4_SC022: active vocabulary disappeared from dialogue: 食材
+ERROR ZH_HSK4_SC022: active vocabulary disappeared from dialogue: 咖啡馆的想法
+ERROR ZH_HSK4_SC023: active vocabulary disappeared from dialogue: 信任
+ERROR ZH_HSK4_SC023: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK4_SC023: active vocabulary disappeared from dialogue: 负责
+ERROR ZH_HSK4_SC024: active vocabulary disappeared from dialogue: 紧急情况
+ERROR ZH_HSK4_SC024: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK4_SC024: active vocabulary disappeared from dialogue: 维修
+ERROR ZH_HSK4_SC025: active vocabulary disappeared from dialogue: 平衡
+ERROR ZH_HSK4_SC025: active vocabulary disappeared from dialogue: 工作
+ERROR ZH_HSK4_SC025: active vocabulary disappeared from dialogue: 生活方式
+ERROR ZH_HSK4_SC026: active vocabulary disappeared from dialogue: 目的地
+ERROR ZH_HSK4_SC026: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC027: active vocabulary disappeared from dialogue: 站台
+ERROR ZH_HSK4_SC027: active vocabulary disappeared from dialogue: 安排
+ERROR ZH_HSK4_SC028: active vocabulary disappeared from dialogue: 酒店投诉
+ERROR ZH_HSK4_SC028: active vocabulary disappeared from dialogue: 房型
+ERROR ZH_HSK4_SC028: active vocabulary disappeared from dialogue: 尊重
+ERROR ZH_HSK4_SC029: active vocabulary disappeared from dialogue: 当地历史
+ERROR ZH_HSK4_SC030: active vocabulary disappeared from dialogue: 安全
+ERROR ZH_HSK4_SC030: active vocabulary disappeared from dialogue: 打电话
+ERROR ZH_HSK4_SC030: active vocabulary disappeared from dialogue: 解决办法
+ERROR ZH_HSK4_SC031: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC031: active vocabulary disappeared from dialogue: 照片
+ERROR ZH_HSK4_SC031: active vocabulary disappeared from dialogue: 情绪
+ERROR ZH_HSK4_SC032: active vocabulary disappeared from dialogue: 期望
+ERROR ZH_HSK4_SC032: active vocabulary disappeared from dialogue: 学习
+ERROR ZH_HSK4_SC032: active vocabulary disappeared from dialogue: 家人
+ERROR ZH_HSK4_SC033: active vocabulary disappeared from dialogue: 录取
+ERROR ZH_HSK4_SC033: active vocabulary disappeared from dialogue: 专业
+ERROR ZH_HSK4_SC033: active vocabulary disappeared from dialogue: 距离
+ERROR ZH_HSK4_SC034: active vocabulary disappeared from dialogue: 扩张
+ERROR ZH_HSK4_SC034: active vocabulary disappeared from dialogue: 好处
+ERROR ZH_HSK4_SC034: active vocabulary disappeared from dialogue: 生意
+ERROR ZH_HSK4_SC035: active vocabulary disappeared from dialogue: 扩张
+ERROR ZH_HSK4_SC035: active vocabulary disappeared from dialogue: 平衡
+ERROR ZH_HSK4_SC035: active vocabulary disappeared from dialogue: 生意
+ERROR ZH_HSK4_SC036: active vocabulary disappeared from dialogue: 营业额
+ERROR ZH_HSK4_SC036: active vocabulary disappeared from dialogue: 预算
+ERROR ZH_HSK4_SC037: active vocabulary disappeared from dialogue: 顾客
+ERROR ZH_HSK4_SC037: active vocabulary disappeared from dialogue: 生意
+Dialogue naturalization validation failed with 407 errors
