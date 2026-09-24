@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK1_SC044",
+  "level": "HSK1",
+  "sourceTitleZh": "乐乐的全家福",
+  "sourceTitleTr": "Lele’nin Resmi",
+  "sourceMiniAdventureTr": "Lele okulda çizdiği aile resmini sınıfa anlatır.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC044_001",
+      "speaker": "张乐乐",
+      "zh": "乐乐画了全家福。",
+      "pinyin": "Lè lè huà le quán jiā fú.",
+      "tr": "Lele bir aile resmi çizdi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_002",
+      "speaker": "老师",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_003",
+      "speaker": "同学",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_004",
+      "speaker": "同学",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔn bèi dé zěn me yàng le?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_005",
+      "speaker": "张乐乐",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔn bèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_006",
+      "speaker": "老师",
+      "zh": "这是画吗？",
+      "pinyin": "Zhè shì huà ma?",
+      "tr": "Bu, resim mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_007",
+      "speaker": "同学",
+      "zh": "对，这是画。",
+      "pinyin": "Duì, zhè shì huà.",
+      "tr": "Evet, bu resim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_008",
+      "speaker": "同学",
+      "zh": "画在哪儿？",
+      "pinyin": "Huà zài nǎ ér?",
+      "tr": "Resim nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_009",
+      "speaker": "张乐乐",
+      "zh": "画在这里。",
+      "pinyin": "Huà zài zhè lǐ.",
+      "tr": "Resim burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_010",
+      "speaker": "老师",
+      "zh": "这是我们的家人。",
+      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "tr": "Bu bizim aile."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_011",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_012",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_013",
+      "speaker": "张乐乐",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_014",
+      "speaker": "老师",
+      "zh": "这是我们的妈妈。",
+      "pinyin": "Zhè shì wǒ men de mā mā.",
+      "tr": "Bu bizim anne."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_015",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_016",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_017",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_018",
+      "speaker": "老师",
+      "zh": "这是我们的爸爸。",
+      "pinyin": "Zhè shì wǒ men de bà bà.",
+      "tr": "Bu bizim baba."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_019",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_020",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_021",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_022",
+      "speaker": "老师",
+      "zh": "老师请他介绍家人。",
+      "pinyin": "Lǎo shī qǐng tā jiè shào jiā rén.",
+      "tr": "Öğretmen ailesini tanıtmasını istiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_023",
+      "speaker": "同学",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_024",
+      "speaker": "同学",
+      "zh": "我看看。",
+      "pinyin": "Wǒ kàn kàn.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_025",
+      "speaker": "张乐乐",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒ men yī qǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_026",
+      "speaker": "老师",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_027",
+      "speaker": "同学",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_028",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_029",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_030",
+      "speaker": "老师",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_031",
+      "speaker": "同学",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_032",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_033",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_034",
+      "speaker": "老师",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_035",
+      "speaker": "同学",
+      "zh": "这是图片吗？",
+      "pinyin": "Zhè shì tú piàn ma?",
+      "tr": "Bu, resim / görsel mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_036",
+      "speaker": "同学",
+      "zh": "对，这是图片。",
+      "pinyin": "Duì, zhè shì tú piàn.",
+      "tr": "Evet, bu resim / görsel."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_037",
+      "speaker": "张乐乐",
+      "zh": "图片在哪儿？",
+      "pinyin": "Tú piàn zài nǎ ér?",
+      "tr": "Resim / görsel nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_038",
+      "speaker": "老师",
+      "zh": "图片在这里。",
+      "pinyin": "Tú piàn zài zhè lǐ.",
+      "tr": "Resim / görsel burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_039",
+      "speaker": "同学",
+      "zh": "学校在哪儿？",
+      "pinyin": "Xué xiào zài nǎ ér?",
+      "tr": "Okul nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_040",
+      "speaker": "同学",
+      "zh": "学校在那边。",
+      "pinyin": "Xué xiào zài nà biān.",
+      "tr": "Okul şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_041",
+      "speaker": "张乐乐",
+      "zh": "好，我明白了。",
+      "pinyin": "Hǎo, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_042",
+      "speaker": "老师",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_043",
+      "speaker": "同学",
+      "zh": "乐乐高兴地介绍了大家。",
+      "pinyin": "Lè lè gāo xīng dì jiè shào le dà jiā.",
+      "tr": "Lele herkesi sevinçle tanıtıyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_044",
+      "speaker": "同学",
+      "zh": "真好！",
+      "pinyin": "Zhēn hǎo!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_045",
+      "speaker": "张乐乐",
+      "zh": "真谢谢你。",
+      "pinyin": "Zhēn xiè xiè nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_046",
+      "speaker": "老师",
+      "zh": "不客气。",
+      "pinyin": "Bù kè qì.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_047",
+      "speaker": "同学",
+      "zh": "好，这下行了。",
+      "pinyin": "Hǎo, zhè xià xíng le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_048",
+      "speaker": "同学",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_049",
+      "speaker": "张乐乐",
+      "zh": "这是画吗？",
+      "pinyin": "Zhè shì huà ma?",
+      "tr": "Bu, resim mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_050",
+      "speaker": "老师",
+      "zh": "对，这是画。",
+      "pinyin": "Duì, zhè shì huà.",
+      "tr": "Evet, bu resim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_051",
+      "speaker": "同学",
+      "zh": "画在哪儿？",
+      "pinyin": "Huà zài nǎ ér?",
+      "tr": "Resim nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_052",
+      "speaker": "同学",
+      "zh": "画在这里。",
+      "pinyin": "Huà zài zhè lǐ.",
+      "tr": "Resim burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_053",
+      "speaker": "张乐乐",
+      "zh": "这是我们的家人。",
+      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "tr": "Bu bizim aile."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_054",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_055",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_056",
+      "speaker": "同学",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_057",
+      "speaker": "张乐乐",
+      "zh": "这是我们的妈妈。",
+      "pinyin": "Zhè shì wǒ men de mā mā.",
+      "tr": "Bu bizim anne."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_058",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_059",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_060",
+      "speaker": "同学",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_061",
+      "speaker": "张乐乐",
+      "zh": "这是我们的爸爸。",
+      "pinyin": "Zhè shì wǒ men de bà bà.",
+      "tr": "Bu bizim baba."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_062",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_063",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_064",
+      "speaker": "同学",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_065",
+      "speaker": "张乐乐",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_066",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_067",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_068",
+      "speaker": "同学",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_069",
+      "speaker": "张乐乐",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_070",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_071",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_072",
+      "speaker": "同学",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_073",
+      "speaker": "张乐乐",
+      "zh": "这是画吗？",
+      "pinyin": "Zhè shì huà ma?",
+      "tr": "Bu, resim mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_074",
+      "speaker": "老师",
+      "zh": "对，这是画。",
+      "pinyin": "Duì, zhè shì huà.",
+      "tr": "Evet, bu resim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_075",
+      "speaker": "同学",
+      "zh": "画在哪儿？",
+      "pinyin": "Huà zài nǎ ér?",
+      "tr": "Resim nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_076",
+      "speaker": "同学",
+      "zh": "画在这里。",
+      "pinyin": "Huà zài zhè lǐ.",
+      "tr": "Resim burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_077",
+      "speaker": "张乐乐",
+      "zh": "这是我们的家人。",
+      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "tr": "Bu bizim aile."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_078",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_079",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_080",
+      "speaker": "同学",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_081",
+      "speaker": "张乐乐",
+      "zh": "这是我们的妈妈。",
+      "pinyin": "Zhè shì wǒ men de mā mā.",
+      "tr": "Bu bizim anne."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_082",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_083",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_084",
+      "speaker": "同学",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_085",
+      "speaker": "张乐乐",
+      "zh": "这是我们的爸爸。",
+      "pinyin": "Zhè shì wǒ men de bà bà.",
+      "tr": "Bu bizim baba."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_086",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_087",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_088",
+      "speaker": "同学",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_089",
+      "speaker": "张乐乐",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_090",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_091",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_092",
+      "speaker": "同学",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_093",
+      "speaker": "张乐乐",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_094",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_095",
+      "speaker": "同学",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_096",
+      "speaker": "同学",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīn tiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_097",
+      "speaker": "张乐乐",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_098",
+      "speaker": "老师",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_099",
+      "speaker": "同学",
+      "zh": "都弄好了。",
+      "pinyin": "Dōu nòng hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC044_100",
+      "speaker": "同学",
+      "zh": "好，走吧。",
+      "pinyin": "Hǎo, zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sceneCount": 300,
+  "turnCount": 30000,
+  "changedTurnCount": 11329,
+  "levels": {
+    "HSK1": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 1336
+    },
+    "HSK2": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 2122
+    },
+    "HSK3": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 4152
+    },
+    "HSK4": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 1510
+    },
+    "HSK5": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 1809
+    },
+    "HSK6": {
+      "scenes": 50,
+      "turns": 5000,
+      "changedTurns": 400
+    }
+  }
+}

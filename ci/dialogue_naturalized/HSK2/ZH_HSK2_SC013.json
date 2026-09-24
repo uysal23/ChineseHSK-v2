@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK2_SC013",
+  "level": "HSK2",
+  "sourceTitleZh": "张伟帮同事",
+  "sourceTitleTr": "Zhang İş Arkadaşına Yardım Ediyor",
+  "sourceMiniAdventureTr": "Zhang iş arkadaşına küçük bir ekipman sorununda yardım eder.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK2_SC013_001",
+      "speaker": "张伟",
+      "zh": "这个设备有一点问题。",
+      "pinyin": "Zhè gè shè bèi yǒu yī diǎn wèn tí.",
+      "tr": "Bu ekipmanda küçük bir sorun var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_002",
+      "speaker": "同事",
+      "zh": "今天事情不少。",
+      "pinyin": "Jīn tiān shì qíng bù shǎo.",
+      "tr": "Bugün yapılacak epey iş var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_003",
+      "speaker": "新同事",
+      "zh": "我们先看看最重要的。",
+      "pinyin": "Wǒ men xiān kàn kàn zuì zhòng yào de.",
+      "tr": "Önce en önemli olana bakalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_004",
+      "speaker": "张伟",
+      "zh": "好，慢慢来。",
+      "pinyin": "Hǎo, màn màn lái.",
+      "tr": "Tamam, sakin sakin ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_005",
+      "speaker": "同事",
+      "zh": "这个设备在这里。",
+      "pinyin": "Zhè gè shè bèi zài zhè lǐ.",
+      "tr": "Bu ekipman burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_006",
+      "speaker": "新同事",
+      "zh": "好，我懂了。",
+      "pinyin": "Hǎo, wǒ dǒng le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_007",
+      "speaker": "张伟",
+      "zh": "哦，原来是这样。",
+      "pinyin": "Ó, yuán lái shì zhè yàng.",
+      "tr": "Demek böyleymiş."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_008",
+      "speaker": "同事",
+      "zh": "这个问题不难解决。",
+      "pinyin": "Zhè gè wèn tí bù nán jiě jué.",
+      "tr": "Bu sorunu çözmek zor değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_009",
+      "speaker": "新同事",
+      "zh": "嗯，这个我记住了。",
+      "pinyin": "Ń, zhè gè wǒ jì zhù le.",
+      "tr": "Bunu aklımda tutacağım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_010",
+      "speaker": "张伟",
+      "zh": "这样说就很清楚了。",
+      "pinyin": "Zhè yàng shuō jiù hěn qīng chǔ le.",
+      "tr": "Oldukça net görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_011",
+      "speaker": "同事",
+      "zh": "我们一步一步来。",
+      "pinyin": "Wǒ men yī bù yī bù lái.",
+      "tr": "Adım adım ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_012",
+      "speaker": "新同事",
+      "zh": "好，那就这么来。",
+      "pinyin": "Hǎo, nà jiù zhè me lái.",
+      "tr": "Tamam, o zaman buna göre ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_013",
+      "speaker": "张伟",
+      "zh": "我觉得可以。",
+      "pinyin": "Wǒ jué dé kě yǐ.",
+      "tr": "Bence olur."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_014",
+      "speaker": "同事",
+      "zh": "我们先检查。",
+      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "tr": "Önce kontrol etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_015",
+      "speaker": "新同事",
+      "zh": "对，这个很重要。",
+      "pinyin": "Duì, zhè gè hěn zhòng yào.",
+      "tr": "Evet, bu önemli."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_016",
+      "speaker": "张伟",
+      "zh": "我们别忘了。",
+      "pinyin": "Wǒ men bié wàng le.",
+      "tr": "Bunu unutmayalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_017",
+      "speaker": "同事",
+      "zh": "我们先检查，再重新打开。",
+      "pinyin": "Wǒ men xiān jiǎn chá, zài zhòng xīn dǎ kāi.",
+      "tr": "Önce kontrol edip sonra yeniden açalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_018",
+      "speaker": "新同事",
+      "zh": "那现在怎么办？",
+      "pinyin": "Nà xiàn zài zěn me bàn?",
+      "tr": "Peki şimdi ne yapacağız?"
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_019",
+      "speaker": "张伟",
+      "zh": "先别急，总会有办法的。",
+      "pinyin": "Xiān bié jí, zǒng huì yǒu bàn fǎ de.",
+      "tr": "Önce telaşlanmayalım, bir çözüm düşünelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_020",
+      "speaker": "同事",
+      "zh": "我觉得可以先做最简单的。",
+      "pinyin": "Wǒ jué dé kě yǐ xiān zuò zuì jiǎn dān de.",
+      "tr": "Bence önce en kolay kısmı yapabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_021",
+      "speaker": "新同事",
+      "zh": "这样比较快。",
+      "pinyin": "Zhè yàng bǐ jiào kuài.",
+      "tr": "Böyle daha hızlı olur."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_022",
+      "speaker": "张伟",
+      "zh": "我们先修好。",
+      "pinyin": "Wǒ men xiān xiū hǎo.",
+      "tr": "Önce tamir etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_023",
+      "speaker": "同事",
+      "zh": "对，这个也要注意。",
+      "pinyin": "Duì, zhè gè yě yào zhù yì.",
+      "tr": "Evet, buna da dikkat etmek gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_024",
+      "speaker": "新同事",
+      "zh": "那我们把它记下来。",
+      "pinyin": "Nà wǒ men bǎ tā jì xià lái.",
+      "tr": "O zaman bunu not edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_025",
+      "speaker": "张伟",
+      "zh": "这个工作在这里。",
+      "pinyin": "Zhè gè gōng zuò zài zhè lǐ.",
+      "tr": "Bu iş burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_026",
+      "speaker": "同事",
+      "zh": "这个办法不错。",
+      "pinyin": "Zhè gè bàn fǎ bù cuò.",
+      "tr": "Bu yöntem fena değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_027",
+      "speaker": "新同事",
+      "zh": "可以，先试试看。",
+      "pinyin": "Kě yǐ, xiān shì shì kàn.",
+      "tr": "Deneyebiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_028",
+      "speaker": "张伟",
+      "zh": "这个地方要特别注意。",
+      "pinyin": "Zhè gè dì fāng yào tè bié zhù yì.",
+      "tr": "Bu noktaya özellikle dikkat etmek gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_029",
+      "speaker": "同事",
+      "zh": "之前我都没发现。",
+      "pinyin": "Zhī qián wǒ dōu méi fā xiàn.",
+      "tr": "Daha önce dikkat etmemiştim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_030",
+      "speaker": "新同事",
+      "zh": "这下知道了。",
+      "pinyin": "Zhè xià zhī dào le.",
+      "tr": "Şimdi öğrendim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_031",
+      "speaker": "张伟",
+      "zh": "第一步先检查这里。",
+      "pinyin": "Dì yī bù xiān jiǎn chá zhè lǐ.",
+      "tr": "İlk adımda önce burayı kontrol edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_032",
+      "speaker": "同事",
+      "zh": "你说得对。",
+      "pinyin": "Nǐ shuō dé duì.",
+      "tr": "Doğru söylüyorsun."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_033",
+      "speaker": "新同事",
+      "zh": "嗯，这样方便多了。",
+      "pinyin": "Ń, zhè yàng fāng biàn duō le.",
+      "tr": "Böyle daha kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_034",
+      "speaker": "张伟",
+      "zh": "因为时间不多，所以我们快一点。",
+      "pinyin": "Yīn wèi shí jiān bù duō, suǒ yǐ wǒ men kuài yī diǎn.",
+      "tr": "Zaman az olduğu için biraz hızlı olalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_035",
+      "speaker": "同事",
+      "zh": "先做这个，再做下一个。",
+      "pinyin": "Xiān zuò zhè gè, zài zuò xià yī gè.",
+      "tr": "Önce bunu, sonra sıradakini yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_036",
+      "speaker": "新同事",
+      "zh": "这个办法比刚才的好。",
+      "pinyin": "Zhè gè bàn fǎ bǐ gāng cái de hǎo.",
+      "tr": "Bu yöntem az öncekinden daha iyi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_037",
+      "speaker": "张伟",
+      "zh": "我已经试过一次了。",
+      "pinyin": "Wǒ yǐ jīng shì guò yī cì le.",
+      "tr": "Bir kez denedim bile."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_038",
+      "speaker": "同事",
+      "zh": "那就换个办法试试。",
+      "pinyin": "Nà jiù huàn gè bàn fǎ shì shì.",
+      "tr": "O zaman başka bir yöntem deneyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_039",
+      "speaker": "新同事",
+      "zh": "可以，你先来吧。",
+      "pinyin": "Kě yǐ, nǐ xiān lái ba.",
+      "tr": "Olur, önce sen yap."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_040",
+      "speaker": "张伟",
+      "zh": "弄好以后跟我说一声。",
+      "pinyin": "Nòng hǎo yǐ hòu gēn wǒ shuō yī shēng.",
+      "tr": "Bitirince bana söyle."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_041",
+      "speaker": "同事",
+      "zh": "没问题，我记得。",
+      "pinyin": "Méi wèn tí, wǒ jì dé.",
+      "tr": "Sorun yok, hatırlıyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_042",
+      "speaker": "新同事",
+      "zh": "你看，现在好多了。",
+      "pinyin": "Nǐ kàn, xiàn zài hǎo duō le.",
+      "tr": "Şimdi çok daha iyi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_043",
+      "speaker": "张伟",
+      "zh": "就差一点了。",
+      "pinyin": "Jiù chà yī diǎn le.",
+      "tr": "Biraz daha eksik var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_044",
+      "speaker": "同事",
+      "zh": "要不我来帮你吧。",
+      "pinyin": "Yào bù wǒ lái bāng nǐ ba.",
+      "tr": "Sana yardım edeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_045",
+      "speaker": "新同事",
+      "zh": "谢谢，这样快多了。",
+      "pinyin": "Xiè xiè, zhè yàng kuài duō le.",
+      "tr": "Teşekkürler, böyle çok daha hızlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_046",
+      "speaker": "张伟",
+      "zh": "最后再检查一遍。",
+      "pinyin": "Zuì hòu zài jiǎn chá yī biàn.",
+      "tr": "Bir kez daha kontrol edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_047",
+      "speaker": "同事",
+      "zh": "现在看起来没问题了。",
+      "pinyin": "Xiàn zài kàn qǐ lái méi wèn tí le.",
+      "tr": "Bu kez sorun kalmadı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_048",
+      "speaker": "新同事",
+      "zh": "好，总算弄好了。",
+      "pinyin": "Hǎo, zǒng suàn nòng hǎo le.",
+      "tr": "Harika, sonunda çözüldü."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_049",
+      "speaker": "张伟",
+      "zh": "今天又学到一件事。",
+      "pinyin": "Jīn tiān yòu xué dào yī jiàn shì.",
+      "tr": "Bugün yine bir şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_050",
+      "speaker": "同事",
+      "zh": "下次我们会更有经验。",
+      "pinyin": "Xià cì wǒ men huì gèng yǒu jīng yàn.",
+      "tr": "Bir dahaki sefere daha deneyimli olacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_051",
+      "speaker": "新同事",
+      "zh": "嗯，我也是这么想的。",
+      "pinyin": "Ń, wǒ yě shì zhè me xiǎng de.",
+      "tr": "Ben de böyle düşünüyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_052",
+      "speaker": "张伟",
+      "zh": "好，那就这么决定。",
+      "pinyin": "Hǎo, nà jiù zhè me jué dìng.",
+      "tr": "O zaman böyle karar verelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_053",
+      "speaker": "同事",
+      "zh": "行，我们接着来。",
+      "pinyin": "Xíng, wǒ men jiē zhe lái.",
+      "tr": "Tamam, devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_054",
+      "speaker": "新同事",
+      "zh": "这个设备在这里。",
+      "pinyin": "Zhè gè shè bèi zài zhè lǐ.",
+      "tr": "Bu ekipman burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_055",
+      "speaker": "张伟",
+      "zh": "好，我记住了。",
+      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_056",
+      "speaker": "同事",
+      "zh": "这个问题不难解决。",
+      "pinyin": "Zhè gè wèn tí bù nán jiě jué.",
+      "tr": "Bu sorunu çözmek zor değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_057",
+      "speaker": "新同事",
+      "zh": "这个确实很实用。",
+      "pinyin": "Zhè gè què shí hěn shí yòng.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_058",
+      "speaker": "张伟",
+      "zh": "我们一步一步来。",
+      "pinyin": "Wǒ men yī bù yī bù lái.",
+      "tr": "Adım adım ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_059",
+      "speaker": "同事",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐ hòu hái yòng dé shàng.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_060",
+      "speaker": "新同事",
+      "zh": "我们先检查。",
+      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "tr": "Önce kontrol etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_061",
+      "speaker": "张伟",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_062",
+      "speaker": "同事",
+      "zh": "我们先修好。",
+      "pinyin": "Wǒ men xiān xiū hǎo.",
+      "tr": "Önce tamir etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_063",
+      "speaker": "新同事",
+      "zh": "现在明白多了。",
+      "pinyin": "Xiàn zài míng bái duō le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_064",
+      "speaker": "张伟",
+      "zh": "这个工作在这里。",
+      "pinyin": "Zhè gè gōng zuò zài zhè lǐ.",
+      "tr": "Bu iş burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_065",
+      "speaker": "同事",
+      "zh": "好，我记住了。",
+      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_066",
+      "speaker": "新同事",
+      "zh": "这个地方要特别注意。",
+      "pinyin": "Zhè gè dì fāng yào tè bié zhù yì.",
+      "tr": "Bu noktaya özellikle dikkat etmek gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_067",
+      "speaker": "张伟",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhè gè tǐng shí yòng de.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_068",
+      "speaker": "同事",
+      "zh": "第一步先检查这里。",
+      "pinyin": "Dì yī bù xiān jiǎn chá zhè lǐ.",
+      "tr": "İlk adımda önce burayı kontrol edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_069",
+      "speaker": "新同事",
+      "zh": "以后肯定还会用到。",
+      "pinyin": "Yǐ hòu kěn dìng hái huì yòng dào.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_070",
+      "speaker": "张伟",
+      "zh": "这个设备在这里。",
+      "pinyin": "Zhè gè shè bèi zài zhè lǐ.",
+      "tr": "Bu ekipman burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_071",
+      "speaker": "同事",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_072",
+      "speaker": "新同事",
+      "zh": "这个问题不难解决。",
+      "pinyin": "Zhè gè wèn tí bù nán jiě jué.",
+      "tr": "Bu sorunu çözmek zor değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_073",
+      "speaker": "张伟",
+      "zh": "现在就清楚多了。",
+      "pinyin": "Xiàn zài jiù qīng chǔ duō le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_074",
+      "speaker": "同事",
+      "zh": "我们一步一步来。",
+      "pinyin": "Wǒ men yī bù yī bù lái.",
+      "tr": "Adım adım ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_075",
+      "speaker": "新同事",
+      "zh": "对，我记住了。",
+      "pinyin": "Duì, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_076",
+      "speaker": "张伟",
+      "zh": "我们先检查。",
+      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "tr": "Önce kontrol etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_077",
+      "speaker": "同事",
+      "zh": "嗯，这个很实用。",
+      "pinyin": "Ń, zhè gè hěn shí yòng.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_078",
+      "speaker": "新同事",
+      "zh": "我们先修好。",
+      "pinyin": "Wǒ men xiān xiū hǎo.",
+      "tr": "Önce tamir etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_079",
+      "speaker": "张伟",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐ hòu hái yòng dé shàng.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_080",
+      "speaker": "同事",
+      "zh": "这个工作在这里。",
+      "pinyin": "Zhè gè gōng zuò zài zhè lǐ.",
+      "tr": "Bu iş burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_081",
+      "speaker": "新同事",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_082",
+      "speaker": "张伟",
+      "zh": "这个地方要特别注意。",
+      "pinyin": "Zhè gè dì fāng yào tè bié zhù yì.",
+      "tr": "Bu noktaya özellikle dikkat etmek gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_083",
+      "speaker": "同事",
+      "zh": "嗯，这下更清楚了。",
+      "pinyin": "Ń, zhè xià gèng qīng chǔ le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_084",
+      "speaker": "新同事",
+      "zh": "第一步先检查这里。",
+      "pinyin": "Dì yī bù xiān jiǎn chá zhè lǐ.",
+      "tr": "İlk adımda önce burayı kontrol edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_085",
+      "speaker": "张伟",
+      "zh": "嗯，我记住了。",
+      "pinyin": "Ń, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_086",
+      "speaker": "同事",
+      "zh": "这个设备在这里。",
+      "pinyin": "Zhè gè shè bèi zài zhè lǐ.",
+      "tr": "Bu ekipman burada."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_087",
+      "speaker": "新同事",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhè gè tǐng shí yòng de.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_088",
+      "speaker": "张伟",
+      "zh": "这个问题不难解决。",
+      "pinyin": "Zhè gè wèn tí bù nán jiě jué.",
+      "tr": "Bu sorunu çözmek zor değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_089",
+      "speaker": "同事",
+      "zh": "以后肯定还会用到。",
+      "pinyin": "Yǐ hòu kěn dìng hái huì yòng dào.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_090",
+      "speaker": "新同事",
+      "zh": "我们一步一步来。",
+      "pinyin": "Wǒ men yī bù yī bù lái.",
+      "tr": "Adım adım ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_091",
+      "speaker": "张伟",
+      "zh": "我再说一遍吧。",
+      "pinyin": "Wǒ zài shuō yī biàn ba.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_092",
+      "speaker": "同事",
+      "zh": "我们先检查。",
+      "pinyin": "Wǒ men xiān jiǎn chá.",
+      "tr": "Önce kontrol etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_093",
+      "speaker": "新同事",
+      "zh": "现在明白多了。",
+      "pinyin": "Xiàn zài míng bái duō le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_094",
+      "speaker": "张伟",
+      "zh": "我们先修好。",
+      "pinyin": "Wǒ men xiān xiū hǎo.",
+      "tr": "Önce tamir etmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_095",
+      "speaker": "同事",
+      "zh": "好了，现在可以用了。",
+      "pinyin": "Hǎo le, xiàn zài kě yǐ yòng le.",
+      "tr": "Tamam, şimdi kullanılabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_096",
+      "speaker": "新同事",
+      "zh": "问题解决了。",
+      "pinyin": "Wèn tí jiě jué le.",
+      "tr": "Sorun çözüldü."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_097",
+      "speaker": "张伟",
+      "zh": "大家都轻松多了。",
+      "pinyin": "Dà jiā dōu qīng sōng duō le.",
+      "tr": "Herkes çok daha rahatladı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_098",
+      "speaker": "同事",
+      "zh": "今天很顺利。",
+      "pinyin": "Jīn tiān hěn shùn lì.",
+      "tr": "Bugün işler yolunda gitti."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_099",
+      "speaker": "新同事",
+      "zh": "下次会更容易。",
+      "pinyin": "Xià cì huì gèng róng yì.",
+      "tr": "Bir dahaki sefere daha kolay olacak."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC013_100",
+      "speaker": "张伟",
+      "zh": "好，我们回去吧。",
+      "pinyin": "Hǎo, wǒ men huí qù ba.",
+      "tr": "Tamam, geri dönelim."
+    }
+  ]
+}

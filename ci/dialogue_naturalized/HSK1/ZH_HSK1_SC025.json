@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK1_SC025",
+  "level": "HSK1",
+  "sourceTitleZh": "丢失的铅笔",
+  "sourceTitleTr": "Kaybolan Kalem",
+  "sourceMiniAdventureTr": "Lele mavi kaleminin başka bir öğrencide olduğunu sanır.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC025_001",
+      "speaker": "张乐乐",
+      "zh": "乐乐在找蓝色铅笔。",
+      "pinyin": "Lè lè zài zhǎo lán sè qiān bǐ.",
+      "tr": "Lele mavi kalemini arıyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_002",
+      "speaker": "同学",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_003",
+      "speaker": "老师",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_004",
+      "speaker": "刘梅",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_005",
+      "speaker": "张乐乐",
+      "zh": "都准备好了。",
+      "pinyin": "Dōu zhǔn bèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_006",
+      "speaker": "同学",
+      "zh": "这是铅笔吗？",
+      "pinyin": "Zhè shì qiān bǐ ma?",
+      "tr": "Bu, kurşun kalem mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_007",
+      "speaker": "老师",
+      "zh": "对，这是铅笔。",
+      "pinyin": "Duì, zhè shì qiān bǐ.",
+      "tr": "Evet, bu kurşun kalem."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_008",
+      "speaker": "刘梅",
+      "zh": "铅笔在哪儿？",
+      "pinyin": "Qiān bǐ zài nǎ ér?",
+      "tr": "Kurşun kalem nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_009",
+      "speaker": "张乐乐",
+      "zh": "铅笔在这里。",
+      "pinyin": "Qiān bǐ zài zhè lǐ.",
+      "tr": "Kurşun kalem burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_010",
+      "speaker": "同学",
+      "zh": "你喜欢蓝色吗？",
+      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "tr": "Mavi renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_011",
+      "speaker": "老师",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_012",
+      "speaker": "刘梅",
+      "zh": "这个是蓝色的。",
+      "pinyin": "Zhè gè shì lán sè de.",
+      "tr": "Bu mavi renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_013",
+      "speaker": "张乐乐",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_014",
+      "speaker": "同学",
+      "zh": "你喜欢红色吗？",
+      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "tr": "Kırmızı renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_015",
+      "speaker": "老师",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_016",
+      "speaker": "刘梅",
+      "zh": "这个是红色的。",
+      "pinyin": "Zhè gè shì hóng sè de.",
+      "tr": "Bu kırmızı renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_017",
+      "speaker": "张乐乐",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_018",
+      "speaker": "同学",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_019",
+      "speaker": "老师",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_020",
+      "speaker": "刘梅",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_021",
+      "speaker": "张乐乐",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_022",
+      "speaker": "同学",
+      "zh": "他以为同学拿了他的铅笔。",
+      "pinyin": "Tā yǐ wèi tóng xué ná le tā de qiān bǐ.",
+      "tr": "Sınıf arkadaşının kalemini aldığını sanıyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_023",
+      "speaker": "老师",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_024",
+      "speaker": "刘梅",
+      "zh": "我来看看吧。",
+      "pinyin": "Wǒ lái kàn kàn ba.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_025",
+      "speaker": "张乐乐",
+      "zh": "好，一起吧。",
+      "pinyin": "Hǎo, yī qǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_026",
+      "speaker": "同学",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_027",
+      "speaker": "老师",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_028",
+      "speaker": "刘梅",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_029",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_030",
+      "speaker": "同学",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_031",
+      "speaker": "老师",
+      "zh": "教室在哪儿？",
+      "pinyin": "Jiào shì zài nǎ ér?",
+      "tr": "Sınıf nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_032",
+      "speaker": "刘梅",
+      "zh": "教室在那边。",
+      "pinyin": "Jiào shì zài nà biān.",
+      "tr": "Sınıf şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_033",
+      "speaker": "张乐乐",
+      "zh": "明白了。",
+      "pinyin": "Míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_034",
+      "speaker": "同学",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_035",
+      "speaker": "老师",
+      "zh": "这是书吗？",
+      "pinyin": "Zhè shì shū ma?",
+      "tr": "Bu, kitap mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_036",
+      "speaker": "刘梅",
+      "zh": "对，这是书。",
+      "pinyin": "Duì, zhè shì shū.",
+      "tr": "Evet, bu kitap."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_037",
+      "speaker": "张乐乐",
+      "zh": "书在哪儿？",
+      "pinyin": "Shū zài nǎ ér?",
+      "tr": "Kitap nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_038",
+      "speaker": "同学",
+      "zh": "书在这里。",
+      "pinyin": "Shū zài zhè lǐ.",
+      "tr": "Kitap burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_039",
+      "speaker": "老师",
+      "zh": "这是包吗？",
+      "pinyin": "Zhè shì bāo ma?",
+      "tr": "Bu, çanta mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_040",
+      "speaker": "刘梅",
+      "zh": "对，这是包。",
+      "pinyin": "Duì, zhè shì bāo.",
+      "tr": "Evet, bu çanta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_041",
+      "speaker": "张乐乐",
+      "zh": "包在哪儿？",
+      "pinyin": "Bāo zài nǎ ér?",
+      "tr": "Çanta nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_042",
+      "speaker": "同学",
+      "zh": "包在这里。",
+      "pinyin": "Bāo zài zhè lǐ.",
+      "tr": "Çanta burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_043",
+      "speaker": "老师",
+      "zh": "原来铅笔在自己的书包里。",
+      "pinyin": "Yuán lái qiān bǐ zài zì jǐ de shū bāo lǐ.",
+      "tr": "Meğer kalem kendi çantasındaymış."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_044",
+      "speaker": "刘梅",
+      "zh": "太棒了！",
+      "pinyin": "Tài bàng le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_045",
+      "speaker": "张乐乐",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_046",
+      "speaker": "同学",
+      "zh": "没事，不客气。",
+      "pinyin": "Méi shì, bù kè qì.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_047",
+      "speaker": "老师",
+      "zh": "好，这下行了。",
+      "pinyin": "Hǎo, zhè xià xíng le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_048",
+      "speaker": "刘梅",
+      "zh": "那我们继续。",
+      "pinyin": "Nà wǒ men jì xù.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_049",
+      "speaker": "张乐乐",
+      "zh": "这是铅笔吗？",
+      "pinyin": "Zhè shì qiān bǐ ma?",
+      "tr": "Bu, kurşun kalem mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_050",
+      "speaker": "同学",
+      "zh": "对，这是铅笔。",
+      "pinyin": "Duì, zhè shì qiān bǐ.",
+      "tr": "Evet, bu kurşun kalem."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_051",
+      "speaker": "老师",
+      "zh": "铅笔在哪儿？",
+      "pinyin": "Qiān bǐ zài nǎ ér?",
+      "tr": "Kurşun kalem nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_052",
+      "speaker": "刘梅",
+      "zh": "铅笔在这里。",
+      "pinyin": "Qiān bǐ zài zhè lǐ.",
+      "tr": "Kurşun kalem burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_053",
+      "speaker": "张乐乐",
+      "zh": "你喜欢蓝色吗？",
+      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "tr": "Mavi renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_054",
+      "speaker": "同学",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_055",
+      "speaker": "老师",
+      "zh": "这个是蓝色的。",
+      "pinyin": "Zhè gè shì lán sè de.",
+      "tr": "Bu mavi renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_056",
+      "speaker": "刘梅",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_057",
+      "speaker": "张乐乐",
+      "zh": "你喜欢红色吗？",
+      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "tr": "Kırmızı renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_058",
+      "speaker": "同学",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_059",
+      "speaker": "老师",
+      "zh": "这个是红色的。",
+      "pinyin": "Zhè gè shì hóng sè de.",
+      "tr": "Bu kırmızı renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_060",
+      "speaker": "刘梅",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_061",
+      "speaker": "张乐乐",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_062",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_063",
+      "speaker": "老师",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_064",
+      "speaker": "刘梅",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_065",
+      "speaker": "张乐乐",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_066",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_067",
+      "speaker": "老师",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_068",
+      "speaker": "刘梅",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_069",
+      "speaker": "张乐乐",
+      "zh": "教室在哪儿？",
+      "pinyin": "Jiào shì zài nǎ ér?",
+      "tr": "Sınıf nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_070",
+      "speaker": "同学",
+      "zh": "教室在那边。",
+      "pinyin": "Jiào shì zài nà biān.",
+      "tr": "Sınıf şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_071",
+      "speaker": "老师",
+      "zh": "好，我明白了。",
+      "pinyin": "Hǎo, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_072",
+      "speaker": "刘梅",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_073",
+      "speaker": "张乐乐",
+      "zh": "这是铅笔吗？",
+      "pinyin": "Zhè shì qiān bǐ ma?",
+      "tr": "Bu, kurşun kalem mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_074",
+      "speaker": "同学",
+      "zh": "对，这是铅笔。",
+      "pinyin": "Duì, zhè shì qiān bǐ.",
+      "tr": "Evet, bu kurşun kalem."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_075",
+      "speaker": "老师",
+      "zh": "铅笔在哪儿？",
+      "pinyin": "Qiān bǐ zài nǎ ér?",
+      "tr": "Kurşun kalem nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_076",
+      "speaker": "刘梅",
+      "zh": "铅笔在这里。",
+      "pinyin": "Qiān bǐ zài zhè lǐ.",
+      "tr": "Kurşun kalem burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_077",
+      "speaker": "张乐乐",
+      "zh": "你喜欢蓝色吗？",
+      "pinyin": "Nǐ xǐ huān lán sè ma?",
+      "tr": "Mavi renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_078",
+      "speaker": "同学",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_079",
+      "speaker": "老师",
+      "zh": "这个是蓝色的。",
+      "pinyin": "Zhè gè shì lán sè de.",
+      "tr": "Bu mavi renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_080",
+      "speaker": "刘梅",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_081",
+      "speaker": "张乐乐",
+      "zh": "你喜欢红色吗？",
+      "pinyin": "Nǐ xǐ huān hóng sè ma?",
+      "tr": "Kırmızı renk seviyor musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_082",
+      "speaker": "同学",
+      "zh": "喜欢。",
+      "pinyin": "Xǐ huān.",
+      "tr": "Seviyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_083",
+      "speaker": "老师",
+      "zh": "这个是红色的。",
+      "pinyin": "Zhè gè shì hóng sè de.",
+      "tr": "Bu kırmızı renk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_084",
+      "speaker": "刘梅",
+      "zh": "很好看。",
+      "pinyin": "Hěn hǎo kàn.",
+      "tr": "Çok güzel görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_085",
+      "speaker": "张乐乐",
+      "zh": "这是我们的学生。",
+      "pinyin": "Zhè shì wǒ men de xué shēng.",
+      "tr": "Bu bizim öğrenci."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_086",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_087",
+      "speaker": "老师",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_088",
+      "speaker": "刘梅",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_089",
+      "speaker": "张乐乐",
+      "zh": "这是我们的老师。",
+      "pinyin": "Zhè shì wǒ men de lǎo shī.",
+      "tr": "Bu bizim öğretmen."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_090",
+      "speaker": "同学",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_091",
+      "speaker": "老师",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_092",
+      "speaker": "刘梅",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_093",
+      "speaker": "张乐乐",
+      "zh": "教室在哪儿？",
+      "pinyin": "Jiào shì zài nǎ ér?",
+      "tr": "Sınıf nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_094",
+      "speaker": "同学",
+      "zh": "教室在那边。",
+      "pinyin": "Jiào shì zài nà biān.",
+      "tr": "Sınıf şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_095",
+      "speaker": "老师",
+      "zh": "明白了。",
+      "pinyin": "Míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_096",
+      "speaker": "刘梅",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīn tiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_097",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_098",
+      "speaker": "同学",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_099",
+      "speaker": "老师",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC025_100",
+      "speaker": "刘梅",
+      "zh": "好，走吧。",
+      "pinyin": "Hǎo, zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ]
+}

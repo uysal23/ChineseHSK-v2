@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK1_SC012",
+  "level": "HSK1",
+  "sourceTitleZh": "新家的第一个晚上",
+  "sourceTitleTr": "İlk Gece",
+  "sourceMiniAdventureTr": "İlk akşam yataklar hazırlanırken Mimi ortadan kaybolur.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC012_001",
+      "speaker": "刘梅",
+      "zh": "这是我们在新家的第一个晚上。",
+      "pinyin": "Zhè shì wǒ men zài xīn jiā de dì yī gè wǎn shàng.",
+      "tr": "Bu yeni evdeki ilk akşamımız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_002",
+      "speaker": "张伟",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_003",
+      "speaker": "张乐乐",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_004",
+      "speaker": "张雨桐",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_005",
+      "speaker": "刘梅",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔn bèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_006",
+      "speaker": "张伟",
+      "zh": "家在哪儿？",
+      "pinyin": "Jiā zài nǎ ér?",
+      "tr": "Ev nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_007",
+      "speaker": "张乐乐",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nà biān.",
+      "tr": "Ev şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_008",
+      "speaker": "张雨桐",
+      "zh": "明白了。",
+      "pinyin": "Míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_009",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_010",
+      "speaker": "张伟",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_011",
+      "speaker": "张乐乐",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_012",
+      "speaker": "张雨桐",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎ ér?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_013",
+      "speaker": "刘梅",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhè lǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_014",
+      "speaker": "张伟",
+      "zh": "房间在哪儿？",
+      "pinyin": "Fáng jiān zài nǎ ér?",
+      "tr": "Oda nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_015",
+      "speaker": "张乐乐",
+      "zh": "房间在那边。",
+      "pinyin": "Fáng jiān zài nà biān.",
+      "tr": "Oda şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_016",
+      "speaker": "张雨桐",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Ń, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_017",
+      "speaker": "刘梅",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_018",
+      "speaker": "张伟",
+      "zh": "这是桌子吗？",
+      "pinyin": "Zhè shì zhuō zi ma?",
+      "tr": "Bu, masa mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_019",
+      "speaker": "张乐乐",
+      "zh": "对，这是桌子。",
+      "pinyin": "Duì, zhè shì zhuō zi.",
+      "tr": "Evet, bu masa."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_020",
+      "speaker": "张雨桐",
+      "zh": "桌子在哪儿？",
+      "pinyin": "Zhuō zi zài nǎ ér?",
+      "tr": "Masa nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_021",
+      "speaker": "刘梅",
+      "zh": "桌子在这里。",
+      "pinyin": "Zhuō zi zài zhè lǐ.",
+      "tr": "Masa burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_022",
+      "speaker": "张伟",
+      "zh": "咪咪不见了。",
+      "pinyin": "Mī mī bù jiàn le.",
+      "tr": "Mimi ortada yok."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_023",
+      "speaker": "张乐乐",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_024",
+      "speaker": "张雨桐",
+      "zh": "来，我看看。",
+      "pinyin": "Lái, wǒ kàn kàn.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_025",
+      "speaker": "刘梅",
+      "zh": "那一起吧。",
+      "pinyin": "Nà yī qǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_026",
+      "speaker": "张伟",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_027",
+      "speaker": "张乐乐",
+      "zh": "这是椅子吗？",
+      "pinyin": "Zhè shì yǐ zi ma?",
+      "tr": "Bu, sandalye mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_028",
+      "speaker": "张雨桐",
+      "zh": "对，这是椅子。",
+      "pinyin": "Duì, zhè shì yǐ zi.",
+      "tr": "Evet, bu sandalye."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_029",
+      "speaker": "刘梅",
+      "zh": "椅子在哪儿？",
+      "pinyin": "Yǐ zi zài nǎ ér?",
+      "tr": "Sandalye nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_030",
+      "speaker": "张伟",
+      "zh": "椅子在这里。",
+      "pinyin": "Yǐ zi zài zhè lǐ.",
+      "tr": "Sandalye burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_031",
+      "speaker": "张乐乐",
+      "zh": "这是门吗？",
+      "pinyin": "Zhè shì mén ma?",
+      "tr": "Bu, kapı mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_032",
+      "speaker": "张雨桐",
+      "zh": "对，这是门。",
+      "pinyin": "Duì, zhè shì mén.",
+      "tr": "Evet, bu kapı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_033",
+      "speaker": "刘梅",
+      "zh": "门在哪儿？",
+      "pinyin": "Mén zài nǎ ér?",
+      "tr": "Kapı nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_034",
+      "speaker": "张伟",
+      "zh": "门在这里。",
+      "pinyin": "Mén zài zhè lǐ.",
+      "tr": "Kapı burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_035",
+      "speaker": "张乐乐",
+      "zh": "晚上有时间吗？",
+      "pinyin": "Wǎn shàng yǒu shí jiān ma?",
+      "tr": "Akşam vaktin var mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_036",
+      "speaker": "张雨桐",
+      "zh": "有。",
+      "pinyin": "Yǒu.",
+      "tr": "Var."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_037",
+      "speaker": "刘梅",
+      "zh": "晚上见。",
+      "pinyin": "Wǎn shàng jiàn.",
+      "tr": "Akşam görüşürüz."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_038",
+      "speaker": "张伟",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_039",
+      "speaker": "张乐乐",
+      "zh": "这是我们的家人。",
+      "pinyin": "Zhè shì wǒ men de jiā rén.",
+      "tr": "Bu bizim aile."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_040",
+      "speaker": "张雨桐",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_041",
+      "speaker": "刘梅",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāo xīng rèn shí nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_042",
+      "speaker": "张伟",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_043",
+      "speaker": "张乐乐",
+      "zh": "我们一起找咪咪。",
+      "pinyin": "Wǒ men yī qǐ zhǎo mī mī.",
+      "tr": "Mimi’yi birlikte arıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_044",
+      "speaker": "张雨桐",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_045",
+      "speaker": "刘梅",
+      "zh": "谢谢你。",
+      "pinyin": "Xiè xiè nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_046",
+      "speaker": "张伟",
+      "zh": "别客气。",
+      "pinyin": "Bié kè qì.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_047",
+      "speaker": "张乐乐",
+      "zh": "现在就好了。",
+      "pinyin": "Xiàn zài jiù hǎo le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_048",
+      "speaker": "张雨桐",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_049",
+      "speaker": "刘梅",
+      "zh": "家在哪儿？",
+      "pinyin": "Jiā zài nǎ ér?",
+      "tr": "Ev nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_050",
+      "speaker": "张伟",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nà biān.",
+      "tr": "Ev şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_051",
+      "speaker": "张乐乐",
+      "zh": "明白了。",
+      "pinyin": "Míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_052",
+      "speaker": "张雨桐",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_053",
+      "speaker": "刘梅",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_054",
+      "speaker": "张伟",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_055",
+      "speaker": "张乐乐",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎ ér?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_056",
+      "speaker": "张雨桐",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhè lǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_057",
+      "speaker": "刘梅",
+      "zh": "房间在哪儿？",
+      "pinyin": "Fáng jiān zài nǎ ér?",
+      "tr": "Oda nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_058",
+      "speaker": "张伟",
+      "zh": "房间在那边。",
+      "pinyin": "Fáng jiān zài nà biān.",
+      "tr": "Oda şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_059",
+      "speaker": "张乐乐",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Ń, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_060",
+      "speaker": "张雨桐",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_061",
+      "speaker": "刘梅",
+      "zh": "这是桌子吗？",
+      "pinyin": "Zhè shì zhuō zi ma?",
+      "tr": "Bu, masa mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_062",
+      "speaker": "张伟",
+      "zh": "对，这是桌子。",
+      "pinyin": "Duì, zhè shì zhuō zi.",
+      "tr": "Evet, bu masa."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_063",
+      "speaker": "张乐乐",
+      "zh": "桌子在哪儿？",
+      "pinyin": "Zhuō zi zài nǎ ér?",
+      "tr": "Masa nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_064",
+      "speaker": "张雨桐",
+      "zh": "桌子在这里。",
+      "pinyin": "Zhuō zi zài zhè lǐ.",
+      "tr": "Masa burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_065",
+      "speaker": "刘梅",
+      "zh": "这是椅子吗？",
+      "pinyin": "Zhè shì yǐ zi ma?",
+      "tr": "Bu, sandalye mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_066",
+      "speaker": "张伟",
+      "zh": "对，这是椅子。",
+      "pinyin": "Duì, zhè shì yǐ zi.",
+      "tr": "Evet, bu sandalye."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_067",
+      "speaker": "张乐乐",
+      "zh": "椅子在哪儿？",
+      "pinyin": "Yǐ zi zài nǎ ér?",
+      "tr": "Sandalye nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_068",
+      "speaker": "张雨桐",
+      "zh": "椅子在这里。",
+      "pinyin": "Yǐ zi zài zhè lǐ.",
+      "tr": "Sandalye burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_069",
+      "speaker": "刘梅",
+      "zh": "这是门吗？",
+      "pinyin": "Zhè shì mén ma?",
+      "tr": "Bu, kapı mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_070",
+      "speaker": "张伟",
+      "zh": "对，这是门。",
+      "pinyin": "Duì, zhè shì mén.",
+      "tr": "Evet, bu kapı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_071",
+      "speaker": "张乐乐",
+      "zh": "门在哪儿？",
+      "pinyin": "Mén zài nǎ ér?",
+      "tr": "Kapı nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_072",
+      "speaker": "张雨桐",
+      "zh": "门在这里。",
+      "pinyin": "Mén zài zhè lǐ.",
+      "tr": "Kapı burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_073",
+      "speaker": "刘梅",
+      "zh": "家在哪儿？",
+      "pinyin": "Jiā zài nǎ ér?",
+      "tr": "Ev nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_074",
+      "speaker": "张伟",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nà biān.",
+      "tr": "Ev şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_075",
+      "speaker": "张乐乐",
+      "zh": "好，我明白了。",
+      "pinyin": "Hǎo, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_076",
+      "speaker": "张雨桐",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_077",
+      "speaker": "刘梅",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_078",
+      "speaker": "张伟",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_079",
+      "speaker": "张乐乐",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎ ér?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_080",
+      "speaker": "张雨桐",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhè lǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_081",
+      "speaker": "刘梅",
+      "zh": "房间在哪儿？",
+      "pinyin": "Fáng jiān zài nǎ ér?",
+      "tr": "Oda nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_082",
+      "speaker": "张伟",
+      "zh": "房间在那边。",
+      "pinyin": "Fáng jiān zài nà biān.",
+      "tr": "Oda şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_083",
+      "speaker": "张乐乐",
+      "zh": "嗯，我明白了。",
+      "pinyin": "Ń, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_084",
+      "speaker": "张雨桐",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_085",
+      "speaker": "刘梅",
+      "zh": "这是桌子吗？",
+      "pinyin": "Zhè shì zhuō zi ma?",
+      "tr": "Bu, masa mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_086",
+      "speaker": "张伟",
+      "zh": "对，这是桌子。",
+      "pinyin": "Duì, zhè shì zhuō zi.",
+      "tr": "Evet, bu masa."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_087",
+      "speaker": "张乐乐",
+      "zh": "桌子在哪儿？",
+      "pinyin": "Zhuō zi zài nǎ ér?",
+      "tr": "Masa nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_088",
+      "speaker": "张雨桐",
+      "zh": "桌子在这里。",
+      "pinyin": "Zhuō zi zài zhè lǐ.",
+      "tr": "Masa burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_089",
+      "speaker": "刘梅",
+      "zh": "这是椅子吗？",
+      "pinyin": "Zhè shì yǐ zi ma?",
+      "tr": "Bu, sandalye mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_090",
+      "speaker": "张伟",
+      "zh": "对，这是椅子。",
+      "pinyin": "Duì, zhè shì yǐ zi.",
+      "tr": "Evet, bu sandalye."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_091",
+      "speaker": "张乐乐",
+      "zh": "椅子在哪儿？",
+      "pinyin": "Yǐ zi zài nǎ ér?",
+      "tr": "Sandalye nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_092",
+      "speaker": "张雨桐",
+      "zh": "椅子在这里。",
+      "pinyin": "Yǐ zi zài zhè lǐ.",
+      "tr": "Sandalye burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_093",
+      "speaker": "刘梅",
+      "zh": "这是门吗？",
+      "pinyin": "Zhè shì mén ma?",
+      "tr": "Bu, kapı mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_094",
+      "speaker": "张伟",
+      "zh": "对，这是门。",
+      "pinyin": "Duì, zhè shì mén.",
+      "tr": "Evet, bu kapı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_095",
+      "speaker": "张乐乐",
+      "zh": "门在哪儿？",
+      "pinyin": "Mén zài nǎ ér?",
+      "tr": "Kapı nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_096",
+      "speaker": "张雨桐",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīn tiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_097",
+      "speaker": "刘梅",
+      "zh": "嗯，我也是。",
+      "pinyin": "Ń, wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_098",
+      "speaker": "张伟",
+      "zh": "都弄好了吗？",
+      "pinyin": "Dōu nòng hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_099",
+      "speaker": "张乐乐",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC012_100",
+      "speaker": "张雨桐",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ]
+}

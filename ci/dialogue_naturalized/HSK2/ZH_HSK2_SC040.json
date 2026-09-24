@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK2_SC040",
+  "level": "HSK2",
+  "sourceTitleZh": "全家运动计划",
+  "sourceTitleTr": "Ailece Egzersiz Kararı",
+  "sourceMiniAdventureTr": "Aile düzenli yürüyüş yapmaya karar verir.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK2_SC040_001",
+      "speaker": "张伟",
+      "zh": "我们需要一个全家运动计划。",
+      "pinyin": "Wǒ men xū yào yī gè quán jiā yùn dòng jì huà.",
+      "tr": "Ailece bir egzersiz planına ihtiyacımız var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_002",
+      "speaker": "刘梅",
+      "zh": "今天事情不少。",
+      "pinyin": "Jīn tiān shì qíng bù shǎo.",
+      "tr": "Bugün yapılacak epey iş var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_003",
+      "speaker": "张乐乐",
+      "zh": "我们先看看最重要的。",
+      "pinyin": "Wǒ men xiān kàn kàn zuì zhòng yào de.",
+      "tr": "Önce en önemli olana bakalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_004",
+      "speaker": "张雨桐",
+      "zh": "好，慢慢来。",
+      "pinyin": "Hǎo, màn màn lái.",
+      "tr": "Tamam, sakin sakin ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_005",
+      "speaker": "张伟",
+      "zh": "我们先走路。",
+      "pinyin": "Wǒ men xiān zǒu lù.",
+      "tr": "Önce yürümek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_006",
+      "speaker": "刘梅",
+      "zh": "这下明白了。",
+      "pinyin": "Zhè xià míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_007",
+      "speaker": "张乐乐",
+      "zh": "嗯，原来如此。",
+      "pinyin": "Ń, yuán lái rú cǐ.",
+      "tr": "Demek böyleymiş."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_008",
+      "speaker": "张雨桐",
+      "zh": "我们每天都走一走。",
+      "pinyin": "Wǒ men měi tiān dōu zǒu yī zǒu.",
+      "tr": "Her gün biraz yürüyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_009",
+      "speaker": "张伟",
+      "zh": "嗯，这个我记住了。",
+      "pinyin": "Ń, zhè gè wǒ jì zhù le.",
+      "tr": "Bunu aklımda tutacağım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_010",
+      "speaker": "刘梅",
+      "zh": "这样说就很清楚了。",
+      "pinyin": "Zhè yàng shuō jiù hěn qīng chǔ le.",
+      "tr": "Oldukça net görünüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_011",
+      "speaker": "张乐乐",
+      "zh": "我们每周运动三次。",
+      "pinyin": "Wǒ men měi zhōu yùn dòng sān cì.",
+      "tr": "Haftada üç kez egzersiz yapıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_012",
+      "speaker": "张雨桐",
+      "zh": "好，那就这么来。",
+      "pinyin": "Hǎo, nà jiù zhè me lái.",
+      "tr": "Tamam, o zaman buna göre ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_013",
+      "speaker": "张伟",
+      "zh": "我觉得可以。",
+      "pinyin": "Wǒ jué dé kě yǐ.",
+      "tr": "Bence olur."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_014",
+      "speaker": "刘梅",
+      "zh": "我们先坚持。",
+      "pinyin": "Wǒ men xiān jiān chí.",
+      "tr": "Önce devam etmek / sürdürmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_015",
+      "speaker": "张乐乐",
+      "zh": "对，这个很重要。",
+      "pinyin": "Duì, zhè gè hěn zhòng yào.",
+      "tr": "Evet, bu önemli."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_016",
+      "speaker": "张雨桐",
+      "zh": "我们别忘了。",
+      "pinyin": "Wǒ men bié wàng le.",
+      "tr": "Bunu unutmayalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_017",
+      "speaker": "张伟",
+      "zh": "只做一天没有用。",
+      "pinyin": "Zhǐ zuò yī tiān méi yǒu yòng.",
+      "tr": "Sadece bir gün yapmak işe yaramaz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_018",
+      "speaker": "刘梅",
+      "zh": "好，那我们现在怎么做？",
+      "pinyin": "Hǎo, nà wǒ men xiàn zài zěn me zuò?",
+      "tr": "Peki şimdi ne yapacağız?"
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_019",
+      "speaker": "张乐乐",
+      "zh": "先别急，我们想想办法。",
+      "pinyin": "Xiān bié jí, wǒ men xiǎng xiǎng bàn fǎ.",
+      "tr": "Önce telaşlanmayalım, bir çözüm düşünelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_020",
+      "speaker": "张雨桐",
+      "zh": "我觉得可以先做最简单的。",
+      "pinyin": "Wǒ jué dé kě yǐ xiān zuò zuì jiǎn dān de.",
+      "tr": "Bence önce en kolay kısmı yapabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_021",
+      "speaker": "张伟",
+      "zh": "这样比较快。",
+      "pinyin": "Zhè yàng bǐ jiào kuài.",
+      "tr": "Böyle daha hızlı olur."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_022",
+      "speaker": "刘梅",
+      "zh": "这个计划很实际。",
+      "pinyin": "Zhè gè jì huà hěn shí jì.",
+      "tr": "Bu plan oldukça gerçekçi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_023",
+      "speaker": "张乐乐",
+      "zh": "对，这个也要注意。",
+      "pinyin": "Duì, zhè gè yě yào zhù yì.",
+      "tr": "Evet, buna da dikkat etmek gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_024",
+      "speaker": "张雨桐",
+      "zh": "那我们把它记下来。",
+      "pinyin": "Nà wǒ men bǎ tā jì xià lái.",
+      "tr": "O zaman bunu not edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_025",
+      "speaker": "张伟",
+      "zh": "家人今天也来了。",
+      "pinyin": "Jiā rén jīn tiān yě lái le.",
+      "tr": "Aile bugün de geldi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_026",
+      "speaker": "刘梅",
+      "zh": "这个办法不错。",
+      "pinyin": "Zhè gè bàn fǎ bù cuò.",
+      "tr": "Bu yöntem fena değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_027",
+      "speaker": "张乐乐",
+      "zh": "我们先试一下。",
+      "pinyin": "Wǒ men xiān shì yī xià.",
+      "tr": "Deneyebiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_028",
+      "speaker": "张雨桐",
+      "zh": "公园离这里不远。",
+      "pinyin": "Gōng yuán lí zhè lǐ bù yuǎn.",
+      "tr": "Park buradan uzak değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_029",
+      "speaker": "张伟",
+      "zh": "这个我以前没注意到。",
+      "pinyin": "Zhè gè wǒ yǐ qián méi zhù yì dào.",
+      "tr": "Daha önce dikkat etmemiştim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_030",
+      "speaker": "刘梅",
+      "zh": "这下知道了。",
+      "pinyin": "Zhè xià zhī dào le.",
+      "tr": "Şimdi öğrendim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_031",
+      "speaker": "张乐乐",
+      "zh": "我们先运动。",
+      "pinyin": "Wǒ men xiān yùn dòng.",
+      "tr": "Önce egzersiz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_032",
+      "speaker": "张雨桐",
+      "zh": "对，就是这样。",
+      "pinyin": "Duì, jiù shì zhè yàng.",
+      "tr": "Doğru söylüyorsun."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_033",
+      "speaker": "张伟",
+      "zh": "嗯，这样方便多了。",
+      "pinyin": "Ń, zhè yàng fāng biàn duō le.",
+      "tr": "Böyle daha kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_034",
+      "speaker": "刘梅",
+      "zh": "因为时间不多，所以我们快一点。",
+      "pinyin": "Yīn wèi shí jiān bù duō, suǒ yǐ wǒ men kuài yī diǎn.",
+      "tr": "Zaman az olduğu için biraz hızlı olalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_035",
+      "speaker": "张乐乐",
+      "zh": "先做这个，再做下一个。",
+      "pinyin": "Xiān zuò zhè gè, zài zuò xià yī gè.",
+      "tr": "Önce bunu, sonra sıradakini yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_036",
+      "speaker": "张雨桐",
+      "zh": "这个办法比刚才的好。",
+      "pinyin": "Zhè gè bàn fǎ bǐ gāng cái de hǎo.",
+      "tr": "Bu yöntem az öncekinden daha iyi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_037",
+      "speaker": "张伟",
+      "zh": "我已经试过一次了。",
+      "pinyin": "Wǒ yǐ jīng shì guò yī cì le.",
+      "tr": "Bir kez denedim bile."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_038",
+      "speaker": "刘梅",
+      "zh": "那换个办法吧。",
+      "pinyin": "Nà huàn gè bàn fǎ ba.",
+      "tr": "O zaman başka bir yöntem deneyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_039",
+      "speaker": "张乐乐",
+      "zh": "好，你先来。",
+      "pinyin": "Hǎo, nǐ xiān lái.",
+      "tr": "Olur, önce sen yap."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_040",
+      "speaker": "张雨桐",
+      "zh": "做完了告诉我一声。",
+      "pinyin": "Zuò wán le gào sù wǒ yī shēng.",
+      "tr": "Bitirince bana söyle."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_041",
+      "speaker": "张伟",
+      "zh": "没问题，我记得。",
+      "pinyin": "Méi wèn tí, wǒ jì dé.",
+      "tr": "Sorun yok, hatırlıyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_042",
+      "speaker": "刘梅",
+      "zh": "嗯，现在好多了。",
+      "pinyin": "Ń, xiàn zài hǎo duō le.",
+      "tr": "Şimdi çok daha iyi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_043",
+      "speaker": "张乐乐",
+      "zh": "还差一点儿。",
+      "pinyin": "Hái chà yī diǎn ér.",
+      "tr": "Biraz daha eksik var."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_044",
+      "speaker": "张雨桐",
+      "zh": "来，我帮你。",
+      "pinyin": "Lái, wǒ bāng nǐ.",
+      "tr": "Sana yardım edeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_045",
+      "speaker": "张伟",
+      "zh": "谢谢，这样快多了。",
+      "pinyin": "Xiè xiè, zhè yàng kuài duō le.",
+      "tr": "Teşekkürler, böyle çok daha hızlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_046",
+      "speaker": "刘梅",
+      "zh": "最后再检查一遍。",
+      "pinyin": "Zuì hòu zài jiǎn chá yī biàn.",
+      "tr": "Bir kez daha kontrol edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_047",
+      "speaker": "张乐乐",
+      "zh": "这次应该没问题了。",
+      "pinyin": "Zhè cì yīng gāi méi wèn tí le.",
+      "tr": "Bu kez sorun kalmadı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_048",
+      "speaker": "张雨桐",
+      "zh": "太好了，总算解决了。",
+      "pinyin": "Tài hǎo le, zǒng suàn jiě jué le.",
+      "tr": "Harika, sonunda çözüldü."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_049",
+      "speaker": "张伟",
+      "zh": "今天又学到一件事。",
+      "pinyin": "Jīn tiān yòu xué dào yī jiàn shì.",
+      "tr": "Bugün yine bir şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_050",
+      "speaker": "刘梅",
+      "zh": "下次我们会更有经验。",
+      "pinyin": "Xià cì wǒ men huì gèng yǒu jīng yàn.",
+      "tr": "Bir dahaki sefere daha deneyimli olacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_051",
+      "speaker": "张乐乐",
+      "zh": "我的想法也一样。",
+      "pinyin": "Wǒ de xiǎng fǎ yě yī yàng.",
+      "tr": "Ben de böyle düşünüyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_052",
+      "speaker": "张雨桐",
+      "zh": "好，那就这么决定。",
+      "pinyin": "Hǎo, nà jiù zhè me jué dìng.",
+      "tr": "O zaman böyle karar verelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_053",
+      "speaker": "张伟",
+      "zh": "行，我们接着来。",
+      "pinyin": "Xíng, wǒ men jiē zhe lái.",
+      "tr": "Tamam, devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_054",
+      "speaker": "刘梅",
+      "zh": "我们先走路。",
+      "pinyin": "Wǒ men xiān zǒu lù.",
+      "tr": "Önce yürümek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_055",
+      "speaker": "张乐乐",
+      "zh": "嗯，我记住了。",
+      "pinyin": "Ń, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_056",
+      "speaker": "张雨桐",
+      "zh": "我们每天都走一走。",
+      "pinyin": "Wǒ men měi tiān dōu zǒu yī zǒu.",
+      "tr": "Her gün biraz yürüyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_057",
+      "speaker": "张伟",
+      "zh": "这个确实很实用。",
+      "pinyin": "Zhè gè què shí hěn shí yòng.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_058",
+      "speaker": "刘梅",
+      "zh": "我们每周运动三次。",
+      "pinyin": "Wǒ men měi zhōu yùn dòng sān cì.",
+      "tr": "Haftada üç kez egzersiz yapıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_059",
+      "speaker": "张乐乐",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐ hòu hái yòng dé shàng.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_060",
+      "speaker": "张雨桐",
+      "zh": "我们先坚持。",
+      "pinyin": "Wǒ men xiān jiān chí.",
+      "tr": "Önce devam etmek / sürdürmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_061",
+      "speaker": "张伟",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_062",
+      "speaker": "刘梅",
+      "zh": "这个计划很实际。",
+      "pinyin": "Zhè gè jì huà hěn shí jì.",
+      "tr": "Bu plan oldukça gerçekçi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_063",
+      "speaker": "张乐乐",
+      "zh": "现在明白多了。",
+      "pinyin": "Xiàn zài míng bái duō le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_064",
+      "speaker": "张雨桐",
+      "zh": "家人今天也来了。",
+      "pinyin": "Jiā rén jīn tiān yě lái le.",
+      "tr": "Aile bugün de geldi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_065",
+      "speaker": "张伟",
+      "zh": "对，我记住了。",
+      "pinyin": "Duì, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_066",
+      "speaker": "刘梅",
+      "zh": "公园离这里不远。",
+      "pinyin": "Gōng yuán lí zhè lǐ bù yuǎn.",
+      "tr": "Park buradan uzak değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_067",
+      "speaker": "张乐乐",
+      "zh": "嗯，这个很实用。",
+      "pinyin": "Ń, zhè gè hěn shí yòng.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_068",
+      "speaker": "张雨桐",
+      "zh": "我们先运动。",
+      "pinyin": "Wǒ men xiān yùn dòng.",
+      "tr": "Önce egzersiz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_069",
+      "speaker": "张伟",
+      "zh": "这个以后还会用到。",
+      "pinyin": "Zhè gè yǐ hòu hái huì yòng dào.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_070",
+      "speaker": "刘梅",
+      "zh": "我们先走路。",
+      "pinyin": "Wǒ men xiān zǒu lù.",
+      "tr": "Önce yürümek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_071",
+      "speaker": "张乐乐",
+      "zh": "我再说一遍吧。",
+      "pinyin": "Wǒ zài shuō yī biàn ba.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_072",
+      "speaker": "张雨桐",
+      "zh": "我们每天都走一走。",
+      "pinyin": "Wǒ men měi tiān dōu zǒu yī zǒu.",
+      "tr": "Her gün biraz yürüyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_073",
+      "speaker": "张伟",
+      "zh": "嗯，这下更清楚了。",
+      "pinyin": "Ń, zhè xià gèng qīng chǔ le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_074",
+      "speaker": "刘梅",
+      "zh": "我们每周运动三次。",
+      "pinyin": "Wǒ men měi zhōu yùn dòng sān cì.",
+      "tr": "Haftada üç kez egzersiz yapıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_075",
+      "speaker": "张乐乐",
+      "zh": "好，我记住了。",
+      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_076",
+      "speaker": "张雨桐",
+      "zh": "我们先坚持。",
+      "pinyin": "Wǒ men xiān jiān chí.",
+      "tr": "Önce devam etmek / sürdürmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_077",
+      "speaker": "张伟",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhè gè tǐng shí yòng de.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_078",
+      "speaker": "刘梅",
+      "zh": "这个计划很实际。",
+      "pinyin": "Zhè gè jì huà hěn shí jì.",
+      "tr": "Bu plan oldukça gerçekçi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_079",
+      "speaker": "张乐乐",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐ hòu hái yòng dé shàng.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_080",
+      "speaker": "张雨桐",
+      "zh": "家人今天也来了。",
+      "pinyin": "Jiā rén jīn tiān yě lái le.",
+      "tr": "Aile bugün de geldi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_081",
+      "speaker": "张伟",
+      "zh": "那我再说一遍。",
+      "pinyin": "Nà wǒ zài shuō yī biàn.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_082",
+      "speaker": "刘梅",
+      "zh": "公园离这里不远。",
+      "pinyin": "Gōng yuán lí zhè lǐ bù yuǎn.",
+      "tr": "Park buradan uzak değil."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_083",
+      "speaker": "张乐乐",
+      "zh": "现在就清楚多了。",
+      "pinyin": "Xiàn zài jiù qīng chǔ duō le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_084",
+      "speaker": "张雨桐",
+      "zh": "我们先运动。",
+      "pinyin": "Wǒ men xiān yùn dòng.",
+      "tr": "Önce egzersiz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_085",
+      "speaker": "张伟",
+      "zh": "好，我记住了。",
+      "pinyin": "Hǎo, wǒ jì zhù le.",
+      "tr": "Evet, aklımda."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_086",
+      "speaker": "刘梅",
+      "zh": "我们先走路。",
+      "pinyin": "Wǒ men xiān zǒu lù.",
+      "tr": "Önce yürümek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_087",
+      "speaker": "张乐乐",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhè gè tǐng shí yòng de.",
+      "tr": "Bu çok kullanışlı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_088",
+      "speaker": "张雨桐",
+      "zh": "我们每天都走一走。",
+      "pinyin": "Wǒ men měi tiān dōu zǒu yī zǒu.",
+      "tr": "Her gün biraz yürüyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_089",
+      "speaker": "张伟",
+      "zh": "这个以后还会用到。",
+      "pinyin": "Zhè gè yǐ hòu hái huì yòng dào.",
+      "tr": "Bunu ileride yine kullanacağız."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_090",
+      "speaker": "刘梅",
+      "zh": "我们每周运动三次。",
+      "pinyin": "Wǒ men měi zhōu yùn dòng sān cì.",
+      "tr": "Haftada üç kez egzersiz yapıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_091",
+      "speaker": "张乐乐",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zài shuō yī cì.",
+      "tr": "Bir kez daha söyleyeyim."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_092",
+      "speaker": "张雨桐",
+      "zh": "我们先坚持。",
+      "pinyin": "Wǒ men xiān jiān chí.",
+      "tr": "Önce devam etmek / sürdürmek."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_093",
+      "speaker": "张伟",
+      "zh": "嗯，这下更清楚了。",
+      "pinyin": "Ń, zhè xià gèng qīng chǔ le.",
+      "tr": "Şimdi daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_094",
+      "speaker": "刘梅",
+      "zh": "这个计划很实际。",
+      "pinyin": "Zhè gè jì huà hěn shí jì.",
+      "tr": "Bu plan oldukça gerçekçi."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_095",
+      "speaker": "张乐乐",
+      "zh": "每周一起走三次，大家都要坚持。",
+      "pinyin": "Měi zhōu yī qǐ zǒu sān cì, dà jiā dōu yào jiān chí.",
+      "tr": "Haftada üç kez birlikte yürüyüp herkes devam etmeli."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_096",
+      "speaker": "张雨桐",
+      "zh": "问题解决了。",
+      "pinyin": "Wèn tí jiě jué le.",
+      "tr": "Sorun çözüldü."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_097",
+      "speaker": "张伟",
+      "zh": "大家都轻松多了。",
+      "pinyin": "Dà jiā dōu qīng sōng duō le.",
+      "tr": "Herkes çok daha rahatladı."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_098",
+      "speaker": "刘梅",
+      "zh": "今天很顺利。",
+      "pinyin": "Jīn tiān hěn shùn lì.",
+      "tr": "Bugün işler yolunda gitti."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_099",
+      "speaker": "张乐乐",
+      "zh": "下次会更容易。",
+      "pinyin": "Xià cì huì gèng róng yì.",
+      "tr": "Bir dahaki sefere daha kolay olacak."
+    },
+    {
+      "id": "DLG_ZH_HSK2_SC040_100",
+      "speaker": "张雨桐",
+      "zh": "好，我们回去吧。",
+      "pinyin": "Hǎo, wǒ men huí qù ba.",
+      "tr": "Tamam, geri dönelim."
+    }
+  ]
+}

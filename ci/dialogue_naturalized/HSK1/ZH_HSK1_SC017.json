@@ -1,0 +1,710 @@
+{
+  "naturalizationVersion": 1,
+  "sceneId": "ZH_HSK1_SC017",
+  "level": "HSK1",
+  "sourceTitleZh": "第一次去超市",
+  "sourceTitleTr": "İlk Market Alışverişi",
+  "sourceMiniAdventureTr": "Lele sepete fazla atıştırmalık koyar; aile alışveriş listesini kontrol eder.",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC017_001",
+      "speaker": "刘梅",
+      "zh": "我们第一次去新超市。",
+      "pinyin": "Wǒ men dì yī cì qù xīn chāo shì.",
+      "tr": "Yeni süpermarkete ilk kez gidiyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_002",
+      "speaker": "张伟",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_003",
+      "speaker": "张乐乐",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_004",
+      "speaker": "店员",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔn bèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_005",
+      "speaker": "刘梅",
+      "zh": "嗯，准备好了。",
+      "pinyin": "Ń, zhǔn bèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_006",
+      "speaker": "张伟",
+      "zh": "超市在哪儿？",
+      "pinyin": "Chāo shì zài nǎ ér?",
+      "tr": "Süpermarket nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_007",
+      "speaker": "张乐乐",
+      "zh": "超市在那边。",
+      "pinyin": "Chāo shì zài nà biān.",
+      "tr": "Süpermarket şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_008",
+      "speaker": "店员",
+      "zh": "好，我明白了。",
+      "pinyin": "Hǎo, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_009",
+      "speaker": "刘梅",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_010",
+      "speaker": "张伟",
+      "zh": "你要苹果吗？",
+      "pinyin": "Nǐ yào píng guǒ ma?",
+      "tr": "Elma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_011",
+      "speaker": "张乐乐",
+      "zh": "我要苹果，谢谢。",
+      "pinyin": "Wǒ yào píng guǒ, xiè xiè.",
+      "tr": "Elma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_012",
+      "speaker": "店员",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_013",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_014",
+      "speaker": "张伟",
+      "zh": "你要牛奶吗？",
+      "pinyin": "Nǐ yào niú nǎi ma?",
+      "tr": "Süt ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_015",
+      "speaker": "张乐乐",
+      "zh": "我要牛奶，谢谢。",
+      "pinyin": "Wǒ yào niú nǎi, xiè xiè.",
+      "tr": "Süt istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_016",
+      "speaker": "店员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_017",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_018",
+      "speaker": "张伟",
+      "zh": "你要鸡蛋吗？",
+      "pinyin": "Nǐ yào jī dàn ma?",
+      "tr": "Yumurta ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_019",
+      "speaker": "张乐乐",
+      "zh": "我要鸡蛋，谢谢。",
+      "pinyin": "Wǒ yào jī dàn, xiè xiè.",
+      "tr": "Yumurta istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_020",
+      "speaker": "店员",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_021",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_022",
+      "speaker": "张伟",
+      "zh": "乐乐拿了太多东西。",
+      "pinyin": "Lè lè ná le tài duō dōng xī.",
+      "tr": "Lele çok fazla şey aldı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_023",
+      "speaker": "张乐乐",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_024",
+      "speaker": "店员",
+      "zh": "我看看。",
+      "pinyin": "Wǒ kàn kàn.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_025",
+      "speaker": "刘梅",
+      "zh": "那一起吧。",
+      "pinyin": "Nà yī qǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_026",
+      "speaker": "张伟",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_027",
+      "speaker": "张乐乐",
+      "zh": "你要面包吗？",
+      "pinyin": "Nǐ yào miàn bāo ma?",
+      "tr": "Ekmek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_028",
+      "speaker": "店员",
+      "zh": "我要面包，谢谢。",
+      "pinyin": "Wǒ yào miàn bāo, xiè xiè.",
+      "tr": "Ekmek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_029",
+      "speaker": "刘梅",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_030",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_031",
+      "speaker": "张乐乐",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_032",
+      "speaker": "店员",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_033",
+      "speaker": "刘梅",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎ ér?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_034",
+      "speaker": "张伟",
+      "zh": "钱在这里。",
+      "pinyin": "Qián zài zhè lǐ.",
+      "tr": "Para burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_035",
+      "speaker": "张乐乐",
+      "zh": "这是包吗？",
+      "pinyin": "Zhè shì bāo ma?",
+      "tr": "Bu, çanta mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_036",
+      "speaker": "店员",
+      "zh": "对，这是包。",
+      "pinyin": "Duì, zhè shì bāo.",
+      "tr": "Evet, bu çanta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_037",
+      "speaker": "刘梅",
+      "zh": "包在哪儿？",
+      "pinyin": "Bāo zài nǎ ér?",
+      "tr": "Çanta nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_038",
+      "speaker": "张伟",
+      "zh": "包在这里。",
+      "pinyin": "Bāo zài zhè lǐ.",
+      "tr": "Çanta burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_039",
+      "speaker": "张乐乐",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_040",
+      "speaker": "店员",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xiè xiè.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_041",
+      "speaker": "刘梅",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_042",
+      "speaker": "张伟",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_043",
+      "speaker": "张乐乐",
+      "zh": "我们只买需要的东西。",
+      "pinyin": "Wǒ men zhǐ mǎi xū yào de dōng xī.",
+      "tr": "Yalnızca ihtiyacımız olan şeyleri alıyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_044",
+      "speaker": "店员",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_045",
+      "speaker": "刘梅",
+      "zh": "真谢谢你。",
+      "pinyin": "Zhēn xiè xiè nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_046",
+      "speaker": "张伟",
+      "zh": "别客气。",
+      "pinyin": "Bié kè qì.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_047",
+      "speaker": "张乐乐",
+      "zh": "现在就好了。",
+      "pinyin": "Xiàn zài jiù hǎo le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_048",
+      "speaker": "店员",
+      "zh": "好，我们接着来。",
+      "pinyin": "Hǎo, wǒ men jiē zhe lái.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_049",
+      "speaker": "刘梅",
+      "zh": "超市在哪儿？",
+      "pinyin": "Chāo shì zài nǎ ér?",
+      "tr": "Süpermarket nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_050",
+      "speaker": "张伟",
+      "zh": "超市在那边。",
+      "pinyin": "Chāo shì zài nà biān.",
+      "tr": "Süpermarket şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_051",
+      "speaker": "张乐乐",
+      "zh": "明白了。",
+      "pinyin": "Míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_052",
+      "speaker": "店员",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_053",
+      "speaker": "刘梅",
+      "zh": "你要苹果吗？",
+      "pinyin": "Nǐ yào píng guǒ ma?",
+      "tr": "Elma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_054",
+      "speaker": "张伟",
+      "zh": "我要苹果，谢谢。",
+      "pinyin": "Wǒ yào píng guǒ, xiè xiè.",
+      "tr": "Elma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_055",
+      "speaker": "张乐乐",
+      "zh": "嗯，好。",
+      "pinyin": "Ń, hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_056",
+      "speaker": "店员",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_057",
+      "speaker": "刘梅",
+      "zh": "你要牛奶吗？",
+      "pinyin": "Nǐ yào niú nǎi ma?",
+      "tr": "Süt ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_058",
+      "speaker": "张伟",
+      "zh": "我要牛奶，谢谢。",
+      "pinyin": "Wǒ yào niú nǎi, xiè xiè.",
+      "tr": "Süt istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_059",
+      "speaker": "张乐乐",
+      "zh": "嗯，好。",
+      "pinyin": "Ń, hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_060",
+      "speaker": "店员",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_061",
+      "speaker": "刘梅",
+      "zh": "你要鸡蛋吗？",
+      "pinyin": "Nǐ yào jī dàn ma?",
+      "tr": "Yumurta ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_062",
+      "speaker": "张伟",
+      "zh": "我要鸡蛋，谢谢。",
+      "pinyin": "Wǒ yào jī dàn, xiè xiè.",
+      "tr": "Yumurta istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_063",
+      "speaker": "张乐乐",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_064",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_065",
+      "speaker": "刘梅",
+      "zh": "你要面包吗？",
+      "pinyin": "Nǐ yào miàn bāo ma?",
+      "tr": "Ekmek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_066",
+      "speaker": "张伟",
+      "zh": "我要面包，谢谢。",
+      "pinyin": "Wǒ yào miàn bāo, xiè xiè.",
+      "tr": "Ekmek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_067",
+      "speaker": "张乐乐",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_068",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_069",
+      "speaker": "刘梅",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_070",
+      "speaker": "张伟",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_071",
+      "speaker": "张乐乐",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎ ér?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_072",
+      "speaker": "店员",
+      "zh": "钱在这里。",
+      "pinyin": "Qián zài zhè lǐ.",
+      "tr": "Para burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_073",
+      "speaker": "刘梅",
+      "zh": "超市在哪儿？",
+      "pinyin": "Chāo shì zài nǎ ér?",
+      "tr": "Süpermarket nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_074",
+      "speaker": "张伟",
+      "zh": "超市在那边。",
+      "pinyin": "Chāo shì zài nà biān.",
+      "tr": "Süpermarket şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_075",
+      "speaker": "张乐乐",
+      "zh": "好，我明白了。",
+      "pinyin": "Hǎo, wǒ míng bái le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_076",
+      "speaker": "店员",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_077",
+      "speaker": "刘梅",
+      "zh": "你要苹果吗？",
+      "pinyin": "Nǐ yào píng guǒ ma?",
+      "tr": "Elma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_078",
+      "speaker": "张伟",
+      "zh": "我要苹果，谢谢。",
+      "pinyin": "Wǒ yào píng guǒ, xiè xiè.",
+      "tr": "Elma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_079",
+      "speaker": "张乐乐",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_080",
+      "speaker": "店员",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_081",
+      "speaker": "刘梅",
+      "zh": "你要牛奶吗？",
+      "pinyin": "Nǐ yào niú nǎi ma?",
+      "tr": "Süt ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_082",
+      "speaker": "张伟",
+      "zh": "我要牛奶，谢谢。",
+      "pinyin": "Wǒ yào niú nǎi, xiè xiè.",
+      "tr": "Süt istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_083",
+      "speaker": "张乐乐",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_084",
+      "speaker": "店员",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xiè xiè.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_085",
+      "speaker": "刘梅",
+      "zh": "你要鸡蛋吗？",
+      "pinyin": "Nǐ yào jī dàn ma?",
+      "tr": "Yumurta ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_086",
+      "speaker": "张伟",
+      "zh": "我要鸡蛋，谢谢。",
+      "pinyin": "Wǒ yào jī dàn, xiè xiè.",
+      "tr": "Yumurta istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_087",
+      "speaker": "张乐乐",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_088",
+      "speaker": "店员",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_089",
+      "speaker": "刘梅",
+      "zh": "你要面包吗？",
+      "pinyin": "Nǐ yào miàn bāo ma?",
+      "tr": "Ekmek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_090",
+      "speaker": "张伟",
+      "zh": "我要面包，谢谢。",
+      "pinyin": "Wǒ yào miàn bāo, xiè xiè.",
+      "tr": "Ekmek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_091",
+      "speaker": "张乐乐",
+      "zh": "嗯，好。",
+      "pinyin": "Ń, hǎo.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_092",
+      "speaker": "店员",
+      "zh": "谢谢啊。",
+      "pinyin": "Xiè xiè a.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_093",
+      "speaker": "刘梅",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_094",
+      "speaker": "张伟",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_095",
+      "speaker": "张乐乐",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎ ér?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_096",
+      "speaker": "店员",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīn tiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_097",
+      "speaker": "刘梅",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yī yàng.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_098",
+      "speaker": "张伟",
+      "zh": "都准备好了吗？",
+      "pinyin": "Dōu zhǔn bèi hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_099",
+      "speaker": "张乐乐",
+      "zh": "嗯，都好了。",
+      "pinyin": "Ń, dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC017_100",
+      "speaker": "店员",
+      "zh": "好，走吧。",
+      "pinyin": "Hǎo, zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ]
+}
