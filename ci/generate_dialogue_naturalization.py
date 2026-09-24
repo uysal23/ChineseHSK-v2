@@ -22,7 +22,7 @@ REBUILD_RANGES = {
     "HSK3": [(1, 18), (76, 94)],
     "HSK4": [(78, 94)],
     "HSK5": [(71, 94)],
-    "HSK6": [(1, 6), (71, 92)],
+    "HSK6": [(1, 92)],
 }
 
 BLOCKS = {
@@ -188,6 +188,109 @@ BLOCKS = {
         ("好，那最后再确认一下我们刚才的决定。","Tamam, son olarak az önceki kararımızı bir kez daha teyit edelim."),
     ],
 }
+
+
+HSK6_FLOW = [
+    "TITLE",
+    ("好，我也想听听大家最真实的想法。","Tamam, ben de önce herkesin en gerçek düşüncesini duymak istiyorum."),
+    ("这件事来得有点突然，有不同反应很正常。","Bu konu biraz ani gelişti; farklı tepkiler olması çok normal."),
+    "Q",
+    ("我觉得先把事实和感受分开说清楚比较好。","Bence önce olguları ve duyguları ayrı ayrı netleştirmek daha iyi."),
+    "S",
+    ("先别急着找一个统一答案，大家可以把顾虑都说出来。","Hemen tek bir ortak cevap bulmaya çalışmayalım; herkes kaygılarını açıkça söylesin."),
+    ("这样比较容易知道分歧到底在哪里。","Böylece görüş ayrılığının tam olarak nerede olduğunu anlamak daha kolay olur."),
+    "Q",
+    ("我先说一个我最担心的地方。","Önce beni en çok düşündüren noktayı söyleyeyim."),
+    "S",
+    ("这个角度我刚才没有完全想到。","Bu açıyı az önce tam olarak düşünmemiştim."),
+    ("那我们把它也放进考虑范围。","O zaman bunu da değerlendirmeye dahil edelim."),
+    "Q",
+    ("听你这么说，我能理解你为什么会这样想。","Böyle anlatınca neden böyle düşündüğünü anlayabiliyorum."),
+    "S",
+    ("好，第一轮先把大家最关心的点都说出来。","Tamam, ilk aşamada herkesin en çok önemsediği noktaları ortaya koyalım."),
+    ("接下来再看看这些想法之间有没有冲突。","Sonra bu düşünceler arasında çatışan noktalar var mı ona bakalım."),
+
+    ("我发现大家担心的其实不是同一件事。","Aslında herkesin aynı şeyden kaygılanmadığını fark ediyorum."),
+    "Q",
+    ("对，有些是现实问题，有些是感受问题。","Evet, bazıları pratik meseleler, bazıları ise duygularla ilgili."),
+    "S",
+    ("这两种都不能只看一边。","Bu iki tarafın da yalnızca birine bakmak doğru olmaz."),
+    ("如果只顾眼前，后面的影响可能会被忽略。","Yalnızca bugüne odaklanırsak sonraki etkileri gözden kaçırabiliriz."),
+    "Q",
+    ("我觉得这个问题需要一个更具体的答案。","Bence bu sorunun daha somut bir cevaba ihtiyacı var."),
+    "S",
+    ("那就先把能确认的部分确认下来。","O zaman önce doğrulayabildiğimiz kısımları netleştirelim."),
+    ("还不确定的先留着，不必硬做结论。","Henüz emin olmadığımız noktaları şimdilik açık bırakalım; zorla sonuç çıkarmayalım."),
+    "Q",
+    ("我同意，给彼此一点时间反而更稳妥。","Katılıyorum; birbirimize biraz zaman vermek daha temkinli olur."),
+    "S",
+    ("这样讨论下来，大家的立场已经清楚多了。","Bu konuşmadan sonra herkesin duruşu çok daha netleşti."),
+    ("不过还有几个实际问题需要继续谈。","Ama konuşmamız gereken birkaç pratik konu daha var."),
+    ("那我们进入下一部分吧。","O zaman sonraki kısma geçelim."),
+    ("好，先从最现实的影响开始。","Tamam, önce en somut etkiden başlayalım."),
+
+    ("现在要考虑的是，接下来具体怎么做。","Şimdi düşünmemiz gereken şey bundan sonra somut olarak ne yapacağımız."),
+    "Q",
+    ("我希望这个选择既照顾现实，也尊重每个人的想法。","Bu seçimin hem gerçek koşulları gözetmesini hem de herkesin düşüncesine saygı duymasını istiyorum."),
+    "S",
+    ("这点我同意，但执行的时候最好留一点调整空间。","Buna katılıyorum; ama uygulamada biraz ayarlama payı bırakmak iyi olur."),
+    ("万一情况和预想的不一样，我们还可以改。","Durum beklediğimiz gibi olmazsa yeniden değiştirebiliriz."),
+    "Q",
+    ("我更关心的是，这个选择会影响到谁。","Ben daha çok bu seçimin kimi etkileyeceğini önemsiyorum."),
+    "S",
+    ("对，不能让一个人承担所有后果。","Evet, bütün sonuçları tek bir kişinin üstlenmesini bekleyemeyiz."),
+    ("如果是大家一起决定，就应该一起面对结果。","Kararı birlikte alıyorsak sonucunu da birlikte karşılamalıyız."),
+    "Q",
+    ("我觉得先设一个检查时间会比较好。","Bence önce bir kontrol zamanı belirlemek iyi olur."),
+    "S",
+    ("到时候再根据实际情况调整，不用一次定死。","O zaman gerçek duruma göre yeniden ayarlarız; her şeyi tek seferde kesinleştirmemiz gerekmiyor."),
+    ("这样既不会拖得太久，也不会太草率。","Böylece ne gereğinden fazla uzar ne de aceleci davranmış oluruz."),
+    ("好，这一部分我们基本有共识了。","Tamam, bu konuda büyük ölçüde ortak noktaya geldik."),
+    ("下一步把分工和时间说清楚。","Sonraki adımda görev dağılımını ve zamanı netleştirelim."),
+
+    ("那我先把刚才的结论整理一下。","O zaman az önce vardığımız sonuçları önce ben toparlayayım."),
+    "Q",
+    ("我觉得这件事需要有人持续跟进。","Bence bu konunun birinin tarafından düzenli olarak takip edilmesi gerekiyor."),
+    "S",
+    ("如果有变化，要尽快告诉大家。","Bir değişiklik olursa herkese mümkün olduğunca hızlı haber vermeliyiz."),
+    ("对，信息越透明，误会越少。","Evet, bilgi ne kadar açık olursa yanlış anlaşılma o kadar azalır."),
+    "Q",
+    ("这一点我可以负责确认。","Bu noktayı teyit etme işini ben üstlenebilirim."),
+    "S",
+    ("其他人也可以把自己的部分说清楚。","Diğerleri de kendi sorumluluklarını net biçimde söyleyebilir."),
+    ("这样以后遇到问题就知道先找谁。","Böylece ileride bir sorun çıkarsa önce kime başvuracağımız belli olur."),
+    "Q",
+    ("我觉得现在比刚开始具体多了。","Bence konu artık başlangıca göre çok daha somut."),
+    "S",
+    ("还有不同意见也没关系，可以继续保留。","Hâlâ farklı görüşlerin olması sorun değil; bunlar açık kalabilir."),
+    ("重要的是我们都知道为什么这样决定。","Önemli olan hepimizin neden böyle karar verdiğimizi bilmesi."),
+    ("好，执行以前再最后检查一次。","Tamam, uygulamadan önce son kez bir daha kontrol edelim."),
+    ("没问题的话就按刚才说的来。","Sorun yoksa az önce konuştuğumuz gibi ilerleyelim."),
+
+    ("现在回头看，最开始担心的几个问题已经清楚多了。","Şimdi geri baktığımızda başlangıçta kaygı duyduğumuz birkaç konu çok daha net."),
+    "Q",
+    ("我的想法比刚开始更明确了。","Benim düşüncem başlangıca göre çok daha netleşti."),
+    "S",
+    ("我也是，至少知道下一步该做什么。","Ben de; en azından sonraki adımda ne yapacağımızı biliyoruz."),
+    ("有些答案还需要时间验证。","Bazı cevapların doğrulanması için zamana ihtiyaç var."),
+    "Q",
+    ("对，不必今天把所有事情一次解决。","Evet, her şeyi bugün tek seferde çözmek zorunda değiliz."),
+    "S",
+    ("只要沟通还在，后面就能继续调整。","İletişim sürdüğü sürece sonrasında da ayarlama yapabiliriz."),
+    ("我觉得这次最重要的是大家都把真话说出来了。","Bence bu konuşmadaki en önemli şey herkesin gerçek düşüncesini söylemiş olması."),
+    "Q",
+    ("这个问题现在也有比较清楚的方向了。","Bu konu için de artık oldukça net bir yönümüz var."),
+    "S",
+    ("那就把能做的事情先做好。","O zaman yapabildiğimiz şeyleri önce iyi yapalım."),
+    ("剩下的等有新情况再讨论。","Kalan konuları yeni bir durum olduğunda yeniden konuşuruz."),
+    ("好，我会把今天的决定记下来。","Tamam, bugünkü kararları not edeceğim."),
+    ("有变化我们再一起商量。","Bir değişiklik olursa yeniden birlikte konuşuruz."),
+    ("听到这里，我已经放心多了。","Bu noktaya gelince kendimi çok daha rahat hissediyorum."),
+    ("那就这样，下一步我们一起面对。","O zaman böyle yapalım; sonraki adımla birlikte yüzleşiriz."),
+]
+
+if len(HSK6_FLOW) != 92:
+    raise RuntimeError(f"HSK6 flow must have 92 turns, got {len(HSK6_FLOW)}")
 
 for (lvl,a,b), seq in BLOCKS.items():
     expected=b-a+1
@@ -444,11 +547,22 @@ def term_kind(card):
         return "verb"
     return "noun"
 
-def term_question(card, level):
+def term_question(card, level, variant=0):
     z=str(card.get("zh","")).strip()
     t=str(card.get("tr","")).strip()
     ex=str(card.get("exampleZh","")).strip()
     k=term_kind(card)
+
+    if level=="HSK6":
+        forms=[
+            (f"先说说{z}吧，你最在意的是什么？", f"Önce {t} konusunu konuşalım; senin için en önemli nokta ne?"),
+            (f"回到{z}这件事，你现在怎么看？", f"{t} konusuna dönersek, şu anda ne düşünüyorsun?"),
+            (f"如果把{z}也考虑进去，你觉得会有什么影响？", f"{t} konusunu da hesaba katarsak sence nasıl bir etkisi olur?"),
+            (f"关于{z}，还有什么需要先确认的吗？", f"{t} konusunda önce teyit etmemiz gereken başka bir şey var mı?"),
+            (f"现在再看{z}，你的想法和刚开始一样吗？", f"{t} konusuna şimdi tekrar baktığında düşüncen başlangıçtakiyle aynı mı?"),
+        ]
+        return forms[variant % len(forms)]
+
     if k=="verb":
         if ex.startswith(z+"以前"):
             return f"说到{z}，你现在怎么看？", f"{t} konusunda şu anda ne düşünüyorsun?"
@@ -459,11 +573,22 @@ def term_question(card, level):
         return f"那{z}呢？", f"Peki {t}?"
     return f"说到{z}，你怎么看？", f"{t} konusunda ne düşünüyorsun?"
 
-def term_statement(card, level):
+def term_statement(card, level, variant=0):
     z=str(card.get("zh","")).strip()
     t=str(card.get("tr","")).strip()
     ex=str(card.get("exampleZh","")).strip()
     k=term_kind(card)
+
+    if level=="HSK6":
+        forms=[
+            (f"我觉得{z}这一点确实不能忽略。", f"Bence {t} konusunu kesinlikle göz ardı edemeyiz."),
+            (f"对，{z}会直接影响我们后面的安排。", f"Evet, {t} sonraki planımızı doğrudan etkileyebilir."),
+            (f"关于{z}，我更希望先把事实说清楚。", f"{t} konusunda önce olguları netleştirmeyi tercih ederim."),
+            (f"至少在{z}这件事上，我们已经知道彼此最在意什么了。", f"En azından {t} konusunda artık birbirimizin en çok neyi önemsediğini biliyoruz."),
+            (f"说到{z}，我觉得还是要给彼此一点调整空间。", f"{t} konusunda bence birbirimize biraz ayarlama alanı bırakmalıyız."),
+        ]
+        return forms[variant % len(forms)]
+
     if k=="verb":
         if ex.startswith(z+"以前"):
             return f"我觉得{z}以前还要再确认一下。", f"Bence {t} öncesinde bir kez daha teyit etmek gerekiyor."
@@ -481,25 +606,29 @@ def block_role(level, turn):
     return None
 
 def scaffold_line(level, turn, data, cards, term_cursor):
-    role=block_role(level,turn)
+    if level=="HSK6":
+        role=HSK6_FLOW[turn-1]
+    else:
+        role=block_role(level,turn)
+
     if role is None:
         raise RuntimeError(f"No block role for {level} turn {turn}")
 
     if role=="TITLE":
         return (
-            f"今天就把“{data.get('titleZh','这件事')}”这件事好好聊一聊吧。",
-            f"Bugün “{data.get('titleTr','bu konu')}” konusunu açıkça konuşalım.",
+            f"今天正好有时间，我们把“{data.get('titleZh','这件事')}”这件事认真聊一聊吧。",
+            f"Bugün vaktimiz varken “{data.get('titleTr','bu konu')}” konusunu açıkça ve ciddi biçimde konuşalım.",
             False,
         )
 
     if role=="Q":
         card=cards[term_cursor % len(cards)]
-        zh,tr=term_question(card,level)
+        zh,tr=term_question(card,level,term_cursor)
         return zh,tr,True
 
     if role=="S":
         card=cards[term_cursor % len(cards)]
-        zh,tr=term_statement(card,level)
+        zh,tr=term_statement(card,level,term_cursor)
         return zh,tr,True
 
     zh,tr=role
@@ -650,7 +779,7 @@ def main():
         )
 
         patch={
-            "naturalizationVersion":4,
+            "naturalizationVersion":5,
             "sceneId":scene_id,
             "level":level,
             "sourceTitleZh":data.get("titleZh"),
@@ -667,7 +796,7 @@ def main():
         stats[level]["rebuiltTurns"]+=rebuilt
 
     report={
-        "naturalizationVersion":4,
+        "naturalizationVersion":5,
         "sceneCount":len(files),
         "turnCount":sum(x["turns"] for x in stats.values()),
         "changedTurnCount":sum(x["changedTurns"] for x in stats.values()),
