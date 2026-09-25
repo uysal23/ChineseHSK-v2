@@ -70,6 +70,11 @@ def main():
                     errors.append(f"{sid}: 9:16 oranı değil ({w}x{h})")
                 if w < 900 or h < 1600:
                     errors.append(f"{sid}: çözünürlük düşük ({w}x{h})")
+                expected_sha = (meta.get("image") or {}).get("sha256", "")
+                if expected_sha:
+                    actual_sha = hashlib.sha256(img_path.read_bytes()).hexdigest()
+                    if expected_sha != actual_sha:
+                        errors.append(f"{sid}: görsel SHA-256 metadata ile eşleşmiyor")
         except Exception as exc:
             errors.append(f"{sid}: görsel açılamadı: {exc}")
 
