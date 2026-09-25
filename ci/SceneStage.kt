@@ -490,6 +490,20 @@ fun SceneStage(
             }
 
         }
+        // Explicit mouth anchors are used for pre-rendered scene art.  They prevent
+        // a male/female speaker from being visually associated with the wrong character.
+        val sceneArtMouthAnchor: Pair<Float, Float>? = when (scene.id) {
+            "ZH_HSK1_SC001" -> when (activeSpeaker) {
+                "张伟" -> 0.185f to 0.397f
+                "刘梅" -> 0.397f to 0.416f
+                "张雨桐" -> 0.556f to 0.439f
+                "张乐乐" -> 0.715f to 0.476f
+                "王师傅" -> 0.877f to 0.397f
+                else -> null
+            }
+            else -> null
+        }
+
         // The dialogue text lives in the bottom subtitle panel.  The stage bubble is
         // intentionally empty: it only marks the character whose turn it is to speak.
         // Only show the mouth marker when character positions are actually known.
@@ -499,11 +513,12 @@ fun SceneStage(
             dialogueZh.isNotBlank() &&
             activeSpeaker.isNotBlank() &&
             activeIndex >= 0 &&
-            sceneArtBitmap == null
+            (sceneArtBitmap == null || sceneArtMouthAnchor != null)
         ) {
             BoxWithConstraints(Modifier.fillMaxSize()) {
                 val mouthXFraction =
-                    ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat()).coerceIn(0.08f, 0.92f)
+                    sceneArtMouthAnchor?.first
+                        ?: ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat()).coerceIn(0.08f, 0.92f)
                 val bubbleWidth = 46.dp
                 val bubbleHeight = 28.dp
                 val placeOnRight = mouthXFraction <= 0.50f
@@ -511,7 +526,7 @@ fun SceneStage(
                 val bubbleX = (
                     maxWidth * mouthXFraction - bubbleWidth / 2 + horizontalNudge
                 ).coerceIn(6.dp, maxWidth - bubbleWidth - 6.dp)
-                val mouthYFraction = if (sceneArtBitmap != null) 0.40f else 0.63f
+                val mouthYFraction = sceneArtMouthAnchor?.second ?: 0.63f
                 val bubbleY = (
                     maxHeight * mouthYFraction - bubbleHeight / 2
                 ).coerceIn(92.dp, maxHeight - 220.dp)
@@ -524,13 +539,13 @@ fun SceneStage(
                         Modifier
                             .size(width = bubbleWidth, height = bubbleHeight)
                             .background(
-                                Color.White.copy(alpha = 0.24f),
+                                Color.White.copy(alpha = 0.12f),
                                 RoundedCornerShape(9.dp)
                             )
                             .drawBehind {
                                 val stroke = 1.15.dp.toPx()
                                 drawRoundRect(
-                                    color = Color.White.copy(alpha = 0.76f),
+                                    color = Color.White.copy(alpha = 0.90f),
                                     cornerRadius = CornerRadius(9.dp.toPx(), 9.dp.toPx()),
                                     style = Stroke(
                                         width = stroke,
@@ -549,10 +564,10 @@ fun SceneStage(
                             )
                             .size(7.dp)
                             .graphicsLayer { rotationZ = 45f }
-                            .background(Color.White.copy(alpha = 0.22f))
+                            .background(Color.White.copy(alpha = 0.10f))
                             .drawBehind {
                                 drawRect(
-                                    color = Color.White.copy(alpha = 0.70f),
+                                    color = Color.White.copy(alpha = 0.86f),
                                     style = Stroke(
                                         width = 1.dp.toPx(),
                                         pathEffect = PathEffect.dashPathEffect(
