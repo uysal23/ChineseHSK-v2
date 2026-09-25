@@ -32,7 +32,10 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "2100dd75a0f7789e53499c220262d87b27898fdabcb1539bc2c6ecff97440c2c"
+    "sha256": "04f9725b344aa2517e8e833aac03cfd4a77607a3bda18bdf92e6cf6869d0914d",
+    "quality": "optimized_webp_q20",
+    "sourceRevision": "LATEST_USER_SELECTED_2026-09-26",
+    "technicalAdaptationTr": "Kullanıcının seçtiği yatay tek-sahne görseli korunarak 9:16 uygulama formatına uyarlandı; okunabilir bilet yazısı bulanıklaştırıldı ve aynı sahnenin bulanık arka planı ile dikey tuval tamamlandı."
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,7 +60,8 @@
     "settingMatch": true,
     "criticalObjectsMatch": true,
     "visualPolicyMatch": true,
-    "userApprovedPlacement": true
+    "userApprovedPlacement": true,
+    "noteTr": "Kullanıcının son seçtiği SC002 bilet arama görseli; dört konuşan aile üyesi, bilet, bavul/çanta, taşınma kutuları ve kedi görünür."
   },
   "status": "FINAL_SOURCE_OVERRIDE"
 }
