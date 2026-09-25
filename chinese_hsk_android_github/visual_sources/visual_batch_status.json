@@ -26,7 +26,7 @@
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC001 ve SC002 final görselleri uygulamaya bağlandı. SC003-SC010 final görselleri bekliyor. 10/10 tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez.",
+    "noteTr": "SC001 ve SC002 kullanıcının son seçtiği görsellerle yeniden güncellendi ve LOCKED_V2 manifestoya göre uygulamaya bağlandı. SC003-SC010 final görselleri bekliyor. 10/10 tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez.",
     "analyzedSceneIds": [
       "ZH_HSK1_SC001",
       "ZH_HSK1_SC002",
@@ -38,6 +38,7 @@
       "ZH_HSK1_SC008",
       "ZH_HSK1_SC009",
       "ZH_HSK1_SC010"
-    ]
+    ],
+    "latestVisualRevision": "SC001_SC002_2026-09-26"
   }
 }
