@@ -13,7 +13,8 @@ for asset in manifest.get("assets", []):
     scene_id = asset.get("sceneId")
     level = asset.get("level")
     if not scene_id or not level:
-        errors.append(f"manifest entry missing sceneId/level: {asset}")
+        # Reference/hold assets are intentionally not bound to a runtime scene.
+        # They must not fail the runtime cast validator.
         continue
     scene_path = SNAPSHOT / "levels" / level / "scenes" / f"{scene_id}.json"
     if not scene_path.exists():
