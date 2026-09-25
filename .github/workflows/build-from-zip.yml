@@ -161,10 +161,12 @@ jobs:
           set -euo pipefail
           DEST="$SRC/app/src/main/assets"
           TMP="$RUNNER_TEMP/mandarin-voice-pack"
+          RAW="$TMP/extracted"
           rm -rf "$TMP"
-          mkdir -p "$TMP"
+          mkdir -p "$RAW"
 
           FOUND=0
+          VALID=0
           if gh release view voice-pack-v1 >/dev/null 2>&1; then
             for attempt in 1 2 3 4 5 6; do
               if gh release download voice-pack-v1 \
@@ -179,33 +181,48 @@ jobs:
           fi
 
           if [ "$FOUND" -eq 1 ]; then
-            unzip -q -o "$TMP/ChineseHSK-voice-pack-v1.zip" -d "$DEST"
-            python3 - "$DEST/chinese_course/media/audio_manifest.json" "$DEST" <<'PY'
+            unzip -q -o "$TMP/ChineseHSK-voice-pack-v1.zip" -d "$RAW"
+            if python3 - "$RAW/chinese_course/media/audio_manifest.json" "$RAW" <<'PY'
           import json, sys
           from pathlib import Path
 
           manifest_path = Path(sys.argv[1])
           assets_root = Path(sys.argv[2])
+          if not manifest_path.exists():
+              raise SystemExit("Generated voice manifest is missing.")
+
           data = json.loads(manifest_path.read_text(encoding="utf-8"))
           assets = data.get("assets", {})
           if len(assets) != 30000:
               raise SystemExit(f"Expected 30000 generated dialogue mappings, got {len(assets)}")
+
           missing = []
           for dialogue_id, rel in assets.items():
-              p = assets_root / rel.removeprefix("chinese_course/")
+              p = assets_root / rel
               if not p.exists() or p.stat().st_size < 256:
                   missing.append((dialogue_id, rel))
                   if len(missing) >= 20:
                       break
           if missing:
               raise SystemExit(f"Generated voice assets missing: {missing}")
+
           print(
-              f"Installed generated voice pack: {len(assets)} dialogue mappings, "
+              f"Validated generated voice pack: {len(assets)} dialogue mappings, "
               f"{data.get('uniqueAudioCount', 0)} unique Opus files."
           )
           PY
+            then
+              VALID=1
+            fi
+          fi
+
+          if [ "$VALID" -eq 1 ]; then
+            cp -a "$RAW/chinese_course" "$DEST/"
+            echo "Installed validated generated Mandarin voice pack."
           else
-            echo "voice-pack-v1 is not published yet; APK will use offline TTS fallback."
+            rm -rf "$DEST/chinese_course/media/audio/generated"
+            rm -f "$DEST/chinese_course/media/audio_manifest.json"
+            echo "Generated voice pack unavailable or incomplete; continuing with offline TTS fallback."
           fi
 
       - name: Setup Java 17
