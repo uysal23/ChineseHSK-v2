@@ -98,6 +98,9 @@ private fun styleFor(profile: CharacterProfile?, name: String): CartoonStyle {
         profile?.id?.contains("ZHANGYUTONG") == true -> {
             shirt = Color(0xFF8A67BA); jacket = Color(0xFF684895); trousers = Color(0xFF464052); accessory = 3
         }
+        name == "王师傅" -> {
+            shirt = Color(0xFF455A64); jacket = Color(0xFF263238); trousers = Color(0xFF343A40); accessory = 0
+        }
         role.contains("doctor") || role.contains("nurse") || role.contains("vet") -> {
             shirt = Color(0xFFEEF8F6); jacket = Color(0xFFFFFFFF); trousers = Color(0xFF6C8790); accessory = 3
         }
@@ -424,8 +427,15 @@ fun SceneStage(
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
-        val sceneArtBitmap = rememberAssetBitmap(sceneArtPath)
-        val backgroundBitmap = rememberAssetBitmap(location?.backgroundAsset.orEmpty())
+        val loadedSceneArtBitmap = rememberAssetBitmap(sceneArtPath)
+        // HSK1 SC001 had a legacy baked image with Yutong/Lele cast inversion.
+        // Force canonical layered characters for this scene so dialogue, voice and visual identity agree.
+        val forceCanonicalLayeredCast = scene.id == "ZH_HSK1_SC001"
+        val sceneArtBitmap = if (forceCanonicalLayeredCast) null else loadedSceneArtBitmap
+        val backgroundPath =
+            if (forceCanonicalLayeredCast) "chinese_course/media/backgrounds/LOC_ZH_NEW_HOME_001_DAY.webp"
+            else location?.backgroundAsset.orEmpty()
+        val backgroundBitmap = rememberAssetBitmap(backgroundPath)
         when {
             sceneArtBitmap != null -> {
                 Image(
@@ -471,11 +481,19 @@ fun SceneStage(
                         contentAlignment = Alignment.BottomCenter
                     ) {
                         if (portraitBitmap != null) {
+                            val ageScale = when {
+                                profile?.id?.contains("ZHANGLELE") == true && scene.level in listOf("HSK1", "HSK2") -> 0.64f
+                                profile?.id?.contains("ZHANGLELE") == true && scene.level == "HSK3" -> 0.72f
+                                profile?.id?.contains("ZHANGLELE") == true && scene.level == "HSK4" -> 0.82f
+                                profile?.id?.contains("ZHANGYUTONG") == true && scene.level in listOf("HSK1", "HSK2") -> 0.82f
+                                profile?.id?.contains("ZHANGYUTONG") == true && scene.level == "HSK3" -> 0.88f
+                                else -> if (isActive) 0.98f else 0.90f
+                            }
                             Image(
                                 bitmap = portraitBitmap,
                                 contentDescription = name,
                                 modifier = Modifier
-                                    .fillMaxHeight(if (isActive) 0.98f else 0.90f)
+                                    .fillMaxHeight(ageScale)
                                     .fillMaxWidth()
                                     .offset(y = bob.dp)
                                     .scale(scale)
@@ -492,7 +510,7 @@ fun SceneStage(
         }
         // Explicit mouth anchors are used for pre-rendered scene art.  They prevent
         // a male/female speaker from being visually associated with the wrong character.
-        val sceneArtMouthAnchor: Pair<Float, Float>? = when (scene.id) {
+        val sceneArtMouthAnchor: Pair<Float, Float>? = if (sceneArtBitmap != null) when (scene.id) {
             "ZH_HSK1_SC001" -> when (activeSpeaker) {
                 "张伟" -> 0.185f to 0.397f
                 "刘梅" -> 0.397f to 0.416f
@@ -502,7 +520,7 @@ fun SceneStage(
                 else -> null
             }
             else -> null
-        }
+        } else null
 
         // The dialogue text lives in the bottom subtitle panel.  The stage bubble is
         // intentionally empty: it only marks the character whose turn it is to speak.
