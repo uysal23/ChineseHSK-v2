@@ -34,8 +34,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "febd3ef650746e4ef7760fe674aa4d0c5dd2646e4fa5cd97849894ee41694d6d",
-    "quality": "optimized_webp_q20"
+    "sha256": "9b950290e525fd8000bd86cd759889ca25dda9ddcc3817e59db630461e637281",
+    "quality": "optimized_webp_q20",
+    "sourceRevision": "LATEST_USER_SELECTED_2026-09-26"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -52,5 +53,16 @@
     "criticalObjectsVisible": true,
     "canonicalCharacterContinuityChecked": true
   },
-  "status": "FINAL_SOURCE_OVERRIDE"
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "settingMatch": true,
+    "criticalObjectsMatch": true,
+    "visualPolicyMatch": true,
+    "userApprovedPlacement": true,
+    "noteTr": "Kullanıcının son seçtiği SC001 taşınma görseli; beş konuşan karakter, kedi, taşınma kutuları, kitaplar, kapı ve nakliye yardımcısı görünür."
+  }
 }
