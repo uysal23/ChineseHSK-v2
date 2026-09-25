@@ -259,6 +259,7 @@ jobs:
           python3 scripts/compile_authoring.py
 
           python3 "$GITHUB_WORKSPACE/ci/validate_voice_cast.py"
+          python3 "$GITHUB_WORKSPACE/ci/validate_visual_cast_alignment.py"
 
           # Authoring blueprints are compiled first because they overwrite scene JSONs.
           # Apply the FINAL v5 scene-coherent dialogue corpus only after compilation so it
