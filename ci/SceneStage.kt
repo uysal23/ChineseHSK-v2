@@ -427,15 +427,8 @@ fun SceneStage(
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
-        val loadedSceneArtBitmap = rememberAssetBitmap(sceneArtPath)
-        // HSK1 SC001 had a legacy baked image with Yutong/Lele cast inversion.
-        // Force canonical layered characters for this scene so dialogue, voice and visual identity agree.
-        val forceCanonicalLayeredCast = scene.id == "ZH_HSK1_SC001"
-        val sceneArtBitmap = if (forceCanonicalLayeredCast) null else loadedSceneArtBitmap
-        val backgroundPath =
-            if (forceCanonicalLayeredCast) "chinese_course/media/backgrounds/LOC_ZH_NEW_HOME_001_DAY.webp"
-            else location?.backgroundAsset.orEmpty()
-        val backgroundBitmap = rememberAssetBitmap(backgroundPath)
+        val sceneArtBitmap = rememberAssetBitmap(sceneArtPath)
+        val backgroundBitmap = rememberAssetBitmap(location?.backgroundAsset.orEmpty())
         when {
             sceneArtBitmap != null -> {
                 Image(
@@ -512,11 +505,11 @@ fun SceneStage(
         // a male/female speaker from being visually associated with the wrong character.
         val sceneArtMouthAnchor: Pair<Float, Float>? = if (sceneArtBitmap != null) when (scene.id) {
             "ZH_HSK1_SC001" -> when (activeSpeaker) {
-                "张伟" -> 0.185f to 0.397f
-                "刘梅" -> 0.397f to 0.416f
-                "张雨桐" -> 0.556f to 0.439f
-                "张乐乐" -> 0.715f to 0.476f
-                "王师傅" -> 0.877f to 0.397f
+                "张伟" -> 0.175f to 0.404f
+                "刘梅" -> 0.372f to 0.414f
+                "张雨桐" -> 0.658f to 0.442f
+                "张乐乐" -> 0.489f to 0.483f
+                "王师傅" -> 0.886f to 0.404f
                 else -> null
             }
             else -> null
