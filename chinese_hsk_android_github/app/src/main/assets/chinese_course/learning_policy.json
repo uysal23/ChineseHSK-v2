@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "offline": true,
+  "vocabulary": {
+    "mode": "flash_cards",
+    "allowPrevious": true,
+    "allowNext": true,
+    "allowFavorites": true,
+    "favoritesPersistLocally": true,
+    "favoritesStudyMode": true
+  },
+  "sentencePractice": {
+    "types": ["word_order", "fill_blank", "sentence_repair"]
+  },
+  "masteryGate": {
+    "exam1": {
+      "type": "vocabulary",
+      "minimumPercent": 90
+    },
+    "exam2": {
+      "type": "sentence",
+      "minimumPercent": 85,
+      "requiresExam1Pass": true
+    },
+    "unlockNextSceneOnlyAfterBothPass": true,
+    "passedScenesRemainRevisitable": true
+  }
+}

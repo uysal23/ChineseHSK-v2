@@ -1,0 +1,1161 @@
+{
+  "schemaVersion": 2,
+  "id": "ZH_HSK1_SC041",
+  "level": "HSK1",
+  "number": 41,
+  "titleZh": "咪咪去看兽医",
+  "titleTr": "Mimi Veterinerde",
+  "productionStatus": "complete",
+  "complete": true,
+  "miniAdventureTr": "Mimi yemek yemeyince aile onu veterinere götürür.",
+  "learning": {
+    "communicationGoals": [
+      "basit sağlık durumu söylemek",
+      "yiyor/yemiyor demek"
+    ],
+    "vocabularyTheme": "hayvan ve sağlık",
+    "grammarTheme": "它不吃饭, 怎么了?, 医生",
+    "pronunciationTheme": "yīshēng",
+    "targetActiveVocabularyCount": {
+      "min": 3,
+      "max": 6
+    },
+    "defaultSpeechSpeed": 0.8,
+    "defaultSubtitleMode": "ZH_PINYIN_TR",
+    "vocabularyCards": [
+      {
+        "id": "VOC_ZH_HSK1_SC041_001",
+        "zh": "猫",
+        "pinyin": "māo",
+        "tr": "kedi",
+        "exampleZh": "这是猫。",
+        "examplePinyin": "Zhè shì māo.",
+        "exampleTr": "Bu kedi.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_002",
+        "zh": "兽医",
+        "pinyin": "shòuyī",
+        "tr": "veteriner",
+        "exampleZh": "这是兽医。",
+        "examplePinyin": "Zhè shì shòuyī.",
+        "exampleTr": "Bu veteriner.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_003",
+        "zh": "医生",
+        "pinyin": "yīshēng",
+        "tr": "doktor",
+        "exampleZh": "这是医生。",
+        "examplePinyin": "Zhè shì yīshēng.",
+        "exampleTr": "Bu doktor.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_004",
+        "zh": "医院",
+        "pinyin": "yīyuàn",
+        "tr": "hastane",
+        "exampleZh": "这是医院。",
+        "examplePinyin": "Zhè shì yīyuàn.",
+        "exampleTr": "Bu hastane.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_005",
+        "zh": "药",
+        "pinyin": "yào",
+        "tr": "ilaç",
+        "exampleZh": "这是药。",
+        "examplePinyin": "Zhè shì yào.",
+        "exampleTr": "Bu ilaç.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_006",
+        "zh": "水",
+        "pinyin": "shuǐ",
+        "tr": "su",
+        "exampleZh": "这是水。",
+        "examplePinyin": "Zhè shì shuǐ.",
+        "exampleTr": "Bu su.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_007",
+        "zh": "饭",
+        "pinyin": "fàn",
+        "tr": "yemek",
+        "exampleZh": "这是饭。",
+        "examplePinyin": "Zhè shì fàn.",
+        "exampleTr": "Bu yemek.",
+        "kind": "review"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC041_008",
+        "zh": "家",
+        "pinyin": "jiā",
+        "tr": "ev",
+        "exampleZh": "这是家。",
+        "examplePinyin": "Zhè shì jiā.",
+        "exampleTr": "Bu ev.",
+        "kind": "review"
+      }
+    ],
+    "sentenceExercises": [
+      {
+        "id": "SENT_ZH_HSK1_SC041_001",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "猫",
+          "在",
+          "这里"
+        ],
+        "answerTokens": [
+          "猫",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_002",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "这是___。",
+        "options": [
+          "猫",
+          "兽医",
+          "医生"
+        ],
+        "answer": "猫"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_003",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "这里",
+          "在",
+          "兽医"
+        ],
+        "answerTokens": [
+          "兽医",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_004",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "这是",
+          "医生"
+        ],
+        "answerTokens": [
+          "这是",
+          "医生"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_005",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "兽医在___。",
+        "options": [
+          "这里",
+          "谢谢",
+          "很好"
+        ],
+        "answer": "这里"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_006",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "在哪儿",
+          "猫"
+        ],
+        "answerTokens": [
+          "猫",
+          "在哪儿"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_007",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "医生"
+        ],
+        "answerTokens": [
+          "我",
+          "喜欢",
+          "医生"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_008",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "___，谢谢。",
+        "options": [
+          "好的",
+          "在哪儿",
+          "不是"
+        ],
+        "answer": "好的"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC041_009",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "一起",
+          "我们",
+          "吧"
+        ],
+        "answerTokens": [
+          "我们",
+          "一起",
+          "吧"
+        ]
+      }
+    ],
+    "comprehensionQuestions": [
+      {
+        "id": "COMP_ZH_HSK1_SC041_001",
+        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "optionsTr": [
+          "Mimi Veterinerde",
+          "Bir havaalanı yolculuğu",
+          "Bir spor maçı"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC041_002",
+        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Belli değil"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC041_003",
+        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Sahne bitmiyor"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC041_004",
+        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "optionsTr": [
+          "Zhang ailesinin yeni kasabadaki yaşamına",
+          "Bir tarih belgeseline",
+          "Bir spor turnuvasına"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "pronunciationItems": [
+      {
+        "id": "PRON_ZH_HSK1_SC041_001",
+        "zh": "这是猫。",
+        "pinyin": "Zhè shì māo.",
+        "tr": "Bu kedi.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC041_002",
+        "zh": "这是兽医。",
+        "pinyin": "Zhè shì shòuyī.",
+        "tr": "Bu veteriner.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC041_003",
+        "zh": "这是医生。",
+        "pinyin": "Zhè shì yīshēng.",
+        "tr": "Bu doktor.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC041_004",
+        "zh": "这是医院。",
+        "pinyin": "Zhè shì yīyuàn.",
+        "tr": "Bu hastane.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      }
+    ],
+    "interactiveDialogue": [
+      {
+        "id": "INT_ZH_HSK1_SC041_001",
+        "promptZh": "猫在哪儿？",
+        "promptPinyin": "Māo zài nǎr?",
+        "promptTr": "Kedi nerede?",
+        "options": [
+          {
+            "zh": "在这里。",
+            "tr": "Burada.",
+            "correct": true
+          },
+          {
+            "zh": "谢谢。",
+            "tr": "Teşekkürler.",
+            "correct": false
+          },
+          {
+            "zh": "我很好。",
+            "tr": "Ben iyiyim.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC041_002",
+        "promptZh": "这是兽医吗？",
+        "promptPinyin": "Zhè shì shòuyī ma?",
+        "promptTr": "Bu veteriner mı?",
+        "options": [
+          {
+            "zh": "对，是的。",
+            "tr": "Evet.",
+            "correct": true
+          },
+          {
+            "zh": "我叫张伟。",
+            "tr": "Benim adım Zhang Wei.",
+            "correct": false
+          },
+          {
+            "zh": "明天见。",
+            "tr": "Yarın görüşürüz.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC041_003",
+        "promptZh": "你喜欢医生吗？",
+        "promptPinyin": "Nǐ xǐhuan yīshēng ma?",
+        "promptTr": "Doktor seviyor musun?",
+        "options": [
+          {
+            "zh": "喜欢。",
+            "tr": "Seviyorum.",
+            "correct": true
+          },
+          {
+            "zh": "在右边。",
+            "tr": "Sağ tarafta.",
+            "correct": false
+          },
+          {
+            "zh": "五点。",
+            "tr": "Saat beş.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "examRules": {
+      "vocabularyPassPercent": 90,
+      "sentencePassPercent": 85,
+      "lockNextSceneUntilPassed": true
+    },
+    "examStages": [
+      {
+        "stage": 1,
+        "type": "vocabulary",
+        "passPercent": 90
+      },
+      {
+        "stage": 2,
+        "type": "sentence",
+        "passPercent": 85,
+        "requiresStage": 1
+      }
+    ],
+    "flashCardPolicy": {
+      "allowPrevious": true,
+      "allowNext": true,
+      "allowFavorite": true,
+      "favoritesStudyMode": true
+    }
+  },
+  "locationId": "LOC_ZH_VET_001",
+  "story": {
+    "previousSceneId": "ZH_HSK1_SC040",
+    "nextSceneId": "ZH_HSK1_SC042"
+  },
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC041_001",
+      "speaker": "刘梅",
+      "zh": "咪咪今天不吃饭。",
+      "pinyin": "Mīmī jīntiān bù chīfàn.",
+      "tr": "Mimi bugün yemek yemiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_002",
+      "speaker": "张伟",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_003",
+      "speaker": "兽医",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_004",
+      "speaker": "张乐乐",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_005",
+      "speaker": "刘梅",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_006",
+      "speaker": "张伟",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_007",
+      "speaker": "兽医",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_008",
+      "speaker": "张乐乐",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎr?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_009",
+      "speaker": "刘梅",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhèlǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_010",
+      "speaker": "张伟",
+      "zh": "这是我们的兽医。",
+      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "tr": "Bu bizim veteriner."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_011",
+      "speaker": "兽医",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_012",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_013",
+      "speaker": "刘梅",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_014",
+      "speaker": "张伟",
+      "zh": "这是我们的医生。",
+      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "tr": "Bu bizim doktor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_015",
+      "speaker": "兽医",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_016",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_017",
+      "speaker": "刘梅",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_018",
+      "speaker": "张伟",
+      "zh": "医院在哪儿？",
+      "pinyin": "Yīyuàn zài nǎr?",
+      "tr": "Hastane nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_019",
+      "speaker": "兽医",
+      "zh": "医院在那边。",
+      "pinyin": "Yīyuàn zài nàbian.",
+      "tr": "Hastane şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_020",
+      "speaker": "张乐乐",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_021",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_022",
+      "speaker": "张伟",
+      "zh": "家人有一点担心。",
+      "pinyin": "Jiārén yǒu yìdiǎn dānxīn.",
+      "tr": "Aile biraz endişeli."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_023",
+      "speaker": "兽医",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_024",
+      "speaker": "张乐乐",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_025",
+      "speaker": "刘梅",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_026",
+      "speaker": "张伟",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_027",
+      "speaker": "兽医",
+      "zh": "这是药吗？",
+      "pinyin": "Zhè shì yào ma?",
+      "tr": "Bu, ilaç mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_028",
+      "speaker": "张乐乐",
+      "zh": "对，这是药。",
+      "pinyin": "Duì, zhè shì yào.",
+      "tr": "Evet, bu ilaç."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_029",
+      "speaker": "刘梅",
+      "zh": "药在哪儿？",
+      "pinyin": "Yào zài nǎr?",
+      "tr": "Ilaç nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_030",
+      "speaker": "张伟",
+      "zh": "药在这里。",
+      "pinyin": "Yào zài zhèlǐ.",
+      "tr": "Ilaç burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_031",
+      "speaker": "兽医",
+      "zh": "你要水吗？",
+      "pinyin": "Nǐ yào shuǐ ma?",
+      "tr": "Su ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_032",
+      "speaker": "张乐乐",
+      "zh": "我要水，谢谢。",
+      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "tr": "Su istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_033",
+      "speaker": "刘梅",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_034",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_035",
+      "speaker": "兽医",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_036",
+      "speaker": "张乐乐",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_037",
+      "speaker": "刘梅",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_038",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_039",
+      "speaker": "兽医",
+      "zh": "家在哪儿？",
+      "pinyin": "Jiā zài nǎr?",
+      "tr": "Ev nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_040",
+      "speaker": "张乐乐",
+      "zh": "家在那边。",
+      "pinyin": "Jiā zài nàbian.",
+      "tr": "Ev şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_041",
+      "speaker": "刘梅",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_042",
+      "speaker": "张伟",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_043",
+      "speaker": "兽医",
+      "zh": "兽医说咪咪没有大问题。",
+      "pinyin": "Shòuyī shuō Mīmī méiyǒu dà wèntí.",
+      "tr": "Veteriner Mimi’nin ciddi bir sorunu olmadığını söylüyor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_044",
+      "speaker": "张乐乐",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_045",
+      "speaker": "刘梅",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxie nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_046",
+      "speaker": "张伟",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_047",
+      "speaker": "兽医",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_048",
+      "speaker": "张乐乐",
+      "zh": "我们继续。",
+      "pinyin": "Wǒmen jìxù.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_049",
+      "speaker": "刘梅",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_050",
+      "speaker": "张伟",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_051",
+      "speaker": "兽医",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎr?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_052",
+      "speaker": "张乐乐",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhèlǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_053",
+      "speaker": "刘梅",
+      "zh": "这是我们的兽医。",
+      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "tr": "Bu bizim veteriner."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_054",
+      "speaker": "张伟",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_055",
+      "speaker": "兽医",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_056",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_057",
+      "speaker": "刘梅",
+      "zh": "这是我们的医生。",
+      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "tr": "Bu bizim doktor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_058",
+      "speaker": "张伟",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_059",
+      "speaker": "兽医",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_060",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_061",
+      "speaker": "刘梅",
+      "zh": "医院在哪儿？",
+      "pinyin": "Yīyuàn zài nǎr?",
+      "tr": "Hastane nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_062",
+      "speaker": "张伟",
+      "zh": "医院在那边。",
+      "pinyin": "Yīyuàn zài nàbian.",
+      "tr": "Hastane şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_063",
+      "speaker": "兽医",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_064",
+      "speaker": "张乐乐",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_065",
+      "speaker": "刘梅",
+      "zh": "这是药吗？",
+      "pinyin": "Zhè shì yào ma?",
+      "tr": "Bu, ilaç mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_066",
+      "speaker": "张伟",
+      "zh": "对，这是药。",
+      "pinyin": "Duì, zhè shì yào.",
+      "tr": "Evet, bu ilaç."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_067",
+      "speaker": "兽医",
+      "zh": "药在哪儿？",
+      "pinyin": "Yào zài nǎr?",
+      "tr": "Ilaç nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_068",
+      "speaker": "张乐乐",
+      "zh": "药在这里。",
+      "pinyin": "Yào zài zhèlǐ.",
+      "tr": "Ilaç burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_069",
+      "speaker": "刘梅",
+      "zh": "你要水吗？",
+      "pinyin": "Nǐ yào shuǐ ma?",
+      "tr": "Su ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_070",
+      "speaker": "张伟",
+      "zh": "我要水，谢谢。",
+      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "tr": "Su istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_071",
+      "speaker": "兽医",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_072",
+      "speaker": "张乐乐",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_073",
+      "speaker": "刘梅",
+      "zh": "这是猫吗？",
+      "pinyin": "Zhè shì māo ma?",
+      "tr": "Bu, kedi mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_074",
+      "speaker": "张伟",
+      "zh": "对，这是猫。",
+      "pinyin": "Duì, zhè shì māo.",
+      "tr": "Evet, bu kedi."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_075",
+      "speaker": "兽医",
+      "zh": "猫在哪儿？",
+      "pinyin": "Māo zài nǎr?",
+      "tr": "Kedi nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_076",
+      "speaker": "张乐乐",
+      "zh": "猫在这里。",
+      "pinyin": "Māo zài zhèlǐ.",
+      "tr": "Kedi burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_077",
+      "speaker": "刘梅",
+      "zh": "这是我们的兽医。",
+      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "tr": "Bu bizim veteriner."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_078",
+      "speaker": "张伟",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_079",
+      "speaker": "兽医",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_080",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_081",
+      "speaker": "刘梅",
+      "zh": "这是我们的医生。",
+      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "tr": "Bu bizim doktor."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_082",
+      "speaker": "张伟",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_083",
+      "speaker": "兽医",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_084",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_085",
+      "speaker": "刘梅",
+      "zh": "医院在哪儿？",
+      "pinyin": "Yīyuàn zài nǎr?",
+      "tr": "Hastane nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_086",
+      "speaker": "张伟",
+      "zh": "医院在那边。",
+      "pinyin": "Yīyuàn zài nàbian.",
+      "tr": "Hastane şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_087",
+      "speaker": "兽医",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_088",
+      "speaker": "张乐乐",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_089",
+      "speaker": "刘梅",
+      "zh": "这是药吗？",
+      "pinyin": "Zhè shì yào ma?",
+      "tr": "Bu, ilaç mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_090",
+      "speaker": "张伟",
+      "zh": "对，这是药。",
+      "pinyin": "Duì, zhè shì yào.",
+      "tr": "Evet, bu ilaç."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_091",
+      "speaker": "兽医",
+      "zh": "药在哪儿？",
+      "pinyin": "Yào zài nǎr?",
+      "tr": "Ilaç nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_092",
+      "speaker": "张乐乐",
+      "zh": "药在这里。",
+      "pinyin": "Yào zài zhèlǐ.",
+      "tr": "Ilaç burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_093",
+      "speaker": "刘梅",
+      "zh": "你要水吗？",
+      "pinyin": "Nǐ yào shuǐ ma?",
+      "tr": "Su ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_094",
+      "speaker": "张伟",
+      "zh": "我要水，谢谢。",
+      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "tr": "Su istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_095",
+      "speaker": "兽医",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_096",
+      "speaker": "张乐乐",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīntiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_097",
+      "speaker": "刘梅",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_098",
+      "speaker": "张伟",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_099",
+      "speaker": "兽医",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC041_100",
+      "speaker": "张乐乐",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ],
+  "production": {
+    "scenePurposeTr": "Mimi yemek yemeyince aile onu veterinere götürür.",
+    "timeOfDay": "day",
+    "atmosphere": "sıcak, doğal, günlük yaşam odaklı",
+    "characters": [
+      "刘梅",
+      "张伟",
+      "兽医",
+      "张乐乐"
+    ],
+    "locationId": "LOC_ZH_VET_001",
+    "visual": {
+      "reuseLocation": true,
+      "newVisualRequired": false,
+      "style": "visual_novel_theatre"
+    },
+    "audio": {
+      "voiceLanguage": "zh-CN",
+      "narratorProfile": "NARRATOR_ZH_001",
+      "defaultSpeechSpeed": 0.8
+    },
+    "animation": {
+      "level": "minimal",
+      "mouthMode": "AUTO_SIMPLE",
+      "blink": true,
+      "speakerFocus": true
+    },
+    "continuityNoteTr": "Mimi Veterinerde olayı ana aile kronolojisinde sahne 41 olarak kaydedilir."
+  },
+  "editorialStatus": "generated_full_v1_requires_native_review",
+  "dialogueCount": 100
+}

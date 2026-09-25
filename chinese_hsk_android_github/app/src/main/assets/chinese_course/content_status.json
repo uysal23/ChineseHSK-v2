@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "course": "CHINESE_HSK_LIFE_JOURNEY_001",
+  "totalLevels": 6,
+  "totalSceneSlots": 300,
+  "blueprintReadyScenes": 300,
+  "completeScenes": 300,
+  "dialogueDraftScenes": 0,
+  "editorialReviewRecommendedScenes": 300,
+  "nextProductionTarget": "All 300 scenes are data-complete; proceed to final editorial/native review and release QA.",
+  "noteTr": "300/300 blueprint hazır; 300/300 sahne 90-110 diyalog ve zorunlu öğrenme modülleriyle veri açısından tamdır. Native/editoryal kalite kontrolü ayrı olarak takip edilir.",
+  "mediaCatalog": {
+    "characterRoleProfiles": 83,
+    "locations": 63,
+    "voiceProfiles": 84,
+    "visualFallbackReady": true,
+    "audioFallbackReady": true,
+    "authoredBinaryMediaStatus": "not_yet_bundled"
+  }
+}

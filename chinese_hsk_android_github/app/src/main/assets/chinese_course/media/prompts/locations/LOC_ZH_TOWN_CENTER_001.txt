@@ -1,0 +1,10 @@
+ASSET ID: LOC_ZH_TOWN_CENTER_001_DAY
+STYLE: semi-realistic 2D illustrated visual-novel art, contemporary China, clean shapes, soft painterly shading, believable anatomy, warm human expressions, cinematic but everyday realism
+LOCATION: 城中心 / Kasaba merkezi.
+LAYOUT LOCK: walkable medium-sized town center; mixed small shops, low-midrise buildings, broad sidewalk, crossing, trees.
+FIXED DETAILS: contemporary Chinese urban context without famous landmark dependence.
+MOOD: lively local everyday life.
+CAMERA: eye-level 16:9 reusable visual-novel background, wide enough for 3-4 character layers, keep major furniture/doors/windows in stable positions.
+OUTPUT: empty environment plate, daylight master, 1280x720 runtime target (larger source master allowed).
+NEGATIVE: no celebrity likeness, no exaggerated anime proportions, no chibi, no fantasy costume, no glamorized luxury, no warped hands, no extra fingers, no embedded subtitles, no logos, no watermarks; no primary story characters; no readable text baked into signs.
+FUTURE VARIANTS: NIGHT, RAIN, HOLIDAY only by changing light/weather/decor; never move architecture or fixed furniture.

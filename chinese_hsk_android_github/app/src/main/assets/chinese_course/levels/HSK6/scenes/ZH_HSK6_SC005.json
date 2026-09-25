@@ -1,0 +1,1240 @@
+{
+  "schemaVersion": 2,
+  "id": "ZH_HSK6_SC005",
+  "level": "HSK6",
+  "number": 5,
+  "titleZh": "奶奶讲自己的婚礼",
+  "titleTr": "Büyükannenin Eski Düğün Hikâyesi",
+  "complete": true,
+  "status": "planned",
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK6_SC005_001",
+      "speaker": "奶奶",
+      "zh": "这件事表面上看很简单，真正谈起来却牵涉到很多层面。",
+      "pinyin": "Zhè jiàn shì biǎomiàn shàng kàn hěn jiǎndān, zhēnzhèng tán qǐlái què qiānshè dào hěn duō céngmiàn.",
+      "tr": "Bu konu yüzeyde basit görünüyor ama gerçekten konuşunca birçok boyutu olduğu ortaya çıkıyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_002",
+      "speaker": "张雨桐",
+      "zh": "我想先听听大家最真实的想法，不急着找一个统一答案。",
+      "pinyin": "Wǒ xiǎng xiān tīngting dàjiā zuì zhēnshí de xiǎngfǎ, bù jí zhe zhǎo yí ge tǒngyī dá’àn.",
+      "tr": "Önce herkesin en gerçek düşüncesini duymak istiyorum; hemen tek bir cevap bulmak zorunda değiliz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_003",
+      "speaker": "刘梅",
+      "zh": "有些变化来得很快，可真正适应往往需要更长时间。",
+      "pinyin": "Yǒuxiē biànhuà lái de hěn kuài, kě zhēnzhèng shìyìng wǎngwǎng xūyào gèng cháng shíjiān.",
+      "tr": "Bazı değişiklikler çok hızlı gelir ama gerçekten uyum sağlamak daha uzun sürer."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_004",
+      "speaker": "张伟",
+      "zh": "这一次我们不仅要看事情怎么做，也要想为什么这样做。",
+      "pinyin": "Zhè yí cì wǒmen bùjǐn yào kàn shìqing zěnme zuò, yě yào xiǎng wèishénme zhèyàng zuò.",
+      "tr": "Bu kez yalnızca ne yapılacağına değil, neden böyle yapılacağına da bakmalıyız."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_005",
+      "speaker": "奶奶",
+      "zh": "如果只从自己的位置出发，很容易忽略别人正在经历什么。",
+      "pinyin": "Rúguǒ zhǐ cóng zìjǐ de wèizhi chūfā, hěn róngyì hūlüè biérén zhèngzài jīnglì shénme.",
+      "tr": "Yalnızca kendi bulunduğumuz yerden bakarsak başkalarının ne yaşadığını gözden kaçırmak kolaydır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_006",
+      "speaker": "张雨桐",
+      "zh": "先把感受和事实都说出来，我们再慢慢梳理。",
+      "pinyin": "Xiān bǎ gǎnshòu hé shìshí dōu shuō chūlái, wǒmen zài mànmàn shūlǐ.",
+      "tr": "Önce duyguları ve olguları ortaya koyalım, sonra yavaşça düzenleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_007",
+      "speaker": "刘梅",
+      "zh": "谈到往事，我更关心的是它背后的意义，而不只是表面的结果。",
+      "pinyin": "Tándào wǎngshì, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+      "tr": "Geçmiş anılar konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_008",
+      "speaker": "张伟",
+      "zh": "往事之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+      "pinyin": "Wǎngshì zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+      "tr": "Geçmiş anılar önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_009",
+      "speaker": "奶奶",
+      "zh": "婚俗之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+      "pinyin": "Hūnsú zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+      "tr": "Düğün gelenekleri önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_010",
+      "speaker": "张雨桐",
+      "zh": "如果忽略婚俗，很多看似合理的判断其实会失去依据。",
+      "pinyin": "Rúguǒ hūlüè hūnsú, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+      "tr": "Düğün gelenekleri göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_011",
+      "speaker": "刘梅",
+      "zh": "如果忽略时代背景，很多看似合理的判断其实会失去依据。",
+      "pinyin": "Rúguǒ hūlüè shídài bèijǐng, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+      "tr": "Dönemin bağlamı göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_012",
+      "speaker": "张伟",
+      "zh": "我想把时代背景放回具体语境里看，这样更容易理解彼此的选择。",
+      "pinyin": "Wǒ xiǎng bǎ shídài bèijǐng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+      "tr": "Dönemin bağlamı konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_013",
+      "speaker": "奶奶",
+      "zh": "我想把回忆放回具体语境里看，这样更容易理解彼此的选择。",
+      "pinyin": "Wǒ xiǎng bǎ huíyì fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+      "tr": "Anı / hatıra konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_014",
+      "speaker": "张雨桐",
+      "zh": "谈到回忆，我更关心的是它背后的意义，而不只是表面的结果。",
+      "pinyin": "Tándào huíyì, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+      "tr": "Anı / hatıra konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_015",
+      "speaker": "刘梅",
+      "zh": "谈到语境，我更关心的是它背后的意义，而不只是表面的结果。",
+      "pinyin": "Tándào yǔjìng, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+      "tr": "Bağlam konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_016",
+      "speaker": "张伟",
+      "zh": "语境之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+      "pinyin": "Yǔjìng zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+      "tr": "Bağlam önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_017",
+      "speaker": "奶奶",
+      "zh": "立场之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+      "pinyin": "Lìchǎng zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+      "tr": "Tutum / bakış açısı önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_018",
+      "speaker": "张雨桐",
+      "zh": "如果忽略立场，很多看似合理的判断其实会失去依据。",
+      "pinyin": "Rúguǒ hūlüè lìchǎng, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+      "tr": "Tutum / bakış açısı göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_019",
+      "speaker": "刘梅",
+      "zh": "如果忽略权衡，很多看似合理的判断其实会失去依据。",
+      "pinyin": "Rúguǒ hūlüè quánhéng, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+      "tr": "Dengeleyerek değerlendirmek göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_020",
+      "speaker": "张伟",
+      "zh": "我想把权衡放回具体语境里看，这样更容易理解彼此的选择。",
+      "pinyin": "Wǒ xiǎng bǎ quánhéng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+      "tr": "Dengeleyerek değerlendirmek konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_021",
+      "speaker": "奶奶",
+      "zh": "我想把长期影响放回具体语境里看，这样更容易理解彼此的选择。",
+      "pinyin": "Wǒ xiǎng bǎ chángqī yǐngxiǎng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+      "tr": "Uzun vadeli etki konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_022",
+      "speaker": "张雨桐",
+      "zh": "谈到长期影响，我更关心的是它背后的意义，而不只是表面的结果。",
+      "pinyin": "Tándào chángqī yǐngxiǎng, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+      "tr": "Uzun vadeli etki konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_023",
+      "speaker": "刘梅",
+      "zh": "我觉得现在最重要的不是马上下结论，而是先把事实和判断分开。",
+      "pinyin": "Wǒ juéde xiànzài zuì zhòngyào de bú shì mǎshàng xià jiélùn, ér shì xiān bǎ shìshí hé pànduàn fēnkāi.",
+      "tr": "Bence şu anda en önemli şey hemen sonuca varmak değil, önce olgularla yorumları ayırmak."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_024",
+      "speaker": "张伟",
+      "zh": "从现有的信息来看，我们还需要补充几个关键细节。",
+      "pinyin": "Cóng xiànyǒu de xìnxī lái kàn, wǒmen hái xūyào bǔchōng jǐ ge guānjiàn xìjié.",
+      "tr": "Mevcut bilgilere bakılırsa birkaç kritik ayrıntıyı daha tamamlamamız gerekiyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_025",
+      "speaker": "奶奶",
+      "zh": "尽管结果不理想，我们仍然可以从中找到下一步的方向。",
+      "pinyin": "Jǐnguǎn jiéguǒ bù lǐxiǎng, wǒmen réngrán kěyǐ cóng zhōng zhǎodào xià yí bù de fāngxiàng.",
+      "tr": "Sonuç ideal olmasa da buradan sonraki adımın yönünü çıkarabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_026",
+      "speaker": "张雨桐",
+      "zh": "之所以会出现这个问题，是因为我们之前低估了它的影响。",
+      "pinyin": "Zhī suǒyǐ huì chūxiàn zhège wèntí, shì yīnwèi wǒmen zhīqián dīgū le tā de yǐngxiǎng.",
+      "tr": "Bu sorunun ortaya çıkmasının nedeni etkisini daha önce küçümsememizdi."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_027",
+      "speaker": "刘梅",
+      "zh": "无论最后怎么选择，我们都应该把理由说清楚。",
+      "pinyin": "Wúlùn zuìhòu zěnme xuǎnzé, wǒmen dōu yīnggāi bǎ lǐyóu shuō qīngchu.",
+      "tr": "Sonunda hangi seçimi yaparsak yapalım gerekçesini açıkça söylemeliyiz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_028",
+      "speaker": "张伟",
+      "zh": "这个方案不仅要解决眼前的问题，还要考虑长期影响。",
+      "pinyin": "Zhège fāng’àn bùjǐn yào jiějué yǎnqián de wèntí, hái yào kǎolǜ chángqī yǐngxiǎng.",
+      "tr": "Bu plan yalnızca mevcut sorunu çözmemeli, uzun vadeli etkisini de düşünmeli."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_029",
+      "speaker": "奶奶",
+      "zh": "与以前的做法相比，现在这个方案更重视风险控制。",
+      "pinyin": "Yǔ yǐqián de zuòfǎ xiāngbǐ, xiànzài zhège fāng’àn gèng zhòngshì fēngxiǎn kòngzhì.",
+      "tr": "Önceki yönteme kıyasla bu plan risk kontrolüne daha çok önem veriyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_030",
+      "speaker": "张雨桐",
+      "zh": "如果只看一个数字，很容易忽略背后的原因。",
+      "pinyin": "Rúguǒ zhǐ kàn yí ge shùzì, hěn róngyì hūlüè bèihòu de yuányīn.",
+      "tr": "Sadece tek bir sayıya bakarsak arkasındaki nedeni gözden kaçırmak kolaydır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_031",
+      "speaker": "刘梅",
+      "zh": "我想先确认一下，这个结论有没有可靠的依据。",
+      "pinyin": "Wǒ xiǎng xiān quèrèn yíxià, zhège jiélùn yǒu méiyǒu kěkào de yījù.",
+      "tr": "Önce bu sonucun güvenilir bir dayanağı var mı teyit etmek istiyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_032",
+      "speaker": "张伟",
+      "zh": "有不同意见并不代表合作失败，关键是能不能把分歧说清楚。",
+      "pinyin": "Yǒu bùtóng yìjiàn bìng bù dàibiǎo hézuò shībài, guānjiàn shì néng bù néng bǎ fēnqí shuō qīngchu.",
+      "tr": "Farklı görüşlerin olması işbirliğinin başarısız olduğu anlamına gelmez; önemli olan ayrılığı açıkça ifade edebilmek."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_033",
+      "speaker": "奶奶",
+      "zh": "我们最好把短期收益和长期代价放在一起比较。",
+      "pinyin": "Wǒmen zuìhǎo bǎ duǎnqī shōuyì hé chángqī dàijià fàng zài yìqǐ bǐjiào.",
+      "tr": "Kısa vadeli getiriyi ve uzun vadeli bedeli birlikte karşılaştırmamız daha iyi olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_034",
+      "speaker": "张雨桐",
+      "zh": "这件事涉及的不只是效率，也包括公平和信任。",
+      "pinyin": "Zhè jiàn shì shèjí de bù zhǐshì xiàolǜ, yě bāokuò gōngpíng hé xìnrèn.",
+      "tr": "Bu konu yalnızca verimlilikle değil, adalet ve güvenle de ilgili."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_035",
+      "speaker": "刘梅",
+      "zh": "我理解你的立场，不过我想从另一个角度补充一点。",
+      "pinyin": "Wǒ lǐjiě nǐ de lìchǎng, búguò wǒ xiǎng cóng lìng yí ge jiǎodù bǔchōng yìdiǎn.",
+      "tr": "Bakış açını anlıyorum ama başka bir açıdan bir nokta eklemek istiyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_036",
+      "speaker": "张伟",
+      "zh": "如果我们现在回避这个问题，以后付出的成本可能更高。",
+      "pinyin": "Rúguǒ wǒmen xiànzài huíbì zhège wèntí, yǐhòu fùchū de chéngběn kěnéng gèng gāo.",
+      "tr": "Bu sorundan şimdi kaçınırsak ileride ödeyeceğimiz bedel daha yüksek olabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_037",
+      "speaker": "奶奶",
+      "zh": "这不是简单的对错问题，而是不同目标之间怎么平衡。",
+      "pinyin": "Zhè bú shì jiǎndān de duì cuò wèntí, ér shì bùtóng mùbiāo zhījiān zěnme pínghéng.",
+      "tr": "Bu basitçe doğru-yanlış meselesi değil; farklı hedeflerin nasıl dengeleneceği meselesi."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_038",
+      "speaker": "张雨桐",
+      "zh": "我们可以先设一个评估标准，再比较几个选择。",
+      "pinyin": "Wǒmen kěyǐ xiān shè yí ge pínggū biāozhǔn, zài bǐjiào jǐ ge xuǎnzé.",
+      "tr": "Önce bir değerlendirme ölçütü belirleyip sonra seçenekleri karşılaştırabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_039",
+      "speaker": "刘梅",
+      "zh": "我希望这个决定既尊重个人选择，也照顾整体需要。",
+      "pinyin": "Wǒ xīwàng zhège juédìng jì zūnzhòng gèrén xuǎnzé, yě zhàogù zhěngtǐ xūyào.",
+      "tr": "Bu kararın hem bireysel seçime saygı göstermesini hem de genel ihtiyacı gözetmesini istiyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_040",
+      "speaker": "张伟",
+      "zh": "从长远来看，稳定并不一定等于不改变。",
+      "pinyin": "Cóng chángyuǎn lái kàn, wěndìng bìng bù yídìng děngyú bù gǎibiàn.",
+      "tr": "Uzun vadede istikrar her zaman değişmemek anlamına gelmez."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_041",
+      "speaker": "奶奶",
+      "zh": "有时候承认不知道，比假装确定更负责任。",
+      "pinyin": "Yǒu shíhou chéngrèn bù zhīdào, bǐ jiǎzhuāng quèdìng gèng fù zérèn.",
+      "tr": "Bazen bilmediğini kabul etmek, kesinmiş gibi davranmaktan daha sorumlucadır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_042",
+      "speaker": "张雨桐",
+      "zh": "先把能够确认的部分确认下来，剩下的再继续核实。",
+      "pinyin": "Xiān bǎ nénggòu quèrèn de bùfen quèrèn xiàlái, shèngxià de zài jìxù héshí.",
+      "tr": "Önce doğrulayabildiğimiz kısmı netleştirip kalanını araştırmaya devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_043",
+      "speaker": "刘梅",
+      "zh": "我不反对这个方向，只是希望执行的时候留一点调整空间。",
+      "pinyin": "Wǒ bù fǎnduì zhège fāngxiàng, zhǐshì xīwàng zhíxíng de shíhou liú yìdiǎn tiáozhěng kōngjiān.",
+      "tr": "Bu yöne karşı değilim; sadece uygularken biraz ayarlama payı bırakılmasını istiyorum."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_044",
+      "speaker": "张伟",
+      "zh": "如果情况和我们的假设不同，就要及时修改计划。",
+      "pinyin": "Rúguǒ qíngkuàng hé wǒmen de jiǎshè bùtóng, jiù yào jíshí xiūgǎi jìhuà.",
+      "tr": "Durum varsayımımızdan farklıysa planı zamanında değiştirmeliyiz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_045",
+      "speaker": "奶奶",
+      "zh": "我更关心的是，这个选择会给谁带来什么影响。",
+      "pinyin": "Wǒ gèng guānxīn de shì, zhège xuǎnzé huì gěi shéi dàilái shénme yǐngxiǎng.",
+      "tr": "Benim daha çok önemsediğim, bu seçimin kimi nasıl etkileyeceği."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_046",
+      "speaker": "张雨桐",
+      "zh": "只要目标一致，方法上有一点差异是可以讨论的。",
+      "pinyin": "Zhǐyào mùbiāo yízhì, fāngfǎ shàng yǒu yìdiǎn chāyì shì kěyǐ tǎolùn de.",
+      "tr": "Hedefimiz aynı olduğu sürece yöntem farklılıkları tartışılabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_047",
+      "speaker": "刘梅",
+      "zh": "现在大家的立场已经比开始时清楚多了。",
+      "pinyin": "Xiànzài dàjiā de lìchǎng yǐjīng bǐ kāishǐ shí qīngchu duō le.",
+      "tr": "Şimdi herkesin duruşu başlangıca göre çok daha net."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_048",
+      "speaker": "张伟",
+      "zh": "我们还需要考虑一个现实问题：时间和资源够不够。",
+      "pinyin": "Wǒmen hái xūyào kǎolǜ yí ge xiànshí wèntí: shíjiān hé zīyuán gòu bú gòu.",
+      "tr": "Bir pratik konuyu daha düşünmeliyiz: zaman ve kaynak yeterli mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_049",
+      "speaker": "奶奶",
+      "zh": "这个提醒很重要，不然方案看起来很好，实际却做不了。",
+      "pinyin": "Zhège tíxǐng hěn zhòngyào, bùrán fāng’àn kàn qǐlái hěn hǎo, shíjì què zuò bùliǎo.",
+      "tr": "Bu uyarı önemli; yoksa plan kâğıt üzerinde iyi görünüp uygulamada imkânsız olabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_050",
+      "speaker": "张雨桐",
+      "zh": "我们先把最坏的情况想清楚，再决定能不能承担。",
+      "pinyin": "Wǒmen xiān bǎ zuì huài de qíngkuàng xiǎng qīngchu, zài juédìng néng bù néng chéngdān.",
+      "tr": "Önce en kötü senaryoyu netleştirip taşıyıp taşıyamayacağımıza karar verelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_051",
+      "speaker": "刘梅",
+      "zh": "风险不是不能接受，而是要知道风险在哪里。",
+      "pinyin": "Fēngxiǎn bú shì bù néng jiēshòu, ér shì yào zhīdào fēngxiǎn zài nǎlǐ.",
+      "tr": "Risk asla kabul edilemez değildir; önemli olan riskin nerede olduğunu bilmektir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_052",
+      "speaker": "张伟",
+      "zh": "我觉得现在的信息已经足够支持一个暂时的决定。",
+      "pinyin": "Wǒ juéde xiànzài de xìnxī yǐjīng zúgòu zhīchí yí ge zànshí de juédìng.",
+      "tr": "Bence mevcut bilgiler geçici bir kararı desteklemek için yeterli."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_053",
+      "speaker": "奶奶",
+      "zh": "那就先设一个检查时间，到时候再看结果。",
+      "pinyin": "Nà jiù xiān shè yí ge jiǎnchá shíjiān, dào shíhou zài kàn jiéguǒ.",
+      "tr": "O halde bir kontrol tarihi belirleyip o zaman sonucu yeniden değerlendirelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_054",
+      "speaker": "张雨桐",
+      "zh": "这样既不会拖得太久，也不会太草率。",
+      "pinyin": "Zhèyàng jì bú huì tuō de tài jiǔ, yě bú huì tài cǎoshuài.",
+      "tr": "Böylece ne gereğinden fazla uzar ne de aceleci davranmış oluruz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_055",
+      "speaker": "刘梅",
+      "zh": "我同意，关键是把后续责任也分清楚。",
+      "pinyin": "Wǒ tóngyì, guānjiàn shì bǎ hòuxù zérèn yě fēn qīngchu.",
+      "tr": "Katılıyorum; önemli olan sonraki sorumlulukları da netleştirmek."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_056",
+      "speaker": "张伟",
+      "zh": "如果出了问题，不应该只找一个人承担。",
+      "pinyin": "Rúguǒ chū le wèntí, bù yīnggāi zhǐ zhǎo yí ge rén chéngdān.",
+      "tr": "Bir sorun çıkarsa sorumluluğu yalnızca tek kişiye yüklememeliyiz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_057",
+      "speaker": "奶奶",
+      "zh": "团队做的决定，也需要团队一起面对结果。",
+      "pinyin": "Tuánduì zuò de juédìng, yě xūyào tuánduì yìqǐ miànduì jiéguǒ.",
+      "tr": "Ekipçe verilen kararın sonucuyla da ekipçe yüzleşmek gerekir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_058",
+      "speaker": "张雨桐",
+      "zh": "我会把今天的结论和还没解决的问题分别记录下来。",
+      "pinyin": "Wǒ huì bǎ jīntiān de jiélùn hé hái méi jiějué de wèntí fēnbié jìlù xiàlái.",
+      "tr": "Bugünkü sonuçlarla henüz çözülmemiş sorunları ayrı ayrı kaydedeceğim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_059",
+      "speaker": "刘梅",
+      "zh": "这样下次讨论的时候就不用从头开始。",
+      "pinyin": "Zhèyàng xià cì tǎolùn de shíhou jiù bú yòng cóngtóu kāishǐ.",
+      "tr": "Böylece bir sonraki görüşmede baştan başlamak gerekmez."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_060",
+      "speaker": "张伟",
+      "zh": "有些问题今天解决不了，但至少方向已经明确了。",
+      "pinyin": "Yǒuxiē wèntí jīntiān jiějué bùliǎo, dàn zhìshǎo fāngxiàng yǐjīng míngquè le.",
+      "tr": "Bazı sorunlar bugün çözülemese de en azından yön netleşti."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_061",
+      "speaker": "奶奶",
+      "zh": "我觉得这次讨论比单纯追求一个答案更有价值。",
+      "pinyin": "Wǒ juéde zhè cì tǎolùn bǐ dānchún zhuīqiú yí ge dá’àn gèng yǒu jiàzhí.",
+      "tr": "Bence bu tartışma tek bir cevabın peşinden gitmekten daha değerliydi."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_062",
+      "speaker": "张雨桐",
+      "zh": "至少我们知道每个人真正担心的是什么。",
+      "pinyin": "Zhìshǎo wǒmen zhīdào měi ge rén zhēnzhèng dānxīn de shì shénme.",
+      "tr": "En azından artık herkesin gerçekten neden endişelendiğini biliyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_063",
+      "speaker": "刘梅",
+      "zh": "只要继续保持这种沟通方式，后面的分歧会更容易处理。",
+      "pinyin": "Zhǐyào jìxù bǎochí zhè zhǒng gōutōng fāngshì, hòumiàn de fēnqí huì gèng róngyì chǔlǐ.",
+      "tr": "Bu iletişim biçimini sürdürürsek sonraki görüş ayrılıklarını çözmek daha kolay olur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_064",
+      "speaker": "张伟",
+      "zh": "那我们就按照今天确定的优先顺序推进。",
+      "pinyin": "Nà wǒmen jiù ànzhào jīntiān quèdìng de yōuxiān shùnxù tuījìn.",
+      "tr": "O zaman bugün belirlediğimiz öncelik sırasına göre ilerleyelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_065",
+      "speaker": "奶奶",
+      "zh": "第一步先处理最紧急、影响最大的问题。",
+      "pinyin": "Dì yí bù xiān chǔlǐ zuì jǐnjí, yǐngxiǎng zuì dà de wèntí.",
+      "tr": "İlk olarak en acil ve en büyük etkiye sahip sorunu ele alalım."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_066",
+      "speaker": "张雨桐",
+      "zh": "剩下的问题按照时间表逐步解决。",
+      "pinyin": "Shèngxià de wèntí ànzhào shíjiānbiǎo zhúbù jiějué.",
+      "tr": "Kalan sorunları zaman çizelgesine göre adım adım çözelim."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_067",
+      "speaker": "刘梅",
+      "zh": "如果有人发现新情况，要尽快共享信息。",
+      "pinyin": "Rúguǒ yǒu rén fāxiàn xīn qíngkuàng, yào jǐnkuài gòngxiǎng xìnxī.",
+      "tr": "Yeni bir durum fark eden olursa bilgiyi mümkün olduğunca hızlı paylaşmalı."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_068",
+      "speaker": "张伟",
+      "zh": "透明一点，大家反而更容易建立信任。",
+      "pinyin": "Tòumíng yìdiǎn, dàjiā fǎn’ér gèng róngyì jiànlì xìnrèn.",
+      "tr": "Daha şeffaf olmak, aslında güven kurmayı kolaylaştırır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_069",
+      "speaker": "奶奶",
+      "zh": "这次的经验以后还能用在别的事情上。",
+      "pinyin": "Zhè cì de jīngyàn yǐhòu hái néng yòng zài bié de shìqing shàng.",
+      "tr": "Bu deneyimi ileride başka konularda da kullanabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_070",
+      "speaker": "张雨桐",
+      "zh": "好，今天先到这里，下一步按计划继续。",
+      "pinyin": "Hǎo, jīntiān xiān dào zhèlǐ, xià yí bù àn jìhuà jìxù.",
+      "tr": "Tamam, bugünlük burada bitirelim; sonraki adım plana göre devam etsin."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_071",
+      "speaker": "刘梅",
+      "zh": "很多事情到了人生后半程，答案反而没有年轻时想得那么绝对。",
+      "pinyin": "Hěn duō shìqing dào le rénshēng hòubànchéng, dá’àn fǎn’ér méiyǒu niánqīng shí xiǎng de nàme juéduì.",
+      "tr": "Hayatın ikinci yarısına gelince birçok konuda cevaplar gençken düşündüğümüz kadar kesin olmuyor."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_072",
+      "speaker": "张伟",
+      "zh": "一个选择真正的分量，往往要放到更长的时间里才能看清。",
+      "pinyin": "Yí ge xuǎnzé zhēnzhèng de fènliàng, wǎngwǎng yào fàng dào gèng cháng de shíjiān lǐ cái néng kàn qīng.",
+      "tr": "Bir seçimin gerçek ağırlığı çoğu zaman ancak daha uzun bir zaman diliminde anlaşılır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_073",
+      "speaker": "奶奶",
+      "zh": "我们以为自己在告别过去，其实也在重新解释过去。",
+      "pinyin": "Wǒmen yǐwéi zìjǐ zài gàobié guòqù, qíshí yě zài chóngxīn jiěshì guòqù.",
+      "tr": "Geçmişe veda ettiğimizi sanırken aslında geçmişi yeniden yorumluyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_074",
+      "speaker": "张雨桐",
+      "zh": "有些话不必说得太满，给彼此留一点余地反而更真诚。",
+      "pinyin": "Yǒuxiē huà bú bì shuō de tài mǎn, gěi bǐcǐ liú yìdiǎn yúdì fǎn’ér gèng zhēnchéng.",
+      "tr": "Bazı sözleri sonuna kadar keskin söylememek, karşılıklı biraz alan bırakmak bazen daha samimidir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_075",
+      "speaker": "刘梅",
+      "zh": "真正的理解并不是完全同意，而是知道对方为什么这样想。",
+      "pinyin": "Zhēnzhèng de lǐjiě bìng bú shì wánquán tóngyì, ér shì zhīdào duìfāng wèishénme zhèyàng xiǎng.",
+      "tr": "Gerçek anlayış tamamen aynı fikirde olmak değil, karşı tarafın neden böyle düşündüğünü bilmektir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_076",
+      "speaker": "张伟",
+      "zh": "回忆会改变细节，却常常保留当时最重要的感受。",
+      "pinyin": "Huíyì huì gǎibiàn xìjié, què chángcháng bǎoliú dāngshí zuì zhòngyào de gǎnshòu.",
+      "tr": "Anılar ayrıntıları değiştirebilir ama çoğu zaman o zamanki en önemli duyguyu korur."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_077",
+      "speaker": "奶奶",
+      "zh": "所谓经验，不是知道所有答案，而是更清楚哪些问题值得先问。",
+      "pinyin": "Suǒwèi jīngyàn, bú shì zhīdào suǒyǒu dá’àn, ér shì gèng qīngchu nǎxiē wèntí zhíde xiān wèn.",
+      "tr": "Deneyim, bütün cevapları bilmek değil; hangi soruların önce sorulmaya değer olduğunu daha iyi bilmektir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_078",
+      "speaker": "张雨桐",
+      "zh": "如果一种传统失去了原来的生活背景，我们也可以重新理解它的意义。",
+      "pinyin": "Rúguǒ yì zhǒng chuántǒng shīqù le yuánlái de shēnghuó bèijǐng, wǒmen yě kěyǐ chóngxīn lǐjiě tā de yìyì.",
+      "tr": "Bir gelenek eski yaşam bağlamını kaybederse anlamını yeniden yorumlayabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_079",
+      "speaker": "刘梅",
+      "zh": "改变并不一定否定过去，有时候恰恰是为了让重要的东西继续留下来。",
+      "pinyin": "Gǎibiàn bìng bù yídìng fǒudìng guòqù, yǒu shíhou qiàqià shì wèile ràng zhòngyào de dōngxi jìxù liú xiàlái.",
+      "tr": "Değişim geçmişi reddetmek değildir; bazen önemli olanın yaşamaya devam etmesi içindir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_080",
+      "speaker": "张伟",
+      "zh": "面对不确定性，最难的往往不是做决定，而是接受没有完美答案。",
+      "pinyin": "Miànduì bù quèdìngxìng, zuì nán de wǎngwǎng bú shì zuò juédìng, ér shì jiēshòu méiyǒu wánměi dá’àn.",
+      "tr": "Belirsizlik karşısında en zor şey çoğu zaman karar vermek değil, kusursuz cevabın olmadığını kabul etmektir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_081",
+      "speaker": "奶奶",
+      "zh": "关系越亲近，越需要把理所当然的事情重新说清楚。",
+      "pinyin": "Guānxì yuè qīnjìn, yuè xūyào bǎ lǐsuǒdāngrán de shìqing chóngxīn shuō qīngchu.",
+      "tr": "İlişki ne kadar yakınsa, kendiliğinden anlaşılır sandığımız şeyleri o kadar yeniden açık etmek gerekir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_082",
+      "speaker": "张雨桐",
+      "zh": "我们能留下来的，未必只是东西，也可能是一种做事和待人的方式。",
+      "pinyin": "Wǒmen néng liú xiàlái de, wèibì zhǐshì dōngxi, yě kěnéng shì yì zhǒng zuòshì hé dàirén de fāngshì.",
+      "tr": "Arkamızda bıraktığımız yalnızca eşyalar olmayabilir; bir çalışma ve insanlara davranma biçimi de olabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_083",
+      "speaker": "刘梅",
+      "zh": "一个地方之所以成为家，往往不是因为房子本身，而是因为在那里积累的关系。",
+      "pinyin": "Yí ge dìfang zhī suǒyǐ chéngwéi jiā, wǎngwǎng bú shì yīnwèi fángzi běnshēn, ér shì yīnwèi zài nàlǐ jīlěi de guānxì.",
+      "tr": "Bir yerin yuva olması çoğu zaman binanın kendisinden değil, orada biriken ilişkilerden kaynaklanır."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_084",
+      "speaker": "张伟",
+      "zh": "有时候我们怀念的不是某个地点，而是那个地点里的自己。",
+      "pinyin": "Yǒu shíhou wǒmen huáiniàn de bú shì mǒu ge dìdiǎn, ér shì nàge dìdiǎn lǐ de zìjǐ.",
+      "tr": "Bazen özlediğimiz belirli bir yer değil, o yerdeki eski halimizdir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_085",
+      "speaker": "奶奶",
+      "zh": "把复杂的问题说得简单是一种能力，但把它说得过分简单也会失真。",
+      "pinyin": "Bǎ fùzá de wèntí shuō de jiǎndān shì yì zhǒng nénglì, dàn bǎ tā shuō de guòfèn jiǎndān yě huì shīzhēn.",
+      "tr": "Karmaşık bir konuyu sade anlatmak beceridir; ama aşırı basitleştirmek gerçeği çarpıtabilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_086",
+      "speaker": "张雨桐",
+      "zh": "真正成熟的决定，通常既看现实条件，也承认人的感情。",
+      "pinyin": "Zhēnzhèng chéngshú de juédìng, tōngcháng jì kàn xiànshí tiáojiàn, yě chéngrèn rén de gǎnqíng.",
+      "tr": "Olgun bir karar genellikle hem gerçek koşulları hem de insan duygularını hesaba katar."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_087",
+      "speaker": "刘梅",
+      "zh": "有些遗憾无法补回来，但可以影响我们以后怎样对待别人。",
+      "pinyin": "Yǒuxiē yíhàn wúfǎ bǔ huílái, dàn kěyǐ yǐngxiǎng wǒmen yǐhòu zěnyàng duìdài biérén.",
+      "tr": "Bazı pişmanlıklar telafi edilemez ama gelecekte başkalarına nasıl davranacağımızı etkileyebilir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_088",
+      "speaker": "张伟",
+      "zh": "危机过去以后，最值得做的不是庆祝结束，而是认真复盘哪里还能更好。",
+      "pinyin": "Wēijī guòqù yǐhòu, zuì zhíde zuò de bú shì qìngzhù jiéshù, ér shì rènzhēn fùpán nǎlǐ hái néng gèng hǎo.",
+      "tr": "Kriz geçtikten sonra yapılacak en değerli şey bitişi kutlamak değil, nerelerin iyileştirilebileceğini ciddi biçimde değerlendirmektir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_089",
+      "speaker": "奶奶",
+      "zh": "一个社区的韧性，常常体现在普通人愿不愿意互相照顾。",
+      "pinyin": "Yí ge shèqū de rènxìng, chángcháng tǐxiàn zài pǔtōng rén yuàn bù yuànyì hùxiāng zhàogù.",
+      "tr": "Bir toplumun dayanıklılığı çoğu zaman sıradan insanların birbirine bakmaya istekli olup olmamasında görülür."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_090",
+      "speaker": "张雨桐",
+      "zh": "退休以后失去的也许是职位，留下来的却是能力、关系和判断。",
+      "pinyin": "Tuìxiū yǐhòu shīqù de yěxǔ shì zhíwèi, liú xiàlái de què shì nénglì, guānxì hé pànduàn.",
+      "tr": "Emeklilikte kaybolan şey belki unvandır; kalan ise beceri, ilişkiler ve muhakemedir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_091",
+      "speaker": "刘梅",
+      "zh": "年龄增长并不自动带来智慧，愿意反思经验才更重要。",
+      "pinyin": "Niánlíng zēngzhǎng bìng bù zìdòng dàilái zhìhuì, yuànyì fǎnsī jīngyàn cái gèng zhòngyào.",
+      "tr": "Yaş almak otomatik olarak bilgelik getirmez; deneyimi düşünmeye istekli olmak daha önemlidir."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_092",
+      "speaker": "张伟",
+      "zh": "我们不能替下一代决定他们的人生，但可以把自己的经验诚实地交给他们。",
+      "pinyin": "Wǒmen bù néng tì xià yí dài juédìng tāmen de rénshēng, dàn kěyǐ bǎ zìjǐ de jīngyàn chéngshí de jiāo gěi tāmen.",
+      "tr": "Bir sonraki kuşağın hayatına onların yerine karar veremeyiz; ama deneyimimizi dürüstçe aktarabiliriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_093",
+      "speaker": "奶奶",
+      "zh": "今天没有把所有问题都解决，但我们已经知道真正重要的是什么。",
+      "pinyin": "Jīntiān méiyǒu bǎ suǒyǒu wèntí dōu jiějué, dàn wǒmen yǐjīng zhīdào zhēnzhèng zhòngyào de shì shénme.",
+      "tr": "Bugün bütün sorunları çözmedik ama gerçekten neyin önemli olduğunu biliyoruz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_094",
+      "speaker": "张雨桐",
+      "zh": "有些答案需要时间验证，我们先把能做的事情做好。",
+      "pinyin": "Yǒuxiē dá’àn xūyào shíjiān yànzhèng, wǒmen xiān bǎ néng zuò de shìqing zuò hǎo.",
+      "tr": "Bazı cevapları zaman doğrulayacak; önce yapabildiğimiz şeyleri iyi yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_095",
+      "speaker": "刘梅",
+      "zh": "至少这次我们没有回避彼此真正关心的问题。",
+      "pinyin": "Zhìshǎo zhè cì wǒmen méiyǒu huíbì bǐcǐ zhēnzhèng guānxīn de wèntí.",
+      "tr": "En azından bu kez birbirimizin gerçekten önemsediği konulardan kaçmadık."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_096",
+      "speaker": "张伟",
+      "zh": "以后再回头看今天，也许我们会有新的理解。",
+      "pinyin": "Yǐhòu zài huítóu kàn jīntiān, yěxǔ wǒmen huì yǒu xīn de lǐjiě.",
+      "tr": "İleride bugüne geri baktığımızda belki yeni bir anlayışımız olacak."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_097",
+      "speaker": "奶奶",
+      "zh": "不管接下来怎么变化，我们还是会继续把日子过下去。",
+      "pinyin": "Bùguǎn jiēxiàlái zěnme biànhuà, wǒmen háishi huì jìxù bǎ rìzi guò xiàqù.",
+      "tr": "Bundan sonra ne değişirse değişsin hayatımızı yaşamaya devam edeceğiz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_098",
+      "speaker": "张雨桐",
+      "zh": "好，今天先到这里，下一步我们一起面对。",
+      "pinyin": "Hǎo, jīntiān xiān dào zhèlǐ, xià yí bù wǒmen yìqǐ miànduì.",
+      "tr": "Tamam, bugünlük burada bitirelim; bir sonraki adımla birlikte yüzleşiriz."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_099",
+      "speaker": "刘梅",
+      "zh": "把今天说过的话记住，比急着证明谁对谁错更重要。",
+      "pinyin": "Bǎ jīntiān shuō guo de huà jìzhù, bǐ jí zhe zhèngmíng shéi duì shéi cuò gèng zhòngyào.",
+      "tr": "Bugün söylenenleri hatırlamak, kimin haklı olduğunu aceleyle kanıtlamaktan daha önemli."
+    },
+    {
+      "id": "DLG_ZH_HSK6_SC005_100",
+      "speaker": "张伟",
+      "zh": "等我们走得再远一点，也许会更明白今天这个决定的意义。",
+      "pinyin": "Děng wǒmen zǒu de zài yuǎn yìdiǎn, yěxǔ huì gèng míngbai jīntiān zhège juédìng de yìyì.",
+      "tr": "Biraz daha yol aldıktan sonra belki bugünkü kararın anlamını daha iyi anlayacağız."
+    }
+  ],
+  "productionStatus": "complete",
+  "miniAdventureTr": "Büyükanne kendi gençliğindeki düğünü ayrıntılı bir hikâye olarak anlatır.",
+  "learning": {
+    "communicationGoals": [
+      "zengin geçmiş anlatımı ve kuşak karşılaştırması"
+    ],
+    "vocabularyTheme": "zengin geçmiş anlatımı ve kuşak karşılaştırması",
+    "grammarTheme": "修辞与语用",
+    "pronunciationTheme": "叙事节奏",
+    "targetActiveVocabularyCount": {
+      "min": 8,
+      "max": 15
+    },
+    "defaultSpeechSpeed": 1.0,
+    "defaultSubtitleMode": "ZH",
+    "vocabularyCards": [
+      {
+        "id": "VOC_ZH_HSK6_SC005_001",
+        "zh": "往事",
+        "pinyin": "wǎngshì",
+        "tr": "geçmiş anılar",
+        "exampleZh": "往事之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+        "examplePinyin": "Wǎngshì zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+        "exampleTr": "Geçmiş anılar önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_002",
+        "zh": "婚俗",
+        "pinyin": "hūnsú",
+        "tr": "düğün gelenekleri",
+        "exampleZh": "如果忽略婚俗，很多看似合理的判断其实会失去依据。",
+        "examplePinyin": "Rúguǒ hūlüè hūnsú, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+        "exampleTr": "Düğün gelenekleri göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_003",
+        "zh": "时代背景",
+        "pinyin": "shídài bèijǐng",
+        "tr": "dönemin bağlamı",
+        "exampleZh": "我想把时代背景放回具体语境里看，这样更容易理解彼此的选择。",
+        "examplePinyin": "Wǒ xiǎng bǎ shídài bèijǐng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+        "exampleTr": "Dönemin bağlamı konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_004",
+        "zh": "回忆",
+        "pinyin": "huíyì",
+        "tr": "anı / hatıra",
+        "exampleZh": "谈到回忆，我更关心的是它背后的意义，而不只是表面的结果。",
+        "examplePinyin": "Tándào huíyì, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+        "exampleTr": "Anı / hatıra konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_005",
+        "zh": "语境",
+        "pinyin": "yǔjìng",
+        "tr": "bağlam",
+        "exampleZh": "语境之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+        "examplePinyin": "Yǔjìng zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+        "exampleTr": "Bağlam önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_006",
+        "zh": "立场",
+        "pinyin": "lìchǎng",
+        "tr": "tutum / bakış açısı",
+        "exampleZh": "如果忽略立场，很多看似合理的判断其实会失去依据。",
+        "examplePinyin": "Rúguǒ hūlüè lìchǎng, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+        "exampleTr": "Tutum / bakış açısı göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_007",
+        "zh": "权衡",
+        "pinyin": "quánhéng",
+        "tr": "dengeleyerek değerlendirmek",
+        "exampleZh": "我想把权衡放回具体语境里看，这样更容易理解彼此的选择。",
+        "examplePinyin": "Wǒ xiǎng bǎ quánhéng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+        "exampleTr": "Dengeleyerek değerlendirmek konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur.",
+        "kind": "review"
+      },
+      {
+        "id": "VOC_ZH_HSK6_SC005_008",
+        "zh": "长期影响",
+        "pinyin": "chángqī yǐngxiǎng",
+        "tr": "uzun vadeli etki",
+        "exampleZh": "谈到长期影响，我更关心的是它背后的意义，而不只是表面的结果。",
+        "examplePinyin": "Tándào chángqī yǐngxiǎng, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+        "exampleTr": "Uzun vadeli etki konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam.",
+        "kind": "review"
+      }
+    ],
+    "sentenceExercises": [
+      {
+        "type": "word_order",
+        "tokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "answerTokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_001",
+        "promptTr": "Kelimeleri doğru sıraya koy."
+      },
+      {
+        "type": "fill_blank",
+        "blankSentenceZh": "他说“路还长”，这里的“路”更像是在___人生。",
+        "options": [
+          "比喻",
+          "计算",
+          "拒绝"
+        ],
+        "answer": "比喻",
+        "id": "SENT_ZH_HSK6_SC005_002",
+        "promptTr": "Boşluğu doğru kelimeyle doldur."
+      },
+      {
+        "type": "sentence_repair",
+        "tokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "answerTokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_003",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt."
+      },
+      {
+        "type": "word_order",
+        "tokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "answerTokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_004",
+        "promptTr": "Kelimeleri doğru sıraya koy."
+      },
+      {
+        "type": "fill_blank",
+        "blankSentenceZh": "他说“路还长”，这里的“路”更像是在___人生。",
+        "options": [
+          "比喻",
+          "计算",
+          "拒绝"
+        ],
+        "answer": "比喻",
+        "id": "SENT_ZH_HSK6_SC005_005",
+        "promptTr": "Boşluğu doğru kelimeyle doldur."
+      },
+      {
+        "type": "sentence_repair",
+        "tokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "answerTokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_006",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt."
+      },
+      {
+        "type": "word_order",
+        "tokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "answerTokens": [
+          "有时候",
+          "一句简单的话",
+          "比",
+          "很长的解释",
+          "更能表达",
+          "真正的感情"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_007",
+        "promptTr": "Kelimeleri doğru sıraya koy."
+      },
+      {
+        "type": "fill_blank",
+        "blankSentenceZh": "他说“路还长”，这里的“路”更像是在___人生。",
+        "options": [
+          "比喻",
+          "计算",
+          "拒绝"
+        ],
+        "answer": "比喻",
+        "id": "SENT_ZH_HSK6_SC005_008",
+        "promptTr": "Boşluğu doğru kelimeyle doldur."
+      },
+      {
+        "type": "sentence_repair",
+        "tokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "answerTokens": [
+          "这句话",
+          "字面意思以外",
+          "还有",
+          "更深的含义"
+        ],
+        "id": "SENT_ZH_HSK6_SC005_009",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt."
+      }
+    ],
+    "comprehensionQuestions": [
+      {
+        "id": "COMP_ZH_HSK6_SC005_001",
+        "questionTr": "Bu sahnenin ana olayı hangisidir?",
+        "optionsTr": [
+          "Büyükannenin Eski Düğün Hikâyesi",
+          "Ailenin ilk taşınma günü",
+          "Basit sayı tekrarı"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK6_SC005_002",
+        "questionTr": "Sahnenin temel iletişim hedefi nedir?",
+        "optionsTr": [
+          "zengin geçmiş anlatımı ve kuşak karşılaştırması",
+          "Yalnızca renk isimlerini saymak",
+          "Sadece selamlaşmak"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK6_SC005_003",
+        "questionTr": "HSK6 düzeyinde bu sahne yalnızca olayı mı, yoksa ima/bağlam/değerleri de mi ele alır?",
+        "optionsTr": [
+          "İma, bağlam ve değerleri de ele alır",
+          "Yalnızca nesne isimlerini öğretir",
+          "Hiç iletişim içermez"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK6_SC005_004",
+        "questionTr": "Karakterlerin farklı bakış açılarını gerekçelendirmesi bekleniyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Sahne sessizdir"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK6_SC005_005",
+        "questionTr": "Sahnenin sonucu sonraki yaşam olaylarıyla süreklilik kuruyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Her sahne tamamen bağımsızdır"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "pronunciationItems": [
+      {
+        "id": "PRON_ZH_HSK6_SC005_001",
+        "zh": "往事之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+        "pinyin": "Wǎngshì zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+        "tr": "Geçmiş anılar önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness",
+          "prosody"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK6_SC005_002",
+        "zh": "如果忽略婚俗，很多看似合理的判断其实会失去依据。",
+        "pinyin": "Rúguǒ hūlüè hūnsú, hěn duō kànshì hélǐ de pànduàn qíshí huì shīqù yījù.",
+        "tr": "Düğün gelenekleri göz ardı edilirse makul görünen birçok değerlendirme aslında dayanağını kaybedebilir.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness",
+          "prosody"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK6_SC005_003",
+        "zh": "我想把时代背景放回具体语境里看，这样更容易理解彼此的选择。",
+        "pinyin": "Wǒ xiǎng bǎ shídài bèijǐng fàng huí jùtǐ yǔjìng lǐ kàn, zhèyàng gèng róngyì lǐjiě bǐcǐ de xuǎnzé.",
+        "tr": "Dönemin bağlamı konusunu somut bağlamına yerleştirirsek birbirimizin seçimlerini anlamak daha kolay olur.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness",
+          "prosody"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK6_SC005_004",
+        "zh": "谈到回忆，我更关心的是它背后的意义，而不只是表面的结果。",
+        "pinyin": "Tándào huíyì, wǒ gèng guānxīn de shì tā bèihòu de yìyì, ér bù zhǐshì biǎomiàn de jiéguǒ.",
+        "tr": "Anı / hatıra konuşulurken benim daha çok önemsediğim, yüzeydeki sonuçtan çok arkasındaki anlam.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness",
+          "prosody"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK6_SC005_005",
+        "zh": "语境之所以重要，是因为它会影响我们接下来怎么理解这件事。",
+        "pinyin": "Yǔjìng zhī suǒyǐ zhòngyào, shì yīnwèi tā huì yǐngxiǎng wǒmen jiēxiàlái zěnme lǐjiě zhè jiàn shì.",
+        "tr": "Bağlam önemli; çünkü bundan sonra bu meseleyi nasıl anlayacağımızı etkiliyor.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness",
+          "prosody"
+        ]
+      }
+    ],
+    "interactiveDialogue": [
+      {
+        "id": "INT_ZH_HSK6_SC005_001",
+        "promptZh": "如果对方的选择和你的价值观不同，你会怎么回应？",
+        "promptPinyin": "Rúguǒ duìfāng de xuǎnzé hé nǐ de jiàzhíguān bùtóng, nǐ huì zěnme huíyìng?",
+        "promptTr": "Karşı tarafın seçimi senin değerlerinle farklıysa nasıl cevap verirsin?",
+        "options": [
+          {
+            "zh": "我未必会做同样的选择，但我想先理解你的理由。",
+            "tr": "Ben aynı seçimi yapmayabilirim ama önce gerekçeni anlamak isterim.",
+            "correct": true
+          },
+          {
+            "zh": "跟我不同就是错的。",
+            "tr": "Benden farklıysa yanlıştır.",
+            "correct": false
+          },
+          {
+            "zh": "不用解释，我不想听。",
+            "tr": "Açıklamana gerek yok, dinlemek istemiyorum.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK6_SC005_002",
+        "promptZh": "谈到往事时，什么做法更符合高级沟通？",
+        "promptPinyin": "Tándào wǎngshì shí, shénme zuòfǎ gèng fúhé gāojí gōutōng?",
+        "promptTr": "Geçmiş anılar konuşulurken hangi yaklaşım ileri düzey iletişime daha uygundur?",
+        "options": [
+          {
+            "zh": "同时考虑语境、关系、事实和长期影响。",
+            "tr": "Bağlamı, ilişkiyi, olguları ve uzun vadeli etkiyi birlikte düşünmek.",
+            "correct": true
+          },
+          {
+            "zh": "只挑最难的词来说。",
+            "tr": "Yalnızca en zor kelimeleri kullanmak.",
+            "correct": false
+          },
+          {
+            "zh": "故意让对方听不懂。",
+            "tr": "Karşı tarafın anlamamasını bilerek sağlamak.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK6_SC005_003",
+        "promptZh": "如果一句话可能让人误解，最合适的做法是什么？",
+        "promptPinyin": "Rúguǒ yí jù huà kěnéng ràng rén wùjiě, zuì héshì de zuòfǎ shì shénme?",
+        "promptTr": "Bir cümle yanlış anlaşılabilecekse en uygun yaklaşım nedir?",
+        "options": [
+          {
+            "zh": "根据关系和语境补充说明，必要时换一种表达。",
+            "tr": "İlişkiye ve bağlama göre açıklamak, gerekirse farklı ifade etmek.",
+            "correct": true
+          },
+          {
+            "zh": "重复同一句话，声音更大。",
+            "tr": "Aynı cümleyi daha yüksek sesle tekrarlamak.",
+            "correct": false
+          },
+          {
+            "zh": "马上结束所有交流。",
+            "tr": "İletişimi hemen bitirmek.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK6_SC005_004",
+        "promptZh": "高级表达最重要的是什么？",
+        "promptPinyin": "Gāojí biǎodá zuì zhòngyào de shì shénme?",
+        "promptTr": "İleri düzey ifadede en önemli şey nedir?",
+        "options": [
+          {
+            "zh": "准确表达意思，同时照顾语气、关系和语境。",
+            "tr": "Anlamı doğru ifade ederken ton, ilişki ve bağlamı da gözetmek.",
+            "correct": true
+          },
+          {
+            "zh": "每句话都必须很长。",
+            "tr": "Her cümlenin mutlaka çok uzun olması.",
+            "correct": false
+          },
+          {
+            "zh": "尽量使用别人不知道的词。",
+            "tr": "Mümkün olduğunca başkalarının bilmediği kelimeleri kullanmak.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "examRules": {
+      "vocabularyPassPercent": 90,
+      "sentencePassPercent": 85,
+      "lockNextSceneUntilPassed": true
+    },
+    "examStages": [
+      {
+        "stage": 1,
+        "type": "vocabulary",
+        "passPercent": 90
+      },
+      {
+        "stage": 2,
+        "type": "sentence",
+        "passPercent": 85,
+        "requiresStage": 1
+      }
+    ],
+    "flashCardPolicy": {
+      "allowPrevious": true,
+      "allowNext": true,
+      "allowFavorite": true,
+      "favoritesStudyMode": true
+    }
+  },
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "story": {
+    "previousSceneId": "ZH_HSK6_SC004",
+    "nextSceneId": "ZH_HSK6_SC006"
+  },
+  "production": {
+    "scenePurposeTr": "Büyükanne kendi gençliğindeki düğünü ayrıntılı bir hikâye olarak anlatır.",
+    "timeOfDay": "evening",
+    "atmosphere": "HSK6 düzeyinde doğal, nüanslı, bağlam ve pragmatik anlamı güçlü; yaşamın ileri dönemleri, miras, kuşaklar, aidiyet ve soyut değerlendirme odaklı Mandarin",
+    "characters": [
+      "奶奶",
+      "张雨桐",
+      "刘梅",
+      "张伟"
+    ],
+    "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+    "visual": {
+      "reuseLocation": true,
+      "newVisualRequired": false,
+      "style": "visual_novel_theatre"
+    },
+    "audio": {
+      "voiceLanguage": "zh-CN",
+      "narratorProfile": "NARRATOR_ZH_001",
+      "defaultSpeechSpeed": 1.0
+    },
+    "animation": {
+      "level": "normal",
+      "mouthMode": "AUTO_SIMPLE",
+      "blink": true,
+      "speakerFocus": true
+    },
+    "continuityNoteTr": "Büyükannenin Eski Düğün Hikâyesi olayı HSK6 yaşam çizgisinde sahne 5 olarak kaydedilir; evlilikler, torunlar, emeklilik, yaşlılık, toplumsal miras ve aile hafızasına ilişkin sonuçlar sonraki sahnelere aktarılır."
+  },
+  "editorialStatus": "generated_full_v1_requires_native_review",
+  "dialogueCount": 100
+}

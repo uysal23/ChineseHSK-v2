@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "policy": "authored_webp_then_compose_fallback",
+  "backgrounds": [
+    {
+      "locationId": "LOC_ZH_OLD_HOME_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_OLD_HOME_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_OLD_STATION_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_OLD_STATION_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TRAIN_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TRAIN_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_NEW_STATION_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_NEW_STATION_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TAXI_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TAXI_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_NEW_HOME_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_NEW_HOME_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_NEIGHBORHOOD_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_NEIGHBORHOOD_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_SUPERMARKET_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_SUPERMARKET_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_HIGH_SCHOOL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PRIMARY_SCHOOL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PRIMARY_SCHOOL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_LICHEN_HOME_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_LICHEN_HOME_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_WORKPLACE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_WORKPLACE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_CANTEEN_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_CANTEEN_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_BUS_STOP_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_BUS_STOP_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PARK_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PARK_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_VET_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_VET_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PET_SHOP_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PET_SHOP_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_COMMUNITY_CENTER_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TRANSIT_OFFICE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TRANSIT_OFFICE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_MARKET_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_MARKET_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_SHOPPING_STREET_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_SHOPPING_STREET_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_APARTMENT_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_APARTMENT_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PHONE_SHOP_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PHONE_SHOP_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_BARBER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_BARBER_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_CLOTHING_STORE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_CLOTHING_STORE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_LOST_FOUND_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_LOST_FOUND_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_COLLEAGUE_HOME_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_COLLEAGUE_HOME_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_LIBRARY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_LIBRARY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_SPORTS_FIELD_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_SPORTS_FIELD_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TEA_HOUSE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TEA_HOUSE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TOWN_CENTER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TOWN_CENTER_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_BANK_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_BANK_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_POST_OFFICE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_POST_OFFICE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_FAMILY_CAFE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_FAMILY_CAFE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_CAFE_PREMISES_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_CAFE_PREMISES_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_GOV_SERVICE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_GOV_SERVICE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_HARDWARE_STORE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_HARDWARE_STORE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_HOTEL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_HOTEL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_CONFERENCE_ROOM_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_FESTIVAL_SQUARE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_FESTIVAL_SQUARE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_GRANDPARENTS_FARM_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_GRANDPARENTS_FARM_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_GRANDPARENTS_HOME_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_GARDEN_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_GARDEN_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_HOSPITAL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_HOSPITAL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_CLINIC_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_CLINIC_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_UNIVERSITY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_UNIVERSITY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_DORM_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_DORM_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TRAVEL_STATION_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TRAVEL_STATION_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TOURIST_SITE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TOURIST_SITE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TOWN_HALL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TOWN_HALL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_MEDIA_STUDIO_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_MEDIA_STUDIO_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_ENVIRONMENT_CENTER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_ENVIRONMENT_CENTER_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_WEDDING_VENUE_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_WEDDING_VENUE_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PHOTO_STUDIO_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PHOTO_STUDIO_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_RELIEF_CENTER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_RELIEF_CENTER_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_NURSERY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_NURSERY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_RETIREMENT_EVENT_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_RETIREMENT_EVENT_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_TRAIN_STATION_MEMORY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_TRAIN_STATION_MEMORY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_RESTAURANT_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_RESTAURANT_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_WALKWAY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_WALKWAY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_SCHOOL_HALL_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_SCHOOL_HALL_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_PHARMACY_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_PHARMACY_001_DAY.webp",
+      "status": "planned"
+    },
+    {
+      "locationId": "LOC_ZH_SPORTS_CENTER_001",
+      "asset": "chinese_course/media/backgrounds/LOC_ZH_SPORTS_CENTER_001_DAY.webp",
+      "status": "planned"
+    }
+  ],
+  "characters": [
+    {
+      "characterId": "CHR_ZH_MIMI_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_MIMI_001/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGWEI_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_ZHANGWEI_001/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_LICHEN_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_LICHEN_001/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGYUTONG_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_ZHANGYUTONG_001/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_LIUMEI_001/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_B9D2559CCA",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_B9D2559CCA/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_60325A5147",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_60325A5147/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_5D2E0E5561",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_5D2E0E5561/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_204FDD1319",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_204FDD1319/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_703C9EB0F0",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_703C9EB0F0/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_55C4E3624C",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_55C4E3624C/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_6245AEC2CC",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_6245AEC2CC/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_32153CE544",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_32153CE544/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_9A8BAC8F22",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_9A8BAC8F22/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F923F777D5",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F923F777D5/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_552CAEB5BD",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_552CAEB5BD/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_BFB3F16221",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_BFB3F16221/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_92D8D1A505",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_92D8D1A505/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_1AAE7AB33E",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_1AAE7AB33E/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_B1D840EFB8",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_B1D840EFB8/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_C560C19C26",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_C560C19C26/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_9834F85DE5",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_9834F85DE5/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F127A03273",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F127A03273/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_6C4DDE3347",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_6C4DDE3347/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_2046426951",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_2046426951/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_805A55CD62",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_805A55CD62/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_FE4C23D628",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_FE4C23D628/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_2F40887367",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_2F40887367/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_6364EB7B27",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_6364EB7B27/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F206870601",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F206870601/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_A12728F620",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_A12728F620/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_C65F4144AC",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_C65F4144AC/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_98DE5A1BF7",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_98DE5A1BF7/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_81D1C7560E",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_81D1C7560E/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_2CC2746FBA",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_2CC2746FBA/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_428ACC9B88",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_428ACC9B88/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_7F81595D7E",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_7F81595D7E/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_EC18B850D1",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_EC18B850D1/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_B1AFF4F424",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_B1AFF4F424/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_76CC8FCDB2",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_76CC8FCDB2/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_93243940EA",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_93243940EA/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_36BF8C76DE",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_36BF8C76DE/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_786C0074D2",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_786C0074D2/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_9777C45086",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_9777C45086/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_E2C47D41FC",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_E2C47D41FC/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_1A5C6636B5",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_1A5C6636B5/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_13F3FBF554",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_13F3FBF554/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F7415783A6",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F7415783A6/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_4E05F85519",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_4E05F85519/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_1DB2CF7215",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_1DB2CF7215/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_12B398FE17",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_12B398FE17/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F01E3EA28A",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F01E3EA28A/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_FB6560225D",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_FB6560225D/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_09FE351CF0",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_09FE351CF0/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_ED1D855FC5",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_ED1D855FC5/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_D490B5FD60",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_D490B5FD60/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_C31ABCCBF3",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_C31ABCCBF3/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_78E3EA6550",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_78E3EA6550/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_BF795B2847",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_BF795B2847/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_7618DACBB7",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_7618DACBB7/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_A5DF8F3581",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_A5DF8F3581/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_78DD9DEA73",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_78DD9DEA73/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_3997F4C8CB",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_3997F4C8CB/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F5F1EF38B5",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F5F1EF38B5/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_A14058D70B",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_A14058D70B/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_506A555294",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_506A555294/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_9589C7E8D7",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_9589C7E8D7/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_5B35265D3B",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_5B35265D3B/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_494F23D624",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_494F23D624/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_F03D7150DE",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_F03D7150DE/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_3565841434",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_3565841434/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_746068397C",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_746068397C/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_3936DA578D",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_3936DA578D/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_B34606F759",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_B34606F759/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_E985EDCD56",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_E985EDCD56/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_EA7324E618",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_EA7324E618/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_187B0C5C47",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_187B0C5C47/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_1714E8E2E7",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_1714E8E2E7/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_BB1B142996",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_BB1B142996/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_73DE665A67",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_73DE665A67/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_E8DC56F318",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_E8DC56F318/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_CD31FEBA04",
+      "asset": "chinese_course/media/characters/CHR_ZH_AUTO_CD31FEBA04/base.webp",
+      "status": "planned"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGLELE_001",
+      "asset": "chinese_course/media/characters/CHR_ZH_ZHANGLELE_001/base.webp",
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chinese HSK Scene",
+  "type": "object",
+  "required": [
+    "id",
+    "level",
+    "number",
+    "titleZh",
+    "titleTr",
+    "complete",
+    "dialogues",
+    "learning"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ZH_HSK[1-6]_SC[0-9]{3}$"
+    },
+    "level": {
+      "enum": [
+        "HSK1",
+        "HSK2",
+        "HSK3",
+        "HSK4",
+        "HSK5",
+        "HSK6"
+      ]
+    },
+    "number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    },
+    "titleZh": {
+      "type": "string"
+    },
+    "titleTr": {
+      "type": "string"
+    },
+    "complete": {
+      "type": "boolean"
+    },
+    "learning": {
+      "type": "object",
+      "properties": {
+        "vocabularyCards": {
+          "type": "array"
+        },
+        "sentenceExercises": {
+          "type": "array"
+        },
+        "examRules": {
+          "type": "object",
+          "properties": {
+            "vocabularyPassPercent": {
+              "const": 90
+            },
+            "sentencePassPercent": {
+              "const": 85
+            },
+            "lockNextSceneUntilPassed": {
+              "const": true
+            }
+          }
+        }
+      }
+    },
+    "dialogues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "speaker",
+          "zh",
+          "pinyin",
+          "tr"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "zh": {
+            "type": "string"
+          },
+          "pinyin": {
+            "type": "string"
+          },
+          "tr": {
+            "type": "string"
+          },
+          "emotion": {
+            "type": "string"
+          },
+          "actionTr": {
+            "type": "string"
+          },
+          "audioAsset": {
+            "type": "string"
+          },
+          "sfxAsset": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "production": {
+      "type": "object",
+      "properties": {
+        "locationId": {
+          "type": "string"
+        },
+        "timeOfDay": {
+          "type": "string"
+        },
+        "atmosphere": {
+          "type": "string"
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visual": {
+          "type": "object"
+        },
+        "audio": {
+          "type": "object"
+        },
+        "animation": {
+          "type": "object"
+        }
+      }
+    },
+    "narrator": {
+      "type": "object",
+      "properties": {
+        "profileId": {
+          "type": "string"
+        },
+        "zh": {
+          "type": "string"
+        },
+        "pinyin": {
+          "type": "string"
+        },
+        "tr": {
+          "type": "string"
+        },
+        "audioAsset": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$comment": "v1.2.0: runtime validator is authoritative. Scene production can reference reusable visual/audio catalogs; authored binary media is optional because Compose/TTS fallbacks are supported."
+}

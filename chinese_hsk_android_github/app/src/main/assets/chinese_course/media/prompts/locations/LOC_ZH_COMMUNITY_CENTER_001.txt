@@ -1,0 +1,10 @@
+ASSET ID: LOC_ZH_COMMUNITY_CENTER_001_DAY
+STYLE: semi-realistic 2D illustrated visual-novel art, contemporary China, clean shapes, soft painterly shading, believable anatomy, warm human expressions, cinematic but everyday realism
+LOCATION: 社区活动中心 / Topluluk merkezi.
+LAYOUT LOCK: multi-purpose community hall with movable tables, bulletin wall, storage side, small stage at rear.
+FIXED DETAILS: neutral light walls, stackable chairs, practical flooring, red/blue accents used sparingly.
+MOOD: functional, inclusive, volunteer-friendly.
+CAMERA: eye-level 16:9 reusable visual-novel background, wide enough for 3-4 character layers, keep major furniture/doors/windows in stable positions.
+OUTPUT: empty environment plate, daylight master, 1280x720 runtime target (larger source master allowed).
+NEGATIVE: no celebrity likeness, no exaggerated anime proportions, no chibi, no fantasy costume, no glamorized luxury, no warped hands, no extra fingers, no embedded subtitles, no logos, no watermarks; no primary story characters; no readable text baked into signs.
+FUTURE VARIANTS: NIGHT, RAIN, HOLIDAY only by changing light/weather/decor; never move architecture or fixed furniture.

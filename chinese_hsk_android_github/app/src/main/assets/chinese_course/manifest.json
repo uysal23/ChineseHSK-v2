@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "projectId": "CHINESE_HSK_LIFE_JOURNEY_001",
+  "levels": [
+    {
+      "id": "HSK1",
+      "title": "HSK1",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "Yeni kasabaya taşınma ve ilk aylar",
+      "blueprintReadyScenes": 50
+    },
+    {
+      "id": "HSK2",
+      "title": "HSK2",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "İlk yıl, günlük düzen ve sosyal çevrenin oluşması",
+      "blueprintReadyScenes": 50
+    },
+    {
+      "id": "HSK3",
+      "title": "HSK3",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "Kök salma, kafe fikri ve aile yaşamının genişlemesi",
+      "blueprintReadyScenes": 50
+    },
+    {
+      "id": "HSK4",
+      "title": "HSK4",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "Kafe büyümesi, gençlik yılları ve büyükanne-büyükbabanın gelişi",
+      "blueprintReadyScenes": 50
+    },
+    {
+      "id": "HSK5",
+      "title": "HSK5",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "Yetişkin çocuklar, kariyer, toplum ve karmaşık kararlar",
+      "blueprintReadyScenes": 50
+    },
+    {
+      "id": "HSK6",
+      "title": "HSK6",
+      "sceneCount": 50,
+      "completeScenes": 50,
+      "storyArc": "Evlilik, torunlar, emeklilik, yaşlılık ve miras",
+      "blueprintReadyScenes": 50
+    }
+  ]
+}

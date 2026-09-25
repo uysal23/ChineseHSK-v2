@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 2,
+  "locations": [
+    {
+      "id": "LOC_ZH_OLD_HOME_001",
+      "nameZh": "旧家",
+      "nameTr": "Eski ev",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_OLD_HOME_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_OLD_STATION_001",
+      "nameZh": "旧城火车站",
+      "nameTr": "Eski şehir istasyonu",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_OLD_STATION_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TRAIN_001",
+      "nameZh": "火车",
+      "nameTr": "Tren",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TRAIN_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_NEW_STATION_001",
+      "nameZh": "新城火车站",
+      "nameTr": "Yeni kasaba istasyonu",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_NEW_STATION_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TAXI_001",
+      "nameZh": "出租车",
+      "nameTr": "Taksi",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TAXI_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_NEW_HOME_001",
+      "nameZh": "新家",
+      "nameTr": "Yeni ev",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_NEW_HOME_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_NEIGHBORHOOD_001",
+      "nameZh": "新社区",
+      "nameTr": "Yeni mahalle",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_NEIGHBORHOOD_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_SUPERMARKET_001",
+      "nameZh": "社区超市",
+      "nameTr": "Mahalle marketi",
+      "theme": "market",
+      "icon": "市",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_SUPERMARKET_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_HIGH_SCHOOL_001",
+      "nameZh": "新城高中",
+      "nameTr": "Lise",
+      "theme": "school",
+      "icon": "学",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_HIGH_SCHOOL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PRIMARY_SCHOOL_001",
+      "nameZh": "新城小学",
+      "nameTr": "İlkokul",
+      "theme": "school",
+      "icon": "学",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PRIMARY_SCHOOL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_LICHEN_HOME_001",
+      "nameZh": "李晨家",
+      "nameTr": "Li Chen’in evi",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_LICHEN_HOME_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_WORKPLACE_001",
+      "nameZh": "张伟的工作单位",
+      "nameTr": "Zhang’ın iş yeri",
+      "theme": "work",
+      "icon": "工",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_WORKPLACE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_CANTEEN_001",
+      "nameZh": "公司食堂",
+      "nameTr": "İş yeri yemekhanesi",
+      "theme": "cafe",
+      "icon": "☕",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_CANTEEN_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_BUS_STOP_001",
+      "nameZh": "公交车站",
+      "nameTr": "Otobüs durağı",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_BUS_STOP_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PARK_001",
+      "nameZh": "社区公园",
+      "nameTr": "Park",
+      "theme": "nature",
+      "icon": "🌳",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PARK_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_VET_001",
+      "nameZh": "宠物医院",
+      "nameTr": "Veteriner kliniği",
+      "theme": "health",
+      "icon": "医",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_VET_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PET_SHOP_001",
+      "nameZh": "宠物用品店",
+      "nameTr": "Pet mağazası",
+      "theme": "market",
+      "icon": "店",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PET_SHOP_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_COMMUNITY_CENTER_001",
+      "nameZh": "社区活动中心",
+      "nameTr": "Topluluk merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_COMMUNITY_CENTER_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TRANSIT_OFFICE_001",
+      "nameZh": "公交服务中心",
+      "nameTr": "Toplu taşıma merkezi",
+      "theme": "work",
+      "icon": "工",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TRANSIT_OFFICE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_MARKET_001",
+      "nameZh": "菜市场",
+      "nameTr": "Semt pazarı",
+      "theme": "market",
+      "icon": "市",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_MARKET_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_SHOPPING_STREET_001",
+      "nameZh": "商业街",
+      "nameTr": "Alışveriş caddesi",
+      "theme": "market",
+      "icon": "店",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_SHOPPING_STREET_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_APARTMENT_001",
+      "nameZh": "公寓楼",
+      "nameTr": "Apartman",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_APARTMENT_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PHONE_SHOP_001",
+      "nameZh": "手机店",
+      "nameTr": "Telefon mağazası",
+      "theme": "market",
+      "icon": "店",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PHONE_SHOP_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_BARBER_001",
+      "nameZh": "理发店",
+      "nameTr": "Berber",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_BARBER_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_CLOTHING_STORE_001",
+      "nameZh": "服装店",
+      "nameTr": "Giyim mağazası",
+      "theme": "market",
+      "icon": "店",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_CLOTHING_STORE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_LOST_FOUND_001",
+      "nameZh": "失物招领处",
+      "nameTr": "Kayıp eşya bürosu",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_LOST_FOUND_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_COLLEAGUE_HOME_001",
+      "nameZh": "同事家",
+      "nameTr": "İş arkadaşının evi",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_COLLEAGUE_HOME_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_LIBRARY_001",
+      "nameZh": "图书馆",
+      "nameTr": "Kütüphane",
+      "theme": "school",
+      "icon": "学",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_LIBRARY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_SPORTS_FIELD_001",
+      "nameZh": "学校运动场",
+      "nameTr": "Spor alanı",
+      "theme": "market",
+      "icon": "市",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_SPORTS_FIELD_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TEA_HOUSE_001",
+      "nameZh": "茶馆",
+      "nameTr": "Çay evi",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TEA_HOUSE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TOWN_CENTER_001",
+      "nameZh": "市中心",
+      "nameTr": "Şehir merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TOWN_CENTER_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_BANK_001",
+      "nameZh": "银行",
+      "nameTr": "Banka",
+      "theme": "service",
+      "icon": "银",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_BANK_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_POST_OFFICE_001",
+      "nameZh": "邮局",
+      "nameTr": "Postane",
+      "theme": "work",
+      "icon": "工",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_POST_OFFICE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_FAMILY_CAFE_001",
+      "nameZh": "梅香咖啡馆",
+      "nameTr": "Aile kafesi",
+      "theme": "cafe",
+      "icon": "☕",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_FAMILY_CAFE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_CAFE_PREMISES_001",
+      "nameZh": "街角旧店",
+      "nameTr": "Kafe için eski köşe dükkânı",
+      "theme": "cafe",
+      "icon": "☕",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_CAFE_PREMISES_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_GOV_SERVICE_001",
+      "nameZh": "政务服务中心",
+      "nameTr": "Resmî hizmet merkezi",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_GOV_SERVICE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_HARDWARE_STORE_001",
+      "nameZh": "装修材料店",
+      "nameTr": "Tadilat malzemeleri mağazası",
+      "theme": "market",
+      "icon": "店",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_HARDWARE_STORE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_HOTEL_001",
+      "nameZh": "商务酒店",
+      "nameTr": "Otel",
+      "theme": "hotel",
+      "icon": "旅",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_HOTEL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_CONFERENCE_ROOM_001",
+      "nameZh": "会议室",
+      "nameTr": "Toplantı odası",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_CONFERENCE_ROOM_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_FESTIVAL_SQUARE_001",
+      "nameZh": "社区节日广场",
+      "nameTr": "Festival alanı",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_FESTIVAL_SQUARE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_GRANDPARENTS_FARM_001",
+      "nameZh": "爷爷奶奶的农场",
+      "nameTr": "Büyükanne-büyükbabanın çiftliği",
+      "theme": "market",
+      "icon": "市",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_GRANDPARENTS_FARM_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_GRANDPARENTS_HOME_001",
+      "nameZh": "爷爷奶奶的新家",
+      "nameTr": "Büyükanne-büyükbabanın yeni evi",
+      "theme": "home",
+      "icon": "家",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_GRANDPARENTS_HOME_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_GARDEN_001",
+      "nameZh": "社区菜园",
+      "nameTr": "Bahçe / topluluk bahçesi",
+      "theme": "nature",
+      "icon": "🌳",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_GARDEN_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_HOSPITAL_001",
+      "nameZh": "新城医院",
+      "nameTr": "Hastane",
+      "theme": "health",
+      "icon": "医",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_HOSPITAL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_CLINIC_001",
+      "nameZh": "社区诊所",
+      "nameTr": "Sağlık kliniği",
+      "theme": "health",
+      "icon": "医",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_CLINIC_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_UNIVERSITY_001",
+      "nameZh": "新城大学",
+      "nameTr": "Üniversite",
+      "theme": "school",
+      "icon": "学",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_UNIVERSITY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_DORM_001",
+      "nameZh": "大学宿舍",
+      "nameTr": "Üniversite yurdu",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_DORM_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TRAVEL_STATION_001",
+      "nameZh": "旅行车站",
+      "nameTr": "Seyahat istasyonu",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TRAVEL_STATION_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TOURIST_SITE_001",
+      "nameZh": "旅游景区",
+      "nameTr": "Turistik bölge",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TOURIST_SITE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TOWN_HALL_001",
+      "nameZh": "社区议事中心",
+      "nameTr": "Yerel danışma/toplantı merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TOWN_HALL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_MEDIA_STUDIO_001",
+      "nameZh": "地方媒体工作室",
+      "nameTr": "Yerel medya stüdyosu",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_MEDIA_STUDIO_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_ENVIRONMENT_CENTER_001",
+      "nameZh": "环保活动中心",
+      "nameTr": "Çevre etkinlik merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_ENVIRONMENT_CENTER_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_WEDDING_VENUE_001",
+      "nameZh": "婚礼场地",
+      "nameTr": "Düğün mekânı",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_WEDDING_VENUE_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PHOTO_STUDIO_001",
+      "nameZh": "乐乐摄影工作室",
+      "nameTr": "Lele fotoğraf stüdyosu",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PHOTO_STUDIO_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_RELIEF_CENTER_001",
+      "nameZh": "社区救助中心",
+      "nameTr": "Topluluk yardım merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_RELIEF_CENTER_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_NURSERY_001",
+      "nameZh": "母婴护理中心",
+      "nameTr": "Doğum / bebek bakım alanı",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_NURSERY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_RETIREMENT_EVENT_001",
+      "nameZh": "公司告别会场",
+      "nameTr": "Emeklilik veda alanı",
+      "theme": "generic",
+      "icon": "场",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_RETIREMENT_EVENT_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_TRAIN_STATION_MEMORY_001",
+      "nameZh": "新城老火车站",
+      "nameTr": "Eski/yeni kasaba tren istasyonu",
+      "theme": "transport",
+      "icon": "🚉",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_TRAIN_STATION_MEMORY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_RESTAURANT_001",
+      "nameZh": "社区餐厅",
+      "nameTr": "Restoran",
+      "theme": "cafe",
+      "icon": "☕",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_RESTAURANT_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_WALKWAY_001",
+      "nameZh": "河边步道",
+      "nameTr": "Yürüyüş yolu",
+      "theme": "nature",
+      "icon": "🌳",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_WALKWAY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_SCHOOL_HALL_001",
+      "nameZh": "学校礼堂",
+      "nameTr": "Okul salonu",
+      "theme": "school",
+      "icon": "学",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_SCHOOL_HALL_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_PHARMACY_001",
+      "nameZh": "社区药店",
+      "nameTr": "Eczane",
+      "theme": "health",
+      "icon": "医",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_PHARMACY_001_DAY.webp"
+    },
+    {
+      "id": "LOC_ZH_SPORTS_CENTER_001",
+      "nameZh": "社区运动中心",
+      "nameTr": "Spor merkezi",
+      "theme": "community",
+      "icon": "人",
+      "backgroundAsset": "chinese_course/media/backgrounds/LOC_ZH_SPORTS_CENTER_001_DAY.webp"
+    }
+  ]
+}

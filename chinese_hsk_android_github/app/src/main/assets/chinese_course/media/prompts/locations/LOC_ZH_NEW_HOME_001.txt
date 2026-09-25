@@ -1,0 +1,10 @@
+ASSET ID: LOC_ZH_NEW_HOME_001_DAY
+STYLE: semi-realistic 2D illustrated visual-novel art, contemporary China, clean shapes, soft painterly shading, believable anatomy, warm human expressions, cinematic but everyday realism
+LOCATION: 张家新家 / Zhang ailesinin yeni evi.
+LAYOUT LOCK: modern modest three-bedroom apartment; open living-dining zone, kitchen opening at rear-right, hallway to bedrooms on left, balcony windows across rear wall.
+FIXED DETAILS: light oak floor, warm off-white walls, grey fabric sofa, rectangular wood dining table, low media cabinet, family photo shelf added gradually.
+MOOD: warm lived-in family home, practical not luxurious.
+CAMERA: eye-level 16:9 reusable visual-novel background, wide enough for 3-4 character layers, keep major furniture/doors/windows in stable positions.
+OUTPUT: empty environment plate, daylight master, 1280x720 runtime target (larger source master allowed).
+NEGATIVE: no celebrity likeness, no exaggerated anime proportions, no chibi, no fantasy costume, no glamorized luxury, no warped hands, no extra fingers, no embedded subtitles, no logos, no watermarks; no primary story characters; no readable text baked into signs.
+FUTURE VARIANTS: NIGHT, RAIN, HOLIDAY only by changing light/weather/decor; never move architecture or fixed furniture.

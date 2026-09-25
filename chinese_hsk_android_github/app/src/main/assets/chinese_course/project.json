@@ -1,0 +1,32 @@
+{
+  "projectId": "CHINESE_HSK_LIFE_JOURNEY_001",
+  "titleTr": "Çince Yolculuğu",
+  "titleZh": "中文人生之旅",
+  "script": "Simplified Chinese",
+  "spokenStandard": "普通话",
+  "supportLanguage": "tr-TR",
+  "offlineFirst": true,
+  "levels": [
+    "HSK1",
+    "HSK2",
+    "HSK3",
+    "HSK4",
+    "HSK5",
+    "HSK6"
+  ],
+  "targetSceneCount": 300,
+  "targetDialogueTurnsPerScene": "90-110",
+  "learningFlow": {
+    "flashCards": true,
+    "persistentFavorites": true,
+    "favoriteStudyMode": true,
+    "sentenceExerciseTypes": [
+      "word_order",
+      "fill_blank",
+      "sentence_repair"
+    ],
+    "exam1VocabularyPassPercent": 90,
+    "exam2SentencePassPercent": 85,
+    "unlockNextSceneAfterBothExams": true
+  }
+}

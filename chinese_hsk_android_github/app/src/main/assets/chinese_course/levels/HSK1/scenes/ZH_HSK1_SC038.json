@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": 2,
+  "id": "ZH_HSK1_SC038",
+  "level": "HSK1",
+  "number": 38,
+  "titleZh": "掉在地上的冰淇淋",
+  "titleTr": "Dondurma Kazası",
+  "productionStatus": "complete",
+  "complete": true,
+  "miniAdventureTr": "Lele’nin dondurması yere düşer; aile yenisini alıp onu neşelendirir.",
+  "learning": {
+    "communicationGoals": [
+      "duygu ifade etmek",
+      "bir tane daha istemek",
+      "tat söylemek"
+    ],
+    "vocabularyTheme": "dondurma, tatlar, duygular",
+    "grammarTheme": "别难过, 再来一个, 我喜欢…味",
+    "pronunciationTheme": "nánguò",
+    "targetActiveVocabularyCount": {
+      "min": 3,
+      "max": 6
+    },
+    "defaultSpeechSpeed": 0.8,
+    "defaultSubtitleMode": "ZH_PINYIN_TR",
+    "vocabularyCards": [
+      {
+        "id": "VOC_ZH_HSK1_SC038_001",
+        "zh": "冰淇淋",
+        "pinyin": "bīngqílín",
+        "tr": "dondurma",
+        "exampleZh": "这是冰淇淋。",
+        "examplePinyin": "Zhè shì bīngqílín.",
+        "exampleTr": "Bu dondurma.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_002",
+        "zh": "公园",
+        "pinyin": "gōngyuán",
+        "tr": "park",
+        "exampleZh": "这是公园。",
+        "examplePinyin": "Zhè shì gōngyuán.",
+        "exampleTr": "Bu park.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_003",
+        "zh": "孩子",
+        "pinyin": "háizi",
+        "tr": "çocuk",
+        "exampleZh": "这是孩子。",
+        "examplePinyin": "Zhè shì háizi.",
+        "exampleTr": "Bu çocuk.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_004",
+        "zh": "钱",
+        "pinyin": "qián",
+        "tr": "para",
+        "exampleZh": "这是钱。",
+        "examplePinyin": "Zhè shì qián.",
+        "exampleTr": "Bu para.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_005",
+        "zh": "元",
+        "pinyin": "yuán",
+        "tr": "yuan",
+        "exampleZh": "这是元。",
+        "examplePinyin": "Zhè shì yuán.",
+        "exampleTr": "Bu yuan.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_006",
+        "zh": "饭",
+        "pinyin": "fàn",
+        "tr": "yemek",
+        "exampleZh": "这是饭。",
+        "examplePinyin": "Zhè shì fàn.",
+        "exampleTr": "Bu yemek.",
+        "kind": "active"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_007",
+        "zh": "朋友",
+        "pinyin": "péngyou",
+        "tr": "arkadaş",
+        "exampleZh": "这是朋友。",
+        "examplePinyin": "Zhè shì péngyou.",
+        "exampleTr": "Bu arkadaş.",
+        "kind": "review"
+      },
+      {
+        "id": "VOC_ZH_HSK1_SC038_008",
+        "zh": "今天",
+        "pinyin": "jīntiān",
+        "tr": "bugün",
+        "exampleZh": "今天很好。",
+        "examplePinyin": "Jīntiān hěn hǎo.",
+        "exampleTr": "Bugün çok güzel.",
+        "kind": "review"
+      }
+    ],
+    "sentenceExercises": [
+      {
+        "id": "SENT_ZH_HSK1_SC038_001",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "冰淇淋",
+          "在",
+          "这里"
+        ],
+        "answerTokens": [
+          "冰淇淋",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_002",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "这是___。",
+        "options": [
+          "冰淇淋",
+          "公园",
+          "孩子"
+        ],
+        "answer": "冰淇淋"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_003",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "这里",
+          "在",
+          "公园"
+        ],
+        "answerTokens": [
+          "公园",
+          "在",
+          "这里"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_004",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "这是",
+          "孩子"
+        ],
+        "answerTokens": [
+          "这是",
+          "孩子"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_005",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "公园在___。",
+        "options": [
+          "这里",
+          "谢谢",
+          "很好"
+        ],
+        "answer": "这里"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_006",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "在哪儿",
+          "冰淇淋"
+        ],
+        "answerTokens": [
+          "冰淇淋",
+          "在哪儿"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_007",
+        "type": "word_order",
+        "promptTr": "Kelimeleri doğru sıraya koy.",
+        "tokens": [
+          "我",
+          "喜欢",
+          "孩子"
+        ],
+        "answerTokens": [
+          "我",
+          "喜欢",
+          "孩子"
+        ]
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_008",
+        "type": "fill_blank",
+        "promptTr": "Boşluğu doğru kelimeyle doldur.",
+        "blankSentenceZh": "___，谢谢。",
+        "options": [
+          "好的",
+          "在哪儿",
+          "不是"
+        ],
+        "answer": "好的"
+      },
+      {
+        "id": "SENT_ZH_HSK1_SC038_009",
+        "type": "sentence_repair",
+        "promptTr": "Yanlış sıradaki cümleyi düzelt.",
+        "tokens": [
+          "一起",
+          "我们",
+          "吧"
+        ],
+        "answerTokens": [
+          "我们",
+          "一起",
+          "吧"
+        ]
+      }
+    ],
+    "comprehensionQuestions": [
+      {
+        "id": "COMP_ZH_HSK1_SC038_001",
+        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "optionsTr": [
+          "Dondurma Kazası",
+          "Bir havaalanı yolculuğu",
+          "Bir spor maçı"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC038_002",
+        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Belli değil"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC038_003",
+        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "optionsTr": [
+          "Evet",
+          "Hayır",
+          "Sahne bitmiyor"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "COMP_ZH_HSK1_SC038_004",
+        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "optionsTr": [
+          "Zhang ailesinin yeni kasabadaki yaşamına",
+          "Bir tarih belgeseline",
+          "Bir spor turnuvasına"
+        ],
+        "correctIndex": 0
+      }
+    ],
+    "pronunciationItems": [
+      {
+        "id": "PRON_ZH_HSK1_SC038_001",
+        "zh": "这是冰淇淋。",
+        "pinyin": "Zhè shì bīngqílín.",
+        "tr": "Bu dondurma.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC038_002",
+        "zh": "这是公园。",
+        "pinyin": "Zhè shì gōngyuán.",
+        "tr": "Bu park.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC038_003",
+        "zh": "这是孩子。",
+        "pinyin": "Zhè shì háizi.",
+        "tr": "Bu çocuk.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      },
+      {
+        "id": "PRON_ZH_HSK1_SC038_004",
+        "zh": "这是钱。",
+        "pinyin": "Zhè shì qián.",
+        "tr": "Bu para.",
+        "scoring": [
+          "pronunciation",
+          "toneAccuracy",
+          "fluency",
+          "timing",
+          "completeness"
+        ]
+      }
+    ],
+    "interactiveDialogue": [
+      {
+        "id": "INT_ZH_HSK1_SC038_001",
+        "promptZh": "冰淇淋在哪儿？",
+        "promptPinyin": "Bīngqílín zài nǎr?",
+        "promptTr": "Dondurma nerede?",
+        "options": [
+          {
+            "zh": "在这里。",
+            "tr": "Burada.",
+            "correct": true
+          },
+          {
+            "zh": "谢谢。",
+            "tr": "Teşekkürler.",
+            "correct": false
+          },
+          {
+            "zh": "我很好。",
+            "tr": "Ben iyiyim.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC038_002",
+        "promptZh": "这是公园吗？",
+        "promptPinyin": "Zhè shì gōngyuán ma?",
+        "promptTr": "Bu park mı?",
+        "options": [
+          {
+            "zh": "对，是的。",
+            "tr": "Evet.",
+            "correct": true
+          },
+          {
+            "zh": "我叫张伟。",
+            "tr": "Benim adım Zhang Wei.",
+            "correct": false
+          },
+          {
+            "zh": "明天见。",
+            "tr": "Yarın görüşürüz.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "INT_ZH_HSK1_SC038_003",
+        "promptZh": "你喜欢孩子吗？",
+        "promptPinyin": "Nǐ xǐhuan háizi ma?",
+        "promptTr": "Çocuk seviyor musun?",
+        "options": [
+          {
+            "zh": "喜欢。",
+            "tr": "Seviyorum.",
+            "correct": true
+          },
+          {
+            "zh": "在右边。",
+            "tr": "Sağ tarafta.",
+            "correct": false
+          },
+          {
+            "zh": "五点。",
+            "tr": "Saat beş.",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "examRules": {
+      "vocabularyPassPercent": 90,
+      "sentencePassPercent": 85,
+      "lockNextSceneUntilPassed": true
+    },
+    "examStages": [
+      {
+        "stage": 1,
+        "type": "vocabulary",
+        "passPercent": 90
+      },
+      {
+        "stage": 2,
+        "type": "sentence",
+        "passPercent": 85,
+        "requiresStage": 1
+      }
+    ],
+    "flashCardPolicy": {
+      "allowPrevious": true,
+      "allowNext": true,
+      "allowFavorite": true,
+      "favoritesStudyMode": true
+    }
+  },
+  "locationId": "LOC_ZH_PARK_001",
+  "story": {
+    "previousSceneId": "ZH_HSK1_SC037",
+    "nextSceneId": "ZH_HSK1_SC039"
+  },
+  "dialogues": [
+    {
+      "id": "DLG_ZH_HSK1_SC038_001",
+      "speaker": "张乐乐",
+      "zh": "乐乐买了一个冰淇淋。",
+      "pinyin": "Lèlè mǎi le yí ge bīngqílín.",
+      "tr": "Lele bir dondurma aldı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_002",
+      "speaker": "刘梅",
+      "zh": "是吗？",
+      "pinyin": "Shì ma?",
+      "tr": "Öyle mi?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_003",
+      "speaker": "张伟",
+      "zh": "对。",
+      "pinyin": "Duì.",
+      "tr": "Evet."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_004",
+      "speaker": "店员",
+      "zh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "tr": "Hazır mısınız?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_005",
+      "speaker": "张乐乐",
+      "zh": "准备好了。",
+      "pinyin": "Zhǔnbèi hǎo le.",
+      "tr": "Hazırız."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_006",
+      "speaker": "刘梅",
+      "zh": "你要冰淇淋吗？",
+      "pinyin": "Nǐ yào bīngqílín ma?",
+      "tr": "Dondurma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_007",
+      "speaker": "张伟",
+      "zh": "我要冰淇淋，谢谢。",
+      "pinyin": "Wǒ yào bīngqílín, xièxie.",
+      "tr": "Dondurma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_008",
+      "speaker": "店员",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_009",
+      "speaker": "张乐乐",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_010",
+      "speaker": "刘梅",
+      "zh": "公园在哪儿？",
+      "pinyin": "Gōngyuán zài nǎr?",
+      "tr": "Park nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_011",
+      "speaker": "张伟",
+      "zh": "公园在那边。",
+      "pinyin": "Gōngyuán zài nàbian.",
+      "tr": "Park şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_012",
+      "speaker": "店员",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_013",
+      "speaker": "张乐乐",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_014",
+      "speaker": "刘梅",
+      "zh": "这是我们的孩子。",
+      "pinyin": "Zhè shì wǒmen de háizi.",
+      "tr": "Bu bizim çocuk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_015",
+      "speaker": "张伟",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_016",
+      "speaker": "店员",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_017",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_018",
+      "speaker": "刘梅",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_019",
+      "speaker": "张伟",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_020",
+      "speaker": "店员",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎr?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_021",
+      "speaker": "张乐乐",
+      "zh": "钱在这里。",
+      "pinyin": "Qián zài zhèlǐ.",
+      "tr": "Para burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_022",
+      "speaker": "刘梅",
+      "zh": "冰淇淋掉在地上了。",
+      "pinyin": "Bīngqílín diào zài dìshang le.",
+      "tr": "Dondurma yere düştü."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_023",
+      "speaker": "张伟",
+      "zh": "别急。",
+      "pinyin": "Bié jí.",
+      "tr": "Panik yapma."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_024",
+      "speaker": "店员",
+      "zh": "我来看看。",
+      "pinyin": "Wǒ lái kànkan.",
+      "tr": "Ben bir bakayım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_025",
+      "speaker": "张乐乐",
+      "zh": "我们一起吧。",
+      "pinyin": "Wǒmen yìqǐ ba.",
+      "tr": "Birlikte yapalım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_026",
+      "speaker": "刘梅",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
+      "tr": "Tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_027",
+      "speaker": "张伟",
+      "zh": "这是元吗？",
+      "pinyin": "Zhè shì yuán ma?",
+      "tr": "Bu, yuan mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_028",
+      "speaker": "店员",
+      "zh": "对，这是元。",
+      "pinyin": "Duì, zhè shì yuán.",
+      "tr": "Evet, bu yuan."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_029",
+      "speaker": "张乐乐",
+      "zh": "元在哪儿？",
+      "pinyin": "Yuán zài nǎr?",
+      "tr": "Yuan nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_030",
+      "speaker": "刘梅",
+      "zh": "元在这里。",
+      "pinyin": "Yuán zài zhèlǐ.",
+      "tr": "Yuan burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_031",
+      "speaker": "张伟",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_032",
+      "speaker": "店员",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_033",
+      "speaker": "张乐乐",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_034",
+      "speaker": "刘梅",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_035",
+      "speaker": "张伟",
+      "zh": "这是我们的朋友。",
+      "pinyin": "Zhè shì wǒmen de péngyou.",
+      "tr": "Bu bizim arkadaş."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_036",
+      "speaker": "店员",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_037",
+      "speaker": "张乐乐",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_038",
+      "speaker": "刘梅",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_039",
+      "speaker": "张伟",
+      "zh": "今天忙吗？",
+      "pinyin": "Jīntiān máng ma?",
+      "tr": "Bugün yoğun musun?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_040",
+      "speaker": "店员",
+      "zh": "有一点。",
+      "pinyin": "Yǒu yìdiǎn.",
+      "tr": "Biraz."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_041",
+      "speaker": "张乐乐",
+      "zh": "没关系。",
+      "pinyin": "Méi guānxi.",
+      "tr": "Sorun değil."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_042",
+      "speaker": "刘梅",
+      "zh": "我们继续。",
+      "pinyin": "Wǒmen jìxù.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_043",
+      "speaker": "张伟",
+      "zh": "家人给他买了一个新的。",
+      "pinyin": "Jiārén gěi tā mǎi le yí ge xīn de.",
+      "tr": "Ailesi ona yeni bir tane aldı."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_044",
+      "speaker": "店员",
+      "zh": "太好了！",
+      "pinyin": "Tài hǎo le!",
+      "tr": "Harika!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_045",
+      "speaker": "张乐乐",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxie nǐ.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_046",
+      "speaker": "刘梅",
+      "zh": "不客气。",
+      "pinyin": "Bú kèqi.",
+      "tr": "Rica ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_047",
+      "speaker": "张伟",
+      "zh": "现在好了。",
+      "pinyin": "Xiànzài hǎo le.",
+      "tr": "Şimdi tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_048",
+      "speaker": "店员",
+      "zh": "我们继续。",
+      "pinyin": "Wǒmen jìxù.",
+      "tr": "Devam edelim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_049",
+      "speaker": "张乐乐",
+      "zh": "你要冰淇淋吗？",
+      "pinyin": "Nǐ yào bīngqílín ma?",
+      "tr": "Dondurma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_050",
+      "speaker": "刘梅",
+      "zh": "我要冰淇淋，谢谢。",
+      "pinyin": "Wǒ yào bīngqílín, xièxie.",
+      "tr": "Dondurma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_051",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_052",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_053",
+      "speaker": "张乐乐",
+      "zh": "公园在哪儿？",
+      "pinyin": "Gōngyuán zài nǎr?",
+      "tr": "Park nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_054",
+      "speaker": "刘梅",
+      "zh": "公园在那边。",
+      "pinyin": "Gōngyuán zài nàbian.",
+      "tr": "Park şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_055",
+      "speaker": "张伟",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_056",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_057",
+      "speaker": "张乐乐",
+      "zh": "这是我们的孩子。",
+      "pinyin": "Zhè shì wǒmen de háizi.",
+      "tr": "Bu bizim çocuk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_058",
+      "speaker": "刘梅",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_059",
+      "speaker": "张伟",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_060",
+      "speaker": "店员",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_061",
+      "speaker": "张乐乐",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_062",
+      "speaker": "刘梅",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_063",
+      "speaker": "张伟",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎr?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_064",
+      "speaker": "店员",
+      "zh": "钱在这里。",
+      "pinyin": "Qián zài zhèlǐ.",
+      "tr": "Para burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_065",
+      "speaker": "张乐乐",
+      "zh": "这是元吗？",
+      "pinyin": "Zhè shì yuán ma?",
+      "tr": "Bu, yuan mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_066",
+      "speaker": "刘梅",
+      "zh": "对，这是元。",
+      "pinyin": "Duì, zhè shì yuán.",
+      "tr": "Evet, bu yuan."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_067",
+      "speaker": "张伟",
+      "zh": "元在哪儿？",
+      "pinyin": "Yuán zài nǎr?",
+      "tr": "Yuan nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_068",
+      "speaker": "店员",
+      "zh": "元在这里。",
+      "pinyin": "Yuán zài zhèlǐ.",
+      "tr": "Yuan burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_069",
+      "speaker": "张乐乐",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_070",
+      "speaker": "刘梅",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_071",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_072",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_073",
+      "speaker": "张乐乐",
+      "zh": "你要冰淇淋吗？",
+      "pinyin": "Nǐ yào bīngqílín ma?",
+      "tr": "Dondurma ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_074",
+      "speaker": "刘梅",
+      "zh": "我要冰淇淋，谢谢。",
+      "pinyin": "Wǒ yào bīngqílín, xièxie.",
+      "tr": "Dondurma istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_075",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_076",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_077",
+      "speaker": "张乐乐",
+      "zh": "公园在哪儿？",
+      "pinyin": "Gōngyuán zài nǎr?",
+      "tr": "Park nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_078",
+      "speaker": "刘梅",
+      "zh": "公园在那边。",
+      "pinyin": "Gōngyuán zài nàbian.",
+      "tr": "Park şu tarafta."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_079",
+      "speaker": "张伟",
+      "zh": "我明白了。",
+      "pinyin": "Wǒ míngbai le.",
+      "tr": "Anladım."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_080",
+      "speaker": "店员",
+      "zh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "tr": "Teşekkür ederim."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_081",
+      "speaker": "张乐乐",
+      "zh": "这是我们的孩子。",
+      "pinyin": "Zhè shì wǒmen de háizi.",
+      "tr": "Bu bizim çocuk."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_082",
+      "speaker": "刘梅",
+      "zh": "你好！",
+      "pinyin": "Nǐ hǎo!",
+      "tr": "Merhaba!"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_083",
+      "speaker": "张伟",
+      "zh": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "tr": "Tanıştığımıza memnun oldum."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_084",
+      "speaker": "店员",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_085",
+      "speaker": "张乐乐",
+      "zh": "这是钱吗？",
+      "pinyin": "Zhè shì qián ma?",
+      "tr": "Bu, para mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_086",
+      "speaker": "刘梅",
+      "zh": "对，这是钱。",
+      "pinyin": "Duì, zhè shì qián.",
+      "tr": "Evet, bu para."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_087",
+      "speaker": "张伟",
+      "zh": "钱在哪儿？",
+      "pinyin": "Qián zài nǎr?",
+      "tr": "Para nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_088",
+      "speaker": "店员",
+      "zh": "钱在这里。",
+      "pinyin": "Qián zài zhèlǐ.",
+      "tr": "Para burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_089",
+      "speaker": "张乐乐",
+      "zh": "这是元吗？",
+      "pinyin": "Zhè shì yuán ma?",
+      "tr": "Bu, yuan mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_090",
+      "speaker": "刘梅",
+      "zh": "对，这是元。",
+      "pinyin": "Duì, zhè shì yuán.",
+      "tr": "Evet, bu yuan."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_091",
+      "speaker": "张伟",
+      "zh": "元在哪儿？",
+      "pinyin": "Yuán zài nǎr?",
+      "tr": "Yuan nerede?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_092",
+      "speaker": "店员",
+      "zh": "元在这里。",
+      "pinyin": "Yuán zài zhèlǐ.",
+      "tr": "Yuan burada."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_093",
+      "speaker": "张乐乐",
+      "zh": "你要饭吗？",
+      "pinyin": "Nǐ yào fàn ma?",
+      "tr": "Yemek ister misin?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_094",
+      "speaker": "刘梅",
+      "zh": "我要饭，谢谢。",
+      "pinyin": "Wǒ yào fàn, xièxie.",
+      "tr": "Yemek istiyorum, teşekkürler."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_095",
+      "speaker": "张伟",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
+      "tr": "Olur."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_096",
+      "speaker": "店员",
+      "zh": "今天学了很多。",
+      "pinyin": "Jīntiān xué le hěn duō.",
+      "tr": "Bugün çok şey öğrendik."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_097",
+      "speaker": "张乐乐",
+      "zh": "我也是。",
+      "pinyin": "Wǒ yě shì.",
+      "tr": "Ben de."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_098",
+      "speaker": "刘梅",
+      "zh": "都好了吗？",
+      "pinyin": "Dōu hǎo le ma?",
+      "tr": "Her şey tamam mı?"
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_099",
+      "speaker": "张伟",
+      "zh": "都好了。",
+      "pinyin": "Dōu hǎo le.",
+      "tr": "Her şey tamam."
+    },
+    {
+      "id": "DLG_ZH_HSK1_SC038_100",
+      "speaker": "店员",
+      "zh": "走吧。",
+      "pinyin": "Zǒu ba.",
+      "tr": "Hadi gidelim."
+    }
+  ],
+  "production": {
+    "scenePurposeTr": "Lele’nin dondurması yere düşer; aile yenisini alıp onu neşelendirir.",
+    "timeOfDay": "day",
+    "atmosphere": "sıcak, doğal, günlük yaşam odaklı",
+    "characters": [
+      "张乐乐",
+      "刘梅",
+      "张伟",
+      "店员"
+    ],
+    "locationId": "LOC_ZH_PARK_001",
+    "visual": {
+      "reuseLocation": true,
+      "newVisualRequired": false,
+      "style": "visual_novel_theatre"
+    },
+    "audio": {
+      "voiceLanguage": "zh-CN",
+      "narratorProfile": "NARRATOR_ZH_001",
+      "defaultSpeechSpeed": 0.8
+    },
+    "animation": {
+      "level": "minimal",
+      "mouthMode": "AUTO_SIMPLE",
+      "blink": true,
+      "speakerFocus": true
+    },
+    "continuityNoteTr": "Dondurma Kazası olayı ana aile kronolojisinde sahne 38 olarak kaydedilir."
+  },
+  "editorialStatus": "generated_full_v1_requires_native_review",
+  "dialogueCount": 100
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "policy": "authored_asset_then_offline_tts_fallback",
+  "dialogueConvention": "chinese_course/media/audio/dialogues/<DIALOGUE_ID>.opus",
+  "narratorConvention": "chinese_course/media/audio/narrator/<SCENE_ID>.opus",
+  "ambienceConvention": "chinese_course/media/ambience/<LOCATION_ID>.opus",
+  "musicConvention": "chinese_course/media/music/<SCENE_ID>.opus",
+  "assets": {}
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "visual": {
+    "planned": {
+      "background": 60,
+      "character": 33
+    },
+    "present": {},
+    "fallback": "compose_stage"
+  },
+  "audio": {
+    "planned": {
+      "dialogue": 30000,
+      "ambience": 63,
+      "music": 300
+    },
+    "present": {},
+    "speechFallback": "offline_android_mandarin_tts",
+    "soundscapeFallback": "silent"
+  },
+  "personalBuildReadyWithoutAuthoredMedia": true,
+  "commercialMediaReviewRequired": true
+}
