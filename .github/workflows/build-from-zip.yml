@@ -260,6 +260,7 @@ jobs:
 
           python3 "$GITHUB_WORKSPACE/ci/validate_voice_cast.py"
           python3 "$GITHUB_WORKSPACE/ci/validate_visual_cast_alignment.py"
+          python3 "$GITHUB_WORKSPACE/ci/validate_visual_continuity_lock.py"
 
           # Authoring blueprints are compiled first because they overwrite scene JSONs.
           # Apply the FINAL v5 scene-coherent dialogue corpus only after compilation so it
@@ -281,6 +282,37 @@ jobs:
           python3 -m pip install --disable-pip-version-check "Pillow>=12,<13"
           sudo apt-get update
           sudo apt-get install -y ffmpeg
+
+      - name: Apply finalized HSK1 SC001 visual
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk1_sc001_final_chunks"
+          B64="$RUNNER_TEMP/hsk1-sc001-final.b64"
+          WEBP="$RUNNER_TEMP/ZH_HSK1_SC001.webp"
+          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+
+          test -d "$CHUNK_DIR"
+          mkdir -p "$SCENE_DIR"
+          cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"
+          base64 -d "$B64" > "$WEBP"
+          echo "3938c690017300b1a203c04069240a81db42f04ec9038f3aeca9aebd8a05d21b  $WEBP" | sha256sum -c -
+
+          python3 - "$WEBP" "$SCENE_DIR/ZH_HSK1_SC001.webp" <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import shutil, sys
+
+          src = Path(sys.argv[1])
+          dst = Path(sys.argv[2])
+          with Image.open(src) as im:
+              if im.size != (941, 1672):
+                  raise SystemExit(f"Unexpected SC001 dimensions: {im.size}")
+              if im.format != "WEBP":
+                  raise SystemExit(f"Unexpected SC001 format: {im.format}")
+          shutil.copy2(src, dst)
+          print("Applied finalized HSK1 SC001 visual: 941x1672 WEBP.")
+          PY
 
       - name: Apply generated HSK3 scene overrides
         shell: bash
