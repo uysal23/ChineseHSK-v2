@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC002",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC002.json",
+  "titleTr": "Tren Biletleri Nerede?",
+  "locationId": "LOC_ZH_OLD_HOME_001",
+  "scenePurposeTr": "Aile evden çıkmaya hazırlanırken Lele kendi tren biletini bulamaz.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "tren biletleri",
+    "çanta/sırt çantası",
+    "bavullar",
+    "taşınma kutuları",
+    "ev çıkış kapısı"
+  ],
+  "visualDirectionTr": "SC001'in hemen devamı. Aynı eski ev, aynı aile görünümü ve benzer kıyafet sürekliliği. Lele tren biletini arıyor; diğer aile üyeleri çıkışa hazırlanıyor. Bilet görünür ama görselde okunabilir yazı yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC001",
+    "nextSceneId": "ZH_HSK1_SC003"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}
