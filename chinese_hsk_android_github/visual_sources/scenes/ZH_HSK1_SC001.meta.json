@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC001",
+  "manifestVersion": "LOCKED_V2",
+  "batchId": "HSK1_SC001_SC010",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC001.json",
+  "dialogueSha256": "16090b36a3900a7ebfed25b0184bdaec00a4ee6e3a0ebf4b5ec30913754dbdb7",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "王师傅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "王师傅",
+    "咪咪"
+  ],
+  "criticalObjects": [
+    "搬家纸箱",
+    "书",
+    "门",
+    "猫/猫包",
+    "房间/厨房方向"
+  ],
+  "scenePurposeTr": "Nakliye ekibi erken gelir; kutular karışır ve aile son eşyaları düzenler.",
+  "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC001.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true
+  },
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
