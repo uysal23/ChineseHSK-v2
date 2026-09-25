@@ -329,7 +329,8 @@ jobs:
           mkdir -p "$RAW" "$SCENE_DIR"
           cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"
           base64 -d "$B64" > "$ZIP"
-          echo "e9fadc19f313f8b135bebd7b297011b2bafc6d086cd98587576b1e0e6d82fa04  $ZIP" | sha256sum -c -
+          EXPECTED_SHA="$(cat "$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle.sha256")"
+          echo "$EXPECTED_SHA  $ZIP" | sha256sum -c -
           unzip -q -o "$ZIP" -d "$RAW"
 
           python3 - "$RAW" "$SCENE_DIR" <<'PY'
@@ -339,7 +340,7 @@ jobs:
 
           raw = Path(sys.argv[1]) / "scenes"
           scene_dir = Path(sys.argv[2])
-          wanted = {f"ZH_HSK3_SC{i:03d}" for i in range(11, 30)}
+          wanted = {f"ZH_HSK3_SC{i:03d}" for i in range(11, 31)}
           files = sorted(raw.glob("ZH_HSK3_SC*.webp"))
           found = {p.stem for p in files}
 
@@ -354,32 +355,9 @@ jobs:
                       raise SystemExit(f"Unexpected dimensions for {p.name}: {im.size}")
               shutil.copy2(p, scene_dir / p.name)
 
-          print(f"Applied {len(files)} generated HSK3 scene overrides (SC011-SC029).")
+          print(f"Applied {len(files)} generated HSK3 scene overrides (SC011-SC030).")
           PY
 
-          SC030_CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk3_sc030_chunks"
-          SC030_B64="$RUNNER_TEMP/hsk3-sc030.b64"
-          SC030_WEBP="$RUNNER_TEMP/ZH_HSK3_SC030.webp"
-          cat "$SC030_CHUNK_DIR"/chunk-*.b64 > "$SC030_B64"
-          base64 -d "$SC030_B64" > "$SC030_WEBP"
-          echo "d6c40a2be950489bae64ffd7f88aaec1f0d39e0b79563d4760362965a729c73c  $SC030_WEBP" | sha256sum -c -
-
-          python3 - "$SC030_WEBP" "$SCENE_DIR" <<'PY'
-          from pathlib import Path
-          from PIL import Image
-          import shutil, sys
-
-          src = Path(sys.argv[1])
-          scene_dir = Path(sys.argv[2])
-          dest = scene_dir / "ZH_HSK3_SC030.webp"
-
-          with Image.open(src) as im:
-              if im.size != (941, 1672):
-                  raise SystemExit(f"Unexpected dimensions for {src.name}: {im.size}")
-
-          shutil.copy2(src, dest)
-          print("Applied generated HSK3 scene override SC030.")
-          PY
 
       - name: Materialize canonical runtime backgrounds
         shell: bash
