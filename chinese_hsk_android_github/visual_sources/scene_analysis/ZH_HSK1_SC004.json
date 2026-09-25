@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC004",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC004.json",
+  "titleTr": "Trende İlk Kahvaltı",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Çocuklar trende yiyecek ister ve aile vagondaki satıcıdan alışveriş yapar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "售货员"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "售货员"
+  ],
+  "criticalObjects": [
+    "tren koltukları",
+    "kahvaltı tepsisi/servis arabası",
+    "ekmek",
+    "içecek/bardak",
+    "pencere"
+  ],
+  "visualDirectionTr": "Aile aynı vagonda birlikte oturuyor; vagon satıcısı kahvaltı sunuyor. Beş konuşan kişi de net görünür. Sıcak sabah/gündüz ışığı, tren yolculuğu devamlılığı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC003",
+    "nextSceneId": "ZH_HSK1_SC005"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}
