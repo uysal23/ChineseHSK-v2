@@ -412,15 +412,15 @@ fun SceneStage(
     val theme = location?.theme ?: "generic"
     val colors = palette(theme, scene.production.timeOfDay)
 
-    // Stable cast order: speaker changes must never make characters jump to different positions.
+    // Stable cast order: never truncate speakers.  Truncating the cast used to make any
+    // fifth-or-later speaker fall back to slot 0, which put the marker on the wrong person.
     val cast = remember(scene.id) {
         (scene.production.characters + scene.dialogues.map { it.speaker })
             .filter { it.isNotBlank() && it != "旁白" }
             .distinct()
-            .take(4)
     }
 
-    val activeIndex = cast.indexOf(activeSpeaker).let { if (it < 0) 0 else it }
+    val activeIndex = cast.indexOf(activeSpeaker)
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
@@ -464,20 +464,27 @@ fun SceneStage(
                     val infinite = rememberInfiniteTransition(label = "assetMotion-$name")
                     val bob by infinite.animateFloat(-1f, 1.5f, infiniteRepeatable(tween(if (isActive) 820 else 1400), RepeatMode.Reverse), label = "assetBob")
 
-                    if (portraitBitmap != null) {
-                        Image(
-                            bitmap = portraitBitmap,
-                            contentDescription = name,
-                            modifier = Modifier
-                                .fillMaxHeight(if (isActive) 0.98f else 0.90f)
-                                .widthIn(min = 96.dp, max = 174.dp)
-                                .offset(y = bob.dp)
-                                .scale(scale)
-                                .alpha(if (isActive) 1f else .92f),
-                            contentScale = ContentScale.Fit
-                        )
-                    } else {
-                        CartoonCharacter(name, profile, isActive, isSpeaking, colors.accent)
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxHeight(),
+                        contentAlignment = Alignment.BottomCenter
+                    ) {
+                        if (portraitBitmap != null) {
+                            Image(
+                                bitmap = portraitBitmap,
+                                contentDescription = name,
+                                modifier = Modifier
+                                    .fillMaxHeight(if (isActive) 0.98f else 0.90f)
+                                    .fillMaxWidth()
+                                    .offset(y = bob.dp)
+                                    .scale(scale)
+                                    .alpha(if (isActive) 1f else .92f),
+                                contentScale = ContentScale.Fit
+                            )
+                        } else {
+                            CartoonCharacter(name, profile, isActive, isSpeaking, colors.accent)
+                        }
                     }
                 }
             }
@@ -485,14 +492,18 @@ fun SceneStage(
         }
         // The dialogue text lives in the bottom subtitle panel.  The stage bubble is
         // intentionally empty: it only marks the character whose turn it is to speak.
-        if (dialogueZh.isNotBlank() && activeSpeaker.isNotBlank()) {
+        // Only show the mouth marker when character positions are actually known.
+        // A pre-rendered scene image has no per-character mouth coordinates; guessing from
+        // cast order produced misleading markers over the wrong person.
+        if (
+            dialogueZh.isNotBlank() &&
+            activeSpeaker.isNotBlank() &&
+            activeIndex >= 0 &&
+            sceneArtBitmap == null
+        ) {
             BoxWithConstraints(Modifier.fillMaxSize()) {
-                val mouthXFraction = when (cast.size.coerceAtLeast(1)) {
-                    1 -> 0.50f
-                    2 -> if (activeIndex == 0) 0.32f else 0.68f
-                    3 -> listOf(0.22f, 0.50f, 0.78f)[activeIndex.coerceIn(0, 2)]
-                    else -> listOf(0.15f, 0.38f, 0.62f, 0.85f)[activeIndex.coerceIn(0, 3)]
-                }
+                val mouthXFraction =
+                    ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat()).coerceIn(0.08f, 0.92f)
                 val bubbleWidth = 46.dp
                 val bubbleHeight = 28.dp
                 val placeOnRight = mouthXFraction <= 0.50f
