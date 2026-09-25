@@ -218,6 +218,8 @@ jobs:
 
           if [ "$VALID" -eq 1 ]; then
             cp -a "$RAW/chinese_course" "$DEST/"
+            cp "$RAW/chinese_course/media/audio_manifest.json" "$RUNNER_TEMP/generated-audio-manifest.json"
+            echo "GENERATED_AUDIO_MANIFEST=$RUNNER_TEMP/generated-audio-manifest.json" >> "$GITHUB_ENV"
             echo "Installed validated generated Mandarin voice pack."
           else
             rm -rf "$DEST/chinese_course/media/audio/generated"
@@ -474,6 +476,53 @@ jobs:
           path: ${{ runner.temp }}/visual-production-metadata/
           if-no-files-found: error
           retention-days: 30
+
+      - name: Restore generated Mandarin audio manifest
+        if: ${{ env.GENERATED_AUDIO_MANIFEST != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          MANIFEST="$GENERATED_AUDIO_MANIFEST"
+          DEST="$SRC/app/src/main/assets/chinese_course/media/audio_manifest.json"
+          test -f "$MANIFEST"
+          cp "$MANIFEST" "$DEST"
+
+          python3 - "$DEST" "$SRC/app/src/main/assets" <<'PY'
+          import json, sys
+          from pathlib import Path
+
+          manifest = Path(sys.argv[1])
+          assets_root = Path(sys.argv[2])
+          data = json.loads(manifest.read_text(encoding="utf-8"))
+          assets = data.get("assets", {})
+          if len(assets) != 30000:
+              raise SystemExit(f"Expected 30000 generated audio mappings, got {len(assets)}")
+
+          required = [f"DLG_ZH_HSK1_SC001_{i:03d}" for i in range(1, 101)]
+          missing_ids = [dialogue_id for dialogue_id in required if not assets.get(dialogue_id)]
+          if missing_ids:
+              raise SystemExit(f"HSK1 SC001 manifest mappings missing: {missing_ids[:10]}")
+
+          missing_files = []
+          for dialogue_id in required:
+              rel = assets[dialogue_id]
+              p = assets_root / rel
+              if not p.exists() or p.stat().st_size < 256:
+                  missing_files.append((dialogue_id, rel))
+          if missing_files:
+              raise SystemExit(f"HSK1 SC001 generated audio files missing: {missing_files[:10]}")
+
+          # Full-pack path validation keeps TTS fallback only for genuine runtime failures.
+          for dialogue_id, rel in assets.items():
+              p = assets_root / rel
+              if not p.exists() or p.stat().st_size < 256:
+                  raise SystemExit(f"Generated audio file missing for {dialogue_id}: {rel}")
+
+          print(
+              f"Restored generated audio manifest: {len(assets)} mappings; "
+              "HSK1 SC001 100/100 mapped files verified."
+          )
+          PY
 
       - name: Build personal APK
         working-directory: ${{ env.SRC }}
