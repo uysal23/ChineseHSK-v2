@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC008",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC008.json",
+  "titleTr": "Li Chen ile Tanışma",
+  "locationId": "LOC_ZH_NEW_STATION_001",
+  "scenePurposeTr": "Li Chen aileye yardım teklif eder; bu tanışma uzun bir dostluğun başlangıcı olur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "bavullar",
+    "istasyon çıkışı",
+    "yardım eli/jesti",
+    "seyahat çantası"
+  ],
+  "visualDirectionTr": "SC007 ile aynı yeni istasyon. Li Chen canonical kimliğiyle aileye yaklaşmış, yardım teklif ediyor. Dostluk başlangıcını sıcak göz teması ve doğal beden diliyle göster.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC007",
+    "nextSceneId": "ZH_HSK1_SC009"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}
