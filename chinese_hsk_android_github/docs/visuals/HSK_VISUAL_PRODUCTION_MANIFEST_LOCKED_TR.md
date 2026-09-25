@@ -32,3 +32,4 @@ Bu belge HSK1–HSK6 sahne görselleri için kilitli üretim ve GitHub entegrasy
 ## GitHub patch protokolü
 
 Her sahne için minimum değişiklik seti: `media/scenes/<sceneId>.webp` + `visual_sources/scenes/<sceneId>.meta.json` + `visual_batch_status.json`. 10 sahnelik paket tamamlandığında doğrulama PASS olmadan build onayı istenmez.
+27. Üretilen her görsel, GitHub'a veya uygulama assetlerine eklenmeden önce görsel olarak tekrar kontrol edilir. Diyalog/karakter/mekan/obje/stil/metinsizlik/9:16/giyim/süreklilik maddelerinden herhangi biri bozuksa görsel otomatik olarak REDDEDİLİR; final sayılmaz, sahneye bağlanmaz, batch tamamlanmış kabul edilmez ve yeniden üretilir.

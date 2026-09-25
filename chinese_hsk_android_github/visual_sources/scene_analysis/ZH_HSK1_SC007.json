@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC007",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC007.json",
+  "titleTr": "İstasyonda Karışıklık",
+  "locationId": "LOC_ZH_NEW_STATION_001",
+  "scenePurposeTr": "Nakliye firmasından kimse görünmez; aile telefonla ne yapacağını anlamaya çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "工作人员",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "工作人员",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "telefon",
+    "bavullar",
+    "yeni şehir istasyon alanı",
+    "görevli yardım noktası"
+  ],
+  "visualDirectionTr": "Yeni şehir istasyonunda aile nakliye ekibini bulamamış; telefona bakıyor ve görevliye soruyor. Hafif karışıklık ama güvenli/sakin duygu. Konuşan dört kişi net görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC006",
+    "nextSceneId": "ZH_HSK1_SC008"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}

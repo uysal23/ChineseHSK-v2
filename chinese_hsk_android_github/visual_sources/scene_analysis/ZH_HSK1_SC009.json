@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC009",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC009.json",
+  "titleTr": "İlk Taksi Yolculuğu",
+  "locationId": "LOC_ZH_TAXI_001",
+  "scenePurposeTr": "Taksi şoförü adresi yanlış anlar; Li Chen doğru yolu açıklamaya yardım eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "司机"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "司机"
+  ],
+  "criticalObjects": [
+    "taksi",
+    "adres notu/telefon",
+    "bavul",
+    "şehir yolu"
+  ],
+  "visualDirectionTr": "Dört konuşan kişi görünür: baba, anne, Li Chen ve şoför. Taksi içinde/yanında adres karışıklığı konuşuluyor; Li Chen açıklama yapıyor. Kağıt/telefon üzerindeki yazı okunabilir olmamalı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC008",
+    "nextSceneId": "ZH_HSK1_SC010"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC005",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC005.json",
+  "titleTr": "Kayıp Oyuncak",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Lele oyuncak trenini bulamaz; herkes koltukların çevresine bakar.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "oyuncak tren",
+    "tren koltukları",
+    "koltuk altı/yanı",
+    "küçük seyahat çantası"
+  ],
+  "visualDirectionTr": "SC004 ile aynı vagon ve aynı aile kıyafetleri. Lele oyuncak trenini arıyor; aile koltukların çevresine bakıyor. Oyuncak tren sahnede bulunabilir ama ilk bakışta biraz gizli kalabilir; yine de anlaşılır olmalı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC004",
+    "nextSceneId": "ZH_HSK1_SC006"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}

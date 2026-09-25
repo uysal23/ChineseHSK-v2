@@ -23,5 +23,9 @@
   "buildRequiresActiveBatchReady": true,
   "syncWorkflow": ".github/workflows/sync-source-to-build-inputs.yml",
   "legacyBuildZipMirror": "chinese_hsk_android_github_v2.0.0.zip",
-  "legacySceneMirror": "ci/runtime_visuals"
+  "legacySceneMirror": "ci/runtime_visuals",
+  "postGenerationVisualQARequired": true,
+  "rejectOnAnyManifestMismatch": true,
+  "neverIntegrateRejectedGeneration": true,
+  "finalImageRequiresHumanVisibleInspection": true
 }
