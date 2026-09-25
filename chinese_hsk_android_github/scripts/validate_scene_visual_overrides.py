@@ -3,7 +3,7 @@ import argparse, hashlib, json, re, sys
 from pathlib import Path
 from PIL import Image
 
-SCENE_RE = re.compile(r"^ZH_(HSK[1-6])_SC(\\d{3})$")
+SCENE_RE = re.compile(r"^ZH_(HSK[1-6])_SC(\d{3})$")
 REQUIRED_CHECKS = {
     "dialogueChecked", "castChecked", "allDialogueSpeakersVisible",
     "requiredNonSpeakerCharactersChecked", "previousNextContinuityChecked",
