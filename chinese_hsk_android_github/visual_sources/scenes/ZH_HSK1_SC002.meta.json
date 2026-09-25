@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC002",
+  "manifestVersion": "LOCKED_V2",
+  "batchId": "HSK1_SC001_SC010",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC002.json",
+  "dialogueSha256": "e394ac5b5841618f3f63937f52d3472d8162e9fcf9403e932d088e137e051d2d",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "火车票 / tren bileti",
+    "包 / çanta",
+    "bavul",
+    "taşınma kutuları",
+    "门 / çıkış kapısı",
+    "猫 / kedi"
+  ],
+  "scenePurposeTr": "Aile evden çıkmaya hazırlanırken Lele kendi tren biletini bulamaz; bilet çantada bulunur ve aile yola çıkmaya hazır hale gelir.",
+  "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC002.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "2100dd75a0f7789e53499c220262d87b27898fdabcb1539bc2c6ecff97440c2c"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "settingMatch": true,
+    "criticalObjectsMatch": true,
+    "visualPolicyMatch": true,
+    "userApprovedPlacement": true
+  },
+  "status": "FINAL_SOURCE_OVERRIDE"
+}

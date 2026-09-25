@@ -20,12 +20,13 @@
       "ZH_HSK1_SC010"
     ],
     "completedSceneIds": [
-      "ZH_HSK1_SC001"
+      "ZH_HSK1_SC001",
+      "ZH_HSK1_SC002"
     ],
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC001 final. SC002-SC010 GitHub kaynak diyaloglarından analiz edildi ve final görsel bekliyor. 10/10 final görsel tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez.",
+    "noteTr": "SC001 ve SC002 final görselleri uygulamaya bağlandı. SC003-SC010 final görselleri bekliyor. 10/10 tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez.",
     "analyzedSceneIds": [
       "ZH_HSK1_SC001",
       "ZH_HSK1_SC002",
