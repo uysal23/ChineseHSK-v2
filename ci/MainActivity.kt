@@ -37,6 +37,9 @@ private val PurpleBottom = Color(0xFF211132)
 private val Accent = Color(0xFFFFC857)
 
 private val speakerRoleTr = mapOf(
+    "旁白" to "Anlatıcı",
+    "张伟" to "Zhang Wei", "刘梅" to "Liu Mei", "张雨桐" to "Yutong", "张乐乐" to "Lele",
+    "李晨" to "Li Chen", "咪咪" to "Mimi",
     "旁白" to "Anlatıcı", "主持人" to "Sunucu", "乘客" to "Yolcu", "亲家" to "Dünür",
     "伴侣" to "Partner", "供应商" to "Tedarikçi", "保安" to "Güvenlik", "公司职员" to "Şirket çalışanı",
     "兽医" to "Veteriner", "创业者" to "Girişimci", "助理" to "Asistan", "医生" to "Doktor",
