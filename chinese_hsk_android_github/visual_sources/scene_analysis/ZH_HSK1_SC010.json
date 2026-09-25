@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC010",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC010.json",
+  "titleTr": "Yeni Evin Kapısı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Anahtar ilk denemede kapıyı açmaz; doğru anahtarı bulurlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "yeni ev kapısı",
+    "anahtar demeti",
+    "bavullar",
+    "taşınma kutuları"
+  ],
+  "visualDirectionTr": "Yeni evin girişinde dört aile üyesi birlikte; ilk anahtar olmuyor, doğru anahtarı bulmaya çalışıyorlar. SC009'dan varış devamlılığı, sıcak umutlu yeni başlangıç hissi.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC009",
+    "nextSceneId": "ZH_HSK1_SC011"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}
