@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK1_SC006",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC006.json",
+  "titleTr": "Yeni Kasabayı İlk Görüş",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Tren yeni kasabaya yaklaşırken aile pencereden gördüklerini konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "geniş tren penceresi",
+    "yeni kasaba manzarası",
+    "uzakta okul/şehir yapıları",
+    "tren koltukları"
+  ],
+  "visualDirectionTr": "SC004-SC005 ile aynı vagon. Dört aile üyesi pencereden yeni kasabaya bakıyor; heyecan ve yeni başlangıç duygusu. Şehir ve okul hissi uzakta görsel olarak seçilebilir, yazı yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC005",
+    "nextSceneId": "ZH_HSK1_SC007"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true
+  }
+}
