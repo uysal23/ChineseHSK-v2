@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": "LOCKED_V2",
+  "batchSize": 10,
+  "activeBatch": {
+    "batchId": "HSK1_SC001_SC010",
+    "level": "HSK1",
+    "startScene": 1,
+    "endScene": 10,
+    "sceneIds": [
+      "ZH_HSK1_SC001",
+      "ZH_HSK1_SC002",
+      "ZH_HSK1_SC003",
+      "ZH_HSK1_SC004",
+      "ZH_HSK1_SC005",
+      "ZH_HSK1_SC006",
+      "ZH_HSK1_SC007",
+      "ZH_HSK1_SC008",
+      "ZH_HSK1_SC009",
+      "ZH_HSK1_SC010"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK1_SC001"
+    ],
+    "status": "IN_PROGRESS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC001 tamamlandı. SC002-SC010 tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez."
+  }
+}

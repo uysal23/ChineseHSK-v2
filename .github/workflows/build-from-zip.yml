@@ -5,10 +5,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - chinese_hsk_android_github_v2.0.0.zip
-      - visual_pack_v1.zip
-      - .github/workflows/build-from-zip.yml
-      - ci/**
+      - ci/build_trigger.txt
   release:
     types: [published]
   workflow_dispatch:
@@ -283,6 +280,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Enforce explicit 10-scene visual build approval
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 chinese_hsk_android_github/scripts/validate_scene_visual_overrides.py \
+            --repo-root "$GITHUB_WORKSPACE" \
+            --require-ready-batch
+
       - name: Apply finalized HSK1 SC001 visual
         shell: bash
         run: |
@@ -358,6 +363,37 @@ jobs:
           print(f"Applied {len(files)} generated HSK3 scene overrides (SC011-SC030).")
           PY
 
+      - name: Apply authoritative source-tree scene overrides
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_DIR="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
+          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          mkdir -p "$SCENE_DIR"
+
+          if compgen -G "$SOURCE_DIR/*.webp" > /dev/null; then
+            python3 - "$SOURCE_DIR" "$SCENE_DIR" <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import shutil, sys
+
+          source_dir = Path(sys.argv[1])
+          scene_dir = Path(sys.argv[2])
+          copied = 0
+          for p in sorted(source_dir.glob("ZH_HSK*_SC*.webp")):
+              with Image.open(p) as im:
+                  w, h = im.size
+                  if im.format != "WEBP":
+                      raise SystemExit(f"Source override is not WEBP: {p.name} ({im.format})")
+                  if h <= w or abs((w / h) - (9 / 16)) > 0.01:
+                      raise SystemExit(f"Source override is not 9:16 portrait: {p.name} {w}x{h}")
+              shutil.copy2(p, scene_dir / p.name)
+              copied += 1
+          print(f"Applied {copied} authoritative source-tree scene override(s).")
+          PY
+          else
+            echo "No authoritative source-tree scene overrides present."
+          fi
 
       - name: Materialize canonical runtime backgrounds
         shell: bash
