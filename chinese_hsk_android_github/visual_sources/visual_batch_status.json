@@ -90,6 +90,40 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "SC013_SC019_UNIQUE_SCENE_ID_2026-09-26",
-  "uniqueSceneIdRuleLocked": true
+  "latestVisualRevision": "SC026_REPAIRED_UNIQUE_SCENE_ID_2026-09-26",
+  "uniqueSceneIdRuleLocked": true,
+  "subsequentBatchProgress": {
+    "batchId": "HSK1_SC021_SC030",
+    "level": "HSK1",
+    "sceneIds": [
+      "ZH_HSK1_SC021",
+      "ZH_HSK1_SC022",
+      "ZH_HSK1_SC023",
+      "ZH_HSK1_SC024",
+      "ZH_HSK1_SC025",
+      "ZH_HSK1_SC026",
+      "ZH_HSK1_SC027",
+      "ZH_HSK1_SC028",
+      "ZH_HSK1_SC029",
+      "ZH_HSK1_SC030"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK1_SC026"
+    ],
+    "pendingSceneIds": [
+      "ZH_HSK1_SC021",
+      "ZH_HSK1_SC022",
+      "ZH_HSK1_SC023",
+      "ZH_HSK1_SC024",
+      "ZH_HSK1_SC025",
+      "ZH_HSK1_SC027",
+      "ZH_HSK1_SC028",
+      "ZH_HSK1_SC029",
+      "ZH_HSK1_SC030"
+    ],
+    "status": "IN_PROGRESS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC026 canonical karakter düzeltmesiyle yeniden üretildi; ayrı sceneId, metadata ve manifesto QA PASS. APK build onayı kapalıdır."
+  }
 }
