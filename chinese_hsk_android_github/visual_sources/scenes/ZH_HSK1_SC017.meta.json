@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC017",
+  "generationSceneId": "ZH_HSK1_SC017",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC017.json",
+  "dialogueSha256": "3549d78c3fa70bc2b96b5cf34ffe00d20bc16996135bb28598e9f5669b8c3c79",
+  "titleTr": "İlk Market Alışverişi",
+  "locationId": "LOC_ZH_SUPERMARKET_001",
+  "scenePurposeTr": "Lele sepete fazla atıştırmalık koyar; aile alışveriş listesini kontrol eder.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "店员"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "店员"
+  ],
+  "criticalObjects": [
+    "alışveriş arabası",
+    "elma",
+    "market ürünleri",
+    "market görevlisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC016",
+    "nextSceneId": "ZH_HSK1_SC018"
+  },
+  "sourceGeneratedFilename": "aileyle_elma_alışverişi.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC017.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "2a81bb9567b25e77f6e91d54e08076057552c67ec99dd19ac1d20e6bb8c9ed96"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
