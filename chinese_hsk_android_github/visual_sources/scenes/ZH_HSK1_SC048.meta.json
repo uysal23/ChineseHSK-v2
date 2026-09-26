@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC048",
+  "generationSceneId": "ZH_HSK1_SC048",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC048.json",
+  "dialogueSha256": "d18c03b5de78d25213f8287f2bd502ca8cb5e0cb2290379b226094f26887fb03",
+  "titleTr": "Mahalle Etkinliği",
+  "locationId": "LOC_ZH_COMMUNITY_EVENT_001",
+  "scenePurposeTr": "Aile mahalle etkinliğine katılır; topluluk görevlisi yön gösterir ve yeni bir arkadaşla tanışırlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "社区工作人员",
+    "新朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "社区工作人员",
+    "新朋友"
+  ],
+  "criticalObjects": [
+    "mahalle etkinliği alanı",
+    "renkli süslemeler",
+    "topluluk görevlisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC047",
+    "nextSceneId": "ZH_HSK1_SC049"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC048.webp",
+  "finalAssetFilename": "ZH_HSK1_SC048.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC048.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "8cfb7bdf9779d13295e896667d1e9cec8fd22a8f434c9cde16bc000e86f32d5d"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+}
