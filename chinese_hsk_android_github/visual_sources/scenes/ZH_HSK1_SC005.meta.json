@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC005",
+  "generationSceneId": "ZH_HSK1_SC005",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC005.json",
+  "dialogueSha256": "97ed361a3df58fa3fa9d2d777f58b712feb4b8b17a2dc0553cb00753a390e60b",
+  "titleTr": "Kayıp Oyuncak",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Lele oyuncak trenini bulamaz; herkes koltukların çevresine bakar.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "tren koltukları",
+    "koltuk altı arama alanı",
+    "valizler",
+    "aile arama hareketi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC004",
+    "nextSceneId": "ZH_HSK1_SC006"
+  },
+  "sourceGeneratedFilename": "trende_ailece_kayıp_arayışı.png",
+  "finalAssetFilename": "ZH_HSK1_SC005.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC005.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "cf13a60d0db8ba12f6c9f5f66f08bd42875e088503b9457eb6dcd669b3d66731"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC005 için kayıp eşya arama görseli eşleştirildi; aile tren koltuklarının çevresini birlikte arıyor."
+}

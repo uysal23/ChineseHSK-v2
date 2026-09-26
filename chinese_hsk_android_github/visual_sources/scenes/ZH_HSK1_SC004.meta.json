@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC004",
+  "generationSceneId": "ZH_HSK1_SC004",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC004.json",
+  "dialogueSha256": "a2dac83b4774aa2d081c5086bc57dbf411b95017c590719554c9d1358bfdaa91",
+  "titleTr": "Trende İlk Kahvaltı",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Çocuklar trende yiyecek ister ve aile vagondaki satıcıdan alışveriş yapar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "售货员"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "售货员"
+  ],
+  "criticalObjects": [
+    "yiyecek servis arabası",
+    "kahvaltılık yiyecekler",
+    "içecekler",
+    "tren masası ve koltuklar"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC003",
+    "nextSceneId": "ZH_HSK1_SC005"
+  },
+  "sourceGeneratedFilename": "aile_treni_yolculuğu_ve_lezzetli_i_kramlar.png",
+  "finalAssetFilename": "ZH_HSK1_SC004.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC004.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "7d8360d1728ceff3dd18704f05127255f48547b8d592f2ca1aae75c7c1407be6"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC004 için tren kahvaltısı görseli eşleştirildi; aile, satıcı ve yiyecek servisi aynı sahnede görünür."
+}

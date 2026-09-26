@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC006",
+  "generationSceneId": "ZH_HSK1_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC006.json",
+  "dialogueSha256": "dc259bbe2060dd67a9ca33cfc71d908fbc71adee5fc8bd8644b34714b5a5ef92",
+  "titleTr": "Yeni Kasabayı İlk Görüş",
+  "locationId": "LOC_ZH_TRAIN_001",
+  "scenePurposeTr": "Tren yeni kasabaya yaklaşırken aile pencereden gördüklerini konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "geniş tren penceresi",
+    "yeni kasaba şehir manzarası",
+    "uzak dağlar",
+    "tren koltukları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC005",
+    "nextSceneId": "ZH_HSK1_SC007"
+  },
+  "sourceGeneratedFilename": "şehir_manzarasını_i_zleyen_aile.png",
+  "finalAssetFilename": "ZH_HSK1_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC006.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "ffef67a23e5b6284f9ea44d38b30d84c0eb352f5d87769b2d099cdb77edef291"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC006 için yeni kasabayı tren penceresinden ilk görüş görseli eşleştirildi; şehir ve aile aynı kadrajda."
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC009",
+  "generationSceneId": "ZH_HSK1_SC009",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC009.json",
+  "dialogueSha256": "ae7743b9bb61eba5b4e34721883ac18795af41b48a00288cbce9812d46124c9c",
+  "titleTr": "İlk Taksi Yolculuğu",
+  "locationId": "LOC_ZH_TAXI_001",
+  "scenePurposeTr": "Taksi şoförü adresi yanlış anlar; Li Chen doğru yolu açıklamaya yardım eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "司机"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "司机"
+  ],
+  "criticalObjects": [
+    "taksi",
+    "taksi şoförü",
+    "telefon/harita",
+    "valizler"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC008",
+    "nextSceneId": "ZH_HSK1_SC010"
+  },
+  "sourceGeneratedFilename": "harita_etrafında_neşeli_yolculuk.png",
+  "finalAssetFilename": "ZH_HSK1_SC009.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC009.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "b51ef5f1bf015f9b4c4e63bb0e4d205a5605e5a46864377818e89fd9f3e2f8d1"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC009 için taksi ve telefon haritası görseli eşleştirildi; Li Chen sürücüye yolu açıklama bağlamında görünür."
+}

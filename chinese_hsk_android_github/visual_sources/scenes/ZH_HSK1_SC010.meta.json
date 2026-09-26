@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC010",
+  "generationSceneId": "ZH_HSK1_SC010",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC010.json",
+  "dialogueSha256": "80204bf2fd7cd0a9697a4e1294f62f1ffb1525a0342eb3198e7a79ba00903a6b",
+  "titleTr": "Yeni Evin Kapısı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Anahtar ilk denemede kapıyı açmaz; doğru anahtarı bulurlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "yeni ev giriş kapısı",
+    "çekçekli valizler",
+    "taşınma kutuları",
+    "aile giriş anı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC009",
+    "nextSceneId": "ZH_HSK1_SC011"
+  },
+  "sourceGeneratedFilename": "yeni_evde_mutlu_başlangıç.png",
+  "finalAssetFilename": "ZH_HSK1_SC010.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC010.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "e66c9896a0f85def949001d1027c003e9c91786b5431776d002729ebfcf53549"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC010 için yeni eve giriş görseli eşleştirildi; kapı, valizler ve taşınma bağlamı görünür."
+}
