@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC018",
+  "generationSceneId": "ZH_HSK1_SC018",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC018.json",
+  "dialogueSha256": "cf98e249416907b4cbf2fae81bb3f1e7ab9a66430162f53138318a204142cdbf",
+  "titleTr": "Kasada Para Yetiyor mu?",
+  "locationId": "LOC_ZH_SUPERMARKET_001",
+  "scenePurposeTr": "Kasada ödeme sırasında Zhang bozuk para ve toplam tutarı kontrol eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "收银员",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "收银员",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "market kasası",
+    "para/yuan",
+    "kasiyer",
+    "alışveriş ürünleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC017",
+    "nextSceneId": "ZH_HSK1_SC019"
+  },
+  "sourceGeneratedFilename": "aileyle_sıcak_market_alışverişi.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC018.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "291248a9d507b547e3b19e772f6b19af796a32fe559ed2a561a7e635a87dbca4"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
