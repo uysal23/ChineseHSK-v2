@@ -77,5 +77,10 @@
   "relativeAgeOrderLock": [
     "ZHANGYUTONG_OLDER_THAN_ZHANGLELE"
   ],
-  "crossLevelProportionalGrowthRequired": true
+  "crossLevelProportionalGrowthRequired": true,
+  "uniqueSceneIdPerGenerationRequired": true,
+  "generationSceneIdMustMatchAssetSceneId": true,
+  "genericGeneratedFilenameForbidden": true,
+  "finalGeneratedFilenamePattern": "{sceneId}.webp",
+  "oneGeneratedImageMayBelongToOnlyOneSceneId": true
 }
