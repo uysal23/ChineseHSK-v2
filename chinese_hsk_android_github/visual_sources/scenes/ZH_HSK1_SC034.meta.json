@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC034",
+  "generationSceneId": "ZH_HSK1_SC034",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC034.json",
+  "dialogueSha256": "b0ab9552443118761511a057f7824bdf52faa2b326290ad05f8d161a5d35fc33",
+  "locationId": "LOC_ZH_BUS_STOP_001",
+  "scenePurposeTr": "Zhang Wei işten sonra otobüsle eve dönerken yol ve zaman hakkında konuşur; Liu Mei telefon görüşmesinde görünür.",
+  "dialogueSpeakers": [
+    "张伟",
+    "乘客",
+    "工作人员",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "乘客",
+    "工作人员",
+    "刘梅"
+  ],
+  "criticalObjects": [
+    "otobüs",
+    "otobüs durağı",
+    "telefon",
+    "yol"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC033",
+    "nextSceneId": "ZH_HSK1_SC035"
+  },
+  "sourceGeneratedFilename": "gün_batımında_sıcak_bir_otobüs_durağı.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC034.webp",
+  "finalAssetFilename": "ZH_HSK1_SC034.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "a19e3d7e9bdc93aa651c7590e219966fc8508e2dcd9ad4643835f66fe7ed1022"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
