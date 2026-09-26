@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC006",
+  "generationSceneId": "ZH_HSK2_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC006.json",
+  "dialogueSha256": "fe976c96fcc586bf5477eae7e4bcea83458baabf9c40d7549d8a3957282a86a5",
+  "titleTr": "Fazla Mesai",
+  "locationId": "LOC_ZH_ZHANG_OFFICE_001",
+  "scenePurposeTr": "Zhang Wei ofiste fazla mesai yapar; iş arkadaşı yanındadır ve Liu Mei ile görüntülü görüşme yapar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "同事"
+  ],
+  "criticalObjects": [
+    "ofis masası",
+    "dizüstü bilgisayar",
+    "görüntülü görüşme",
+    "gece şehir ışıkları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC005",
+    "nextSceneId": "ZH_HSK2_SC007"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC006.webp",
+  "finalAssetFilename": "ZH_HSK2_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC006.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "e34d60187a839898fa6cc62b0dcd931a7f25c6778ed6a4b764715f11c3724e59"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+}

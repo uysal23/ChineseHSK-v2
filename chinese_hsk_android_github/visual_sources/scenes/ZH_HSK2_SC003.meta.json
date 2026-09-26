@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC003",
+  "generationSceneId": "ZH_HSK2_SC003",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC003.json",
+  "dialogueSha256": "d949253c26a00ae88798badb62bcff05b2a95c14622c46b60a374140c7b7bdc7",
+  "titleTr": "Taze Sebze ve Meyve Pazarı",
+  "locationId": "LOC_ZH_MARKET_001",
+  "scenePurposeTr": "Liu Mei, komşusuyla birlikte pazarda taze sebze ve meyve seçer; pazar satıcısı ürünleri gösterir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "摊主",
+    "邻居"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "摊主",
+    "邻居"
+  ],
+  "criticalObjects": [
+    "sebze tezgahı",
+    "meyve-sebze sepetleri",
+    "pazar çantası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC002",
+    "nextSceneId": "ZH_HSK2_SC004"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC003.webp",
+  "finalAssetFilename": "ZH_HSK2_SC003.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC003.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "00e2ee34fc6eb1d264f5db624fec3ec0e9aecca3f699554978eabad09c183905"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+}

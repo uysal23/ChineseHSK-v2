@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC004",
+  "generationSceneId": "ZH_HSK2_SC004",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC004.json",
+  "dialogueSha256": "961103d992888f2d8017f2853dc6f8279f05712560da0f76237ad68a222c9c40",
+  "titleTr": "Okul Servisini Kaçırmak",
+  "locationId": "LOC_ZH_SCHOOL_BUS_STOP_001",
+  "scenePurposeTr": "Lele okul servisini kaçırır; Liu Mei ve komşu onunla birlikte durakta durumu değerlendirir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "刘梅",
+    "邻居"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "刘梅",
+    "邻居"
+  ],
+  "criticalObjects": [
+    "okul servisi",
+    "otobüs durağı",
+    "Lele'nin okul çantası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC003",
+    "nextSceneId": "ZH_HSK2_SC005"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC004.webp",
+  "finalAssetFilename": "ZH_HSK2_SC004.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC004.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "81956afbbd61300e175b91bbcc217495ced0b853fbf254c1a460490dc5358647"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+}
