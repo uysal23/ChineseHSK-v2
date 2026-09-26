@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC012",
+  "generationSceneId": "ZH_HSK1_SC012",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC012.json",
+  "dialogueSha256": "aed40667d196964da985ef6ef683254af816858c6a3b0ba963c8456856390db1",
+  "titleTr": "İlk Gece",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "İlk akşam yataklar hazırlanırken Mimi ortadan kaybolur ve aile evin içinde onu arar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "Mimi/kedi",
+    "taşınma kutuları",
+    "yatak ve battaniye"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC011",
+    "nextSceneId": "ZH_HSK1_SC013"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC012__first_night_missing_cat_locked_cast.png",
+  "finalAssetFilename": "ZH_HSK1_SC012.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC012.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "ca82296e9cb2d3608c10062d5bf6d1781dacd4f69de24f15db6b8f30323bd487"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+}
