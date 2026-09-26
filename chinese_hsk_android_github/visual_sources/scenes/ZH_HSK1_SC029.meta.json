@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC029",
+  "generationSceneId": "ZH_HSK1_SC029",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC029.json",
+  "dialogueSha256": "f26dd6b4055d3408aad6ee99658685d5d331374e7a1711ddb9d117bbe3d6387f",
+  "locationId": "LOC_ZH_OFFICE_001",
+  "scenePurposeTr": "Zhang Wei şirket ofisine iş görüşmesi için gelir ve müdür ile şirket çalışanıyla karşılaşır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "公司职员"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "公司职员"
+  ],
+  "criticalObjects": [
+    "ofis girişi",
+    "evrak/portföy",
+    "iş görüşmesi ortamı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC028",
+    "nextSceneId": "ZH_HSK1_SC030"
+  },
+  "sourceGeneratedFilename": "ofiste_sıcak_karşılama.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC029.webp",
+  "finalAssetFilename": "ZH_HSK1_SC029.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "ad94f1f04615fea03027320e73a9e924742227a1222cc3f87917e9ad4820c432"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
