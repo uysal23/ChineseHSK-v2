@@ -33,3 +33,37 @@ Bu belge HSK1–HSK6 sahne görselleri için kilitli üretim ve GitHub entegrasy
 
 Her sahne için minimum değişiklik seti: `media/scenes/<sceneId>.webp` + `visual_sources/scenes/<sceneId>.meta.json` + `visual_batch_status.json`. 10 sahnelik paket tamamlandığında doğrulama PASS olmadan build onayı istenmez.
 27. Üretilen her görsel, GitHub'a veya uygulama assetlerine eklenmeden önce görsel olarak tekrar kontrol edilir. Diyalog/karakter/mekan/obje/stil/metinsizlik/9:16/giyim/süreklilik maddelerinden herhangi biri bozuksa görsel otomatik olarak REDDEDİLİR; final sayılmaz, sahneye bağlanmaz, batch tamamlanmış kabul edilmez ve yeniden üretilir.
+
+## 28. Kilitli Aile Görsel Kimlik Tablosu
+
+Aşağıdaki tablo çekirdek ailenin HSK1-HSK6 boyunca değiştirilemez görsel kimlik ve yaş-gelişim referansıdır. Tüm sahne görselleri bu tabloya uymak zorundadır.
+
+| Karakter ID | Ad | Aile Rolü | Cinsiyet | HSK1-HSK2 | HSK3-HSK4 | HSK5-HSK6 | Değişmez Kimlik Kuralı |
+|---|---|---|---|---|---|---|---|
+| CHR_ZH_ZHANGWEI_001 | 张伟 / Zhang Wei | Baba | Erkek | Yetişkin baba | Daha olgun yetişkin | Olgun yetişkin | Aynı yüz/saç/temel beden oranı; baba rolü değişmez |
+| CHR_ZH_LIUMEI_001 | 刘梅 / Liu Mei | Anne | Kadın | Yetişkin anne | Daha olgun yetişkin | Olgun yetişkin | Aynı yüz/saç/temel beden oranı; anne rolü değişmez |
+| CHR_ZH_ZHANGYUTONG_001 | 张雨桐 / Zhang Yutong | Abla / büyük çocuk | Kız | Ergen kız | Genç yetişkinliğe geçiş | Yetişkin genç kadın | Her zaman Lele'den büyük; kız kimliği değişmez |
+| CHR_ZH_ZHANGLELE_001 | 张乐乐 / Zhang Lele | Küçük çocuk / oğul | **Erkek** | **Küçük erkek çocuk** | Ergen erkek | Genç yetişkin erkek | **Kesinlikle kız olarak üretilemez**; kısa dağınık koyu saç ve mavi/yeşil temel renk dili korunur |
+| CHR_ZH_MIMI_001 | 咪咪 / Mimi | Evcil hayvan | — | Kedi | Kedi | Kedi | Ailenin aynı kedisi olarak korunur |
+
+### 28.1 Yaş ve oran sürekliliği kilidi
+
+- Karakterler HSK1'den HSK6'ya doğru kademeli yaş alır; bir seviyeden diğerine ani yaş sıçraması yapılamaz.
+- Zhang Yutong her zaman Zhang Lele'den daha büyük görünür. Kardeşlerin yaş sırası hiçbir seviyede değişmez.
+- Lele'nin çocuk → ergen → genç yetişkin gelişimi erkek kimliğiyle devam eder.
+- Yutong'un ergen kız → genç yetişkin → yetişkin kadın gelişimi aynı yüz kimliği korunarak devam eder.
+- Anne ve baba da zaman içinde doğal biçimde olgunlaşır; yüz kimlikleri ve ebeveyn rolleri değişmez.
+- Aynı seviyede komşu sahneler arasında boy, yüz, saç ve beden oranı sıçraması yapılamaz.
+- Kıyafet değişebilir; ancak yaş/cinsiyet/rol/kimlik ve aile içi oran ilişkileri değişemez.
+- Bir karakterin canonical kimliği başka bir aile üyesi veya yardımcı karakterle karıştırılırsa görsel REDDEDİLİR.
+
+## 29. Tek Kaynak Manifesto Kilidi
+
+Bu dosya, **HSK1-HSK6 tüm sahne görselleri için tek kural otoritesidir**.
+
+- Üretim promptları, scene analysis dosyaları, metadata ve otomatik doğrulama kuralları bu manifestodan türetilmiş yardımcı kayıtlardır; manifestonun yerine geçemez.
+- Bir yardımcı dosya ile bu manifesto çelişirse **bu manifesto geçerlidir**.
+- Yeni bir görsel üretilmeden önce diyalog GitHub'dan okunur ve ardından bu manifestonun tamamı uygulanır.
+- Görsel üretim sonrası QA da yine bu manifestoya göre yapılır.
+- Manifestoya uymayan görsel uygulamaya, GitHub final asset klasörüne veya build paketine alınamaz.
+
