@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC039",
     "nextSceneId": "ZH_HSK1_SC041"
   },
-  "sourceGeneratedFilename": "kapıda_neşeli_paket_teslimatı.png",
+  "sourceGeneratedFilename": "sıcak_komşuluk_teslimatı.png",
   "finalAssetFilename": "ZH_HSK1_SC040.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC040.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "7883048d2a87e67b06103346b17e23e96243a20d0db0416542df29e55b7c6b1b"
+    "sha256": "efa274f89c3da222a42fadb52a6ed885846de2dad51a4c019c27057b647ae237"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
