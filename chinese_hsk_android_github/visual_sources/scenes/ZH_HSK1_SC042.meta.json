@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC042",
+  "generationSceneId": "ZH_HSK1_SC042",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC042.json",
+  "dialogueSha256": "ce09e667cffcd8e1093fea0ff8b1af238a0fb172e39fb7badde7f640ea543143",
+  "titleTr": "Pet Mağazası",
+  "locationId": "LOC_ZH_PET_SHOP_001",
+  "scenePurposeTr": "Aile pet mağazasına gider; mağazanın yerini ve Mimi için ürünleri konuşur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "店员",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "店员",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "pet mağazası rafları",
+    "kedi ürünleri",
+    "mağaza görevlisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC041",
+    "nextSceneId": "ZH_HSK1_SC043"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC042.webp",
+  "finalAssetFilename": "ZH_HSK1_SC042.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC042.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "4be5ce91ce4b54fcdfd54aa3aec5ee0d10e5af831f0c141d395cc251c2678e82"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+}
