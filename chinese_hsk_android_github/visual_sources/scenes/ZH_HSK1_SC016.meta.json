@@ -36,7 +36,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "01563327d5c282b08a2aaeff71237d7a69d47b1654ad4fa924ac99a7188634e2"
+    "sha256": "8e02b0056bdf2cfcc3c93044ac05beaf82fd28c9e46dfb1f4f4d2c53c6114425"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -55,5 +55,6 @@
     "uniqueSceneIdChecked": true
   },
   "qaStatus": "PASS",
-  "status": "FINAL_SOURCE_OVERRIDE"
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "finalAssetFilename": "ZH_HSK1_SC016.webp"
 }
