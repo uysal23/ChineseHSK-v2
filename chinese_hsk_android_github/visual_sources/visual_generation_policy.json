@@ -27,5 +27,55 @@
   "postGenerationVisualQARequired": true,
   "rejectOnAnyManifestMismatch": true,
   "neverIntegrateRejectedGeneration": true,
-  "finalImageRequiresHumanVisibleInspection": true
+  "finalImageRequiresHumanVisibleInspection": true,
+  "singleSourceManifestRequired": true,
+  "singleSourceManifestPath": "docs/visuals/HSK_VISUAL_PRODUCTION_MANIFEST_LOCKED_TR.md",
+  "derivedPromptFilesAreNonAuthoritative": true,
+  "familyIdentityLock": {
+    "CHR_ZH_ZHANGWEI_001": {
+      "role": "father",
+      "gender": "male",
+      "progression": {
+        "HSK1-HSK2": "adult",
+        "HSK3-HSK4": "mature_adult",
+        "HSK5-HSK6": "mature_adult"
+      }
+    },
+    "CHR_ZH_LIUMEI_001": {
+      "role": "mother",
+      "gender": "female",
+      "progression": {
+        "HSK1-HSK2": "adult",
+        "HSK3-HSK4": "mature_adult",
+        "HSK5-HSK6": "mature_adult"
+      }
+    },
+    "CHR_ZH_ZHANGYUTONG_001": {
+      "role": "older_sister",
+      "gender": "female",
+      "progression": {
+        "HSK1-HSK2": "teen",
+        "HSK3-HSK4": "young_adult",
+        "HSK5-HSK6": "adult"
+      }
+    },
+    "CHR_ZH_ZHANGLELE_001": {
+      "role": "younger_son",
+      "gender": "male",
+      "hardLock": "must_never_be_rendered_as_girl",
+      "progression": {
+        "HSK1-HSK2": "boy_child",
+        "HSK3-HSK4": "teen_boy",
+        "HSK5-HSK6": "young_adult_male"
+      }
+    },
+    "CHR_ZH_MIMI_001": {
+      "role": "family_cat",
+      "identityContinuityRequired": true
+    }
+  },
+  "relativeAgeOrderLock": [
+    "ZHANGYUTONG_OLDER_THAN_ZHANGLELE"
+  ],
+  "crossLevelProportionalGrowthRequired": true
 }
