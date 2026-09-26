@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC028",
+  "generationSceneId": "ZH_HSK1_SC028",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC028.json",
+  "dialogueSha256": "7b4e87bd7baefee37dd17a83626a2a4c5d4111e325b3d56405b2e98a76b3fca1",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang Wei iş görüşmesine hazırlanırken aile kıyafet ve gömleği kontrol eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "iş görüşmesi kıyafeti",
+    "gömlek",
+    "kravat"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC027",
+    "nextSceneId": "ZH_HSK1_SC029"
+  },
+  "sourceGeneratedFilename": "aileyle_i_şe_hazırlık.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC028.webp",
+  "finalAssetFilename": "ZH_HSK1_SC028.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "56bb5b12003a2270d526fdab5e4b4aa81ab256381c01af45497eaa32e10b8989"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
