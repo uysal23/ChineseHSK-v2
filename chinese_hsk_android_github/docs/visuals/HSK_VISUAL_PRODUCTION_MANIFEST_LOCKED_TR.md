@@ -67,3 +67,14 @@ Bu dosya, **HSK1-HSK6 tüm sahne görselleri için tek kural otoritesidir**.
 - Görsel üretim sonrası QA da yine bu manifestoya göre yapılır.
 - Manifestoya uymayan görsel uygulamaya, GitHub final asset klasörüne veya build paketine alınamaz.
 
+## 30. Sahne ID ve Dosya Kimliği Kilidi
+
+- Her görsel **üretilmeden önce** tek ve kesin bir `sceneId` ile eşleştirilir.
+- Her üretim yalnızca **bir** sahneye aittir; aynı final görsel birden fazla scene ID için kullanılamaz.
+- Geçici üretim çıktısı oluştuğu anda ilgili scene ID ile kayıt altına alınır. Final asset adı zorunlu olarak `<sceneId>.webp` olur (ör. `ZH_HSK1_SC013.webp`).
+- `imagegen.png`, `final.png`, `scene.png` gibi sahne kimliği taşımayan genel dosya adları final üretim zincirinde kullanılamaz.
+- Metadata içindeki `generationSceneId`, metadata `sceneId` ve final asset dosya adı birbiriyle birebir eşleşmek zorundadır.
+- Görsel üretimden hemen sonra dosya scene ID ile ayrıştırılır; sonraki görsel üretilmeden önce öncekinin kimliği sabitlenir.
+- Scene ID / dosya kimliği eşleşmesi bozuksa görsel QA'dan **FAIL** alır, uygulamaya bağlanmaz ve yeniden üretilir.
+- Bu kural HSK1-HSK6 boyunca üretilecek **tüm sonraki görseller** için zorunlu ve kilitlidir.
+
