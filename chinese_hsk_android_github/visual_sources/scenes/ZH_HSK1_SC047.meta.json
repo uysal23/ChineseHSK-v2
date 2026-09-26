@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC046",
     "nextSceneId": "ZH_HSK1_SC048"
   },
-  "sourceGeneratedFilename": "sıcak_evde_tatlı_sohbet_ve_planlama.png",
+  "sourceGeneratedFilename": "sıcacık_pastane_beyin_fırtınası.png",
   "finalAssetFilename": "ZH_HSK1_SC047.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC047.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "d633ec31b6c8bac49a96de150d171993b46ceed43d8525ae168c8a7e8f175e5e"
+    "sha256": "51dbff583ac7e845eaf5c6a3273dca96abe51df4808829e1fce420de0edb4142"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
