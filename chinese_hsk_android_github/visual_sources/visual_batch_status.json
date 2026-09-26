@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "HSK2_SC008_SC017_PARTIAL_9_OF_10_2026-09-26",
+  "latestVisualRevision": "HSK1_SC028_SC037_LATEST_ASSETS_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -105,7 +105,7 @@
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC028-SC030 ayrı scene ID ile final source asset olarak entegre edildi ve manifesto QA PASS. SC026 daha önce canonical düzeltmeyle tamamlandı. Kalan sahneler tamamlanmadan build-ready değildir."
+    "noteTr": "SC028-SC030 kullanıcı tarafından seçilen son görsellerle yeniden entegre edildi; ayrı scene ID, metadata ve LOCKED_V2 QA PASS. Diğer batch sahneleri mevcut durumunu korur."
   },
   "followingBatchProgress": {
     "batchId": "HSK1_SC031_SC040",
@@ -138,7 +138,7 @@
     "status": "READY_FOR_BUILD",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC031-SC040 ayrı scene ID ile final source asset olarak entegre edildi ve manifesto QA PASS. APK build için kullanıcı onayı bekleniyor."
+    "noteTr": "SC031-SC037 kullanıcı tarafından seçilen son görsellerle yeniden entegre edildi; SC038-SC040 mevcut final asset olarak korunuyor. Batch 10/10; yeni APK build için kullanıcı onayı gerekir."
   },
   "nextFollowingBatchProgress": {
     "batchId": "HSK1_SC041_SC050",
@@ -249,5 +249,23 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "SC008-SC010 ve SC012-SC017 ayrı scene ID ile final asset entegrasyonu için hazır. SC011 yanlış karakter nedeniyle bilinçli olarak dışarıda bırakıldı."
+  },
+  "lastSceneAssetReplacement": {
+    "sceneIds": [
+      "ZH_HSK1_SC028",
+      "ZH_HSK1_SC029",
+      "ZH_HSK1_SC030",
+      "ZH_HSK1_SC031",
+      "ZH_HSK1_SC032",
+      "ZH_HSK1_SC033",
+      "ZH_HSK1_SC034",
+      "ZH_HSK1_SC035",
+      "ZH_HSK1_SC036",
+      "ZH_HSK1_SC037"
+    ],
+    "status": "INTEGRATED_QA_PASS",
+    "manifestVersion": "LOCKED_V2",
+    "buildTriggered": false,
+    "noteTr": "SC028-SC037 son kullanıcı görselleri media/scenes altında ayrı scene ID ile yazıldı; runtime aynası senkron workflow ile güncellenecek."
   }
 }

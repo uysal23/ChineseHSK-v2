@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "e6d8c7969b89e09515162ea20b1d2a82f5d34ab6225d4156e92378de5e04b32d"
+    "sha256": "27f83d50cd6f5ec6bd6b82f721e109dc2e34490806739bf590ef787e2d6a4bf2"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,6 +57,6 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Görsel geçerli WebP binary olarak yeniden aktarıldı; kendi ayrı scene ID dosya adıyla LOCKED_V2 manifesto doğrulamasına hazır.",
+  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
   "binaryIntegrityChecked": true
 }
