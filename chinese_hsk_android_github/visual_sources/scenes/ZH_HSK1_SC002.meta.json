@@ -50,7 +50,8 @@
     "noMiniSkirt": true,
     "noSexyClothing": true,
     "criticalObjectsVisible": true,
-    "canonicalCharacterContinuityChecked": true
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
   },
   "postGenerationVisualQA": {
     "status": "PASS",
@@ -63,5 +64,7 @@
     "userApprovedPlacement": true,
     "noteTr": "Kullanıcının son seçtiği SC002 bilet arama görseli; dört konuşan aile üyesi, bilet, bavul/çanta, taşınma kutuları ve kedi görünür."
   },
-  "status": "FINAL_SOURCE_OVERRIDE"
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "generationSceneId": "ZH_HSK1_SC002",
+  "finalAssetFilename": "ZH_HSK1_SC002.webp"
 }
