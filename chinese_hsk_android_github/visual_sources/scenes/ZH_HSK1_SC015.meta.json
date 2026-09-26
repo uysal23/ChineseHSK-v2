@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "ef3d96b86d1aa45208a894a050ce30d69ec8eaf6e0bc3f7f339133c8430b0abc"
+    "sha256": "b5e4dbab25109485ce691a1278c14371432dbd66fa6c4566d056c36aa1f0ada2"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +56,6 @@
     "uniqueSceneIdChecked": true
   },
   "qaStatus": "PASS",
-  "status": "FINAL_SOURCE_OVERRIDE"
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "finalAssetFilename": "ZH_HSK1_SC015.webp"
 }
