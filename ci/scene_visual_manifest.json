@@ -997,7 +997,8 @@
       "reasonTr": "UI/mockup; sahne görseli olarak kullanılmayacak."
     },
     {
-      "sourceFile": "a_vertical_smartphone_app_screenshot_ui_mockup.png",      "width": 941,
+      "sourceFile": "a_vertical_smartphone_app_screenshot_ui_mockup.png",
+      "width": 941,
       "height": 1672,
       "aspect": 0.5628,
       "status": "UI_REFERENCE_ONLY",
@@ -1543,7 +1544,14 @@
       "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
       "sceneId": "ZH_HSK1_SC041",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC041.webp",
-      "reasonTr": "Ana aile görsel kimliğiyle uyumlu; sahne içeriğiyle eşleşiyor."
+      "reasonTr": "LOCKED_V2 sahne diyaloğu, oyuncu kadrosu ve kritik nesne kontrolünden geçen authoritative source override.",
+      "asset": "chinese_course/media/scenes/ZH_HSK1_SC041.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "source_override"
+      ]
     },
     {
       "sourceFile": "sıcacık_aile_kafesi_ve_patili_dost.png",
@@ -1862,7 +1870,14 @@
       "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
       "sceneId": "ZH_HSK1_SC042",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK1_SC042.webp",
-      "reasonTr": "Ana aile görsel kimliğiyle uyumlu; pet mağazası, mağaza görevlisi ve kedi ürünü bağlamını doğru yansıtıyor."
+      "reasonTr": "LOCKED_V2 sahne diyaloğu, oyuncu kadrosu ve kritik nesne kontrolünden geçen authoritative source override.",
+      "asset": "chinese_course/media/scenes/ZH_HSK1_SC042.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "source_override"
+      ]
     },
     {
       "sourceFile": "zh_hsk2_sc017_winter_clothes_size_mixup.png",
