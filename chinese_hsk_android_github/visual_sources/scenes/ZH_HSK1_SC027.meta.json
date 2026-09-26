@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC027",
+  "generationSceneId": "ZH_HSK1_SC027",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC027.json",
+  "dialogueSha256": "d0655a61d25c0a8f225244b74a76cceb2176f42a1eca6bb6387897ec51deac57",
+  "titleTr": "İlk Telefon Görüşmesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang bir iş yeriyle arama yapıp görüşme saati alır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "公司职员",
+    "刘梅",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "公司职员",
+    "刘梅",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "telefon",
+    "not defteri ve kalem",
+    "ev çalışma masası",
+    "şirket çalışanı görüşme tarafı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC026",
+    "nextSceneId": "ZH_HSK1_SC028"
+  },
+  "sourceGeneratedFilename": "aileyle_neşeli_video_görüşmesi.png",
+  "finalAssetFilename": "ZH_HSK1_SC027.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC027.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "59e7263439aabee0bf64e25f48633b5c42e62816df934240db17b5b895f67c25"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: SC027 kilitli diyalog/kadro/nesne ve 9:16 CGI kurallarına göre yeniden üretildi; Zhang Wei telefonda, Liu Mei ve lise çağındaki Yutong yanında, şirket çalışanı görüşme tarafı olarak görünür. Final source override olarak eşlendi."
+}
