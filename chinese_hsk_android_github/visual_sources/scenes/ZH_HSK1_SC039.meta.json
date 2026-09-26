@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC038",
     "nextSceneId": "ZH_HSK1_SC040"
   },
-  "sourceGeneratedFilename": "yağmurda_mutlu_aile_yürüyüşü.png",
+  "sourceGeneratedFilename": "yağmurlu_akşamda_aile_yürüyüşü.png",
   "finalAssetFilename": "ZH_HSK1_SC039.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC039.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "aa1b1c869d23b4bdd036f6db3602aefc95888ebcf2e1222193a0db7412d4ba76"
+    "sha256": "d2f8bfc23284657a81197307db858c29504ddfd20b8a1d0bf4f7cf5a64c83915"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
