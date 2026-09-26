@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC031",
+  "generationSceneId": "ZH_HSK1_SC031",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC031.json",
+  "dialogueSha256": "b29c1641c1852b7b8716027d03d076f7fe1b7f99ef1e1dffacacf4127b638736",
+  "locationId": "LOC_ZH_OFFICE_001",
+  "scenePurposeTr": "Zhang Wei ilk iş gününde güvenlikten geçer, iş kartını gösterir ve ofise yönlendirilir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事",
+    "保安",
+    "经理"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事",
+    "保安",
+    "经理"
+  ],
+  "criticalObjects": [
+    "iş kartı",
+    "güvenlik geçişi",
+    "ofis girişi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC030",
+    "nextSceneId": "ZH_HSK1_SC032"
+  },
+  "sourceGeneratedFilename": "i_lk_i_ş_gününde_sıcak_karşılama.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC031.webp",
+  "finalAssetFilename": "ZH_HSK1_SC031.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "5489a74f0b7e7bcac617619b2b8b28a2b6b1a26a35b9570faba50e43f890a609"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
