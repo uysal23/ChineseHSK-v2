@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC037",
+  "generationSceneId": "ZH_HSK1_SC037",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC037.json",
+  "dialogueSha256": "4ac4e58bb6127e2e688b79e708e042f7a51cdf4fd23c64d64a148ba230be834a",
+  "locationId": "LOC_ZH_PARK_001",
+  "scenePurposeTr": "Aile pazar günü parka gider; park, hava ve ağaçlar hakkında konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "park yolu",
+    "ağaçlar",
+    "güneşli hava"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC036",
+    "nextSceneId": "ZH_HSK1_SC038"
+  },
+  "sourceGeneratedFilename": "güneşli_parkta_mutlu_aile_yürüyüşü.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC037.webp",
+  "finalAssetFilename": "ZH_HSK1_SC037.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "957d171896c96cd36f71077d5a73b8c262a7c327c254ac96b95307787a9d0aab"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
