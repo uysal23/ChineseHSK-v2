@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC002",
     "nextSceneId": "ZH_HSK2_SC004"
   },
-  "sourceGeneratedFilename": "ZH_HSK2_SC003.webp",
+  "sourceGeneratedFilename": "sıcacık_mahalle_pazarı_sohbeti.png",
   "finalAssetFilename": "ZH_HSK2_SC003.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC003.webp",
   "image": {
@@ -35,7 +35,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "00e2ee34fc6eb1d264f5db624fec3ec0e9aecca3f699554978eabad09c183905"
+    "sha256": "ed4cf19b51089ca184639b5eddf7903f5383c15b72ed961e37714b392e0b06e8"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +56,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }

@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC003",
     "nextSceneId": "ZH_HSK2_SC005"
   },
-  "sourceGeneratedFilename": "ZH_HSK2_SC004.webp",
+  "sourceGeneratedFilename": "kaçırılan_otobüs_komşu_desteği.png",
   "finalAssetFilename": "ZH_HSK2_SC004.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC004.webp",
   "image": {
@@ -35,7 +35,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "81956afbbd61300e175b91bbcc217495ced0b853fbf254c1a460490dc5358647"
+    "sha256": "a3a41c6d426af0cea5b9de11655fc6ce9dda6e52b83355afdb67787550d0a20e"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +56,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }

@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC004",
     "nextSceneId": "ZH_HSK2_SC006"
   },
-  "sourceGeneratedFilename": "ZH_HSK2_SC005.webp",
+  "sourceGeneratedFilename": "校园社团招新日.png",
   "finalAssetFilename": "ZH_HSK2_SC005.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC005.webp",
   "image": {
@@ -35,7 +35,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "96be015f73d3f6cfc52be4b39c758fe29b002bf487715128493f9b6f079b7198"
+    "sha256": "abe6f845093b23e2cfb524890610ffc03f0a95cf5e6cb2707b953b914bf46148"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +56,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }

@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK2_SC006",
     "nextSceneId": "ZH_HSK2_SC008"
   },
-  "sourceGeneratedFilename": "ZH_HSK2_SC007.webp",
+  "sourceGeneratedFilename": "aileyle_hediye_seçimi.png",
   "finalAssetFilename": "ZH_HSK2_SC007.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC007.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "a907dabd212cea6b2a3f129d247c6a0792eeba84d622e66629f70a1b4db07a37"
+    "sha256": "844c9a90c0d3ace343d0f19a2a622544108076b939032e5b79616aa0b902b6ac"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }
