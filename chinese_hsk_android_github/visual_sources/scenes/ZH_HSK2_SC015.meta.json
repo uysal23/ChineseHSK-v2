@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC015",
+  "generationSceneId": "ZH_HSK2_SC015",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC015.json",
+  "dialogueSha256": "30aff9b101f4cd6311a90582ea623153e9ac715c6b3751b068d795ded93f01e4",
+  "titleTr": "Yeni Tarif",
+  "locationId": "LOC_ZH_HOME_KITCHEN_001",
+  "scenePurposeTr": "Liu Mei mutfakta yeni bir tarif dener; Zhang Wei ve Yutong hazırlığa eşlik eder.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "mutfak tezgahı",
+    "malzemeler",
+    "karıştırma kabı",
+    "buharlı sepet"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC014",
+    "nextSceneId": "ZH_HSK2_SC016"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC015.webp",
+  "finalAssetFilename": "ZH_HSK2_SC015.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC015.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "bb82d0590a514a6314e5f192818b4364136f780d2488cf0bfddf5e798f0725b3"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Kilitli görsel manifestosu ve ayrı scene ID kuralına göre doğrulandı."
+}
