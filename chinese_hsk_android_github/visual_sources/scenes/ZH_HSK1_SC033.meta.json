@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC033",
+  "generationSceneId": "ZH_HSK1_SC033",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC033.json",
+  "dialogueSha256": "eb185423b76b7712371998cc539f3da871568b3a660ca673aaad049968de640b",
+  "titleTr": "İş Arkadaşıyla Öğle Yemeği",
+  "locationId": "LOC_ZH_RESTAURANT_001",
+  "scenePurposeTr": "Zhang Wei iş arkadaşıyla öğle yemeğine çıkar ve garsona sipariş verir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事",
+    "服务员"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事",
+    "服务员"
+  ],
+  "criticalObjects": [
+    "menü",
+    "yemekler",
+    "masa",
+    "sipariş not defteri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC032",
+    "nextSceneId": "ZH_HSK1_SC034"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC033.webp",
+  "finalAssetFilename": "ZH_HSK1_SC033.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC033.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "7ede620da1b0f9437d80c24a9f2d26e3832062521f4068336019eb048c6ef232"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla entegre edildi ve LOCKED_V2 manifesto kontrolünden geçirildi."
+}
