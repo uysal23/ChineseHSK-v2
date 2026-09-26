@@ -58,19 +58,19 @@
       "ZH_HSK1_SC016",
       "ZH_HSK1_SC017",
       "ZH_HSK1_SC018",
-      "ZH_HSK1_SC019"
+      "ZH_HSK1_SC019",
+      "ZH_HSK1_SC011",
+      "ZH_HSK1_SC012"
     ],
     "pendingSceneIds": [
-      "ZH_HSK1_SC011",
-      "ZH_HSK1_SC012",
       "ZH_HSK1_SC020"
     ],
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
+    "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK1_SC038_SC047_LOCKED_V2_REFRESH_2026-09-26",
+  "latestVisualRevision": "HSK1_PRIOR_SAFE_RESTORE_SC011_SC012_SC021_SC025_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -91,20 +91,20 @@
       "ZH_HSK1_SC026",
       "ZH_HSK1_SC028",
       "ZH_HSK1_SC029",
-      "ZH_HSK1_SC030"
+      "ZH_HSK1_SC030",
+      "ZH_HSK1_SC021",
+      "ZH_HSK1_SC025"
     ],
     "pendingSceneIds": [
-      "ZH_HSK1_SC021",
       "ZH_HSK1_SC022",
       "ZH_HSK1_SC023",
       "ZH_HSK1_SC024",
-      "ZH_HSK1_SC025",
       "ZH_HSK1_SC027"
     ],
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC028-SC030 kullanıcı tarafından seçilen son görsellerle yeniden entegre edildi; ayrı scene ID, metadata ve LOCKED_V2 QA PASS. Diğer batch sahneleri mevcut durumunu korur."
+    "noteTr": "SC021 ve SC025 doğrulanmış görselleri LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC022, SC023, SC024 ve SC027 henüz tamamlanmadı; SC023/SC027 eski havuz görselleri konuşan kadroyu eksiksiz göstermediği için bilinçli olarak yüklenmedi."
   },
   "followingBatchProgress": {
     "batchId": "HSK1_SC031_SC040",
@@ -251,35 +251,14 @@
   },
   "lastSceneAssetReplacement": {
     "sceneIds": [
-      "ZH_HSK1_SC038",
-      "ZH_HSK1_SC039",
-      "ZH_HSK1_SC040",
-      "ZH_HSK1_SC041",
-      "ZH_HSK1_SC042",
-      "ZH_HSK1_SC043",
-      "ZH_HSK1_SC044",
-      "ZH_HSK1_SC045",
-      "ZH_HSK1_SC046",
-      "ZH_HSK1_SC047"
+      "ZH_HSK1_SC011",
+      "ZH_HSK1_SC012",
+      "ZH_HSK1_SC021",
+      "ZH_HSK1_SC025"
     ],
-    "replacedWithNewGeneratedSceneIds": [
-      "ZH_HSK1_SC038",
-      "ZH_HSK1_SC039",
-      "ZH_HSK1_SC040",
-      "ZH_HSK1_SC041",
-      "ZH_HSK1_SC042",
-      "ZH_HSK1_SC044",
-      "ZH_HSK1_SC046",
-      "ZH_HSK1_SC047"
-    ],
-    "retainedExistingValidatedSceneIds": [
-      "ZH_HSK1_SC043",
-      "ZH_HSK1_SC045"
-    ],
-    "status": "SYNC_TRIGGERED",
+    "status": "INTEGRATION_STAGED",
     "manifestVersion": "LOCKED_V2",
     "buildTriggered": false,
-    "noteTr": "SC038-SC047 10/10 yeniden doğrulandı. SC038,039,040,041,042,044,046,047 yeni senaryo-uyumlu görsellerle staged; SC043 ve SC045 yeni üretim kadro sürekliliğini tam karşılamadığı için mevcut LOCKED_V2 QA PASS assetleri korunuyor. Build tetiklenmedi. Authoritative source sync workflow tetiklendi; APK build tetiklenmedi.",
-    "syncRequested": true
+    "noteTr": "Daha önce üretilip source tree içinde eksik kalmış dört sahne, diyalog ve kadro doğrulaması sonrası geri yükleme için staged. Şüpheli SC023 ve SC027 assetleri yüklenmedi."
   }
 }
