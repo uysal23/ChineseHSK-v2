@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC011",
+  "generationSceneId": "ZH_HSK1_SC011",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC011.json",
+  "dialogueSha256": "304415fe002e53eaecceaac0f38ecb27c8258813a99a19e22f232698bc92203e",
+  "titleTr": "Kutular Nerede?",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Mutfak kutuları yanlış odaya bırakılmıştır; aile kutuları yeniden düzenler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "taşınma kutuları",
+    "mutfak kutuları",
+    "yeni ev odaları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC010",
+    "nextSceneId": "ZH_HSK1_SC012"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC011__moving_boxes_new_home_locked_cast.png",
+  "finalAssetFilename": "ZH_HSK1_SC011.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC011.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "6b186c2ca75c58cb366e5519fc851be4cd79cedcd8c37d17d65a09366e34bbfa"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+}
