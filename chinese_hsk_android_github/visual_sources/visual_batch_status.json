@@ -26,7 +26,7 @@
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC001 ve SC002 kullanıcının son seçtiği görsellerle yeniden güncellendi ve LOCKED_V2 manifestoya göre uygulamaya bağlandı. SC003-SC010 final görselleri bekliyor. 10/10 tamamlanmadan ve kullanıcı açık build onayı vermeden APK build tetiklenmez.",
+    "noteTr": "SC001-SC002 final asset olarak bağlı. SC003-SC009 görsel QA PASS ve binary entegrasyon bekliyor. SC010-SC012 canonical baba kimliği ihlali nedeniyle reddedildi. Build onayı kapalıdır.",
     "analyzedSceneIds": [
       "ZH_HSK1_SC001",
       "ZH_HSK1_SC002",
@@ -39,6 +39,21 @@
       "ZH_HSK1_SC009",
       "ZH_HSK1_SC010"
     ],
-    "latestVisualRevision": "SC001_SC002_2026-09-26"
+    "latestVisualRevision": "SC001_SC002_2026-09-26",
+    "pendingApprovedSceneIds": [
+      "ZH_HSK1_SC003",
+      "ZH_HSK1_SC004",
+      "ZH_HSK1_SC005",
+      "ZH_HSK1_SC006",
+      "ZH_HSK1_SC007",
+      "ZH_HSK1_SC008",
+      "ZH_HSK1_SC009"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK1_SC010",
+      "ZH_HSK1_SC011",
+      "ZH_HSK1_SC012"
+    ],
+    "rejectionReasonTr": "SC010-SC012 görsellerinde baba 张伟 canonical kimliği Li Chen ile karıştığı için tek-kaynak manifesto gereği final asset olarak uygulamaya bağlanamaz; yeniden üretim gerekir."
   }
 }
