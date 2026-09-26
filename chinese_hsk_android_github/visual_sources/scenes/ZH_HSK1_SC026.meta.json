@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC026",
+  "generationSceneId": "ZH_HSK1_SC026",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC026.json",
+  "dialogueSha256": "49036e684e1f40f32730d08951ecdeb760cc6c8aa012e99357aa4a9087937fbf",
+  "titleTr": "Zhang Wei İş Aramaya Başlıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang Wei iş aramaya başlar; Li Chen, Liu Mei ve Zhang Yutong ile telefon üzerinden iş ve iletişim bilgilerini konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "telefon",
+    "dizüstü bilgisayar",
+    "not defteri/iş arama notları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC025",
+    "nextSceneId": "ZH_HSK1_SC027"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC026.webp",
+  "finalAssetFilename": "ZH_HSK1_SC026.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC026.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "01eead224f4755ea3c65f015a20555d17288f9e9217b3e1caab1012ff11a858f"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "qaNoteTr": "Önceki SC026 reddedildi çünkü Lele yanlışlıkla görünüyordu. Bu revizyonda konuşan dört karakter eksiksizdir: 张伟, 李晨, 刘梅, 张雨桐. Lele yoktur."
+}
