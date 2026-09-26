@@ -51,7 +51,8 @@
     "noMiniSkirt": true,
     "noSexyClothing": true,
     "criticalObjectsVisible": true,
-    "canonicalCharacterContinuityChecked": true
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
   },
   "status": "FINAL_SOURCE_OVERRIDE",
   "postGenerationVisualQA": {
@@ -64,5 +65,7 @@
     "visualPolicyMatch": true,
     "userApprovedPlacement": true,
     "noteTr": "Kullanıcının son seçtiği SC001 taşınma görseli; beş konuşan karakter, kedi, taşınma kutuları, kitaplar, kapı ve nakliye yardımcısı görünür."
-  }
+  },
+  "generationSceneId": "ZH_HSK1_SC001",
+  "finalAssetFilename": "ZH_HSK1_SC001.webp"
 }
