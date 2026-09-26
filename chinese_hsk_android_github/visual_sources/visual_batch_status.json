@@ -3,58 +3,39 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK1_SC001_SC010",
-    "level": "HSK1",
-    "startScene": 1,
-    "endScene": 10,
+    "batchId": "HSK1_SC048_SC050__HSK2_SC001_SC007",
+    "level": "CROSS_LEVEL",
+    "startScene": "HSK1_SC048",
+    "endScene": "HSK2_SC007",
     "sceneIds": [
-      "ZH_HSK1_SC001",
-      "ZH_HSK1_SC002",
-      "ZH_HSK1_SC003",
-      "ZH_HSK1_SC004",
-      "ZH_HSK1_SC005",
-      "ZH_HSK1_SC006",
-      "ZH_HSK1_SC007",
-      "ZH_HSK1_SC008",
-      "ZH_HSK1_SC009",
-      "ZH_HSK1_SC010"
+      "ZH_HSK1_SC048",
+      "ZH_HSK1_SC049",
+      "ZH_HSK1_SC050",
+      "ZH_HSK2_SC001",
+      "ZH_HSK2_SC002",
+      "ZH_HSK2_SC003",
+      "ZH_HSK2_SC004",
+      "ZH_HSK2_SC005",
+      "ZH_HSK2_SC006",
+      "ZH_HSK2_SC007"
     ],
     "completedSceneIds": [
-      "ZH_HSK1_SC001",
-      "ZH_HSK1_SC002"
+      "ZH_HSK1_SC048",
+      "ZH_HSK1_SC049",
+      "ZH_HSK1_SC050",
+      "ZH_HSK2_SC001",
+      "ZH_HSK2_SC002",
+      "ZH_HSK2_SC003",
+      "ZH_HSK2_SC004",
+      "ZH_HSK2_SC005",
+      "ZH_HSK2_SC006",
+      "ZH_HSK2_SC007"
     ],
-    "status": "IN_PROGRESS",
+    "status": "READY_FOR_BUILD",
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "SC001-SC002 final asset olarak bağlı. SC003-SC009 görsel QA PASS ve binary entegrasyon bekliyor. SC010-SC012 canonical baba kimliği ihlali nedeniyle reddedildi. Build onayı kapalıdır.",
-    "analyzedSceneIds": [
-      "ZH_HSK1_SC001",
-      "ZH_HSK1_SC002",
-      "ZH_HSK1_SC003",
-      "ZH_HSK1_SC004",
-      "ZH_HSK1_SC005",
-      "ZH_HSK1_SC006",
-      "ZH_HSK1_SC007",
-      "ZH_HSK1_SC008",
-      "ZH_HSK1_SC009",
-      "ZH_HSK1_SC010"
-    ],
-    "latestVisualRevision": "SC001_SC002_2026-09-26",
-    "pendingApprovedSceneIds": [
-      "ZH_HSK1_SC003",
-      "ZH_HSK1_SC004",
-      "ZH_HSK1_SC005",
-      "ZH_HSK1_SC006",
-      "ZH_HSK1_SC007",
-      "ZH_HSK1_SC008",
-      "ZH_HSK1_SC009"
-    ],
-    "rejectedGeneratedSceneIds": [
-      "ZH_HSK1_SC010",
-      "ZH_HSK1_SC011",
-      "ZH_HSK1_SC012"
-    ],
-    "rejectionReasonTr": "SC010-SC012 görsellerinde baba 张伟 canonical kimliği Li Chen ile karıştığı için tek-kaynak manifesto gereği final asset olarak uygulamaya bağlanamaz; yeniden üretim gerekir."
+    "buildApproved": true,
+    "buildApprovedAt": "2026-09-26",
+    "noteTr": "Kullanıcı 26.09.2026 tarihinde şimdiye kadar entegre edilmiş görselleri içeren APK build için açık onay verdi. Son 10'lu cross-level batch 10/10 tamam ve QA PASS."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -90,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "HSK1_SC048_SC050_HSK2_SC001_SC007_INTEGRATED_2026-09-26",
+  "latestVisualRevision": "BUILD_APPROVED_CURRENT_INTEGRATED_VISUALS_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -181,14 +162,13 @@
       "ZH_HSK1_SC044",
       "ZH_HSK1_SC045",
       "ZH_HSK1_SC046",
-      "ZH_HSK1_SC047"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK1_SC047",
       "ZH_HSK1_SC048",
       "ZH_HSK1_SC049",
       "ZH_HSK1_SC050"
     ],
-    "status": "IN_PROGRESS",
+    "pendingSceneIds": [],
+    "status": "READY_FOR_BUILD",
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "SC041-SC047 ayrı scene ID ile final source asset olarak entegre edilmek üzere staged ve manifesto QA PASS. SC048-SC050 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
@@ -220,9 +200,9 @@
       "ZH_HSK2_SC007"
     ],
     "pendingSceneIds": [],
-    "status": "INTEGRATED_QA_PASS",
+    "status": "READY_FOR_BUILD",
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 görselleri ayrı scene ID ile final source asset olarak entegre edildi; LOCKED_V2 doğrulaması PASS ve runtime mirror SHA eşleşmesi 10/10 doğrulandı. APK build onayı kapalıdır."
+    "buildApproved": true,
+    "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 10/10 tamamlandı, LOCKED_V2 QA PASS. Kullanıcı 26.09.2026 tarihinde build onayı verdi."
   }
 }
