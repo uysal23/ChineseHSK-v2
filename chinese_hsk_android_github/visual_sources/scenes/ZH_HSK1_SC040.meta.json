@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC040",
+  "generationSceneId": "ZH_HSK1_SC040",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC040.json",
+  "dialogueSha256": "7b11d7fdd7e5183d504ed16ff9a72288883b2d00f90af87dc90abaa69b48f839",
+  "titleTr": "Kapıda Kargo",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Kurye yeni eve paket getirir; aile ve komşu teslimat sırasında paketi konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "快递员",
+    "邻居"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "快递员",
+    "邻居"
+  ],
+  "criticalObjects": [
+    "kargo paketi",
+    "ev giriş kapısı",
+    "kurye çantası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC039",
+    "nextSceneId": "ZH_HSK1_SC041"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC040.webp",
+  "finalAssetFilename": "ZH_HSK1_SC040.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC040.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "9348a30f3b075baa089328024b360ba6f0118401f15ed855ea638ca8f74ca36b"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+}
