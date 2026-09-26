@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC042",
     "nextSceneId": "ZH_HSK1_SC044"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC043.webp",
+  "sourceGeneratedFilename": "ailece_ders_çalışma_neşesi.png",
   "finalAssetFilename": "ZH_HSK1_SC043.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC043.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "619d9e0e46e02aea20c0ae5ba68e807d1a63e0526dcbe972cedaa78dac72af36"
+    "sha256": "7a350cc7839885c1cccd800a39150dfa09fffeab3ca90b4b7f2008c518a4b18e"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
 }
