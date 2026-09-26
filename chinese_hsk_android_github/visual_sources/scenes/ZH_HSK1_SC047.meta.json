@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC046",
     "nextSceneId": "ZH_HSK1_SC048"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC047.webp",
+  "sourceGeneratedFilename": "sıcak_evde_tatlı_sohbet_ve_planlama.png",
   "finalAssetFilename": "ZH_HSK1_SC047.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC047.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "c07ab7be2daf6870fbe542983fbf94e315073837a4ec584172eeeecd86bc00a2"
+    "sha256": "d633ec31b6c8bac49a96de150d171993b46ceed43d8525ae168c8a7e8f175e5e"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
 }

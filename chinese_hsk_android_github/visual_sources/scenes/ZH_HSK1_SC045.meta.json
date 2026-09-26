@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC044",
     "nextSceneId": "ZH_HSK1_SC046"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC045.webp",
+  "sourceGeneratedFilename": "akıllı_telefon_etrafında_aile_sevinci.png",
   "finalAssetFilename": "ZH_HSK1_SC045.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC045.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "c177c8d5d36e94f2ac97fd014ab551c6d034afe9f66357d879fcb222abcc9d7b"
+    "sha256": "c55da8bbdce80a2946bd0ac2b84729b3834485ed68c51cf669e9f04ed8bfdc7b"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
 }

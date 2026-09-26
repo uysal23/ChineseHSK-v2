@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC045",
     "nextSceneId": "ZH_HSK1_SC047"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC046.webp",
+  "sourceGeneratedFilename": "sıcacık_aile_çay_ve_pasta_sofrası.png",
   "finalAssetFilename": "ZH_HSK1_SC046.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC046.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "cb3801993fd25cb558c35d4a657063ba2b6f8bcba3a20c050ccc9c5102c617d4"
+    "sha256": "c622c4ad33158d3e68c34da405d1eb30696a18d7167af1b719099ac255bf353e"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla, geçerli WebP binary ve LOCKED_V2 manifesto kurallarıyla entegre edilmek üzere doğrulandı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
 }
