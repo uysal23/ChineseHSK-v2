@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC047",
     "nextSceneId": "ZH_HSK1_SC049"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC048.webp",
+  "sourceGeneratedFilename": "mahalle_şenliğine_hoş_geldiniz.png",
   "finalAssetFilename": "ZH_HSK1_SC048.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC048.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "8cfb7bdf9779d13295e896667d1e9cec8fd22a8f434c9cde16bc000e86f32d5d"
+    "sha256": "a57bd185f9e2cd51593d367bb38f5ed749bf191c626dd81e64932381c6147802"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }

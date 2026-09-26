@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC048",
     "nextSceneId": "ZH_HSK1_SC050"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC049.webp",
+  "sourceGeneratedFilename": "altın_saatte_aile_yürüyüşü.png",
   "finalAssetFilename": "ZH_HSK1_SC049.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC049.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "0ebe714899ad6a4e784de08e21315e34a2e8aaace6968a1c69f3e52b1511ecea"
+    "sha256": "74c5ba5205e62bfe58f12d81485bcfffac4e22566ec2914e67ec7bc00da5bc0a"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }

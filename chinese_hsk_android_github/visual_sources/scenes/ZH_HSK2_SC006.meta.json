@@ -28,7 +28,7 @@
     "previousSceneId": "ZH_HSK2_SC005",
     "nextSceneId": "ZH_HSK2_SC007"
   },
-  "sourceGeneratedFilename": "ZH_HSK2_SC006.webp",
+  "sourceGeneratedFilename": "akşam_ofisinde_görüntülü_toplantı.png",
   "finalAssetFilename": "ZH_HSK2_SC006.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC006.webp",
   "image": {
@@ -36,7 +36,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "e34d60187a839898fa6cc62b0dcd931a7f25c6778ed6a4b764715f11c3724e59"
+    "sha256": "acab29c1c7f6b05d45b65d889bc62104a53d210ffad341df0e5b6cba1056d5a4"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +57,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
 }
