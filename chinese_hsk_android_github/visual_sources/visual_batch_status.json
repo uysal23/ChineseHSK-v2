@@ -256,9 +256,10 @@
       "ZH_HSK1_SC021",
       "ZH_HSK1_SC025"
     ],
-    "status": "INTEGRATION_STAGED",
+    "status": "SYNC_TRIGGERED",
     "manifestVersion": "LOCKED_V2",
     "buildTriggered": false,
-    "noteTr": "Daha önce üretilip source tree içinde eksik kalmış dört sahne, diyalog ve kadro doğrulaması sonrası geri yükleme için staged. Şüpheli SC023 ve SC027 assetleri yüklenmedi."
+    "noteTr": "Daha önce üretilip source tree içinde eksik kalmış dört sahne, diyalog ve kadro doğrulaması sonrası geri yükleme için staged. Şüpheli SC023 ve SC027 assetleri yüklenmedi. Authoritative source sync workflow tetiklendi; APK build tetiklenmedi.",
+    "syncRequested": true
   }
 }
