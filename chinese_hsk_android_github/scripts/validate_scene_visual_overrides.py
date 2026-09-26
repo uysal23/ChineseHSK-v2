@@ -9,7 +9,7 @@ REQUIRED_CHECKS = {
     "requiredNonSpeakerCharactersChecked", "previousNextContinuityChecked",
     "style3d25dCgi", "noText", "noCollage", "safeAgeAppropriateClothing",
     "noMiniSkirt", "noSexyClothing", "criticalObjectsVisible",
-    "canonicalCharacterContinuityChecked"
+    "canonicalCharacterContinuityChecked", "uniqueSceneIdChecked"
 }
 
 def load(path: Path):
@@ -58,6 +58,12 @@ def main():
         meta = load(meta_path)
         if meta.get("sceneId") != sid or meta.get("manifestVersion") != "LOCKED_V2":
             errors.append(f"{sid}: metadata sceneId/manifestVersion hatalı")
+
+        if meta.get("generationSceneId") not in (None, sid):
+            errors.append(f"{sid}: generationSceneId asset sceneId ile eşleşmiyor")
+        final_name = meta.get("finalAssetFilename")
+        if final_name not in (None, f"{sid}.webp"):
+            errors.append(f"{sid}: finalAssetFilename sceneId ile eşleşmiyor")
 
         try:
             with Image.open(img_path) as im:

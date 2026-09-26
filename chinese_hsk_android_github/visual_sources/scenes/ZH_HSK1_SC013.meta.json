@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC013",
+  "generationSceneId": "ZH_HSK1_SC013",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC013.json",
+  "dialogueSha256": "dc1347c47b550c33e1df925e56139f0cd7b02bb02c8d9e22aa711cb210bd0ba7",
+  "titleTr": "Mimi Dolapta",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Mimi mutfak dolabının yanında bulunur ve çocuklar rahatlar.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "刘梅",
+    "张雨桐",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "刘梅",
+    "张雨桐",
+    "张伟",
+    "咪咪"
+  ],
+  "criticalObjects": [
+    "Mimi/kedi",
+    "dolap",
+    "taşınma kutuları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC012",
+    "nextSceneId": "ZH_HSK1_SC014"
+  },
+  "sourceGeneratedFilename": "yeni_evde_mimi_yi_bulmak.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC013.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "282ff7997689cabedf13024f68096df21b183463a5d296dabc105bc1c63e79b8"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "finalAssetFilename": "ZH_HSK1_SC013.webp"
+}

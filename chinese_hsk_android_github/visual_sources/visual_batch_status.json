@@ -55,5 +55,41 @@
       "ZH_HSK1_SC012"
     ],
     "rejectionReasonTr": "SC010-SC012 görsellerinde baba 张伟 canonical kimliği Li Chen ile karıştığı için tek-kaynak manifesto gereği final asset olarak uygulamaya bağlanamaz; yeniden üretim gerekir."
-  }
+  },
+  "nextBatchProgress": {
+    "batchId": "HSK1_SC011_SC020",
+    "level": "HSK1",
+    "sceneIds": [
+      "ZH_HSK1_SC011",
+      "ZH_HSK1_SC012",
+      "ZH_HSK1_SC013",
+      "ZH_HSK1_SC014",
+      "ZH_HSK1_SC015",
+      "ZH_HSK1_SC016",
+      "ZH_HSK1_SC017",
+      "ZH_HSK1_SC018",
+      "ZH_HSK1_SC019",
+      "ZH_HSK1_SC020"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK1_SC013",
+      "ZH_HSK1_SC014",
+      "ZH_HSK1_SC015",
+      "ZH_HSK1_SC016",
+      "ZH_HSK1_SC017",
+      "ZH_HSK1_SC018",
+      "ZH_HSK1_SC019"
+    ],
+    "pendingSceneIds": [
+      "ZH_HSK1_SC011",
+      "ZH_HSK1_SC012",
+      "ZH_HSK1_SC020"
+    ],
+    "status": "IN_PROGRESS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
+  },
+  "latestVisualRevision": "SC013_SC019_UNIQUE_SCENE_ID_2026-09-26",
+  "uniqueSceneIdRuleLocked": true
 }
