@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC030",
+  "generationSceneId": "ZH_HSK1_SC030",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC030.json",
+  "dialogueSha256": "eb05907446dc49ef4f2afbab5dbcc7c82a24deddfd97f185603c75c094e49091",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Şirketten gelen güzel iş haberini Zhang Wei ailesiyle paylaşır ve aile birlikte sevinir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "telefon",
+    "aile oturma alanı",
+    "kutlama jestleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC029",
+    "nextSceneId": "ZH_HSK1_SC031"
+  },
+  "sourceGeneratedFilename": "yeni_evde_aile_sevinci.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC030.webp",
+  "finalAssetFilename": "ZH_HSK1_SC030.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d069c6c05be2e9204595e6349ca70b1be547cfa46145ffac085ca97bc477579b"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
