@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC032",
+  "generationSceneId": "ZH_HSK1_SC032",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC032.json",
+  "dialogueSha256": "d11760fec196f185547d371c26fc8b3898c01627b5939eac4db3229e5f4179a1",
+  "locationId": "LOC_ZH_OFFICE_001",
+  "scenePurposeTr": "Zhang Wei yeni iş arkadaşları ve müdürle tanışır ve ofisin yerini öğrenir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事",
+    "经理"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事",
+    "经理"
+  ],
+  "criticalObjects": [
+    "ofis masaları",
+    "çalışma bilgisayarı",
+    "dosya/klasör"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC031",
+    "nextSceneId": "ZH_HSK1_SC033"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_ofis_karşılaması.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC032.webp",
+  "finalAssetFilename": "ZH_HSK1_SC032.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "6d85bf5d90359950b786e087692faeeb3e4d6d73adfa322238bc350677df2c13"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
