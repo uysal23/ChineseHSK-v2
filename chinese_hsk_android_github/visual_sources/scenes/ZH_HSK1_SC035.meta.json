@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC035",
+  "generationSceneId": "ZH_HSK1_SC035",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC035.json",
+  "dialogueSha256": "5e8690f284bb02808496964eceae1fac15ed64afb716d6869b31fc307318bf0d",
+  "titleTr": "Li Chen'in Ailesi Misafirlikte",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Li Chen ve eşi Zhang ailesine misafirliğe gelir; aile sıcak biçimde karşılar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "criticalObjects": [
+    "çay takımı",
+    "meyve/ikramlık",
+    "ev giriş alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC034",
+    "nextSceneId": "ZH_HSK1_SC036"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC035.webp",
+  "finalAssetFilename": "ZH_HSK1_SC035.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC035.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "3e055e6b7a2d261070391e43f935eef68048461d01ea2f3f506c39c3b0e2046a"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla entegre edildi ve LOCKED_V2 manifesto kontrolünden geçirildi."
+}

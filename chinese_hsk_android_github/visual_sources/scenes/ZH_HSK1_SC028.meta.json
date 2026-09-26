@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC028",
+  "generationSceneId": "ZH_HSK1_SC028",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC028.json",
+  "dialogueSha256": "7b4e87bd7baefee37dd17a83626a2a4c5d4111e325b3d56405b2e98a76b3fca1",
+  "titleTr": "İş Görüşmesine Hazırlık",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang Wei iş görüşmesi için evde hazırlanır; ailesi gömlek, kravat ve kıyafet seçiminde yanındadır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "gömlek",
+    "kravat",
+    "takım elbise",
+    "iş çantası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC027",
+    "nextSceneId": "ZH_HSK1_SC029"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC028.webp",
+  "finalAssetFilename": "ZH_HSK1_SC028.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC028.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "b2e2cc54573a183c755282f0f0329294b54fbc264393e7bb10b7d2ba8f75ca5d"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla entegre edildi ve LOCKED_V2 manifesto kontrolünden geçirildi."
+}

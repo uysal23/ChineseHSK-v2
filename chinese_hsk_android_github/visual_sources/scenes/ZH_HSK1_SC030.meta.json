@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC030",
+  "generationSceneId": "ZH_HSK1_SC030",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC030.json",
+  "dialogueSha256": "eb05907446dc49ef4f2afbab5dbcc7c82a24deddfd97f185603c75c094e49091",
+  "titleTr": "Şirketten Güzel Haber",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Şirketten gelen olumlu haber üzerine Zhang Wei ve ailesi birlikte sevinir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "telefon",
+    "ev oturma alanı",
+    "taşınma kutuları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC029",
+    "nextSceneId": "ZH_HSK1_SC031"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC030.webp",
+  "finalAssetFilename": "ZH_HSK1_SC030.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC030.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "6c2b5f0cc68e16b6cc8893d4bd517ba593a912007bcd804f48523a7958e5f03c"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla entegre edildi ve LOCKED_V2 manifesto kontrolünden geçirildi."
+}

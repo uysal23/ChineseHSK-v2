@@ -90,7 +90,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "SC026_REPAIRED_UNIQUE_SCENE_ID_2026-09-26",
+  "latestVisualRevision": "SC028_SC037_UNIQUE_SCENE_ID_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -108,7 +108,10 @@
       "ZH_HSK1_SC030"
     ],
     "completedSceneIds": [
-      "ZH_HSK1_SC026"
+      "ZH_HSK1_SC026",
+      "ZH_HSK1_SC028",
+      "ZH_HSK1_SC029",
+      "ZH_HSK1_SC030"
     ],
     "pendingSceneIds": [
       "ZH_HSK1_SC021",
@@ -116,14 +119,45 @@
       "ZH_HSK1_SC023",
       "ZH_HSK1_SC024",
       "ZH_HSK1_SC025",
-      "ZH_HSK1_SC027",
-      "ZH_HSK1_SC028",
-      "ZH_HSK1_SC029",
-      "ZH_HSK1_SC030"
+      "ZH_HSK1_SC027"
     ],
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC026 canonical karakter düzeltmesiyle yeniden üretildi; ayrı sceneId, metadata ve manifesto QA PASS. APK build onayı kapalıdır."
+    "noteTr": "SC028-SC030 ayrı scene ID ile final source asset olarak entegre edildi ve manifesto QA PASS. SC026 daha önce canonical düzeltmeyle tamamlandı. Kalan sahneler tamamlanmadan build-ready değildir."
+  },
+  "followingBatchProgress": {
+    "batchId": "HSK1_SC031_SC040",
+    "level": "HSK1",
+    "sceneIds": [
+      "ZH_HSK1_SC031",
+      "ZH_HSK1_SC032",
+      "ZH_HSK1_SC033",
+      "ZH_HSK1_SC034",
+      "ZH_HSK1_SC035",
+      "ZH_HSK1_SC036",
+      "ZH_HSK1_SC037",
+      "ZH_HSK1_SC038",
+      "ZH_HSK1_SC039",
+      "ZH_HSK1_SC040"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK1_SC031",
+      "ZH_HSK1_SC032",
+      "ZH_HSK1_SC033",
+      "ZH_HSK1_SC034",
+      "ZH_HSK1_SC035",
+      "ZH_HSK1_SC036",
+      "ZH_HSK1_SC037"
+    ],
+    "pendingSceneIds": [
+      "ZH_HSK1_SC038",
+      "ZH_HSK1_SC039",
+      "ZH_HSK1_SC040"
+    ],
+    "status": "IN_PROGRESS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC031-SC037 ayrı scene ID ile final source asset olarak entegre edildi ve manifesto QA PASS. SC038-SC040 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   }
 }
