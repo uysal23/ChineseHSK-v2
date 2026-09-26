@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC035",
+  "generationSceneId": "ZH_HSK1_SC035",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC035.json",
+  "dialogueSha256": "5e8690f284bb02808496964eceae1fac15ed64afb716d6869b31fc307318bf0d",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Li Chen ve eşi aileyi ziyarete gelir; Zhang Wei ve Liu Mei onları evde karşılar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "criticalObjects": [
+    "ev giriş alanı",
+    "çay seti",
+    "misafir karşılama"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC034",
+    "nextSceneId": "ZH_HSK1_SC036"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_aile_karşılaması.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC035.webp",
+  "finalAssetFilename": "ZH_HSK1_SC035.webp",
+  "image": {
+    "width": 900,
+    "height": 1600,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d0652d425ab391f04955d03e0e5bb951d97fe741c4d6ef5b10dcff24eaf3a22a"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
