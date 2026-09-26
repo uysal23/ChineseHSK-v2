@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC007",
+  "generationSceneId": "ZH_HSK2_SC007",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC007.json",
+  "dialogueSha256": "282f93d33ffa863c742bb830bbdd670502b3c14165f2026575fabfe588d476f4",
+  "titleTr": "Komşuya Doğum Günü Hediyesi",
+  "locationId": "LOC_ZH_GIFT_SHOP_001",
+  "scenePurposeTr": "Liu Mei, Zhang Wei ve Lele komşunun doğum günü için hediye seçer; mağaza görevlisi yardımcı olur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "店员"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "张乐乐",
+    "店员"
+  ],
+  "criticalObjects": [
+    "hediye kutuları",
+    "oyuncak/hediye seçenekleri",
+    "mağaza tezgahı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC006",
+    "nextSceneId": "ZH_HSK2_SC008"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC007.webp",
+  "finalAssetFilename": "ZH_HSK2_SC007.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC007.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "a907dabd212cea6b2a3f129d247c6a0792eeba84d622e66629f70a1b4db07a37"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Görsel kilitli manifesto ve ayrı scene ID kuralına göre final asset olarak hazırlanıp binary doğrulamaya alındı."
+}
