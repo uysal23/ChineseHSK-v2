@@ -4,7 +4,7 @@
   "generationSceneId": "ZH_HSK1_SC021",
   "manifestVersion": "LOCKED_V2",
   "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC021.json",
-  "dialogueSha256": "efb7407d7b09f31ba4b062e1090eda0e71979a40f1fb4fea466d073233326332",
+  "dialogueSha256": "e13312e4646eefdd8c4859b3d0c1a332ddacfba0dc1160d4954f64cdf78ad6ea",
   "titleTr": "Yeni Lisenin Kapısı",
   "locationId": "LOC_ZH_HIGH_SCHOOL_001",
   "scenePurposeTr": "Yutong yanlış binaya yönelir ve okul görevlisinden yardım ister.",
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi. Diyalog SHA-256 ham dosya baytlarından yeniden hesaplanarak düzeltildi."
 }
