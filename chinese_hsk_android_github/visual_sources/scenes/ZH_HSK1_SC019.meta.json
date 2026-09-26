@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC019",
+  "generationSceneId": "ZH_HSK1_SC019",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC019.json",
+  "dialogueSha256": "a8c9d733bb350fad14222a87d4e228a4dca034843fee6143c24c454615927d32",
+  "titleTr": "Sabah Kahvaltısı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Aile yeni evde ilk sakin kahvaltısını yapar; herkes sevdiği yiyecekleri söyler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "kahvaltı masası",
+    "ekmek",
+    "meyve",
+    "içecekler"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC018",
+    "nextSceneId": "ZH_HSK1_SC020"
+  },
+  "sourceGeneratedFilename": "yeni_evde_sıcak_aile_kahvaltısı.png",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC019.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "cdd19c89fdbc4c4d330956d347f598ccdf5bb1ec5afbe3cfa5d82ad1eea33a1b"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE"
+}
