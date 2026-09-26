@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "BUILD_APPROVED_CURRENT_INTEGRATED_VISUALS_2026-09-26",
+  "latestVisualRevision": "HSK2_SC008_SC017_PARTIAL_9_OF_10_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -211,5 +211,43 @@
     "artifactName": "ChineseHSK-v3.4.0-personal-apk",
     "builtAt": "2026-09-26",
     "apkSha256": "ee21bb1268a9dc71e1c6aa43f9de0e13d9da9715b11c7a1aea53f41cab11a4e2"
+  },
+  "nextHsk2BatchProgress": {
+    "batchId": "HSK2_SC008_SC017",
+    "level": "HSK2",
+    "sceneIds": [
+      "ZH_HSK2_SC008",
+      "ZH_HSK2_SC009",
+      "ZH_HSK2_SC010",
+      "ZH_HSK2_SC011",
+      "ZH_HSK2_SC012",
+      "ZH_HSK2_SC013",
+      "ZH_HSK2_SC014",
+      "ZH_HSK2_SC015",
+      "ZH_HSK2_SC016",
+      "ZH_HSK2_SC017"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK2_SC008",
+      "ZH_HSK2_SC009",
+      "ZH_HSK2_SC010",
+      "ZH_HSK2_SC012",
+      "ZH_HSK2_SC013",
+      "ZH_HSK2_SC014",
+      "ZH_HSK2_SC015",
+      "ZH_HSK2_SC016",
+      "ZH_HSK2_SC017"
+    ],
+    "pendingSceneIds": [
+      "ZH_HSK2_SC011"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK2_SC011"
+    ],
+    "rejectionReasonTr": "SC011 görselinde diyalogda konuşan küçük erkek çocuk 张乐乐 yerine ergen kız karakter gösterildi. Kilitli manifesto gereği uygulamaya bağlanmadı ve yeniden üretim gerekiyor.",
+    "status": "IN_PROGRESS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC008-SC010 ve SC012-SC017 ayrı scene ID ile final asset entegrasyonu için hazır. SC011 yanlış karakter nedeniyle bilinçli olarak dışarıda bırakıldı."
   }
 }
