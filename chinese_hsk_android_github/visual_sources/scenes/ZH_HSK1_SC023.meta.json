@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC023",
+  "generationSceneId": "ZH_HSK1_SC023",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC023.json",
+  "dialogueSha256": "85cf563dce82334a5c204d1e94a0514fe0100eaf2c9cafc9e5f7999d3661194f",
+  "titleTr": "İlk Yeni Arkadaş",
+  "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+  "scenePurposeTr": "Bir öğrenci Yutong’u öğle yemeğine davet eder.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "同学",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "同学",
+    "同学",
+    "老师"
+  ],
+  "criticalObjects": [
+    "lise kampüsü",
+    "okul çantaları",
+    "defterler"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC022",
+    "nextSceneId": "ZH_HSK1_SC024"
+  },
+  "sourceGeneratedFilename": "okul_koridorunda_neşeli_öğle_daveti.png",
+  "finalAssetFilename": "ZH_HSK1_SC023.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC023.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "fa6fad5020d144784471ae97dbdbca32a4e2d1c8ba67ad20a94a8ba09d3c51de"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+}

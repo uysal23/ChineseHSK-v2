@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC020",
+  "generationSceneId": "ZH_HSK1_SC020",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC020.json",
+  "dialogueSha256": "07f422e99eca2a152fd045bafe5a4a2844167768743bd9e7053eabd76983e3af",
+  "titleTr": "Aile Fotoğrafı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Aile ilk fotoğrafını çekmeye çalışır; Mimi sürekli yer değiştirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "aile selfie pozu",
+    "Mimi/kedi",
+    "ev oturma alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC019",
+    "nextSceneId": "ZH_HSK1_SC021"
+  },
+  "sourceGeneratedFilename": "neşeli_aile_selfie_si_ve_sevimli_kedi.png",
+  "finalAssetFilename": "ZH_HSK1_SC020.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC020.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "082dcbb66411960e75868d965d6af305d06f44873f9364512ade22d2c41cd32f"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+}
