@@ -36,7 +36,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "7ede620da1b0f9437d80c24a9f2d26e3832062521f4068336019eb048c6ef232"
+    "sha256": "081373da3bb529e6d254b2a21ba20dff21bf9f9874afbdb4b904377f9e4b0a13"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +56,6 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Görsel kendi ayrı scene ID dosya adıyla entegre edildi ve LOCKED_V2 manifesto kontrolünden geçirildi."
+  "qaNoteTr": "Görsel geçerli WebP binary olarak yeniden aktarıldı; kendi ayrı scene ID dosya adıyla LOCKED_V2 manifesto doğrulamasına hazır.",
+  "binaryIntegrityChecked": true
 }
