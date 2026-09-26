@@ -70,7 +70,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "HSK1_SC048_SC050_HSK2_SC001_SC007_LATEST_ASSETS_2026-09-26",
+  "latestVisualRevision": "HSK1_SC038_SC047_LOCKED_V2_REFRESH_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -251,20 +251,34 @@
   },
   "lastSceneAssetReplacement": {
     "sceneIds": [
-      "ZH_HSK1_SC048",
-      "ZH_HSK1_SC049",
-      "ZH_HSK1_SC050",
-      "ZH_HSK2_SC001",
-      "ZH_HSK2_SC002",
-      "ZH_HSK2_SC003",
-      "ZH_HSK2_SC004",
-      "ZH_HSK2_SC005",
-      "ZH_HSK2_SC006",
-      "ZH_HSK2_SC007"
+      "ZH_HSK1_SC038",
+      "ZH_HSK1_SC039",
+      "ZH_HSK1_SC040",
+      "ZH_HSK1_SC041",
+      "ZH_HSK1_SC042",
+      "ZH_HSK1_SC043",
+      "ZH_HSK1_SC044",
+      "ZH_HSK1_SC045",
+      "ZH_HSK1_SC046",
+      "ZH_HSK1_SC047"
     ],
-    "status": "INTEGRATED_QA_PASS",
+    "replacedWithNewGeneratedSceneIds": [
+      "ZH_HSK1_SC038",
+      "ZH_HSK1_SC039",
+      "ZH_HSK1_SC040",
+      "ZH_HSK1_SC041",
+      "ZH_HSK1_SC042",
+      "ZH_HSK1_SC044",
+      "ZH_HSK1_SC046",
+      "ZH_HSK1_SC047"
+    ],
+    "retainedExistingValidatedSceneIds": [
+      "ZH_HSK1_SC043",
+      "ZH_HSK1_SC045"
+    ],
+    "status": "INTEGRATION_STAGED",
     "manifestVersion": "LOCKED_V2",
     "buildTriggered": false,
-    "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 son kullanıcı görselleri media/scenes altında kendi ayrı scene ID dosya adlarıyla yazıldı; runtime aynası senkron workflow ile güncellenecek."
+    "noteTr": "SC038-SC047 10/10 yeniden doğrulandı. SC038,039,040,041,042,044,046,047 yeni senaryo-uyumlu görsellerle staged; SC043 ve SC045 yeni üretim kadro sürekliliğini tam karşılamadığı için mevcut LOCKED_V2 QA PASS assetleri korunuyor. Build tetiklenmedi."
   }
 }
