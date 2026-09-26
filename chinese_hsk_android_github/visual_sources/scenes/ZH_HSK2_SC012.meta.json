@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC012",
+  "generationSceneId": "ZH_HSK2_SC012",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC012.json",
+  "dialogueSha256": "b945249f5c55071da052e55f0a368658c5eb339a2dd9b4a3bad4cc15b1ab7f18",
+  "titleTr": "Yutong'un Arkadaşı Eve Geliyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong'un sınıf arkadaşı ilk kez eve gelir; Liu Mei ve Zhang Wei misafiri karşılar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "同学",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "同学",
+    "刘梅",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "ev salonu",
+    "okul çantaları",
+    "misafir karşılama"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC011",
+    "nextSceneId": "ZH_HSK2_SC013"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC012.webp",
+  "finalAssetFilename": "ZH_HSK2_SC012.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC012.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "9e326d68aa1b4142bb7eccfe8a31815c5625cb77ffe5a0ed7c2ed522f7e52149"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Kilitli görsel manifestosu ve ayrı scene ID kuralına göre doğrulandı."
+}
