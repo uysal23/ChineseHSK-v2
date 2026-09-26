@@ -4,7 +4,7 @@
   "generationSceneId": "ZH_HSK1_SC011",
   "manifestVersion": "LOCKED_V2",
   "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC011.json",
-  "dialogueSha256": "304415fe002e53eaecceaac0f38ecb27c8258813a99a19e22f232698bc92203e",
+  "dialogueSha256": "b577eea15059989017c56fae548432c40f5d629d526f3b424b97027ce0d0b247",
   "titleTr": "Kutular Nerede?",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Mutfak kutuları yanlış odaya bırakılmıştır; aile kutuları yeniden düzenler.",
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi. Diyalog SHA-256 ham dosya baytlarından yeniden hesaplanarak düzeltildi."
 }
