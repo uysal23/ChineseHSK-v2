@@ -4,7 +4,7 @@
   "generationSceneId": "ZH_HSK1_SC012",
   "manifestVersion": "LOCKED_V2",
   "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC012.json",
-  "dialogueSha256": "aed40667d196964da985ef6ef683254af816858c6a3b0ba963c8456856390db1",
+  "dialogueSha256": "20242052874a42cddb1f786cb8f5b3e51c2c9c470e0a5f592d80168b1e8199c8",
   "titleTr": "İlk Gece",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "İlk akşam yataklar hazırlanırken Mimi ortadan kaybolur ve aile evin içinde onu arar.",
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi. Diyalog SHA-256 ham dosya baytlarından yeniden hesaplanarak düzeltildi."
 }
