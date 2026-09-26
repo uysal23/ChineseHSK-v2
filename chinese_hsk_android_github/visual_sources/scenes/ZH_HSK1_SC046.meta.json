@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC045",
     "nextSceneId": "ZH_HSK1_SC047"
   },
-  "sourceGeneratedFilename": "sıcacık_aile_çay_ve_pasta_sofrası.png",
+  "sourceGeneratedFilename": "komşularla_neşeli_kek_paylaşımı.png",
   "finalAssetFilename": "ZH_HSK1_SC046.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC046.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "c622c4ad33158d3e68c34da405d1eb30696a18d7167af1b719099ac255bf353e"
+    "sha256": "018434a3fa43e4506e03a0f41e81a6c03ccbb2fae1d98162cb40504118236090"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
