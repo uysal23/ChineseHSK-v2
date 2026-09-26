@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK1_SC021",
+  "generationSceneId": "ZH_HSK1_SC021",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC021.json",
+  "dialogueSha256": "efb7407d7b09f31ba4b062e1090eda0e71979a40f1fb4fea466d073233326332",
+  "titleTr": "Yeni Lisenin Kapısı",
+  "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+  "scenePurposeTr": "Yutong yanlış binaya yönelir ve okul görevlisinden yardım ister.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "老师",
+    "工作人员",
+    "同学"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "老师",
+    "工作人员",
+    "同学"
+  ],
+  "criticalObjects": [
+    "lise giriş kapısı",
+    "okul binası",
+    "okul görevlisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK1_SC020",
+    "nextSceneId": "ZH_HSK1_SC022"
+  },
+  "sourceGeneratedFilename": "ZH_HSK1_SC021__high_school_gate_locked_cast.png",
+  "finalAssetFilename": "ZH_HSK1_SC021.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC021.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "1278af62e6c082c8f19a459b03980c7f83528ab6b31e7b671fc94932076eb60d"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+}
