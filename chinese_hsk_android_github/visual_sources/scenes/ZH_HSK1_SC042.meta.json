@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC041",
     "nextSceneId": "ZH_HSK1_SC043"
   },
-  "sourceGeneratedFilename": "evcil_hayvan_mağazasında_neşeli_aile.png",
+  "sourceGeneratedFilename": "ailece_sevimli_kedi_mağazası_alışverişi.png",
   "finalAssetFilename": "ZH_HSK1_SC042.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC042.webp",
   "image": {
@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "6a0b42ee1712cf599ad373f2c939bf41416810017c524bdb17b2bd61279cabe7"
+    "sha256": "2395177bbcbe4670144c89cf7a5dd22e9868c4e3cc0724feb66a8f9ef91a68c4"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
