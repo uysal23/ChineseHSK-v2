@@ -276,9 +276,10 @@
       "ZH_HSK1_SC043",
       "ZH_HSK1_SC045"
     ],
-    "status": "INTEGRATION_STAGED",
+    "status": "SYNC_REQUESTED",
     "manifestVersion": "LOCKED_V2",
     "buildTriggered": false,
-    "noteTr": "SC038-SC047 10/10 yeniden doğrulandı. SC038,039,040,041,042,044,046,047 yeni senaryo-uyumlu görsellerle staged; SC043 ve SC045 yeni üretim kadro sürekliliğini tam karşılamadığı için mevcut LOCKED_V2 QA PASS assetleri korunuyor. Build tetiklenmedi."
+    "noteTr": "SC038-SC047 10/10 yeniden doğrulandı. SC038,039,040,041,042,044,046,047 yeni senaryo-uyumlu görsellerle staged; SC043 ve SC045 yeni üretim kadro sürekliliğini tam karşılamadığı için mevcut LOCKED_V2 QA PASS assetleri korunuyor. Build tetiklenmedi. Authoritative source sync tetikleme commit'i hazırlandı.",
+    "syncRequested": true
   }
 }
