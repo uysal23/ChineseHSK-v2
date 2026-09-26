@@ -37,7 +37,7 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "c2d6c9be041dabdac26ca7c70a806d6706cdbebd2aad2bd5bd5c1556e312fc91"
+    "sha256": "5c9ae8d5348a87f752f785c4797adbec059948df012f0dee601a0e3cfb894cc2"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
 }
