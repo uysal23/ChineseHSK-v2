@@ -4,7 +4,7 @@
   "generationSceneId": "ZH_HSK1_SC025",
   "manifestVersion": "LOCKED_V2",
   "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC025.json",
-  "dialogueSha256": "b28c19723c41da60ce1fc226e8d7eed6a1bee23a42e6e5c6321ed1502b926bb9",
+  "dialogueSha256": "68ea10b7b42517c326adcfba0e8dcc797ea78fef7f7b11bf486b522148017756",
   "titleTr": "Kaybolan Kalem",
   "locationId": "LOC_ZH_PRIMARY_SCHOOL_001",
   "scenePurposeTr": "Lele mavi kaleminin başka bir öğrencide olduğunu sanır; öğretmen ve Liu Mei durumu açıklığa kavuşturur.",
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi."
+  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi. Diyalog SHA-256 ham dosya baytlarından yeniden hesaplanarak düzeltildi."
 }
