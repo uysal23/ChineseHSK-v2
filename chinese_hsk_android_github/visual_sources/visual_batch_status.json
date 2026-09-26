@@ -31,11 +31,11 @@
       "ZH_HSK2_SC006",
       "ZH_HSK2_SC007"
     ],
-    "status": "READY_FOR_BUILD",
+    "status": "INTEGRATED_QA_PASS",
     "buildApprovalRequired": true,
-    "buildApproved": true,
+    "buildApproved": false,
     "buildApprovedAt": "2026-09-26",
-    "noteTr": "Kullanıcı 26.09.2026 tarihinde şimdiye kadar entegre edilmiş görselleri içeren APK build için açık onay verdi. Son 10'lu cross-level batch 10/10 tamam ve QA PASS."
+    "noteTr": "Build 26.09.2026 tarihinde başarıyla tamamlandı. Yeni bir APK build için tekrar kullanıcı onayı gerekir."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -200,9 +200,16 @@
       "ZH_HSK2_SC007"
     ],
     "pendingSceneIds": [],
-    "status": "READY_FOR_BUILD",
+    "status": "INTEGRATED_QA_PASS",
     "buildApprovalRequired": true,
-    "buildApproved": true,
+    "buildApproved": false,
     "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 10/10 tamamlandı, LOCKED_V2 QA PASS. Kullanıcı 26.09.2026 tarihinde build onayı verdi."
+  },
+  "lastSuccessfulBuild": {
+    "workflowRunId": 36233181902,
+    "commitSha": "73fad0cea1ee98bc8b8b9d600765120261914a25",
+    "artifactName": "ChineseHSK-v3.4.0-personal-apk",
+    "builtAt": "2026-09-26",
+    "apkSha256": "ee21bb1268a9dc71e1c6aa43f9de0e13d9da9715b11c7a1aea53f41cab11a4e2"
   }
 }
