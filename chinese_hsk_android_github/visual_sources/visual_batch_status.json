@@ -90,7 +90,7 @@
     "buildApproved": false,
     "noteTr": "SC013-SC019 ayrı sceneId ile yeniden üretildi, manifesto QA PASS ve final source asset entegrasyonu için staged. SC011, SC012 ve SC020 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
   },
-  "latestVisualRevision": "SC038_SC047_UNIQUE_SCENE_ID_2026-09-26",
+  "latestVisualRevision": "HSK1_SC048_SC050_HSK2_SC001_SC007_2026-09-26",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -192,5 +192,37 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "SC041-SC047 ayrı scene ID ile final source asset olarak entegre edilmek üzere staged ve manifesto QA PASS. SC048-SC050 tamamlanmadan bu 10'lu paket READY_FOR_BUILD olmaz."
+  },
+  "crossLevelBatchProgress": {
+    "batchId": "HSK1_SC048_SC050__HSK2_SC001_SC007",
+    "sceneIds": [
+      "ZH_HSK1_SC048",
+      "ZH_HSK1_SC049",
+      "ZH_HSK1_SC050",
+      "ZH_HSK2_SC001",
+      "ZH_HSK2_SC002",
+      "ZH_HSK2_SC003",
+      "ZH_HSK2_SC004",
+      "ZH_HSK2_SC005",
+      "ZH_HSK2_SC006",
+      "ZH_HSK2_SC007"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK1_SC048",
+      "ZH_HSK1_SC049",
+      "ZH_HSK1_SC050",
+      "ZH_HSK2_SC001",
+      "ZH_HSK2_SC002",
+      "ZH_HSK2_SC003",
+      "ZH_HSK2_SC004",
+      "ZH_HSK2_SC005",
+      "ZH_HSK2_SC006",
+      "ZH_HSK2_SC007"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PENDING_WORKFLOW",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 görselleri ayrı scene ID ile final source asset olarak staged; metadata LOCKED_V2 QA PASS. Sync workflow doğrulaması sonrası runtime mirror oluşturulacaktır. APK build onayı kapalıdır."
   }
 }
