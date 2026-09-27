@@ -24,7 +24,7 @@
     "HOLD_CAST_MISMATCH": 57,
     "UI_REFERENCE_ONLY": 48,
     "REJECT_UNRELATED": 2,
-    "FINAL_SELECTED": 32,
+    "FINAL_SELECTED": 40,
     "FAMILY_REFERENCE": 30
   },
   "assets": [
@@ -1393,7 +1393,7 @@
       "reasonTr": "Aynı aile stilinde; sahne eşlemesi/yaş kontrolü sonrası kullanılabilir."
     },
     {
-      "sourceFile": "güneşli_dağ_kasabası_kafesi.png",
+      "sourceFile": "sıcak_bir_kafede_sipariş_anı.png",
       "width": 941,
       "height": 1672,
       "aspect": 0.5628,
@@ -1401,7 +1401,7 @@
       "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
       "sceneId": "ZH_HSK3_SC021",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC021.webp",
-      "reasonTr": "Ana aile görsel kimliğiyle uyumlu; sahne içeriğiyle eşleşiyor."
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
     },
     {
       "sourceFile": "güneşli_hastane_odasında_aile_ziyareti.png",
@@ -1741,7 +1741,7 @@
       "reasonTr": "Aynı aile stilinde; sahne eşlemesi/yaş kontrolü sonrası kullanılabilir."
     },
     {
-      "sourceFile": "yağmurlu_günde_aile_fırını.png",
+      "sourceFile": "yağmurlu_akşamda_kafe_beyin_fırtınası.png",
       "width": 941,
       "height": 1672,
       "aspect": 0.5628,
@@ -1749,7 +1749,7 @@
       "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
       "sceneId": "ZH_HSK3_SC027",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC027.webp",
-      "reasonTr": "Ana aile görsel kimliğiyle uyumlu; sahne içeriğiyle eşleşiyor."
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
     },
     {
       "sourceFile": "yeni_evde_mutlu_aile_günü.png",
@@ -1900,6 +1900,94 @@
       "sceneId": "ZH_HSK4_SC027",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC027.webp",
       "reasonTr": "Ana aile görsel kimliğiyle uyumlu; tren gecikmesi, istasyon danışma noktası ve rezervasyon planı değişikliği bağlamını doğru yansıtıyor."
+    },
+    {
+      "sourceFile": "kahve_makinesinde_ailece_çözüm_arayışı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC022",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC022.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "espresso_makinesi_başında_sıcak_bir_tamir_anı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC023",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC023.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcak_kafede_kahve_servisi.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC024",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC024.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcak_kafede_ödev_zamanı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC025",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC025.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcak_bir_kafe_sabahı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC026",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC026.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcak_bir_terminal_vedası.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC028",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC028.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "otel_resepsiyonunda_rezervasyon_sorunu.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC029",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC029.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcak_işıklı_i_ş_toplantısı_sunumu.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC030",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC030.webp",
+      "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
     }
   ]
 }

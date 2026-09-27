@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC024",
+  "generationSceneId": "ZH_HSK3_SC024",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC024.json",
+  "dialogueSha256": "d647711ed3d30ed0b90da4151a4855c00782cc1e6a5c0551c2805e14d7a3e63b",
+  "titleTr": "Yutong Kafede Çalışıyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Yutong ilk kez ücret karşılığı kafede çalışır ve müşteriyle iletişim kurar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "servis önlüğü",
+    "sipariş not defteri",
+    "servis tepsisi",
+    "kahve ve pasta"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC023",
+    "nextSceneId": "ZH_HSK3_SC025"
+  },
+  "sourceGeneratedFilename": "sıcak_kafede_kahve_servisi.png",
+  "finalAssetFilename": "ZH_HSK3_SC024.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC024.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "54f78d7da85e2ca5148037f7dd1c55919ffd54c180e68465365489c098243687"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Önceki HSK3 final sahnelerinin karakter yüzü, yaş olgunluğu, mekân ve sıcak ışık dili korunarak kullanıcı onayı sonrası entegre edildi."
+}

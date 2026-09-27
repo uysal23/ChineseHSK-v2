@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC025",
+  "generationSceneId": "ZH_HSK3_SC025",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC025.json",
+  "dialogueSha256": "c48053aa49e8ad65f7334550e28a67e562e4b527d9a91569e9517ad8f6e2ed54",
+  "titleTr": "Lele’nin Ödev Köşesi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Lele için ayrılan eski masa, zamanla çocuk müşterilerin ödev köşesine dönüşür.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "张乐乐"
+  ],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer_or_parent",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "eski ahşap masa",
+    "ödev defterleri",
+    "kalemler",
+    "okul çantası",
+    "masa lambası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC024",
+    "nextSceneId": "ZH_HSK3_SC026"
+  },
+  "sourceGeneratedFilename": "sıcak_kafede_ödev_zamanı.png",
+  "finalAssetFilename": "ZH_HSK3_SC025.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC025.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "dd06c688a94a80599d4f66c0e49745caa93c8b2d3d9097d18e847b1fae857826"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Önceki HSK3 final sahnelerinin karakter yüzü, yaş olgunluğu, mekân ve sıcak ışık dili korunarak kullanıcı onayı sonrası entegre edildi."
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC026",
+  "generationSceneId": "ZH_HSK3_SC026",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC026.json",
+  "dialogueSha256": "4b2f0d247e11c925d5475c7b7ccd028f487df1d1963c5a307b1c379d1b434cf6",
+  "titleTr": "Kafenin İlk Düzenli Müşterisi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Yaşlı bir komşu her sabah aynı saatte gelmeye başlar ve düzenli müşteri olur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "elderly_neighbor_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "sabah kahvesi",
+    "aynı pencere kenarı masa",
+    "gazete/kitap (okunabilir metin yok)",
+    "küçük kahvaltı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC025",
+    "nextSceneId": "ZH_HSK3_SC027"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_kafe_sabahı.png",
+  "finalAssetFilename": "ZH_HSK3_SC026.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC026.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "fe2d7cf491046fa876b6ee2abb1a6ecc31e2c74151425d437fb80cb8423028a4"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Önceki HSK3 final sahnelerinin karakter yüzü, yaş olgunluğu, mekân ve sıcak ışık dili korunarak kullanıcı onayı sonrası entegre edildi."
+}

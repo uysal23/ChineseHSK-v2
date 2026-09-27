@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC021_SC030_ANALYZED_READY_FOR_GENERATION_2026-09-27",
+  "latestVisualRevision": "HSK3_SC021_SC030_INTEGRATED_QA_PASS_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -449,8 +449,7 @@
       "ZH_HSK3_SC029",
       "ZH_HSK3_SC030"
     ],
-    "completedSceneIds": [],
-    "pendingSceneIds": [
+    "completedSceneIds": [
       "ZH_HSK3_SC021",
       "ZH_HSK3_SC022",
       "ZH_HSK3_SC023",
@@ -462,10 +461,11 @@
       "ZH_HSK3_SC029",
       "ZH_HSK3_SC030"
     ],
-    "status": "ANALYZED_READY_FOR_GENERATION",
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
     "manifestVersion": "LOCKED_V2",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC021-SC030 diyalog, production, mekân, kadro ve continuity analizi tamamlandı. SC025 Lele konuşmasa da zorunlu non-speaker teen_boy; SC029-SC030 Liu Mei uzaktan/video bağlantısıyla görünür. 10 ayrı single-scene prompt hazır."
+    "noteTr": "HSK3 SC021-SC030 10/10 final WebP app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata olarak entegre edildi. Önceki HSK3 sahne continuity çizgisi korundu. SC025 Lele teen_boy. SC029-SC030 Liu Mei diyalog konuşmacısı olarak uzaktan/video bağlantısında görünür. APK build başlatılmadı."
   }
 }
