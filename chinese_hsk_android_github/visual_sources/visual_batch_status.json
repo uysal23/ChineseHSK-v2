@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC014_SC020_COLLAGE_CROPS_REJECTED_2026-09-27",
+  "latestVisualRevision": "HSK3_SC011_SC020_SOURCE_SYNC_PENDING_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -412,11 +412,24 @@
       "ZH_HSK3_SC019",
       "ZH_HSK3_SC020"
     ],
-    "completedSceneIds": [],
+    "stagedSceneIds": [
+      "ZH_HSK3_SC011",
+      "ZH_HSK3_SC012",
+      "ZH_HSK3_SC013",
+      "ZH_HSK3_SC014",
+      "ZH_HSK3_SC015",
+      "ZH_HSK3_SC016",
+      "ZH_HSK3_SC017",
+      "ZH_HSK3_SC018",
+      "ZH_HSK3_SC019",
+      "ZH_HSK3_SC020"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK3_SC013"
+    ],
     "pendingSceneIds": [
       "ZH_HSK3_SC011",
       "ZH_HSK3_SC012",
-      "ZH_HSK3_SC013",
       "ZH_HSK3_SC014",
       "ZH_HSK3_SC015",
       "ZH_HSK3_SC016",
@@ -425,50 +438,11 @@
       "ZH_HSK3_SC019",
       "ZH_HSK3_SC020"
     ],
-    "rejectedGeneratedSceneIds": [
-      "ZH_HSK3_SC011",
-      "ZH_HSK3_SC012",
-      "ZH_HSK3_SC013",
-      "ZH_HSK3_SC014",
-      "ZH_HSK3_SC015",
-      "ZH_HSK3_SC016",
-      "ZH_HSK3_SC017",
-      "ZH_HSK3_SC018",
-      "ZH_HSK3_SC019",
-      "ZH_HSK3_SC020"
-    ],
-    "rejectionReasonTr": "İlk üretim turunda Lele HSK3 LOCKED maturity kuralına göre teen_boy yerine fazla küçük/bebeksi göründü. Düzeltme denemesinde görsel aracı bireysel sahne yerine kolaj üretti; kolaj çıktılar final kabul edilmedi ve uygulamaya entegre edilmedi. SC011-SC020, Lele teen_boy + Yutong young_adult + ebeveynler mature_adult yaş bandı doğrulanarak bireysel 9:16 sahne olarak yeniden üretilmelidir.",
-    "status": "REGENERATION_REQUIRED_SCENE_MATCH",
+    "status": "SOURCE_SYNC_PENDING",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "Kolaj 7 ayrı panele ayrılarak SC014-SC020 için görsel QA yapıldı. Hiçbir panel ilgili sahnenin kritik obje/aksiyon/kadro şartlarını tam karşılamadığı için hiçbir asset uygulamaya bağlanmadı. Bireysel sahne üretimi gereklidir.",
-    "analysisPrepared": true,
-    "promptFilesPrepared": true,
-    "requiredVisualCharacters": [
-      "刘梅",
-      "张伟",
-      "顾客",
-      "张雨桐"
-    ],
-    "forbiddenExtraCharacters": [
-      "张乐乐"
-    ],
-    "croppedCollageQa": {
-      "source": "a_vertical_collage_montage_of_seven_detailed_styli.png",
-      "attemptedSceneRange": "ZH_HSK3_SC014-ZH_HSK3_SC020",
-      "status": "REJECTED_NOT_INTEGRATED",
-      "sceneResults": {
-        "ZH_HSK3_SC014": "FAIL: tadilat başlangıcı yerine genel planlama masası; usta/tadilat araçları/duvar boya bağlamı yeterli değil.",
-        "ZH_HSK3_SC015": "FAIL: eski masanın hikâyesi ve ikinci el masa/satıcı bağlamı yok.",
-        "ZH_HSK3_SC016": "FAIL: menü tadımı yerine kahve çekirdeği/ürün inceleme sahnesi; tadım ve servis bağlamı eksik.",
-        "ZH_HSK3_SC017": "FAIL: fiyat/maliyet belirleme yerine latte hazırlama; hesap makinesi/maliyet karşılaştırması yok.",
-        "ZH_HSK3_SC018": "FAIL: çalışan adayı iş görüşmesi bağlamı ve dört konuşmacı kadrosu eksik.",
-        "ZH_HSK3_SC019": "FAIL: tabela/yazım hatası/montaj bağlamı yok; yalnızca tasarım örnekleri.",
-        "ZH_HSK3_SC020": "FAIL: sessiz açılış ve servis akışı yerine dışarıdan kafe bakışı; yetişkin müşteri ve servis testi eksik."
-      },
-      "integrationBlocked": true
-    }
+    "noteTr": "SC011-SC020 için 10 final görsel seçildi. SC013 doğrudan asset olarak mevcut; diğer 9 WebP source-sync scene_chunks üzerinden materialize edilmek üzere stage edildi. APK build tetiklenmez."
   }
 }

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "sceneId": "ZH_HSK3_SC013",
-  "generationSceneId": "ZH_HSK3_SC013",
+  "sceneId": "ZH_HSK3_SC014",
+  "generationSceneId": "ZH_HSK3_SC014",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
-  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC013.json",
-  "dialogueSha256": "568d996728eda80484a958435ad168e201dcf77a6e92c92c4e5830f4bad01e58",
-  "titleTr": "Ruhsat İşlemleri",
-  "locationId": "LOC_ZH_GOV_SERVICE_001",
-  "scenePurposeTr": "Liu Mei resmî hizmet merkezinde kafe için gerekli ruhsat ve belgeleri tamamlamaya çalışır.",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC014.json",
+  "dialogueSha256": "626206fd8e608ec5cfbb66e64d00cdf5b17ff8c42bce53d7102db22d4432d317",
+  "titleTr": "Tadilat Başlıyor",
+  "locationId": "LOC_ZH_CAFE_PREMISES_001",
+  "scenePurposeTr": "Kafe tadilatı başlar; duvar rengi ve masa düzeni konusunda aile ile usta arasında fikir ayrılığı yaşanır.",
   "dialogueSpeakers": [
     "刘梅",
     "张伟",
@@ -31,18 +31,18 @@
     "顾客": "adult_third_party"
   },
   "criticalObjects": [
-    "belge dosyası",
-    "başvuru evrakları (okunabilir metin yok)",
-    "resmî hizmet bankosu",
-    "kaşe/damga"
+    "boya renk örnekleri",
+    "ölçü bandı",
+    "zemin planı",
+    "merdiven ve tadilat araçları"
   ],
   "continuity": {
-    "previousSceneId": "ZH_HSK3_SC012",
-    "nextSceneId": "ZH_HSK3_SC014"
+    "previousSceneId": "ZH_HSK3_SC013",
+    "nextSceneId": "ZH_HSK3_SC015"
   },
-  "sourceGeneratedFilename": "aileyle_resmî_i_şlem_günü.png",
-  "finalAssetFilename": "ZH_HSK3_SC013.webp",
-  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC013.webp",
+  "sourceGeneratedFilename": "kafede_yenileme_tasarım_toplantısı.png",
+  "finalAssetFilename": "ZH_HSK3_SC014.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC014.webp",
   "image": {
     "width": 941,
     "height": 1672,
@@ -69,5 +69,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-27: ZH_HSK3_SC013 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
+  "qaNoteTr": "2026-09-27: ZH_HSK3_SC014 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
 }

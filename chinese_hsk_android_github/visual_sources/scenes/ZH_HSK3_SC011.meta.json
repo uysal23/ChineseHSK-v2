@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "sceneId": "ZH_HSK3_SC013",
-  "generationSceneId": "ZH_HSK3_SC013",
+  "sceneId": "ZH_HSK3_SC011",
+  "generationSceneId": "ZH_HSK3_SC011",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
-  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC013.json",
-  "dialogueSha256": "568d996728eda80484a958435ad168e201dcf77a6e92c92c4e5830f4bad01e58",
-  "titleTr": "Ruhsat İşlemleri",
-  "locationId": "LOC_ZH_GOV_SERVICE_001",
-  "scenePurposeTr": "Liu Mei resmî hizmet merkezinde kafe için gerekli ruhsat ve belgeleri tamamlamaya çalışır.",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC011.json",
+  "dialogueSha256": "212da8787d25ff0cca469a46e362dccd24e9621a30d65c2e3b02f87098722799",
+  "titleTr": "Ailece Karar Toplantısı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Aile akşam masasında kafe açmanın risklerini, faydalarını ve bütçeyi tartışır.",
   "dialogueSpeakers": [
     "刘梅",
     "张伟",
@@ -31,18 +31,18 @@
     "顾客": "adult_third_party"
   },
   "criticalObjects": [
-    "belge dosyası",
-    "başvuru evrakları (okunabilir metin yok)",
-    "resmî hizmet bankosu",
-    "kaşe/damga"
+    "kafe planı eskizleri",
+    "bütçe notları",
+    "hesap makinesi",
+    "risk/fayda değerlendirme kartları (okunabilir metin yok)"
   ],
   "continuity": {
-    "previousSceneId": "ZH_HSK3_SC012",
-    "nextSceneId": "ZH_HSK3_SC014"
+    "previousSceneId": "ZH_HSK3_SC010",
+    "nextSceneId": "ZH_HSK3_SC012"
   },
-  "sourceGeneratedFilename": "aileyle_resmî_i_şlem_günü.png",
-  "finalAssetFilename": "ZH_HSK3_SC013.webp",
-  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC013.webp",
+  "sourceGeneratedFilename": "kafeyi_planlarken_sıcak_aile_toplantısı.png",
+  "finalAssetFilename": "ZH_HSK3_SC011.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC011.webp",
   "image": {
     "width": 941,
     "height": 1672,
@@ -69,5 +69,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-27: ZH_HSK3_SC013 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
+  "qaNoteTr": "2026-09-27: ZH_HSK3_SC011 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
 }

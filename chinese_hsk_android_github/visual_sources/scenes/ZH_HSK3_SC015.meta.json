@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "sceneId": "ZH_HSK3_SC013",
-  "generationSceneId": "ZH_HSK3_SC013",
+  "sceneId": "ZH_HSK3_SC015",
+  "generationSceneId": "ZH_HSK3_SC015",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
-  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC013.json",
-  "dialogueSha256": "568d996728eda80484a958435ad168e201dcf77a6e92c92c4e5830f4bad01e58",
-  "titleTr": "Ruhsat İşlemleri",
-  "locationId": "LOC_ZH_GOV_SERVICE_001",
-  "scenePurposeTr": "Liu Mei resmî hizmet merkezinde kafe için gerekli ruhsat ve belgeleri tamamlamaya çalışır.",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC015.json",
+  "dialogueSha256": "4a0a83e2ed5b5284d336f54275dc659424345f4ac18e8314db1aa3fe1dceddb9",
+  "titleTr": "Eski Masanın Hikâyesi",
+  "locationId": "LOC_ZH_CAFE_PREMISES_001",
+  "scenePurposeTr": "İkinci el eski bir masa kafeye getirilir; yetişkin satıcı masanın geçmişini anlatır.",
   "dialogueSpeakers": [
     "刘梅",
     "张伟",
@@ -31,18 +31,18 @@
     "顾客": "adult_third_party"
   },
   "criticalObjects": [
-    "belge dosyası",
-    "başvuru evrakları (okunabilir metin yok)",
-    "resmî hizmet bankosu",
-    "kaşe/damga"
+    "eski masif ahşap masa",
+    "aşınmış yüzey detayları",
+    "taşıma bezi/halatı",
+    "eski fotoğraf benzeri görsel kart (okunabilir metin yok)"
   ],
   "continuity": {
-    "previousSceneId": "ZH_HSK3_SC012",
-    "nextSceneId": "ZH_HSK3_SC014"
+    "previousSceneId": "ZH_HSK3_SC014",
+    "nextSceneId": "ZH_HSK3_SC016"
   },
-  "sourceGeneratedFilename": "aileyle_resmî_i_şlem_günü.png",
-  "finalAssetFilename": "ZH_HSK3_SC013.webp",
-  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC013.webp",
+  "sourceGeneratedFilename": "kafede_rustik_masa_hayranlığı.png",
+  "finalAssetFilename": "ZH_HSK3_SC015.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC015.webp",
   "image": {
     "width": 941,
     "height": 1672,
@@ -69,5 +69,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-27: ZH_HSK3_SC013 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
+  "qaNoteTr": "2026-09-27: ZH_HSK3_SC015 final tek-sahne görseli LOCKED_V2 ve HSK3 maturity kurallarına göre doğrulandı."
 }
