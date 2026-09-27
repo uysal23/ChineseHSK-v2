@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC011_SC020_SOURCE_SYNC_PENDING_2026-09-27",
+  "latestVisualRevision": "HSK3_SC011_SC020_INTEGRATED_QA_PASS_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -412,7 +412,7 @@
       "ZH_HSK3_SC019",
       "ZH_HSK3_SC020"
     ],
-    "stagedSceneIds": [
+    "completedSceneIds": [
       "ZH_HSK3_SC011",
       "ZH_HSK3_SC012",
       "ZH_HSK3_SC013",
@@ -424,25 +424,12 @@
       "ZH_HSK3_SC019",
       "ZH_HSK3_SC020"
     ],
-    "completedSceneIds": [
-      "ZH_HSK3_SC013"
-    ],
-    "pendingSceneIds": [
-      "ZH_HSK3_SC011",
-      "ZH_HSK3_SC012",
-      "ZH_HSK3_SC014",
-      "ZH_HSK3_SC015",
-      "ZH_HSK3_SC016",
-      "ZH_HSK3_SC017",
-      "ZH_HSK3_SC018",
-      "ZH_HSK3_SC019",
-      "ZH_HSK3_SC020"
-    ],
-    "status": "SOURCE_SYNC_PENDING",
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC011-SC020 için 10 final görsel seçildi. SC013 doğrudan asset olarak mevcut; diğer 9 WebP source-sync scene_chunks üzerinden materialize edilmek üzere stage edildi. APK build tetiklenmez."
+    "noteTr": "HSK3 SC011-SC020 10/10 final WebP authoritative app assets ve runtime mirror olarak doğrudan entegre edildi. SC013 düzeltilmiş ruhsat sahnesidir. APK build başlatılmadı."
   }
 }
