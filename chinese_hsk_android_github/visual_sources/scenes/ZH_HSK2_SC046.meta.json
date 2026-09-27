@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC046",
+  "generationSceneId": "ZH_HSK2_SC046",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC046.json",
+  "dialogueSha256": "268e987ecfe75995d001e07b3d11d5862711bcf1b994d461487bd356a0335f22",
+  "titleTr": "Yutong’un Yeni Yakın Arkadaşı",
+  "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+  "scenePurposeTr": "Yutong yeni yakın arkadaşıyla ortak ilgi alanlarını keşfeder.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "好朋友",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "好朋友",
+    "刘梅"
+  ],
+  "criticalObjects": [
+    "lise ortamı",
+    "Yutong okul çantası",
+    "yakın arkadaşla ortak ilgi nesnesi",
+    "Liu Mei destek anı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC045",
+    "nextSceneId": "ZH_HSK2_SC047"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC046.webp",
+  "finalAssetFilename": "ZH_HSK2_SC046.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC046.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d23598bfb459de19a19a1e5d6043d8adf55ea92474b2f2ee79b3f65293eac97a"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK2 SC037-SC046 batch’i, LOCKED_V2 görsel üretim manifestine göre diyalog/kadro/lokasyon ve Lele erkek çocuk kimlik kilidi kontrolünden geçirilerek final override olarak entegre edildi."
+}

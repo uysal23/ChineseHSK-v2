@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC042",
+  "generationSceneId": "ZH_HSK2_SC042",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC042.json",
+  "dialogueSha256": "79ab0582449202e9a1d7ed13121339c217fa0709ef537a6343658974aa8c1fab",
+  "titleTr": "Büyük Aile Görüntülü Araması",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang’ın anne-babası görüntülü aramayla yeni evi görür.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "criticalObjects": [
+    "tablet/görüntülü arama",
+    "büyükbaba ve büyükanne ekranda",
+    "yeni ev oturma alanı",
+    "Zhang Wei ve Liu Mei"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC041",
+    "nextSceneId": "ZH_HSK2_SC043"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC042.webp",
+  "finalAssetFilename": "ZH_HSK2_SC042.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC042.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "260705e5bcfa7948088d3acdb97febd5cec0e12cf0d1138d8b7e79ca1e66ebfe"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK2 SC037-SC046 batch’i, LOCKED_V2 görsel üretim manifestine göre diyalog/kadro/lokasyon ve Lele erkek çocuk kimlik kilidi kontrolünden geçirilerek final override olarak entegre edildi."
+}

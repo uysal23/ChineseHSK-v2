@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC045",
+  "generationSceneId": "ZH_HSK2_SC045",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC045.json",
+  "dialogueSha256": "6f0e716cb2a627c3cd5dcdf4a184b6a1effed87efafcc309b66a01fe2d289e78",
+  "titleTr": "Zhang’ın İlk Performans Görüşmesi",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Müdürü güçlü ve geliştirmesi gereken yönleri konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事"
+  ],
+  "criticalObjects": [
+    "ofis toplantı masası",
+    "performans raporu/grafikler",
+    "dizüstü bilgisayarlar",
+    "müdür ve iş arkadaşı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC044",
+    "nextSceneId": "ZH_HSK2_SC046"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC045.webp",
+  "finalAssetFilename": "ZH_HSK2_SC045.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC045.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "24539c73650e1098d691df023bd882d1ac3ca3025a46886b741a0830809571e3"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK2 SC037-SC046 batch’i, LOCKED_V2 görsel üretim manifestine göre diyalog/kadro/lokasyon ve Lele erkek çocuk kimlik kilidi kontrolünden geçirilerek final override olarak entegre edildi."
+}
