@@ -82,5 +82,8 @@
   "generationSceneIdMustMatchAssetSceneId": true,
   "genericGeneratedFilenameForbidden": true,
   "finalGeneratedFilenamePattern": "{sceneId}.webp",
-  "oneGeneratedImageMayBelongToOnlyOneSceneId": true
+  "oneGeneratedImageMayBelongToOnlyOneSceneId": true,
+  "hsk3CharacterMaturityLockRequired": true,
+  "hsk3CharacterMaturityLockPath": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "hsk3UnderageRenderingIsBlockingMismatch": true
 }
