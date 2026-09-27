@@ -1,84 +1,76 @@
 {
-  "package": "HSK2_SC037_SC039_SC040_SC041_SC042_SC043_SC045_CORRECTED",
-  "description": "Corrected WEBP visuals and JSON sidecar files for the seven HSK2 scenes that needed manifest fixes.",
-  "sceneCount": 7,
+  "package": "HSK2_SC047_SC050_FINAL",
+  "manifestVersion": "LOCKED_V2",
+  "sceneCount": 4,
+  "format": "WEBP",
+  "target": "incoming-assets",
   "files": [
     {
-      "sceneId": "ZH_HSK2_SC037",
-      "filename": "ZH_HSK2_SC037.webp",
-      "format": "WEBP",
+      "sceneId": "ZH_HSK2_SC047",
+      "filename": "ZH_HSK2_SC047.webp",
+      "titleTr": "Lele Bisiklet Öğreniyor",
+      "locationId": "LOC_ZH_PARK_001",
+      "scenePurposeTr": "Lele bisiklet sürmeyi öğrenirken ailesi onu cesaretlendirir.",
+      "requiredVisualCharacters": [
+        "张乐乐",
+        "张伟",
+        "刘梅"
+      ],
       "width": 941,
       "height": 1672,
-      "sourceFile": "wide_heartwarming_cinematic_3d_cgi_illustration_o_2_batch_1.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected school performance scene; Lele must remain a young boy.",
-      "sha256": "c7f42e8aa8fc393f50665f65334742656cc65c42624bf539973d8f9a877a6b25"
+      "format": "WEBP",
+      "sha256": "733d5ab6aa3b4a6554240d6af937e8ab83ee06bdbbf832ccd29ae75c552d690e"
     },
     {
-      "sceneId": "ZH_HSK2_SC039",
-      "filename": "ZH_HSK2_SC039.webp",
-      "format": "WEBP",
+      "sceneId": "ZH_HSK2_SC048",
+      "filename": "ZH_HSK2_SC048.webp",
+      "titleTr": "Kasabada İlk Bahar",
+      "locationId": "LOC_ZH_PARK_001",
+      "scenePurposeTr": "Aile kasabadaki ilk baharı birlikte fark eder ve parkta yürüyüş yapar.",
+      "requiredVisualCharacters": [
+        "张伟",
+        "刘梅",
+        "张雨桐",
+        "张乐乐"
+      ],
       "width": 941,
       "height": 1672,
-      "sourceFile": "wide_warm_bright_high_quality_3d_cgi_animated_s_3_batch_2.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected vet visit scene with Mimi and family; Lele must remain a young boy.",
-      "sha256": "80333804a34f235d7820bc156259fe59cd4f1a8822a75977f192834cf1400d47"
+      "format": "WEBP",
+      "sha256": "810c1d579d655b48d3c11c4c96782ae2557c2bccb4003861c2016a1d64abd03b"
     },
     {
-      "sceneId": "ZH_HSK2_SC040",
-      "filename": "ZH_HSK2_SC040.webp",
-      "format": "WEBP",
+      "sceneId": "ZH_HSK2_SC049",
+      "filename": "ZH_HSK2_SC049.webp",
+      "titleTr": "Birinci Yıl Fotoğraf Albümü",
+      "locationId": "LOC_ZH_NEW_HOME_001",
+      "scenePurposeTr": "Aile kasabadaki ilk yılın fotoğraflarına birlikte bakar.",
+      "requiredVisualCharacters": [
+        "张伟",
+        "刘梅",
+        "张雨桐",
+        "张乐乐"
+      ],
       "width": 941,
       "height": 1672,
-      "sourceFile": "aileyle_altın_saatte_park_yürüyüşü.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected family healthy-lifestyle / park-walk scene.",
-      "sha256": "45dde423b49cd14e2d527276a7032cecf6885a859bf8ae40cd18335c8645a6c6"
+      "format": "WEBP",
+      "sha256": "f1e5699d7e4e61576b9f7206caa756e035494a4dcaf78b4307814a84d00ab878"
     },
     {
-      "sceneId": "ZH_HSK2_SC041",
-      "filename": "ZH_HSK2_SC041.webp",
-      "format": "WEBP",
+      "sceneId": "ZH_HSK2_SC050",
+      "filename": "ZH_HSK2_SC050.webp",
+      "titleTr": "Kasabada Bir Yıl",
+      "locationId": "LOC_ZH_NEW_HOME_001",
+      "scenePurposeTr": "Zhang Wei ve Liu Mei, Li Chen ve eşiyle kasabadaki bir yılı kutlama yemeğinde değerlendirir.",
+      "requiredVisualCharacters": [
+        "张伟",
+        "刘梅",
+        "李晨",
+        "李晨妻子"
+      ],
       "width": 941,
       "height": 1672,
-      "sourceFile": "a_warm_festive_cinematic_3d_cgi_animated_illustr_8.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected festive family scene; Lele must remain a young boy.",
-      "sha256": "f4a8a3c6e21a61dd9fac545ed55117850e57dda78a99d3c8fc3d4847a8753084"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC042",
-      "filename": "ZH_HSK2_SC042.webp",
       "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sourceFile": "a_warm_cozy_bright_3d_cgi_animated_scene_of_a_yo_5_batch_4.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected family video-call scene; Lele must remain a young boy.",
-      "sha256": "260705e5bcfa7948088d3acdb97febd5cec0e12cf0d1138d8b7e79ca1e66ebfe"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC043",
-      "filename": "ZH_HSK2_SC043.webp",
-      "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sourceFile": "a_warm_bright_cozy_indoor_family_scene_in_a_real_6_batch_5.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected grandfather vegetables scene; Lele must remain a young boy.",
-      "sha256": "90204984415214a00da2ab8eb5df330db5dfe3fb266ae479aa2414c03d13f2d3"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC045",
-      "filename": "ZH_HSK2_SC045.webp",
-      "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sourceFile": "a_bright_modern_warm_3d_cgi_office_meeting_scene_7_batch_6.png",
-      "packageRole": "corrected_scene_visual",
-      "note": "Corrected office scene with colleague and manager visible.",
-      "sha256": "24539c73650e1098d691df023bd882d1ac3ca3025a46886b741a0830809571e3"
+      "sha256": "8be38703ac99d4efc92588f4dba144d50ed6d3679c05a0cb07b56269b3dd25b2"
     }
   ]
 }
