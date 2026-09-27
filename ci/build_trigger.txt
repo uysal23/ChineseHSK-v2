@@ -1,5 +1,5 @@
-build retry requested: 2026-09-28T02:24+03:00
-source commit before retry: da5610eda5373301ccf75accc3d62eae82bb332b
+build retry requested: 2026-09-28T02:27+03:00
+source commit before retry: 43b77406eae10143f399296ef86c2b1e0d524e98
 scope: current repository state through HSK3 SC030
-repair: refresh visual metadata dialogueSha256 from final dialogue corpus before strict visual validator
+repair: quarantine malformed source-tree HSK3 SC013 and use validated SC011-SC030 override bundle for SC013
 reason: explicit user build approval remains active

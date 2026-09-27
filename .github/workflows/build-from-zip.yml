@@ -287,6 +287,16 @@ jobs:
           python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py \
             --repo-root "$GITHUB_WORKSPACE"
 
+      - name: Quarantine SC013 source override decoder issue
+        shell: bash
+        run: |
+          set -euo pipefail
+          SC013="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC013.webp"
+          if [ -f "$SC013" ]; then
+            rm -f "$SC013"
+            echo "Quarantined source-tree SC013; validated HSK3 override bundle will provide SC013 for this build."
+          fi
+
       - name: Enforce explicit 10-scene visual build approval
         shell: bash
         run: |
