@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC007",
+  "generationSceneId": "ZH_HSK3_SC007",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC007.json",
+  "dialogueSha256": "dd3162b84be648628093023862be2ccfe0c75fccd094bff0e885ec64d0a1b2ce",
+  "titleTr": "Uygun Dükkân Arayışı",
+  "locationId": "LOC_ZH_SHOPPING_STREET_001",
+  "scenePurposeTr": "Aile üç farklı dükkân gezer ve her birinin avantajlarını konuşur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "alışveriş caddesi",
+    "dükkân vitrini",
+    "emlak/işyeri temsilcisi",
+    "inceleme notları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC006",
+    "nextSceneId": "ZH_HSK3_SC008"
+  },
+  "sourceGeneratedFilename": "sıcacık_mağaza_keşfi_ailesi.png",
+  "finalAssetFilename": "ZH_HSK3_SC007.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC007.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "02e93d3c1e116c2ea9680477f042bb77c604eb205b892a48eb398d3405c4400f"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK3 SC001-SC010 görseli GitHub sahne/diyalog kaynağı ve LOCKED_V2 manifestine göre kontrol edilip final override olarak entegre edildi."
+}

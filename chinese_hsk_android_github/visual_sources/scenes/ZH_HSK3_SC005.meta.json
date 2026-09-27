@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC005",
+  "generationSceneId": "ZH_HSK3_SC005",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC005.json",
+  "dialogueSha256": "ee17b3252bc5b0c13ac20eba50be9f4c0d11bb5c04c4ea48622779a3d7eeab5d",
+  "titleTr": "Lele’nin Yeni Öğretmeni",
+  "locationId": "LOC_ZH_PRIMARY_SCHOOL_001",
+  "scenePurposeTr": "Lele yeni öğretmeninin sınıf kurallarına alışmaya çalışır.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "criticalObjects": [
+    "sınıf kuralları panosu",
+    "Lele okul çantası",
+    "yeni öğretmen",
+    "sınıf sıraları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC004",
+    "nextSceneId": "ZH_HSK3_SC006"
+  },
+  "sourceGeneratedFilename": "sınıfta_sıcak_karşılama.png",
+  "finalAssetFilename": "ZH_HSK3_SC005.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC005.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "dc1d8e9e36c4f31ad239c03d71e9cf8e8f5cf15a5cfdb1f3bdd7185a875fc68a"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK3 SC001-SC010 görseli GitHub sahne/diyalog kaynağı ve LOCKED_V2 manifestine göre kontrol edilip final override olarak entegre edildi."
+}

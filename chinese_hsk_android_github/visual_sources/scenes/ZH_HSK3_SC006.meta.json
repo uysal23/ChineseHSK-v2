@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC006",
+  "generationSceneId": "ZH_HSK3_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC006.json",
+  "dialogueSha256": "4831bda47f32b645ad26c033cb5c60be845c6968b9f5db073fa33aa794c87750",
+  "titleTr": "Kafe Fikri Ciddileşiyor",
+  "locationId": "LOC_ZH_LICHEN_HOME_001",
+  "scenePurposeTr": "Li Chen ailesi Liu Mei’nin ev siparişlerinin artık gerçek bir işe dönüşebileceğini söyler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "kafe tasarım eskizleri",
+    "iş planı notları",
+    "pasta/kurabiye örnekleri",
+    "hesap makinesi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC005",
+    "nextSceneId": "ZH_HSK3_SC007"
+  },
+  "sourceGeneratedFilename": "aile_fırını_kafe_planı.png",
+  "finalAssetFilename": "ZH_HSK3_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC006.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "84a03f66ba787bb36519ec8054bbb7869d900d51b637b14322ab79ed6f533e19"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK3 SC001-SC010 görseli GitHub sahne/diyalog kaynağı ve LOCKED_V2 manifestine göre kontrol edilip final override olarak entegre edildi."
+}

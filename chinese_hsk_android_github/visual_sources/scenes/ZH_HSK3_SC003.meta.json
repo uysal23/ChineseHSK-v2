@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC003",
+  "generationSceneId": "ZH_HSK3_SC003",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC003.json",
+  "dialogueSha256": "fb42301c615e461f19a8ed15ea3ff25b22ac447e7061f3b785e139e69a8102e6",
+  "titleTr": "Zhang’ın Yeni Projesi",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Zhang yeni bir proje ekibine katılır ve görev paylaşımı yapılır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "criticalObjects": [
+    "proje sunum ekranı",
+    "dizüstü bilgisayar",
+    "görev paylaşım dokümanları",
+    "Liu Mei görüntülü arama/uzak katılım"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC002",
+    "nextSceneId": "ZH_HSK3_SC004"
+  },
+  "sourceGeneratedFilename": "i_şbirliğiyle_yeni_proje_sunumu.png",
+  "finalAssetFilename": "ZH_HSK3_SC003.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC003.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "45ef7c69e54acb90180da5afec9e35e63b3d709c4681d598cb3996596c09d80f"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK3 SC001-SC010 görseli GitHub sahne/diyalog kaynağı ve LOCKED_V2 manifestine göre kontrol edilip final override olarak entegre edildi."
+}

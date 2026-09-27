@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC008",
+  "generationSceneId": "ZH_HSK3_SC008",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC008.json",
+  "dialogueSha256": "64ab66c2eeeb70d97481d6ba702f8bc0519cf6cba2125f74b7cd7e079d780008",
+  "titleTr": "Çok Ucuz Ama Çok Küçük",
+  "locationId": "LOC_ZH_CAFE_PREMISES_001",
+  "scenePurposeTr": "İlk dükkân ucuzdur ama mutfak ve oturma alanı yetersizdir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "criticalObjects": [
+    "dar mutfak",
+    "az sayıda masa/tabure",
+    "küçük servis alanı",
+    "mekân temsilcisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC007",
+    "nextSceneId": "ZH_HSK3_SC009"
+  },
+  "sourceGeneratedFilename": "küçük_kafede_yer_arayışı.png",
+  "finalAssetFilename": "ZH_HSK3_SC008.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC008.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d440df82229e939cbe42e40c3cf3eb6d8982a5fd3720a3c3d3b20c9219d9396b"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK3 SC001-SC010 görseli GitHub sahne/diyalog kaynağı ve LOCKED_V2 manifestine göre kontrol edilip final override olarak entegre edildi."
+}

@@ -3,39 +3,39 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK2_SC037_SC046",
-    "level": "HSK2",
-    "startScene": "HSK2_SC037",
-    "endScene": "HSK2_SC046",
+    "batchId": "HSK3_SC001_SC010",
+    "level": "HSK3",
+    "startScene": "HSK3_SC001",
+    "endScene": "HSK3_SC010",
     "sceneIds": [
-      "ZH_HSK2_SC037",
-      "ZH_HSK2_SC038",
-      "ZH_HSK2_SC039",
-      "ZH_HSK2_SC040",
-      "ZH_HSK2_SC041",
-      "ZH_HSK2_SC042",
-      "ZH_HSK2_SC043",
-      "ZH_HSK2_SC044",
-      "ZH_HSK2_SC045",
-      "ZH_HSK2_SC046"
+      "ZH_HSK3_SC001",
+      "ZH_HSK3_SC002",
+      "ZH_HSK3_SC003",
+      "ZH_HSK3_SC004",
+      "ZH_HSK3_SC005",
+      "ZH_HSK3_SC006",
+      "ZH_HSK3_SC007",
+      "ZH_HSK3_SC008",
+      "ZH_HSK3_SC009",
+      "ZH_HSK3_SC010"
     ],
     "completedSceneIds": [
-      "ZH_HSK2_SC037",
-      "ZH_HSK2_SC038",
-      "ZH_HSK2_SC039",
-      "ZH_HSK2_SC040",
-      "ZH_HSK2_SC041",
-      "ZH_HSK2_SC042",
-      "ZH_HSK2_SC043",
-      "ZH_HSK2_SC044",
-      "ZH_HSK2_SC045",
-      "ZH_HSK2_SC046"
+      "ZH_HSK3_SC001",
+      "ZH_HSK3_SC002",
+      "ZH_HSK3_SC003",
+      "ZH_HSK3_SC004",
+      "ZH_HSK3_SC005",
+      "ZH_HSK3_SC006",
+      "ZH_HSK3_SC007",
+      "ZH_HSK3_SC008",
+      "ZH_HSK3_SC009",
+      "ZH_HSK3_SC010"
     ],
     "pendingSceneIds": [],
     "status": "INTEGRATED_QA_PASS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK2 SC037-SC046 görselleri LOCKED_V2 manifestine göre 10/10 entegre edildi. Lele erkek çocuk kimlik kilidi kontrol edildi. APK build başlatılmadı; açık kullanıcı onayı gerekir."
+    "noteTr": "HSK3 SC001-SC010 görselleri ayrı scene ID ile app/runtime/meta/override olarak entegre edildi; 10/10 LOCKED_V2 QA PASS. APK build başlatılmadı; açık kullanıcı onayı gerekir."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK2_SC047_SC050_FINAL_LOCKED_V2_2026-09-27",
+  "latestVisualRevision": "HSK3_SC001_SC010_FINAL_VERIFIED_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -359,5 +359,40 @@
     "completed": 50,
     "total": 50,
     "status": "COMPLETE"
+  },
+  "hsk3Sc001Sc010BatchProgress": {
+    "batchId": "HSK3_SC001_SC010",
+    "level": "HSK3",
+    "startScene": "HSK3_SC001",
+    "endScene": "HSK3_SC010",
+    "sceneIds": [
+      "ZH_HSK3_SC001",
+      "ZH_HSK3_SC002",
+      "ZH_HSK3_SC003",
+      "ZH_HSK3_SC004",
+      "ZH_HSK3_SC005",
+      "ZH_HSK3_SC006",
+      "ZH_HSK3_SC007",
+      "ZH_HSK3_SC008",
+      "ZH_HSK3_SC009",
+      "ZH_HSK3_SC010"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK3_SC001",
+      "ZH_HSK3_SC002",
+      "ZH_HSK3_SC003",
+      "ZH_HSK3_SC004",
+      "ZH_HSK3_SC005",
+      "ZH_HSK3_SC006",
+      "ZH_HSK3_SC007",
+      "ZH_HSK3_SC008",
+      "ZH_HSK3_SC009",
+      "ZH_HSK3_SC010"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK3 SC001-SC010 görselleri ayrı scene ID ile app/runtime/meta/override olarak entegre edildi; 10/10 LOCKED_V2 QA PASS. APK build başlatılmadı; açık kullanıcı onayı gerekir."
   }
 }
