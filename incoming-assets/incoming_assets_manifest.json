@@ -1,169 +1,84 @@
 {
-  "package": "HSK2_SC027_SC036_FINAL_VERIFIED",
-  "manifestVersion": "LOCKED_V2",
+  "package": "HSK2_SC037_SC039_SC040_SC041_SC042_SC043_SC045_CORRECTED",
+  "description": "Corrected WEBP visuals and JSON sidecar files for the seven HSK2 scenes that needed manifest fixes.",
+  "sceneCount": 7,
   "files": [
     {
-      "sceneId": "ZH_HSK2_SC027",
-      "titleTr": "Lele’nin Dişi Düşüyor",
-      "scenePurposeTr": "Lele’nin dişi düşer; aile onu rahatlatır.",
-      "requiredCharacters": [
-        "张乐乐",
-        "刘梅",
-        "张伟"
-      ],
-      "filename": "ZH_HSK2_SC027.webp",
+      "sceneId": "ZH_HSK2_SC037",
+      "filename": "ZH_HSK2_SC037.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "29e616d545f90d0309bcffbf07306920b16f7ce1217d7bd7aaf80918551cc22c",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "wide_heartwarming_cinematic_3d_cgi_illustration_o_2_batch_1.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected school performance scene; Lele must remain a young boy.",
+      "sha256": "c7f42e8aa8fc393f50665f65334742656cc65c42624bf539973d8f9a877a6b25"
     },
     {
-      "sceneId": "ZH_HSK2_SC028",
-      "titleTr": "Yutong İlk Kez Tek Başına Dönüyor",
-      "scenePurposeTr": "Yutong yanlış durakta iner ama telefonla yolu bulur.",
-      "requiredCharacters": [
-        "张雨桐",
-        "刘梅",
-        "路人"
-      ],
-      "filename": "ZH_HSK2_SC028.webp",
+      "sceneId": "ZH_HSK2_SC039",
+      "filename": "ZH_HSK2_SC039.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "e75e17e7230955c7dc80bab5fbd04a070e74b401e0ec4d73a5c626e4ffe41771",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "wide_warm_bright_high_quality_3d_cgi_animated_s_3_batch_2.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected vet visit scene with Mimi and family; Lele must remain a young boy.",
+      "sha256": "80333804a34f235d7820bc156259fe59cd4f1a8822a75977f192834cf1400d47"
     },
     {
-      "sceneId": "ZH_HSK2_SC029",
-      "titleTr": "Zhang’ın Küçük Hatası",
-      "scenePurposeTr": "Zhang işte yanlış dosyayı gönderir ve özür dileyip düzeltir.",
-      "requiredCharacters": [
-        "张伟",
-        "同事",
-        "经理"
-      ],
-      "filename": "ZH_HSK2_SC029.webp",
+      "sceneId": "ZH_HSK2_SC040",
+      "filename": "ZH_HSK2_SC040.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "9dc94581e0be492859c61dff4c7c13753f281c9a46601b1eeef8b78713408dbd",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "aileyle_altın_saatte_park_yürüyüşü.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected family healthy-lifestyle / park-walk scene.",
+      "sha256": "45dde423b49cd14e2d527276a7032cecf6885a859bf8ae40cd18335c8645a6c6"
     },
     {
-      "sceneId": "ZH_HSK2_SC030",
-      "titleTr": "Hafta Sonu Kasaba Turu",
-      "scenePurposeTr": "Aile kasabanın banka, postane ve park gibi yerlerini gezer.",
-      "requiredCharacters": [
-        "张伟",
-        "刘梅",
-        "张乐乐",
-        "张雨桐"
-      ],
-      "filename": "ZH_HSK2_SC030.webp",
+      "sceneId": "ZH_HSK2_SC041",
+      "filename": "ZH_HSK2_SC041.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "d573efbd7db2d34d650cefe21c28c944ad5717c5378bd189ea92cf4876997394",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "a_warm_festive_cinematic_3d_cgi_animated_illustr_8.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected festive family scene; Lele must remain a young boy.",
+      "sha256": "f4a8a3c6e21a61dd9fac545ed55117850e57dda78a99d3c8fc3d4847a8753084"
     },
     {
-      "sceneId": "ZH_HSK2_SC031",
-      "titleTr": "Bankada Yeni Hesap",
-      "scenePurposeTr": "Zhang bazı belgeleri unuttuğunu fark eder.",
-      "requiredCharacters": [
-        "张伟",
-        "银行工作人员",
-        "刘梅"
-      ],
-      "filename": "ZH_HSK2_SC031.webp",
+      "sceneId": "ZH_HSK2_SC042",
+      "filename": "ZH_HSK2_SC042.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "1b7c3eff64f6c41b64536d01c7bdd3abcb0c666e75c9a847f9994629cb33fe24",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "a_warm_cozy_bright_3d_cgi_animated_scene_of_a_yo_5_batch_4.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected family video-call scene; Lele must remain a young boy.",
+      "sha256": "260705e5bcfa7948088d3acdb97febd5cec0e12cf0d1138d8b7e79ca1e66ebfe"
     },
     {
-      "sceneId": "ZH_HSK2_SC032",
-      "titleTr": "Postanede Paket",
-      "scenePurposeTr": "Aile büyüklerine hediye paketi gönderir.",
-      "requiredCharacters": [
-        "张伟",
-        "刘梅",
-        "邮局工作人员"
-      ],
-      "filename": "ZH_HSK2_SC032.webp",
+      "sceneId": "ZH_HSK2_SC043",
+      "filename": "ZH_HSK2_SC043.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "cc1a11f1e63ee14bc89d49f5495793d8e87982b704cfc2dd50d5578c8d8bd15f",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "a_warm_bright_cozy_indoor_family_scene_in_a_real_6_batch_5.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected grandfather vegetables scene; Lele must remain a young boy.",
+      "sha256": "90204984415214a00da2ab8eb5df330db5dfe3fb266ae479aa2414c03d13f2d3"
     },
     {
-      "sceneId": "ZH_HSK2_SC033",
-      "titleTr": "Aile Dostlarına Yardım",
-      "scenePurposeTr": "Li Chen’in ailesinden biri hastalanınca yemek götürürler.",
-      "requiredCharacters": [
-        "刘梅",
-        "张伟",
-        "李晨",
-        "李晨妻子"
-      ],
-      "filename": "ZH_HSK2_SC033.webp",
+      "sceneId": "ZH_HSK2_SC045",
+      "filename": "ZH_HSK2_SC045.webp",
       "format": "WEBP",
       "width": 941,
       "height": 1672,
-      "sha256": "3c47454b955899faea16a22686172346828366a3925ca0f09482a600ae257a63",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC034",
-      "titleTr": "Mahalle Temizlik Günü",
-      "scenePurposeTr": "Aile ilk gönüllü çevre temizliğine katılır.",
-      "requiredCharacters": [
-        "张伟",
-        "刘梅",
-        "社区工作人员",
-        "张乐乐"
-      ],
-      "filename": "ZH_HSK2_SC034.webp",
-      "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sha256": "df85e0384b941364cbbbe5e796ef71768603bc385ce8beb496c0ee727ab013c9",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC035",
-      "titleTr": "Liu Mei’nin Hamur İşi Çok Beğeniliyor",
-      "scenePurposeTr": "Komşular Liu Mei’den daha fazla sipariş istemeye başlar.",
-      "requiredCharacters": [
-        "刘梅",
-        "邻居",
-        "张伟"
-      ],
-      "filename": "ZH_HSK2_SC035.webp",
-      "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sha256": "79a3b51c2393851840b8047cc85d705e15fb8c7adc1933c4edca1c85f869f2a7",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
-    },
-    {
-      "sceneId": "ZH_HSK2_SC036",
-      "titleTr": "Zhang Yeni Sorumluluk Alıyor",
-      "scenePurposeTr": "Zhang yeni bir çalışana işi öğretir.",
-      "requiredCharacters": [
-        "张伟",
-        "新同事",
-        "经理"
-      ],
-      "filename": "ZH_HSK2_SC036.webp",
-      "format": "WEBP",
-      "width": 941,
-      "height": 1672,
-      "sha256": "0dca486c1a1cbb0fa692169838e623b2d7e87fed1b75dc599ea4b3843074dde0",
-      "status": "VERIFIED_FOR_INCOMING_ASSETS"
+      "sourceFile": "a_bright_modern_warm_3d_cgi_office_meeting_scene_7_batch_6.png",
+      "packageRole": "corrected_scene_visual",
+      "note": "Corrected office scene with colleague and manager visible.",
+      "sha256": "24539c73650e1098d691df023bd882d1ac3ca3025a46886b741a0830809571e3"
     }
   ]
 }
