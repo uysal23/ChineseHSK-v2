@@ -1,77 +1,66 @@
 {
-  "package": "HSK2_PAKET1",
+  "package": "HSK2_PAKET1_CORRECTED",
   "format": "WEBP",
   "files": [
     {
       "sceneId": "ZH_HSK2_SC011",
-      "sourcePng": "sıcak_aile_kahvaltısı.png",
+      "sourceFile": "sınıfta_neşeli_resim_sunumu.png",
       "incomingAssetFilename": "ZH_HSK2_SC011.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC011.webp"
+      "note": "okul veli toplantısı / sınıf içi öğretmen-öğrenci-veli kompozisyonu"
     },
     {
       "sceneId": "ZH_HSK2_SC018",
-      "sourcePng": "güneşli_koridorda_dostça_sohbet.png",
+      "sourceFile": "yağmurlu_akşamda_aile_otobüse_biniyor.png",
       "incomingAssetFilename": "ZH_HSK2_SC018.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC018.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC018.webp"
+      "note": "otobüs sahnesi"
     },
     {
       "sceneId": "ZH_HSK2_SC019",
-      "sourcePng": "apartman_bahçesinde_sıcak_komşuluk.png",
+      "sourceFile": "sıcacık_dostluk_ve_şefkat_anı.png",
       "incomingAssetFilename": "ZH_HSK2_SC019.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC019.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC019.webp"
+      "note": "hasta iş arkadaşını ziyaret"
     },
     {
       "sceneId": "ZH_HSK2_SC020",
-      "sourcePng": "sınıfta_neşeli_resim_sunumu.png",
+      "sourceFile": "aileyle_sıcak_film_gecesi.png",
       "incomingAssetFilename": "ZH_HSK2_SC020.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC020.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC020.webp"
+      "note": "ailece film gecesi"
     },
     {
       "sceneId": "ZH_HSK2_SC021",
-      "sourcePng": "aileyle_renkli_pazar_alışverişi.png",
+      "sourceFile": "güneşli_koridorda_dostça_sohbet.png",
       "incomingAssetFilename": "ZH_HSK2_SC021.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC021.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC021.webp"
+      "note": "Lele kütüphane kartı / kurumsal iç mekan karşılaşması için en yakın eşleşme"
     },
     {
       "sceneId": "ZH_HSK2_SC022",
-      "sourcePng": "sıcak_bir_akşam_çay_sohbeti.png",
+      "sourceFile": "apartman_bahçesinde_sıcak_komşuluk.png",
       "incomingAssetFilename": "ZH_HSK2_SC022.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC022.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC022.webp"
+      "note": "apartman bahçesi komşuluk sahnesi"
     },
     {
       "sceneId": "ZH_HSK2_SC023",
-      "sourcePng": "yağmurlu_akşamda_aile_otobüse_biniyor.png",
+      "sourceFile": "aileyle_renkli_pazar_alışverişi.png",
       "incomingAssetFilename": "ZH_HSK2_SC023.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC023.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC023.webp"
+      "note": "pazar alışverişi"
     },
     {
       "sceneId": "ZH_HSK2_SC024",
-      "sourcePng": "şehir_parkında_neşeli_aile_pikniği.png",
+      "sourceFile": "sıcak_bir_akşam_çay_sohbeti.png",
       "incomingAssetFilename": "ZH_HSK2_SC024.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC024.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC024.webp"
+      "note": "akşam sohbeti"
     },
     {
       "sceneId": "ZH_HSK2_SC025",
-      "sourcePng": "sıcak_bir_aile_görüntülü_sohbeti.png",
+      "sourceFile": "şehir_parkında_neşeli_aile_pikniği.png",
       "incomingAssetFilename": "ZH_HSK2_SC025.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC025.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC025.webp"
+      "note": "park pikniği"
     },
     {
       "sceneId": "ZH_HSK2_SC026",
-      "sourcePng": "sıcak_bir_aile_ödevi_akşamı.png",
+      "sourceFile": "sıcak_bir_aile_görüntülü_sohbeti.png",
       "incomingAssetFilename": "ZH_HSK2_SC026.webp",
-      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC026.webp",
-      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC026.webp"
+      "note": "görüntülü sohbet"
     }
-  ],
-  "note": "These are WEBP versions ready for incoming-assets upload."
+  ]
 }
