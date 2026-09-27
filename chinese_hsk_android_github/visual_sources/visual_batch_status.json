@@ -443,6 +443,17 @@
     "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "Bu batch için hiçbir görsel FINAL_SOURCE_OVERRIDE olarak işaretlenmedi. HSK3 age/maturity QA PASS olmadan entegrasyon yapılamaz."
+    "noteTr": "SC011-SC020 için 10 ayrı scene-analysis ve 10 ayrı single-scene prompt hazırlandı. Diyalog kadrosunda Lele yoktur ve forbidden extra character olarak kilitlendi. Yutong young_adult; ebeveynler mature_adult. Önceki kolaj/ekstra çocuk çıktıları reddedildi; final görseller tek sahne olarak yeniden üretilecektir.",
+    "analysisPrepared": true,
+    "promptFilesPrepared": true,
+    "requiredVisualCharacters": [
+      "刘梅",
+      "张伟",
+      "顾客",
+      "张雨桐"
+    ],
+    "forbiddenExtraCharacters": [
+      "张乐乐"
+    ]
   }
 }

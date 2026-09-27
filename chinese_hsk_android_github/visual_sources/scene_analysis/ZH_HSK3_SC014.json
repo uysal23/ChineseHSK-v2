@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC014",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC014.json",
+  "titleTr": "Tadilat Başlıyor",
+  "locationId": "LOC_ZH_CAFE_PREMISES_001",
+  "scenePurposeTr": "Kafe tadilatı başlar; duvar rengi ve masa düzeni konusunda aile ile usta arasında fikir ayrılığı yaşanır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "张雨桐": "young_adult",
+    "顾客": "adult_third_party"
+  },
+  "criticalObjects": [
+    "boya renk örnekleri",
+    "ölçü bandı",
+    "zemin planı",
+    "merdiven ve tadilat araçları"
+  ],
+  "visualDirectionTr": "Eski köşe dükkânında tadilatın ilk günü. Yetişkin usta/üçüncü kişi ile aile renk ve masa yerleşimini tartışıyor. Yutong young_adult, ebeveynler mature_adult. Lele görünmeyecek.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC013",
+    "nextSceneId": "ZH_HSK3_SC015"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "extraFamilyMembersAllowed": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

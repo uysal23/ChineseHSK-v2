@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC020",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC020.json",
+  "titleTr": "Sessiz Açılış Denemesi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Kafe yalnızca dostlara açılır; servis akışı ilk kez gerçek ortamda test edilir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "张雨桐": "young_adult",
+    "顾客": "adult_third_party"
+  },
+  "criticalObjects": [
+    "servis tepsisi",
+    "kahve makinesi",
+    "pasta vitrini",
+    "masa servisi ve deneme menüsü (okunabilir metin yok)"
+  ],
+  "visualDirectionTr": "Aile kafesinde yumuşak açılış. Liu Mei servis akışını yönetiyor; Zhang Wei destekliyor; young_adult Yutong servis/organizasyona yardım ediyor; yetişkin misafir/müşteri ilk deneme müşterisi. Lele görünmeyecek.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC019",
+    "nextSceneId": "ZH_HSK3_SC021"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "extraFamilyMembersAllowed": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}
