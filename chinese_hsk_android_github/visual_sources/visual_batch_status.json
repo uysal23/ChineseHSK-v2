@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK2_SC037_SC046_FINAL_VERIFIED_2026-09-27",
+  "latestVisualRevision": "HSK2_SC047_SC050_FINAL_LOCKED_V2_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -332,5 +332,32 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK2 SC037-SC046 görselleri LOCKED_V2 manifestine göre 10/10 entegre edildi. Lele erkek çocuk kimlik kilidi kontrol edildi. APK build başlatılmadı; açık kullanıcı onayı gerekir."
+  },
+  "hsk2FinalSc047Sc050Progress": {
+    "batchId": "HSK2_SC047_SC050_FINAL",
+    "level": "HSK2",
+    "sceneIds": [
+      "ZH_HSK2_SC047",
+      "ZH_HSK2_SC048",
+      "ZH_HSK2_SC049",
+      "ZH_HSK2_SC050"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK2_SC047",
+      "ZH_HSK2_SC048",
+      "ZH_HSK2_SC049",
+      "ZH_HSK2_SC050"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "manifestVersion": "LOCKED_V2",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK2 SC047-SC050 final 4 sahne, önceki 10’lu active batch kilidi korunarak ayrı final blok olarak entegre edildi. HSK2 direct scene visual coverage 50/50 oldu. APK build başlatılmadı."
+  },
+  "hsk2DirectSceneCoverage": {
+    "completed": 50,
+    "total": 50,
+    "status": "COMPLETE"
   }
 }

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC050",
+  "generationSceneId": "ZH_HSK2_SC050",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC050.json",
+  "dialogueSha256": "f377d6d51358638079c2b0e701328306faf6d53f94cc363ff46aec263f349e14",
+  "titleTr": "Kasabada Bir Yıl",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "İki aile yıldönümü yemeğinde bir yılı değerlendirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子"
+  ],
+  "criticalObjects": [
+    "kutlama yemeği masası",
+    "paylaşılan yemekler",
+    "Zhang Wei ve Liu Mei",
+    "Li Chen ve eşi",
+    "akşam ev ortamı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC049",
+    "nextSceneId": "ZH_HSK3_SC001"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC050.webp",
+  "finalAssetFilename": "ZH_HSK2_SC050.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC050.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "8be38703ac99d4efc92588f4dba144d50ed6d3679c05a0cb07b56269b3dd25b2"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK2 final SC047-SC050 görselleri kilitli LOCKED_V2 manifest, diyalog, kadro, sahne amacı ve karakter sürekliliği kontrollerinden geçirilerek final override olarak entegre edildi."
+}

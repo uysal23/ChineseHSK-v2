@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC048",
+  "generationSceneId": "ZH_HSK2_SC048",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC048.json",
+  "dialogueSha256": "3010147afd463f1d190d4468f50a3328712ad3cfebec705dd4f69e18321f1f09",
+  "titleTr": "Kasabada İlk Bahar",
+  "locationId": "LOC_ZH_PARK_001",
+  "scenePurposeTr": "Aile ilkbaharda çevrenin değiştiğini fark eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "ilkbahar çiçekleri",
+    "park yolu",
+    "dört kişilik aile",
+    "bahar mevsimi çevre değişimi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC047",
+    "nextSceneId": "ZH_HSK2_SC049"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC048.webp",
+  "finalAssetFilename": "ZH_HSK2_SC048.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC048.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "810c1d579d655b48d3c11c4c96782ae2557c2bccb4003861c2016a1d64abd03b"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: HSK2 final SC047-SC050 görselleri kilitli LOCKED_V2 manifest, diyalog, kadro, sahne amacı ve karakter sürekliliği kontrollerinden geçirilerek final override olarak entegre edildi."
+}
