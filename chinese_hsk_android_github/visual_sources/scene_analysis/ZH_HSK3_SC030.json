@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC030",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC030.json",
+  "titleTr": "İş Sunumu",
+  "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+  "scenePurposeTr": "Zhang proje sonuçlarını toplantıda yapılandırılmış biçimde sunar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "刘梅"
+  ],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "经理": "mature_manager",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "sunum ekranı grafik/şekil (okunabilir metin yok)",
+    "laptop",
+    "toplantı masası",
+    "not defterleri"
+  ],
+  "visualDirectionTr": "Profesyonel konferans odası. Zhang Wei ayakta proje sonuçlarını sunuyor; yönetici ve iş arkadaşı dinliyor. Liu Mei fiziksel olarak toplantıda değil; laptop/video bağlantısında küçük ama net yüz görüntüsüyle görünür. Çocuklar yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC029",
+    "nextSceneId": "ZH_HSK3_SC031"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

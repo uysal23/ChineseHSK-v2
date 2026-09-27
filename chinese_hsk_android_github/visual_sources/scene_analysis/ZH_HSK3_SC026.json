@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC026",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC026.json",
+  "titleTr": "Kafenin İlk Düzenli Müşterisi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Yaşlı bir komşu her sabah aynı saatte gelmeye başlar ve düzenli müşteri olur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "elderly_neighbor_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "sabah kahvesi",
+    "aynı pencere kenarı masa",
+    "gazete/kitap (okunabilir metin yok)",
+    "küçük kahvaltı"
+  ],
+  "visualDirectionTr": "Sabah kafesinde yaşlı komşu düzenli müşteri olarak aynı masasında. Liu Mei sıcak biçimde karşılıyor; Zhang Wei ve Yutong doğal olarak sahnede. Lele yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC025",
+    "nextSceneId": "ZH_HSK3_SC027"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

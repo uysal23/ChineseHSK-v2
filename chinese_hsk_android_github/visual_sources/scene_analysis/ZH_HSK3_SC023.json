@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC023",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC023.json",
+  "titleTr": "Zhang Yardıma Koşuyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Zhang iş çıkışı kafeye gelir ve kahve makinesinin basit tamir sürecine yardım eder.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "王师傅"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "espresso makinesi",
+    "küçük el aletleri",
+    "çıkarılmış servis paneli",
+    "bez ve su kabı"
+  ],
+  "visualDirectionTr": "Kafede basit tamir anı. Zhang Wei kontrollü şekilde makinenin erişilebilir servis kısmını inceliyor; Liu Mei ve Yutong yanında, yetişkin müşteri süreçten haberdar. Usta Wang yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC022",
+    "nextSceneId": "ZH_HSK3_SC024"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

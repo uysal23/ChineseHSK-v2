@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC011_SC020_INTEGRATED_QA_PASS_2026-09-27",
+  "latestVisualRevision": "HSK3_SC021_SC030_ANALYZED_READY_FOR_GENERATION_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -431,5 +431,41 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK3 SC011-SC020 10/10 final WebP authoritative app assets ve runtime mirror olarak doğrudan entegre edildi. SC013 düzeltilmiş ruhsat sahnesidir. APK build başlatılmadı."
+  },
+  "hsk3Sc021Sc030BatchProgress": {
+    "batchId": "HSK3_SC021_SC030",
+    "level": "HSK3",
+    "startScene": "HSK3_SC021",
+    "endScene": "HSK3_SC030",
+    "sceneIds": [
+      "ZH_HSK3_SC021",
+      "ZH_HSK3_SC022",
+      "ZH_HSK3_SC023",
+      "ZH_HSK3_SC024",
+      "ZH_HSK3_SC025",
+      "ZH_HSK3_SC026",
+      "ZH_HSK3_SC027",
+      "ZH_HSK3_SC028",
+      "ZH_HSK3_SC029",
+      "ZH_HSK3_SC030"
+    ],
+    "completedSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK3_SC021",
+      "ZH_HSK3_SC022",
+      "ZH_HSK3_SC023",
+      "ZH_HSK3_SC024",
+      "ZH_HSK3_SC025",
+      "ZH_HSK3_SC026",
+      "ZH_HSK3_SC027",
+      "ZH_HSK3_SC028",
+      "ZH_HSK3_SC029",
+      "ZH_HSK3_SC030"
+    ],
+    "status": "ANALYZED_READY_FOR_GENERATION",
+    "manifestVersion": "LOCKED_V2",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC021-SC030 diyalog, production, mekân, kadro ve continuity analizi tamamlandı. SC025 Lele konuşmasa da zorunlu non-speaker teen_boy; SC029-SC030 Liu Mei uzaktan/video bağlantısıyla görünür. 10 ayrı single-scene prompt hazır."
   }
 }

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC028",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC028.json",
+  "titleTr": "Zhang’ın İş Gezisi",
+  "locationId": "LOC_ZH_TRAVEL_STATION_001",
+  "scenePurposeTr": "Zhang birkaç günlük iş seyahatine çıkar; Liu Mei onu uğurlar, görevli ve iş arkadaşı yolculuk düzenini konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "工作人员",
+    "刘梅",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "工作人员",
+    "刘梅",
+    "同事"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "工作人员": "adult_staff",
+    "刘梅": "mature_adult",
+    "同事": "adult_colleague"
+  },
+  "criticalObjects": [
+    "küçük seyahat valizi",
+    "bilet/telefon (okunabilir metin yok)",
+    "istasyon peronu/terminal",
+    "yönlendirme tabelaları okunaksız"
+  ],
+  "visualDirectionTr": "İş seyahati başlangıcı. Zhang Wei valiziyle, Liu Mei onu uğurluyor; yetişkin görevli ve iş arkadaşı yanlarında. Aile çocukları görünmeyecek.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC027",
+    "nextSceneId": "ZH_HSK3_SC029"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

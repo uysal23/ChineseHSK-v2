@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC029",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC029.json",
+  "titleTr": "Otelde Yanlış Rezervasyon",
+  "locationId": "LOC_ZH_HOTEL_001",
+  "scenePurposeTr": "Zhang otele vardığında oda tipinin yanlış olduğunu fark eder ve görevliyle düzeltmeye çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "工作人员",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "工作人员",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "刘梅"
+  ],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "工作人员": "adult_hotel_staff",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_video_call"
+  },
+  "criticalObjects": [
+    "otel resepsiyonu",
+    "rezervasyon belgesi/telefon (okunabilir metin yok)",
+    "oda kartı",
+    "küçük valiz"
+  ],
+  "visualDirectionTr": "Otel resepsiyonunda Zhang Wei yanlış oda tipini görevliyle konuşuyor; iş arkadaşı yanında. Liu Mei fiziksel olarak otelde değil, telefondaki görüntülü aramada yüzü görünür. Çocuklar yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC028",
+    "nextSceneId": "ZH_HSK3_SC030"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

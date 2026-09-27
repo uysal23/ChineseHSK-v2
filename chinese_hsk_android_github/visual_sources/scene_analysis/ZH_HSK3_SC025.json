@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC025",
+  "status": "ANALYZED_WAITING_FOR_FINAL_IMAGE",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC025.json",
+  "titleTr": "Lele’nin Ödev Köşesi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Lele için ayrılan eski masa, zamanla çocuk müşterilerin ödev köşesine dönüşür.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "张乐乐"
+  ],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer_or_parent",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "eski ahşap masa",
+    "ödev defterleri",
+    "kalemler",
+    "okul çantası",
+    "masa lambası"
+  ],
+  "visualDirectionTr": "Kafenin sakin köşesinde Lele teen_boy olarak eski masada ödev yapıyor; birkaç ders materyali görünür. Aile bu köşeyi değerlendiriyor. Lele küçük çocuk/toddler/chibi olmayacak; Yutong ondan açıkça daha büyük young_adult.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC024",
+    "nextSceneId": "ZH_HSK3_SC026"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}
