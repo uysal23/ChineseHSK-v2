@@ -1,66 +1,76 @@
 {
-  "package": "HSK2_PAKET1_CORRECTED",
+  "package": "HSK2_SC027_SC036_VERIFIED",
   "format": "WEBP",
   "files": [
     {
-      "sceneId": "ZH_HSK2_SC011",
-      "sourceFile": "sınıfta_neşeli_resim_sunumu.png",
-      "incomingAssetFilename": "ZH_HSK2_SC011.webp",
-      "note": "okul veli toplantısı / sınıf içi öğretmen-öğrenci-veli kompozisyonu"
+      "sceneId": "ZH_HSK2_SC027",
+      "filename": "ZH_HSK2_SC027.webp",
+      "sourceFile": "ZH_HSK2_SC027.webp",
+      "verifiedPurposeTr": "Lele’nin dişi düşüyor; Lele + Liu Mei + Zhang Wei, ev sahnesi",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC027.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC018",
-      "sourceFile": "yağmurlu_akşamda_aile_otobüse_biniyor.png",
-      "incomingAssetFilename": "ZH_HSK2_SC018.webp",
-      "note": "otobüs sahnesi"
+      "sceneId": "ZH_HSK2_SC028",
+      "filename": "ZH_HSK2_SC028.webp",
+      "sourceFile": "a_bright_warm_detailed_3d_cgi_animated_illustrat_6.png",
+      "verifiedPurposeTr": "Yutong yanlış durakta iner; Liu Mei telefonda, yoldan geçen kişi yön gösterir",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC028.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC019",
-      "sourceFile": "sıcacık_dostluk_ve_şefkat_anı.png",
-      "incomingAssetFilename": "ZH_HSK2_SC019.webp",
-      "note": "hasta iş arkadaşını ziyaret"
+      "sceneId": "ZH_HSK2_SC029",
+      "filename": "ZH_HSK2_SC029.webp",
+      "sourceFile": "ZH_HSK2_SC029.webp",
+      "verifiedPurposeTr": "Zhang işte yanlış dosyayı gönderir; işyeri sahnesi",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC029.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC020",
-      "sourceFile": "aileyle_sıcak_film_gecesi.png",
-      "incomingAssetFilename": "ZH_HSK2_SC020.webp",
-      "note": "ailece film gecesi"
+      "sceneId": "ZH_HSK2_SC030",
+      "filename": "ZH_HSK2_SC030.webp",
+      "sourceFile": "güneşli_kasaba_meydanında_aile_gezisi.png",
+      "verifiedPurposeTr": "Hafta sonu kasaba turu; aile banka, postane ve park çevresini gezer",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC030.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC021",
-      "sourceFile": "güneşli_koridorda_dostça_sohbet.png",
-      "incomingAssetFilename": "ZH_HSK2_SC021.webp",
-      "note": "Lele kütüphane kartı / kurumsal iç mekan karşılaşması için en yakın eşleşme"
+      "sceneId": "ZH_HSK2_SC031",
+      "filename": "ZH_HSK2_SC031.webp",
+      "sourceFile": "bankada_evrak_i_şlemleri.png",
+      "verifiedPurposeTr": "Bankada yeni hesap; Zhang Wei, Liu Mei ve banka çalışanı",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC031.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC022",
-      "sourceFile": "apartman_bahçesinde_sıcak_komşuluk.png",
-      "incomingAssetFilename": "ZH_HSK2_SC022.webp",
-      "note": "apartman bahçesi komşuluk sahnesi"
+      "sceneId": "ZH_HSK2_SC032",
+      "filename": "ZH_HSK2_SC032.webp",
+      "sourceFile": "neşeli_postane_kargosu_momentleri.png",
+      "verifiedPurposeTr": "Postanede paket; Zhang Wei, Liu Mei ve posta çalışanı",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC032.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC023",
-      "sourceFile": "aileyle_renkli_pazar_alışverişi.png",
-      "incomingAssetFilename": "ZH_HSK2_SC023.webp",
-      "note": "pazar alışverişi"
+      "sceneId": "ZH_HSK2_SC033",
+      "filename": "ZH_HSK2_SC033.webp",
+      "sourceFile": "ZH_HSK2_SC033.webp",
+      "verifiedPurposeTr": "Li Chen ailesine yardım ziyareti",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC033.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC024",
-      "sourceFile": "sıcak_bir_akşam_çay_sohbeti.png",
-      "incomingAssetFilename": "ZH_HSK2_SC024.webp",
-      "note": "akşam sohbeti"
+      "sceneId": "ZH_HSK2_SC034",
+      "filename": "ZH_HSK2_SC034.webp",
+      "sourceFile": "neşeli_mahalle_temizliği_günü.png",
+      "verifiedPurposeTr": "Mahalle temizlik günü; Zhang Wei, Liu Mei, toplum çalışanı ve Lele",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC034.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC025",
-      "sourceFile": "şehir_parkında_neşeli_aile_pikniği.png",
-      "incomingAssetFilename": "ZH_HSK2_SC025.webp",
-      "note": "park pikniği"
+      "sceneId": "ZH_HSK2_SC035",
+      "filename": "ZH_HSK2_SC035.webp",
+      "sourceFile": "ZH_HSK2_SC035.webp",
+      "verifiedPurposeTr": "Liu Mei’nin hamur işi çok beğeniliyor",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC035.webp"
     },
     {
-      "sceneId": "ZH_HSK2_SC026",
-      "sourceFile": "sıcak_bir_aile_görüntülü_sohbeti.png",
-      "incomingAssetFilename": "ZH_HSK2_SC026.webp",
-      "note": "görüntülü sohbet"
+      "sceneId": "ZH_HSK2_SC036",
+      "filename": "ZH_HSK2_SC036.webp",
+      "sourceFile": "ZH_HSK2_SC036.webp",
+      "verifiedPurposeTr": "Zhang yeni bir çalışana işi öğretiyor",
+      "targetRepoPath": "incoming-assets/ZH_HSK2_SC036.webp"
     }
   ]
 }
