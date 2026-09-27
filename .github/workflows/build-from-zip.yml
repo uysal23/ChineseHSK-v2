@@ -280,6 +280,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
+      - name: Refresh scene metadata against final dialogue corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py \
+            --repo-root "$GITHUB_WORKSPACE"
+
       - name: Enforce explicit 10-scene visual build approval
         shell: bash
         run: |

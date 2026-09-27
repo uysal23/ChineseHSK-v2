@@ -1,4 +1,5 @@
-build requested: 2026-09-28T02:20+03:00
-source commit before trigger: 9a61a6171c14703517f9d2f3611633ce95e1eb58
+build retry requested: 2026-09-28T02:24+03:00
+source commit before retry: da5610eda5373301ccf75accc3d62eae82bb332b
 scope: current repository state through HSK3 SC030
-reason: explicit user build approval
+repair: refresh visual metadata dialogueSha256 from final dialogue corpus before strict visual validator
+reason: explicit user build approval remains active
