@@ -1,29 +1,77 @@
 {
   "package": "HSK2_PAKET1",
-  "description": "Generated images for HSK2 package 1. Put all files into repo folder incoming-assets. Distribution to final scene asset paths will be handled later.",
-  "targetSceneIds": [
-    "ZH_HSK2_SC011",
-    "ZH_HSK2_SC018",
-    "ZH_HSK2_SC019",
-    "ZH_HSK2_SC020",
-    "ZH_HSK2_SC021",
-    "ZH_HSK2_SC022",
-    "ZH_HSK2_SC023",
-    "ZH_HSK2_SC024",
-    "ZH_HSK2_SC025",
-    "ZH_HSK2_SC026"
+  "format": "WEBP",
+  "files": [
+    {
+      "sceneId": "ZH_HSK2_SC011",
+      "sourcePng": "sıcak_aile_kahvaltısı.png",
+      "incomingAssetFilename": "ZH_HSK2_SC011.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC011.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC018",
+      "sourcePng": "güneşli_koridorda_dostça_sohbet.png",
+      "incomingAssetFilename": "ZH_HSK2_SC018.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC018.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC018.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC019",
+      "sourcePng": "apartman_bahçesinde_sıcak_komşuluk.png",
+      "incomingAssetFilename": "ZH_HSK2_SC019.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC019.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC019.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC020",
+      "sourcePng": "sınıfta_neşeli_resim_sunumu.png",
+      "incomingAssetFilename": "ZH_HSK2_SC020.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC020.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC020.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC021",
+      "sourcePng": "aileyle_renkli_pazar_alışverişi.png",
+      "incomingAssetFilename": "ZH_HSK2_SC021.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC021.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC021.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC022",
+      "sourcePng": "sıcak_bir_akşam_çay_sohbeti.png",
+      "incomingAssetFilename": "ZH_HSK2_SC022.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC022.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC022.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC023",
+      "sourcePng": "yağmurlu_akşamda_aile_otobüse_biniyor.png",
+      "incomingAssetFilename": "ZH_HSK2_SC023.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC023.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC023.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC024",
+      "sourcePng": "şehir_parkında_neşeli_aile_pikniği.png",
+      "incomingAssetFilename": "ZH_HSK2_SC024.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC024.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC024.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC025",
+      "sourcePng": "sıcak_bir_aile_görüntülü_sohbeti.png",
+      "incomingAssetFilename": "ZH_HSK2_SC025.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC025.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC025.webp"
+    },
+    {
+      "sceneId": "ZH_HSK2_SC026",
+      "sourcePng": "sıcak_bir_aile_ödevi_akşamı.png",
+      "incomingAssetFilename": "ZH_HSK2_SC026.webp",
+      "targetRepoPath": "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC026.webp",
+      "targetRuntimePath": "ci/runtime_visuals/ZH_HSK2_SC026.webp"
+    }
   ],
-  "includedImageFiles": [
-    "sıcak_aile_kahvaltısı.png",
-    "güneşli_koridorda_dostça_sohbet.png",
-    "apartman_bahçesinde_sıcak_komşuluk.png",
-    "sınıfta_neşeli_resim_sunumu.png",
-    "aileyle_renkli_pazar_alışverişi.png",
-    "sıcak_bir_akşam_çay_sohbeti.png",
-    "yağmurlu_akşamda_aile_otobüse_biniyor.png",
-    "şehir_parkında_neşeli_aile_pikniği.png",
-    "sıcak_bir_aile_görüntülü_sohbeti.png",
-    "sıcak_bir_aile_ödevi_akşamı.png"
-  ],
-  "note": "Image filenames are kept as generated descriptive names. Scene-to-scene final mapping/distribution will be done after upload."
+  "note": "These are WEBP versions ready for incoming-assets upload."
 }

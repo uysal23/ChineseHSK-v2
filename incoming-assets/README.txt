@@ -1,7 +1,6 @@
-Place all files from this ZIP into the repository folder named incoming-assets.
+These files are WEBP. Put all files from this ZIP into the repo folder named incoming-assets.
 
-Package: HSK2 Paket 1
-Target scene IDs:
+Included scene IDs:
 - ZH_HSK2_SC011
 - ZH_HSK2_SC018
 - ZH_HSK2_SC019
@@ -12,5 +11,3 @@ Target scene IDs:
 - ZH_HSK2_SC024
 - ZH_HSK2_SC025
 - ZH_HSK2_SC026
-
-After upload, tell me the files are in incoming-assets and I can continue with distribution planning.
