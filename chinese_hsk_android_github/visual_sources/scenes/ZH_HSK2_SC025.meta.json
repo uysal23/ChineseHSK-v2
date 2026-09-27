@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC025",
+  "generationSceneId": "ZH_HSK2_SC025",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC025.json",
+  "dialogueSha256": "ab4f52a166ac5fb79495b317cd3e6ab3c4f3fd02d615e7e130e863a367a81755",
+  "titleTr": "Li Chen ile Çay",
+  "locationId": "LOC_ZH_TEA_HOUSE_001",
+  "scenePurposeTr": "İki arkadaş yeni şehirdeki hayatlarını değerlendirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "criticalObjects": [
+    "çaydanlık",
+    "çay fincanları",
+    "çay evi masası",
+    "geleneksel çay evi iç mekânı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC024",
+    "nextSceneId": "ZH_HSK2_SC026"
+  },
+  "sourceGeneratedFilename": "hsk2_correct_09.png",
+  "finalAssetFilename": "ZH_HSK2_SC025.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC025.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "647df53ed656f221d673ba69268fc93103c05325698c0b923588df7b1cc3dba2"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Zhang Wei, Li Chen ve Liu Mei çay evinde birlikte sohbet ediyor. Final source override olarak eşlendi."
+}

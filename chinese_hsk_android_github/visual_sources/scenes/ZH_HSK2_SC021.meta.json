@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC021",
+  "generationSceneId": "ZH_HSK2_SC021",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC021.json",
+  "dialogueSha256": "09b04738615de80c764f2f00869a92dde6830d0cfc72d2f8728103b698ec3dcf",
+  "titleTr": "Lele Kütüphane Kartı Alıyor",
+  "locationId": "LOC_ZH_LIBRARY_001",
+  "scenePurposeTr": "Lele ilk kütüphane kartını alıp kitap ödünç alır.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "刘梅",
+    "图书管理员"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "刘梅",
+    "图书管理员"
+  ],
+  "criticalObjects": [
+    "kütüphane kartı",
+    "kitaplar",
+    "kütüphaneci bankosu",
+    "bilgisayar"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC020",
+    "nextSceneId": "ZH_HSK2_SC022"
+  },
+  "sourceGeneratedFilename": "hsk2_correct_05.png",
+  "finalAssetFilename": "ZH_HSK2_SC021.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC021.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "6aa0647036c138cbc6775794a6c187d6bb7d605640200f4b6d53f04d0435b8c3"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Lele kartını kütüphaneciye uzatıyor; Liu Mei yanında ve kitaplar/banko görünür. Final source override olarak eşlendi."
+}

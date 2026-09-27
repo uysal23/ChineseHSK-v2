@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC026",
+  "generationSceneId": "ZH_HSK2_SC026",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC026.json",
+  "dialogueSha256": "cbd20e951e58d07a0801631da0357cb3812c8649f6ba0f79c5ed7d15afc8c8fa",
+  "titleTr": "Yağmurlu Okul Sabahı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yağmurluklar bulunamaz ve aile acele eder.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张乐乐",
+    "张雨桐",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张乐乐",
+    "张雨桐",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "yoğun yağmur",
+    "okul çantaları",
+    "ıslak yürüyüş yolu",
+    "acele eden aile"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC025",
+    "nextSceneId": "ZH_HSK2_SC027"
+  },
+  "sourceGeneratedFilename": "yağmurda_ailece_neşeli_koşu.png",
+  "finalAssetFilename": "ZH_HSK2_SC026.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC026.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "638a71acd409e60f5c1697012eb236066babc316a6da460a3d929a023969bd90"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Dört kişilik aile yağmur altında okula yetişmek için acele ediyor; Lele ve Yutong’un okul çantaları görünür. Final source override olarak eşlendi."
+}

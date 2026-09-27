@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC011",
+  "generationSceneId": "ZH_HSK2_SC011",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC011.json",
+  "dialogueSha256": "5f86cfe79763200f10b5cf4a1e4635e1acfa96d710930b95a1c693012b095ba6",
+  "titleTr": "Okul Veli Toplantısı",
+  "locationId": "LOC_ZH_PRIMARY_SCHOOL_001",
+  "scenePurposeTr": "Liu Mei, Lele’nin öğretmeniyle okul durumu hakkında konuşur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "老师",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "老师",
+    "张乐乐"
+  ],
+  "criticalObjects": [
+    "öğretmen masası ve not defteri",
+    "Lele’nin okul çantası",
+    "ilkokul sınıfı",
+    "veli-öğretmen görüşme alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC010",
+    "nextSceneId": "ZH_HSK2_SC012"
+  },
+  "sourceGeneratedFilename": "hsk2_correct_01.png",
+  "finalAssetFilename": "ZH_HSK2_SC011.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "48f00e3e0b97930a172e4dc5b83858507ea62305b4a68c1982f7a46393f1f0e6"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: Veli toplantısı için sınıf içinde Liu Mei, öğretmen ve Lele aynı sahnede görünür. Final source override olarak eşlendi."
+}
