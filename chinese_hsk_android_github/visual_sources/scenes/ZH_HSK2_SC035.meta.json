@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC035",
+  "generationSceneId": "ZH_HSK2_SC035",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC035.json",
+  "dialogueSha256": "c2d78bfc1ba941106d88e3e01a1adb06ca0e26dfb7a8936820b1cb570669b08d",
+  "titleTr": "Liu Mei’nin Hamur İşi Çok Beğeniliyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Komşular Liu Mei’den daha fazla sipariş istemeye başlar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "邻居",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "邻居",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "hamur işleri/pastalar",
+    "sipariş listesi",
+    "mutfak çalışma alanı",
+    "komşu müşteri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC034",
+    "nextSceneId": "ZH_HSK2_SC036"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC035.webp",
+  "finalAssetFilename": "ZH_HSK2_SC035.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC035.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "79a3b51c2393851840b8047cc85d705e15fb8c7adc1933c4edca1c85f869f2a7"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: SC027-SC036 final verified paketinden, diyalog/kadro/lokasyon kontrolü sonrası uygulama ve runtime override olarak entegre edildi."
+}

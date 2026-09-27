@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC027",
+  "generationSceneId": "ZH_HSK2_SC027",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC027.json",
+  "dialogueSha256": "aa81faf3554415e7ba2a525701d099d53f9cd0c48e3f3a7def6739e631b34fd3",
+  "titleTr": "Lele’nin Dişi Düşüyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Lele’nin dişi düşer; aile onu rahatlatır.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "刘梅",
+    "张伟"
+  ],
+  "criticalObjects": [
+    "düşen diş",
+    "mendil/peçete",
+    "ev oturma alanı",
+    "aile rahatlatma anı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC026",
+    "nextSceneId": "ZH_HSK2_SC028"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC027.webp",
+  "finalAssetFilename": "ZH_HSK2_SC027.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC027.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "29e616d545f90d0309bcffbf07306920b16f7ce1217d7bd7aaf80918551cc22c"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: SC027-SC036 final verified paketinden, diyalog/kadro/lokasyon kontrolü sonrası uygulama ve runtime override olarak entegre edildi."
+}

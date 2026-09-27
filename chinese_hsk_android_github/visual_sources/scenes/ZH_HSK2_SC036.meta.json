@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC036",
+  "generationSceneId": "ZH_HSK2_SC036",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC036.json",
+  "dialogueSha256": "bbc643d1fd5f46369f008e44ce0f081c96dae4e5aa420353cd16120c6d72549e",
+  "titleTr": "Zhang Yeni Sorumluluk Alıyor",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Zhang yeni bir çalışana işi öğretir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "新同事",
+    "经理"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "新同事",
+    "经理"
+  ],
+  "criticalObjects": [
+    "ofis bilgisayarı",
+    "iş dokümanları",
+    "yeni çalışan çalışma alanı",
+    "müdür"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC035",
+    "nextSceneId": "ZH_HSK2_SC037"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC036.webp",
+  "finalAssetFilename": "ZH_HSK2_SC036.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC036.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "0dca486c1a1cbb0fa692169838e623b2d7e87fed1b75dc599ea4b3843074dde0"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: SC027-SC036 final verified paketinden, diyalog/kadro/lokasyon kontrolü sonrası uygulama ve runtime override olarak entegre edildi."
+}

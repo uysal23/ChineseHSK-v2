@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK2_SC033",
+  "generationSceneId": "ZH_HSK2_SC033",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC033.json",
+  "dialogueSha256": "9506ceac20ad36e255a75272b4ea2f454513cd99f65b22388e5d6ee27e0a2e77",
+  "titleTr": "Aile Dostlarına Yardım",
+  "locationId": "LOC_ZH_LICHEN_HOME_001",
+  "scenePurposeTr": "Li Chen’in ailesinden biri hastalanınca yemek götürürler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "李晨",
+    "李晨妻子"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "李晨",
+    "李晨妻子"
+  ],
+  "criticalObjects": [
+    "hazır yemek kapları",
+    "Li Chen’in evi",
+    "ziyaret çantası",
+    "yardım/ziyaret anı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK2_SC032",
+    "nextSceneId": "ZH_HSK2_SC034"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC033.webp",
+  "finalAssetFilename": "ZH_HSK2_SC033.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC033.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "3c47454b955899faea16a22686172346828366a3925ca0f09482a600ae257a63"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-27: SC027-SC036 final verified paketinden, diyalog/kadro/lokasyon kontrolü sonrası uygulama ve runtime override olarak entegre edildi."
+}
