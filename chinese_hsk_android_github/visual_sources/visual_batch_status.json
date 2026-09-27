@@ -3,39 +3,40 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK3_SC001_SC010",
+    "batchId": "HSK3_SC021_SC030",
     "level": "HSK3",
-    "startScene": "HSK3_SC001",
-    "endScene": "HSK3_SC010",
+    "startScene": "HSK3_SC021",
+    "endScene": "HSK3_SC030",
     "sceneIds": [
-      "ZH_HSK3_SC001",
-      "ZH_HSK3_SC002",
-      "ZH_HSK3_SC003",
-      "ZH_HSK3_SC004",
-      "ZH_HSK3_SC005",
-      "ZH_HSK3_SC006",
-      "ZH_HSK3_SC007",
-      "ZH_HSK3_SC008",
-      "ZH_HSK3_SC009",
-      "ZH_HSK3_SC010"
+      "ZH_HSK3_SC021",
+      "ZH_HSK3_SC022",
+      "ZH_HSK3_SC023",
+      "ZH_HSK3_SC024",
+      "ZH_HSK3_SC025",
+      "ZH_HSK3_SC026",
+      "ZH_HSK3_SC027",
+      "ZH_HSK3_SC028",
+      "ZH_HSK3_SC029",
+      "ZH_HSK3_SC030"
     ],
     "completedSceneIds": [
-      "ZH_HSK3_SC001",
-      "ZH_HSK3_SC002",
-      "ZH_HSK3_SC003",
-      "ZH_HSK3_SC004",
-      "ZH_HSK3_SC005",
-      "ZH_HSK3_SC006",
-      "ZH_HSK3_SC007",
-      "ZH_HSK3_SC008",
-      "ZH_HSK3_SC009",
-      "ZH_HSK3_SC010"
+      "ZH_HSK3_SC021",
+      "ZH_HSK3_SC022",
+      "ZH_HSK3_SC023",
+      "ZH_HSK3_SC024",
+      "ZH_HSK3_SC025",
+      "ZH_HSK3_SC026",
+      "ZH_HSK3_SC027",
+      "ZH_HSK3_SC028",
+      "ZH_HSK3_SC029",
+      "ZH_HSK3_SC030"
     ],
     "pendingSceneIds": [],
-    "status": "INTEGRATED_QA_PASS",
+    "status": "READY_FOR_BUILD",
+    "manifestVersion": "LOCKED_V2",
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "HSK3 SC001-SC010 görselleri ayrı scene ID ile app/runtime/meta/override olarak entegre edildi; 10/10 LOCKED_V2 QA PASS. APK build başlatılmadı; açık kullanıcı onayı gerekir."
+    "buildApproved": true,
+    "buildApprovalNoteTr": "Kullanıcı 2026-09-28 tarihinde mevcut repo durumunun şimdiye kadarki kısmıyla build edilmesini açıkça onayladı."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -71,7 +72,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC021_SC030_INTEGRATED_QA_PASS_2026-09-27",
+  "latestVisualRevision": "HSK3_SC021_SC030_BUILD_APPROVED_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -462,10 +463,10 @@
       "ZH_HSK3_SC030"
     ],
     "pendingSceneIds": [],
-    "status": "INTEGRATED_QA_PASS",
+    "status": "READY_FOR_BUILD",
     "manifestVersion": "LOCKED_V2",
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "HSK3 SC021-SC030 10/10 final WebP app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata olarak entegre edildi. Önceki HSK3 sahne continuity çizgisi korundu. SC025 Lele teen_boy. SC029-SC030 Liu Mei diyalog konuşmacısı olarak uzaktan/video bağlantısında görünür. APK build başlatılmadı."
+    "buildApproved": true,
+    "noteTr": "HSK3 SC021-SC030 10/10 final WebP app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata olarak entegre edildi. Önceki HSK3 sahne continuity çizgisi korundu. SC025 Lele teen_boy. SC029-SC030 Liu Mei diyalog konuşmacısı olarak uzaktan/video bağlantısında görünür. APK build başlatılmadı. Kullanıcı build için açık onay verdi."
   }
 }

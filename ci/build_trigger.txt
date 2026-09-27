@@ -1,4 +1,4 @@
-Build trigger for ChineseHSK v3.4.0
-Requested: 2026-09-26 Europe/Istanbul
-Scope: all currently integrated and validated scene visuals through ZH_HSK2_SC007
-Approval: explicit user approval in chat on 2026-09-26
+build requested: 2026-09-28T02:20+03:00
+source commit before trigger: 9a61a6171c14703517f9d2f3611633ce95e1eb58
+scope: current repository state through HSK3 SC030
+reason: explicit user build approval
