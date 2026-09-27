@@ -71,7 +71,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC001_SC010_FINAL_VERIFIED_2026-09-27",
+  "latestVisualRevision": "HSK3_SC011_SC020_REGEN_REQUIRED_MATURITY_LOCK_2026-09-27",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -394,5 +394,55 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK3 SC001-SC010 görselleri ayrı scene ID ile app/runtime/meta/override olarak entegre edildi; 10/10 LOCKED_V2 QA PASS. APK build başlatılmadı; açık kullanıcı onayı gerekir."
+  },
+  "hsk3Sc011Sc020BatchProgress": {
+    "batchId": "HSK3_SC011_SC020",
+    "level": "HSK3",
+    "startScene": "HSK3_SC011",
+    "endScene": "HSK3_SC020",
+    "sceneIds": [
+      "ZH_HSK3_SC011",
+      "ZH_HSK3_SC012",
+      "ZH_HSK3_SC013",
+      "ZH_HSK3_SC014",
+      "ZH_HSK3_SC015",
+      "ZH_HSK3_SC016",
+      "ZH_HSK3_SC017",
+      "ZH_HSK3_SC018",
+      "ZH_HSK3_SC019",
+      "ZH_HSK3_SC020"
+    ],
+    "completedSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK3_SC011",
+      "ZH_HSK3_SC012",
+      "ZH_HSK3_SC013",
+      "ZH_HSK3_SC014",
+      "ZH_HSK3_SC015",
+      "ZH_HSK3_SC016",
+      "ZH_HSK3_SC017",
+      "ZH_HSK3_SC018",
+      "ZH_HSK3_SC019",
+      "ZH_HSK3_SC020"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK3_SC011",
+      "ZH_HSK3_SC012",
+      "ZH_HSK3_SC013",
+      "ZH_HSK3_SC014",
+      "ZH_HSK3_SC015",
+      "ZH_HSK3_SC016",
+      "ZH_HSK3_SC017",
+      "ZH_HSK3_SC018",
+      "ZH_HSK3_SC019",
+      "ZH_HSK3_SC020"
+    ],
+    "rejectionReasonTr": "İlk üretim turunda Lele HSK3 LOCKED maturity kuralına göre teen_boy yerine fazla küçük/bebeksi göründü. Düzeltme denemesinde görsel aracı bireysel sahne yerine kolaj üretti; kolaj çıktılar final kabul edilmedi ve uygulamaya entegre edilmedi. SC011-SC020, Lele teen_boy + Yutong young_adult + ebeveynler mature_adult yaş bandı doğrulanarak bireysel 9:16 sahne olarak yeniden üretilmelidir.",
+    "status": "REGENERATION_REQUIRED_MATURITY_LOCK",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "Bu batch için hiçbir görsel FINAL_SOURCE_OVERRIDE olarak işaretlenmedi. HSK3 age/maturity QA PASS olmadan entegrasyon yapılamaz."
   }
 }
