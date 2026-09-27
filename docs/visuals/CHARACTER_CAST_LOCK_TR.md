@@ -26,3 +26,19 @@ Yeni sahne görsellerinde karakter seçimi tahmine bırakılmaz.
 - Sahne kadrosunda olmayan Yutong/Lele'nin eklenmesi.
 - Anne/baba yerine genç öğrenci görünümü kullanılması.
 - Büyükbaba/büyükanne rollerinin genç yetişkin olarak çizilmesi.
+
+## HSK3 yaş / olgunluk patch'i — LOCKED
+
+HSK3–HSK4 için yaş bantları `visual_generation_policy.json` ile bloklayıcı olarak uygulanır:
+
+- Zhang Wei: `mature_adult`
+- Liu Mei: `mature_adult`
+- Yutong: `young_adult`
+- Lele: `teen_boy`
+
+Yutong her zaman Lele'den daha büyük/olgun görünmelidir.
+
+**Lele HSK3'te küçük çocuk olarak çizilemez.** Toddler, okul öncesi, aşırı bebeksi veya chibi oran; HSK1–HSK2 küçük çocuk görünümünün aynen tekrar edilmesi; kız/belirsiz cinsiyet görünümü bloklayıcı manifest hatasıdır ve görsel FINAL olamaz.
+
+Ayrıntılı kilit: `docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md`
+
