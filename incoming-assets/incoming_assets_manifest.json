@@ -1,76 +1,169 @@
 {
-  "package": "HSK2_SC027_SC036_VERIFIED",
-  "format": "WEBP",
+  "package": "HSK2_SC027_SC036_FINAL_VERIFIED",
+  "manifestVersion": "LOCKED_V2",
   "files": [
     {
       "sceneId": "ZH_HSK2_SC027",
+      "titleTr": "Lele’nin Dişi Düşüyor",
+      "scenePurposeTr": "Lele’nin dişi düşer; aile onu rahatlatır.",
+      "requiredCharacters": [
+        "张乐乐",
+        "刘梅",
+        "张伟"
+      ],
       "filename": "ZH_HSK2_SC027.webp",
-      "sourceFile": "ZH_HSK2_SC027.webp",
-      "verifiedPurposeTr": "Lele’nin dişi düşüyor; Lele + Liu Mei + Zhang Wei, ev sahnesi",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC027.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "29e616d545f90d0309bcffbf07306920b16f7ce1217d7bd7aaf80918551cc22c",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC028",
+      "titleTr": "Yutong İlk Kez Tek Başına Dönüyor",
+      "scenePurposeTr": "Yutong yanlış durakta iner ama telefonla yolu bulur.",
+      "requiredCharacters": [
+        "张雨桐",
+        "刘梅",
+        "路人"
+      ],
       "filename": "ZH_HSK2_SC028.webp",
-      "sourceFile": "a_bright_warm_detailed_3d_cgi_animated_illustrat_6.png",
-      "verifiedPurposeTr": "Yutong yanlış durakta iner; Liu Mei telefonda, yoldan geçen kişi yön gösterir",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC028.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e75e17e7230955c7dc80bab5fbd04a070e74b401e0ec4d73a5c626e4ffe41771",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC029",
+      "titleTr": "Zhang’ın Küçük Hatası",
+      "scenePurposeTr": "Zhang işte yanlış dosyayı gönderir ve özür dileyip düzeltir.",
+      "requiredCharacters": [
+        "张伟",
+        "同事",
+        "经理"
+      ],
       "filename": "ZH_HSK2_SC029.webp",
-      "sourceFile": "ZH_HSK2_SC029.webp",
-      "verifiedPurposeTr": "Zhang işte yanlış dosyayı gönderir; işyeri sahnesi",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC029.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "9dc94581e0be492859c61dff4c7c13753f281c9a46601b1eeef8b78713408dbd",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC030",
+      "titleTr": "Hafta Sonu Kasaba Turu",
+      "scenePurposeTr": "Aile kasabanın banka, postane ve park gibi yerlerini gezer.",
+      "requiredCharacters": [
+        "张伟",
+        "刘梅",
+        "张乐乐",
+        "张雨桐"
+      ],
       "filename": "ZH_HSK2_SC030.webp",
-      "sourceFile": "güneşli_kasaba_meydanında_aile_gezisi.png",
-      "verifiedPurposeTr": "Hafta sonu kasaba turu; aile banka, postane ve park çevresini gezer",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC030.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "d573efbd7db2d34d650cefe21c28c944ad5717c5378bd189ea92cf4876997394",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC031",
+      "titleTr": "Bankada Yeni Hesap",
+      "scenePurposeTr": "Zhang bazı belgeleri unuttuğunu fark eder.",
+      "requiredCharacters": [
+        "张伟",
+        "银行工作人员",
+        "刘梅"
+      ],
       "filename": "ZH_HSK2_SC031.webp",
-      "sourceFile": "bankada_evrak_i_şlemleri.png",
-      "verifiedPurposeTr": "Bankada yeni hesap; Zhang Wei, Liu Mei ve banka çalışanı",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC031.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "1b7c3eff64f6c41b64536d01c7bdd3abcb0c666e75c9a847f9994629cb33fe24",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC032",
+      "titleTr": "Postanede Paket",
+      "scenePurposeTr": "Aile büyüklerine hediye paketi gönderir.",
+      "requiredCharacters": [
+        "张伟",
+        "刘梅",
+        "邮局工作人员"
+      ],
       "filename": "ZH_HSK2_SC032.webp",
-      "sourceFile": "neşeli_postane_kargosu_momentleri.png",
-      "verifiedPurposeTr": "Postanede paket; Zhang Wei, Liu Mei ve posta çalışanı",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC032.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "cc1a11f1e63ee14bc89d49f5495793d8e87982b704cfc2dd50d5578c8d8bd15f",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC033",
+      "titleTr": "Aile Dostlarına Yardım",
+      "scenePurposeTr": "Li Chen’in ailesinden biri hastalanınca yemek götürürler.",
+      "requiredCharacters": [
+        "刘梅",
+        "张伟",
+        "李晨",
+        "李晨妻子"
+      ],
       "filename": "ZH_HSK2_SC033.webp",
-      "sourceFile": "ZH_HSK2_SC033.webp",
-      "verifiedPurposeTr": "Li Chen ailesine yardım ziyareti",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC033.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "3c47454b955899faea16a22686172346828366a3925ca0f09482a600ae257a63",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC034",
+      "titleTr": "Mahalle Temizlik Günü",
+      "scenePurposeTr": "Aile ilk gönüllü çevre temizliğine katılır.",
+      "requiredCharacters": [
+        "张伟",
+        "刘梅",
+        "社区工作人员",
+        "张乐乐"
+      ],
       "filename": "ZH_HSK2_SC034.webp",
-      "sourceFile": "neşeli_mahalle_temizliği_günü.png",
-      "verifiedPurposeTr": "Mahalle temizlik günü; Zhang Wei, Liu Mei, toplum çalışanı ve Lele",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC034.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "df85e0384b941364cbbbe5e796ef71768603bc385ce8beb496c0ee727ab013c9",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC035",
+      "titleTr": "Liu Mei’nin Hamur İşi Çok Beğeniliyor",
+      "scenePurposeTr": "Komşular Liu Mei’den daha fazla sipariş istemeye başlar.",
+      "requiredCharacters": [
+        "刘梅",
+        "邻居",
+        "张伟"
+      ],
       "filename": "ZH_HSK2_SC035.webp",
-      "sourceFile": "ZH_HSK2_SC035.webp",
-      "verifiedPurposeTr": "Liu Mei’nin hamur işi çok beğeniliyor",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC035.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "79a3b51c2393851840b8047cc85d705e15fb8c7adc1933c4edca1c85f869f2a7",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     },
     {
       "sceneId": "ZH_HSK2_SC036",
+      "titleTr": "Zhang Yeni Sorumluluk Alıyor",
+      "scenePurposeTr": "Zhang yeni bir çalışana işi öğretir.",
+      "requiredCharacters": [
+        "张伟",
+        "新同事",
+        "经理"
+      ],
       "filename": "ZH_HSK2_SC036.webp",
-      "sourceFile": "ZH_HSK2_SC036.webp",
-      "verifiedPurposeTr": "Zhang yeni bir çalışana işi öğretiyor",
-      "targetRepoPath": "incoming-assets/ZH_HSK2_SC036.webp"
+      "format": "WEBP",
+      "width": 941,
+      "height": 1672,
+      "sha256": "0dca486c1a1cbb0fa692169838e623b2d7e87fed1b75dc599ea4b3843074dde0",
+      "status": "VERIFIED_FOR_INCOMING_ASSETS"
     }
   ]
 }
