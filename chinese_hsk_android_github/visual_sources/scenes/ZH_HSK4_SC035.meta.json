@@ -71,5 +71,6 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-28: Gerçek HSK4 sahne JSON/diyalog kaynağına göre kadro, mekan, kritik obje, 9:16, metinsizlik, tek-sahne ve HSK4 maturity kontrolleri PASS. SC031-SC036 kısmi batch entegrasyonu."
+  "qaNoteTr": "2026-09-28: Gerçek HSK4 sahne JSON/diyalog kaynağına göre kadro, mekan, kritik obje, 9:16, metinsizlik, tek-sahne ve HSK4 maturity kontrolleri PASS. SC031-SC036 kısmi batch entegrasyonu.",
+  "dialogueSha256": "fff685404144ef9efcfc2088648aaa3ded5400e12a4d5905f12aa12a2c45ce4a"
 }
