@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC026",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC026.json",
+  "titleTr": "Aile Tatili Planı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Herkes farklı bir tatil yeri ister; ortak karar ararlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "seyahat broşürleri/harita ama okunabilir yazısız",
+    "telefon/tablet",
+    "küçük valiz",
+    "oturma odası masası"
+  ],
+  "visualDirectionTr": "Akşam aile evinde tatil planı; Zhang Wei, Liu Mei, young-adult Yutong ve teen-boy Lele masa etrafında farklı seçenekleri karşılaştırıyor. Yutong Lele’den açıkça daha büyük görünür; Lele erkek ergen.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC025",
+    "nextSceneId": "ZH_HSK4_SC027"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
