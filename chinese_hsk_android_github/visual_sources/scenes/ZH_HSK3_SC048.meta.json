@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC048",
+  "generationSceneId": "ZH_HSK3_SC048",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC048.json",
+  "dialogueSha256": "efe77f6876a9e730c6a2b3a067dab71baa0d0854bacd9d1d8ed1368d6f402949",
+  "titleTr": "Kafenin İlk Yıldönümü",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Müşteriler ve dostlar kafenin birinci yılı için küçük bir sürpriz hazırlar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "1 rakamlı pasta",
+    "balonlar",
+    "kahve fincanları",
+    "kutlama süsleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC047",
+    "nextSceneId": "ZH_HSK3_SC049"
+  },
+  "sourceGeneratedFilename": "kafede_birinci_yıl_kutlaması.png",
+  "finalAssetFilename": "ZH_HSK3_SC048.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC048.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "7aca2a81f3c7ddf5175f288929694cdc6934a6371b65ae2299c4219c8f92a5e0"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK3 final 10'lu paket; kullanıcı onayı sonrası sahne kadrosu, yaş olgunluğu, mekân ve continuity kontrolünden geçirilerek entegre edildi."
+}

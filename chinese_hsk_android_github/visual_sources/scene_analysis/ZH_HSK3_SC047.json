@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC047",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC047.json",
+  "titleTr": "Zhang’ın Terfisi",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Zhang yeni görevini kabul eder ve ilk sorumluluklarını konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "经理": "mature_manager",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "sunum ekranı",
+    "grafikler",
+    "toplantı masası",
+    "video görüşmeli laptop"
+  ],
+  "visualDirectionTr": "Zhang yeni görevini kabul eder ve ilk sorumluluklarını konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC046",
+    "nextSceneId": "ZH_HSK3_SC048"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

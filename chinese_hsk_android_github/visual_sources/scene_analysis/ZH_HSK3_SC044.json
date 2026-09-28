@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC044",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC044.json",
+  "titleTr": "Yutong’un İlk Ciddi Kararı",
+  "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+  "scenePurposeTr": "Yutong hangi alanda okumak istediğini ilk kez ciddi biçimde düşünür.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "老师": "adult_teacher",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "üniversite broşürleri",
+    "not defteri",
+    "laptop",
+    "kampüs görselleri"
+  ],
+  "visualDirectionTr": "Yutong hangi alanda okumak istediğini ilk kez ciddi biçimde düşünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC043",
+    "nextSceneId": "ZH_HSK3_SC045"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

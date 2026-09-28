@@ -3,33 +3,33 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK3_SC031_SC040",
+    "batchId": "HSK3_SC041_SC050",
     "level": "HSK3",
-    "startScene": "HSK3_SC031",
-    "endScene": "HSK3_SC040",
+    "startScene": "HSK3_SC041",
+    "endScene": "HSK3_SC050",
     "sceneIds": [
-      "ZH_HSK3_SC031",
-      "ZH_HSK3_SC032",
-      "ZH_HSK3_SC033",
-      "ZH_HSK3_SC034",
-      "ZH_HSK3_SC035",
-      "ZH_HSK3_SC036",
-      "ZH_HSK3_SC037",
-      "ZH_HSK3_SC038",
-      "ZH_HSK3_SC039",
-      "ZH_HSK3_SC040"
+      "ZH_HSK3_SC041",
+      "ZH_HSK3_SC042",
+      "ZH_HSK3_SC043",
+      "ZH_HSK3_SC044",
+      "ZH_HSK3_SC045",
+      "ZH_HSK3_SC046",
+      "ZH_HSK3_SC047",
+      "ZH_HSK3_SC048",
+      "ZH_HSK3_SC049",
+      "ZH_HSK3_SC050"
     ],
     "completedSceneIds": [
-      "ZH_HSK3_SC031",
-      "ZH_HSK3_SC032",
-      "ZH_HSK3_SC033",
-      "ZH_HSK3_SC034",
-      "ZH_HSK3_SC035",
-      "ZH_HSK3_SC036",
-      "ZH_HSK3_SC037",
-      "ZH_HSK3_SC038",
-      "ZH_HSK3_SC039",
-      "ZH_HSK3_SC040"
+      "ZH_HSK3_SC041",
+      "ZH_HSK3_SC042",
+      "ZH_HSK3_SC043",
+      "ZH_HSK3_SC044",
+      "ZH_HSK3_SC045",
+      "ZH_HSK3_SC046",
+      "ZH_HSK3_SC047",
+      "ZH_HSK3_SC048",
+      "ZH_HSK3_SC049",
+      "ZH_HSK3_SC050"
     ],
     "pendingSceneIds": [],
     "status": "INTEGRATED_QA_PASS",
@@ -37,7 +37,7 @@
     "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK3 SC031-SC040 10/10 final WebP; app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata/scene analysis olarak entegre edildi. SC031 Yutong young_adult; SC032 Lele teen_boy erkek kimliği; SC037 Liu Mei remote/video continuity. APK build başlatılmadı; yeni açık kullanıcı onayı gerekir."
+    "noteTr": "HSK3 SC041-SC050 10/10 final WebP; app asset + runtime mirror + metadata + scene analysis olarak entegre edildi. SC043/SC048 kadro düzeltmeleri final sürümlerdir. Build başlatılmadı."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -73,7 +73,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC031_SC040_INTEGRATED_QA_PASS_2026-09-28",
+  "latestVisualRevision": "HSK3_SC041_SC050_INTEGRATED_QA_PASS_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -506,5 +506,42 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK3 SC031-SC040 10/10 final WebP; app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata/scene analysis olarak entegre edildi. SC031 Yutong young_adult; SC032 Lele teen_boy erkek kimliği; SC037 Liu Mei remote/video continuity. APK build başlatılmadı; yeni açık kullanıcı onayı gerekir."
+  },
+  "hsk3Sc041Sc050BatchProgress": {
+    "batchId": "HSK3_SC041_SC050",
+    "level": "HSK3",
+    "startScene": "HSK3_SC041",
+    "endScene": "HSK3_SC050",
+    "sceneIds": [
+      "ZH_HSK3_SC041",
+      "ZH_HSK3_SC042",
+      "ZH_HSK3_SC043",
+      "ZH_HSK3_SC044",
+      "ZH_HSK3_SC045",
+      "ZH_HSK3_SC046",
+      "ZH_HSK3_SC047",
+      "ZH_HSK3_SC048",
+      "ZH_HSK3_SC049",
+      "ZH_HSK3_SC050"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK3_SC041",
+      "ZH_HSK3_SC042",
+      "ZH_HSK3_SC043",
+      "ZH_HSK3_SC044",
+      "ZH_HSK3_SC045",
+      "ZH_HSK3_SC046",
+      "ZH_HSK3_SC047",
+      "ZH_HSK3_SC048",
+      "ZH_HSK3_SC049",
+      "ZH_HSK3_SC050"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK3 SC041-SC050 10/10 final WebP; app asset + runtime mirror + metadata + scene analysis olarak entegre edildi. SC043/SC048 kadro düzeltmeleri final sürümlerdir. Build başlatılmadı."
   }
 }

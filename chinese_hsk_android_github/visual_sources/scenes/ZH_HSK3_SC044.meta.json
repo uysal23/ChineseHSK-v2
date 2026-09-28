@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC044",
+  "generationSceneId": "ZH_HSK3_SC044",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC044.json",
+  "dialogueSha256": "49151aaf69d01800379e32e8e4f6f9f77294df40a5a1a355d23a403a655dbf1f",
+  "titleTr": "Yutong’un İlk Ciddi Kararı",
+  "locationId": "LOC_ZH_HIGH_SCHOOL_001",
+  "scenePurposeTr": "Yutong hangi alanda okumak istediğini ilk kez ciddi biçimde düşünür.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "老师": "adult_teacher",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "üniversite broşürleri",
+    "not defteri",
+    "laptop",
+    "kampüs görselleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC043",
+    "nextSceneId": "ZH_HSK3_SC045"
+  },
+  "sourceGeneratedFilename": "üniversite_danışmanlığı_i_çin_sıcak_bir_buluşma.png",
+  "finalAssetFilename": "ZH_HSK3_SC044.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC044.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d9ff2a83e4d6a64f6d619f58ea1152082d5fa71a39eae8dade0fe1cf3c1c33e8"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK3 final 10'lu paket; kullanıcı onayı sonrası sahne kadrosu, yaş olgunluğu, mekân ve continuity kontrolünden geçirilerek entegre edildi."
+}
