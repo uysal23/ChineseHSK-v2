@@ -27,6 +27,14 @@
     ],
     "exam1VocabularyPassPercent": 90,
     "exam2SentencePassPercent": 85,
-    "unlockNextSceneAfterBothExams": true
+    "unlockNextSceneAfterBothExams": true,
+    "wordShadowing": true,
+    "pronunciationSimilarityPercent": true,
+    "allDialogueWordsVisibleInPractice": true,
+    "freeStudy": true,
+    "freeStudyCustomItemCount": true,
+    "placementTestQuestionsPerLevel": 14,
+    "placementTestTotalQuestions": 84,
+    "placementTestDialogueIndependent": true
   }
 }
