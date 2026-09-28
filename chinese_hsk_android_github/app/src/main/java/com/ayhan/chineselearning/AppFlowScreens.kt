@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -83,51 +84,109 @@ private val placementQuestions = listOf(
 )
 
 @Composable
-fun PlacementTestScreen(onBack: () -> Unit, onComplete: (level: Int, score: Int, total: Int) -> Unit) {
+fun PlacementTestScreen(
+    repo: ContentRepository,
+    onBack: () -> Unit,
+    onComplete: (level: Int, score: Int, total: Int) -> Unit
+) {
+    val questions = remember { repo.loadPlacementItems() }
     var index by remember { mutableIntStateOf(0) }
     var score by remember { mutableIntStateOf(0) }
     var answered by remember { mutableStateOf<Int?>(null) }
     var finished by remember { mutableStateOf(false) }
+    val levelScores = remember { mutableStateMapOf<Int, Int>() }
+    val context = LocalContext.current
+    val tts = remember { MandarinTtsPlayer(context) }
+    DisposableEffect(Unit) { onDispose { tts.shutdown() } }
+
+    fun recommendedLevel(): Int {
+        var highestConsecutive = 0
+        for (level in 1..6) {
+            if ((levelScores[level] ?: 0) >= 10) highestConsecutive = level else break
+        }
+        return if (highestConsecutive == 0) 1 else (highestConsecutive + 1).coerceAtMost(6)
+    }
 
     Box(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(MaterialTheme.colorScheme.primary, MaterialTheme.colorScheme.background)))) {
         Column(Modifier.fillMaxSize()) {
             Text("← Geri", color = MaterialTheme.colorScheme.secondary, modifier = Modifier.clickable { onBack() }.padding(20.dp), fontWeight = FontWeight.Bold)
-            if (finished) {
-                val level = when (score) {
-                    in 0..2 -> 1
-                    in 3..4 -> 2
-                    in 5..6 -> 3
-                    in 7..8 -> 4
-                    in 9..10 -> 5
-                    else -> 6
+
+            if (questions.isEmpty()) {
+                Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
+                    Text("Seviye tespit soru bankası yüklenemedi.", color = Color.White, textAlign = TextAlign.Center)
                 }
+                return@Column
+            }
+
+            if (finished) {
+                val level = recommendedLevel()
                 Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
                     Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(28.dp)) {
-                        Column(Modifier.padding(28.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                        Column(Modifier.padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                             Text("Seviye Sonucu", color = MaterialTheme.colorScheme.primary, fontSize = 25.sp, fontWeight = FontWeight.Bold)
-                            Text("HSK$level", color = MaterialTheme.colorScheme.secondary, fontSize = 48.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(vertical = 16.dp))
-                            Text("$score / ${placementQuestions.size} doğru", color = Color.DarkGray)
-                            Spacer(Modifier.height(20.dp))
-                            Button(onClick = { onComplete(level, score, placementQuestions.size) }, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)) {
+                            Text("HSK$level", color = MaterialTheme.colorScheme.secondary, fontSize = 48.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(vertical = 12.dp))
+                            Text("$score / ${questions.size} doğru", color = Color.DarkGray)
+                            Text(
+                                "Her seviyede 14 özgün soru · bir seviyeyi geçme eşiği 10/14",
+                                color = Color.Gray,
+                                fontSize = 12.sp,
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier.padding(top = 5.dp, bottom = 12.dp)
+                            )
+                            (1..6).forEach { hsk ->
+                                val value = levelScores[hsk] ?: 0
+                                Row(Modifier.fillMaxWidth().padding(vertical = 2.dp)) {
+                                    Text("HSK$hsk", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+                                    Spacer(Modifier.weight(1f))
+                                    Text("$value / 14", color = if (value >= 10) FlowSuccess else Color.DarkGray)
+                                }
+                            }
+                            Spacer(Modifier.height(18.dp))
+                            Button(
+                                onClick = { onComplete(level, score, questions.size) },
+                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary),
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
                                 Text("Bu Seviyeden Başla")
                             }
                         }
                     }
                 }
             } else {
-                val q = placementQuestions[index]
+                if (index > questions.lastIndex) index = questions.lastIndex
+                val q = questions[index]
+                val typeLabel = when (q.type) {
+                    "listening" -> "Dinleme"
+                    "grammar" -> "Dilbilgisi"
+                    "vocabulary" -> "Sözcük"
+                    else -> "Okuma"
+                }
                 Column(Modifier.padding(horizontal = 20.dp)) {
                     Text("Seviye Tespit Sınavı", color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold)
-                    Text("${index + 1} / ${placementQuestions.size}", color = Color.White.copy(alpha = 0.7f), modifier = Modifier.padding(top = 4.dp))
+                    Text(
+                        "${index + 1} / ${questions.size} · HSK${q.level} · $typeLabel",
+                        color = Color.White.copy(alpha = 0.76f),
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
                     LinearProgressIndicator(
-                        progress = { (index + 1).toFloat() / placementQuestions.size },
-                        modifier = Modifier.fillMaxWidth().padding(vertical = 18.dp),
+                        progress = { (index + 1).toFloat() / questions.size },
+                        modifier = Modifier.fillMaxWidth().padding(vertical = 16.dp),
                         color = MaterialTheme.colorScheme.secondary
                     )
                     Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(22.dp)) {
                         Column(Modifier.padding(20.dp)) {
-                            Text(q.prompt, color = MaterialTheme.colorScheme.primary, fontSize = 22.sp, fontWeight = FontWeight.Bold)
-                            Spacer(Modifier.height(18.dp))
+                            Text(q.prompt, color = MaterialTheme.colorScheme.primary, fontSize = 21.sp, fontWeight = FontWeight.Bold)
+                            if (q.audioZh.isNotBlank()) {
+                                Button(
+                                    onClick = { tts.speak(q.audioZh, "PLACEMENT", 0.88f) },
+                                    modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
+                                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
+                                ) {
+                                    Text("🔊 Mandarin cümleyi dinle", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+                                }
+                                Text("Dinleme sorularında Çince cümle ekranda gösterilmez.", color = Color.Gray, fontSize = 11.sp, modifier = Modifier.padding(top = 5.dp))
+                            }
+                            Spacer(Modifier.height(14.dp))
                             q.options.forEachIndexed { optionIndex, option ->
                                 val selected = answered == optionIndex
                                 val correct = answered != null && optionIndex == q.correct
@@ -135,10 +194,13 @@ fun PlacementTestScreen(onBack: () -> Unit, onComplete: (level: Int, score: Int,
                                     onClick = {
                                         if (answered == null) {
                                             answered = optionIndex
-                                            if (optionIndex == q.correct) score++
+                                            if (optionIndex == q.correct) {
+                                                score++
+                                                levelScores[q.level] = (levelScores[q.level] ?: 0) + 1
+                                            }
                                         }
                                     },
-                                    modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                                    modifier = Modifier.fillMaxWidth().padding(vertical = 3.dp),
                                     colors = ButtonDefaults.outlinedButtonColors(
                                         containerColor = when {
                                             correct -> Color(0xFFE6F4EA)
@@ -151,14 +213,18 @@ fun PlacementTestScreen(onBack: () -> Unit, onComplete: (level: Int, score: Int,
                             if (answered != null) {
                                 Button(
                                     onClick = {
-                                        if (index < placementQuestions.lastIndex) {
+                                        if (index < questions.lastIndex) {
                                             index++
                                             answered = null
-                                        } else finished = true
+                                        } else {
+                                            finished = true
+                                        }
                                     },
-                                    modifier = Modifier.fillMaxWidth().padding(top = 14.dp),
+                                    modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
                                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary)
-                                ) { Text(if (index < placementQuestions.lastIndex) "Sonraki" else "Sonucu Gör", color = MaterialTheme.colorScheme.primary) }
+                                ) {
+                                    Text(if (index < questions.lastIndex) "Sonraki" else "Sonucu Gör", color = MaterialTheme.colorScheme.primary)
+                                }
                             }
                         }
                     }
@@ -177,6 +243,7 @@ fun DashboardScreen(
     onLevels: () -> Unit,
     onFavorites: () -> Unit,
     onDailyReview: () -> Unit,
+    onFreeStudy: () -> Unit,
     onWeakWords: () -> Unit,
     onHabits: () -> Unit,
     onProgress: () -> Unit,
@@ -223,6 +290,7 @@ fun DashboardScreen(
             item { DashboardAction("📚", "HSK Seviyeleri", "300 sahneyi seviye bazında gör", onLevels) }
             item { DashboardAction("★", "Favorilerim", "$favoriteCount favori kelime", onFavorites) }
             item { DashboardAction("🔁", "Günlük Tekrar", "Zayıf kelimeler öncelikli · hedef ${progress.dailyReviewTarget()} kelime", onDailyReview) }
+            item { DashboardAction("🧪", "Serbest Çalışma", "Kelime, cümle, anlama, diyalog ve telaffuzu adet seçerek çalış", onFreeStudy) }
             item { DashboardAction("⚑", "Zayıf Kelimeler", "$weakCount kelime tekrar bekliyor", onWeakWords) }
             item { DashboardAction("🔥", "Seri ve Takvim", "Mevcut seri: $streak gün", onHabits) }
             item { DashboardAction("📊", "İlerlemem", "Sınav ortalamaları ve seviye ilerlemesi", onProgress) }
