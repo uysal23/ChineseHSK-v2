@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC021",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC021.json",
+  "titleTr": "Büyükbabanın Pazarı",
+  "locationId": "LOC_ZH_MARKET_001",
+  "scenePurposeTr": "Büyükbaba yetiştirdiği ürünleri mahalle pazarında paylaşır ve satar.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "顾客",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "顾客",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "爷爷": "elderly_male",
+    "顾客": "adult_customer",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "sebze ve tarım ürünü tezgâhı",
+    "taze yerel ürünler",
+    "alışveriş sepeti/poşeti",
+    "pazar standı"
+  ],
+  "visualDirectionTr": "Mahalle pazarında gündüz; büyükbaba kendi yetiştirdiği ürünlerin başında, yetişkin müşteriyle alışveriş/sohbet ederken Liu Mei ve Zhang Wei yanında. Dört konuşmacının tamamı görünür; okunabilir tabela/metin yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC020",
+    "nextSceneId": "ZH_HSK4_SC022"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
