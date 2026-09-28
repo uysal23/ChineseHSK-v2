@@ -68,7 +68,14 @@
     "shadowing": true,
     "recognitionLanguage": "zh-CN",
     "displaySimilarityPercent": true,
-    "scoringNote": "ASR text-similarity percentage; not a laboratory tone/phoneme score"
+    "scoringNote": "Offline Vosk Mandarin ASR output vs target Hanzi normalized edit similarity; practical intelligibility/pronunciation proxy, not laboratory tone/phoneme scoring.",
+    "recognitionEngine": "vosk-android-0.3.75",
+    "recognitionModel": "vosk-model-small-cn-0.22",
+    "fullyOffline": true,
+    "bundledModel": true,
+    "modelLicense": "Apache-2.0",
+    "modelSha256": "3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba",
+    "displayLabelTr": "Telaffuz doğruluğu"
   },
   "placementTest": {
     "dialogueIndependent": true,
