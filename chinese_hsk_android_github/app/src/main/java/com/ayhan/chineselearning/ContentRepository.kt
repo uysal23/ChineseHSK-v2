@@ -168,7 +168,22 @@ data class VocabularyStudyItem(
     val card: VocabularyCard
 )
 
+data class PlacementItem(
+    val id: String,
+    val level: Int,
+    val type: String,
+    val prompt: String,
+    val options: List<String>,
+    val correct: Int,
+    val audioZh: String = ""
+)
+
 class ContentRepository(private val context: Context) {
+    private var allScenesCache: List<SceneInfo>? = null
+    private var allVocabularyCache: List<VocabularyStudyItem>? = null
+    private var placementCache: List<PlacementItem>? = null
+    private val dialogueVocabularyCache = mutableMapOf<String, List<VocabularyCard>>()
+
     private fun readAsset(path: String): String =
         context.assets.open(path).bufferedReader(Charsets.UTF_8).use { it.readText() }
 
@@ -490,16 +505,96 @@ class ContentRepository(private val context: Context) {
         )
     }
 
-    fun loadAllVocabularyCards(): List<VocabularyStudyItem> {
-        val result = mutableListOf<VocabularyStudyItem>()
-        for (level in loadLevels()) {
-            for (sceneMeta in loadSceneIndex(level.id)) {
-                val scene = loadScene(level.id, sceneMeta.id)
-                scene.learning.vocabularyCards.forEach { card ->
-                    result += VocabularyStudyItem(level.id, scene.id, scene.titleTr, card)
+    fun loadAllScenes(): List<SceneInfo> {
+        allScenesCache?.let { return it }
+        val result = buildList {
+            for (level in loadLevels()) {
+                for (sceneMeta in loadSceneIndex(level.id)) {
+                    add(loadScene(level.id, sceneMeta.id))
                 }
             }
         }
+        allScenesCache = result
+        return result
+    }
+
+    fun loadAllVocabularyCards(): List<VocabularyStudyItem> {
+        allVocabularyCache?.let { return it }
+        val result = buildList {
+            loadAllScenes().forEach { scene ->
+                scene.learning.vocabularyCards.forEach { card ->
+                    add(VocabularyStudyItem(scene.level, scene.id, scene.titleTr, card))
+                }
+            }
+        }
+        allVocabularyCache = result
+        return result
+    }
+
+    fun loadDialogueVocabulary(scene: SceneInfo): List<VocabularyCard> {
+        dialogueVocabularyCache[scene.id]?.let { return it }
+
+        val lexicon = loadAllVocabularyCards()
+            .map { it.card }
+            .filter { it.zh.isNotBlank() }
+            .distinctBy { it.zh }
+        val byFirst = lexicon
+            .groupBy { it.zh.first() }
+            .mapValues { (_, cards) -> cards.sortedByDescending { it.zh.length } }
+
+        val result = LinkedHashMap<String, VocabularyCard>()
+        scene.dialogues.forEach { line ->
+            val han = line.zh.filter { ch -> ch.code in 0x3400..0x9FFF }
+            var i = 0
+            while (i < han.length) {
+                val first = han[i]
+                val matched = byFirst[first]
+                    ?.firstOrNull { card -> han.startsWith(card.zh, startIndex = i) }
+                if (matched != null) {
+                    result.putIfAbsent(matched.zh, matched.copy(kind = "dialogue"))
+                    i += matched.zh.length
+                } else {
+                    val token = first.toString()
+                    result.putIfAbsent(
+                        token,
+                        VocabularyCard(
+                            id = "DIALOGUE_${scene.id}_${first.code}",
+                            zh = token,
+                            pinyin = "",
+                            tr = "—",
+                            kind = "dialogue_unmapped"
+                        )
+                    )
+                    i++
+                }
+            }
+        }
+        val words = result.values.toList()
+        dialogueVocabularyCache[scene.id] = words
+        return words
+    }
+
+    fun loadPlacementItems(): List<PlacementItem> {
+        placementCache?.let { return it }
+        val root = JSONObject(readAsset("chinese_course/placement_test_hsk.json"))
+        val items = root.optJSONArray("questions") ?: return emptyList()
+        val result = buildList {
+            for (i in 0 until items.length()) {
+                val item = items.getJSONObject(i)
+                add(
+                    PlacementItem(
+                        id = item.getString("id"),
+                        level = item.getInt("level"),
+                        type = item.optString("type", "reading"),
+                        prompt = item.getString("prompt"),
+                        options = jsonArrayToStrings(item, "options"),
+                        correct = item.getInt("correct"),
+                        audioZh = item.optString("audioZh", "")
+                    )
+                )
+            }
+        }
+        placementCache = result
         return result
     }
 }
