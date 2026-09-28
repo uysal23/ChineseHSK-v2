@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC025",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC025.json",
+  "titleTr": "Zhang’ın İş-Yaşam Dengesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang fazla çalışmanın aile ve sağlığı üzerindeki etkisini fark eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "李晨": "mature_adult_friend",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "iş çantası/dosya",
+    "çay fincanları",
+    "ev oturma alanı",
+    "yorgunluk belirten beden dili"
+  ],
+  "visualDirectionTr": "Akşam evde sıcak oturma alanı; Zhang Wei belirgin ama abartısız yorgun, Liu Mei ve young-adult Yutong destekleyici, Li Chen yetişkin arkadaş olarak konuşmaya katılıyor. Dört konuşmacı görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC024",
+    "nextSceneId": "ZH_HSK4_SC026"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
