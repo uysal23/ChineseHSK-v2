@@ -60,11 +60,14 @@ private fun DialogueVocabularyStrip(words: List<VocabularyCard>) {
     Column(Modifier.fillMaxWidth()) {
         Text(
             "Diyalogdaki tüm kelimeler · ${words.size}",
-            color = Color.White.copy(alpha = 0.88f),
+            color = Color.White,
             fontWeight = FontWeight.Bold,
             fontSize = 13.sp,
-            modifier = Modifier.padding(bottom = 6.dp)
+            modifier = Modifier
+                .background(StudyTop, RoundedCornerShape(10.dp))
+                .padding(horizontal = 9.dp, vertical = 5.dp)
         )
+        Spacer(Modifier.height(6.dp))
         LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             items(words, key = { it.id }) { word ->
                 Surface(
