@@ -1,4 +1,8 @@
 ## Unreleased — 2026-09-28
+- Kelime kartı arayüzü sadeleştirildi: aynı anda yalnızca tek kelime görünür; tüm-kelimeler şeridi kaldırıldı.
+- Kelime kartında Dinle / Söyle ile Önceki / Sonraki kontrolleri iki sade satıra indirildi; Favori ve Zor işaretleri kart içine taşındı.
+- Kelime çalışmasının en altına 5/10/20/30/Tümü kelime adedi seçimi eklendi.
+- Telaffuz çalışma kartı yukarı doğru genişletildi; Çince, Pinyin, Türkçe ve benzeşme sonucu yazıları biraz küçültüldü.
 - Telaffuz ve kelime shadowing sonuçlarında görünür **ses/telaffuz benzeşmesi yüzdesi** ve ilerleme çubuğu eklendi.
 - Kelime çalışmasına mikrofonlu shadowing akışı eklendi; hedef kelime ekranda kalırken dinle → söyle → karşılaştır yapılabilir.
 - Kelime, cümle, anlama ve seçimli diyalog çalışmalarına sahne diyaloğundaki kelime havuzu eklendi.
