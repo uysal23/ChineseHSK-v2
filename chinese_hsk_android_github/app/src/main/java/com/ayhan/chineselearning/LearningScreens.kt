@@ -55,24 +55,90 @@ private fun StudyShell(title: String, subtitle: String? = null, onBack: () -> Un
 }
 
 @Composable
+private fun DialogueVocabularyStrip(words: List<VocabularyCard>) {
+    if (words.isEmpty()) return
+    Column(Modifier.fillMaxWidth()) {
+        Text(
+            "Diyalogdaki tüm kelimeler · ${words.size}",
+            color = Color.White.copy(alpha = 0.88f),
+            fontWeight = FontWeight.Bold,
+            fontSize = 13.sp,
+            modifier = Modifier.padding(bottom = 6.dp)
+        )
+        LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            items(words, key = { it.id }) { word ->
+                Surface(
+                    color = Color.White.copy(alpha = 0.96f),
+                    shape = RoundedCornerShape(14.dp),
+                    modifier = Modifier.widthIn(min = 110.dp, max = 155.dp)
+                ) {
+                    Column(Modifier.padding(horizontal = 10.dp, vertical = 8.dp)) {
+                        Text(word.zh, color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 20.sp)
+                        if (word.pinyin.isNotBlank()) {
+                            Text(word.pinyin, color = Color(0xFF65566C), fontSize = 11.sp, maxLines = 1)
+                        }
+                        Text(
+                            word.tr.ifBlank { "—" },
+                            color = Color.DarkGray,
+                            fontSize = 11.sp,
+                            maxLines = 2
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+private enum class FreeStudyType {
+    VOCABULARY, SENTENCE, COMPREHENSION, INTERACTIVE, PRONUNCIATION
+}
+
+
+@Composable
 fun FlashCardScreen(
     title: String,
     cards: List<VocabularyCard>,
     progress: ProgressStore,
+    dialogueWords: List<VocabularyCard> = emptyList(),
     onBack: () -> Unit
 ) {
     var index by remember(cards.size) { mutableIntStateOf(0) }
     var flipped by remember(index) { mutableStateOf(false) }
     var favoriteVersion by remember { mutableIntStateOf(0) }
+    var recognized by remember(index) { mutableStateOf("") }
+    var shadowScore by remember(index) { mutableStateOf<Int?>(null) }
+    var shadowStatus by remember(index) { mutableStateOf("") }
     val context = LocalContext.current
     val tts = remember { MandarinTtsPlayer(context) }
-    DisposableEffect(Unit) { onDispose { tts.shutdown() } }
+    val recognizer = remember { OfflineMandarinRecognizer(context) }
+    DisposableEffect(Unit) { onDispose { tts.shutdown(); recognizer.destroy() } }
     LaunchedEffect(Unit) { progress.recordStudyActivity() }
 
-    StudyShell(title, "Kartı çevir · ileri/geri git · favorile", onBack) {
+    fun startShadowing() {
+        val card = cards.getOrNull(index) ?: return
+        recognized = ""
+        shadowScore = null
+        shadowStatus = "Dinliyorum… kelimeyi söyle."
+        recognizer.start(
+            onListening = { shadowStatus = "Dinliyorum… kelimeyi söyle." },
+            onResult = { text ->
+                recognized = text
+                shadowScore = chineseTextSimilarity(card.zh, text)
+                shadowStatus = ""
+            },
+            onError = { message -> shadowStatus = message }
+        )
+    }
+
+    val permissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) startShadowing() else shadowStatus = "Mikrofon izni verilmedi."
+    }
+
+    StudyShell(title, "Kartı çevir · dinle · shadowing yap · favorile", onBack) {
         if (cards.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text("Bu sahne için kelime kartları henüz hazırlanmadı.", color = Color.White)
+                Text("Bu çalışma için kelime bulunamadı.", color = Color.White)
             }
             return@StudyShell
         }
@@ -80,45 +146,83 @@ fun FlashCardScreen(
         val card = cards[index]
         val isFavorite = remember(card.id, favoriteVersion) { progress.isFavorite(card.id) }
         val isDifficult = remember(card.id, favoriteVersion) { progress.isWordDifficult(card.id) }
+        val visibleDialogueWords = if (dialogueWords.isNotEmpty()) dialogueWords else cards
 
         Column(
             Modifier.fillMaxSize().padding(horizontal = 18.dp, vertical = 8.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text("${index + 1} / ${cards.size}", color = Color.White.copy(alpha = 0.8f))
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(7.dp))
+            DialogueVocabularyStrip(visibleDialogueWords)
+            Spacer(Modifier.height(9.dp))
             Card(
                 modifier = Modifier.fillMaxWidth().weight(1f).clickable { flipped = !flipped },
                 shape = RoundedCornerShape(28.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White)
             ) {
-                Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
+                Box(Modifier.fillMaxSize().padding(20.dp), contentAlignment = Alignment.Center) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally) {
                         Text(card.zh, fontSize = 44.sp, fontWeight = FontWeight.Bold, color = StudyTop, textAlign = TextAlign.Center)
+                        if (card.pinyin.isNotBlank()) {
+                            Text(card.pinyin, fontSize = 21.sp, color = Color(0xFF62546B), textAlign = TextAlign.Center, modifier = Modifier.padding(top = 8.dp))
+                        }
                         if (flipped) {
-                            Spacer(Modifier.height(18.dp))
-                            Text(card.pinyin, fontSize = 22.sp, color = Color(0xFF62546B), textAlign = TextAlign.Center)
-                            Spacer(Modifier.height(8.dp))
-                            Text(card.tr, fontSize = 21.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+                            Spacer(Modifier.height(7.dp))
+                            Text(card.tr, fontSize = 20.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
                             if (card.exampleZh.isNotBlank()) {
-                                HorizontalDivider(Modifier.padding(vertical = 18.dp))
-                                Text(card.exampleZh, fontSize = 21.sp, textAlign = TextAlign.Center)
-                                if (card.examplePinyin.isNotBlank()) Text(card.examplePinyin, color = Color.Gray, textAlign = TextAlign.Center)
-                                if (card.exampleTr.isNotBlank()) Text(card.exampleTr, color = Color.DarkGray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 5.dp))
+                                HorizontalDivider(Modifier.padding(vertical = 12.dp))
+                                Text(card.exampleZh, fontSize = 19.sp, textAlign = TextAlign.Center)
+                                if (card.examplePinyin.isNotBlank()) Text(card.examplePinyin, color = Color.Gray, fontSize = 13.sp, textAlign = TextAlign.Center)
+                                if (card.exampleTr.isNotBlank()) Text(card.exampleTr, color = Color.DarkGray, fontSize = 13.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 4.dp))
                             }
                         } else {
-                            Spacer(Modifier.height(14.dp))
-                            Text("Anlam ve örnek için karta dokun", color = Color.Gray)
+                            Text("Anlam ve örnek için karta dokun", color = Color.Gray, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp))
+                        }
+
+                        if (recognized.isNotBlank()) {
+                            Text("Algılanan: $recognized", color = Color.DarkGray, fontSize = 12.sp, modifier = Modifier.padding(top = 10.dp), textAlign = TextAlign.Center)
+                        }
+                        shadowScore?.let { value ->
+                            Text(
+                                "Ses/telaffuz benzeşmesi: %$value",
+                                color = if (value >= 70) Success else Danger,
+                                fontSize = 22.sp,
+                                fontWeight = FontWeight.Black,
+                                modifier = Modifier.padding(top = 7.dp),
+                                textAlign = TextAlign.Center
+                            )
+                            LinearProgressIndicator(
+                                progress = { value / 100f },
+                                modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
+                                color = if (value >= 70) Success else Danger
+                            )
+                        }
+                        if (shadowStatus.isNotBlank()) {
+                            Text(shadowStatus, color = Danger, fontSize = 12.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 7.dp))
                         }
                     }
                 }
             }
-            Spacer(Modifier.height(14.dp))
-            OutlinedButton(
-                onClick = { tts.speak(card.zh, "VOCAB", 0.82f) },
-                modifier = Modifier.fillMaxWidth()
-            ) { Text("🔊 Kelimeyi Dinle") }
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(9.dp))
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedButton(
+                    onClick = { tts.speak(card.zh, "VOCAB", 0.82f) },
+                    modifier = Modifier.weight(1f)
+                ) { Text("🔊 Dinle") }
+                Button(
+                    onClick = {
+                        if (ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+                            startShadowing()
+                        } else {
+                            permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                        }
+                    },
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
+                ) { Text("🎙 Shadowing", color = StudyTop, fontWeight = FontWeight.Bold) }
+            }
+            Spacer(Modifier.height(7.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Button(
                     onClick = { progress.toggleFavorite(card.id); favoriteVersion++ },
@@ -132,27 +236,28 @@ fun FlashCardScreen(
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = if (isDifficult) Color(0xFFFFD7D2) else Color.White.copy(alpha = 0.18f))
                 ) {
-                    Text(if (isDifficult) "⚑ Zor" else "⚐ Zor İşaretle", color = if (isDifficult) Danger else Color.White)
+                    Text(if (isDifficult) "⚑ Zor" else "⚐ Zor", color = if (isDifficult) Danger else Color.White)
                 }
             }
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(7.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 OutlinedButton(
-                    onClick = { if (index > 0) index-- },
+                    onClick = { if (index > 0) { recognizer.stop(); index-- } },
                     enabled = index > 0,
                     modifier = Modifier.weight(1f)
                 ) { Text("← Önceki") }
                 Button(
-                    onClick = { if (index < cards.lastIndex) index++ },
+                    onClick = { if (index < cards.lastIndex) { recognizer.stop(); index++ } },
                     enabled = index < cards.lastIndex,
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
                 ) { Text("Sonraki →", color = StudyTop) }
             }
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(12.dp))
         }
     }
 }
+
 
 @Composable
 fun FavoritesScreen(repo: ContentRepository, progress: ProgressStore, onBack: () -> Unit) {
@@ -218,7 +323,7 @@ fun FavoritesScreen(repo: ContentRepository, progress: ProgressStore, onBack: ()
 }
 
 @Composable
-fun ComprehensionScreen(scene: SceneInfo, onBack: () -> Unit) {
+fun ComprehensionScreen(scene: SceneInfo, dialogueWords: List<VocabularyCard> = emptyList(), onBack: () -> Unit) {
     val questions = scene.learning.comprehensionQuestions
     var index by remember(scene.id) { mutableIntStateOf(0) }
     var selected by remember(index) { mutableStateOf<Int?>(null) }
@@ -248,6 +353,8 @@ fun ComprehensionScreen(scene: SceneInfo, onBack: () -> Unit) {
         val q = questions[index]
         Column(Modifier.fillMaxSize().padding(18.dp)) {
             Text("${index + 1} / ${questions.size}", color = Color.White.copy(alpha = 0.75f))
+            Spacer(Modifier.height(7.dp))
+            DialogueVocabularyStrip(dialogueWords)
             Card(
                 Modifier.fillMaxWidth().padding(top = 10.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White),
@@ -358,8 +465,13 @@ fun PronunciationPracticeScreen(scene: SceneInfo, progress: ProgressStore, onBac
                         Text("Algılanan: $recognized", color = Color.DarkGray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 14.dp))
                     }
                     if (score != null) {
-                        Text("Metin eşleşmesi: %${score!!}", color = if (score!! >= 60) Success else Danger, fontSize = 22.sp, fontWeight = FontWeight.Bold, modifier = Modifier.padding(top = 8.dp))
-                        Text("Not: Bu puan ton analizi değil; cihazın çevrimdışı konuşma tanımasının metin eşleşmesidir.", color = Color.Gray, fontSize = 11.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 5.dp))
+                        Text("Ses/telaffuz benzeşmesi: %${score!!}", color = if (score!! >= 70) Success else Danger, fontSize = 25.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(top = 8.dp))
+                        LinearProgressIndicator(
+                            progress = { score!! / 100f },
+                            modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
+                            color = if (score!! >= 70) Success else Danger
+                        )
+                        Text("Bu yüzde cihazın Mandarin konuşma tanıma sonucu ile hedef metnin benzerliğidir; bağımsız ton/phoneme laboratuvar skoru değildir.", color = Color.Gray, fontSize = 11.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 5.dp))
                     }
                 }
             }
@@ -372,7 +484,7 @@ fun PronunciationPracticeScreen(scene: SceneInfo, progress: ProgressStore, onBac
 }
 
 @Composable
-fun InteractiveDialogueScreen(scene: SceneInfo, onBack: () -> Unit) {
+fun InteractiveDialogueScreen(scene: SceneInfo, dialogueWords: List<VocabularyCard> = emptyList(), onBack: () -> Unit) {
     val items = scene.learning.interactiveDialogue
     var index by remember(scene.id) { mutableIntStateOf(0) }
     var selected by remember(index) { mutableStateOf<Int?>(null) }
@@ -391,6 +503,8 @@ fun InteractiveDialogueScreen(scene: SceneInfo, onBack: () -> Unit) {
         val correctIndex = item.options.indexOfFirst { it.correct }
         Column(Modifier.fillMaxSize().padding(18.dp)) {
             Text("${index + 1} / ${items.size} · Doğru: $correctCount", color = Color.White.copy(alpha = 0.8f))
+            Spacer(Modifier.height(7.dp))
+            DialogueVocabularyStrip(dialogueWords)
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(22.dp), modifier = Modifier.fillMaxWidth().padding(top = 10.dp)) {
                 Column(Modifier.padding(18.dp)) {
                     Text(item.promptZh, color = StudyTop, fontSize = 27.sp, fontWeight = FontWeight.Bold)
@@ -488,7 +602,7 @@ private fun ExerciseEditor(exercise: SentenceExercise, onAnswerReady: (Boolean?)
 }
 
 @Composable
-fun SentencePracticeScreen(scene: SceneInfo, onBack: () -> Unit) {
+fun SentencePracticeScreen(scene: SceneInfo, dialogueWords: List<VocabularyCard> = emptyList(), onBack: () -> Unit) {
     val exercises = scene.learning.sentenceExercises
     var index by remember { mutableIntStateOf(0) }
     var answerCorrect by remember(index) { mutableStateOf<Boolean?>(null) }
@@ -503,6 +617,8 @@ fun SentencePracticeScreen(scene: SceneInfo, onBack: () -> Unit) {
         Card(Modifier.fillMaxWidth().padding(18.dp), colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(22.dp)) {
             Column(Modifier.padding(18.dp)) {
                 Text("${index + 1} / ${exercises.size}", color = Color.Gray)
+                Spacer(Modifier.height(8.dp))
+                DialogueVocabularyStrip(dialogueWords)
                 Spacer(Modifier.height(10.dp))
                 key(exercise.id) {
                     ExerciseEditor(exercise) { answerCorrect = it; checked = false }
@@ -525,6 +641,217 @@ fun SentencePracticeScreen(scene: SceneInfo, onBack: () -> Unit) {
         }
     }
 }
+
+@Composable
+fun FreeStudyScreen(
+    repo: ContentRepository,
+    progress: ProgressStore,
+    onBack: () -> Unit
+) {
+    var activeType by remember { mutableStateOf<FreeStudyType?>(null) }
+    var selectedLevel by remember { mutableStateOf("ALL") }
+    var countText by remember { mutableStateOf("10") }
+    var useAll by remember { mutableStateOf(false) }
+    var status by remember { mutableStateOf("") }
+    var sessionCards by remember { mutableStateOf<List<VocabularyCard>>(emptyList()) }
+    var sessionScene by remember { mutableStateOf<SceneInfo?>(null) }
+    var sessionWords by remember { mutableStateOf<List<VocabularyCard>>(emptyList()) }
+
+    fun closeSession() {
+        activeType = null
+        sessionCards = emptyList()
+        sessionScene = null
+        sessionWords = emptyList()
+    }
+
+    activeType?.let { type ->
+        when (type) {
+            FreeStudyType.VOCABULARY -> FlashCardScreen(
+                title = "Serbest Çalışma · Kelime",
+                cards = sessionCards,
+                progress = progress,
+                dialogueWords = sessionWords,
+                onBack = { closeSession() }
+            )
+            FreeStudyType.SENTENCE -> SentencePracticeScreen(
+                scene = sessionScene ?: return@let,
+                dialogueWords = sessionWords,
+                onBack = { closeSession() }
+            )
+            FreeStudyType.COMPREHENSION -> ComprehensionScreen(
+                scene = sessionScene ?: return@let,
+                dialogueWords = sessionWords,
+                onBack = { closeSession() }
+            )
+            FreeStudyType.INTERACTIVE -> InteractiveDialogueScreen(
+                scene = sessionScene ?: return@let,
+                dialogueWords = sessionWords,
+                onBack = { closeSession() }
+            )
+            FreeStudyType.PRONUNCIATION -> PronunciationPracticeScreen(
+                scene = sessionScene ?: return@let,
+                progress = progress,
+                onBack = { closeSession() }
+            )
+        }
+        return
+    }
+
+    val allScenes = remember { repo.loadAllScenes() }
+    val filteredScenes = remember(allScenes, selectedLevel) {
+        if (selectedLevel == "ALL") allScenes else allScenes.filter { it.level == selectedLevel }
+    }
+    val count = countText.toIntOrNull()?.coerceIn(1, 500) ?: 10
+
+    fun start(type: FreeStudyType) {
+        status = ""
+        val limit = if (useAll) Int.MAX_VALUE else count
+        fun <T> pick(items: List<T>): List<T> = items.shuffled().let { if (useAll) it else it.take(limit) }
+
+        when (type) {
+            FreeStudyType.VOCABULARY -> {
+                val pool = filteredScenes.flatMap { it.learning.vocabularyCards }.distinctBy { it.id }
+                val picked = pick(pool)
+                if (picked.isEmpty()) { status = "Seçilen düzeyde kelime bulunamadı."; return }
+                sessionCards = picked
+                sessionWords = picked
+            }
+            FreeStudyType.SENTENCE -> {
+                val picked = pick(filteredScenes.flatMap { it.learning.sentenceExercises }.distinctBy { it.id })
+                if (picked.isEmpty()) { status = "Seçilen düzeyde cümle alıştırması bulunamadı."; return }
+                sessionScene = SceneInfo(
+                    id = "FREE_SENTENCE", level = selectedLevel, number = 0,
+                    titleZh = "自由练习", titleTr = "Serbest Çalışma", complete = true,
+                    productionStatus = "complete",
+                    learning = LearningInfo(sentenceExercises = picked),
+                    dialogues = emptyList()
+                )
+            }
+            FreeStudyType.COMPREHENSION -> {
+                val picked = pick(filteredScenes.flatMap { it.learning.comprehensionQuestions }.distinctBy { it.id })
+                if (picked.isEmpty()) { status = "Seçilen düzeyde anlama sorusu bulunamadı."; return }
+                sessionScene = SceneInfo(
+                    id = "FREE_COMPREHENSION", level = selectedLevel, number = 0,
+                    titleZh = "自由练习", titleTr = "Serbest Çalışma", complete = true,
+                    productionStatus = "complete",
+                    learning = LearningInfo(comprehensionQuestions = picked),
+                    dialogues = emptyList()
+                )
+            }
+            FreeStudyType.INTERACTIVE -> {
+                val picked = pick(filteredScenes.flatMap { it.learning.interactiveDialogue }.distinctBy { it.id })
+                if (picked.isEmpty()) { status = "Seçilen düzeyde seçimli diyalog bulunamadı."; return }
+                sessionScene = SceneInfo(
+                    id = "FREE_INTERACTIVE", level = selectedLevel, number = 0,
+                    titleZh = "自由练习", titleTr = "Serbest Çalışma", complete = true,
+                    productionStatus = "complete",
+                    learning = LearningInfo(interactiveDialogue = picked),
+                    dialogues = emptyList()
+                )
+            }
+            FreeStudyType.PRONUNCIATION -> {
+                val picked = pick(filteredScenes.flatMap { it.learning.pronunciationItems }.distinctBy { it.id })
+                if (picked.isEmpty()) { status = "Seçilen düzeyde telaffuz hedefi bulunamadı."; return }
+                sessionScene = SceneInfo(
+                    id = "FREE_PRONUNCIATION", level = selectedLevel, number = 0,
+                    titleZh = "自由练习", titleTr = "Serbest Çalışma", complete = true,
+                    productionStatus = "complete",
+                    learning = LearningInfo(pronunciationItems = picked),
+                    dialogues = emptyList()
+                )
+            }
+        }
+        activeType = type
+    }
+
+    StudyShell("Serbest Çalışma", "Türü, HSK düzeyini ve kaç alıştırma yapacağını sen seç", onBack) {
+        LazyColumn(
+            contentPadding = PaddingValues(start = 18.dp, end = 18.dp, top = 8.dp, bottom = 120.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            item {
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(20.dp)) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text("HSK düzeyi", color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                        LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 8.dp)) {
+                            items(listOf("ALL", "HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6")) { level ->
+                                FilterChip(
+                                    selected = selectedLevel == level,
+                                    onClick = { selectedLevel = level; status = "" },
+                                    label = { Text(if (level == "ALL") "Tümü" else level) }
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+            item {
+                Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(20.dp)) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text("Alıştırma adedi", color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                        Row(Modifier.fillMaxWidth().padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                            OutlinedTextField(
+                                value = countText,
+                                onValueChange = { value -> countText = value.filter { it.isDigit() }.take(3) },
+                                enabled = !useAll,
+                                singleLine = true,
+                                label = { Text("Adet") },
+                                supportingText = { Text("Örn. 30 kelime veya 10 cümle") },
+                                modifier = Modifier.weight(1f)
+                            )
+                            Spacer(Modifier.width(10.dp))
+                            FilterChip(
+                                selected = useAll,
+                                onClick = { useAll = !useAll },
+                                label = { Text("Tümü") }
+                            )
+                        }
+                        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            listOf(5, 10, 20, 30, 50).forEach { value ->
+                                AssistChip(
+                                    onClick = { countText = value.toString(); useAll = false },
+                                    label = { Text("$value") },
+                                    modifier = Modifier.weight(1f)
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+            item {
+                Text("Çalışma türü", color = Color.White, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+            }
+            item { DashboardStyleStudyButton("🃏", "Kelime + Shadowing", "Kelime kartları, dinleme ve telaffuz benzeşmesi") { start(FreeStudyType.VOCABULARY) } }
+            item { DashboardStyleStudyButton("✍", "Cümle Alıştırması", "Sıralama, boşluk doldurma ve cümle düzeltme") { start(FreeStudyType.SENTENCE) } }
+            item { DashboardStyleStudyButton("🧠", "Anlama", "Bağımsız anlama sorularıyla çalışma") { start(FreeStudyType.COMPREHENSION) } }
+            item { DashboardStyleStudyButton("💬", "Seçimli Diyalog", "Doğal cevabı seçme alıştırmaları") { start(FreeStudyType.INTERACTIVE) } }
+            item { DashboardStyleStudyButton("🎙", "Telaffuz / Shadowing", "Dinle, söyle, tanıt ve yüzdeyle karşılaştır") { start(FreeStudyType.PRONUNCIATION) } }
+            if (status.isNotBlank()) {
+                item { Text(status, color = Color(0xFFFFD7D2), fontWeight = FontWeight.Bold) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DashboardStyleStudyButton(icon: String, title: String, subtitle: String, onClick: () -> Unit) {
+    Card(
+        modifier = Modifier.fillMaxWidth().clickable { onClick() },
+        colors = CardDefaults.cardColors(containerColor = Color.White),
+        shape = RoundedCornerShape(18.dp)
+    ) {
+        Row(Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(icon, fontSize = 25.sp)
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Text(title, color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 17.sp)
+                Text(subtitle, color = Color.DarkGray, fontSize = 12.sp)
+            }
+            Text("›", color = StudyTop, fontSize = 26.sp)
+        }
+    }
+}
+
 
 @Composable
 fun ExamHubScreen(
