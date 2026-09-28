@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC022",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC022.json",
+  "titleTr": "Kafeye Yerel Ürünler",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Liu Mei yerel çiftçilerle daha düzenli tedarik anlaşması konuşur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "供应商",
+    "张伟",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "供应商",
+    "张伟",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "供应商": "adult_supplier",
+    "张伟": "mature_adult",
+    "员工": "adult_employee"
+  },
+  "criticalObjects": [
+    "yerel sebze/meyve kasaları",
+    "tedarik kutuları",
+    "kafe servis tezgâhı",
+    "ürün örnekleri"
+  ],
+  "visualDirectionTr": "Aile kafesinde gündüz; Liu Mei yerel tedarikçiyle ürün kalitesi ve düzenli tedariki görüşür, Zhang Wei ve yetişkin çalışan katılır. Tüm konuşmacılar görünür; yazılı sözleşme/metin görünmez.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC021",
+    "nextSceneId": "ZH_HSK4_SC023"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
