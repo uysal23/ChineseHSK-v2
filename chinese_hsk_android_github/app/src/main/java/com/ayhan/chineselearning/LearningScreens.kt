@@ -536,13 +536,13 @@ fun PronunciationPracticeScreen(scene: SceneInfo, progress: ProgressStore, onBac
                         Text("Algılanan: $recognized", color = Color.DarkGray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 14.dp))
                     }
                     if (score != null) {
-                        Text("Ses/telaffuz benzeşmesi: %${score!!}", color = if (score!! >= 70) Success else Danger, fontSize = 21.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(top = 8.dp))
+                        Text("Telaffuz doğruluğu: %${score!!}", color = if (score!! >= 70) Success else Danger, fontSize = 21.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(top = 8.dp))
                         LinearProgressIndicator(
                             progress = { score!! / 100f },
                             modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
                             color = if (score!! >= 70) Success else Danger
                         )
-                        Text("Bu yüzde cihazın Mandarin konuşma tanıma sonucu ile hedef metnin benzerliğidir; bağımsız ton/phoneme laboratuvar skoru değildir.", color = Color.Gray, fontSize = 11.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 5.dp))
+                        Text("Tamamen çevrimdışı Vosk Mandarin modeliyle hesaplanan anlaşılabilirlik/telaffuz benzerliği. Ton laboratuvar ölçümü değildir.", color = Color.Gray, fontSize = 11.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 5.dp))
                     }
                 }
             }
