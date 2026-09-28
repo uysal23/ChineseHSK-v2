@@ -651,10 +651,11 @@
       "ZH_HSK4_SC030"
     ],
     "rejectedGeneratedSceneIds": [
-      "ZH_HSK4_SC021"
+      "ZH_HSK4_SC024_PREVIOUS_LIBRARY_ATTEMPTS",
+      "ZH_HSK4_SC024_PREVIOUS_COLLAGE_ATTEMPTS"
     ],
     "rejectionReasonTr": "Bu oturumdaki ilk görsel üretim denemeleri LOCKED_V2 ile uyumsuzdu: paket kolaj/yazı/yanlış kadro üretti; SC021 için sonraki deneme sahne yerine GitHub ekranı üretti. Hiçbiri final asset olarak entegre edilmedi.",
-    "status": "IN_PROGRESS",
+    "status": "READY_FOR_INTEGRATION",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
@@ -671,6 +672,18 @@
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC021-SC030 gerçek sahne JSON/diyalog kaynakları okunarak 10/10 scene_analysis hazırlandı. Final WebP üretimi henüz tamamlanmadı. Yanlış görsel çıktıları manifest gereği reddedildi ve uygulamaya bağlanmadı; APK build tetiklenmedi."
+    "noteTr": "HSK4 SC021-SC030 için 10/10 final görsel adayları görsel QA'dan geçti ve scene ID bazında WebP'ye hazırlandı. SC024 önceki yanlış kütüphane/kolaj denemeleri reddedildi; son elektrik kesintisi kafe sahnesi kabul edildi. Binary WebP dosyaları henüz GitHub authoritative asset yollarına commit edilmedi; bu nedenle batch INTEGRATED_QA_PASS değildir. APK build tetiklenmedi.",
+    "finalCandidateSceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ]
   }
 }
