@@ -1,3 +1,13 @@
+## Unreleased — 2026-09-28
+- Telaffuz ve kelime shadowing sonuçlarında görünür **ses/telaffuz benzeşmesi yüzdesi** ve ilerleme çubuğu eklendi.
+- Kelime çalışmasına mikrofonlu shadowing akışı eklendi; hedef kelime ekranda kalırken dinle → söyle → karşılaştır yapılabilir.
+- Kelime, cümle, anlama ve seçimli diyalog çalışmalarına sahne diyaloğundaki kelime havuzu eklendi.
+- Dashboard'a **Serbest Çalışma** bölümü eklendi; HSK düzeyi, çalışma türü ve adet (özel sayı veya tümü) seçilebilir.
+- Serbest Çalışma kelime modu sahne diyaloglarından çıkarılan geniş kelime havuzunu ve shadowing'i kullanır.
+- Seviye tespit sınavı kurs diyaloglarından bağımsız özgün soru bankasına taşındı: HSK1–HSK6 için 14'er soru, toplam 84 soru; sözcük, dilbilgisi, okuma ve dinleme karışımı.
+- Seviye tespit dinleme sorularına Mandarin ses oynatma eklendi; soru metni cevap ekranında Çince cümleyi doğrudan göstermiyor.
+- Yeni öğrenme akışı hem authoritative source hem gerçek APK CI patch yoluna bağlandı; APK build bu değişikliklerle henüz tetiklenmedi.
+
 ## 1.9.0
 - Günlük offline çalışma hatırlatıcısı eklendi; saat/dakika ayarı Ayarlar ekranından yapılır.
 - Android 13+ POST_NOTIFICATIONS izni yalnızca hatırlatıcı açılırken istenir.
