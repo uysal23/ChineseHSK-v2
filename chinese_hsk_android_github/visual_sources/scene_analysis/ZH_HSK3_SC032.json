@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC032",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC032.json",
+  "titleTr": "Lele Takıma Seçilemedi",
+  "locationId": "LOC_ZH_SPORTS_FIELD_001",
+  "scenePurposeTr": "Lele futbol takımına giremez ve bir sonraki seçme için çalışmaya karar verir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "老师": "adult_coach",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "futbol sahası",
+    "spor çantası",
+    "futbol topu",
+    "seçme/antrenman ortamı"
+  ],
+  "visualDirectionTr": "Lele HSK3 teen_boy ve erkek kimliği açıkça korunur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC031",
+    "nextSceneId": "ZH_HSK3_SC033"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

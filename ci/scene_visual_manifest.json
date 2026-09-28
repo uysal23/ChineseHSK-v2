@@ -24,7 +24,7 @@
     "HOLD_CAST_MISMATCH": 57,
     "UI_REFERENCE_ONLY": 48,
     "REJECT_UNRELATED": 2,
-    "FINAL_SELECTED": 40,
+    "FINAL_SELECTED": 49,
     "FAMILY_REFERENCE": 30
   },
   "assets": [
@@ -1327,17 +1327,6 @@
       "reasonTr": "Aynı aile stilinde; sahne eşlemesi/yaş kontrolü sonrası kullanılabilir."
     },
     {
-      "sourceFile": "fener_festivali_nde_aile_gezintisi.png",
-      "width": 941,
-      "height": 1672,
-      "aspect": 0.5628,
-      "status": "FINAL_SELECTED",
-      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
-      "sceneId": "ZH_HSK3_SC034",
-      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC034.webp",
-      "reasonTr": "Ana aile görsel kimliğiyle uyumlu; sahne içeriğiyle eşleşiyor."
-    },
-    {
       "sourceFile": "fenerlerle_aydınlanan_aile_festivali.png",
       "width": 941,
       "height": 1672,
@@ -1988,6 +1977,196 @@
       "sceneId": "ZH_HSK3_SC030",
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC030.webp",
       "reasonTr": "HSK3 continuity kilidine ve sahne içeriğine uygun; kullanıcı tarafından onaylandı."
+    },
+    {
+      "sourceFile": "sıcacık_aile_çalışma_akşamı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC031",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC031.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC031.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "gün_batımında_destekleyici_takım_sohbeti.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC032",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC032.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC032.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "sıcacık_kafede_dostça_sohbet.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC033",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC033.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC033.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "fenerler_altında_sıcak_pastane_buluşması.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC034",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC034.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC034.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_kafede_pastacılık_toplantısı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC035",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC035.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC035.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_fırında_un_ve_tarif_sohbeti.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC036",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC036.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC036.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "modern_ofis_toplantısı_ve_sunum.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC037",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC037.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC037.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "gün_batımında_nehir_kenarında_dostluk.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC038",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC038.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC038.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_bir_akşam_beyin_fırtınası.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC039",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC039.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC039.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_kafede_finans_planlama_toplantısı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_EARLY_MID",
+      "sceneId": "ZH_HSK3_SC040",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK3_SC040.webp",
+      "reasonTr": "LOCKED_V2 HSK3 diyalog, kadro, yaş olgunluğu, mekân ve continuity kontrolünden geçti; kullanıcı manifesto uygunsa ilerleme onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK3_SC040.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk3",
+        "source_override"
+      ]
     }
   ]
 }

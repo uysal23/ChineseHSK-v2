@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC036",
+  "generationSceneId": "ZH_HSK3_SC036",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC036.json",
+  "dialogueSha256": "849cc775abc79558d9dc664aa646fde36b9a24f5e275037dcd57d05e28d0dfdd",
+  "titleTr": "Malzeme Eksikliği",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Büyük sipariş hazırlanırken un biter ve ekip alternatif tedarik arar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_supplier",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "un çuvalları",
+    "un örnekleri",
+    "tedarik notları",
+    "fırın/pastane çalışma alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC035",
+    "nextSceneId": "ZH_HSK3_SC037"
+  },
+  "sourceGeneratedFilename": "sıcak_fırında_un_ve_tarif_sohbeti.png",
+  "finalAssetFilename": "ZH_HSK3_SC036.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC036.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "b797a8e1e76aa5b12079b73a6568ec5b1353fd561d316bd368b50ef611250d5f"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Malzeme eksikliği ve alternatif un/tedarikçi görüşmesi görsel olarak açık. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

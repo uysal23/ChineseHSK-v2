@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC039",
+  "generationSceneId": "ZH_HSK3_SC039",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC039.json",
+  "dialogueSha256": "95843a5182cc0a3ed8bbdb3cee90936485599e6f2e0cd56831cef9323b10243a",
+  "titleTr": "Erken Emeklilik Fikri",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang bir gün işi bırakıp Liu Mei ile kafede çalışmak istediğini ilk kez açıkça söyler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "李晨": "adult_close_friend",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "kafe eskizleri",
+    "finans/gelecek planı",
+    "tablet",
+    "ev oturma odası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC038",
+    "nextSceneId": "ZH_HSK3_SC040"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_akşam_beyin_fırtınası.png",
+  "finalAssetFilename": "ZH_HSK3_SC039.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC039.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "53a07b47b48cdff170765ab990506ae705180d21a4b7b336dedba0f85eb470c5"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Erken emeklilik ve kafede birlikte çalışma fikri evde uzun vadeli plan olarak görünür. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

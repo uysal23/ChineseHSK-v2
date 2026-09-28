@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC038",
+  "generationSceneId": "ZH_HSK3_SC038",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC038.json",
+  "dialogueSha256": "59acb1bfcf33fc07b247ca1b9d6cda07927669ff5651f0853c10f908121be7bc",
+  "titleTr": "Li Chen ile Gece Yürüyüşü",
+  "locationId": "LOC_ZH_WALKWAY_001",
+  "scenePurposeTr": "Zhang ve Li Chen gelecek hayallerini açıkça konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "李晨": "adult_close_friend",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "nehir kenarı yürüyüş yolu",
+    "şehir ışıkları",
+    "akşam/gün batımı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC037",
+    "nextSceneId": "ZH_HSK3_SC039"
+  },
+  "sourceGeneratedFilename": "gün_batımında_nehir_kenarında_dostluk.png",
+  "finalAssetFilename": "ZH_HSK3_SC038.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC038.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "a773274bbdf69d8a4efb73b7fb7e36f196124b12011868ed5d7eb99399d33fcd"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Zhang, Li Chen ve Liu Mei gelecek hayallerini yürüyüşte konuşur. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

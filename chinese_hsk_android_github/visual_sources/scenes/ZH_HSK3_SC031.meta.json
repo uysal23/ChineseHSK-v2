@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC031",
+  "generationSceneId": "ZH_HSK3_SC031",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC031.json",
+  "dialogueSha256": "24b8a0f048f63a8f4e217ba82badf2d2a44cc9cf5442e35d206331e0a8be9f0a",
+  "titleTr": "Yutong’un Sınav Stresi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong sınavlara yetişemediğini düşünür; aile birlikte çalışma planı oluşturur.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "老师": "adult_teacher",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "çalışma planı",
+    "ders kitapları",
+    "not defterleri",
+    "laptop"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC030",
+    "nextSceneId": "ZH_HSK3_SC032"
+  },
+  "sourceGeneratedFilename": "sıcacık_aile_çalışma_akşamı.png",
+  "finalAssetFilename": "ZH_HSK3_SC031.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC031.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "e2924556214ef042b762122bd8dcfd261ed5f673d8a382f0358d489ad14b7287"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Yutong HSK3 young_adult; sınav stresi ve çalışma planı ev ortamında görünür. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

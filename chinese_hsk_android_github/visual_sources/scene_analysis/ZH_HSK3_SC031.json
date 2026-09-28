@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC031",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC031.json",
+  "titleTr": "Yutong’un Sınav Stresi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong sınavlara yetişemediğini düşünür; aile birlikte çalışma planı oluşturur.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "老师",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "老师": "adult_teacher",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "çalışma planı",
+    "ders kitapları",
+    "not defterleri",
+    "laptop"
+  ],
+  "visualDirectionTr": "Yutong HSK3 young_adult; sınav stresi ve çalışma planı ev ortamında görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC030",
+    "nextSceneId": "ZH_HSK3_SC032"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

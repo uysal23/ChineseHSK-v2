@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC038",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC038.json",
+  "titleTr": "Li Chen ile Gece Yürüyüşü",
+  "locationId": "LOC_ZH_WALKWAY_001",
+  "scenePurposeTr": "Zhang ve Li Chen gelecek hayallerini açıkça konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "李晨": "adult_close_friend",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "nehir kenarı yürüyüş yolu",
+    "şehir ışıkları",
+    "akşam/gün batımı"
+  ],
+  "visualDirectionTr": "Zhang, Li Chen ve Liu Mei gelecek hayallerini yürüyüşte konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC037",
+    "nextSceneId": "ZH_HSK3_SC039"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

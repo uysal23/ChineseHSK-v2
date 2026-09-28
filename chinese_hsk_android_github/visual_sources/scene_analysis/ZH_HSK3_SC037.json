@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC037",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC037.json",
+  "titleTr": "Zhang’ın Terfi İhtimali",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Zhang’a daha fazla sorumluluk getirecek bir terfi ihtimali doğar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "经理": "mature_manager",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "ofis toplantı masası",
+    "performans/sorumluluk grafikleri",
+    "laptop",
+    "video görüşme"
+  ],
+  "visualDirectionTr": "Terfi/sorumluluk görüşmesi iş ortamında; Liu Mei uzaktan/video bağlantısında görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC036",
+    "nextSceneId": "ZH_HSK3_SC038"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

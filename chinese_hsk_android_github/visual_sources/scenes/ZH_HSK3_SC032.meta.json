@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC032",
+  "generationSceneId": "ZH_HSK3_SC032",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC032.json",
+  "dialogueSha256": "b977c6827c236c281a8a1db9d1cc499ae6434c4ed59ff47858266fad5ba5752e",
+  "titleTr": "Lele Takıma Seçilemedi",
+  "locationId": "LOC_ZH_SPORTS_FIELD_001",
+  "scenePurposeTr": "Lele futbol takımına giremez ve bir sonraki seçme için çalışmaya karar verir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "老师": "adult_coach",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "futbol sahası",
+    "spor çantası",
+    "futbol topu",
+    "seçme/antrenman ortamı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC031",
+    "nextSceneId": "ZH_HSK3_SC033"
+  },
+  "sourceGeneratedFilename": "gün_batımında_destekleyici_takım_sohbeti.png",
+  "finalAssetFilename": "ZH_HSK3_SC032.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC032.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "629ae9090637afd9c15a71451a2485a6b1c71fd2ae1e67277de5fc7cd3a99596"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Lele HSK3 teen_boy ve erkek kimliği açıkça korunur. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

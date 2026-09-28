@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK3_SC040",
+  "generationSceneId": "ZH_HSK3_SC040",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC040.json",
+  "dialogueSha256": "df9c7aaf782afcb8e0580e6e0aeb7184fed6289011557825d127b4488326ab53",
+  "titleTr": "Liu Mei’nin Kafe Defteri",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Liu Mei ilk kez aylık gelir ve giderleri ayrıntılı olarak düzenler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "hesap defteri",
+    "hesap makinesi",
+    "gelir-gider tabloları",
+    "tablet",
+    "kahve/pasta"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC039",
+    "nextSceneId": "ZH_HSK3_SC041"
+  },
+  "sourceGeneratedFilename": "sıcak_kafede_finans_planlama_toplantısı.png",
+  "finalAssetFilename": "ZH_HSK3_SC040.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC040.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "f610d7ed38e63a351bb7da22982fd4d8d88239e0c0b99f17fd970e673ef67561"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk3MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Kafe gelir-gider hesabı ve aylık bütçe değerlendirmesi görünür. Kullanıcı, manifesto uygunsa ilerleme onayı verdi; HSK3 SC031-SC040 continuity seti final olarak entegre edildi."
+}

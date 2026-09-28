@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC034",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC034.json",
+  "titleTr": "Sokak Festivali",
+  "locationId": "LOC_ZH_FESTIVAL_SQUARE_001",
+  "scenePurposeTr": "Kafe yerel festivalde dışarıda küçük bir stant açar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "顾客": "adult_customer",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "festival standı",
+    "pastalar",
+    "kahve bardakları",
+    "fenerler"
+  ],
+  "visualDirectionTr": "Yerel festival standı ve aile kafesi kimliği korunur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC033",
+    "nextSceneId": "ZH_HSK3_SC035"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}

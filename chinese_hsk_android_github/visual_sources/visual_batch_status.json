@@ -3,40 +3,41 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK3_SC021_SC030",
+    "batchId": "HSK3_SC031_SC040",
     "level": "HSK3",
-    "startScene": "HSK3_SC021",
-    "endScene": "HSK3_SC030",
+    "startScene": "HSK3_SC031",
+    "endScene": "HSK3_SC040",
     "sceneIds": [
-      "ZH_HSK3_SC021",
-      "ZH_HSK3_SC022",
-      "ZH_HSK3_SC023",
-      "ZH_HSK3_SC024",
-      "ZH_HSK3_SC025",
-      "ZH_HSK3_SC026",
-      "ZH_HSK3_SC027",
-      "ZH_HSK3_SC028",
-      "ZH_HSK3_SC029",
-      "ZH_HSK3_SC030"
+      "ZH_HSK3_SC031",
+      "ZH_HSK3_SC032",
+      "ZH_HSK3_SC033",
+      "ZH_HSK3_SC034",
+      "ZH_HSK3_SC035",
+      "ZH_HSK3_SC036",
+      "ZH_HSK3_SC037",
+      "ZH_HSK3_SC038",
+      "ZH_HSK3_SC039",
+      "ZH_HSK3_SC040"
     ],
     "completedSceneIds": [
-      "ZH_HSK3_SC021",
-      "ZH_HSK3_SC022",
-      "ZH_HSK3_SC023",
-      "ZH_HSK3_SC024",
-      "ZH_HSK3_SC025",
-      "ZH_HSK3_SC026",
-      "ZH_HSK3_SC027",
-      "ZH_HSK3_SC028",
-      "ZH_HSK3_SC029",
-      "ZH_HSK3_SC030"
+      "ZH_HSK3_SC031",
+      "ZH_HSK3_SC032",
+      "ZH_HSK3_SC033",
+      "ZH_HSK3_SC034",
+      "ZH_HSK3_SC035",
+      "ZH_HSK3_SC036",
+      "ZH_HSK3_SC037",
+      "ZH_HSK3_SC038",
+      "ZH_HSK3_SC039",
+      "ZH_HSK3_SC040"
     ],
     "pendingSceneIds": [],
-    "status": "READY_FOR_BUILD",
+    "status": "INTEGRATED_QA_PASS",
     "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
-    "buildApproved": true,
-    "buildApprovalNoteTr": "Kullanıcı 2026-09-28 tarihinde mevcut repo durumunun şimdiye kadarki kısmıyla build edilmesini açıkça onayladı."
+    "buildApproved": false,
+    "noteTr": "HSK3 SC031-SC040 10/10 final WebP; app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata/scene analysis olarak entegre edildi. SC031 Yutong young_adult; SC032 Lele teen_boy erkek kimliği; SC037 Liu Mei remote/video continuity. APK build başlatılmadı; yeni açık kullanıcı onayı gerekir."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -72,7 +73,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK3_SC021_SC030_BUILD_APPROVED_2026-09-28",
+  "latestVisualRevision": "HSK3_SC031_SC040_INTEGRATED_QA_PASS_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -207,11 +208,11 @@
     "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 son görsellerle ayrı scene ID olarak yeniden entegre edildi; LOCKED_V2 QA PASS. APK build henüz tetiklenmedi."
   },
   "lastSuccessfulBuild": {
-    "workflowRunId": 36233181902,
-    "commitSha": "73fad0cea1ee98bc8b8b9d600765120261914a25",
+    "workflowRunId": 36358802501,
+    "commitSha": "c25a4e6bd130d11729c2433cff6bf6af0c72d3a4",
     "artifactName": "ChineseHSK-v3.4.0-personal-apk",
-    "builtAt": "2026-09-26",
-    "apkSha256": "ee21bb1268a9dc71e1c6aa43f9de0e13d9da9715b11c7a1aea53f41cab11a4e2"
+    "builtAt": "2026-09-28",
+    "apkSha256": "76464eafb0f5d7501a833e04d9a774f0cb54ee462d02993f6c8007abb00aa285"
   },
   "nextHsk2BatchProgress": {
     "batchId": "HSK2_SC008_SC017",
@@ -468,5 +469,42 @@
     "buildApprovalRequired": true,
     "buildApproved": true,
     "noteTr": "HSK3 SC021-SC030 10/10 final WebP app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata olarak entegre edildi. Önceki HSK3 sahne continuity çizgisi korundu. SC025 Lele teen_boy. SC029-SC030 Liu Mei diyalog konuşmacısı olarak uzaktan/video bağlantısında görünür. APK build başlatılmadı. Kullanıcı build için açık onay verdi."
+  },
+  "hsk3Sc031Sc040BatchProgress": {
+    "batchId": "HSK3_SC031_SC040",
+    "level": "HSK3",
+    "startScene": "HSK3_SC031",
+    "endScene": "HSK3_SC040",
+    "sceneIds": [
+      "ZH_HSK3_SC031",
+      "ZH_HSK3_SC032",
+      "ZH_HSK3_SC033",
+      "ZH_HSK3_SC034",
+      "ZH_HSK3_SC035",
+      "ZH_HSK3_SC036",
+      "ZH_HSK3_SC037",
+      "ZH_HSK3_SC038",
+      "ZH_HSK3_SC039",
+      "ZH_HSK3_SC040"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK3_SC031",
+      "ZH_HSK3_SC032",
+      "ZH_HSK3_SC033",
+      "ZH_HSK3_SC034",
+      "ZH_HSK3_SC035",
+      "ZH_HSK3_SC036",
+      "ZH_HSK3_SC037",
+      "ZH_HSK3_SC038",
+      "ZH_HSK3_SC039",
+      "ZH_HSK3_SC040"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK3 SC031-SC040 10/10 final WebP; app asset + ci/runtime_visuals mirror + LOCKED_V2 metadata/scene analysis olarak entegre edildi. SC031 Yutong young_adult; SC032 Lele teen_boy erkek kimliği; SC037 Liu Mei remote/video continuity. APK build başlatılmadı; yeni açık kullanıcı onayı gerekir."
   }
 }

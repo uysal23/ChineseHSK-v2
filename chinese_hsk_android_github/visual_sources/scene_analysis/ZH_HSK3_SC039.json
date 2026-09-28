@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK3_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK3_SC039",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK3/ZH_HSK3_SC039.json",
+  "titleTr": "Erken Emeklilik Fikri",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang bir gün işi bırakıp Liu Mei ile kafede çalışmak istediğini ilk kez açıkça söyler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "李晨": "adult_close_friend",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "kafe eskizleri",
+    "finans/gelecek planı",
+    "tablet",
+    "ev oturma odası"
+  ],
+  "visualDirectionTr": "Erken emeklilik ve kafede birlikte çalışma fikri evde uzun vadeli plan olarak görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC038",
+    "nextSceneId": "ZH_HSK3_SC040"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk3MaturityLockRequired": true
+  }
+}
