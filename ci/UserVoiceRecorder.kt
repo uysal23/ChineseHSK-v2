@@ -226,7 +226,6 @@ class UserVoiceRecorder(context: Context) {
     }
 
     fun openRecognitionSource(): ParcelFileDescriptor? {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) return null
         val file = pcmFile ?: return null
         if (!file.exists() || file.length() <= 0L) return null
         return try {
