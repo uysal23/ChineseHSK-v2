@@ -53,6 +53,11 @@ jobs:
             rm -rf "$CHUNK_ROOT"
           fi
 
+      - name: Refresh scene dialogue metadata hashes
+        run: |
+          python chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py \
+            --repo-root "$GITHUB_WORKSPACE"
+
       - name: Validate locked scene visual policy
         run: |
           python chinese_hsk_android_github/scripts/validate_scene_visual_overrides.py \
