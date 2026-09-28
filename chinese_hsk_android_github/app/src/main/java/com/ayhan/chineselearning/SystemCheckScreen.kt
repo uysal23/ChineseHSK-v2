@@ -102,12 +102,12 @@ fun SystemCheckScreen(
             item {
                 StatusCard(
                     title = "Offline Telaffuz Tanıma",
-                    value = if (recognitionAvailable) "Hazır" else "Bu cihazda hazır değil",
+                    value = if (recognitionAvailable) "Hazır · ${recognizer.engineLabel()}" else "Gömülü model bulunamadı",
                     ok = recognitionAvailable,
                     detail = if (recognitionAvailable)
-                        "Mandarin konuşma tanıma cihaz üzerinde kullanılabilir."
+                        "Mandarin tanıma uygulamaya gömülü Vosk modeliyle tamamen çevrimdışı çalışır."
                     else
-                        "Dinleme ve tekrar çalışır; otomatik konuşma karşılaştırması cihaz desteğine bağlıdır."
+                        "Bu APK offline Mandarin modelini içermiyor; APK yeniden oluşturulmalıdır."
                 )
             }
             item {
