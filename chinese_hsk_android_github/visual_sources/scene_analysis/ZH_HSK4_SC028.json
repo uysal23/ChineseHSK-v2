@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC028",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC028.json",
+  "titleTr": "Otelde Komşu Oda Gürültüsü",
+  "locationId": "LOC_ZH_HOTEL_001",
+  "scenePurposeTr": "Gece gürültüsü nedeniyle resepsiyona nazik şikâyet yapılır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "酒店工作人员",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "酒店工作人员",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "酒店工作人员": "adult_hotel_staff",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "otel resepsiyon bankosu",
+    "oda anahtar kartı",
+    "küçük valiz",
+    "rahatsız ama sakin beden dili"
+  ],
+  "visualDirectionTr": "Otel resepsiyonunda nazik şikâyet anı; Zhang Wei ve Liu Mei yetişkin görevliyle konuşurken teen-boy Lele yanında. Gürültü kaynağı doğrudan gösterilmek zorunda değil; çözüm odaklı sakin atmosfer.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC027",
+    "nextSceneId": "ZH_HSK4_SC029"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
