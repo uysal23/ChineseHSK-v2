@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC034",
+  "status": "ANALYZED_AND_PARTIALLY_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC034.json",
+  "titleTr": "Kafenin İkinci Şubesi Fikri",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Kafenin başarısı ikinci şube fikrini gündeme getirir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "李晨",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "李晨",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "李晨": "adult",
+    "员工": "adult"
+  },
+  "criticalObjects": [
+    "ikinci şube planı/yerleşim eskizleri",
+    "tablet",
+    "not defteri",
+    "kahve fincanları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC033",
+    "nextSceneId": "ZH_HSK4_SC035"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

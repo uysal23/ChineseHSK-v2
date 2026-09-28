@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC031",
+  "status": "ANALYZED_AND_PARTIALLY_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC031.json",
+  "titleTr": "Eve Dönüş",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Aile tatildeki farklı anılarını birbirine anlatır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "seyahat fotoğrafları",
+    "seyahat hatıraları",
+    "valiz/sırt çantası",
+    "aile oturma alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC030",
+    "nextSceneId": "ZH_HSK4_SC032"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

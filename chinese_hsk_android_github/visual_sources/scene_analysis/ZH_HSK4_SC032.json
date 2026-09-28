@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC032",
+  "status": "ANALYZED_AND_PARTIALLY_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC032.json",
+  "titleTr": "Yutong Sınav Sonucunu Alıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Sonuç beklenenden farklı gelir ve aile yeni seçenekleri konuşur.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "老师": "adult"
+  },
+  "criticalObjects": [
+    "sınav sonucu belgesi (okunabilir metin yok)",
+    "laptop üzerinde öğretmen görüntülü görüşmesi",
+    "not defterleri",
+    "aile çalışma masası"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC031",
+    "nextSceneId": "ZH_HSK4_SC033"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

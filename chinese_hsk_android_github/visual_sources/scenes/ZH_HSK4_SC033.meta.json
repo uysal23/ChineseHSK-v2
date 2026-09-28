@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC033",
+  "generationSceneId": "ZH_HSK4_SC033",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC033.json",
+  "titleTr": "Üniversite Seçenekleri",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Farklı üniversitelerin avantajları ayrıntılı biçimde karşılaştırılır.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "老师": "adult"
+  },
+  "criticalObjects": [
+    "üniversite broşürleri (okunabilir metin yok)",
+    "kampüs fotoğrafları",
+    "laptop üzerinde öğretmen görüntülü görüşmesi",
+    "not defteri/harita"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC032",
+    "nextSceneId": "ZH_HSK4_SC034"
+  },
+  "sourceGeneratedFilename": "a_warm_cozy_indoor_scene_realistic_3d_cgi_animat.png",
+  "finalAssetFilename": "ZH_HSK4_SC033.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC033.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "2feb52161ada5f57b69f1f8f90806b732637c59433469ddd649a8c3e2d41f108",
+    "bytes": 211174
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: Gerçek HSK4 sahne JSON/diyalog kaynağına göre kadro, mekan, kritik obje, 9:16, metinsizlik, tek-sahne ve HSK4 maturity kontrolleri PASS. SC031-SC036 kısmi batch entegrasyonu."
+}
