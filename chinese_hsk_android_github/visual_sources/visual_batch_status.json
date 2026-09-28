@@ -19,10 +19,8 @@
       "ZH_HSK4_SC019",
       "ZH_HSK4_SC020"
     ],
-    "completedSceneIds": [],
-    "pendingSceneIds": [
+    "completedSceneIds": [
       "ZH_HSK4_SC011",
-      "ZH_HSK4_SC012",
       "ZH_HSK4_SC013",
       "ZH_HSK4_SC014",
       "ZH_HSK4_SC015",
@@ -32,12 +30,19 @@
       "ZH_HSK4_SC019",
       "ZH_HSK4_SC020"
     ],
-    "status": "ANALYZED_READY_FOR_GENERATION",
+    "pendingSceneIds": [
+      "ZH_HSK4_SC012"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK4_SC012"
+    ],
+    "rejectionReasonTr": "SC012 görselinde gerekli mevcut çalışan yerine canonical büyükanne görünümü kullanılmış ve dört konuşmacı kadrosu doğru temsil edilmemiştir; bu nedenle uygulamaya bağlanmadı.",
+    "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC011-SC020 diyalog/kadro/mekân/yaş analizi tamamlandı. SC015-SC016 Liu Mei remote/video; SC019-SC020 Lele teen_boy; SC017 Yutong young_adult."
+    "noteTr": "SC011 ve SC013-SC020 9/10 final WebP app asset + runtime mirror + LOCKED_V2 metadata olarak entegre edildi. SC012 yeniden üretim bekliyor. Build başlatılmadı."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -73,7 +78,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC011_SC020_ANALYZED_READY_FOR_GENERATION_2026-09-28",
+  "latestVisualRevision": "HSK4_SC011_SC020_9_OF_10_INTEGRATED_SC012_PENDING_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -598,10 +603,8 @@
       "ZH_HSK4_SC019",
       "ZH_HSK4_SC020"
     ],
-    "completedSceneIds": [],
-    "pendingSceneIds": [
+    "completedSceneIds": [
       "ZH_HSK4_SC011",
-      "ZH_HSK4_SC012",
       "ZH_HSK4_SC013",
       "ZH_HSK4_SC014",
       "ZH_HSK4_SC015",
@@ -611,11 +614,18 @@
       "ZH_HSK4_SC019",
       "ZH_HSK4_SC020"
     ],
-    "status": "ANALYZED_READY_FOR_GENERATION",
+    "pendingSceneIds": [
+      "ZH_HSK4_SC012"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK4_SC012"
+    ],
+    "rejectionReasonTr": "SC012 görselinde gerekli mevcut çalışan yerine canonical büyükanne görünümü kullanılmış ve dört konuşmacı kadrosu doğru temsil edilmemiştir; bu nedenle uygulamaya bağlanmadı.",
+    "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC011-SC020 diyalog/kadro/mekân/yaş analizi tamamlandı. SC015-SC016 Liu Mei remote/video; SC019-SC020 Lele teen_boy; SC017 Yutong young_adult."
+    "noteTr": "SC011 ve SC013-SC020 9/10 final WebP app asset + runtime mirror + LOCKED_V2 metadata olarak entegre edildi. SC012 yeniden üretim bekliyor. Build başlatılmadı."
   }
 }

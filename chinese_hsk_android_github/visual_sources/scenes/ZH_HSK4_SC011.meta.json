@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC011",
+  "generationSceneId": "ZH_HSK4_SC011",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC011.json",
+  "dialogueSha256": "272a1813bb338f019eb82e3c347ef34835db4990dfb69a09e76217982d13b673",
+  "titleTr": "Kafe Çok Yoğun",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Kafe aşırı yoğunlaşır; ekip yeni çalışan ihtiyacını değerlendirir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "员工": "adult_employee",
+    "顾客": "adult_customer"
+  },
+  "criticalObjects": [
+    "yoğun servis tezgâhı",
+    "çok sayıda sipariş",
+    "kahve fincanları",
+    "bekleyen yetişkin müşteri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC010",
+    "nextSceneId": "ZH_HSK4_SC012"
+  },
+  "sourceGeneratedFilename": "kafede_yoğun_bir_planlama_anı.png",
+  "finalAssetFilename": "ZH_HSK4_SC011.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC011.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "0185b3f438242111c6d9891d7161705d8f326b0f0cca201eb7d219948cddd528"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC011-SC020 paket kontrolünde sahne/kadro/mekân/HSK4 maturity continuity geçti. SC012 ayrı olarak reddedildi ve bu committe entegre edilmedi."
+}

@@ -24,7 +24,7 @@
     "HOLD_CAST_MISMATCH": 57,
     "UI_REFERENCE_ONLY": 48,
     "REJECT_UNRELATED": 2,
-    "FINAL_SELECTED": 63,
+    "FINAL_SELECTED": 72,
     "FAMILY_REFERENCE": 30
   },
   "assets": [
@@ -2483,6 +2483,186 @@
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC010.webp",
       "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân kontrolü ve HSK4 yaş olgunluk continuity kilidi geçti; kullanıcı onayıyla final seçildi.",
       "asset": "chinese_course/media/scenes/ZH_HSK4_SC010.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "kafede_yoğun_bir_planlama_anı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC011",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC011.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC011.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "kafede_malzeme_kontrolü_ve_özverili_hizmet.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC013",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC013.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC013.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "kafede_yorumları_değerlendirmek.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC014",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC014.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC014.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "terfi_kutlaması_ve_başarı_anı.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC015",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC015.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC015.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "akşam_toplantısında_arabuluculuk.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC016",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC016.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC016.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "sıcacık_bir_aşk_sohbeti.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC017",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC017.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC017.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_bir_aile_sohbeti.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC018",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC018.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC018.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "altın_saatte_fotoğraf_ailesi.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC019",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC019.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC019.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "kasaba_meydanında_fotoğraf_yarışması.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC020",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC020.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC020.webp",
       "sourceKind": "source_override_locked_v2",
       "tags": [
         "scene_art",

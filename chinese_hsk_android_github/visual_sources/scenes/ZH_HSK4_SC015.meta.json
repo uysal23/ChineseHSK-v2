@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC015",
+  "generationSceneId": "ZH_HSK4_SC015",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC015.json",
+  "dialogueSha256": "9b86199e1dbdf5f72e1989136fed20efa2b4f5797f01a9621d37d9103576832c",
+  "titleTr": "Zhang Ekip Lideri Oluyor",
+  "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+  "scenePurposeTr": "Zhang ekip liderliği sorumluluklarını yönetici ve iş arkadaşıyla konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "经理": "mature_manager",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "toplantı masası",
+    "sunum ekranı grafikler",
+    "laptop",
+    "video görüşme"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC014",
+    "nextSceneId": "ZH_HSK4_SC016"
+  },
+  "sourceGeneratedFilename": "terfi_kutlaması_ve_başarı_anı.png",
+  "finalAssetFilename": "ZH_HSK4_SC015.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC015.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "fbf9360967566a292a45e343d8a5e91014a38be2dac0072407d7ab39bc283f5d"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC011-SC020 paket kontrolünde sahne/kadro/mekân/HSK4 maturity continuity geçti. SC012 ayrı olarak reddedildi ve bu committe entegre edilmedi."
+}
