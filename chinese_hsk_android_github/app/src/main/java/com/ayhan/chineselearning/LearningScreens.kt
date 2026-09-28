@@ -710,7 +710,9 @@ fun FreeStudyScreen(
 
         when (type) {
             FreeStudyType.VOCABULARY -> {
-                val pool = filteredScenes.flatMap { it.learning.vocabularyCards }.distinctBy { it.id }
+                val pool = filteredScenes
+                    .flatMap { scene -> repo.loadDialogueVocabulary(scene) }
+                    .distinctBy { it.zh }
                 val picked = pick(pool)
                 if (picked.isEmpty()) { status = "Seçilen düzeyde kelime bulunamadı."; return }
                 sessionCards = picked
