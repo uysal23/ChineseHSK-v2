@@ -61,28 +61,6 @@ fun WelcomeScreen(onStartZero: () -> Unit, onPlacement: () -> Unit) {
     }
 }
 
-private data class PlacementQuestion(
-    val level: Int,
-    val prompt: String,
-    val options: List<String>,
-    val correct: Int
-)
-
-private val placementQuestions = listOf(
-    PlacementQuestion(1, "你好 ne demektir?", listOf("Merhaba", "Teşekkürler", "Yarın"), 0),
-    PlacementQuestion(1, "我叫李明。 cümlesinin anlamı?", listOf("Ben Li Ming'im.", "Li Ming nerede?", "Li Ming öğretmen."), 0),
-    PlacementQuestion(2, "我已经吃饭了。", listOf("Henüz yemek yemedim.", "Yemeğimi zaten yedim.", "Yemek yapmak istiyorum."), 1),
-    PlacementQuestion(2, "今天比昨天冷。", listOf("Bugün dün kadar sıcak.", "Bugün dünden daha soğuk.", "Yarın daha soğuk."), 1),
-    PlacementQuestion(3, "因为下雨，所以我们没去公园。", listOf("Yağmur yağdığı için parka gitmedik.", "Parka gittikten sonra yağmur yağdı.", "Yağmur yağmazsa parka gideriz."), 0),
-    PlacementQuestion(3, "虽然很忙，但是他还是来帮忙了。", listOf("Meşgul olmadığı için geldi.", "Çok meşguldü, yine de yardıma geldi.", "Yardım etmek istemedi."), 1),
-    PlacementQuestion(4, "既然决定了，就别再犹豫。", listOf("Karar verdiğimize göre artık tereddüt etme.", "Karar vermeden önce bekle.", "Karar yanlış olduğu için vazgeç."), 0),
-    PlacementQuestion(4, "与其抱怨，不如想办法解决。", listOf("Şikâyet etmek en iyi çözüm.", "Şikâyet etmek yerine çözüm düşünmek daha iyi.", "Çözümü başkasına bırak."), 1),
-    PlacementQuestion(5, "这个结论缺乏足够的证据支持。", listOf("Bu sonuç yeterli kanıtla desteklenmiyor.", "Bu sonuç kesinlikle doğru.", "Kanıt artık gerekli değil."), 0),
-    PlacementQuestion(5, "从长远来看，这个选择更符合我们的目标。", listOf("Kısa vadede bu daha ucuz.", "Uzun vadede bu seçim hedeflerimize daha uygun.", "Bu seçimin hedeflerle ilgisi yok."), 1),
-    PlacementQuestion(6, "真正留下来的，往往不是东西，而是人与人之间的联系。", listOf("Asıl kalan çoğu zaman eşyalar değil, insanlar arasındaki bağlardır.", "Eşyalar insanlardan daha değerlidir.", "Geçmişi tamamen unutmak gerekir."), 0),
-    PlacementQuestion(6, "回过头看，那些看似偶然的选择，后来都成了人生的一部分。", listOf("Geçmişteki tesadüfi görünen seçimler zamanla hayatın parçası oldu.", "Bütün seçimler önemsizdi.", "Gelecek geçmişten tamamen bağımsızdır."), 0)
-)
-
 @Composable
 fun PlacementTestScreen(
     repo: ContentRepository,
