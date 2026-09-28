@@ -106,7 +106,11 @@ fun FlashCardScreen(
     dialogueWords: List<VocabularyCard> = emptyList(),
     onBack: () -> Unit
 ) {
-    var index by remember(cards.size) { mutableIntStateOf(0) }
+    val studyCards = remember(cards, dialogueWords) {
+        (if (dialogueWords.isNotEmpty()) dialogueWords else cards).distinctBy { it.zh.ifBlank { it.id } }
+    }
+    var index by remember(studyCards.size) { mutableIntStateOf(0) }
+    var wordLimit by remember(studyCards.size) { mutableIntStateOf(minOf(10, studyCards.size.coerceAtLeast(1))) }
     var flipped by remember(index) { mutableStateOf(false) }
     var favoriteVersion by remember { mutableIntStateOf(0) }
     var recognized by remember(index) { mutableStateOf("") }
@@ -118,8 +122,19 @@ fun FlashCardScreen(
     DisposableEffect(Unit) { onDispose { tts.shutdown(); recognizer.destroy() } }
     LaunchedEffect(Unit) { progress.recordStudyActivity() }
 
+    val visibleCards = remember(studyCards, wordLimit) {
+        if (wordLimit >= studyCards.size) studyCards else studyCards.take(wordLimit)
+    }
+
+    LaunchedEffect(wordLimit, visibleCards.size) {
+        if (visibleCards.isNotEmpty() && index > visibleCards.lastIndex) {
+            recognizer.stop()
+            index = 0
+        }
+    }
+
     fun startShadowing() {
-        val card = cards.getOrNull(index) ?: return
+        val card = visibleCards.getOrNull(index) ?: return
         recognized = ""
         shadowScore = null
         shadowStatus = "Dinliyorum… kelimeyi söyle."
@@ -138,46 +153,72 @@ fun FlashCardScreen(
         if (granted) startShadowing() else shadowStatus = "Mikrofon izni verilmedi."
     }
 
-    StudyShell(title, "Kartı çevir · dinle · shadowing yap · favorile", onBack) {
-        if (cards.isEmpty()) {
+    StudyShell(title, "Tek kelime · dinle · söyle · ilerle", onBack) {
+        if (visibleCards.isEmpty()) {
             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Text("Bu çalışma için kelime bulunamadı.", color = Color.White)
             }
             return@StudyShell
         }
-        if (index >= cards.size) index = cards.lastIndex
-        val card = cards[index]
+
+        if (index >= visibleCards.size) index = 0
+        val card = visibleCards[index]
         val isFavorite = remember(card.id, favoriteVersion) { progress.isFavorite(card.id) }
         val isDifficult = remember(card.id, favoriteVersion) { progress.isWordDifficult(card.id) }
-        val visibleDialogueWords = if (dialogueWords.isNotEmpty()) dialogueWords else cards
 
         Column(
             Modifier.fillMaxSize().padding(horizontal = 18.dp, vertical = 8.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("${index + 1} / ${cards.size}", color = Color.White.copy(alpha = 0.8f))
-            Spacer(Modifier.height(7.dp))
-            DialogueVocabularyStrip(visibleDialogueWords)
-            Spacer(Modifier.height(9.dp))
+            Text("${index + 1} / ${visibleCards.size}", color = Color.White.copy(alpha = 0.82f), fontWeight = FontWeight.Bold)
+            Spacer(Modifier.height(8.dp))
+
             Card(
                 modifier = Modifier.fillMaxWidth().weight(1f).clickable { flipped = !flipped },
                 shape = RoundedCornerShape(28.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White)
             ) {
-                Box(Modifier.fillMaxSize().padding(20.dp), contentAlignment = Alignment.Center) {
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(card.zh, fontSize = 44.sp, fontWeight = FontWeight.Bold, color = StudyTop, textAlign = TextAlign.Center)
+                Box(Modifier.fillMaxSize().padding(18.dp)) {
+                    Row(
+                        modifier = Modifier.align(Alignment.TopEnd),
+                        horizontalArrangement = Arrangement.spacedBy(2.dp)
+                    ) {
+                        TextButton(onClick = { progress.toggleFavorite(card.id); favoriteVersion++ }) {
+                            Text(
+                                if (isFavorite) "★ Favori" else "☆ Favori",
+                                color = if (isFavorite) StudyTop else Color.Gray,
+                                fontSize = 12.sp
+                            )
+                        }
+                        TextButton(onClick = { progress.markWordDifficult(card.id, !isDifficult); favoriteVersion++ }) {
+                            Text(
+                                if (isDifficult) "⚑ Zor" else "⚐ Zor",
+                                color = if (isDifficult) Danger else Color.Gray,
+                                fontSize = 12.sp
+                            )
+                        }
+                    }
+
+                    Column(
+                        modifier = Modifier.align(Alignment.Center),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Text(card.zh, fontSize = 46.sp, fontWeight = FontWeight.Bold, color = StudyTop, textAlign = TextAlign.Center)
                         if (card.pinyin.isNotBlank()) {
-                            Text(card.pinyin, fontSize = 21.sp, color = Color(0xFF62546B), textAlign = TextAlign.Center, modifier = Modifier.padding(top = 8.dp))
+                            Text(card.pinyin, fontSize = 20.sp, color = Color(0xFF62546B), textAlign = TextAlign.Center, modifier = Modifier.padding(top = 7.dp))
                         }
                         if (flipped) {
                             Spacer(Modifier.height(7.dp))
-                            Text(card.tr, fontSize = 20.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+                            Text(card.tr, fontSize = 19.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
                             if (card.exampleZh.isNotBlank()) {
-                                HorizontalDivider(Modifier.padding(vertical = 12.dp))
-                                Text(card.exampleZh, fontSize = 19.sp, textAlign = TextAlign.Center)
-                                if (card.examplePinyin.isNotBlank()) Text(card.examplePinyin, color = Color.Gray, fontSize = 13.sp, textAlign = TextAlign.Center)
-                                if (card.exampleTr.isNotBlank()) Text(card.exampleTr, color = Color.DarkGray, fontSize = 13.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 4.dp))
+                                HorizontalDivider(Modifier.padding(vertical = 10.dp))
+                                Text(card.exampleZh, fontSize = 17.sp, textAlign = TextAlign.Center)
+                                if (card.examplePinyin.isNotBlank()) {
+                                    Text(card.examplePinyin, color = Color.Gray, fontSize = 12.sp, textAlign = TextAlign.Center)
+                                }
+                                if (card.exampleTr.isNotBlank()) {
+                                    Text(card.exampleTr, color = Color.DarkGray, fontSize = 12.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 3.dp))
+                                }
                             }
                         } else {
                             Text("Anlam ve örnek için karta dokun", color = Color.Gray, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp))
@@ -188,9 +229,9 @@ fun FlashCardScreen(
                         }
                         shadowScore?.let { value ->
                             Text(
-                                "Ses/telaffuz benzeşmesi: %$value",
+                                "Telaffuz benzeşmesi: %$value",
                                 color = if (value >= 70) Success else Danger,
-                                fontSize = 22.sp,
+                                fontSize = 20.sp,
                                 fontWeight = FontWeight.Black,
                                 modifier = Modifier.padding(top = 7.dp),
                                 textAlign = TextAlign.Center
@@ -207,7 +248,8 @@ fun FlashCardScreen(
                     }
                 }
             }
-            Spacer(Modifier.height(9.dp))
+
+            Spacer(Modifier.height(8.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 OutlinedButton(
                     onClick = { tts.speak(card.zh, "VOCAB", 0.82f) },
@@ -223,40 +265,66 @@ fun FlashCardScreen(
                     },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
-                ) { Text("🎙 Shadowing", color = StudyTop, fontWeight = FontWeight.Bold) }
+                ) { Text("🎙 Söyle", color = StudyTop, fontWeight = FontWeight.Bold) }
             }
-            Spacer(Modifier.height(7.dp))
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(
-                    onClick = { progress.toggleFavorite(card.id); favoriteVersion++ },
-                    modifier = Modifier.weight(1f),
-                    colors = ButtonDefaults.buttonColors(containerColor = if (isFavorite) StudyAccent else Color.White.copy(alpha = 0.18f))
-                ) {
-                    Text(if (isFavorite) "★ Favori" else "☆ Favorile", color = if (isFavorite) StudyTop else Color.White)
-                }
-                Button(
-                    onClick = { progress.markWordDifficult(card.id, !isDifficult); favoriteVersion++ },
-                    modifier = Modifier.weight(1f),
-                    colors = ButtonDefaults.buttonColors(containerColor = if (isDifficult) Color(0xFFFFD7D2) else Color.White.copy(alpha = 0.18f))
-                ) {
-                    Text(if (isDifficult) "⚑ Zor" else "⚐ Zor", color = if (isDifficult) Danger else Color.White)
-                }
-            }
-            Spacer(Modifier.height(7.dp))
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+
+            Spacer(Modifier.height(6.dp))
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 OutlinedButton(
                     onClick = { if (index > 0) { recognizer.stop(); index-- } },
                     enabled = index > 0,
                     modifier = Modifier.weight(1f)
                 ) { Text("← Önceki") }
                 Button(
-                    onClick = { if (index < cards.lastIndex) { recognizer.stop(); index++ } },
-                    enabled = index < cards.lastIndex,
+                    onClick = { if (index < visibleCards.lastIndex) { recognizer.stop(); index++ } },
+                    enabled = index < visibleCards.lastIndex,
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)
                 ) { Text("Sonraki →", color = StudyTop) }
             }
-            Spacer(Modifier.height(12.dp))
+
+            Spacer(Modifier.height(8.dp))
+            Surface(
+                color = Color.White.copy(alpha = 0.96f),
+                shape = RoundedCornerShape(18.dp),
+                modifier = Modifier.fillMaxWidth().navigationBarsPadding()
+            ) {
+                Column(Modifier.padding(horizontal = 12.dp, vertical = 8.dp)) {
+                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                        Text("Kelime adedi", color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                        Spacer(Modifier.weight(1f))
+                        Text("${visibleCards.size} / ${studyCards.size}", color = Color.Gray, fontSize = 12.sp)
+                    }
+                    LazyRow(
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        modifier = Modifier.padding(top = 5.dp)
+                    ) {
+                        items(listOf(5, 10, 20, 30).filter { it < studyCards.size }) { value ->
+                            FilterChip(
+                                selected = wordLimit == value,
+                                onClick = {
+                                    recognizer.stop()
+                                    wordLimit = value
+                                    index = 0
+                                },
+                                label = { Text("$value") }
+                            )
+                        }
+                        item {
+                            FilterChip(
+                                selected = wordLimit >= studyCards.size,
+                                onClick = {
+                                    recognizer.stop()
+                                    wordLimit = studyCards.size
+                                    index = 0
+                                },
+                                label = { Text("Tümü") }
+                            )
+                        }
+                    }
+                }
+            }
+            Spacer(Modifier.height(6.dp))
         }
     }
 }
@@ -446,15 +514,15 @@ fun PronunciationPracticeScreen(scene: SceneInfo, progress: ProgressStore, onBac
         Column(Modifier.fillMaxSize().padding(18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
             Text("${index + 1} / ${items.size} · En iyi %$best", color = Color.White.copy(alpha = 0.8f))
             Card(
-                Modifier.fillMaxWidth().weight(1f).padding(vertical = 10.dp),
+                Modifier.fillMaxWidth().weight(1.15f).padding(top = 2.dp, bottom = 6.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White),
                 shape = RoundedCornerShape(26.dp)
             ) {
                 Column(Modifier.fillMaxSize().padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
-                    Text(item.zh, color = StudyTop, fontSize = 34.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
-                    Text(item.pinyin, color = Color(0xFF65566C), fontSize = 20.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 10.dp))
-                    Text(item.tr, color = Color.DarkGray, fontSize = 17.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 8.dp))
-                    Spacer(Modifier.height(22.dp))
+                    Text(item.zh, color = StudyTop, fontSize = 30.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+                    Text(item.pinyin, color = Color(0xFF65566C), fontSize = 17.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 7.dp))
+                    Text(item.tr, color = Color.DarkGray, fontSize = 15.sp, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 6.dp))
+                    Spacer(Modifier.height(14.dp))
                     Button(onClick = { tts.speak(item.zh, "PRONUNCIATION", 0.78f) }, colors = ButtonDefaults.buttonColors(containerColor = StudyAccent)) {
                         Text("🔊 Dinle", color = StudyTop, fontWeight = FontWeight.Bold)
                     }
@@ -468,7 +536,7 @@ fun PronunciationPracticeScreen(scene: SceneInfo, progress: ProgressStore, onBac
                         Text("Algılanan: $recognized", color = Color.DarkGray, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 14.dp))
                     }
                     if (score != null) {
-                        Text("Ses/telaffuz benzeşmesi: %${score!!}", color = if (score!! >= 70) Success else Danger, fontSize = 25.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(top = 8.dp))
+                        Text("Ses/telaffuz benzeşmesi: %${score!!}", color = if (score!! >= 70) Success else Danger, fontSize = 21.sp, fontWeight = FontWeight.Black, modifier = Modifier.padding(top = 8.dp))
                         LinearProgressIndicator(
                             progress = { score!! / 100f },
                             modifier = Modifier.fillMaxWidth().padding(top = 6.dp),
