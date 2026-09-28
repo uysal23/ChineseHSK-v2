@@ -3,69 +3,62 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK4_SC021_SC030",
+    "batchId": "HSK4_SC031_SC040",
     "level": "HSK4",
-    "startScene": "HSK4_SC021",
-    "endScene": "HSK4_SC030",
+    "startScene": "HSK4_SC031",
+    "endScene": "HSK4_SC040",
     "sceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC031",
+      "ZH_HSK4_SC032",
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037",
+      "ZH_HSK4_SC038",
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC031",
+      "ZH_HSK4_SC032",
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036"
     ],
-    "pendingSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK4_SC037",
+      "ZH_HSK4_SC038",
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
+    ],
     "rejectedGeneratedSceneIds": [
-      "ZH_HSK4_SC024_PREVIOUS_LIBRARY_ATTEMPTS",
-      "ZH_HSK4_SC024_PREVIOUS_COLLAGE_ATTEMPTS"
+      "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
+      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS"
     ],
-    "status": "READY_FOR_BUILD",
+    "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC031",
+      "ZH_HSK4_SC032",
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036"
     ],
     "finalCandidateSceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC031",
+      "ZH_HSK4_SC032",
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": true,
-    "noteTr": "2026-09-28: Kullanıcı mevcut repo snapshot'ı için açık APK build onayı verdi. Build gate olarak son tamamlanmış 10/10 HSK4 SC021-SC030 kullanılıyor; HSK4 SC031-SC040 ilerlemesi ayrı kayıtta 6/10 IN_PROGRESS olarak korunuyor ve build mevcut SC031-SC036 authoritative assetlerini de içeriyor."
+    "buildApproved": false,
+    "noteTr": "HSK4 SC031-SC036 authoritative final görseller olarak entegre edildi. SC037-SC040 henüz doğru final görsel olmadığı için bekliyor. 2026-09-28 kullanıcı onayıyla mevcut 6/10 snapshot için APK başarıyla üretildi; yeni build için tekrar açık kullanıcı onayı gerekir."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -101,7 +94,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC031_SC036_PARTIAL_INTEGRATED_2026-09-28",
+  "latestVisualRevision": "HSK4_SC031_SC036_PARTIAL_INTEGRATED_BUILD_SUCCESS_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -236,11 +229,15 @@
     "noteTr": "HSK1 SC048-SC050 ve HSK2 SC001-SC007 son görsellerle ayrı scene ID olarak yeniden entegre edildi; LOCKED_V2 QA PASS. APK build henüz tetiklenmedi."
   },
   "lastSuccessfulBuild": {
-    "workflowRunId": 36358802501,
-    "commitSha": "c25a4e6bd130d11729c2433cff6bf6af0c72d3a4",
+    "workflowRunId": 36453860491,
+    "commitSha": "7f4b082aa660eaf492686b3f6fc71e283b83f63f",
     "artifactName": "ChineseHSK-v3.4.0-personal-apk",
-    "builtAt": "2026-09-28",
-    "apkSha256": "76464eafb0f5d7501a833e04d9a774f0cb54ee462d02993f6c8007abb00aa285"
+    "artifactId": 10984577538,
+    "artifactSizeBytes": 172496074,
+    "artifactZipSha256": "667aa2690f84946b07cf7e0b50f3910069a9d76bed1539e8b41ff4c40eda463a",
+    "builtAt": "2026-09-28T16:54:03Z",
+    "scope": "Current repository snapshot including HSK4 SC031-SC036 authoritative partial visuals",
+    "result": "SUCCESS"
   },
   "nextHsk2BatchProgress": {
     "batchId": "HSK2_SC008_SC017",
@@ -709,7 +706,7 @@
       "ZH_HSK4_SC030"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": true,
+    "buildApproved": false,
     "noteTr": "HSK4 SC021-SC030 10/10 final WebP authoritative app asset + LOCKED_V2 metadata olarak entegre edildi ve QA PASS. Kaynak push yalnız sync/doğrulama içindir; APK build için kullanıcıdan ayrıca açık onay gerekir."
   },
   "hsk4Sc031Sc040BatchProgress": {
@@ -768,13 +765,18 @@
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC036 gerçek repo sahne JSON/diyaloglarına göre doğrulanmış final WebP olarak authoritative app assetlerine kısmi entegre edildi. SC037-SC040 henüz doğru final görsel olmadığı için bilinçli olarak boş bırakıldı. APK build tetiklenmedi."
+    "noteTr": "HSK4 SC031-SC036 authoritative final görseller olarak entegre edildi. SC037-SC040 henüz doğru final görsel olmadığı için bekliyor. 2026-09-28 kullanıcı onayıyla mevcut 6/10 snapshot için APK başarıyla üretildi; yeni build için tekrar açık kullanıcı onayı gerekir."
   },
   "latestBuildRequest": {
     "requestedAt": "2026-09-28T19:06:00+03:00",
     "requestedBy": "user_explicit_approval",
     "snapshotIncludes": "HSK4 SC031-SC036 partial authoritative visuals",
     "visualGateBatch": "HSK4_SC021_SC030",
-    "partialBatchPreserved": "HSK4_SC031_SC040 6/10 IN_PROGRESS"
+    "partialBatchPreserved": "HSK4_SC031_SC040 6/10 IN_PROGRESS",
+    "status": "COMPLETED_SUCCESS",
+    "workflowRunId": 36453860491,
+    "artifactId": 10984577538,
+    "artifactName": "ChineseHSK-v3.4.0-personal-apk",
+    "completedAt": "2026-09-28T16:54:03Z"
   }
 }
