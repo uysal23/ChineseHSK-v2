@@ -83,7 +83,7 @@ private fun speakerDisplayName(
 
 private enum class SceneMode { STORY, FLASHCARDS, COMPREHENSION, PRONUNCIATION, INTERACTIVE, SENTENCE_PRACTICE, EXAM_HUB, EXAM_VOCAB, EXAM_SENTENCE }
 
-private enum class RootMode { WELCOME, DASHBOARD, LEVELS, PLACEMENT, DAILY_REVIEW, WEAK_WORDS, HABITS, PROGRESS, SETTINGS, ADVANCED_SETTINGS, SYSTEM_CHECK }
+private enum class RootMode { WELCOME, DASHBOARD, LEVELS, PLACEMENT, DAILY_REVIEW, FREE_STUDY, WEAK_WORDS, HABITS, PROGRESS, SETTINGS, ADVANCED_SETTINGS, SYSTEM_CHECK }
 
 @Composable
 fun ChineseJourneyApp() {
@@ -286,6 +286,7 @@ fun ChineseJourneyApp() {
                     onPlacement = { rootMode = RootMode.PLACEMENT }
                 )
                 rootMode == RootMode.PLACEMENT && selectedScene == null && selectedLevel == null && !showFavorites -> PlacementTestScreen(
+                    repo = repo,
                     onBack = { rootMode = if (onboardingComplete) RootMode.DASHBOARD else RootMode.WELCOME },
                     onComplete = { level, score, total ->
                         val returnToSettings = onboardingComplete
@@ -296,6 +297,11 @@ fun ChineseJourneyApp() {
                     }
                 )
                 rootMode == RootMode.DAILY_REVIEW && selectedScene == null && selectedLevel == null && !showFavorites -> DailyReviewScreen(
+                    repo = repo,
+                    progress = progress,
+                    onBack = { rootMode = RootMode.DASHBOARD }
+                )
+                rootMode == RootMode.FREE_STUDY && selectedScene == null && selectedLevel == null && !showFavorites -> FreeStudyScreen(
                     repo = repo,
                     progress = progress,
                     onBack = { rootMode = RootMode.DASHBOARD }
@@ -352,12 +358,14 @@ fun ChineseJourneyApp() {
                 showFavorites -> FavoritesScreen(repo, progress) { showFavorites = false }
                 selectedScene != null && sceneMode == SceneMode.FLASHCARDS -> FlashCardScreen(
                     title = "Kelime Çalışması · ${selectedScene!!.titleTr}",
-                    cards = selectedScene!!.learning.vocabularyCards,
+                    cards = repo.loadDialogueVocabulary(selectedScene!!),
                     progress = progress,
+                    dialogueWords = repo.loadDialogueVocabulary(selectedScene!!),
                     onBack = { sceneMode = SceneMode.STORY }
                 )
                 selectedScene != null && sceneMode == SceneMode.COMPREHENSION -> ComprehensionScreen(
                     scene = selectedScene!!,
+                    dialogueWords = repo.loadDialogueVocabulary(selectedScene!!),
                     onBack = { sceneMode = SceneMode.STORY }
                 )
                 selectedScene != null && sceneMode == SceneMode.PRONUNCIATION -> PronunciationPracticeScreen(
@@ -367,10 +375,12 @@ fun ChineseJourneyApp() {
                 )
                 selectedScene != null && sceneMode == SceneMode.INTERACTIVE -> InteractiveDialogueScreen(
                     scene = selectedScene!!,
+                    dialogueWords = repo.loadDialogueVocabulary(selectedScene!!),
                     onBack = { sceneMode = SceneMode.STORY }
                 )
                 selectedScene != null && sceneMode == SceneMode.SENTENCE_PRACTICE -> SentencePracticeScreen(
                     scene = selectedScene!!,
+                    dialogueWords = repo.loadDialogueVocabulary(selectedScene!!),
                     onBack = { sceneMode = SceneMode.STORY }
                 )
                 selectedScene != null && sceneMode == SceneMode.EXAM_HUB -> ExamHubScreen(
@@ -431,6 +441,7 @@ fun ChineseJourneyApp() {
                     onLevels = { rootMode = RootMode.LEVELS },
                     onFavorites = { showFavorites = true },
                     onDailyReview = { rootMode = RootMode.DAILY_REVIEW },
+                    onFreeStudy = { rootMode = RootMode.FREE_STUDY },
                     onProgress = { rootMode = RootMode.PROGRESS },
                     onSettings = { rootMode = RootMode.SETTINGS }
                 )
