@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC023",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC023.json",
+  "titleTr": "Bir Müşteri Cüzdanını Unutuyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Düzenli bir müşteri cüzdanını unutunca güven meselesi ortaya çıkar.",
+  "dialogueSpeakers": [
+    "顾客",
+    "刘梅",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "顾客",
+    "刘梅",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "顾客": "adult_customer",
+    "刘梅": "mature_adult",
+    "员工": "adult_employee",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "boş cüzdan arama hareketi",
+    "kafe kasa bölgesi",
+    "kahve fincanı",
+    "sipariş tepsisi"
+  ],
+  "visualDirectionTr": "Aile kafesinde gündüz; düzenli yetişkin müşteri cüzdanını bulamadığını fark etmiş, Liu Mei sakin ve güven verici biçimde çözüm arıyor; çalışan ve Zhang Wei yanında. Dört konuşmacı görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC022",
+    "nextSceneId": "ZH_HSK4_SC024"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
