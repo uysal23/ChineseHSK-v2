@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC030",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC030.json",
+  "titleTr": "Tatilde Kaybolan Telefon",
+  "locationId": "LOC_ZH_TOURIST_SITE_001",
+  "scenePurposeTr": "Lele telefonunu kaybeder ve güvenlik adımlarını izler.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "工作人员": "adult_site_staff"
+  },
+  "criticalObjects": [
+    "boş telefon kılıfı/telefon arama hareketi",
+    "turistik alan danışma noktası",
+    "seyahat çantası",
+    "güvenlik/danışma görevlisi"
+  ],
+  "visualDirectionTr": "Gündüz turistik alanda; teen-boy Lele telefonunu kaybettiğini fark etmiş, Zhang Wei ve Liu Mei sakin şekilde destek oluyor, yetişkin görevli güvenlik adımlarını açıklıyor. Dört konuşmacı görünür; Lele erkek ergen.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC029",
+    "nextSceneId": "ZH_HSK4_SC031"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
