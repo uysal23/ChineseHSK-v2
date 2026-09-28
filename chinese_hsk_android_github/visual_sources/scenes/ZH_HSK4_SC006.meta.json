@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC006",
+  "generationSceneId": "ZH_HSK4_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC006.json",
+  "dialogueSha256": "9ad89a80939a0aa2c7b9ee712c4bdcb6cecf691f69e16484806c86363ddb1372",
+  "titleTr": "Büyükbabanın Bahçe Planı",
+  "locationId": "LOC_ZH_GARDEN_001",
+  "scenePurposeTr": "Büyükbaba küçük bir alanı sebze bahçesine dönüştürmek ister.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_man",
+    "奶奶": "elderly_woman"
+  },
+  "criticalObjects": [
+    "sebze fideleri",
+    "tohum planı",
+    "sulama kabı",
+    "bahçe araçları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC005",
+    "nextSceneId": "ZH_HSK4_SC007"
+  },
+  "sourceGeneratedFilename": "ailece_bahçe_planlama_günü.png",
+  "finalAssetFilename": "ZH_HSK4_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC006.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "16ed378866ba8ede6bac2445564417c878e876c0bd55e9a8616ba0c323277c97"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 ilk 10’lu paket; HSK3’ten yaş ilerlemesi, büyükanne/büyükbaba continuity’si ve sahne kadrosu kontrol edilerek kullanıcı onayıyla entegre edildi."
+}

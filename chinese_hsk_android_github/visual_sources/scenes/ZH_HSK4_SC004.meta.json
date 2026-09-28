@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC004",
+  "generationSceneId": "ZH_HSK4_SC004",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC004.json",
+  "dialogueSha256": "ce09e600d2487ef6cb76568127d9747b93f40a2b87bdf97de03164798f3b97eb",
+  "titleTr": "Büyükler Kasabaya Geliyor",
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "scenePurposeTr": "Aile bu kez büyükanne ve büyükbabanın taşınmasını organize eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_man",
+    "奶奶": "elderly_woman"
+  },
+  "criticalObjects": [
+    "taşınma kutuları",
+    "valizler",
+    "ev giriş kapısı",
+    "saksı bitkisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC003",
+    "nextSceneId": "ZH_HSK4_SC005"
+  },
+  "sourceGeneratedFilename": "aileyle_sıcak_taşınma_günü.png",
+  "finalAssetFilename": "ZH_HSK4_SC004.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC004.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "2d521d99825a19a77aaf140f9ec4116f2e86334264bfd782a13e1e6dbd47a822"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 ilk 10’lu paket; HSK3’ten yaş ilerlemesi, büyükanne/büyükbaba continuity’si ve sahne kadrosu kontrol edilerek kullanıcı onayıyla entegre edildi."
+}

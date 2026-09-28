@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC002",
+  "generationSceneId": "ZH_HSK4_SC002",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC002.json",
+  "dialogueSha256": "a206c3ee523defbfc6dc0599acba0677846d8bdf888e773d10dcc32e4bc838a1",
+  "titleTr": "Çiftlikte Son Hasat",
+  "locationId": "LOC_ZH_GRANDPARENTS_FARM_001",
+  "scenePurposeTr": "Aile son hasada yardım eder; büyükbaba toprağa veda eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_man",
+    "奶奶": "elderly_woman"
+  },
+  "criticalObjects": [
+    "hasat sepetleri",
+    "sebzeler",
+    "tahıl",
+    "çiftlik avlusu"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC001",
+    "nextSceneId": "ZH_HSK4_SC003"
+  },
+  "sourceGeneratedFilename": "sonbahar_hasadında_aile_buluşması.png",
+  "finalAssetFilename": "ZH_HSK4_SC002.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC002.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "74102086e3763bc1f1f51bd8ca9537644421b1f38220a4ef8ce1290c2485e2ec"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 ilk 10’lu paket; HSK3’ten yaş ilerlemesi, büyükanne/büyükbaba continuity’si ve sahne kadrosu kontrol edilerek kullanıcı onayıyla entegre edildi."
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC001",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC001.json",
+  "titleTr": "Büyükler Taşınma Kararı Veriyor",
+  "locationId": "LOC_ZH_GRANDPARENTS_FARM_001",
+  "scenePurposeTr": "Zhang’ın anne-babası çiftlikten ayrılıp aileye yakın yaşamayı ciddi biçimde tartışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_man",
+    "奶奶": "elderly_woman"
+  },
+  "criticalObjects": [
+    "çiftlik evi",
+    "plan/notlar",
+    "çay takımı",
+    "taşınma kararı bağlamı"
+  ],
+  "visualDirectionTr": "Zhang’ın anne-babası çiftlikten ayrılıp aileye yakın yaşamayı ciddi biçimde tartışır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK3_SC050",
+    "nextSceneId": "ZH_HSK4_SC002"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

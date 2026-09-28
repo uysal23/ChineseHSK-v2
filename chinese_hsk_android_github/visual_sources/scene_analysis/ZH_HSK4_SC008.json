@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC008",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC008.json",
+  "titleTr": "Üç Kuşak Akşam Yemeği",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Üç kuşak ev düzeni ve alışkanlıklar hakkında küçük bir fikir ayrılığı yaşar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_man",
+    "奶奶": "elderly_woman"
+  },
+  "criticalObjects": [
+    "aile sofrası",
+    "akşam yemeği",
+    "çay",
+    "ev ortamı"
+  ],
+  "visualDirectionTr": "Üç kuşak ev düzeni ve alışkanlıklar hakkında küçük bir fikir ayrılığı yaşar.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC007",
+    "nextSceneId": "ZH_HSK4_SC009"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

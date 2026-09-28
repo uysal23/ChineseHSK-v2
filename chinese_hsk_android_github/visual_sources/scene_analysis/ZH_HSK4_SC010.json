@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC010",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC010.json",
+  "titleTr": "Lele Ergenlik Çağında",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Lele telefon süresinin artırılmasını ister; aile kurallar üzerinde pazarlık yapar.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "刘梅",
+    "张伟",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "刘梅",
+    "张伟",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "akıllı telefon",
+    "aile kural listesi",
+    "not defteri",
+    "çalışma masası"
+  ],
+  "visualDirectionTr": "Lele telefon süresinin artırılmasını ister; aile kurallar üzerinde pazarlık yapar.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC009",
+    "nextSceneId": "ZH_HSK4_SC011"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

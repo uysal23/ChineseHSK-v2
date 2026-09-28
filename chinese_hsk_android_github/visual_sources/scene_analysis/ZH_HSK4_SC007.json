@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC007",
+  "status": "FINAL_IMAGE_INTEGRATED",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC007.json",
+  "titleTr": "Büyükanne Kafede",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Büyükanne mutfak düzenini eleştirir ama yararlı değişiklikler önerir.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "刘梅",
+    "张伟",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "刘梅",
+    "张伟",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "奶奶": "elderly_woman",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "员工": "adult_employee"
+  },
+  "criticalObjects": [
+    "kafe tarif/menü defterleri",
+    "hamur işleri",
+    "kahve",
+    "çalışan notları"
+  ],
+  "visualDirectionTr": "Büyükanne mutfak düzenini eleştirir ama yararlı değişiklikler önerir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC006",
+    "nextSceneId": "ZH_HSK4_SC008"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

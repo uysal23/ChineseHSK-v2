@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC007",
+  "generationSceneId": "ZH_HSK4_SC007",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC007.json",
+  "dialogueSha256": "57ed1603dbe98c007e26f552100f91a6bcb1273aa42a85dc0e41ba65c047038d",
+  "titleTr": "Büyükanne Kafede",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Büyükanne mutfak düzenini eleştirir ama yararlı değişiklikler önerir.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "刘梅",
+    "张伟",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "刘梅",
+    "张伟",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "奶奶": "elderly_woman",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "员工": "adult_employee"
+  },
+  "criticalObjects": [
+    "kafe tarif/menü defterleri",
+    "hamur işleri",
+    "kahve",
+    "çalışan notları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC006",
+    "nextSceneId": "ZH_HSK4_SC008"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_kafede_aile_toplantısı.png",
+  "finalAssetFilename": "ZH_HSK4_SC007.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC007.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "25972a6d9d3986d144fb6625f9a770a3009056b7cfa07a4403abe44672839957"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 ilk 10’lu paket; HSK3’ten yaş ilerlemesi, büyükanne/büyükbaba continuity’si ve sahne kadrosu kontrol edilerek kullanıcı onayıyla entegre edildi."
+}
