@@ -212,7 +212,7 @@ start_code = """    fun startRecognition() {
             val source = voiceRecorder.openRecognitionSource()
             if (source == null) {
                 status = if (hasRecording) {
-                    "Kayıt tamamlandı. Bu cihazda otomatik ses analizi desteklenmiyor."
+                    "Kayıt tamamlandı ancak PCM kaynak dosyası açılamadı. Tekrar deneyin."
                 } else {
                     "Ses kaydı oluşturulamadı. Tekrar deneyin."
                 }
@@ -540,7 +540,7 @@ assert "class UserVoiceRecorder" in voice_recorder_file.read_text(encoding="utf-
 assert "Kaydımı Dinle" in learning_screens.read_text(encoding="utf-8")
 assert "voiceRecorder.start" in learning_screens.read_text(encoding="utf-8")
 assert "fun FreeStudyScreen(" in learning_screens.read_text(encoding="utf-8")
-assert "Ses/telaffuz benzeşmesi:" in learning_screens.read_text(encoding="utf-8")
+assert "Telaffuz doğruluğu:" in learning_screens.read_text(encoding="utf-8")
 assert 'Text("🎙 Söyle"' in learning_screens.read_text(encoding="utf-8")
 assert "RootMode.FREE_STUDY" in main_activity.read_text(encoding="utf-8")
 assert "onFreeStudy =" in main_activity.read_text(encoding="utf-8")
