@@ -619,5 +619,58 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK4 SC011-SC020 10/10 final WebP + runtime mirror + LOCKED_V2 metadata olarak tamamlandı. SC012 doğru aile kafesi/yeni çalışan eğitim sahnesiyle yeniden üretildi ve doğrulandı. Build başlatılmadı."
+  },
+  "hsk4Sc021Sc030BatchProgress": {
+    "batchId": "HSK4_SC021_SC030",
+    "level": "HSK4",
+    "startScene": "HSK4_SC021",
+    "endScene": "HSK4_SC030",
+    "sceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ],
+    "completedSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ],
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK4_SC021"
+    ],
+    "rejectionReasonTr": "Bu oturumdaki ilk görsel üretim denemeleri LOCKED_V2 ile uyumsuzdu: paket kolaj/yazı/yanlış kadro üretti; SC021 için sonraki deneme sahne yerine GitHub ekranı üretti. Hiçbiri final asset olarak entegre edilmedi.",
+    "status": "IN_PROGRESS",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+    "analysisReadySceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ],
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK4 SC021-SC030 gerçek sahne JSON/diyalog kaynakları okunarak 10/10 scene_analysis hazırlandı. Final WebP üretimi henüz tamamlanmadı. Yanlış görsel çıktıları manifest gereği reddedildi ve uygulamaya bağlanmadı; APK build tetiklenmedi."
   }
 }
