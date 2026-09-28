@@ -150,6 +150,28 @@ jobs:
 
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
+      - name: Install offline Mandarin ASR model
+        shell: bash
+        run: |
+          set -euo pipefail
+          MODEL_NAME="vosk-model-small-cn-0.22"
+          MODEL_ZIP="$RUNNER_TEMP/$MODEL_NAME.zip"
+          MODEL_SHA256="3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba"
+          DEST="$SRC/app/src/main/assets"
+          rm -f "$MODEL_ZIP"
+          rm -rf "$DEST/$MODEL_NAME"
+
+          if ! curl -fL --retry 4 --retry-delay 3               "https://alphacephei.com/vosk/models/$MODEL_NAME.zip"               -o "$MODEL_ZIP"; then
+            echo "Primary Vosk download failed; trying pinned mirror."
+            curl -fL --retry 4 --retry-delay 3               "https://huggingface.co/rhasspy/vosk-models/resolve/main/zh/$MODEL_NAME.zip?download=true"               -o "$MODEL_ZIP"
+          fi
+
+          echo "$MODEL_SHA256  $MODEL_ZIP" | sha256sum -c -
+          unzip -q "$MODEL_ZIP" -d "$DEST"
+          test -f "$DEST/$MODEL_NAME/am/final.mdl"
+          test -f "$DEST/$MODEL_NAME/conf/mfcc.conf"
+          echo "Embedded $MODEL_NAME for fully offline Mandarin recognition."
+
       - name: Install generated Mandarin voice pack
         shell: bash
         env:
