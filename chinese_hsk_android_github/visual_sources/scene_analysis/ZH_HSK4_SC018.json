@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC018",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC018.json",
+  "titleTr": "Büyükanne ile Yutong Konuşuyor",
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "scenePurposeTr": "Büyükanne Yutong’la içten bir konuşma yapar; Liu Mei ve Zhang Wei destek olur.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷"
+  ],
+  "characterAgeLock": {
+    "奶奶": "elderly_woman",
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "çay takımı",
+    "aile fotoğrafları",
+    "rahat oturma alanı"
+  ],
+  "visualDirectionTr": "Büyükanne ve Yutong arasında duygusal ama sakin konuşma; ebeveynler yanında destekleyici. Büyükanne HSK4 canonical yaşlı kadın görünümünde.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC017",
+    "nextSceneId": "ZH_HSK4_SC019"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

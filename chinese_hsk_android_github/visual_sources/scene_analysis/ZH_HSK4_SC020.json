@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC020",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC020.json",
+  "titleTr": "Kasaba Fotoğraf Yarışması",
+  "locationId": "LOC_ZH_TOWN_CENTER_001",
+  "scenePurposeTr": "Lele fotoğraf yarışmasına katılır; görevli ve ailesi çalışmasını değerlendirir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "工作人员",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "工作人员",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "工作人员": "adult_event_staff",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "sergilenen fotoğraflar",
+    "kamera",
+    "yarışma standı",
+    "rozet/ödül simgesi"
+  ],
+  "visualDirectionTr": "Kasaba merkezinde fotoğraf sergisi/yarışma; Lele ergen erkek olarak kendi fotoğrafını sunar, yetişkin görevli ve ebeveynler yanında. Okunabilir tabela/metin yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC019",
+    "nextSceneId": "ZH_HSK4_SC021"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

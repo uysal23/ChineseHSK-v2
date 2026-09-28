@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC016",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC016.json",
+  "titleTr": "İş Arkadaşları Arasında Gerilim",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "scenePurposeTr": "Zhang iki iş arkadaşı arasındaki anlaşmazlığı sakin biçimde koordine eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事甲",
+    "同事乙",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事甲",
+    "同事乙",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "同事甲": "adult_colleague",
+    "同事乙": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "ofis masası",
+    "proje belgeleri",
+    "laptop",
+    "video görüşme"
+  ],
+  "visualDirectionTr": "İki yetişkin iş arkadaşı arasında ölçülü görüş ayrılığı; Zhang arabulucu. Liu Mei uzaktan/video bağlantısında; bağırma veya fiziksel çatışma yok.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC015",
+    "nextSceneId": "ZH_HSK4_SC017"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC011",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC011.json",
+  "titleTr": "Kafe Çok Yoğun",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Kafe aşırı yoğunlaşır; ekip yeni çalışan ihtiyacını değerlendirir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "员工": "adult_employee",
+    "顾客": "adult_customer"
+  },
+  "criticalObjects": [
+    "yoğun servis tezgâhı",
+    "çok sayıda sipariş",
+    "kahve fincanları",
+    "bekleyen yetişkin müşteri"
+  ],
+  "visualDirectionTr": "Yoğun ama kontrollü kafe; Liu Mei ve Zhang Wei mevcut çalışanla iş yükünü değerlendirir, yetişkin müşteri bekler. Kalabalık hissi olsun ama dört ana konuşmacı açık seçik görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC010",
+    "nextSceneId": "ZH_HSK4_SC012"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

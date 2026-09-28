@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC017",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC017.json",
+  "titleTr": "Yutong’un İlk Aşkı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong romantik ilişki ve mahremiyet hakkında ailesi ve bir arkadaşıyla konuşur.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "朋友"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "朋友": "young_adult_friend"
+  },
+  "criticalObjects": [
+    "çay/kahve",
+    "not defteri",
+    "telefon kapalı veya masada",
+    "ev oturma alanı"
+  ],
+  "visualDirectionTr": "Yutong genç yetişkin olarak ciddi ama sıcak aile sohbetinde; arkadaşı aynı yaş grubunda. Romantik partner gösterme zorunluluğu yok; konu ilişki ve mahremiyet danışması.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC016",
+    "nextSceneId": "ZH_HSK4_SC018"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

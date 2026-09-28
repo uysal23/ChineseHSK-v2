@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC019",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC019.json",
+  "titleTr": "Lele’nin Gizli Yeteneği",
+  "locationId": "LOC_ZH_PARK_001",
+  "scenePurposeTr": "Lele fotoğrafçılığa yeteneğini gösterir; arkadaşı ve ailesi onu destekler.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "朋友",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "朋友",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "朋友": "teen_friend",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "fotoğraf makinesi",
+    "kamera askısı",
+    "park manzarası",
+    "çekilmiş fotoğraflar"
+  ],
+  "visualDirectionTr": "Lele açıkça ergen erkek; parkta fotoğraf makinesiyle yaratıcı çekim yapar. Arkadaşı aynı yaş grubunda, Zhang Wei ve Liu Mei destekleyici.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC018",
+    "nextSceneId": "ZH_HSK4_SC020"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

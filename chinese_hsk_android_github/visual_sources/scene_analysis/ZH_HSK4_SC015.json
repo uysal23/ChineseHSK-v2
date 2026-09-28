@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC015",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC015.json",
+  "titleTr": "Zhang Ekip Lideri Oluyor",
+  "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+  "scenePurposeTr": "Zhang ekip liderliği sorumluluklarını yönetici ve iş arkadaşıyla konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "经理": "mature_manager",
+    "同事": "adult_colleague",
+    "刘梅": "mature_adult_remote_call"
+  },
+  "criticalObjects": [
+    "toplantı masası",
+    "sunum ekranı grafikler",
+    "laptop",
+    "video görüşme"
+  ],
+  "visualDirectionTr": "Profesyonel konferans odası. Zhang lider rolünde, yönetici ve iş arkadaşı yanında. Liu Mei fiziksel olarak ofiste değil; laptop/video bağlantısında görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC014",
+    "nextSceneId": "ZH_HSK4_SC016"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

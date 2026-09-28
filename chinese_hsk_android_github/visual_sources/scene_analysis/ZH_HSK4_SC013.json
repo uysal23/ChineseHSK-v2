@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC013",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC013.json",
+  "titleTr": "Müşteri Alerjisi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Bir müşteri gıda alerjisini belirtir; ekip içerikleri dikkatle kontrol eder.",
+  "dialogueSpeakers": [
+    "顾客",
+    "刘梅",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "顾客",
+    "刘梅",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "顾客": "adult_customer",
+    "刘梅": "mature_adult",
+    "员工": "adult_employee",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "malzeme kapları",
+    "ayrı hazırlama alanı",
+    "menü/ürün kartı okunaksız",
+    "uyarı simgesi"
+  ],
+  "visualDirectionTr": "Ciddi ama sakin alerji güvenliği sahnesi; yetişkin müşteri konuşur, Liu Mei ve çalışan içeriği kontrol eder, Zhang Wei süreci destekler. Acil tıbbi kriz göstermeyin.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC012",
+    "nextSceneId": "ZH_HSK4_SC014"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

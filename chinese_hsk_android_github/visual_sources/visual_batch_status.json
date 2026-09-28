@@ -3,41 +3,41 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK4_SC001_SC010",
+    "batchId": "HSK4_SC011_SC020",
     "level": "HSK4",
-    "startScene": "HSK4_SC001",
-    "endScene": "HSK4_SC010",
+    "startScene": "HSK4_SC011",
+    "endScene": "HSK4_SC020",
     "sceneIds": [
-      "ZH_HSK4_SC001",
-      "ZH_HSK4_SC002",
-      "ZH_HSK4_SC003",
-      "ZH_HSK4_SC004",
-      "ZH_HSK4_SC005",
-      "ZH_HSK4_SC006",
-      "ZH_HSK4_SC007",
-      "ZH_HSK4_SC008",
-      "ZH_HSK4_SC009",
-      "ZH_HSK4_SC010"
+      "ZH_HSK4_SC011",
+      "ZH_HSK4_SC012",
+      "ZH_HSK4_SC013",
+      "ZH_HSK4_SC014",
+      "ZH_HSK4_SC015",
+      "ZH_HSK4_SC016",
+      "ZH_HSK4_SC017",
+      "ZH_HSK4_SC018",
+      "ZH_HSK4_SC019",
+      "ZH_HSK4_SC020"
     ],
-    "completedSceneIds": [
-      "ZH_HSK4_SC001",
-      "ZH_HSK4_SC002",
-      "ZH_HSK4_SC003",
-      "ZH_HSK4_SC004",
-      "ZH_HSK4_SC005",
-      "ZH_HSK4_SC006",
-      "ZH_HSK4_SC007",
-      "ZH_HSK4_SC008",
-      "ZH_HSK4_SC009",
-      "ZH_HSK4_SC010"
+    "completedSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK4_SC011",
+      "ZH_HSK4_SC012",
+      "ZH_HSK4_SC013",
+      "ZH_HSK4_SC014",
+      "ZH_HSK4_SC015",
+      "ZH_HSK4_SC016",
+      "ZH_HSK4_SC017",
+      "ZH_HSK4_SC018",
+      "ZH_HSK4_SC019",
+      "ZH_HSK4_SC020"
     ],
-    "pendingSceneIds": [],
-    "status": "INTEGRATED_QA_PASS",
+    "status": "ANALYZED_READY_FOR_GENERATION",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC001-SC010 10/10 final WebP; HSK3→HSK4 görünür yaş ilerlemesi, grandparents continuity, Yutong young_adult ve Lele teen_boy kilidi doğrulandı. Build başlatılmadı."
+    "noteTr": "HSK4 SC011-SC020 diyalog/kadro/mekân/yaş analizi tamamlandı. SC015-SC016 Liu Mei remote/video; SC019-SC020 Lele teen_boy; SC017 Yutong young_adult."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -73,7 +73,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC001_SC010_INTEGRATED_QA_PASS_2026-09-28",
+  "latestVisualRevision": "HSK4_SC011_SC020_ANALYZED_READY_FOR_GENERATION_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -580,5 +580,42 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK4 SC001-SC010 10/10 final WebP; HSK3→HSK4 görünür yaş ilerlemesi, grandparents continuity, Yutong young_adult ve Lele teen_boy kilidi doğrulandı. Build başlatılmadı."
+  },
+  "hsk4Sc011Sc020BatchProgress": {
+    "batchId": "HSK4_SC011_SC020",
+    "level": "HSK4",
+    "startScene": "HSK4_SC011",
+    "endScene": "HSK4_SC020",
+    "sceneIds": [
+      "ZH_HSK4_SC011",
+      "ZH_HSK4_SC012",
+      "ZH_HSK4_SC013",
+      "ZH_HSK4_SC014",
+      "ZH_HSK4_SC015",
+      "ZH_HSK4_SC016",
+      "ZH_HSK4_SC017",
+      "ZH_HSK4_SC018",
+      "ZH_HSK4_SC019",
+      "ZH_HSK4_SC020"
+    ],
+    "completedSceneIds": [],
+    "pendingSceneIds": [
+      "ZH_HSK4_SC011",
+      "ZH_HSK4_SC012",
+      "ZH_HSK4_SC013",
+      "ZH_HSK4_SC014",
+      "ZH_HSK4_SC015",
+      "ZH_HSK4_SC016",
+      "ZH_HSK4_SC017",
+      "ZH_HSK4_SC018",
+      "ZH_HSK4_SC019",
+      "ZH_HSK4_SC020"
+    ],
+    "status": "ANALYZED_READY_FOR_GENERATION",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK4 SC011-SC020 diyalog/kadro/mekân/yaş analizi tamamlandı. SC015-SC016 Liu Mei remote/video; SC019-SC020 Lele teen_boy; SC017 Yutong young_adult."
   }
 }

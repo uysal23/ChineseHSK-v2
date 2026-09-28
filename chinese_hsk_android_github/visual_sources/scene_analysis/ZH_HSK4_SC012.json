@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC012",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC012.json",
+  "titleTr": "Deneyimsiz Yeni Çalışan",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Yeni çalışan eğitim alır; ekip hataları sakin biçimde düzelterek işi öğretir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "新员工",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "新员工",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "新员工": "young_adult_employee",
+    "员工": "adult_employee",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "servis tepsisi",
+    "espresso makinesi",
+    "eğitim notları",
+    "kahve fincanları"
+  ],
+  "visualDirectionTr": "Kafe eğitim anı; Liu Mei yeni çalışanı yönlendirir, deneyimli çalışan yardımcı olur, Zhang Wei gözlem/destek verir. Utandırıcı ya da kaotik değil, yapıcı eğitim.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC011",
+    "nextSceneId": "ZH_HSK4_SC013"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
