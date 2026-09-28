@@ -4,3 +4,4 @@ scope: current repository state including HSK4 SC031-SC036 authoritative partial
 visual gate: HSK4 SC021-SC030 10/10 READY_FOR_BUILD
 partial batch preserved: HSK4 SC031-SC040 = 6/10 IN_PROGRESS
 reason: explicit user build approval
+2026-09-28 22:15 TRT - build requested after pronunciation/free-study/placement updates
