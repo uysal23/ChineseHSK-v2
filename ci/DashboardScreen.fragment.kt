@@ -8,6 +8,7 @@ fun DashboardScreen(
     onLevels: () -> Unit,
     onFavorites: () -> Unit,
     onDailyReview: () -> Unit,
+    onFreeStudy: () -> Unit,
     onProgress: () -> Unit,
     onSettings: () -> Unit
 ) {
@@ -87,6 +88,7 @@ fun DashboardScreen(
                 )
             }
             item { DashboardAction("🔁", "Günlük Tekrar", "Bugünkü kelime tekrarlarını çalış", onDailyReview) }
+            item { DashboardAction("🧪", "Serbest Çalışma", "Kelime, cümle, anlama, diyalog ve telaffuzu adet seçerek çalış", onFreeStudy) }
             item { DashboardAction("★", "Favorilerim", "$favoriteCount favori kelime", onFavorites) }
             item { DashboardAction("📊", "İlerlemem", "Sınavlar, seri ve seviye durumun", onProgress) }
 
