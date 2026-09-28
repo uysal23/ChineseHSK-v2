@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "title": "HSK1-HSK6 Seviye Tespit Sınavı",
+  "dialogueIndependent": true,
+  "questionCount": 84,
+  "questionsPerLevel": 14,
+  "passPerLevel": 10,
+  "alignmentNoteTr": "Özgün soru bankasıdır; kurs diyaloglarından bağımsızdır. HSK1-HSK6 dil işlevleri, sözcük bilgisi, dilbilgisi, okuma ve dinleme becerileriyle uyumlu olacak şekilde hazırlanmıştır; resmî sınav sorularının kopyası değildir.",
+  "questions": [
+    {
+      "id": "PLACEMENT_HSK1_01",
+      "level": 1,
+      "type": "vocabulary",
+      "prompt": "你好 ne demektir?",
+      "options": [
+        "Merhaba",
+        "Hoşça kal",
+        "Teşekkür ederim",
+        "Özür dilerim"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_02",
+      "level": 1,
+      "type": "vocabulary",
+      "prompt": "谢谢 ne demektir?",
+      "options": [
+        "Lütfen",
+        "Teşekkür ederim",
+        "Görüşürüz",
+        "Sorun değil"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_03",
+      "level": 1,
+      "type": "grammar",
+      "prompt": "“我叫王明。” cümlesinin doğru anlamı hangisidir?",
+      "options": [
+        "Ben Wang Ming'im.",
+        "Wang Ming nerede?",
+        "Wang Ming öğretmen.",
+        "Ben Wang Ming'i tanımıyorum."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_04",
+      "level": 1,
+      "type": "grammar",
+      "prompt": "“他是老师吗？” cümlesi ne sorar?",
+      "options": [
+        "O öğretmen mi?",
+        "Öğretmen nerede?",
+        "O kaç yaşında?",
+        "Öğretmen ne istiyor?"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_05",
+      "level": 1,
+      "type": "reading",
+      "prompt": "“我有一个妹妹。” ne demektir?",
+      "options": [
+        "Bir kız kardeşim var.",
+        "Bir erkek kardeşim var.",
+        "İki kız kardeşim var.",
+        "Kardeşim yok."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_06",
+      "level": 1,
+      "type": "reading",
+      "prompt": "“我今天很忙。” cümlesinde kişi nasıldır?",
+      "options": [
+        "Bugün meşgul.",
+        "Bugün hasta.",
+        "Yarın meşgul.",
+        "Bugün aç."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_07",
+      "level": 1,
+      "type": "grammar",
+      "prompt": "“你想喝什么？” sorusuna en uygun cevap hangisidir?",
+      "options": [
+        "我想喝茶。",
+        "我在学校。",
+        "他是老师。",
+        "明天星期三。"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_08",
+      "level": 1,
+      "type": "reading",
+      "prompt": "“我们明天去学校。” ne zaman okula gidilecek?",
+      "options": [
+        "Dün",
+        "Bugün",
+        "Yarın",
+        "Gelecek hafta"
+      ],
+      "correct": 2,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_09",
+      "level": 1,
+      "type": "vocabulary",
+      "prompt": "“水” kelimesinin Türkçesi hangisidir?",
+      "options": [
+        "Su",
+        "Çay",
+        "Süt",
+        "Kahve"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_10",
+      "level": 1,
+      "type": "reading",
+      "prompt": "“现在三点。” cümlesi ne bildirir?",
+      "options": [
+        "Saat üç.",
+        "Üç kişi var.",
+        "Üç gün sonra.",
+        "Üç kitap var."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK1_11",
+      "level": 1,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümle ne anlatıyor?",
+      "options": [
+        "Pekin'de yaşıyorum.",
+        "Pekin'e yarın gidiyorum.",
+        "Pekin'i sevmiyorum.",
+        "Pekin çok uzak."
+      ],
+      "correct": 0,
+      "audioZh": "我住在北京。"
+    },
+    {
+      "id": "PLACEMENT_HSK1_12",
+      "level": 1,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre kişi neyi seviyor?",
+      "options": [
+        "Pirinç yemeyi",
+        "Kahve içmeyi",
+        "Kitap okumayı",
+        "Koşmayı"
+      ],
+      "correct": 0,
+      "audioZh": "她喜欢吃米饭。"
+    },
+    {
+      "id": "PLACEMENT_HSK1_13",
+      "level": 1,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre kitap nerededir?",
+      "options": [
+        "Masanın üstünde",
+        "Çantanın içinde",
+        "Sandalyenin altında",
+        "Kapının yanında"
+      ],
+      "correct": 0,
+      "audioZh": "桌子上有一本书。"
+    },
+    {
+      "id": "PLACEMENT_HSK1_14",
+      "level": 1,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümle ne demektir?",
+      "options": [
+        "Çince konuşamıyorum.",
+        "Çince öğrenmek istemiyorum.",
+        "Çince öğretmeniyim.",
+        "Çince çok kolay."
+      ],
+      "correct": 0,
+      "audioZh": "我不会说汉语。"
+    },
+    {
+      "id": "PLACEMENT_HSK2_01",
+      "level": 2,
+      "type": "vocabulary",
+      "prompt": "“已经” en yakın hangi anlamı verir?",
+      "options": [
+        "henüz",
+        "zaten / çoktan",
+        "belki",
+        "hemen"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_02",
+      "level": 2,
+      "type": "grammar",
+      "prompt": "“我已经吃饭了。” ne demektir?",
+      "options": [
+        "Henüz yemedim.",
+        "Yemeğimi zaten yedim.",
+        "Şimdi yemek yapıyorum.",
+        "Yarın yiyeceğim."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_03",
+      "level": 2,
+      "type": "grammar",
+      "prompt": "“今天比昨天冷。” cümlesi ne demektir?",
+      "options": [
+        "Bugün dünden daha soğuk.",
+        "Bugün dün kadar sıcak.",
+        "Dün bugünden daha soğuk.",
+        "Yarın daha soğuk."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_04",
+      "level": 2,
+      "type": "grammar",
+      "prompt": "“他正在看书。” ne anlatır?",
+      "options": [
+        "Kitap okumayı bitirdi.",
+        "Şu anda kitap okuyor.",
+        "Yarın kitap okuyacak.",
+        "Kitap okumayı sevmiyor."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_05",
+      "level": 2,
+      "type": "reading",
+      "prompt": "“我去过上海两次。” cümlesine göre kişi ne yapmıştır?",
+      "options": [
+        "Şanghay'a iki kez gitmiştir.",
+        "Şanghay'da iki yıl yaşamıştır.",
+        "Şanghay'a hiç gitmemiştir.",
+        "Şanghay'a yarın gidecektir."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_06",
+      "level": 2,
+      "type": "grammar",
+      "prompt": "“如果明天下雨，我们就不去。” ne demektir?",
+      "options": [
+        "Yarın yağmur yağarsa gitmeyeceğiz.",
+        "Yarın mutlaka gideceğiz.",
+        "Bugün yağmur yağdı.",
+        "Yağmur yağsa da gideceğiz."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_07",
+      "level": 2,
+      "type": "vocabulary",
+      "prompt": "“附近” kelimesinin anlamı hangisidir?",
+      "options": [
+        "yakınlarda",
+        "uzakta",
+        "içeride",
+        "yukarıda"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_08",
+      "level": 2,
+      "type": "reading",
+      "prompt": "“这件衣服太贵了，我不买。” kişi neden satın almıyor?",
+      "options": [
+        "Rengi kötü olduğu için",
+        "Çok pahalı olduğu için",
+        "Bedeni küçük olduğu için",
+        "Mağaza kapalı olduğu için"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_09",
+      "level": 2,
+      "type": "grammar",
+      "prompt": "“你先休息一下，然后再工作。” doğru sıralama nedir?",
+      "options": [
+        "Önce çalış, sonra dinlen.",
+        "Önce biraz dinlen, sonra çalış.",
+        "Sadece dinlen.",
+        "Sadece çalış."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_10",
+      "level": 2,
+      "type": "reading",
+      "prompt": "“他每天坐地铁上班。” kişi işe nasıl gidiyor?",
+      "options": [
+        "Otobüsle",
+        "Metro ile",
+        "Yürüyerek",
+        "Bisikletle"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK2_11",
+      "level": 2,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre kişi ne yapıyor?",
+      "options": [
+        "Ödev yapıyor.",
+        "Yemek yapıyor.",
+        "Televizyon izliyor.",
+        "Uyuyor."
+      ],
+      "correct": 0,
+      "audioZh": "我在做作业呢。"
+    },
+    {
+      "id": "PLACEMENT_HSK2_12",
+      "level": 2,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede toplantı ne zaman?",
+      "options": [
+        "Saat dokuzda",
+        "Saat sekizde",
+        "Öğleden sonra",
+        "Yarın"
+      ],
+      "correct": 0,
+      "audioZh": "会议九点开始。"
+    },
+    {
+      "id": "PLACEMENT_HSK2_13",
+      "level": 2,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre hava nasıl?",
+      "options": [
+        "Dünden daha sıcak",
+        "Dünden daha soğuk",
+        "Aynı sıcaklıkta",
+        "Yağmurlu"
+      ],
+      "correct": 0,
+      "audioZh": "今天比昨天暖和。"
+    },
+    {
+      "id": "PLACEMENT_HSK2_14",
+      "level": 2,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede kişi ne istiyor?",
+      "options": [
+        "Biraz daha yavaş konuşulmasını",
+        "Daha yüksek sesle konuşulmasını",
+        "Kapının açılmasını",
+        "Sorunun yazılmasını"
+      ],
+      "correct": 0,
+      "audioZh": "请说慢一点儿。"
+    },
+    {
+      "id": "PLACEMENT_HSK3_01",
+      "level": 3,
+      "type": "grammar",
+      "prompt": "“因为下雨，所以我们没去公园。” ne demektir?",
+      "options": [
+        "Yağmur yağdığı için parka gitmedik.",
+        "Parka gittikten sonra yağmur yağdı.",
+        "Yağmur yağmasa da gitmedik.",
+        "Parka gitmek için yağmuru bekledik."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_02",
+      "level": 3,
+      "type": "grammar",
+      "prompt": "“虽然很忙，但是他还是来帮忙了。” ne anlatır?",
+      "options": [
+        "Meşgul olmadığı için geldi.",
+        "Çok meşguldü ama yine de yardıma geldi.",
+        "Yardım etmek istemedi.",
+        "İşi bitince gelmedi."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_03",
+      "level": 3,
+      "type": "grammar",
+      "prompt": "“除了汉语以外，她还会说英语。” ne demektir?",
+      "options": [
+        "Sadece Çince konuşuyor.",
+        "Çince dışında İngilizce de konuşabiliyor.",
+        "İngilizce öğrenmeyi bıraktı.",
+        "Çinceyi İngilizceden daha iyi konuşuyor."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_04",
+      "level": 3,
+      "type": "grammar",
+      "prompt": "“他一边听音乐，一边做作业。” ne anlatır?",
+      "options": [
+        "Önce müzik dinleyip sonra ödev yapıyor.",
+        "Aynı anda müzik dinleyip ödev yapıyor.",
+        "Ödev yapmadığı için müzik dinliyor.",
+        "Müzik yerine ödev yapıyor."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_05",
+      "level": 3,
+      "type": "reading",
+      "prompt": "“这家饭店的菜不错，就是有点儿贵。” genel değerlendirme nedir?",
+      "options": [
+        "Yemek kötü ve ucuz.",
+        "Yemek iyi ama biraz pahalı.",
+        "Yemek pahalı olduğu için kötü.",
+        "Restoran kapalı."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_06",
+      "level": 3,
+      "type": "vocabulary",
+      "prompt": "“决定” kelimesine en yakın anlam hangisidir?",
+      "options": [
+        "karar vermek / karar",
+        "unutmak",
+        "beklemek",
+        "değiştirmek"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_07",
+      "level": 3,
+      "type": "reading",
+      "prompt": "“我把钥匙放在桌子上了。” ana bilgi nedir?",
+      "options": [
+        "Anahtar masaya kondu.",
+        "Masa taşındı.",
+        "Anahtar kayboldu.",
+        "Kapı kilitlendi."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_08",
+      "level": 3,
+      "type": "grammar",
+      "prompt": "“我的手机被弟弟拿走了。” ne demektir?",
+      "options": [
+        "Telefonumu kardeşim götürdü.",
+        "Kardeşimin telefonunu aldım.",
+        "Telefonumu buldum.",
+        "Telefon bozuldu."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_09",
+      "level": 3,
+      "type": "reading",
+      "prompt": "“为了身体健康，他每天跑步半个小时。” kişi neden koşuyor?",
+      "options": [
+        "Yarış kazanmak için",
+        "Sağlığı için",
+        "İşe geç kaldığı için",
+        "Arkadaşını görmek için"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_10",
+      "level": 3,
+      "type": "vocabulary",
+      "prompt": "“尤其” en yakın hangi anlamdadır?",
+      "options": [
+        "özellikle",
+        "nadiren",
+        "hemen",
+        "aslında"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK3_11",
+      "level": 3,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede konuşmacının amacı nedir?",
+      "options": [
+        "Erken çıkmayı önermek",
+        "Toplantıyı iptal etmek",
+        "Daha geç uyanmak",
+        "Evde kalmak"
+      ],
+      "correct": 0,
+      "audioZh": "路上可能堵车，我们早点儿出发吧。"
+    },
+    {
+      "id": "PLACEMENT_HSK3_12",
+      "level": 3,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre sorun nedir?",
+      "options": [
+        "Bilgisayar çok yavaş.",
+        "Telefon kayıp.",
+        "İnternet pahalı.",
+        "Ekran kırık."
+      ],
+      "correct": 0,
+      "audioZh": "这台电脑最近越来越慢。"
+    },
+    {
+      "id": "PLACEMENT_HSK3_13",
+      "level": 3,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümle neyi ifade eder?",
+      "options": [
+        "Fikir birliğini",
+        "Şaşkınlığı",
+        "Reddetmeyi",
+        "Unutmayı"
+      ],
+      "correct": 0,
+      "audioZh": "我也觉得这个办法比较合适。"
+    },
+    {
+      "id": "PLACEMENT_HSK3_14",
+      "level": 3,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre kişi ne yapacak?",
+      "options": [
+        "İşini bitirince seni arayacak.",
+        "Hemen gelecek.",
+        "Telefonunu kapatacak.",
+        "Yarın işe başlamayacak."
+      ],
+      "correct": 0,
+      "audioZh": "我忙完以后给你打电话。"
+    },
+    {
+      "id": "PLACEMENT_HSK4_01",
+      "level": 4,
+      "type": "grammar",
+      "prompt": "“既然决定了，就别再犹豫。” ne demektir?",
+      "options": [
+        "Karar verdiğine göre artık tereddüt etme.",
+        "Karar vermeden önce bekle.",
+        "Kararı hemen değiştir.",
+        "Tereddüt etmek daha iyidir."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_02",
+      "level": 4,
+      "type": "grammar",
+      "prompt": "“与其抱怨，不如想办法解决。” ne önerir?",
+      "options": [
+        "Şikâyet etmeye devam etmeyi",
+        "Şikâyet yerine çözüm düşünmeyi",
+        "Sorunu görmezden gelmeyi",
+        "Başkalarını suçlamayı"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_03",
+      "level": 4,
+      "type": "grammar",
+      "prompt": "“只要坚持练习，就会有进步。” anlamı nedir?",
+      "options": [
+        "Yalnızca yetenek önemlidir.",
+        "Düzenli çalışmaya devam edilirse ilerleme olur.",
+        "Çalışmak faydasızdır.",
+        "İlerleme hemen olmazsa bırakılmalıdır."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_04",
+      "level": 4,
+      "type": "grammar",
+      "prompt": "“无论多忙，他都坚持锻炼。” ne anlatır?",
+      "options": [
+        "Sadece boşken egzersiz yapar.",
+        "Ne kadar meşgul olursa olsun egzersize devam eder.",
+        "Egzersizi bırakmıştır.",
+        "Meşgul olmadığı için egzersiz yapar."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_05",
+      "level": 4,
+      "type": "reading",
+      "prompt": "“这个计划看起来不错，不过还需要考虑成本。” konuşmacının tutumu nedir?",
+      "options": [
+        "Planı tamamen reddediyor.",
+        "Planı olumlu buluyor ama maliyetin değerlendirilmesini istiyor.",
+        "Maliyetin önemsiz olduğunu düşünüyor.",
+        "Planın hazır olduğunu söylüyor."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_06",
+      "level": 4,
+      "type": "vocabulary",
+      "prompt": "“负责” kelimesinin anlamı hangisidir?",
+      "options": [
+        "sorumlu olmak",
+        "itiraz etmek",
+        "erteleme yapmak",
+        "tahmin etmek"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_07",
+      "level": 4,
+      "type": "reading",
+      "prompt": "“对我来说，工作环境比工资更重要。” kişi için hangisi daha önemlidir?",
+      "options": [
+        "Maaş",
+        "Çalışma ortamı",
+        "Mesai saati",
+        "Ulaşım"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_08",
+      "level": 4,
+      "type": "grammar",
+      "prompt": "“不仅价格合理，而且服务也很好。” ne demektir?",
+      "options": [
+        "Fiyat pahalı ve hizmet kötü.",
+        "Yalnızca fiyat iyi.",
+        "Hem fiyat makul hem hizmet iyi.",
+        "Hizmet iyi ama fiyat bilinmiyor."
+      ],
+      "correct": 2,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_09",
+      "level": 4,
+      "type": "reading",
+      "prompt": "“经过讨论，大家终于达成了一致。” sonuç nedir?",
+      "options": [
+        "Tartışma ertelendi.",
+        "Herkes sonunda ortak görüşe vardı.",
+        "Kimse konuşmadı.",
+        "Karar iptal edildi."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_10",
+      "level": 4,
+      "type": "vocabulary",
+      "prompt": "“适应” en yakın hangi anlamdadır?",
+      "options": [
+        "uyum sağlamak",
+        "karşılaştırmak",
+        "kaybetmek",
+        "açıklamak"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK4_11",
+      "level": 4,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümleye göre ne yapılmalıdır?",
+      "options": [
+        "Acele etmek yerine önce bilgi kontrol edilmelidir.",
+        "Hemen karar verilmelidir.",
+        "Bilgi gizlenmelidir.",
+        "Toplantı iptal edilmelidir."
+      ],
+      "correct": 0,
+      "audioZh": "这件事不能着急，我们先把情况了解清楚。"
+    },
+    {
+      "id": "PLACEMENT_HSK4_12",
+      "level": 4,
+      "type": "listening",
+      "prompt": "Konuşmacı neyi vurguluyor?",
+      "options": [
+        "Sonucun süreçten önemli olduğunu",
+        "Sürecin de sonuç kadar önemli olduğunu",
+        "Sonucun önemsiz olduğunu",
+        "Sürecin gereksiz olduğunu"
+      ],
+      "correct": 1,
+      "audioZh": "结果当然重要，但过程也不能忽视。"
+    },
+    {
+      "id": "PLACEMENT_HSK4_13",
+      "level": 4,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümledeki ilişki nedir?",
+      "options": [
+        "Koşul ve sonuç",
+        "Zıtlık",
+        "Geçmiş alışkanlık",
+        "Karşılaştırma"
+      ],
+      "correct": 0,
+      "audioZh": "只要你提前告诉我，我就可以安排时间。"
+    },
+    {
+      "id": "PLACEMENT_HSK4_14",
+      "level": 4,
+      "type": "listening",
+      "prompt": "Konuşmacının tavrı nedir?",
+      "options": [
+        "Kesin reddetme",
+        "Temkinli kabul",
+        "Öfke",
+        "İlgisizlik"
+      ],
+      "correct": 1,
+      "audioZh": "这个建议可以考虑，不过我们还得再讨论一下。"
+    },
+    {
+      "id": "PLACEMENT_HSK5_01",
+      "level": 5,
+      "type": "reading",
+      "prompt": "“这个结论缺乏足够的证据支持。” ne demektir?",
+      "options": [
+        "Sonuç yeterli kanıtla desteklenmiyor.",
+        "Sonuç kesinlikle doğrudur.",
+        "Kanıt artık gerekli değildir.",
+        "Sonuç daha önce kanıtlanmıştır."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_02",
+      "level": 5,
+      "type": "reading",
+      "prompt": "“从长远来看，这个选择更符合我们的目标。” ana fikir nedir?",
+      "options": [
+        "Kısa vadede daha ucuzdur.",
+        "Uzun vadede hedeflere daha uygundur.",
+        "Hedeflerle ilgisi yoktur.",
+        "Karar geçicidir."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_03",
+      "level": 5,
+      "type": "vocabulary",
+      "prompt": "“权衡” en yakın hangi anlamdadır?",
+      "options": [
+        "artıları ve eksileri tartmak",
+        "hemen reddetmek",
+        "ezberlemek",
+        "tesadüfen seçmek"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_04",
+      "level": 5,
+      "type": "grammar",
+      "prompt": "“即使遇到困难，也不应该轻易放弃。” ne ifade eder?",
+      "options": [
+        "Zorluk olursa bırakmak gerekir.",
+        "Zorluklara rağmen kolayca vazgeçilmemelidir.",
+        "Zorluk yoksa çalışılmalıdır.",
+        "Başarı garanti edilmelidir."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_05",
+      "level": 5,
+      "type": "reading",
+      "prompt": "“数据本身不会说话，关键在于如何解释。” ne vurgular?",
+      "options": [
+        "Veri gereksizdir.",
+        "Verilerin nasıl yorumlandığı önemlidir.",
+        "Veriler her zaman yanlıştır.",
+        "Yorum yapmak yasaktır."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_06",
+      "level": 5,
+      "type": "vocabulary",
+      "prompt": "“趋势” kelimesine en yakın anlam hangisidir?",
+      "options": [
+        "eğilim",
+        "kanıt",
+        "itiraz",
+        "ayrıntı"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_07",
+      "level": 5,
+      "type": "reading",
+      "prompt": "“方案虽然增加了短期成本，却能减少长期风险。” denge nedir?",
+      "options": [
+        "Kısa vadeli maliyet artar, uzun vadeli risk azalır.",
+        "Her iki maliyet de azalır.",
+        "Risk hemen artar.",
+        "Planın hiçbir faydası yoktur."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_08",
+      "level": 5,
+      "type": "grammar",
+      "prompt": "“之所以推迟，是因为准备还不充分。” hangi yapıyı ifade eder?",
+      "options": [
+        "Sebep-sonuç",
+        "Karşılaştırma",
+        "Varsayım",
+        "Emir"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_09",
+      "level": 5,
+      "type": "reading",
+      "prompt": "“他的观点并非毫无道理，只是忽略了一个重要前提。” konuşmacı ne diyor?",
+      "options": [
+        "Görüş tamamen yanlıştır.",
+        "Görüşün mantığı var ama önemli bir öncülü gözden kaçırıyor.",
+        "Görüş tartışmasız doğrudur.",
+        "Öncül önemsizdir."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_10",
+      "level": 5,
+      "type": "vocabulary",
+      "prompt": "“资源” kelimesinin Türkçesi hangisidir?",
+      "options": [
+        "kaynaklar",
+        "sonuçlar",
+        "alışkanlıklar",
+        "engeller"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK5_11",
+      "level": 5,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede önerilen yaklaşım nedir?",
+      "options": [
+        "Tek ölçüte bakmak",
+        "Birden fazla etkene birlikte bakmak",
+        "Kararı ertelemek",
+        "Veriyi yok saymak"
+      ],
+      "correct": 1,
+      "audioZh": "评价一个方案不能只看价格，还要考虑效率和风险。"
+    },
+    {
+      "id": "PLACEMENT_HSK5_12",
+      "level": 5,
+      "type": "listening",
+      "prompt": "Konuşmacı hangi noktayı sorguluyor?",
+      "options": [
+        "Sonucun doğru olup olmadığını",
+        "Varsayımın gerçekleşip gerçekleşmeyeceğini",
+        "Toplantı saatini",
+        "Maliyetin düşük olup olmadığını"
+      ],
+      "correct": 1,
+      "audioZh": "这个结论成立的前提，是市场需求不会明显下降。"
+    },
+    {
+      "id": "PLACEMENT_HSK5_13",
+      "level": 5,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümle ne anlatır?",
+      "options": [
+        "Başlangıçta itiraz edildi ama sonra kabul edildi.",
+        "Herkes baştan beri kabul etti.",
+        "Öneri iptal edildi.",
+        "Kimse görüş bildirmedi."
+      ],
+      "correct": 0,
+      "audioZh": "起初大家都反对，后来经过解释才逐渐接受。"
+    },
+    {
+      "id": "PLACEMENT_HSK5_14",
+      "level": 5,
+      "type": "listening",
+      "prompt": "Konuşmacının mesajı nedir?",
+      "options": [
+        "Deneyim tek başına yeterlidir.",
+        "Deneyim değerlidir ama yeni koşullara göre güncellenmelidir.",
+        "Deneyim gereksizdir.",
+        "Yeni koşullar önemsizdir."
+      ],
+      "correct": 1,
+      "audioZh": "经验很重要，但也要根据新的情况不断调整。"
+    },
+    {
+      "id": "PLACEMENT_HSK6_01",
+      "level": 6,
+      "type": "reading",
+      "prompt": "“真正留下来的，往往不是东西，而是人与人之间的联系。” ana fikir nedir?",
+      "options": [
+        "Asıl kalıcı olan çoğu zaman insan ilişkileridir.",
+        "Eşyalar ilişkilerden daha kalıcıdır.",
+        "Geçmiş unutulmalıdır.",
+        "Bağ kurmak gereksizdir."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_02",
+      "level": 6,
+      "type": "reading",
+      "prompt": "“回过头看，那些看似偶然的选择，后来都成了人生的一部分。” ne anlatır?",
+      "options": [
+        "Tesadüfi görünen seçimler zamanla hayatın parçası olabilir.",
+        "Bütün seçimler önemsizdir.",
+        "Geçmişle gelecek arasında bağ yoktur.",
+        "Sadece planlı seçimler önemlidir."
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_03",
+      "level": 6,
+      "type": "vocabulary",
+      "prompt": "“不言而喻” ifadesine en yakın anlam hangisidir?",
+      "options": [
+        "söylemeye gerek kalmadan açık",
+        "kesinlikle yanlış",
+        "zorla kabul edilen",
+        "tesadüfen ortaya çıkan"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_04",
+      "level": 6,
+      "type": "grammar",
+      "prompt": "“与其说这是失败，不如说是一次必要的调整。” konuşmacı neyi yeniden çerçeveliyor?",
+      "options": [
+        "Bir başarısızlığı gerekli bir uyarlama olarak",
+        "Bir başarıyı başarısızlık olarak",
+        "Bir tesadüfü plan olarak",
+        "Bir riski garanti olarak"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_05",
+      "level": 6,
+      "type": "reading",
+      "prompt": "“问题的复杂之处在于，各方都掌握了部分事实，却没有人看到全貌。” sorun nedir?",
+      "options": [
+        "Kimsenin bilgi sahibi olmaması",
+        "Herkesin kısmi bilgiye sahip olması ama bütün resmi görememesi",
+        "Gerçeklerin önemsiz olması",
+        "Tarafların aynı görüşte olması"
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_06",
+      "level": 6,
+      "type": "vocabulary",
+      "prompt": "“斟酌” en yakın hangi anlamdadır?",
+      "options": [
+        "dikkatle değerlendirip tartmak",
+        "aceleyle unutmak",
+        "yüksek sesle tartışmak",
+        "tesadüfen seçmek"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_07",
+      "level": 6,
+      "type": "reading",
+      "prompt": "“越是看似简单的答案，越需要警惕它忽略了什么。” ne önerir?",
+      "options": [
+        "Basit cevapları sorgulamayı",
+        "Basit cevapları hemen kabul etmeyi",
+        "Ayrıntıları yok saymayı",
+        "Soru sormamayı"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_08",
+      "level": 6,
+      "type": "grammar",
+      "prompt": "“倘若当初没有那次误会，事情也许会朝另一个方向发展。” hangi anlamı taşır?",
+      "options": [
+        "Geçmişe ilişkin karşı-olgusal varsayım",
+        "Kesin gelecek planı",
+        "Şimdiki emir",
+        "Genel alışkanlık"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_09",
+      "level": 6,
+      "type": "reading",
+      "prompt": "“他的沉默并不意味着同意，反而可能是保留意见。” hangi çıkarım doğrudur?",
+      "options": [
+        "Sessizlik mutlaka onaydır.",
+        "Sessizlik çekince belirtisi olabilir.",
+        "Sessizlik konuşmayı bitirir.",
+        "Görüş ayrılığı yoktur."
+      ],
+      "correct": 1,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_10",
+      "level": 6,
+      "type": "vocabulary",
+      "prompt": "“脉络” bu bağlamda en yakın hangi anlamdadır?",
+      "options": [
+        "bağlam ve gelişim çizgisi",
+        "fiyat listesi",
+        "kişisel tercih",
+        "tesadüf"
+      ],
+      "correct": 0,
+      "audioZh": ""
+    },
+    {
+      "id": "PLACEMENT_HSK6_11",
+      "level": 6,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede ne vurgulanıyor?",
+      "options": [
+        "Bir kararın sadece görünen sonucu değil, alternatiflerin de değerlendirilmesi",
+        "Sonucun tek başına yeterli olduğu",
+        "Alternatiflerin gereksiz olduğu",
+        "Kararın ertelenmesi gerektiği"
+      ],
+      "correct": 0,
+      "audioZh": "判断一个决定是否合理，不仅要看结果，还要看当时有哪些可能的选择。"
+    },
+    {
+      "id": "PLACEMENT_HSK6_12",
+      "level": 6,
+      "type": "listening",
+      "prompt": "Konuşmacının yaklaşımı nedir?",
+      "options": [
+        "Belirsizliği kabul ederek temkinli sonuç çıkarma",
+        "Kesin hüküm verme",
+        "Veriyi reddetme",
+        "Konuyu değiştirme"
+      ],
+      "correct": 0,
+      "audioZh": "现有证据只能说明两者相关，还不能证明存在直接的因果关系。"
+    },
+    {
+      "id": "PLACEMENT_HSK6_13",
+      "level": 6,
+      "type": "listening",
+      "prompt": "Dinlediğiniz cümlede hangi nüans vardır?",
+      "options": [
+        "Eleştirinin tamamen olumsuz olmadığı, iyileştirme amacı taşıdığı",
+        "Eleştirinin kişisel saldırı olduğu",
+        "Önerinin reddedildiği",
+        "Değişikliğe gerek olmadığı"
+      ],
+      "correct": 0,
+      "audioZh": "这番批评虽然尖锐，但出发点是希望方案变得更完善。"
+    },
+    {
+      "id": "PLACEMENT_HSK6_14",
+      "level": 6,
+      "type": "listening",
+      "prompt": "Konuşmacı neyi savunuyor?",
+      "options": [
+        "Kısa vadeli kolaylık uğruna uzun vadeli güvenin feda edilmemesini",
+        "Güvenin önemsiz olduğunu",
+        "Her zaman en hızlı çözümün seçilmesini",
+        "Geçmiş kararların değiştirilmemesini"
+      ],
+      "correct": 0,
+      "audioZh": "如果为了眼前的方便牺牲长期的信任，最后付出的代价可能更大。"
+    }
+  ]
+}
