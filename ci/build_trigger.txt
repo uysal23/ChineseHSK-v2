@@ -1,5 +1,6 @@
-build retry requested: 2026-09-28T02:27+03:00
-source commit before retry: 43b77406eae10143f399296ef86c2b1e0d524e98
-scope: current repository state through HSK3 SC030
-repair: quarantine malformed source-tree HSK3 SC013 and use validated SC011-SC030 override bundle for SC013
-reason: explicit user build approval remains active
+build requested: 2026-09-28T19:06+03:00
+source head before trigger: f688352c86df29e11981b6ee18f7a1ef1145cf1b
+scope: current repository state including HSK4 SC031-SC036 authoritative partial visuals
+visual gate: HSK4 SC021-SC030 10/10 READY_FOR_BUILD
+partial batch preserved: HSK4 SC031-SC040 = 6/10 IN_PROGRESS
+reason: explicit user build approval
