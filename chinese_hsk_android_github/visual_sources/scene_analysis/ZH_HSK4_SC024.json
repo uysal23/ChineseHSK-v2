@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC024",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC024.json",
+  "titleTr": "Kafe Elektrik Arızası",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Öğle yoğunluğunda elektrik kesilir; ekip müşterileri sakin tutmaya çalışır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "员工",
+    "顾客",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "员工",
+    "顾客",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "员工": "adult_employee",
+    "顾客": "adult_customer",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "kararmış/enerjisiz kafe ekipmanı",
+    "servis tezgâhı",
+    "elde taşınan acil ışık/fener",
+    "bekleyen müşteri"
+  ],
+  "visualDirectionTr": "Öğle yoğunluğunda aile kafesi; elektrik kesintisi nedeniyle bazı ışıklar ve ekipman kapalı, Liu Mei ve Zhang Wei çalışanla müşteriyi sakin tutuyor. Dört konuşmacı görünür; güvenli ve kontrollü atmosfer.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC023",
+    "nextSceneId": "ZH_HSK4_SC025"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
