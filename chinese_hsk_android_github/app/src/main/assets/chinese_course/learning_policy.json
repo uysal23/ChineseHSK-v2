@@ -7,10 +7,17 @@
     "allowNext": true,
     "allowFavorites": true,
     "favoritesPersistLocally": true,
-    "favoritesStudyMode": true
+    "favoritesStudyMode": true,
+    "dialogueWideVocabulary": true,
+    "shadowingEnabled": true,
+    "pronunciationSimilarityPercent": true
   },
   "sentencePractice": {
-    "types": ["word_order", "fill_blank", "sentence_repair"]
+    "types": [
+      "word_order",
+      "fill_blank",
+      "sentence_repair"
+    ]
   },
   "masteryGate": {
     "exam1": {
@@ -24,5 +31,64 @@
     },
     "unlockNextSceneOnlyAfterBothPass": true,
     "passedScenesRemainRevisitable": true
+  },
+  "practiceVocabularyVisibility": {
+    "wordPractice": "all_dialogue_words",
+    "sentencePractice": "all_dialogue_words",
+    "comprehensionPractice": "all_dialogue_words",
+    "interactiveDialoguePractice": "all_dialogue_words"
+  },
+  "freeStudy": {
+    "enabled": true,
+    "selectableTypes": [
+      "vocabulary",
+      "sentence",
+      "comprehension",
+      "interactive_dialogue",
+      "pronunciation_shadowing"
+    ],
+    "selectableLevel": [
+      "ALL",
+      "HSK1",
+      "HSK2",
+      "HSK3",
+      "HSK4",
+      "HSK5",
+      "HSK6"
+    ],
+    "customItemCount": true,
+    "allowAllItems": true,
+    "countExamples": [
+      10,
+      30,
+      50
+    ]
+  },
+  "pronunciation": {
+    "shadowing": true,
+    "recognitionLanguage": "zh-CN",
+    "displaySimilarityPercent": true,
+    "scoringNote": "ASR text-similarity percentage; not a laboratory tone/phoneme score"
+  },
+  "placementTest": {
+    "dialogueIndependent": true,
+    "levels": [
+      "HSK1",
+      "HSK2",
+      "HSK3",
+      "HSK4",
+      "HSK5",
+      "HSK6"
+    ],
+    "questionsPerLevel": 14,
+    "totalQuestions": 84,
+    "passPerLevel": 10,
+    "skillMix": [
+      "vocabulary",
+      "grammar",
+      "reading",
+      "listening"
+    ],
+    "originalQuestionBank": true
   }
 }
