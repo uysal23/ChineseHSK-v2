@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC021",
+  "generationSceneId": "ZH_HSK4_SC021",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC021.json",
+  "dialogueSha256": "6fde62b2e457b7f25a975715d9aa18cd6c25b74a5330b5dd8c8467d7285f71bb",
+  "titleTr": "Büyükbabanın Pazarı",
+  "locationId": "LOC_ZH_MARKET_001",
+  "scenePurposeTr": "Büyükbaba yetiştirdiği ürünleri mahalle pazarında paylaşır ve satar.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "顾客",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "顾客",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "爷爷": "elderly_male",
+    "顾客": "adult_customer",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "sebze ve tarım ürünü tezgâhı",
+    "taze yerel ürünler",
+    "alışveriş sepeti/poşeti",
+    "pazar standı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC020",
+    "nextSceneId": "ZH_HSK4_SC022"
+  },
+  "sourceGeneratedFilename": "sıcak_bir_pazar_buluşması.png",
+  "finalAssetFilename": "ZH_HSK4_SC021.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC021.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "82e1958ab965834e5aeabf404e24e1a2a3a2b235f772e7a6d8e0bed071efa7a8",
+    "bytes": 252398
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC021-SC030 final paketinde LOCKED_V2, HSK4 maturity, kadro, mekan, kritik obje, 9:16, metinsizlik ve sahne kimliği kontrolleri PASS. SC024 önceki yanlış üretimler reddedildi; yalnız son doğru kafe elektrik kesintisi görseli entegre edildi."
+}

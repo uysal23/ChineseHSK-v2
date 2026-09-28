@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC025",
+  "generationSceneId": "ZH_HSK4_SC025",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC025.json",
+  "dialogueSha256": "a3cfe2e878b20553ee360368da67970cc2a56e61ff1420d41035197cbddeea75",
+  "titleTr": "Zhang’ın İş-Yaşam Dengesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Zhang fazla çalışmanın aile ve sağlığı üzerindeki etkisini fark eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "李晨": "mature_adult_friend",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "iş çantası/dosya",
+    "çay fincanları",
+    "ev oturma alanı",
+    "yorgunluk belirten beden dili"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC024",
+    "nextSceneId": "ZH_HSK4_SC026"
+  },
+  "sourceGeneratedFilename": "sıcacık_aile_sohbeti.png",
+  "finalAssetFilename": "ZH_HSK4_SC025.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC025.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "8baea8f9f256fd24a5ea63a05067f3954a68f7465031707ede64f0af3ae76928",
+    "bytes": 200694
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC021-SC030 final paketinde LOCKED_V2, HSK4 maturity, kadro, mekan, kritik obje, 9:16, metinsizlik ve sahne kimliği kontrolleri PASS. SC024 önceki yanlış üretimler reddedildi; yalnız son doğru kafe elektrik kesintisi görseli entegre edildi."
+}

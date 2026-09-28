@@ -3,42 +3,69 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK4_SC011_SC020",
+    "batchId": "HSK4_SC021_SC030",
     "level": "HSK4",
-    "startScene": "HSK4_SC011",
-    "endScene": "HSK4_SC020",
+    "startScene": "HSK4_SC021",
+    "endScene": "HSK4_SC030",
     "sceneIds": [
-      "ZH_HSK4_SC011",
-      "ZH_HSK4_SC012",
-      "ZH_HSK4_SC013",
-      "ZH_HSK4_SC014",
-      "ZH_HSK4_SC015",
-      "ZH_HSK4_SC016",
-      "ZH_HSK4_SC017",
-      "ZH_HSK4_SC018",
-      "ZH_HSK4_SC019",
-      "ZH_HSK4_SC020"
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC011",
-      "ZH_HSK4_SC012",
-      "ZH_HSK4_SC013",
-      "ZH_HSK4_SC014",
-      "ZH_HSK4_SC015",
-      "ZH_HSK4_SC016",
-      "ZH_HSK4_SC017",
-      "ZH_HSK4_SC018",
-      "ZH_HSK4_SC019",
-      "ZH_HSK4_SC020"
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
     ],
     "pendingSceneIds": [],
-    "rejectedGeneratedSceneIds": [],
-    "status": "INTEGRATED_QA_PASS",
+    "rejectedGeneratedSceneIds": [
+      "ZH_HSK4_SC024_PREVIOUS_LIBRARY_ATTEMPTS",
+      "ZH_HSK4_SC024_PREVIOUS_COLLAGE_ATTEMPTS"
+    ],
+    "status": "READY_FOR_BUILD",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+    "analysisReadySceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ],
+    "finalCandidateSceneIds": [
+      "ZH_HSK4_SC021",
+      "ZH_HSK4_SC022",
+      "ZH_HSK4_SC023",
+      "ZH_HSK4_SC024",
+      "ZH_HSK4_SC025",
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC030"
+    ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC011-SC020 10/10 final WebP + runtime mirror + LOCKED_V2 metadata olarak tamamlandı. SC012 doğru aile kafesi/yeni çalışan eğitim sahnesiyle yeniden üretildi ve doğrulandı. Build başlatılmadı."
+    "noteTr": "HSK4 SC021-SC030 10/10 final WebP authoritative app asset + LOCKED_V2 metadata olarak entegre edildi ve QA PASS. Kaynak push yalnız sync/doğrulama içindir; APK build için kullanıcıdan ayrıca açık onay gerekir."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -74,7 +101,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC011_SC020_INTEGRATED_QA_PASS_2026-09-28",
+  "latestVisualRevision": "HSK4_SC021_SC030_INTEGRATED_QA_PASS_2026-09-28",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -637,8 +664,7 @@
       "ZH_HSK4_SC029",
       "ZH_HSK4_SC030"
     ],
-    "completedSceneIds": [],
-    "pendingSceneIds": [
+    "completedSceneIds": [
       "ZH_HSK4_SC021",
       "ZH_HSK4_SC022",
       "ZH_HSK4_SC023",
@@ -650,12 +676,12 @@
       "ZH_HSK4_SC029",
       "ZH_HSK4_SC030"
     ],
+    "pendingSceneIds": [],
     "rejectedGeneratedSceneIds": [
       "ZH_HSK4_SC024_PREVIOUS_LIBRARY_ATTEMPTS",
       "ZH_HSK4_SC024_PREVIOUS_COLLAGE_ATTEMPTS"
     ],
-    "rejectionReasonTr": "Bu oturumdaki ilk görsel üretim denemeleri LOCKED_V2 ile uyumsuzdu: paket kolaj/yazı/yanlış kadro üretti; SC021 için sonraki deneme sahne yerine GitHub ekranı üretti. Hiçbiri final asset olarak entegre edilmedi.",
-    "status": "READY_FOR_INTEGRATION",
+    "status": "READY_FOR_BUILD",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
@@ -670,9 +696,6 @@
       "ZH_HSK4_SC029",
       "ZH_HSK4_SC030"
     ],
-    "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "HSK4 SC021-SC030 için 10/10 final görsel adayları görsel QA'dan geçti ve scene ID bazında WebP'ye hazırlandı. SC024 önceki yanlış kütüphane/kolaj denemeleri reddedildi; son elektrik kesintisi kafe sahnesi kabul edildi. Binary WebP dosyaları henüz GitHub authoritative asset yollarına commit edilmedi; bu nedenle batch INTEGRATED_QA_PASS değildir. APK build tetiklenmedi.",
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC021",
       "ZH_HSK4_SC022",
@@ -684,6 +707,9 @@
       "ZH_HSK4_SC028",
       "ZH_HSK4_SC029",
       "ZH_HSK4_SC030"
-    ]
+    ],
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK4 SC021-SC030 10/10 final WebP authoritative app asset + LOCKED_V2 metadata olarak entegre edildi ve QA PASS. Kaynak push yalnız sync/doğrulama içindir; APK build için kullanıcıdan ayrıca açık onay gerekir."
   }
 }

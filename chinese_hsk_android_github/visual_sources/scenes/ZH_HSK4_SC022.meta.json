@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC022",
+  "generationSceneId": "ZH_HSK4_SC022",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC022.json",
+  "dialogueSha256": "e8a26c681b76a8fb2a384ff291fc1bc296a9ee3779ed89e1698159269623de2f",
+  "titleTr": "Kafeye Yerel Ürünler",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Liu Mei yerel çiftçilerle daha düzenli tedarik anlaşması konuşur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "供应商",
+    "张伟",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "供应商",
+    "张伟",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "供应商": "adult_supplier",
+    "张伟": "mature_adult",
+    "员工": "adult_employee"
+  },
+  "criticalObjects": [
+    "yerel sebze/meyve kasaları",
+    "tedarik kutuları",
+    "kafe servis tezgâhı",
+    "ürün örnekleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC021",
+    "nextSceneId": "ZH_HSK4_SC023"
+  },
+  "sourceGeneratedFilename": "taze_ürünlerle_sıcak_kafe_sohbeti.png",
+  "finalAssetFilename": "ZH_HSK4_SC022.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC022.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "b2cbc7bc488e4175b0d5ddde3b639fec42b60cc966023511ca7c173b61771d6d",
+    "bytes": 245116
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC021-SC030 final paketinde LOCKED_V2, HSK4 maturity, kadro, mekan, kritik obje, 9:16, metinsizlik ve sahne kimliği kontrolleri PASS. SC024 önceki yanlış üretimler reddedildi; yalnız son doğru kafe elektrik kesintisi görseli entegre edildi."
+}

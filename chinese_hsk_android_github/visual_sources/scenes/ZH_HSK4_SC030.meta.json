@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC030",
+  "generationSceneId": "ZH_HSK4_SC030",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC030.json",
+  "dialogueSha256": "73e2056704b0d02278ed728225cf778088f1802681f807032043c746d044e5b4",
+  "titleTr": "Tatilde Kaybolan Telefon",
+  "locationId": "LOC_ZH_TOURIST_SITE_001",
+  "scenePurposeTr": "Lele telefonunu kaybeder ve güvenlik adımlarını izler.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "工作人员": "adult_site_staff"
+  },
+  "criticalObjects": [
+    "boş telefon kılıfı/telefon arama hareketi",
+    "turistik alan danışma noktası",
+    "seyahat çantası",
+    "güvenlik/danışma görevlisi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC029",
+    "nextSceneId": "ZH_HSK4_SC031"
+  },
+  "sourceGeneratedFilename": "turist_danışmasında_kayıp_telefon_telaşı.png",
+  "finalAssetFilename": "ZH_HSK4_SC030.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC030.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "7872c7b8a36d7c1798b60cb13b6818b32cd77442b5cf3c2dc5b4b3c407bdb82e",
+    "bytes": 222120
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: HSK4 SC021-SC030 final paketinde LOCKED_V2, HSK4 maturity, kadro, mekan, kritik obje, 9:16, metinsizlik ve sahne kimliği kontrolleri PASS. SC024 önceki yanlış üretimler reddedildi; yalnız son doğru kafe elektrik kesintisi görseli entegre edildi."
+}
