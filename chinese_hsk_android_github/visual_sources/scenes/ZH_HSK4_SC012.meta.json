@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC012",
+  "generationSceneId": "ZH_HSK4_SC012",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC012.json",
+  "dialogueSha256": "37de8478b74e5acdaac5673503eede9f301dbd6983ed23049c035f36cdc373e0",
+  "titleTr": "Deneyimsiz Yeni Çalışan",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Deneyimsiz yeni çalışan sık hata yapar; Liu Mei ve ekip yapıcı eğitim ve geri bildirimle destek olur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "新员工",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "新员工",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "新员工": "young_adult_employee",
+    "员工": "adult_employee",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "espresso makinesi",
+    "süt köpürtme sürahisi",
+    "latte fincanı",
+    "barista çalışma alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC011",
+    "nextSceneId": "ZH_HSK4_SC013"
+  },
+  "sourceGeneratedFilename": "sıcak_kafede_latte_sanatı_eğitimi.png",
+  "finalAssetFilename": "ZH_HSK4_SC012.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC012.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "77fe45028adf4ae2df71b98cc042a25cd1dc1ded42f1c565934ad45b1587b841"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-28: SC012 yeniden üretildi. Önceki yanlış istasyon/seyahat adayları reddedildi. Doğru aile kafesi, doğru dört kişilik kadro ve yeni çalışan eğitim aksiyonu doğrulandı."
+}

@@ -3,11 +3,11 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "sceneId": "ZH_HSK4_SC012",
-  "status": "ANALYZED_READY_FOR_GENERATION",
+  "status": "FINAL_SELECTED",
   "dialogueSource": "ci/dialogue_final_v5/HSK4/ZH_HSK4_SC012.json",
   "titleTr": "Deneyimsiz Yeni Çalışan",
   "locationId": "LOC_ZH_FAMILY_CAFE_001",
-  "scenePurposeTr": "Yeni çalışan eğitim alır; ekip hataları sakin biçimde düzelterek işi öğretir.",
+  "scenePurposeTr": "Deneyimsiz yeni çalışan sık hata yapar; Liu Mei ve ekip yapıcı eğitim ve geri bildirimle destek olur.",
   "dialogueSpeakers": [
     "刘梅",
     "新员工",
@@ -23,7 +23,9 @@
   "requiredNonSpeakerCharacters": [],
   "forbiddenExtraCharacters": [
     "张雨桐",
-    "张乐乐"
+    "张乐乐",
+    "爷爷",
+    "奶奶"
   ],
   "characterAgeLock": {
     "刘梅": "mature_adult",
@@ -32,12 +34,12 @@
     "张伟": "mature_adult"
   },
   "criticalObjects": [
-    "servis tepsisi",
     "espresso makinesi",
-    "eğitim notları",
-    "kahve fincanları"
+    "süt köpürtme sürahisi",
+    "latte fincanı",
+    "barista çalışma alanı"
   ],
-  "visualDirectionTr": "Kafe eğitim anı; Liu Mei yeni çalışanı yönlendirir, deneyimli çalışan yardımcı olur, Zhang Wei gözlem/destek verir. Utandırıcı ya da kaotik değil, yapıcı eğitim.",
+  "visualDirectionTr": "Aile kafesinde deneyimsiz yeni çalışan latte hazırlamayı öğreniyor. Mevcut çalışan uygulamalı yönlendirme yapıyor; Liu Mei yapıcı geri bildirim veriyor, Zhang Wei destekleyici biçimde izliyor. İstasyon, seyahat, valiz ve aile dışı yanlış karakterler yok.",
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC011",
     "nextSceneId": "ZH_HSK4_SC013"
@@ -51,6 +53,7 @@
     "collageAllowed": false,
     "splitScreenAllowed": false,
     "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersVisible": false,
     "ageAppropriateClothing": true,
     "miniSkirtAllowed": false,
     "sexualizedClothingAllowed": false,

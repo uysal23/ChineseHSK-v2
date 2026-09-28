@@ -24,7 +24,7 @@
     "HOLD_CAST_MISMATCH": 57,
     "UI_REFERENCE_ONLY": 48,
     "REJECT_UNRELATED": 2,
-    "FINAL_SELECTED": 72,
+    "FINAL_SELECTED": 73,
     "FAMILY_REFERENCE": 30
   },
   "assets": [
@@ -2663,6 +2663,26 @@
       "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC020.webp",
       "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve yaş olgunluğu continuity kontrolünden geçti; kullanıcı uygun görselleri yerlerine koyma onayı verdi.",
       "asset": "chinese_course/media/scenes/ZH_HSK4_SC020.webp",
+      "sourceKind": "source_override_locked_v2",
+      "tags": [
+        "scene_art",
+        "locked_v2",
+        "hsk4",
+        "source_override",
+        "maturity_progression"
+      ]
+    },
+    {
+      "sourceFile": "sıcak_kafede_latte_sanatı_eğitimi.png",
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.5628,
+      "status": "FINAL_SELECTED",
+      "continuityGroup": "ZHANG_FAMILY_CANON_HSK4",
+      "sceneId": "ZH_HSK4_SC012",
+      "runtimeAsset": "chinese_course/media/scenes/ZH_HSK4_SC012.webp",
+      "reasonTr": "LOCKED_V2 HSK4 diyalog/kadro/mekân ve maturity continuity kontrolünden geçti; SC012 kullanıcı onayıyla doğru kafe eğitim sahnesi olarak final seçildi.",
+      "asset": "chinese_course/media/scenes/ZH_HSK4_SC012.webp",
       "sourceKind": "source_override_locked_v2",
       "tags": [
         "scene_art",
