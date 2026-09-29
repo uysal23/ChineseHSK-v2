@@ -1,6 +1,9 @@
 package com.ayhan.chineselearning
 
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.PointF
+import android.media.FaceDetector
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -138,6 +141,160 @@ private fun rememberAssetBitmap(path: String): ImageBitmap? {
             context.assets.open(path).use { BitmapFactory.decodeStream(it)?.asImageBitmap() }
         } catch (_: Exception) {
             null
+        }
+    }
+}
+
+private fun detectSceneMouthAnchors(
+    context: android.content.Context,
+    assetPath: String,
+    maxFaces: Int
+): List<Pair<Float, Float>> {
+    if (assetPath.isBlank() || maxFaces <= 0) return emptyList()
+
+    return runCatching {
+        val decoded = context.assets.open(assetPath).use { BitmapFactory.decodeStream(it) }
+            ?: return@runCatching emptyList<Pair<Float, Float>>()
+
+        val targetWidthRaw = minOf(decoded.width, 520)
+        val targetWidth = if (targetWidthRaw % 2 == 0) targetWidthRaw else targetWidthRaw - 1
+        val targetHeight = ((decoded.height.toFloat() / decoded.width.toFloat()) * targetWidth)
+            .toInt()
+            .coerceAtLeast(2)
+
+        val scaled = if (decoded.width != targetWidth) {
+            Bitmap.createScaledBitmap(decoded, targetWidth, targetHeight, true)
+        } else {
+            decoded
+        }
+        val rgb565 = if (scaled.config == Bitmap.Config.RGB_565) {
+            scaled
+        } else {
+            scaled.copy(Bitmap.Config.RGB_565, false)
+        }
+
+        val detector = FaceDetector(rgb565.width, rgb565.height, maxFaces.coerceIn(1, 12))
+        val faces = arrayOfNulls<FaceDetector.Face>(maxFaces.coerceIn(1, 12))
+        val count = detector.findFaces(rgb565, faces)
+        val anchors = buildList {
+            for (i in 0 until count) {
+                val face = faces[i] ?: continue
+                val midpoint = PointF()
+                face.getMidPoint(midpoint)
+                val eyeDistance = face.eyesDistance().coerceAtLeast(1f)
+
+                // Android FaceDetector gives the midpoint between the eyes.
+                // Human eye-line -> mouth-center distance is roughly one inter-eye distance.
+                // Slightly below that point keeps the bubble pointer beside the mouth rather
+                // than beside the nose.
+                val mouthX = (midpoint.x / rgb565.width.toFloat()).coerceIn(0.03f, 0.97f)
+                val mouthY = ((midpoint.y + eyeDistance * 0.92f) / rgb565.height.toFloat())
+                    .coerceIn(0.08f, 0.82f)
+                add(mouthX to mouthY)
+            }
+        }.sortedBy { it.first }
+
+        if (rgb565 !== scaled) rgb565.recycle()
+        if (scaled !== decoded) scaled.recycle()
+        decoded.recycle()
+        anchors
+    }.getOrDefault(emptyList())
+}
+
+@Composable
+private fun SpeakerSpeechBubble(
+    speakerLabel: String,
+    zh: String,
+    pinyin: String,
+    tr: String,
+    showPinyin: Boolean,
+    showTurkish: Boolean,
+    mouthAnchor: Pair<Float, Float>,
+    modifier: Modifier = Modifier
+) {
+    BoxWithConstraints(modifier.fillMaxSize()) {
+        val mouthX = mouthAnchor.first.coerceIn(0.03f, 0.97f)
+        val mouthY = mouthAnchor.second.coerceIn(0.08f, 0.82f)
+        val bubbleMaxWidth = 228.dp
+        val pointerSize = 11.dp
+        val placeOnRight = mouthX <= 0.53f
+
+        val desiredX = if (placeOnRight) {
+            maxWidth * mouthX + 10.dp
+        } else {
+            maxWidth * mouthX - bubbleMaxWidth - 10.dp
+        }
+        val bubbleX = desiredX.coerceIn(6.dp, (maxWidth - bubbleMaxWidth - 6.dp).coerceAtLeast(6.dp))
+        val bubbleY = (maxHeight * mouthY - 42.dp).coerceIn(76.dp, maxHeight - 250.dp)
+
+        Row(
+            modifier = Modifier.offset(x = bubbleX, y = bubbleY),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            if (placeOnRight) {
+                Box(
+                    Modifier
+                        .size(pointerSize)
+                        .graphicsLayer { rotationZ = 45f }
+                        .background(Color.White.copy(alpha = 0.96f))
+                )
+                Spacer(Modifier.width(2.dp))
+            }
+
+            Surface(
+                modifier = Modifier.widthIn(min = 118.dp, max = bubbleMaxWidth),
+                color = Color.White.copy(alpha = 0.96f),
+                contentColor = Color(0xFF241A2B),
+                shape = RoundedCornerShape(16.dp),
+                shadowElevation = 8.dp
+            ) {
+                Column(Modifier.padding(horizontal = 12.dp, vertical = 9.dp)) {
+                    if (speakerLabel.isNotBlank()) {
+                        Text(
+                            speakerLabel,
+                            color = Color(0xFF75509B),
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Bold,
+                            maxLines = 1
+                        )
+                    }
+                    Text(
+                        zh,
+                        color = Color(0xFF241A2B),
+                        fontSize = 17.sp,
+                        fontWeight = FontWeight.Bold,
+                        lineHeight = 21.sp
+                    )
+                    if (showPinyin && pinyin.isNotBlank()) {
+                        Text(
+                            pinyin,
+                            color = Color(0xFF665C6D),
+                            fontSize = 11.sp,
+                            lineHeight = 14.sp,
+                            modifier = Modifier.padding(top = 3.dp)
+                        )
+                    }
+                    if (showTurkish && tr.isNotBlank()) {
+                        Text(
+                            tr,
+                            color = Color(0xFF443A49),
+                            fontSize = 11.sp,
+                            lineHeight = 14.sp,
+                            modifier = Modifier.padding(top = 3.dp)
+                        )
+                    }
+                }
+            }
+
+            if (!placeOnRight) {
+                Spacer(Modifier.width(2.dp))
+                Box(
+                    Modifier
+                        .size(pointerSize)
+                        .graphicsLayer { rotationZ = 45f }
+                        .background(Color.White.copy(alpha = 0.96f))
+                )
+            }
         }
     }
 }
@@ -501,9 +658,16 @@ fun SceneStage(
             }
 
         }
-        // Explicit mouth anchors are used for pre-rendered scene art.  They prevent
-        // a male/female speaker from being visually associated with the wrong character.
-        val sceneArtMouthAnchor: Pair<Float, Float>? = if (sceneArtBitmap != null) when (scene.id) {
+        // Resolve an actual mouth point for the active speaker.
+        //
+        // 1) Hand-tuned anchors win when a scene has been visually calibrated.
+        // 2) For every other pre-rendered WebP, Android's bundled offline FaceDetector
+        //    finds face locations and we map the stable visual cast order left-to-right.
+        // 3) If face detection cannot resolve enough faces, use a conservative cast-slot
+        //    fallback instead of hiding the speech bubble.
+        //
+        // No network service is used and the WebP itself is never modified.
+        val explicitMouthAnchor: Pair<Float, Float>? = if (sceneArtBitmap != null) when (scene.id) {
             "ZH_HSK1_SC001" -> when (activeSpeaker) {
                 "张伟" -> 0.175f to 0.404f
                 "刘梅" -> 0.372f to 0.414f
@@ -515,81 +679,56 @@ fun SceneStage(
             else -> null
         } else null
 
-        // The dialogue text lives in the bottom subtitle panel.  The stage bubble is
-        // intentionally empty: it only marks the character whose turn it is to speak.
-        // Only show the mouth marker when character positions are actually known.
-        // A pre-rendered scene image has no per-character mouth coordinates; guessing from
-        // cast order produced misleading markers over the wrong person.
+        val context = LocalContext.current
+        val detectedMouthAnchors = remember(scene.id, cast.size, sceneArtBitmap != null) {
+            if (sceneArtBitmap != null && cast.isNotEmpty()) {
+                detectSceneMouthAnchors(
+                    context = context,
+                    assetPath = sceneArtPath,
+                    maxFaces = cast.size + 3
+                )
+            } else {
+                emptyList()
+            }
+        }
+
+        val autoDetectedAnchor =
+            if (sceneArtBitmap != null && activeIndex >= 0 && detectedMouthAnchors.size >= cast.size) {
+                detectedMouthAnchors.getOrNull(activeIndex)
+            } else {
+                null
+            }
+
+        val fallbackAnchor =
+            if (activeIndex >= 0) {
+                val x = ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat())
+                    .coerceIn(0.07f, 0.93f)
+                // Pre-rendered 9:16 character faces are normally in the upper-middle region.
+                // Fallback characters drawn by Compose sit lower on the stage.
+                val y = if (sceneArtBitmap != null) 0.41f else 0.55f
+                x to y
+            } else {
+                null
+            }
+
+        val activeMouthAnchor = explicitMouthAnchor ?: autoDetectedAnchor ?: fallbackAnchor
+
         if (
             dialogueZh.isNotBlank() &&
             activeSpeaker.isNotBlank() &&
-            activeIndex >= 0 &&
-            (sceneArtBitmap == null || sceneArtMouthAnchor != null)
+            activeSpeaker != "旁白" &&
+            activeMouthAnchor != null
         ) {
-            BoxWithConstraints(Modifier.fillMaxSize()) {
-                val mouthXFraction =
-                    sceneArtMouthAnchor?.first
-                        ?: ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat()).coerceIn(0.08f, 0.92f)
-                val bubbleWidth = 46.dp
-                val bubbleHeight = 28.dp
-                val placeOnRight = mouthXFraction <= 0.50f
-                val horizontalNudge = if (placeOnRight) 34.dp else (-34).dp
-                val bubbleX = (
-                    maxWidth * mouthXFraction - bubbleWidth / 2 + horizontalNudge
-                ).coerceIn(6.dp, maxWidth - bubbleWidth - 6.dp)
-                val mouthYFraction = sceneArtMouthAnchor?.second ?: 0.63f
-                val bubbleY = (
-                    maxHeight * mouthYFraction - bubbleHeight / 2
-                ).coerceIn(92.dp, maxHeight - 220.dp)
-
-                Column(
-                    modifier = Modifier.offset(x = bubbleX, y = bubbleY),
-                    horizontalAlignment = if (placeOnRight) Alignment.Start else Alignment.End
-                ) {
-                    Box(
-                        Modifier
-                            .size(width = bubbleWidth, height = bubbleHeight)
-                            .background(
-                                Color.White.copy(alpha = 0.12f),
-                                RoundedCornerShape(9.dp)
-                            )
-                            .drawBehind {
-                                val stroke = 1.15.dp.toPx()
-                                drawRoundRect(
-                                    color = Color.White.copy(alpha = 0.90f),
-                                    cornerRadius = CornerRadius(9.dp.toPx(), 9.dp.toPx()),
-                                    style = Stroke(
-                                        width = stroke,
-                                        pathEffect = PathEffect.dashPathEffect(
-                                            floatArrayOf(5.dp.toPx(), 4.dp.toPx())
-                                        )
-                                    )
-                                )
-                            }
-                    )
-                    Box(
-                        Modifier
-                            .padding(
-                                start = if (placeOnRight) 7.dp else 0.dp,
-                                end = if (placeOnRight) 0.dp else 7.dp
-                            )
-                            .size(7.dp)
-                            .graphicsLayer { rotationZ = 45f }
-                            .background(Color.White.copy(alpha = 0.10f))
-                            .drawBehind {
-                                drawRect(
-                                    color = Color.White.copy(alpha = 0.86f),
-                                    style = Stroke(
-                                        width = 1.dp.toPx(),
-                                        pathEffect = PathEffect.dashPathEffect(
-                                            floatArrayOf(3.dp.toPx(), 2.dp.toPx())
-                                        )
-                                    )
-                                )
-                            }
-                    )
-                }
-            }
+            SpeakerSpeechBubble(
+                speakerLabel = speakerLabel,
+                zh = dialogueZh,
+                pinyin = dialoguePinyin,
+                tr = dialogueTr,
+                showPinyin = showPinyin,
+                showTurkish = showTurkish,
+                mouthAnchor = activeMouthAnchor,
+                modifier = Modifier.fillMaxSize()
+            )
         }
 
         if (location != null) {
