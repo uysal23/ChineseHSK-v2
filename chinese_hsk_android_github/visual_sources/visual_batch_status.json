@@ -25,17 +25,18 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
       "ZH_HSK4_SC039",
       "ZH_HSK4_SC040"
     ],
     "rejectedGeneratedSceneIds": [
       "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
-      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS"
+      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
+      "ZH_HSK4_SC038_SC040_PENDING_FINAL_MANIFEST_PASS"
     ],
     "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
@@ -46,7 +47,8 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC031",
@@ -54,11 +56,12 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC036 authoritative final görseller olarak entegre edildi. SC037-SC040 bekliyor. 2026-09-29 kullanıcı onayıyla Vosk tamamen çevrimdışı Mandarin telaffuz motorunu içeren APK başarıyla üretildi; yeni build için tekrar açık kullanıcı onayı gerekir."
+    "noteTr": "HSK4 SC031-SC037 authoritative final görseller olarak entegre edildi. SC033-SC037 2026-09-29 kullanıcı onaylı yeniden üretimlerdir. SC038-SC040 henüz bu aşamada tamamlanmadı/pending bırakıldı. APK build tetiklenmedi."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -94,7 +97,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC031_SC036_PARTIAL_INTEGRATED_BUILD_SUCCESS_2026-09-28",
+  "latestVisualRevision": "HSK4_SC031_SC037_PARTIAL_INTEGRATED_QA_PASS_2026-09-29",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -738,17 +741,18 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
       "ZH_HSK4_SC039",
       "ZH_HSK4_SC040"
     ],
     "rejectedGeneratedSceneIds": [
       "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
-      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS"
+      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
+      "ZH_HSK4_SC038_SC040_PENDING_FINAL_MANIFEST_PASS"
     ],
     "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
@@ -759,7 +763,8 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC031",
@@ -767,11 +772,12 @@
       "ZH_HSK4_SC033",
       "ZH_HSK4_SC034",
       "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036"
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC036 authoritative final görseller olarak entegre edildi. SC037-SC040 bekliyor. 2026-09-29 kullanıcı onayıyla Vosk tamamen çevrimdışı Mandarin telaffuz motorunu içeren APK başarıyla üretildi; yeni build için tekrar açık kullanıcı onayı gerekir."
+    "noteTr": "HSK4 SC031-SC037 authoritative final görseller olarak entegre edildi. SC033-SC037 2026-09-29 kullanıcı onaylı yeniden üretimlerdir. SC038-SC040 henüz bu aşamada tamamlanmadı/pending bırakıldı. APK build tetiklenmedi."
   },
   "latestBuildRequest": {
     "requestedAt": "2026-09-29T07:01:00+03:00",

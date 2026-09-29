@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC037",
+  "generationSceneId": "ZH_HSK4_SC037",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC037.json",
+  "dialogueSha256": "",
+  "titleTr": "İkinci Şube Yerine Daha İyi Kafe",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Aile büyümek yerine mevcut kafeyi geliştirmeye karar verir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "员工": "adult",
+    "顾客": "adult"
+  },
+  "criticalObjects": [
+    "mevcut kafe geliştirme planı",
+    "tablet",
+    "not defteri",
+    "kahve fincanları"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC036",
+    "nextSceneId": "ZH_HSK4_SC038"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "sıcak_kafede_yaratıcı_toplantı.png",
+  "finalAssetFilename": "ZH_HSK4_SC037.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC037.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "450e88852063f733de92bb0ecf456b5d49199f768f89b22281d9b655228ca6fd",
+    "bytes": 262640
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-29: Kullanıcının onayladığı yeniden üretim; gerçek HSK4 scene JSON, kadro, mekan, HSK4 maturity, kritik obje, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+}

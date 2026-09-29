@@ -40,7 +40,7 @@
     "previousSceneId": "ZH_HSK4_SC032",
     "nextSceneId": "ZH_HSK4_SC034"
   },
-  "sourceGeneratedFilename": "a_warm_cozy_indoor_scene_realistic_3d_cgi_animat.png",
+  "sourceGeneratedFilename": "sıcak_bir_üniversite_danışmanlığı_akşamı.png",
   "finalAssetFilename": "ZH_HSK4_SC033.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC033.webp",
   "image": {
@@ -48,8 +48,8 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "2feb52161ada5f57b69f1f8f90806b732637c59433469ddd649a8c3e2d41f108",
-    "bytes": 211174
+    "sha256": "189f339c5d8e07b4a6ffcd5affe25d287ed6a9c7b036ab374d505f1d89c12deb",
+    "bytes": 240602
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -71,6 +71,6 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-28: Gerçek HSK4 sahne JSON/diyalog kaynağına göre kadro, mekan, kritik obje, 9:16, metinsizlik, tek-sahne ve HSK4 maturity kontrolleri PASS. SC031-SC036 kısmi batch entegrasyonu.",
+  "qaNoteTr": "2026-09-29: Kullanıcının onayladığı yeniden üretim; gerçek HSK4 scene JSON, kadro, mekan, HSK4 maturity, kritik obje, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi.",
   "dialogueSha256": "5e2267c021ee633d78e6f8dff39e84912c2947556c1f6bba9953b8dca628c9d6"
 }
