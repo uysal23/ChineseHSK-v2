@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC038",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC038.json",
+  "titleTr": "Büyükbaba Hastanede",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "scenePurposeTr": "Büyükbaba küçük bir sağlık problemi nedeniyle hastaneye yatırılır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "医生"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "医生"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "爷爷": "elderly_male",
+    "奶奶": "elderly_female",
+    "张伟": "mature_adult",
+    "医生": "adult_doctor"
+  },
+  "criticalObjects": [
+    "hastane yatağı",
+    "doktor muayene/konuşma alanı",
+    "hasta monitörü veya serum ekipmanı",
+    "doktor not panosu"
+  ],
+  "visualDirectionTr": "Gündüz hastane odası; büyükbaba yatakta, büyükanne yanında, Zhang Wei ve doktor konuşuyor. Dört konuşmacı görünür; sıcak ama ciddi aile desteği.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC037",
+    "nextSceneId": "ZH_HSK4_SC039"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

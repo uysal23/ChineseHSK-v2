@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC038",
+  "generationSceneId": "ZH_HSK4_SC038",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC038.json",
+  "dialogueSha256": "ebf97d5b5a6f420ccec099cb2c7b9323c47d07d1f70e4ee5854136d7a3bb5dd3",
+  "titleTr": "Büyükbaba Hastanede",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "scenePurposeTr": "Büyükbaba küçük bir sağlık problemi nedeniyle hastaneye yatırılır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "医生"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "医生"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "爷爷": "elderly_male",
+    "奶奶": "elderly_female",
+    "张伟": "mature_adult",
+    "医生": "adult_doctor"
+  },
+  "criticalObjects": [
+    "hastane yatağı",
+    "doktor muayene/konuşma alanı",
+    "hasta monitörü veya serum ekipmanı",
+    "doktor not panosu"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC037",
+    "nextSceneId": "ZH_HSK4_SC039"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "sıcak_bir_hastane_konsültasyonu.png",
+  "finalAssetFilename": "ZH_HSK4_SC038.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC038.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "ae9d2f8b1edff8722d188b59da6fc05097791c6707c7c2260a40435b07bd77b5",
+    "bytes": 150506
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-29: Gerçek HSK4 scene JSON, kadro, mekan, continuity, HSK4 maturity, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+}

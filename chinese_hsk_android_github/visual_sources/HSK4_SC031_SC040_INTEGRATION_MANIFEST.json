@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "HSK4_SC031_SC040",
   "manifestVersion": "LOCKED_V2",
-  "status": "PARTIAL_INTEGRATED_6_OF_10",
+  "status": "PARTIAL_INTEGRATED_9_OF_10",
   "level": "HSK4",
   "sceneIds": [
     "ZH_HSK4_SC031",
@@ -22,12 +22,12 @@
     "ZH_HSK4_SC033",
     "ZH_HSK4_SC034",
     "ZH_HSK4_SC035",
-    "ZH_HSK4_SC036"
-  ],
-  "pendingSceneIds": [
+    "ZH_HSK4_SC036",
     "ZH_HSK4_SC037",
     "ZH_HSK4_SC038",
-    "ZH_HSK4_SC039",
+    "ZH_HSK4_SC039"
+  ],
+  "pendingSceneIds": [
     "ZH_HSK4_SC040"
   ],
   "files": [
@@ -72,10 +72,36 @@
       "metadata": "visual_sources/scenes/ZH_HSK4_SC036.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC036.json",
       "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC037",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC037.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC037.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC037.json",
+      "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC038",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC038.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC038.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC038.json",
+      "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC039",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC039.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC039.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC039.json",
+      "qaStatus": "PASS"
     }
+  ],
+  "rejectedGeneratedSceneIds": [
+    "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
+    "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
+    "ZH_HSK4_SC040_HOSPITAL_LOCATION_MISMATCH"
   ],
   "buildApprovalRequired": true,
   "buildApproved": false,
   "buildTriggered": false,
-  "noteTr": "SC031-SC036 authoritative app asset + metadata + scene analysis olarak entegre edildi. SC037-SC040 yanlış/eksik görseller nedeniyle bilinçli olarak entegre edilmedi."
+  "noteTr": "SC031-SC039 authoritative app asset + metadata olarak entegre edildi ve LOCKED_V2 QA PASS. SC040 için mevcut görseller LOC_ZH_GRANDPARENTS_HOME_001 yerine hastane ortamında olduğundan bilinçli olarak reddedildi. APK build tetiklenmedi."
 }

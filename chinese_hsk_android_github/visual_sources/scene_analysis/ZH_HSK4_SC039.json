@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC039",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC039.json",
+  "titleTr": "Doktorun Tavsiyeleri",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "scenePurposeTr": "Doktor yaşam tarzı konusunda net değişiklikler önerir.",
+  "dialogueSpeakers": [
+    "医生",
+    "爷爷",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "医生",
+    "爷爷",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "医生": "adult_doctor",
+    "爷爷": "elderly_male",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "hastane yatağı",
+    "doktor not panosu",
+    "yaşam tarzı tavsiyesi görüşmesi",
+    "temel hastane ekipmanı"
+  ],
+  "visualDirectionTr": "Gündüz hastane odası; doktor yaşam tarzı tavsiyelerini açıklıyor, büyükbaba dinliyor, Zhang Wei ve Liu Mei yanında. Dört konuşmacı görünür; sakin ve çözüm odaklı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC038",
+    "nextSceneId": "ZH_HSK4_SC040"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

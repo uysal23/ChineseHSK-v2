@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC039",
+  "generationSceneId": "ZH_HSK4_SC039",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC039.json",
+  "dialogueSha256": "0d2bba0acc1de3a34140fc32ad31acb8bae356ee4b669a8a95988c9356d1dbfb",
+  "titleTr": "Doktorun Tavsiyeleri",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "scenePurposeTr": "Doktor yaşam tarzı konusunda net değişiklikler önerir.",
+  "dialogueSpeakers": [
+    "医生",
+    "爷爷",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "医生",
+    "爷爷",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "医生": "adult_doctor",
+    "爷爷": "elderly_male",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "hastane yatağı",
+    "doktor not panosu",
+    "yaşam tarzı tavsiyesi görüşmesi",
+    "temel hastane ekipmanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC038",
+    "nextSceneId": "ZH_HSK4_SC040"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "hastanede_doktorun_aileye_bilgilendirmesi.png",
+  "finalAssetFilename": "ZH_HSK4_SC039.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC039.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "9948fb4306bba5fd711590395874a41000383668d5c295d12493fbca6df1f9c7",
+    "bytes": 161038
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-29: Gerçek HSK4 scene JSON, kadro, mekan, continuity, HSK4 maturity, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+}
