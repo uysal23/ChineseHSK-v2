@@ -28,17 +28,16 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK4_SC039",
       "ZH_HSK4_SC040"
     ],
+    "pendingSceneIds": [],
     "rejectedGeneratedSceneIds": [
       "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
       "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
       "ZH_HSK4_SC040_HOSPITAL_LOCATION_MISMATCH"
     ],
-    "status": "IN_PROGRESS",
+    "status": "INTEGRATED_QA_PASS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
@@ -50,7 +49,8 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC031",
@@ -61,11 +61,12 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC039 9/10 authoritative final görseller olarak entegre edildi. SC040 gerçek sahne LOC_ZH_GRANDPARENTS_HOME_001 olduğu için hastane bağlamındaki adaylar reddedildi ve pending bırakıldı. APK build tetiklenmedi."
+    "noteTr": "HSK4 SC031-SC040 10/10 authoritative final görseller olarak entegre edildi. SC040 doğru LOC_ZH_GRANDPARENTS_HOME_001 aile evi sahnesiyle tamamlandı. APK build tetiklenmedi."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -101,7 +102,7 @@
     "buildApproved": false,
     "noteTr": "SC011 ve SC012 önceki doğrulanmış görsel havuzundan LOCKED_V2 metadata ile authoritative source override olarak geri yüklendi. SC020 hâlâ eksik; build onayı yok."
   },
-  "latestVisualRevision": "HSK4_SC031_SC039_PARTIAL_INTEGRATED_QA_PASS_2026-09-29",
+  "latestVisualRevision": "HSK4_SC031_SC040_COMPLETE_QA_PASS_2026-09-29",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -748,17 +749,16 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK4_SC039",
       "ZH_HSK4_SC040"
     ],
+    "pendingSceneIds": [],
     "rejectedGeneratedSceneIds": [
       "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
       "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
       "ZH_HSK4_SC040_HOSPITAL_LOCATION_MISMATCH"
     ],
-    "status": "IN_PROGRESS",
+    "status": "INTEGRATED_QA_PASS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
@@ -770,7 +770,8 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC031",
@@ -781,11 +782,12 @@
       "ZH_HSK4_SC036",
       "ZH_HSK4_SC037",
       "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039"
+      "ZH_HSK4_SC039",
+      "ZH_HSK4_SC040"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC039 9/10 authoritative final görseller olarak entegre edildi. SC040 gerçek sahne LOC_ZH_GRANDPARENTS_HOME_001 olduğu için hastane bağlamındaki adaylar reddedildi ve pending bırakıldı. APK build tetiklenmedi."
+    "noteTr": "HSK4 SC031-SC040 10/10 authoritative final görseller olarak entegre edildi. SC040 doğru LOC_ZH_GRANDPARENTS_HOME_001 aile evi sahnesiyle tamamlandı. APK build tetiklenmedi."
   },
   "latestBuildRequest": {
     "requestedAt": "2026-09-29T07:01:00+03:00",

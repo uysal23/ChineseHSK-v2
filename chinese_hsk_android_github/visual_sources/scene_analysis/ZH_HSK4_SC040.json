@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC040",
+  "status": "ANALYZED_READY_FOR_GENERATION",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC040.json",
+  "titleTr": "Büyükbaba İnat Ediyor",
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "scenePurposeTr": "Büyükbaba dinlenmek istemez; aile sağlık, dinlenme ve yaşam tarzı konusunda onunla konuşur.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "奶奶",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "爷爷": "elderly_male",
+    "奶奶": "elderly_female",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "büyükanne ve büyükbabanın ev oturma alanı",
+    "koltuk/oturma grubu",
+    "çay takımı",
+    "aile içi sağlık ve dinlenme konuşması"
+  ],
+  "visualDirectionTr": "Sıcak gündüz ışığında büyükanne ve büyükbabanın evinde aile konuşması. Büyükbaba ayağa kalkmış ve dinlenmek istemediğini beden diliyle belli ediyor; büyükanne onu sakinleştirmeye çalışıyor, Zhang Wei ve Liu Mei endişeli ama saygılı biçimde konuşuyor. Dört konuşmacı görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC039",
+    "nextSceneId": null
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
