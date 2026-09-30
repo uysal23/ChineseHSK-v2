@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC042",
+  "generationSceneId": "ZH_HSK4_SC042",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC042.json",
+  "dialogueSha256": "1c03fb2dc15b3f973067a6665b62f82674bd8e2ab997ecaebfad49fa819ca433",
+  "titleTr": "Büyükannenin Organizasyonu",
+  "titleZh": "奶奶来组织",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "scenePurposeTr": "Büyükanne gönüllü mutfağında herkesi şaşırtan bir düzen kurar.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "志愿者",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "志愿者",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "characterAgeLock": {
+    "奶奶": "elderly_female",
+    "志愿者": "adult",
+    "刘梅": "mature_adult",
+    "工作人员": "adult"
+  },
+  "criticalObjects": [
+    "topluluk merkezi yemek hazırlama alanı",
+    "büyük paslanmaz tencere",
+    "hazır yemek tepsileri",
+    "servis kaseleri",
+    "organizasyon kontrol listesi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC041",
+    "nextSceneId": "ZH_HSK4_SC043"
+  },
+  "sourceGeneratedFilename": "ZH_HSK4_SC042_final.png",
+  "sourceConstructionTr": "Canonical HSK4 büyükanne ve Liu Mei görsel kimliği, yetişkin gönüllü/çalışan rolleri, LOC_ZH_COMMUNITY_CENTER_001 mekânı ve doğrulanmış community-kitchen yemek-servis foreground katmanı tek sahnede birleştirildi.",
+  "finalAssetFilename": "ZH_HSK4_SC042.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC042.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "543c8fb5a367258406a54c18b967833f9daec6ef0485e604619a4fdce5dccccb",
+    "bytes": 73450
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-30: SC042; LOC_ZH_COMMUNITY_CENTER_001, dört konuşmacı, büyükanne liderliği, topluluk mutfağı servis nesneleri, 9:16 tek-sahne ve HSK4 maturity kurallarıyla QA PASS. APK build tetiklenmedi."
+}

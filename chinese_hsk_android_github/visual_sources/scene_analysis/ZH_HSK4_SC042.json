@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC042",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC042.json",
+  "titleTr": "Büyükannenin Organizasyonu",
+  "titleZh": "奶奶来组织",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "scenePurposeTr": "Büyükanne gönüllü mutfağında herkesi şaşırtan bir düzen kurar.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "志愿者",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "志愿者",
+    "刘梅",
+    "工作人员"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "characterAgeLock": {
+    "奶奶": "elderly_female",
+    "志愿者": "adult",
+    "刘梅": "mature_adult",
+    "工作人员": "adult"
+  },
+  "criticalObjects": [
+    "topluluk merkezi yemek hazırlama alanı",
+    "büyük paslanmaz tencere",
+    "hazır yemek tepsileri",
+    "servis kaseleri",
+    "organizasyon kontrol listesi"
+  ],
+  "visualDirectionTr": "Büyükanne merkezde ve lider konumunda; gönüllü, Liu Mei ve toplum merkezi çalışanı onun düzenini takip ediyor. Hazırlanmış yemek tepsileri ve servis alanı ön planda.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC041",
+    "nextSceneId": "ZH_HSK4_SC043"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

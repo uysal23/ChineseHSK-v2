@@ -20,10 +20,10 @@
       "ZH_HSK4_SC050"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
       "ZH_HSK4_SC044",
       "ZH_HSK4_SC045",
@@ -37,14 +37,16 @@
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "finalCandidateSceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC041 sosyal yardım mutfağı LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC042-SC050 pending. APK build tetiklenmedi."
+    "noteTr": "SC041 ve SC042 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC043-SC050 pending. APK build tetiklenmedi."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -79,7 +81,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK4_SC041_INTEGRATED_QA_PASS_2026-09-30",
+  "latestVisualRevision": "HSK4_SC042_INTEGRATED_QA_PASS_2026-09-30",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -794,10 +796,10 @@
       "ZH_HSK4_SC050"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
       "ZH_HSK4_SC044",
       "ZH_HSK4_SC045",
@@ -811,13 +813,15 @@
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "finalCandidateSceneIds": [
-      "ZH_HSK4_SC041"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC041 sosyal yardım mutfağı LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC042-SC050 pending. APK build tetiklenmedi."
+    "noteTr": "SC041 ve SC042 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC043-SC050 pending. APK build tetiklenmedi."
   }
 }
