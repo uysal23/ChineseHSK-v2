@@ -50,7 +50,7 @@
     "format": "WEBP",
     "orientation": "9:16_vertical",
     "sha256": "62cf5392869509ed74558f941699d9598cdaeda9012adb7ad2aaf631c5dd091f",
-    "bytes": 0
+    "bytes": 303916
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -72,5 +72,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-30: SC041 diyalog, LOC_ZH_COMMUNITY_CENTER_001, dört konuşmacı, sosyal yardım mutfağı nesneleri, 9:16 tek-sahne CGI ve HSK4 maturity kurallarıyla doğrulandı. APK build tetiklenmedi."
+  "qaNoteTr": "2026-09-30: SC041 diyalog, LOC_ZH_COMMUNITY_CENTER_001, dört konuşmacı, sosyal yardım mutfağı nesneleri, 9:16 tek-sahne CGI ve HSK4 maturity kurallarıyla doğrulandı; binary boyutu ve runtime mirror da kontrol edildi. APK build tetiklenmedi."
 }
