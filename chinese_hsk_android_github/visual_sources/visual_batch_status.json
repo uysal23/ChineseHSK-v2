@@ -3,70 +3,48 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK4_SC031_SC040",
+    "batchId": "HSK4_SC041_SC050",
     "level": "HSK4",
-    "startScene": "HSK4_SC031",
-    "endScene": "HSK4_SC040",
+    "startScene": "HSK4_SC041",
+    "endScene": "HSK4_SC050",
     "sceneIds": [
-      "ZH_HSK4_SC031",
-      "ZH_HSK4_SC032",
-      "ZH_HSK4_SC033",
-      "ZH_HSK4_SC034",
-      "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036",
-      "ZH_HSK4_SC037",
-      "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039",
-      "ZH_HSK4_SC040"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC031",
-      "ZH_HSK4_SC032",
-      "ZH_HSK4_SC033",
-      "ZH_HSK4_SC034",
-      "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036",
-      "ZH_HSK4_SC037",
-      "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039",
-      "ZH_HSK4_SC040"
+      "ZH_HSK4_SC041"
     ],
-    "pendingSceneIds": [],
-    "rejectedGeneratedSceneIds": [
-      "ZH_HSK4_SC032_SC040_PREVIOUS_WRONG_CONTEXT_BATCH",
-      "ZH_HSK4_SC037_PREVIOUS_COLLAGE_ATTEMPTS",
-      "ZH_HSK4_SC040_HOSPITAL_LOCATION_MISMATCH"
+    "pendingSceneIds": [
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
-    "status": "INTEGRATED_QA_PASS",
+    "status": "IN_PROGRESS",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
-      "ZH_HSK4_SC031",
-      "ZH_HSK4_SC032",
-      "ZH_HSK4_SC033",
-      "ZH_HSK4_SC034",
-      "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036",
-      "ZH_HSK4_SC037",
-      "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039",
-      "ZH_HSK4_SC040"
+      "ZH_HSK4_SC041"
     ],
     "finalCandidateSceneIds": [
-      "ZH_HSK4_SC031",
-      "ZH_HSK4_SC032",
-      "ZH_HSK4_SC033",
-      "ZH_HSK4_SC034",
-      "ZH_HSK4_SC035",
-      "ZH_HSK4_SC036",
-      "ZH_HSK4_SC037",
-      "ZH_HSK4_SC038",
-      "ZH_HSK4_SC039",
-      "ZH_HSK4_SC040"
+      "ZH_HSK4_SC041"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK4 SC031-SC040 10/10 authoritative final görseller olarak entegre edildi. SC040 doğru LOC_ZH_GRANDPARENTS_HOME_001 aile evi sahnesiyle tamamlandı. APK build tetiklenmedi."
+    "noteTr": "SC041 sosyal yardım mutfağı LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC042-SC050 pending. APK build tetiklenmedi."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -101,7 +79,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK1_GAPS_CLOSED__HSK2_SC011_CORRECTED_BINARY_FIX_2026-09-30",
+  "latestVisualRevision": "HSK4_SC041_INTEGRATED_QA_PASS_2026-09-30",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -797,5 +775,49 @@
     "artifactId": 11012049434,
     "artifactName": "ChineseHSK-v3.4.0-personal-apk",
     "buildCommit": "62345f0db7882d598a6d4f609575a900007f2cd3"
+  },
+  "hsk4Sc041Sc050BatchProgress": {
+    "batchId": "HSK4_SC041_SC050",
+    "level": "HSK4",
+    "startScene": "HSK4_SC041",
+    "endScene": "HSK4_SC050",
+    "sceneIds": [
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK4_SC041"
+    ],
+    "pendingSceneIds": [
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
+    ],
+    "status": "IN_PROGRESS",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+    "analysisReadySceneIds": [
+      "ZH_HSK4_SC041"
+    ],
+    "finalCandidateSceneIds": [
+      "ZH_HSK4_SC041"
+    ],
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "SC041 sosyal yardım mutfağı LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC042-SC050 pending. APK build tetiklenmedi."
   }
 }

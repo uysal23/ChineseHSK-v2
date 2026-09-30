@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC041",
+  "generationSceneId": "ZH_HSK4_SC041",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC041.json",
+  "dialogueSha256": "8b8a31fdb0c3a94522d8340832bcbabc314cb37794cf197e457ce86a8fd361fa",
+  "titleTr": "Sosyal Yardım Mutfağı",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "scenePurposeTr": "Kafe ihtiyaç sahipleri için gönüllü yemek hazırlama etkinliğine katılır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "志愿者",
+    "奶奶",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "志愿者",
+    "奶奶",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "志愿者": "adult",
+    "奶奶": "elderly_female",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "topluluk merkezi mutfağı",
+    "büyük tencere",
+    "paslanmaz yemek tepsileri",
+    "çok sayıda hazırlanmış yemek porsiyonu",
+    "servis kepçesi ve paketleme alanı"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC040",
+    "nextSceneId": "ZH_HSK4_SC042"
+  },
+  "sourceGeneratedFilename": "ZH_HSK2_SC044__community_cooking_event_locked_cast.webp",
+  "sourceReuseNoteTr": "Aynı LOC_ZH_COMMUNITY_CENTER_001 topluluk mutfağı için daha önce doğrulanmış tek-sahne community-cooking görseli, SC041 kadro ve HSK4 maturity koşulları yeniden kontrol edilerek authoritative SC041 asseti olarak kullanıldı.",
+  "finalAssetFilename": "ZH_HSK4_SC041.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC041.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "62cf5392869509ed74558f941699d9598cdaeda9012adb7ad2aaf631c5dd091f",
+    "bytes": 0
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-30: SC041 diyalog, LOC_ZH_COMMUNITY_CENTER_001, dört konuşmacı, sosyal yardım mutfağı nesneleri, 9:16 tek-sahne CGI ve HSK4 maturity kurallarıyla doğrulandı. APK build tetiklenmedi."
+}

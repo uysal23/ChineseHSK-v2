@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "batchId": "HSK4_SC041_SC050",
+  "manifestVersion": "LOCKED_V2",
+  "status": "PARTIAL_INTEGRATED_1_OF_10",
+  "level": "HSK4",
+  "sceneIds": [
+    "ZH_HSK4_SC041",
+    "ZH_HSK4_SC042",
+    "ZH_HSK4_SC043",
+    "ZH_HSK4_SC044",
+    "ZH_HSK4_SC045",
+    "ZH_HSK4_SC046",
+    "ZH_HSK4_SC047",
+    "ZH_HSK4_SC048",
+    "ZH_HSK4_SC049",
+    "ZH_HSK4_SC050"
+  ],
+  "completedSceneIds": [
+    "ZH_HSK4_SC041"
+  ],
+  "pendingSceneIds": [
+    "ZH_HSK4_SC042",
+    "ZH_HSK4_SC043",
+    "ZH_HSK4_SC044",
+    "ZH_HSK4_SC045",
+    "ZH_HSK4_SC046",
+    "ZH_HSK4_SC047",
+    "ZH_HSK4_SC048",
+    "ZH_HSK4_SC049",
+    "ZH_HSK4_SC050"
+  ],
+  "files": [
+    {
+      "sceneId": "ZH_HSK4_SC041",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC041.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC041.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC041.json",
+      "qaStatus": "PASS"
+    }
+  ],
+  "noteTr": "HSK4 SC041 sosyal yardım mutfağı authoritative app/runtime asset + metadata + analysis olarak entegre edildi. SC042-SC050 pending. APK build tetiklenmedi."
+}

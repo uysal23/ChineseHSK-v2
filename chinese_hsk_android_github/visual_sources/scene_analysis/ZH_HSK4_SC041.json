@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC041",
+  "status": "ANALYZED_READY_FOR_INTEGRATION",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC041.json",
+  "titleTr": "Sosyal Yardım Mutfağı",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "scenePurposeTr": "Kafe ihtiyaç sahipleri için gönüllü yemek hazırlama etkinliğine katılır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "志愿者",
+    "奶奶",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "志愿者",
+    "奶奶",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "刘梅": "mature_adult",
+    "志愿者": "adult",
+    "奶奶": "elderly_female",
+    "张伟": "mature_adult"
+  },
+  "criticalObjects": [
+    "topluluk merkezi mutfağı",
+    "büyük tencere",
+    "paslanmaz yemek tepsileri",
+    "çok sayıda hazırlanmış yemek porsiyonu",
+    "servis kepçesi ve paketleme alanı"
+  ],
+  "visualDirectionTr": "Gündüz topluluk merkezinin sosyal yardım mutfağında Liu Mei, gönüllü, büyükanne ve Zhang Wei birlikte ihtiyaç sahipleri için yemek hazırlar ve organizasyonu konuşur. Büyükanne aktif şekilde yemek hazırlamaya katılır; dört konuşmacı net görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC040",
+    "nextSceneId": "ZH_HSK4_SC042"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
