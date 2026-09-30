@@ -28,15 +28,16 @@
     "previousSceneId": "ZH_HSK2_SC010",
     "nextSceneId": "ZH_HSK2_SC012"
   },
-  "sourceGeneratedFilename": "hsk2_correct_01.png",
+  "sourceGeneratedFilename": "a_warm_brightly_lit_detailed_3d_cartoon_cgi_clas.png",
   "finalAssetFilename": "ZH_HSK2_SC011.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 576,
+    "height": 1024,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "48f00e3e0b97930a172e4dc5b83858507ea62305b4a68c1982f7a46393f1f0e6"
+    "sha256": "eb0f3d38304d5dc71fd55e495d65fc9e8a1800dad34e05aad92fae7d08c4856b",
+    "bytes": 30416
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-27: Veli toplantısı için sınıf içinde Liu Mei, öğretmen ve Lele aynı sahnede görünür. Final source override olarak eşlendi."
+  "qaNoteTr": "2026-09-30: HSK2_SC011 yeniden üretildi. 刘梅, kadın 老师 ve erkek ilkokul öğrencisi 张乐乐 birlikte görünür; öğretmen masası/not defteri, okul çantası ve ilkokul sınıfı bağlamı doğrulandı. 9:16, tek sahne, metinsiz/kolajsız LOCKED_V2 QA PASS. APK build tetiklenmedi."
 }

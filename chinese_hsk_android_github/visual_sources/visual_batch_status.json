@@ -101,7 +101,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK1_SC023_RECONCILED_QA_PASS_2026-09-30",
+  "latestVisualRevision": "HSK1_GAPS_CLOSED__HSK2_SC011_CORRECTED_QA_PASS_2026-09-30",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -126,16 +126,15 @@
       "ZH_HSK1_SC021",
       "ZH_HSK1_SC025",
       "ZH_HSK1_SC022",
-      "ZH_HSK1_SC023"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK1_SC023",
       "ZH_HSK1_SC024",
       "ZH_HSK1_SC027"
     ],
-    "status": "IN_PROGRESS",
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC021, SC022, SC023 ve SC025 doğrulanmış LOCKED_V2 final asset olarak repoda mevcut. SC023 mevcut dört kişilik okul-kampüs kadrosu görseliyle yeniden doğrulandı. SC024 ve SC027 pending."
+    "noteTr": "HSK1 SC021-SC030 bloğundaki önceki pending SC022, SC023, SC024 ve SC027 manifest/kadro/mekân kontrolleriyle kapatıldı. SC024 ve SC027 için repodaki mevcut LOCKED_V2 QA PASS final assetleri korundu; yanlış/uygunsuz adaylarla üzerine yazılmadı. APK build tetiklenmedi."
   },
   "followingBatchProgress": {
     "batchId": "HSK1_SC031_SC040",
@@ -276,19 +275,18 @@
       "ZH_HSK2_SC014",
       "ZH_HSK2_SC015",
       "ZH_HSK2_SC016",
-      "ZH_HSK2_SC017"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK2_SC017",
       "ZH_HSK2_SC011"
     ],
+    "pendingSceneIds": [],
     "rejectedGeneratedSceneIds": [
-      "ZH_HSK2_SC011"
+      "ZH_HSK2_SC011_PREVIOUS_WRONG_GENDER"
     ],
-    "rejectionReasonTr": "SC011 görselinde diyalogda konuşan küçük erkek çocuk 张乐乐 yerine ergen kız karakter gösterildi. Kilitli manifesto gereği uygulamaya bağlanmadı ve yeniden üretim gerekiyor.",
-    "status": "IN_PROGRESS",
+    "rejectionReasonTr": "Önceki SC011 adayı, 张乐乐 yerine kız çocuk gösterdiği için reddedilmişti. Yeni final assette Liu Mei, kadın öğretmen ve ilkokul çağındaki erkek çocuk 张乐乐 aynı veli-öğretmen görüşme sahnesinde görünür.",
+    "status": "INTEGRATED_QA_PASS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC008-SC010 ve SC012-SC017 ayrı scene ID ile final asset entegrasyonu için hazır. SC011 yanlış karakter nedeniyle bilinçli olarak dışarıda bırakıldı."
+    "noteTr": "HSK2 SC011 doğru erkek çocuk 张乐乐 + 刘梅 + kadın öğretmen kadrosu, ilkokul sınıfı ve öğretmen masası/not defteri bağlamıyla yeniden üretildi ve final asset olarak yerleştirildi. Bu blok artık tamamlandı; APK build tetiklenmedi."
   },
   "lastSceneAssetReplacement": {
     "sceneIds": [
