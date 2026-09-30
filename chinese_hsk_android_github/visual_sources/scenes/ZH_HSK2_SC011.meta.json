@@ -32,12 +32,12 @@
   "finalAssetFilename": "ZH_HSK2_SC011.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
   "image": {
-    "width": 576,
-    "height": 1024,
+    "width": 324,
+    "height": 576,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "eb0f3d38304d5dc71fd55e495d65fc9e8a1800dad34e05aad92fae7d08c4856b",
-    "bytes": 30416
+    "sha256": "e4d8291d62fc4f61eefd21f50e0fb65b86e7760f031865c5e74a7764ab314c66",
+    "bytes": 14636
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +58,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-30: HSK2_SC011 yeniden üretildi. 刘梅, kadın 老师 ve erkek ilkokul öğrencisi 张乐乐 birlikte görünür; öğretmen masası/not defteri, okul çantası ve ilkokul sınıfı bağlamı doğrulandı. 9:16, tek sahne, metinsiz/kolajsız LOCKED_V2 QA PASS. APK build tetiklenmedi."
+  "qaNoteTr": "2026-09-30: HSK2_SC011 doğru erkek çocuk 张乐乐 + 刘梅 + kadın öğretmen kadrosu ile yeniden üretildi. İlkokul sınıfı, öğretmen masası/not defteri ve okul çantası görünür. Tek sahne, 9:16, metinsiz/kolajsız. Final WebP binary doğrulama için 324x576 optimize edildi. APK build tetiklenmedi."
 }
