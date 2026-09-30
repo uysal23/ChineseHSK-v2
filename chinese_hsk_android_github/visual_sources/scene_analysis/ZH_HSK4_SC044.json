@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC044",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC044.json",
+  "titleZh": "雨桐被大学录取",
+  "titleTr": "Yutong Üniversiteye Kabul Ediliyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Kabul haberi gelir ve aile üniversite seçimi ile gelecek planını öğretmenle değerlendirirken büyük sevinç yaşar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "老师": "adult_teacher"
+  },
+  "criticalObjects": [
+    "üniversite broşürleri",
+    "not defteri",
+    "laptop",
+    "kampüs görselleri",
+    "üniversite kabul/gelecek planı materyalleri"
+  ],
+  "visualDirectionTr": "Yeni evdeki sıcak çalışma/oturma alanında Yutong, Liu Mei ve Zhang Wei üniversite kabulü ve gelecek planını öğretmenle değerlendirir. Dört konuşmacı görünür; Yutong genç yetişkin, ebeveynler olgun yetişkin, öğretmen yetişkindir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC043",
+    "nextSceneId": "ZH_HSK4_SC045"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}

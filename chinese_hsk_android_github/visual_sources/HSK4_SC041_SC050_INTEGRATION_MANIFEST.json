@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "HSK4_SC041_SC050",
   "manifestVersion": "LOCKED_V2",
-  "status": "PARTIAL_INTEGRATED_3_OF_10",
+  "status": "PARTIAL_INTEGRATED_4_OF_10",
   "level": "HSK4",
   "sceneIds": [
     "ZH_HSK4_SC041",
@@ -19,10 +19,10 @@
   "completedSceneIds": [
     "ZH_HSK4_SC041",
     "ZH_HSK4_SC042",
-    "ZH_HSK4_SC043"
+    "ZH_HSK4_SC043",
+    "ZH_HSK4_SC044"
   ],
   "pendingSceneIds": [
-    "ZH_HSK4_SC044",
     "ZH_HSK4_SC045",
     "ZH_HSK4_SC046",
     "ZH_HSK4_SC047",
@@ -51,7 +51,14 @@
       "metadata": "visual_sources/scenes/ZH_HSK4_SC043.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC043.json",
       "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC044",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC044.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC044.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC044.json",
+      "qaStatus": "PASS"
     }
   ],
-  "noteTr": "HSK4 SC041-SC043 authoritative app/runtime asset + metadata + analysis olarak entegre edildi. SC044-SC050 pending. APK build tetiklenmedi."
+  "noteTr": "HSK4 SC041-SC044 authoritative app/runtime asset + metadata + analysis olarak entegre edildi. SC045-SC050 pending. APK build tetiklenmedi."
 }

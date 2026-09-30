@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC044",
+  "generationSceneId": "ZH_HSK4_SC044",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC044.json",
+  "dialogueSha256": "23af130582cb3944dc44c0da9002810d1e04cb40151b2b2054170e12f2f58c72",
+  "titleZh": "雨桐被大学录取",
+  "titleTr": "Yutong Üniversiteye Kabul Ediliyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Kabul haberi gelir ve aile büyük bir sevinç yaşar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "老师": "adult_teacher"
+  },
+  "criticalObjects": [
+    "üniversite broşürleri",
+    "not defteri",
+    "laptop",
+    "kampüs görselleri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC043",
+    "nextSceneId": "ZH_HSK4_SC045"
+  },
+  "sourceGeneratedFilename": "ZH_HSK3_SC044.webp",
+  "sourceReuseNoteTr": "Aynı canonical dört konuşmacıyı, young-adult Yutong olgunluk kilidini ve üniversite danışmanlığı materyallerini sağlayan doğrulanmış sahne kompozisyonu, SC044'ün reuseLocation/newVisualRequired=false kuralı kapsamında HSK4 kabul-planlama sahnesine yeniden kullanıldı.",
+  "finalAssetFilename": "ZH_HSK4_SC044.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC044.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d9ff2a83e4d6a64f6d619f58ea1152082d5fa71a39eae8dade0fe1cf3c1c33e8",
+    "bytes": 272720
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_REUSE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-30: SC044 dört konuşmacı, Yutong young_adult maturity, üniversite danışmanlığı/kabul bağlamı, 9:16 tek-sahne ve canonical aile sürekliliğiyle QA PASS. APK build tetiklenmedi."
+}
