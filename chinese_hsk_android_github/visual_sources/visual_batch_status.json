@@ -101,7 +101,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK1_SC022_RECONCILED_QA_PASS_2026-09-30",
+  "latestVisualRevision": "HSK1_SC023_RECONCILED_QA_PASS_2026-09-30",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -125,17 +125,17 @@
       "ZH_HSK1_SC030",
       "ZH_HSK1_SC021",
       "ZH_HSK1_SC025",
-      "ZH_HSK1_SC022"
+      "ZH_HSK1_SC022",
+      "ZH_HSK1_SC023"
     ],
     "pendingSceneIds": [
-      "ZH_HSK1_SC023",
       "ZH_HSK1_SC024",
       "ZH_HSK1_SC027"
     ],
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC021, SC022 ve SC025 doğrulanmış LOCKED_V2 final asset olarak repoda mevcut. SC023, SC024 ve SC027 hâlâ pending; SC023/SC027 eski havuz görselleri konuşan kadroyu eksiksiz göstermediği için yeniden değerlendirme/üretim gerekiyor."
+    "noteTr": "SC021, SC022, SC023 ve SC025 doğrulanmış LOCKED_V2 final asset olarak repoda mevcut. SC023 mevcut dört kişilik okul-kampüs kadrosu görseliyle yeniden doğrulandı. SC024 ve SC027 pending."
   },
   "followingBatchProgress": {
     "batchId": "HSK1_SC031_SC040",
