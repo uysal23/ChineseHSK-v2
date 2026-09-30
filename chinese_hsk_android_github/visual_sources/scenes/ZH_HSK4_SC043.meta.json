@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC043",
+  "generationSceneId": "ZH_HSK4_SC043",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC043.json",
+  "dialogueSha256": "5886809ebfbaabbac3e5be582bfe88faaf3e80b8eca4254f0c50c41f4b6637ba",
+  "titleTr": "Lele Yarışmayı Kazanıyor",
+  "titleZh": "乐乐获奖了",
+  "locationId": "LOC_ZH_MEDIA_STUDIO_001",
+  "scenePurposeTr": "Lele’nin fotoğrafı yarışmada ödül alır ve yerel medyada yayınlanır.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "记者",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "记者",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "记者": "adult",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "yerel medya stüdyosu röportaj alanı",
+    "fotoğraf makinesi",
+    "muhabir mikrofonu",
+    "yarışma ödülü/trofe",
+    "kazanan fotoğraf örneği"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC042",
+    "nextSceneId": "ZH_HSK4_SC044"
+  },
+  "sourceGeneratedFilename": "ZH_HSK4_SC043_final.png",
+  "sourceConstructionTr": "SC043 diyalog ve LOCKED_V2 sahne analizine göre yerel medya stüdyosu kompozisyonu; HSK4 teen_boy Lele, yetişkin muhabir, mature Zhang Wei ve mature Liu Mei canonical görsel kimliğiyle tek sahnede birleştirildi.",
+  "finalAssetFilename": "ZH_HSK4_SC043.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC043.webp",
+  "image": {
+    "width": 941,
+    "height": 1672,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "190e3687a581b78e8bec7e54b113107fd4133a04779e51e7cdb233d4004d5d8f",
+    "bytes": 44200
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_SOURCE_OVERRIDE",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-09-30: SC043; LOC_ZH_MEDIA_STUDIO_001, dört konuşmacı, Lele teen_boy maturity, fotoğraf yarışması ödülü ve yerel medya röportaj bağlamı, 9:16 tek-sahne ve metinsizlik kurallarıyla QA PASS. APK build tetiklenmedi."
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK4_SC043",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC043.json",
+  "titleTr": "Lele Yarışmayı Kazanıyor",
+  "titleZh": "乐乐获奖了",
+  "locationId": "LOC_ZH_MEDIA_STUDIO_001",
+  "scenePurposeTr": "Lele’nin fotoğrafı yarışmada ödül alır ve yerel medyada yayınlanır.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "记者",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "记者",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张乐乐": "teen_boy",
+    "记者": "adult",
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult"
+  },
+  "criticalObjects": [
+    "yerel medya stüdyosu röportaj alanı",
+    "fotoğraf makinesi",
+    "muhabir mikrofonu",
+    "yarışma ödülü/trofe",
+    "Lele’nin kazanan fotoğrafını temsil eden stüdyo ekranı/örnek fotoğraf"
+  ],
+  "visualDirectionTr": "Lele yerel medya stüdyosunda fotoğraf yarışması ödülünü almış durumdadır. Muhabir röportaj yapar; Zhang Wei ve Liu Mei gururla yanında durur. Lele HSK4 maturity kilidine göre küçük çocuk/chibi değil, belirgin ergen erkek görünümündedir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC042",
+    "nextSceneId": "ZH_HSK4_SC044"
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  }
+}
