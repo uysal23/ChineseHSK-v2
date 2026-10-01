@@ -60,19 +60,6 @@ jobs:
           rm -f "$SCENE_DIR"/*.webp
           cp "$V34_RUNTIME_VISUALS"/scenes/*.webp "$SCENE_DIR/"
           cp "$V34_RUNTIME_VISUALS"/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
-
-          # Reapply authoritative main-tree visual overrides, except the two user-authorized
-          # build-only exclusions. This preserves all other current main visuals.
-          if compgen -G "$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/*.webp" > /dev/null; then
-            for src in "$GITHUB_WORKSPACE"/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK*_SC*.webp; do
-              sid="$(basename "$src")"
-              case "$sid" in
-                ZH_HSK4_SC040.webp|ZH_HSK4_SC047.webp) continue ;;
-              esac
-              cp "$src" "$SCENE_DIR/$sid"
-            done
-          fi
-
           rm -f "$SCENE_DIR/ZH_HSK4_SC040.webp" "$SCENE_DIR/ZH_HSK4_SC047.webp"
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
@@ -178,13 +165,45 @@ jobs:
           python3 scripts/audit_content_quality.py
           python3 scripts/validate_app_flow.py
 
-      - name: Refresh scene metadata
-        run: python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py --repo-root "$GITHUB_WORKSPACE"
+      - name: Refresh scene metadata in extracted source
+        run: python3 "$SRC/scripts/refresh_scene_metadata_dialogue_sha.py" --repo-root "$GITHUB_WORKSPACE"
+
+      - name: Apply repaired gated visuals before gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC_SCENES="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
+          SRC_META="$GITHUB_WORKSPACE/chinese_hsk_android_github/visual_sources/scenes"
+          DST_SCENES="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          DST_META="$SRC/visual_sources/scenes"
+          mkdir -p "$DST_SCENES" "$DST_META"
+          for sid in ZH_HSK2_SC011 ZH_HSK4_SC045 ZH_HSK4_SC046; do
+            cp "$SRC_SCENES/$sid.webp" "$DST_SCENES/$sid.webp"
+            cp "$SRC_META/$sid.meta.json" "$DST_META/$sid.meta.json"
+          done
+          python3 "$SRC/scripts/refresh_scene_metadata_dialogue_sha.py" --repo-root "$GITHUB_WORKSPACE"
 
       - name: Enforce visual gate with SC040 and SC047 excluded
         run: |
           set -euo pipefail
           python3 "$SRC/scripts/validate_scene_visual_overrides.py" --repo-root "$GITHUB_WORKSPACE" --require-ready-batch
+
+      - name: Apply authoritative source-tree scene overrides after gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_DIR="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
+          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          if compgen -G "$SOURCE_DIR/ZH_HSK*_SC*.webp" > /dev/null; then
+            for src in "$SOURCE_DIR"/ZH_HSK*_SC*.webp; do
+              sid="$(basename "$src")"
+              case "$sid" in
+                ZH_HSK4_SC040.webp|ZH_HSK4_SC047.webp) continue ;;
+              esac
+              cp "$src" "$SCENE_DIR/$sid"
+            done
+          fi
+          rm -f "$SCENE_DIR/ZH_HSK4_SC040.webp" "$SCENE_DIR/ZH_HSK4_SC047.webp"
 
       - name: Restore generated Mandarin audio manifest
         if: ${{ env.GENERATED_AUDIO_MANIFEST != '' }}
