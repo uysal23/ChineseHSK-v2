@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC046",
+  "generationSceneId": "ZH_HSK4_SC046",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC046.json",
+  "titleZh": "大学第一天",
+  "titleTr": "İlk Üniversite Günü",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "新同学",
+    "老师",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "新同学",
+    "老师",
+    "刘梅"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "新同学": "young_adult_university_student",
+    "老师": "adult_teacher",
+    "刘梅": "mature_adult"
+  },
+  "generation": {
+    "genId": "ac8e78fa-38dc-4824-8574-bba71dd7f473"
+  },
+  "finalAssetFilename": "ZH_HSK4_SC046.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC046.webp",
+  "image": {
+    "width": 630,
+    "height": 1120,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "a375cc970d72ccc885151af0d4df98befe344a075ff5f42f756a17cc71877403",
+    "bytes": 44628
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true
+}
