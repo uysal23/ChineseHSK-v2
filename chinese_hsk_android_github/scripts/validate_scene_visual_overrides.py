@@ -30,24 +30,24 @@ def load(path: Path):
 def write_json(path: Path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-def ensure_ffmpeg():
-    if shutil.which("ffmpeg"):
+def ensure_decoder_tools():
+    if shutil.which("ffmpeg") or shutil.which("magick") or shutil.which("convert"):
         return True
     if os.environ.get("GITHUB_ACTIONS") != "true":
         return False
     try:
         subprocess.run(["sudo", "apt-get", "update", "-y"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["sudo", "apt-get", "install", "-y", "ffmpeg"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return shutil.which("ffmpeg") is not None
+        subprocess.run(["sudo", "apt-get", "install", "-y", "ffmpeg", "imagemagick"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return True
     except Exception as exc:
-        print(f"ffmpeg install unavailable: {exc}")
+        print(f"decoder tool install unavailable: {exc}")
         return False
 
 def open_bytes_with_ffmpeg(data: bytes):
-    if not ensure_ffmpeg():
+    if not shutil.which("ffmpeg"):
         return None
     try:
-        proc = subprocess.run(["ffmpeg", "-v", "error", "-f", "webp", "-i", "pipe:0", "-f", "png", "pipe:1"], input=data, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        proc = subprocess.run(["ffmpeg", "-v", "error", "-i", "pipe:0", "-f", "png", "pipe:1"], input=data, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
         with Image.open(io.BytesIO(proc.stdout)) as im:
             im.load()
             return im.copy()
@@ -55,15 +55,34 @@ def open_bytes_with_ffmpeg(data: bytes):
         print(f"ffmpeg WebP recovery failed: {exc}")
         return None
 
+def open_bytes_with_magick(data: bytes):
+    if not shutil.which("magick") and not shutil.which("convert"):
+        return None
+    command = ["magick", "-", "png:-"] if shutil.which("magick") else ["convert", "-", "png:-"]
+    try:
+        proc = subprocess.run(command, input=data, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        with Image.open(io.BytesIO(proc.stdout)) as im:
+            im.load()
+            return im.copy()
+    except Exception as exc:
+        print(f"ImageMagick recovery failed: {exc}")
+        return None
+
+def recover_bytes(data: bytes):
+    recovered = open_bytes_with_ffmpeg(data)
+    if recovered is not None:
+        return recovered
+    return open_bytes_with_magick(data)
+
 def open_candidate(path: Path):
     try:
         with Image.open(path) as im:
             im.load()
             return im.copy()
     except Exception as pil_exc:
-        recovered = open_bytes_with_ffmpeg(path.read_bytes())
+        recovered = recover_bytes(path.read_bytes())
         if recovered is not None:
-            print(f"Recovered WebP with ffmpeg: {path}")
+            print(f"Recovered malformed image with alternate decoder: {path}")
             return recovered
         raise pil_exc
 
@@ -75,9 +94,9 @@ def open_zip_candidate(zip_path: Path, member: str):
             im.load()
             return im.copy()
     except Exception as pil_exc:
-        recovered = open_bytes_with_ffmpeg(data)
+        recovered = recover_bytes(data)
         if recovered is not None:
-            print(f"Recovered zipped WebP with ffmpeg: {zip_path.name}:{member}")
+            print(f"Recovered zipped malformed image: {zip_path.name}:{member}")
             return recovered
         raise pil_exc
 
@@ -152,6 +171,7 @@ def repair_gate_assets(project: Path, repo: Path):
     scene_dir.mkdir(parents=True, exist_ok=True)
     runtime_override_dir.mkdir(parents=True, exist_ok=True)
     changed_repo, repaired, errors = [], [], []
+    ensure_decoder_tools()
     for sid in sorted(GATE_SCENES):
         target = scene_dir / f"{sid}.webp"
         source = source_dir / f"{sid}.webp"
