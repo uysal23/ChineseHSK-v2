@@ -1,0 +1,224 @@
+name: Build APK - user visual exception
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - ci/build_trigger.txt
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Materialize v3.4 runtime scene visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/runtime_visual_bundle_v34_chunks"
+          B64="$RUNNER_TEMP/runtime-visuals-v34.b64"
+          ZIP="$RUNNER_TEMP/runtime-visuals-v34.zip"
+          OUT="$RUNNER_TEMP/runtime-visuals-v34"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+          cat "$CHUNK_DIR"/*.b64 > "$B64"
+          base64 -d "$B64" > "$ZIP"
+          echo "8130943e529890002309f360f6827652b822ba9ace0f28807e9b65c70d868feb  $ZIP" | sha256sum -c -
+          unzip -q -o "$ZIP" -d "$OUT"
+          COUNT="$(find "$OUT/scenes" -maxdepth 1 -name '*.webp' | wc -l)"
+          test "$COUNT" -eq 135
+          echo "V34_RUNTIME_VISUALS=$OUT" >> "$GITHUB_ENV"
+
+      - name: Locate source ZIP
+        run: |
+          set -euo pipefail
+          test -f chinese_hsk_android_github_v2.0.0.zip
+          unzip -t chinese_hsk_android_github_v2.0.0.zip >/dev/null
+
+      - name: Extract source and install runtime visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf "$RUNNER_TEMP/chinese-hsk-v2"
+          mkdir -p "$RUNNER_TEMP/chinese-hsk-v2"
+          unzip -q chinese_hsk_android_github_v2.0.0.zip -d "$RUNNER_TEMP/chinese-hsk-v2"
+          SRC="$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github"
+          test "$(tr -d '\r\n' < "$SRC/VERSION")" = "2.0.0"
+          python3 ci/patch_source.py "$SRC"
+          printf '3.4.0\n' > "$SRC/VERSION"
+
+          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          mkdir -p "$SCENE_DIR"
+          rm -f "$SCENE_DIR"/*.webp
+          cp "$V34_RUNTIME_VISUALS"/scenes/*.webp "$SCENE_DIR/"
+          cp "$V34_RUNTIME_VISUALS"/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
+
+          # Reapply authoritative main-tree visual overrides, except the two user-authorized
+          # build-only exclusions. This preserves all other current main visuals.
+          if compgen -G "$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/*.webp" > /dev/null; then
+            for src in "$GITHUB_WORKSPACE"/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK*_SC*.webp; do
+              sid="$(basename "$src")"
+              case "$sid" in
+                ZH_HSK4_SC040.webp|ZH_HSK4_SC047.webp) continue ;;
+              esac
+              cp "$src" "$SCENE_DIR/$sid"
+            done
+          fi
+
+          rm -f "$SCENE_DIR/ZH_HSK4_SC040.webp" "$SCENE_DIR/ZH_HSK4_SC047.webp"
+          echo "SRC=$SRC" >> "$GITHUB_ENV"
+
+      - name: Install offline Mandarin ASR model
+        shell: bash
+        run: |
+          set -euo pipefail
+          MODEL_NAME="vosk-model-small-cn-0.22"
+          MODEL_ZIP="$RUNNER_TEMP/$MODEL_NAME.zip"
+          MODEL_SHA256="3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba"
+          DEST="$SRC/app/src/main/assets"
+          rm -f "$MODEL_ZIP"
+          rm -rf "$DEST/$MODEL_NAME"
+          if ! curl -fL --retry 4 --retry-delay 3 "https://alphacephei.com/vosk/models/$MODEL_NAME.zip" -o "$MODEL_ZIP"; then
+            curl -fL --retry 4 --retry-delay 3 "https://huggingface.co/rhasspy/vosk-models/resolve/main/zh/$MODEL_NAME.zip?download=true" -o "$MODEL_ZIP"
+          fi
+          echo "$MODEL_SHA256  $MODEL_ZIP" | sha256sum -c -
+          unzip -q "$MODEL_ZIP" -d "$DEST"
+          test -f "$DEST/$MODEL_NAME/am/final.mdl"
+          test -f "$DEST/$MODEL_NAME/conf/mfcc.conf"
+
+      - name: Install generated Mandarin voice pack
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          DEST="$SRC/app/src/main/assets"
+          TMP="$RUNNER_TEMP/mandarin-voice-pack"
+          RAW="$TMP/extracted"
+          rm -rf "$TMP"
+          mkdir -p "$RAW"
+          if gh release view voice-pack-v1 >/dev/null 2>&1; then
+            for attempt in 1 2 3 4 5 6; do
+              if gh release download voice-pack-v1 --pattern "ChineseHSK-voice-pack-v1.zip" --dir "$TMP" --clobber; then break; fi
+              sleep 10
+            done
+          fi
+          if [ -f "$TMP/ChineseHSK-voice-pack-v1.zip" ]; then
+            unzip -q -o "$TMP/ChineseHSK-voice-pack-v1.zip" -d "$RAW"
+            python3 - "$RAW/chinese_course/media/audio_manifest.json" "$RAW" <<'PY'
+          import json, sys
+          from pathlib import Path
+          manifest = Path(sys.argv[1])
+          root = Path(sys.argv[2])
+          data = json.loads(manifest.read_text(encoding="utf-8"))
+          assets = data.get("assets", {})
+          if len(assets) != 30000:
+              raise SystemExit(f"Expected 30000 generated dialogue mappings, got {len(assets)}")
+          for dialogue_id, rel in assets.items():
+              p = root / rel
+              if not p.exists() or p.stat().st_size < 256:
+                  raise SystemExit(f"Generated voice asset missing: {dialogue_id} -> {rel}")
+          PY
+            cp -a "$RAW/chinese_course" "$DEST/"
+            cp "$RAW/chinese_course/media/audio_manifest.json" "$RUNNER_TEMP/generated-audio-manifest.json"
+            echo "GENERATED_AUDIO_MANIFEST=$RUNNER_TEMP/generated-audio-manifest.json" >> "$GITHUB_ENV"
+          else
+            echo "Generated voice pack unavailable; continuing with offline TTS fallback."
+          fi
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Gradle 9.6
+        shell: bash
+        run: |
+          curl -fsSL https://services.gradle.org/distributions/gradle-9.6.0-bin.zip -o "$RUNNER_TEMP/gradle.zip"
+          unzip -q "$RUNNER_TEMP/gradle.zip" -d "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/gradle-9.6.0/bin" >> "$GITHUB_PATH"
+
+      - name: Install Android SDK packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools" -type f -name sdkmanager 2>/dev/null | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          yes | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Install Python media tooling
+        run: python3 -m pip install --disable-pip-version-check "Pillow>=12,<13"
+
+      - name: Compile and validate course
+        working-directory: ${{ env.SRC }}
+        run: |
+          python3 scripts/compile_authoring.py
+          python3 "$GITHUB_WORKSPACE/ci/validate_voice_cast.py"
+          python3 "$GITHUB_WORKSPACE/ci/validate_visual_cast_alignment.py"
+          python3 "$GITHUB_WORKSPACE/ci/validate_visual_continuity_lock.py"
+          python3 "$GITHUB_WORKSPACE/ci/validate_dialogue_final.py" \
+            "$GITHUB_WORKSPACE/ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels" \
+            "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
+          python3 "$GITHUB_WORKSPACE/ci/apply_dialogue_naturalization.py" "$PWD" "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
+          python3 scripts/build_media_catalog.py
+          python3 scripts/validate_content.py --strict
+          python3 scripts/audit_content_quality.py
+          python3 scripts/validate_app_flow.py
+
+      - name: Refresh scene metadata
+        run: python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py --repo-root "$GITHUB_WORKSPACE"
+
+      - name: Enforce visual gate with SC040 and SC047 excluded
+        run: |
+          set -euo pipefail
+          python3 "$SRC/scripts/validate_scene_visual_overrides.py" --repo-root "$GITHUB_WORKSPACE" --require-ready-batch
+
+      - name: Restore generated Mandarin audio manifest
+        if: ${{ env.GENERATED_AUDIO_MANIFEST != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp "$GENERATED_AUDIO_MANIFEST" "$SRC/app/src/main/assets/chinese_course/media/audio_manifest.json"
+          python3 - "$SRC/app/src/main/assets/chinese_course/media/audio_manifest.json" "$SRC/app/src/main/assets" <<'PY'
+          import json, sys
+          from pathlib import Path
+          manifest = Path(sys.argv[1])
+          root = Path(sys.argv[2])
+          data = json.loads(manifest.read_text(encoding="utf-8"))
+          assets = data.get("assets", {})
+          if len(assets) != 30000:
+              raise SystemExit(f"Expected 30000 generated audio mappings, got {len(assets)}")
+          for dialogue_id, rel in assets.items():
+              p = root / rel
+              if not p.exists() or p.stat().st_size < 256:
+                  raise SystemExit(f"Generated audio file missing: {dialogue_id} -> {rel}")
+          PY
+
+      - name: Build personal APK
+        working-directory: ${{ env.SRC }}
+        run: gradle :app:assembleDebug --stacktrace
+
+      - name: Package APK
+        working-directory: ${{ env.SRC }}
+        run: python3 scripts/package_apk_artifact.py app/build/outputs/apk/debug/app-debug.apk dist personal
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ChineseHSK-main-user-exception-apk
+          path: ${{ env.SRC }}/dist/*.apk
+          if-no-files-found: error
+          retention-days: 30
