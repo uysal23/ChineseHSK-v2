@@ -239,6 +239,117 @@ CTX = {
 ]
 }
 
+HSK2_GLOBAL = {
+"先别着急，我们想个办法。":[
+("先别急，我们一起想办法。","Önce telaşlanmayalım, birlikte bir çözüm düşünelim."),
+("别着急，总会有办法的。","Telaşlanma, mutlaka bir çözüm buluruz."),
+("先冷静一下，我们再想想怎么办。","Önce sakinleşelim, sonra ne yapacağımızı düşünelim."),
+("没关系，我们先想个办法。","Sorun değil, önce bir çözüm düşünelim."),
+("先别慌，看看还有什么办法。","Panik yapmayalım, başka ne yapabiliriz bakalım."),
+("我们慢慢想，一定有办法。","Sakin sakin düşünelim, mutlaka bir yol buluruz.")
+],
+"我觉得可以先做最简单的。":[
+("我觉得先做最简单的比较好。","Bence önce en kolay olanı yapmak daha iyi."),
+("我们可以先从简单的开始。","Önce kolay olandan başlayabiliriz."),
+("先做容易的吧。","Önce kolay olanı yapalım."),
+("我想先把最简单的做完。","Bence önce en kolay kısmı bitirelim."),
+("要不先做最简单的？","Önce en kolay olanı yapsak?"),
+("从简单的开始会快一点。","Kolay olandan başlamak biraz daha hızlı olur.")
+],
+"那我们把它记下来。":[
+("那我们先记下来。","O zaman önce not edelim."),
+("好，把这个记下来吧。","Tamam, bunu not edelim."),
+("那我先把它写下来。","O zaman bunu önce yazayım."),
+("别忘了，把这个记一下。","Unutmayalım, bunu not edelim."),
+("好，这一点先记着。","Tamam, bu noktayı aklımızda tutalım."),
+("那就先写下来。","O zaman önce yazalım.")
+],
+"因为时间不多，所以我们快一点。":[
+("时间不多了，我们快一点吧。","Fazla zaman kalmadı, biraz hızlanalım."),
+("因为时间不多，我们得快一点。","Zaman az olduğu için biraz hızlı olmalıyız."),
+("快一点吧，不然时间不够。","Biraz hızlanalım, yoksa zaman yetmeyecek."),
+("时间有点紧，我们动作快一点。","Zaman biraz sıkışık, biraz hızlı hareket edelim."),
+("我们抓紧一点，时间不多了。","Biraz hızlanalım, fazla zaman kalmadı."),
+("先快一点做，等会儿再检查。","Önce biraz hızlı yapalım, sonra yeniden kontrol ederiz.")
+],
+"先做这个，再做下一个。":[
+("先做这个，然后再做下一个。","Önce bunu yapalım, sonra diğerine geçeriz."),
+("这个做完以后再做下一个。","Bunu bitirdikten sonra diğerini yapalım."),
+("我们一个一个来，先做这个。","Tek tek ilerleyelim, önce bunu yapalım."),
+("先把这个完成，再看下一个。","Önce bunu tamamlayalım, sonra diğerine bakalım."),
+("别一起做，先做这个。","Hepsini birden yapmayalım, önce bunu yapalım."),
+("好，先这个，后面再做下一个。","Tamam, önce bu; sonra diğerini yaparız.")
+],
+"这个办法比刚才的好。":[
+("这个办法比刚才好一点。","Bu yöntem az öncekinden biraz daha iyi."),
+("我觉得这个办法更好。","Bence bu yöntem daha iyi."),
+("这样比刚才方便。","Böyle yapmak az öncekinden daha kullanışlı."),
+("这个办法看起来更合适。","Bu yöntem daha uygun görünüyor."),
+("还是这个办法好一些。","Bu yöntem biraz daha iyi."),
+("换成这个办法会更容易。","Bu yönteme geçmek daha kolay olur.")
+],
+"我已经试过一次了。":[
+("我刚才已经试过了。","Az önce zaten denedim."),
+("这个我试过一次。","Bunu bir kez denedim."),
+("我已经试了一次。","Bir kez denedim."),
+("刚才我试过这个办法。","Az önce bu yöntemi denedim."),
+("这个办法我刚刚试过。","Bu yöntemi az önce denedim."),
+("我试过了，知道是什么情况。","Denedim, durumun ne olduğunu biliyorum.")
+],
+"那我们换一个办法。":[
+("那我们换个办法吧。","O zaman başka bir yöntem deneyelim."),
+("不行的话就换一个办法。","Olmazsa başka bir yöntem deneyelim."),
+("那试试别的办法。","O zaman başka bir yol deneyelim."),
+("好，我们换一种做法。","Tamam, başka bir yöntem kullanalım."),
+("这个不行，就换一个。","Bu olmazsa başka birini deneyelim."),
+("那我们换个方法看看。","O zaman başka bir yöntem deneyelim.")
+],
+"太好了，终于解决了。":[
+("太好了，终于解决了。","Harika, sonunda çözüldü."),
+("好了，问题终于解决了。","Tamam, sorun sonunda çözüldü."),
+("太好了，这下没问题了。","Harika, artık sorun yok."),
+("终于好了，我放心了。","Sonunda düzeldi, içim rahatladı."),
+("好，总算解决了。","Tamam, sonunda çözdük."),
+("太好了，这件事解决了。","Harika, bu işi çözdük.")
+],
+"今天又学到一件事。":[
+("今天又学到了一点。","Bugün yine bir şey öğrendik."),
+("今天又知道了一个新办法。","Bugün yeni bir yöntem daha öğrendik."),
+("这次我们也学到东西了。","Bu sefer de bir şey öğrendik."),
+("今天这个经验很有用。","Bugünkü deneyim çok faydalı."),
+("这件事让我学到了不少。","Bu olay bana epey şey öğretti."),
+("以后遇到这种情况就知道怎么办了。","Bundan sonra böyle bir durumda ne yapacağımızı biliriz.")
+],
+"下次我们会更有经验。":[
+("下次我们会更有经验。","Bir dahaki sefere daha tecrübeli oluruz."),
+("下次再遇到就容易多了。","Bir daha olursa çok daha kolay olur."),
+("有了这次经验，下次就知道怎么办了。","Bu deneyim sayesinde bir dahaki sefere ne yapacağımızı biliriz."),
+("下次我们会准备得更好。","Bir dahaki sefere daha iyi hazırlanırız."),
+("以后再遇到这种情况就不怕了。","Bundan sonra böyle bir durum olursa korkmayız."),
+("这次记住了，下次会更顺利。","Bu kez öğrendik; bir dahaki sefere daha sorunsuz olur.")
+],
+"我理解你的立场，不过我想从另一个角度补充一点。":[
+("我明白你的想法，不过我还有一个想法。","Düşünceni anlıyorum ama benim de başka bir fikrim var."),
+("你说得有道理，我还想补充一点。","Söylediğin mantıklı; ben de bir şey eklemek istiyorum."),
+("我懂你的意思，不过也可以换个角度想。","Ne demek istediğini anlıyorum ama başka bir açıdan da düşünebiliriz."),
+("对，不过我还想到另外一点。","Evet, ama aklıma başka bir nokta daha geldi."),
+("我明白，不过还有一个地方要考虑。","Anlıyorum ama düşünmemiz gereken bir nokta daha var."),
+("你的想法可以，我再补充一句。","Fikrin olabilir; ben de bir şey ekleyeyim.")
+],
+"现在大家的立场已经比开始时清楚多了。":[
+("现在大家的想法比刚开始清楚多了。","Artık herkesin düşüncesi başlangıca göre çok daha net."),
+("聊到这里，大家怎么想已经很清楚了。","Buraya kadar konuşunca herkesin ne düşündüğü oldukça netleşti."),
+("现在我们都知道彼此怎么想了。","Artık birbirimizin ne düşündüğünü biliyoruz."),
+("大家的意见现在清楚多了。","Herkesin görüşü artık çok daha net."),
+("说了这么多，大家的想法已经比较明确了。","Bu kadar konuştuktan sonra herkesin düşüncesi oldukça netleşti."),
+("至少现在大家都把想法说清楚了。","En azından artık herkes düşüncesini açıkça söyledi.")
+],
+}
+
+def hsk2_global_variant(zh,tr,key):
+    opts=HSK2_GLOBAL.get(zh)
+    return pick(opts,key) if opts else (zh,tr)
+
 def beginner_variant(zh,tr,occ,key):
     maps={
       "好。":[("嗯，好。",tr),("行。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr),("没问题。",tr),("行啊。",tr),("好吧。",tr),("嗯，可以。",tr),("对，就这样。",tr),("好，就这么办。",tr)],
@@ -322,6 +433,9 @@ for sid,d in sorted(docs.items()):
     active,trmap=active_cards(scene)
     cat=category(scene.get("titleZh",""),active,scene.get("miniAdventureTr",""))
     title=scene.get("titleZh","")
+    anchors=[a for a in active if 2 <= len(a) <= 10]
+    if not anchors:
+        anchors=[title.replace("？","").replace("！","")[:8] or "这件事"]
     turns=[]
     context_seq=0
     context_offset=int(hashlib.sha256(sid.encode("utf-8")).hexdigest()[:6],16)
@@ -331,12 +445,36 @@ for sid,d in sorted(docs.items()):
         # Replace course-wide long boilerplate in HSK4-HSK6. Keep any line
         # containing active scene vocabulary, because it is already scene-grounded.
         active_hit=[a for a in active if a and a in zh]
-        if ln>=4 and global_freq[zh]>=20 and han_len(zh)>=8 and not active_hit:
-            pool=CTX.get(cat,CTX["general"])
-            pos=(context_offset+context_seq)%len(pool)
-            cycle=context_seq//len(pool)
-            z,t=pool[pos]
-            z,t=wrapped_context_line(z,t,cycle)
+        if ln==2 and global_freq[zh]>=20 and han_len(zh)>=7:
+            z,t=hsk2_global_variant(zh,row["tr"],f"{sid}:{idx}:{zh}:hsk2global")
+            row["zh"]=z;row["tr"]=t;row["pinyin"]=pinyin_text(z)
+            report["contextRewrites"]+=1
+        elif ln>=4 and global_freq[zh]>=20 and han_len(zh)>=8:
+            scene_anchor=anchors[context_seq%len(anchors)]
+            anchor_tr=trmap.get(scene_anchor,"bu konu")
+            if active_hit:
+                # Keep the HSK target term already present in the line, but ground
+                # the sentence in this scene so it does not become course-wide boilerplate.
+                choices=[
+                    (f"说到{scene_anchor}，{zh}",f"{anchor_tr} konusunda, "+row["tr"][:1].lower()+row["tr"][1:]),
+                    (f"至于{scene_anchor}，{zh}",f"{anchor_tr} konusuna gelince, "+row["tr"][:1].lower()+row["tr"][1:]),
+                    (f"在{scene_anchor}这件事上，{zh}",f"{anchor_tr} konusunda, "+row["tr"][:1].lower()+row["tr"][1:]),
+                    (f"从{scene_anchor}这方面看，{zh}",f"{anchor_tr} açısından bakarsak, "+row["tr"][:1].lower()+row["tr"][1:]),
+                ]
+                z,t=choices[(context_offset+context_seq)%len(choices)]
+            else:
+                pool=CTX.get(cat,CTX["general"])
+                pos=(context_offset+context_seq)%len(pool)
+                cycle=context_seq//len(pool)
+                z,t=pool[pos]
+                z,t=wrapped_context_line(z,t,cycle)
+                forms=[
+                    (f"说到{scene_anchor}，{z}",f"{anchor_tr} konusunda, "+t[:1].lower()+t[1:]),
+                    (f"至于{scene_anchor}，{z}",f"{anchor_tr} konusuna gelince, "+t[:1].lower()+t[1:]),
+                    (f"在{scene_anchor}这件事上，{z}",f"{anchor_tr} konusunda, "+t[:1].lower()+t[1:]),
+                    (f"从{scene_anchor}这方面看，{z}",f"{anchor_tr} açısından bakarsak, "+t[:1].lower()+t[1:]),
+                ]
+                z,t=forms[(context_offset+context_seq)%len(forms)]
             context_seq+=1
             row["zh"]=z; row["tr"]=t; row["pinyin"]=pinyin_text(z)
             report["contextRewrites"]+=1
