@@ -21,38 +21,65 @@ REQUIRED_CHECKS = {
     "noMiniSkirt", "noSexyClothing", "criticalObjectsVisible",
     "canonicalCharacterContinuityChecked", "uniqueSceneIdChecked"
 }
-GATE_SCENES = {
-    "ZH_HSK2_SC011",
-    "ZH_HSK4_SC040",
-    "ZH_HSK4_SC045",
-    "ZH_HSK4_SC046",
-    "ZH_HSK4_SC047",
-}
+GATE_SCENES = {"ZH_HSK2_SC011", "ZH_HSK4_SC040", "ZH_HSK4_SC045", "ZH_HSK4_SC046", "ZH_HSK4_SC047"}
 TARGET_SIZE = (941, 1672)
-
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
-
 def write_json(path: Path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+def ensure_ffmpeg():
+    if shutil.which("ffmpeg"):
+        return True
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return False
+    try:
+        subprocess.run(["sudo", "apt-get", "update", "-y"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["sudo", "apt-get", "install", "-y", "ffmpeg"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return shutil.which("ffmpeg") is not None
+    except Exception as exc:
+        print(f"ffmpeg install unavailable: {exc}")
+        return False
+
+def open_bytes_with_ffmpeg(data: bytes):
+    if not ensure_ffmpeg():
+        return None
+    try:
+        proc = subprocess.run(["ffmpeg", "-v", "error", "-f", "webp", "-i", "pipe:0", "-f", "png", "pipe:1"], input=data, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+        with Image.open(io.BytesIO(proc.stdout)) as im:
+            im.load()
+            return im.copy()
+    except Exception as exc:
+        print(f"ffmpeg WebP recovery failed: {exc}")
+        return None
 
 def open_candidate(path: Path):
-    with Image.open(path) as im:
-        im.load()
-        return im.copy()
-
+    try:
+        with Image.open(path) as im:
+            im.load()
+            return im.copy()
+    except Exception as pil_exc:
+        recovered = open_bytes_with_ffmpeg(path.read_bytes())
+        if recovered is not None:
+            print(f"Recovered WebP with ffmpeg: {path}")
+            return recovered
+        raise pil_exc
 
 def open_zip_candidate(zip_path: Path, member: str):
     with zipfile.ZipFile(zip_path) as zf:
-        with zf.open(member) as fh:
-            data = fh.read()
-    with Image.open(io.BytesIO(data)) as im:
-        im.load()
-        return im.copy()
-
+        data = zf.read(member)
+    try:
+        with Image.open(io.BytesIO(data)) as im:
+            im.load()
+            return im.copy()
+    except Exception as pil_exc:
+        recovered = open_bytes_with_ffmpeg(data)
+        if recovered is not None:
+            print(f"Recovered zipped WebP with ffmpeg: {zip_path.name}:{member}")
+            return recovered
+        raise pil_exc
 
 def find_valid_master(repo: Path, project: Path, sid: str):
     candidates = [
@@ -66,14 +93,12 @@ def find_valid_master(repo: Path, project: Path, sid: str):
             return label, open_candidate(path)
         except Exception as exc:
             print(f"{sid}: {label} candidate invalid: {exc}")
-
     visual_pack = repo / "visual_pack_v1.zip"
     if visual_pack.exists():
         try:
             return "visual-pack-v1", open_zip_candidate(visual_pack, f"scenes/{sid}.webp")
         except Exception as exc:
             print(f"{sid}: visual_pack_v1 fallback invalid: {exc}")
-
     target = project / "app/src/main/assets/chinese_course/media/scenes" / f"{sid}.webp"
     if target.exists():
         try:
@@ -81,7 +106,6 @@ def find_valid_master(repo: Path, project: Path, sid: str):
         except Exception as exc:
             print(f"{sid}: runtime-v34 candidate invalid: {exc}")
     return None, None
-
 
 def persist_repairs(repo: Path, changed_repo):
     if not changed_repo or os.environ.get("GITHUB_ACTIONS") != "true":
@@ -110,8 +134,6 @@ def persist_repairs(repo: Path, changed_repo):
                 try:
                     subprocess.run(["git", "-C", td, "push", "origin", "HEAD:main"], check=True)
                 except subprocess.CalledProcessError:
-                    # Remote may have advanced while this build was running. Rebase this
-                    # small repair commit onto the latest main and retry once.
                     subprocess.run(["git", "-C", td, "fetch", "origin", "main"], check=True)
                     subprocess.run(["git", "-C", td, "rebase", "origin/main"], check=True)
                     subprocess.run(["git", "-C", td, "push", "origin", "HEAD:main"], check=True)
@@ -121,7 +143,6 @@ def persist_repairs(repo: Path, changed_repo):
     except Exception as exc:
         print(f"WARNING: could not persist repaired visuals to main: {exc}")
 
-
 def repair_gate_assets(project: Path, repo: Path):
     scene_dir = project / "app/src/main/assets/chinese_course/media/scenes"
     source_dir = repo / "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
@@ -130,11 +151,7 @@ def repair_gate_assets(project: Path, repo: Path):
     runtime_override_dir = repo / "ci/runtime_visuals"
     scene_dir.mkdir(parents=True, exist_ok=True)
     runtime_override_dir.mkdir(parents=True, exist_ok=True)
-
-    changed_repo = []
-    repaired = []
-    errors = []
-
+    changed_repo, repaired, errors = [], [], []
     for sid in sorted(GATE_SCENES):
         target = scene_dir / f"{sid}.webp"
         source = source_dir / f"{sid}.webp"
@@ -144,7 +161,6 @@ def repair_gate_assets(project: Path, repo: Path):
         if master is None:
             errors.append(f"{sid}: no valid image master available")
             continue
-
         temp = repo / f".gate-repair-{sid}.webp"
         try:
             repaired_im = master.convert("RGB").resize(TARGET_SIZE, Image.Resampling.LANCZOS)
@@ -158,83 +174,65 @@ def repair_gate_assets(project: Path, repo: Path):
             temp.unlink(missing_ok=True)
             errors.append(f"{sid}: repaired image could not be installed: {exc}")
             continue
-
         raw = source.read_bytes()
-        sha = hashlib.sha256(raw).hexdigest()
-        size = source.stat().st_size
+        sha, size = hashlib.sha256(raw).hexdigest(), source.stat().st_size
         repaired.append(f"{sid} ({label})")
         changed_repo.extend([source, runtime_override_dir / f"{sid}.webp"])
-
         repo_meta = load(source_meta_path) if source_meta_path.exists() else {}
         project_meta = load(project_meta_path) if project_meta_path.exists() else {}
         for key in ("criticalObjects", "manifestChecklist", "requiredVisualCharacters", "characterAgeLock"):
             if key in repo_meta:
                 project_meta[key] = repo_meta[key]
-
         image = dict(project_meta.get("image") or {})
         image.update({"width": TARGET_SIZE[0], "height": TARGET_SIZE[1], "format": "WEBP", "orientation": "9:16_vertical", "sha256": sha, "bytes": size})
         project_meta["image"] = image
         write_json(project_meta_path, project_meta)
-
         if source_meta_path.exists():
             repo_image = dict(repo_meta.get("image") or {})
             repo_image.update({"width": TARGET_SIZE[0], "height": TARGET_SIZE[1], "format": "WEBP", "orientation": "9:16_vertical", "sha256": sha, "bytes": size})
             repo_meta["image"] = repo_image
             write_json(source_meta_path, repo_meta)
             changed_repo.append(source_meta_path)
-
-    manifest_paths = [
-        project / "app/src/main/assets/chinese_course/media/scene_visual_manifest.json",
-        repo / "ci/scene_visual_manifest.json",
-    ]
+    manifest_paths = [project / "app/src/main/assets/chinese_course/media/scene_visual_manifest.json", repo / "ci/scene_visual_manifest.json"]
     actual = {}
     for label in repaired:
         sid = label.split(" ", 1)[0]
         p = source_dir / f"{sid}.webp"
         actual[sid] = (p.stat().st_size, hashlib.sha256(p.read_bytes()).hexdigest())
-
     for manifest_path in manifest_paths:
         if not manifest_path.exists():
             continue
         try:
-            manifest = load(manifest_path)
-            changed = False
+            manifest, changed = load(manifest_path), False
             for asset in manifest.get("assets", []):
                 sid = asset.get("sceneId")
                 if sid not in actual:
                     continue
                 size, sha = actual[sid]
                 if asset.get("width") != TARGET_SIZE[0] or asset.get("height") != TARGET_SIZE[1]:
-                    asset["width"] = TARGET_SIZE[0]
-                    asset["height"] = TARGET_SIZE[1]
-                    asset["aspect"] = round(TARGET_SIZE[0] / TARGET_SIZE[1], 4)
+                    asset["width"], asset["height"], asset["aspect"] = TARGET_SIZE[0], TARGET_SIZE[1], round(TARGET_SIZE[0] / TARGET_SIZE[1], 4)
                     changed = True
                 if "sha256" in asset and asset.get("sha256") != sha:
-                    asset["sha256"] = sha
-                    changed = True
+                    asset["sha256"], changed = sha, True
                 if "bytes" in asset and asset.get("bytes") != size:
-                    asset["bytes"] = size
-                    changed = True
+                    asset["bytes"], changed = size, True
             if changed:
                 write_json(manifest_path, manifest)
                 if manifest_path == repo / "ci/scene_visual_manifest.json":
                     changed_repo.append(manifest_path)
         except Exception as exc:
             errors.append(f"scene_visual_manifest.json repair failed: {exc}")
-
     for error in errors:
         print("REPAIR ERROR:", error)
     if repaired:
         print(f"Repaired gated scene visuals: {', '.join(repaired)} -> 941x1672 WEBP")
     persist_repairs(repo, changed_repo)
 
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo-root", default=None)
     ap.add_argument("--require-ready-batch", action="store_true")
     args = ap.parse_args()
-
     project = Path(__file__).resolve().parents[1]
     repo = Path(args.repo_root).resolve() if args.repo_root else project.parent
     scenes_dir = project / "app/src/main/assets/chinese_course/media/scenes"
@@ -242,13 +240,10 @@ def main():
     batch_path = project / "visual_sources/visual_batch_status.json"
     policy_path = project / "visual_sources/visual_generation_policy.json"
     errors = []
-
     policy = load(policy_path)
     if policy.get("policyVersion") != "LOCKED_V2" or policy.get("batchSize") != 10:
         errors.append("visual_generation_policy.json LOCKED_V2 / batchSize=10 değil")
-
     repair_gate_assets(project, repo)
-
     webps = sorted(scenes_dir.glob("ZH_HSK*_SC*.webp")) if scenes_dir.exists() else []
     seen = set()
     for img_path in webps:
@@ -268,13 +263,9 @@ def main():
             errors.append(f"{sid}: metadata yok: {meta_path.relative_to(project)}")
             continue
         meta = load(meta_path)
-        if meta.get("sceneId") != sid or meta.get("manifestVersion") != "LOCKED_V2":
-            errors.append(f"{sid}: metadata sceneId/manifestVersion hatalı")
-        if meta.get("generationSceneId") not in (None, sid):
-            errors.append(f"{sid}: generationSceneId asset sceneId ile eşleşmiyor")
-        final_name = meta.get("finalAssetFilename")
-        if final_name not in (None, f"{sid}.webp"):
-            errors.append(f"{sid}: finalAssetFilename sceneId ile eşleşmiyor")
+        if meta.get("sceneId") != sid or meta.get("manifestVersion") != "LOCKED_V2": errors.append(f"{sid}: metadata sceneId/manifestVersion hatalı")
+        if meta.get("generationSceneId") not in (None, sid): errors.append(f"{sid}: generationSceneId asset sceneId ile eşleşmiyor")
+        if meta.get("finalAssetFilename") not in (None, f"{sid}.webp"): errors.append(f"{sid}: finalAssetFilename sceneId ile eşleşmiyor")
         try:
             with Image.open(img_path) as im:
                 w, h = im.size
@@ -283,38 +274,30 @@ def main():
                 if abs((w / h) - (9 / 16)) > 0.01: errors.append(f"{sid}: 9:16 oranı değil ({w}x{h})")
                 if w < 900 or h < 1600: errors.append(f"{sid}: çözünürlük düşük ({w}x{h})")
                 expected_sha = (meta.get("image") or {}).get("sha256", "")
-                if expected_sha:
-                    actual_sha = hashlib.sha256(img_path.read_bytes()).hexdigest()
-                    if expected_sha != actual_sha: errors.append(f"{sid}: görsel SHA-256 metadata ile eşleşmiyor")
+                if expected_sha and expected_sha != hashlib.sha256(img_path.read_bytes()).hexdigest(): errors.append(f"{sid}: görsel SHA-256 metadata ile eşleşmiyor")
         except Exception as exc:
             errors.append(f"{sid}: görsel açılamadı: {exc}")
-
         source = meta.get("dialogueSource", "")
         dpath = repo / source if source.startswith("ci/") else project / source
         if not dpath.exists():
             errors.append(f"{sid}: dialogueSource bulunamadı: {source}")
             continue
         raw = dpath.read_bytes()
-        if meta.get("dialogueSha256") != hashlib.sha256(raw).hexdigest():
-            errors.append(f"{sid}: dialogueSha256 güncel değil")
+        if meta.get("dialogueSha256") != hashlib.sha256(raw).hexdigest(): errors.append(f"{sid}: dialogueSha256 güncel değil")
         data = json.loads(raw)
         speakers = []
         for dialogue in data.get("dialogues", []):
             speaker = dialogue.get("speaker", "")
             if speaker and speaker != "旁白" and speaker not in speakers: speakers.append(speaker)
-        if meta.get("dialogueSpeakers") != speakers:
-            errors.append(f"{sid}: konuşan karakter listesi kaynak diyalogla eşleşmiyor; beklenen={speakers}")
-        required = set(meta.get("requiredVisualCharacters", []))
-        if not set(speakers).issubset(required): errors.append(f"{sid}: requiredVisualCharacters tüm konuşanları içermiyor")
+        if meta.get("dialogueSpeakers") != speakers: errors.append(f"{sid}: konuşan karakter listesi kaynak diyalogla eşleşmiyor; beklenen={speakers}")
+        if not set(speakers).issubset(set(meta.get("requiredVisualCharacters", []))): errors.append(f"{sid}: requiredVisualCharacters tüm konuşanları içermiyor")
         checks = meta.get("manifestChecklist", {})
         missing = [key for key in REQUIRED_CHECKS if checks.get(key) is not True]
         if missing: errors.append(f"{sid}: manifesto checklist eksik/false: {sorted(missing)}")
         if not meta.get("criticalObjects"): errors.append(f"{sid}: criticalObjects boş")
-
     batch = load(batch_path)
     active = batch.get("activeBatch") or {}
-    ids = active.get("sceneIds", [])
-    done = active.get("completedSceneIds", [])
+    ids, done = active.get("sceneIds", []), active.get("completedSceneIds", [])
     if len(ids) != 10: errors.append("Aktif batch sceneIds tam 10 sahne değil")
     missing_done = [sid for sid in done if sid not in seen]
     if missing_done: errors.append(f"Batch tamamlandı denen fakat asseti olmayan sahneler: {missing_done}")
@@ -323,7 +306,6 @@ def main():
         if active.get("status") != "READY_FOR_BUILD": errors.append(f"Build engellendi: aktif batch durumu {active.get('status')} (READY_FOR_BUILD olmalı)")
         if active.get("buildApprovalRequired") is not True: errors.append("Build approval policy kapalı")
         if active.get("buildApproved") is not True: errors.append("Build engellendi: kullanıcı build onayı kaydı yok")
-
     if errors:
         print("VISUAL OVERRIDE VALIDATION: FAIL")
         for error in errors: print(" -", error)
@@ -331,7 +313,6 @@ def main():
     print(f"VISUAL OVERRIDE VALIDATION: PASS ({len(webps)} direct scene override)")
     print(f"Active batch: {active.get('batchId')} {len(done)}/10 status={active.get('status')}")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())
