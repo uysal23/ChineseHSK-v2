@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK4_SC047",
+  "status": "ANALYZED_READY_FOR_IMAGEGEN",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC047.json",
+  "titleZh": "张伟算退休账",
+  "titleTr": "Zhang Emeklilik Hesabı Yapıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang Wei emeklilik hayalini ilk kez tasarruf, bütçe, erken emeklilik ve gelecek planı açısından gerçekçi biçimde hesaplar; Liu Mei, Li Chen ve Yutong görüşlerini karşılaştırarak ortak bir yol belirler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterIds": {
+    "张伟": "CHR_ZH_ZHANGWEI_001",
+    "刘梅": "CHR_ZH_LIUMEI_001",
+    "李晨": "CHR_ZH_LICHEN_001",
+    "张雨桐": "CHR_ZH_ZHANGYUTONG_001"
+  },
+  "characterAgeLock": {
+    "张伟": "middle",
+    "刘梅": "middle",
+    "李晨": "middle",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "ahşap yemek masası üzerinde hesap makinesi",
+    "metinsiz bütçe/emeklilik planı kâğıtları ve boş çizelgeler",
+    "kalem ve not defteri",
+    "birkaç düzenli fatura/zarf veya tasarruf dosyası",
+    "gelecek planını çağrıştıran sade kahve kupası; kafe temasına yalnızca ikincil gönderme"
+  ],
+  "emotionalDirectionTr": "Zhang Wei ciddi, sorumluluk sahibi ve düşünceli; Liu Mei pratik ve destekleyici; Li Chen deneyimli aile dostu olarak sakin biçimde karşılaştırma yapar; Yutong young adult olarak dikkatle dinler ve not alır. Atmosfer sıcak aile dayanışması, fakat finansal kararın ağırlığı hissedilir.",
+  "visualDirectionTr": "Akşam, Zhang ailesinin yeni evinin sabit open living-dining alanı. Light oak floor, warm off-white walls, grey fabric sofa, rectangular wood dining table, rear-right kitchen opening, left hallway, rear balcony windows korunmalı. Dört konuşmacı yalnızca aynı tek sahnede görünür. Zhang Wei masanın merkezinde hesap makinesi ve metinsiz bütçe/emeklilik kâğıtları üzerinde hesap yapar; Liu Mei yanında belgeleri karşılaştırır; Li Chen thin dark rectangular glasses ile orta yaş aile dostu olarak bir sayfayı işaret eder; Yutong young adult olarak not defteriyle katılır. Pencerelerde akşam/mavi saat, içeride sıcak ev ışığı. Hiçbir okunabilir yazı, sayı, logo veya marka yok. 9:16 dikey, sıcak sinematik 3D/2.5D CGI, tek zaman anı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC046",
+    "previousContinuityTr": "SC046'da Yutong üniversitenin ilk günündedir; SC047 aynı yaşam döneminde akşam yeni eve dönerek Zhang Wei'nin emeklilik planına odaklanır. Yutong young_adult kimliği korunur.",
+    "nextSceneId": "ZH_HSK4_SC048",
+    "nextContinuityTr": "SC048 aile kafesinde gündüz yerel gazeteci röportajına geçer. SC047'de kafe yalnızca gelecekteki yaşam/emeklilik planının ikincil unsuru olarak kalmalıdır."
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "readableNumbersAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "extraHumanCharactersAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true,
+    "readableBrandingAllowed": false
+  }
+}
