@@ -13,3 +13,6 @@ source head before trigger: 45d1ad5f0e75ac635dffee4b656fe0822338b4f2
 visual gate: HSK4 SC021-SC030 10/10 READY_FOR_BUILD
 partial batch preserved: HSK4 SC041-SC050 = 4/10 IN_PROGRESS
 reason: explicit user build approval
+2026-10-01 21:04 TRT - build requested from main by user
+source head before trigger: 0a522fc13aea8008b3bb890f9c7e0b7e3a7b261e
+reason: explicit user build approval
