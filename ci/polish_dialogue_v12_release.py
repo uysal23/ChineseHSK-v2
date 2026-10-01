@@ -1080,6 +1080,27 @@ for sid,d in sorted(docs.items()):
         if ln==1 and row.get("zh")=="今天学了很多。" and cat!="education":
             row["zh"]="今天挺顺利的。"; row["tr"]="Bugün oldukça iyi geçti."; row["pinyin"]=pinyin_text(row["zh"])
 
+    # Final, irreversible HSK target guard: run after every editorial rewrite.
+    joined_final="".join(str(x.get("zh","")) for x in turns)
+    still_missing=[a for a in active if a and a not in joined_final]
+    if still_missing:
+        slots=list(range(12,max(13,len(turns)-8)))
+        used_slots=set()
+        for n,term in enumerate(still_missing):
+            available=[x for x in slots if x not in used_slots]
+            if not available:
+                break
+            pos=available[(context_offset+n) % len(available)]
+            used_slots.add(pos)
+            row=turns[pos]
+            z,t=natural_release_term(term,trmap,cat,row.get("speaker",""),f"{sid}:{pos}:{term}:guard")
+            if term not in z:
+                z=f"说到{term}，{z}"
+                tt=trmap.get(term,"bu konu")
+                t=f"{tt} konusunda, {t[:1].lower()+t[1:] if t else ''}"
+            row["zh"]=z; row["tr"]=t; row["pinyin"]=pinyin_text(z)
+            report["contextRewrites"]+=1
+
     out=dict(d)
     out["naturalizationVersion"]=12
     out["status"]="FINAL_NATIVE_RELEASE_CANDIDATE"
