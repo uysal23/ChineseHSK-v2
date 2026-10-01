@@ -825,8 +825,8 @@ TERM_NATIVE_RELEASE = {
 "立场":("先把各自的立场说清楚，很多误会就能避免。","Herkes kendi bakış açısını açıkça söylerse birçok yanlış anlaşılma önlenebilir."),
 "权衡":("这件事确实需要权衡，不能只看其中一面。","Bu konu dengeli değerlendirme gerektiriyor; yalnızca tek bir yönüne bakamayız."),
 "长期影响":("眼前怎么选很重要，长期影响也得一起考虑。","Şu anki seçim önemli ama uzun vadeli etkileri de düşünmek gerekir."),
-"话题转换":("我们先换个话题吧，别一直绕在同一个点上。","Konuyu biraz değiştirelim; aynı noktada dönüp durmayalım."),
-"家庭氛围":("家里的气氛轻松一点，大家才更愿意说真话。","Evde ortam rahat olursa herkes gerçek düşüncesini daha kolay söyler."),
+"话题转换":("需要话题转换的时候，我们就自然地换个话题，别一直绕在同一个点上。","Konu geçişi gerektiğinde doğal biçimde başka bir konuya geçelim; aynı noktada dönüp durmayalım."),
+"家庭氛围":("家庭氛围轻松一点，大家才更愿意说真话。","Aile ortamı daha rahat olursa herkes gerçek düşüncesini daha kolay söyler."),
 "多代同堂":("多代同堂很热闹，但也要给每个人留一点自己的空间。","Birden fazla kuşağın birlikte yaşaması canlıdır ama herkesin kendi alanına da ihtiyacı vardır."),
 "大家庭":("大家庭里每个人习惯不同，把边界说清楚反而更轻松。","Geniş ailede herkesin alışkanlığı farklı; sınırları netleştirmek işleri kolaylaştırır."),
 "自我评价":("别因为一次结果就完全否定自己，先看看具体哪里需要改。","Tek bir sonuç yüzünden kendini tamamen olumsuz değerlendirme; önce neyi değiştirmek gerektiğine bakalım."),
@@ -1055,13 +1055,17 @@ for sid,d in sorted(docs.items()):
             i for i in range(8, max(9,len(turns)-10))
             if i < len(turns) and len(str(turns[i].get("zh",""))) >= 4
         ]
+        start=context_offset % len(candidate_indices) if candidate_indices else 0
+        ordered=candidate_indices[start:]+candidate_indices[:start]
         for n,term in enumerate(missing):
-            if not candidate_indices:
+            if n >= len(ordered):
                 break
-            pos=candidate_indices[(n*7 + context_offset) % len(candidate_indices)]
+            pos=ordered[n]
             row=turns[pos]
-            term_tr=trmap.get(term, "bu konu")
             z,t=natural_release_term(term,trmap,cat,row.get("speaker",""),f"{sid}:{pos}:{term}")
+            if term not in z:
+                z=f"说到{term}，{z}"
+                t=f"{trmap.get(term,'Bu konu')} konusunda, {t[:1].lower()+t[1:] if t else ''}"
             row["zh"]=z
             row["tr"]=t
             row["pinyin"]=pinyin_text(z)
