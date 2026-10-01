@@ -59,6 +59,12 @@ def active_vocab(scene: dict) -> list[str]:
     cards = scene.get("learning", {}).get("vocabularyCards", [])
     return [x.get("zh", "").strip() for x in cards if x.get("zh", "").strip() and x.get("kind") == "active"]
 
+def iter_scene_files(level: str):
+    full = SCENE_ROOT / level / "scenes"
+    flat = SCENE_ROOT / level
+    base = full if full.exists() else flat
+    return sorted(base.glob(f"ZH_{level}_SC*.json"))
+
 scene_rows = []
 global_phrase_counts = Counter()
 level_stats = defaultdict(lambda: {
