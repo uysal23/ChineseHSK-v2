@@ -22,3 +22,5 @@ reason: explicit user build approval
 reason: explicit user build approval
 2026-10-01 21:xx TRT - added ffmpeg recovery for corrupt WebP masters HSK4 SC040/SC047; retry main APK
 reason: explicit user build approval
+2026-10-01 21:xx TRT - added autodetect ffmpeg/ImageMagick recovery for malformed WebP masters; final main APK retry
+reason: explicit user build approval
