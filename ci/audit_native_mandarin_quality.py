@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / "chinese_hsk_android_github" / "app" / "src" / "main" / "assets" / "chinese_course"
-OUT_JSON = ROOT / "native_mandarin_qa_report.json"
-OUT_MD = ROOT / "native_mandarin_qa_report.md"
+parser = argparse.ArgumentParser()
+parser.add_argument("--scene-root", default=str(ROOT / "chinese_hsk_android_github" / "app" / "src" / "main" / "assets" / "chinese_course" / "levels"))
+parser.add_argument("--out-prefix", default="native_mandarin_qa_report")
+args = parser.parse_args()
+SCENE_ROOT = Path(args.scene_root)
+OUT_JSON = ROOT / (args.out_prefix + ".json")
+OUT_MD = ROOT / (args.out_prefix + ".md")
 
 GENERIC_PATTERNS = [
     r"^关于.+，我想再听听大家的看法。$",
@@ -63,7 +68,9 @@ level_stats = defaultdict(lambda: {
 
 for level_num in range(1, 7):
     level = f"HSK{level_num}"
-    scene_dir = ASSETS / "levels" / level / "scenes"
+    scene_dir = SCENE_ROOT / level
+    if (scene_dir / "scenes").exists():
+        scene_dir = scene_dir / "scenes"
     for path in sorted(scene_dir.glob(f"ZH_{level}_SC*.json")):
         scene = read_json(path)
         ds = scene.get("dialogues", [])
