@@ -673,5 +673,23 @@
       "authoredAudioPreferred": true,
       "fallback": "android_tts"
     }
-  ]
+  ],
+  "runtimePolicy": {
+    "canonicalEngine": "android_offline_mandarin_tts",
+    "referenceBehavior": "ZH_HSK1_SC001",
+    "characterLock": "characters.json voiceProfileId -> deterministic local zh voice -> persisted SharedPreferences binding",
+    "synthesisMode": "synthesize_once_then_persistent_local_wav_cache",
+    "sceneDialogueProfileSource": "VoiceIdentityResolver.profileForSpeaker",
+    "narratorProfile": "NARRATOR_ZH_001",
+    "learningProfiles": [
+      "VOCAB",
+      "PRONUNCIATION",
+      "DIALOGUE_PROMPT",
+      "PLACEMENT"
+    ],
+    "exactSameDeviceTimbreExpected": true,
+    "crossDeviceExactTimbreGuaranteed": false,
+    "crossDeviceNote": "Exact timbre depends on the locally installed offline Mandarin TTS voice inventory. Character identity remains deterministic per device.",
+    "kokoroRole": "optional_prebuilt_voice_pack_only"
+  }
 }
