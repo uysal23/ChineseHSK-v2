@@ -575,15 +575,29 @@ def process_scene(scene):
         if level in {"HSK1","HSK2"}:
             zh,tr=common_hsk1_hsk2(zh,tr,level,key,cat)
         elif level=="HSK3":
-            # Seven WARN scenes only: keep meaning and merely remove exact-response recycling.
+            # Seven WARN scenes only: keep meaning, remove exact-response recycling
+            # and replace the remaining old generator boilerplate.
             exact={
                 "我明白你的意思了.":("嗯，我懂你的意思了。",tr),
                 "我明白你的意思了。":pick([("嗯，我懂你的意思了。",tr),("好，我明白你的意思了。",tr),("这样我就明白了。",tr)],key),
                 "好，这一点我会注意。":pick([("好，这一点我会留意。",tr),("嗯，这点我会注意。",tr),("好，我会记着这一点。",tr)],key),
+                "对，我们继续看下一项。":pick([("好，我们再看下一件事。",tr),("行，那接着看后面的。",tr),("好，这一点清楚了，我们继续。",tr)],key),
             }
             if zh in exact:
                 val=exact[zh]
                 zh,tr=val if isinstance(val,tuple) else (val,tr)
+            m3=re.fullmatch(r"(.+)是这次要考虑的重点之一。", zh)
+            if m3:
+                x=m3.group(1)
+                zh=pick([
+                    f"{x}这一点也得认真考虑。",
+                    f"我们还得把{x}算进去。",
+                    f"{x}也是这次需要注意的一点。",
+                ],key)
+            m3=re.fullmatch(r"关于(.+)，我们还要再讨论一下。", zh)
+            if m3:
+                x=m3.group(1)
+                zh=pick([f"{x}这件事我们还得再聊聊。",f"关于{x}，还有几个地方要说清楚。",f"{x}这部分还需要再讨论一下。"],key)
         elif level=="HSK4":
             zh,tr=naturalize_hsk4(zh,tr,focus,key,cat)
         elif level=="HSK5":
