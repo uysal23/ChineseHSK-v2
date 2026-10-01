@@ -8,6 +8,7 @@ The payload is data-complete for the app while retaining a native/editorial revi
 from __future__ import annotations
 import json
 from pathlib import Path
+from native_dialogue_overrides import apply_v13_override
 
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'authoring' / 'hsk2_blueprints.json'
@@ -516,7 +517,7 @@ def main():
     for scene in data['scenes']:
         n=scene['number']; cards=make_cards(n); learning=dict(scene.get('learning') or {})
         learning.update({'vocabularyCards':cards,'sentenceExercises':make_exercises(n),'comprehensionQuestions':make_comprehension(n,scene),'pronunciationItems':make_pron(n,cards),'interactiveDialogue':make_interactive(n),'examRules':{'vocabularyPassPercent':90,'sentencePassPercent':85,'lockNextSceneUntilPassed':True},'examStages':[{'stage':1,'type':'vocabulary','passPercent':90},{'stage':2,'type':'sentence','passPercent':85,'requiresStage':1}],'flashCardPolicy':{'allowPrevious':True,'allowNext':True,'allowFavorite':True,'favoritesStudyMode':True}})
-        scene['learning']=learning; scene['dialogues']=make_dialogues(n); scene['production']=make_production(n,scene); scene['complete']=True; scene['productionStatus']='complete'; scene['editorialStatus']='generated_full_v1_requires_native_review'; scene['dialogueCount']=len(scene['dialogues'])
+        scene['learning']=learning; scene['dialogues']=make_dialogues(n); scene['production']=make_production(n,scene); scene['complete']=True; scene['productionStatus']='complete'; scene['editorialStatus']='generated_full_v1_requires_native_review'; apply_v13_override(scene, 'HSK2'); scene['dialogueCount']=len(scene['dialogues'])
     data['schemaVersion']=3; data['completeSceneCount']=50; data['editorialNoteTr']='HSK2 50 sahne veri olarak tamdır; yayın/ticari kullanım öncesi ana dili Mandarin olan editör kontrolü önerilir.'
     PATH.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('HSK2 authoring completed:',len(data['scenes']),'scenes,',sum(len(s['dialogues']) for s in data['scenes']),'dialogues')
