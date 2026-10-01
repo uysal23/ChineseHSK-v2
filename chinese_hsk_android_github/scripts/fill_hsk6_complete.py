@@ -10,6 +10,7 @@ explicitly flagged for native/editorial review before commercial publication.
 from __future__ import annotations
 import importlib.util, json
 from pathlib import Path
+from native_dialogue_overrides import apply_v13_override
 
 ROOT=Path(__file__).resolve().parents[1]
 PATH=ROOT/'authoring'/'hsk6_blueprints.json'
@@ -222,7 +223,7 @@ def main():
         n=scene['number']; cards=make_cards(scene); learning=dict(scene.get('learning') or {})
         learning.update({'vocabularyCards':cards,'sentenceExercises':grammar_items(scene),'comprehensionQuestions':make_comprehension(scene),'pronunciationItems':make_pron(scene,cards),'interactiveDialogue':make_interactive(scene),'examRules':{'vocabularyPassPercent':90,'sentencePassPercent':85,'lockNextSceneUntilPassed':True},'examStages':[{'stage':1,'type':'vocabulary','passPercent':90},{'stage':2,'type':'sentence','passPercent':85,'requiresStage':1}],'flashCardPolicy':{'allowPrevious':True,'allowNext':True,'allowFavorite':True,'favoritesStudyMode':True}})
         scene['learning']=learning; scene['dialogues']=make_dialogues(scene); scene['production']=make_production(scene)
-        scene['complete']=True; scene['productionStatus']='complete'; scene['editorialStatus']='generated_full_v1_requires_native_review'; scene['dialogueCount']=len(scene['dialogues'])
+        scene['complete']=True; scene['productionStatus']='complete'; scene['editorialStatus']='generated_full_v1_requires_native_review'; apply_v13_override(scene, 'HSK6'); scene['dialogueCount']=len(scene['dialogues'])
     data['schemaVersion']=3; data['completeSceneCount']=50; data['editorialNoteTr']='HSK6 50 sahne veri olarak tamdır; ileri düzey doğal Mandarin, ima, retorik, kültürel/pragmatik nüans ve ticari yayın öncesi native editör kontrolü özellikle önerilir.'
     PATH.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('HSK6 authoring completed:',len(data['scenes']),'scenes,',sum(len(s['dialogues']) for s in data['scenes']),'dialogues')
