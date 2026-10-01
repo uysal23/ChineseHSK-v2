@@ -48,12 +48,12 @@
   "finalAssetFilename": "ZH_HSK4_SC045.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC045.webp",
   "image": {
-    "width": 630,
-    "height": 1120,
+    "width": 941,
+    "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "00706af98791374fe3876fe23acba1dc4229ecefed36eea413e66d3956d6435d",
-    "bytes": 63502
+    "sha256": "adcf87dcb80e367e0ceb64dd19819e5d2aaf61dd417015f236c8feb6f221e808",
+    "bytes": 266800
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -75,5 +75,6 @@
   "qaStatus": "PASS",
   "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-10-01: SC045 dört konuşmacı, HSK4 maturity kilidi, yeni ev mekânı, yurt/üniversite için valiz hazırlığı, 9:16 tek sahne, metinsizlik ve canonical aile sürekliliğiyle QA PASS. APK build tetiklenmedi."
+  "qaNoteTr": "2026-10-01: SC045 dört konuşmacı, HSK4 maturity kilidi, yeni ev mekânı, yurt/üniversite için valiz hazırlığı, 9:16 tek sahne, metinsizlik ve canonical aile sürekliliğiyle QA PASS. APK build tetiklenmedi.",
+  "dialogueSha256": "77a42884438db890973ab566d9dd4cd164850443c0f6026246c1bef2454d2ae4"
 }

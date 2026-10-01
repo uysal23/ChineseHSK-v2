@@ -55,14 +55,15 @@
   "finalAssetFilename": "ZH_HSK4_SC046.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC046.webp",
   "image": {
-    "width": 630,
-    "height": 1120,
+    "width": 941,
+    "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "a375cc970d72ccc885151af0d4df98befe344a075ff5f42f756a17cc71877403",
-    "bytes": 44628
+    "sha256": "000121b2aede29965e800d04323b70a62d77b60543ef634af2489927822e18ed",
+    "bytes": 266120
   },
   "qaStatus": "PASS",
   "status": "FINAL_GENERATED",
-  "binaryIntegrityChecked": true
+  "binaryIntegrityChecked": true,
+  "dialogueSha256": "7453aafb73c1d1b61710e01582e039a64fd57a92144261fa9fd37d7b7bb73a1d"
 }

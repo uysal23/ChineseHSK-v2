@@ -32,12 +32,12 @@
   "finalAssetFilename": "ZH_HSK2_SC011.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC011.webp",
   "image": {
-    "width": 324,
-    "height": 576,
+    "width": 941,
+    "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "e4d8291d62fc4f61eefd21f50e0fb65b86e7760f031865c5e74a7764ab314c66",
-    "bytes": 14636
+    "sha256": "c6901eb1c69269d020ccbc853acc010972bce4550fede0e184d52f97594b7617",
+    "bytes": 157022
   },
   "manifestChecklist": {
     "dialogueChecked": true,
