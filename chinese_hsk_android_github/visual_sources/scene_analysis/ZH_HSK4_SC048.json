@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "sceneId": "ZH_HSK4_SC048",
+  "status": "ANALYZED_READY_FOR_IMAGEGEN",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC048.json",
+  "titleZh": "咖啡馆上了地方新闻",
+  "titleTr": "Kafenin Toplumdaki Yeri",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yerel gazeteci, Liu Mei ile aile kafesinin mahalledeki/topluluktaki rolü, hizmeti ve yerel haber değeri üzerine röportaj yapar; Zhang Wei ve bir müşteri de konuşmaya katılır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "记者",
+    "张伟",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "记者",
+    "张伟",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterIds": {
+    "刘梅": "CHR_ZH_LIUMEI_001",
+    "记者": "CHR_ZH_AUTO_746068397C",
+    "张伟": "CHR_ZH_ZHANGWEI_001",
+    "顾客": "CHR_ZH_AUTO_CD31FEBA04"
+  },
+  "characterAgeLock": {
+    "刘梅": "middle",
+    "记者": "adult_local_reporter",
+    "张伟": "middle",
+    "顾客": "adult_customer"
+  },
+  "criticalObjects": [
+    "gazetecinin elde tuttuğu kompakt mikrofon veya küçük ses kayıt cihazı",
+    "Liu Mei'nin önünde servis tezgâhı veya küçük masa",
+    "müşterinin kahve fincanı",
+    "Zhang Wei'nin sakin biçimde röportaja katıldığı oturma/tezgâh alanı",
+    "pastry display, warm wood, muted sage accents, cream walls, pendant lamps",
+    "metinsiz menü panosu alanı"
+  ],
+  "emotionalDirectionTr": "Liu Mei sıcak, kendinden emin ve toplulukla bağ kurmuş; gazeteci dikkatli ve profesyonel; Zhang Wei destekleyici ve olgun; müşteri samimi ve memnun görünür. Sahne yerel başarıdan çok kafenin mahalledeki rolünü anlatan doğal bir röportaj anı olmalı.",
+  "visualDirectionTr": "Gündüz, LOC_ZH_FAMILY_CAFE_001 aile kafesi. Giriş front-right, servis tezgâhı rear-left, pastry display tezgâha yakın, küçük masalar ve pencere oturma alanı, warm wood + muted sage + cream walls + pendant lamps korunmalı. Yalnızca dört konuşmacı görünür. Liu Mei HSK4 middle/mature adult kadın kimliğiyle tezgâh yanında veya küçük masada röportaj verir; yerel gazeteci elde kompakt mikrofon/recorder ile ona yönelmiştir; Zhang Wei HSK4 middle/mature adult erkek olarak yakında konuşmaya katılır; bir yetişkin müşteri kahve fincanıyla topluluk deneyimini temsil eder. Kamera/telefon ekibi, kalabalık, ek müşteriler yok. Hiçbir okunabilir yazı, logo, tabela, gazete başlığı veya marka yok. 9:16 dikey, sıcak sinematik 3D/2.5D CGI, tek sahne, tek zaman anı.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC047",
+    "previousContinuityTr": "SC047 akşam yeni evde emeklilik planı görüşmesidir; SC048 gündüz aile kafesine geçer. Zhang Wei ve Liu Mei aynı HSK4 middle/mature kimliklerini korur.",
+    "nextSceneId": "ZH_HSK4_SC049",
+    "nextContinuityTr": "SC049 gündüz parkta üç kuşak aile fotoğrafına geçer. SC048 yalnızca kafenin topluluk rolü ve yerel röportaj anıdır."
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "readableNumbersAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "extraHumanCharactersAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true,
+    "readableBrandingAllowed": false,
+    "ageAppropriateClothing": true
+  }
+}
