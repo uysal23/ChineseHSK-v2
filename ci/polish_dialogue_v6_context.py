@@ -159,7 +159,7 @@ CTX = {
 ("别只看成绩，也看看这段时间真正学会了什么。","Yalnızca nota bakma; bu süreçte gerçekten ne öğrendiğine de bak."),
 ("如果方法有效，就继续；没有效果就及时换。","Yöntem işe yarıyorsa devam et; etkili değilse zamanında değiştir."),
 ("把目标分小一点，每完成一步都会更有信心。","Hedefi küçük parçalara böl; her adımı tamamladıkça güvenin artar."),
-("同学的办法可以参考，但不一定完全适合你。","Arkadaşının yöntemi参考 olabilir ama sana tamamen uymayabilir."),
+("同学的办法可以参考，但不一定完全适合你。","Arkadaşının yöntemi örnek alınabilir ama sana tamamen uymayabilir."),
 ("先把下周能做到的事情定下来，不用一次想完整个学期。","Önce gelecek hafta yapabileceklerini belirle; bütün dönemi bir kerede planlamak gerekmez."),
 ("如果还有不懂的，就直接问老师，不要一直拖。","Hâlâ anlamadığın yer varsa doğrudan öğretmene sor; sürekli erteleme."),
 ("这次的经验要留下来，下次遇到类似问题就知道怎么处理。","Bu deneyimi akılda tut; benzer bir sorun çıkarsa nasıl davranacağını bilirsin."),
@@ -241,10 +241,10 @@ CTX = {
 
 def beginner_variant(zh,tr,occ,key):
     maps={
-      "好。":[("嗯，好。",tr),("行。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr)],
-      "嗯，好。":[("好。",tr),("行。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr)],
-      "行。":[("好。",tr),("嗯，好。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr)],
-      "好的。":[("好。",tr),("嗯，好。",tr),("行。",tr),("可以。",tr),("好啊。",tr),("那好。",tr)],
+      "好。":[("嗯，好。",tr),("行。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr),("没问题。",tr),("行啊。",tr),("好吧。",tr),("嗯，可以。",tr),("对，就这样。",tr),("好，就这么办。",tr)],
+      "嗯，好。":[("好。",tr),("行。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr),("没问题。",tr),("行啊。",tr),("好吧。",tr),("嗯，可以。",tr),("对，就这样。",tr),("好，就这么办。",tr)],
+      "行。":[("好。",tr),("嗯，好。",tr),("好的。",tr),("可以。",tr),("好啊。",tr),("那好。",tr),("没问题。",tr),("行啊。",tr),("好吧。",tr),("嗯，可以。",tr),("对，就这样。",tr),("好，就这么办。",tr)],
+      "好的。":[("好。",tr),("嗯，好。",tr),("行。",tr),("可以。",tr),("好啊。",tr),("那好。",tr),("没问题。",tr),("行啊。",tr),("好吧。",tr),("嗯，可以。",tr),("对，就这样。",tr),("好，就这么办。",tr)],
       "谢谢。":[("谢谢你。",tr),("好，谢谢。",tr),("嗯，谢谢。",tr),("太好了，谢谢。",tr),("谢谢，帮大忙了。",tr),("真的谢谢你。",tr)],
       "好，谢谢。":[("谢谢。",tr),("谢谢你。",tr),("嗯，谢谢。",tr),("太好了，谢谢。",tr),("谢谢，帮大忙了。",tr),("真的谢谢你。",tr)],
       "嗯，谢谢。":[("谢谢。",tr),("谢谢你。",tr),("好，谢谢。",tr),("太好了，谢谢。",tr),("真的谢谢你。",tr)],
@@ -282,9 +282,20 @@ def beginner_variant(zh,tr,occ,key):
 
 def phase_pool(cat,level,idx):
     pool=CTX.get(cat,CTX["general"])
-    # Rotate per phase so openings, middle and closings don't always pick the same lines.
     shift={4:0,5:3,6:6}.get(level,0)+(idx//20)*3
     return pool[shift%len(pool):]+pool[:shift%len(pool)]
+
+def wrapped_context_line(z,t,cycle):
+    if cycle <= 0:
+        return z,t
+    wrappers=[
+        ("另外，","Ayrıca, "),
+        ("还有一点，","Bir nokta daha: "),
+        ("换个角度看，","Başka bir açıdan bakarsak, "),
+        ("从实际情况看，","Gerçek duruma bakarsak, "),
+    ]
+    pre,pretr=wrappers[(cycle-1)%len(wrappers)]
+    return pre+z,pretr+t[:1].lower()+t[1:] if t else pretr.rstrip()
 
 # Load baseline metadata and candidate files.
 baseline={}
@@ -312,6 +323,8 @@ for sid,d in sorted(docs.items()):
     cat=category(scene.get("titleZh",""),active,scene.get("miniAdventureTr",""))
     title=scene.get("titleZh","")
     turns=[]
+    context_seq=0
+    context_offset=int(hashlib.sha256(sid.encode("utf-8")).hexdigest()[:6],16)
     for idx,row0 in enumerate(d["dialogues"],1):
         row=dict(row0)
         zh=str(row["zh"]).strip()
@@ -319,8 +332,12 @@ for sid,d in sorted(docs.items()):
         # containing active scene vocabulary, because it is already scene-grounded.
         active_hit=[a for a in active if a and a in zh]
         if ln>=4 and global_freq[zh]>=20 and han_len(zh)>=8 and not active_hit:
-            pool=phase_pool(cat,ln,idx)
-            z,t=pick(pool,f"{sid}:{idx}:{zh}:context")
+            pool=CTX.get(cat,CTX["general"])
+            pos=(context_offset+context_seq)%len(pool)
+            cycle=context_seq//len(pool)
+            z,t=pool[pos]
+            z,t=wrapped_context_line(z,t,cycle)
+            context_seq+=1
             row["zh"]=z; row["tr"]=t; row["pinyin"]=pinyin_text(z)
             report["contextRewrites"]+=1
         turns.append(row)
@@ -351,14 +368,20 @@ for sid,d in sorted(docs.items()):
     # replacement still happened to collide inside one scene.
     if ln>=4:
         seen=Counter(); used=set(); newturns=[]
+        pool=CTX.get(cat,CTX["general"])
+        collision_seq=context_seq
         for idx,row0 in enumerate(turns,1):
             row=dict(row0); z=row["zh"]; seen[z]+=1
             if seen[z]>1 and han_len(z)>=7:
-                pool=phase_pool(cat,ln,idx+seen[z])
-                z2,t2=pick(pool,f"{sid}:collision:{idx}:{z}:{seen[z]}")
-                if z2 not in used:
-                    row["zh"]=z2;row["tr"]=t2;row["pinyin"]=pinyin_text(z2)
-                    report["dedupeRewrites"]+=1
+                for attempt in range(len(pool)*5):
+                    pos=(context_offset+collision_seq+attempt)%len(pool)
+                    cycle=(collision_seq+attempt)//len(pool)
+                    z2,t2=wrapped_context_line(*pool[pos],cycle)
+                    if z2 not in used:
+                        row["zh"]=z2;row["tr"]=t2;row["pinyin"]=pinyin_text(z2)
+                        collision_seq+=attempt+1
+                        report["dedupeRewrites"]+=1
+                        break
             used.add(row["zh"]);newturns.append(row)
         turns=newturns
 
