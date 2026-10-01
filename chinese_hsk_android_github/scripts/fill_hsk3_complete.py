@@ -10,6 +10,7 @@ from __future__ import annotations
 import importlib.util
 import json
 from pathlib import Path
+from native_dialogue_overrides import apply_v13_override
 
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'authoring' / 'hsk3_blueprints.json'
@@ -482,6 +483,8 @@ def main():
         scene['complete']=True
         scene['productionStatus']='complete'
         scene['editorialStatus']='generated_full_v1_requires_native_review'
+        applied=apply_v13_override(scene, 'HSK3')
+        if not applied: scene['editorialStatus']='native_mandarin_v5_final_qa_pass'
         scene['dialogueCount']=len(scene['dialogues'])
     data['schemaVersion']=3
     data['completeSceneCount']=50
