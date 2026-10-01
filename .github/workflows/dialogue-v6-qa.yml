@@ -10,6 +10,7 @@ on:
       - "ci/polish_dialogue_v8_native.py"
       - "ci/polish_dialogue_v9_role_native.py"
       - "ci/polish_dialogue_v10_final_native.py"
+      - "ci/polish_dialogue_v11_release_native.py"
       - "ci/audit_native_mandarin_quality.py"
   workflow_dispatch:
 
@@ -34,25 +35,25 @@ jobs:
           rm -rf ci/dialogue_final_v6
           python ci/generate_dialogue_final_v6.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v6
 
-      - name: Apply v10 final native editorial polish
+      - name: Apply v11 release-native polish
         run: |
-          rm -rf ci/dialogue_final_v10
-          python ci/polish_dialogue_v10_final_native.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v6             ci/dialogue_final_v10
+          rm -rf ci/dialogue_final_v11
+          python ci/polish_dialogue_v11_release_native.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v6             ci/dialogue_final_v11
 
       - name: Validate IDs speakers and HSK vocabulary retention
         run: |
-          python ci/validate_dialogue_final.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v10
+          python ci/validate_dialogue_final.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v11
 
       - name: Audit final candidate naturalness
         run: |
-          python ci/audit_native_mandarin_quality.py             --scene-root ci/dialogue_final_v10             --out-prefix native_mandarin_v10_qa_report
+          python ci/audit_native_mandarin_quality.py             --scene-root ci/dialogue_final_v11             --out-prefix native_mandarin_v11_qa_report
 
       - name: Upload final candidate and QA
         uses: actions/upload-artifact@v4
         with:
-          name: dialogue-v10-native-candidate
+          name: dialogue-v11-native-candidate
           path: |
-            ci/dialogue_final_v10
-            native_mandarin_v10_qa_report.json
-            native_mandarin_v10_qa_report.md
+            ci/dialogue_final_v11
+            native_mandarin_v11_qa_report.json
+            native_mandarin_v11_qa_report.md
           retention-days: 14
