@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK_VISUAL_PRODUCTION_MANIFEST_LOCKED_TR.md#28-kilitli-aile-gorsel-kimlik-tablosu",
+  "sceneId": "ZH_HSK4_SC045",
+  "status": "ANALYZED_READY_FOR_IMAGEGEN",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC045.json",
+  "titleZh": "准备离家",
+  "titleTr": "Ayrılık Hazırlığı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong üniversite/yurt yaşamına geçmeden önce aile yeni evde valiz ve yurt eşyalarını birlikte hazırlarken seçenekleri, riskleri ve gelecek planını konuşur; sahnede heyecan ile ayrılık hüznü birlikte hissedilir.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "张乐乐": "teen_male"
+  },
+  "criticalObjects": [
+    "açık valiz",
+    "katlanmış gündelik kıyafetler",
+    "sırt çantası",
+    "yurt/üniversite hazırlığını çağrıştıran metinsiz klasör veya broşürler",
+    "küçük kişisel eşya kutuları / paketleme düzenleyicileri"
+  ],
+  "emotionalDirectionTr": "Aile sıcak ve sakin biçimde ortak karar verir; Yutong'da bağımsız yaşama geçiş heyecanı ile evden ayrılmanın hafif hüznü, ebeveynlerde destekleyici gurur ve kaygı, Lele'de ablasına bağlılık ve yardımcı olma isteği görünür.",
+  "visualDirectionTr": "Zhang ailesinin yeni evindeki sabit living-dining alanında, gündüz. Açık valiz odak noktasıdır. Yutong valizin yanında eşyaları düzenler; Liu Mei katlanmış kıyafet veya küçük eşya verir; Zhang Wei metinsiz bir hazırlık listesi/üniversite dosyası üzerinden sakin biçimde planı değerlendirir; Lele ergen erkek olarak sırt çantası veya paketleme eşyasıyla yardım eder. Dört konuşmacının tamamı aynı tek sahnede görünür. Ev mimarisi LOC_ZH_NEW_HOME_001 ile tutarlı: light oak floor, warm off-white walls, grey fabric sofa, rectangular wood dining table, rear-right kitchen opening, left hallway, rear balcony windows. Kompozisyon 9:16 dikey ve sıcak sinematik 3D/2.5D CGI olmalıdır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC044",
+    "previousContinuityTr": "SC044'te Yutong'un üniversite kabulü ve gelecek planı yeni evde ailece değerlendirilmiştir; aynı ev, aynı HSK4 yaş kimlikleri ve üniversite geçişi korunur.",
+    "nextSceneId": "ZH_HSK4_SC046",
+    "nextContinuityTr": "SC046'da Yutong üniversite/yurt ortamına geçer; SC045 bu geçişin evdeki son hazırlık anıdır."
+  },
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "extraHumanCharactersAllowed": false,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true,
+    "readableBrandingAllowed": false
+  }
+}
