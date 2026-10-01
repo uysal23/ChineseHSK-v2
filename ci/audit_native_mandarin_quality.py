@@ -135,10 +135,10 @@ for level_num in range(1, 7):
         status = "FAIL" if fail else "WARN" if warn else "PASS"
 
         row = {
-            "sceneId": scene.get("id"),
+            "sceneId": scene.get("id") or scene.get("sceneId"),
             "level": level,
-            "titleZh": scene.get("titleZh"),
-            "titleTr": scene.get("titleTr"),
+            "titleZh": scene.get("titleZh") or scene.get("sourceTitleZh"),
+            "titleTr": scene.get("titleTr") or scene.get("sourceTitleTr"),
             "dialogueCount": len(ds),
             "uniqueZh": unique_count,
             "duplicateLines": duplicate_lines,
