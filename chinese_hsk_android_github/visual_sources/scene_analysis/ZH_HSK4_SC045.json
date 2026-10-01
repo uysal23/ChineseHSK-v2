@@ -3,7 +3,7 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK_VISUAL_PRODUCTION_MANIFEST_LOCKED_TR.md#28-kilitli-aile-gorsel-kimlik-tablosu",
   "sceneId": "ZH_HSK4_SC045",
-  "status": "ANALYZED_READY_FOR_IMAGEGEN",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC045.json",
   "titleZh": "准备离家",
   "titleTr": "Ayrılık Hazırlığı",
@@ -60,5 +60,20 @@
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true,
     "readableBrandingAllowed": false
+  },
+  "generationSceneId": "ZH_HSK4_SC045",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC045.webp",
+  "qaStatus": "PASS",
+  "generation": {
+    "genId": "df4de788-ad36-49a7-af33-73d9a3bf4ac7",
+    "sourceGeneratedFilename": "ailece_sıcak_bavul_hazırlığı.png"
+  },
+  "image": {
+    "width": 630,
+    "height": 1120,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "00706af98791374fe3876fe23acba1dc4229ecefed36eea413e66d3956d6435d",
+    "bytes": 63502
   }
 }

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC045",
+  "generationSceneId": "ZH_HSK4_SC045",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK_VISUAL_PRODUCTION_MANIFEST_LOCKED_TR.md#28-kilitli-aile-gorsel-kimlik-tablosu",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC045.json",
+  "dialogueBlobSha": "85ce42034f5b09ffc6ec07cd2777ccc39a286e39",
+  "titleZh": "准备离家",
+  "titleTr": "Ayrılık Hazırlığı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "scenePurposeTr": "Yutong üniversite/yurt yaşamına geçmeden önce aile yeni evde valiz ve yurt eşyalarını birlikte hazırlar; heyecan ve ayrılık hüznü birlikte hissedilir.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [],
+  "characterAgeLock": {
+    "张雨桐": "young_adult",
+    "刘梅": "mature_adult",
+    "张伟": "mature_adult",
+    "张乐乐": "teen_male"
+  },
+  "criticalObjects": [
+    "açık valiz",
+    "katlanmış gündelik kıyafetler",
+    "sırt çantası",
+    "metinsiz hazırlık not defteri/üniversite dosyası",
+    "paketleme düzenleyicileri"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC044",
+    "nextSceneId": "ZH_HSK4_SC046"
+  },
+  "generation": {
+    "genId": "df4de788-ad36-49a7-af33-73d9a3bf4ac7",
+    "sourceGeneratedFilename": "ailece_sıcak_bavul_hazırlığı.png"
+  },
+  "finalAssetFilename": "ZH_HSK4_SC045.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC045.webp",
+  "image": {
+    "width": 630,
+    "height": 1120,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "00706af98791374fe3876fe23acba1dc4229ecefed36eea413e66d3956d6435d",
+    "bytes": 63502
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "2026-10-01: SC045 dört konuşmacı, HSK4 maturity kilidi, yeni ev mekânı, yurt/üniversite için valiz hazırlığı, 9:16 tek sahne, metinsizlik ve canonical aile sürekliliğiyle QA PASS. APK build tetiklenmedi."
+}

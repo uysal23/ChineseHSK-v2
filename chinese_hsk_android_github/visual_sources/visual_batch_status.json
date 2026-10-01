@@ -815,10 +815,10 @@
       "ZH_HSK4_SC041",
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
-      "ZH_HSK4_SC044"
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC045",
       "ZH_HSK4_SC046",
       "ZH_HSK4_SC047",
       "ZH_HSK4_SC048",
@@ -832,16 +832,18 @@
       "ZH_HSK4_SC041",
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
-      "ZH_HSK4_SC044"
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC041",
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
-      "ZH_HSK4_SC044"
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC041-SC044 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC045-SC050 pending. APK build tetiklenmedi."
+    "noteTr": "SC041-SC045 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC046-SC050 pending. APK build tetiklenmedi."
   }
 }
