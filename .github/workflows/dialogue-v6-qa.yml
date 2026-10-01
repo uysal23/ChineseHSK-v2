@@ -1,0 +1,49 @@
+name: Dialogue v6 native Mandarin candidate QA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/dialogue-v6-qa.yml"
+      - "ci/generate_dialogue_final_v6.py"
+      - "ci/audit_native_mandarin_quality.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dialogue QA tooling
+        run: python -m pip install jieba pypinyin
+
+      - name: Generate 257-scene v6 candidate in requested order
+        run: |
+          rm -rf ci/dialogue_final_v6
+          python ci/generate_dialogue_final_v6.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v6
+
+      - name: Validate IDs speakers and HSK vocabulary retention
+        run: |
+          python ci/validate_dialogue_final.py             chinese_hsk_android_github/app/src/main/assets/chinese_course/levels             ci/dialogue_final_v6
+
+      - name: Audit v6 naturalness
+        run: |
+          python ci/audit_native_mandarin_quality.py             --scene-root ci/dialogue_final_v6             --out-prefix native_mandarin_v6_qa_report
+
+      - name: Upload v6 candidate and QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: dialogue-v6-native-candidate
+          path: |
+            ci/dialogue_final_v6
+            native_mandarin_v6_qa_report.json
+            native_mandarin_v6_qa_report.md
+          retention-days: 14
