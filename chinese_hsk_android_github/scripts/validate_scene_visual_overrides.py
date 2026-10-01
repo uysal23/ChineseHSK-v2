@@ -31,13 +31,19 @@ def write_json(path: Path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def ensure_decoder_tools():
-    if shutil.which("ffmpeg") or shutil.which("magick") or shutil.which("convert"):
+    need_ffmpeg = shutil.which("ffmpeg") is None
+    need_magick = shutil.which("magick") is None and shutil.which("convert") is None
+    if not need_ffmpeg and not need_magick:
         return True
     if os.environ.get("GITHUB_ACTIONS") != "true":
         return False
     try:
         subprocess.run(["sudo", "apt-get", "update", "-y"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        subprocess.run(["sudo", "apt-get", "install", "-y", "ffmpeg", "imagemagick"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        packages = []
+        if need_ffmpeg: packages.append("ffmpeg")
+        if need_magick: packages.append("imagemagick")
+        if packages:
+            subprocess.run(["sudo", "apt-get", "install", "-y", *packages], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         return True
     except Exception as exc:
         print(f"decoder tool install unavailable: {exc}")
