@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - ci/build_trigger.txt
+      - .github/workflows/build-apk-user-exception.yml
   workflow_dispatch:
 
 permissions:
