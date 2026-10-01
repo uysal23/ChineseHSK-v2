@@ -113,23 +113,26 @@ for level_num in range(1, 7):
 
         if level == "HSK1":
             fail_dup, warn_dup = 0.32, 0.18
+            fail_repeat, warn_repeat = 10, 7
         elif level == "HSK2":
             fail_dup, warn_dup = 0.24, 0.14
+            fail_repeat, warn_repeat = 8, 6
         else:
             fail_dup, warn_dup = 0.18, 0.10
+            fail_repeat, warn_repeat = 8, 4
 
         fail = (
             duplicate_ratio >= fail_dup
             or generic_ratio >= 0.22
             or len(awkward_hits) >= 2
-            or max_repeat >= 8
+            or max_repeat >= fail_repeat
         )
         warn = (
             not fail and (
                 duplicate_ratio >= warn_dup
                 or generic_ratio >= 0.10
                 or len(awkward_hits) == 1
-                or max_repeat >= 4
+                or max_repeat >= warn_repeat
             )
         )
         status = "FAIL" if fail else "WARN" if warn else "PASS"
@@ -165,6 +168,11 @@ for level_num in range(1, 7):
         st[status.lower()] += 1
 
 top_global = [{"zh": phrase, "count": count} for phrase, count in global_phrase_counts.most_common(60)]
+course_wide_long_boilerplate = [
+    {"zh": phrase, "count": count}
+    for phrase, count in global_phrase_counts.most_common()
+    if count >= 20 and han_len(phrase) >= 12
+]
 
 summary = {
     "method": {
@@ -187,6 +195,8 @@ summary = {
     },
     "byLevel": dict(level_stats),
     "topRepeatedPhrasesAcrossCourse": top_global,
+    "courseWideLongBoilerplate": course_wide_long_boilerplate,
+    "courseWideLongBoilerplateCount": len(course_wide_long_boilerplate),
     "scenes": scene_rows
 }
 OUT_JSON.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -216,6 +226,10 @@ for row in scene_rows:
             f"generic={row['genericTemplateRatio']:.1%}, "
             f"maxRepeat={row['maxExactRepeat']}, awkward={len(row['awkwardSlotHits'])}"
         )
+md.append("")
+md.append(f"## Kurs geneli uzun boilerplate (>=20 tekrar, >=12 Han): {len(course_wide_long_boilerplate)}")
+for x in course_wide_long_boilerplate[:50]:
+    md.append(f"- {x['count']}x {x['zh']}")
 md.append("")
 md.append("## En sık tekrarlanan kurs geneli ifadeler")
 md.append("")
