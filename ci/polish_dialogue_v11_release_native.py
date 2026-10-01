@@ -344,6 +344,107 @@ def wrapped_context_line_v10(z, t, seed):
             return pre + z, pretr + (t[:1].lower() + t[1:] if t else "")
     return z, t
 
+
+TERM_NATIVE_V11 = {
+"语境": ("同一句话放在不同语境里，听起来可能完全不一样。","Aynı cümle farklı bağlamlarda tamamen farklı duyulabilir."),
+"立场": ("先把各自的立场说清楚，很多误会就能避免。","Herkes kendi bakış açısını açıkça söylerse birçok yanlış anlaşılma önlenebilir."),
+"权衡": ("这件事确实需要权衡，不能只看其中一面。","Bu konu gerçekten dengeli değerlendirme gerektiriyor; yalnızca tek bir yönüne bakamayız."),
+"长期影响": ("眼前怎么选很重要，长期影响也得一起考虑。","Şu anki seçim önemli ama uzun vadeli etkileri de birlikte düşünmek gerekir."),
+"话题转换": ("我们先换个话题吧，别一直绕在同一个点上。","Önce konuyu biraz değiştirelim; aynı noktada dönüp durmayalım."),
+"家庭氛围": ("家里的气氛轻松一点，大家才更愿意说真话。","Evde ortam daha rahat olursa herkes gerçek düşüncesini söylemeye daha istekli olur."),
+"多代同堂": ("多代同堂很热闹，但也要给每个人留一点自己的空间。","Birden fazla kuşağın birlikte yaşaması çok canlıdır ama herkesin kendi alanına da ihtiyaç vardır."),
+"大家庭": ("大家庭里每个人习惯不同，把边界说清楚反而更轻松。","Geniş ailede herkesin alışkanlığı farklı; sınırları netleştirmek işleri daha rahat kılar."),
+"自我评价": ("别因为一次结果就完全否定自己，先看看具体哪里需要改。","Tek bir sonuç yüzünden kendini tamamen olumsuz değerlendirme; önce neyin değişmesi gerektiğine bakalım."),
+"挂科": ("这次挂科确实不好受，但它也告诉我们哪里需要补。","Bu dersten kalmak elbette zor ama neyi tamamlamak gerektiğini de gösteriyor."),
+"挫折": ("遇到挫折很正常，关键是别让一次失败变成对自己的全部判断。","Aksilik yaşamak normal; önemli olan tek bir başarısızlığı kendin hakkında genel bir yargıya dönüştürmemek."),
+"调整状态": ("先把状态调整回来，再谈下一步会更实际。","Önce kendini toparlamak, sonra sonraki adımı konuşmak daha gerçekçi."),
+"优势": ("自己的优势要看，但短板也不能假装不存在。","Güçlü yönlerine bakmak gerekir ama zayıf tarafları da yok saymamak gerekir."),
+"反馈": ("老师和同学的反馈都可以听，最后还是要看自己实际哪里需要改。","Öğretmen ve arkadaş geri bildirimleri dinlenebilir; sonunda gerçekten nerede değişiklik gerektiğine bakmak gerekir."),
+"媒体采访": ("这次采访就当一次真实聊天，不用把答案说得太正式。","Bu röportajı doğal bir sohbet gibi düşünelim; cevapları fazla resmî söylemek gerekmiyor."),
+"社区角色": ("这家店在社区里到底起什么作用，听听大家自己的经历最清楚。","Bu kafenin topluluktaki rolünü anlamanın en iyi yolu insanların kendi deneyimlerini dinlemek."),
+"地方新闻": ("上地方新闻让我们很意外，不过日常生活其实没有因此改变太多。","Yerel habere çıkmak bizi şaşırttı ama günlük hayatımız bununla çok fazla değişmedi."),
+"服务": ("服务好不好，顾客每天的感受最有说服力。","Hizmetin iyi olup olmadığını en iyi günlük müşteri deneyimi gösterir."),
+"社区": ("社区里的人愿意常来、愿意聊天，对我们来说就很有意义。","Mahalledeki insanların sık gelmek ve sohbet etmek istemesi bizim için çok anlamlı."),
+"回忆": ("说起这些回忆，很多小事现在想起来反而最清楚。","Bu anılardan söz edince küçük olaylar şimdi daha da net hatırlanıyor."),
+"预防保健": ("预防保健不是等生病以后再做，而是平时就要注意。","Koruyucu sağlık yalnızca hastalandıktan sonra yapılmaz; günlük hayatta da dikkat etmek gerekir."),
+"生活方式": ("生活方式不用一天全改，能长期坚持才最重要。","Yaşam tarzını bir günde tamamen değiştirmek gerekmez; sürdürülebilmesi en önemlisidir."),
+"健康": ("健康这件事不能只看今天舒服不舒服，还得看长期习惯。","Sağlık yalnızca bugün iyi hissedip hissetmemekle ilgili değil; uzun vadeli alışkanlıklara da bakmak gerekir."),
+"平衡": ("真正的平衡不是每件事都一样多，而是身体和生活都能长期承受。","Gerçek denge her şeye eşit zaman vermek değil; bedenin ve yaşamın uzun süre sürdürebileceği bir düzen kurmaktır."),
+"休息": ("该休息的时候就休息，硬撑反而容易把小问题拖大。","Dinlenmek gerektiğinde dinlenmek gerekir; zorlamak küçük sorunları büyütebilir."),
+"订婚": ("我们订婚了，但还有很多生活细节想慢慢商量。","Nişanlandık ama yaşamla ilgili birçok ayrıntıyı yavaş yavaş konuşmak istiyoruz."),
+"婚讯": ("这个婚讯我们最想先亲口告诉家里人。","Bu nişan haberini önce ailemize kendi ağzımızdan söylemek istedik."),
+"祝福": ("听到家人的祝福，我们心里踏实了很多。","Ailenin iyi dileklerini duymak bizi çok rahatlattı."),
+"人生阶段": ("进入新的人生阶段以后，很多习惯确实要重新商量。","Hayatın yeni bir dönemine girince birçok alışkanlığı yeniden konuşmak gerekiyor。")
+}
+
+def opening_v11(cat, speaker, title, idx):
+    if cat == "media" and idx <= 2:
+        pool={
+          "记者":[("今天谢谢你们接受采访，我们先从咖啡馆最近受到关注说起吧。","Bugün röportajı kabul ettiğiniz için teşekkürler; önce kafenin son dönemde gördüğü ilgiden başlayalım。"),
+                 ("我更想听真实的故事，不需要很正式的回答。","Ben daha çok gerçek hikâyeleri duymak istiyorum; çok resmî cevaplara gerek yok。")],
+          "刘梅":[("说实话，我们没想到一家小咖啡馆会被地方新闻注意到。","Doğrusu küçük bir kafenin yerel haberlerin dikkatini çekeceğini düşünmemiştik。"),
+                 ("那就从我们刚开店的时候说起吧。","O zaman kafeyi ilk açtığımız zamandan başlayalım。")],
+          "张伟":[("我们平时还是照常做事，只是今天多了一位记者。","Biz günlük işlerimize aynı şekilde devam ediyoruz; yalnızca bugün bir gazeteci daha var。"),
+                 ("最开始我们只想把每天的服务做好。","Başlangıçta yalnızca günlük hizmeti iyi yapmaya çalışıyorduk。")],
+          "顾客":[("我正好常来，也可以说说顾客自己的感受。","Ben zaten sık gelen bir müşteriyim; müşteri olarak kendi deneyimimi de anlatabilirim。"),
+                 ("我记得刚开始的时候，这里比现在安静多了。","Başlangıçta buranın bugünkünden çok daha sakin olduğunu hatırlıyorum。")]
+        }
+        opts=pool.get(speaker)
+        if opts: return opts[(idx-1)%len(opts)]
+    if cat == "relationship" and ("订婚" in title or "婚" in title) and idx <= 2:
+        pool={
+          "张雨桐":[("我有件很重要的事想亲口告诉你们——我们订婚了。","Size bizzat söylemek istediğim çok önemli bir haber var: nişanlandık。"),
+                  ("我们不是一时冲动，很多事情已经认真谈过了。","Bu ani bir karar değil; birçok konuyu ciddi biçimde konuştuk。")],
+          "伴侣":[("我们商量了很久，今天终于想正式告诉大家。","Uzun süre konuştuk; bugün nihayet bunu aileye resmen söylemek istedik。"),
+                ("以后怎么生活还有很多细节，但方向是我们一起决定的。","Gelecekte nasıl yaşayacağımıza dair çok ayrıntı var ama yönü birlikte belirledik。")],
+          "张伟":[("真的？这个消息来得有点突然，不过我替你们高兴。","Gerçekten mi? Haber biraz beklenmedik geldi ama sizin adınıza sevindim。"),
+                ("好，那我最想先知道的是，你们自己是不是都想清楚了。","Tamam; önce ikinizin de gerçekten düşünüp düşünmediğinizi bilmek istiyorum。")],
+          "刘梅":[("先别紧张，慢慢说，我们听着呢。","Gerilmeyin; yavaşça anlatın, sizi dinliyoruz。"),
+                ("只要你们认真想过，我们不会替你们做决定。","Üzerinde ciddi düşündüyseniz sizin yerinize karar vermeyiz。")]
+        }
+        opts=pool.get(speaker)
+        if opts: return opts[(idx-1)%len(opts)]
+    if cat == "retirement" and idx <= 2:
+        opts={
+          "张伟":("我把退休以后的开支大概算了一遍，想听听你们的意见。","Emeklilikten sonraki giderleri kabaca hesapladım; sizin de görüşünüzü almak istiyorum。"),
+          "刘梅":("先别只看一个数字，我们也想想以后到底想怎么生活。","Yalnızca tek bir rakama bakmayalım; sonrasında nasıl yaşamak istediğimizi de düşünelim。"),
+          "李晨":("你先说说怎么算的，我们一起看看有没有漏掉什么。","Nasıl hesapladığını anlat; birlikte eksik kalan bir şey var mı bakalım。"),
+          "张雨桐":("我帮你们记下来，住房、医疗和日常开销可以分开看。","Ben not alayım; konut, sağlık ve günlük giderleri ayrı ayrı değerlendirebiliriz。")
+        }
+        return opts.get(speaker)
+    return None
+
+def natural_term_line_v11(term, term_tr, cat, speaker, key):
+    if term in TERM_NATIVE_V11:
+        return TERM_NATIVE_V11[term]
+    return natural_anchor_line_v10(term, term_tr, cat, speaker, key)
+
+TEMPLATE_TERM_PATTERNS_V11 = [
+    r"^关于(.+)，真正重要的是背后的原因和影响。$",
+    r"^(.+)很重要，因为它会影响我们后面怎么判断。$",
+    r"^不把(.+)算进去，结论可能会太片面。$",
+    r"^(.+)要是被忽略，很多看起来合理的判断也未必可靠。$",
+    r"^(.+)不能脱离具体情况来看。$",
+    r"^如果结合当时的情况看(.+)，很多决定就没那么难理解。$",
+    r"^先把(.+)说清楚，后面的讨论才有基础。$",
+    r"^如果忽略(.+)，我们的判断很可能会失去一部分依据。$",
+    r"^(.+)会直接影响后面的判断。$",
+    r"^那再补上(.+)这一点。$",
+    r"^先把(.+)这一点记下来，等信息更完整再决定。$",
+    r"^我们还得把(.+)算进去。$",
+    r"^我们还得把(.+)算在里面。$",
+    r"^(.+)这一点不能忽略。$",
+    r"^(.+)这方面不能忽略。$",
+]
+
+def repair_template_v11(zh, tr, cat, speaker, trmap, key):
+    for pat in TEMPLATE_TERM_PATTERNS_V11:
+        m=re.fullmatch(pat,zh)
+        if m:
+            term=m.group(1).strip()
+            return natural_term_line_v11(term,trmap.get(term,"bu konu"),cat,speaker,key)
+    return zh,tr
+
 ANCHOR_STOP = {
     "需要","小","大","好","快","慢","可以","重要","方便","清楚","实际","一点",
     "事情","情况","问题","办法","今天","以后","现在","一起","继续","选择方案"
