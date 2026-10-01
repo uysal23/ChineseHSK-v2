@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "CAST_LOCKED_FREE_KOKORO_PRE_AUDIO",
+  "status": "CAST_LOCKED_RUNTIME_ANDROID_TTS_CANONICAL",
   "generatedFrom": [
     "characters.json",
     "scene_catalog.json"
@@ -13,8 +13,11 @@
     "narratorPolicy": "Anlatıcı ayrı ve nötr kadın sesidir.",
     "nonHumanPolicy": "Mimi için mümkünse kısa miyav/SFX; sözcük gerekiyorsa fallback zf_xiaoxiao.",
     "runtimeStrategy": "Önceden üretilmiş yerel Opus ses dosyaları > offline TTS fallback.",
-    "productionRule": "30,000 dialogue clips are generated locally/manually as Opus; cloud paid TTS APIs are not part of the canonical pipeline.",
-    "naturalnessRule": "Preserve native Mandarin base voice prosody; age mainly via speed and only subtle bounded pitch/energy DSP."
+    "productionRule": "Normal app playback synthesizes each line once locally, caches it, and reuses the cached file. No paid API is required.",
+    "naturalnessRule": "Preserve native Mandarin base voice prosody; age mainly via speed and only subtle bounded pitch/energy DSP.",
+    "runtimeCanonical": "Android offline Mandarin TTS using stable voiceProfileId bindings, matching HSK1 SC001 behavior.",
+    "characterLock": "All 83 dialogue speakers are mapped 1:1 through characters.json voiceProfileId; binding persists per device.",
+    "kokoroRole": "Optional prebuilt/offline export only; not required for normal app dialogue playback."
   },
   "verifiedKokoroNamedMandarinVoices": {
     "female": [
