@@ -18,3 +18,5 @@ source head before trigger: 0a522fc13aea8008b3bb890f9c7e0b7e3a7b261e
 reason: explicit user build approval
 2026-10-01 21:xx TRT - repaired HSK2 SC011 + HSK4 SC040/045/046/047 visual gate assets and requested main APK rebuild
 reason: explicit user build approval
+2026-10-01 21:xx TRT - added valid fallback-master repair for HSK4 SC040/SC047 decoder failures; retry main APK
+reason: explicit user build approval
