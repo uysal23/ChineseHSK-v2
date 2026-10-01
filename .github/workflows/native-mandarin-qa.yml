@@ -1,0 +1,35 @@
+name: Native Mandarin corpus QA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/native-mandarin-qa.yml"
+      - "ci/audit_native_mandarin_quality.py"
+      - "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Audit all 300 scenes / 30,000 dialogue lines
+        run: python ci/audit_native_mandarin_quality.py
+
+      - name: Upload QA reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: native-mandarin-qa
+          path: |
+            native_mandarin_qa_report.json
+            native_mandarin_qa_report.md
+          retention-days: 14
