@@ -145,6 +145,21 @@ class MandarinTtsPlayer(context: Context) : TextToSpeech.OnInitListener {
         if (ready) action() else pending = action
     }
 
+    /**
+     * Canonical convenience entry point for vocabulary, pronunciation, placement
+     * and interactive-learning speech. It uses the exact same offline local
+     * Mandarin voice binding + persistent cache pipeline as scene dialogue.
+     */
+    fun speak(
+        text: String,
+        voiceProfileId: String,
+        speed: Float,
+        onDone: (() -> Unit)? = null
+    ) {
+        val stableTextKey = "GEN_${safeKey(voiceProfileId)}_${text.hashCode().toUInt().toString(16).uppercase()}"
+        playOrCache(stableTextKey, text, voiceProfileId, speed, onDone)
+    }
+
     fun speakDirect(text: String, voiceProfileId: String, speed: Float, onDone: (() -> Unit)? = null) {
         val action = {
             stopPlaybackOnly()
