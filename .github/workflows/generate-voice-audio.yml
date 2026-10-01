@@ -1,10 +1,6 @@
 name: Generate Mandarin voice pack (free/offline)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - ".github/VOICE_SMOKE_TRIGGER"
   workflow_dispatch:
     inputs:
       scope:
@@ -68,13 +64,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "${{ github.event_name }}" == "push" ]]; then
-            SCOPE="SMOKE"
-            MAX="12"
-          else
-            SCOPE="${{ inputs.scope }}"
-            MAX="${{ inputs.max_items }}"
-          fi
+          SCOPE="${{ inputs.scope }}"
+          MAX="${{ inputs.max_items }}"
           if [[ "$SCOPE" == "SMOKE" ]]; then
             LEVELS="HSK1"
             MAX="12"
