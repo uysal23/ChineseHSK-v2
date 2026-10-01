@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC047",
+  "generationSceneId": "ZH_HSK4_SC047",
+  "manifestVersion": "LOCKED_V2",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC047.json",
+  "titleZh": "张伟算退休账",
+  "titleTr": "Zhang Emeklilik Hesabı Yapıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "characterAgeLock": {
+    "张伟": "middle",
+    "刘梅": "middle",
+    "李晨": "middle",
+    "张雨桐": "young_adult"
+  },
+  "criticalObjects": [
+    "hesap makinesi",
+    "metinsiz bütçe/emeklilik planı kâğıtları",
+    "kalem ve not defteri",
+    "zarflar",
+    "sade kupalar"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC046",
+    "nextSceneId": "ZH_HSK4_SC048"
+  },
+  "generation": {
+    "genId": "0822541a-1987-43be-b2b3-0f03fb808e88",
+    "sourceGeneratedFilename": "akşam_aile_bütçe_toplantısı.png"
+  },
+  "finalAssetFilename": "ZH_HSK4_SC047.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp",
+  "image": {
+    "width": 480,
+    "height": 854,
+    "format": "WEBP",
+    "orientation": "9:16_vertical",
+    "sha256": "d00e0c7e0d3897f3871b76155416a7d3166a2b6d5453239ed580c17b40811669",
+    "bytes": 23262
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC047 akşam yeni ev, dört doğru karakter, emeklilik/bütçe hesabı odağı, 9:16 tek sahne ve LOCKED_V2 kontrolleriyle QA PASS. APK build tetiklenmedi."
+}

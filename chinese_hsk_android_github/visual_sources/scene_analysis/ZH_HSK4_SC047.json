@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "manifestVersion": "LOCKED_V2",
   "sceneId": "ZH_HSK4_SC047",
-  "status": "ANALYZED_READY_FOR_IMAGEGEN",
+  "status": "FINAL_GENERATED_QA_PASS",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC047.json",
   "titleZh": "张伟算退休账",
   "titleTr": "Zhang Emeklilik Hesabı Yapıyor",
@@ -66,5 +66,11 @@
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true,
     "readableBrandingAllowed": false
-  }
+  },
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp",
+  "generation": {
+    "genId": "0822541a-1987-43be-b2b3-0f03fb808e88",
+    "finalAssetFilename": "ZH_HSK4_SC047.webp"
+  },
+  "qaStatus": "PASS"
 }

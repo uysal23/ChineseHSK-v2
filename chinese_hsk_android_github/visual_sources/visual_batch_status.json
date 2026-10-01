@@ -100,7 +100,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK4_SC044_INTEGRATED_QA_PASS_2026-09-30",
+  "latestVisualRevision": "HSK4_SC047_INTEGRATED_QA_PASS_2026-10-01",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -816,11 +816,11 @@
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
       "ZH_HSK4_SC044",
-      "ZH_HSK4_SC045"
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047"
     ],
     "pendingSceneIds": [
-      "ZH_HSK4_SC046",
-      "ZH_HSK4_SC047",
       "ZH_HSK4_SC048",
       "ZH_HSK4_SC049",
       "ZH_HSK4_SC050"
@@ -833,17 +833,21 @@
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
       "ZH_HSK4_SC044",
-      "ZH_HSK4_SC045"
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC041",
       "ZH_HSK4_SC042",
       "ZH_HSK4_SC043",
       "ZH_HSK4_SC044",
-      "ZH_HSK4_SC045"
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC041-SC045 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC046-SC050 pending. APK build tetiklenmedi."
+    "noteTr": "SC041-SC047 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC048-SC050 pending. APK build tetiklenmedi."
   }
 }
