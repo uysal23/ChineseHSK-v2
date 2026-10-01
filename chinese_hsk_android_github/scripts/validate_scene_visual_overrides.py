@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -39,13 +40,7 @@ def write_json(path: Path, data):
 
 
 def repair_gate_assets(project: Path, repo: Path):
-    """Normalize the five known gate assets from their authoritative source-tree finals.
-
-    The runtime v3.4 bundle contains several stale low-resolution/corrupt copies. The
-    source-tree finals are authoritative; normalize them to the locked 941x1672 WebP
-    runtime contract, patch the extracted metadata, and persist the repaired source
-    assets so the later authoritative-source override step uses the same binaries.
-    """
+    """Normalize the five known gate assets from authoritative source-tree finals."""
     scene_dir = project / "app/src/main/assets/chinese_course/media/scenes"
     source_dir = repo / "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
     project_meta_dir = project / "visual_sources/scenes"
@@ -61,7 +56,6 @@ def repair_gate_assets(project: Path, repo: Path):
         target = scene_dir / f"{sid}.webp"
         source_meta_path = repo_meta_dir / f"{sid}.meta.json"
         project_meta_path = project_meta_dir / f"{sid}.meta.json"
-
         candidate = source if source.exists() else target
         if not candidate.exists():
             errors.append(f"{sid}: source/runtime image missing")
@@ -89,10 +83,8 @@ def repair_gate_assets(project: Path, repo: Path):
         sha = hashlib.sha256(raw).hexdigest()
         size = source.stat().st_size
         repaired.append(sid)
-        changed_repo.extend([source])
+        changed_repo.append(source)
 
-        # Merge only authoritative manifest fields from the repository metadata so that
-        # source-zip-specific dialogueSha256 and other generated fields remain intact.
         repo_meta = load(source_meta_path) if source_meta_path.exists() else {}
         project_meta = load(project_meta_path) if project_meta_path.exists() else {}
         for key in ("criticalObjects", "manifestChecklist", "requiredVisualCharacters", "characterAgeLock"):
@@ -125,8 +117,6 @@ def repair_gate_assets(project: Path, repo: Path):
             write_json(source_meta_path, repo_meta)
             changed_repo.append(source_meta_path)
 
-    # Keep both the extracted runtime manifest and the repository manifest synchronized
-    # for any of the five scene entries that expose image dimensions/hash fields.
     manifest_paths = [
         project / "app/src/main/assets/chinese_course/media/scene_visual_manifest.json",
         repo / "ci/scene_visual_manifest.json",
@@ -169,24 +159,19 @@ def repair_gate_assets(project: Path, repo: Path):
     if errors:
         for error in errors:
             print("REPAIR ERROR:", error)
-
     if repaired:
         print(f"Repaired gated scene visuals: {', '.join(repaired)} -> 941x1672 WEBP")
 
-    # Persist the repaired source-tree finals so later build steps do not reintroduce
-    # the stale low-resolution/corrupt copies. Never make a commit when nothing changed.
     if repaired and os.environ.get("GITHUB_ACTIONS") == "true":
         try:
             subprocess.run(["git", "config", "user.name", "github-actions[bot]"], cwd=repo, check=True)
             subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], cwd=repo, check=True)
-            subprocess.run(["git", "add", *[str(p.relative_to(repo)) for p in dict.fromkeys(changed_repo)]], cwd=repo, check=True)
+            paths = [str(p.relative_to(repo)) for p in dict.fromkeys(changed_repo)]
+            if paths:
+                subprocess.run(["git", "add", *paths], cwd=repo, check=True)
             staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo)
             if staged.returncode != 0:
-                subprocess.run(
-                    ["git", "commit", "-m", "visuals: normalize five gated scene finals [skip ci]"],
-                    cwd=repo,
-                    check=True,
-                )
+                subprocess.run(["git", "commit", "-m", "visuals: normalize five gated scene finals [skip ci]"], cwd=repo, check=True)
                 subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=repo, check=True)
                 print("Persisted repaired five-scene visual finals to main.")
         except Exception as exc:
@@ -238,7 +223,6 @@ def main():
         meta = load(meta_path)
         if meta.get("sceneId") != sid or meta.get("manifestVersion") != "LOCKED_V2":
             errors.append(f"{sid}: metadata sceneId/manifestVersion hatalı")
-
         if meta.get("generationSceneId") not in (None, sid):
             errors.append(f"{sid}: generationSceneId asset sceneId ile eşleşmiyor")
         final_name = meta.get("finalAssetFilename")
@@ -283,7 +267,6 @@ def main():
 
         if meta.get("dialogueSpeakers") != speakers:
             errors.append(f"{sid}: konuşan karakter listesi kaynak diyalogla eşleşmiyor; beklenen={speakers}")
-
         required = set(meta.get("requiredVisualCharacters", []))
         if not set(speakers).issubset(required):
             errors.append(f"{sid}: requiredVisualCharacters tüm konuşanları içermiyor")
@@ -302,11 +285,9 @@ def main():
 
     if len(ids) != 10:
         errors.append("Aktif batch sceneIds tam 10 sahne değil")
-
     missing_done = [sid for sid in done if sid not in seen]
     if missing_done:
         errors.append(f"Batch tamamlandı denen fakat asseti olmayan sahneler: {missing_done}")
-
     if active.get("status") == "READY_FOR_BUILD" and set(done) != set(ids):
         errors.append("READY_FOR_BUILD fakat batch 10/10 tamam değil")
 
