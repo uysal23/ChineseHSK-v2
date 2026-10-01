@@ -12,49 +12,49 @@
       "id": "DLG_ZH_HSK2_SC031_001",
       "speaker": "张伟",
       "zh": "我想开一个银行账户。",
-      "pinyin": "Wǒ xiǎng kāi yí ge yínháng zhànghù.",
+      "pinyin": "Wǒ xiǎngkāi yígè yínháng zhànghù.",
       "tr": "Bir banka hesabı açmak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_002",
       "speaker": "银行工作人员",
-      "zh": "今天事情不少。",
-      "pinyin": "Jīntiān shìqing bù shǎo.",
+      "zh": "今天事情还真不少。",
+      "pinyin": "Jīntiān shìqíng hái zhēnbùshǎo.",
       "tr": "Bugün yapılacak epey iş var."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_003",
       "speaker": "刘梅",
-      "zh": "我们先看看最重要的。",
-      "pinyin": "Wǒmen xiān kànkan zuì zhòngyào de.",
+      "zh": "先看看哪件事最重要。",
+      "pinyin": "Xiān kànkàn nǎjiàn shì zuì zhòngyào.",
       "tr": "Önce en önemli olana bakalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_004",
       "speaker": "张伟",
-      "zh": "好，慢慢来。",
-      "pinyin": "Hǎo, mànmàn lái.",
+      "zh": "行，一步一步来。",
+      "pinyin": "Xíng, yībù yībù lái.",
       "tr": "Tamam, sakin sakin ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_005",
       "speaker": "银行工作人员",
-      "zh": "这个账户在这里。",
-      "pinyin": "Zhège zhànghù zài zhèlǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Bu hesap burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_006",
       "speaker": "刘梅",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "好，我知道了。",
+      "pinyin": "Hǎo, wǒ zhīdào le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_007",
       "speaker": "张伟",
-      "zh": "原来是这样。",
-      "pinyin": "Yuánlái shì zhèyàng.",
+      "zh": "哦，是这样啊。",
+      "pinyin": "Ó, shì zhèyàng a.",
       "tr": "Demek böyleymiş."
     },
     {
@@ -67,29 +67,29 @@
     {
       "id": "DLG_ZH_HSK2_SC031_009",
       "speaker": "刘梅",
-      "zh": "这个我记住了。",
-      "pinyin": "Zhège wǒ jìzhù le.",
+      "zh": "行，我会记着。",
+      "pinyin": "Xíng, wǒhuì jìzhe.",
       "tr": "Bunu aklımda tutacağım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_010",
       "speaker": "张伟",
-      "zh": "听起来很清楚。",
-      "pinyin": "Tīng qǐlái hěn qīngchu.",
+      "zh": "嗯，听明白了。",
+      "pinyin": "En, tīng míngbái le.",
       "tr": "Oldukça net görünüyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_011",
       "speaker": "银行工作人员",
-      "zh": "这个表格在这里。",
-      "pinyin": "Zhège biǎogé zài zhèlǐ.",
+      "zh": "嗯，就在这里。",
+      "pinyin": "En, jiù zài zhèlǐ.",
       "tr": "Bu form burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_012",
       "speaker": "刘梅",
-      "zh": "好，那就按这个来。",
-      "pinyin": "Hǎo, nà jiù àn zhège lái.",
+      "zh": "好，那就这么办。",
+      "pinyin": "Hǎo, nà jiù zhème bàn.",
       "tr": "Tamam, o zaman buna göre ilerleyelim."
     },
     {
@@ -117,36 +117,36 @@
       "id": "DLG_ZH_HSK2_SC031_016",
       "speaker": "张伟",
       "zh": "我们别忘了。",
-      "pinyin": "Wǒmen bié wàng le.",
+      "pinyin": "Wǒmen biéwàngle.",
       "tr": "Bunu unutmayalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_017",
       "speaker": "银行工作人员",
       "zh": "还需要身份证和一份材料。",
-      "pinyin": "Hái xūyào shēnfènzhèng hé yí fèn cáiliào.",
+      "pinyin": "Hái xūyào shēnfènzhèng hé yīfèn cáiliào.",
       "tr": "Kimlik ve bir evrak daha gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_018",
       "speaker": "刘梅",
       "zh": "那现在怎么办？",
-      "pinyin": "Nà xiànzài zěnme bàn?",
+      "pinyin": "Nà xiànzài zěnmebàn?",
       "tr": "Peki şimdi ne yapacağız?"
     },
     {
       "id": "DLG_ZH_HSK2_SC031_019",
       "speaker": "张伟",
-      "zh": "先别着急，我们想个办法。",
-      "pinyin": "Xiān bié zháojí, wǒmen xiǎng ge bànfǎ.",
-      "tr": "Önce telaşlanmayalım, bir çözüm düşünelim."
+      "zh": "先别慌，看看还有什么办法。",
+      "pinyin": "Xiānbié huāng, kànkàn háiyǒu shénme bànfǎ.",
+      "tr": "Panik yapmayalım, başka ne yapabiliriz bakalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_020",
       "speaker": "银行工作人员",
-      "zh": "我觉得可以先做最简单的。",
-      "pinyin": "Wǒ juéde kěyǐ xiān zuò zuì jiǎndān de.",
-      "tr": "Bence önce en kolay kısmı yapabiliriz."
+      "zh": "要不先做最简单的？",
+      "pinyin": "Yào bù xiān zuò zuì jiǎndān de?",
+      "tr": "Önce en kolay olanı yapsak?"
     },
     {
       "id": "DLG_ZH_HSK2_SC031_021",
@@ -158,8 +158,8 @@
     {
       "id": "DLG_ZH_HSK2_SC031_022",
       "speaker": "张伟",
-      "zh": "这个材料在这里。",
-      "pinyin": "Zhège cáiliào zài zhèlǐ.",
+      "zh": "你看，这个材料在这儿。",
+      "pinyin": "Nǐ kàn, zhège cáiliào zài zhèér.",
       "tr": "Bu belge / evrak burada."
     },
     {
@@ -172,29 +172,29 @@
     {
       "id": "DLG_ZH_HSK2_SC031_024",
       "speaker": "刘梅",
-      "zh": "那我们把它记下来。",
-      "pinyin": "Nà wǒmen bǎ tā jìxiàlái.",
-      "tr": "O zaman bunu not edelim."
+      "zh": "好，把这个记下来吧。",
+      "pinyin": "Hǎo, bǎ zhège jìxiàlái ba.",
+      "tr": "Tamam, bunu not edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_025",
       "speaker": "张伟",
       "zh": "银行离这里不远。",
-      "pinyin": "Yínháng lí zhèlǐ bù yuǎn.",
+      "pinyin": "Yínháng lí zhèlǐ bùyuǎn.",
       "tr": "Banka buradan uzak değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_026",
       "speaker": "银行工作人员",
       "zh": "这个办法不错。",
-      "pinyin": "Zhège bànfǎ búcuò.",
+      "pinyin": "Zhège bànfǎ bùcuò.",
       "tr": "Bu yöntem fena değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_027",
       "speaker": "刘梅",
       "zh": "我们可以试试。",
-      "pinyin": "Wǒmen kěyǐ shìshi.",
+      "pinyin": "Wǒmen kěyǐ shìshì.",
       "tr": "Deneyebiliriz."
     },
     {
@@ -229,7 +229,7 @@
       "id": "DLG_ZH_HSK2_SC031_032",
       "speaker": "银行工作人员",
       "zh": "说得对。",
-      "pinyin": "Shuō de duì.",
+      "pinyin": "Shuōdéduì.",
       "tr": "Doğru söylüyorsun."
     },
     {
@@ -242,50 +242,50 @@
     {
       "id": "DLG_ZH_HSK2_SC031_034",
       "speaker": "张伟",
-      "zh": "因为时间不多，所以我们快一点。",
-      "pinyin": "Yīnwèi shíjiān bù duō, suǒyǐ wǒmen kuài yìdiǎn.",
-      "tr": "Zaman az olduğu için biraz hızlı olalım."
+      "zh": "时间有点紧，我们动作快一点。",
+      "pinyin": "Shíjiān yǒudiǎn jǐn, wǒmen dòngzuò kuài yìdiǎn.",
+      "tr": "Zaman biraz sıkışık, biraz hızlı hareket edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_035",
       "speaker": "银行工作人员",
-      "zh": "先做这个，再做下一个。",
-      "pinyin": "Xiān zuò zhège, zài zuò xià yí ge.",
-      "tr": "Önce bunu, sonra sıradakini yapalım."
+      "zh": "这个做完以后再做下一个。",
+      "pinyin": "Zhège zuò wán yǐhòu zài zuò xià yígè.",
+      "tr": "Bunu bitirdikten sonra diğerini yapalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_036",
       "speaker": "刘梅",
-      "zh": "这个办法比刚才的好。",
-      "pinyin": "Zhège bànfǎ bǐ gāngcái de hǎo.",
-      "tr": "Bu yöntem az öncekinden daha iyi."
+      "zh": "我觉得这个办法更好。",
+      "pinyin": "Wǒ juéde zhège bànfǎ gènghǎo.",
+      "tr": "Bence bu yöntem daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_037",
       "speaker": "张伟",
-      "zh": "我已经试过一次了。",
-      "pinyin": "Wǒ yǐjīng shìguo yí cì le.",
-      "tr": "Bir kez denedim bile."
+      "zh": "这个办法我刚刚试过。",
+      "pinyin": "Zhège bànfǎ wǒ gānggāng shì guò.",
+      "tr": "Bu yöntemi az önce denedim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_038",
       "speaker": "银行工作人员",
-      "zh": "那我们换一个办法。",
-      "pinyin": "Nà wǒmen huàn yí ge bànfǎ.",
-      "tr": "O zaman başka bir yöntem deneyelim."
+      "zh": "不行的话就换一个办法。",
+      "pinyin": "Bùxíng dehuà jiù huàn yígè bànfǎ.",
+      "tr": "Olmazsa başka bir yöntem deneyelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_039",
       "speaker": "刘梅",
       "zh": "可以，你先来。",
-      "pinyin": "Kěyǐ, nǐ xiān lái.",
+      "pinyin": "Kěyǐ, nǐ xiānlái.",
       "tr": "Olur, önce sen yap."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_040",
       "speaker": "张伟",
       "zh": "做完以后告诉我。",
-      "pinyin": "Zuò wán yǐhòu gàosu wǒ.",
+      "pinyin": "Zuò wán yǐhòu gàosù wǒ.",
       "tr": "Bitirince bana söyle."
     },
     {
@@ -299,64 +299,64 @@
       "id": "DLG_ZH_HSK2_SC031_042",
       "speaker": "刘梅",
       "zh": "现在好多了。",
-      "pinyin": "Xiànzài hǎo duō le.",
+      "pinyin": "Xiànzài hǎoduō le.",
       "tr": "Şimdi çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_043",
       "speaker": "张伟",
       "zh": "还差一点。",
-      "pinyin": "Hái chà yìdiǎn.",
+      "pinyin": "Hái chàyìdiǎn.",
       "tr": "Biraz daha eksik var."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_044",
       "speaker": "银行工作人员",
       "zh": "我来帮你吧。",
-      "pinyin": "Wǒ lái bāng nǐ ba.",
+      "pinyin": "Wǒlái bāng nǐ ba.",
       "tr": "Sana yardım edeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_045",
       "speaker": "刘梅",
       "zh": "谢谢，这样快多了。",
-      "pinyin": "Xièxie, zhèyàng kuài duō le.",
+      "pinyin": "Xièxiè, zhèyàng kuài duō le.",
       "tr": "Teşekkürler, böyle çok daha hızlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_046",
       "speaker": "张伟",
       "zh": "我们再检查一次。",
-      "pinyin": "Wǒmen zài jiǎnchá yí cì.",
+      "pinyin": "Wǒmen zài jiǎnchá yīcì.",
       "tr": "Bir kez daha kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_047",
       "speaker": "银行工作人员",
       "zh": "这次没有问题了。",
-      "pinyin": "Zhè cì méiyǒu wèntí le.",
+      "pinyin": "Zhècì méiyǒu wèntí le.",
       "tr": "Bu kez sorun kalmadı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_048",
       "speaker": "刘梅",
-      "zh": "太好了，终于解决了。",
-      "pinyin": "Tài hǎo le, zhōngyú jiějué le.",
-      "tr": "Harika, sonunda çözüldü."
+      "zh": "终于好了，我放心了。",
+      "pinyin": "Zhōngyú hǎo le, wǒ fàngxīn le.",
+      "tr": "Sonunda düzeldi, içim rahatladı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_049",
       "speaker": "张伟",
-      "zh": "今天又学到一件事。",
-      "pinyin": "Jīntiān yòu xuédào yí jiàn shì.",
-      "tr": "Bugün yine bir şey öğrendik."
+      "zh": "这次我们也学到东西了。",
+      "pinyin": "Zhècì wǒmen yě xuédào dōngxī le.",
+      "tr": "Bu sefer de bir şey öğrendik."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_050",
       "speaker": "银行工作人员",
-      "zh": "下次我们会更有经验。",
-      "pinyin": "Xià cì wǒmen huì gèng yǒu jīngyàn.",
-      "tr": "Bir dahaki sefere daha deneyimli olacağız."
+      "zh": "有了这次经验，下次就知道怎么办了。",
+      "pinyin": "Yǒu le zhècì jīngyàn, xiàcì jiù zhīdào zěnmebàn le.",
+      "tr": "Bu deneyim sayesinde bir dahaki sefere ne yapacağımızı biliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_051",
@@ -396,15 +396,15 @@
     {
       "id": "DLG_ZH_HSK2_SC031_056",
       "speaker": "银行工作人员",
-      "zh": "这个身份证在这里。",
-      "pinyin": "Zhège shēnfènzhèng zài zhèlǐ.",
+      "zh": "你看，这个身份证在这儿。",
+      "pinyin": "Nǐ kàn, zhège shēnfènzhèng zài zhèér.",
       "tr": "Bu kimlik kartı burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_057",
       "speaker": "刘梅",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个很有用。",
+      "pinyin": "En, zhège hěn yǒuyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
@@ -417,43 +417,43 @@
     {
       "id": "DLG_ZH_HSK2_SC031_059",
       "speaker": "银行工作人员",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "以后也会用到。",
+      "pinyin": "Yǐhòu yě huì yòngdào.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_060",
       "speaker": "刘梅",
-      "zh": "我们先签字。",
-      "pinyin": "Wǒmen xiān qiānzì.",
+      "zh": "嗯，我们先签字。",
+      "pinyin": "En, wǒmen xiān qiānzì.",
       "tr": "Önce imza atmak."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_061",
       "speaker": "张伟",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zàishuō yīcì.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_062",
       "speaker": "银行工作人员",
-      "zh": "这个材料在这里。",
-      "pinyin": "Zhège cáiliào zài zhèlǐ.",
+      "zh": "嗯，你看，这个材料在这儿。",
+      "pinyin": "En, nǐ kàn, zhège cáiliào zài zhèér.",
       "tr": "Bu belge / evrak burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_063",
       "speaker": "刘梅",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "现在清楚多了。",
+      "pinyin": "Xiànzài qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_064",
       "speaker": "张伟",
-      "zh": "银行离这里不远。",
-      "pinyin": "Yínháng lí zhèlǐ bù yuǎn.",
+      "zh": "嗯，银行离这里不远。",
+      "pinyin": "En, yínháng lí zhèlǐ bùyuǎn.",
       "tr": "Banka buradan uzak değil."
     },
     {
@@ -466,64 +466,64 @@
     {
       "id": "DLG_ZH_HSK2_SC031_066",
       "speaker": "刘梅",
-      "zh": "这个我们确实需要。",
-      "pinyin": "Zhège wǒmen quèshí xūyào.",
+      "zh": "嗯，这个我们确实需要。",
+      "pinyin": "En, zhège wǒmen quèshí xūyào.",
       "tr": "Buna gerçekten ihtiyacımız var."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_067",
       "speaker": "张伟",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "这个办法很实用。",
+      "pinyin": "Zhège bànfǎ hěn shíyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_068",
       "speaker": "银行工作人员",
-      "zh": "我们先检查。",
-      "pinyin": "Wǒmen xiān jiǎnchá.",
+      "zh": "嗯，我们先检查。",
+      "pinyin": "En, wǒmen xiān jiǎnchá.",
       "tr": "Önce kontrol etmek."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_069",
       "speaker": "刘梅",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐhòu hái yòngdéshàng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_070",
       "speaker": "张伟",
-      "zh": "这个账户在这里。",
-      "pinyin": "Zhège zhànghù zài zhèlǐ.",
+      "zh": "嗯，这个账户在这里。",
+      "pinyin": "En, zhège zhànghù zài zhèlǐ.",
       "tr": "Bu hesap burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_071",
       "speaker": "银行工作人员",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "我再说一遍。",
+      "pinyin": "Wǒ zàishuō yībiàn.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_072",
       "speaker": "刘梅",
-      "zh": "这个身份证在这里。",
-      "pinyin": "Zhège shēnfènzhèng zài zhèlǐ.",
+      "zh": "嗯，你看，这个身份证在这儿。",
+      "pinyin": "En, nǐ kàn, zhège shēnfènzhèng zài zhèér.",
       "tr": "Bu kimlik kartı burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_073",
       "speaker": "张伟",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "嗯，现在清楚多了。",
+      "pinyin": "En, xiànzài qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_074",
       "speaker": "银行工作人员",
-      "zh": "这个表格在这里。",
-      "pinyin": "Zhège biǎogé zài zhèlǐ.",
+      "zh": "你看，这个表格在这儿。",
+      "pinyin": "Nǐ kàn, zhège biǎogé zài zhèér.",
       "tr": "Bu form burada."
     },
     {
@@ -536,64 +536,64 @@
     {
       "id": "DLG_ZH_HSK2_SC031_076",
       "speaker": "张伟",
-      "zh": "我们先签字。",
-      "pinyin": "Wǒmen xiān qiānzì.",
+      "zh": "对，我们先签字。",
+      "pinyin": "Duì, wǒmen xiān qiānzì.",
       "tr": "Önce imza atmak."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_077",
       "speaker": "银行工作人员",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个办法很实用。",
+      "pinyin": "En, zhège bànfǎ hěn shíyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_078",
       "speaker": "刘梅",
-      "zh": "这个材料在这里。",
-      "pinyin": "Zhège cáiliào zài zhèlǐ.",
+      "zh": "对，就在这里。",
+      "pinyin": "Duì, jiù zài zhèlǐ.",
       "tr": "Bu belge / evrak burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_079",
       "speaker": "张伟",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "嗯，以后也会用到。",
+      "pinyin": "En, yǐhòu yě huì yòngdào.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_080",
       "speaker": "银行工作人员",
-      "zh": "银行离这里不远。",
-      "pinyin": "Yínháng lí zhèlǐ bù yuǎn.",
+      "zh": "对，银行离这里不远。",
+      "pinyin": "Duì, yínháng lí zhèlǐ bùyuǎn.",
       "tr": "Banka buradan uzak değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_081",
       "speaker": "刘梅",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "嗯，我再说一遍。",
+      "pinyin": "En, wǒ zàishuō yībiàn.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_082",
       "speaker": "张伟",
-      "zh": "这个我们确实需要。",
-      "pinyin": "Zhège wǒmen quèshí xūyào.",
+      "zh": "对，这个我们确实需要。",
+      "pinyin": "Duì, zhège wǒmen quèshí xūyào.",
       "tr": "Buna gerçekten ihtiyacımız var."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_083",
       "speaker": "银行工作人员",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "对，现在清楚多了。",
+      "pinyin": "Duì, xiànzài qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_084",
       "speaker": "刘梅",
-      "zh": "我们先检查。",
-      "pinyin": "Wǒmen xiān jiǎnchá.",
+      "zh": "对，我们先检查。",
+      "pinyin": "Duì, wǒmen xiān jiǎnchá.",
       "tr": "Önce kontrol etmek."
     },
     {
@@ -606,64 +606,64 @@
     {
       "id": "DLG_ZH_HSK2_SC031_086",
       "speaker": "银行工作人员",
-      "zh": "这个账户在这里。",
-      "pinyin": "Zhège zhànghù zài zhèlǐ.",
+      "zh": "对，这个账户在这里。",
+      "pinyin": "Duì, zhège zhànghù zài zhèlǐ.",
       "tr": "Bu hesap burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_087",
       "speaker": "刘梅",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个很有用。",
+      "pinyin": "En, zhège hěn yǒuyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_088",
       "speaker": "张伟",
-      "zh": "这个身份证在这里。",
-      "pinyin": "Zhège shēnfènzhèng zài zhèlǐ.",
+      "zh": "好，就在这里。",
+      "pinyin": "Hǎo, jiù zài zhèlǐ.",
       "tr": "Bu kimlik kartı burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_089",
       "speaker": "银行工作人员",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "这个以后还会用。",
+      "pinyin": "Zhège yǐhòu háihuìyòng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_090",
       "speaker": "刘梅",
-      "zh": "这个表格在这里。",
-      "pinyin": "Zhège biǎogé zài zhèlǐ.",
+      "zh": "嗯，这个表格在这里。",
+      "pinyin": "En, zhège biǎogé zài zhèlǐ.",
       "tr": "Bu form burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_091",
       "speaker": "张伟",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "那我再说一遍。",
+      "pinyin": "Nà wǒ zàishuō yībiàn.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_092",
       "speaker": "银行工作人员",
-      "zh": "我们先签字。",
-      "pinyin": "Wǒmen xiān qiānzì.",
+      "zh": "好，我们先签字。",
+      "pinyin": "Hǎo, wǒmen xiān qiānzì.",
       "tr": "Önce imza atmak."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_093",
       "speaker": "刘梅",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "好，现在清楚多了。",
+      "pinyin": "Hǎo, xiànzài qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC031_094",
       "speaker": "张伟",
-      "zh": "这个材料在这里。",
-      "pinyin": "Zhège cáiliào zài zhèlǐ.",
+      "zh": "是啊，就在这里。",
+      "pinyin": "Shì a, jiù zài zhèlǐ.",
       "tr": "Bu belge / evrak burada."
     },
     {
@@ -698,7 +698,7 @@
       "id": "DLG_ZH_HSK2_SC031_099",
       "speaker": "刘梅",
       "zh": "下次会更容易。",
-      "pinyin": "Xià cì huì gèng róngyì.",
+      "pinyin": "Xiàcì huì gèng róngyì.",
       "tr": "Bir dahaki sefere daha kolay olacak."
     },
     {

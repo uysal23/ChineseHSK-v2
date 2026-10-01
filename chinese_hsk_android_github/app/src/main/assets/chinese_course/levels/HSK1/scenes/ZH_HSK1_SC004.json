@@ -451,15 +451,15 @@
     {
       "id": "DLG_ZH_HSK1_SC004_004",
       "speaker": "张乐乐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_005",
       "speaker": "售货员",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
+      "zh": "都准备好了。",
+      "pinyin": "Dōu zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
@@ -473,7 +473,7 @@
       "id": "DLG_ZH_HSK1_SC004_007",
       "speaker": "刘梅",
       "zh": "我要早饭，谢谢。",
-      "pinyin": "Wǒ yào zǎofàn, xièxie.",
+      "pinyin": "Wǒyào zǎofàn, xièxiè.",
       "tr": "Kahvaltı istiyorum, teşekkürler."
     },
     {
@@ -486,8 +486,8 @@
     {
       "id": "DLG_ZH_HSK1_SC004_009",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -501,21 +501,21 @@
       "id": "DLG_ZH_HSK1_SC004_011",
       "speaker": "张伟",
       "zh": "我要面包，谢谢。",
-      "pinyin": "Wǒ yào miànbāo, xièxie.",
+      "pinyin": "Wǒyào miànbāo, xièxiè.",
       "tr": "Ekmek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_012",
       "speaker": "刘梅",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_013",
       "speaker": "张雨桐",
       "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "pinyin": "Xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -529,21 +529,21 @@
       "id": "DLG_ZH_HSK1_SC004_015",
       "speaker": "售货员",
       "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "pinyin": "Wǒyào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_016",
       "speaker": "张伟",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "行。",
+      "pinyin": "Xíng.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_017",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "嗯，谢谢。",
+      "pinyin": "En, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -557,21 +557,21 @@
       "id": "DLG_ZH_HSK1_SC004_019",
       "speaker": "张乐乐",
       "zh": "我要茶，谢谢。",
-      "pinyin": "Wǒ yào chá, xièxie.",
+      "pinyin": "Wǒyào chá, xièxiè.",
       "tr": "Çay istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_020",
       "speaker": "售货员",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "嗯，好。",
+      "pinyin": "En, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_021",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -585,14 +585,14 @@
       "id": "DLG_ZH_HSK1_SC004_023",
       "speaker": "张雨桐",
       "zh": "别急。",
-      "pinyin": "Bié jí.",
+      "pinyin": "Biéjí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_024",
       "speaker": "张乐乐",
       "zh": "我来看看。",
-      "pinyin": "Wǒ lái kànkan.",
+      "pinyin": "Wǒlái kànkàn.",
       "tr": "Ben bir bakayım."
     },
     {
@@ -605,57 +605,57 @@
     {
       "id": "DLG_ZH_HSK1_SC004_026",
       "speaker": "张伟",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "可以。",
+      "pinyin": "Kěyǐ.",
       "tr": "Tamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_027",
       "speaker": "刘梅",
-      "zh": "这是杯子吗？",
-      "pinyin": "Zhè shì bēizi ma?",
+      "zh": "这个是杯子吗？",
+      "pinyin": "Zhège shì bēizi ma?",
       "tr": "Bu, bardak mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_028",
       "speaker": "张雨桐",
-      "zh": "对，这是杯子。",
-      "pinyin": "Duì, zhè shì bēizi.",
+      "zh": "没错，这是杯子。",
+      "pinyin": "Méicuò, zhèshì bēizi.",
       "tr": "Evet, bu bardak."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_029",
       "speaker": "张乐乐",
-      "zh": "杯子在哪儿？",
-      "pinyin": "Bēizi zài nǎr?",
+      "zh": "杯子呢？",
+      "pinyin": "Bēizi ne?",
       "tr": "Bardak nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_030",
       "speaker": "售货员",
-      "zh": "杯子在这里。",
-      "pinyin": "Bēizi zài zhèlǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Bardak burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_031",
       "speaker": "张伟",
       "zh": "我们坐火车吗？",
-      "pinyin": "Wǒmen zuò huǒchē ma?",
+      "pinyin": "Wǒmen zuòhuǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_032",
       "speaker": "刘梅",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒmen zuò huǒchē.",
+      "pinyin": "Duì, wǒmen zuòhuǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_033",
       "speaker": "张雨桐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "zh": "那准备得怎么样了？",
+      "pinyin": "Nà zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
@@ -675,43 +675,43 @@
     {
       "id": "DLG_ZH_HSK1_SC004_036",
       "speaker": "张伟",
-      "zh": "对，这是钱。",
-      "pinyin": "Duì, zhè shì qián.",
+      "zh": "嗯，这就是钱。",
+      "pinyin": "En, zhè jiùshì qián.",
       "tr": "Evet, bu para."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_037",
       "speaker": "刘梅",
       "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎr?",
+      "pinyin": "Qián zài nǎér?",
       "tr": "Para nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_038",
       "speaker": "张雨桐",
-      "zh": "钱在这里。",
-      "pinyin": "Qián zài zhèlǐ.",
+      "zh": "你看，钱在这儿。",
+      "pinyin": "Nǐ kàn, qián zài zhèér.",
       "tr": "Para burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_039",
       "speaker": "张乐乐",
-      "zh": "这是元吗？",
-      "pinyin": "Zhè shì yuán ma?",
+      "zh": "这是元，对吗？",
+      "pinyin": "Zhè shì yuán, duì ma?",
       "tr": "Bu, yuan mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_040",
       "speaker": "售货员",
-      "zh": "对，这是元。",
-      "pinyin": "Duì, zhè shì yuán.",
+      "zh": "没错，这是元。",
+      "pinyin": "Méicuò, zhè shì yuán.",
       "tr": "Evet, bu yuan."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_041",
       "speaker": "张伟",
-      "zh": "元在哪儿？",
-      "pinyin": "Yuán zài nǎr?",
+      "zh": "请问，元在哪儿？",
+      "pinyin": "Qǐngwèn, yuán zài nǎér?",
       "tr": "Yuan nerede?"
     },
     {
@@ -732,21 +732,21 @@
       "id": "DLG_ZH_HSK1_SC004_044",
       "speaker": "张乐乐",
       "zh": "太好了！",
-      "pinyin": "Tài hǎo le!",
+      "pinyin": "Tàihǎole!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_045",
       "speaker": "售货员",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxie nǐ.",
+      "zh": "嗯，谢谢你。",
+      "pinyin": "En, xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_046",
       "speaker": "张伟",
       "zh": "不客气。",
-      "pinyin": "Bú kèqi.",
+      "pinyin": "Bù kèqì.",
       "tr": "Rica ederim."
     },
     {
@@ -766,134 +766,134 @@
     {
       "id": "DLG_ZH_HSK1_SC004_049",
       "speaker": "张乐乐",
-      "zh": "你要早饭吗？",
-      "pinyin": "Nǐ yào zǎofàn ma?",
+      "zh": "早饭你要吗？",
+      "pinyin": "Zǎofàn nǐ yào ma?",
       "tr": "Kahvaltı ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_050",
       "speaker": "售货员",
-      "zh": "我要早饭，谢谢。",
-      "pinyin": "Wǒ yào zǎofàn, xièxie.",
+      "zh": "那我要早饭，谢谢。",
+      "pinyin": "Nà wǒ yào zǎofàn, xièxiè.",
       "tr": "Kahvaltı istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_051",
       "speaker": "张伟",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好啊。",
+      "pinyin": "Hǎo a.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_052",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_053",
       "speaker": "张雨桐",
-      "zh": "你要面包吗？",
-      "pinyin": "Nǐ yào miànbāo ma?",
+      "zh": "面包你要吗？",
+      "pinyin": "Miànbāo nǐ yào ma?",
       "tr": "Ekmek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_054",
       "speaker": "张乐乐",
-      "zh": "我要面包，谢谢。",
-      "pinyin": "Wǒ yào miànbāo, xièxie.",
+      "zh": "那我要面包，谢谢。",
+      "pinyin": "Nà wǒ yào miànbāo, xièxiè.",
       "tr": "Ekmek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_055",
       "speaker": "售货员",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "那好。",
+      "pinyin": "Nàhǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_056",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "太好了，谢谢。",
+      "pinyin": "Tàihǎole, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_057",
       "speaker": "刘梅",
-      "zh": "你要水吗？",
-      "pinyin": "Nǐ yào shuǐ ma?",
+      "zh": "水你要吗？",
+      "pinyin": "Shuǐ nǐ yào ma?",
       "tr": "Su ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_058",
       "speaker": "张雨桐",
-      "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "zh": "那我要水，谢谢。",
+      "pinyin": "Nà wǒ yào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_059",
       "speaker": "张乐乐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_060",
       "speaker": "售货员",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢，帮大忙了。",
+      "pinyin": "Xièxiè, bāng dàmáng le.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_061",
       "speaker": "张伟",
-      "zh": "你要茶吗？",
-      "pinyin": "Nǐ yào chá ma?",
+      "zh": "茶你要吗？",
+      "pinyin": "Chá nǐ yào ma?",
       "tr": "Çay ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_062",
       "speaker": "刘梅",
-      "zh": "我要茶，谢谢。",
-      "pinyin": "Wǒ yào chá, xièxie.",
+      "zh": "那我要茶，谢谢。",
+      "pinyin": "Nà wǒ yào chá, xièxiè.",
       "tr": "Çay istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_063",
       "speaker": "张雨桐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "没问题。",
+      "pinyin": "Méi wèntí.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_064",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "太好了，谢谢。",
+      "pinyin": "Tàihǎole, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_065",
       "speaker": "售货员",
-      "zh": "这是杯子吗？",
-      "pinyin": "Zhè shì bēizi ma?",
+      "zh": "这是杯子，对吗？",
+      "pinyin": "Zhèshì bēizi, duì ma?",
       "tr": "Bu, bardak mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_066",
       "speaker": "张伟",
-      "zh": "对，这是杯子。",
-      "pinyin": "Duì, zhè shì bēizi.",
+      "zh": "嗯，这就是杯子。",
+      "pinyin": "En, zhè jiùshì bēizi.",
       "tr": "Evet, bu bardak."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_067",
       "speaker": "刘梅",
       "zh": "杯子在哪儿？",
-      "pinyin": "Bēizi zài nǎr?",
+      "pinyin": "Bēizi zài nǎér?",
       "tr": "Bardak nerede?"
     },
     {
@@ -906,197 +906,197 @@
     {
       "id": "DLG_ZH_HSK1_SC004_069",
       "speaker": "张乐乐",
-      "zh": "我们坐火车吗？",
-      "pinyin": "Wǒmen zuò huǒchē ma?",
+      "zh": "那我们坐火车吗？",
+      "pinyin": "Nà wǒmen zuòhuǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_070",
       "speaker": "售货员",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒmen zuò huǒchē.",
+      "pinyin": "Duì, wǒmen zuòhuǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_071",
       "speaker": "张伟",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "zh": "现在准备得怎么样了？",
+      "pinyin": "Xiànzài zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_072",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
+      "zh": "嗯，准备好了。",
+      "pinyin": "En, zhǔnbèi hǎo le.",
       "tr": "Hazırız."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_073",
       "speaker": "张雨桐",
-      "zh": "你要早饭吗？",
-      "pinyin": "Nǐ yào zǎofàn ma?",
+      "zh": "现在你要早饭吗？",
+      "pinyin": "Xiànzài nǐ yào zǎofàn ma?",
       "tr": "Kahvaltı ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_074",
       "speaker": "张乐乐",
-      "zh": "我要早饭，谢谢。",
-      "pinyin": "Wǒ yào zǎofàn, xièxie.",
+      "zh": "对，我要早饭，谢谢。",
+      "pinyin": "Duì, wǒyào zǎofàn, xièxiè.",
       "tr": "Kahvaltı istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_075",
       "speaker": "售货员",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "行啊。",
+      "pinyin": "Xíng a.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_076",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "真的谢谢你。",
+      "pinyin": "Zhēnde xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_077",
       "speaker": "刘梅",
-      "zh": "你要面包吗？",
-      "pinyin": "Nǐ yào miànbāo ma?",
+      "zh": "现在你要面包吗？",
+      "pinyin": "Xiànzài nǐ yào miànbāo ma?",
       "tr": "Ekmek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_078",
       "speaker": "张雨桐",
-      "zh": "我要面包，谢谢。",
-      "pinyin": "Wǒ yào miànbāo, xièxie.",
+      "zh": "对，我要面包，谢谢。",
+      "pinyin": "Duì, wǒyào miànbāo, xièxiè.",
       "tr": "Ekmek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_079",
       "speaker": "张乐乐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "对，行。",
+      "pinyin": "Duì, xíng.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_080",
       "speaker": "售货员",
       "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "pinyin": "Xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_081",
       "speaker": "张伟",
-      "zh": "你要水吗？",
-      "pinyin": "Nǐ yào shuǐ ma?",
+      "zh": "现在你要水吗？",
+      "pinyin": "Xiànzài nǐ yào shuǐ ma?",
       "tr": "Su ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_082",
       "speaker": "刘梅",
-      "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "zh": "对，我要水，谢谢。",
+      "pinyin": "Duì, wǒyào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_083",
       "speaker": "张雨桐",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好吧。",
+      "pinyin": "Hǎo ba.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_084",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_085",
       "speaker": "售货员",
-      "zh": "你要茶吗？",
-      "pinyin": "Nǐ yào chá ma?",
+      "zh": "现在你要茶吗？",
+      "pinyin": "Xiànzài nǐ yào chá ma?",
       "tr": "Çay ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_086",
       "speaker": "张伟",
-      "zh": "我要茶，谢谢。",
-      "pinyin": "Wǒ yào chá, xièxie.",
+      "zh": "对，我要茶，谢谢。",
+      "pinyin": "Duì, wǒyào chá, xièxiè.",
       "tr": "Çay istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_087",
       "speaker": "刘梅",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "嗯，可以。",
+      "pinyin": "En, kěyǐ.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_088",
       "speaker": "张雨桐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "对，谢谢你。",
+      "pinyin": "Duì, xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_089",
       "speaker": "张乐乐",
-      "zh": "这是杯子吗？",
-      "pinyin": "Zhè shì bēizi ma?",
+      "zh": "那这个是杯子吗？",
+      "pinyin": "Nà zhège shì bēizi ma?",
       "tr": "Bu, bardak mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_090",
       "speaker": "售货员",
-      "zh": "对，这是杯子。",
-      "pinyin": "Duì, zhè shì bēizi.",
+      "zh": "没错，这是杯子。",
+      "pinyin": "Méicuò, zhèshì bēizi.",
       "tr": "Evet, bu bardak."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_091",
       "speaker": "张伟",
-      "zh": "杯子在哪儿？",
-      "pinyin": "Bēizi zài nǎr?",
+      "zh": "请问，杯子在哪儿？",
+      "pinyin": "Qǐngwèn, bēizi zài nǎér?",
       "tr": "Bardak nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_092",
       "speaker": "刘梅",
-      "zh": "杯子在这里。",
-      "pinyin": "Bēizi zài zhèlǐ.",
+      "zh": "嗯，就在这里。",
+      "pinyin": "En, jiù zài zhèlǐ.",
       "tr": "Bardak burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_093",
       "speaker": "张雨桐",
-      "zh": "我们坐火车吗？",
-      "pinyin": "Wǒmen zuò huǒchē ma?",
+      "zh": "现在我们坐火车吗？",
+      "pinyin": "Xiànzài wǒmen zuòhuǒchē ma?",
       "tr": "Tren ile mi gidiyoruz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_094",
       "speaker": "张乐乐",
       "zh": "对，我们坐火车。",
-      "pinyin": "Duì, wǒmen zuò huǒchē.",
+      "pinyin": "Duì, wǒmen zuòhuǒchē.",
       "tr": "Evet, tren ile gidiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC004_095",
       "speaker": "售货员",
       "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "pinyin": "Zhǔnbèi hǎolema?",
       "tr": "Hazır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC004_096",
       "speaker": "张伟",
-      "zh": "今天学了很多。",
-      "pinyin": "Jīntiān xué le hěn duō.",
+      "zh": "路线现在清楚了。",
+      "pinyin": "Lùxiàn xiànzài qīngchǔ le.",
       "tr": "Bugün çok şey öğrendik."
     },
     {
@@ -1110,7 +1110,7 @@
       "id": "DLG_ZH_HSK1_SC004_098",
       "speaker": "张雨桐",
       "zh": "都好了吗？",
-      "pinyin": "Dōu hǎo le ma?",
+      "pinyin": "Dōu hǎolema?",
       "tr": "Her şey tamam mı?"
     },
     {

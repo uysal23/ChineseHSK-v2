@@ -12,28 +12,28 @@
       "id": "DLG_ZH_HSK2_SC039_001",
       "speaker": "刘梅",
       "zh": "兽医说咪咪有点胖。",
-      "pinyin": "Shòuyī shuō Mīmī yǒudiǎn pàng.",
+      "pinyin": "Shòuyī shuō mīmī yǒudiǎn pàng.",
       "tr": "Veteriner Mimi’nin biraz kilolu olduğunu söyledi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_002",
       "speaker": "张乐乐",
-      "zh": "今天事情不少。",
-      "pinyin": "Jīntiān shìqing bù shǎo.",
+      "zh": "今天有不少事情要做。",
+      "pinyin": "Jīntiān yǒu bùshǎo shìqíng yào zuò.",
       "tr": "Bugün yapılacak epey iş var."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_003",
       "speaker": "兽医",
-      "zh": "我们先看看最重要的。",
-      "pinyin": "Wǒmen xiān kànkan zuì zhòngyào de.",
+      "zh": "我们先从最重要的开始。",
+      "pinyin": "Wǒmen xiān cóng zuì zhòngyào de kāishǐ.",
       "tr": "Önce en önemli olana bakalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_004",
       "speaker": "张伟",
-      "zh": "好，慢慢来。",
-      "pinyin": "Hǎo, mànmàn lái.",
+      "zh": "好，别着急。",
+      "pinyin": "Hǎo, biézháojí.",
       "tr": "Tamam, sakin sakin ilerleyelim."
     },
     {
@@ -46,8 +46,8 @@
     {
       "id": "DLG_ZH_HSK2_SC039_006",
       "speaker": "张乐乐",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "嗯，我懂了。",
+      "pinyin": "En, wǒ dǒng le.",
       "tr": "Anladım."
     },
     {
@@ -61,21 +61,21 @@
       "id": "DLG_ZH_HSK2_SC039_008",
       "speaker": "张伟",
       "zh": "以后要少一点。",
-      "pinyin": "Yǐhòu yào shǎo yìdiǎn.",
+      "pinyin": "Yǐhòu yàoshǎo yìdiǎn.",
       "tr": "Bundan sonra biraz daha az olmalı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_009",
       "speaker": "刘梅",
-      "zh": "这个我记住了。",
-      "pinyin": "Zhège wǒ jìzhù le.",
+      "zh": "嗯，这个我记住了。",
+      "pinyin": "En, zhège wǒ jìzhù le.",
       "tr": "Bunu aklımda tutacağım."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_010",
       "speaker": "张乐乐",
-      "zh": "听起来很清楚。",
-      "pinyin": "Tīng qǐlái hěn qīngchu.",
+      "zh": "嗯，听明白了。",
+      "pinyin": "En, tīng míngbái le.",
       "tr": "Oldukça net görünüyor."
     },
     {
@@ -88,8 +88,8 @@
     {
       "id": "DLG_ZH_HSK2_SC039_012",
       "speaker": "张伟",
-      "zh": "好，那就按这个来。",
-      "pinyin": "Hǎo, nà jiù àn zhège lái.",
+      "zh": "行，就按这个来。",
+      "pinyin": "Xíng, jiù àn zhège lái.",
       "tr": "Tamam, o zaman buna göre ilerleyelim."
     },
     {
@@ -117,36 +117,36 @@
       "id": "DLG_ZH_HSK2_SC039_016",
       "speaker": "张伟",
       "zh": "我们别忘了。",
-      "pinyin": "Wǒmen bié wàng le.",
+      "pinyin": "Wǒmen biéwàngle.",
       "tr": "Bunu unutmayalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_017",
       "speaker": "刘梅",
       "zh": "以后要少吃一点，多运动。",
-      "pinyin": "Yǐhòu yào shǎo chī yìdiǎn, duō yùndòng.",
+      "pinyin": "Yǐhòu yàoshǎo chī yìdiǎn, duō yùndòng.",
       "tr": "Bundan sonra biraz daha az yiyip daha çok hareket etmeli."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_018",
       "speaker": "张乐乐",
       "zh": "那现在怎么办？",
-      "pinyin": "Nà xiànzài zěnme bàn?",
+      "pinyin": "Nà xiànzài zěnmebàn?",
       "tr": "Peki şimdi ne yapacağız?"
     },
     {
       "id": "DLG_ZH_HSK2_SC039_019",
       "speaker": "兽医",
-      "zh": "先别着急，我们想个办法。",
-      "pinyin": "Xiān bié zháojí, wǒmen xiǎng ge bànfǎ.",
-      "tr": "Önce telaşlanmayalım, bir çözüm düşünelim."
+      "zh": "我们慢慢想，一定有办法。",
+      "pinyin": "Wǒmen mànmàn xiǎng, yídìng yǒu bànfǎ.",
+      "tr": "Sakin sakin düşünelim, mutlaka bir yol buluruz."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_020",
       "speaker": "张伟",
-      "zh": "我觉得可以先做最简单的。",
-      "pinyin": "Wǒ juéde kěyǐ xiān zuò zuì jiǎndān de.",
-      "tr": "Bence önce en kolay kısmı yapabiliriz."
+      "zh": "先做容易的吧。",
+      "pinyin": "Xiān zuò róngyì de ba.",
+      "tr": "Önce kolay olanı yapalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_021",
@@ -172,9 +172,9 @@
     {
       "id": "DLG_ZH_HSK2_SC039_024",
       "speaker": "张伟",
-      "zh": "那我们把它记下来。",
-      "pinyin": "Nà wǒmen bǎ tā jìxiàlái.",
-      "tr": "O zaman bunu not edelim."
+      "zh": "那我们先记下来。",
+      "pinyin": "Nà wǒmen xiān jìxiàlái.",
+      "tr": "O zaman önce not edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_025",
@@ -187,21 +187,21 @@
       "id": "DLG_ZH_HSK2_SC039_026",
       "speaker": "张乐乐",
       "zh": "这个办法不错。",
-      "pinyin": "Zhège bànfǎ búcuò.",
+      "pinyin": "Zhège bànfǎ bùcuò.",
       "tr": "Bu yöntem fena değil."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_027",
       "speaker": "兽医",
       "zh": "我们可以试试。",
-      "pinyin": "Wǒmen kěyǐ shìshi.",
+      "pinyin": "Wǒmen kěyǐ shìshì.",
       "tr": "Deneyebiliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_028",
       "speaker": "张伟",
-      "zh": "这个食物在这里。",
-      "pinyin": "Zhège shíwù zài zhèlǐ.",
+      "zh": "你看，这个食物在这儿。",
+      "pinyin": "Nǐ kàn, zhège shíwù zài zhèér.",
       "tr": "Bu yiyecek burada."
     },
     {
@@ -229,7 +229,7 @@
       "id": "DLG_ZH_HSK2_SC039_032",
       "speaker": "张伟",
       "zh": "说得对。",
-      "pinyin": "Shuō de duì.",
+      "pinyin": "Shuōdéduì.",
       "tr": "Doğru söylüyorsun."
     },
     {
@@ -242,50 +242,50 @@
     {
       "id": "DLG_ZH_HSK2_SC039_034",
       "speaker": "张乐乐",
-      "zh": "因为时间不多，所以我们快一点。",
-      "pinyin": "Yīnwèi shíjiān bù duō, suǒyǐ wǒmen kuài yìdiǎn.",
-      "tr": "Zaman az olduğu için biraz hızlı olalım."
+      "zh": "快一点吧，不然时间不够。",
+      "pinyin": "Kuài yìdiǎn ba, bùrán shíjiān bùgòu.",
+      "tr": "Biraz hızlanalım, yoksa zaman yetmeyecek."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_035",
       "speaker": "兽医",
-      "zh": "先做这个，再做下一个。",
-      "pinyin": "Xiān zuò zhège, zài zuò xià yí ge.",
-      "tr": "Önce bunu, sonra sıradakini yapalım."
+      "zh": "别一起做，先做这个。",
+      "pinyin": "Bié yìqǐ zuò, xiān zuò zhège.",
+      "tr": "Hepsini birden yapmayalım, önce bunu yapalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_036",
       "speaker": "张伟",
-      "zh": "这个办法比刚才的好。",
-      "pinyin": "Zhège bànfǎ bǐ gāngcái de hǎo.",
-      "tr": "Bu yöntem az öncekinden daha iyi."
+      "zh": "我觉得这个办法更好。",
+      "pinyin": "Wǒ juéde zhège bànfǎ gènghǎo.",
+      "tr": "Bence bu yöntem daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_037",
       "speaker": "刘梅",
-      "zh": "我已经试过一次了。",
-      "pinyin": "Wǒ yǐjīng shìguo yí cì le.",
-      "tr": "Bir kez denedim bile."
+      "zh": "刚才我试过这个办法。",
+      "pinyin": "Gāngcái wǒshì guò zhège bànfǎ.",
+      "tr": "Az önce bu yöntemi denedim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_038",
       "speaker": "张乐乐",
-      "zh": "那我们换一个办法。",
-      "pinyin": "Nà wǒmen huàn yí ge bànfǎ.",
-      "tr": "O zaman başka bir yöntem deneyelim."
+      "zh": "这个不行，就换一个。",
+      "pinyin": "Zhège bùxíng, jiù huàn yígè.",
+      "tr": "Bu olmazsa başka birini deneyelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_039",
       "speaker": "兽医",
       "zh": "可以，你先来。",
-      "pinyin": "Kěyǐ, nǐ xiān lái.",
+      "pinyin": "Kěyǐ, nǐ xiānlái.",
       "tr": "Olur, önce sen yap."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_040",
       "speaker": "张伟",
       "zh": "做完以后告诉我。",
-      "pinyin": "Zuò wán yǐhòu gàosu wǒ.",
+      "pinyin": "Zuò wán yǐhòu gàosù wǒ.",
       "tr": "Bitirince bana söyle."
     },
     {
@@ -299,64 +299,64 @@
       "id": "DLG_ZH_HSK2_SC039_042",
       "speaker": "张乐乐",
       "zh": "现在好多了。",
-      "pinyin": "Xiànzài hǎo duō le.",
+      "pinyin": "Xiànzài hǎoduō le.",
       "tr": "Şimdi çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_043",
       "speaker": "兽医",
       "zh": "还差一点。",
-      "pinyin": "Hái chà yìdiǎn.",
+      "pinyin": "Hái chàyìdiǎn.",
       "tr": "Biraz daha eksik var."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_044",
       "speaker": "张伟",
       "zh": "我来帮你吧。",
-      "pinyin": "Wǒ lái bāng nǐ ba.",
+      "pinyin": "Wǒlái bāng nǐ ba.",
       "tr": "Sana yardım edeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_045",
       "speaker": "刘梅",
       "zh": "谢谢，这样快多了。",
-      "pinyin": "Xièxie, zhèyàng kuài duō le.",
+      "pinyin": "Xièxiè, zhèyàng kuài duō le.",
       "tr": "Teşekkürler, böyle çok daha hızlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_046",
       "speaker": "张乐乐",
       "zh": "我们再检查一次。",
-      "pinyin": "Wǒmen zài jiǎnchá yí cì.",
+      "pinyin": "Wǒmen zài jiǎnchá yīcì.",
       "tr": "Bir kez daha kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_047",
       "speaker": "兽医",
       "zh": "这次没有问题了。",
-      "pinyin": "Zhè cì méiyǒu wèntí le.",
+      "pinyin": "Zhècì méiyǒu wèntí le.",
       "tr": "Bu kez sorun kalmadı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_048",
       "speaker": "张伟",
-      "zh": "太好了，终于解决了。",
-      "pinyin": "Tài hǎo le, zhōngyú jiějué le.",
-      "tr": "Harika, sonunda çözüldü."
+      "zh": "好了，问题终于解决了。",
+      "pinyin": "Hǎo le, wèntí zhōngyú jiějué le.",
+      "tr": "Tamam, sorun sonunda çözüldü."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_049",
       "speaker": "刘梅",
-      "zh": "今天又学到一件事。",
-      "pinyin": "Jīntiān yòu xuédào yí jiàn shì.",
-      "tr": "Bugün yine bir şey öğrendik."
+      "zh": "今天这个经验很有用。",
+      "pinyin": "Jīntiān zhège jīngyàn hěn yǒuyòng.",
+      "tr": "Bugünkü deneyim çok faydalı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_050",
       "speaker": "张乐乐",
-      "zh": "下次我们会更有经验。",
-      "pinyin": "Xià cì wǒmen huì gèng yǒu jīngyàn.",
-      "tr": "Bir dahaki sefere daha deneyimli olacağız."
+      "zh": "这次记住了，下次会更顺利。",
+      "pinyin": "Zhècì jìzhù le, xiàcì huì gèng shùnlì.",
+      "tr": "Bu kez öğrendik; bir dahaki sefere daha sorunsuz olur."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_051",
@@ -382,85 +382,85 @@
     {
       "id": "DLG_ZH_HSK2_SC039_054",
       "speaker": "张乐乐",
-      "zh": "咪咪最近有点胖。",
-      "pinyin": "Mīmī zuìjìn yǒudiǎn pàng.",
+      "zh": "嗯，咪咪最近有点胖。",
+      "pinyin": "En, mīmī zuìjìn yǒudiǎn pàng.",
       "tr": "Mimi son zamanlarda biraz kilolu."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_055",
       "speaker": "兽医",
-      "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jìzhù le.",
+      "zh": "好，我会记着。",
+      "pinyin": "Hǎo, wǒhuì jìzhe.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_056",
       "speaker": "张伟",
-      "zh": "以后要少一点。",
-      "pinyin": "Yǐhòu yào shǎo yìdiǎn.",
+      "zh": "嗯，以后要少一点。",
+      "pinyin": "En, yǐhòu yàoshǎo yìdiǎn.",
       "tr": "Bundan sonra biraz daha az olmalı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_057",
       "speaker": "刘梅",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个很有用。",
+      "pinyin": "En, zhège hěn yǒuyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_058",
       "speaker": "张乐乐",
-      "zh": "我们先运动。",
-      "pinyin": "Wǒmen xiān yùndòng.",
+      "zh": "嗯，我们先运动。",
+      "pinyin": "En, wǒmen xiān yùndòng.",
       "tr": "Önce egzersiz."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_059",
       "speaker": "兽医",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "以后还用得上。",
+      "pinyin": "Yǐhòu hái yòngdéshàng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_060",
       "speaker": "张伟",
-      "zh": "咪咪的体重有点高。",
-      "pinyin": "Mīmī de tǐzhòng yǒudiǎn gāo.",
+      "zh": "嗯，咪咪的体重有点高。",
+      "pinyin": "En, mīmī de tǐzhòng yǒudiǎn gāo.",
       "tr": "Mimi’nin kilosu biraz yüksek."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_061",
       "speaker": "刘梅",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zàishuō yīcì.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_062",
       "speaker": "张乐乐",
-      "zh": "兽医今天也来了。",
-      "pinyin": "Shòuyī jīntiān yě lái le.",
+      "zh": "嗯，兽医今天也来了。",
+      "pinyin": "En, shòuyī jīntiān yě lái le.",
       "tr": "Veteriner bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_063",
       "speaker": "兽医",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "嗯，现在明白多了。",
+      "pinyin": "En, xiànzài míngbái duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_064",
       "speaker": "张伟",
-      "zh": "这个猫在这里。",
-      "pinyin": "Zhège māo zài zhèlǐ.",
+      "zh": "就在这里。",
+      "pinyin": "Jiù zài zhèlǐ.",
       "tr": "Bu kedi burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_065",
       "speaker": "刘梅",
-      "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jìzhù le.",
+      "zh": "嗯，我记住了。",
+      "pinyin": "En, wǒ jìzhù le.",
       "tr": "Evet, aklımda."
     },
     {
@@ -473,127 +473,127 @@
     {
       "id": "DLG_ZH_HSK2_SC039_067",
       "speaker": "兽医",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个很有用。",
+      "pinyin": "En, zhège hěn yǒuyòng.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_068",
       "speaker": "张伟",
-      "zh": "我们先走路。",
-      "pinyin": "Wǒmen xiān zǒulù.",
+      "zh": "嗯，我们先走路。",
+      "pinyin": "En, wǒmen xiān zǒulù.",
       "tr": "Önce yürümek."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_069",
       "speaker": "刘梅",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "这个以后还会用。",
+      "pinyin": "Zhège yǐhòu háihuìyòng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_070",
       "speaker": "张乐乐",
-      "zh": "咪咪最近有点胖。",
-      "pinyin": "Mīmī zuìjìn yǒudiǎn pàng.",
+      "zh": "对，咪咪最近有点胖。",
+      "pinyin": "Duì, mīmī zuìjìn yǒudiǎn pàng.",
       "tr": "Mimi son zamanlarda biraz kilolu."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_071",
       "speaker": "兽医",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "我再说一遍。",
+      "pinyin": "Wǒ zàishuō yībiàn.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_072",
       "speaker": "张伟",
-      "zh": "以后要少一点。",
-      "pinyin": "Yǐhòu yào shǎo yìdiǎn.",
+      "zh": "对，以后要少一点。",
+      "pinyin": "Duì, yǐhòu yàoshǎo yìdiǎn.",
       "tr": "Bundan sonra biraz daha az olmalı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_073",
       "speaker": "刘梅",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "现在清楚多了。",
+      "pinyin": "Xiànzài qīngchǔ duō le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_074",
       "speaker": "张乐乐",
-      "zh": "我们先运动。",
-      "pinyin": "Wǒmen xiān yùndòng.",
+      "zh": "对，我们先运动。",
+      "pinyin": "Duì, wǒmen xiān yùndòng.",
       "tr": "Önce egzersiz."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_075",
       "speaker": "兽医",
-      "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jìzhù le.",
+      "zh": "好，我会记着。",
+      "pinyin": "Hǎo, wǒhuì jìzhe.",
       "tr": "Evet, aklımda."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_076",
       "speaker": "张伟",
-      "zh": "咪咪的体重有点高。",
-      "pinyin": "Mīmī de tǐzhòng yǒudiǎn gāo.",
+      "zh": "对，咪咪的体重有点高。",
+      "pinyin": "Duì, mīmī de tǐzhòng yǒudiǎn gāo.",
       "tr": "Mimi’nin kilosu biraz yüksek."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_077",
       "speaker": "刘梅",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "这个挺实用的。",
+      "pinyin": "Zhège tǐng shíyòng de.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_078",
       "speaker": "张乐乐",
-      "zh": "兽医今天也来了。",
-      "pinyin": "Shòuyī jīntiān yě lái le.",
+      "zh": "对，兽医今天也来了。",
+      "pinyin": "Duì, shòuyī jīntiān yě lái le.",
       "tr": "Veteriner bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_079",
       "speaker": "兽医",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "嗯，这个以后还会用。",
+      "pinyin": "En, zhège yǐhòu háihuìyòng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_080",
       "speaker": "张伟",
-      "zh": "这个猫在这里。",
-      "pinyin": "Zhège māo zài zhèlǐ.",
+      "zh": "你看，这个猫在这儿。",
+      "pinyin": "Nǐ kàn, zhège māo zài zhèér.",
       "tr": "Bu kedi burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_081",
       "speaker": "刘梅",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "好，我再说一次。",
+      "pinyin": "Hǎo, wǒ zàishuō yīcì.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_082",
       "speaker": "张乐乐",
-      "zh": "这个食物在这里。",
-      "pinyin": "Zhège shíwù zài zhèlǐ.",
+      "zh": "嗯，这个食物在这里。",
+      "pinyin": "En, zhège shíwù zài zhèlǐ.",
       "tr": "Bu yiyecek burada."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_083",
       "speaker": "兽医",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "这样就更清楚了。",
+      "pinyin": "Zhèyàng jiù gèng qīngchǔ le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_084",
       "speaker": "张伟",
-      "zh": "我们先走路。",
-      "pinyin": "Wǒmen xiān zǒulù.",
+      "zh": "对，我们先走路。",
+      "pinyin": "Duì, wǒmen xiān zǒulù.",
       "tr": "Önce yürümek."
     },
     {
@@ -606,71 +606,71 @@
     {
       "id": "DLG_ZH_HSK2_SC039_086",
       "speaker": "张乐乐",
-      "zh": "咪咪最近有点胖。",
-      "pinyin": "Mīmī zuìjìn yǒudiǎn pàng.",
+      "zh": "好，咪咪最近有点胖。",
+      "pinyin": "Hǎo, mīmī zuìjìn yǒudiǎn pàng.",
       "tr": "Mimi son zamanlarda biraz kilolu."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_087",
       "speaker": "兽医",
-      "zh": "这个很实用。",
-      "pinyin": "Zhège hěn shíyòng.",
+      "zh": "嗯，这个挺实用的。",
+      "pinyin": "En, zhège tǐng shíyòng de.",
       "tr": "Bu çok kullanışlı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_088",
       "speaker": "张伟",
-      "zh": "以后要少一点。",
-      "pinyin": "Yǐhòu yào shǎo yìdiǎn.",
+      "zh": "好，以后要少一点。",
+      "pinyin": "Hǎo, yǐhòu yàoshǎo yìdiǎn.",
       "tr": "Bundan sonra biraz daha az olmalı."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_089",
       "speaker": "刘梅",
-      "zh": "以后还会用到。",
-      "pinyin": "Yǐhòu hái huì yòngdào.",
+      "zh": "嗯，以后还用得上。",
+      "pinyin": "En, yǐhòu hái yòngdéshàng.",
       "tr": "Bunu ileride yine kullanacağız."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_090",
       "speaker": "张乐乐",
-      "zh": "我们先运动。",
-      "pinyin": "Wǒmen xiān yùndòng.",
+      "zh": "好，我们先运动。",
+      "pinyin": "Hǎo, wǒmen xiān yùndòng.",
       "tr": "Önce egzersiz."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_091",
       "speaker": "兽医",
-      "zh": "我再说一次。",
-      "pinyin": "Wǒ zài shuō yí cì.",
+      "zh": "那我再说一遍。",
+      "pinyin": "Nà wǒ zàishuō yībiàn.",
       "tr": "Bir kez daha söyleyeyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_092",
       "speaker": "张伟",
-      "zh": "咪咪的体重有点高。",
-      "pinyin": "Mīmī de tǐzhòng yǒudiǎn gāo.",
+      "zh": "好，咪咪的体重有点高。",
+      "pinyin": "Hǎo, mīmī de tǐzhòng yǒudiǎn gāo.",
       "tr": "Mimi’nin kilosu biraz yüksek."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_093",
       "speaker": "刘梅",
-      "zh": "现在更清楚了。",
-      "pinyin": "Xiànzài gèng qīngchu le.",
+      "zh": "嗯，这样就更清楚了。",
+      "pinyin": "En, zhèyàng jiù gèng qīngchǔ le.",
       "tr": "Şimdi daha net."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_094",
       "speaker": "张乐乐",
-      "zh": "兽医今天也来了。",
-      "pinyin": "Shòuyī jīntiān yě lái le.",
+      "zh": "好，兽医今天也来了。",
+      "pinyin": "Hǎo, shòuyī jīntiān yě lái le.",
       "tr": "Veteriner bugün de geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC039_095",
       "speaker": "兽医",
       "zh": "我们每天陪它多走一走。",
-      "pinyin": "Wǒmen měitiān péi tā duō zǒu yì zǒu.",
+      "pinyin": "Wǒmen měitiān péi tā duō zǒu yī zǒu.",
       "tr": "Her gün onunla biraz daha çok yürüyelim."
     },
     {
@@ -698,7 +698,7 @@
       "id": "DLG_ZH_HSK2_SC039_099",
       "speaker": "兽医",
       "zh": "下次会更容易。",
-      "pinyin": "Xià cì huì gèng róngyì.",
+      "pinyin": "Xiàcì huì gèng róngyì.",
       "tr": "Bir dahaki sefere daha kolay olacak."
     },
     {

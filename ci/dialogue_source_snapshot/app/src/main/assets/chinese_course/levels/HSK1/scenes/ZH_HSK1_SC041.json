@@ -443,15 +443,15 @@
     {
       "id": "DLG_ZH_HSK1_SC041_003",
       "speaker": "兽医",
-      "zh": "对。",
-      "pinyin": "Duì.",
+      "zh": "没错。",
+      "pinyin": "Méicuò.",
       "tr": "Evet."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_004",
       "speaker": "张乐乐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "zh": "准备得怎么样了？",
+      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
       "tr": "Hazır mısınız?"
     },
     {
@@ -471,106 +471,106 @@
     {
       "id": "DLG_ZH_HSK1_SC041_007",
       "speaker": "兽医",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
+      "zh": "嗯，这就是猫。",
+      "pinyin": "En, zhè jiùshì māo.",
       "tr": "Evet, bu kedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_008",
       "speaker": "张乐乐",
-      "zh": "猫在哪儿？",
-      "pinyin": "Māo zài nǎr?",
+      "zh": "猫呢？",
+      "pinyin": "Māo ne?",
       "tr": "Kedi nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_009",
       "speaker": "刘梅",
-      "zh": "猫在这里。",
-      "pinyin": "Māo zài zhèlǐ.",
+      "zh": "你看，猫在这儿。",
+      "pinyin": "Nǐ kàn, māo zài zhèér.",
       "tr": "Kedi burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_010",
       "speaker": "张伟",
       "zh": "这是我们的兽医。",
-      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "pinyin": "Zhèshì wǒmen de shòuyī.",
       "tr": "Bu bizim veteriner."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_011",
       "speaker": "兽医",
-      "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "zh": "你好啊！",
+      "pinyin": "Nǐhǎo a!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_012",
       "speaker": "张乐乐",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "zh": "太好了，认识你很高兴。",
+      "pinyin": "Tàihǎole, rènshí nǐ hěn gāoxìng.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_013",
       "speaker": "刘梅",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "En, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_014",
       "speaker": "张伟",
       "zh": "这是我们的医生。",
-      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "pinyin": "Zhèshì wǒmen de yīshēng.",
       "tr": "Bu bizim doktor."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_015",
       "speaker": "兽医",
       "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "pinyin": "Nǐhǎo!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_016",
       "speaker": "张乐乐",
       "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "pinyin": "Hěn gāoxìng rènshí nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_017",
       "speaker": "刘梅",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "En, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_018",
       "speaker": "张伟",
-      "zh": "医院在哪儿？",
-      "pinyin": "Yīyuàn zài nǎr?",
+      "zh": "医院呢？",
+      "pinyin": "Yīyuàn ne?",
       "tr": "Hastane nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_019",
       "speaker": "兽医",
       "zh": "医院在那边。",
-      "pinyin": "Yīyuàn zài nàbian.",
+      "pinyin": "Yīyuàn zài nàbiān.",
       "tr": "Hastane şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_020",
       "speaker": "张乐乐",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "嗯，我懂了。",
+      "pinyin": "En, wǒ dǒng le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_021",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "太好了，谢谢。",
+      "pinyin": "Tàihǎole, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
@@ -584,14 +584,14 @@
       "id": "DLG_ZH_HSK1_SC041_023",
       "speaker": "兽医",
       "zh": "别急。",
-      "pinyin": "Bié jí.",
+      "pinyin": "Biéjí.",
       "tr": "Panik yapma."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_024",
       "speaker": "张乐乐",
       "zh": "我来看看。",
-      "pinyin": "Wǒ lái kànkan.",
+      "pinyin": "Wǒlái kànkàn.",
       "tr": "Ben bir bakayım."
     },
     {
@@ -604,8 +604,8 @@
     {
       "id": "DLG_ZH_HSK1_SC041_026",
       "speaker": "张伟",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
+      "zh": "好的。",
+      "pinyin": "Hǎo de.",
       "tr": "Tamam."
     },
     {
@@ -618,15 +618,15 @@
     {
       "id": "DLG_ZH_HSK1_SC041_028",
       "speaker": "张乐乐",
-      "zh": "对，这是药。",
-      "pinyin": "Duì, zhè shì yào.",
+      "zh": "嗯，这就是药。",
+      "pinyin": "En, zhè jiùshì yào.",
       "tr": "Evet, bu ilaç."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_029",
       "speaker": "刘梅",
-      "zh": "药在哪儿？",
-      "pinyin": "Yào zài nǎr?",
+      "zh": "请问，药在哪儿？",
+      "pinyin": "Qǐngwèn, yào zài nǎér?",
       "tr": "Ilaç nerede?"
     },
     {
@@ -647,105 +647,105 @@
       "id": "DLG_ZH_HSK1_SC041_032",
       "speaker": "张乐乐",
       "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "pinyin": "Wǒyào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_033",
       "speaker": "刘梅",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "行。",
+      "pinyin": "Xíng.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_034",
       "speaker": "张伟",
       "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "pinyin": "Xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_035",
       "speaker": "兽医",
       "zh": "你要饭吗？",
-      "pinyin": "Nǐ yào fàn ma?",
+      "pinyin": "Nǐ yàofàn ma?",
       "tr": "Yemek ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_036",
       "speaker": "张乐乐",
       "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yào fàn, xièxie.",
+      "pinyin": "Wǒ yàofàn, xièxiè.",
       "tr": "Yemek istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_037",
       "speaker": "刘梅",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "嗯，好。",
+      "pinyin": "En, hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_038",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "谢谢你。",
+      "pinyin": "Xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_039",
       "speaker": "兽医",
-      "zh": "家在哪儿？",
-      "pinyin": "Jiā zài nǎr?",
+      "zh": "请问，家在哪儿？",
+      "pinyin": "Qǐngwèn, jiā zài nǎér?",
       "tr": "Ev nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_040",
       "speaker": "张乐乐",
-      "zh": "家在那边。",
-      "pinyin": "Jiā zài nàbian.",
+      "zh": "你看，家在那边。",
+      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
       "tr": "Ev şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_041",
       "speaker": "刘梅",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "嗯，我懂了。",
+      "pinyin": "En, wǒ dǒng le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_042",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "嗯，谢谢你。",
+      "pinyin": "En, xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_043",
       "speaker": "兽医",
       "zh": "兽医说咪咪没有大问题。",
-      "pinyin": "Shòuyī shuō Mīmī méiyǒu dà wèntí.",
+      "pinyin": "Shòuyī shuō mīmī méiyǒu dà wèntí.",
       "tr": "Veteriner Mimi’nin ciddi bir sorunu olmadığını söylüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_044",
       "speaker": "张乐乐",
       "zh": "太好了！",
-      "pinyin": "Tài hǎo le!",
+      "pinyin": "Tàihǎole!",
       "tr": "Harika!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_045",
       "speaker": "刘梅",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxie nǐ.",
+      "zh": "对，谢谢你。",
+      "pinyin": "Duì, xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_046",
       "speaker": "张伟",
       "zh": "不客气。",
-      "pinyin": "Bú kèqi.",
+      "pinyin": "Bù kèqì.",
       "tr": "Rica ederim."
     },
     {
@@ -765,50 +765,50 @@
     {
       "id": "DLG_ZH_HSK1_SC041_049",
       "speaker": "刘梅",
-      "zh": "这是猫吗？",
-      "pinyin": "Zhè shì māo ma?",
+      "zh": "这个是猫吗？",
+      "pinyin": "Zhège shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_050",
       "speaker": "张伟",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
+      "zh": "嗯，这就是猫。",
+      "pinyin": "En, zhè jiùshì māo.",
       "tr": "Evet, bu kedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_051",
       "speaker": "兽医",
-      "zh": "猫在哪儿？",
-      "pinyin": "Māo zài nǎr?",
+      "zh": "那猫呢？",
+      "pinyin": "Nàmāo ne?",
       "tr": "Kedi nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_052",
       "speaker": "张乐乐",
-      "zh": "猫在这里。",
-      "pinyin": "Māo zài zhèlǐ.",
+      "zh": "嗯，你看，猫在这儿。",
+      "pinyin": "En, nǐ kàn, māo zài zhèér.",
       "tr": "Kedi burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_053",
       "speaker": "刘梅",
-      "zh": "这是我们的兽医。",
-      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "zh": "嗯，这是我们的兽医。",
+      "pinyin": "En, zhèshì wǒmen de shòuyī.",
       "tr": "Bu bizim veteriner."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_054",
       "speaker": "张伟",
-      "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "zh": "你好啊！",
+      "pinyin": "Nǐhǎo a!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_055",
       "speaker": "兽医",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "zh": "嗯，太好了，认识你很高兴。",
+      "pinyin": "En, tàihǎole, rènshí nǐ hěn gāoxìng.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
@@ -821,134 +821,134 @@
     {
       "id": "DLG_ZH_HSK1_SC041_057",
       "speaker": "刘梅",
-      "zh": "这是我们的医生。",
-      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "zh": "嗯，这是我们的医生。",
+      "pinyin": "En, zhèshì wǒmen de yīshēng.",
       "tr": "Bu bizim doktor."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_058",
       "speaker": "张伟",
       "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "pinyin": "Nǐhǎo!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_059",
       "speaker": "兽医",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "zh": "嗯，很高兴认识你。",
+      "pinyin": "En, hěn gāoxìng rènshí nǐ.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_060",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也是。",
+      "pinyin": "En, wǒ yě shì.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_061",
       "speaker": "刘梅",
-      "zh": "医院在哪儿？",
-      "pinyin": "Yīyuàn zài nǎr?",
+      "zh": "请问，医院在哪儿？",
+      "pinyin": "Qǐngwèn, yīyuàn zài nǎér?",
       "tr": "Hastane nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_062",
       "speaker": "张伟",
-      "zh": "医院在那边。",
-      "pinyin": "Yīyuàn zài nàbian.",
+      "zh": "就在那边。",
+      "pinyin": "Jiù zài nàbiān.",
       "tr": "Hastane şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_063",
       "speaker": "兽医",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "知道了。",
+      "pinyin": "Zhīdào le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_064",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "对，太好了，谢谢。",
+      "pinyin": "Duì, tàihǎole, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_065",
       "speaker": "刘梅",
-      "zh": "这是药吗？",
-      "pinyin": "Zhè shì yào ma?",
+      "zh": "这是药，对吗？",
+      "pinyin": "Zhè shì yào, duì ma?",
       "tr": "Bu, ilaç mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_066",
       "speaker": "张伟",
-      "zh": "对，这是药。",
-      "pinyin": "Duì, zhè shì yào.",
+      "zh": "没错，这是药。",
+      "pinyin": "Méicuò, zhè shì yào.",
       "tr": "Evet, bu ilaç."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_067",
       "speaker": "兽医",
-      "zh": "药在哪儿？",
-      "pinyin": "Yào zài nǎr?",
+      "zh": "那请问，药在哪儿？",
+      "pinyin": "Nà qǐngwèn, yào zài nǎér?",
       "tr": "Ilaç nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_068",
       "speaker": "张乐乐",
-      "zh": "药在这里。",
-      "pinyin": "Yào zài zhèlǐ.",
+      "zh": "嗯，药在这里。",
+      "pinyin": "En, yào zài zhèlǐ.",
       "tr": "Ilaç burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_069",
       "speaker": "刘梅",
-      "zh": "你要水吗？",
-      "pinyin": "Nǐ yào shuǐ ma?",
+      "zh": "水你要吗？",
+      "pinyin": "Shuǐ nǐ yào ma?",
       "tr": "Su ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_070",
       "speaker": "张伟",
-      "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "zh": "那我要水，谢谢。",
+      "pinyin": "Nà wǒ yào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_071",
       "speaker": "兽医",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "好。",
+      "pinyin": "Hǎo.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_072",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，太好了，谢谢。",
+      "pinyin": "Hǎo, tàihǎole, xièxiè.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_073",
       "speaker": "刘梅",
-      "zh": "这是猫吗？",
-      "pinyin": "Zhè shì māo ma?",
+      "zh": "那这是猫吗？",
+      "pinyin": "Nà zhè shì māo ma?",
       "tr": "Bu, kedi mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_074",
       "speaker": "张伟",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
+      "zh": "嗯，这就是猫。",
+      "pinyin": "En, zhè jiùshì māo.",
       "tr": "Evet, bu kedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_075",
       "speaker": "兽医",
-      "zh": "猫在哪儿？",
-      "pinyin": "Māo zài nǎr?",
+      "zh": "现在猫呢？",
+      "pinyin": "Xiànzài māo ne?",
       "tr": "Kedi nerede?"
     },
     {
@@ -961,155 +961,155 @@
     {
       "id": "DLG_ZH_HSK1_SC041_077",
       "speaker": "刘梅",
-      "zh": "这是我们的兽医。",
-      "pinyin": "Zhè shì wǒmen de shòuyī.",
+      "zh": "对，这是我们的兽医。",
+      "pinyin": "Duì, zhèshì wǒmen de shòuyī.",
       "tr": "Bu bizim veteriner."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_078",
       "speaker": "张伟",
-      "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "zh": "你好啊！",
+      "pinyin": "Nǐhǎo a!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_079",
       "speaker": "兽医",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "zh": "认识你很高兴。",
+      "pinyin": "Rènshí nǐ hěn gāoxìng.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_080",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也一样。",
+      "pinyin": "Wǒ yě yīyàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_081",
       "speaker": "刘梅",
-      "zh": "这是我们的医生。",
-      "pinyin": "Zhè shì wǒmen de yīshēng.",
+      "zh": "对，这是我们的医生。",
+      "pinyin": "Duì, zhèshì wǒmen de yīshēng.",
       "tr": "Bu bizim doktor."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_082",
       "speaker": "张伟",
-      "zh": "你好！",
-      "pinyin": "Nǐ hǎo!",
+      "zh": "你好啊！",
+      "pinyin": "Nǐhǎo a!",
       "tr": "Merhaba!"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_083",
       "speaker": "兽医",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "zh": "对，太好了，认识你很高兴。",
+      "pinyin": "Duì, tàihǎole, rènshí nǐ hěn gāoxìng.",
       "tr": "Tanıştığımıza memnun oldum."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_084",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "我也这么想。",
+      "pinyin": "Wǒ yě zhème xiǎng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_085",
       "speaker": "刘梅",
       "zh": "医院在哪儿？",
-      "pinyin": "Yīyuàn zài nǎr?",
+      "pinyin": "Yīyuàn zài nǎér?",
       "tr": "Hastane nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_086",
       "speaker": "张伟",
-      "zh": "医院在那边。",
-      "pinyin": "Yīyuàn zài nàbian.",
+      "zh": "你看，医院在那边。",
+      "pinyin": "Nǐ kàn, yīyuàn zài nàbiān.",
       "tr": "Hastane şu tarafta."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_087",
       "speaker": "兽医",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbai le.",
+      "zh": "好，我知道了。",
+      "pinyin": "Hǎo, wǒ zhīdào le.",
       "tr": "Anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_088",
       "speaker": "张乐乐",
-      "zh": "谢谢。",
-      "pinyin": "Xièxie.",
+      "zh": "好，谢谢你。",
+      "pinyin": "Hǎo, xièxiè nǐ.",
       "tr": "Teşekkür ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_089",
       "speaker": "刘梅",
-      "zh": "这是药吗？",
-      "pinyin": "Zhè shì yào ma?",
+      "zh": "那这是药，对吗？",
+      "pinyin": "Nà zhè shì yào, duì ma?",
       "tr": "Bu, ilaç mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_090",
       "speaker": "张伟",
-      "zh": "对，这是药。",
-      "pinyin": "Duì, zhè shì yào.",
+      "zh": "没错，这是药。",
+      "pinyin": "Méicuò, zhè shì yào.",
       "tr": "Evet, bu ilaç."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_091",
       "speaker": "兽医",
       "zh": "药在哪儿？",
-      "pinyin": "Yào zài nǎr?",
+      "pinyin": "Yào zài nǎér?",
       "tr": "Ilaç nerede?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_092",
       "speaker": "张乐乐",
-      "zh": "药在这里。",
-      "pinyin": "Yào zài zhèlǐ.",
+      "zh": "你看，药在这儿。",
+      "pinyin": "Nǐ kàn, yào zài zhèér.",
       "tr": "Ilaç burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_093",
       "speaker": "刘梅",
-      "zh": "你要水吗？",
-      "pinyin": "Nǐ yào shuǐ ma?",
+      "zh": "现在你要水吗？",
+      "pinyin": "Xiànzài nǐ yào shuǐ ma?",
       "tr": "Su ister misin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_094",
       "speaker": "张伟",
-      "zh": "我要水，谢谢。",
-      "pinyin": "Wǒ yào shuǐ, xièxie.",
+      "zh": "对，我要水，谢谢。",
+      "pinyin": "Duì, wǒyào shuǐ, xièxiè.",
       "tr": "Su istiyorum, teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_095",
       "speaker": "兽医",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
+      "zh": "可以。",
+      "pinyin": "Kěyǐ.",
       "tr": "Olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_096",
       "speaker": "张乐乐",
-      "zh": "今天学了很多。",
-      "pinyin": "Jīntiān xué le hěn duō.",
-      "tr": "Bugün çok şey öğrendik."
+      "zh": "今天挺顺利的。",
+      "pinyin": "Jīntiān tǐng shùnlì de.",
+      "tr": "Bugün oldukça iyi geçti."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_097",
       "speaker": "刘梅",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
+      "zh": "嗯，我也一样。",
+      "pinyin": "En, wǒ yě yīyàng.",
       "tr": "Ben de."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_098",
       "speaker": "张伟",
       "zh": "都好了吗？",
-      "pinyin": "Dōu hǎo le ma?",
+      "pinyin": "Dōu hǎolema?",
       "tr": "Her şey tamam mı?"
     },
     {

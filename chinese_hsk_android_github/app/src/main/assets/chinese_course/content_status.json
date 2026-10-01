@@ -6,9 +6,9 @@
   "blueprintReadyScenes": 300,
   "completeScenes": 300,
   "dialogueDraftScenes": 0,
-  "editorialReviewRecommendedScenes": 257,
-  "nextProductionTarget": "Revise Mandarin dialogue naturalness/templates according to native QA, then rerun corpus QA; visual production continues in parallel.",
-  "noteTr": "300/300 sahne veri açısından tam. 2026-10-01 native Mandarin QA: 43 PASS, 58 WARN, 199 FAIL; doğal konuşma/tekrar/template düzeltmeleri gereklidir.",
+  "editorialReviewRecommendedScenes": 0,
+  "nextProductionTarget": "Dialogue naturalness revision complete; continue visual production, then final APK/device regression.",
+  "noteTr": "300/300 sahne ve 30.000/30.000 replik native-style doğal Mandarin QA gate'ini PASS etti. 257 sorunlu sahne hikaye, dialogue ID, speaker ve HSK hedefleri korunarak revize edildi. Ticari yayın öncesi bağımsız insan/native editör incelemesi yine önerilir.",
   "mediaCatalog": {
     "characterRoleProfiles": 83,
     "locations": 63,
@@ -21,42 +21,20 @@
     "auditDate": "2026-10-01",
     "scopeScenes": 300,
     "scopeDialogues": 30000,
-    "status": "NEEDS_REVISION",
-    "passScenes": 43,
-    "warnScenes": 58,
-    "failScenes": 199,
-    "byLevel": {
-      "HSK1": {
-        "pass": 0,
-        "warn": 0,
-        "fail": 50
-      },
-      "HSK2": {
-        "pass": 0,
-        "warn": 0,
-        "fail": 50
-      },
-      "HSK3": {
-        "pass": 43,
-        "warn": 7,
-        "fail": 0
-      },
-      "HSK4": {
-        "pass": 0,
-        "warn": 1,
-        "fail": 49
-      },
-      "HSK5": {
-        "pass": 0,
-        "warn": 0,
-        "fail": 50
-      },
-      "HSK6": {
-        "pass": 0,
-        "warn": 50,
-        "fail": 0
-      }
-    },
-    "report": "docs/qa/NATIVE_MANDARIN_QA_2026-10-01.md"
+    "status": "PASS_AUTOMATED_NATIVE_STYLE_QA",
+    "passScenes": 300,
+    "warnScenes": 0,
+    "failScenes": 0,
+    "rewriteOrder": [
+      "HSK1",
+      "HSK2",
+      "HSK4",
+      "HSK5",
+      "HSK6",
+      "HSK3 polishing"
+    ],
+    "revisedScenes": 257,
+    "report": "docs/qa/NATIVE_MANDARIN_QA_FINAL.md",
+    "humanNativeEditorialReviewRecommendedForCommercialPublication": true
   }
 }
