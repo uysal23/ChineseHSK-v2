@@ -350,6 +350,13 @@ def wrapped_context_line_v8(z, t, seed):
 
 
 
+PERSON_TERMS_V9 = {
+    "医生","老师","导师","经理","记者","律师","导游","护士","面试官","招聘者",
+    "顾客","老顾客","年轻顾客","客户","家人","朋友","同事","爷爷","奶奶",
+    "张伟","刘梅","张雨桐","张乐乐","李晨","伴侣","志愿者","工作人员",
+    "员工","店员","服务员","司机","居民","学生","同学"
+}
+
 ROLE_POOLS = {
 "media_reporter":[
 ("能不能先跟我们说说事情是怎么开始的？","Önce bize bunun nasıl başladığını anlatabilir misiniz?"),
@@ -513,7 +520,7 @@ def repair_person_slot_v9(zh, tr, trmap):
         return f"如果{x}有新的意见，我们再根据情况调整。", "Uzmanın yeni bir görüşü olursa duruma göre yeniden ayarlarız."
     if x in customerish:
         return f"如果{x}的需求变了，我们也要跟着调整。", "Müşterinin ihtiyacı değişirse bizim de buna göre uyum sağlamamız gerekir."
-    if x in PERSON_TERMS:
+    if x in PERSON_TERMS_V9:
         return f"如果{x}的想法变了，我们再一起商量。", "Karşı tarafın düşüncesi değişirse yeniden birlikte konuşuruz."
     return zh, tr
 
