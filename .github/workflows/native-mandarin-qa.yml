@@ -22,8 +22,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Audit all 300 scenes / 30,000 dialogue lines
-        run: python ci/audit_native_mandarin_quality.py
+      - name: Audit current app corpus
+        run: python ci/audit_native_mandarin_quality.py --out-prefix native_mandarin_qa_report
+
+      - name: Audit v5 candidate corpus
+        run: python ci/audit_native_mandarin_quality.py --scene-root ci/dialogue_final_v5 --out-prefix native_mandarin_v5_qa_report
 
       - name: Upload QA reports
         uses: actions/upload-artifact@v4
@@ -32,4 +35,6 @@ jobs:
           path: |
             native_mandarin_qa_report.json
             native_mandarin_qa_report.md
+            native_mandarin_v5_qa_report.json
+            native_mandarin_v5_qa_report.md
           retention-days: 14
