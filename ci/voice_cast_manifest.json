@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
-  "status": "CAST_LOCKED_PRE_AUDIO",
+  "status": "CAST_LOCKED_FREE_KOKORO_PRE_AUDIO",
   "generatedFrom": [
     "characters.json",
     "scene_catalog.json"
   ],
   "policy": {
     "language": "cmn-Hans",
-    "freeOfflinePrimary": "Kokoro-82M Mandarin named voices",
+    "freeOfflinePrimary": "Kokoro-82M Mandarin named voices (Apache-2.0; no paid API)",
     "consistency": "Aynı karakter aynı temel voice embedding'i kullanır; yaş yalnızca hız/pitch/enerji ile evrilir.",
     "childPolicy": "Çocuk rolleri aynı cinsiyetteki Mandarin voice + offline pitch/speed post-processing ile çocuklaştırılır.",
     "narratorPolicy": "Anlatıcı ayrı ve nötr kadın sesidir.",
     "nonHumanPolicy": "Mimi için mümkünse kısa miyav/SFX; sözcük gerekiyorsa fallback zf_xiaoxiao.",
-    "runtimeStrategy": "Önceden üretilmiş yerel Opus ses dosyaları > offline TTS fallback."
+    "runtimeStrategy": "Önceden üretilmiş yerel Opus ses dosyaları > offline TTS fallback.",
+    "productionRule": "30,000 dialogue clips are generated locally/manually as Opus; cloud paid TTS APIs are not part of the canonical pipeline.",
+    "naturalnessRule": "Preserve native Mandarin base voice prosody; age mainly via speed and only subtle bounded pitch/energy DSP."
   },
   "verifiedKokoroNamedMandarinVoices": {
     "female": [
