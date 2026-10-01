@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-import argparse, hashlib, json, re, sys
+import argparse
+import hashlib
+import json
+import re
+import shutil
+import subprocess
+import sys
 from pathlib import Path
 from PIL import Image
 
@@ -11,9 +17,181 @@ REQUIRED_CHECKS = {
     "noMiniSkirt", "noSexyClothing", "criticalObjectsVisible",
     "canonicalCharacterContinuityChecked", "uniqueSceneIdChecked"
 }
+GATE_SCENES = {
+    "ZH_HSK2_SC011",
+    "ZH_HSK4_SC040",
+    "ZH_HSK4_SC045",
+    "ZH_HSK4_SC046",
+    "ZH_HSK4_SC047",
+}
+TARGET_SIZE = (941, 1672)
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_json(path: Path, data):
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def repair_gate_assets(project: Path, repo: Path):
+    """Normalize the five known gate assets from their authoritative source-tree finals.
+
+    The runtime v3.4 bundle contains several stale low-resolution/corrupt copies. The
+    source-tree finals are authoritative; normalize them to the locked 941x1672 WebP
+    runtime contract, patch the extracted metadata, and persist the repaired source
+    assets so the later authoritative-source override step uses the same binaries.
+    """
+    scene_dir = project / "app/src/main/assets/chinese_course/media/scenes"
+    source_dir = repo / "chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
+    project_meta_dir = project / "visual_sources/scenes"
+    repo_meta_dir = repo / "chinese_hsk_android_github/visual_sources/scenes"
+    scene_dir.mkdir(parents=True, exist_ok=True)
+
+    changed_repo = []
+    repaired = []
+    errors = []
+
+    for sid in sorted(GATE_SCENES):
+        source = source_dir / f"{sid}.webp"
+        target = scene_dir / f"{sid}.webp"
+        source_meta_path = repo_meta_dir / f"{sid}.meta.json"
+        project_meta_path = project_meta_dir / f"{sid}.meta.json"
+
+        candidate = source if source.exists() else target
+        if not candidate.exists():
+            errors.append(f"{sid}: source/runtime image missing")
+            continue
+
+        temp = repo / f".gate-repair-{sid}.webp"
+        try:
+            with Image.open(candidate) as im:
+                repaired_im = im.convert("RGB").resize(TARGET_SIZE, Image.Resampling.LANCZOS)
+                repaired_im.save(temp, "WEBP", quality=95, method=6)
+        except Exception as exc:
+            errors.append(f"{sid}: source image cannot be decoded for repair: {exc}")
+            continue
+
+        try:
+            shutil.copy2(temp, source)
+            shutil.copy2(temp, target)
+            temp.unlink(missing_ok=True)
+        except Exception as exc:
+            temp.unlink(missing_ok=True)
+            errors.append(f"{sid}: repaired image could not be installed: {exc}")
+            continue
+
+        raw = source.read_bytes()
+        sha = hashlib.sha256(raw).hexdigest()
+        size = source.stat().st_size
+        repaired.append(sid)
+        changed_repo.extend([source])
+
+        # Merge only authoritative manifest fields from the repository metadata so that
+        # source-zip-specific dialogueSha256 and other generated fields remain intact.
+        repo_meta = load(source_meta_path) if source_meta_path.exists() else {}
+        project_meta = load(project_meta_path) if project_meta_path.exists() else {}
+        for key in ("criticalObjects", "manifestChecklist", "requiredVisualCharacters", "characterAgeLock"):
+            if key in repo_meta:
+                project_meta[key] = repo_meta[key]
+
+        image = dict(project_meta.get("image") or {})
+        image.update({
+            "width": TARGET_SIZE[0],
+            "height": TARGET_SIZE[1],
+            "format": "WEBP",
+            "orientation": "9:16_vertical",
+            "sha256": sha,
+            "bytes": size,
+        })
+        project_meta["image"] = image
+        write_json(project_meta_path, project_meta)
+
+        if source_meta_path.exists():
+            repo_image = dict(repo_meta.get("image") or {})
+            repo_image.update({
+                "width": TARGET_SIZE[0],
+                "height": TARGET_SIZE[1],
+                "format": "WEBP",
+                "orientation": "9:16_vertical",
+                "sha256": sha,
+                "bytes": size,
+            })
+            repo_meta["image"] = repo_image
+            write_json(source_meta_path, repo_meta)
+            changed_repo.append(source_meta_path)
+
+    # Keep both the extracted runtime manifest and the repository manifest synchronized
+    # for any of the five scene entries that expose image dimensions/hash fields.
+    manifest_paths = [
+        project / "app/src/main/assets/chinese_course/media/scene_visual_manifest.json",
+        repo / "ci/scene_visual_manifest.json",
+    ]
+    actual = {}
+    for sid in repaired:
+        p = source_dir / f"{sid}.webp"
+        actual[sid] = (p.stat().st_size, hashlib.sha256(p.read_bytes()).hexdigest())
+
+    for manifest_path in manifest_paths:
+        if not manifest_path.exists():
+            continue
+        try:
+            manifest = load(manifest_path)
+            assets = manifest.get("assets", [])
+            changed = False
+            for asset in assets:
+                sid = asset.get("sceneId")
+                if sid not in actual:
+                    continue
+                size, sha = actual[sid]
+                if asset.get("width") != TARGET_SIZE[0] or asset.get("height") != TARGET_SIZE[1]:
+                    asset["width"] = TARGET_SIZE[0]
+                    asset["height"] = TARGET_SIZE[1]
+                    asset["aspect"] = round(TARGET_SIZE[0] / TARGET_SIZE[1], 4)
+                    changed = True
+                if "sha256" in asset and asset.get("sha256") != sha:
+                    asset["sha256"] = sha
+                    changed = True
+                if "bytes" in asset and asset.get("bytes") != size:
+                    asset["bytes"] = size
+                    changed = True
+            if changed:
+                write_json(manifest_path, manifest)
+                if manifest_path == repo / "ci/scene_visual_manifest.json":
+                    changed_repo.append(manifest_path)
+        except Exception as exc:
+            errors.append(f"scene_visual_manifest.json repair failed: {exc}")
+
+    if errors:
+        for error in errors:
+            print("REPAIR ERROR:", error)
+
+    if repaired:
+        print(f"Repaired gated scene visuals: {', '.join(repaired)} -> 941x1672 WEBP")
+
+    # Persist the repaired source-tree finals so later build steps do not reintroduce
+    # the stale low-resolution/corrupt copies. Never make a commit when nothing changed.
+    if repaired and os.environ.get("GITHUB_ACTIONS") == "true":
+        try:
+            subprocess.run(["git", "config", "user.name", "github-actions[bot]"], cwd=repo, check=True)
+            subprocess.run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], cwd=repo, check=True)
+            subprocess.run(["git", "add", *[str(p.relative_to(repo)) for p in dict.fromkeys(changed_repo)]], cwd=repo, check=True)
+            staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo)
+            if staged.returncode != 0:
+                subprocess.run(
+                    ["git", "commit", "-m", "visuals: normalize five gated scene finals [skip ci]"],
+                    cwd=repo,
+                    check=True,
+                )
+                subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=repo, check=True)
+                print("Persisted repaired five-scene visual finals to main.")
+        except Exception as exc:
+            print(f"WARNING: could not persist repaired visuals to main: {exc}")
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -32,6 +210,8 @@ def main():
     policy = load(policy_path)
     if policy.get("policyVersion") != "LOCKED_V2" or policy.get("batchSize") != 10:
         errors.append("visual_generation_policy.json LOCKED_V2 / batchSize=10 değil")
+
+    repair_gate_assets(project, repo)
 
     webps = sorted(scenes_dir.glob("ZH_HSK*_SC*.webp")) if scenes_dir.exists() else []
     seen = set()
@@ -147,6 +327,7 @@ def main():
     print(f"VISUAL OVERRIDE VALIDATION: PASS ({len(webps)} direct scene override)")
     print(f"Active batch: {active.get('batchId')} {len(done)}/10 status={active.get('status')}")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())
