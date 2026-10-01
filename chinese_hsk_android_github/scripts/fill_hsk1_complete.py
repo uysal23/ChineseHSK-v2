@@ -8,6 +8,7 @@ Android assets can always be regenerated from a single source of truth.
 from __future__ import annotations
 import json
 from pathlib import Path
+from native_dialogue_overrides import apply_v13_override
 
 ROOT = Path(__file__).resolve().parents[1]
 PATH = ROOT / 'authoring' / 'hsk1_blueprints.json'
@@ -429,6 +430,7 @@ def main():
         scene['complete']=True
         scene['productionStatus']='complete'
         scene['editorialStatus']='generated_full_v1_requires_native_review'
+        apply_v13_override(scene, 'HSK1')
         scene['dialogueCount']=len(scene['dialogues'])
     data['schemaVersion']=3
     data['completeSceneCount']=50
