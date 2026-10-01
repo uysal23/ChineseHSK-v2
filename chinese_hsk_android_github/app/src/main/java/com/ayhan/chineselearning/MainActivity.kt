@@ -516,7 +516,8 @@ private fun SceneScreen(
                             scene = scene,
                             location = location,
                             characterProfiles = characterProfiles,
-                            activeSpeaker = current?.speaker.orEmpty()
+                            activeSpeaker = current?.speaker.orEmpty(),
+                            activeText = current?.zh.orEmpty()
                         )
                         Spacer(Modifier.height(14.dp))
                         Row(verticalAlignment = Alignment.CenterVertically) {

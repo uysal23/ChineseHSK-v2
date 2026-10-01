@@ -16,6 +16,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
+import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.zIndex
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
@@ -70,6 +72,7 @@ fun SceneStage(
     location: LocationProfile?,
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
+    activeText: String = "",
     modifier: Modifier = Modifier
 ) {
     val theme = location?.theme ?: "generic"
@@ -77,9 +80,13 @@ fun SceneStage(
     val baseCast = scene.production.characters.ifEmpty {
         scene.dialogues.map { it.speaker }.filter { it.isNotBlank() && it != "旁白" }.distinct()
     }
+    // Keep every character in a stable screen position. Only the speech bubble
+    // moves when the active speaker changes.
     val cast = buildList {
-        if (activeSpeaker.isNotBlank() && activeSpeaker != "旁白") add(activeSpeaker)
-        addAll(baseCast.filter { it != activeSpeaker && it != "旁白" })
+        addAll(baseCast.filter { it.isNotBlank() && it != "旁白" })
+        if (activeSpeaker.isNotBlank() && activeSpeaker != "旁白" && activeSpeaker !in this) {
+            add(activeSpeaker)
+        }
     }.distinct().take(5)
 
     Box(
@@ -141,37 +148,85 @@ fun SceneStage(
             horizontalArrangement = Arrangement.SpaceEvenly,
             verticalAlignment = Alignment.Bottom
         ) {
-            cast.forEach { name ->
+            cast.forEachIndexed { index, name ->
                 val profile = characterProfiles[name]
                 val isActive = name == activeSpeaker
                 val scale by animateFloatAsState(if (isActive) 1.10f else 0.92f, label = "speakerFocus")
                 val alpha = if (isActive) 1f else 0.72f
+                val bubbleOnRight = index < (cast.size + 1) / 2
+
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier.widthIn(max = 72.dp).scale(scale)
                 ) {
-                    Surface(
+                    Box(
                         modifier = Modifier.size(if (isActive) 62.dp else 52.dp),
-                        shape = CircleShape,
-                        color = if (isActive) colors.accent else Color.White.copy(alpha = 0.82f),
-                        shadowElevation = if (isActive) 8.dp else 2.dp
+                        contentAlignment = Alignment.Center
                     ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            val portraitBitmap = rememberAssetBitmap(portraitVariantFor(profile, scene.level))
-                            if (portraitBitmap != null) {
-                                Image(
-                                    bitmap = portraitBitmap,
-                                    contentDescription = name,
-                                    modifier = Modifier.fillMaxSize().clip(CircleShape),
-                                    contentScale = ContentScale.Crop
+                        Surface(
+                            modifier = Modifier.fillMaxSize(),
+                            shape = CircleShape,
+                            color = if (isActive) colors.accent else Color.White.copy(alpha = 0.82f),
+                            shadowElevation = if (isActive) 8.dp else 2.dp
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                val portraitBitmap = rememberAssetBitmap(portraitVariantFor(profile, scene.level))
+                                if (portraitBitmap != null) {
+                                    Image(
+                                        bitmap = portraitBitmap,
+                                        contentDescription = name,
+                                        modifier = Modifier.fillMaxSize().clip(CircleShape),
+                                        contentScale = ContentScale.Crop
+                                    )
+                                } else {
+                                    Text(
+                                        name.take(1).ifBlank { "人" },
+                                        color = Color(0xFF352442).copy(alpha = alpha),
+                                        fontSize = if (isActive) 25.sp else 21.sp,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                }
+                            }
+                        }
+
+                        if (isActive && activeText.isNotBlank()) {
+                            // The bubble is anchored beside the active face/mouth area.
+                            // Its fill is intentionally fully opaque pure white.
+                            Box(
+                                modifier = Modifier
+                                    .width(154.dp)
+                                    .offset(
+                                        x = if (bubbleOnRight) 50.dp else (-142).dp,
+                                        y = 10.dp
+                                    )
+                                    .zIndex(10f)
+                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .size(12.dp)
+                                        .align(if (bubbleOnRight) Alignment.CenterStart else Alignment.CenterEnd)
+                                        .offset(x = if (bubbleOnRight) (-4).dp else 4.dp)
+                                        .rotate(45f)
+                                        .background(Color.White)
                                 )
-                            } else {
-                                Text(
-                                    name.take(1).ifBlank { "人" },
-                                    color = Color(0xFF352442).copy(alpha = alpha),
-                                    fontSize = if (isActive) 25.sp else 21.sp,
-                                    fontWeight = FontWeight.Bold
-                                )
+                                Surface(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    shape = RoundedCornerShape(15.dp),
+                                    color = Color.White,
+                                    tonalElevation = 0.dp,
+                                    shadowElevation = 7.dp
+                                ) {
+                                    Text(
+                                        text = activeText,
+                                        color = Color(0xFF241A2B),
+                                        fontSize = 12.sp,
+                                        lineHeight = 16.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        maxLines = 4,
+                                        overflow = TextOverflow.Ellipsis,
+                                        modifier = Modifier.padding(horizontal = 11.dp, vertical = 8.dp)
+                                    )
+                                }
                             }
                         }
                     }
