@@ -31,7 +31,7 @@ jobs:
       - name: Validate course invariants
         run: |
           python chinese_hsk_android_github/scripts/validate_content.py
-          python chinese_hsk_android_github/scripts/validate_app_flow.py
+          (cd chinese_hsk_android_github && python scripts/validate_app_flow.py)
 
       - name: Run native Mandarin corpus QA after merge
         run: python ci/audit_native_mandarin_quality.py
