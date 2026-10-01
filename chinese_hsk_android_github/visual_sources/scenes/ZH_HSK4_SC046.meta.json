@@ -25,6 +25,30 @@
     "老师": "adult_teacher",
     "刘梅": "mature_adult"
   },
+  "criticalObjects": [
+    "üniversite kayıt masası ve kayıt belgeleri",
+    "kampüs planı",
+    "ders notları ve çalışma defteri",
+    "öğrenci çantaları",
+    "kalemler"
+  ],
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
   "generation": {
     "genId": "ac8e78fa-38dc-4824-8574-bba71dd7f473"
   },
