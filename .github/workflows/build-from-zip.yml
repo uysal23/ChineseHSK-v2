@@ -17,7 +17,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -30,31 +29,19 @@ jobs:
           rm -rf "$TMP"
           mkdir -p "$TMP"
           unzip -q visual_pack_v1.zip -d "$TMP"
-
           NEED_REFRESH=0
-          if ! cmp -s ci/scene_visual_manifest.json "$TMP/scene_visual_manifest.json"; then
-            NEED_REFRESH=1
-          fi
-
+          if ! cmp -s ci/scene_visual_manifest.json "$TMP/scene_visual_manifest.json"; then NEED_REFRESH=1; fi
           if compgen -G "ci/runtime_visuals/*.webp" > /dev/null; then
             for src in ci/runtime_visuals/*.webp; do
               dest="$TMP/scenes/$(basename "$src")"
-              if [ ! -f "$dest" ] || ! cmp -s "$src" "$dest"; then
-                cp "$src" "$dest"
-                NEED_REFRESH=1
-              fi
+              if [ ! -f "$dest" ] || ! cmp -s "$src" "$dest"; then cp "$src" "$dest"; NEED_REFRESH=1; fi
             done
           fi
-
           if [ "$NEED_REFRESH" -eq 1 ]; then
             cp ci/scene_visual_manifest.json "$TMP/scene_visual_manifest.json"
             rm -f "$GITHUB_WORKSPACE/visual_pack_v1.zip.new"
-            (
-              cd "$TMP"
-              zip -q -r "$GITHUB_WORKSPACE/visual_pack_v1.zip.new" scenes scene_visual_manifest.json
-            )
+            ( cd "$TMP"; zip -q -r "$GITHUB_WORKSPACE/visual_pack_v1.zip.new" scenes scene_visual_manifest.json )
             mv "$GITHUB_WORKSPACE/visual_pack_v1.zip.new" "$GITHUB_WORKSPACE/visual_pack_v1.zip"
-
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add visual_pack_v1.zip
@@ -74,8 +61,7 @@ jobs:
           B64="$RUNNER_TEMP/runtime-visuals-v34.b64"
           ZIP="$RUNNER_TEMP/runtime-visuals-v34.zip"
           OUT="$RUNNER_TEMP/runtime-visuals-v34"
-          rm -rf "$OUT"
-          mkdir -p "$OUT"
+          rm -rf "$OUT"; mkdir -p "$OUT"
           cat "$CHUNK_DIR"/*.b64 > "$B64"
           base64 -d "$B64" > "$ZIP"
           echo "8130943e529890002309f360f6827652b822ba9ace0f28807e9b65c70d868feb  $ZIP" | sha256sum -c -
@@ -103,10 +89,8 @@ jobs:
           SRC="$RUNNER_TEMP/chinese-hsk-v2/chinese_hsk_android_github"
           python3 ci/patch_source.py "$SRC"
           printf '3.4.0\n' > "$SRC/VERSION"
-
           if [ -f visual_pack_v1.zip ]; then
-            rm -rf "$RUNNER_TEMP/chinese-hsk-visuals"
-            mkdir -p "$RUNNER_TEMP/chinese-hsk-visuals"
+            rm -rf "$RUNNER_TEMP/chinese-hsk-visuals"; mkdir -p "$RUNNER_TEMP/chinese-hsk-visuals"
             unzip -q visual_pack_v1.zip -d "$RUNNER_TEMP/chinese-hsk-visuals"
             mkdir -p "$SRC/app/src/main/assets/chinese_course/media/scenes"
             cp "$RUNNER_TEMP/chinese-hsk-visuals"/scenes/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
@@ -115,39 +99,30 @@ jobs:
           else
             echo "visual_pack_v1.zip not present; continuing with generated visual fallback."
           fi
-
           if compgen -G "ci/runtime_visuals/*.webp" > /dev/null; then
             mkdir -p "$SRC/app/src/main/assets/chinese_course/media/scenes"
             cp ci/runtime_visuals/*.webp "$SRC/app/src/main/assets/chinese_course/media/scenes/"
             cp ci/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
             echo "Installed canonical runtime visual overrides: $(find ci/runtime_visuals -maxdepth 1 -name '*.webp' | wc -l)"
           fi
-
           if [ -n "${V34_RUNTIME_VISUALS:-}" ]; then
             SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
-            mkdir -p "$SCENE_DIR"
-            rm -f "$SCENE_DIR"/*.webp
+            mkdir -p "$SCENE_DIR"; rm -f "$SCENE_DIR"/*.webp
             cp "$V34_RUNTIME_VISUALS"/scenes/*.webp "$SCENE_DIR/"
             cp "$V34_RUNTIME_VISUALS"/scene_visual_manifest.json "$SRC/app/src/main/assets/chinese_course/media/scene_visual_manifest.json"
             python3 - "$SCENE_DIR" "$V34_RUNTIME_VISUALS/scene_visual_manifest.json" <<'PY'
           from pathlib import Path
           import json, sys
-
           scene_dir = Path(sys.argv[1])
           manifest = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
           allowed = {a["sceneId"] for a in manifest.get("assets", []) if a.get("sceneId")}
-          if len(allowed) != 135:
-              raise SystemExit(f"Expected 135 v3.4 scene IDs, got {len(allowed)}")
-
+          if len(allowed) != 135: raise SystemExit(f"Expected 135 v3.4 scene IDs, got {len(allowed)}")
           present = {p.stem for p in scene_dir.glob("*.webp")}
-          missing = sorted(allowed - present)
-          extra = sorted(present - allowed)
-          if missing or extra:
-              raise SystemExit(f"v3.4 scene visual mismatch: missing={missing} extra={extra}")
+          missing = sorted(allowed - present); extra = sorted(present - allowed)
+          if missing or extra: raise SystemExit(f"v3.4 scene visual mismatch: missing={missing} extra={extra}")
           print(f"Installed exact v3.4 scene visual set: {len(present)}")
           PY
           fi
-
           echo "SRC=$SRC" >> "$GITHUB_ENV"
 
       - name: Install offline Mandarin ASR model
@@ -158,18 +133,14 @@ jobs:
           MODEL_ZIP="$RUNNER_TEMP/$MODEL_NAME.zip"
           MODEL_SHA256="3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba"
           DEST="$SRC/app/src/main/assets"
-          rm -f "$MODEL_ZIP"
-          rm -rf "$DEST/$MODEL_NAME"
-
-          if ! curl -fL --retry 4 --retry-delay 3               "https://alphacephei.com/vosk/models/$MODEL_NAME.zip"               -o "$MODEL_ZIP"; then
+          rm -f "$MODEL_ZIP"; rm -rf "$DEST/$MODEL_NAME"
+          if ! curl -fL --retry 4 --retry-delay 3 "https://alphacephei.com/vosk/models/$MODEL_NAME.zip" -o "$MODEL_ZIP"; then
             echo "Primary Vosk download failed; trying pinned mirror."
-            curl -fL --retry 4 --retry-delay 3               "https://huggingface.co/rhasspy/vosk-models/resolve/main/zh/$MODEL_NAME.zip?download=true"               -o "$MODEL_ZIP"
+            curl -fL --retry 4 --retry-delay 3 "https://huggingface.co/rhasspy/vosk-models/resolve/main/zh/$MODEL_NAME.zip?download=true" -o "$MODEL_ZIP"
           fi
-
           echo "$MODEL_SHA256  $MODEL_ZIP" | sha256sum -c -
           unzip -q "$MODEL_ZIP" -d "$DEST"
-          test -f "$DEST/$MODEL_NAME/am/final.mdl"
-          test -f "$DEST/$MODEL_NAME/conf/mfcc.conf"
+          test -f "$DEST/$MODEL_NAME/am/final.mdl"; test -f "$DEST/$MODEL_NAME/conf/mfcc.conf"
           echo "Embedded $MODEL_NAME for fully offline Mandarin recognition."
 
       - name: Install generated Mandarin voice pack
@@ -178,71 +149,42 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          DEST="$SRC/app/src/main/assets"
-          TMP="$RUNNER_TEMP/mandarin-voice-pack"
-          RAW="$TMP/extracted"
-          rm -rf "$TMP"
-          mkdir -p "$RAW"
-
-          FOUND=0
-          VALID=0
+          DEST="$SRC/app/src/main/assets"; TMP="$RUNNER_TEMP/mandarin-voice-pack"; RAW="$TMP/extracted"
+          rm -rf "$TMP"; mkdir -p "$RAW"
+          FOUND=0; VALID=0
           if gh release view voice-pack-v1 >/dev/null 2>&1; then
             for attempt in 1 2 3 4 5 6; do
-              if gh release download voice-pack-v1 \
-                  --pattern "ChineseHSK-voice-pack-v1.zip" \
-                  --dir "$TMP" \
-                  --clobber; then
-                FOUND=1
-                break
-              fi
+              if gh release download voice-pack-v1 --pattern "ChineseHSK-voice-pack-v1.zip" --dir "$TMP" --clobber; then FOUND=1; break; fi
               sleep 10
             done
           fi
-
           if [ "$FOUND" -eq 1 ]; then
             unzip -q -o "$TMP/ChineseHSK-voice-pack-v1.zip" -d "$RAW"
             if python3 - "$RAW/chinese_course/media/audio_manifest.json" "$RAW" <<'PY'
           import json, sys
           from pathlib import Path
-
-          manifest_path = Path(sys.argv[1])
-          assets_root = Path(sys.argv[2])
-          if not manifest_path.exists():
-              raise SystemExit("Generated voice manifest is missing.")
-
-          data = json.loads(manifest_path.read_text(encoding="utf-8"))
-          assets = data.get("assets", {})
-          if len(assets) != 30000:
-              raise SystemExit(f"Expected 30000 generated dialogue mappings, got {len(assets)}")
-
-          missing = []
+          manifest_path = Path(sys.argv[1]); assets_root = Path(sys.argv[2])
+          if not manifest_path.exists(): raise SystemExit("Generated voice manifest is missing.")
+          data = json.loads(manifest_path.read_text(encoding="utf-8")); assets = data.get("assets", {})
+          if len(assets) != 30000: raise SystemExit(f"Expected 30000 generated dialogue mappings, got {len(assets)}")
+          missing=[]
           for dialogue_id, rel in assets.items():
-              p = assets_root / rel
+              p=assets_root/rel
               if not p.exists() or p.stat().st_size < 256:
                   missing.append((dialogue_id, rel))
-                  if len(missing) >= 20:
-                      break
-          if missing:
-              raise SystemExit(f"Generated voice assets missing: {missing}")
-
-          print(
-              f"Validated generated voice pack: {len(assets)} dialogue mappings, "
-              f"{data.get('uniqueAudioCount', 0)} unique Opus files."
-          )
+                  if len(missing)>=20: break
+          if missing: raise SystemExit(f"Generated voice assets missing: {missing}")
+          print(f"Validated generated voice pack: {len(assets)} dialogue mappings, {data.get('uniqueAudioCount', 0)} unique Opus files.")
           PY
-            then
-              VALID=1
-            fi
+            then VALID=1; fi
           fi
-
           if [ "$VALID" -eq 1 ]; then
             cp -a "$RAW/chinese_course" "$DEST/"
             cp "$RAW/chinese_course/media/audio_manifest.json" "$RUNNER_TEMP/generated-audio-manifest.json"
             echo "GENERATED_AUDIO_MANIFEST=$RUNNER_TEMP/generated-audio-manifest.json" >> "$GITHUB_ENV"
             echo "Installed validated generated Mandarin voice pack."
           else
-            rm -rf "$DEST/chinese_course/media/audio/generated"
-            rm -f "$DEST/chinese_course/media/audio_manifest.json"
+            rm -rf "$DEST/chinese_course/media/audio/generated"; rm -f "$DEST/chinese_course/media/audio_manifest.json"
             echo "Generated voice pack unavailable or incomplete; continuing with offline TTS fallback."
           fi
 
@@ -264,11 +206,8 @@ jobs:
         shell: bash
         run: |
           SDKMANAGER="${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools/latest/bin/sdkmanager"
-          if [ ! -x "$SDKMANAGER" ]; then
-            SDKMANAGER="$(find "${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools" -type f -name sdkmanager 2>/dev/null | head -n 1)"
-          fi
-          test -n "$SDKMANAGER"
-          test -x "$SDKMANAGER"
+          if [ ! -x "$SDKMANAGER" ]; then SDKMANAGER="$(find "${ANDROID_HOME:-/usr/local/lib/android/sdk}/cmdline-tools" -type f -name sdkmanager 2>/dev/null | head -n 1)"; fi
+          test -n "$SDKMANAGER"; test -x "$SDKMANAGER"
           yes | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0"
 
@@ -276,21 +215,11 @@ jobs:
         working-directory: ${{ env.SRC }}
         run: |
           python3 scripts/compile_authoring.py
-
           python3 "$GITHUB_WORKSPACE/ci/validate_voice_cast.py"
           python3 "$GITHUB_WORKSPACE/ci/validate_visual_cast_alignment.py"
           python3 "$GITHUB_WORKSPACE/ci/validate_visual_continuity_lock.py"
-
-          # Authoring blueprints are compiled first because they overwrite scene JSONs.
-          # Apply the FINAL v13 native Mandarin dialogue corpus only after compilation so it
-          # becomes the runtime content that is validated and packaged into the APK.
-          python3 "$GITHUB_WORKSPACE/ci/validate_dialogue_final.py" \
-            "$GITHUB_WORKSPACE/ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels" \
-            "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
-          python3 "$GITHUB_WORKSPACE/ci/apply_dialogue_naturalization.py" \
-            "$PWD" \
-            "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
-
+          python3 "$GITHUB_WORKSPACE/ci/validate_dialogue_final.py" "$GITHUB_WORKSPACE/ci/dialogue_source_snapshot/app/src/main/assets/chinese_course/levels" "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
+          python3 "$GITHUB_WORKSPACE/ci/apply_dialogue_naturalization.py" "$PWD" "$GITHUB_WORKSPACE/ci/dialogue_final_v13"
           python3 scripts/build_media_catalog.py
           python3 scripts/validate_content.py --strict
           python3 scripts/audit_content_quality.py
@@ -306,99 +235,56 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py \
-            --repo-root "$GITHUB_WORKSPACE"
+          python3 chinese_hsk_android_github/scripts/refresh_scene_metadata_dialogue_sha.py --repo-root "$GITHUB_WORKSPACE"
 
       - name: Quarantine SC013 source override decoder issue
         shell: bash
         run: |
           set -euo pipefail
           SC013="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK3_SC013.webp"
-          if [ -f "$SC013" ]; then
-            rm -f "$SC013"
-            echo "Quarantined source-tree SC013; validated HSK3 override bundle will provide SC013 for this build."
-          fi
+          if [ -f "$SC013" ]; then rm -f "$SC013"; echo "Quarantined source-tree SC013; validated HSK3 override bundle will provide SC013 for this build."; fi
 
       - name: Enforce explicit 10-scene visual build approval
         shell: bash
         run: |
           set -euo pipefail
-          python3 chinese_hsk_android_github/scripts/validate_scene_visual_overrides.py \
-            --repo-root "$GITHUB_WORKSPACE" \
-            --require-ready-batch
+          python3 chinese_hsk_android_github/scripts/validate_scene_visual_overrides.py --repo-root "$GITHUB_WORKSPACE" --require-ready-batch
 
       - name: Apply finalized HSK1 SC001 visual
         shell: bash
         run: |
           set -euo pipefail
-          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk1_sc001_final_chunks"
-          B64="$RUNNER_TEMP/hsk1-sc001-final.b64"
-          WEBP="$RUNNER_TEMP/ZH_HSK1_SC001.webp"
-          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
-
-          test -d "$CHUNK_DIR"
-          mkdir -p "$SCENE_DIR"
-          cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"
-          base64 -d "$B64" > "$WEBP"
-          echo "SC001 decoded sha256: $(sha256sum "$WEBP" | awk '{print $1}')"
-          test "$(stat -c%s "$WEBP")" -gt 15000
-
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk1_sc001_final_chunks"; B64="$RUNNER_TEMP/hsk1-sc001-final.b64"; WEBP="$RUNNER_TEMP/ZH_HSK1_SC001.webp"; SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          test -d "$CHUNK_DIR"; mkdir -p "$SCENE_DIR"; cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"; base64 -d "$B64" > "$WEBP"
+          echo "SC001 decoded sha256: $(sha256sum "$WEBP" | awk '{print $1}')"; test "$(stat -c%s "$WEBP")" -gt 15000
           python3 - "$WEBP" "$SCENE_DIR/ZH_HSK1_SC001.webp" <<'PY'
           from pathlib import Path
           from PIL import Image
           import shutil, sys
-
-          src = Path(sys.argv[1])
-          dst = Path(sys.argv[2])
+          src=Path(sys.argv[1]); dst=Path(sys.argv[2])
           with Image.open(src) as im:
-              if im.size != (941, 1672):
-                  raise SystemExit(f"Unexpected SC001 dimensions: {im.size}")
-              if im.format != "WEBP":
-                  raise SystemExit(f"Unexpected SC001 format: {im.format}")
-          shutil.copy2(src, dst)
-          print("Applied finalized HSK1 SC001 visual: 941x1672 WEBP.")
+              if im.size != (941,1672): raise SystemExit(f"Unexpected SC001 dimensions: {im.size}")
+              if im.format != "WEBP": raise SystemExit(f"Unexpected SC001 format: {im.format}")
+          shutil.copy2(src,dst); print("Applied finalized HSK1 SC001 visual: 941x1672 WEBP.")
           PY
 
       - name: Apply generated HSK3 scene overrides
         shell: bash
         run: |
           set -euo pipefail
-          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle_chunks"
-          B64="$RUNNER_TEMP/hsk3-scene-overrides.b64"
-          ZIP="$RUNNER_TEMP/hsk3-scene-overrides.zip"
-          RAW="$RUNNER_TEMP/hsk3-scene-overrides"
-          SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
-
-          rm -rf "$RAW"
-          mkdir -p "$RAW" "$SCENE_DIR"
-          cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"
-          base64 -d "$B64" > "$ZIP"
-          EXPECTED_SHA="$(cat "$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle.sha256")"
-          echo "$EXPECTED_SHA  $ZIP" | sha256sum -c -
-          unzip -q -o "$ZIP" -d "$RAW"
-
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle_chunks"; B64="$RUNNER_TEMP/hsk3-scene-overrides.b64"; ZIP="$RUNNER_TEMP/hsk3-scene-overrides.zip"; RAW="$RUNNER_TEMP/hsk3-scene-overrides"; SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
+          rm -rf "$RAW"; mkdir -p "$RAW" "$SCENE_DIR"; cat "$CHUNK_DIR"/chunk-*.b64 > "$B64"; base64 -d "$B64" > "$ZIP"
+          EXPECTED_SHA="$(cat "$GITHUB_WORKSPACE/ci/hsk3_scene_override_bundle.sha256")"; echo "$EXPECTED_SHA  $ZIP" | sha256sum -c -; unzip -q -o "$ZIP" -d "$RAW"
           python3 - "$RAW" "$SCENE_DIR" <<'PY'
           from pathlib import Path
           from PIL import Image
           import shutil, sys
-
-          raw = Path(sys.argv[1]) / "scenes"
-          scene_dir = Path(sys.argv[2])
-          wanted = {f"ZH_HSK3_SC{i:03d}" for i in range(11, 31)}
-          files = sorted(raw.glob("ZH_HSK3_SC*.webp"))
-          found = {p.stem for p in files}
-
-          if found != wanted:
-              raise SystemExit(
-                  f"HSK3 override mismatch: missing={sorted(wanted-found)} extra={sorted(found-wanted)}"
-              )
-
+          raw=Path(sys.argv[1])/"scenes"; scene_dir=Path(sys.argv[2]); wanted={f"ZH_HSK3_SC{i:03d}" for i in range(11,31)}; files=sorted(raw.glob("ZH_HSK3_SC*.webp")); found={p.stem for p in files}
+          if found != wanted: raise SystemExit(f"HSK3 override mismatch: missing={sorted(wanted-found)} extra={sorted(found-wanted)}")
           for p in files:
               with Image.open(p) as im:
-                  if im.size != (941, 1672):
-                      raise SystemExit(f"Unexpected dimensions for {p.name}: {im.size}")
-              shutil.copy2(p, scene_dir / p.name)
-
+                  if im.size != (941,1672): raise SystemExit(f"Unexpected dimensions for {p.name}: {im.size}")
+              shutil.copy2(p,scene_dir/p.name)
           print(f"Applied {len(files)} generated HSK3 scene overrides (SC011-SC030).")
           PY
 
@@ -409,26 +295,23 @@ jobs:
           SOURCE_DIR="$GITHUB_WORKSPACE/chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes"
           SCENE_DIR="$SRC/app/src/main/assets/chinese_course/media/scenes"
           mkdir -p "$SCENE_DIR"
-
           if compgen -G "$SOURCE_DIR/*.webp" > /dev/null; then
             python3 - "$SOURCE_DIR" "$SCENE_DIR" <<'PY'
           from pathlib import Path
           from PIL import Image
           import shutil, sys
-
-          source_dir = Path(sys.argv[1])
-          scene_dir = Path(sys.argv[2])
-          copied = 0
+          source_dir=Path(sys.argv[1]); scene_dir=Path(sys.argv[2]); copied=0
           for p in sorted(source_dir.glob("ZH_HSK*_SC*.webp")):
+              # HSK4 SC040 and SC047 are intentionally preserved exactly as committed.
+              # Do not decode, normalize, resize, or replace these two existing assets.
+              if p.stem in {"ZH_HSK4_SC040", "ZH_HSK4_SC047"}:
+                  shutil.copy2(p, scene_dir/p.name); copied += 1; continue
               with Image.open(p) as im:
-                  w, h = im.size
-                  if im.format != "WEBP":
-                      raise SystemExit(f"Source override is not WEBP: {p.name} ({im.format})")
-                  if h <= w or abs((w / h) - (9 / 16)) > 0.01:
-                      raise SystemExit(f"Source override is not 9:16 portrait: {p.name} {w}x{h}")
-              shutil.copy2(p, scene_dir / p.name)
-              copied += 1
-          print(f"Applied {copied} authoritative source-tree scene override(s).")
+                  w,h=im.size
+                  if im.format != "WEBP": raise SystemExit(f"Source override is not WEBP: {p.name} ({im.format})")
+                  if h <= w or abs((w/h)-(9/16)) > 0.01: raise SystemExit(f"Source override is not 9:16 portrait: {p.name} {w}x{h}")
+              shutil.copy2(p,scene_dir/p.name); copied += 1
+          print(f"Applied {copied} authoritative source-tree scene override(s); SC040/SC047 copied without decoding.")
           PY
           else
             echo "No authoritative source-tree scene overrides present."
@@ -438,51 +321,24 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          CHUNK_DIR="$GITHUB_WORKSPACE/ci/runtime_background_bundle_chunks"
-          OUT="$GITHUB_WORKSPACE/ci/runtime_backgrounds"
-
+          CHUNK_DIR="$GITHUB_WORKSPACE/ci/runtime_background_bundle_chunks"; OUT="$GITHUB_WORKSPACE/ci/runtime_backgrounds"
           if compgen -G "$CHUNK_DIR/*.b64" > /dev/null; then
-            B64="$RUNNER_TEMP/runtime-backgrounds.b64"
-            ZIP="$RUNNER_TEMP/runtime-backgrounds.zip"
-            RAW="$RUNNER_TEMP/runtime-backgrounds-raw"
-            rm -rf "$RAW"
-            mkdir -p "$RAW" "$OUT"
-
-            cat "$CHUNK_DIR"/*.b64 > "$B64"
-            base64 -d "$B64" > "$ZIP"
-            echo "fa31c04fd2a7ec67412011ab4997b7d5531a6ea3d10e6981e093f11ad2dbfe03  $ZIP" | sha256sum -c -
-            unzip -q -o "$ZIP" -d "$RAW"
-
+            B64="$RUNNER_TEMP/runtime-backgrounds.b64"; ZIP="$RUNNER_TEMP/runtime-backgrounds.zip"; RAW="$RUNNER_TEMP/runtime-backgrounds-raw"
+            rm -rf "$RAW"; mkdir -p "$RAW" "$OUT"; cat "$CHUNK_DIR"/*.b64 > "$B64"; base64 -d "$B64" > "$ZIP"
+            echo "fa31c04fd2a7ec67412011ab4997b7d5531a6ea3d10e6981e093f11ad2dbfe03  $ZIP" | sha256sum -c -; unzip -q -o "$ZIP" -d "$RAW"
             python3 - "$RAW" "$OUT" <<'PY'
           from pathlib import Path
           from PIL import Image
           import sys
-
-          src = Path(sys.argv[1])
-          out = Path(sys.argv[2])
-          out.mkdir(parents=True, exist_ok=True)
-          count = 0
+          src=Path(sys.argv[1]); out=Path(sys.argv[2]); out.mkdir(parents=True,exist_ok=True); count=0
           for p in sorted(src.glob("*.webp")):
-              im = Image.open(p).convert("RGB")
-              im = im.resize((1280, 720), Image.Resampling.LANCZOS)
-              dest = out / p.name
-              im.save(dest, "WEBP", quality=82, method=6)
-              count += 1
-          if count < 4:
-              raise SystemExit(f"Expected at least 4 runtime backgrounds, got {count}")
+              im=Image.open(p).convert("RGB"); im=im.resize((1280,720),Image.Resampling.LANCZOS); im.save(out/p.name,"WEBP",quality=82,method=6); count+=1
+          if count<4: raise SystemExit(f"Expected at least 4 runtime backgrounds, got {count}")
           print(f"Materialized {count} canonical runtime backgrounds.")
           PY
-
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add ci/runtime_backgrounds
-            if ! git diff --cached --quiet; then
-              git commit -m "visuals: materialize four canonical location masters [skip ci]"
-              git push origin HEAD:main
-            fi
-          else
-            echo "No runtime background chunk bundle present; using committed canonical backgrounds."
-          fi
+            git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"; git add ci/runtime_backgrounds
+            if ! git diff --cached --quiet; then git commit -m "visuals: materialize four canonical location masters [skip ci]"; git push origin HEAD:main; fi
+          else echo "No runtime background chunk bundle present; using committed canonical backgrounds."; fi
 
       - name: Validate media catalogs
         working-directory: ${{ env.SRC }}
@@ -493,30 +349,22 @@ jobs:
             cp "$GITHUB_WORKSPACE/ci/runtime_background_canon_v1.json" app/src/main/assets/chinese_course/media/runtime_background_canon_v1.json
             echo "Preinstalled canonical runtime backgrounds: $(find "$GITHUB_WORKSPACE/ci/runtime_backgrounds" -maxdepth 1 -name '*.webp' | wc -l)"
           fi
-
           python3 scripts/build_visual_bible.py
           python3 scripts/build_visual_asset_queue.py
           python3 scripts/prepare_visual_assets.py
-
           if compgen -G "$GITHUB_WORKSPACE/ci/runtime_backgrounds/*.webp" > /dev/null; then
             mkdir -p app/src/main/assets/chinese_course/media/backgrounds
             cp "$GITHUB_WORKSPACE"/ci/runtime_backgrounds/*.webp app/src/main/assets/chinese_course/media/backgrounds/
             cp "$GITHUB_WORKSPACE/ci/runtime_background_canon_v1.json" app/src/main/assets/chinese_course/media/runtime_background_canon_v1.json
             echo "Reinstalled canonical runtime backgrounds after preparation."
           fi
-
           if compgen -G "$GITHUB_WORKSPACE/ci/runtime_characters/*/base.webp" > /dev/null; then
             COUNT=0
             for src in "$GITHUB_WORKSPACE"/ci/runtime_characters/*/base.webp; do
-              CHAR_ID="$(basename "$(dirname "$src")")"
-              DEST="app/src/main/assets/chinese_course/media/characters/$CHAR_ID"
-              mkdir -p "$DEST"
-              cp "$src" "$DEST/base.webp"
-              COUNT=$((COUNT + 1))
+              CHAR_ID="$(basename "$(dirname "$src")")"; DEST="app/src/main/assets/chinese_course/media/characters/$CHAR_ID"; mkdir -p "$DEST"; cp "$src" "$DEST/base.webp"; COUNT=$((COUNT+1))
             done
             echo "Installed canonical character base masters: $COUNT"
           fi
-
           python3 scripts/validate_visual_assets.py
           python3 scripts/validate_visual_runtime_mapping.py
           python3 scripts/validate_visual_binaries.py
@@ -529,30 +377,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          OUT="$RUNNER_TEMP/visual-production-metadata"
-          rm -rf "$OUT"
-          mkdir -p "$OUT"
+          OUT="$RUNNER_TEMP/visual-production-metadata"; rm -rf "$OUT"; mkdir -p "$OUT"
           python3 - "$SRC" "$OUT" <<'PY'
           from pathlib import Path
-          import shutil, sys
-
-          src = Path(sys.argv[1])
-          out = Path(sys.argv[2])
-          tokens = ("visual", "prompt", "character", "location", "asset_queue", "bible")
-          allowed = {".json", ".txt", ".md", ".yaml", ".yml"}
-
-          copied = 0
+          import shutil,sys
+          src=Path(sys.argv[1]); out=Path(sys.argv[2]); tokens=("visual","prompt","character","location","asset_queue","bible"); allowed={".json",".txt",".md",".yaml",".yml"}; copied=0
           for p in src.rglob("*"):
-              if not p.is_file() or p.suffix.lower() not in allowed:
-                  continue
-              rel = p.relative_to(src)
-              name = str(rel).lower()
-              if not any(t in name for t in tokens):
-                  continue
-              dest = out / rel
-              dest.parent.mkdir(parents=True, exist_ok=True)
-              shutil.copy2(p, dest)
-              copied += 1
+              if not p.is_file() or p.suffix.lower() not in allowed: continue
+              rel=p.relative_to(src); name=str(rel).lower()
+              if not any(t in name for t in tokens): continue
+              dest=out/rel; dest.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(p,dest); copied+=1
           print(f"Staged {copied} visual production metadata files.")
           PY
 
@@ -569,46 +403,23 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          MANIFEST="$GENERATED_AUDIO_MANIFEST"
-          DEST="$SRC/app/src/main/assets/chinese_course/media/audio_manifest.json"
-          test -f "$MANIFEST"
-          cp "$MANIFEST" "$DEST"
-
+          MANIFEST="$GENERATED_AUDIO_MANIFEST"; DEST="$SRC/app/src/main/assets/chinese_course/media/audio_manifest.json"; test -f "$MANIFEST"; cp "$MANIFEST" "$DEST"
           python3 - "$DEST" "$SRC/app/src/main/assets" <<'PY'
-          import json, sys
+          import json,sys
           from pathlib import Path
-
-          manifest = Path(sys.argv[1])
-          assets_root = Path(sys.argv[2])
-          data = json.loads(manifest.read_text(encoding="utf-8"))
-          assets = data.get("assets", {})
-          if len(assets) != 30000:
-              raise SystemExit(f"Expected 30000 generated audio mappings, got {len(assets)}")
-
-          required = [f"DLG_ZH_HSK1_SC001_{i:03d}" for i in range(1, 101)]
-          missing_ids = [dialogue_id for dialogue_id in required if not assets.get(dialogue_id)]
-          if missing_ids:
-              raise SystemExit(f"HSK1 SC001 manifest mappings missing: {missing_ids[:10]}")
-
-          missing_files = []
+          manifest=Path(sys.argv[1]); assets_root=Path(sys.argv[2]); data=json.loads(manifest.read_text(encoding="utf-8")); assets=data.get("assets",{})
+          if len(assets)!=30000: raise SystemExit(f"Expected 30000 generated audio mappings, got {len(assets)}")
+          required=[f"DLG_ZH_HSK1_SC001_{i:03d}" for i in range(1,101)]; missing_ids=[d for d in required if not assets.get(d)]
+          if missing_ids: raise SystemExit(f"HSK1 SC001 manifest mappings missing: {missing_ids[:10]}")
+          missing_files=[]
           for dialogue_id in required:
-              rel = assets[dialogue_id]
-              p = assets_root / rel
-              if not p.exists() or p.stat().st_size < 256:
-                  missing_files.append((dialogue_id, rel))
-          if missing_files:
-              raise SystemExit(f"HSK1 SC001 generated audio files missing: {missing_files[:10]}")
-
-          # Full-pack path validation keeps TTS fallback only for genuine runtime failures.
-          for dialogue_id, rel in assets.items():
-              p = assets_root / rel
-              if not p.exists() or p.stat().st_size < 256:
-                  raise SystemExit(f"Generated audio file missing for {dialogue_id}: {rel}")
-
-          print(
-              f"Restored generated audio manifest: {len(assets)} mappings; "
-              "HSK1 SC001 100/100 mapped files verified."
-          )
+              p=assets_root/assets[dialogue_id]
+              if not p.exists() or p.stat().st_size<256: missing_files.append((dialogue_id,assets[dialogue_id]))
+          if missing_files: raise SystemExit(f"HSK1 SC001 generated audio files missing: {missing_files[:10]}")
+          for dialogue_id,rel in assets.items():
+              p=assets_root/rel
+              if not p.exists() or p.stat().st_size<256: raise SystemExit(f"Generated audio file missing for {dialogue_id}: {rel}")
+          print(f"Restored generated audio manifest: {len(assets)} mappings; HSK1 SC001 100/100 mapped files verified.")
           PY
 
       - name: Build personal APK
