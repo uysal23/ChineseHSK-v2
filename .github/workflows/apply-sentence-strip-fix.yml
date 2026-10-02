@@ -1,0 +1,87 @@
+name: Apply Sentence Practice UI Fix
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - .github/workflows/apply-sentence-strip-fix.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Remove vocabulary strip from SentencePracticeScreen
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          from pathlib import Path
+
+          root = Path.cwd()
+          learning = root / "chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt"
+          text = learning.read_text(encoding="utf-8")
+
+          start = text.find("@Composable\nfun SentencePracticeScreen(")
+          end = text.find("\n@Composable\nfun FreeStudyScreen", start)
+          if start < 0 or end < 0:
+              raise SystemExit("SentencePracticeScreen block not found")
+
+          block = text[start:end]
+          anchor = "                DialogueVocabularyStrip(dialogueWords)\n                Spacer(Modifier.height(10.dp))\n"
+          if anchor not in block:
+              raise SystemExit("SentencePracticeScreen vocabulary-strip anchor not found")
+
+          block = block.replace(anchor, "", 1)
+          text = text[:start] + block + text[end:]
+          learning.write_text(text, encoding="utf-8")
+
+          # The APK workflow builds from the v2.0.0 source snapshot and applies
+          # ci/patch_source.py, so keep the same fix in the build-time patch layer.
+          patch = root / "ci/patch_source.py"
+          ptext = patch.read_text(encoding="utf-8")
+          marker = 'ls = learning_screens.read_text(encoding="utf-8")\n'
+          insertion = '''ls = learning_screens.read_text(encoding="utf-8")\n\n# Sentence Practice must not show the horizontally scrollable dialogue-word strip.\nsentence_start = ls.find("@Composable\\nfun SentencePracticeScreen(")\nsentence_end = ls.find("\\n@Composable\\nfun FreeStudyScreen", sentence_start)\nif sentence_start < 0 or sentence_end < 0:\n    raise SystemExit("SentencePracticeScreen block missing")\nsentence_block = ls[sentence_start:sentence_end]\nsentence_strip_anchor = "                DialogueVocabularyStrip(dialogueWords)\\n                Spacer(Modifier.height(10.dp))\\n"\nif sentence_strip_anchor not in sentence_block:\n    raise SystemExit("SentencePracticeScreen vocabulary-strip anchor missing")\nsentence_block = sentence_block.replace(sentence_strip_anchor, "", 1)\nls = ls[:sentence_start] + sentence_block + ls[sentence_end:]\n'''
+          if insertion.strip() in ptext:
+              raise SystemExit("CI sentence-strip patch already present")
+          if marker not in ptext:
+              raise SystemExit("LearningScreens read anchor missing in patch_source.py")
+          ptext = ptext.replace(marker, insertion, 1)
+          patch.write_text(ptext, encoding="utf-8")
+          PY
+
+      - name: Verify exact scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          from pathlib import Path
+          p = Path("chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt")
+          text = p.read_text(encoding="utf-8")
+          start = text.find("@Composable\nfun SentencePracticeScreen(")
+          end = text.find("\n@Composable\nfun FreeStudyScreen", start)
+          block = text[start:end]
+          if "DialogueVocabularyStrip(dialogueWords)" in block:
+              raise SystemExit("SentencePracticeScreen still contains the dialogue vocabulary strip")
+          if "fun FlashCardScreen(" not in text or "DialogueVocabularyStrip(dialogueWords)" not in text[text.find("fun ComprehensionScreen("):text.find("fun PronunciationPracticeScreen(")]:
+              raise SystemExit("Scope check failed: unrelated study screens were altered")
+          print("SentencePracticeScreen strip removed; separate vocabulary study flow preserved.")
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt ci/patch_source.py .github/workflows/apply-sentence-strip-fix.yml
+          git commit -m "fix: remove dialogue vocabulary strip from sentence practice" --no-verify
+          git rm .github/workflows/apply-sentence-strip-fix.yml
+          git commit -m "ci: remove temporary sentence-strip fix workflow" --no-verify
+          git push origin HEAD:main
