@@ -36,3 +36,5 @@ reason: explicit user build approval
 reason: explicit user build approval
 2026-10-02 07:xx TRT - preserve HSK4 SC040 and SC047 exactly as committed; exclude only these two from visual normalization/gate; build APK from main
 reason: explicit user build approval
+2026-10-02 07:xx TRT - added root build-time PIL hook so SC040/SC047 are copied with original bytes without decoder normalization; retry main APK
+reason: explicit user build approval
