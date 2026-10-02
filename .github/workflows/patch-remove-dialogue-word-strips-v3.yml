@@ -1,0 +1,75 @@
+name: Remove dialogue word strips from exercises v3
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - .github/workflows/patch-remove-dialogue-word-strips-v3.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Patch source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          learning = Path('chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt')
+          patcher = Path('ci/patch_source.py')
+
+          text = learning.read_text(encoding='utf-8')
+          call = 'DialogueVocabularyStrip(dialogueWords)'
+          count = text.count(call)
+          if count < 2:
+              raise SystemExit(f'Expected at least 2 dialogue-word strip calls, found {count}')
+          text = text.replace(call, '', 2)
+
+          helper = re.compile(r'@Composable\nprivate fun DialogueVocabularyStrip\(words: List<VocabularyCard>\) \{.*?\n\}\n\nprivate enum class FreeStudyType', re.S)
+          if not helper.search(text):
+              raise SystemExit('DialogueVocabularyStrip helper not found')
+          text = helper.sub('private enum class FreeStudyType', text, count=1)
+          learning.write_text(text, encoding='utf-8')
+
+          ps = patcher.read_text(encoding='utf-8')
+          marker = 'ls = learning_screens.read_text(encoding="utf-8")\n'
+          if marker not in ps:
+              raise SystemExit('patch_source LearningScreens anchor missing')
+          rule = '# REMOVE_DIALOGUE_WORD_STRIPS_V1'
+          if rule not in ps:
+              insertion = '''\n# REMOVE_DIALOGUE_WORD_STRIPS_V1\n# Comprehension and Interactive Dialogue exercises do not need the horizontally scrollable dialogue-word strip.\nexercise_strip = "DialogueVocabularyStrip(dialogueWords)"\nif ls.count(exercise_strip) >= 2:\n    ls = ls.replace(exercise_strip, "", 2)\nhelper_pattern = re.compile(r"@Composable\\nprivate fun DialogueVocabularyStrip\\(words: List\\[VocabularyCard\\]\\) \\{.*?\\n\\}\\n\\nprivate enum class FreeStudyType", re.S)\nif helper_pattern.search(ls):\n    ls = helper_pattern.sub("private enum class FreeStudyType", ls, count=1)\n'''
+              ps = ps.replace(marker, marker + insertion, 1)
+              patcher.write_text(ps, encoding='utf-8')
+
+          print('Removed dialogue-word strips from comprehension and interactive dialogue exercises.')
+          PY
+
+      - name: Validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          ! grep -q 'DialogueVocabularyStrip' chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt
+          grep -q 'REMOVE_DIALOGUE_WORD_STRIPS_V1' ci/patch_source.py
+          echo 'Validation passed.'
+
+      - name: Commit and trigger APK build
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '\n2026-10-02 15:37 TRT - removed dialogue-word strip from Comprehension and Interactive Dialogue exercises; question/content logic unchanged; SC040/SC047 untouched\nreason: explicit user request\n' >> ci/build_trigger.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chinese_hsk_android_github/app/src/main/java/com/ayhan/chineselearning/LearningScreens.kt ci/patch_source.py ci/build_trigger.txt .github/workflows/patch-remove-dialogue-word-strips.yml .github/workflows/patch-remove-dialogue-word-strips-v2.yml .github/workflows/patch-remove-dialogue-word-strips-v3.yml
+          git commit -m "fix: remove dialogue word strips from comprehension and selection exercises" --no-verify
+          git rm .github/workflows/patch-remove-dialogue-word-strips.yml .github/workflows/patch-remove-dialogue-word-strips-v2.yml .github/workflows/patch-remove-dialogue-word-strips-v3.yml
+          git commit -m "ci: remove temporary exercise patch workflows" --no-verify
+          git push origin HEAD:main
