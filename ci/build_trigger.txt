@@ -34,3 +34,5 @@ reason: explicit user build approval
 reason: explicit user build approval
 2026-10-02 07:21 TRT - rebuild main with final right-side speech-bubble geometry correction
 reason: explicit user build approval
+2026-10-02 07:xx TRT - preserve HSK4 SC040 and SC047 exactly as committed; exclude only these two from visual normalization/gate; build APK from main
+reason: explicit user build approval
