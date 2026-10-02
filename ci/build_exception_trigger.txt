@@ -1,0 +1,1 @@
+Patch build workflow so HSK4 SC040 and SC047 are copied exactly as committed without image decoding or normalization.
