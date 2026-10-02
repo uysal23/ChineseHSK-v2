@@ -689,8 +689,6 @@ fun SentencePracticeScreen(scene: SceneInfo, dialogueWords: List<VocabularyCard>
             Column(Modifier.padding(18.dp)) {
                 Text("${index + 1} / ${exercises.size}", color = Color.Gray)
                 Spacer(Modifier.height(8.dp))
-                DialogueVocabularyStrip(dialogueWords)
-                Spacer(Modifier.height(10.dp))
                 key(exercise.id) {
                     ExerciseEditor(exercise) { answerCorrect = it; checked = false }
                 }

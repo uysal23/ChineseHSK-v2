@@ -91,6 +91,18 @@ voice_cast_target.parent.mkdir(parents=True, exist_ok=True)
 voice_cast_target.write_text(voice_cast_manifest.read_text(encoding="utf-8"), encoding="utf-8")
 
 ls = learning_screens.read_text(encoding="utf-8")
+
+# Sentence Practice must not show the horizontally scrollable dialogue-word strip.
+sentence_start = ls.find("@Composable\nfun SentencePracticeScreen(")
+sentence_end = ls.find("\n@Composable\nfun FreeStudyScreen", sentence_start)
+if sentence_start < 0 or sentence_end < 0:
+    raise SystemExit("SentencePracticeScreen block missing")
+sentence_block = ls[sentence_start:sentence_end]
+sentence_strip_anchor = "                DialogueVocabularyStrip(dialogueWords)\n                Spacer(Modifier.height(10.dp))\n"
+if sentence_strip_anchor not in sentence_block:
+    raise SystemExit("SentencePracticeScreen vocabulary-strip anchor missing")
+sentence_block = sentence_block.replace(sentence_strip_anchor, "", 1)
+ls = ls[:sentence_start] + sentence_block + ls[sentence_end:]
 # Keep study navigation reachable on compact/tall-content phones.
 def _make_study_screen_scroll_safe(source: str, screen_name: str) -> str:
     start = source.find("@Composable\nfun " + screen_name + "(")
