@@ -1,0 +1,99 @@
+name: Patch dialogue speech bubble anchors v2
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - .github/workflows/patch-speech-bubbles-v2.yml
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Apply speech bubble calibration
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          from pathlib import Path
+
+          path = Path('ci/SceneStage.kt')
+          text = path.read_text(encoding='utf-8')
+
+          for old, new in [
+              ('import androidx.compose.ui.geometry.CornerRadius\n', 'import androidx.compose.ui.geometry.CornerRadius\nimport androidx.compose.ui.geometry.Offset\n'),
+              ('import androidx.compose.ui.layout.ContentScale\n', 'import androidx.compose.ui.layout.ContentScale\nimport androidx.compose.ui.layout.SubcomposeLayout\n'),
+              ('import androidx.compose.ui.unit.dp\n', 'import androidx.compose.ui.unit.Constraints\nimport androidx.compose.ui.unit.dp\n'),
+          ]:
+              if new not in text and old in text:
+                  text = text.replace(old, new, 1)
+
+          marker = 'private fun portraitVariantFor(profile: CharacterProfile?, level: String): String {\n'
+          helper = '''private val bubbleVisualPriority = mapOf(\n    "张伟" to 0,\n    "刘梅" to 1,\n    "张乐乐" to 2,\n    "张雨桐" to 3,\n    "王师傅" to 4\n)\n\nprivate fun bubbleVisualRank(name: String): Int = bubbleVisualPriority[name] ?: 1000\n\nprivate fun orderedDialogueSpeakers(scene: SceneInfo): List<String> {\n    val speakers = scene.dialogues\n        .map { it.speaker }\n        .filter { it.isNotBlank() && it != "旁白" }\n        .distinct()\n    return speakers.sortedWith(compareBy<String> { bubbleVisualRank(it) }.thenBy { speakers.indexOf(it) })\n}\n\n'''
+          if helper.strip() not in text:
+              if marker not in text:
+                  raise SystemExit('portraitVariantFor marker missing')
+              text = text.replace(marker, helper + marker, 1)
+
+          detect_start = text.find('private fun detectSceneMouthAnchors(')
+          detect_end = text.find('\n@Composable\nprivate fun SpeakerSpeechBubble(', detect_start)
+          if detect_start < 0 or detect_end < 0:
+              raise SystemExit('detectSceneMouthAnchors block not found')
+          detect_code = '''private fun detectSceneMouthAnchors(\n    context: android.content.Context,\n    assetPath: String,\n    targetFaces: Int\n): List<Pair<Float, Float>> {\n    if (assetPath.isBlank() || targetFaces <= 0) return emptyList()\n    return runCatching {\n        val decoded = context.assets.open(assetPath).use { BitmapFactory.decodeStream(it) }\n            ?: return@runCatching emptyList<Pair<Float, Float>>()\n        val targetWidthRaw = minOf(decoded.width, 720)\n        val targetWidth = if (targetWidthRaw % 2 == 0) targetWidthRaw else targetWidthRaw - 1\n        val targetHeight = ((decoded.height.toFloat() / decoded.width.toFloat()) * targetWidth).toInt().coerceAtLeast(2)\n        val scaled = if (decoded.width != targetWidth) Bitmap.createScaledBitmap(decoded, targetWidth, targetHeight, true) else decoded\n        val rgb565 = if (scaled.config == Bitmap.Config.RGB_565) scaled else scaled.copy(Bitmap.Config.RGB_565, false)\n        val detectorLimit = (targetFaces + 4).coerceIn(1, 12)\n        val detector = FaceDetector(rgb565.width, rgb565.height, detectorLimit)\n        val faces = arrayOfNulls<FaceDetector.Face>(detectorLimit)\n        val count = detector.findFaces(rgb565, faces)\n        val candidates = buildList {\n            for (i in 0 until count) {\n                val face = faces[i] ?: continue\n                val midpoint = PointF()\n                face.getMidPoint(midpoint)\n                val eyeDistance = face.eyesDistance()\n                if (eyeDistance < 18f) continue\n                val confidence = runCatching { face.confidence() }.getOrDefault(1f)\n                if (confidence < 0.10f) continue\n                val mouthX = (midpoint.x / rgb565.width.toFloat()).coerceIn(0.03f, 0.97f)\n                val mouthY = ((midpoint.y + eyeDistance * 0.92f) / rgb565.height.toFloat()).coerceIn(0.08f, 0.82f)\n                add(Triple(mouthX, mouthY, eyeDistance))\n            }\n        }\n        val selected = candidates.sortedByDescending { it.third }.take(targetFaces).sortedBy { it.first }.map { it.first to it.second }\n        if (rgb565 !== scaled) rgb565.recycle()\n        if (scaled !== decoded) scaled.recycle()\n        decoded.recycle()\n        selected\n    }.getOrDefault(emptyList())\n}\n'''
+          text = text[:detect_start] + detect_code + text[detect_end:]
+
+          bubble_start = text.find('@Composable\nprivate fun SpeakerSpeechBubble(')
+          bubble_end = text.find('\n@Composable\nprivate fun SceneDecor(', bubble_start)
+          if bubble_start < 0 or bubble_end < 0:
+              raise SystemExit('SpeakerSpeechBubble block not found')
+          bubble_code = '''@Composable\nprivate fun SpeakerSpeechBubble(\n    speakerLabel: String,\n    zh: String,\n    pinyin: String,\n    tr: String,\n    showPinyin: Boolean,\n    showTurkish: Boolean,\n    mouthAnchor: Pair<Float, Float>,\n    modifier: Modifier = Modifier\n) {\n    val mouthX = mouthAnchor.first.coerceIn(0.03f, 0.97f)\n    val mouthY = mouthAnchor.second.coerceIn(0.08f, 0.82f)\n    val safeMargin = 8.dp\n    val gap = 7.dp\n    val pointerSize = 10.dp\n    val preferredWidth = 228.dp\n    SubcomposeLayout(modifier.fillMaxSize()) { constraints ->\n        val safePx = safeMargin.roundToPx()\n        val gapPx = gap.roundToPx()\n        val pointerPx = pointerSize.roundToPx()\n        val mouthPxX = (constraints.maxWidth * mouthX).toInt().coerceIn(safePx, (constraints.maxWidth - safePx).coerceAtLeast(safePx))\n        val mouthPxY = (constraints.maxHeight * mouthY).toInt().coerceIn(safePx, (constraints.maxHeight - safePx).coerceAtLeast(safePx))\n        val rightAvailable = (constraints.maxWidth - mouthPxX - gapPx - pointerPx).coerceAtLeast(1)\n        val leftAvailable = (mouthPxX - gapPx - pointerPx).coerceAtLeast(1)\n        val placeRight = rightAvailable >= leftAvailable\n        val sideAvailable = if (placeRight) rightAvailable else leftAvailable\n        val bubbleMaxPx = minOf(preferredWidth.roundToPx(), sideAvailable).coerceAtLeast(1)\n        val bubble = subcompose("speechBubble") {\n            Surface(\n                modifier = Modifier.drawBehind {\n                    val strokePx = 1.2.dp.toPx()\n                    drawRoundRect(\n                        color = Color.White.copy(alpha = 0.72f),\n                        topLeft = Offset(strokePx / 2f, strokePx / 2f),\n                        size = androidx.compose.ui.geometry.Size(size.width - strokePx, size.height - strokePx),\n                        cornerRadius = CornerRadius(16.dp.toPx()),\n                        style = Stroke(width = strokePx, pathEffect = PathEffect.dashPathEffect(floatArrayOf(7.dp.toPx(), 5.dp.toPx())))\n                    )\n                },\n                color = Color.White.copy(alpha = 0.84f),\n                contentColor = Color(0xFF241A2B),\n                shape = RoundedCornerShape(16.dp),\n                shadowElevation = 2.dp\n            ) {\n                Column(Modifier.padding(horizontal = 11.dp, vertical = 8.dp)) {\n                    if (speakerLabel.isNotBlank()) Text(speakerLabel, color = Color(0xFF75509B), fontSize = 10.sp, fontWeight = FontWeight.Bold, maxLines = 1)\n                    Text(zh, color = Color(0xFF241A2B), fontSize = 17.sp, fontWeight = FontWeight.Bold, lineHeight = 21.sp)\n                    if (showPinyin && pinyin.isNotBlank()) Text(pinyin, color = Color(0xFF665C6D), fontSize = 11.sp, lineHeight = 14.sp, modifier = Modifier.padding(top = 3.dp))\n                    if (showTurkish && tr.isNotBlank()) Text(tr, color = Color(0xFF443A49), fontSize = 11.sp, lineHeight = 14.sp, modifier = Modifier.padding(top = 3.dp))\n                }\n            }\n        }.first().measure(Constraints(minWidth = 0, maxWidth = bubbleMaxPx, minHeight = 0, maxHeight = constraints.maxHeight))\n        val pointer = subcompose("speechPointer") {\n            Box(Modifier.size(pointerSize).graphicsLayer { rotationZ = 45f }.background(Color.White.copy(alpha = 0.84f)))\n        }.first().measure(Constraints.fixed(pointerPx, pointerPx))\n        val bubbleX = if (placeRight) mouthPxX + gapPx + pointerPx / 2 - bubble.width / 2 else mouthPxX - gapPx - pointerPx / 2 - bubble.width + pointer.width / 2\n        val maxBubbleX = (constraints.maxWidth - safePx - bubble.width).coerceAtLeast(safePx)\n        val placedBubbleX = bubbleX.coerceIn(safePx, maxBubbleX)\n        val desiredBubbleY = mouthPxY - bubble.height / 2\n        val maxBubbleY = (constraints.maxHeight - safePx - bubble.height).coerceAtLeast(safePx)\n        val placedBubbleY = desiredBubbleY.coerceIn(safePx, maxBubbleY)\n        val pointerY = (mouthPxY - pointer.height / 2).coerceIn(placedBubbleY, placedBubbleY + bubble.height - pointer.height)\n        val pointerX = if (placeRight) placedBubbleX - pointer.width / 2 else placedBubbleX + bubble.width - pointer.width / 2\n        layout(constraints.maxWidth, constraints.maxHeight) {\n            bubble.placeRelative(placedBubbleX, placedBubbleY)\n            pointer.placeRelative(pointerX.coerceIn(0, constraints.maxWidth - pointer.width), pointerY)\n        }\n    }\n}\n'''
+          text = text[:bubble_start] + bubble_code + text[bubble_end:]
+
+          old_cast = '''    val activeIndex = cast.indexOf(activeSpeaker)\n\n    Box(modifier.fillMaxSize().background(Color.Black)) {'''
+          new_cast = '''    val activeIndex = cast.indexOf(activeSpeaker)\n\n    // Bubble mapping uses only characters that actually speak in this scene.\n    val bubbleVisualCast = remember(scene.id) { orderedDialogueSpeakers(scene) }\n    val bubbleActiveIndex = bubbleVisualCast.indexOf(activeSpeaker)\n\n    Box(modifier.fillMaxSize().background(Color.Black)) {'''
+          if old_cast not in text:
+              raise SystemExit('activeIndex anchor missing')
+          text = text.replace(old_cast, new_cast, 1)
+
+          old_detect = '''        val detectedMouthAnchors = remember(scene.id, cast.size, sceneArtBitmap != null) {\n            if (sceneArtBitmap != null && cast.isNotEmpty()) {\n                detectSceneMouthAnchors(context, sceneArtPath, cast.size + 3)\n            } else {\n                emptyList()\n            }\n        }\n\n        val autoDetectedAnchor =\n            if (sceneArtBitmap != null && activeIndex >= 0 && detectedMouthAnchors.size >= cast.size) {\n                detectedMouthAnchors.getOrNull(activeIndex)\n            } else {\n                null\n            }'''
+          new_detect = '''        val detectedMouthAnchors = remember(scene.id, bubbleVisualCast.size, sceneArtBitmap != null) {\n            if (sceneArtBitmap != null && bubbleVisualCast.isNotEmpty()) {\n                detectSceneMouthAnchors(context, sceneArtPath, bubbleVisualCast.size)\n            } else {\n                emptyList()\n            }\n        }\n\n        val autoDetectedAnchor =\n            if (sceneArtBitmap != null && bubbleActiveIndex >= 0 && detectedMouthAnchors.size >= bubbleVisualCast.size) {\n                detectedMouthAnchors.getOrNull(bubbleActiveIndex)\n            } else {\n                null\n            }'''
+          if old_detect not in text:
+              raise SystemExit('detected anchor block missing')
+          text = text.replace(old_detect, new_detect, 1)
+
+          old_fallback = '''        val fallbackAnchor =\n            if (activeIndex >= 0) {\n                val x = ((activeIndex + 0.5f) / cast.size.coerceAtLeast(1).toFloat())\n                    .coerceIn(0.07f, 0.93f)\n                // Pre-rendered 9:16 character faces are normally in the upper-middle region.\n                // Fallback characters drawn by Compose sit lower on the stage.\n                val y = if (sceneArtBitmap != null) 0.41f else 0.55f\n                x to y\n            } else {\n                null\n            }'''
+          new_fallback = '''        val fallbackIndex = if (sceneArtBitmap != null) bubbleActiveIndex else activeIndex\n        val fallbackCount = if (sceneArtBitmap != null) bubbleVisualCast.size else cast.size\n        val fallbackAnchor =\n            if (fallbackIndex >= 0 && fallbackCount > 0) {\n                val x = ((fallbackIndex + 0.5f) / fallbackCount.toFloat()).coerceIn(0.07f, 0.93f)\n                val y = if (sceneArtBitmap != null) 0.41f else 0.55f\n                x to y\n            } else {\n                null\n            }'''
+          if old_fallback not in text:
+              raise SystemExit('fallback anchor block missing')
+          text = text.replace(old_fallback, new_fallback, 1)
+
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Verify and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          t = Path('ci/SceneStage.kt').read_text(encoding='utf-8')
+          required = ['orderedDialogueSpeakers(scene)', 'bubbleVisualCast.size', 'SubcomposeLayout(modifier.fillMaxSize())', 'PathEffect.dashPathEffect', 'Color.White.copy(alpha = 0.84f)']
+          missing = [x for x in required if x not in t]
+          if missing: raise SystemExit('Missing speech-bubble patch markers: ' + repr(missing))
+          print('Speech bubble calibration patch verified.')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ci/SceneStage.kt .github/workflows/patch-speech-bubbles.yml .github/workflows/patch-speech-bubbles-v2.yml
+          git rm .github/workflows/patch-speech-bubbles.yml
+          git commit -m "fix: calibrate dialogue speech bubbles to speaker mouths" --no-verify
+          git rm .github/workflows/patch-speech-bubbles-v2.yml
+          git commit -m "ci: remove temporary speech bubble patch workflows" --no-verify
+          git push origin HEAD:main
