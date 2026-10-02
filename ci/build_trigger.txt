@@ -38,3 +38,6 @@ reason: explicit user build approval
 reason: explicit user build approval
 2026-10-02 07:xx TRT - direct build-workflow staging exception: copy HSK4 SC040/SC047 byte-for-byte without decoding; retry main APK
 reason: explicit user build approval
+
+2026-10-02 15:37 TRT - removed dialogue-word strip from Comprehension and Interactive Dialogue exercises; question/content logic unchanged; SC040/SC047 untouched
+reason: explicit user request

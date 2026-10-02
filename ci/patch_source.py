@@ -92,6 +92,15 @@ voice_cast_target.write_text(voice_cast_manifest.read_text(encoding="utf-8"), en
 
 ls = learning_screens.read_text(encoding="utf-8")
 
+# REMOVE_DIALOGUE_WORD_STRIPS_V1
+# Comprehension and Interactive Dialogue exercises do not need the horizontally scrollable dialogue-word strip.
+exercise_strip = "DialogueVocabularyStrip(dialogueWords)"
+if ls.count(exercise_strip) >= 2:
+    ls = ls.replace(exercise_strip, "", 2)
+helper_pattern = re.compile(r"@Composable\nprivate fun DialogueVocabularyStrip\(words: List\[VocabularyCard\]\) \{.*?\n\}\n\nprivate enum class FreeStudyType", re.S)
+if helper_pattern.search(ls):
+    ls = helper_pattern.sub("private enum class FreeStudyType", ls, count=1)
+
 # Sentence Practice must not show the horizontally scrollable dialogue-word strip.
 sentence_start = ls.find("@Composable\nfun SentencePracticeScreen(")
 sentence_end = ls.find("\n@Composable\nfun FreeStudyScreen", sentence_start)

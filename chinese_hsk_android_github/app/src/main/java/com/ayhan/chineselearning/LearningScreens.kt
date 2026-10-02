@@ -54,45 +54,6 @@ private fun StudyShell(title: String, subtitle: String? = null, onBack: () -> Un
     }
 }
 
-@Composable
-private fun DialogueVocabularyStrip(words: List<VocabularyCard>) {
-    if (words.isEmpty()) return
-    Column(Modifier.fillMaxWidth()) {
-        Text(
-            "Diyalogdaki tüm kelimeler · ${words.size}",
-            color = Color.White,
-            fontWeight = FontWeight.Bold,
-            fontSize = 13.sp,
-            modifier = Modifier
-                .background(StudyTop, RoundedCornerShape(10.dp))
-                .padding(horizontal = 9.dp, vertical = 5.dp)
-        )
-        Spacer(Modifier.height(6.dp))
-        LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            items(words, key = { it.id }) { word ->
-                Surface(
-                    color = Color.White.copy(alpha = 0.96f),
-                    shape = RoundedCornerShape(14.dp),
-                    modifier = Modifier.widthIn(min = 110.dp, max = 155.dp)
-                ) {
-                    Column(Modifier.padding(horizontal = 10.dp, vertical = 8.dp)) {
-                        Text(word.zh, color = StudyTop, fontWeight = FontWeight.Bold, fontSize = 20.sp)
-                        if (word.pinyin.isNotBlank()) {
-                            Text(word.pinyin, color = Color(0xFF65566C), fontSize = 11.sp, maxLines = 1)
-                        }
-                        Text(
-                            word.tr.ifBlank { "—" },
-                            color = Color.DarkGray,
-                            fontSize = 11.sp,
-                            maxLines = 2
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
-
 private enum class FreeStudyType {
     VOCABULARY, SENTENCE, COMPREHENSION, INTERACTIVE, PRONUNCIATION
 }
@@ -425,7 +386,7 @@ fun ComprehensionScreen(scene: SceneInfo, dialogueWords: List<VocabularyCard> = 
         Column(Modifier.fillMaxSize().padding(18.dp)) {
             Text("${index + 1} / ${questions.size}", color = Color.White.copy(alpha = 0.75f))
             Spacer(Modifier.height(7.dp))
-            DialogueVocabularyStrip(dialogueWords)
+            
             Card(
                 Modifier.fillMaxWidth().padding(top = 10.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White),
@@ -575,7 +536,7 @@ fun InteractiveDialogueScreen(scene: SceneInfo, dialogueWords: List<VocabularyCa
         Column(Modifier.fillMaxSize().padding(18.dp)) {
             Text("${index + 1} / ${items.size} · Doğru: $correctCount", color = Color.White.copy(alpha = 0.8f))
             Spacer(Modifier.height(7.dp))
-            DialogueVocabularyStrip(dialogueWords)
+            
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), shape = RoundedCornerShape(22.dp), modifier = Modifier.fillMaxWidth().padding(top = 10.dp)) {
                 Column(Modifier.padding(18.dp)) {
                     Text(item.promptZh, color = StudyTop, fontSize = 27.sp, fontWeight = FontWeight.Bold)
