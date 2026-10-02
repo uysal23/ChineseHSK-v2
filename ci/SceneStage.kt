@@ -262,7 +262,7 @@ private fun SpeakerSpeechBubble(
         val pointer = subcompose("speechPointer") {
             Box(Modifier.size(pointerSize).graphicsLayer { rotationZ = 45f }.background(Color.White.copy(alpha = 0.84f)))
         }.first().measure(Constraints.fixed(pointerPx, pointerPx))
-        val bubbleX = if (placeRight) mouthPxX + gapPx + pointerPx / 2 - bubble.width / 2 else mouthPxX - gapPx - pointerPx / 2 - bubble.width + pointer.width / 2
+        val bubbleX = if (placeRight) mouthPxX + gapPx + pointerPx / 2 else mouthPxX - gapPx - pointerPx / 2 - bubble.width + pointer.width / 2
         val maxBubbleX = (constraints.maxWidth - safePx - bubble.width).coerceAtLeast(safePx)
         val placedBubbleX = bubbleX.coerceIn(safePx, maxBubbleX)
         val desiredBubbleY = mouthPxY - bubble.height / 2
