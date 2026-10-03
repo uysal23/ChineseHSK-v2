@@ -38,8 +38,8 @@
     "nextSceneId": "ZH_HSK4_SC048"
   },
   "generation": {
-    "genId": "0822541a-1987-43be-b2b3-0f03fb808e88",
-    "sourceGeneratedFilename": "akşam_aile_bütçe_toplantısı.png"
+    "genId": "20a89e15-27a2-481a-b32c-dd8427fc48b3",
+    "sourceGeneratedFilename": "cozy_realistic_3d_cgi_family_scene_in_a_modern_ap_1.png"
   },
   "finalAssetFilename": "ZH_HSK4_SC047.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp",
@@ -48,8 +48,8 @@
     "height": 854,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "d00e0c7e0d3897f3871b76155416a7d3166a2b6d5453239ed580c17b40811669",
-    "bytes": 23262
+    "sha256": "20a8d66c100bbd7fb842d78e3019faa42dcfd77cc24ea9dd594c4e6ab3ee12cb",
+    "bytes": 30964
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -71,5 +71,5 @@
   "qaStatus": "PASS",
   "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "SC047 akşam yeni ev, dört doğru karakter, emeklilik/bütçe hesabı odağı, 9:16 tek sahne ve LOCKED_V2 kontrolleriyle QA PASS. APK build tetiklenmedi."
+  "qaNoteTr": "2026-10-03: SC047 LOCKED_V2 manifestine göre yeniden üretildi ve görsel QA PASS aldı. Dört doğru konuşmacı (张伟, 刘梅, 李晨, 张雨桐), yeni ev akşam sahnesi, hesap makinesi, metinsiz bütçe/emeklilik belgeleri, not defteri, klasörler ve kupalar görünür. Ekstra karakter, okunabilir metin/logo, kolaj veya split-screen yok. 480x854 WebP authoritative app asset ve runtime mirror olarak yerleştirildi. APK build tetiklenmedi."
 }
