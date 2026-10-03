@@ -1,0 +1,102 @@
+name: Integrate generated HSK4 SC047
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - ci/sc047_upload/READY
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconstruct and validate SC047
+        shell: bash
+        run: |
+          set -euo pipefail
+          UPLOAD="ci/sc047_upload"
+          OUT="$RUNNER_TEMP/ZH_HSK4_SC047.webp"
+          cat "$UPLOAD"/chunk-*.b64 | base64 -d > "$OUT"
+          test "$(stat -c%s "$OUT")" -eq 121422
+          echo "b69834dba04507dd02f06cc2aeab1835d6d3e987e6eabd4bf0992d765fd3314c  $OUT" | sha256sum -c -
+          python3 - "$OUT" <<'PY'
+          from pathlib import Path
+          import sys
+          p = Path(sys.argv[1])
+          b = p.read_bytes()
+          if b[:4] != b"RIFF" or b[8:12] != b"WEBP":
+              raise SystemExit("SC047 reconstructed file is not WEBP")
+          print("SC047 WEBP header and exact binary hash verified.")
+          PY
+
+      - name: Install authoritative asset and update manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="$RUNNER_TEMP/ZH_HSK4_SC047.webp"
+          APP="chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp"
+          RUNTIME="ci/runtime_visuals/ZH_HSK4_SC047.webp"
+          META="chinese_hsk_android_github/visual_sources/scenes/ZH_HSK4_SC047.meta.json"
+          STATUS="chinese_hsk_android_github/visual_sources/visual_batch_status.json"
+          cp "$OUT" "$APP"
+          cp "$OUT" "$RUNTIME"
+          python3 - "$META" "$STATUS" <<'PY'
+          import json, sys
+          from pathlib import Path
+
+          meta_path = Path(sys.argv[1])
+          status_path = Path(sys.argv[2])
+
+          meta = json.loads(meta_path.read_text(encoding="utf-8"))
+          meta["generation"] = {
+              "genId": "20a89e15-27a2-481a-b32c-dd8427fc48b3",
+              "sourceGeneratedFilename": "cozy_realistic_3d_cgi_family_scene_in_a_modern_ap_1.png"
+          }
+          meta["image"] = {
+              "width": 941,
+              "height": 1672,
+              "format": "WEBP",
+              "orientation": "9:16_vertical",
+              "sha256": "b69834dba04507dd02f06cc2aeab1835d6d3e987e6eabd4bf0992d765fd3314c",
+              "bytes": 121422
+          }
+          meta["qaStatus"] = "PASS"
+          meta["status"] = "FINAL_GENERATED"
+          meta["binaryIntegrityChecked"] = True
+          meta["qaNoteTr"] = (
+              "2026-10-03: SC047 LOCKED_V2 manifestine göre yeniden üretildi ve görsel QA PASS aldı. "
+              "Dört doğru konuşmacı (张伟, 刘梅, 李晨, 张雨桐), yeni ev akşam sahnesi, hesap makinesi, "
+              "metinsiz bütçe/emeklilik belgeleri, not defteri, klasörler ve kupalar görünür. "
+              "Ekstra karakter, okunabilir metin/logo, kolaj veya split-screen yok. "
+              "941x1672 WebP authoritative app asset ve runtime mirror olarak yerleştirildi. APK build tetiklenmedi."
+          )
+          meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          status = json.loads(status_path.read_text(encoding="utf-8"))
+          status["latestVisualRevision"] = "HSK4_SC047_REGENERATED_QA_PASS_2026-10-03"
+          block = status.get("hsk4Sc041Sc050BatchProgress", {})
+          block["noteTr"] = (
+              "SC041-SC047 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. "
+              "SC047 2026-10-03 tarihinde yeniden üretilmiş 941x1672 canonical final ile değiştirildi. "
+              "SC048-SC050 pending. APK build tetiklenmedi."
+          )
+          status["hsk4Sc041Sc050BatchProgress"] = block
+          status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit final SC047 and remove temporary upload
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf ci/sc047_upload
+          rm -f .github/workflows/integrate-sc047-generated.yml
+          git add             chinese_hsk_android_github/app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp             ci/runtime_visuals/ZH_HSK4_SC047.webp             chinese_hsk_android_github/visual_sources/scenes/ZH_HSK4_SC047.meta.json             chinese_hsk_android_github/visual_sources/visual_batch_status.json             ci/sc047_upload             .github/workflows/integrate-sc047-generated.yml
+          git commit -m "visuals: replace HSK4 SC047 with regenerated canonical final [skip ci]"
+          git push origin HEAD:main
