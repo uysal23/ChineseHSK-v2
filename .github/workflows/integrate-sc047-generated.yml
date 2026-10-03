@@ -22,8 +22,8 @@ jobs:
           UPLOAD="ci/sc047_upload"
           OUT="$RUNNER_TEMP/ZH_HSK4_SC047.webp"
           cat "$UPLOAD"/chunk-*.b64 | base64 -d > "$OUT"
-          test "$(stat -c%s "$OUT")" -eq 46070
-          echo "9758d443ae07fa2f5ed35fe44c5d3e6fbf87778b5129e240ba286dcd2f5761cf  $OUT" | sha256sum -c -
+          test "$(stat -c%s "$OUT")" -eq 30964
+          echo "20a8d66c100bbd7fb842d78e3019faa42dcfd77cc24ea9dd594c4e6ab3ee12cb  $OUT" | sha256sum -c -
           python3 - "$OUT" <<'PY'
           from pathlib import Path
           import sys
@@ -62,8 +62,8 @@ jobs:
               "height": 854,
               "format": "WEBP",
               "orientation": "9:16_vertical",
-              "sha256": "9758d443ae07fa2f5ed35fe44c5d3e6fbf87778b5129e240ba286dcd2f5761cf",
-              "bytes": 46070
+              "sha256": "20a8d66c100bbd7fb842d78e3019faa42dcfd77cc24ea9dd594c4e6ab3ee12cb",
+              "bytes": 30964
           }
           meta["qaStatus"] = "PASS"
           meta["status"] = "FINAL_GENERATED"
