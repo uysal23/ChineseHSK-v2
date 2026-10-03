@@ -54,22 +54,21 @@ private data class CartoonStyle(
     val accessory: Int
 )
 
-private val bubbleVisualPriority = mapOf(
-    "张伟" to 0,
-    "刘梅" to 1,
-    "张乐乐" to 2,
-    "张雨桐" to 3,
-    "王师傅" to 4
-)
-
-private fun bubbleVisualRank(name: String): Int = bubbleVisualPriority[name] ?: 1000
-
 private fun orderedDialogueSpeakers(scene: SceneInfo): List<String> {
-    val speakers = scene.dialogues
+    val dialogueSpeakers = scene.dialogues
         .map { it.speaker }
         .filter { it.isNotBlank() && it != "旁白" }
         .distinct()
-    return speakers.sortedWith(compareBy<String> { bubbleVisualRank(it) }.thenBy { speakers.indexOf(it) })
+
+    // Never impose one global left-to-right identity order on every generated scene.
+    // Each LOCKED_V2 scene has its own authored cast/composition, so use the
+    // scene-local production character order for participating speakers and
+    // append any dialogue-only speakers in first-dialogue order.
+    val authoredSceneOrder = scene.production.characters
+        .filter { it in dialogueSpeakers }
+        .distinct()
+
+    return authoredSceneOrder + dialogueSpeakers.filterNot { it in authoredSceneOrder }
 }
 
 private fun portraitVariantFor(profile: CharacterProfile?, level: String): String {
