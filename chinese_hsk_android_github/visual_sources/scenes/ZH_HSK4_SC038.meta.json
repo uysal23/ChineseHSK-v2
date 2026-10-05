@@ -56,19 +56,22 @@
     "uniqueSceneIdChecked": true,
     "hsk4MaturityLockChecked": true
   },
-  "sourceGeneratedFilename": "sıcak_bir_hastane_konsültasyonu.png",
+  "sourceGeneratedFilename": "ZH_HSK4_SC038.png",
   "finalAssetFilename": "ZH_HSK4_SC038.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC038.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "ae9d2f8b1edff8722d188b59da6fc05097791c6707c7c2260a40435b07bd77b5",
-    "bytes": 150506
+    "sha256": "9baa902389130e02437deb94ea7dabbb9310b6814be7c57b71534f09fce7dc49",
+    "bytes": 313268
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-29: Gerçek HSK4 scene JSON, kadro, mekan, continuity, HSK4 maturity, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+  "qaNoteTr": "SC038-SC039 hastane sahneleri yeniden üretildi. Zhang Wei ve Liu Mei’nin yüz/yaş görünümü SC020, büyükanne ve büyükbabanın görünümü SC040 ile eşleşiyor. Diyalog kadrosu, hastane ekipmanı ve sahneler arası oda sürekliliği doğrulandı. APK build başlatılmadı.",
+  "generationPrompt": "Use case: illustration-story. Canonical Chinese HSK4 story image, single 9:16 portrait warm cinematic high-quality 2.5D/3D CGI, no text, readable letters/numbers, logos, watermark, collage, panels or app UI. Reference image1 SC020 locks mature parents' facial identities and rendering: Zhang Wei short wavy dark hair, black rectangular glasses, mature Chinese father, navy cardigan/sweater and pale shirt; Liu Mei mature Chinese mother with brown loose LOW bun and cream knit cardigan, same face geometry and apparent adult age as SC020. Reference image2 new SC040 locks elderly grandparents' facial identities: grandfather swept gray hair, broad lined elderly face; grandmother gray soft curls, kindly elderly face, plum cardigan/floral blouse. Reference image3 old target scene locks hospital room and adult male doctor's identity: short swept dark hair, no glasses, white coat over pale blue shirt and dark tie, stethoscope and clipboard. Recreate story with corrected SC020 family identities and consistent SC040 grandparents. Warm daylight hospital LOC_ZH_HOSPITAL_001, clean bed with white sheets and modest pale blue patterned hospital gown on grandfather, IV stand and plain medical monitor in background with unlabelled waveform only. Exactly four named speakers all faces unobstructed, natural respectful medical conversation, calm family support. No medical emergency or distress, no injuries. Room perspective and equipment consistent between SC038 and SC039, soft light through pale curtains. SC038 Grandfather in Hospital: ONLY grandfather, grandmother, Zhang Wei and adult male doctor; no Liu Mei, no children. Grandfather resting alert and upright in hospital bed for a minor health concern, grandmother beside bed gently holding his hand, Zhang Wei with SC020 glasses/wavy hair close beside them listening with concern. Doctor calmly explaining situation with open-hand gesture and plain clipboard. All four speakers clear and visible, serious yet reassuring atmosphere, same grandparents as SC040. Show bed, IV/monitor and doctor's note board without readable text.",
+  "styleReferenceSceneId": "ZH_HSK4_SC020",
+  "grandparentsReferenceSceneId": "ZH_HSK4_SC040"
 }

@@ -908,5 +908,21 @@
     "buildApproved": false,
     "buildApprovalRequired": true,
     "noteTr": "5/5 sahne canonical ebeveyn yüz/stil continuity ve sahne anlatımı için yeniden üretildi. SC033 öğretmen video görüşmesi düzeltildi. SC032 kontrol edildi ve korundu. APK build başlatılmadı."
+  },
+  "hsk4Sc038Sc039ContinuityRepair": {
+    "sceneIds": [
+      "ZH_HSK4_SC038",
+      "ZH_HSK4_SC039"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK4_SC038",
+      "ZH_HSK4_SC039"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "styleReferenceSceneId": "ZH_HSK4_SC020",
+    "buildApproved": false,
+    "buildApprovalRequired": true,
+    "noteTr": "SC038-SC039 hastane continuity için yeniden üretildi; büyükanne/büyükbaba yüzleri SC040, ebeveyn yüzleri SC020 ile eşleşir. APK build başlatılmadı."
   }
 }

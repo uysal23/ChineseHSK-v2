@@ -3,7 +3,7 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "sceneId": "ZH_HSK4_SC038",
-  "status": "ANALYZED_READY_FOR_GENERATION",
+  "status": "INTEGRATED_QA_PASS",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC038.json",
   "titleTr": "Büyükbaba Hastanede",
   "locationId": "LOC_ZH_HOSPITAL_001",
@@ -53,5 +53,8 @@
     "sexualizedClothingAllowed": false,
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
-  }
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC020",
+  "grandparentsReferenceSceneId": "ZH_HSK4_SC040",
+  "qaNoteTr": "SC038-SC039 hastane sahneleri yeniden üretildi. Zhang Wei ve Liu Mei’nin yüz/yaş görünümü SC020, büyükanne ve büyükbabanın görünümü SC040 ile eşleşiyor. Diyalog kadrosu, hastane ekipmanı ve sahneler arası oda sürekliliği doğrulandı. APK build başlatılmadı."
 }
