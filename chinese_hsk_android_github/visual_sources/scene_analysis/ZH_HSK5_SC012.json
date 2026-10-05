@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC012",
+  "generationSceneId": "ZH_HSK5_SC012",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC012.json",
+  "dialogueSha256": "e42f35f42979ea94d58a2f816831a6c79c5ab0c241281b3eded6aab7352a553c",
+  "titleZh": "第一次面试失败",
+  "titleTr": "İlk Staj Görüşmesi Başarısız",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "İlk görüşmeden olumsuz yanıt alır ve geri bildirim ister.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "面试官",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "面试官",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "面试官": "adult_role_character",
+    "刘梅": "senior_female_parent",
+    "朋友": "adult_role_character"
+  },
+  "criticalObjects": [
+    "yazısız görüşme dosyası",
+    "boş ekranlı dizüstü bilgisayar",
+    "üniversite kariyer merkezi masası"
+  ],
+  "visualDirectionTr": "Üniversite kariyer merkezinde ilk görüşmenin ardından Yutong geri bildirim ister; görüşmeci, arkadaşı ve Liu Mei destek olur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC011",
+    "nextSceneId": "ZH_HSK5_SC013",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

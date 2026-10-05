@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC017",
+  "generationSceneId": "ZH_HSK5_SC017",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC017.json",
+  "dialogueSha256": "0d388ec7ecca91f34c946812013100432f112ae7084be53668a489b58ff0bf6b",
+  "titleZh": "环保小组请爷爷讲话",
+  "titleTr": "Çevre Kulübü Büyükbabayı Davet Ediyor",
+  "locationId": "LOC_ZH_ENVIRONMENT_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yerel çevre grubu büyükbabayı sürdürülebilir tarım üzerine konuşmaya çağırır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "环保小组成员",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "环保小组成员",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张雨桐",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "爷爷": "adult_role_character",
+    "环保小组成员": "adult_role_character",
+    "张乐乐": "young_adult_male",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "fide tepsileri",
+    "boş davet kartı",
+    "saksı ve küçük bahçe modeli"
+  ],
+  "visualDirectionTr": "Çevre merkezinde yetişkin çevre grubu üyesi büyükbabayı sürdürülebilir tarım konuşmasına davet eder; Lele ve Liu Mei eşlik eder.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC016",
+    "nextSceneId": "ZH_HSK5_SC018",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

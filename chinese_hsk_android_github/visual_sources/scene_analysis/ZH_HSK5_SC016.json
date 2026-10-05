@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC016",
+  "generationSceneId": "ZH_HSK5_SC016",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC016.json",
+  "dialogueSha256": "b67781d20d33f132af6d7fceca2642aeeb6e10ba9ad2754f0578250139ec0dd4",
+  "titleZh": "爷爷的老办法",
+  "titleTr": "Büyükbabanın Eski Tarım Yöntemleri",
+  "locationId": "LOC_ZH_GARDEN_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükbaba eski yöntemleri anlatır; gençler modern tekniklerle karşılaştırır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "爷爷": "adult_role_character",
+    "张伟": "senior_male_parent",
+    "张乐乐": "young_adult_male",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "sebze fideleri",
+    "toprak ve sulama kabı",
+    "ekranı kapalı tablet"
+  ],
+  "visualDirectionTr": "Aile bahçesinde büyükbaba geleneksel toprak ve sulama yöntemlerini anlatır; Zhang Wei, genç yetişkin Lele ve Liu Mei modern yöntemlerle karşılaştırır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC015",
+    "nextSceneId": "ZH_HSK5_SC017",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

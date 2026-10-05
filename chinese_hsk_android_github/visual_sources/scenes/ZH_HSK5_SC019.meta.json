@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC019",
+  "generationSceneId": "ZH_HSK5_SC019",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC019.json",
+  "dialogueSha256": "e327a66f34a39e328a1045c6170a7638cc273df6c087f0750a42a9eb7535ab86",
+  "titleZh": "成本涨得太快",
+  "titleTr": "Maliyetler Yükseliyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Malzeme ve enerji maliyetleri hızla artar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "经理",
+    "供应商"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "经理",
+    "供应商"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "供应商": "adult_role_character"
+  },
+  "criticalObjects": [
+    "etiketsiz kuru malzeme kavanozları",
+    "yazısız faturalar",
+    "basit küçük ev aleti"
+  ],
+  "visualDirectionTr": "Aynı aile kafesinde Liu Mei, gözlüklü Zhang Wei, aynı müdür ve tedarikçi artan malzeme ve enerji maliyetlerini değerlendirir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC018",
+    "nextSceneId": "ZH_HSK5_SC020",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC019.png",
+  "finalAssetFilename": "ZH_HSK5_SC019.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC019.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "63a8fad7cb43766fb5f4ec146c665653b4fe413fb2ed6cb06ebd2b351402b3fa",
+    "bytes": 425708
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC018 aynı kafe ve müdür, Liu Mei yüzü; SC010 gözlüklü Zhang; yeni yetişkin tedarikçi; boş fatura ve maliyet konuşması.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC015",
+  "generationSceneId": "ZH_HSK5_SC015",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC015.json",
+  "dialogueSha256": "8756795f7d48051f9cb41de32ba553c24771b3a00179f82a8afc97e160c76fa4",
+  "titleZh": "网上的假消息",
+  "titleTr": "İnternette Yanlış Bilgi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele’nin projesinde paylaştığı bir bilgi şüpheli çıkar; kaynakları kontrol ederler.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "老师": "adult_educator"
+  },
+  "criticalObjects": [
+    "tamamen boş kaynak doğrulama kâğıdı",
+    "büyüteç",
+    "kapalı dizüstü bilgisayar"
+  ],
+  "visualDirectionTr": "Yeni aile evinde Lele, Zhang Wei, Liu Mei ve öğretmen şüpheli çevrimiçi bilgiyi birlikte kaynaklardan doğrular.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC014",
+    "nextSceneId": "ZH_HSK5_SC016",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC015.png",
+  "finalAssetFilename": "ZH_HSK5_SC015.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC015.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "23896ce95857fc180da65eeca2803bb1cced47d9fbc5b78f4cc72c07a455d951",
+    "bytes": 388876
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC014 Lele, Zhang ve aynı kadın öğretmen sürekliliği; Liu Mei aile sürekliliği; evde kaynak denetimi, ekranda/kağıtta yazı yok.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC020",
+  "generationSceneId": "ZH_HSK5_SC020",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC020.json",
+  "dialogueSha256": "9c6aecdfe2c684f82b2eaed0f648480b08831a05f2879aab1128e7bf528151f6",
+  "titleZh": "要不要涨价？",
+  "titleTr": "Fiyat Artışı Tartışması",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei fiyat artışının müşteriler üzerindeki etkisini ekip ile tartışır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "经理"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "经理"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "顾客": "adult_role_character",
+    "经理": "adult_manager"
+  },
+  "criticalObjects": [
+    "boş menü panosu",
+    "hesap makinesi boş ekranlı",
+    "kahve fincanı"
+  ],
+  "visualDirectionTr": "Aynı kafede Liu Mei, gözlüklü Zhang Wei, aynı müdür ve bir müşteri fiyat artışının etkilerini saygılı biçimde tartışır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC019",
+    "nextSceneId": "ZH_HSK5_SC021",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC020.png",
+  "finalAssetFilename": "ZH_HSK5_SC020.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC020.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "1a9d13ee4deb76ecff11c15cbc5b674020b94cad2915844cb19e11e837c0f0e4",
+    "bytes": 438426
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC019 aynı kafe, Liu Mei, gözlüklü Zhang ve müdür; tedarikçi yerine yetişkin müşteri; fiyat artışı konuşması, boş menü.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC013",
+  "generationSceneId": "ZH_HSK5_SC013",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC013.json",
+  "dialogueSha256": "9662cce0ea8bc37a0a84750c671042f31720dc9ae4e72e7d5cc63f0f000243fe",
+  "titleZh": "第二次面试成功",
+  "titleTr": "İkinci Görüşmede Başarı",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yutong ikinci görüşmede daha iyi hazırlanıp staj kazanır.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "面试官",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "面试官",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "面试官": "adult_role_character",
+    "同事": "adult_coworker",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş teklif klasörü",
+    "not defteri",
+    "işyeri görüşme masası"
+  ],
+  "visualDirectionTr": "İşyeri görüşme odasında Yutong ikinci görüşmede daha iyi hazırlanmış, staj teklifini görüşmeci ve iş arkadaşıyla alır; Liu Mei yanında.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC012",
+    "nextSceneId": "ZH_HSK5_SC014",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC013.png",
+  "finalAssetFilename": "ZH_HSK5_SC013.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC013.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "249f8df6a9c1e2a5fa906a985a6d3b2fe72ab4acfc8f543e18711965fd60a151",
+    "bytes": 354148
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC012 yüzleri devam; Yutong ikinci görüşmede başarılı, aynı kadın görüşmeci, yeni yetişkin erkek iş arkadaşı ve Liu Mei; teklif klasörü yazısız.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

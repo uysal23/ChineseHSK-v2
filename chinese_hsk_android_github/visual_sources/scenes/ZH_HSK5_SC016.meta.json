@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC016",
+  "generationSceneId": "ZH_HSK5_SC016",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC016.json",
+  "dialogueSha256": "b67781d20d33f132af6d7fceca2642aeeb6e10ba9ad2754f0578250139ec0dd4",
+  "titleZh": "爷爷的老办法",
+  "titleTr": "Büyükbabanın Eski Tarım Yöntemleri",
+  "locationId": "LOC_ZH_GARDEN_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükbaba eski yöntemleri anlatır; gençler modern tekniklerle karşılaştırır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "爷爷": "adult_role_character",
+    "张伟": "senior_male_parent",
+    "张乐乐": "young_adult_male",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "sebze fideleri",
+    "toprak ve sulama kabı",
+    "ekranı kapalı tablet"
+  ],
+  "visualDirectionTr": "Aile bahçesinde büyükbaba geleneksel toprak ve sulama yöntemlerini anlatır; Zhang Wei, genç yetişkin Lele ve Liu Mei modern yöntemlerle karşılaştırır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC015",
+    "nextSceneId": "ZH_HSK5_SC017",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC016.png",
+  "finalAssetFilename": "ZH_HSK5_SC016.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC016.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "3877d79603d8855f21e968e8ecb4adbaae994b717e46b7444399fd4bcd72d019",
+    "bytes": 515794
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK4 SC040 büyükbaba yüz referansı; HSK5 SC014 Lele, gözlüklü Zhang ve SC003 Liu Mei; gündüz aile bahçesinde dört kişi.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

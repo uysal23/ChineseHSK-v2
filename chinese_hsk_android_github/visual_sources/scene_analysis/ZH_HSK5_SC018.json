@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC018",
+  "generationSceneId": "ZH_HSK5_SC018",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC018.json",
+  "dialogueSha256": "348874a710c0cad8fa6e541ff1254191d6e02f1319f9663237571fa37e1da65f",
+  "titleZh": "咖啡馆少用塑料",
+  "titleTr": "Kafe Plastik Kullanımını Azaltıyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe tek kullanımlık plastikleri azaltan yeni uygulamalar başlatır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "经理",
+    "顾客",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "经理",
+    "顾客",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "顾客": "adult_role_character",
+    "员工": "adult_cafe_employee"
+  },
+  "criticalObjects": [
+    "yeniden kullanılabilir seramik fincan",
+    "cam su şişesi",
+    "kafe kahve makinesi"
+  ],
+  "visualDirectionTr": "Aile kafesinde Liu Mei ile aynı müdür ve çalışan müşteriye yeniden kullanılabilir fincan ve şişeleri tanıtarak tek kullanımlık plastiği azaltır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC017",
+    "nextSceneId": "ZH_HSK5_SC019",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

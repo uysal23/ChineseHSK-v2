@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC020",
+  "generationSceneId": "ZH_HSK5_SC020",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC020.json",
+  "dialogueSha256": "9c6aecdfe2c684f82b2eaed0f648480b08831a05f2879aab1128e7bf528151f6",
+  "titleZh": "要不要涨价？",
+  "titleTr": "Fiyat Artışı Tartışması",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei fiyat artışının müşteriler üzerindeki etkisini ekip ile tartışır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "经理"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "顾客",
+    "经理"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "顾客": "adult_role_character",
+    "经理": "adult_manager"
+  },
+  "criticalObjects": [
+    "boş menü panosu",
+    "hesap makinesi boş ekranlı",
+    "kahve fincanı"
+  ],
+  "visualDirectionTr": "Aynı kafede Liu Mei, gözlüklü Zhang Wei, aynı müdür ve bir müşteri fiyat artışının etkilerini saygılı biçimde tartışır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC019",
+    "nextSceneId": "ZH_HSK5_SC021",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC012",
+  "generationSceneId": "ZH_HSK5_SC012",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC012.json",
+  "dialogueSha256": "e42f35f42979ea94d58a2f816831a6c79c5ab0c241281b3eded6aab7352a553c",
+  "titleZh": "第一次面试失败",
+  "titleTr": "İlk Staj Görüşmesi Başarısız",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "İlk görüşmeden olumsuz yanıt alır ve geri bildirim ister.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "面试官",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "面试官",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "面试官": "adult_role_character",
+    "刘梅": "senior_female_parent",
+    "朋友": "adult_role_character"
+  },
+  "criticalObjects": [
+    "yazısız görüşme dosyası",
+    "boş ekranlı dizüstü bilgisayar",
+    "üniversite kariyer merkezi masası"
+  ],
+  "visualDirectionTr": "Üniversite kariyer merkezinde ilk görüşmenin ardından Yutong geri bildirim ister; görüşmeci, arkadaşı ve Liu Mei destek olur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC011",
+    "nextSceneId": "ZH_HSK5_SC013",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC012.png",
+  "finalAssetFilename": "ZH_HSK5_SC012.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC012.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "b486a5f619a554ec5e779ba3548f78dd2b075dcedca3428e0ccf5c5bc15eca9c",
+    "bytes": 358276
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC011 ile aynı üniversite ortamı ve Yutong/Liu Mei yüzleri; yetişkin kadın görüşmeci ve sınıf arkadaşı; ilk görüşme sonrası nazik geri bildirim anı.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

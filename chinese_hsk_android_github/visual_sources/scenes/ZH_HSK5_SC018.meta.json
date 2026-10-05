@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC018",
+  "generationSceneId": "ZH_HSK5_SC018",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC018.json",
+  "dialogueSha256": "348874a710c0cad8fa6e541ff1254191d6e02f1319f9663237571fa37e1da65f",
+  "titleZh": "咖啡馆少用塑料",
+  "titleTr": "Kafe Plastik Kullanımını Azaltıyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe tek kullanımlık plastikleri azaltan yeni uygulamalar başlatır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "经理",
+    "顾客",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "经理",
+    "顾客",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "顾客": "adult_role_character",
+    "员工": "adult_cafe_employee"
+  },
+  "criticalObjects": [
+    "yeniden kullanılabilir seramik fincan",
+    "cam su şişesi",
+    "kafe kahve makinesi"
+  ],
+  "visualDirectionTr": "Aile kafesinde Liu Mei ile aynı müdür ve çalışan müşteriye yeniden kullanılabilir fincan ve şişeleri tanıtarak tek kullanımlık plastiği azaltır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC017",
+    "nextSceneId": "ZH_HSK5_SC019",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC018.png",
+  "finalAssetFilename": "ZH_HSK5_SC018.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC018.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "a6bdb5d3cf4e0b842082ecd83ec1e0ae83e1c4e9975e457d985b4e0761e2f1db",
+    "bytes": 434304
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK5 SC004 aile kafesi, Liu Mei, kadın müdür ve erkek çalışan yüz/stil referansı; dördüncü yeni müşteri; plastik azaltma.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

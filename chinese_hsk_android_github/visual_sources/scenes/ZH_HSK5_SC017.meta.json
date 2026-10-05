@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC017",
+  "generationSceneId": "ZH_HSK5_SC017",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC017.json",
+  "dialogueSha256": "0d388ec7ecca91f34c946812013100432f112ae7084be53668a489b58ff0bf6b",
+  "titleZh": "环保小组请爷爷讲话",
+  "titleTr": "Çevre Kulübü Büyükbabayı Davet Ediyor",
+  "locationId": "LOC_ZH_ENVIRONMENT_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yerel çevre grubu büyükbabayı sürdürülebilir tarım üzerine konuşmaya çağırır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "环保小组成员",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "环保小组成员",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张雨桐",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "爷爷": "adult_role_character",
+    "环保小组成员": "adult_role_character",
+    "张乐乐": "young_adult_male",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "fide tepsileri",
+    "boş davet kartı",
+    "saksı ve küçük bahçe modeli"
+  ],
+  "visualDirectionTr": "Çevre merkezinde yetişkin çevre grubu üyesi büyükbabayı sürdürülebilir tarım konuşmasına davet eder; Lele ve Liu Mei eşlik eder.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC016",
+    "nextSceneId": "ZH_HSK5_SC018",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC017.png",
+  "finalAssetFilename": "ZH_HSK5_SC017.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC017.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "e166ec0013f11a148c39948c9cd4e57056d9a63c87d70cc3e6cfb4c01e865950",
+    "bytes": 453706
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC016 büyükbaba, Lele ve Liu Mei yüz sürekliliği; Zhang olmadan, bir kadın çevre grubu görevlisi; fide masalı toplum çevre merkezi.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}
