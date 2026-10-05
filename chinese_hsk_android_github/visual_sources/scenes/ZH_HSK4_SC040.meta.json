@@ -37,7 +37,7 @@
   ],
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC039",
-    "nextSceneId": null
+    "nextSceneId": "ZH_HSK4_SC041"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,19 +56,22 @@
     "uniqueSceneIdChecked": true,
     "hsk4MaturityLockChecked": true
   },
-  "sourceGeneratedFilename": "大爷的固执与家人的关怀.png",
+  "sourceGeneratedFilename": "ZH_HSK4_SC040.png",
   "finalAssetFilename": "ZH_HSK4_SC040.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC040.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "f8eb8d09336269bab20ad070993f19211ffba882bb0b5fcb4deabd418cbefc5c",
-    "bytes": 85570
+    "sha256": "e5070247b39ab64e5e0d833951e9abb345ce8035d8416597d5ef721421c2a679",
+    "bytes": 458332
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-29: Kullanıcı onaylı yeniden üretim; gerçek HSK4 SC040 sahne bağlamı, dört konuşmacı, LOC_ZH_GRANDPARENTS_HOME_001, HSK4 maturity, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+  "qaNoteTr": "SC040 bozuk WebP yerine yeniden üretildi. Dört konuşmacı, büyükanne/büyükbaba evi, çay takımı, SC020 stil ve SC049 yüz/yaş continuity kontrolü PASS. APK için yeni açık onay gerekir.",
+  "generationPrompt": "Use case: illustration-story. Create the replacement canonical Chinese HSK4 SC040 scene, a single 9:16 portrait warm cinematic realistic 2.5D/3D CGI illustration, no text or logos. Reference image 1 (SC020) locks the rendering style and mature parents' facial identities: Zhang Wei black rectangular glasses, short wavy dark hair, navy sweater over pale shirt; Liu Mei warm brown hair in loose low bun, cream knit cardigan, mature adult facial features. Reference image 2 (SC049) locks elderly grandparents' identities: grandfather short swept gray hair, broad lined face, gray/taupe cardigan over pale shirt; grandmother softly curled gray hair, plum cardigan over floral blouse. ONLY these four characters, all clearly visible, no young people, no doctor. Scene LOC_ZH_GRANDPARENTS_HOME_001: their warm lived-in Chinese home living room with sofa, wooden coffee table and plain ceramic tea set, daylight through curtains, modest house plants. Grandfather has returned home after a health concern; he stands beside the sofa, gently insisting he does not need to rest, mildly stubborn but not angry. Grandmother sits beside him reaching out with an encouraging calming gesture. Zhang Wei and Liu Mei sit or lean nearby respectfully discussing health, rest and sustainable lifestyle, concerned affectionate expressions, natural conversation rather than a posed group portrait. Coherent hands, full visible faces, believable mature ages, soft warm sunlight, rich knit textures, natural perspective, four-person medium-wide composition fitted to portrait, foreground tea set. Keep character face geometry and CGI material/render quality consistent with references. No hospital equipment, no medical uniform, no bed, no collage, no panels, no captions, no signs, no UI, no watermark. Produce high resolution portrait.",
+  "styleReferenceSceneId": "ZH_HSK4_SC020",
+  "characterReferenceSceneId": "ZH_HSK4_SC049"
 }

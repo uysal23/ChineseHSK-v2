@@ -60,9 +60,8 @@
       "ZH_HSK4_SC050"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": true,
-    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor. 2026-10-05: Kullanıcı 'build et' talimatıyla mevcut main APK build için açık onay verdi.",
-    "buildApprovedAt": "2026-10-05T15:14:58.035Z"
+    "buildApproved": false,
+    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor. 2026-10-05: Kullanıcı 'build et' talimatıyla mevcut main APK build için açık onay verdi. SC040 düzeltmesi sonrası yeni APK onayı bekleniyor."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -857,5 +856,13 @@
     "apkRequiresFreshExplicitUserApproval": true,
     "updatedAt": "2026-10-04",
     "source": "user_instruction"
+  },
+  "sc040AssetRepair": {
+    "sceneId": "ZH_HSK4_SC040",
+    "status": "INTEGRATED_QA_PASS",
+    "binaryIntegrityChecked": true,
+    "buildApproved": false,
+    "buildApprovalRequired": true,
+    "imageSha256": "e5070247b39ab64e5e0d833951e9abb345ce8035d8416597d5ef721421c2a679"
   }
 }

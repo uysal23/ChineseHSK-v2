@@ -3,7 +3,7 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "sceneId": "ZH_HSK4_SC040",
-  "status": "ANALYZED_READY_FOR_GENERATION",
+  "status": "INTEGRATED_QA_PASS",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC040.json",
   "titleTr": "Büyükbaba İnat Ediyor",
   "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
@@ -37,7 +37,7 @@
   "visualDirectionTr": "Sıcak gündüz ışığında büyükanne ve büyükbabanın evinde aile konuşması. Büyükbaba ayağa kalkmış ve dinlenmek istemediğini beden diliyle belli ediyor; büyükanne onu sakinleştirmeye çalışıyor, Zhang Wei ve Liu Mei endişeli ama saygılı biçimde konuşuyor. Dört konuşmacı görünür.",
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC039",
-    "nextSceneId": null
+    "nextSceneId": "ZH_HSK4_SC041"
   },
   "requiredImageRules": {
     "aspectRatio": "9:16",

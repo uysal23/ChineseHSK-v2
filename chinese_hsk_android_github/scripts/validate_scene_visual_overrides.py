@@ -24,7 +24,7 @@ REQUIRED_CHECKS = {
 GATE_SCENES = {"ZH_HSK2_SC011", "ZH_HSK4_SC045", "ZH_HSK4_SC046"}
 # These two existing assets are intentionally preserved byte-for-byte for this build.
 # They are packaged as-is and are not normalized, decoded, or treated as visual-gate blockers.
-BUILD_EXCLUDED_SCENES = {"ZH_HSK4_SC040", "ZH_HSK4_SC047"}
+BUILD_EXCLUDED_SCENES = {"ZH_HSK4_SC047"}
 TARGET_SIZE = (941, 1672)
 
 def load(path: Path):

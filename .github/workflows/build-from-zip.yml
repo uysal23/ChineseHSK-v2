@@ -302,16 +302,16 @@ jobs:
           import shutil, sys
           source_dir=Path(sys.argv[1]); scene_dir=Path(sys.argv[2]); copied=0
           for p in sorted(source_dir.glob("ZH_HSK*_SC*.webp")):
-              # HSK4 SC040 and SC047 are intentionally preserved exactly as committed.
-              # Do not decode, normalize, resize, or replace these two existing assets.
-              if p.stem in {"ZH_HSK4_SC040", "ZH_HSK4_SC047"}:
+              # HSK4 SC047 retains its existing byte-preservation exception.
+              # SC040 now follows normal WebP and portrait validation.
+              if p.stem in {"ZH_HSK4_SC047"}:
                   shutil.copy2(p, scene_dir/p.name); copied += 1; continue
               with Image.open(p) as im:
                   w,h=im.size
                   if im.format != "WEBP": raise SystemExit(f"Source override is not WEBP: {p.name} ({im.format})")
                   if h <= w or abs((w/h)-(9/16)) > 0.01: raise SystemExit(f"Source override is not 9:16 portrait: {p.name} {w}x{h}")
               shutil.copy2(p,scene_dir/p.name); copied += 1
-          print(f"Applied {copied} authoritative source-tree scene override(s); SC040/SC047 copied without decoding.")
+          print(f"Applied {copied} authoritative source-tree scene override(s); SC047 copied without decoding; SC040 validated normally.")
           PY
           else
             echo "No authoritative source-tree scene overrides present."
