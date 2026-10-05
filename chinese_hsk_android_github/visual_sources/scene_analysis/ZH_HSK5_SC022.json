@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC022",
+  "generationSceneId": "ZH_HSK5_SC022",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC022.json",
+  "dialogueSha256": "5eb4df4f8f3f444d27f2f2b206620bd3ebb91fc865cb1debfda9eba5d8cd94de",
+  "titleZh": "有点尴尬的晚饭",
+  "titleTr": "İlk Aile Yemeği Gerginliği",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yemek sırasında birkaç soru ortamı gereksiz yere gerer.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张乐乐",
+    "爷爷"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_partner",
+    "张伟": "senior_male_parent",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "aile yemeği tabakları",
+    "çay fincanları",
+    "yemek masası"
+  ],
+  "visualDirectionTr": "Aynı akşam aile yemeğinde Yutong, partneri, Zhang ve büyükanne; birkaç fazla kişisel soru ortamı gerer.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC021",
+    "nextSceneId": "ZH_HSK5_SC023",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC022",
+  "generationSceneId": "ZH_HSK5_SC022",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC022.json",
+  "dialogueSha256": "5eb4df4f8f3f444d27f2f2b206620bd3ebb91fc865cb1debfda9eba5d8cd94de",
+  "titleZh": "有点尴尬的晚饭",
+  "titleTr": "İlk Aile Yemeği Gerginliği",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yemek sırasında birkaç soru ortamı gereksiz yere gerer.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张乐乐",
+    "爷爷"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_partner",
+    "张伟": "senior_male_parent",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "aile yemeği tabakları",
+    "çay fincanları",
+    "yemek masası"
+  ],
+  "visualDirectionTr": "Aynı akşam aile yemeğinde Yutong, partneri, Zhang ve büyükanne; birkaç fazla kişisel soru ortamı gerer.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC021",
+    "nextSceneId": "ZH_HSK5_SC023",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC022.png",
+  "finalAssetFilename": "ZH_HSK5_SC022.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC022.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "018f17848801bced1756bb04fb790ab887969a9ae75ac35350208b38aea41b5d",
+    "bytes": 382874
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC021 aynı partner, Yutong ve Zhang; HSK4 SC040 büyükanne yüzü; akşam masasında hafif gerginlik.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

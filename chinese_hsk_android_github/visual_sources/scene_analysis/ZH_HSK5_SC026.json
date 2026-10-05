@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC026",
+  "generationSceneId": "ZH_HSK5_SC026",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC026.json",
+  "dialogueSha256": "2df20069349d38df960e4ea1149d595f65cfd25face01d9dd2477c8c3bf39502",
+  "titleZh": "全家运动挑战",
+  "titleTr": "Ailece Spor Meydan Okuması",
+  "locationId": "LOC_ZH_SPORTS_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Aile birbirini motive etmek için eğlenceli bir spor hedefi koyar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "张雨桐": "adult_female",
+    "张乐乐": "young_adult_male"
+  },
+  "criticalObjects": [
+    "egzersiz matları",
+    "su şişeleri",
+    "boş hedef panosu"
+  ],
+  "visualDirectionTr": "Gündüz spor merkezinde Zhang, Liu Mei, yetişkin Yutong ve genç yetişkin Lele eğlenceli aile spor hedefi koyar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC025",
+    "nextSceneId": "ZH_HSK5_SC027",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

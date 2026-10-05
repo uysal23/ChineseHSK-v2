@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC030",
+  "generationSceneId": "ZH_HSK5_SC030",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC030.json",
+  "dialogueSha256": "5d7fe240940d36fc8bf7f1fb44bc22b9fd9bdae8e075e2da0917298f5faa0216",
+  "titleZh": "商户一起想办法",
+  "titleTr": "Esnaf Birlikte Çözüm Arıyor",
+  "locationId": "LOC_ZH_TOWN_HALL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yerel işletmeler ortak tanıtım ve yönlendirme planı yapar.",
+  "dialogueSpeakers": [
+    "商户",
+    "刘梅",
+    "张伟",
+    "社区代表"
+  ],
+  "requiredVisualCharacters": [
+    "商户",
+    "刘梅",
+    "张伟",
+    "社区代表"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "商户": "adult_local_shopkeeper",
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "社区代表": "adult_community_representative"
+  },
+  "criticalObjects": [
+    "boş kasaba haritası",
+    "metinsiz el ilanları",
+    "küçük ahşap yön okları"
+  ],
+  "visualDirectionTr": "Kasaba meclisinde aynı esnaf ve topluluk temsilcisi, Liu Mei ve Zhang ile ortak tanıtım/yönlendirme planı hazırlar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC029",
+    "nextSceneId": "ZH_HSK5_SC031",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "SC031 sonraki HSK5 grubunda aynı aile ve yerel esnaf continuity çizgisinden devam edecek."
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

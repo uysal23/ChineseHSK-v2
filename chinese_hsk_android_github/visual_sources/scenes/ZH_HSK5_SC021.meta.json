@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC021",
+  "generationSceneId": "ZH_HSK5_SC021",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC021.json",
+  "dialogueSha256": "b777badb310dcd927fdf7ffb59bff1cf59d494d62d7fc31fdd80fbb26b8ab208",
+  "titleZh": "雨桐带伴侣回家",
+  "titleTr": "Yutong’un Ciddi İlişkisi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yutong partnerini aileyle tanıştırmak için eve getirir.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_partner",
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "çay fincanları",
+    "meyve tabağı",
+    "oturma odası lambası"
+  ],
+  "visualDirectionTr": "Akşam yeni evin oturma odasında yetişkin Yutong ciddi partnerini Liu Mei ve gözlüklü Zhang Wei ile tanıştırır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC020",
+    "nextSceneId": "ZH_HSK5_SC022",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC021.png",
+  "finalAssetFilename": "ZH_HSK5_SC021.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC021.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "d094f6ca657c32f1059eddf6dc4eb5be77f77a7ed1e386c1a6d3ab8f94308fda",
+    "bytes": 418318
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK5 SC020’den akşam aile kimlik sürekliliği; Yutong lilac, Liu krem/yeşil, Zhang siyah dikdörtgen gözlük; yeni genç yetişkin erkek partner.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

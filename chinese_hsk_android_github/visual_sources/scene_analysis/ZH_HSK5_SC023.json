@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC023",
+  "generationSceneId": "ZH_HSK5_SC023",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC023.json",
+  "dialogueSha256": "2733a41537aee99feefa57329465c993dfe6278e19d6d46d0f9ca5d80feeff99",
+  "titleZh": "奶奶悄悄救场",
+  "titleTr": "Büyükannenin Sessiz Müdahalesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Büyükanne mizah ve incelikle gerginliği dağıtır.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "张雨桐",
+    "伴侣",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "张雨桐",
+    "伴侣",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷"
+  ],
+  "characterAgeLock": {
+    "奶奶": "senior_female_grandparent",
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_partner",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "meyve tabağı",
+    "çay fincanları",
+    "akşam yemek masası"
+  ],
+  "visualDirectionTr": "Aynı yemek masasında büyükanne, Yutong, partneri ve Liu Mei; büyükanne incelikli mizahıyla gerginliği dağıtır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC022",
+    "nextSceneId": "ZH_HSK5_SC024",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

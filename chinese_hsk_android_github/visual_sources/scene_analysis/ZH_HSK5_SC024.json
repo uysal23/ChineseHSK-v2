@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC024",
+  "generationSceneId": "ZH_HSK5_SC024",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC024.json",
+  "dialogueSha256": "f93c6fc07bf3ff0823f5e89a615823c9acc597aed74192a2b426d8fa03535487",
+  "titleZh": "张伟的中年体检",
+  "titleTr": "Zhang’ın Sağlık Kontrolü",
+  "locationId": "LOC_ZH_CLINIC_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Rutin kontrolde doktor yaşam tarzı hakkında ciddi sorular sorar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "医生",
+    "刘梅",
+    "护士"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "医生",
+    "刘梅",
+    "护士"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "医生": "adult_physician",
+    "刘梅": "senior_female_parent",
+    "护士": "adult_nurse"
+  },
+  "criticalObjects": [
+    "tansiyon aleti",
+    "boş muayene formu",
+    "stetoskop"
+  ],
+  "visualDirectionTr": "Gündüz klinikte doktor rutin kontrolde gözlüklü Zhang’ın yaşam tarzını sorar; Liu Mei ve hemşire yanındadır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC023",
+    "nextSceneId": "ZH_HSK5_SC025",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

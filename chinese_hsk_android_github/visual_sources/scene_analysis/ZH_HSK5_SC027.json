@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC027",
+  "generationSceneId": "ZH_HSK5_SC027",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC027.json",
+  "dialogueSha256": "ce92e2a260f3297fe7ac568a3a614e96c819b3e35113d4bddb85c3e1a160f7ab",
+  "titleZh": "咖啡馆文化夜",
+  "titleTr": "Kafede Kültür Gecesi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe yerel sanatçıların katıldığı bir kültür gecesi düzenler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "表演者",
+    "顾客",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "表演者",
+    "顾客",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "表演者": "adult_performer",
+    "顾客": "adult_customer",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "akustik gitar",
+    "kahve fincanları",
+    "kafe tezgâhı"
+  ],
+  "visualDirectionTr": "Gündüz aile kafesinde yerel bir sanatçı küçük kültür etkinliğinde sahne alırken Liu Mei, Zhang ve müşteri dinler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC026",
+    "nextSceneId": "ZH_HSK5_SC028",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

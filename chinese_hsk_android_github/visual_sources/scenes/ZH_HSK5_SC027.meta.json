@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC027",
+  "generationSceneId": "ZH_HSK5_SC027",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC027.json",
+  "dialogueSha256": "ce92e2a260f3297fe7ac568a3a614e96c819b3e35113d4bddb85c3e1a160f7ab",
+  "titleZh": "咖啡馆文化夜",
+  "titleTr": "Kafede Kültür Gecesi",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe yerel sanatçıların katıldığı bir kültür gecesi düzenler.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "表演者",
+    "顾客",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "表演者",
+    "顾客",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "表演者": "adult_performer",
+    "顾客": "adult_customer",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "akustik gitar",
+    "kahve fincanları",
+    "kafe tezgâhı"
+  ],
+  "visualDirectionTr": "Gündüz aile kafesinde yerel bir sanatçı küçük kültür etkinliğinde sahne alırken Liu Mei, Zhang ve müşteri dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC026",
+    "nextSceneId": "ZH_HSK5_SC028",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC027.png",
+  "finalAssetFilename": "ZH_HSK5_SC027.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC027.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "25e60e298c288f4681e347ea2129d3f37f045654936b1223d399ac385979f07c",
+    "bytes": 487646
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC018/SC020 kafe ve aile yüzleri; tek yerel kadın sanatçı, müşteri; gündüz küçük akustik etkinlik.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

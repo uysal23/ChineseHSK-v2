@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC025",
+  "generationSceneId": "ZH_HSK5_SC025",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC025.json",
+  "dialogueSha256": "ad683a4b1f85a82ad8f74c56e2660f97594dcc251933fa47a2f1ece78fa73b5f",
+  "titleZh": "医生不太满意",
+  "titleTr": "Doktor Yaşam Tarzını Eleştiriyor",
+  "locationId": "LOC_ZH_CLINIC_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Doktor uyku, beslenme ve hareket düzeni konusunda daha net uyarılar verir.",
+  "dialogueSpeakers": [
+    "医生",
+    "张伟",
+    "刘梅",
+    "护士"
+  ],
+  "requiredVisualCharacters": [
+    "医生",
+    "张伟",
+    "刘梅",
+    "护士"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "医生": "adult_physician",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "护士": "adult_nurse"
+  },
+  "criticalObjects": [
+    "sebze kasesi",
+    "spor ayakkabısı",
+    "boş haftalık planlayıcı"
+  ],
+  "visualDirectionTr": "Aynı klinikte doktor uyku, beslenme ve hareket düzeni için daha net fakat saygılı uyarılar yapar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC024",
+    "nextSceneId": "ZH_HSK5_SC026",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

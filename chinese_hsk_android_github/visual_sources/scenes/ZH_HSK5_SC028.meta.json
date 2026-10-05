@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC028",
+  "generationSceneId": "ZH_HSK5_SC028",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC028.json",
+  "dialogueSha256": "ab74ed80a2cb9a8203f8dcd99a46277f67d895f5c54dbd19dcf34ecade643b85",
+  "titleZh": "社区规划讨论会",
+  "titleTr": "Kasaba Meclisi Tartışması",
+  "locationId": "LOC_ZH_TOWN_HALL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Mahalle halkı yeni kamu hizmetleri ve ulaşım planı üzerine görüş bildirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "社区代表",
+    "商户",
+    "居民"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "社区代表",
+    "商户",
+    "居民"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "社区代表": "adult_community_representative",
+    "商户": "adult_local_shopkeeper",
+    "居民": "adult_resident"
+  },
+  "criticalObjects": [
+    "yazısız boş ulaşım haritası",
+    "boş hizmet planı",
+    "kasaba toplantı masası"
+  ],
+  "visualDirectionTr": "Kasaba meclisinde Zhang, topluluk temsilcisi, esnaf ve sakin yeni kamu hizmetlerini ve ulaşımı görüşür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC027",
+    "nextSceneId": "ZH_HSK5_SC029",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC028.png",
+  "finalAssetFilename": "ZH_HSK5_SC028.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC028.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "e7b51103c7934c9723f6d6e619ca30edffb13bc06e813d769e35815da299c261",
+    "bytes": 347432
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC027/SC029 arası town hall; Zhang gözlük; teal ceketli temsilci ve kahverengi ceketli esnaf 29-30 ile devam.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

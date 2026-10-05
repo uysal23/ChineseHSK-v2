@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC029",
+  "generationSceneId": "ZH_HSK5_SC029",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC029.json",
+  "dialogueSha256": "52f462a8a03913ba7bfb0d2ef96f77fcce15d3e32ed1de43ed1f35117742defb",
+  "titleZh": "修路影响咖啡馆",
+  "titleTr": "Yeni Yol Projesi Kafeyi Etkiliyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Uzun sürecek yol çalışması kafeye erişimi zorlaştırır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "商户",
+    "张伟",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "商户",
+    "张伟",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "商户": "adult_local_shopkeeper",
+    "张伟": "senior_male_parent",
+    "顾客": "adult_customer"
+  },
+  "criticalObjects": [
+    "yol bariyerleri ve koniler",
+    "kafe giriş alanı",
+    "kahve tezgâhı"
+  ],
+  "visualDirectionTr": "Kafe önündeki yol çalışması erişimi zorlaştırırken Liu Mei, aynı esnaf, Zhang ve müşteri durumu değerlendirir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC028",
+    "nextSceneId": "ZH_HSK5_SC030",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC029.png",
+  "finalAssetFilename": "ZH_HSK5_SC029.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC029.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "9046dec1c2344a7c4d9de1fc69da3a3fc9a301527d3fd8751bd29ba2fbd8bb2e",
+    "bytes": 434960
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC028’deki aynı esnaf, Liu/Zhang kafe yüzleri ve yeni müşteri; dışarıda yazısız yol bariyerleri.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC023",
+  "generationSceneId": "ZH_HSK5_SC023",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC023.json",
+  "dialogueSha256": "2733a41537aee99feefa57329465c993dfe6278e19d6d46d0f9ca5d80feeff99",
+  "titleZh": "奶奶悄悄救场",
+  "titleTr": "Büyükannenin Sessiz Müdahalesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Büyükanne mizah ve incelikle gerginliği dağıtır.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "张雨桐",
+    "伴侣",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "张雨桐",
+    "伴侣",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷"
+  ],
+  "characterAgeLock": {
+    "奶奶": "senior_female_grandparent",
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_partner",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "meyve tabağı",
+    "çay fincanları",
+    "akşam yemek masası"
+  ],
+  "visualDirectionTr": "Aynı yemek masasında büyükanne, Yutong, partneri ve Liu Mei; büyükanne incelikli mizahıyla gerginliği dağıtır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC022",
+    "nextSceneId": "ZH_HSK5_SC024",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC023.png",
+  "finalAssetFilename": "ZH_HSK5_SC023.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC023.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "187db74eb79699ea6ad4aa7b4a069ec18d203b3d322ee0b33ad86572fb26fef0",
+    "bytes": 379542
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC021-SC030 grubu; SC020 ve HSK4 SC050 aile kimlikleri ile HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC022 aynı büyükanne/Yutong/partner; Liu Mei, Zhang yok; mizah meyve tabağı ile.",
+  "styleReferenceSceneId": "ZH_HSK5_SC020"
+}

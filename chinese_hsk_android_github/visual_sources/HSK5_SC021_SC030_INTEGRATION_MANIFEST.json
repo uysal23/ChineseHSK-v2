@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "batchId": "HSK5_SC021_SC030",
+  "sourceHead": "b87b3ae6342e58979260f8f5ed30baf25091165f",
+  "sceneIds": [
+    "ZH_HSK5_SC021",
+    "ZH_HSK5_SC022",
+    "ZH_HSK5_SC023",
+    "ZH_HSK5_SC024",
+    "ZH_HSK5_SC025",
+    "ZH_HSK5_SC026",
+    "ZH_HSK5_SC027",
+    "ZH_HSK5_SC028",
+    "ZH_HSK5_SC029",
+    "ZH_HSK5_SC030"
+  ],
+  "imageDimensions": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16"
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC020",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "records": [
+    {
+      "sceneId": "ZH_HSK5_SC021",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "d094f6ca657c32f1059eddf6dc4eb5be77f77a7ed1e386c1a6d3ab8f94308fda",
+        "bytes": 418318
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "刘梅",
+        "张伟"
+      ],
+      "dialogueSha256": "b777badb310dcd927fdf7ffb59bff1cf59d494d62d7fc31fdd80fbb26b8ab208"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC022",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "018f17848801bced1756bb04fb790ab887969a9ae75ac35350208b38aea41b5d",
+        "bytes": 382874
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "张伟",
+        "奶奶"
+      ],
+      "dialogueSha256": "5eb4df4f8f3f444d27f2f2b206620bd3ebb91fc865cb1debfda9eba5d8cd94de"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC023",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "187db74eb79699ea6ad4aa7b4a069ec18d203b3d322ee0b33ad86572fb26fef0",
+        "bytes": 379542
+      },
+      "cast": [
+        "奶奶",
+        "张雨桐",
+        "伴侣",
+        "刘梅"
+      ],
+      "dialogueSha256": "2733a41537aee99feefa57329465c993dfe6278e19d6d46d0f9ca5d80feeff99"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC024",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "b9ee622fd9ebfa4d3b3f9b6b5b4492c38020990b7d68d7eea7a0d53347c2298a",
+        "bytes": 357504
+      },
+      "cast": [
+        "张伟",
+        "医生",
+        "刘梅",
+        "护士"
+      ],
+      "dialogueSha256": "f93c6fc07bf3ff0823f5e89a615823c9acc597aed74192a2b426d8fa03535487"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC025",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "97dba3ba3b6d8c15361f2c4db503693459ae72ec74f1a70a6ef5abf4a436b3f9",
+        "bytes": 362324
+      },
+      "cast": [
+        "医生",
+        "张伟",
+        "刘梅",
+        "护士"
+      ],
+      "dialogueSha256": "ad683a4b1f85a82ad8f74c56e2660f97594dcc251933fa47a2f1ece78fa73b5f"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC026",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "56f175eb0ecc6257bb61cd21c0260a514095fe0f358e27316109036c67f413fe",
+        "bytes": 436798
+      },
+      "cast": [
+        "张伟",
+        "刘梅",
+        "张雨桐",
+        "张乐乐"
+      ],
+      "dialogueSha256": "2df20069349d38df960e4ea1149d595f65cfd25face01d9dd2477c8c3bf39502"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC027",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "25e60e298c288f4681e347ea2129d3f37f045654936b1223d399ac385979f07c",
+        "bytes": 487646
+      },
+      "cast": [
+        "刘梅",
+        "表演者",
+        "顾客",
+        "张伟"
+      ],
+      "dialogueSha256": "ce92e2a260f3297fe7ac568a3a614e96c819b3e35113d4bddb85c3e1a160f7ab"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC028",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "e7b51103c7934c9723f6d6e619ca30edffb13bc06e813d769e35815da299c261",
+        "bytes": 347432
+      },
+      "cast": [
+        "张伟",
+        "社区代表",
+        "商户",
+        "居民"
+      ],
+      "dialogueSha256": "ab74ed80a2cb9a8203f8dcd99a46277f67d895f5c54dbd19dcf34ecade643b85"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC029",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "9046dec1c2344a7c4d9de1fc69da3a3fc9a301527d3fd8751bd29ba2fbd8bb2e",
+        "bytes": 434960
+      },
+      "cast": [
+        "刘梅",
+        "商户",
+        "张伟",
+        "顾客"
+      ],
+      "dialogueSha256": "52f462a8a03913ba7bfb0d2ef96f77fcce15d3e32ed1de43ed1f35117742defb"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC030",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "c70db2ca45e62b981c5ad3823d101790c174f2584a7bffb226b1f3db57ff485a",
+        "bytes": 355836
+      },
+      "cast": [
+        "商户",
+        "刘梅",
+        "张伟",
+        "社区代表"
+      ],
+      "dialogueSha256": "5d7fe240940d36fc8bf7f1fb44bc22b9fd9bdae8e075e2da0917298f5faa0216"
+    }
+  ],
+  "completedSceneIds": [
+    "ZH_HSK5_SC021",
+    "ZH_HSK5_SC022",
+    "ZH_HSK5_SC023",
+    "ZH_HSK5_SC024",
+    "ZH_HSK5_SC025",
+    "ZH_HSK5_SC026",
+    "ZH_HSK5_SC027",
+    "ZH_HSK5_SC028",
+    "ZH_HSK5_SC029",
+    "ZH_HSK5_SC030"
+  ],
+  "pendingSceneIds": [],
+  "overallPendingSceneIds": [
+    "ZH_HSK5_SC031",
+    "ZH_HSK5_SC032",
+    "ZH_HSK5_SC033",
+    "ZH_HSK5_SC034",
+    "ZH_HSK5_SC035",
+    "ZH_HSK5_SC036",
+    "ZH_HSK5_SC037",
+    "ZH_HSK5_SC038",
+    "ZH_HSK5_SC039",
+    "ZH_HSK5_SC040",
+    "ZH_HSK5_SC041",
+    "ZH_HSK5_SC042",
+    "ZH_HSK5_SC043",
+    "ZH_HSK5_SC044",
+    "ZH_HSK5_SC045",
+    "ZH_HSK5_SC046",
+    "ZH_HSK5_SC047",
+    "ZH_HSK5_SC048",
+    "ZH_HSK5_SC049",
+    "ZH_HSK5_SC050"
+  ],
+  "status": "READY_FOR_BUILD",
+  "buildApprovalRequired": true,
+  "buildApproved": false,
+  "repositoryIntegrated": true,
+  "apkBuildStarted": false
+}
