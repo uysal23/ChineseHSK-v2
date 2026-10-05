@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC006",
+  "generationSceneId": "ZH_HSK5_SC006",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC006.json",
+  "dialogueSha256": "494347574d3dfded7305f1dfb5f0cc319b96142dfbbc9d00c69300847474f540",
+  "titleZh": "刘梅先调查再决定",
+  "titleTr": "Liu Mei Zor Bir Karar Veriyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei iki tarafı da dinleyip karar vermeden önce kanıt toplar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "员工": "adult_cafe_employee",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş vardiya çizelgesi",
+    "metinsiz fiş ve not kâğıtları",
+    "kafe masası"
+  ],
+  "visualDirectionTr": "Aynı kafe masasındaki boş vardiya çizelgesi ve notlarla Liu Mei karar öncesi kanıt toplar; diğer tarafları dinler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC005",
+    "nextSceneId": "ZH_HSK5_SC007",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

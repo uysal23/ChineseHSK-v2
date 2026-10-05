@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "batchId": "HSK5_SC001_SC010",
+  "sourceHead": "5a93f3810a5a040bc835bc3c7ade0816c3cdc199",
+  "sceneIds": [
+    "ZH_HSK5_SC001",
+    "ZH_HSK5_SC002",
+    "ZH_HSK5_SC003",
+    "ZH_HSK5_SC004",
+    "ZH_HSK5_SC005",
+    "ZH_HSK5_SC006",
+    "ZH_HSK5_SC007",
+    "ZH_HSK5_SC008",
+    "ZH_HSK5_SC009",
+    "ZH_HSK5_SC010"
+  ],
+  "imageDimensions": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16"
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "records": [
+    {
+      "sceneId": "ZH_HSK5_SC001",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "b03531edbc6fabad3dd4ddbfd12e4fb77d49835f40f3ec0232827f2a29f358ca",
+        "bytes": 376714
+      },
+      "cast": [
+        "张雨桐",
+        "同学",
+        "老师",
+        "刘梅"
+      ],
+      "dialogueSha256": "14956446ba5539da4a55cb87c570c32ef13c9a49de3fcb2ce217836d6cfc4675"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC002",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "cbf1bcdab6573b0fbf2cb5484037c92005116d2f695cc7d040476376bdb964dc",
+        "bytes": 416034
+      },
+      "cast": [
+        "张伟",
+        "张雨桐",
+        "刘梅",
+        "张乐乐"
+      ],
+      "dialogueSha256": "753cdcc44f3a1e688036310ffb2e4ef6278fc09ce190c5a933e432e84d74dcb6"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC003",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "b33b3052e283c4a18c24effad2de2cdc0ebec85ce368b2dd012fd22433c92716",
+        "bytes": 435226
+      },
+      "cast": [
+        "张乐乐",
+        "张伟",
+        "刘梅",
+        "老师"
+      ],
+      "dialogueSha256": "d819ff2183a5c162a0108d0c25ffe4dce42431e03b7c3f2eeed278ef44cab98b"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC004",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "42df276c927f625dcf21afc9d60f17b71b3aa4e75ba98bad5952baf9adc779bb",
+        "bytes": 384206
+      },
+      "cast": [
+        "刘梅",
+        "经理",
+        "员工",
+        "张伟"
+      ],
+      "dialogueSha256": "265adec73dd843139283e855c6c1e7aae21cf4e91377e4cbea571d8f0e0b5303"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC005",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "e4dedcb6b2c3512f3466e2df1932e6e88b3ee1b4925f832378c2f427fe1892d5",
+        "bytes": 421684
+      },
+      "cast": [
+        "员工",
+        "刘梅",
+        "经理",
+        "张伟"
+      ],
+      "dialogueSha256": "23f51d5dcb7cdd42ce1a31441d327841dc29690b7384b30bac8e28c9ad8fa291"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC006",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "c9a5dfd34f6f7093f2cefaae1ae9e625ab98a557868a92d548cff743ac5d384e",
+        "bytes": 414242
+      },
+      "cast": [
+        "刘梅",
+        "经理",
+        "员工",
+        "张伟"
+      ],
+      "dialogueSha256": "494347574d3dfded7305f1dfb5f0cc319b96142dfbbc9d00c69300847474f540"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC007",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "55c06f17b9bf597264c43959024cfdcf1535f3fcb14dfac1e764a317bcfe5e04",
+        "bytes": 329816
+      },
+      "cast": [
+        "张伟",
+        "经理",
+        "同事",
+        "客户"
+      ],
+      "dialogueSha256": "f6aa892c864bf3eb1230ef182c0bf7f0c1b1002aa4f19ce3936cfe78ba3c10de"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC008",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "2671d2cf3b6e868a8743f0c9da4a78be6dbad132c1ec8f400afd0da7cf8aac13",
+        "bytes": 332318
+      },
+      "cast": [
+        "张伟",
+        "同事",
+        "经理",
+        "项目成员"
+      ],
+      "dialogueSha256": "36736c746e260b91f32690169dfede87fc92c9ca66c2367a3b9a1989442b327f"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC009",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "69cd5f2fa620d0a284bb5d44f73d7cf2a0cc204446aba1509ff8eaeba975ce62",
+        "bytes": 336834
+      },
+      "cast": [
+        "张伟",
+        "客户",
+        "经理",
+        "同事"
+      ],
+      "dialogueSha256": "cafd354d0ede29ef7952aab1d648efe950f98faa02a8113ff21981bc2757c9bb"
+    },
+    {
+      "sceneId": "ZH_HSK5_SC010",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "ab5f4164748a4423bcb3ae65892999ad71571acd93c1d0ab2f68b06d021ac8bc",
+        "bytes": 328920
+      },
+      "cast": [
+        "张伟",
+        "经理",
+        "同事",
+        "刘梅"
+      ],
+      "dialogueSha256": "335fb8b3929a840d4774d25bf7597e96b6bb425551f6be10d99446c2d31d6e5c"
+    }
+  ],
+  "completedSceneIds": [
+    "ZH_HSK5_SC001",
+    "ZH_HSK5_SC002",
+    "ZH_HSK5_SC003",
+    "ZH_HSK5_SC004",
+    "ZH_HSK5_SC005",
+    "ZH_HSK5_SC006",
+    "ZH_HSK5_SC007",
+    "ZH_HSK5_SC008",
+    "ZH_HSK5_SC009",
+    "ZH_HSK5_SC010"
+  ],
+  "pendingSceneIds": [],
+  "overallPendingSceneIds": [
+    "ZH_HSK5_SC011",
+    "ZH_HSK5_SC012",
+    "ZH_HSK5_SC013",
+    "ZH_HSK5_SC014",
+    "ZH_HSK5_SC015",
+    "ZH_HSK5_SC016",
+    "ZH_HSK5_SC017",
+    "ZH_HSK5_SC018",
+    "ZH_HSK5_SC019",
+    "ZH_HSK5_SC020",
+    "ZH_HSK5_SC021",
+    "ZH_HSK5_SC022",
+    "ZH_HSK5_SC023",
+    "ZH_HSK5_SC024",
+    "ZH_HSK5_SC025",
+    "ZH_HSK5_SC026",
+    "ZH_HSK5_SC027",
+    "ZH_HSK5_SC028",
+    "ZH_HSK5_SC029",
+    "ZH_HSK5_SC030",
+    "ZH_HSK5_SC031",
+    "ZH_HSK5_SC032",
+    "ZH_HSK5_SC033",
+    "ZH_HSK5_SC034",
+    "ZH_HSK5_SC035",
+    "ZH_HSK5_SC036",
+    "ZH_HSK5_SC037",
+    "ZH_HSK5_SC038",
+    "ZH_HSK5_SC039",
+    "ZH_HSK5_SC040",
+    "ZH_HSK5_SC041",
+    "ZH_HSK5_SC042",
+    "ZH_HSK5_SC043",
+    "ZH_HSK5_SC044",
+    "ZH_HSK5_SC045",
+    "ZH_HSK5_SC046",
+    "ZH_HSK5_SC047",
+    "ZH_HSK5_SC048",
+    "ZH_HSK5_SC049",
+    "ZH_HSK5_SC050"
+  ],
+  "status": "READY_FOR_BUILD",
+  "buildApprovalRequired": true,
+  "buildApproved": false,
+  "repositoryIntegrated": true,
+  "apkBuildStarted": false
+}

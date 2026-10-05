@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC008",
+  "generationSceneId": "ZH_HSK5_SC008",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC008.json",
+  "dialogueSha256": "36736c746e260b91f32690169dfede87fc92c9ca66c2367a3b9a1989442b327f",
+  "titleZh": "项目延期了",
+  "titleTr": "Projede Gecikme",
+  "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Beklenmedik sorunlar takvimi bozar ve ekip riskleri yeniden değerlendirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事",
+    "经理",
+    "项目成员"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事",
+    "经理",
+    "项目成员"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "同事": "adult_coworker",
+    "经理": "adult_manager",
+    "项目成员": "adult_project_member"
+  },
+  "criticalObjects": [
+    "etiketsiz gecikme zaman çizelgesi",
+    "boş toplantı notları",
+    "dizüstü bilgisayar"
+  ],
+  "visualDirectionTr": "Aynı toplantı odasında ekip beklenmedik proje gecikmesini ve tarih riskini değerlendirir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC007",
+    "nextSceneId": "ZH_HSK5_SC009",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC008.png",
+  "finalAssetFilename": "ZH_HSK5_SC008.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC008.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "2671d2cf3b6e868a8743f0c9da4a78be6dbad132c1ec8f400afd0da7cf8aac13",
+    "bytes": 332318
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC007 aynı toplantı odası ve yönetici/ekip arkadaşı; gecikme değerlendirmesi.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

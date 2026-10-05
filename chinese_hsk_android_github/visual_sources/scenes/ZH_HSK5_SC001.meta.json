@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC001",
+  "generationSceneId": "ZH_HSK5_SC001",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC001.json",
+  "dialogueSha256": "14956446ba5539da4a55cb87c570c32ef13c9a49de3fcb2ce217836d6cfc4675",
+  "titleZh": "雨桐第一次挂科",
+  "titleTr": "Yutong Üniversitede Zorlanıyor",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yutong ilk kez önemli bir dersten başarısız olur ve kendini sorgular.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "同学",
+    "老师",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "同学",
+    "老师",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "同学": "university_age_adult_student",
+    "老师": "adult_educator",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "geri verilmiş sınav kâğıdı (yazısız)",
+    "ders notları ve defter",
+    "üniversite danışma masası"
+  ],
+  "visualDirectionTr": "Gündüz üniversite danışma odası; Yutong başarısız olduğu sınavı incelerken öğretmeni, sınıf arkadaşı ve destek için gelen annesi görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC050",
+    "nextSceneId": "ZH_HSK5_SC002",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC001.png",
+  "finalAssetFilename": "ZH_HSK5_SC001.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC001.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "b03531edbc6fabad3dd4ddbfd12e4fb77d49835f40f3ec0232827f2a29f358ca",
+    "bytes": 376714
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK4 SC050 yüz/stil referansıyla üniversitede Yutong, sınıf arkadaşı, öğretmen ve Liu Mei; sınav kâğıdı yazısız, tüm yüzler açık.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

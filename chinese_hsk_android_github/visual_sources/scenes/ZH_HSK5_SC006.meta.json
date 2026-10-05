@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC006",
+  "generationSceneId": "ZH_HSK5_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC006.json",
+  "dialogueSha256": "494347574d3dfded7305f1dfb5f0cc319b96142dfbbc9d00c69300847474f540",
+  "titleZh": "刘梅先调查再决定",
+  "titleTr": "Liu Mei Zor Bir Karar Veriyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei iki tarafı da dinleyip karar vermeden önce kanıt toplar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "员工": "adult_cafe_employee",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş vardiya çizelgesi",
+    "metinsiz fiş ve not kâğıtları",
+    "kafe masası"
+  ],
+  "visualDirectionTr": "Aynı kafe masasındaki boş vardiya çizelgesi ve notlarla Liu Mei karar öncesi kanıt toplar; diğer tarafları dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC005",
+    "nextSceneId": "ZH_HSK5_SC007",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC006.png",
+  "finalAssetFilename": "ZH_HSK5_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC006.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "c9a5dfd34f6f7093f2cefaae1ae9e625ab98a557868a92d548cff743ac5d384e",
+    "bytes": 414242
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC004 kafe sürekliliği; Liu Mei kanıtları inceliyor. Zhang Wei gözlük kimliği düzeltmesi yapıldı.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

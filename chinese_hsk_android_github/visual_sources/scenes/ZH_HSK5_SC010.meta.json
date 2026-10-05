@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC010",
+  "generationSceneId": "ZH_HSK5_SC010",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC010.json",
+  "dialogueSha256": "335fb8b3929a840d4774d25bf7597e96b6bb425551f6be10d99446c2d31d6e5c",
+  "titleZh": "张伟承担责任",
+  "titleTr": "Zhang Hatasını Üstleniyor",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang ekibin hatasını başkasına atmadan sorumluluk alır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "同事": "adult_coworker",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş proje rapor klasörü",
+    "toplantı notları",
+    "işyeri görüşme alanı"
+  ],
+  "visualDirectionTr": "Gündüz işyeri görüşme alanında Zhang ekibin hatasının sorumluluğunu üstlenir; müdür, ekip arkadaşı ve Liu Mei görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC009",
+    "nextSceneId": "ZH_HSK5_SC011",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "SC011 görseli sonraki grubun continuity incelemesinde kontrol edilecek."
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC010.png",
+  "finalAssetFilename": "ZH_HSK5_SC010.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC010.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "ab5f4164748a4423bcb3ae65892999ad71571acd93c1d0ab2f68b06d021ac8bc",
+    "bytes": 328920
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC007-SC009 ofis ve Zhang kimliği sürekliliği; Zhang sorumluluk alırken Liu Mei destek için gelir.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC005",
+  "generationSceneId": "ZH_HSK5_SC005",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC005.json",
+  "dialogueSha256": "23f51d5dcb7cdd42ce1a31441d327841dc29690b7384b30bac8e28c9ad8fa291",
+  "titleZh": "员工说不公平",
+  "titleTr": "Personel Arasında Haksızlık İddiası",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Bir çalışan vardiya dağılımının adil olmadığını söyler.",
+  "dialogueSpeakers": [
+    "员工",
+    "刘梅",
+    "经理",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "员工",
+    "刘梅",
+    "经理",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "员工": "adult_cafe_employee",
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş vardiya çizelgesi",
+    "kafe tezgâhı",
+    "kahve ekipmanı"
+  ],
+  "visualDirectionTr": "Aynı kafede çalışan vardiya adaletsizliği kaygısını paylaşır; Liu Mei, müdür ve Zhang dinler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC004",
+    "nextSceneId": "ZH_HSK5_SC006",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

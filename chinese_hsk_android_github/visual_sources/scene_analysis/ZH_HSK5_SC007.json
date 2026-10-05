@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC007",
+  "generationSceneId": "ZH_HSK5_SC007",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC007.json",
+  "dialogueSha256": "f6aa892c864bf3eb1230ef182c0bf7f0c1b1002aa4f19ce3936cfe78ba3c10de",
+  "titleZh": "张伟负责最大的项目",
+  "titleTr": "Zhang Büyük Bir Projenin Başında",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang kariyerindeki en büyük projenin sorumluluğunu üstlenir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "客户"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "客户"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "同事": "adult_coworker",
+    "客户": "adult_client"
+  },
+  "criticalObjects": [
+    "boş proje kilometre taşı panosu",
+    "boş ekranlı dizüstü bilgisayar",
+    "toplantı masası"
+  ],
+  "visualDirectionTr": "Gündüz cam bölmeli işyeri toplantı odasında Zhang büyük projenin hedef ve kilometre taşlarını sunar; müdür, ekip arkadaşı ve müşteri katılır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC006",
+    "nextSceneId": "ZH_HSK5_SC008",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

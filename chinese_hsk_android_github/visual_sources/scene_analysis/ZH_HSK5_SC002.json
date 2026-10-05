@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC002",
+  "generationSceneId": "ZH_HSK5_SC002",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC002.json",
+  "dialogueSha256": "753cdcc44f3a1e688036310ffb2e4ef6278fc09ce190c5a933e432e84d74dcb6",
+  "titleZh": "支持，但不替她决定",
+  "titleTr": "Zhang Destek Oluyor Ama Baskı Yapmıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang çözümü dayatmadan kızına destek vermeye çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "张雨桐": "adult_female",
+    "刘梅": "senior_female_parent",
+    "张乐乐": "young_adult_male"
+  },
+  "criticalObjects": [
+    "boş plan defteri",
+    "çay fincanları",
+    "aile oturma alanı"
+  ],
+  "visualDirectionTr": "Akşam yeni evin oturma odası; Zhang kızına karar dayatmadan destek verir, Liu Mei ve Lele konuşmayı dinler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC001",
+    "nextSceneId": "ZH_HSK5_SC003",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC009",
+  "generationSceneId": "ZH_HSK5_SC009",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC009.json",
+  "dialogueSha256": "cafd354d0ede29ef7952aab1d648efe950f98faa02a8113ff21981bc2757c9bb",
+  "titleZh": "艰难的客户会议",
+  "titleTr": "Müşteri Toplantısı",
+  "locationId": "LOC_ZH_CONFERENCE_ROOM_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Müşteri gecikmeden memnun değildir; Zhang zor bir toplantıyı yönetir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "客户",
+    "经理",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "客户",
+    "经理",
+    "同事"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "客户": "adult_client",
+    "经理": "adult_manager",
+    "同事": "adult_coworker"
+  },
+  "criticalObjects": [
+    "yazısız proje dosyası",
+    "boş plan panosu",
+    "toplantı masası"
+  ],
+  "visualDirectionTr": "Aynı toplantı odasında memnun olmayan müşteriyle zor ama saygılı görüşme; Zhang, müdür ve ekip arkadaşı çözüm seçeneklerini konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC008",
+    "nextSceneId": "ZH_HSK5_SC010",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC009.png",
+  "finalAssetFilename": "ZH_HSK5_SC009.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC009.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "69cd5f2fa620d0a284bb5d44f73d7cf2a0cc204446aba1509ff8eaeba975ce62",
+    "bytes": 336834
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC007-SC008 müşteri ve ofis sürekliliği; dört kişilik saygılı ama zor toplantı.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

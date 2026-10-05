@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC001",
+  "generationSceneId": "ZH_HSK5_SC001",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC001.json",
+  "dialogueSha256": "14956446ba5539da4a55cb87c570c32ef13c9a49de3fcb2ce217836d6cfc4675",
+  "titleZh": "雨桐第一次挂科",
+  "titleTr": "Yutong Üniversitede Zorlanıyor",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yutong ilk kez önemli bir dersten başarısız olur ve kendini sorgular.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "同学",
+    "老师",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "同学",
+    "老师",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "同学": "university_age_adult_student",
+    "老师": "adult_educator",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "geri verilmiş sınav kâğıdı (yazısız)",
+    "ders notları ve defter",
+    "üniversite danışma masası"
+  ],
+  "visualDirectionTr": "Gündüz üniversite danışma odası; Yutong başarısız olduğu sınavı incelerken öğretmeni, sınıf arkadaşı ve destek için gelen annesi görünür.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC050",
+    "nextSceneId": "ZH_HSK5_SC002",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC050",
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı."
+}

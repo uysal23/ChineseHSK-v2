@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC005",
+  "generationSceneId": "ZH_HSK5_SC005",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC005.json",
+  "dialogueSha256": "23f51d5dcb7cdd42ce1a31441d327841dc29690b7384b30bac8e28c9ad8fa291",
+  "titleZh": "员工说不公平",
+  "titleTr": "Personel Arasında Haksızlık İddiası",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Bir çalışan vardiya dağılımının adil olmadığını söyler.",
+  "dialogueSpeakers": [
+    "员工",
+    "刘梅",
+    "经理",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "员工",
+    "刘梅",
+    "经理",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "员工": "adult_cafe_employee",
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş vardiya çizelgesi",
+    "kafe tezgâhı",
+    "kahve ekipmanı"
+  ],
+  "visualDirectionTr": "Aynı kafede çalışan vardiya adaletsizliği kaygısını paylaşır; Liu Mei, müdür ve Zhang dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC004",
+    "nextSceneId": "ZH_HSK5_SC006",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC005.png",
+  "finalAssetFilename": "ZH_HSK5_SC005.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC005.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "e4dedcb6b2c3512f3466e2df1932e6e88b3ee1b4925f832378c2f427fe1892d5",
+    "bytes": 421684
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC004 kafe ve dört yüz sürekliliği; vardiya adaleti kaygısı ve boş çizelge.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

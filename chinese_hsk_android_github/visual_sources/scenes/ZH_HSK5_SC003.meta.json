@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC003",
+  "generationSceneId": "ZH_HSK5_SC003",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC003.json",
+  "dialogueSha256": "d819ff2183a5c162a0108d0c25ffe4dce42431e03b7c3f2eeed278ef44cab98b",
+  "titleZh": "乐乐选择高中方向",
+  "titleTr": "Lele Lise Seçiyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele yaratıcı ilgi alanı ile güvenli kariyer beklentileri arasında düşünür.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "老师"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "老师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "老师": "adult_educator"
+  },
+  "criticalObjects": [
+    "yazısız eğitim yolu broşürleri",
+    "boş not defteri",
+    "öğretmen görüşme masası"
+  ],
+  "visualDirectionTr": "Gündüz aynı aile evinde eğitim danışmanı; Lele ilgi alanları ile güvenli kariyer seçeneğini değerlendirirken anne babası dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC002",
+    "nextSceneId": "ZH_HSK5_SC004",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC003.png",
+  "finalAssetFilename": "ZH_HSK5_SC003.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC003.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "b33b3052e283c4a18c24effad2de2cdc0ebec85ce368b2dd012fd22433c92716",
+    "bytes": 435226
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC002 ev sürekliliği; Lele lise yönünü öğretmen ve ailesiyle değerlendiriyor; yazısız broşürler.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

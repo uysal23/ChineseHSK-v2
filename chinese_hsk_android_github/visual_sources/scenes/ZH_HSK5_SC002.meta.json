@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC002",
+  "generationSceneId": "ZH_HSK5_SC002",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC002.json",
+  "dialogueSha256": "753cdcc44f3a1e688036310ffb2e4ef6278fc09ce190c5a933e432e84d74dcb6",
+  "titleZh": "支持，但不替她决定",
+  "titleTr": "Zhang Destek Oluyor Ama Baskı Yapmıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang çözümü dayatmadan kızına destek vermeye çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "张雨桐": "adult_female",
+    "刘梅": "senior_female_parent",
+    "张乐乐": "young_adult_male"
+  },
+  "criticalObjects": [
+    "boş plan defteri",
+    "çay fincanları",
+    "aile oturma alanı"
+  ],
+  "visualDirectionTr": "Akşam yeni evin oturma odası; Zhang kızına karar dayatmadan destek verir, Liu Mei ve Lele konuşmayı dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC001",
+    "nextSceneId": "ZH_HSK5_SC003",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC002.png",
+  "finalAssetFilename": "ZH_HSK5_SC002.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC002.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "cbf1bcdab6573b0fbf2cb5484037c92005116d2f695cc7d040476376bdb964dc",
+    "bytes": 416034
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK4 SC050 aile referansı; yeni evde Zhang, Yutong, Liu Mei ve Lele sakin destek görüşmesinde.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}

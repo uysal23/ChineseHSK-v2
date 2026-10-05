@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC004",
+  "generationSceneId": "ZH_HSK5_SC004",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC004.json",
+  "dialogueSha256": "265adec73dd843139283e855c6c1e7aae21cf4e91377e4cbea571d8f0e0b5303",
+  "titleZh": "咖啡馆有了经理",
+  "titleTr": "Kafeye Yeni Müdür",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei ilk kez günlük işletme sorumluluklarının bir kısmını devreder.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "经理",
+    "员工",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "经理": "adult_manager",
+    "员工": "adult_cafe_employee",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş görev panosu",
+    "anahtar halkası",
+    "kahve tezgâhı ve ekipman"
+  ],
+  "visualDirectionTr": "Gündüz aile kafesinde Liu Mei günlük sorumlulukları yeni kadın müdüre devreder; Zhang ve bir çalışan görünür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC003",
+    "nextSceneId": "ZH_HSK5_SC005",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC004.png",
+  "finalAssetFilename": "ZH_HSK5_SC004.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC004.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "42df276c927f625dcf21afc9d60f17b71b3aa4e75ba98bad5952baf9adc779bb",
+    "bytes": 384206
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC001-SC010 grubu; HSK4 SC050 aile kimlikleri ve HSK5 yaş varyantları korundu. Kadro, 9:16 WebP, binary ve kaynak hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK4 aile/kafe referansı; Liu Mei ve Zhang yeni kadın müdür ile erkek çalışana görev devrediyor.",
+  "styleReferenceSceneId": "ZH_HSK4_SC050"
+}
