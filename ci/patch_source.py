@@ -108,9 +108,12 @@ if sentence_start < 0 or sentence_end < 0:
     raise SystemExit("SentencePracticeScreen block missing")
 sentence_block = ls[sentence_start:sentence_end]
 sentence_strip_anchor = "                DialogueVocabularyStrip(dialogueWords)\n                Spacer(Modifier.height(10.dp))\n"
-if sentence_strip_anchor not in sentence_block:
-    raise SystemExit("SentencePracticeScreen vocabulary-strip anchor missing")
-sentence_block = sentence_block.replace(sentence_strip_anchor, "", 1)
+# Source synchronization may already have removed this strip.
+# Reject an unexpected remaining call, but accept the final strip-free screen.
+if "DialogueVocabularyStrip(dialogueWords)" in sentence_block:
+    if sentence_strip_anchor not in sentence_block:
+        raise SystemExit("SentencePracticeScreen vocabulary-strip anchor missing")
+    sentence_block = sentence_block.replace(sentence_strip_anchor, "", 1)
 ls = ls[:sentence_start] + sentence_block + ls[sentence_end:]
 # Keep study navigation reachable on compact/tall-content phones.
 def _make_study_screen_scroll_safe(source: str, screen_name: str) -> str:
