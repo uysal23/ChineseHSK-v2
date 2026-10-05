@@ -3,13 +3,13 @@
   "sceneId": "ZH_HSK4_SC045",
   "generationSceneId": "ZH_HSK4_SC045",
   "manifestVersion": "LOCKED_V2",
-  "maturityManifest": "docs/visuals/HSK_VISUAL_PRODUCTION_MANIFEST_LOCKED_TR.md#28-kilitli-aile-gorsel-kimlik-tablosu",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC045.json",
-  "dialogueBlobSha": "85ce42034f5b09ffc6ec07cd2777ccc39a286e39",
   "titleZh": "准备离家",
   "titleTr": "Ayrılık Hazırlığı",
   "locationId": "LOC_ZH_NEW_HOME_001",
-  "scenePurposeTr": "Yutong üniversite/yurt yaşamına geçmeden önce aile yeni evde valiz ve yurt eşyalarını birlikte hazırlar; heyecan ve ayrılık hüznü birlikte hissedilir.",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yurt eşyaları hazırlanırken hem heyecan hem hüzün yaşanır.",
   "dialogueSpeakers": [
     "张雨桐",
     "刘梅",
@@ -23,37 +23,41 @@
     "张乐乐"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [],
   "characterAgeLock": {
     "张雨桐": "young_adult",
     "刘梅": "mature_adult",
     "张伟": "mature_adult",
-    "张乐乐": "teen_male"
+    "张乐乐": "teen_boy"
   },
   "criticalObjects": [
     "açık valiz",
-    "katlanmış gündelik kıyafetler",
-    "sırt çantası",
-    "metinsiz hazırlık not defteri/üniversite dosyası",
-    "paketleme düzenleyicileri"
+    "katlanmış kıyafet ve havlular",
+    "kişisel eşya çantası",
+    "metinsiz dosya"
   ],
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC044",
-    "nextSceneId": "ZH_HSK4_SC046"
+    "nextSceneId": "ZH_HSK4_SC046",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
   },
   "generation": {
-    "genId": "df4de788-ad36-49a7-af33-73d9a3bf4ac7",
-    "sourceGeneratedFilename": "ailece_sıcak_bavul_hazırlığı.png"
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC045.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC045: Recompose references into a daytime packing-for-university moment in the SAME family apartment as new SC044 reference 2. Exactly FOUR people: Yutong, Liu Mei, Zhang Wei, Lele. Image 1 SC020 locks parents and teen Lele precisely; image 2 new SC044 locks Yutong's long chestnut hair, young adult face, lavender cable knit and home interior. Teacher absent. Yutong is clearly older than teen Lele. A large open muted rose suitcase on low bench or floor in foreground, folded clothes, towels, a pair of books with blank spines and a toiletry bag. Yutong kneels beside suitcase arranging a lavender folded sweater; mother helps with folded cream towels, father in his black rectangular glasses/navy V-neck holds a plain folder and looks proudly but wistfully toward daughter, Lele in navy hoodie brings a folded garment. Gentle bittersweet smiles and natural family interaction, no exaggerated sadness. Keep all four faces and suitcase clearly visible in 9:16 frame, modest jeans/trousers. Beige sofa, wood shelves, large daylight window and cream curtains consistent with SC044, not a new luxury apartment. Exact SC020 style, no photorealistic adult replacement faces."
   },
   "finalAssetFilename": "ZH_HSK4_SC045.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC045.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
-    "orientation": "9:16_vertical",
-    "sha256": "1f614085541c3cf1c31244a792977cd01fcf5ac2b77e79594a9fe8e38c3fdec5",
-    "bytes": 265984
+    "aspectRatio": "9:16",
+    "bytes": 443296,
+    "sha256": "070e5ee26b259b075f6c7b155c7ccbf4613e448dc70cf05157463d2b9fc9fcfc",
+    "orientation": "9:16_vertical"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -75,6 +79,6 @@
   "qaStatus": "PASS",
   "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-10-01: SC045 dört konuşmacı, HSK4 maturity kilidi, yeni ev mekânı, yurt/üniversite için valiz hazırlığı, 9:16 tek sahne, metinsizlik ve canonical aile sürekliliğiyle QA PASS. APK build tetiklenmedi.",
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
   "dialogueSha256": "77a42884438db890973ab566d9dd4cd164850443c0f6026246c1bef2454d2ae4"
 }

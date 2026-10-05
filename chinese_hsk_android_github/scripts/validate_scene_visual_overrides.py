@@ -186,6 +186,30 @@ def repair_gate_assets(project: Path, repo: Path):
         source = source_dir / f"{sid}.webp"
         source_meta_path = repo_meta_dir / f"{sid}.meta.json"
         project_meta_path = project_meta_dir / f"{sid}.meta.json"
+        # Preserve validated authoritative images instead of re-encoding every sync.
+        if source.exists() and source_meta_path.exists():
+            try:
+                raw = source.read_bytes()
+                declared = load(source_meta_path).get("image") or {}
+                with Image.open(io.BytesIO(raw)) as current:
+                    current.load()
+                    width, height = current.size
+                    valid = (
+                        current.format == "WEBP"
+                        and width >= 900 and height >= 1600
+                        and abs(width / height - 9 / 16) <= 0.01
+                        and declared.get("width") == width
+                        and declared.get("height") == height
+                        and declared.get("sha256") == hashlib.sha256(raw).hexdigest()
+                    )
+                if valid:
+                    for destination in (target, runtime_override_dir / f"{sid}.webp"):
+                        if not destination.exists() or destination.read_bytes() != raw:
+                            destination.write_bytes(raw)
+                    print(f"{sid}: verified authoritative image preserved unchanged")
+                    continue
+            except Exception as exc:
+                print(f"{sid}: validation requires repair: {exc}")
         label, master = find_valid_master(repo, project, sid)
         if master is None:
             errors.append(f"{sid}: no valid image master available")

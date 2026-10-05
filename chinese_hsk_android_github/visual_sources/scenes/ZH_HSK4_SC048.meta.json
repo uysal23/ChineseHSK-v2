@@ -4,7 +4,7 @@
   "generationSceneId": "ZH_HSK4_SC048",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
-  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC048.json",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC048.json",
   "titleZh": "咖啡馆上了地方新闻",
   "titleTr": "Kafenin Toplumdaki Yeri",
   "locationId": "LOC_ZH_FAMILY_CAFE_001",
@@ -77,19 +77,8 @@
     "hsk4MaturityLockChecked": true
   },
   "qaStatus": "PASS",
-  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
   "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
-  "requiredImageRules": {
-    "aspectRatio": "9:16",
-    "orientation": "portrait",
-    "singleSceneOnly": true,
-    "style": "warm cinematic 3D/2.5D CGI",
-    "textAllowed": false,
-    "collageAllowed": false,
-    "allDialogueSpeakersVisible": true,
-    "canonicalContinuityRequired": true,
-    "hsk4MaturityLockRequired": true
-  },
   "dialogueSha256": "7c90833071762c6d28c53b83bff67f0ab86453e4474953d23a8886ea59e308cf"
 }

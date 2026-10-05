@@ -5,10 +5,10 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC043.json",
-  "dialogueSha256": "5886809ebfbaabbac3e5be582bfe88faaf3e80b8eca4254f0c50c41f4b6637ba",
-  "titleTr": "Lele Yarışmayı Kazanıyor",
   "titleZh": "乐乐获奖了",
+  "titleTr": "Lele Yarışmayı Kazanıyor",
   "locationId": "LOC_ZH_MEDIA_STUDIO_001",
+  "timeOfDay": "day",
   "scenePurposeTr": "Lele’nin fotoğrafı yarışmada ödül alır ve yerel medyada yayınlanır.",
   "dialogueSpeakers": [
     "张乐乐",
@@ -23,35 +23,41 @@
     "刘梅"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [],
   "characterAgeLock": {
     "张乐乐": "teen_boy",
-    "记者": "adult",
+    "记者": "adult_reporter",
     "张伟": "mature_adult",
     "刘梅": "mature_adult"
   },
   "criticalObjects": [
-    "yerel medya stüdyosu röportaj alanı",
-    "fotoğraf makinesi",
-    "muhabir mikrofonu",
-    "yarışma ödülü/trofe",
-    "kazanan fotoğraf örneği"
+    "fotoğraf makinesi biçimli ödül kupası",
+    "Lele'nin manzara fotoğrafı",
+    "gazeteci mikrofonu",
+    "stüdyo kamerası"
   ],
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC042",
-    "nextSceneId": "ZH_HSK4_SC044"
+    "nextSceneId": "ZH_HSK4_SC044",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
   },
-  "sourceGeneratedFilename": "ZH_HSK4_SC043_final.png",
-  "sourceConstructionTr": "SC043 diyalog ve LOCKED_V2 sahne analizine göre yerel medya stüdyosu kompozisyonu; HSK4 teen_boy Lele, yetişkin muhabir, mature Zhang Wei ve mature Liu Mei canonical görsel kimliğiyle tek sahnede birleştirildi.",
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC043.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC043. Recompose SC020 into a local media studio daytime award interview about the same adolescent Lele winning the photography contest he entered in SC020. Keep the EXACT boy and both parents from reference SC020, same hair, faces, apparent ages, glasses, navy/cream clothes. Exactly FOUR people: Lele center holding a small unlettered golden photography trophy and his landscape print (same sunset river and town image from SC020), Liu Mei proud beside him, Zhang Wei behind him smiling, an adult woman local reporter with chin-length straight dark bob, rust blazer over pale blouse, charcoal trousers, holding a compact unbranded microphone toward Lele. The reporter is NOT Liu Mei and NOT the SC020 official; distinct face and hairstyle. Lele remains adolescent, slim teen proportions, not child. Small warm broadcast interview corner with cream acoustic wall panels, a studio light visible at upper edge, understated camera on a tripod in background, no staff or audience. No stage lineup or pasted-in cutouts. Close, natural shared interaction, four faces clearly visible, hands holding real trophy/print/mic coherently. Single 9:16 scene, no readable text anywhere, no certificate lettering or logos. This reporter identity will recur in SC048."
+  },
   "finalAssetFilename": "ZH_HSK4_SC043.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC043.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
-    "orientation": "9:16_vertical",
-    "sha256": "190e3687a581b78e8bec7e54b113107fd4133a04779e51e7cdb233d4004d5d8f",
-    "bytes": 44200
+    "aspectRatio": "9:16",
+    "bytes": 421134,
+    "sha256": "52d6461ce29c2547009f0791d566115785b5b231fa5ad3523bf8ce0995d23688",
+    "orientation": "9:16_vertical"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -71,7 +77,8 @@
     "hsk4MaturityLockChecked": true
   },
   "qaStatus": "PASS",
-  "status": "FINAL_SOURCE_OVERRIDE",
+  "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-30: SC043; LOC_ZH_MEDIA_STUDIO_001, dört konuşmacı, Lele teen_boy maturity, fotoğraf yarışması ödülü ve yerel medya röportaj bağlamı, 9:16 tek-sahne ve metinsizlik kurallarıyla QA PASS. APK build tetiklenmedi."
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
+  "dialogueSha256": "1d9d79e08578a479173de9523bf0cf6715e94b7f211feaf28aef28fc13d801df"
 }

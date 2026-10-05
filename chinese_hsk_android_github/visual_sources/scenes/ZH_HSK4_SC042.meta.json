@@ -5,10 +5,10 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC042.json",
-  "dialogueSha256": "1c03fb2dc15b3f973067a6665b62f82674bd8e2ab997ecaebfad49fa819ca433",
-  "titleTr": "Büyükannenin Organizasyonu",
   "titleZh": "奶奶来组织",
+  "titleTr": "Büyükannenin Organizasyonu",
   "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "timeOfDay": "day",
   "scenePurposeTr": "Büyükanne gönüllü mutfağında herkesi şaşırtan bir düzen kurar.",
   "dialogueSpeakers": [
     "奶奶",
@@ -24,33 +24,39 @@
   ],
   "requiredNonSpeakerCharacters": [],
   "characterAgeLock": {
-    "奶奶": "elderly_female",
-    "志愿者": "adult",
+    "奶奶": "elderly_adult",
+    "志愿者": "adult_volunteer",
     "刘梅": "mature_adult",
-    "工作人员": "adult"
+    "工作人员": "adult_staff"
   },
   "criticalObjects": [
-    "topluluk merkezi yemek hazırlama alanı",
-    "büyük paslanmaz tencere",
-    "hazır yemek tepsileri",
-    "servis kaseleri",
-    "organizasyon kontrol listesi"
+    "düzenli yemek kapları",
+    "görev dağılımını destekleyen metinsiz pano",
+    "mutfak tezgâhı"
   ],
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC041",
-    "nextSceneId": "ZH_HSK4_SC043"
+    "nextSceneId": "ZH_HSK4_SC043",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
   },
-  "sourceGeneratedFilename": "ZH_HSK4_SC042_final.png",
-  "sourceConstructionTr": "Canonical HSK4 büyükanne ve Liu Mei görsel kimliği, yetişkin gönüllü/çalışan rolleri, LOC_ZH_COMMUNITY_CENTER_001 mekânı ve doğrulanmış community-kitchen yemek-servis foreground katmanı tek sahnede birleştirildi.",
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC042.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC042. Edit/recompose scene into the next moment of the SAME daytime community kitchen as reference 2 (new SC041). Reference 1 SC020 is master style/mother facial identity. Reference 2 locks grandmother, Liu Mei, adult female volunteer, kitchen, clothing. EXACTLY FOUR people now: grandmother (short wavy silver hair, plum cardigan, cream apron), Liu Mei (same low bun, cream knit and navy apron), the same adult female volunteer (sage shirt/navy apron), and an adult male community-center staff coordinator (short neatly parted dark hair, light blue shirt, charcoal trousers, no glasses), replacing father; father and children absent. Grandmother is visibly leading and organizing the charitable meal operation, gesturing toward orderly trays and separate plain color-coded boxes on the preparation table. Liu Mei listens attentively beside her, volunteer holds stacked meal containers, male coordinator holds plain clipboard with no writing. Warm practical collaborative atmosphere, all four readable faces, waist-up to three-quarter natural staging; stainless island, tall sunlit windows and cream walls match SC041. No extra people, no text, no posed lineup. A single cinematic 9:16 portrait."
+  },
   "finalAssetFilename": "ZH_HSK4_SC042.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC042.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
-    "orientation": "9:16_vertical",
-    "sha256": "543c8fb5a367258406a54c18b967833f9daec6ef0485e604619a4fdce5dccccb",
-    "bytes": 73450
+    "aspectRatio": "9:16",
+    "bytes": 375612,
+    "sha256": "0210a873cf206e495f5d76f1aaa60c6db5c66fa0158c51f10704ef41e97145f3",
+    "orientation": "9:16_vertical"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -70,7 +76,8 @@
     "hsk4MaturityLockChecked": true
   },
   "qaStatus": "PASS",
-  "status": "FINAL_SOURCE_OVERRIDE",
+  "status": "FINAL_GENERATED",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-30: SC042; LOC_ZH_COMMUNITY_CENTER_001, dört konuşmacı, büyükanne liderliği, topluluk mutfağı servis nesneleri, 9:16 tek-sahne ve HSK4 maturity kurallarıyla QA PASS. APK build tetiklenmedi."
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
+  "dialogueSha256": "eefe732d5c593d489afaea9018b32b24da31c98f4b50b285a79ae618091eac32"
 }

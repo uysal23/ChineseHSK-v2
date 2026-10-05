@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "HSK4_SC041_SC050",
   "manifestVersion": "LOCKED_V2",
-  "status": "PARTIAL_INTEGRATED_7_OF_10",
+  "status": "INTEGRATED_QA_PASS",
   "level": "HSK4",
   "sceneIds": [
     "ZH_HSK4_SC041",
@@ -23,17 +23,17 @@
     "ZH_HSK4_SC044",
     "ZH_HSK4_SC045",
     "ZH_HSK4_SC046",
-    "ZH_HSK4_SC047"
-  ],
-  "pendingSceneIds": [
+    "ZH_HSK4_SC047",
     "ZH_HSK4_SC048",
     "ZH_HSK4_SC049",
     "ZH_HSK4_SC050"
   ],
+  "pendingSceneIds": [],
   "files": [
     {
       "sceneId": "ZH_HSK4_SC041",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC041.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC041.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC041.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC041.json",
       "qaStatus": "PASS"
@@ -41,6 +41,7 @@
     {
       "sceneId": "ZH_HSK4_SC042",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC042.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC042.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC042.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC042.json",
       "qaStatus": "PASS"
@@ -48,6 +49,7 @@
     {
       "sceneId": "ZH_HSK4_SC043",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC043.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC043.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC043.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC043.json",
       "qaStatus": "PASS"
@@ -55,6 +57,7 @@
     {
       "sceneId": "ZH_HSK4_SC044",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC044.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC044.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC044.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC044.json",
       "qaStatus": "PASS"
@@ -62,6 +65,7 @@
     {
       "sceneId": "ZH_HSK4_SC045",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC045.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC045.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC045.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC045.json",
       "qaStatus": "PASS"
@@ -69,6 +73,7 @@
     {
       "sceneId": "ZH_HSK4_SC046",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC046.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC046.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC046.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC046.json",
       "qaStatus": "PASS"
@@ -76,10 +81,38 @@
     {
       "sceneId": "ZH_HSK4_SC047",
       "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC047.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC047.webp",
       "metadata": "visual_sources/scenes/ZH_HSK4_SC047.meta.json",
       "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC047.json",
       "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC048",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC048.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC048.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC048.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC048.json",
+      "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC049",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC049.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC049.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC049.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC049.json",
+      "qaStatus": "PASS"
+    },
+    {
+      "sceneId": "ZH_HSK4_SC050",
+      "asset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC050.webp",
+      "runtimeMirror": "ci/runtime_visuals/ZH_HSK4_SC050.webp",
+      "metadata": "visual_sources/scenes/ZH_HSK4_SC050.meta.json",
+      "analysis": "visual_sources/scene_analysis/ZH_HSK4_SC050.json",
+      "qaStatus": "PASS"
     }
   ],
-  "noteTr": "HSK4 SC041-SC047 authoritative app asset + metadata + analysis olarak entegre edildi. SC048-SC050 pending. APK build tetiklenmedi."
+  "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor.",
+  "buildApproved": false,
+  "buildApprovalRequired": true,
+  "referenceSceneId": "ZH_HSK4_SC020"
 }

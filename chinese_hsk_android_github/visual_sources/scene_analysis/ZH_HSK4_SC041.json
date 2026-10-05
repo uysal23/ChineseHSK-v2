@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC041",
+  "generationSceneId": "ZH_HSK4_SC041",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
-  "sceneId": "ZH_HSK4_SC041",
-  "status": "ANALYZED_READY_FOR_INTEGRATION",
-  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC041.json",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC041.json",
+  "titleZh": "社区爱心厨房",
   "titleTr": "Sosyal Yardım Mutfağı",
   "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "timeOfDay": "day",
   "scenePurposeTr": "Kafe ihtiyaç sahipleri için gönüllü yemek hazırlama etkinliğine katılır.",
   "dialogueSpeakers": [
     "刘梅",
@@ -21,25 +23,62 @@
     "张伟"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [],
   "characterAgeLock": {
     "刘梅": "mature_adult",
-    "志愿者": "adult",
-    "奶奶": "elderly_female",
+    "志愿者": "adult_volunteer",
+    "奶奶": "elderly_adult",
     "张伟": "mature_adult"
   },
   "criticalObjects": [
-    "topluluk merkezi mutfağı",
-    "büyük tencere",
-    "paslanmaz yemek tepsileri",
-    "çok sayıda hazırlanmış yemek porsiyonu",
-    "servis kepçesi ve paketleme alanı"
+    "yemek hazırlama tezgâhı",
+    "sebze yemeği tenceresi ve kepçe",
+    "yemek kapları ve servis tepsileri"
   ],
-  "visualDirectionTr": "Gündüz topluluk merkezinin sosyal yardım mutfağında Liu Mei, gönüllü, büyükanne ve Zhang Wei birlikte ihtiyaç sahipleri için yemek hazırlar ve organizasyonu konuşur. Büyükanne aktif şekilde yemek hazırlamaya katılır; dört konuşmacı net görünür.",
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC040",
-    "nextSceneId": "ZH_HSK4_SC042"
+    "nextSceneId": "ZH_HSK4_SC042",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": false,
+    "noteTr": "SC040 dosyası mevcut repoda bozuk olduğu için görsel karşılaştırma yapılamadı; diyalog zinciri kontrol edildi. Yeni grubun yüz ve stil referansı SC020."
   },
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC041.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC041: transform the reference into daytime volunteer community kitchen LOC_ZH_COMMUNITY_CENTER_001. Exactly FOUR people: Liu Mei, Zhang Wei, elderly grandmother, one adult woman volunteer. Image 1 SC020 is absolute style and parents identity reference; image 2 SC038 is grandmother identity reference ONLY (short wavy silver hair, aged face, plum cardigan), not a hospital or style reference. Do not include the SC020 boy or SC038 grandfather or doctor. Liu Mei and father wear simple navy aprons over their canonical outfits, grandmother plum cardigan with cream apron, volunteer a muted sage shirt and tied dark hair. The four work together preparing charitable meals: Liu Mei ladles vegetables from stainless pot into a tray, grandmother sorts ready meal containers, father carries a small stack of trays, volunteer passes a bowl. Bright multipurpose community kitchen, cream walls, tall windows, warm wood trim, stainless preparation island, carrots and greens, no readable menu. All four faces clearly visible, no additional people, medium-wide three-quarter composition within portrait with enough space around hands. Preserve same warm stylized cinematic quality as SC020."
+  },
+  "finalAssetFilename": "ZH_HSK4_SC041.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC041.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "bytes": 388614,
+    "sha256": "e503c397709513ab8a9def5d4086c730234679c8cfabb934766534e7f21cf8b7",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
   "requiredImageRules": {
     "aspectRatio": "9:16",
     "orientation": "portrait",
@@ -47,12 +86,9 @@
     "style": "warm cinematic 3D/2.5D CGI",
     "textAllowed": false,
     "collageAllowed": false,
-    "splitScreenAllowed": false,
     "allDialogueSpeakersVisible": true,
-    "ageAppropriateClothing": true,
-    "miniSkirtAllowed": false,
-    "sexualizedClothingAllowed": false,
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
-  }
+  },
+  "dialogueSha256": "2d37426fbdf8e027a67db7b7797aa507fe54a16325cca331a15704a960fa778e"
 }

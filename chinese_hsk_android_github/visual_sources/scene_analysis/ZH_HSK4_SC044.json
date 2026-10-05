@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC044",
+  "generationSceneId": "ZH_HSK4_SC044",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
-  "sceneId": "ZH_HSK4_SC044",
-  "status": "ANALYZED_QA_PASS_INTEGRATED",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC044.json",
   "titleZh": "雨桐被大学录取",
   "titleTr": "Yutong Üniversiteye Kabul Ediliyor",
   "locationId": "LOC_ZH_NEW_HOME_001",
-  "scenePurposeTr": "Kabul haberi gelir ve aile üniversite seçimi ile gelecek planını öğretmenle değerlendirirken büyük sevinç yaşar.",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kabul haberi gelir ve aile büyük bir sevinç yaşar.",
   "dialogueSpeakers": [
     "张雨桐",
     "刘梅",
@@ -22,7 +23,6 @@
     "老师"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [],
   "characterAgeLock": {
     "张雨桐": "young_adult",
     "刘梅": "mature_adult",
@@ -30,30 +30,65 @@
     "老师": "adult_teacher"
   },
   "criticalObjects": [
-    "üniversite broşürleri",
-    "not defteri",
-    "laptop",
-    "kampüs görselleri",
-    "üniversite kabul/gelecek planı materyalleri"
+    "metinsiz kabul mektubu ve zarf",
+    "kitaplar",
+    "evde aile masası"
   ],
-  "visualDirectionTr": "Yeni evdeki sıcak çalışma/oturma alanında Yutong, Liu Mei ve Zhang Wei üniversite kabulü ve gelecek planını öğretmenle değerlendirir. Dört konuşmacı görünür; Yutong genç yetişkin, ebeveynler olgun yetişkin, öğretmen yetişkindir.",
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC043",
-    "nextSceneId": "ZH_HSK4_SC045"
+    "nextSceneId": "ZH_HSK4_SC045",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
   },
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC044.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC044. Recompose references into Yutong receiving university acceptance at home during DAY, visibly delighted and relieved. Image 1 SC020 master parent identity and CGI style. Image 2 SC032 supports the long-haired young adult daughter Yutong's exact face/hair and the warm wood bookcase cream-curtain family apartment; use those same parents with SC020 precedence. Exactly FOUR people visible physically in the room: Yutong, mother Liu Mei, father Zhang Wei, adult female teacher (shoulder-length straight dark hair, navy blazer, cream blouse; different from mother). No Lele, no grandparents, no video screen. Yutong, university-age young adult, long chestnut hair worn loose with side part, lavender cable-knit sweater, holds a single plain ivory acceptance letter and open matching envelope; print side faces her so absolutely NO visible writing. Her mother gently embraces her shoulders, father smiles proudly with one hand resting on chair, teacher congratulates with warm open-hand gesture. Natural celebratory conversation around home dining table, no posed lineup. A few closed books and ceramic mugs only, no photograph or travel brochure piles. Show the acceptance letter prominently and joyful reactions so the story reads immediately. Large window, beige curtains, plants, wooden shelves and warm daylight. 9:16 portrait, all faces and the letter visible."
+  },
+  "finalAssetFilename": "ZH_HSK4_SC044.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC044.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "bytes": 356370,
+    "sha256": "ef11cd15d1bd45d98a35808f60c5e84094680dc53940e14bd5d3e569589d2b25",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
   "requiredImageRules": {
     "aspectRatio": "9:16",
     "orientation": "portrait",
     "singleSceneOnly": true,
-    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "style": "warm cinematic 3D/2.5D CGI",
     "textAllowed": false,
     "collageAllowed": false,
-    "splitScreenAllowed": false,
     "allDialogueSpeakersVisible": true,
-    "ageAppropriateClothing": true,
-    "miniSkirtAllowed": false,
-    "sexualizedClothingAllowed": false,
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
-  }
+  },
+  "dialogueSha256": "4ad0757bd6a50ecf7f40a35ee00d1e054f078bf715ca007850a9c05723f9212c"
 }

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC050",
+  "generationSceneId": "ZH_HSK4_SC050",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC050.json",
+  "titleZh": "孩子们开始飞了",
+  "titleTr": "Yeni Nesil Uçmaya Başlıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile Yutong’un bağımsızlaşmasını ve Lele’nin büyümesini kabul etmeye başlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "kapalı valiz",
+    "defterler",
+    "kahve masası ve kupalar"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC049",
+    "nextSceneId": "ZH_HSK5_SC001",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
+  },
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC050.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC050. Recompose into a tender evening family conversation in SAME new home apartment, parents accepting their children's growing independence. Exactly FOUR people: Zhang Wei and Liu Mei with SC020 exact faces, young adult Yutong and adolescent male Lele. Reference 1 SC020 locks parents and Lele. Reference 2 new SC045 locks all four family faces and young-adult Yutong long chestnut hair/lavender cable knit. Reference 3 new SC047 locks same home at evening ONLY; exclude Li Chen. Warm wood bookcase, cream curtains, houseplants, beige sofa, amber lamp, blue evening window. Family sits closely around a small coffee table: Yutong speaks with a gentle confident gesture about independent university life, Lele listening thoughtfully with a closed notebook in lap, mother gives daughter's hand a supportive touch, father with rectangular black glasses smiles with reflective pride. Lele must retain SC020 adolescent proportions and navy hoodie, never become a small child or girl. Father navy V-neck, mother cream knit low bun, Yutong lavender sweater and jeans; exact consistent identities, no photorealism shift. A closed rose suitcase near the sofa quietly suggests leaving home; two cups and a plain notebook on table, no budget calculator or documents, no additional people/pets. Bittersweet but hopeful intimacy, visually different from the packing scene and retirement scene, all four faces visible, single 9:16 portrait, no text or logos."
+  },
+  "finalAssetFilename": "ZH_HSK4_SC050.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC050.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "bytes": 453814,
+    "sha256": "9ffc480b7eff5575a0c440c07a1b6ab083de395c39a32124903710345fd4a014",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 3D/2.5D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "canonicalContinuityRequired": true,
+    "hsk4MaturityLockRequired": true
+  },
+  "dialogueSha256": "fd0689e3877863883329f5673ddab6ed6469b6912ec308c61fa4450f48c15e6f"
+}

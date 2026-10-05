@@ -3,69 +3,65 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK4_SC021_SC030",
+    "batchId": "HSK4_SC041_SC050",
     "level": "HSK4",
-    "startScene": "HSK4_SC021",
-    "endScene": "HSK4_SC030",
+    "startScene": "HSK4_SC041",
+    "endScene": "HSK4_SC050",
     "sceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "completedSceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "pendingSceneIds": [],
-    "rejectedGeneratedSceneIds": [
-      "ZH_HSK4_SC024_PREVIOUS_LIBRARY_ATTEMPTS",
-      "ZH_HSK4_SC024_PREVIOUS_COLLAGE_ATTEMPTS"
-    ],
     "status": "READY_FOR_BUILD",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "finalCandidateSceneIds": [
-      "ZH_HSK4_SC021",
-      "ZH_HSK4_SC022",
-      "ZH_HSK4_SC023",
-      "ZH_HSK4_SC024",
-      "ZH_HSK4_SC025",
-      "ZH_HSK4_SC026",
-      "ZH_HSK4_SC027",
-      "ZH_HSK4_SC028",
-      "ZH_HSK4_SC029",
-      "ZH_HSK4_SC030"
+      "ZH_HSK4_SC041",
+      "ZH_HSK4_SC042",
+      "ZH_HSK4_SC043",
+      "ZH_HSK4_SC044",
+      "ZH_HSK4_SC045",
+      "ZH_HSK4_SC046",
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": true,
-    "noteTr": "HSK4 SC021-SC030 10/10 final visual gate. 2026-09-30 kullanıcının açık build talimatıyla mevcut repo snapshot'ı için build onayı verildi. HSK4 SC041-SC050 4/10 partial batch korunur."
+    "buildApproved": false,
+    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor."
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -100,7 +96,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK4_SC047_REGENERATED_QA_PASS_2026-10-03",
+  "latestVisualRevision": "HSK4_SC041_SC050_SC020_CONTINUITY_REGENERATED_2026-10-04",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -818,14 +814,13 @@
       "ZH_HSK4_SC044",
       "ZH_HSK4_SC045",
       "ZH_HSK4_SC046",
-      "ZH_HSK4_SC047"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK4_SC047",
       "ZH_HSK4_SC048",
       "ZH_HSK4_SC049",
       "ZH_HSK4_SC050"
     ],
-    "status": "IN_PROGRESS",
+    "pendingSceneIds": [],
+    "status": "READY_FOR_BUILD",
     "manifestVersion": "LOCKED_V2",
     "maturityLock": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
     "analysisReadySceneIds": [
@@ -835,7 +830,10 @@
       "ZH_HSK4_SC044",
       "ZH_HSK4_SC045",
       "ZH_HSK4_SC046",
-      "ZH_HSK4_SC047"
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "finalCandidateSceneIds": [
       "ZH_HSK4_SC041",
@@ -844,10 +842,19 @@
       "ZH_HSK4_SC044",
       "ZH_HSK4_SC045",
       "ZH_HSK4_SC046",
-      "ZH_HSK4_SC047"
+      "ZH_HSK4_SC047",
+      "ZH_HSK4_SC048",
+      "ZH_HSK4_SC049",
+      "ZH_HSK4_SC050"
     ],
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "SC041-SC047 LOCKED_V2 + HSK4 maturity QA PASS ile entegre edildi. SC047 2026-10-03 tarihinde yeniden üretilmiş 480x854 optimize canonical final ile değiştirildi. SC048-SC050 pending. APK build tetiklenmedi."
+    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor."
+  },
+  "visualIntegrationPreference": {
+    "applyEachReviewedGeneratedBatchToMain": true,
+    "apkRequiresFreshExplicitUserApproval": true,
+    "updatedAt": "2026-10-04",
+    "source": "user_instruction"
   }
 }

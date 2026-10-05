@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC049",
+  "generationSceneId": "ZH_HSK4_SC049",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC049.json",
+  "titleZh": "三代人的全家福",
+  "titleTr": "Üç Kuşak Aile Fotoğrafı",
+  "locationId": "LOC_ZH_PARK_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Üç kuşak bir araya gelir; zamanın geçtiği açıkça hissedilir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "爷爷",
+    "奶奶",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "张雨桐",
+    "张乐乐"
+  ],
+  "characterAgeLock": {
+    "张伟": "mature_adult",
+    "刘梅": "mature_adult",
+    "爷爷": "elderly_adult",
+    "奶奶": "elderly_adult",
+    "张雨桐": "young_adult",
+    "张乐乐": "teen_boy"
+  },
+  "criticalObjects": [
+    "park bankı",
+    "tripodlu fotoğraf makinesi"
+  ],
+  "continuity": {
+    "previousSceneId": "ZH_HSK4_SC048",
+    "nextSceneId": "ZH_HSK4_SC050",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
+  },
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC049.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC049. Recompose the reference family into a THREE-GENERATION FAMILY PORTRAIT IN THE PARK, LOC_ZH_PARK_001, DAY. Exactly SIX relatives; four dialogue speakers are father Zhang Wei, mother Liu Mei, grandfather, grandmother; add their daughter Yutong and son Lele as necessary nonspeakers so this genuinely shows three generations. No other people, reporter, teacher or volunteer. Reference 1 SC020 locks father/mother/teen Lele identities and absolute style. Reference 2 new SC044 locks Yutong's exact long side-parted chestnut hair, young adult face and lavender sweater. Reference 3 new SC041 locks elderly grandmother's short silver waves, aged face, plum cardigan (remove apron). Reference 4 SC038 locks elderly grandfather's swept-back silver hair, lined face, strong gray eyebrows ONLY; he is now outdoors in plain warm gray cardigan over pale shirt, healthy seated, no hospital props. Grandparents sit together on a park bench, father and mother stand close behind, Yutong beside mother, teen Lele beside grandfather. Three generations unmistakable: elderly grandparents, mature parents, young-adult daughter and adolescent son. All six faces unoccluded. They smile warmly toward a small camera on a tripod visible at bottom foreground with its back toward viewer; self-timer family photo moment. Full group fits naturally, no squeezed bodies, no giant heads, no extra limbs. Sunlit green park, soft golden daylight, trees and flowerbeds blurred; no buildings from cafe or hospital. Matching 9:16 single scene cinematic CGI. Preserve SC020 faces instead of making a new family."
+  },
+  "finalAssetFilename": "ZH_HSK4_SC049.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC049.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "bytes": 540336,
+    "sha256": "13e94b3dc6d6a6ce2b4768c60dbd1125bb756c537d46efc7b1f5514104c8fd67",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
+  "dialogueSha256": "ef91a44259ff35e29058e229828bccb36d61393b539681a94c86f02234656bac"
+}

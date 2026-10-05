@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
+  "sceneId": "ZH_HSK4_SC043",
+  "generationSceneId": "ZH_HSK4_SC043",
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
-  "sceneId": "ZH_HSK4_SC043",
-  "status": "ANALYZED_QA_PASS_INTEGRATED",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC043.json",
-  "titleTr": "Lele Yarışmayı Kazanıyor",
   "titleZh": "乐乐获奖了",
+  "titleTr": "Lele Yarışmayı Kazanıyor",
   "locationId": "LOC_ZH_MEDIA_STUDIO_001",
+  "timeOfDay": "day",
   "scenePurposeTr": "Lele’nin fotoğrafı yarışmada ödül alır ve yerel medyada yayınlanır.",
   "dialogueSpeakers": [
     "张乐乐",
@@ -22,38 +23,73 @@
     "刘梅"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [],
   "characterAgeLock": {
     "张乐乐": "teen_boy",
-    "记者": "adult",
+    "记者": "adult_reporter",
     "张伟": "mature_adult",
     "刘梅": "mature_adult"
   },
   "criticalObjects": [
-    "yerel medya stüdyosu röportaj alanı",
-    "fotoğraf makinesi",
-    "muhabir mikrofonu",
-    "yarışma ödülü/trofe",
-    "Lele’nin kazanan fotoğrafını temsil eden stüdyo ekranı/örnek fotoğraf"
+    "fotoğraf makinesi biçimli ödül kupası",
+    "Lele'nin manzara fotoğrafı",
+    "gazeteci mikrofonu",
+    "stüdyo kamerası"
   ],
-  "visualDirectionTr": "Lele yerel medya stüdyosunda fotoğraf yarışması ödülünü almış durumdadır. Muhabir röportaj yapar; Zhang Wei ve Liu Mei gururla yanında durur. Lele HSK4 maturity kilidine göre küçük çocuk/chibi değil, belirgin ergen erkek görünümündedir.",
   "continuity": {
     "previousSceneId": "ZH_HSK4_SC042",
-    "nextSceneId": "ZH_HSK4_SC044"
+    "nextSceneId": "ZH_HSK4_SC044",
+    "styleAndFamilyIdentityReference": "ZH_HSK4_SC020",
+    "previousSceneVisualChecked": true,
+    "noteTr": "SC041-SC050 yeniden üretim grubu SC020 yüz ve stil referansıyla birlikte incelendi."
   },
+  "generation": {
+    "method": "built_in_imagegen",
+    "generatedAt": "2026-10-04",
+    "sourceGeneratedFilename": "ZH_HSK4_SC043.png",
+    "prompt": "Use case: identity-preserve / stylized-concept. ChineseHSK HSK4 LOCKED_V2. Deliver ONE final portrait image, exact 9:16 aspect ratio, ideally 1152x2048. Warm cinematic 2.5D/3D CGI matching reference SC020, finely sculpted expressive faces, natural human proportions, textured knit fabrics, soft golden lighting, shallow depth of field. Maintain EXACT recurring facial identity, hair shape, eye size, apparent age and body proportions of reference SC020; do not shift to photorealism, chibi or rounder cartoon faces. Zhang Wei: mature Chinese father, short swept tousled dark hair, rectangular black glasses, navy V-neck over pale collared shirt. Liu Mei: mature Chinese mother, side-parted chestnut hair in low loose bun, cream cable knit cardigan over pale shirt. Lele when required: same adolescent boy from SC020 with tousled short dark hair, navy/green casual hoodie, never a small child. All speaking people must have visible recognizable faces. Single continuous scene and one moment, natural interaction, coherent anatomy and hands. NO captions, letters, readable numbers, signs, logos, watermarks, collage, split screen or UI. Modest age-appropriate clothing. Do not render scene ID.\nScene ID ZH_HSK4_SC043. Recompose SC020 into a local media studio daytime award interview about the same adolescent Lele winning the photography contest he entered in SC020. Keep the EXACT boy and both parents from reference SC020, same hair, faces, apparent ages, glasses, navy/cream clothes. Exactly FOUR people: Lele center holding a small unlettered golden photography trophy and his landscape print (same sunset river and town image from SC020), Liu Mei proud beside him, Zhang Wei behind him smiling, an adult woman local reporter with chin-length straight dark bob, rust blazer over pale blouse, charcoal trousers, holding a compact unbranded microphone toward Lele. The reporter is NOT Liu Mei and NOT the SC020 official; distinct face and hairstyle. Lele remains adolescent, slim teen proportions, not child. Small warm broadcast interview corner with cream acoustic wall panels, a studio light visible at upper edge, understated camera on a tripod in background, no staff or audience. No stage lineup or pasted-in cutouts. Close, natural shared interaction, four faces clearly visible, hands holding real trophy/print/mic coherently. Single 9:16 scene, no readable text anywhere, no certificate lettering or logos. This reporter identity will recur in SC048."
+  },
+  "finalAssetFilename": "ZH_HSK4_SC043.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC043.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "bytes": 421134,
+    "sha256": "52d6461ce29c2547009f0791d566115785b5b231fa5ad3523bf8ce0995d23688",
+    "orientation": "9:16_vertical"
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk4MaturityLockChecked": true
+  },
+  "qaStatus": "PASS",
+  "status": "ANALYZED_QA_PASS_INTEGRATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC020 referansıyla yeniden üretildi; diyalog kadrosu, sahne konusu, yüz/stil/yaş sürekliliği ve metinsizlik görsel olarak incelendi. App asset ve runtime mirror eşleşir. APK için yeni açık kullanıcı onayı gereklidir.",
   "requiredImageRules": {
     "aspectRatio": "9:16",
     "orientation": "portrait",
     "singleSceneOnly": true,
-    "style": "warm cinematic 3D/2.5D CGI / visual_novel_theatre",
+    "style": "warm cinematic 3D/2.5D CGI",
     "textAllowed": false,
     "collageAllowed": false,
-    "splitScreenAllowed": false,
     "allDialogueSpeakersVisible": true,
-    "ageAppropriateClothing": true,
-    "miniSkirtAllowed": false,
-    "sexualizedClothingAllowed": false,
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
-  }
+  },
+  "dialogueSha256": "1d9d79e08578a479173de9523bf0cf6715e94b7f211feaf28aef28fc13d801df"
 }
