@@ -39,16 +39,16 @@
     "previousSceneId": "ZH_HSK4_SC028",
     "nextSceneId": "ZH_HSK4_SC030"
   },
-  "sourceGeneratedFilename": "tarihi_tapınakta_renkli_rehberli_tur.png",
+  "sourceGeneratedFilename": "ZH_HSK4_SC029.png",
   "finalAssetFilename": "ZH_HSK4_SC029.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC029.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "e6fd3b757fb4f5ed13453c8b352d63eaf9d234bb4da8feb35bf3be68cc0652c0",
-    "bytes": 223502
+    "sha256": "d8e037a9edb819e43defa6c489edd168f1c5aafc1b42f2e114b5e9150de80f92",
+    "bytes": 421130
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -70,5 +70,7 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-28: HSK4 SC021-SC030 final paketinde LOCKED_V2, HSK4 maturity, kadro, mekan, kritik obje, 9:16, metinsizlik ve sahne kimliği kontrolleri PASS. SC024 önceki yanlış üretimler reddedildi; yalnız son doğru kafe elektrik kesintisi görseli entegre edildi."
+  "qaNoteTr": "SC020 yüz/stil referansıyla yeniden üretildi. Lele teen_boy, ebeveynlerin canonical yüzleri ve dört diyalog konuşmacısı doğrulandı. Sahne bağlamı/nesneler ve komşu sahne continuity kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Use case: illustration-story. Canonical Chinese HSK4 story scene, single 9:16 portrait, warm cinematic detailed 2.5D/3D CGI, same render materials and face identity as attached SC020 reference. Image 1 is the canonical style/identity reference; image 2 is the old scene's location and story/composition reference ONLY. Regenerate the second scene with SC020 identities and ages. Zhang Wei mature Chinese father, black rectangular glasses, wavy short dark hair, navy cardigan/sweater over pale blue shirt. Liu Mei mature Chinese mother, brown hair in loose low bun, cream knit cardigan over white shirt. Zhang Lele is the boy CENTER of SC020: recognizable lively face, tousled dark hair, navy zip hoodie over white T-shirt, teenage male 16-17, lean adolescent proportions, youthful but NOT small child, NOT chibi. Match SC020 Lele exactly in face and apparent age; height around his parents' shoulder/eye level, not waist level. Yutong only if required in scene: Chinese young-adult daughter 20-22, long brown hair, mauve/purple knit top, visibly older than Lele. Every required dialogue speaker clearly visible with unobstructed face, natural interaction. No extra focal people. No text, no readable signage, no logos, no watermark, no collage, no split screen, no UI. 1080x1920 portrait composition. Preserve canonical locations and key objects from old scene; all clothes modest and age appropriate. SC029: ONLY one adult local female guide, Zhang Wei, Liu Mei and teen Lele; no Yutong. Daylight historic Chinese tourist site LOC_ZH_TOURIST_SITE_001, red columns, painted traditional eaves, lanterns, stone terrace and pagoda distant. Guide adult woman in beige hiking hat and modest khaki vest over pale blouse holds illustrated route map with no text and points at architectural detail above. Family listens with curious engaged expressions, Zhang Wei has camera, Lele backpack. Teen Lele is near his mother's eye-height, SC020 tousled hair and face, navy hoodie. Warm natural daylight, respectful lively tour conversation; all four visible, balanced portrait with architecture above and stone foreground.",
+  "styleReferenceSceneId": "ZH_HSK4_SC020"
 }

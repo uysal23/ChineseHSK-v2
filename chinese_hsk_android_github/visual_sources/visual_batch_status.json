@@ -864,5 +864,27 @@
     "buildApproved": false,
     "buildApprovalRequired": true,
     "imageSha256": "e5070247b39ab64e5e0d833951e9abb345ce8035d8416597d5ef721421c2a679"
+  },
+  "hsk4Sc026Sc029Sc031ContinuityRepair": {
+    "sceneIds": [
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC031"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK4_SC026",
+      "ZH_HSK4_SC027",
+      "ZH_HSK4_SC028",
+      "ZH_HSK4_SC029",
+      "ZH_HSK4_SC031"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "styleReferenceSceneId": "ZH_HSK4_SC020",
+    "buildApproved": false,
+    "buildApprovalRequired": true,
+    "noteTr": "5/5 sahne Lele teen_boy ve canonical ebeveyn yüz/stil continuity için yeniden üretildi. APK build başlatılmadı."
   }
 }
