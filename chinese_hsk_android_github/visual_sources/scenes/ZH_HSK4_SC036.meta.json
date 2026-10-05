@@ -72,5 +72,5 @@
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
   "qaNoteTr": "2026-09-29: Kullanıcının onayladığı yeniden üretim; gerçek HSK4 scene JSON, kadro, mekan, HSK4 maturity, kritik obje, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi.",
-  "dialogueSha256": "0e78667d6d9dd1fc3afba2c9671a7b11edb341d69e3d5be7009e69f5a043c477"
+  "dialogueSha256": "2d2273ff52d32409fb1ec5b36f145db04e35f29e49977896211c46800b85686d"
 }
