@@ -3,7 +3,7 @@
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
   "sceneId": "ZH_HSK4_SC035",
-  "status": "ANALYZED_AND_PARTIALLY_INTEGRATED",
+  "status": "INTEGRATED_QA_PASS",
   "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC035.json",
   "titleTr": "Zhang Büyümeye Karşı Çıkıyor",
   "locationId": "LOC_ZH_NEW_HOME_001",
@@ -54,5 +54,7 @@
     "sexualizedClothingAllowed": false,
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
-  }
+  },
+  "styleReferenceSceneId": "ZH_HSK4_SC020",
+  "qaNoteTr": "SC020 yüz/stil referansıyla yeniden üretildi. Ebeveynlerin canonical yüzleri ve olgun yetişkin görünümü ve dört diyalog konuşmacısı doğrulandı. Sahne bağlamı/nesneler ve komşu sahne continuity kontrol edildi. APK build başlatılmadı."
 }

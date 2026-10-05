@@ -56,19 +56,21 @@
     "uniqueSceneIdChecked": true,
     "hsk4MaturityLockChecked": true
   },
-  "sourceGeneratedFilename": "sıcak_kafede_yaratıcı_toplantı.png",
+  "sourceGeneratedFilename": "ZH_HSK4_SC037.png",
   "finalAssetFilename": "ZH_HSK4_SC037.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC037.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "450e88852063f733de92bb0ecf456b5d49199f768f89b22281d9b655228ca6fd",
-    "bytes": 262640
+    "sha256": "389c6e78713d3c0ebc6d259f783cf07c8946b6639f141e9ee9f86bc81c7e9c87",
+    "bytes": 458098
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-29: Kullanıcının onayladığı yeniden üretim; gerçek HSK4 scene JSON, kadro, mekan, HSK4 maturity, kritik obje, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi."
+  "qaNoteTr": "SC020 yüz/stil referansıyla yeniden üretildi. Ebeveynlerin canonical yüzleri ve olgun yetişkin görünümü ve dört diyalog konuşmacısı doğrulandı. Sahne bağlamı/nesneler ve komşu sahne continuity kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Use case: illustration-story. Replace canonical Chinese HSK4 scene, single 9:16 vertical warm cinematic detailed 2.5D/3D CGI, no text, logos, watermark, UI overlays, collage or panels. Image1 SC020 is canonical PARENT FACE AND STYLE reference: Zhang Wei mature adult father with short wavy dark hair, black rectangular glasses, navy knit sweater/cardigan over pale blue shirt; Liu Mei mature adult mother with warm brown hair in loose low bun, cream knit cardigan over white shirt. Match their face geometry and apparent ages exactly to image1, no age regression. Image2 is old target scene: retain its location and named secondary adult identities unless instructed to correct scene logic. Yutong ONLY if required: young adult daughter, long brown hair, mauve/purple knit top, visibly younger than mature parents, no child proportions. Every named dialogue speaker visibly identifiable; exactly four focal speakers, no extra family members. Natural expressive dialogue, correct hands, soft cinematic lighting, rich knit and wood textures. Readable letters/numbers absent from all papers, screens and signs. SC037 Improve Existing Cafe Instead of Second Branch, LOC_ZH_FAMILY_CAFE_001. ONLY Liu Mei, Zhang Wei, adult female employee and adult male customer, no Yutong/Lele/Li Chen. Match employee and customer from old37: employee dark high bun, white modest blouse, navy apron with brown straps; customer adult male, short wavy dark hair, olive overshirt over pale tee. Parents SC020 identities, Liu Mei brown loose LOW bun and cream cardigan, Zhang Wei black glasses navy knit. Four gathered at a wood table in warm daylight cafe with espresso machine, plants, windows, pendant lights, pastry counter. Liu Mei takes notes and points at small existing-cafe improvement layouts/photo boards, employee holds tablet, customer offers feedback, Zhang Wei listens approvingly. Modest collaborative decision to improve this cafe, not expansion business pitch. Blank notebooks, tablet no text, coffee cups and unlabelled existing cafe plan. All four clear expressive faces, adult age proportions. No readable background chalkboard text; only blank boards or simple unlabelled drawings.",
+  "styleReferenceSceneId": "ZH_HSK4_SC020"
 }

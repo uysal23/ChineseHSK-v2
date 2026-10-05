@@ -886,5 +886,27 @@
     "buildApproved": false,
     "buildApprovalRequired": true,
     "noteTr": "5/5 sahne Lele teen_boy ve canonical ebeveyn yüz/stil continuity için yeniden üretildi. APK build başlatılmadı."
+  },
+  "hsk4Sc033Sc037ContinuityRepair": {
+    "sceneIds": [
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK4_SC033",
+      "ZH_HSK4_SC034",
+      "ZH_HSK4_SC035",
+      "ZH_HSK4_SC036",
+      "ZH_HSK4_SC037"
+    ],
+    "pendingSceneIds": [],
+    "status": "INTEGRATED_QA_PASS",
+    "styleReferenceSceneId": "ZH_HSK4_SC020",
+    "buildApproved": false,
+    "buildApprovalRequired": true,
+    "noteTr": "5/5 sahne canonical ebeveyn yüz/stil continuity ve sahne anlatımı için yeniden üretildi. SC033 öğretmen video görüşmesi düzeltildi. SC032 kontrol edildi ve korundu. APK build başlatılmadı."
   }
 }

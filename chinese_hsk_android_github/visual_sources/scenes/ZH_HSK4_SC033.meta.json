@@ -40,16 +40,16 @@
     "previousSceneId": "ZH_HSK4_SC032",
     "nextSceneId": "ZH_HSK4_SC034"
   },
-  "sourceGeneratedFilename": "sıcak_bir_üniversite_danışmanlığı_akşamı.png",
+  "sourceGeneratedFilename": "ZH_HSK4_SC033.png",
   "finalAssetFilename": "ZH_HSK4_SC033.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK4_SC033.webp",
   "image": {
-    "width": 941,
-    "height": 1672,
+    "width": 1080,
+    "height": 1920,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "189f339c5d8e07b4a6ffcd5affe25d287ed6a9c7b036ab374d505f1d89c12deb",
-    "bytes": 240602
+    "sha256": "034d41e10a2f831f9b20bf4a3545e4b24f5b88e749791da2f6f1909a095691aa",
+    "bytes": 445932
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -71,6 +71,8 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-29: Kullanıcının onayladığı yeniden üretim; gerçek HSK4 scene JSON, kadro, mekan, HSK4 maturity, kritik obje, 9:16, tek-sahne, metinsizlik ve kolajsızlık kontrolleri PASS. APK build tetiklenmedi.",
-  "dialogueSha256": "6b0221d15922a9da6f89841a90df681173d99fb96b0c35ae6a475d7151440c98"
+  "qaNoteTr": "SC020 yüz/stil referansıyla yeniden üretildi. Ebeveynlerin canonical yüzleri ve olgun yetişkin görünümü ve dört diyalog konuşmacısı doğrulandı. Sahne bağlamı/nesneler ve komşu sahne continuity kontrol edildi. APK build başlatılmadı.",
+  "dialogueSha256": "6b0221d15922a9da6f89841a90df681173d99fb96b0c35ae6a475d7151440c98",
+  "generationPrompt": "Use case: illustration-story. Replace canonical Chinese HSK4 scene, single 9:16 vertical warm cinematic detailed 2.5D/3D CGI, no text, logos, watermark, UI overlays, collage or panels. Image1 SC020 is canonical PARENT FACE AND STYLE reference: Zhang Wei mature adult father with short wavy dark hair, black rectangular glasses, navy knit sweater/cardigan over pale blue shirt; Liu Mei mature adult mother with warm brown hair in loose low bun, cream knit cardigan over white shirt. Match their face geometry and apparent ages exactly to image1, no age regression. Image2 is old target scene: retain its location and named secondary adult identities unless instructed to correct scene logic. Yutong ONLY if required: young adult daughter, long brown hair, mauve/purple knit top, visibly younger than mature parents, no child proportions. Every named dialogue speaker visibly identifiable; exactly four focal speakers, no extra family members. Natural expressive dialogue, correct hands, soft cinematic lighting, rich knit and wood textures. Readable letters/numbers absent from all papers, screens and signs. SC033 University Options, LOC_ZH_NEW_HOME_001, evening family living room at wooden study table, sofa/shelves/plants, warm lamp and evening city window. ONLY Yutong, Liu Mei, Zhang Wei PHYSICALLY present, plus adult female teacher visible ON LAPTOP VIDEO CALL, not sitting at the table. Teacher recognizable short dark hair, glasses, modest gray blazer over pale shirt from old33. Yutong and parents compare university campus photo brochures and a notebook/map, thoughtful hopeful discussion of strengths and options. Laptop angled toward viewer with teacher's clear face and torso, no interface text. ALL FOUR speakers clear: three at table and teacher on screen. Correct the old scene's teacher in person to video call. Keep printed pictures without readable text. No Lele.",
+  "styleReferenceSceneId": "ZH_HSK4_SC020"
 }

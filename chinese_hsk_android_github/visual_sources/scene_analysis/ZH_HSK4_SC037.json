@@ -2,43 +2,40 @@
   "schemaVersion": 1,
   "manifestVersion": "LOCKED_V2",
   "maturityManifest": "docs/visuals/HSK4_CHARACTER_MATURITY_LOCK_TR.md",
-  "sceneId": "ZH_HSK4_SC033",
+  "sceneId": "ZH_HSK4_SC037",
   "status": "INTEGRATED_QA_PASS",
-  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC033.json",
-  "titleTr": "Üniversite Seçenekleri",
-  "locationId": "LOC_ZH_NEW_HOME_001",
-  "scenePurposeTr": "Farklı üniversitelerin avantajları ayrıntılı biçimde karşılaştırılır.",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK4/scenes/ZH_HSK4_SC037.json",
+  "titleTr": "İkinci Şube Yerine Daha İyi Kafe",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "scenePurposeTr": "Aile büyümek yerine mevcut kafeyi geliştirmeye karar verir.",
   "dialogueSpeakers": [
-    "张雨桐",
     "刘梅",
     "张伟",
-    "老师"
+    "员工",
+    "顾客"
   ],
   "requiredVisualCharacters": [
-    "张雨桐",
     "刘梅",
     "张伟",
-    "老师"
+    "员工",
+    "顾客"
   ],
   "requiredNonSpeakerCharacters": [],
-  "forbiddenExtraCharacters": [
-    "张乐乐"
-  ],
   "characterAgeLock": {
-    "张雨桐": "young_adult",
     "刘梅": "mature_adult",
     "张伟": "mature_adult",
-    "老师": "adult"
+    "员工": "adult",
+    "顾客": "adult"
   },
   "criticalObjects": [
-    "üniversite broşürleri (okunabilir metin yok)",
-    "kampüs fotoğrafları",
-    "laptop üzerinde öğretmen görüntülü görüşmesi",
-    "not defteri/harita"
+    "mevcut kafe geliştirme planı",
+    "tablet",
+    "not defteri",
+    "kahve fincanları"
   ],
   "continuity": {
-    "previousSceneId": "ZH_HSK4_SC032",
-    "nextSceneId": "ZH_HSK4_SC034"
+    "previousSceneId": "ZH_HSK4_SC036",
+    "nextSceneId": "ZH_HSK4_SC038"
   },
   "requiredImageRules": {
     "aspectRatio": "9:16",
@@ -55,6 +52,7 @@
     "canonicalContinuityRequired": true,
     "hsk4MaturityLockRequired": true
   },
+  "visualDirectionTr": "Sıcak aile kafesinde Liu Mei, Zhang Wei, yetişkin çalışan ve yetişkin müşteri; mevcut kafeyi iyileştirme planı üzerine konuşma. Dört konuşmacı görünür, ebeveyn yüzleri SC020 ile uyumlu.",
   "styleReferenceSceneId": "ZH_HSK4_SC020",
   "qaNoteTr": "SC020 yüz/stil referansıyla yeniden üretildi. Ebeveynlerin canonical yüzleri ve olgun yetişkin görünümü ve dört diyalog konuşmacısı doğrulandı. Sahne bağlamı/nesneler ve komşu sahne continuity kontrol edildi. APK build başlatılmadı."
 }
