@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC038",
+  "generationSceneId": "ZH_HSK5_SC038",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC038.json",
+  "dialogueSha256": "2ae8eb4517bbc94d81a25bd1a1fb7a4290ebd9ceb8e5729320e642dbdec47f3a",
+  "titleZh": "第一份正式工作",
+  "titleTr": "İlk Tam Zamanlı İş",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yutong mezuniyet sonrası ilk tam zamanlı işe başlar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "经理": "adult_manager",
+    "同事": "adult_coworker",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş çalışma dosyası",
+    "ofis masası",
+    "bilgisayar ekranı yazısız ve karanlık"
+  ],
+  "visualDirectionTr": "Yutong ilk tam zamanlı günlerinde yeni ofiste kadın yöneticisi ve erkek iş arkadaşıyla oryantasyon yapar; Liu Mei kısa bir destek ziyaretindedir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC037",
+    "nextSceneId": "ZH_HSK5_SC039",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC038.png",
+  "finalAssetFilename": "ZH_HSK5_SC038.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC038.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "20522453d7a89151fa0142ca954812aac2937022e2198072369f5fafb26980a2",
+    "bytes": 330546
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC023 Yutong ve Liu; yeni yetişkin kadın yönetici ve erkek iş arkadaşı; gündüz yeni ofis.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC034",
+  "generationSceneId": "ZH_HSK5_SC034",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC034.json",
+  "dialogueSha256": "fa9c95b348cddd256b8ef10dc9bf16fbc2d37926a0da7619da712d50f0c2ad2b",
+  "titleZh": "退休日期第一次变具体",
+  "titleTr": "Erken Emeklilik Tarihi Beliriyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang ve Liu Mei yaklaşık bir emeklilik tarihi belirler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "理财顾问",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "理财顾问",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "理财顾问": "adult_financial_advisor",
+    "李晨": "young_adult_male_partner"
+  },
+  "criticalObjects": [
+    "boş finans defteri",
+    "işaretsiz hesap makinesi",
+    "çay fincanları"
+  ],
+  "visualDirectionTr": "Akşam aile evinde Zhang ve Liu Mei, yetişkin aile üyesi Li Chen ve profesyonel mali danışmanla yaklaşık emeklilik tarihi ve tasarruf planını görüşür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC033",
+    "nextSceneId": "ZH_HSK5_SC035",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC034.png",
+  "finalAssetFilename": "ZH_HSK5_SC034.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC034.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "2ed8bd382bb2d10f3e0b757ccf3351ee9df98627d43656fe4bc0baabf44b2327",
+    "bytes": 410868
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC032 aile yüzleri ve aynı genç erkek Li Chen; kadın mali danışman; akşam ev ortamı.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC037",
+  "generationSceneId": "ZH_HSK5_SC037",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC037.json",
+  "dialogueSha256": "98efae5486d36badad064013936ebf63649b989f3dc44e5b65183a5dd91a5316",
+  "titleZh": "雨桐毕业了",
+  "titleTr": "Yutong Mezun Oluyor",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Mezuniyet günü aile geçmiş yılları hatırlar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "同学"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "同学"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "同学": "adult_university_classmate"
+  },
+  "criticalObjects": [
+    "boş diploma kılıfı",
+    "mezuniyet kepi ve cübbesi",
+    "kampüs yolu"
+  ],
+  "visualDirectionTr": "Aynı üniversite kampüsünde gündüz yetişkin Yutong mezuniyetini Zhang, Liu Mei ve aynı sınıf arkadaşıyla kutlar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC036",
+    "nextSceneId": "ZH_HSK5_SC038",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC030",
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

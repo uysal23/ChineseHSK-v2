@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC032",
+  "generationSceneId": "ZH_HSK5_SC032",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC032.json",
+  "dialogueSha256": "d6d537a0fdc7412b388fc2a1bb445b4891471d058cbe2d53533eb0740c626778",
+  "titleZh": "更多的钱还是更多的生活？",
+  "titleTr": "Yüksek Maaş mı, Daha Fazla Zaman mı?",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile para ile zaman arasındaki değeri açıkça tartışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "çay takımı",
+    "boş not defteri",
+    "meyve tabağı"
+  ],
+  "visualDirectionTr": "Aynı aile evinde akşam Zhang, Liu Mei, yetişkin Yutong ve onun genç yetişkin partneri yüksek maaş ile aileye ayrılan zamanı tartışır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC031",
+    "nextSceneId": "ZH_HSK5_SC033",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC032.png",
+  "finalAssetFilename": "ZH_HSK5_SC032.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC032.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "b51281aa9e22e0717178ec5a3b7b55a6df36b3dcb71b95f80395ac4f1291152e",
+    "bytes": 433114
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC021 aile referansı; Zhang, Liu, yetişkin Yutong ve aynı koyu ceketli genç erkek partner; aynı akşam evi.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

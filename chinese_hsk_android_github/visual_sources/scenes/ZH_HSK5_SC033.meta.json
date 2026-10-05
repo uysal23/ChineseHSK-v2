@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC033",
+  "generationSceneId": "ZH_HSK5_SC033",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC033.json",
+  "dialogueSha256": "a6bc93aab7a45fa84ad2f3a3f5c68ec6478caf25d25bde1de6e2a4d190171097",
+  "titleZh": "张伟拒绝了邀请",
+  "titleTr": "Zhang Teklifi Reddediyor",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang yüksek maaşlı teklifi reddedip mevcut yaşamını seçer.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner"
+  },
+  "criticalObjects": [
+    "boş kapatılmış dosya",
+    "toplantı masası",
+    "cam ofis bölmesi"
+  ],
+  "visualDirectionTr": "Aynı iş yerinde Zhang teklifi saygılı biçimde reddeder; aynı yönetici, Liu Mei ve Yutong’un partneri yanında bulunur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC032",
+    "nextSceneId": "ZH_HSK5_SC034",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC033.png",
+  "finalAssetFilename": "ZH_HSK5_SC033.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC033.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "e9dc586f187c46aaef893728e63a0e7a65c5d3e8fe491d47c75814ac95415671",
+    "bytes": 371180
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC031 ile aynı erkek yönetici, aynı Zhang, Liu ve SC032 partneri; yöneticinin yüzü tamamen görünür.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

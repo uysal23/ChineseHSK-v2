@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC034",
+  "generationSceneId": "ZH_HSK5_SC034",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC034.json",
+  "dialogueSha256": "fa9c95b348cddd256b8ef10dc9bf16fbc2d37926a0da7619da712d50f0c2ad2b",
+  "titleZh": "退休日期第一次变具体",
+  "titleTr": "Erken Emeklilik Tarihi Beliriyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang ve Liu Mei yaklaşık bir emeklilik tarihi belirler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "理财顾问",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "理财顾问",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "理财顾问": "adult_financial_advisor",
+    "李晨": "young_adult_male_partner"
+  },
+  "criticalObjects": [
+    "boş finans defteri",
+    "işaretsiz hesap makinesi",
+    "çay fincanları"
+  ],
+  "visualDirectionTr": "Akşam aile evinde Zhang ve Liu Mei, yetişkin aile üyesi Li Chen ve profesyonel mali danışmanla yaklaşık emeklilik tarihi ve tasarruf planını görüşür.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC033",
+    "nextSceneId": "ZH_HSK5_SC035",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC030",
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

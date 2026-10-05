@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC032",
+  "generationSceneId": "ZH_HSK5_SC032",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC032.json",
+  "dialogueSha256": "d6d537a0fdc7412b388fc2a1bb445b4891471d058cbe2d53533eb0740c626778",
+  "titleZh": "更多的钱还是更多的生活？",
+  "titleTr": "Yüksek Maaş mı, Daha Fazla Zaman mı?",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile para ile zaman arasındaki değeri açıkça tartışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "çay takımı",
+    "boş not defteri",
+    "meyve tabağı"
+  ],
+  "visualDirectionTr": "Aynı aile evinde akşam Zhang, Liu Mei, yetişkin Yutong ve onun genç yetişkin partneri yüksek maaş ile aileye ayrılan zamanı tartışır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC031",
+    "nextSceneId": "ZH_HSK5_SC033",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC030",
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

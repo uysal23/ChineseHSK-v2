@@ -3,33 +3,33 @@
   "policyVersion": "LOCKED_V2",
   "batchSize": 10,
   "activeBatch": {
-    "batchId": "HSK5_SC021_SC030",
+    "batchId": "HSK5_SC031_SC040",
     "level": "HSK5",
-    "startScene": "HSK5_SC021",
-    "endScene": "HSK5_SC030",
+    "startScene": "HSK5_SC031",
+    "endScene": "HSK5_SC040",
     "sceneIds": [
-      "ZH_HSK5_SC021",
-      "ZH_HSK5_SC022",
-      "ZH_HSK5_SC023",
-      "ZH_HSK5_SC024",
-      "ZH_HSK5_SC025",
-      "ZH_HSK5_SC026",
-      "ZH_HSK5_SC027",
-      "ZH_HSK5_SC028",
-      "ZH_HSK5_SC029",
-      "ZH_HSK5_SC030"
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
     ],
     "completedSceneIds": [
-      "ZH_HSK5_SC021",
-      "ZH_HSK5_SC022",
-      "ZH_HSK5_SC023",
-      "ZH_HSK5_SC024",
-      "ZH_HSK5_SC025",
-      "ZH_HSK5_SC026",
-      "ZH_HSK5_SC027",
-      "ZH_HSK5_SC028",
-      "ZH_HSK5_SC029",
-      "ZH_HSK5_SC030"
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
     ],
     "pendingSceneIds": [],
     "status": "READY_FOR_BUILD",
@@ -1044,9 +1044,7 @@
       "ZH_HSK5_SC027",
       "ZH_HSK5_SC028",
       "ZH_HSK5_SC029",
-      "ZH_HSK5_SC030"
-    ],
-    "pendingSceneIds": [
+      "ZH_HSK5_SC030",
       "ZH_HSK5_SC031",
       "ZH_HSK5_SC032",
       "ZH_HSK5_SC033",
@@ -1056,7 +1054,9 @@
       "ZH_HSK5_SC037",
       "ZH_HSK5_SC038",
       "ZH_HSK5_SC039",
-      "ZH_HSK5_SC040",
+      "ZH_HSK5_SC040"
+    ],
+    "pendingSceneIds": [
       "ZH_HSK5_SC041",
       "ZH_HSK5_SC042",
       "ZH_HSK5_SC043",
@@ -1071,7 +1071,7 @@
     "status": "IN_PROGRESS",
     "buildApprovalRequired": true,
     "buildApproved": false,
-    "noteTr": "HSK5 50 sahnenin 30 görseli tamamlandı; SC031-SC050 pending."
+    "noteTr": "HSK5 50 sahnenin 40 görseli tamamlandı; SC041-SC050 pending."
   },
   "hsk5Sc011Sc020BatchProgress": {
     "batchId": "HSK5_SC011_SC020",
@@ -1194,5 +1194,66 @@
     "buildApprovalRequired": true,
     "buildApproved": false,
     "noteTr": "HSK5 SC021-SC030 10/10 sahne LOCKED_V2 QA PASS ile app/runtime/meta/analysis olarak entegre edildi. HSK5 SC031-SC050 pending; APK build başlatılmadı."
+  },
+  "hsk5Sc031Sc040BatchProgress": {
+    "batchId": "HSK5_SC031_SC040",
+    "level": "HSK5",
+    "startScene": "HSK5_SC031",
+    "endScene": "HSK5_SC040",
+    "sceneIds": [
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
+    ],
+    "completedSceneIds": [
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
+    ],
+    "pendingSceneIds": [],
+    "status": "READY_FOR_BUILD",
+    "manifestVersion": "LOCKED_V2",
+    "maturityLock": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+    "analysisReadySceneIds": [
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
+    ],
+    "finalCandidateSceneIds": [
+      "ZH_HSK5_SC031",
+      "ZH_HSK5_SC032",
+      "ZH_HSK5_SC033",
+      "ZH_HSK5_SC034",
+      "ZH_HSK5_SC035",
+      "ZH_HSK5_SC036",
+      "ZH_HSK5_SC037",
+      "ZH_HSK5_SC038",
+      "ZH_HSK5_SC039",
+      "ZH_HSK5_SC040"
+    ],
+    "buildApprovalRequired": true,
+    "buildApproved": false,
+    "noteTr": "HSK5 SC031-SC040 10/10 sahne LOCKED_V2 QA PASS ile app/runtime/meta/analysis olarak entegre edildi. SC041-SC050 pending; APK build başlatılmadı."
   }
 }

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC035",
+  "generationSceneId": "ZH_HSK5_SC035",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC035.json",
+  "dialogueSha256": "14fdab4c90fced37bbb17673983a2dbf3ba418d99f9cf0f2f76b2679980b081b",
+  "titleZh": "乐乐选择创意方向",
+  "titleTr": "Lele Üniversite Alanı Seçiyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele fotoğraf ve dijital medya alanını ciddi biçimde seçmek ister.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "老师": "adult_teacher",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "fotoğraf makinesi",
+    "metinsiz fotoğraf baskıları",
+    "boş portfolyo dosyası"
+  ],
+  "visualDirectionTr": "Gündüz aile evinde genç yetişkin Lele fotoğraf ve dijital medya portfolyosunu öğretmenine ve ailesine göstererek üniversite alanını değerlendirir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC034",
+    "nextSceneId": "ZH_HSK5_SC036",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC035.png",
+  "finalAssetFilename": "ZH_HSK5_SC035.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC035.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "a1ae2a76d7bbe67ba20a5f09c393be428a0d4e6314ea8cf714f62609918e9d31",
+    "bytes": 417940
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC026 Lele ve ebeveyn yüzleri; yetişkin kadın öğretmen; kamera ve fotoğraf örnekleri.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

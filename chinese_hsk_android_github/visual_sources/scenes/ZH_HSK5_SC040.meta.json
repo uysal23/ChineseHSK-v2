@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC040",
+  "generationSceneId": "ZH_HSK5_SC040",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC040.json",
+  "dialogueSha256": "aa4ca92dc3a71a1371894f839e1089210405c1e97028d17c7d06e688672a7f19",
+  "titleZh": "雨桐决定留在附近",
+  "titleTr": "Yutong Kasabada Kalıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yutong yakın çevredeki farklı bir işi seçerek aileye yakın kalır.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "伴侣"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "伴侣"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "伴侣": "young_adult_partner"
+  },
+  "criticalObjects": [
+    "boş iş dosyası",
+    "çay takımı",
+    "meyve tabağı"
+  ],
+  "visualDirectionTr": "Aynı akşam ve oturma odasında Yutong yakın çevrede kalma kararını ailesi ve aynı partneriyle paylaşır; yüzlerde sakin bir umut vardır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC039",
+    "nextSceneId": "ZH_HSK5_SC041",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "SC041 sonraki HSK5 görsel grubunda kasabada kalma kararının sonuçları ve yetişkin aile kimlikleri korunarak sürdürülecek."
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC040.png",
+  "finalAssetFilename": "ZH_HSK5_SC040.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC040.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "e56a176b1f41d5b589626ffa7488b14332bd77f3bbedc68bc427ae5dd2ea1e92",
+    "bytes": 457018
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC039 ile aynı dört kişi, kıyafet ve oturma odası; yerel fırsatı seçme kararı, umutlu devam sahnesi.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

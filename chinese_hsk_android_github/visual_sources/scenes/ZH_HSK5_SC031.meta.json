@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC031",
+  "generationSceneId": "ZH_HSK5_SC031",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC031.json",
+  "dialogueSha256": "2301a1507a0f9fe06c1ce72743b1e6a94f177d1bbda1cb757aad5601457e4145",
+  "titleZh": "张伟收到新工作邀请",
+  "titleTr": "Zhang İş Değiştirme Teklifi Alıyor",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Başka bir şirket Zhang’a daha yüksek maaşlı teklif yapar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "招聘者",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "招聘者",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "招聘者": "adult_recruiter",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş teklif dosyası",
+    "şirket toplantı masası",
+    "cam ofis bölmesi"
+  ],
+  "visualDirectionTr": "Gündüz modern şirket toplantı odasında Zhang daha yüksek maaşlı yeni iş teklifini işe alım uzmanı ve yöneticiden dinler; Liu Mei yanında destek olur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC030",
+    "nextSceneId": "ZH_HSK5_SC032",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC031.png",
+  "finalAssetFilename": "ZH_HSK5_SC031.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC031.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "0cd7076a38963cd5a644687ec8137c03a7a18b8241bc42d8dff568af2eb7af90",
+    "bytes": 341810
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC030 aile kimliği/stil referansı; Zhang siyah dikdörtgen gözlük, Liu krem-yeşil; erkek yönetici ve kadın işe alım uzmanı; gündüz ofis.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

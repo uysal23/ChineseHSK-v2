@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC039",
+  "generationSceneId": "ZH_HSK5_SC039",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC039.json",
+  "dialogueSha256": "45cc18adade3b128300a61ea0930dbe82c09b39dc207bae4c8a7c1caf812fd7f",
+  "titleZh": "离开还是留下？",
+  "titleTr": "Taşınmak mı Kalmak mı?",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İyi bir kariyer fırsatı başka şehre taşınmayı gerektirir.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "伴侣"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "张伟",
+    "刘梅",
+    "伴侣"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "伴侣": "young_adult_partner"
+  },
+  "criticalObjects": [
+    "kapalı düz seyahat çantası",
+    "boş dosya",
+    "çay takımı"
+  ],
+  "visualDirectionTr": "Akşam aynı aile evinde Yutong başka şehirdeki kariyer fırsatını Zhang, Liu Mei ve aynı partneriyle taşınma/kalma seçenekleri olarak değerlendirir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC038",
+    "nextSceneId": "ZH_HSK5_SC040",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC030",
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

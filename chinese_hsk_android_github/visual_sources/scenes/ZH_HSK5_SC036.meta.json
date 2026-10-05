@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC036",
+  "generationSceneId": "ZH_HSK5_SC036",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC036.json",
+  "dialogueSha256": "c41dff6d82c09342f46e1949fd85e8531bbf05eaf19501bb6f33a18b8e796f98",
+  "titleZh": "雨桐的毕业项目",
+  "titleTr": "Yutong Mezuniyet Projesi",
+  "locationId": "LOC_ZH_UNIVERSITY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Yutong final projesini jüri önünde savunmaya hazırlanır.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "导师",
+    "同学",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "导师",
+    "同学",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "导师": "adult_faculty_mentor",
+    "同学": "adult_university_classmate",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş sunum panosu",
+    "proje fotoğraf örnekleri",
+    "sade üniversite masası"
+  ],
+  "visualDirectionTr": "Gündüz üniversitede yetişkin Yutong mezuniyet projesini akademik danışman ve yetişkin sınıf arkadaşıyla gözden geçirir; Liu Mei destek verir.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC035",
+    "nextSceneId": "ZH_HSK5_SC037",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC036.png",
+  "finalAssetFilename": "ZH_HSK5_SC036.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC036.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "d5e870e49ea86733fbea7c9836916ad32ab63d07116cbc1119114810a8deec78",
+    "bytes": 376212
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC023 Yutong ve Liu yüz referansı; genç yetişkin kadın sınıf arkadaşı ve gözlüksüz siyah saçlı erkek danışman; Zhang yok.",
+  "styleReferenceSceneId": "ZH_HSK5_SC030"
+}

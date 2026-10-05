@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC035",
+  "generationSceneId": "ZH_HSK5_SC035",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC035.json",
+  "dialogueSha256": "14fdab4c90fced37bbb17673983a2dbf3ba418d99f9cf0f2f76b2679980b081b",
+  "titleZh": "乐乐选择创意方向",
+  "titleTr": "Lele Üniversite Alanı Seçiyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele fotoğraf ve dijital medya alanını ciddi biçimde seçmek ister.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "老师",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "老师": "adult_teacher",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "fotoğraf makinesi",
+    "metinsiz fotoğraf baskıları",
+    "boş portfolyo dosyası"
+  ],
+  "visualDirectionTr": "Gündüz aile evinde genç yetişkin Lele fotoğraf ve dijital medya portfolyosunu öğretmenine ve ailesine göstererek üniversite alanını değerlendirir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC034",
+    "nextSceneId": "ZH_HSK5_SC036",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC030",
+  "qaNoteTr": "HSK5 SC031-SC040 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}
