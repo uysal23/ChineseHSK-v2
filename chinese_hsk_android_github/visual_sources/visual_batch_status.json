@@ -60,8 +60,9 @@
       "ZH_HSK4_SC050"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor."
+    "buildApproved": true,
+    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor. 2026-10-05: Kullanıcı 'build et' talimatıyla mevcut main APK build için açık onay verdi.",
+    "buildApprovedAt": "2026-10-05T15:14:58.035Z"
   },
   "nextBatchProgress": {
     "batchId": "HSK1_SC011_SC020",
@@ -782,12 +783,11 @@
     "noteTr": "HSK4 SC031-SC040 10/10 authoritative final görseller olarak entegre edildi. SC040 doğru LOC_ZH_GRANDPARENTS_HOME_001 aile evi sahnesiyle tamamlandı. APK build tetiklenmedi."
   },
   "latestBuildRequest": {
-    "requestedAt": "2026-09-30T23:31:00+03:00",
+    "requestedAt": "2026-10-05T15:14:58.035Z",
     "requestedBy": "user_explicit_approval",
-    "snapshotIncludes": "Current repository state through HSK4 SC044, including HSK4 SC041-SC044 authoritative visuals and all prior code/content changes",
-    "visualGateBatch": "HSK4_SC021_SC030",
-    "partialBatchPreserved": "HSK4_SC041_SC050 4/10 IN_PROGRESS",
-    "sourceHeadBeforeTrigger": "08ad8ed779d6df1eca2499da6f838001fd78c474",
+    "snapshotIncludes": "Current main including regenerated HSK4 SC041-SC050",
+    "visualGateBatch": "HSK4_SC041_SC050",
+    "sourceHeadBeforeTrigger": "855c108db814e30c9ce156d9f537f01906b38f1d",
     "status": "REQUESTED"
   },
   "hsk4Sc041Sc050BatchProgress": {
@@ -848,8 +848,9 @@
       "ZH_HSK4_SC050"
     ],
     "buildApprovalRequired": true,
-    "buildApproved": false,
-    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor."
+    "buildApproved": true,
+    "noteTr": "2026-10-04: SC041-SC050 10/10 SC020 referansıyla yeniden üretildi; authoritative app assets, runtime mirrors, metadata ve scene analysis birlikte güncellendi. Kullanıcı görsel gruplarının repoya otomatik uygulanmasını istedi. APK build başlatılmadı; yeni açık onay bekleniyor. 2026-10-05: Kullanıcı 'build et' talimatıyla mevcut main APK build için açık onay verdi.",
+    "buildApprovedAt": "2026-10-05T15:14:58.035Z"
   },
   "visualIntegrationPreference": {
     "applyEachReviewedGeneratedBatchToMain": true,

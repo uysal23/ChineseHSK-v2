@@ -42,3 +42,7 @@ reason: explicit user build approval
 reason: explicit user request
 2026-10-02 15:45 TRT - user-approved main APK rebuild after removing dialogue-word strips from Comprehension and Interactive Dialogue exercises
 reason: explicit user build approval
+
+2026-10-05T15:14:58.035Z - user-approved main APK build with regenerated HSK4 SC041-SC050 10/10
+source head before trigger: 855c108db814e30c9ce156d9f537f01906b38f1d
+reason: explicit user instruction: build et
