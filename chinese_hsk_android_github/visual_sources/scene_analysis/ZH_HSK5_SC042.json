@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC042",
+  "generationSceneId": "ZH_HSK5_SC042",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC042.json",
+  "dialogueSha256": "b866aeaabea93b2fd168812e30d8a01c024aabccbcb8a6131270b5c8afaecdf3",
+  "titleZh": "全家安排照护",
+  "titleTr": "Aile Bakım Planı Yapıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Aile bakım sorumluluklarını adil biçimde paylaşmaya çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "奶奶": "senior_female_grandparent",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "boş bakım planı",
+    "çay takımı",
+    "işaretsiz ilaç düzenleyici"
+  ],
+  "visualDirectionTr": "Gündüz aile evinde Zhang, Liu Mei, büyükanne ve yetişkin Yutong büyükbabanın bakım sorumluluklarını adilce paylaşır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC041",
+    "nextSceneId": "ZH_HSK5_SC043",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

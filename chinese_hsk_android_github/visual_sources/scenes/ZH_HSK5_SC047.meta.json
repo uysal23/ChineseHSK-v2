@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC047",
+  "generationSceneId": "ZH_HSK5_SC047",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC047.json",
+  "dialogueSha256": "92c2a3269d5c13d959625e4c7f32118fc0f1f528ae294f22f63de960d1b46039",
+  "titleZh": "和李晨谈退休",
+  "titleTr": "Li Chen ile Emeklilik Sohbeti",
+  "locationId": "LOC_ZH_TEA_HOUSE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İki eski dost emekliliğin sadece işi bırakmak olmadığını konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "李晨": "young_adult_male_partner",
+    "刘梅": "senior_female_parent",
+    "朋友": "senior_male_friend"
+  },
+  "criticalObjects": [
+    "çaydanlık",
+    "çay fincanları",
+    "alçak ahşap çay masası"
+  ],
+  "visualDirectionTr": "Akşam geleneksel çay evinde Zhang, Liu Mei, aynı Li Chen ve yaşlı bir dost emeklilik ve sonraki yaşamı konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC046",
+    "nextSceneId": "ZH_HSK5_SC048",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC047.png",
+  "finalAssetFilename": "ZH_HSK5_SC047.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC047.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "8d551527725435fba2caaa2f278282eee19354905e7dfb1d0b6f67c40f77db25",
+    "bytes": 417816
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC032 same Zhang, Liu, young adult Li Chen; add older male friend; night teahouse.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

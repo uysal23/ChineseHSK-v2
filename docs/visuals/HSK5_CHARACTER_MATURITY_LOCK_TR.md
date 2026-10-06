@@ -15,4 +15,4 @@ Bu kilit HSK5 görsellerinde characters.json içindeki HSK5 portre varyantların
 - Her görsel tek sahne, 9:16 dikey ve metinsizdir. Kolaj, split-screen, uygulama arayüzü, altyazı, konuşma balonu, logo/filigran, okunabilir yazı ve gereksiz karakter ekleme yasaktır.
 - Tüm diyalog konuşmacıları kadrajda ve yüzleri görünür olur. Kadın karakter kıyafetleri yaşa uygun ve sade olur; mini etek veya cinselleştirilmiş kıyafet kullanılmaz.
 - Her sahnede kaynak JSON'daki production.characters listesi kadroyu belirler. Ardışık sahneler story.previousSceneId ve story.nextSceneId alanlarına göre görsel olarak kontrol edilir; ilk HSK5 sahnesi HSK4 SC050'ye bağlanır.
-- Bu karakter kilidi HSK5 görsel üretiminin tamamında geçerlidir. SC001–SC040 grupları entegre edilmiştir; SC041–SC050 görsel üretimi tamamlanana kadar pending kalır. APK build açık kullanıcı onayı olmadan başlatılmaz.
+- Bu karakter kilidi HSK5 görsel üretiminin tamamında geçerlidir. SC001–SC050 grupları entegre edilmiştir; HSK5 görsel seti tamamlanmıştır. APK build açık kullanıcı onayı olmadan başlatılmaz.

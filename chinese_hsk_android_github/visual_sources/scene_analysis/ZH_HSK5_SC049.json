@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC049",
+  "generationSceneId": "ZH_HSK5_SC049",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC049.json",
+  "dialogueSha256": "f79dd7a7cc4a54ca76efde05b49aea6523feb5fc4d4759878114a0e270f51665",
+  "titleZh": "两个人的夜路",
+  "titleTr": "Zhang ve Liu Mei Yalnız Yürüyüşte",
+  "locationId": "LOC_ZH_WALKWAY_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang ve Liu Mei uzun yılların seçimlerini ve geleceklerini konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "旁白"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [
+    "旁白"
+  ],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner"
+  },
+  "criticalObjects": [
+    "yürüyüş yolu fenerleri",
+    "ağaçlı taş yol",
+    "akşam sokak ışıkları"
+  ],
+  "visualDirectionTr": "Akşam ışıklı kasaba yürüyüş yolunda Zhang ve Liu Mei yan yana yürür, Li Chen birkaç adım ötede eşlik eder; anlatıcı dış sestir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC048",
+    "nextSceneId": "ZH_HSK5_SC050",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": {
+    "speaker": "旁白",
+    "mode": "off_screen_voiceover",
+    "visualized": false
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

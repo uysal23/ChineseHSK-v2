@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC050",
+  "generationSceneId": "ZH_HSK5_SC050",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC050.json",
+  "dialogueSha256": "7fd655ca64d8ec31c6d4d06c09dc127446bfde99120015d0791be4dd44da0be6",
+  "titleZh": "轮到下一代了",
+  "titleTr": "Yeni Kuşağın Zamanı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile yetişkin çocukların artık kendi kararlarını aldığını kabul eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "张雨桐": "adult_female",
+    "张乐乐": "young_adult_male"
+  },
+  "criticalObjects": [
+    "çay takımı",
+    "meyve tabağı",
+    "aile oturma odası lambası"
+  ],
+  "visualDirectionTr": "Akşam aile evinde Zhang ve Liu Mei, yetişkin Yutong ile genç yetişkin Lele’nin kendi kararlarını almalarını kabullenir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC049",
+    "nextSceneId": "ZH_HSK6_SC001",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK5 görsel seti tamamlandı; sonraki görsel grup HSK6_SC001 ile başlar."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

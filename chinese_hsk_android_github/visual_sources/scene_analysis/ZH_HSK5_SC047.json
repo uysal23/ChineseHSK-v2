@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC047",
+  "generationSceneId": "ZH_HSK5_SC047",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC047.json",
+  "dialogueSha256": "92c2a3269d5c13d959625e4c7f32118fc0f1f528ae294f22f63de960d1b46039",
+  "titleZh": "和李晨谈退休",
+  "titleTr": "Li Chen ile Emeklilik Sohbeti",
+  "locationId": "LOC_ZH_TEA_HOUSE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İki eski dost emekliliğin sadece işi bırakmak olmadığını konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "李晨",
+    "刘梅",
+    "朋友"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "李晨": "young_adult_male_partner",
+    "刘梅": "senior_female_parent",
+    "朋友": "senior_male_friend"
+  },
+  "criticalObjects": [
+    "çaydanlık",
+    "çay fincanları",
+    "alçak ahşap çay masası"
+  ],
+  "visualDirectionTr": "Akşam geleneksel çay evinde Zhang, Liu Mei, aynı Li Chen ve yaşlı bir dost emeklilik ve sonraki yaşamı konuşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC046",
+    "nextSceneId": "ZH_HSK5_SC048",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

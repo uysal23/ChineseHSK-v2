@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC044",
+  "generationSceneId": "ZH_HSK5_SC044",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC044.json",
+  "dialogueSha256": "01e4e9a4e9f3457d72a75639ea183eeb15425d65c81ee74a5e30f2b3e5c3836f",
+  "titleZh": "年轻志愿者来到咖啡馆",
+  "titleTr": "Gönüllü Gençler Kafede",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Genç gönüllüler kafenin yardım çalışmasına katılır; kuşaklar farklı bakışlar paylaşır.",
+  "dialogueSpeakers": [
+    "青年志愿者",
+    "刘梅",
+    "奶奶",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "青年志愿者",
+    "刘梅",
+    "奶奶",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张伟",
+    "张雨桐",
+    "爷爷",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "青年志愿者": "young_adult_volunteer",
+    "刘梅": "senior_female_parent",
+    "奶奶": "senior_female_grandparent",
+    "张乐乐": "young_adult_male"
+  },
+  "criticalObjects": [
+    "işaretsiz yardım kolileri",
+    "kafe tezgâhı",
+    "kahve fincanları"
+  ],
+  "visualDirectionTr": "Gündüz aile kafesinde aynı genç gönüllü, Liu Mei, büyükanne ve genç yetişkin Lele yardım kolilerini düzenler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC043",
+    "nextSceneId": "ZH_HSK5_SC045",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC044.png",
+  "finalAssetFilename": "ZH_HSK5_SC044.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC044.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "3ba0370800c11f4626ff157f2d85465dd5457ecc9acefebf6444351b5baa9829",
+    "bytes": 422582
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC026 Lele, SC041 grandmother, Liu; young adult male volunteer; do not add Zhang.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

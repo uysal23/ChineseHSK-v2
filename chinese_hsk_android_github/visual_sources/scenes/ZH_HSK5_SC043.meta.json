@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC043",
+  "generationSceneId": "ZH_HSK5_SC043",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC043.json",
+  "dialogueSha256": "145fca36f75fa92f5f8be1e35f57897e03ccc67fb4771384aa671b9b0b007028",
+  "titleZh": "奶奶不想接受帮助",
+  "titleTr": "Büyükanne Yardımı Kabul Etmekte Zorlanıyor",
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükanne bağımsızlığını kaybetmekten korktuğu için yardımı reddeder.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "张伟",
+    "刘梅",
+    "爷爷"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "张伟",
+    "刘梅",
+    "爷爷"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "奶奶": "senior_female_grandparent",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "爷爷": "senior_male_grandparent"
+  },
+  "criticalObjects": [
+    "çay masası",
+    "boş bakım defteri",
+    "koltuk ve aile fotoğrafları"
+  ],
+  "visualDirectionTr": "Gündüz büyükanne ve büyükbaba evinde büyükanne bağımsızlığını korumak isterken Zhang ve Liu Mei onu saygıyla dinler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC042",
+    "nextSceneId": "ZH_HSK5_SC044",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC043.png",
+  "finalAssetFilename": "ZH_HSK5_SC043.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC043.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "7c2179adbdf79bdd52189314a87b618df803ed2466f9805156a49ff0d7697748",
+    "bytes": 443212
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC041 HSK5-aged Zhang (salt-and-pepper, rectangular glasses), same grandparents and Liu; no physician.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

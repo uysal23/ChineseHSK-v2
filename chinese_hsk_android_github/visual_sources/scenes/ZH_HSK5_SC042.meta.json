@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC042",
+  "generationSceneId": "ZH_HSK5_SC042",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC042.json",
+  "dialogueSha256": "b866aeaabea93b2fd168812e30d8a01c024aabccbcb8a6131270b5c8afaecdf3",
+  "titleZh": "全家安排照护",
+  "titleTr": "Aile Bakım Planı Yapıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Aile bakım sorumluluklarını adil biçimde paylaşmaya çalışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "奶奶": "senior_female_grandparent",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "boş bakım planı",
+    "çay takımı",
+    "işaretsiz ilaç düzenleyici"
+  ],
+  "visualDirectionTr": "Gündüz aile evinde Zhang, Liu Mei, büyükanne ve yetişkin Yutong büyükbabanın bakım sorumluluklarını adilce paylaşır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC041",
+    "nextSceneId": "ZH_HSK5_SC043",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC042.png",
+  "finalAssetFilename": "ZH_HSK5_SC042.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC042.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "edfadb61d6722895ed06237478fd7541fc3ba4b6dea4e7f683fa24124ccb3325",
+    "bytes": 467858
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC040 same adult family faces plus HSK4_SC040 grandmother; do not include grandfather, Yutong adult in lilac.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

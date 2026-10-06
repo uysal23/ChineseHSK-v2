@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC048",
+  "generationSceneId": "ZH_HSK5_SC048",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC048.json",
+  "dialogueSha256": "114c8bbcfc0d6426df5d40ed4b931bba1033b67c8ccdc55f5ff6ddb773071fa2",
+  "titleZh": "雨桐谈到结婚",
+  "titleTr": "Yutong Evlilik Fikrini Açıyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yutong partneriyle evliliği düşündüğünü ailesine söyler.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "伴侣"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "伴侣"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "伴侣": "young_adult_partner"
+  },
+  "criticalObjects": [
+    "boş yüzük kutusu",
+    "çay fincanları",
+    "meyve tabağı"
+  ],
+  "visualDirectionTr": "Akşam aile evinde yetişkin Yutong nişan haberini Zhang, Liu Mei ve aynı partneriyle paylaşır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC047",
+    "nextSceneId": "ZH_HSK5_SC049",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC048.png",
+  "finalAssetFilename": "ZH_HSK5_SC048.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC048.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "6b3762dede719c6fd6a57377f3ccbf5496a119fb48f5f6f6f8802d57800a3ffb",
+    "bytes": 502322
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "SC040 same four family/partner faces and clothes; engagement news at evening home.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

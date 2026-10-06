@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK5_SC041",
+  "generationSceneId": "ZH_HSK5_SC041",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC041.json",
+  "dialogueSha256": "6523566339afc8be49bc1dfe6b83d12c2c80054e74f3b2afca0fb3e01e97a3a8",
+  "titleZh": "爷爷又住院了",
+  "titleTr": "Büyükbaba Yeniden Hastanede",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükbabanın sağlık sorunu bu kez daha uzun bakım gerektirir.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "医生",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "医生",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "爷爷": "senior_male_grandparent",
+    "医生": "adult_physician",
+    "张伟": "senior_male_parent",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "hastane muayene odası",
+    "boş bakım dosyası",
+    "boş not defteri"
+  ],
+  "visualDirectionTr": "Gündüz hastanede yaşlı büyükbaba uzun süreli bakım planını hekimle görüşür; büyükannesi ve Zhang yanında destek olur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC040",
+    "nextSceneId": "ZH_HSK5_SC042",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk5MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK5_SC041.png",
+  "finalAssetFilename": "ZH_HSK5_SC041.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK5_SC041.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "efe919cc1ce3e817123fac2bc28c446633f984da321b2d6cb5a6d6eefb647b68",
+    "bytes": 381206
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "HSK4_SC040 grandparents and Zhang identity; silver-haired grandfather taupe cardigan, gray-haired grandmother plum cardigan; adult female physician.",
+  "styleReferenceSceneId": "ZH_HSK5_SC040"
+}

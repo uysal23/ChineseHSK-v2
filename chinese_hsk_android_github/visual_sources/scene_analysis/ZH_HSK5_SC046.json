@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC046",
+  "generationSceneId": "ZH_HSK5_SC046",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC046.json",
+  "dialogueSha256": "45ef120ccb70dcc48c24ad0b7494540f714c0575cd610e6389b5103ef5b039c9",
+  "titleZh": "张伟最后的大项目成功了",
+  "titleTr": "Zhang’ın İşte Son Büyük Başarısı",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang’ın uzun süredir yönettiği proje başarıyla tamamlanır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "张乐乐",
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_manager",
+    "同事": "adult_coworker",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş proje dosyası",
+    "toplantı masası",
+    "yazısız soyut grafik şekilleri"
+  ],
+  "visualDirectionTr": "Zhang’ın iş yerinde uzun süredir yönettiği proje tamamlanır; aynı yönetici, iş arkadaşı ve Liu Mei başarıyı kutlar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC045",
+    "nextSceneId": "ZH_HSK5_SC047",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}

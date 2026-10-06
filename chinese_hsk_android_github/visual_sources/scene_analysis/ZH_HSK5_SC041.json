@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK5_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK5_SC041",
+  "generationSceneId": "ZH_HSK5_SC041",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK5/scenes/ZH_HSK5_SC041.json",
+  "dialogueSha256": "6523566339afc8be49bc1dfe6b83d12c2c80054e74f3b2afca0fb3e01e97a3a8",
+  "titleZh": "爷爷又住院了",
+  "titleTr": "Büyükbaba Yeniden Hastanede",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükbabanın sağlık sorunu bu kez daha uzun bakım gerektirir.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "医生",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "医生",
+    "张伟",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "刘梅",
+    "张雨桐",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "爷爷": "senior_male_grandparent",
+    "医生": "adult_physician",
+    "张伟": "senior_male_parent",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "hastane muayene odası",
+    "boş bakım dosyası",
+    "boş not defteri"
+  ],
+  "visualDirectionTr": "Gündüz hastanede yaşlı büyükbaba uzun süreli bakım planını hekimle görüşür; büyükannesi ve Zhang yanında destek olur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk5MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC040",
+    "nextSceneId": "ZH_HSK5_SC042",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK5_SC040",
+  "qaNoteTr": "HSK5 SC041-SC050 grubu; SC030 aile/stil referansı ve HSK5 olgunluk kilidi korundu. Kaynak kadrosu, 9:16 WebP ve hash kontrolleri geçti. APK build başlatılmadı."
+}
