@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC026",
+  "generationSceneId": "ZH_HSK6_SC026",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC026.json",
+  "dialogueSha256": "7bdcb8319aa6a329ef9b9bf0eff35763f4c036e9f7b596c43846c2e0a250c6fc",
+  "titleZh": "爷爷讲老农场",
+  "titleTr": "Büyükbabanın Çiftlik Anıları",
+  "locationId": "LOC_ZH_GRANDPARENTS_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Büyükbaba torunlara eski çiftliğin ve geçmiş yaşamın hikâyelerini anlatır.",
+  "dialogueSpeakers": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "爷爷",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "爷爷": "elderly_male_grandfather",
+    "张伟": "senior_male_parent",
+    "张乐乐": "young_adult_male",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "eski çiftlik fotoğraf albümü",
+    "çiftlik fotoğrafı",
+    "küçük ahşap traktör"
+  ],
+  "visualDirectionTr": "Zhang'ın babası eski çiftlikten anılar anlatırken yetişkin Lele dinler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC025",
+    "nextSceneId": "ZH_HSK6_SC027",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC025",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang'ın babası SC026'da ilk kez görünür ve SC027'de aynı yaşlı gümüş saçlı erkek olarak sürer; Lele genç yetişkin kalır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC025",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

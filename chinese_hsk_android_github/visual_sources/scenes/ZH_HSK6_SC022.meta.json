@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC022",
+  "generationSceneId": "ZH_HSK6_SC022",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC022.json",
+  "dialogueSha256": "d25d1d2a1ae3c1c009f7898423f32349c93eaa977f5bad175be72a4cf8f86d6e",
+  "titleZh": "准备当外公",
+  "titleTr": "Büyükbaba Olmaya Hazırlık",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang torun sahibi olma fikrine hem heyecan hem sorumlulukla yaklaşır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "爷爷",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner",
+    "奶奶": "elderly_female_grandmother"
+  },
+  "criticalObjects": [
+    "katlanmış bebek battaniyesi",
+    "boş bakım defteri",
+    "oyuncak ayı"
+  ],
+  "visualDirectionTr": "Zhang, torun sahibi olma fikrini aileyle konuşup yeni rolüne hazırlanır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC021",
+    "nextSceneId": "ZH_HSK6_SC023",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC021",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC022.png",
+  "finalAssetFilename": "ZH_HSK6_SC022.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC022.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "285d0feac89d3891ccc1fafa9703d73d36703a2fbc18da272fb0b6e9a5967378",
+    "bytes": 394498
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Zhang, torun sahibi olma fikrini aileyle konuşup yeni rolüne hazırlanır.",
+  "styleReferenceSceneId": "ZH_HSK6_SC021"
+}

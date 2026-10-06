@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC027",
+  "generationSceneId": "ZH_HSK6_SC027",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC027.json",
+  "dialogueSha256": "ab59ac7d88bfa40cbc8697ed1f5db8af3d6f7f2f6ed32505906436817a6ce6ce",
+  "titleZh": "小城变了多少？",
+  "titleTr": "Eski Kasaba ile Yeni Kasaba",
+  "locationId": "LOC_ZH_TOWN_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang ve Li Chen kasabanın yıllar içindeki dönüşümünü tartışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "爷爷"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "爷爷"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner",
+    "爷爷": "elderly_male_grandfather"
+  },
+  "criticalObjects": [
+    "korunmuş eski dükkân cephesi",
+    "yeni şehir binası",
+    "taş yaya yolu"
+  ],
+  "visualDirectionTr": "Zhang, Liu, Li Chen ve büyükbaba kasabanın eski ve yeni hâlini karşılaştırır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC026",
+    "nextSceneId": "ZH_HSK6_SC028",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC026",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang'ın babası SC026'da ilk kez görünür ve SC027'de aynı yaşlı gümüş saçlı erkek olarak sürer; Lele genç yetişkin kalır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC026",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

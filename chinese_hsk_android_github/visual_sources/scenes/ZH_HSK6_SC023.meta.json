@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC023",
+  "generationSceneId": "ZH_HSK6_SC023",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC023.json",
+  "dialogueSha256": "f65b432a70faa1c0325075907df61051b0fe6068e35a8daaed603aee29feafae",
+  "titleZh": "在医院走廊等消息",
+  "titleTr": "Hastane Koridorunda Bekleyiş",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile doğum haberini hastane koridorunda bekler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐伴侣",
+    "护士"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐伴侣",
+    "护士"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "张雨桐伴侣": "young_adult_male_partner",
+    "护士": "adult_female_nurse"
+  },
+  "criticalObjects": [
+    "hastane bekleme koltukları",
+    "boş dosya",
+    "hemşire panosu"
+  ],
+  "visualDirectionTr": "Aile hastane koridorunda doğum haberini bekler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC022",
+    "nextSceneId": "ZH_HSK6_SC024",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC022",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC023.png",
+  "finalAssetFilename": "ZH_HSK6_SC023.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC023.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "22ee50f36dd4715e059d486ae62f365b0bd7f59dd689abc895e0a9a17e98a289",
+    "bytes": 364882
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Aile hastane koridorunda doğum haberini bekler.",
+  "styleReferenceSceneId": "ZH_HSK6_SC022"
+}

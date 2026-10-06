@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC029",
+  "generationSceneId": "ZH_HSK6_SC029",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC029.json",
+  "dialogueSha256": "4dd0c5bb3421b0b887de1bc280814426447ce3c7f2baa6314c37a5a78c660a37",
+  "titleZh": "老顾客回来了",
+  "titleTr": "Eski Müşteriler Geri Dönüyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yıllar önce taşınan birkaç eski müşteri yeniden kafeye gelir.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "老顾客",
+    "张伟",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "老顾客",
+    "张伟",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "护士",
+    "员工",
+    "年轻创业者"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "老顾客": "elderly_male_cafe_regular",
+    "张伟": "senior_male_parent",
+    "李晨": "young_adult_male_partner"
+  },
+  "criticalObjects": [
+    "eski müdavime ait seramik fincan",
+    "kahve fincanları",
+    "kafe tezgâhı"
+  ],
+  "visualDirectionTr": "Yıllar önce taşınmış eski müdavim kafeye geri döner ve aileyle yeniden buluşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC028",
+    "nextSceneId": "ZH_HSK6_SC030",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC028",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aile kafesinin sıcak iç mekânı ve SC017–SC020'deki Zhang/Liu ile çalışan yüzleri korunur; yaşlı müdavim SC028–SC029 arasında aynıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC028",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

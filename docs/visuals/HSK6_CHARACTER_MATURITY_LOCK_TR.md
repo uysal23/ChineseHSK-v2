@@ -25,10 +25,20 @@
 - Cafe employee: young adult woman with dark hair tied low and an olive apron; retain through SC017–SC019. The cafe customer in SC017–SC018 is a separate adult man in muted blue.
 - SC020 customers: one young adult woman and one elderly man; keep both distinct from the recurring cafe employee and the earlier customer.
 
+## Recurring roles in SC021–SC030
+
+- 张雨桐 and her adult partner Li Chen carry forward their established faces from the wedding; everyday clothing changes with the story.
+- 奶奶 remains the elderly silver-gray-haired woman; she is distinct from Liu Mei.
+- The newborn appears as a non-speaking story character in SC024–SC025 only.
+- 爷爷 is Zhang Wei’s distinct elderly father, with silver-white hair and deeper age lines; first appears in SC026 and returns in SC027. Do not confuse him with senior-adult Zhang Wei.
+- The cafe’s elderly regular customer is the same silver-haired man in SC028–SC029; retain the young woman employee from SC017–SC020 in SC028 and SC030.
+- The young entrepreneur in SC030 is a new adult woman, distinct from Yutong and the cafe employee.
+
 ## Scene coverage
 
 - HSK6 SC001–SC010: generated and integrated under LOCKED_V2.
 - HSK6 SC011–SC020: generated and integrated under LOCKED_V2.
-- HSK6 SC021–SC050: pending visual production; preserve the identities and aging established above.
+- HSK6 SC021–SC030: generated and integrated under LOCKED_V2.
+- HSK6 SC031–SC050: pending visual production; preserve the identities and aging established above.
 - Character faces, apparent ages, hair and family relationships stay continuous across later groups. Clothing may change only to fit the scene.
 - APK build approval remains required and is not granted by visual integration.

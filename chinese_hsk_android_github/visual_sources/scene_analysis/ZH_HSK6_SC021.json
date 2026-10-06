@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC021",
+  "generationSceneId": "ZH_HSK6_SC021",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC021.json",
+  "dialogueSha256": "03b36eb4b8268021f99b13c85ea31f1cdcf437953f64c08953d054893606aa60",
+  "titleZh": "第一个孙辈要来了",
+  "titleTr": "İlk Torun Haberi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yutong aileye bebek beklediğini söyler.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "奶奶",
+    "爷爷",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female_daughter",
+    "伴侣": "young_adult_male_partner",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "işaretsiz ultrason görüntüsü",
+    "aile fotoğrafı",
+    "ev çay fincanları"
+  ],
+  "visualDirectionTr": "Yutong ailesine ilk bebek haberini verir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC020",
+    "nextSceneId": "ZH_HSK6_SC022",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC020",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC020",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

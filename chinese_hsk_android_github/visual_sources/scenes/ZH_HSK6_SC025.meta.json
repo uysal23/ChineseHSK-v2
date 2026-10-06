@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC025",
+  "generationSceneId": "ZH_HSK6_SC025",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC025.json",
+  "dialogueSha256": "45ecef74ce385e60067bf240b98ecfdb024264fc99d8e51bc739bd693bf0d044",
+  "titleZh": "四代同堂的照片",
+  "titleTr": "Dört Kuşağın Fotoğrafı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile dört kuşağı aynı karede toplar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "奶奶",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "新生儿"
+  ],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "伴侣",
+    "李晨",
+    "爷爷",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "奶奶": "elderly_female_grandmother",
+    "张雨桐": "adult_female_daughter"
+  },
+  "criticalObjects": [
+    "yenidoğan",
+    "kamera tripodu",
+    "dört kuşağı temsil eden aile portresi"
+  ],
+  "visualDirectionTr": "Büyükanne, Zhang, Liu, Yutong ve yenidoğan dört kuşağın aile fotoğrafında buluşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC024",
+    "nextSceneId": "ZH_HSK6_SC026",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC024",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC025.png",
+  "finalAssetFilename": "ZH_HSK6_SC025.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC025.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "6591cca2592ab73baf350cd661f88fa929a204411ec1c0ed68e98daf663420d0",
+    "bytes": 422872
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Büyükanne, Zhang, Liu, Yutong ve yenidoğan dört kuşağın aile fotoğrafında buluşur.",
+  "styleReferenceSceneId": "ZH_HSK6_SC024"
+}

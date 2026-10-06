@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC024",
+  "generationSceneId": "ZH_HSK6_SC024",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC024.json",
+  "dialogueSha256": "cf3b128b47dd0c6d218aa39c53b9e58c65526ee2f5fdca0a7a56da5bd48cc62f",
+  "titleZh": "孩子出生了",
+  "titleTr": "Torunun Doğumu",
+  "locationId": "LOC_ZH_NURSERY_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Bebek doğar ve dört kuşaklı yeni dönem başlar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "新生儿"
+  ],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "奶奶",
+    "爷爷",
+    "护士",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female_daughter",
+    "伴侣": "young_adult_male_partner",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "yenidoğan kundak battaniyesi",
+    "beşik",
+    "yumuşak oyuncak"
+  ],
+  "visualDirectionTr": "Yenidoğan aileye katılır; Yutong ve ailesi yeni dönemi karşılar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC023",
+    "nextSceneId": "ZH_HSK6_SC025",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC023",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC023",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

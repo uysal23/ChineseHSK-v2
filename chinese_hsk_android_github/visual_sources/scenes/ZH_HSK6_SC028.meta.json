@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC028",
+  "generationSceneId": "ZH_HSK6_SC028",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC028.json",
+  "dialogueSha256": "5b4cc2efd56d1952367ddd9984f87d4f82ca3d0e5a510bca203817d75220359b",
+  "titleZh": "咖啡馆二十年",
+  "titleTr": "Kafenin 20. Yılı",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe yirminci yılını eski ve yeni müşterilerle kutlar.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "老顾客",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "老顾客",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "爷爷",
+    "护士",
+    "年轻创业者"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "老顾客": "elderly_male_cafe_regular",
+    "员工": "young_adult_female_cafe_employee"
+  },
+  "criticalObjects": [
+    "sade yıldönümü pastası",
+    "kahve fincanları",
+    "espresso makinesi"
+  ],
+  "visualDirectionTr": "Liu ve Zhang kafenin yirminci yılını çalışan ve eski müdavimle kutlar.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC027",
+    "nextSceneId": "ZH_HSK6_SC029",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC027",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aile kafesinin sıcak iç mekânı ve SC017–SC020'deki Zhang/Liu ile çalışan yüzleri korunur; yaşlı müdavim SC028–SC029 arasında aynıdır."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC028.png",
+  "finalAssetFilename": "ZH_HSK6_SC028.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC028.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "7ee4d68eb511bd1b4fce4b2aac6207a29ad20a81feadd8712a8de76dff0784ba",
+    "bytes": 462856
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı.",
+  "generationPrompt": "Liu ve Zhang kafenin yirminci yılını çalışan ve eski müdavimle kutlar.",
+  "styleReferenceSceneId": "ZH_HSK6_SC027"
+}

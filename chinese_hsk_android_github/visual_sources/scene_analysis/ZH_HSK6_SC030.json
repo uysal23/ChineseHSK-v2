@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC030",
+  "generationSceneId": "ZH_HSK6_SC030",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC030.json",
+  "dialogueSha256": "ce64dae70ba12379404cd5ebd6ffc241526e3a2e27f0540dbb3d6e1a83864e4f",
+  "titleZh": "年轻创业者来请教",
+  "titleTr": "Genç Bir Girişimci Tavsiye İstiyor",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Genç bir girişimci Liu Mei’den küçük işletme hakkında tavsiye ister.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "年轻创业者",
+    "张伟",
+    "员工"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "年轻创业者",
+    "张伟",
+    "员工"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "爷爷",
+    "护士",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "年轻创业者": "young_adult_female_entrepreneur",
+    "张伟": "senior_male_parent",
+    "员工": "young_adult_female_cafe_employee"
+  },
+  "criticalObjects": [
+    "yazısız not defteri",
+    "kahve fincanları",
+    "pastane ürünleri"
+  ],
+  "visualDirectionTr": "Genç bir kadın girişimci, aile kafesinde Liu'dan küçük işletme tavsiyesi ister.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC029",
+    "nextSceneId": "ZH_HSK6_SC031",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC029",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aile kafesinin sıcak iç mekânı ve SC017–SC020'deki Zhang/Liu ile çalışan yüzleri korunur; yaşlı müdavim SC028–SC029 arasında aynıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC029",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

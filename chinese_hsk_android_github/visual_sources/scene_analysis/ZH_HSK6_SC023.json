@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC023",
+  "generationSceneId": "ZH_HSK6_SC023",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC023.json",
+  "dialogueSha256": "f65b432a70faa1c0325075907df61051b0fe6068e35a8daaed603aee29feafae",
+  "titleZh": "在医院走廊等消息",
+  "titleTr": "Hastane Koridorunda Bekleyiş",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Aile doğum haberini hastane koridorunda bekler.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐伴侣",
+    "护士"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐伴侣",
+    "护士"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张乐乐",
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "员工",
+    "年轻创业者",
+    "老顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "张雨桐伴侣": "young_adult_male_partner",
+    "护士": "adult_female_nurse"
+  },
+  "criticalObjects": [
+    "hastane bekleme koltukları",
+    "boş dosya",
+    "hemşire panosu"
+  ],
+  "visualDirectionTr": "Aile hastane koridorunda doğum haberini bekler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC022",
+    "nextSceneId": "ZH_HSK6_SC024",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC022",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Yutong ve Li Chen'in yetişkin yüzleri düğün sürekliliğinden devam eder; Zhang/Liu yaş çizgisi korunur. SC024–SC025'te yenidoğan konuşmayan, hikâyenin gerektirdiği karakterdir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC022",
+  "qaNoteTr": "Diyalog/kadro, aile yaşı ve yüz sürekliliği, hikâyedeki konuşmayan yenidoğan, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}
