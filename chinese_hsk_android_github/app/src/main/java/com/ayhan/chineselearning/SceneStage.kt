@@ -172,7 +172,14 @@ fun SceneStage(
             cast.forEachIndexed { index, name ->
                 val profile = characterProfiles[name]
                 val isActive = name == activeSpeaker
-                val scale by animateFloatAsState(if (isActive) 1.10f else 0.92f, label = "speakerFocus")
+                val activeScale = when (activeEmotion) {
+                    "happy", "playful" -> 1.13f
+                    "sad", "comforting" -> 1.04f
+                    "worried", "curious" -> 1.07f
+                    "angry" -> 1.11f
+                    else -> 1.10f
+                }
+                val scale by animateFloatAsState(if (isActive) activeScale else 0.92f, label = "speakerFocus")
                 val alpha = if (isActive) 1f else 0.72f
                 val bubbleOnRight = index < (cast.size + 1) / 2
 
