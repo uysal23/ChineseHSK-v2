@@ -73,6 +73,8 @@ fun SceneStage(
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
     activeText: String = "",
+    activeActionTr: String = "",
+    activeEmotion: String = "neutral",
     isSpeaking: Boolean = false,
     modifier: Modifier = Modifier
 ) {
@@ -122,6 +124,24 @@ fun SceneStage(
                     .align(Alignment.BottomCenter)
                     .background(Color.Black.copy(alpha = 0.20f))
             )
+        }
+
+        if (isSpeaking && activeActionTr.isNotBlank()) {
+            Surface(
+                modifier = Modifier.align(Alignment.TopEnd).padding(12.dp).widthIn(max = 142.dp),
+                color = Color.Black.copy(alpha = 0.56f),
+                shape = RoundedCornerShape(12.dp)
+            ) {
+                Text(
+                    text = activeActionTr,
+                    color = Color.White,
+                    fontSize = 10.sp,
+                    lineHeight = 13.sp,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.padding(horizontal = 9.dp, vertical = 6.dp)
+                )
+            }
         }
 
         Column(Modifier.align(Alignment.TopStart).padding(14.dp)) {
