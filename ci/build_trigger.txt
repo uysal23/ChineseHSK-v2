@@ -48,3 +48,9 @@ source head before trigger: 855c108db814e30c9ce156d9f537f01906b38f1d
 reason: explicit user instruction: build et
 
 2026-10-05T15:23:29.354Z - user-authorized APK retry after idempotent SentencePracticeScreen strip-removal fix 5031bd8f4046929ff1384de66848142d258f912b
+
+
+2026-10-06 - user-approved APK build after HSK1-HSK6 visual compatibility review
+source head before trigger: 5c5d80248bdba80865679217ac31b973f8fbc119
+visual gate: all six HSK levels 50/50 scenes; 300 direct overrides validated; no pending visual scenes
+reason: explicit user instruction: review all visuals and build if compatible
