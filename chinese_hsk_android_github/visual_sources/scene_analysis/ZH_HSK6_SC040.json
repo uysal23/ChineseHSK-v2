@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC040",
+  "generationSceneId": "ZH_HSK6_SC040",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC040.json",
+  "dialogueSha256": "e7a21e6ee7478c55508ddc088f36366eb482302e6c17b680d99e130e51c9c273",
+  "titleZh": "两个家庭的一整晚",
+  "titleTr": "İki Ailenin Uzun Akşamı",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İki aile onlarca yıllık ortak anıları uzun bir akşamda yeniden anlatır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "家人"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "家人"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "朋友",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_older_appearance",
+    "刘梅": "senior_female_parent_older_appearance",
+    "李晨": "older_adult_recently_retired_male_partner",
+    "家人": "adult_family_member_portrayed_as_张雨桐"
+  },
+  "criticalObjects": [
+    "aile fotoğraf albümü",
+    "çay fincanları",
+    "aile kafesinin akşam tezgâhı",
+    "eski anı fotoğrafları"
+  ],
+  "visualDirectionTr": "Zhang, Liu ve emekli Li Chen kafenin kapanışında onlarca yıllık anıları Yutong ile paylaşır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC039",
+    "nextSceneId": "ZH_HSK6_SC041",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC039",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Genel 家人 konuşmacısı, yeni karakter eklememek için ailenin bilinen kızı Yutong olarak görselleştirilir; dört kişi iki aileyi ve yıllara yayılan anıları temsil eder."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC039",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

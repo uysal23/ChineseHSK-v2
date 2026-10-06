@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC036",
+  "generationSceneId": "ZH_HSK6_SC036",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC036.json",
+  "dialogueSha256": "b407fd1772751c0d472babf8af8e210abe11a54d8afdf0939fbe87c1cbd3fd0b",
+  "titleZh": "洪水预警",
+  "titleTr": "Kasabada Sel Tehdidi",
+  "locationId": "LOC_ZH_TOWN_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Şiddetli yağış sonrası kasabada sel riski için uyarı verilir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "社区负责人",
+    "居民"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "社区负责人",
+    "居民"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "志愿者",
+    "朋友",
+    "家人",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "社区负责人": "adult_male_community_coordinator",
+    "居民": "adult_female_resident"
+  },
+  "criticalObjects": [
+    "renksiz etiketli sel risk haritası",
+    "el telsizi",
+    "kum torbaları",
+    "yağmurluklar"
+  ],
+  "visualDirectionTr": "Zhang, Liu, erkek topluluk sorumlusu ve bir kadın sakin kasabada sel riskine karşı önlem planlar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC035",
+    "nextSceneId": "ZH_HSK6_SC037",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Topluluk sorumlusu SC036-SC038 arasında aynı kısa koyu saçlı, zeytin renkli montlu yetişkin erkektir; sakin ayrı bir yetişkin kadındır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC030",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

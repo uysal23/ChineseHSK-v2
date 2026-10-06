@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC038",
+  "generationSceneId": "ZH_HSK6_SC038",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC038.json",
+  "dialogueSha256": "cad87813349dfdcfea173841f6456d94c40c784de2eec67f20716d692b15d8a8",
+  "titleZh": "洪水之后",
+  "titleTr": "Kriz Sonrası Değerlendirme",
+  "locationId": "LOC_ZH_TOWN_HALL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kasaba sel sonrası hasarı ve dayanışmayı değerlendirir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "社区负责人",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "社区负责人",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "居民",
+    "志愿者",
+    "朋友",
+    "家人",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "社区负责人": "adult_male_community_coordinator_same_as_SC036",
+    "李晨": "adult_male_partner"
+  },
+  "criticalObjects": [
+    "soyut renkli sel haritası",
+    "boş kontrol listesi",
+    "dosyalar",
+    "yağmur sonrası kasaba görünümü"
+  ],
+  "visualDirectionTr": "Zhang, Liu, topluluk sorumlusu ve Li Chen kasabanın sel sonrası dayanışmasını ve eksikleri değerlendirir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC037",
+    "nextSceneId": "ZH_HSK6_SC039",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC036",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "SC036-SC037'de görülen aynı erkek topluluk sorumlusu SC038'de de vardır; Li Chen'in yüzü partner olarak korunur, Lele kadroda değildir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC036",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC031",
+  "generationSceneId": "ZH_HSK6_SC031",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC031.json",
+  "dialogueSha256": "ececfb776e286cedc223d853400d3b0f8b81e2edbd18a8d3bc269c7c09dc25b6",
+  "titleZh": "张伟给年轻人讲职业",
+  "titleTr": "Zhang Gençlere Kariyer Konuşması Yapıyor",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang genç çalışanlara kariyer, hata ve denge hakkında konuşur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "年轻人",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "年轻人",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "朋友",
+    "家人",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "年轻人": "young_adult_career_attendee",
+    "刘梅": "senior_female_parent",
+    "李晨": "adult_male_partner"
+  },
+  "criticalObjects": [
+    "seminer masası",
+    "yazısız not defteri",
+    "kahve fincanları",
+    "boş sandalye"
+  ],
+  "visualDirectionTr": "Zhang, Liu ve Li Chen genç bir katılımcıyla kariyer, hata ve denge üzerine topluluk merkezinde konuşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC030",
+    "nextSceneId": "ZH_HSK6_SC032",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "SC030'daki Zhang/Liu aile yüzleri ve Li Chen'in yetişkin kimliği topluluk merkezindeki kariyer konuşmasında korunur; genç katılımcı yeni ve sahneye özeldir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC030",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

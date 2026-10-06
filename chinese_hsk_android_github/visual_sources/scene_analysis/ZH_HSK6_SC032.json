@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC032",
+  "generationSceneId": "ZH_HSK6_SC032",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC032.json",
+  "dialogueSha256": "ae52d22c992bf629918843e6311273fa9aec3c270c7a5ce3b11526269a82b141",
+  "titleZh": "刘梅讲小生意",
+  "titleTr": "Liu Mei Girişimcilik Atölyesinde",
+  "locationId": "LOC_ZH_COMMUNITY_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei küçük işletme sahiplerine deneyimlerini aktarır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "创业者",
+    "张伟",
+    "主持人"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "创业者",
+    "张伟",
+    "主持人"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "朋友",
+    "家人",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "创业者": "adult_female_small_business_owner",
+    "张伟": "senior_male_parent",
+    "主持人": "adult_male_workshop_host"
+  },
+  "criticalObjects": [
+    "boş yazı yüzeyli atölye panosu",
+    "yazısız defter",
+    "işletme örnekleri",
+    "toplantı masası"
+  ],
+  "visualDirectionTr": "Liu Mei küçük işletme sahiplerine deneyimini anlatırken Zhang, kadın girişimci ve atölye sunucusu tartışmaya katılır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC031",
+    "nextSceneId": "ZH_HSK6_SC033",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC031",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang ve Liu'nun yüzleri SC031'den devam eder; girişimci ve sunucu topluluk merkezi atölyesine ait ayrı yetişkin rollerdir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC031",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

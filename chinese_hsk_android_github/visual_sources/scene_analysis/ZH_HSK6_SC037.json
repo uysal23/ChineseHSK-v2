@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC037",
+  "generationSceneId": "ZH_HSK6_SC037",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC037.json",
+  "dialogueSha256": "ea32d906eef01cd515422f65533d5163726c6916af8e342e4edc8f48415e6b46",
+  "titleZh": "咖啡馆变成救助点",
+  "titleTr": "Kafe Yardım Merkezi Oluyor",
+  "locationId": "LOC_ZH_RELIEF_CENTER_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Kafe geçici olarak ihtiyaç sahipleri ve gönüllüler için yardım noktasına dönüşür.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "志愿者",
+    "社区负责人"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "志愿者",
+    "社区负责人"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "居民",
+    "朋友",
+    "家人",
+    "年轻创业者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "李晨",
+    "奶奶",
+    "爷爷",
+    "护士"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "志愿者": "adult_female_volunteer",
+    "社区负责人": "adult_male_community_coordinator"
+  },
+  "criticalObjects": [
+    "etiketsiz yardım kolileri",
+    "su şişeleri",
+    "kafe tezgâhı",
+    "boş tedarik çizelgesi"
+  ],
+  "visualDirectionTr": "Liu ve Zhang kafenin yardım noktasını yönetirken gönüllü ve topluluk sorumlusu sürdürülebilir düzeni konuşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC036",
+    "nextSceneId": "ZH_HSK6_SC038",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC030",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aile kafesinin ahşap tezgâhı ve Zhang/Liu yüzleri korunur; aynı erkek topluluk sorumlusu ve yeni kadın gönüllüyle yardım noktası sahnesidir."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC030",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 yaş ve yüz sürekliliği, mekân, 1080×1920 WebP ve dosya bütünlüğü kontrol edildi. APK build başlatılmadı."
+}

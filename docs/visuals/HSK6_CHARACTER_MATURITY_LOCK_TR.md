@@ -39,6 +39,18 @@
 - HSK6 SC001–SC010: generated and integrated under LOCKED_V2.
 - HSK6 SC011–SC020: generated and integrated under LOCKED_V2.
 - HSK6 SC021–SC030: generated and integrated under LOCKED_V2.
-- HSK6 SC031–SC050: pending visual production; preserve the identities and aging established above.
+- HSK6 SC031–SC040: generated and integrated under LOCKED_V2.
+- HSK6 SC041–SC050: pending visual production; preserve the identities and aging established above.
 - Character faces, apparent ages, hair and family relationships stay continuous across later groups. Clothing may change only to fit the scene.
 - APK build approval remains required and is not granted by visual integration.
+
+
+## Recurring roles and aging in SC031–SC040
+
+- Zhang Wei and Liu Mei retain their established faces through the community, family and cafe scenes; by SC039–SC040 they appear older, with only subtle natural graying.
+- Li Chen keeps his established facial identity. In SC039–SC040 he is a recently retired older adult with subtle gray at the temples.
+- Zhang Yutong remains the adult daughter; she appears in SC033 and represents the generic family-speaker role in SC040, now with subtle age progression.
+- Zhang Lele remains a young adult man in SC033–SC035; never depict him as a child.
+- 爷爷 remains Zhang Wei's distinct silver-white-haired elderly father in SC035.
+- The same adult male community coordinator, with short dark hair and a muted olive jacket, recurs in SC036–SC038. The resident, volunteer, workshop host, small-business owner and retirement friend are distinct scene-specific adults.
+- Preserve the warm realistic 2.5D/3D CGI style, single-scene vertical framing, and no readable text or logos.
