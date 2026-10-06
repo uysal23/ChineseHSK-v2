@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC012",
+  "generationSceneId": "ZH_HSK6_SC012",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC012.json",
+  "dialogueSha256": "378039e75f8fc041dd061a626c129b1cac63b51b899d87aa12ac69a8394f94ea",
+  "titleZh": "第一个大客户",
+  "titleTr": "İlk Büyük Müşteri",
+  "locationId": "LOC_ZH_PHOTO_STUDIO_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele önemli bir ticari çekim işi alır ve profesyonel sınırlarını öğrenir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "客户",
+    "助理",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "客户",
+    "助理",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "客户": "adult_client",
+    "助理": "young_adult_male_assistant",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "kamera",
+    "müşteri çekim planı",
+    "portföy"
+  ],
+  "visualDirectionTr": "Lele ilk büyük işi ve ekip içi görev paylaşımını konuşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC011",
+    "nextSceneId": "ZH_HSK6_SC013",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC011",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Lele, müşteri ve stüdyo dizisi SC011–SC013 boyunca yüz ve mekân referansını korur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC011",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

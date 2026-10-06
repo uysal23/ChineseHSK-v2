@@ -15,9 +15,20 @@
 - 张乐乐: young adult man; short textured dark hair, recognizable youthful face; university graduate in SC010, never depict as a child in HSK6.
 - 奶奶: elderly woman, silver-gray hair, gentle face; consistent with the HSK5 grandparents' scenes.
 
+## Recurring roles in SC011–SC020
+
+- Lele: same young-adult male identity from SC010 through the photography studio scenes.
+- Studio client: adult woman with shoulder-length chestnut hair and muted taupe clothing; retain her across SC011–SC013.
+- Studio assistant: young adult man in muted sage; distinct from Lele.
+- Lawyer: adult woman in a dark navy suit; distinct from Liu Mei and the studio client.
+- Manager and coworker: distinct adult men in business clothing, recurring through SC014–SC016; preserve role distinction.
+- Cafe employee: young adult woman with dark hair tied low and an olive apron; retain through SC017–SC019. The cafe customer in SC017–SC018 is a separate adult man in muted blue.
+- SC020 customers: one young adult woman and one elderly man; keep both distinct from the recurring cafe employee and the earlier customer.
+
 ## Scene coverage
 
 - HSK6 SC001–SC010: generated and integrated under LOCKED_V2.
-- HSK6 SC011–SC050: pending visual production; preserve the identities and aging established above.
+- HSK6 SC011–SC020: generated and integrated under LOCKED_V2.
+- HSK6 SC021–SC050: pending visual production; preserve the identities and aging established above.
 - Character faces, apparent ages, hair and family relationships stay continuous across later groups. Clothing may change only to fit the scene.
 - APK build approval remains required and is not granted by visual integration.

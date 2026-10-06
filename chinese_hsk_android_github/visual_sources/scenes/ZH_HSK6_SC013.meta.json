@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC013",
+  "generationSceneId": "ZH_HSK6_SC013",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC013.json",
+  "dialogueSha256": "9de6aed48c7cfbf2c54467f5b9e12f69e0b0da8e40dfc4d5b359daff16745348",
+  "titleZh": "照片到底属于谁？",
+  "titleTr": "Telif ve Kullanım Anlaşmazlığı",
+  "locationId": "LOC_ZH_PHOTO_STUDIO_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Bir fotoğrafın izin dışı kullanımı telif ve etik tartışmasına dönüşür.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "客户",
+    "律师",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "客户",
+    "律师",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "李晨",
+    "伴侣",
+    "助手",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "客户": "adult_client",
+    "律师": "adult_female_lawyer",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "sözleşme dosyası",
+    "kamera ekipmanı",
+    "tablet"
+  ],
+  "visualDirectionTr": "Müşteri, Lele ve hukuk danışmanı kullanım hakları konusunda belgeyi inceler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC012",
+    "nextSceneId": "ZH_HSK6_SC014",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC012",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Lele, müşteri ve stüdyo dizisi SC011–SC013 boyunca yüz ve mekân referansını korur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC013.png",
+  "finalAssetFilename": "ZH_HSK6_SC013.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC013.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "342a1b35a66b7c6d6b33d34f85e5e261ca7e89579ff296f31872c9d55239baa7",
+    "bytes": 385458
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı.",
+  "generationPrompt": "Müşteri, Lele ve hukuk danışmanı kullanım hakları konusunda belgeyi inceler.",
+  "styleReferenceSceneId": "ZH_HSK6_SC012"
+}

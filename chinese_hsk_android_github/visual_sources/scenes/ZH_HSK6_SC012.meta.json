@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC012",
+  "generationSceneId": "ZH_HSK6_SC012",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC012.json",
+  "dialogueSha256": "378039e75f8fc041dd061a626c129b1cac63b51b899d87aa12ac69a8394f94ea",
+  "titleZh": "第一个大客户",
+  "titleTr": "İlk Büyük Müşteri",
+  "locationId": "LOC_ZH_PHOTO_STUDIO_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele önemli bir ticari çekim işi alır ve profesyonel sınırlarını öğrenir.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "客户",
+    "助理",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "客户",
+    "助理",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "客户": "adult_client",
+    "助理": "young_adult_male_assistant",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "kamera",
+    "müşteri çekim planı",
+    "portföy"
+  ],
+  "visualDirectionTr": "Lele ilk büyük işi ve ekip içi görev paylaşımını konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC011",
+    "nextSceneId": "ZH_HSK6_SC013",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC011",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Lele, müşteri ve stüdyo dizisi SC011–SC013 boyunca yüz ve mekân referansını korur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC012.png",
+  "finalAssetFilename": "ZH_HSK6_SC012.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC012.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "956e60f7fac1942cea01ff8b14eae96cc315d813b7da4eb10ce146774649978a",
+    "bytes": 414584
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı.",
+  "generationPrompt": "Lele ilk büyük işi ve ekip içi görev paylaşımını konuşur.",
+  "styleReferenceSceneId": "ZH_HSK6_SC011"
+}

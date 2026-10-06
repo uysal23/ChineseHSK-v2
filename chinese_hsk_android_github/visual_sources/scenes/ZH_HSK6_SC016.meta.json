@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC016",
+  "generationSceneId": "ZH_HSK6_SC016",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC016.json",
+  "dialogueSha256": "9dc8f2c4b93d4aedc27ee7a2d32813347ff5eb3a51de63e52383d90670ef541d",
+  "titleZh": "最后一天上班",
+  "titleTr": "Son Çalışma Günü",
+  "locationId": "LOC_ZH_RETIREMENT_EVENT_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang masasını toplar ve iş yerinden son kez çıkar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "同事"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "同事"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male",
+    "同事": "adult_male_coworker"
+  },
+  "criticalObjects": [
+    "kişisel kitaplar",
+    "küçük taşınma kutusu",
+    "çerçeveli okunaksız fotoğraf"
+  ],
+  "visualDirectionTr": "Zhang son iş gününde eşyalarını toplar; Liu, Li Chen ve çalışma arkadaşıyla vedalaşır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC015",
+    "nextSceneId": "ZH_HSK6_SC017",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC015",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang ve Liu'nun olgun HSK6 yüzleri korunur; işyeri yöneticisi ve çalışma arkadaşı SC014–SC016 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC016.png",
+  "finalAssetFilename": "ZH_HSK6_SC016.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC016.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "a4518690519b6bc2323080f82e1dff261ea14174fd82a28079b29960fbc78c2a",
+    "bytes": 383508
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı.",
+  "generationPrompt": "Zhang son iş gününde eşyalarını toplar; Liu, Li Chen ve çalışma arkadaşıyla vedalaşır.",
+  "styleReferenceSceneId": "ZH_HSK6_SC015"
+}

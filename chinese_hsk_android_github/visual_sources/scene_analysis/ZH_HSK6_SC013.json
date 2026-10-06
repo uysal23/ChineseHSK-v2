@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC013",
+  "generationSceneId": "ZH_HSK6_SC013",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC013.json",
+  "dialogueSha256": "9de6aed48c7cfbf2c54467f5b9e12f69e0b0da8e40dfc4d5b359daff16745348",
+  "titleZh": "照片到底属于谁？",
+  "titleTr": "Telif ve Kullanım Anlaşmazlığı",
+  "locationId": "LOC_ZH_PHOTO_STUDIO_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Bir fotoğrafın izin dışı kullanımı telif ve etik tartışmasına dönüşür.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "客户",
+    "律师",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "客户",
+    "律师",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "李晨",
+    "伴侣",
+    "助手",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "客户": "adult_client",
+    "律师": "adult_female_lawyer",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "sözleşme dosyası",
+    "kamera ekipmanı",
+    "tablet"
+  ],
+  "visualDirectionTr": "Müşteri, Lele ve hukuk danışmanı kullanım hakları konusunda belgeyi inceler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC012",
+    "nextSceneId": "ZH_HSK6_SC014",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC012",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Lele, müşteri ve stüdyo dizisi SC011–SC013 boyunca yüz ve mekân referansını korur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC012",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC018",
+  "generationSceneId": "ZH_HSK6_SC018",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC018.json",
+  "dialogueSha256": "9f5a624400bef39d7e999ec75d9b5a182248bdbe45e524d2f4dbd76cc332a143",
+  "titleZh": "刘梅说：“这里有我的规矩”",
+  "titleTr": "Liu Mei: “Burası Benim Düzenim”",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei mizahla Zhang’a kafenin yıllardır kendi sistemi olduğunu hatırlatır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "员工": "young_adult_female_cafe_employee",
+    "顾客": "adult_male_cafe_customer"
+  },
+  "criticalObjects": [
+    "kahve fincanları",
+    "kafe tezgâhı",
+    "espresso makinesi"
+  ],
+  "visualDirectionTr": "Liu Mei mizahla Zhang’a kafenin kendi kuralları olduğunu hatırlatır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC017",
+    "nextSceneId": "ZH_HSK6_SC019",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC017",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC017",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

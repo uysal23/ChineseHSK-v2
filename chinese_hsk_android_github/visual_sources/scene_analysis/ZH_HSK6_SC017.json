@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC017",
+  "generationSceneId": "ZH_HSK6_SC017",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC017.json",
+  "dialogueSha256": "51b280bcba2a082910981f81f4511f9bde7dddd52e259983ba61dc69bfb8488c",
+  "titleZh": "退休后第一天在咖啡馆",
+  "titleTr": "Kafede İlk Tam Gün",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang emeklilik sonrası kafede tam gün çalışır ama eski iş düzenini buraya taşımaya kalkar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "员工": "young_adult_female_cafe_employee",
+    "顾客": "adult_male_cafe_customer"
+  },
+  "criticalObjects": [
+    "kahve fincanları",
+    "servis tepsisi",
+    "espresso makinesi"
+  ],
+  "visualDirectionTr": "Zhang kafenin ilk tam gününde eski iş düzenini kurmaya çalışır; çalışan ve müşteri bunu izler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC016",
+    "nextSceneId": "ZH_HSK6_SC018",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC016",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC016",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

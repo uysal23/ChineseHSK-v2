@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC015",
+  "generationSceneId": "ZH_HSK6_SC015",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC015.json",
+  "dialogueSha256": "5395e294fec69df811a84013d2ddee11b365699fbab07b0d9368984d49fd2f14",
+  "titleZh": "最后一个工作星期",
+  "titleTr": "Son İş Haftası",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang yıllarca birlikte çalıştığı insanlarla vedalaşır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "同事",
+    "经理",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "同事",
+    "经理",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "同事": "adult_male_coworker",
+    "经理": "adult_male_manager",
+    "李晨": "young_adult_male"
+  },
+  "criticalObjects": [
+    "iş takvimi",
+    "kapalı dosya",
+    "masa bitkisi"
+  ],
+  "visualDirectionTr": "Zhang son iş haftasında yöneticisi, çalışma arkadaşı ve Li Chen ile vedalaşır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC014",
+    "nextSceneId": "ZH_HSK6_SC016",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC014",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang ve Liu'nun olgun HSK6 yüzleri korunur; işyeri yöneticisi ve çalışma arkadaşı SC014–SC016 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC014",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

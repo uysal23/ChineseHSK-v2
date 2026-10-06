@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC020",
+  "generationSceneId": "ZH_HSK6_SC020",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC020.json",
+  "dialogueSha256": "1a4f6434f48affb730722b59d7af08b8cb323c3389d09b10ca3443a7d91fea6a",
+  "titleZh": "新一代的菜单",
+  "titleTr": "Kafenin Yeni Nesil Menüsü",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Genç müşteriler için yenilik düşünülürken eski tariflerin kimliği korunur.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "年轻顾客",
+    "老顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "年轻顾客",
+    "老顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "年轻顾客": "young_adult_female_customer",
+    "老顾客": "elderly_male_customer"
+  },
+  "criticalObjects": [
+    "yazısız menü",
+    "modern meyveli içecek",
+    "geleneksel hamur işi"
+  ],
+  "visualDirectionTr": "Liu ve Zhang genç ve yaşlı müşterilerle yeni içecek fikrini ve eski tarifleri değerlendirir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC019",
+    "nextSceneId": "ZH_HSK6_SC021",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC019",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC019",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

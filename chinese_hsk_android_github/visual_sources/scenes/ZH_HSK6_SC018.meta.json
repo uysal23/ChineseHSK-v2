@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC018",
+  "generationSceneId": "ZH_HSK6_SC018",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC018.json",
+  "dialogueSha256": "9f5a624400bef39d7e999ec75d9b5a182248bdbe45e524d2f4dbd76cc332a143",
+  "titleZh": "刘梅说：“这里有我的规矩”",
+  "titleTr": "Liu Mei: “Burası Benim Düzenim”",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Liu Mei mizahla Zhang’a kafenin yıllardır kendi sistemi olduğunu hatırlatır.",
+  "dialogueSpeakers": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "刘梅",
+    "张伟",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户"
+  ],
+  "characterAgeLock": {
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent",
+    "员工": "young_adult_female_cafe_employee",
+    "顾客": "adult_male_cafe_customer"
+  },
+  "criticalObjects": [
+    "kahve fincanları",
+    "kafe tezgâhı",
+    "espresso makinesi"
+  ],
+  "visualDirectionTr": "Liu Mei mizahla Zhang’a kafenin kendi kuralları olduğunu hatırlatır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC017",
+    "nextSceneId": "ZH_HSK6_SC019",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC017",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC018.png",
+  "finalAssetFilename": "ZH_HSK6_SC018.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC018.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "288903891be91bc974313689818a798eb006a7db23d7d34429739b41ecf4e4bc",
+    "bytes": 421232
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı.",
+  "generationPrompt": "Liu Mei mizahla Zhang’a kafenin kendi kuralları olduğunu hatırlatır.",
+  "styleReferenceSceneId": "ZH_HSK6_SC017"
+}

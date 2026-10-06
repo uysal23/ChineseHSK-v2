@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC017",
+  "generationSceneId": "ZH_HSK6_SC017",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC017.json",
+  "dialogueSha256": "51b280bcba2a082910981f81f4511f9bde7dddd52e259983ba61dc69bfb8488c",
+  "titleZh": "退休后第一天在咖啡馆",
+  "titleTr": "Kafede İlk Tam Gün",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang emeklilik sonrası kafede tam gün çalışır ama eski iş düzenini buraya taşımaya kalkar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "顾客"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "顾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "员工": "young_adult_female_cafe_employee",
+    "顾客": "adult_male_cafe_customer"
+  },
+  "criticalObjects": [
+    "kahve fincanları",
+    "servis tepsisi",
+    "espresso makinesi"
+  ],
+  "visualDirectionTr": "Zhang kafenin ilk tam gününde eski iş düzenini kurmaya çalışır; çalışan ve müşteri bunu izler.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC016",
+    "nextSceneId": "ZH_HSK6_SC018",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC016",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC017.png",
+  "finalAssetFilename": "ZH_HSK6_SC017.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC017.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "b6e3c8b9b6e830765eea7cc0f35b95ee1be76d9ddda17d75031cd352bad2ca07",
+    "bytes": 443990
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı.",
+  "generationPrompt": "Zhang kafenin ilk tam gününde eski iş düzenini kurmaya çalışır; çalışan ve müşteri bunu izler.",
+  "styleReferenceSceneId": "ZH_HSK6_SC016"
+}

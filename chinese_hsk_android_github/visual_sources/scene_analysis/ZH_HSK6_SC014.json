@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC014",
+  "generationSceneId": "ZH_HSK6_SC014",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC014.json",
+  "dialogueSha256": "a284b297c5db8d554963acc08fea23c9c6ed1929820d1eaf4ff14052448688fe",
+  "titleZh": "张伟宣布退休",
+  "titleTr": "Zhang Emekliliğini Açıklıyor",
+  "locationId": "LOC_ZH_WORKPLACE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang çalışma arkadaşlarına emeklilik kararını resmen duyurur.",
+  "dialogueSpeakers": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "经理",
+    "同事",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "李晨",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户",
+    "员工",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "经理": "adult_male_manager",
+    "同事": "adult_male_coworker",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "toplantı masası",
+    "not defteri",
+    "kalemsiz sade belge"
+  ],
+  "visualDirectionTr": "Zhang emeklilik kararını yöneticisi ve çalışma arkadaşına açıklar; Liu yanında destek verir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC013",
+    "nextSceneId": "ZH_HSK6_SC015",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC013",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang ve Liu'nun olgun HSK6 yüzleri korunur; işyeri yöneticisi ve çalışma arkadaşı SC014–SC016 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC013",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}

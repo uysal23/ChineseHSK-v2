@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC019",
+  "generationSceneId": "ZH_HSK6_SC019",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC019.json",
+  "dialogueSha256": "96a58cb0e7d3ea719db8b49d34fe1a30310dc1ec4509787e2440f25f4c6f7a9b",
+  "titleZh": "重新学会一起工作",
+  "titleTr": "Görev Paylaşımı",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang ve Liu Mei kafe işlerini birbirini yormadan paylaşmayı öğrenir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "李晨"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "员工",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "张雨桐",
+    "奶奶",
+    "爷爷",
+    "咪咪",
+    "导师",
+    "张乐乐",
+    "伴侣",
+    "律师",
+    "助手",
+    "客户",
+    "顾客"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "员工": "young_adult_female_cafe_employee",
+    "李晨": "young_adult_male"
+  },
+  "criticalObjects": [
+    "servis tepsisi",
+    "kahve fincanları",
+    "pastane ürünleri"
+  ],
+  "visualDirectionTr": "Zhang ve Liu görevleri paylaşırken çalışan ile Li Chen dengeli iş akışına yardım eder.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC018",
+    "nextSceneId": "ZH_HSK6_SC020",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC018",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Aynı sıcak aile kafesi ve Zhang/Liu yüz sürekliliği korunur; çalışan SC017–SC019 arasında tutarlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC018",
+  "qaNoteTr": "Diyalog ve konuşmacı kadrosu, görsel süreklilik, dikey 1080×1920 WebP ve dosya bütünlüğü denetlendi. APK build başlatılmadı."
+}
