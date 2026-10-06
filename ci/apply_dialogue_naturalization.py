@@ -41,6 +41,14 @@ for override_path in sorted(override_root.glob("HSK*/ZH_HSK*_SC*.json")):
             if not value:
                 raise SystemExit(f"{scene_id} turn {i}: blank {key}")
             old[key] = value
+        # Preserve authored acting cues for runtime presentation and voice styling.
+        for key in ("emotion", "actionTr"):
+            if key in new:
+                value = str(new[key]).strip()
+                if value:
+                    old[key] = value
+                else:
+                    old.pop(key, None)
         count_turns += 1
 
     target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
