@@ -22,7 +22,7 @@
   "status": "INTEGRATED_QA_PASS",
   "scenes": [
     {
-      "id": "ZH_HSK6_SC031",
+      "sceneId": "ZH_HSK6_SC031",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC031.json",
       "dialogueSha256": "ececfb776e286cedc223d853400d3b0f8b81e2edbd18a8d3bc269c7c09dc25b6",
       "finalAssetFilename": "ZH_HSK6_SC031.webp",
@@ -46,7 +46,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC032",
+      "sceneId": "ZH_HSK6_SC032",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC032.json",
       "dialogueSha256": "ae52d22c992bf629918843e6311273fa9aec3c270c7a5ce3b11526269a82b141",
       "finalAssetFilename": "ZH_HSK6_SC032.webp",
@@ -70,7 +70,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC033",
+      "sceneId": "ZH_HSK6_SC033",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC033.json",
       "dialogueSha256": "a2b918fff587b0ae5ee02262a753cf3e269b0c7d03fa73af550a54e785896c89",
       "finalAssetFilename": "ZH_HSK6_SC033.webp",
@@ -94,7 +94,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC034",
+      "sceneId": "ZH_HSK6_SC034",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC034.json",
       "dialogueSha256": "c48877ec68e16035bd52150fee4fe04de5630507880f4423b68febcd1c1347f1",
       "finalAssetFilename": "ZH_HSK6_SC034.webp",
@@ -118,7 +118,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC035",
+      "sceneId": "ZH_HSK6_SC035",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC035.json",
       "dialogueSha256": "8c9ca42e7df0caad1acca285e1d894dd2476ef0b748609d4a1ba85364747caf8",
       "finalAssetFilename": "ZH_HSK6_SC035.webp",
@@ -142,7 +142,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC036",
+      "sceneId": "ZH_HSK6_SC036",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC036.json",
       "dialogueSha256": "b407fd1772751c0d472babf8af8e210abe11a54d8afdf0939fbe87c1cbd3fd0b",
       "finalAssetFilename": "ZH_HSK6_SC036.webp",
@@ -166,7 +166,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC037",
+      "sceneId": "ZH_HSK6_SC037",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC037.json",
       "dialogueSha256": "ea32d906eef01cd515422f65533d5163726c6916af8e342e4edc8f48415e6b46",
       "finalAssetFilename": "ZH_HSK6_SC037.webp",
@@ -190,7 +190,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC038",
+      "sceneId": "ZH_HSK6_SC038",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC038.json",
       "dialogueSha256": "cad87813349dfdcfea173841f6456d94c40c784de2eec67f20716d692b15d8a8",
       "finalAssetFilename": "ZH_HSK6_SC038.webp",
@@ -214,7 +214,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC039",
+      "sceneId": "ZH_HSK6_SC039",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC039.json",
       "dialogueSha256": "087e1fc4122efafc57291b4937c9d5d8cbace8c4f9add5e7e19c137a663f56be",
       "finalAssetFilename": "ZH_HSK6_SC039.webp",
@@ -238,7 +238,7 @@
       "requiredNonSpeakerCharacters": []
     },
     {
-      "id": "ZH_HSK6_SC040",
+      "sceneId": "ZH_HSK6_SC040",
       "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC040.json",
       "dialogueSha256": "e7a21e6ee7478c55508ddc088f36366eb482302e6c17b680d99e130e51c9c273",
       "finalAssetFilename": "ZH_HSK6_SC040.webp",
