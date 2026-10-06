@@ -38,3 +38,27 @@ Bir sahne ancak aşağıdaki kontroller geçerse kabul edilir:
 - aşırı tekrar raporu
 - ardışık tamamen aynı replik yok
 - doğal akış için manuel/model sahne bazlı son okuma
+
+
+## Duygu ve oyunculuk metaverisi
+- Gerektiğinde `emotion` alanında `neutral`, `happy`, `sad`, `playful`, `curious`, `worried`, `angry`, `comforting` değerlerinden birini kullan.
+- `actionTr`, ekranda gösterilecek kısa ve gözlenebilir bir oyunculuk yönergesidir (ör. “Gülümseyerek fincanı uzatır.”). Diyalog metnine parantez içi sahne yönergesi ekleme.
+- Duygu, söylenen sözle ve sahne olayıyla örtüşmeli; tek bir etiket bütün sahneye kopyalanmamalı. Nötr kalması doğal olan repliklerde alanı atla.
+- `emotion` ve `actionTr` isteğe bağlıdır; anlam ve öğrenme içeriği Simplified Chinese `zh` alanında kalır.
+
+## Konuşma balonu davranışı
+- Her replik sırasında yalnızca o repliğin `speaker` alanına karşılık gelen karakterin balonu görünür.
+- Küçük, boş (metin içermeyen) balon ilgili karakterin ağzının hemen yanında gösterilir; diyalog metni mevcut arayüzdeki yerinde kalır.
+- Balon, aktif replik/speaker değiştiğinde aynı anda doğru karaktere geçer; önceki karakterde kalmaz ve başka karakterlerde eşzamanlı görünmez.
+- Karakterin sahnedeki yüz/ağız konumu kullanılır; genel ekran konumuna sabitlenmiş balon kabul edilmez. Portre veya sahne yerleşimi değişince bağlama noktası da onunla taşınır.
+- Sahne açılışı, diyaloglar arası bekleme, duraklatma ve sahneden çıkış sırasında balon görünmez. Hızlı replik geçişlerinde eski balonun kısa süre yanlış karakterde kalmaması doğrulanır.
+
+## İş listesi ve uygulama sınırları
+1. 300 sahnenin diyaloglarını sahne sahne yeniden yaz: doğal tepki zinciri, tek olay akışı, duygu ve karakter ses tutarlılığı; Simplified Chinese, mevcut HSK hedefleri.
+2. Her sahnede 100 repliği, dialogue ID’leri, konuşmacı adlarını ve sırasını koru.
+3. `zh`, pinyin ve Türkçe anlamı birlikte güncelle; gerektiği repliklere `emotion` ve kısa `actionTr` ekle.
+4. Konuşma balonunu yalnızca aktif repliğin konuşmacısına, o karakterin ağız yanındaki sahne koordinatına bağla; sahne/replik geçişlerini test et.
+5. Mevcut ses üretimi ve oynatma düzenini aynen sürdür. Sağlayıcıyı, iş akışını, dosya biçimini, kimlik eşlemesini veya ses davranışını değiştirme. `zh` değişen replikler için aynı mevcut iş akışıyla sesi yeniden üret.
+6. Her grup için ID/speaker/sayı, boş alan, tekrar, HSK seviyesi ve insan tarafından sahne baştan sona okunması kontrollerini çalıştır.
+
+Yeni bir doğallaştırma paketi uygulanmadan önce `ci/audit_dialogue_naturalization.py` çalıştırılmalıdır. Bu otomatik kontrol; 100 replik sayısını, kimlik ve konuşmacı sırasını, boş alanları, duygu etiketlerini ve sahne içi birebir tekrarları denetler. Doğal diyalog için sahne bazında editoryal son okumanın yerine geçmez.
