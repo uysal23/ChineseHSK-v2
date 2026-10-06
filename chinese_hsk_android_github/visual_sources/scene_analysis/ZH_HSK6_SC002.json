@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC002",
+  "generationSceneId": "ZH_HSK6_SC002",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC002.json",
+  "dialogueSha256": "ab63b2cc0396a9c28815a4668676773202be78752e2521c3161604d5a01dad0f",
+  "titleZh": "两家人正式见面",
+  "titleTr": "İki Ailenin İlk Resmi Buluşması",
+  "locationId": "LOC_ZH_PRIVATE_DINING_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İki aile ilk kez resmî sayılabilecek bir yemekte tanışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "亲家",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "亲家",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "亲家": "adult_inlaw_parent",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "yuvarlak yemek masası",
+    "çay takımı",
+    "ortak akşam yemeği"
+  ],
+  "visualDirectionTr": "İki aile ilk kez özenli bir akşam yemeğinde tanışır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC001",
+    "nextSceneId": "ZH_HSK6_SC003",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC001",
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı."
+}

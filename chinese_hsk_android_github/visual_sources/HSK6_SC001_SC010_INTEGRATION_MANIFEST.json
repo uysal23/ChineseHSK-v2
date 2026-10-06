@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "batchId": "HSK6_SC001_SC010",
+  "sourceHead": "2a48f8d24cfa7593041c2db7cf606ce28680fa18",
+  "sceneIds": [
+    "ZH_HSK6_SC001",
+    "ZH_HSK6_SC002",
+    "ZH_HSK6_SC003",
+    "ZH_HSK6_SC004",
+    "ZH_HSK6_SC005",
+    "ZH_HSK6_SC006",
+    "ZH_HSK6_SC007",
+    "ZH_HSK6_SC008",
+    "ZH_HSK6_SC009",
+    "ZH_HSK6_SC010"
+  ],
+  "imageDimensions": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16"
+  },
+  "styleReferenceSceneId": "ZH_HSK5_SC050",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "records": [
+    {
+      "sceneId": "ZH_HSK6_SC001",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "4e25a58ae60ac855b6331dcd968620c2a05d583d025b94865fd85e844b05de8b",
+        "bytes": 443982
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "张伟",
+        "刘梅"
+      ],
+      "dialogueSpeakers": [
+        "张雨桐",
+        "伴侣",
+        "张伟",
+        "刘梅"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "ff2c81bfb644fe58e63e114c6ad71bdb44500acfb0162b957ceb81bf2be88fe7"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC002",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "f7fb0a25028a59bf7f4d6851d38da6b29d89b1d21f3d13748898136aeac98848",
+        "bytes": 426796
+      },
+      "cast": [
+        "张伟",
+        "刘梅",
+        "亲家",
+        "张雨桐"
+      ],
+      "dialogueSpeakers": [
+        "张伟",
+        "刘梅",
+        "亲家",
+        "张雨桐"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "ab63b2cc0396a9c28815a4668676773202be78752e2521c3161604d5a01dad0f"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC003",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "8a4abea492537647bbdd44c7d8b2ef73d175a5cc84905b4739dea402459ea8bf",
+        "bytes": 451112
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "刘梅",
+        "张伟"
+      ],
+      "dialogueSpeakers": [
+        "张雨桐",
+        "伴侣",
+        "刘梅",
+        "张伟"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "69c7388eb432d254be05c68b4468554ba4f83a086523bb29fb33d940ce3a7afc"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC004",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "10c1a4612a4c321ad25faaf29bc08c24ec5fa526a3f329f533cc0b9b7fde995d",
+        "bytes": 511734
+      },
+      "cast": [
+        "张伟",
+        "刘梅",
+        "张雨桐",
+        "奶奶"
+      ],
+      "dialogueSpeakers": [
+        "张伟",
+        "刘梅",
+        "张雨桐",
+        "奶奶"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "2d057f8abf321d63b93325e464439568b1a554bfb8586d871701439ede597f98"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC005",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "6b86d9fa80bc30584528e01c3e77f2eb68505b57cdf6930e58f72691f60f667a",
+        "bytes": 409864
+      },
+      "cast": [
+        "奶奶",
+        "张雨桐",
+        "刘梅",
+        "张伟"
+      ],
+      "dialogueSpeakers": [
+        "奶奶",
+        "张雨桐",
+        "刘梅",
+        "张伟"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "597f91b4649a93838f1d66c69b212c2da62cc88ecd5e0c205856cbdc95b6b4f3"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC006",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "7c2ca4b9abaa1129605df2ee190b336565017608111ae4fc8944107de533e3f6",
+        "bytes": 425854
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "场地方经理",
+        "刘梅"
+      ],
+      "dialogueSpeakers": [
+        "张雨桐",
+        "伴侣",
+        "场地方经理",
+        "刘梅"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "1c0cc8001a73d7e5de47271781c9b5b2b97f733513b2ace7a1acea5da1358bf2"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC007",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "09327600a4cb42751438ada3f147c8c621270063c121e21745041e4a0eba93b1",
+        "bytes": 465258
+      },
+      "cast": [
+        "张雨桐",
+        "伴侣",
+        "张伟",
+        "刘梅"
+      ],
+      "dialogueSpeakers": [
+        "张雨桐",
+        "伴侣",
+        "张伟",
+        "刘梅"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "0665f4c770af02bcf5cf1f788f9af9f08895493849372d86ec1889d5f88ff573"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC008",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "a8bec3b373c8f189cb8ad14b8ea50ca22f514d984d05a12c85deeac5e9850847",
+        "bytes": 336126
+      },
+      "cast": [
+        "张伟",
+        "张雨桐",
+        "刘梅",
+        "宾客"
+      ],
+      "dialogueSpeakers": [
+        "张伟",
+        "张雨桐",
+        "刘梅",
+        "宾客"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "c261e3ea477fe0c953cab5d21b9a6b580a3af0e6f6a3c42acbec9b2e68ba2637"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC009",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "674d03bd5dc8a2e697f199978b673f214ece5b797694e4639ab6e16e9756b8ff",
+        "bytes": 409944
+      },
+      "cast": [
+        "张伟",
+        "刘梅",
+        "李晨",
+        "奶奶"
+      ],
+      "dialogueSpeakers": [
+        "张伟",
+        "刘梅",
+        "李晨",
+        "奶奶"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "a95e6c25557e14ddaa3b2eed073e30848f2df8c2ce904446d516389f5b054948"
+    },
+    {
+      "sceneId": "ZH_HSK6_SC010",
+      "image": {
+        "width": 1080,
+        "height": 1920,
+        "format": "WEBP",
+        "aspectRatio": "9:16",
+        "orientation": "9:16_vertical",
+        "sha256": "5f36f226f7a47ba82847b29bdfddaac02631788625f9c8a835bd4416fe14c687",
+        "bytes": 367018
+      },
+      "cast": [
+        "张乐乐",
+        "张伟",
+        "刘梅",
+        "导师"
+      ],
+      "dialogueSpeakers": [
+        "张乐乐",
+        "张伟",
+        "刘梅",
+        "导师"
+      ],
+      "nonVisualDialogueSpeakers": [],
+      "dialogueSha256": "ec160b9fb1952ffd41beed6b32d5f1e582947b01dfa92f1d340e05e87dc2d94f"
+    }
+  ],
+  "completedSceneIds": [
+    "ZH_HSK6_SC001",
+    "ZH_HSK6_SC002",
+    "ZH_HSK6_SC003",
+    "ZH_HSK6_SC004",
+    "ZH_HSK6_SC005",
+    "ZH_HSK6_SC006",
+    "ZH_HSK6_SC007",
+    "ZH_HSK6_SC008",
+    "ZH_HSK6_SC009",
+    "ZH_HSK6_SC010"
+  ],
+  "pendingSceneIds": [],
+  "overallPendingSceneIds": [
+    "ZH_HSK6_SC011",
+    "ZH_HSK6_SC012",
+    "ZH_HSK6_SC013",
+    "ZH_HSK6_SC014",
+    "ZH_HSK6_SC015",
+    "ZH_HSK6_SC016",
+    "ZH_HSK6_SC017",
+    "ZH_HSK6_SC018",
+    "ZH_HSK6_SC019",
+    "ZH_HSK6_SC020",
+    "ZH_HSK6_SC021",
+    "ZH_HSK6_SC022",
+    "ZH_HSK6_SC023",
+    "ZH_HSK6_SC024",
+    "ZH_HSK6_SC025",
+    "ZH_HSK6_SC026",
+    "ZH_HSK6_SC027",
+    "ZH_HSK6_SC028",
+    "ZH_HSK6_SC029",
+    "ZH_HSK6_SC030",
+    "ZH_HSK6_SC031",
+    "ZH_HSK6_SC032",
+    "ZH_HSK6_SC033",
+    "ZH_HSK6_SC034",
+    "ZH_HSK6_SC035",
+    "ZH_HSK6_SC036",
+    "ZH_HSK6_SC037",
+    "ZH_HSK6_SC038",
+    "ZH_HSK6_SC039",
+    "ZH_HSK6_SC040",
+    "ZH_HSK6_SC041",
+    "ZH_HSK6_SC042",
+    "ZH_HSK6_SC043",
+    "ZH_HSK6_SC044",
+    "ZH_HSK6_SC045",
+    "ZH_HSK6_SC046",
+    "ZH_HSK6_SC047",
+    "ZH_HSK6_SC048",
+    "ZH_HSK6_SC049",
+    "ZH_HSK6_SC050"
+  ],
+  "status": "READY_FOR_NEXT_BATCH",
+  "buildApprovalRequired": true,
+  "buildApproved": false,
+  "repositoryIntegrated": true,
+  "apkBuildStarted": false
+}

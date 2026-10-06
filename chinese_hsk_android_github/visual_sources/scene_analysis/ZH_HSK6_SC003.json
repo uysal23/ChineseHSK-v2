@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC003",
+  "generationSceneId": "ZH_HSK6_SC003",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC003.json",
+  "dialogueSha256": "69c7388eb432d254be05c68b4468554ba4f83a086523bb29fb33d940ce3a7afc",
+  "titleZh": "婚礼计划越来越复杂",
+  "titleTr": "Düğün Planında Görüş Ayrılığı",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Düğünün boyutu, bütçesi ve tarzı konusunda fikir ayrılıkları çıkar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_male_partner",
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "boş düğün plan defteri",
+    "çay fincanları",
+    "masa üstü örnek kumaşlar"
+  ],
+  "visualDirectionTr": "Genç çift ve ebeveynleri düğün boyutu, bütçesi ve tarzı üzerinde sakin biçimde görüş ayrılıklarını konuşur.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC002",
+    "nextSceneId": "ZH_HSK6_SC004",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC001",
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı."
+}

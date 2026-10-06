@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC001",
+  "generationSceneId": "ZH_HSK6_SC001",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC001.json",
+  "dialogueSha256": "ff2c81bfb644fe58e63e114c6ad71bdb44500acfb0162b957ceb81bf2be88fe7",
+  "titleZh": "雨桐订婚了",
+  "titleTr": "Evlilik Teklifi Haberi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Yutong nişanlandığını aileye açıklar; sevinçle birlikte yeni sorular başlar.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "张伟",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_male_partner",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "çay servisi",
+    "işaretsiz yüzük kutusu",
+    "aile oturma odası"
+  ],
+  "visualDirectionTr": "Yutong nişanını açıklarken aile üyeleri sevinç ve gerçek duygularını paylaşır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK5_SC050",
+    "nextSceneId": "ZH_HSK6_SC002",
+    "styleAndFamilyIdentityReference": "ZH_HSK5_SC050",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC001.png",
+  "finalAssetFilename": "ZH_HSK6_SC001.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC001.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "4e25a58ae60ac855b6331dcd968620c2a05d583d025b94865fd85e844b05de8b",
+    "bytes": 443982
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Nişan haberi sonrası aile salonunda çay çevresinde konuşma; Yutong ve partneri sevinçli, ebeveynleri dikkatle dinliyor.",
+  "styleReferenceSceneId": "ZH_HSK5_SC050"
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC005",
+  "generationSceneId": "ZH_HSK6_SC005",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC005.json",
+  "dialogueSha256": "597f91b4649a93838f1d66c69b212c2da62cc88ecd5e0c205856cbdc95b6b4f3",
+  "titleZh": "奶奶讲自己的婚礼",
+  "titleTr": "Büyükannenin Eski Düğün Hikâyesi",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Büyükanne kendi gençliğindeki düğünü ayrıntılı bir hikâye olarak anlatır.",
+  "dialogueSpeakers": [
+    "奶奶",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredVisualCharacters": [
+    "奶奶",
+    "张雨桐",
+    "刘梅",
+    "张伟"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "奶奶": "senior_female_grandparent",
+    "张雨桐": "adult_female",
+    "刘梅": "senior_female_parent",
+    "张伟": "senior_male_parent"
+  },
+  "criticalObjects": [
+    "eski düğün fotoğrafı",
+    "çay takımı",
+    "aile koltuğu"
+  ],
+  "visualDirectionTr": "Büyükanne kendi gençliğindeki düğünün hikâyesini ailesiyle paylaşır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC004",
+    "nextSceneId": "ZH_HSK6_SC006",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC005.png",
+  "finalAssetFilename": "ZH_HSK6_SC005.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC005.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "6b86d9fa80bc30584528e01c3e77f2eb68505b57cdf6930e58f72691f60f667a",
+    "bytes": 409864
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Büyükanne eski bir düğün fotoğrafını gösterip anlatırken Yutong, Liu Mei ve Zhang dikkatle dinliyor.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

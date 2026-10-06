@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC009",
+  "generationSceneId": "ZH_HSK6_SC009",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC009.json",
+  "dialogueSha256": "a95e6c25557e14ddaa3b2eed073e30848f2df8c2ce904446d516389f5b054948",
+  "titleZh": "家里突然安静了",
+  "titleTr": "Ev Sessizleşiyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Düğün sonrası ev ilk kez belirgin biçimde boş ve sessiz gelir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "李晨": "young_adult_male_partner",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "düğün çiçeği",
+    "çerçevesiz düğün fotoğrafı",
+    "çay takımı"
+  ],
+  "visualDirectionTr": "Düğünden sonra evin sessizliği aileye yeni yaşam düzenini düşündürür.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC008",
+    "nextSceneId": "ZH_HSK6_SC010",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC009.png",
+  "finalAssetFilename": "ZH_HSK6_SC009.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC009.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "674d03bd5dc8a2e697f199978b673f214ece5b797694e4639ab6e16e9756b8ff",
+    "bytes": 409944
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Düğün sonrası sakin aile salonunda Zhang, Liu, Li Chen ve büyükanne sessizce oturuyor.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

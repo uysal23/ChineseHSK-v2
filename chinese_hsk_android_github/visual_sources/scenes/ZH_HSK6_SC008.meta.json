@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC008",
+  "generationSceneId": "ZH_HSK6_SC008",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC008.json",
+  "dialogueSha256": "c261e3ea477fe0c953cab5d21b9a6b580a3af0e6f6a3c42acbec9b2e68ba2637",
+  "titleZh": "张伟的婚礼致辞",
+  "titleTr": "Zhang’ın Düğün Konuşması",
+  "locationId": "LOC_ZH_WEDDING_RECEPTION_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang kızının çocukluğundan bugüne uzanan duygulu bir konuşma yapar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "宾客"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "张雨桐",
+    "刘梅",
+    "宾客"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "张雨桐": "adult_female",
+    "刘梅": "senior_female_parent",
+    "宾客": "adult_wedding_guest"
+  },
+  "criticalObjects": [
+    "mikrofon",
+    "çiçekli masa",
+    "boş konuşma kartı"
+  ],
+  "visualDirectionTr": "Zhang, kızının düğününde duygulu fakat ölçülü bir konuşma yapar.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC007",
+    "nextSceneId": "ZH_HSK6_SC009",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC008.png",
+  "finalAssetFilename": "ZH_HSK6_SC008.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC008.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "a8bec3b373c8f189cb8ad14b8ea50ca22f514d984d05a12c85deeac5e9850847",
+    "bytes": 336126
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Zhang düğün resepsiyonunda konuşurken Yutong, Liu Mei ve tek bir konuk onu dinliyor; başka kişi görünmüyor.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

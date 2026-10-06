@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC004",
+  "generationSceneId": "ZH_HSK6_SC004",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC004.json",
+  "dialogueSha256": "2d057f8abf321d63b93325e464439568b1a554bfb8586d871701439ede597f98",
+  "titleZh": "传统还是简单？",
+  "titleTr": "Gelenek mi Sadelik mi?",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Genç çift sade tören isterken büyükler bazı gelenekleri korumak ister.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "奶奶"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "奶奶"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "张雨桐": "adult_female",
+    "奶奶": "senior_female_grandparent"
+  },
+  "criticalObjects": [
+    "eski düğün hatırası",
+    "boş düğün albümü",
+    "çay masası"
+  ],
+  "visualDirectionTr": "Yutong ve büyükannesi geleneklerin anlamını ve sade bir tören isteğini saygıyla konuşur.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC003",
+    "nextSceneId": "ZH_HSK6_SC005",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC004.png",
+  "finalAssetFilename": "ZH_HSK6_SC004.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC004.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "10c1a4612a4c321ad25faaf29bc08c24ec5fa526a3f329f533cc0b9b7fde995d",
+    "bytes": 511734
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Büyükanne aile yadigârını gösterirken genç kuşakla gelenek ve sadeliği konuşuyor.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

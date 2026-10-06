@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC002",
+  "generationSceneId": "ZH_HSK6_SC002",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC002.json",
+  "dialogueSha256": "ab63b2cc0396a9c28815a4668676773202be78752e2521c3161604d5a01dad0f",
+  "titleZh": "两家人正式见面",
+  "titleTr": "İki Ailenin İlk Resmi Buluşması",
+  "locationId": "LOC_ZH_PRIVATE_DINING_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İki aile ilk kez resmî sayılabilecek bir yemekte tanışır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "亲家",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "亲家",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "亲家": "adult_inlaw_parent",
+    "张雨桐": "adult_female"
+  },
+  "criticalObjects": [
+    "yuvarlak yemek masası",
+    "çay takımı",
+    "ortak akşam yemeği"
+  ],
+  "visualDirectionTr": "İki aile ilk kez özenli bir akşam yemeğinde tanışır.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC001",
+    "nextSceneId": "ZH_HSK6_SC003",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC002.png",
+  "finalAssetFilename": "ZH_HSK6_SC002.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC002.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "f7fb0a25028a59bf7f4d6851d38da6b29d89b1d21f3d13748898136aeac98848",
+    "bytes": 426796
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "İki aile bireylerinin resmî ilk yemeği, nazik gülümsemeler ve hafif ilk tanışma heyecanı.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

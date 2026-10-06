@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC006",
+  "generationSceneId": "ZH_HSK6_SC006",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC006.json",
+  "dialogueSha256": "1c0cc8001a73d7e5de47271781c9b5b2b97f733513b2ace7a1acea5da1358bf2",
+  "titleZh": "婚礼场地出问题了",
+  "titleTr": "Düğün Mekânı Krizi",
+  "locationId": "LOC_ZH_WEDDING_VENUE_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Rezervasyon yapılan mekân beklenmedik nedenle kullanılamaz hâle gelir.",
+  "dialogueSpeakers": [
+    "张雨桐",
+    "伴侣",
+    "场地方经理",
+    "刘梅"
+  ],
+  "requiredVisualCharacters": [
+    "张雨桐",
+    "伴侣",
+    "场地方经理",
+    "刘梅"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "张乐乐",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张雨桐": "adult_female",
+    "伴侣": "young_adult_male_partner",
+    "场地方经理": "adult_venue_manager",
+    "刘梅": "senior_female_parent"
+  },
+  "criticalObjects": [
+    "boş rezervasyon dosyası",
+    "çiçek düzenlemeleri",
+    "boş tören sandalyeleri"
+  ],
+  "visualDirectionTr": "Yutong, partneri ve Liu Mei mekân yöneticisinden rezervasyonun kullanılamayacağını öğrenir; herkes çözüm arar.",
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC005",
+    "nextSceneId": "ZH_HSK6_SC007",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC006.png",
+  "finalAssetFilename": "ZH_HSK6_SC006.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC006.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "7c2ca4b9abaa1129605df2ee190b336565017608111ae4fc8944107de533e3f6",
+    "bytes": 425854
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı.",
+  "generationPrompt": "Boş düğün mekânında çift ve Liu Mei, yöneticiden sakin biçimde sorun bilgisi alıyor; arkada başka insan yok.",
+  "styleReferenceSceneId": "ZH_HSK6_SC001"
+}

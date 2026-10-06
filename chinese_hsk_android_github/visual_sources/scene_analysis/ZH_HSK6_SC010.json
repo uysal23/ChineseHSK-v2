@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC010",
+  "generationSceneId": "ZH_HSK6_SC010",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC010.json",
+  "dialogueSha256": "ec160b9fb1952ffd41beed6b32d5f1e582947b01dfa92f1d340e05e87dc2d94f",
+  "titleZh": "乐乐毕业了",
+  "titleTr": "Lele Üniversiteden Mezun Oluyor",
+  "locationId": "LOC_ZH_UNIVERSITY_CAMPUS_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Lele yaratıcı alandaki eğitimini tamamlayıp mesleğini seçer.",
+  "dialogueSpeakers": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "导师"
+  ],
+  "requiredVisualCharacters": [
+    "张乐乐",
+    "张伟",
+    "刘梅",
+    "导师"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "爷爷",
+    "奶奶",
+    "咪咪"
+  ],
+  "characterAgeLock": {
+    "张乐乐": "young_adult_male",
+    "张伟": "senior_male_parent",
+    "刘梅": "senior_female_parent",
+    "导师": "adult_university_mentor"
+  },
+  "criticalObjects": [
+    "işaretsiz diploma",
+    "mezuniyet kepi",
+    "fotoğraf makinesi"
+  ],
+  "visualDirectionTr": "Lele üniversiteden mezun olur ve yaratıcı mesleğini seçmeye yönelir.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC009",
+    "nextSceneId": "ZH_HSK6_SC011",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC001",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "HSK6 aile hikâyesi HSK5 finalindeki olgun aile yüzlerinden devam eder; karakter yaşı ve yüz sürekliliği korunur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC001",
+  "qaNoteTr": "Diyalog, konuşmacı kadrosu, yaş sürekliliği ve 1080×1920 WebP kontrolleri geçti. APK build başlatılmadı."
+}
