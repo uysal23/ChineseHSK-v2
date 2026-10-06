@@ -54,3 +54,6 @@ reason: explicit user instruction: build et
 source head before trigger: 5c5d80248bdba80865679217ac31b973f8fbc119
 visual gate: all six HSK levels 50/50 scenes; 300 direct overrides validated; no pending visual scenes
 reason: explicit user instruction: review all visuals and build if compatible
+
+2026-10-06 - retry after recording the user's HSK1-HSK6 visual build approval in visual_batch_status.json
+reason: explicit conditional approval: build if all six levels pass visual compatibility review
