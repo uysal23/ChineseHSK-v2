@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC050",
+  "generationSceneId": "ZH_HSK6_SC050",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC050.json",
+  "dialogueSha256": "b527d5e70a95a6ba6e3999e6c6aae82c45a0c83fbf3a0f25666f41cf87b8e2c9",
+  "titleZh": "这里就是家",
+  "titleTr": "“Burası Bizim Evimiz”",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "İlk gelişlerinden onlarca yıl sonra aile ve dostlar yeni kasabadaki hayatlarının tamamını kutlar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "李晨",
+    "旁白",
+    "孙辈"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "张雨桐": "adult_daughter_long_dark_brown_hair_tied_back",
+    "张乐乐": "young_adult_man_short_textured_dark_hair_never_child"
+  },
+  "criticalObjects": [
+    "aile albümü",
+    "ilk taşınmadan kalma tren bileti",
+    "kahve fincanları",
+    "kafe tezgâhı"
+  ],
+  "visualDirectionTr": "Zhang, Liu, Yutong ve Lele kasabada geçen onlarca yıllık hayatlarını aile kafesinde kutlar.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC049",
+    "nextSceneId": null,
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": false,
+    "noteTr": "Aile ve dostlar uzakta belirsiz siluetler olarak kalır; dört ana konuşmacı kilitli yaş ve saç tasarımlarını sürdürür."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC040",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı."
+}

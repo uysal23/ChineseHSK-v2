@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC047",
+  "generationSceneId": "ZH_HSK6_SC047",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC047.json",
+  "dialogueSha256": "e2b4efcf0a3016c4a4b747af6eaaf14348f1908ab095062678b59a7b19de9a31",
+  "titleZh": "重新回到火车站",
+  "titleTr": "İstasyona Yeniden Ziyaret",
+  "locationId": "LOC_ZH_TRAIN_STATION_MEMORY_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Zhang ve Liu Mei yıllar sonra ilk geldikleri istasyona tekrar gider.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "旁白"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [
+    "旁白"
+  ],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "孙辈"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "李晨": "mature_male_partner_short_textured_hair_subtle_gray_at_temples"
+  },
+  "criticalObjects": [
+    "eski istasyon peronu",
+    "raylar",
+    "sade istasyon saati"
+  ],
+  "visualDirectionTr": "Zhang ve Liu yıllar sonra ilk geldikleri istasyona döner; Li Chen onlara eşlik eder, anlatıcı ses olarak kalır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC046",
+    "nextSceneId": "ZH_HSK6_SC048",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "旁白 görünmeyen seslendirmedir; üç görünür karakter Zhang, Liu ve Li Chen'dir."
+  },
+  "narrationPresentation": {
+    "speaker": "旁白",
+    "presentation": "voiceover",
+    "visible": false
+  },
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC047.png",
+  "finalAssetFilename": "ZH_HSK6_SC047.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC047.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "1edf8b373b158fccffcac5460cd38c9d35d74fe6c10a146c0293a3efa6cd2a10",
+    "bytes": 260680
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı.",
+  "generationPrompt": "Zhang ve Liu yıllar sonra ilk geldikleri istasyona döner; Li Chen onlara eşlik eder, anlatıcı ses olarak kalır.",
+  "styleReferenceSceneId": "ZH_HSK6_SC040"
+}

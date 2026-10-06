@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "ZH_HSK6_SC048",
+  "generationSceneId": "ZH_HSK6_SC048",
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "dialogueSource": "app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC048.json",
+  "dialogueSha256": "972fb43ee1063aa5b84054a5292ce0e962539e0dbbb76ae6fe5eb327eae20d6b",
+  "titleZh": "咖啡馆里的大家庭",
+  "titleTr": "Kafede Büyük Aile Buluşması",
+  "locationId": "LOC_ZH_FAMILY_CAFE_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Çocuklar, eşler, torunlar, dostlar ve yaşlılar aynı akşam kafede toplanır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "requiredNonSpeakerCharacters": [
+    "adsız yetişkin aile üyeleri ve dostlar, uzakta flu arka plan katılımcıları"
+  ],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "李晨",
+    "旁白",
+    "孙辈"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "张雨桐": "adult_daughter_long_dark_brown_hair_tied_back",
+    "张乐乐": "young_adult_man_short_textured_dark_hair_never_child"
+  },
+  "criticalObjects": [
+    "kahve fincanları",
+    "kafe tezgâhı",
+    "pastalar",
+    "çiçekli masa süsü"
+  ],
+  "visualDirectionTr": "Aile ve dostların akşam buluşmasında dört ana konuşmacı aile kafesinde kahve paylaşır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC047",
+    "nextSceneId": "ZH_HSK6_SC049",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Uzak ve flu arka plan siluetleri kaynaktaki genel aile/dost grubudur; ayrı named karakter eklenmez."
+  },
+  "narrationPresentation": null,
+  "manifestChecklist": {
+    "dialogueChecked": true,
+    "castChecked": true,
+    "allDialogueSpeakersVisible": true,
+    "requiredNonSpeakerCharactersChecked": true,
+    "previousNextContinuityChecked": true,
+    "style3d25dCgi": true,
+    "noText": true,
+    "noCollage": true,
+    "safeAgeAppropriateClothing": true,
+    "noMiniSkirt": true,
+    "noSexyClothing": true,
+    "criticalObjectsVisible": true,
+    "canonicalCharacterContinuityChecked": true,
+    "uniqueSceneIdChecked": true,
+    "hsk6MaturityLockChecked": true
+  },
+  "sourceGeneratedFilename": "ZH_HSK6_SC048.png",
+  "finalAssetFilename": "ZH_HSK6_SC048.webp",
+  "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK6_SC048.webp",
+  "image": {
+    "width": 1080,
+    "height": 1920,
+    "format": "WEBP",
+    "aspectRatio": "9:16",
+    "orientation": "9:16_vertical",
+    "sha256": "786cd628d2be870aad70344776d08f8802bb10585432bf2442e091097bf935cb",
+    "bytes": 309010
+  },
+  "qaStatus": "PASS",
+  "status": "FINAL_GENERATED",
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı.",
+  "generationPrompt": "Aile ve dostların akşam buluşmasında dört ana konuşmacı aile kafesinde kahve paylaşır.",
+  "styleReferenceSceneId": "ZH_HSK6_SC040"
+}

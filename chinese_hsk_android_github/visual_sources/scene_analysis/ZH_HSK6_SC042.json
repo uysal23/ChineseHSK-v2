@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC042",
+  "generationSceneId": "ZH_HSK6_SC042",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC042.json",
+  "dialogueSha256": "fd73989937e8ccb2177730a5313a96e35499d4b0eb2714792a6494b491ea54ff",
+  "titleZh": "学会慢下来",
+  "titleTr": "Hayat Ritmini Yavaşlatmak",
+  "locationId": "LOC_ZH_WALKWAY_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang ve Liu Mei günlük tempoyu bilinçli biçimde azaltmaya karar verir.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "旁白",
+    "孙辈"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "李晨": "mature_male_partner_short_textured_hair_subtle_gray_at_temples",
+    "张雨桐": "adult_daughter_long_dark_brown_hair_tied_back"
+  },
+  "criticalObjects": [
+    "ağaçlı yürüyüş yolu",
+    "nehir kıyısı",
+    "park oturma alanı"
+  ],
+  "visualDirectionTr": "Zhang ve Liu günlük tempoyu düşürmeyi konuşurken Li Chen ve Yutong onlara eşlik eder.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC041",
+    "nextSceneId": "ZH_HSK6_SC043",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Liu kısa kestane bobunu, Yutong bağlı uzun koyu saçını korur; dört kişi SC041'den devam eder."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC040",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı."
+}

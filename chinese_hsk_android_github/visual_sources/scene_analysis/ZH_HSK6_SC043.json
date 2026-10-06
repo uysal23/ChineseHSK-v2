@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC043",
+  "generationSceneId": "ZH_HSK6_SC043",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC043.json",
+  "dialogueSha256": "6dacee0194b0db767b973a185972bee9775d8fae806b62d1e25c676c01d9f15f",
+  "titleZh": "和外孙在公园的一天",
+  "titleTr": "Torunla Parkta Bir Gün",
+  "locationId": "LOC_ZH_PARK_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang torunuyla parkta zaman geçirirken kuşaklar arasındaki dil ve dünya farkını fark eder.",
+  "dialogueSpeakers": [
+    "张伟",
+    "孙辈",
+    "刘梅",
+    "张雨桐"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "孙辈",
+    "刘梅",
+    "张雨桐"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "李晨",
+    "旁白"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "孙辈": "child_grandchild_age_appropriate",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "张雨桐": "adult_daughter_long_dark_brown_hair_tied_back"
+  },
+  "criticalObjects": [
+    "park yolu",
+    "gölet kıyısı",
+    "çiçekler"
+  ],
+  "visualDirectionTr": "Zhang torunuyla parkta konuşur; Liu ve Yutong kuşaklar arası sohbeti sıcakça paylaşır.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC042",
+    "nextSceneId": "ZH_HSK6_SC044",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Çocuk yalnızca konuşan torun rolüdür; Liu kestane boblu, Yutong bağlı uzun koyu saçlıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC040",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı."
+}

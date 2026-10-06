@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC041",
+  "generationSceneId": "ZH_HSK6_SC041",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC041.json",
+  "dialogueSha256": "67e1cec6321c25d62f783393fc462b6c406e98d16c3c929f5259c3e6fe0452a8",
+  "titleZh": "张伟的健康提醒",
+  "titleTr": "Zhang’ın Sağlık Uyarısı",
+  "locationId": "LOC_ZH_HOSPITAL_001",
+  "timeOfDay": "day",
+  "scenePurposeTr": "Zhang küçük ama ciddi alınması gereken bir sağlık uyarısı alır.",
+  "dialogueSpeakers": [
+    "张伟",
+    "医生",
+    "刘梅",
+    "护士"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "医生",
+    "刘梅",
+    "护士"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "张乐乐",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "李晨",
+    "旁白",
+    "孙辈"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "医生": "adult_male_physician",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "护士": "adult_female_nurse"
+  },
+  "criticalObjects": [
+    "tansiyon ölçüm cihazı",
+    "kapalı sağlık dosyası",
+    "muayene masası"
+  ],
+  "visualDirectionTr": "Zhang ve Liu, doktorun ciddi ama sakin sağlık uyarısını dinler; hemşire görüşmeye eşlik eder.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC040",
+    "nextSceneId": "ZH_HSK6_SC042",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Zhang ve Liu SC040'tan; hastane kadrosu iki yetişkin sağlık çalışanıdır."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC040",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı."
+}

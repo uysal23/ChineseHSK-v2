@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "manifestVersion": "LOCKED_V2",
+  "maturityManifest": "docs/visuals/HSK6_CHARACTER_MATURITY_LOCK_TR.md",
+  "sceneId": "ZH_HSK6_SC046",
+  "generationSceneId": "ZH_HSK6_SC046",
+  "status": "INTEGRATED_QA_PASS",
+  "dialogueSource": "chinese_hsk_android_github/app/src/main/assets/chinese_course/levels/HSK6/scenes/ZH_HSK6_SC046.json",
+  "dialogueSha256": "636a6e85bd04831b95c7171a7c436f466fb42cef9056d9a2d672cbfce254b33a",
+  "titleZh": "旧火车票",
+  "titleTr": "Eski Tren Biletleri Bulunuyor",
+  "locationId": "LOC_ZH_NEW_HOME_001",
+  "timeOfDay": "evening",
+  "scenePurposeTr": "Eski bir kutudan ilk taşınma gününün tren biletleri çıkar.",
+  "dialogueSpeakers": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "孙辈"
+  ],
+  "requiredVisualCharacters": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "孙辈"
+  ],
+  "requiredNonSpeakerCharacters": [],
+  "nonVisualDialogueSpeakers": [],
+  "forbiddenExtraCharacters": [
+    "年轻人",
+    "创业者",
+    "主持人",
+    "技术志愿者",
+    "社区居民",
+    "社区负责人",
+    "居民",
+    "志愿者",
+    "员工",
+    "老顾客",
+    "张雨桐",
+    "伴侣",
+    "奶奶",
+    "爷爷",
+    "医生",
+    "护士",
+    "李晨",
+    "旁白"
+  ],
+  "characterAgeLock": {
+    "张伟": "senior_male_parent_salt_pepper_wavy_hair_rectangular_glasses",
+    "刘梅": "senior_female_parent_short_wavy_chestnut_bob_subtle_graying",
+    "张乐乐": "young_adult_man_short_textured_dark_hair_never_child",
+    "孙辈": "child_grandchild_age_appropriate"
+  },
+  "criticalObjects": [
+    "eski ahşap hatıra kutusu",
+    "iki eski tren bileti",
+    "aile fotoğrafları"
+  ],
+  "visualDirectionTr": "Zhang eski taşınma tren biletlerini kutudan çıkarır; Liu, yetişkin Lele ve torun anıyı inceler.",
+  "requiredImageRules": {
+    "aspectRatio": "9:16",
+    "orientation": "portrait",
+    "singleSceneOnly": true,
+    "style": "warm cinematic 2.5D/3D CGI",
+    "textAllowed": false,
+    "collageAllowed": false,
+    "splitScreenAllowed": false,
+    "allDialogueSpeakersVisible": true,
+    "ageAppropriateClothing": true,
+    "miniSkirtAllowed": false,
+    "sexualizedClothingAllowed": false,
+    "canonicalContinuityRequired": true,
+    "hsk6MaturityLockRequired": true,
+    "voiceoverMayRemainOffscreen": true
+  },
+  "continuity": {
+    "previousSceneId": "ZH_HSK6_SC045",
+    "nextSceneId": "ZH_HSK6_SC047",
+    "styleAndFamilyIdentityReference": "ZH_HSK6_SC040",
+    "previousSceneVisualChecked": true,
+    "nextSceneSourceChecked": true,
+    "noteTr": "Lele yetişkin erkek olarak, torun ayrı çocuk olarak görünür; Liu kısa kestane bobunu korur."
+  },
+  "narrationPresentation": null,
+  "styleReferenceSceneId": "ZH_HSK6_SC040",
+  "qaNoteTr": "Diyalog/kadro, LOCKED_V2 saç ve yaş devamlılığı, mekân, 1080×1920 WebP ve dosya bütünlüğü doğrulandı. APK build başlatılmadı."
+}

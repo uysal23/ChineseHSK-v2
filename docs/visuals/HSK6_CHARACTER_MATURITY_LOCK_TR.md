@@ -40,7 +40,7 @@
 - HSK6 SC011–SC020: generated and integrated under LOCKED_V2.
 - HSK6 SC021–SC030: generated and integrated under LOCKED_V2.
 - HSK6 SC031–SC040: generated and integrated under LOCKED_V2.
-- HSK6 SC041–SC050: pending visual production; preserve the identities and aging established above.
+- HSK6 SC041–SC050: generated and integrated under LOCKED_V2; preserve the established appearances: Liu Mei's short wavy chestnut bob with subtle graying, Yutong's long dark-brown hair tied back, Zhang Wei's salt-and-pepper wavy hair and rectangular glasses, Li Chen's subtle gray temples, and Lele as a young-adult man.
 - Character faces, apparent ages, hair and family relationships stay continuous across later groups. Clothing may change only to fit the scene.
 - APK build approval remains required and is not granted by visual integration.
 
@@ -54,3 +54,12 @@
 - 爷爷 remains Zhang Wei's distinct silver-white-haired elderly father in SC035.
 - The same adult male community coordinator, with short dark hair and a muted olive jacket, recurs in SC036–SC038. The resident, volunteer, workshop host, small-business owner and retirement friend are distinct scene-specific adults.
 - Preserve the warm realistic 2.5D/3D CGI style, single-scene vertical framing, and no readable text or logos.
+## Recurring roles and continuity in SC041–SC050
+
+- Zhang Wei and Liu Mei retain the established senior-adult appearances from SC031–SC040. Liu Mei keeps her short wavy chestnut bob with subtle graying; do not turn her white-haired.
+- Zhang Yutong remains an adult daughter with long dark-brown hair, commonly tied back. Zhang Lele remains a young-adult man with short textured dark hair; never depict Lele as a child.
+- Li Chen remains Yutong's mature male partner with short textured dark hair and subtle gray at the temples.
+- Scene-specific doctor and nurse in SC041 are distinct adults. The grandchild in SC043 and SC046 is a child; Lele remains an adult in those scenes.
+- In SC047 and SC049, 旁白 is voiceover only and remains offscreen. In SC048 and SC050, blurred background family/friend attendees are generic and unnamed; the four named speaking family members remain the visual focus.
+- SC041–SC050 app assets and runtime mirrors use single-scene 9:16, 1080×1920 WebP. APK build is still gated on user approval.
+
