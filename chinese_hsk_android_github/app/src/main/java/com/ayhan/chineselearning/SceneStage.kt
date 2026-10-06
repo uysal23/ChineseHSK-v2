@@ -73,6 +73,7 @@ fun SceneStage(
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
     activeText: String = "",
+    isSpeaking: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     val theme = location?.theme ?: "generic"
@@ -189,8 +190,37 @@ fun SceneStage(
                             }
                         }
 
+                        if (isActive && isSpeaking && name == activeSpeaker && activeSpeaker.isNotBlank()) {
+                            // Empty marker is tied to the current dialogue speaker.
+                            Box(
+                                modifier = Modifier
+                                    .size(width = 18.dp, height = 13.dp)
+                                    .align(if (bubbleOnRight) Alignment.CenterEnd else Alignment.CenterStart)
+                                    .offset(
+                                        x = if (bubbleOnRight) 5.dp else (-5).dp,
+                                        y = 17.dp
+                                    )
+                                    .zIndex(12f)
+                            ) {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .clip(RoundedCornerShape(5.dp))
+                                        .background(Color.White)
+                                )
+                                Box(
+                                    modifier = Modifier
+                                        .size(5.dp)
+                                        .align(if (bubbleOnRight) Alignment.BottomStart else Alignment.BottomEnd)
+                                        .offset(x = if (bubbleOnRight) 1.dp else (-1).dp, y = 1.dp)
+                                        .rotate(45f)
+                                        .background(Color.White)
+                                )
+                            }
+                        }
+
                         if (isActive && activeText.isNotBlank()) {
-                            // The bubble is anchored beside the active face/mouth area.
+                            // The text bubble remains the dialogue display; the empty bubble marks active speech.
                             // Its fill is intentionally fully opaque pure white.
                             Box(
                                 modifier = Modifier
