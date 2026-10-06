@@ -523,6 +523,8 @@ private fun SceneScreen(
                             characterProfiles = characterProfiles,
                             activeSpeaker = current?.speaker.orEmpty(),
                             activeText = current?.zh.orEmpty(),
+                            activeActionTr = current?.actionTr.orEmpty(),
+                            activeEmotion = current?.emotion.orEmpty(),
                             isSpeaking = current?.id != null && speakingDialogueId == current.id
                         )
                         Spacer(Modifier.height(14.dp))
