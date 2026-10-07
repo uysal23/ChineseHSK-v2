@@ -636,6 +636,8 @@ private fun SceneScreen(
     }
     var autoPlay by remember(scene.id) { mutableStateOf(progress.autoPlayDefault()) }
     var speakingNow by remember(scene.id) { mutableStateOf(false) }
+    var activeAudioDialogueId by remember(scene.id) { mutableStateOf<String?>(null) }
+    var playbackGeneration by remember(scene.id) { mutableIntStateOf(0) }
     var speed by remember(scene.id) {
         mutableFloatStateOf(progress.playbackSpeed(scene.learning.defaultSpeechSpeed))
     }
@@ -657,9 +659,15 @@ private fun SceneScreen(
 
     LaunchedEffect(currentIndex, autoPlay, speed, scene.id) {
         if (autoPlay && current != null) {
+            playbackGeneration += 1
+            val thisPlayback = playbackGeneration
+            activeAudioDialogueId = current.id
             speakingNow = true
             audioPlayer.playDialogue(current, speed) {
+                if (thisPlayback != playbackGeneration) return@playDialogue
                 speakingNow = false
+                activeAudioDialogueId = null
+                playbackGeneration += 1
                 if (currentIndex < scene.dialogues.lastIndex) {
                     currentIndex += 1
                 } else {
@@ -711,7 +719,7 @@ private fun SceneScreen(
             location = location,
             characterProfiles = characterProfiles,
             activeSpeaker = current?.speaker.orEmpty(),
-            isSpeaking = speakingNow,
+            isSpeaking = speakingNow && activeAudioDialogueId == current?.id && !narratorPlaying,
             dialogueZh = current?.zh.orEmpty(),
             dialoguePinyin = current?.pinyin.orEmpty(),
             dialogueTr = current?.tr.orEmpty(),
@@ -784,6 +792,8 @@ private fun SceneScreen(
                     onClick = {
                         autoPlay = false
                         speakingNow = false
+                        activeAudioDialogueId = null
+                        playbackGeneration += 1
                         audioPlayer.stop()
                         onBack()
                     },
@@ -955,6 +965,8 @@ private fun SceneScreen(
                         onClick = {
                             autoPlay = false
                             speakingNow = false
+                            activeAudioDialogueId = null
+                            playbackGeneration += 1
                             audioPlayer.stop()
                             if (currentIndex > 0) currentIndex--
                         },
@@ -977,6 +989,8 @@ private fun SceneScreen(
                             if (autoPlay) {
                                 autoPlay = false
                                 speakingNow = false
+                                activeAudioDialogueId = null
+                                playbackGeneration += 1
                                 audioPlayer.stop()
                             } else {
                                 autoPlay = true
@@ -1002,6 +1016,8 @@ private fun SceneScreen(
                         onClick = {
                             autoPlay = false
                             speakingNow = false
+                            activeAudioDialogueId = null
+                            playbackGeneration += 1
                             audioPlayer.stop()
                             if (currentIndex < scene.dialogues.lastIndex) currentIndex++
                         },

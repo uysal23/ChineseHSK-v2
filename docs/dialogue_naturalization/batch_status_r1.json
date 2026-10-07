@@ -12,7 +12,11 @@
   ],
   "textRevisedSceneCount": 4,
   "audioRegeneratedSceneIds": [],
-  "mouthAnchorCalibratedSceneIds": [],
+  "mouthAnchorCalibratedSceneIds": [
+    "ZH_HSK1_SC001",
+    "ZH_HSK1_SC002",
+    "ZH_HSK1_SC003"
+  ],
   "nextTextSceneId": "ZH_HSK1_SC004",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
@@ -35,31 +39,36 @@
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC001_R1.json",
       "audioStatus": "RUNNING_EXISTING_PIPELINE",
-      "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
       "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
-      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17"
+      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
     },
     "ZH_HSK1_SC002": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC002_R1.json",
       "audioStatus": "RUNNING_EXISTING_PIPELINE",
-      "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
       "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
-      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17"
+      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
     },
     "ZH_HSK1_SC003": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC003_R1.json",
       "audioStatus": "PENDING_EXISTING_PIPELINE",
-      "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
-  "sceneAndBatchApprovalRequired": false
+  "sceneAndBatchApprovalRequired": false,
+  "emptyBubbleRuntimeStatus": "IMPLEMENTED_ANDROID_RUNTIME_VERIFICATION_PENDING",
+  "mouthAnchorManifest": "ci/speaker_mouth_anchors.json"
 }

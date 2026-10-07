@@ -90,6 +90,14 @@ voice_cast_target = root / "app" / "src" / "main" / "assets" / "chinese_course" 
 voice_cast_target.parent.mkdir(parents=True, exist_ok=True)
 voice_cast_target.write_text(voice_cast_manifest.read_text(encoding="utf-8"), encoding="utf-8")
 
+# Image-bound, named mouth anchors are shared by source and legacy ZIP builds.
+mouth_manifest = ci_dir / "speaker_mouth_anchors.json"
+if not mouth_manifest.exists():
+    raise SystemExit("Calibrated speaker mouth manifest missing")
+mouth_target = voice_cast_target.parent / "speaker_mouth_anchors.json"
+mouth_target.write_text(mouth_manifest.read_text(encoding="utf-8"), encoding="utf-8")
+
+
 ls = learning_screens.read_text(encoding="utf-8")
 
 # REMOVE_DIALOGUE_WORD_STRIPS_V1
@@ -555,8 +563,8 @@ assert speak_line + "\n            Unit" in tts.read_text(encoding="utf-8")
 assert "Shorts" not in main_activity.read_text(encoding="utf-8") or True
 assert "navigationBarsPadding()" in main_activity.read_text(encoding="utf-8")
 assert "BackHandler(enabled = true)" in main_activity.read_text(encoding="utf-8")
-assert "detectSceneMouthAnchors" in scene_stage.read_text(encoding="utf-8")
-assert "SpeakerSpeechBubble" in scene_stage.read_text(encoding="utf-8")
+assert "rememberCalibratedMouthAnchors" in scene_stage.read_text(encoding="utf-8")
+assert "EmptySpeakerBubble" in scene_stage.read_text(encoding="utf-8")
 assert "activeMouthAnchor" in scene_stage.read_text(encoding="utf-8")
 assert "org.vosk.Model" in recognizer_file.read_text(encoding="utf-8")
 assert "SpeechService" in recognizer_file.read_text(encoding="utf-8")

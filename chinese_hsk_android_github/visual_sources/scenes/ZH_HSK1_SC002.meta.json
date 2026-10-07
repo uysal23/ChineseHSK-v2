@@ -32,9 +32,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "04f9725b344aa2517e8e833aac03cfd4a77607a3bda18bdf92e6cf6869d0914d",
-    "quality": "optimized_webp_q20",
-    "sourceRevision": "LATEST_USER_SELECTED_2026-09-26",
+    "sha256": "1e22589f0cfbe543e6d5025e8bb5c48f9fc1f39b67f347ad5048d52ba5ea3982",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07",
     "technicalAdaptationTr": "Kullanıcının seçtiği yatay tek-sahne görseli korunarak 9:16 uygulama formatına uyarlandı; okunabilir bilet yazısı bulanıklaştırıldı ve aynı sahnenin bulanık arka planı ile dikey tuval tamamlandı."
   },
   "manifestChecklist": {
@@ -62,9 +62,34 @@
     "criticalObjectsMatch": true,
     "visualPolicyMatch": true,
     "userApprovedPlacement": true,
-    "noteTr": "Kullanıcının son seçtiği SC002 bilet arama görseli; dört konuşan aile üyesi, bilet, bavul/çanta, taşınma kutuları ve kedi görünür."
+    "noteTr": "SC001 aile referansıyla erkek Lele kimliği ve gözlüklü Zhang Wei düzeltildi; dört konuşmacının yüz ve ağız konumları adlarıyla gözden geçirildi.",
+    "canonicalCharacterContinuityChecked": true
   },
   "status": "FINAL_SOURCE_OVERRIDE",
   "generationSceneId": "ZH_HSK1_SC002",
-  "finalAssetFilename": "ZH_HSK1_SC002.webp"
+  "finalAssetFilename": "ZH_HSK1_SC002.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "1e22589f0cfbe543e6d5025e8bb5c48f9fc1f39b67f347ad5048d52ba5ea3982",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.41,
+        0.2
+      ],
+      "刘梅": [
+        0.571,
+        0.303
+      ],
+      "张雨桐": [
+        0.682,
+        0.472
+      ],
+      "张乐乐": [
+        0.423,
+        0.53
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  }
 }

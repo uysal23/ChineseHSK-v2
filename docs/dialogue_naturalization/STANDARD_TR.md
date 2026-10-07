@@ -77,11 +77,11 @@ Yeni bir doğallaştırma paketi uygulanmadan önce `ci/audit_dialogue_naturaliz
 
 Bu aşamada boş balonun bütün sahnelerde doğru ağız konumunda gösterildiği doğrulanmış değildir. Mevcut ses üretimi/oynatımı değiştirilmemiştir.
 
-## R1 ilk metin paketi — 2026-10-07
-- `ZH_HSK4_SC001`: 100 replik yeniden yazıldı; 100 benzersiz Simplified Chinese replik, sabit ID/konuşmacı sırası, 33 duygu/oyunculuk ipucu.
-- Tek çiftlik evi konuşması; hasattan sonra yakına fakat bağımsız eve taşınma kararı, SC002 son hasada geçiş.
-- Kelime hedefleri ve tüm öğrenme öğesi ID’leri korunarak örnekler ve alıştırmalar güncellendi.
-- Uygulama sahnesi, son metin override’ı (`dialogue_final_v13`) ve mevcut Kokoro üreticisinin okuduğu veri (`dialogue_final_v5`) aynı metne eşitlendi. Üretici, sesler, hız/pitch ayarları ve oynatma kodu değiştirilmedi.
-- Ses dosyaları henüz yeniden üretilmedi; ağız konumları ve oyunculuk ipuçlarının görsel uygulaması bekliyor. Bu metin paketi APK onayı veya ses tamamlandı durumu değildir.
-- R1 metin ilerlemesi: **1/300 sahne**. Sonraki metin: `ZH_HSK4_SC002`.
-- [Sahne kontrol raporu](reviews/ZH_HSK4_SC001_R1.json), [paket durumu](batch_status_r1.json).
+## R1 sıralı yürütme — 2026-10-07
+Kullanıcı bütün 300 sahnenin HSK1 SC001 → HSK6 SC050 sırasıyla, sahne/paket başına yeniden onay beklenmeden işlenmesini istedi. Tamamlanan paketler main'e uygulanır. APK için ayrı kullanıcı onayı gerekir.
+
+Metin revizyonu: HSK1 SC001–SC003 ve HSK4 SC001 (4/300). İlk iki HSK1 sahnesinin mevcut Kokoro ses hattı çalışıyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289 . Bu iş SC003'ün yeni metnini içermez; sonraki ses paketinde üretilmelidir. Ses üretimi bitişi, uygulamaya entegrasyon ve dinleme kontrolü ayrı aşamalardır.
+
+Adla ve görsel SHA256 ile bağlı ağız manifesti: HSK1 SC001–SC003 (3/300). SC002/SC003 Lele erkek çocuk kimliği ve Zhang Wei gözlük sürekliliği SC001 referansıyla düzeltildi. Kadın istasyon görevlisine hitap SC003'te 阿姨 olarak eşlendi.
+
+Derlemede kullanılan ci/SceneStage.kt artık küçük boş balonu gösterir; altyazı alt panelde kalır. Balon sadece aktif ses/replik kimliği eşleşirken görünür. Aynı görsel için doğrulanmış ağız noktası yoksa kimlik tahmini yapılmaz. Kırpma dönüşümü kaynak görsel koordinatından hesaplanır. Eski oynatım geri çağrısının yeni repliği etkilemesi nesil sayacıyla önlenir. Diğer 297 sahne kalibrasyon bekler. Android derleme ve cihazda zamanlama testi henüz yapılmamıştır; kaynak kontrolleri geçti. Ses motoru, üretim betiği, ses kastı ve oynatıcı sınıfı değiştirilmedi.

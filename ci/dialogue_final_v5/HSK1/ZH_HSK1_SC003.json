@@ -534,9 +534,9 @@
     {
       "id": "DLG_ZH_HSK1_SC003_072",
       "speaker": "张乐乐",
-      "zh": "我会小心的，叔叔。",
-      "pinyin": "Wǒ huì xiǎo xīn de, shū shu.",
-      "tr": "Dikkatli olacağım, amca.",
+      "zh": "我会小心的，阿姨。",
+      "pinyin": "Wǒ huì xiǎo xīn de, ā yí.",
+      "tr": "Dikkatli olacağım, teyze.",
       "emotion": "neutral",
       "actionTr": "Görevliye bakıp başını sallar."
     },
@@ -571,9 +571,9 @@
     {
       "id": "DLG_ZH_HSK1_SC003_077",
       "speaker": "张伟",
-      "zh": "那你试着问问叔叔吧。",
-      "pinyin": "Nà nǐ shì zhe wèn wèn shū shu ba.",
-      "tr": "Öyleyse amcaya bir şey sormayı dene."
+      "zh": "那你试着问问阿姨吧。",
+      "pinyin": "Nà nǐ shì zhe wèn wèn ā yí ba.",
+      "tr": "Öyleyse teyzeye bir şey sormayı dene."
     },
     {
       "id": "DLG_ZH_HSK1_SC003_078",
@@ -680,9 +680,9 @@
     {
       "id": "DLG_ZH_HSK1_SC003_092",
       "speaker": "张乐乐",
-      "zh": "叔叔，我也记住了！",
-      "pinyin": "Shū shu, wǒ yě jì zhù le!",
-      "tr": "Amca, ben de hatırlıyorum!",
+      "zh": "阿姨，我也记住了！",
+      "pinyin": "Ā yí, wǒ yě jì zhù le!",
+      "tr": "Teyze, ben de hatırlıyorum!",
       "emotion": "happy",
       "actionTr": "Yolu öğrendiğini gülümseyerek belirtir."
     },

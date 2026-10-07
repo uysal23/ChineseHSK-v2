@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "coordinateSpace": "normalized_source_image",
+  "scenes": {
+    "ZH_HSK1_SC001": {
+      "imageSha256": "9b950290e525fd8000bd86cd759889ca25dda9ddcc3817e59db630461e637281",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.35,
+          0.179
+        ],
+        "刘梅": [
+          0.65,
+          0.332
+        ],
+        "张雨桐": [
+          0.251,
+          0.421
+        ],
+        "张乐乐": [
+          0.694,
+          0.563
+        ],
+        "王师傅": [
+          0.793,
+          0.166
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC002": {
+      "imageSha256": "1e22589f0cfbe543e6d5025e8bb5c48f9fc1f39b67f347ad5048d52ba5ea3982",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.41,
+          0.2
+        ],
+        "刘梅": [
+          0.571,
+          0.303
+        ],
+        "张雨桐": [
+          0.682,
+          0.472
+        ],
+        "张乐乐": [
+          0.423,
+          0.53
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC003": {
+      "imageSha256": "0ee2ecdad55b8c3a294d69e3ba5cb04fca796af9d7801a5f39c48a35144b566e",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.291,
+          0.278
+        ],
+        "刘梅": [
+          0.518,
+          0.353
+        ],
+        "工作人员": [
+          0.771,
+          0.335
+        ],
+        "张乐乐": [
+          0.336,
+          0.494
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    }
+  }
+}

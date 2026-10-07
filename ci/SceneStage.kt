@@ -1,9 +1,6 @@
 package com.ayhan.chineselearning
 
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.PointF
-import android.media.FaceDetector
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -12,6 +9,7 @@ import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -28,18 +26,20 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import org.json.JSONObject
+import java.security.MessageDigest
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.layout.SubcomposeLayout
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -53,23 +53,6 @@ private data class CartoonStyle(
     val hairStyle: Int,
     val accessory: Int
 )
-
-private fun orderedDialogueSpeakers(scene: SceneInfo): List<String> {
-    val dialogueSpeakers = scene.dialogues
-        .map { it.speaker }
-        .filter { it.isNotBlank() && it != "旁白" }
-        .distinct()
-
-    // Never impose one global left-to-right identity order on every generated scene.
-    // Each LOCKED_V2 scene has its own authored cast/composition, so use the
-    // scene-local production character order for participating speakers and
-    // append any dialogue-only speakers in first-dialogue order.
-    val authoredSceneOrder = scene.production.characters
-        .filter { it in dialogueSpeakers }
-        .distinct()
-
-    return authoredSceneOrder + dialogueSpeakers.filterNot { it in authoredSceneOrder }
-}
 
 private fun portraitVariantFor(profile: CharacterProfile?, level: String): String {
     if (profile == null) return ""
@@ -165,116 +148,75 @@ private fun rememberAssetBitmap(path: String): ImageBitmap? {
     }
 }
 
-private fun detectSceneMouthAnchors(
-    context: android.content.Context,
-    assetPath: String,
-    targetFaces: Int
-): List<Pair<Float, Float>> {
-    if (assetPath.isBlank() || targetFaces <= 0) return emptyList()
-    return runCatching {
-        val decoded = context.assets.open(assetPath).use { BitmapFactory.decodeStream(it) }
-            ?: return@runCatching emptyList<Pair<Float, Float>>()
-        val targetWidthRaw = minOf(decoded.width, 720)
-        val targetWidth = if (targetWidthRaw % 2 == 0) targetWidthRaw else targetWidthRaw - 1
-        val targetHeight = ((decoded.height.toFloat() / decoded.width.toFloat()) * targetWidth).toInt().coerceAtLeast(2)
-        val scaled = if (decoded.width != targetWidth) Bitmap.createScaledBitmap(decoded, targetWidth, targetHeight, true) else decoded
-        val rgb565 = if (scaled.config == Bitmap.Config.RGB_565) scaled else scaled.copy(Bitmap.Config.RGB_565, false)
-        val detectorLimit = (targetFaces + 4).coerceIn(1, 12)
-        val detector = FaceDetector(rgb565.width, rgb565.height, detectorLimit)
-        val faces = arrayOfNulls<FaceDetector.Face>(detectorLimit)
-        val count = detector.findFaces(rgb565, faces)
-        val candidates = buildList {
-            for (i in 0 until count) {
-                val face = faces[i] ?: continue
-                val midpoint = PointF()
-                face.getMidPoint(midpoint)
-                val eyeDistance = face.eyesDistance()
-                if (eyeDistance < 18f) continue
-                val confidence = runCatching { face.confidence() }.getOrDefault(1f)
-                if (confidence < 0.10f) continue
-                val mouthX = (midpoint.x / rgb565.width.toFloat()).coerceIn(0.03f, 0.97f)
-                val mouthY = ((midpoint.y + eyeDistance * 0.92f) / rgb565.height.toFloat()).coerceIn(0.08f, 0.82f)
-                add(Triple(mouthX, mouthY, eyeDistance))
+@Composable
+private fun rememberCalibratedMouthAnchors(sceneId: String): Map<String, Pair<Float, Float>> {
+    val context = LocalContext.current
+    return remember(sceneId) {
+        runCatching {
+            val manifest = context.assets.open("chinese_course/speaker_mouth_anchors.json")
+                .bufferedReader().use { JSONObject(it.readText()) }
+            val entry = manifest.getJSONObject("scenes").optJSONObject(sceneId)
+                ?: return@runCatching emptyMap<String, Pair<Float, Float>>()
+            val art = context.assets.open("chinese_course/media/scenes/$sceneId.webp").use { it.readBytes() }
+            val hash = MessageDigest.getInstance("SHA-256").digest(art)
+                .joinToString("") { "%02x".format(it.toInt() and 0xff) }
+            if (hash != entry.getString("imageSha256")) return@runCatching emptyMap<String, Pair<Float, Float>>()
+            val anchors = entry.getJSONObject("anchors")
+            buildMap {
+                for (name in anchors.keys()) {
+                    val point = anchors.getJSONArray(name)
+                    val x = point.getDouble(0).toFloat()
+                    val y = point.getDouble(1).toFloat()
+                    if (x in 0f..1f && y in 0f..1f) put(name, x to y)
+                }
             }
-        }
-        val selected = candidates.sortedByDescending { it.third }.take(targetFaces).sortedBy { it.first }.map { it.first to it.second }
-        if (rgb565 !== scaled) rgb565.recycle()
-        if (scaled !== decoded) scaled.recycle()
-        decoded.recycle()
-        selected
-    }.getOrDefault(emptyList())
+        }.getOrDefault(emptyMap())
+    }
 }
 
 @Composable
-private fun SpeakerSpeechBubble(
-    speakerLabel: String,
-    zh: String,
-    pinyin: String,
-    tr: String,
-    showPinyin: Boolean,
-    showTurkish: Boolean,
+private fun EmptySpeakerBubble(
     mouthAnchor: Pair<Float, Float>,
+    imageWidth: Int,
+    imageHeight: Int,
     modifier: Modifier = Modifier
 ) {
-    val mouthX = mouthAnchor.first.coerceIn(0.03f, 0.97f)
-    val mouthY = mouthAnchor.second.coerceIn(0.08f, 0.82f)
-    val safeMargin = 8.dp
-    val gap = 7.dp
-    val pointerSize = 10.dp
-    val preferredWidth = 228.dp
-    SubcomposeLayout(modifier.fillMaxSize()) { constraints ->
-        val safePx = safeMargin.roundToPx()
-        val gapPx = gap.roundToPx()
-        val pointerPx = pointerSize.roundToPx()
-        val mouthPxX = (constraints.maxWidth * mouthX).toInt().coerceIn(safePx, (constraints.maxWidth - safePx).coerceAtLeast(safePx))
-        val mouthPxY = (constraints.maxHeight * mouthY).toInt().coerceIn(safePx, (constraints.maxHeight - safePx).coerceAtLeast(safePx))
-        val rightAvailable = (constraints.maxWidth - mouthPxX - gapPx - pointerPx).coerceAtLeast(1)
-        val leftAvailable = (mouthPxX - gapPx - pointerPx).coerceAtLeast(1)
-        val placeRight = rightAvailable >= leftAvailable
-        val sideAvailable = if (placeRight) rightAvailable else leftAvailable
-        val bubbleMaxPx = minOf(preferredWidth.roundToPx(), sideAvailable).coerceAtLeast(1)
-        val bubble = subcompose("speechBubble") {
-            Surface(
-                modifier = Modifier.drawBehind {
-                    val strokePx = 1.2.dp.toPx()
-                    drawRoundRect(
-                        color = Color.White.copy(alpha = 0.72f),
-                        topLeft = Offset(strokePx / 2f, strokePx / 2f),
-                        size = androidx.compose.ui.geometry.Size(size.width - strokePx, size.height - strokePx),
-                        cornerRadius = CornerRadius(16.dp.toPx()),
-                        style = Stroke(width = strokePx, pathEffect = PathEffect.dashPathEffect(floatArrayOf(7.dp.toPx(), 5.dp.toPx())))
-                    )
-                },
-                color = Color.White.copy(alpha = 0.84f),
-                contentColor = Color(0xFF241A2B),
-                shape = RoundedCornerShape(16.dp),
-                shadowElevation = 2.dp
-            ) {
-                Column(Modifier.padding(horizontal = 11.dp, vertical = 8.dp)) {
-                    if (speakerLabel.isNotBlank()) Text(speakerLabel, color = Color(0xFF75509B), fontSize = 10.sp, fontWeight = FontWeight.Bold, maxLines = 1)
-                    Text(zh, color = Color(0xFF241A2B), fontSize = 17.sp, fontWeight = FontWeight.Bold, lineHeight = 21.sp)
-                    if (showPinyin && pinyin.isNotBlank()) Text(pinyin, color = Color(0xFF665C6D), fontSize = 11.sp, lineHeight = 14.sp, modifier = Modifier.padding(top = 3.dp))
-                    if (showTurkish && tr.isNotBlank()) Text(tr, color = Color(0xFF443A49), fontSize = 11.sp, lineHeight = 14.sp, modifier = Modifier.padding(top = 3.dp))
-                }
+    Canvas(modifier.fillMaxSize()) {
+        // Image() uses centered ContentScale.Crop; apply precisely the same transform.
+        val scale = maxOf(size.width / imageWidth, size.height / imageHeight)
+        val x = mouthAnchor.first * imageWidth * scale + (size.width - imageWidth * scale) / 2f
+        val y = mouthAnchor.second * imageHeight * scale + (size.height - imageHeight * scale) / 2f
+        // A cropped-out mouth must not produce a marker on another visible face.
+        if (x !in 0f..size.width || y !in 0f..size.height) return@Canvas
+        val width = 28.dp.toPx()
+        val height = 18.dp.toPx()
+        val tail = 6.dp.toPx()
+        val gap = 3.dp.toPx()
+        val right = x + gap + tail + width <= size.width
+        val left = if (right) x + gap + tail else x - gap - tail - width
+        val top = y - height - tail
+        if (left < 0f || left + width > size.width || top < 0f) return@Canvas
+        val fill = Color.White.copy(alpha = .94f)
+        val edge = Color(0xFF62576C)
+        val pointer = Path().apply {
+            if (right) {
+                moveTo(left + 4.dp.toPx(), top + height - 5.dp.toPx())
+                lineTo(x + gap, y)
+                lineTo(left + 10.dp.toPx(), top + height - 1.dp.toPx())
+            } else {
+                moveTo(left + width - 4.dp.toPx(), top + height - 5.dp.toPx())
+                lineTo(x - gap, y)
+                lineTo(left + width - 10.dp.toPx(), top + height - 1.dp.toPx())
             }
-        }.first().measure(Constraints(minWidth = 0, maxWidth = bubbleMaxPx, minHeight = 0, maxHeight = constraints.maxHeight))
-        val pointer = subcompose("speechPointer") {
-            Box(Modifier.size(pointerSize).graphicsLayer { rotationZ = 45f }.background(Color.White.copy(alpha = 0.84f)))
-        }.first().measure(Constraints.fixed(pointerPx, pointerPx))
-        val bubbleX = if (placeRight) mouthPxX + gapPx + pointerPx / 2 else mouthPxX - gapPx - pointerPx / 2 - bubble.width + pointer.width / 2
-        val maxBubbleX = (constraints.maxWidth - safePx - bubble.width).coerceAtLeast(safePx)
-        val placedBubbleX = bubbleX.coerceIn(safePx, maxBubbleX)
-        val desiredBubbleY = mouthPxY - bubble.height / 2
-        val maxBubbleY = (constraints.maxHeight - safePx - bubble.height).coerceAtLeast(safePx)
-        val placedBubbleY = desiredBubbleY.coerceIn(safePx, maxBubbleY)
-        val pointerY = (mouthPxY - pointer.height / 2).coerceIn(placedBubbleY, placedBubbleY + bubble.height - pointer.height)
-        val pointerX = if (placeRight) placedBubbleX - pointer.width / 2 else placedBubbleX + bubble.width - pointer.width / 2
-        layout(constraints.maxWidth, constraints.maxHeight) {
-            bubble.placeRelative(placedBubbleX, placedBubbleY)
-            pointer.placeRelative(pointerX.coerceIn(0, constraints.maxWidth - pointer.width), pointerY)
+            close()
         }
+        drawPath(pointer, fill)
+        drawPath(pointer, edge, style = Stroke(1.dp.toPx()))
+        drawRoundRect(fill, Offset(left, top), Size(width, height), CornerRadius(9.dp.toPx()))
+        drawRoundRect(edge, Offset(left, top), Size(width, height), CornerRadius(9.dp.toPx()), style = Stroke(1.dp.toPx()))
     }
 }
+
 
 @Composable
 private fun SceneDecor(theme: String, p: StagePalette) {
@@ -559,9 +501,6 @@ fun SceneStage(
 
     val activeIndex = cast.indexOf(activeSpeaker)
 
-    // Bubble mapping uses only characters that actually speak in this scene.
-    val bubbleVisualCast = remember(scene.id) { orderedDialogueSpeakers(scene) }
-    val bubbleActiveIndex = bubbleVisualCast.indexOf(activeSpeaker)
 
     Box(modifier.fillMaxSize().background(Color.Black)) {
         val sceneArtPath = "chinese_course/media/scenes/${scene.id}.webp"
@@ -639,74 +578,17 @@ fun SceneStage(
             }
 
         }
-        // Resolve an actual mouth point for the active speaker.
-        //
-        // 1) Hand-tuned anchors win when a scene has been visually calibrated.
-        // 2) For every other pre-rendered WebP, Android's bundled offline FaceDetector
-        //    finds face locations and we map the stable visual cast order left-to-right.
-        // 3) If face detection cannot resolve enough faces, use a conservative cast-slot
-        //    fallback instead of hiding the speech bubble.
-        //
-        // No network service is used and the WebP itself is never modified.
-        val explicitMouthAnchor: Pair<Float, Float>? = if (sceneArtBitmap != null) when (scene.id) {
-            "ZH_HSK1_SC001" -> when (activeSpeaker) {
-                "张伟" -> 0.175f to 0.404f
-                "刘梅" -> 0.372f to 0.414f
-                "张雨桐" -> 0.658f to 0.442f
-                "张乐乐" -> 0.489f to 0.483f
-                "王师傅" -> 0.886f to 0.404f
-                else -> null
-            }
-            else -> null
-        } else null
-
-        val context = LocalContext.current
-        val detectedMouthAnchors = remember(scene.id, bubbleVisualCast.size, sceneArtBitmap != null) {
-            if (sceneArtBitmap != null && bubbleVisualCast.isNotEmpty()) {
-                detectSceneMouthAnchors(
-                    context = context,
-                    assetPath = sceneArtPath,
-                    targetFaces = bubbleVisualCast.size
-                )
-            } else {
-                emptyList()
-            }
-        }
-
-        val autoDetectedAnchor =
-            if (sceneArtBitmap != null && bubbleActiveIndex >= 0 && detectedMouthAnchors.size >= bubbleVisualCast.size) {
-                detectedMouthAnchors.getOrNull(bubbleActiveIndex)
-            } else {
-                null
-            }
-
-        val fallbackIndex = if (sceneArtBitmap != null) bubbleActiveIndex else activeIndex
-        val fallbackCount = if (sceneArtBitmap != null) bubbleVisualCast.size else cast.size
-        val fallbackAnchor =
-            if (fallbackIndex >= 0 && fallbackCount > 0) {
-                val x = ((fallbackIndex + 0.5f) / fallbackCount.toFloat()).coerceIn(0.07f, 0.93f)
-                val y = if (sceneArtBitmap != null) 0.41f else 0.55f
-                x to y
-            } else {
-                null
-            }
-
-        val activeMouthAnchor = explicitMouthAnchor ?: autoDetectedAnchor ?: fallbackAnchor
-
+        val namedMouthAnchors = rememberCalibratedMouthAnchors(scene.id)
+        val activeMouthAnchor = namedMouthAnchors[activeSpeaker]
         if (
-            dialogueZh.isNotBlank() &&
-            activeSpeaker.isNotBlank() &&
-            activeSpeaker != "旁白" &&
+            isSpeaking && sceneArtBitmap != null &&
+            activeSpeaker.isNotBlank() && activeSpeaker != "旁白" &&
             activeMouthAnchor != null
         ) {
-            SpeakerSpeechBubble(
-                speakerLabel = speakerLabel,
-                zh = dialogueZh,
-                pinyin = dialoguePinyin,
-                tr = dialogueTr,
-                showPinyin = showPinyin,
-                showTurkish = showTurkish,
+            EmptySpeakerBubble(
                 mouthAnchor = activeMouthAnchor,
+                imageWidth = sceneArtBitmap.width,
+                imageHeight = sceneArtBitmap.height,
                 modifier = Modifier.fillMaxSize()
             )
         }
