@@ -13,9 +13,10 @@
     "ZH_HSK1_SC006",
     "ZH_HSK1_SC007",
     "ZH_HSK1_SC008",
+    "ZH_HSK1_SC009",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 9,
+  "textRevisedSceneCount": 10,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -25,9 +26,10 @@
     "ZH_HSK1_SC005",
     "ZH_HSK1_SC006",
     "ZH_HSK1_SC007",
-    "ZH_HSK1_SC008"
+    "ZH_HSK1_SC008",
+    "ZH_HSK1_SC009"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC009",
+  "nextTextSceneId": "ZH_HSK1_SC010",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -149,6 +151,17 @@
       "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37685297985",
       "audioSourceCommit": "a48c00c26dbd899828fbeb2c0b8190e792b978b4",
       "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
+    },
+    "ZH_HSK1_SC009": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC009_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "7ea5e8227910cbb4dfcd9d6841311769be8cc7cdfb723bdfec7835049e95068e",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -173,7 +186,9 @@
     "status": "PENDING_EXISTING_PACK_MERGE",
     "noteTr": "Mevcut APK hattı voice-pack-v1 içindeki birleşik 30000 mapping manifestini yükler; yeni çıktı HSK1 düzey manifestidir. Diğer seviyeleri kaybetmeden mevcut paket biçimine birleştirilmeli, mevcut uygulama düzeni korunmalı. Yeni release veya APK başlatılmadı."
   },
-  "nextVoiceBatchSceneIds": [],
+  "nextVoiceBatchSceneIds": [
+    "ZH_HSK1_SC009"
+  ],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",
@@ -182,4 +197,3 @@
     "ZH_HSK1_SC005"
   ]
 }
-

@@ -201,6 +201,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC009": {
+      "imageSha256": "7ea5e8227910cbb4dfcd9d6841311769be8cc7cdfb723bdfec7835049e95068e",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.236,
+          0.289
+        ],
+        "刘梅": [
+          0.431,
+          0.337
+        ],
+        "李晨": [
+          0.637,
+          0.314
+        ],
+        "司机": [
+          0.827,
+          0.505
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

@@ -105,3 +105,6 @@ SC008 güncellemesi: 9/300 metin revizyonu, 8/300 görselde adla ağız kalibras
 
 Ses durum güncellemesi: 37680079039 başarıyla tamamlandı; HSK1 SC001–SC005 için 500/500 metin/konuşmacı/kast/hash ve Opus başlık eşleşmesi geçti. Ses uygulama entegrasyonu ve dinleme henüz tamamlanmadı. SC006–SC008 yeni metinleri mevcut Kokoro işinde 37685297985 üretiliyor; kaynak a48c00c26dbd899828fbeb2c0b8190e792b978b4. APK/yeni release başlatılmadı.
 
+
+
+SC009 güncellemesi: 10/300 metin revizyonu, 9/300 görselde adla ağız kalibrasyonu. Taksi çıkmadan 18/80 yanlış duyma, sağ/sol harita teyidi, rahatlama ve güvenli aile yolculuğu planı yazıldı. Li Chen dört kişilik aileye eşlik ederek araca binmez; istasyonda uğurlar. Büyük bavullar nakliye firmasına teslim edilmiştir. SC010 ev/anahtar olayı sonraya bırakıldı. SC006–SC008 ses işi 37685297985 çalışıyor, SC009 bir sonraki mevcut hat paketinde üretilecek. Dinleme/cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki: HSK1 SC010.

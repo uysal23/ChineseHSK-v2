@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC009",
   "generationSceneId": "ZH_HSK1_SC009",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC009.json",
-  "dialogueSha256": "1903bfc69930d2539b634e33b5ea41c50bc69dc12fefb51e0fbc91d59c8b962b",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC009.json",
+  "dialogueSha256": "6719dcef8885824d09aef50a153c3349fd9e24a24d2773db8cbc095ac0dc26c3",
   "titleTr": "İlk Taksi Yolculuğu",
   "locationId": "LOC_ZH_TAXI_001",
   "scenePurposeTr": "Taksi şoförü adresi yanlış anlar; Li Chen doğru yolu açıklamaya yardım eder.",
@@ -30,7 +30,7 @@
     "previousSceneId": "ZH_HSK1_SC008",
     "nextSceneId": "ZH_HSK1_SC010"
   },
-  "sourceGeneratedFilename": "harita_etrafında_neşeli_yolculuk.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC009_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC009.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC009.webp",
   "image": {
@@ -38,7 +38,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "b51ef5f1bf015f9b4c4e63bb0e4d205a5605e5a46864377818e89fd9f3e2f8d1"
+    "sha256": "7ea5e8227910cbb4dfcd9d6841311769be8cc7cdfb723bdfec7835049e95068e",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -59,5 +61,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: SC009 için taksi ve telefon haritası görseli eşleştirildi; Li Chen sürücüye yolu açıklama bağlamında görünür."
+  "qaNoteTr": "Duran takside adres teyidi: yalnızca Zhang Wei, Liu Mei, Li Chen ve erkek şoför ana kadroda. Anne/baba SC008 ve Li Chen kanonik portresiyle eşlendi. Fazladan çocuk kaldırıldı. Telefon haritası ve küçük yolculuk çantaları görünür; büyük bavullar nakliye firmasındadır.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "7ea5e8227910cbb4dfcd9d6841311769be8cc7cdfb723bdfec7835049e95068e",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.236,
+        0.289
+      ],
+      "刘梅": [
+        0.431,
+        0.337
+      ],
+      "李晨": [
+        0.637,
+        0.314
+      ],
+      "司机": [
+        0.827,
+        0.505
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "Duran takside adres teyidi: yalnızca Zhang Wei, Liu Mei, Li Chen ve erkek şoför ana kadroda. Anne/baba SC008 ve Li Chen kanonik portresiyle eşlendi. Fazladan çocuk kaldırıldı. Telefon haritası ve küçük yolculuk çantaları görünür; büyük bavullar nakliye firmasındadır."
+  }
 }
