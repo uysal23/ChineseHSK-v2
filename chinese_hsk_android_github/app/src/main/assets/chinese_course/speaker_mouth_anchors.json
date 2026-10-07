@@ -105,6 +105,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC005": {
+      "imageSha256": "f0143d6b54bae0ab2f2ee8eb3c3100daf69a42685b06d96e858cbb41f10f9d1d",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.415,
+          0.496
+        ],
+        "刘梅": [
+          0.825,
+          0.329
+        ],
+        "张雨桐": [
+          0.326,
+          0.272
+        ],
+        "张乐乐": [
+          0.656,
+          0.432
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

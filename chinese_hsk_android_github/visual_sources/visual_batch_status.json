@@ -96,7 +96,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK1_SC002_SC004_CANONICAL_CAST_CORRECTION_R1_2026-10-07",
+  "latestVisualRevision": "HSK1_SC002_SC005_CANONICAL_CAST_CORRECTION_R1_2026-10-07",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -1833,5 +1833,13 @@
     "buildApproved": false,
     "buildTriggered": false,
     "noteTr": "Lele’nin yanlış kız çocuk kimliği ve Zhang Wei gözlük sürekliliği SC001 aile referansıyla düzeltildi. SC003 kadın görevli hitapları 阿姨 ile metin/ses girdisinde eşlendi. App/runtime WebP aynaları ve metadata güncellendi. SC004 tren kahvaltısı da aynı aile kimlikleriyle düzeltildi; beş konuşmacı adla kalibre edildi."
+  },
+  "contextualR1VisualCorrections": {
+    "ZH_HSK1_SC005": {
+      "status": "INTEGRATED_MODEL_QA_PASS",
+      "imageSha256": "f0143d6b54bae0ab2f2ee8eb3c3100daf69a42685b06d96e858cbb41f10f9d1d",
+      "anchorCalibration": "MODEL_VISUAL_CALIBRATION",
+      "apkBuildStarted": false
+    }
   }
 }
