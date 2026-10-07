@@ -108,3 +108,6 @@ Ses durum güncellemesi: 37680079039 başarıyla tamamlandı; HSK1 SC001–SC005
 
 
 SC009 güncellemesi: 10/300 metin revizyonu, 9/300 görselde adla ağız kalibrasyonu. Taksi çıkmadan 18/80 yanlış duyma, sağ/sol harita teyidi, rahatlama ve güvenli aile yolculuğu planı yazıldı. Li Chen dört kişilik aileye eşlik ederek araca binmez; istasyonda uğurlar. Büyük bavullar nakliye firmasına teslim edilmiştir. SC010 ev/anahtar olayı sonraya bırakıldı. SC006–SC008 ses işi 37685297985 çalışıyor, SC009 bir sonraki mevcut hat paketinde üretilecek. Dinleme/cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki: HSK1 SC010.
+
+
+SC010 güncellemesi: 11/300 metin, 10/300 adla ağız kalibrasyonu. Kapı yanlış anahtarla açılmaz; doğru uzun anahtar bulunur. Aile tepkileri, güvenli giriş, oyuncak tren ve SC011 kutu düzenleme geçişi eşleştirildi. Ses üretimi/entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC011.

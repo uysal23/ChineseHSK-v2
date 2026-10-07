@@ -14,9 +14,10 @@
     "ZH_HSK1_SC007",
     "ZH_HSK1_SC008",
     "ZH_HSK1_SC009",
+    "ZH_HSK1_SC010",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 10,
+  "textRevisedSceneCount": 11,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -27,9 +28,10 @@
     "ZH_HSK1_SC006",
     "ZH_HSK1_SC007",
     "ZH_HSK1_SC008",
-    "ZH_HSK1_SC009"
+    "ZH_HSK1_SC009",
+    "ZH_HSK1_SC010"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC010",
+  "nextTextSceneId": "ZH_HSK1_SC011",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -162,6 +164,17 @@
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100
+    },
+    "ZH_HSK1_SC010": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC010_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "22a28656c238e21e9db042f3c5a6b56fd233099903fabc61de905b3ce7502413",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -187,7 +200,8 @@
     "noteTr": "Mevcut APK hattı voice-pack-v1 içindeki birleşik 30000 mapping manifestini yükler; yeni çıktı HSK1 düzey manifestidir. Diğer seviyeleri kaybetmeden mevcut paket biçimine birleştirilmeli, mevcut uygulama düzeni korunmalı. Yeni release veya APK başlatılmadı."
   },
   "nextVoiceBatchSceneIds": [
-    "ZH_HSK1_SC009"
+    "ZH_HSK1_SC009",
+    "ZH_HSK1_SC010"
   ],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",
