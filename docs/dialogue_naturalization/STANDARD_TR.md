@@ -114,3 +114,6 @@ SC010 güncellemesi: 11/300 metin, 10/300 adla ağız kalibrasyonu. Kapı yanlı
 
 
 SC011 güncellemesi: 12/300 metin, 11/300 adla ağız kalibrasyonu. Salondaki mutfak kutuları doğru yere taşınır, kitap kutusu kalır. Yardım, hafif şaka, ağır kutu yerine yaşa uygun katkı ve SC012 ilk gece hazırlığı eşleştirildi. Ses entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC012.
+
+
+Ses paket birleştirme R1: İlk beş HSK1 sahnesinin 500 ses eşleştirmesi mevcut chinese_course/media/audio/generated/HSK1 ve audio_manifest.json düzeninde altı seviyeli pakete birleştirildi. 29500 diğer mapping/metadata ve ses baytları, ses kastı ve üretim formatı korunarak 30000 mapping doğrulandı. Birleşik ZIP yerelde hazır; uygulamaya kurulum ve dinleme bekliyor. Tamamlanmış ses sahnesi sayısı artırılmadı. SC006–008 işi mevcut tooling kurulum aşamasında sürüyor. Metin sırası HSK1 SC012. APK ve release başlatılmadı.

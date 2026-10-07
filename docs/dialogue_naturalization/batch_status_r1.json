@@ -209,8 +209,9 @@
     "retryConclusion": "success"
   },
   "audioIntegrationFollowUp": {
-    "status": "PENDING_EXISTING_PACK_MERGE",
-    "noteTr": "Mevcut APK hattı voice-pack-v1 içindeki birleşik 30000 mapping manifestini yükler; yeni çıktı HSK1 düzey manifestidir. Diğer seviyeleri kaybetmeden mevcut paket biçimine birleştirilmeli, mevcut uygulama düzeni korunmalı. Yeni release veya APK başlatılmadı."
+    "status": "MERGED_EXISTING_FORMAT_LOCAL_PACK_VERIFIED_INSTALL_PENDING",
+    "noteTr": "İlk beş sahnenin 500 yeni ses eşleştirmesi mevcut altı seviyeli paket biçimine birleştirildi. 29500 diğer mapping, ses dosyası baytları ve voice_cast aynen korundu; 30000 mapping için Opus kapsayıcı kontrolü geçti. Birleşik paket yerelde doğrulandı; uygulamaya kurulum ve dinleme henüz yapılmadı. Yeni release/APK başlatılmadı.",
+    "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC005_AUDIO_MERGE_R1.json"
   },
   "nextVoiceBatchSceneIds": [
     "ZH_HSK1_SC009",
