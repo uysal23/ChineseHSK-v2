@@ -90,3 +90,6 @@ SC004 güncellemesi: metin revizyonu 5/300, adla ağız kalibrasyonu 4/300 (18 k
 
 
 SC005 güncellemesi: 6/300 metin revizyonu, 5/300 görselde adla ağız kalibrasyonu. Lele’nin oyuncak treni koltuk altında bulunur; SC004 kahvaltı ve SC006 pencere sahnesi arasında süreklilik korunur. İlk dört HSK1 sahnesinin ses üretimi 37649172754 başarıyla bitti; 400/400 metin/konuşmacı/kast/hash ve Opus başlık eşleşmesi geçti. Dinleme ve gerçek uygulama entegrasyonu bekliyor. APK başlatılmadı. Sıradaki: HSK1 SC006.
+
+
+SC006 güncellemesi: 7/300 metin revizyonu, 6/300 görselde adla ağız kalibrasyonu. Şehir ilk görüş, eski arkadaşları özleme ve aile desteği doğal tepki zinciriyle yazıldı; SC005 oyuncak ve SC007 istasyon sürekliliği korundu. SC005 ses işi 37680079039 çalışmaya devam ediyor, SC006 ses metni sonraki mevcut hat paketinde üretilecek. Cihazda balon zamanlaması/dinleme henüz doğrulanmadı. APK başlatılmadı. Sıradaki: HSK1 SC007.
