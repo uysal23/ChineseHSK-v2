@@ -99,3 +99,6 @@ SC007 güncellemesi: 8/300 metin revizyonu, 7/300 görselde adla ağız kalibras
 
 
 SC007 R2 kast düzeltmesi: CHARACTER_CAST_LOCK_TR, sahne kadrosu dışında aile üyesi eklenmesini bloklar. Önceki görselde eklenmiş Yutong kaldırıldı; app/runtime WebP, metadata ve görsele bağlı dört adlandırılmış ağız yeniden hash eşleşmesiyle doğrulandı. Diyalog metni/ID ve ses düzeni değiştirilmedi. SC008 Li Chen kanonik tabanı (gözlük, kömür rengi ceket, sıcak renkli polo) incelendi; sahne işlemesi sıradadır. APK başlatılmadı.
+
+
+SC008 güncellemesi: 9/300 metin revizyonu, 8/300 görselde adla ağız kalibrasyonu. Li Chen ile yardım üzerinden doğal tanışma, isim/nereli olma, yeni arkadaşlık, telefon ve taksiye geçiş yazıldı. Dört kişilik kadro ve Li Chen kanonik portresi doğrulandı; Yutong sadece ekran dışında anılır. SC005 ses işi 37680079039 halen çalışıyor; SC006–SC008 sonraki mevcut hat paketinde üretilecek. Dinleme/cihaz zamanlaması bekliyor. APK başlatılmadı. Sıradaki: HSK1 SC009.
