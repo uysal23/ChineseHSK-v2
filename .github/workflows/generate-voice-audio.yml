@@ -95,7 +95,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          find voice-output -name '*.opus' -print0 | head -z -n 20 |             xargs -0 -r -n1 ffprobe -v error -show_entries stream=codec_name,sample_rate,channels -of compact=p=0:nk=1
+          mapfile -d '' -t AUDIO_FILES < <(find voice-output -name '*.opus' -print0)
+          for AUDIO_FILE in "${AUDIO_FILES[@]:0:20}"; do
+            ffprobe -v error -show_entries stream=codec_name,sample_rate,channels -of compact=p=0:nk=1 "$AUDIO_FILE"
+          done
 
       - name: Package generated voices
         run: |

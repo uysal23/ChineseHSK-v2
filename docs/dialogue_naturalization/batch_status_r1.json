@@ -8,16 +8,18 @@
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",
     "ZH_HSK1_SC003",
+    "ZH_HSK1_SC004",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 4,
+  "textRevisedSceneCount": 5,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",
-    "ZH_HSK1_SC003"
+    "ZH_HSK1_SC003",
+    "ZH_HSK1_SC004"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC004",
+  "nextTextSceneId": "ZH_HSK1_SC005",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -38,7 +40,7 @@
     "ZH_HSK1_SC001": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC001_R1.json",
-      "audioStatus": "RUNNING_EXISTING_PIPELINE",
+      "audioStatus": "GENERATION_FINISHED_PROBE_PIPE_FAILURE_RETRY_REQUIRED",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
@@ -49,7 +51,7 @@
     "ZH_HSK1_SC002": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC002_R1.json",
-      "audioStatus": "RUNNING_EXISTING_PIPELINE",
+      "audioStatus": "GENERATION_FINISHED_PROBE_PIPE_FAILURE_RETRY_REQUIRED",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
@@ -65,10 +67,30 @@
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
+    },
+    "ZH_HSK1_SC004": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC004_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
   "sceneAndBatchApprovalRequired": false,
   "emptyBubbleRuntimeStatus": "IMPLEMENTED_ANDROID_RUNTIME_VERIFICATION_PENDING",
-  "mouthAnchorManifest": "ci/speaker_mouth_anchors.json"
+  "mouthAnchorManifest": "ci/speaker_mouth_anchors.json",
+  "automaticContinuation": {
+    "automationId": "chinesehsk-300-sahneyi-s-rayla-tamamla",
+    "status": "ACTIVE",
+    "intervalMinutes": 30,
+    "userExplicitlyApproved": true
+  },
+  "voiceWorkflowRepair": {
+    "reason": "pipefail treats find SIGPIPE from head -n20 as fatal after successful generation",
+    "synthesisChanged": false,
+    "retryRequired": true
+  }
 }

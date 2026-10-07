@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC004",
   "generationSceneId": "ZH_HSK1_SC004",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC004.json",
-  "dialogueSha256": "84cb3fde5794869b35991c1cb77af60d8662249800fbb6c61ce84eca41bc371d",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC004.json",
+  "dialogueSha256": "4147b9e257e507c686409abb984482fbc477269838c094842cb232886c45c06c",
   "titleTr": "Trende İlk Kahvaltı",
   "locationId": "LOC_ZH_TRAIN_001",
   "scenePurposeTr": "Çocuklar trende yiyecek ister ve aile vagondaki satıcıdan alışveriş yapar.",
@@ -40,7 +40,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "7d8360d1728ceff3dd18704f05127255f48547b8d592f2ca1aae75c7c1407be6"
+    "sha256": "bb3d4661faee75804672763cc3931970b5728b5d49964e846653c73d473852b4",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -61,5 +63,41 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: SC004 için tren kahvaltısı görseli eşleştirildi; aile, satıcı ve yiyecek servisi aynı sahnede görünür."
+  "qaNoteTr": "2026-09-26: SC004 için tren kahvaltısı görseli eşleştirildi; aile, satıcı ve yiyecek servisi aynı sahnede görünür.",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC001 aile referansıyla erkek Lele kimliği ve gözlüklü Zhang Wei düzeltildi; dört konuşmacının yüz ve ağız konumları adlarıyla gözden geçirildi."
+  },
+  "mouthAnchorCalibration": {
+    "imageSha256": "bb3d4661faee75804672763cc3931970b5728b5d49964e846653c73d473852b4",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.182,
+        0.398
+      ],
+      "刘梅": [
+        0.691,
+        0.44
+      ],
+      "张雨桐": [
+        0.407,
+        0.438
+      ],
+      "张乐乐": [
+        0.56,
+        0.504
+      ],
+      "售货员": [
+        0.836,
+        0.349
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  }
 }
