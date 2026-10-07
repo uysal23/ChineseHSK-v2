@@ -76,3 +76,12 @@ Yeni bir doğallaştırma paketi uygulanmadan önce `ci/audit_dialogue_naturaliz
 - [ ] APK: kullanıcı onayı alındıktan sonra.
 
 Bu aşamada boş balonun bütün sahnelerde doğru ağız konumunda gösterildiği doğrulanmış değildir. Mevcut ses üretimi/oynatımı değiştirilmemiştir.
+
+## R1 ilk metin paketi — 2026-10-07
+- `ZH_HSK4_SC001`: 100 replik yeniden yazıldı; 100 benzersiz Simplified Chinese replik, sabit ID/konuşmacı sırası, 33 duygu/oyunculuk ipucu.
+- Tek çiftlik evi konuşması; hasattan sonra yakına fakat bağımsız eve taşınma kararı, SC002 son hasada geçiş.
+- Kelime hedefleri ve tüm öğrenme öğesi ID’leri korunarak örnekler ve alıştırmalar güncellendi.
+- Uygulama sahnesi, son metin override’ı (`dialogue_final_v13`) ve mevcut Kokoro üreticisinin okuduğu veri (`dialogue_final_v5`) aynı metne eşitlendi. Üretici, sesler, hız/pitch ayarları ve oynatma kodu değiştirilmedi.
+- Ses dosyaları henüz yeniden üretilmedi; ağız konumları ve oyunculuk ipuçlarının görsel uygulaması bekliyor. Bu metin paketi APK onayı veya ses tamamlandı durumu değildir.
+- R1 metin ilerlemesi: **1/300 sahne**. Sonraki metin: `ZH_HSK4_SC002`.
+- [Sahne kontrol raporu](reviews/ZH_HSK4_SC001_R1.json), [paket durumu](batch_status_r1.json).

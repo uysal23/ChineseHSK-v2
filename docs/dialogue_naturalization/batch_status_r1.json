@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "updatedDate": "2026-10-07",
+  "expectedSceneCount": 300,
+  "expectedTurnsPerScene": 100,
+  "textRevisedSceneIds": [
+    "ZH_HSK4_SC001"
+  ],
+  "textRevisedSceneCount": 1,
+  "audioRegeneratedSceneIds": [],
+  "mouthAnchorCalibratedSceneIds": [],
+  "nextTextSceneId": "ZH_HSK4_SC002",
+  "apkStatus": "WAITING_FOR_USER_APPROVAL",
+  "constraints": {
+    "simplifiedChinese": true,
+    "preserveDialogueIds": true,
+    "preserveSpeakerOrder": true,
+    "preserve100Turns": true,
+    "preserveExistingVoicePipeline": true
+  },
+  "scenes": {
+    "ZH_HSK4_SC001": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK4_SC001_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
+    }
+  }
+}
