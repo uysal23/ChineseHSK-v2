@@ -7,12 +7,13 @@
   "textRevisedSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",
+    "ZH_HSK1_SC003",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 3,
+  "textRevisedSceneCount": 4,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [],
-  "nextTextSceneId": "ZH_HSK1_SC003",
+  "nextTextSceneId": "ZH_HSK1_SC004",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -33,14 +34,26 @@
     "ZH_HSK1_SC001": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC001_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
+      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17"
     },
     "ZH_HSK1_SC002": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC002_R1.json",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
+      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17"
+    },
+    "ZH_HSK1_SC003": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC003_R1.json",
       "audioStatus": "PENDING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "PENDING_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
