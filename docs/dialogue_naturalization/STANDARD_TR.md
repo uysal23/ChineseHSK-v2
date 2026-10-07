@@ -62,3 +62,17 @@ Bir sahne ancak aşağıdaki kontroller geçerse kabul edilir:
 6. Her grup için ID/speaker/sayı, boş alan, tekrar, HSK seviyesi ve insan tarafından sahne baştan sona okunması kontrollerini çalıştır.
 
 Yeni bir doğallaştırma paketi uygulanmadan önce `ci/audit_dialogue_naturalization.py` çalıştırılmalıdır. Bu otomatik kontrol; 100 replik sayısını, kimlik ve konuşmacı sırasını, boş alanları, duygu etiketlerini ve sahne içi birebir tekrarları denetler. Doğal diyalog için sahne bazında editoryal son okumanın yerine geçmez.
+
+
+## Güncel uygulama durumu
+- [x] Kullanıcı kararı: sahne başına 100 replik; ID ve konuşmacı sırası korunacak.
+- [x] Duygu/oyunculuk alanlarının aktarım sırasında korunması.
+- [x] Yeni diyalog paketleri için yapısal ve tekrar denetimi.
+- [ ] 300 sahnenin doğal Simplified Chinese metin, pinyin ve Türkçe anlam revizyonu.
+- [ ] Her sahne görselinde karakter adıyla doğrulanmış ağız konumu kaydı. Yüzlerin soldan sağa sırasını konuşmacı sırasıyla eşlemek kimlik doğrulaması değildir.
+- [ ] Derlemede kullanılan `ci/SceneStage.kt` ve `ci/MainActivity.kt` katmanında küçük boş balonun aktif dialogue ID ve speaker ile eşleşmesi.
+- [ ] Görsel kırpma/ölçekleme sonrası ağız konumunun ekrana doğru dönüşümü; replik geçişi, tekrar dinletme, duraklatma, anlatıcı ve sahne çıkışı testleri.
+- [ ] Değişen konuşma metinlerinin mevcut ses üretim hattıyla yeniden üretilmesi ve metin-ses eşleşmesinin dinlenerek doğrulanması.
+- [ ] APK: kullanıcı onayı alındıktan sonra.
+
+Bu aşamada boş balonun bütün sahnelerde doğru ağız konumunda gösterildiği doğrulanmış değildir. Mevcut ses üretimi/oynatımı değiştirilmemiştir.
