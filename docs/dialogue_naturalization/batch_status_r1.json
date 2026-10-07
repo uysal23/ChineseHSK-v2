@@ -94,11 +94,14 @@
     "ZH_HSK1_SC005": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC005_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37680079039",
+      "audioSourceCommit": "75146fdfe403231bbb671dbb47f3f563f0408dcc",
+      "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -118,5 +121,9 @@
     "localRegressionTest": "PASS",
     "retryRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754",
     "retryConclusion": "success"
+  },
+  "audioIntegrationFollowUp": {
+    "status": "PENDING_EXISTING_PACK_MERGE",
+    "noteTr": "Mevcut APK hattı voice-pack-v1 içindeki birleşik 30000 mapping manifestini yükler; yeni çıktı HSK1 düzey manifestidir. Diğer seviyeleri kaybetmeden mevcut paket biçimine birleştirilmeli, mevcut uygulama düzeni korunmalı. Yeni release veya APK başlatılmadı."
   }
 }
