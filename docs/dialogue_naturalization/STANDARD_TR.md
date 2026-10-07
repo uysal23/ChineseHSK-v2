@@ -123,3 +123,6 @@ SC012 güncellemesi: 13/300 metin, 12/300 adla ağız kalibrasyonu. İlk akşam 
 
 
 SC013 güncellemesi: 14/300 metin, 13/300 adla ağız kalibrasyonu. Mimi aynı akşam mutfak dolabı yanında bulunur; endişeden rahatlamaya geçen konuşmalar, kedinin sakin yaklaşması ve ilk gece dinlenme geçişi eşleştirildi. Ses entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC014.
+
+
+Ses SC001–SC008: 37685297985 işi başarılı; 800 repliğin normalize metin/konuşmacı/profil/anahtar ve Opus kapsayıcı eşleşmesi doğrulandı. Altı seviyeli mevcut ses paketi biçimine kayıpsız birleştirme, diğer 29200 mapping ve dosya baytları korunarak doğrulandı. Kurulum ve dinleme beklediği için tamamlanan ses sahnesi sayısı artırılmadı. SC009–SC013 ses üretimi 37692980413 başladı; publish_release=false. Otomatik devam 10 dakika. Metin sırası SC014, APK başlatılmadı.
