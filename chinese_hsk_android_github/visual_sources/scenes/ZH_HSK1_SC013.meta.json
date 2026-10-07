@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC013",
   "generationSceneId": "ZH_HSK1_SC013",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC013.json",
-  "dialogueSha256": "dc1347c47b550c33e1df925e56139f0cd7b02bb02c8d9e22aa711cb210bd0ba7",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC013.json",
+  "dialogueSha256": "a66be1ec9483eed7c9a41065206ef759ea21c374c2d53c8c225550e40fb89140",
   "titleTr": "Mimi Dolapta",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Mimi mutfak dolabının yanında bulunur ve çocuklar rahatlar.",
@@ -30,14 +30,16 @@
     "previousSceneId": "ZH_HSK1_SC012",
     "nextSceneId": "ZH_HSK1_SC014"
   },
-  "sourceGeneratedFilename": "yeni_evde_mimi_yi_bulmak.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC013_R1.png",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC013.webp",
   "image": {
     "width": 941,
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "282ff7997689cabedf13024f68096df21b183463a5d296dabc105bc1c63e79b8"
+    "sha256": "3eedf31e4e5de9f4b201194628ab06da1b9a839e9b1289e912f64ad9269947a3",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +59,39 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "finalAssetFilename": "ZH_HSK1_SC013.webp"
+  "finalAssetFilename": "ZH_HSK1_SC013.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "3eedf31e4e5de9f4b201194628ab06da1b9a839e9b1289e912f64ad9269947a3",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张乐乐": [
+        0.41,
+        0.52
+      ],
+      "刘梅": [
+        0.631,
+        0.383
+      ],
+      "张雨桐": [
+        0.345,
+        0.288
+      ],
+      "张伟": [
+        0.538,
+        0.182
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC013 aynı akşam Mimi mutfak dolabı yanında bulunur. Gündüz kıyafet dolabı görseli düzeltildi. Dört kanonik aile konuşmacısının kimlik, yaş ve kıyafetleri SC012 ile eşleşir. Turuncu-beyaz, turkuaz tasmalı Mimi görünür. Ağızlar kimlikleriyle gözle eşlendi.",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC013 aynı akşam Mimi mutfak dolabı yanında bulunur. Gündüz kıyafet dolabı görseli düzeltildi. Dört kanonik aile konuşmacısının kimlik, yaş ve kıyafetleri SC012 ile eşleşir. Turuncu-beyaz, turkuaz tasmalı Mimi görünür. Ağızlar kimlikleriyle gözle eşlendi."
+  }
 }

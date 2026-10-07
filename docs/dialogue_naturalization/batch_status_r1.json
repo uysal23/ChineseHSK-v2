@@ -17,9 +17,10 @@
     "ZH_HSK1_SC010",
     "ZH_HSK1_SC011",
     "ZH_HSK1_SC012",
+    "ZH_HSK1_SC013",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 13,
+  "textRevisedSceneCount": 14,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -33,9 +34,10 @@
     "ZH_HSK1_SC009",
     "ZH_HSK1_SC010",
     "ZH_HSK1_SC011",
-    "ZH_HSK1_SC012"
+    "ZH_HSK1_SC012",
+    "ZH_HSK1_SC013"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC013",
+  "nextTextSceneId": "ZH_HSK1_SC014",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -201,6 +203,17 @@
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100
+    },
+    "ZH_HSK1_SC013": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC013_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "3eedf31e4e5de9f4b201194628ab06da1b9a839e9b1289e912f64ad9269947a3",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -230,7 +243,8 @@
     "ZH_HSK1_SC009",
     "ZH_HSK1_SC010",
     "ZH_HSK1_SC011",
-    "ZH_HSK1_SC012"
+    "ZH_HSK1_SC012",
+    "ZH_HSK1_SC013"
   ],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",

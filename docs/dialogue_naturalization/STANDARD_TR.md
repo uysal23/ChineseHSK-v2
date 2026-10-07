@@ -120,3 +120,6 @@ Ses paket birleştirme R1: İlk beş HSK1 sahnesinin 500 ses eşleştirmesi mevc
 
 
 SC012 güncellemesi: 13/300 metin, 12/300 adla ağız kalibrasyonu. İlk akşam uyku hazırlığı, Mimi’nin görünmemesi, sırayla güvenli arama ve aile içi sakinleştirici tepkiler eşleştirildi. Mimi bulunmadı; SC013 mutfak keşfi korunur. Ses entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC013.
+
+
+SC013 güncellemesi: 14/300 metin, 13/300 adla ağız kalibrasyonu. Mimi aynı akşam mutfak dolabı yanında bulunur; endişeden rahatlamaya geçen konuşmalar, kedinin sakin yaklaşması ve ilk gece dinlenme geçişi eşleştirildi. Ses entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC014.
