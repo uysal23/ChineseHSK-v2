@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC007",
   "generationSceneId": "ZH_HSK1_SC007",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC007.json",
-  "dialogueSha256": "a61be03fbecc50dd919099961e60c379337c22e2288d78260abbc19f78b9e81d",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC007.json",
+  "dialogueSha256": "2bb49753095b5926c775ee45de9587eaad43d05d71b7271552f935498a02fbe4",
   "titleTr": "İstasyonda Karışıklık",
   "locationId": "LOC_ZH_NEW_STATION_001",
   "scenePurposeTr": "Nakliye firmasından kimse görünmez; aile telefonla ne yapacağını anlamaya çalışır.",
@@ -18,7 +18,8 @@
     "张伟",
     "刘梅",
     "工作人员",
-    "张乐乐"
+    "张乐乐",
+    "张雨桐"
   ],
   "criticalObjects": [
     "akıllı telefon",
@@ -30,7 +31,7 @@
     "previousSceneId": "ZH_HSK1_SC006",
     "nextSceneId": "ZH_HSK1_SC008"
   },
-  "sourceGeneratedFilename": "i_stasyonda_yön_arayan_aile.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC007_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC007.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC007.webp",
   "image": {
@@ -38,7 +39,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "363190f22cac82d4b2c5d309de2d917813f6635691c3f00fd304b003c6859b4c"
+    "sha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -59,5 +62,40 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: SC007 için telefon, görevli ve bagajların görünür olduğu istasyon görseli eşleştirildi. SC003 ile aynı istasyon kaynak görseli ayrı scene ID altında kullanılmaktadır."
+  "qaNoteTr": "SC007 yeni istasyon geliş alanı için ayrı görsel üretildi; SC003 istasyon görseli tekrar kullanılmıyor. Telefon, kadın görevli, bagajlar ve dört konuşmacı görünür. Yutong konuşmayan aile refakatçisidir.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.345,
+        0.246
+      ],
+      "刘梅": [
+        0.563,
+        0.345
+      ],
+      "工作人员": [
+        0.752,
+        0.33
+      ],
+      "张乐乐": [
+        0.374,
+        0.495
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "requiredNonSpeakerCharacters": [
+    "张雨桐"
+  ],
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC006 ailesi referansıyla Lele kısa saçlı erkek çocuk, Zhang Wei gözlüklü baba, Liu Mei krem/yeşil, Yutong mor kıyafetli olarak düzeltildi. Baba nakliye firmasıyla telefonda görüşür. Kadın görevli yardım eder; dört konuşmacının ağızları adla kontrol edildi."
+  }
 }

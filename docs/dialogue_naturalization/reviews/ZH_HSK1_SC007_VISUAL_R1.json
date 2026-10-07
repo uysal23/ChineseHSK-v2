@@ -1,0 +1,27 @@
+{
+  "sceneId": "ZH_HSK1_SC007",
+  "imageSha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+  "referenceSceneId": "ZH_HSK1_SC006",
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC007 new station arrival; canonical family faces/clothing from SC006, father smartphone, luggage, female uniformed staff, Yutong non-speaking companion; no text or bubbles.",
+  "anchors": {
+    "张伟": [
+      0.345,
+      0.246
+    ],
+    "刘梅": [
+      0.563,
+      0.345
+    ],
+    "工作人员": [
+      0.752,
+      0.33
+    ],
+    "张乐乐": [
+      0.374,
+      0.495
+    ]
+  }
+}

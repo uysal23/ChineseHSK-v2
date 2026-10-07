@@ -93,3 +93,6 @@ SC005 güncellemesi: 6/300 metin revizyonu, 5/300 görselde adla ağız kalibras
 
 
 SC006 güncellemesi: 7/300 metin revizyonu, 6/300 görselde adla ağız kalibrasyonu. Şehir ilk görüş, eski arkadaşları özleme ve aile desteği doğal tepki zinciriyle yazıldı; SC005 oyuncak ve SC007 istasyon sürekliliği korundu. SC005 ses işi 37680079039 çalışmaya devam ediyor, SC006 ses metni sonraki mevcut hat paketinde üretilecek. Cihazda balon zamanlaması/dinleme henüz doğrulanmadı. APK başlatılmadı. Sıradaki: HSK1 SC007.
+
+
+SC007 güncellemesi: 8/300 metin revizyonu, 7/300 görselde adla ağız kalibrasyonu. İstasyon/nakliye telefon konuşması, gecikme, adres gönderme ve ailece taksi planı doğal tepki zinciriyle yazıldı. SC008 Li Chen karşılaşması ve SC009 adres sorunu önceden çözülmedi. Yutong konuşmayan refakatçi olarak görselde korundu. SC005 ses işi 37680079039 çalışıyor; SC006–SC007 sonraki mevcut hat paketinde üretilecek. Cihazda balon zamanlaması/dinleme henüz doğrulanmadı. APK başlatılmadı. Sıradaki: HSK1 SC008.

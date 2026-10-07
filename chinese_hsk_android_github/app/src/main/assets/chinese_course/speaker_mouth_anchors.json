@@ -153,6 +153,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC007": {
+      "imageSha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.345,
+          0.246
+        ],
+        "刘梅": [
+          0.563,
+          0.345
+        ],
+        "工作人员": [
+          0.752,
+          0.33
+        ],
+        "张乐乐": [
+          0.374,
+          0.495
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

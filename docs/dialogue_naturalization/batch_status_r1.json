@@ -11,9 +11,10 @@
     "ZH_HSK1_SC004",
     "ZH_HSK1_SC005",
     "ZH_HSK1_SC006",
+    "ZH_HSK1_SC007",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 7,
+  "textRevisedSceneCount": 8,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -21,9 +22,10 @@
     "ZH_HSK1_SC003",
     "ZH_HSK1_SC004",
     "ZH_HSK1_SC005",
-    "ZH_HSK1_SC006"
+    "ZH_HSK1_SC006",
+    "ZH_HSK1_SC007"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC007",
+  "nextTextSceneId": "ZH_HSK1_SC008",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -113,6 +115,15 @@
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100
+    },
+    "ZH_HSK1_SC007": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC007_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -138,6 +149,7 @@
     "noteTr": "Mevcut APK hattı voice-pack-v1 içindeki birleşik 30000 mapping manifestini yükler; yeni çıktı HSK1 düzey manifestidir. Diğer seviyeleri kaybetmeden mevcut paket biçimine birleştirilmeli, mevcut uygulama düzeni korunmalı. Yeni release veya APK başlatılmadı."
   },
   "nextVoiceBatchSceneIds": [
-    "ZH_HSK1_SC006"
+    "ZH_HSK1_SC006",
+    "ZH_HSK1_SC007"
   ]
 }
