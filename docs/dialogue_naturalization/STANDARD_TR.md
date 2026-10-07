@@ -111,3 +111,6 @@ SC009 güncellemesi: 10/300 metin revizyonu, 9/300 görselde adla ağız kalibra
 
 
 SC010 güncellemesi: 11/300 metin, 10/300 adla ağız kalibrasyonu. Kapı yanlış anahtarla açılmaz; doğru uzun anahtar bulunur. Aile tepkileri, güvenli giriş, oyuncak tren ve SC011 kutu düzenleme geçişi eşleştirildi. Ses üretimi/entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC011.
+
+
+SC011 güncellemesi: 12/300 metin, 11/300 adla ağız kalibrasyonu. Salondaki mutfak kutuları doğru yere taşınır, kitap kutusu kalır. Yardım, hafif şaka, ağır kutu yerine yaşa uygun katkı ve SC012 ilk gece hazırlığı eşleştirildi. Ses entegrasyonu/dinleme ve cihaz zamanlaması bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC012.

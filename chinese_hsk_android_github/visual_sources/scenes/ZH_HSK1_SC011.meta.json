@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC011",
   "generationSceneId": "ZH_HSK1_SC011",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC011.json",
-  "dialogueSha256": "b577eea15059989017c56fae548432c40f5d629d526f3b424b97027ce0d0b247",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC011.json",
+  "dialogueSha256": "58dca4c874c01dc62b41e38e16be981348387c9b0eed58f53424324b52cfdc43",
   "titleTr": "Kutular Nerede?",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Mutfak kutuları yanlış odaya bırakılmıştır; aile kutuları yeniden düzenler.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC010",
     "nextSceneId": "ZH_HSK1_SC012"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC011__moving_boxes_new_home_locked_cast.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC011_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC011.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC011.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "6b186c2ca75c58cb366e5519fc851be4cd79cedcd8c37d17d65a09366e34bbfa"
+    "sha256": "794342630b01542561ca7fcc5dacfe2d4a08aee836e25d414b4b3c5a661b5de5",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Önceki üretim havuzundaki sahne, LOCKED_V2 diyalog/kadro/nesne/9:16 kurallarıyla yeniden doğrulanarak authoritative source override olarak geri yüklendi. Diyalog SHA-256 ham dosya baytlarından yeniden hesaplanarak düzeltildi."
+  "qaNoteTr": "SC011 dört kanonik aile konuşmacısı: gözlüklü baba, krem/yeşil anne, morlu ergen kız, mavili küçük oğlan. Mutfak kutuları, tencere, fincanlar ve havlular; salon ve açık mutfak geçişi görünür. Çocuk ağır kutu taşımaz. Ağızlar kimlikleriyle gözle eşlendi.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "794342630b01542561ca7fcc5dacfe2d4a08aee836e25d414b4b3c5a661b5de5",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.475,
+        0.201
+      ],
+      "刘梅": [
+        0.257,
+        0.296
+      ],
+      "张雨桐": [
+        0.797,
+        0.261
+      ],
+      "张乐乐": [
+        0.611,
+        0.49
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC011 dört kanonik aile konuşmacısı: gözlüklü baba, krem/yeşil anne, morlu ergen kız, mavili küçük oğlan. Mutfak kutuları, tencere, fincanlar ve havlular; salon ve açık mutfak geçişi görünür. Çocuk ağır kutu taşımaz. Ağızlar kimlikleriyle gözle eşlendi."
+  }
 }
