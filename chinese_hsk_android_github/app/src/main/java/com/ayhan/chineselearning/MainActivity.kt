@@ -446,7 +446,6 @@ private fun SceneScreen(
         )
     }
     var autoPlay by remember(scene.id) { mutableStateOf(progress.autoPlayDefault()) }
-    var speakingDialogueId by remember(scene.id) { mutableStateOf<String?>(null) }
     var speed by remember(scene.id) {
         mutableFloatStateOf(progress.playbackSpeed(scene.learning.defaultSpeechSpeed))
     }
@@ -465,17 +464,13 @@ private fun SceneScreen(
 
     LaunchedEffect(currentIndex, autoPlay, speed, scene.id) {
         if (autoPlay && current != null) {
-            speakingDialogueId = current.id
             audioPlayer.playDialogue(current, speed) {
-                if (speakingDialogueId == current.id) speakingDialogueId = null
                 if (currentIndex < scene.dialogues.lastIndex) {
                     currentIndex += 1
                 } else {
                     autoPlay = false
                 }
             }
-        } else {
-            speakingDialogueId = null
         }
     }
 
@@ -522,10 +517,7 @@ private fun SceneScreen(
                             location = location,
                             characterProfiles = characterProfiles,
                             activeSpeaker = current?.speaker.orEmpty(),
-                            activeText = current?.zh.orEmpty(),
-                            activeActionTr = current?.actionTr.orEmpty(),
-                            activeEmotion = current?.emotion.orEmpty(),
-                            isSpeaking = current?.id != null && speakingDialogueId == current.id
+                            activeText = current?.zh.orEmpty()
                         )
                         Spacer(Modifier.height(14.dp))
                         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -637,15 +629,7 @@ private fun SceneScreen(
                         }
 
                         OutlinedButton(
-                            onClick = {
-                                current?.let { dialogue ->
-                                    autoPlay = false
-                                    speakingDialogueId = dialogue.id
-                                    audioPlayer.playDialogue(dialogue, speed) {
-                                        if (speakingDialogueId == dialogue.id) speakingDialogueId = null
-                                    }
-                                }
-                            },
+                            onClick = { current?.let { audioPlayer.playDialogue(it, speed) } },
                             modifier = Modifier.fillMaxWidth().padding(top = 8.dp)
                         ) {
                             Text(if (current?.let { audioPlayer.hasAuthoredAudio(it) } == true) "🎧 Karakter Sesini Dinle" else "🔊 Repliği Dinle (Offline TTS)")
