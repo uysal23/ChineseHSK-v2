@@ -123,7 +123,9 @@
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "d2da8627d758fbdb6642d5e7bb2bd1ef36a783b79785ba40920138a57ebd82a8"
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",

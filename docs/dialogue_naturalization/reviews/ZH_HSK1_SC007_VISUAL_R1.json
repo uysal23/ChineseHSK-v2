@@ -1,11 +1,11 @@
 {
   "sceneId": "ZH_HSK1_SC007",
-  "imageSha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+  "imageSha256": "d2da8627d758fbdb6642d5e7bb2bd1ef36a783b79785ba40920138a57ebd82a8",
   "referenceSceneId": "ZH_HSK1_SC006",
   "modelVisualReview": "PASS",
   "nativeHumanReview": false,
   "androidTimingTest": "PENDING",
-  "promptSummary": "SC007 new station arrival; canonical family faces/clothing from SC006, father smartphone, luggage, female uniformed staff, Yutong non-speaking companion; no text or bubbles.",
+  "promptSummary": "SC007 R2 remove only non-cast purple girl; preserve four speakers and positions; no extra family member or child.",
   "anchors": {
     "张伟": [
       0.345,
@@ -23,5 +23,13 @@
       0.374,
       0.495
     ]
-  }
+  },
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "工作人员",
+    "张乐乐"
+  ],
+  "correctionReasonTr": "Önceki sürümde production.characters dışında Yutong eklenmişti. Kast kilidi gereği kaldırıldı."
 }

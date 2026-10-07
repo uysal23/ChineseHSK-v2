@@ -18,8 +18,7 @@
     "张伟",
     "刘梅",
     "工作人员",
-    "张乐乐",
-    "张雨桐"
+    "张乐乐"
   ],
   "criticalObjects": [
     "akıllı telefon",
@@ -31,7 +30,7 @@
     "previousSceneId": "ZH_HSK1_SC006",
     "nextSceneId": "ZH_HSK1_SC008"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC007_R1.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC007_R2.png",
   "finalAssetFilename": "ZH_HSK1_SC007.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC007.webp",
   "image": {
@@ -39,9 +38,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+    "sha256": "d2da8627d758fbdb6642d5e7bb2bd1ef36a783b79785ba40920138a57ebd82a8",
     "quality": "optimized_webp_q70",
-    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
+    "sourceRevision": "EXACT_SCENE_CAST_CORRECTION_R2_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -62,9 +61,9 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "SC007 yeni istasyon geliş alanı için ayrı görsel üretildi; SC003 istasyon görseli tekrar kullanılmıyor. Telefon, kadın görevli, bagajlar ve dört konuşmacı görünür. Yutong konuşmayan aile refakatçisidir.",
+  "qaNoteTr": "Production.characters ve CHARACTER_CAST_LOCK_TR doğrulaması: yalnızca Zhang Wei, Liu Mei, kadın görevli ve Lele ana kadroda. Manifest dışında eklenen Yutong kaldırıldı; dört konuşmacının kimliği, ağız konumu ve yeni görsel SHA256 yeniden gözden geçirildi.",
   "mouthAnchorCalibration": {
-    "imageSha256": "6a77b2b9d810825542f8274e460d42dcda4b9a9fcbec8439d81cf8d75fcb521e",
+    "imageSha256": "d2da8627d758fbdb6642d5e7bb2bd1ef36a783b79785ba40920138a57ebd82a8",
     "width": 941,
     "height": 1672,
     "anchors": {
@@ -87,15 +86,12 @@
     },
     "reviewStatus": "MODEL_VISUAL_CALIBRATION"
   },
-  "requiredNonSpeakerCharacters": [
-    "张雨桐"
-  ],
   "postGenerationVisualQA": {
     "status": "PASS",
     "inspectedAfterGeneration": true,
     "dialogueMatch": true,
     "speakerCountMatch": true,
     "canonicalCharacterContinuityChecked": true,
-    "noteTr": "SC006 ailesi referansıyla Lele kısa saçlı erkek çocuk, Zhang Wei gözlüklü baba, Liu Mei krem/yeşil, Yutong mor kıyafetli olarak düzeltildi. Baba nakliye firmasıyla telefonda görüşür. Kadın görevli yardım eder; dört konuşmacının ağızları adla kontrol edildi."
+    "noteTr": "Production.characters ve CHARACTER_CAST_LOCK_TR doğrulaması: yalnızca Zhang Wei, Liu Mei, kadın görevli ve Lele ana kadroda. Manifest dışında eklenen Yutong kaldırıldı; dört konuşmacının kimliği, ağız konumu ve yeni görsel SHA256 yeniden gözden geçirildi."
   }
 }
