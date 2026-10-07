@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC001",
   "manifestVersion": "LOCKED_V2",
   "batchId": "HSK1_SC001_SC010",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC001.json",
-  "dialogueSha256": "16090b36a3900a7ebfed25b0184bdaec00a4ee6e3a0ebf4b5ec30913754dbdb7",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC001.json",
+  "dialogueSha256": "2e08397e5cf1dc81a2fa8cdd942f1ec9ed7e6d1184e5f08663fb94f9b7bda2bd",
   "dialogueSpeakers": [
     "张伟",
     "刘梅",
