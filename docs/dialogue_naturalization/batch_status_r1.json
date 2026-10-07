@@ -40,42 +40,50 @@
     "ZH_HSK1_SC001": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC001_R1.json",
-      "audioStatus": "GENERATION_FINISHED_PROBE_PIPE_FAILURE_RETRY_REQUIRED",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
-      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
-      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17",
-      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754",
+      "audioSourceCommit": "04869c973fd30d9f7bd3709a019d9e1270135b97",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
     },
     "ZH_HSK1_SC002": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC002_R1.json",
-      "audioStatus": "GENERATION_FINISHED_PROBE_PIPE_FAILURE_RETRY_REQUIRED",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
-      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37644418289",
-      "audioSourceCommit": "b0e28cf8e437cd85e481f861f01b2451857b0e17",
-      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754",
+      "audioSourceCommit": "04869c973fd30d9f7bd3709a019d9e1270135b97",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
     },
     "ZH_HSK1_SC003": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC003_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
-      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING"
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754",
+      "audioSourceCommit": "04869c973fd30d9f7bd3709a019d9e1270135b97",
+      "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
     },
     "ZH_HSK1_SC004": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC004_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754",
+      "audioSourceCommit": "04869c973fd30d9f7bd3709a019d9e1270135b97",
+      "audioIntegrationStatus": "PENDING_ARTIFACT_AND_LISTENING_QA"
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -91,6 +99,8 @@
   "voiceWorkflowRepair": {
     "reason": "pipefail treats find SIGPIPE from head -n20 as fatal after successful generation",
     "synthesisChanged": false,
-    "retryRequired": true
+    "retryRequired": true,
+    "localRegressionTest": "PASS",
+    "retryRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37649172754"
   }
 }
