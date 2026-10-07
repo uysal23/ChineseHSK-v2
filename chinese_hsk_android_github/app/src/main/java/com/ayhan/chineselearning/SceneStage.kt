@@ -73,9 +73,6 @@ fun SceneStage(
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
     activeText: String = "",
-    activeActionTr: String = "",
-    activeEmotion: String = "neutral",
-    isSpeaking: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     val theme = location?.theme ?: "generic"
@@ -126,24 +123,6 @@ fun SceneStage(
             )
         }
 
-        if (isSpeaking && activeActionTr.isNotBlank()) {
-            Surface(
-                modifier = Modifier.align(Alignment.TopEnd).padding(12.dp).widthIn(max = 142.dp),
-                color = Color.Black.copy(alpha = 0.56f),
-                shape = RoundedCornerShape(12.dp)
-            ) {
-                Text(
-                    text = activeActionTr,
-                    color = Color.White,
-                    fontSize = 10.sp,
-                    lineHeight = 13.sp,
-                    maxLines = 2,
-                    overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.padding(horizontal = 9.dp, vertical = 6.dp)
-                )
-            }
-        }
-
         Column(Modifier.align(Alignment.TopStart).padding(14.dp)) {
             Surface(color = Color.Black.copy(alpha = 0.42f), shape = RoundedCornerShape(14.dp)) {
                 Column(Modifier.padding(horizontal = 12.dp, vertical = 7.dp)) {
@@ -172,14 +151,7 @@ fun SceneStage(
             cast.forEachIndexed { index, name ->
                 val profile = characterProfiles[name]
                 val isActive = name == activeSpeaker
-                val activeScale = when (activeEmotion) {
-                    "happy", "playful" -> 1.13f
-                    "sad", "comforting" -> 1.04f
-                    "worried", "curious" -> 1.07f
-                    "angry" -> 1.11f
-                    else -> 1.10f
-                }
-                val scale by animateFloatAsState(if (isActive) activeScale else 0.92f, label = "speakerFocus")
+                val scale by animateFloatAsState(if (isActive) 1.10f else 0.92f, label = "speakerFocus")
                 val alpha = if (isActive) 1f else 0.72f
                 val bubbleOnRight = index < (cast.size + 1) / 2
 
@@ -217,37 +189,8 @@ fun SceneStage(
                             }
                         }
 
-                        if (isActive && isSpeaking && name == activeSpeaker && activeSpeaker.isNotBlank()) {
-                            // Empty marker is tied to the current dialogue speaker.
-                            Box(
-                                modifier = Modifier
-                                    .size(width = 18.dp, height = 13.dp)
-                                    .align(if (bubbleOnRight) Alignment.CenterEnd else Alignment.CenterStart)
-                                    .offset(
-                                        x = if (bubbleOnRight) 5.dp else (-5).dp,
-                                        y = 17.dp
-                                    )
-                                    .zIndex(12f)
-                            ) {
-                                Box(
-                                    modifier = Modifier
-                                        .fillMaxSize()
-                                        .clip(RoundedCornerShape(5.dp))
-                                        .background(Color.White)
-                                )
-                                Box(
-                                    modifier = Modifier
-                                        .size(5.dp)
-                                        .align(if (bubbleOnRight) Alignment.BottomStart else Alignment.BottomEnd)
-                                        .offset(x = if (bubbleOnRight) 1.dp else (-1).dp, y = 1.dp)
-                                        .rotate(45f)
-                                        .background(Color.White)
-                                )
-                            }
-                        }
-
                         if (isActive && activeText.isNotBlank()) {
-                            // The text bubble remains the dialogue display; the empty bubble marks active speech.
+                            // The bubble is anchored beside the active face/mouth area.
                             // Its fill is intentionally fully opaque pure white.
                             Box(
                                 modifier = Modifier
