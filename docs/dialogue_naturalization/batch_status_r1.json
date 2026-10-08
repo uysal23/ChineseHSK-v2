@@ -262,8 +262,8 @@
   },
   "audioIntegrationFollowUp": {
     "status": "MERGED_EXISTING_FORMAT_LOCAL_PACK_VERIFIED_INSTALL_PENDING",
-    "noteTr": "İlk sekiz HSK1 sahnesi için 800 metin/konuşmacı/profil eşleşmesi doğrulandı; mevcut altı seviyeli paket biçimiyle kayıpsız birleştirme doğrulandı. 29200 diğer mapping ve ses baytları korundu. Birleşik paket yerelde hazır, kurulum/dinleme/cihaz kontrolleri bekliyor. SC009–SC013 mevcut ses hattı 37692980413 üzerinde çalışıyor. APK veya release başlatılmadı.",
-    "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC008_AUDIO_MERGE_R1.json"
+    "noteTr": "1300 yeni ses eşleşmesi mevcut altı seviyeli paket biçimine kayıpsız birleştirildi; diğer 28700 mapping, metadata ve ses baytları korundu. 30000 mapping ve ses kapsayıcıları doğrulandı. Paket yerelde hazır; uygulamaya kurulum, dinleme ve cihaz kontrolleri bekliyor. APK/release başlatılmadı.",
+    "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC013_AUDIO_MERGE_R1.json"
   },
   "nextVoiceBatchSceneIds": [
     "ZH_HSK1_SC014"

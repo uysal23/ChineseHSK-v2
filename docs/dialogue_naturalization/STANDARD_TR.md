@@ -132,3 +132,5 @@ SC014 güncellemesi: 15/300 metin, 14/300 adla ağız kalibrasyonu. Aynı akşam
 
 
 Ses SC001–SC013: 37692980413 işi başarılı, kaynak c447a89ab9e68e96f62859efe1dad739bf59e00c. 1300 repliğin normalize metin, konuşmacı, ses profili, ses anahtarı ve Opus kapsayıcı eşleşmesi doğrulandı. Uygulamaya entegrasyon/dinleme/cihaz testi bekliyor, tamamlanan ses sahnesi sayısı artırılmadı. SC014 sonraki mevcut hat üretiminde bekliyor. Metin sırası SC015; APK/release başlatılmadı.
+
+SC001–SC013 ses paket birleştirmesi: 1300 mapping yenilendi, diğer 28700 mapping ve ses baytları korundu. Mevcut altı seviyeli 30000 mapping biçimi ve Opus kontrolü geçti. Paket yerelde hazır; uygulamaya kurulum ve dinleme bekliyor. APK/release başlatılmadı.
