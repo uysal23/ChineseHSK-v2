@@ -146,3 +146,5 @@ SC017 güncellemesi: 18/300 metin, 17/300 adla ağız kalibrasyonu. İlk market 
 SC018 güncellemesi: 19/300 metin, 18/300 adla ağız kalibrasyonu. SC017 ürün miktarları korundu; 9+18+6+8+4=45 yuan, 50 ödeme ve 5 para üstü kontrolü işlendi. Çanta ödeme sonrasında doldurulur, SC019 ertesi sabah kahvaltı için bırakılır. Görselde anne topuzu, alışveriş miktarları ve para düzeltildi. Ses/kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 Ses SC001–SC015: 37801632600 işi başarılı. 1500 replik normalize metin/konuşmacı/kast/profil/anahtar ve gerçek Opus kapsayıcılarıyla doğrulandı. Kaynak b3bf50f4fdaafb0ac52df94794d0c91f9a6ab2b1. Kurulum/dinleme/cihaz testi bekliyor, tamamlanan ses sahnesi sayısı artırılmadı. SC016–SC018 sonraki mevcut hat üretimi bekliyor. APK/release başlatılmadı.
+
+SC019 güncellemesi: 20/300 metin, 19/300 adla ağız kalibrasyonu. Sakin kahvaltı, yiyecek tercihleri, sıcak çay, kardeş yardımı ve yeni eve alışma doğal karşılıklı konuşmayla işlendi. Gün saati sabaha düzeltildi; Mimi önceki gün değil taşınma günü bulunmuştur. Fotoğraf SC020’ye bırakılır. Ses/kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
