@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC024",
   "generationSceneId": "ZH_HSK1_SC024",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC024.json",
-  "dialogueSha256": "3785c5066243738a3643975c6e3e4b2d6a0328c65a8540bf00cefd8ef70a4725",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC024.json",
+  "dialogueSha256": "68b476db5b192a7d677dfbb069e7c1c4c7348c264c24521eb729b434b8e8ee52",
   "titleTr": "Lele’nin İlkokulu",
   "locationId": "LOC_ZH_PRIMARY_SCHOOL_001",
   "scenePurposeTr": "Lele annesinden ayrılmak istemez; öğretmen onu rahatlatır.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC023",
     "nextSceneId": "ZH_HSK1_SC025"
   },
-  "sourceGeneratedFilename": "okula_i_lk_adım_sevgiyle_karşılama.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC024_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC024.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC024.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "ad7cf2d57258382b2fa4b275a5b64df093e8b994b3b24ee6a43d1380894713da"
+    "sha256": "49334897edc2ec0843e6f7c78d1d5513a54eb013de93c69d3df456c0fab70213",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-08"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC024 Lele kanonik kısa saçlı erkek çocuk blue hoodie green-white stripe, Liu Mei cream-green low bun; farklı ilkokul öğretmeni terracotta cardigan shoulder-length hair ve erkek arkadaş Xiaojie yellow sweatshirt. Yanlış kız Lele düzeltildi. Model QA; native insan ve cihaz testi bekliyor.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "49334897edc2ec0843e6f7c78d1d5513a54eb013de93c69d3df456c0fab70213",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张乐乐": [
+        0.425,
+        0.365
+      ],
+      "刘梅": [
+        0.211,
+        0.195
+      ],
+      "老师": [
+        0.792,
+        0.408
+      ],
+      "同学": [
+        0.6,
+        0.375
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC024 Lele kanonik kısa saçlı erkek çocuk blue hoodie green-white stripe, Liu Mei cream-green low bun; farklı ilkokul öğretmeni terracotta cardigan shoulder-length hair ve erkek arkadaş Xiaojie yellow sweatshirt. Yanlış kız Lele düzeltildi. Model QA; native insan ve cihaz testi bekliyor."
+  }
 }
