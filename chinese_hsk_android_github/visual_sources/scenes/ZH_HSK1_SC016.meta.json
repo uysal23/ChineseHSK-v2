@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC016",
   "generationSceneId": "ZH_HSK1_SC016",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC016.json",
-  "dialogueSha256": "752aaeaee45eb3f534c617692d93cc6de492cb9b8d6afb8f4dee7221c6a18621",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC016.json",
+  "dialogueSha256": "e38b1d50da4ade1d49cd7d28d7784a7a4b53955ddbe842e35e9171171f12d528",
   "titleTr": "Market Nerede?",
   "locationId": "LOC_ZH_NEIGHBORHOOD_001",
   "scenePurposeTr": "Aile mahalledeki marketi bulmak için komşuya yol sorar.",
@@ -29,14 +29,16 @@
     "previousSceneId": "ZH_HSK1_SC015",
     "nextSceneId": "ZH_HSK1_SC017"
   },
-  "sourceGeneratedFilename": "mahallede_yol_tarifi_diyaloğu.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC016_R1.png",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC016.webp",
   "image": {
     "width": 941,
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "8e02b0056bdf2cfcc3c93044ac05beaf82fd28c9e46dfb1f4f4d2c53c6114425"
+    "sha256": "e8f25c20141c470e8f90b75ec7a30df10a10c42103aceeed78d095da1164aae4",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,39 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "finalAssetFilename": "ZH_HSK1_SC016.webp"
+  "finalAssetFilename": "ZH_HSK1_SC016.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "e8f25c20141c470e8f90b75ec7a30df10a10c42103aceeed78d095da1164aae4",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.266,
+        0.246
+      ],
+      "刘梅": [
+        0.455,
+        0.287
+      ],
+      "邻居": [
+        0.622,
+        0.306
+      ],
+      "张乐乐": [
+        0.334,
+        0.472
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC016 ertesi sabah mahallede yol tarifi. Anne düşük topuz, komşu kısa siyah bob ile SC014–SC015 kimliklerine uyar. Baba ve Lele kıyafetleri korundu, dört ağız görünür. Model görsel incelemesi; cihaz ve native insan kontrolü bekliyor.",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC016 ertesi sabah mahallede yol tarifi. Anne düşük topuz, komşu kısa siyah bob ile SC014–SC015 kimliklerine uyar. Baba ve Lele kıyafetleri korundu, dört ağız görünür. Model görsel incelemesi; cihaz ve native insan kontrolü bekliyor."
+  }
 }
