@@ -158,3 +158,5 @@ SC021: 22/300 metin, 21/300 adla ağız kalibrasyonu. Yanlış binaya yönelme, 
 SC022: 23/300 metin, 22/300 adla ağız kalibrasyonu. Sınıfa tanışma, yaş söyleme, ortak kitap ilgisi ve ilk gün heyecanı işlendi. İki 同学 ayrı dialogueId kişi bağıyla seçilir. Öğle daveti SC023’te kalır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 SC023: 24/300 metin, 23/300 adla ağız kalibrasyonu. Öğle daveti kabul edilir, yeni arkadaşlar birbirini bekler, Mimi’nin bulunmuş olduğu hatırlanır. İki 同学 kimliği açık dialogue ID bağlarıyla seçilir. Henüz yemek yenmez. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
+
+Ses SC001–SC019: 37813427695 işi başarılı. 1900 normalize metin, speaker, mevcut cast/profil/audioKey eşleşmesi ve gerçek Opus kapsayıcı başlığı doğrulandı. Kaynak 8ff2d98d4e0527baf4f5635289f953d57b05e967. Kurulum/dinleme/cihaz testi bekliyor; audioRegeneratedSceneIds artırılmadı. Sonraki metin SC024; SC020–SC023 sesi mevcut hatla sonraki pakette üretilecek. APK/release başlatılmadı.
