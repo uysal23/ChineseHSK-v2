@@ -129,3 +129,6 @@ Ses SC001–SC008: 37685297985 işi başarılı; 800 repliğin normalize metin/k
 
 
 SC014 güncellemesi: 15/300 metin, 14/300 adla ağız kalibrasyonu. Aynı akşam komşu ziyareti, sıcak tanışma, aile/kedi konuşması ve misafiri oturtma işlendi. Komşunun adı uydurulmadı, çay/su SC015 için açık bırakıldı. Ses SC009–SC013 işi çalışıyor; SC014 sonraki üretimde bekliyor. Kurulum/dinleme/cihaz testi bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC015.
+
+
+Ses SC001–SC013: 37692980413 işi başarılı, kaynak c447a89ab9e68e96f62859efe1dad739bf59e00c. 1300 repliğin normalize metin, konuşmacı, ses profili, ses anahtarı ve Opus kapsayıcı eşleşmesi doğrulandı. Uygulamaya entegrasyon/dinleme/cihaz testi bekliyor, tamamlanan ses sahnesi sayısı artırılmadı. SC014 sonraki mevcut hat üretiminde bekliyor. Metin sırası SC015; APK/release başlatılmadı.
