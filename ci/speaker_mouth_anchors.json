@@ -489,6 +489,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC021": {
+      "imageSha256": "89679fd83c2ed48f25c80465d0860e0da851174a3be0b40753adce6942866414",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张雨桐": [
+          0.228,
+          0.421
+        ],
+        "老师": [
+          0.394,
+          0.377
+        ],
+        "工作人员": [
+          0.826,
+          0.352
+        ],
+        "同学": [
+          0.586,
+          0.435
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

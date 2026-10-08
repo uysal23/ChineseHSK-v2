@@ -152,3 +152,5 @@ SC019 güncellemesi: 20/300 metin, 19/300 adla ağız kalibrasyonu. Sakin kahval
 SC016–SC019 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37813427695 (kaynak 8ff2d98d4e0527baf4f5635289f953d57b05e967). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
 
 SC020 güncellemesi: 21/300 metin, 20/300 adla ağız kalibrasyonu. Aile fotoğrafı hazırlığı, Mimi yer değiştirmesi, iki deneme ve doğal aile şakaları işlendi. Kanonik dört aile rolü ve Mimi düzeltildi. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı. Sıradaki SC021.
+
+SC021: 22/300 metin, 21/300 adla ağız kalibrasyonu. Yanlış binaya yönelme, doğru yolu sorma, ilk gün heyecanı ve karşılıklı yardım doğal diyaloglarla işlendi. Tam dört üretim rolü düzeltildi. Sınıfa tanıtım SC022’de kalır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
