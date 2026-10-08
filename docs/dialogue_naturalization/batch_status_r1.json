@@ -235,24 +235,28 @@
     "ZH_HSK1_SC014": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC014_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
       "visualImageSha256": "abf8b69885332e2209164de7ba2bbe68fdfe4d9079f2ad5376278bd50c81bcdc",
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37801632600",
+      "audioSourceCommit": "b3bf50f4fdaafb0ac52df94794d0c91f9a6ab2b1"
     },
     "ZH_HSK1_SC015": {
       "textStatus": "PASS",
       "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC015_R1.json",
-      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "audioStatus": "RUNNING_EXISTING_PIPELINE",
       "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
       "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
       "visualImageSha256": "4ea77420bb34bc424aefd83a2fca2e61547ab315f942bc5964a0aca2947a7aba",
       "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
-      "changedTurnCount": 100
+      "changedTurnCount": 100,
+      "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37801632600",
+      "audioSourceCommit": "b3bf50f4fdaafb0ac52df94794d0c91f9a6ab2b1"
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -278,10 +282,7 @@
     "noteTr": "1300 yeni ses eşleşmesi mevcut altı seviyeli paket biçimine kayıpsız birleştirildi; diğer 28700 mapping, metadata ve ses baytları korundu. 30000 mapping ve ses kapsayıcıları doğrulandı. Paket yerelde hazır; uygulamaya kurulum, dinleme ve cihaz kontrolleri bekliyor. APK/release başlatılmadı.",
     "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC013_AUDIO_MERGE_R1.json"
   },
-  "nextVoiceBatchSceneIds": [
-    "ZH_HSK1_SC014",
-    "ZH_HSK1_SC015"
-  ],
+  "nextVoiceBatchSceneIds": [],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",

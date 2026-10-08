@@ -136,3 +136,5 @@ Ses SC001–SC013: 37692980413 işi başarılı, kaynak c447a89ab9e68e96f62859ef
 SC001–SC013 ses paket birleştirmesi: 1300 mapping yenilendi, diğer 28700 mapping ve ses baytları korundu. Mevcut altı seviyeli 30000 mapping biçimi ve Opus kontrolü geçti. Paket yerelde hazır; uygulamaya kurulum ve dinleme bekliyor. APK/release başlatılmadı.
 
 SC015 güncellemesi: 16/300 metin, 15/300 adla ağız kalibrasyonu. Çay/su tercihi, fincan yıkama, sıcak ikram, Lele su tercihi ve komşuyla doğal karşılıklı konuşma eşleştirildi. Aynı akşam kadro ve saç/giysi devamlılığı korundu. SC016 market yol tarifi sonraya bırakıldı. Ses SC014–SC015 üretimi bekliyor; kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı. Sıradaki SC016.
+
+SC014–SC015 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37801632600 (kaynak b3bf50f4fdaafb0ac52df94794d0c91f9a6ab2b1). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
