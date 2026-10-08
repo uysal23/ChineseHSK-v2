@@ -150,3 +150,5 @@ Ses SC001–SC015: 37801632600 işi başarılı. 1500 replik normalize metin/kon
 SC019 güncellemesi: 20/300 metin, 19/300 adla ağız kalibrasyonu. Sakin kahvaltı, yiyecek tercihleri, sıcak çay, kardeş yardımı ve yeni eve alışma doğal karşılıklı konuşmayla işlendi. Gün saati sabaha düzeltildi; Mimi önceki gün değil taşınma günü bulunmuştur. Fotoğraf SC020’ye bırakılır. Ses/kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 SC016–SC019 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37813427695 (kaynak 8ff2d98d4e0527baf4f5635289f953d57b05e967). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
+
+SC020 güncellemesi: 21/300 metin, 20/300 adla ağız kalibrasyonu. Aile fotoğrafı hazırlığı, Mimi yer değiştirmesi, iki deneme ve doğal aile şakaları işlendi. Kanonik dört aile rolü ve Mimi düzeltildi. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı. Sıradaki SC021.

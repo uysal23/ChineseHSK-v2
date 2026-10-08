@@ -96,7 +96,7 @@
     "buildApproved": false,
     "noteTr": "HSK1 SC011-SC020 10/10 final WebP authoritative app assets olarak mevcut ve LOCKED_V2 QA PASS metadata ile doğrulanmış durumda. SC020 mevcut final aile selfie + Mimi/kedi sahnesi korunarak tamamlandı. APK build tetiklenmedi."
   },
-  "latestVisualRevision": "HSK1_SC019_CANONICAL_CAST_CORRECTION_R1_2026-10-07",
+  "latestVisualRevision": "HSK1_SC020_CANONICAL_CAST_CORRECTION_R1_2026-10-07",
   "uniqueSceneIdRuleLocked": true,
   "subsequentBatchProgress": {
     "batchId": "HSK1_SC021_SC030",
@@ -1934,6 +1934,13 @@
     "ZH_HSK1_SC019": {
       "status": "INTEGRATED_MODEL_QA_PASS",
       "imageSha256": "27f29ba0114b1e4fa68e5cd4685312a90c7112a01bbbf2ef4c2a199e6266dfa3",
+      "anchorCalibration": "MODEL_VISUAL_CALIBRATION",
+      "exactCastChecked": true,
+      "apkBuildStarted": false
+    },
+    "ZH_HSK1_SC020": {
+      "status": "INTEGRATED_MODEL_QA_PASS",
+      "imageSha256": "80985b85a86270b40b78921f8e1d0b2920386e4c8b24608c42e2e979ffece575",
       "anchorCalibration": "MODEL_VISUAL_CALIBRATION",
       "exactCastChecked": true,
       "apkBuildStarted": false
