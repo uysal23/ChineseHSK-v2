@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC018",
   "generationSceneId": "ZH_HSK1_SC018",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC018.json",
-  "dialogueSha256": "cf98e249416907b4cbf2fae81bb3f1e7ab9a66430162f53138318a204142cdbf",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC018.json",
+  "dialogueSha256": "7dcca9b5f8a558bf796d86fb90fdb4713df075c21ad73ee8326cac4398e97439",
   "titleTr": "Kasada Para Yetiyor mu?",
   "locationId": "LOC_ZH_SUPERMARKET_001",
   "scenePurposeTr": "Kasada ödeme sırasında Zhang bozuk para ve toplam tutarı kontrol eder.",
@@ -30,14 +30,16 @@
     "previousSceneId": "ZH_HSK1_SC017",
     "nextSceneId": "ZH_HSK1_SC019"
   },
-  "sourceGeneratedFilename": "aileyle_sıcak_market_alışverişi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC018_R1.png",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC018.webp",
   "image": {
     "width": 941,
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "5f496d38f59713a3409038e373bb519220f195f5abf230a91243e10db8a2004b"
+    "sha256": "f0a1c0f9ed2ab3ce11a0246d0a2bbcc3daf3e95ebda9eb7295e240997188fd2d",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +59,39 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "finalAssetFilename": "ZH_HSK1_SC018.webp"
+  "finalAssetFilename": "ZH_HSK1_SC018.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "f0a1c0f9ed2ab3ce11a0246d0a2bbcc3daf3e95ebda9eb7295e240997188fd2d",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.387,
+        0.185
+      ],
+      "刘梅": [
+        0.652,
+        0.243
+      ],
+      "收银员": [
+        0.876,
+        0.286
+      ],
+      "张乐乐": [
+        0.274,
+        0.448
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC018 kasada baba, anne, kadın kasiyer ve Lele görünür. Anne düşük topuzla SC017 kimliğini korur. Dört elma, iki süt, altılı yumurta, ekmek, tek sarı atıştırmalık ve kumaş çanta devam eder. Bozuk para ve banknot görünür. Ağızlar adla incelendi, model QA; cihaz/native test bekliyor.",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC018 kasada baba, anne, kadın kasiyer ve Lele görünür. Anne düşük topuzla SC017 kimliğini korur. Dört elma, iki süt, altılı yumurta, ekmek, tek sarı atıştırmalık ve kumaş çanta devam eder. Bozuk para ve banknot görünür. Ağızlar adla incelendi, model QA; cihaz/native test bekliyor."
+  }
 }
