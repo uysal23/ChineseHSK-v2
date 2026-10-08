@@ -162,3 +162,5 @@ SC023: 24/300 metin, 23/300 adla ağız kalibrasyonu. Öğle daveti kabul edilir
 Ses SC001–SC019: 37813427695 işi başarılı. 1900 normalize metin, speaker, mevcut cast/profil/audioKey eşleşmesi ve gerçek Opus kapsayıcı başlığı doğrulandı. Kaynak 8ff2d98d4e0527baf4f5635289f953d57b05e967. Kurulum/dinleme/cihaz testi bekliyor; audioRegeneratedSceneIds artırılmadı. Sonraki metin SC024; SC020–SC023 sesi mevcut hatla sonraki pakette üretilecek. APK/release başlatılmadı.
 
 SC024: 25/300 metin, 24/300 adla ağız kalibrasyonu. Lele anneden ayrılma kaygısını söyler; anne ve öğretmen küçümsemeden güven verir. Arkadaş Xiaojie ile kitap okuma ve açık veda. Yanlış kız Lele görseli kanonik erkek çocukla düzeltildi; ilkokul öğretmeni lise öğretmeni değildir. SC025 kalem olayı sonraya bırakılır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
+
+SC020–SC024 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37827114424 (kaynak 953b3c96facb1adf3ed069f045e54ec275208330). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
