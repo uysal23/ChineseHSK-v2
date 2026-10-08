@@ -164,3 +164,5 @@ Ses SC001–SC019: 37813427695 işi başarılı. 1900 normalize metin, speaker, 
 SC024: 25/300 metin, 24/300 adla ağız kalibrasyonu. Lele anneden ayrılma kaygısını söyler; anne ve öğretmen küçümsemeden güven verir. Arkadaş Xiaojie ile kitap okuma ve açık veda. Yanlış kız Lele görseli kanonik erkek çocukla düzeltildi; ilkokul öğretmeni lise öğretmeni değildir. SC025 kalem olayı sonraya bırakılır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 SC020–SC024 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37827114424 (kaynak 953b3c96facb1adf3ed069f045e54ec275208330). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
+
+SC025: 26/300 metin, 25/300 adla ağız kalibrasyonu. Mavi kalem yanlış anlaşılması kendi çantasında kırmızı işaretli kalemi bulma, özür ve barışma ile çözülür. Anne ders çıkışı almaya gelir. SC024 kimlikleri korunur; yanlış kız Lele ve kolaj kaldırılır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.

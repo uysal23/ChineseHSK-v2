@@ -29,9 +29,10 @@
     "ZH_HSK1_SC022",
     "ZH_HSK1_SC023",
     "ZH_HSK1_SC024",
+    "ZH_HSK1_SC025",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 25,
+  "textRevisedSceneCount": 26,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -57,9 +58,10 @@
     "ZH_HSK1_SC021",
     "ZH_HSK1_SC022",
     "ZH_HSK1_SC023",
-    "ZH_HSK1_SC024"
+    "ZH_HSK1_SC024",
+    "ZH_HSK1_SC025"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC025",
+  "nextTextSceneId": "ZH_HSK1_SC026",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -403,6 +405,17 @@
       "changedTurnCount": 100,
       "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37827114424",
       "audioSourceCommit": "953b3c96facb1adf3ed069f045e54ec275208330"
+    },
+    "ZH_HSK1_SC025": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC025_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "24c2939912f3a8e149ed3f51ccf5b85095f814544414761cc494f80cfab64c70",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -428,7 +441,9 @@
     "noteTr": "1300 yeni ses eşleşmesi mevcut altı seviyeli paket biçimine kayıpsız birleştirildi; diğer 28700 mapping, metadata ve ses baytları korundu. 30000 mapping ve ses kapsayıcıları doğrulandı. Paket yerelde hazır; uygulamaya kurulum, dinleme ve cihaz kontrolleri bekliyor. APK/release başlatılmadı.",
     "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC013_AUDIO_MERGE_R1.json"
   },
-  "nextVoiceBatchSceneIds": [],
+  "nextVoiceBatchSceneIds": [
+    "ZH_HSK1_SC025"
+  ],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",

@@ -1409,6 +1409,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC025": {
+      "imageSha256": "24c2939912f3a8e149ed3f51ccf5b85095f814544414761cc494f80cfab64c70",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张乐乐": [
+          0.358,
+          0.45
+        ],
+        "刘梅": [
+          0.289,
+          0.194
+        ],
+        "老师": [
+          0.64,
+          0.332
+        ],
+        "同学": [
+          0.782,
+          0.478
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
