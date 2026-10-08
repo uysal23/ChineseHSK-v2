@@ -949,6 +949,442 @@
         }
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC023": {
+      "imageSha256": "55d267a019225cc4e108497d413c19c0d3bcb5fbdcefa4326c1734f9f70b9902",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "老师": [
+          0.641,
+          0.292
+        ],
+        "张雨桐": [
+          0.45,
+          0.348
+        ]
+      },
+      "personAnchors": {
+        "老师": [
+          0.641,
+          0.292
+        ],
+        "张雨桐": [
+          0.45,
+          0.348
+        ],
+        "CLASSMATE_GIRL": [
+          0.227,
+          0.379
+        ],
+        "CLASSMATE_BOY": [
+          0.84,
+          0.349
+        ]
+      },
+      "dialogueAnchors": {
+        "DLG_ZH_HSK1_SC023_001": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_002": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_003": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_004": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_005": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_006": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_007": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_008": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_009": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_010": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_011": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_012": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_013": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_014": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_015": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_016": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_017": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_018": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_019": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_020": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_021": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_022": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_023": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_024": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_025": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_026": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_027": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_028": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_029": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_030": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_031": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_032": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_033": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_034": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_035": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_036": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_037": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_038": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_039": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_040": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_041": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_042": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_043": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_044": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_045": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_046": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_047": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_048": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_049": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_050": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_051": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_052": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_053": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_054": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_055": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_056": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_057": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_058": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_059": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_060": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_061": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_062": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_063": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_064": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_065": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_066": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_067": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_068": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_069": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_070": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_071": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_072": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_073": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_074": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_075": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_076": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_077": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_078": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_079": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_080": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_081": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_082": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_083": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_084": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_085": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_086": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_087": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_088": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_089": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_090": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_091": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_092": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_093": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_094": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_095": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_096": {
+          "speaker": "老师",
+          "personKey": "老师"
+        },
+        "DLG_ZH_HSK1_SC023_097": {
+          "speaker": "张雨桐",
+          "personKey": "张雨桐"
+        },
+        "DLG_ZH_HSK1_SC023_098": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_GIRL"
+        },
+        "DLG_ZH_HSK1_SC023_099": {
+          "speaker": "同学",
+          "personKey": "CLASSMATE_BOY"
+        },
+        "DLG_ZH_HSK1_SC023_100": {
+          "speaker": "老师",
+          "personKey": "老师"
+        }
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
