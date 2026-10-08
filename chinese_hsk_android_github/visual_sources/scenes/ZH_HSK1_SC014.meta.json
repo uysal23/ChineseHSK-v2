@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC014",
   "generationSceneId": "ZH_HSK1_SC014",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC014.json",
-  "dialogueSha256": "925eea1c1277a9fca1770ef409f90d88bef47a422cf1be81471f5bb2a3022c6f",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC014.json",
+  "dialogueSha256": "1a258bbe57783752e7276feb846a0f57fbd8a2810f62846629eb4d057a91ba9a",
   "titleTr": "Kapı Çalıyor",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Yeni komşu aileye hoş geldiniz demeye gelir.",
@@ -29,14 +29,16 @@
     "previousSceneId": "ZH_HSK1_SC013",
     "nextSceneId": "ZH_HSK1_SC015"
   },
-  "sourceGeneratedFilename": "yeni_komşuyla_sıcak_karşılama.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC014_R1.png",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC014.webp",
   "image": {
     "width": 941,
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "4b95fd8fc7c32443e252d1fa48206c75cb8d3239fb44154d89ce2a0d6f688de6"
+    "sha256": "abf8b69885332e2209164de7ba2bbe68fdfe4d9079f2ad5376278bd50c81bcdc",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,39 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "finalAssetFilename": "ZH_HSK1_SC014.webp"
+  "finalAssetFilename": "ZH_HSK1_SC014.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "abf8b69885332e2209164de7ba2bbe68fdfe4d9079f2ad5376278bd50c81bcdc",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "刘梅": [
+        0.549,
+        0.267
+      ],
+      "张伟": [
+        0.3,
+        0.201
+      ],
+      "邻居": [
+        0.817,
+        0.258
+      ],
+      "张乐乐": [
+        0.281,
+        0.474
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC014 kanonik aile ve komşu tanışması; yalnızca dört konuşmacı. Komşunun önceki kısa saç/mor hırka kimliği korundu. Liu Mei saç topuzu ve aynı akşam dış ışığı SC013 ile eşleşti. Ağızlar adlarıyla gözle eşlendi; çay ikramı SC015 için açık bırakıldı.",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC014 kanonik aile ve komşu tanışması; yalnızca dört konuşmacı. Komşunun önceki kısa saç/mor hırka kimliği korundu. Liu Mei saç topuzu ve aynı akşam dış ışığı SC013 ile eşleşti. Ağızlar adlarıyla gözle eşlendi; çay ikramı SC015 için açık bırakıldı."
+  }
 }

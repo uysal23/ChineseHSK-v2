@@ -18,9 +18,10 @@
     "ZH_HSK1_SC011",
     "ZH_HSK1_SC012",
     "ZH_HSK1_SC013",
+    "ZH_HSK1_SC014",
     "ZH_HSK4_SC001"
   ],
-  "textRevisedSceneCount": 14,
+  "textRevisedSceneCount": 15,
   "audioRegeneratedSceneIds": [],
   "mouthAnchorCalibratedSceneIds": [
     "ZH_HSK1_SC001",
@@ -35,9 +36,10 @@
     "ZH_HSK1_SC010",
     "ZH_HSK1_SC011",
     "ZH_HSK1_SC012",
-    "ZH_HSK1_SC013"
+    "ZH_HSK1_SC013",
+    "ZH_HSK1_SC014"
   ],
-  "nextTextSceneId": "ZH_HSK1_SC014",
+  "nextTextSceneId": "ZH_HSK1_SC015",
   "apkStatus": "WAITING_FOR_USER_APPROVAL",
   "constraints": {
     "simplifiedChinese": true,
@@ -222,6 +224,17 @@
       "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
       "changedTurnCount": 100,
       "audioRunUrl": "https://github.com/uysal23/ChineseHSK-v2/actions/runs/37692980413"
+    },
+    "ZH_HSK1_SC014": {
+      "textStatus": "PASS",
+      "qaReport": "docs/dialogue_naturalization/reviews/ZH_HSK1_SC014_R1.json",
+      "audioStatus": "PENDING_EXISTING_PIPELINE",
+      "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+      "visualCastStatus": "EXACT_PRODUCTION_CAST_MODEL_QA_PASS",
+      "visualImageSha256": "abf8b69885332e2209164de7ba2bbe68fdfe4d9079f2ad5376278bd50c81bcdc",
+      "bubbleRuntimeStatus": "SOURCE_IMPLEMENTED_RUNTIME_TEST_PENDING",
+      "gestureCueStatus": "AUTHORED_RENDERING_PENDING",
+      "changedTurnCount": 100
     }
   },
   "sceneProcessingOrder": "HSK1_SC001_TO_HSK6_SC050",
@@ -247,7 +260,9 @@
     "noteTr": "İlk sekiz HSK1 sahnesi için 800 metin/konuşmacı/profil eşleşmesi doğrulandı; mevcut altı seviyeli paket biçimiyle kayıpsız birleştirme doğrulandı. 29200 diğer mapping ve ses baytları korundu. Birleşik paket yerelde hazır, kurulum/dinleme/cihaz kontrolleri bekliyor. SC009–SC013 mevcut ses hattı 37692980413 üzerinde çalışıyor. APK veya release başlatılmadı.",
     "qaReport": "docs/dialogue_naturalization/reviews/HSK1_SC001_SC008_AUDIO_MERGE_R1.json"
   },
-  "nextVoiceBatchSceneIds": [],
+  "nextVoiceBatchSceneIds": [
+    "ZH_HSK1_SC014"
+  ],
   "audioGeneratedArtifactSceneIds": [
     "ZH_HSK1_SC001",
     "ZH_HSK1_SC002",

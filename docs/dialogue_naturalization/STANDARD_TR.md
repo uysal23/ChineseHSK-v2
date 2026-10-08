@@ -126,3 +126,6 @@ SC013 güncellemesi: 14/300 metin, 13/300 adla ağız kalibrasyonu. Mimi aynı a
 
 
 Ses SC001–SC008: 37685297985 işi başarılı; 800 repliğin normalize metin/konuşmacı/profil/anahtar ve Opus kapsayıcı eşleşmesi doğrulandı. Altı seviyeli mevcut ses paketi biçimine kayıpsız birleştirme, diğer 29200 mapping ve dosya baytları korunarak doğrulandı. Kurulum ve dinleme beklediği için tamamlanan ses sahnesi sayısı artırılmadı. SC009–SC013 ses üretimi 37692980413 başladı; publish_release=false. Otomatik devam 10 dakika. Metin sırası SC014, APK başlatılmadı.
+
+
+SC014 güncellemesi: 15/300 metin, 14/300 adla ağız kalibrasyonu. Aynı akşam komşu ziyareti, sıcak tanışma, aile/kedi konuşması ve misafiri oturtma işlendi. Komşunun adı uydurulmadı, çay/su SC015 için açık bırakıldı. Ses SC009–SC013 işi çalışıyor; SC014 sonraki üretimde bekliyor. Kurulum/dinleme/cihaz testi bekliyor. APK/yeni release başlatılmadı. Sıradaki HSK1 SC015.
