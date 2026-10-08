@@ -149,9 +149,9 @@ private fun rememberAssetBitmap(path: String): ImageBitmap? {
 }
 
 @Composable
-private fun rememberCalibratedMouthAnchors(sceneId: String): Map<String, Pair<Float, Float>> {
+private fun rememberCalibratedMouthAnchors(sceneId: String, dialogueId: String?, speaker: String): Map<String, Pair<Float, Float>> {
     val context = LocalContext.current
-    return remember(sceneId) {
+    return remember(sceneId, dialogueId, speaker) {
         runCatching {
             val manifest = context.assets.open("chinese_course/speaker_mouth_anchors.json")
                 .bufferedReader().use { JSONObject(it.readText()) }
@@ -161,6 +161,16 @@ private fun rememberCalibratedMouthAnchors(sceneId: String): Map<String, Pair<Fl
             val hash = MessageDigest.getInstance("SHA-256").digest(art)
                 .joinToString("") { "%02x".format(it.toInt() and 0xff) }
             if (hash != entry.getString("imageSha256")) return@runCatching emptyMap<String, Pair<Float, Float>>()
+            val bindings = entry.optJSONObject("dialogueAnchors")
+            if (bindings != null) {
+                val binding = dialogueId?.let { bindings.optJSONObject(it) }
+                    ?: return@runCatching emptyMap<String, Pair<Float, Float>>()
+                if (binding.optString("speaker") != speaker) return@runCatching emptyMap<String, Pair<Float, Float>>()
+                val point = entry.getJSONObject("personAnchors").getJSONArray(binding.getString("personKey"))
+                val x = point.getDouble(0).toFloat()
+                val y = point.getDouble(1).toFloat()
+                return@runCatching if (x in 0f..1f && y in 0f..1f) mapOf(speaker to (x to y)) else emptyMap<String, Pair<Float, Float>>()
+            }
             val anchors = entry.getJSONObject("anchors")
             buildMap {
                 for (name in anchors.keys()) {
@@ -479,6 +489,7 @@ fun SceneStage(
     location: LocationProfile?,
     characterProfiles: Map<String, CharacterProfile>,
     activeSpeaker: String,
+    activeDialogueId: String?,
     isSpeaking: Boolean,
     dialogueZh: String,
     dialoguePinyin: String,
@@ -578,7 +589,7 @@ fun SceneStage(
             }
 
         }
-        val namedMouthAnchors = rememberCalibratedMouthAnchors(scene.id)
+        val namedMouthAnchors = rememberCalibratedMouthAnchors(scene.id, activeDialogueId, activeSpeaker)
         val activeMouthAnchor = namedMouthAnchors[activeSpeaker]
         if (
             isSpeaking && sceneArtBitmap != null &&

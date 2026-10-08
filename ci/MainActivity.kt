@@ -719,6 +719,7 @@ private fun SceneScreen(
             location = location,
             characterProfiles = characterProfiles,
             activeSpeaker = current?.speaker.orEmpty(),
+            activeDialogueId = activeAudioDialogueId,
             isSpeaking = speakingNow && activeAudioDialogueId == current?.id && !narratorPlaying,
             dialogueZh = current?.zh.orEmpty(),
             dialoguePinyin = current?.pinyin.orEmpty(),
