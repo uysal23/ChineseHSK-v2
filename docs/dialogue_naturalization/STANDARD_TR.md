@@ -140,3 +140,5 @@ SC015 güncellemesi: 16/300 metin, 15/300 adla ağız kalibrasyonu. Çay/su terc
 SC014–SC015 sesleri aynı Kokoro iş akışında üretiliyor: https://github.com/uysal23/ChineseHSK-v2/actions/runs/37801632600 (kaynak b3bf50f4fdaafb0ac52df94794d0c91f9a6ab2b1). Üretim, eşleşme denetimi ve uygulama entegrasyonu tamamlanmış sayılmadı. APK ve release başlatılmadı.
 
 SC016 güncellemesi: 17/300 metin, 16/300 adla ağız kalibrasyonu. Ertesi sabah market yönleri, güvenli cadde geçişi, dönüşte yönlerin değişmesi ve küçük rehber rolü doğal karşılıklı konuşmayla işlendi. SC017 market alışverişi sonraki sahnedir. SC014–SC015 ses işi 37801632600 sürüyor, SC016 ses üretimi bekliyor. Kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
+
+SC017 güncellemesi: 18/300 metin, 17/300 adla ağız kalibrasyonu. İlk market alışverişi; miktar, ürün fiyatı, liste ve Lele tarafından eklenen fazla atıştırmalık doğal tepki zinciriyle işlendi. Bir paket geri bırakılır, ödeme SC018’e bırakılır. Kanonik anne topuzu ve dört ağız doğrulandı. SC014–SC015 ses işi 37801632600 sürüyor; SC016–SC017 mevcut ses üretimi bekliyor. Kurulum/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.

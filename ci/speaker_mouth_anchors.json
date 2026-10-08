@@ -393,6 +393,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC017": {
+      "imageSha256": "cf29362dd252b86e2cbcac6afc0c44fe3c621c39b26c6db6a456fe4eb877f112",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "刘梅": [
+          0.576,
+          0.282
+        ],
+        "张伟": [
+          0.294,
+          0.208
+        ],
+        "张乐乐": [
+          0.506,
+          0.465
+        ],
+        "店员": [
+          0.831,
+          0.271
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
