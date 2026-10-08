@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC015",
   "generationSceneId": "ZH_HSK1_SC015",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC015.json",
-  "dialogueSha256": "fc590fc4c5568772313a0ee097af4a484719b18c7ff2620c612928f36fc9cef5",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC015.json",
+  "dialogueSha256": "e2620f1899507eef2ea6abc9d84f82255b19793e62a155341d3b76c0b2d4912b",
   "titleTr": "Komşuya Çay",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Liu Mei komşuya çay veya su ikram eder.",
@@ -30,14 +30,16 @@
     "previousSceneId": "ZH_HSK1_SC014",
     "nextSceneId": "ZH_HSK1_SC016"
   },
-  "sourceGeneratedFilename": "yeni_evde_çay_sohbeti.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC015_R1.png",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC015.webp",
   "image": {
     "width": 941,
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "b5e4dbab25109485ce691a1278c14371432dbd66fa6c4566d056c36aa1f0ada2"
+    "sha256": "4ea77420bb34bc424aefd83a2fca2e61547ab315f942bc5964a0aca2947a7aba",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-07"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +59,39 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "finalAssetFilename": "ZH_HSK1_SC015.webp"
+  "finalAssetFilename": "ZH_HSK1_SC015.webp",
+  "mouthAnchorCalibration": {
+    "imageSha256": "4ea77420bb34bc424aefd83a2fca2e61547ab315f942bc5964a0aca2947a7aba",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "刘梅": [
+        0.645,
+        0.314
+      ],
+      "邻居": [
+        0.845,
+        0.36
+      ],
+      "张伟": [
+        0.367,
+        0.222
+      ],
+      "张乐乐": [
+        0.217,
+        0.486
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "qaNoteTr": "SC015 同一晚间的邻居茶水招待。四位实际说话者身份、母亲发髻、邻居短发紫衣与SC014一致。茶壶落在桌面，儿童喝清水，嘴部可见。模型视觉检查，未进行设备或母语人工检查。",
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC015 同一晚间的邻居茶水招待。四位实际说话者身份、母亲发髻、邻居短发紫衣与SC014一致。茶壶落在桌面，儿童喝清水，嘴部可见。模型视觉检查，未进行设备或母语人工检查。"
+  }
 }
