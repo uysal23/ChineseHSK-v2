@@ -168,3 +168,5 @@ SC020–SC024 sesleri aynı Kokoro iş akışında üretiliyor: https://github.c
 SC025: 26/300 metin, 25/300 adla ağız kalibrasyonu. Mavi kalem yanlış anlaşılması kendi çantasında kırmızı işaretli kalemi bulma, özür ve barışma ile çözülür. Anne ders çıkışı almaya gelir. SC024 kimlikleri korunur; yanlış kız Lele ve kolaj kaldırılır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 Ses SC001–SC024: 37827114424 işi başarılı. 2400 replik normalize metin/konuşmacı/kast/profil/anahtar ve gerçek Opus kapsayıcılarıyla doğrulandı. Kaynak 953b3c96facb1adf3ed069f045e54ec275208330. Kurulum/dinleme/cihaz testi bekliyor, tamamlanan ses sahnesi sayısı artırılmadı. SC025 ve sonrası sonraki mevcut hat üretimi bekliyor. APK/release başlatılmadı.
+
+SC026: 27/300 metin, 26/300 adla ağız kalibrasyonu. İş ilanlarını değerlendirme, kendi/ofis numaralarını ayırma ve karşılıklı telefon yanıtlarına hazırlık. Gerçek arama SC027; iş kabulü varsayılmaz. Anne kanonik low bun düzeltildi. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.

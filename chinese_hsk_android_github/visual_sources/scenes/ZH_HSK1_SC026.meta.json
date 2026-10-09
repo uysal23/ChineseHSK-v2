@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC026",
   "generationSceneId": "ZH_HSK1_SC026",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC026.json",
-  "dialogueSha256": "49036e684e1f40f32730d08951ecdeb760cc6c8aa012e99357aa4a9087937fbf",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC026.json",
+  "dialogueSha256": "dff0f8cb0fd6899c75777e34fd1e920442761b20e590dbc33f2df2a4e9d4ae74",
   "titleTr": "Zhang Wei İş Aramaya Başlıyor",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Zhang Wei iş aramaya başlar; Li Chen, Liu Mei ve Zhang Yutong ile telefon üzerinden iş ve iletişim bilgilerini konuşur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC025",
     "nextSceneId": "ZH_HSK1_SC027"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC026.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC026_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC026.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC026.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "01eead224f4755ea3c65f015a20555d17288f9e9217b3e1caab1012ff11a858f"
+    "sha256": "c2319eec1838b1b8339d461d737c16f2c7c0ec234082bc7695f72b021d6b574f",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-09"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,5 +59,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Önceki SC026 reddedildi çünkü Lele yanlışlıkla görünüyordu. Bu revizyonda konuşan dört karakter eksiksizdir: 张伟, 李晨, 刘梅, 张雨桐. Lele yoktur."
+  "qaNoteTr": "SC026 tam dört kadro: Zhang Wei navy/light blue black glasses, Li Chen charcoal/brown thin glasses, Liu Mei cream/green pinned low bun, Yutong lilac yüksek ponytail. Anne saç kilidi düzeltildi. İş ilanı araştırma ve telefon hazırlığı; gerçek arama SC027. Model QA; native insan ve cihaz testi bekliyor.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "c2319eec1838b1b8339d461d737c16f2c7c0ec234082bc7695f72b021d6b574f",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.483,
+        0.465
+      ],
+      "李晨": [
+        0.252,
+        0.305
+      ],
+      "刘梅": [
+        0.583,
+        0.267
+      ],
+      "张雨桐": [
+        0.828,
+        0.379
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "binaryIntegrityChecked": true,
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC026 tam dört kadro: Zhang Wei navy/light blue black glasses, Li Chen charcoal/brown thin glasses, Liu Mei cream/green pinned low bun, Yutong lilac yüksek ponytail. Anne saç kilidi düzeltildi. İş ilanı araştırma ve telefon hazırlığı; gerçek arama SC027. Model QA; native insan ve cihaz testi bekliyor."
+  }
 }
