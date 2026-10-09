@@ -172,3 +172,5 @@ Ses SC001–SC024: 37827114424 işi başarılı. 2400 replik normalize metin/kon
 SC026: 27/300 metin, 26/300 adla ağız kalibrasyonu. İş ilanlarını değerlendirme, kendi/ofis numaralarını ayırma ve karşılıklı telefon yanıtlarına hazırlık. Gerçek arama SC027; iş kabulü varsayılmaz. Anne kanonik low bun düzeltildi. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 SC027: 28/300 metin, 27/300 adla ağız kalibrasyonu. İş ilanlarını değerlendirme, kendi/ofis numaralarını ayırma ve karşılıklı telefon yanıtlarına hazırlık. Gerçek tek arama 98’de biter, yarın 09.30 görüşme randevusu alınır; iş kabulü varsayılmaz. SC028 kıyafet hazırlığına bağlanır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
+
+SC028: 29/300 metin, 28/300 adla ağız kalibrasyonu. Rahat mavi gömlek seçimi, yaka ve kol düğmesi kontrolü; SC029 gerçek görüşme. Model incelemesi; ses entegrasyonu, native insan ve cihaz kontrolleri bekliyor. APK/release başlatılmadı.
