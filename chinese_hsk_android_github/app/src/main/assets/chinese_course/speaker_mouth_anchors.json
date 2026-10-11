@@ -2469,6 +2469,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC035": {
+      "imageSha256": "9f80f941800a0b9cfea1408c325b4d34aaaafd72480e1d2e21500a8dca47f36b",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.218,
+          0.249
+        ],
+        "刘梅": [
+          0.364,
+          0.288
+        ],
+        "李晨": [
+          0.67,
+          0.234
+        ],
+        "李晨妻子": [
+          0.843,
+          0.285
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

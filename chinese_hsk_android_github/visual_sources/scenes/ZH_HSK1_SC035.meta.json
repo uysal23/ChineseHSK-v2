@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC035",
   "generationSceneId": "ZH_HSK1_SC035",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC035.json",
-  "dialogueSha256": "5e8690f284bb02808496964eceae1fac15ed64afb716d6869b31fc307318bf0d",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC035.json",
+  "dialogueSha256": "b86ee0e82319c4fb12b063b4317cf27267ab68a241e19f0c817abf8c3d97ba8e",
   "titleTr": "Li Chen'in Ailesi Misafirlikte",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Li Chen ve eşi Zhang ailesine misafirliğe gelir; aile sıcak biçimde karşılar.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC034",
     "nextSceneId": "ZH_HSK1_SC036"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC035.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC035_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC035.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC035.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "5b04e6e3525488dcc65a8ac34ced1ac6e4ab385cff904ca98d0166ec432fcbf8"
+    "sha256": "9f80f941800a0b9cfea1408c325b4d34aaaafd72480e1d2e21500a8dca47f36b",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,6 +59,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC035 ilk ev yemeği: dört yetişkin Zhang navy/lightblue/kravatsız, Liu Mei cream/green/low bun, Li Chen charcoal/brown/gözlük, eşi kısa bob/rust cardigan. Çocuklar yan odada kadraj dışında. Dört isim gerçek ağız konumlarıyla eşleşir. SC036 paylaşma sahnesine geçiş. Model incelemesi; insan/cihaz bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "9f80f941800a0b9cfea1408c325b4d34aaaafd72480e1d2e21500a8dca47f36b",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.218,
+        0.249
+      ],
+      "刘梅": [
+        0.364,
+        0.288
+      ],
+      "李晨": [
+        0.67,
+        0.234
+      ],
+      "李晨妻子": [
+        0.843,
+        0.285
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC035 ilk ev yemeği: dört yetişkin Zhang navy/lightblue/kravatsız, Liu Mei cream/green/low bun, Li Chen charcoal/brown/gözlük, eşi kısa bob/rust cardigan. Çocuklar yan odada kadraj dışında. Dört isim gerçek ağız konumlarıyla eşleşir. SC036 paylaşma sahnesine geçiş. Model incelemesi; insan/cihaz bekliyor."
+  }
 }

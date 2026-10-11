@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC035",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 13,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.35,
+  "meanNewZhLength": 18.73,
+  "continuityNoteTr": "SC034 kaçırılan otobüsten sonraki eve dönüş tamamlandı; aynı akşam iki aile ilk ev yemeğinde yakınlaşır. Dört yetişkin konuşur; çocuklar yan odada ve bu görselde görünmez. SC036 aynı oyuncağı paylaşma sorunu için geçiş; Yutong tek bakıcı sayılmaz. Pasta yemekten sonra paylaşılmak üzere kenarda, fincan ve yemek masası evde.",
+  "lengthDeviationPercent": 194.96,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
