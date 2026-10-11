@@ -216,3 +216,5 @@ SC044: 45/300 metin,44/300 ağız kalibrasyonu. Lele aile çizimini sınıfta an
 SC045: 46/300 metin,45/300 ağız kalibrasyonu. İlk maaş sonrası ihtiyaç parası ayrılır, küçük aile yemeği planlanır ve restoran yeri doğrulanır. Canonical aile düzeltildi; dört gerçek ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC046: 47/300 metin,46/300 ağız kalibrasyonu. Liu Mei komşusuna kek ve çay sunar, küçük parça eve götürülür; satış yapılmaz. Canonical ebeveynler ve küçük oğlan Lele düzeltildi; dört gerçek ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC047: 48/300 metin,47/300 ağız kalibrasyonu. Li Chen eşi ilk kek iş fikrini önerir; süre/maliyet/aile düzeni araştırılacak, sipariş ve ödeme alınmaz. Dört canonical yetişkin ve gerçek ağızları doğrulandı. Ses/insan/cihaz bekliyor; APK/release yok.

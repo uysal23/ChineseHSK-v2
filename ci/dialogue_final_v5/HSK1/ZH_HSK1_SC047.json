@@ -1,9 +1,9 @@
 {
-  "naturalizationVersion": 5,
-  "status": "FINAL",
+  "naturalizationVersion": 13,
+  "status": "FINAL_NATIVE_RELEASE_CANDIDATE_V13",
   "sceneId": "ZH_HSK1_SC047",
   "level": "HSK1",
-  "sceneCategory": "food",
+  "sceneCategory": "work",
   "sourceTitleZh": "一个小小的想法",
   "sourceTitleTr": "Küçük Bir Fikir",
   "sourceMiniAdventureTr": "Li Chen’in eşi Liu Mei’nin yiyecek satabileceğini söyler; ilk iş fikri doğar.",
@@ -11,702 +11,721 @@
     {
       "id": "DLG_ZH_HSK1_SC047_001",
       "speaker": "刘梅",
-      "zh": "大家在说刘梅的蛋糕。",
-      "pinyin": "Dàjiā zài shuō liúméi de dàngāo.",
-      "tr": "Herkes Liu Mei’nin keklerinden konuşuyor."
+      "zh": "你们也听说昨天的蛋糕了？我只是做给邻居尝尝。",
+      "pinyin": "Nǐ men yě tīng shuō zuó tiān de dàn gāo le? wǒ zhǐ shì zuò gěi lín jū cháng cháng.",
+      "tr": "Siz de dünkü keki duydunuz mu? Yalnızca komşuya tattırmak için yapmıştım.",
+      "emotion": "curious",
+      "actionTr": "Liu Mei komşu için yaptığı kekin konuşulduğunu öğrenir."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_002",
       "speaker": "张伟",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "她今天还说味道很好，带回去的家人也喜欢。",
+      "pinyin": "Tā jīn tiān hái shuō wèi dào hěn hǎo, dài huí qù de jiā rén yě xǐ huan.",
+      "tr": "Bugün yine güzel olduğunu söyledi; eve götürdüğü parçayı ailesi de sevmiş."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_003",
       "speaker": "李晨妻子",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "我正想问你，会不会考虑做一点给更多人？",
+      "pinyin": "Wǒ zhèng xiǎng wèn nǐ, huì bú huì kǎo lǜ zuò yì diǎn gěi gèng duō rén?",
+      "tr": "Ben de soracaktım; daha fazla kişi için biraz yapmayı düşünür müsün?"
     },
     {
       "id": "DLG_ZH_HSK1_SC047_004",
       "speaker": "李晨",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "先听她说，不用一下把事情定下来。",
+      "pinyin": "Xiān tīng tā shuō, bù yòng yī xià bǎ shì qíng dìng xià lái.",
+      "tr": "Önce onu dinleyelim; hemen karar vermek gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_005",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "给更多人？你是说请朋友来吃，还是别的？",
+      "pinyin": "Gěi gèng duō rén? nǐ shì shuō qǐng péng yǒu lái chī, hái shì bié de?",
+      "tr": "Daha fazla kişi için mi? Arkadaşları çağırmayı mı, başka bir şeyi mi kastediyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC047_006",
       "speaker": "张伟",
-      "zh": "这是想法吧？",
-      "pinyin": "Zhèshì xiǎngfǎ ba?",
-      "tr": "Bu, fikir mı?"
+      "zh": "她可能有个新的想法，我们先弄清楚。",
+      "pinyin": "Tā kě néng yǒu gè xīn de xiǎng fǎ, wǒ men xiān nòng qīng chǔ.",
+      "tr": "Belki yeni bir fikri vardır; önce anlayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_007",
       "speaker": "李晨妻子",
-      "zh": "没错，是想法。",
-      "pinyin": "Méicuò, shì xiǎngfǎ.",
-      "tr": "Evet, bu fikir."
+      "zh": "我在想，你做的蛋糕这么好，也许可以试着卖一点。",
+      "pinyin": "Wǒ zài xiǎng, nǐ zuò de dàn gāo zhè me hǎo, yě xǔ kě yǐ shì zhe mài yì diǎn.",
+      "tr": "Keklerin böyle güzelse belki az miktarda satmayı deneyebilirsin diye düşündüm."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_008",
       "speaker": "李晨",
-      "zh": "想法呢？",
-      "pinyin": "Xiǎngfǎ ne?",
-      "tr": "Fikir nerede?"
+      "zh": "是一个想法，不是说现在就要开始工作。",
+      "pinyin": "Shì yí gè xiǎng fǎ, bú shì shuō xiàn zài jiù yào kāi shǐ gōng zuò.",
+      "tr": "Bu bir fikir; hemen işe başlaman gerektiği anlamına gelmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_009",
       "speaker": "刘梅",
-      "zh": "你看，就在这儿。",
-      "pinyin": "Nǐ kàn, jiù zài zhèér.",
-      "tr": "Fikir burada."
+      "zh": "卖蛋糕我还没想过，做给家人和做给别人不一样。",
+      "pinyin": "Mài dàn gāo wǒ hái méi xiǎng guò, zuò gěi jiā rén hé zuò gěi bié rén bù yí yàng.",
+      "tr": "Kek satmayı hiç düşünmedim; aile için yapmakla başkaları için yapmak farklı.",
+      "emotion": "worried",
+      "actionTr": "Aileye yapmakla satmanın farklı olduğunu söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_010",
       "speaker": "张伟",
-      "zh": "你要蛋糕吗？",
-      "pinyin": "Nǐ yào dàngāo ma?",
-      "tr": "Kek / pasta ister misin?"
+      "zh": "对，不能因为大家说好吃，就觉得所有事都准备好了。",
+      "pinyin": "Duì, bù néng yīn wèi dà jiā shuō hǎo chī, jiù jué de suǒ yǒu shì dōu zhǔn bèi hǎo le.",
+      "tr": "Evet, herkes beğendi diye her şeyin hazır olduğunu düşünemeyiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_011",
       "speaker": "李晨妻子",
-      "zh": "我要蛋糕，谢谢。",
-      "pinyin": "Wǒyào dàngāo, xièxiè.",
-      "tr": "Kek / pasta istiyorum, teşekkürler."
+      "zh": "所以才想和你聊聊，看看你自己愿不愿意。",
+      "pinyin": "Suǒ yǐ cái xiǎng hé nǐ liáo liáo, kàn kàn nǐ zì jǐ yuàn bù yuàn yì.",
+      "tr": "Bu yüzden konuşmak istedim; senin isteyip istemediğine bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_012",
       "speaker": "李晨",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Olur."
+      "zh": "你不愿意也没关系，朋友之间提个建议。",
+      "pinyin": "Nǐ bù yuàn yì yě méi guān xì, péng yǒu zhī jiān tí gè jiàn yì.",
+      "tr": "İstemezsen sorun değil; arkadaşlar arasında bir öneri."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_013",
       "speaker": "刘梅",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我愿意了解一下，可现在不知道从哪里开始。",
+      "pinyin": "Wǒ yuàn yì liǎo jiě yī xià, kě xiàn zài bù zhī dào cóng nǎ lǐ kāi shǐ.",
+      "tr": "Biraz öğrenmek isterim ama nereden başlayacağımı bilmiyorum.",
+      "emotion": "curious",
+      "actionTr": "Öğrenmek ister ama başlangıcı bilmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_014",
       "speaker": "张伟",
-      "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
-      "tr": "İş mi arıyorsun?"
+      "zh": "那先写下要弄清楚的事情，不急着买东西。",
+      "pinyin": "Nà xiān xiě xià yào nòng qīng chǔ de shì qíng, bù jí zhe mǎi dōng xi.",
+      "tr": "O zaman öğrenilecekleri yazalım; eşya almak için acele etmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_015",
       "speaker": "李晨妻子",
-      "zh": "对。",
-      "pinyin": "Duì.",
-      "tr": "Evet."
+      "zh": "先想你有多少时间，再看你想做哪一种。",
+      "pinyin": "Xiān xiǎng nǐ yǒu duō shǎo shí jiān, zài kàn nǐ xiǎng zuò nǎ yī zhǒng.",
+      "tr": "Önce ne kadar zamanın olduğuna, sonra ne yapmak istediğine bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_016",
       "speaker": "李晨",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "还有家里的安排，别让一个人突然忙不过来。",
+      "pinyin": "Hái yǒu jiā lǐ de ān pái, bié ràng yí gè rén tū rán máng bù guò lái.",
+      "tr": "Bir de evin düzeni var; bir kişiye birden yetişemeyeceği yük gelmesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_017",
       "speaker": "刘梅",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "昨天那个做得顺，是因为我提前准备，也只做了一个。",
+      "pinyin": "Zuó tiān nà ge zuò de shùn, shì yīn wèi wǒ tí qián zhǔn bèi, yě zhǐ zuò le yí gè.",
+      "tr": "Dünkü rahat oldu çünkü önceden hazırlandım ve yalnızca bir tane yaptım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_018",
       "speaker": "张伟",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "如果一下做很多，材料和时间都要重新算。",
+      "pinyin": "Rú guǒ yī xià zuò hěn duō, cái liào hé shí jiān dōu yào chóng xīn suàn.",
+      "tr": "Birden çok yaparsan malzeme ve süreyi yeniden hesaplamalısın."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_019",
       "speaker": "李晨妻子",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "那就不用一开始想很多种，先看自己最熟的。",
+      "pinyin": "Nà jiù bù yòng yī kāi shǐ xiǎng hěn duō zhǒng, xiān kàn zì jǐ zuì shú de.",
+      "tr": "O zaman başta pek çok çeşit düşünmeyelim; en iyi bildiğine bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_020",
       "speaker": "李晨",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "我们今天先聊，不让你今晚又去做一批。",
+      "pinyin": "Wǒ men jīn tiān xiān liáo, bù ràng nǐ jīn wǎn yòu qù zuò yī pī.",
+      "tr": "Bugün konuşalım; bu akşam hemen bir parti daha yaptırmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_021",
       "speaker": "刘梅",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "这样我比较安心，我怕你们已经替我答应别人了。",
+      "pinyin": "Zhè yàng wǒ bǐ jiào ān xīn, wǒ pà nǐ men yǐ jīng tì wǒ dā yìng bié rén le.",
+      "tr": "Böyle içim rahat; başkalarına benim adıma söz verdiğinizden korktum.",
+      "emotion": "worried",
+      "actionTr": "Kendi adına söz verildiğinden korktuğunu açıklar."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_022",
       "speaker": "张伟",
-      "zh": "朋友说她可以卖这些蛋糕。",
-      "pinyin": "Péngyǒu shuō tā kěyǐ mài zhèxiē dàngāo.",
-      "tr": "Arkadaşı bu kekleri satabileceğini söylüyor."
+      "zh": "没有，做不做由你决定，我们没有接任何东西。",
+      "pinyin": "Méi yǒu, zuò bù zuò yóu nǐ jué dìng, wǒ men méi yǒu jiē rèn hé dōng xi.",
+      "tr": "Hayır, yapıp yapmayacağına sen karar verirsin; hiçbir sipariş almadık."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_023",
       "speaker": "李晨妻子",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "我也没跟人说你已经在卖，只说想问问你。",
+      "pinyin": "Wǒ yě méi gēn rén shuō nǐ yǐ jīng zài mài, zhǐ shuō xiǎng wèn wèn nǐ.",
+      "tr": "Ben de kimseye satış yaptığını söylemedim; sana sormak istediğimi söyledim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_024",
       "speaker": "李晨",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "先有想法，再慢慢了解，顺序不能倒过来。",
+      "pinyin": "Xiān yǒu xiǎng fǎ, zài màn màn liǎo jiě, shùn xù bù néng dào guò lái.",
+      "tr": "Önce fikir olur, sonra öğrenilir; sıralamayı ters çevirmemeli."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_025",
       "speaker": "刘梅",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "如果真的要试，钱也要算，不能只看材料。",
+      "pinyin": "Rú guǒ zhēn de yào shì, qián yě yào suàn, bù néng zhǐ kàn cái liào.",
+      "tr": "Gerçekten deneyeceksem parayı da hesaplamalıyım; yalnızca malzemeyi değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_026",
       "speaker": "张伟",
-      "zh": "行。",
-      "pinyin": "Xíng.",
-      "tr": "Tamam."
+      "zh": "对，还有花的时间、用的东西，都记下来。",
+      "pinyin": "Duì, hái yǒu huā de shí jiān, yòng de dōng xi, dōu jì xià lái.",
+      "tr": "Evet; harcadığın süreyi ve kullandıklarını da kaydet."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_027",
       "speaker": "李晨妻子",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "价钱不用今天就定，我也不想随便给你一个数。",
+      "pinyin": "Jià qián bù yòng jīn tiān jiù dìng, wǒ yě bù xiǎng suí biàn gěi nǐ yí gè shù.",
+      "tr": "Fiyatı bugün belirlemek gerekmez; sana rastgele bir sayı söylemek istemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_028",
       "speaker": "李晨",
-      "zh": "你好，来这边吧。",
-      "pinyin": "Nǐhǎo, lái zhèbiān ba.",
-      "tr": "Merhaba!"
+      "zh": "先知道做一次实际用了什么，才有话可以讨论。",
+      "pinyin": "Xiān zhī dào zuò yī cì shí jì yòng le shén me, cái yǒu huà kě yǐ tǎo lùn.",
+      "tr": "Bir seferde gerçekten neler kullandığını öğrenelim; sonra konuşabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_029",
       "speaker": "刘梅",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "我昨天没有把每样都记清楚，只记得大概。",
+      "pinyin": "Wǒ zuó tiān méi yǒu bǎ měi yàng dōu jì qīng chǔ, zhǐ jì de dà gài.",
+      "tr": "Dün her şeyi kaydetmedim; yalnızca yaklaşık hatırlıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_030",
       "speaker": "张伟",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "那可以从记录开始，不用先说自己算不好。",
+      "pinyin": "Nà kě yǐ cóng jì lù kāi shǐ, bù yòng xiān shuō zì jǐ suàn bù hǎo.",
+      "tr": "O zaman kayıt tutarak başla; hesap yapamadığını söylemene gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_031",
       "speaker": "李晨妻子",
-      "zh": "这是钱吧？",
-      "pinyin": "Zhè shì qián ba?",
-      "tr": "Bu, para mı?"
+      "zh": "用一张纸分开记，材料和时间不要混在一起。",
+      "pinyin": "Yòng yī zhāng zhǐ fēn kāi jì, cái liào hé shí jiān bú yào hùn zài yì qǐ.",
+      "tr": "Bir kâğıtta ayrı yaz; malzeme ve zamanı karıştırma."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_032",
       "speaker": "李晨",
-      "zh": "嗯，对，这是钱。",
-      "pinyin": "En, duì, zhè shì qián.",
-      "tr": "Evet, bu para."
+      "zh": "写不清楚的地方我们可以一起看，不替你编。",
+      "pinyin": "Xiě bù qīng chǔ de dì fāng wǒ men kě yǐ yì qǐ kàn, bù tì nǐ biān.",
+      "tr": "Belirsiz yerleri birlikte inceleriz; senin yerine uydurmayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_033",
       "speaker": "刘梅",
-      "zh": "钱呢？",
-      "pinyin": "Qián ne?",
-      "tr": "Para nerede?"
+      "zh": "还有，如果给别人吃，保存和包装也要弄明白。",
+      "pinyin": "Hái yǒu, rú guǒ gěi bié rén chī, bǎo cún hé bāo zhuāng yě yào nòng míng bái.",
+      "tr": "Bir de başkalarına sunacaksam saklamayı ve ambalajı öğrenmeliyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_034",
       "speaker": "张伟",
-      "zh": "你看，钱在这儿。",
-      "pinyin": "Nǐ kàn, qián zài zhèér.",
-      "tr": "Para burada."
+      "zh": "是的，不能只想着做完就交出去。",
+      "pinyin": "Shì de, bù néng zhǐ xiǎng zhe zuò wán jiù jiāo chū qù.",
+      "tr": "Evet, yalnızca hazırlayıp teslim etmeyi düşünmemeli."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_035",
       "speaker": "李晨妻子",
-      "zh": "今天忙吗？",
-      "pinyin": "Jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "这些很重要，我们先找可靠的信息，再决定能不能做。",
+      "pinyin": "Zhè xiē hěn zhòng yào, wǒ men xiān zhǎo kě kào de xìn xī, zài jué dìng néng bù néng zuò.",
+      "tr": "Bunlar önemli; önce güvenilir bilgi bulup yapılıp yapılamayacağına karar verelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_036",
       "speaker": "李晨",
-      "zh": "有一点。",
-      "pinyin": "Yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "当地有什么要求也要查清楚，不是我们说可以就可以。",
+      "pinyin": "Dāng dì yǒu shén me yāo qiú yě yào chá qīng chǔ, bú shì wǒ men shuō kě yǐ jiù kě yǐ.",
+      "tr": "Yerel gereklilikleri de öğrenmeliyiz; bizim olur dememiz yeterli değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_037",
       "speaker": "刘梅",
-      "zh": "没关系，别急。",
-      "pinyin": "Méiguānxì, biéjí.",
-      "tr": "Sorun değil."
+      "zh": "听起来有不少事，但一件一件了解就没那么乱。",
+      "pinyin": "Tīng qǐ lái yǒu bù shǎo shì, dàn yī jiàn yī jiàn liǎo jiě jiù méi nà me luàn.",
+      "tr": "Yapılacak çok şey var gibi ama birer birer öğrenince karışmaz.",
+      "emotion": "comforting",
+      "actionTr": "Soruları birer birer araştırabileceğini fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_038",
       "speaker": "张伟",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jìxù ba.",
-      "tr": "Devam edelim."
+      "zh": "我们把问题列出来，今天不用每个都得到答案。",
+      "pinyin": "Wǒ men bǎ wèn tí liè chū lái, jīn tiān bù yòng měi gè dōu dé dào dá àn.",
+      "tr": "Soruları listeleyelim; hepsine bugün cevap bulmak gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_039",
       "speaker": "李晨妻子",
-      "zh": "这是新的，对吗？",
-      "pinyin": "Zhè shì xīn de, duì ma?",
-      "tr": "Bu, yeni mı?"
+      "zh": "对，我只是把这个可能性告诉你，不想让你觉得有压力。",
+      "pinyin": "Duì, wǒ zhǐ shì bǎ zhè ge kě néng xìng gào sù nǐ, bù xiǎng ràng nǐ jué de yǒu yā lì.",
+      "tr": "Evet, yalnızca bu olasılığı paylaşmak istedim; baskı hissetmeni istemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_040",
       "speaker": "李晨",
-      "zh": "嗯，对，这是新的。",
-      "pinyin": "En, duì, zhè shì xīn de.",
-      "tr": "Evet, bu yeni."
+      "zh": "你想过以后再告诉我们，也可以先不做。",
+      "pinyin": "Nǐ xiǎng guò yǐ hòu zài gào sù wǒ men, yě kě yǐ xiān bù zuò.",
+      "tr": "Düşündükten sonra anlatırsın; şimdilik yapmamayı da seçebilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_041",
       "speaker": "刘梅",
-      "zh": "那新的在哪儿？",
-      "pinyin": "Nàxīn de zài nǎér?",
-      "tr": "Yeni nerede?"
+      "zh": "我先不答应卖，但想把这个可能性记下来。",
+      "pinyin": "Wǒ xiān bù dā yìng mài, dàn xiǎng bǎ zhè ge kě néng xìng jì xià lái.",
+      "tr": "Şimdilik satışa söz vermeyeyim ama bu olasılığı yazmak isterim.",
+      "emotion": "neutral",
+      "actionTr": "Satış sözü vermeden fikri kaydeder."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_042",
       "speaker": "张伟",
-      "zh": "你看，新的在这儿。",
-      "pinyin": "Nǐ kàn, xīn de zài zhèér.",
-      "tr": "Yeni burada."
+      "zh": "那就写“了解一下”，不用写成已经开始。",
+      "pinyin": "Nà jiù xiě “ liǎo jiě yī xià ”, bù yòng xiě chéng yǐ jīng kāi shǐ.",
+      "tr": "O zaman “araştır” yazalım; başlamış gibi yazmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_043",
       "speaker": "李晨妻子",
-      "zh": "一个小小的想法开始了。",
-      "pinyin": "Yígè xiǎoxiǎode xiǎngfǎ kāishǐ le.",
-      "tr": "Küçük bir fikir doğuyor."
+      "zh": "好，你愿意想一想，我就很高兴了。",
+      "pinyin": "Hǎo, nǐ yuàn yì xiǎng yī xiǎng, wǒ jiù hěn gāo xìng le.",
+      "tr": "Güzel, düşünmek istemene sevindim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_044",
       "speaker": "李晨",
-      "zh": "真好！",
-      "pinyin": "Zhēn hǎo!",
-      "tr": "Harika!"
+      "zh": "笔在这里，先写你最担心的一个问题。",
+      "pinyin": "Bǐ zài zhè lǐ, xiān xiě nǐ zuì dān xīn de yí gè wèn tí.",
+      "tr": "Kalem burada; önce en çok kaygılandığın soruyu yaz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_045",
       "speaker": "刘梅",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我最担心做多了以后，没有时间照顾家里。",
+      "pinyin": "Wǒ zuì dān xīn zuò duō le yǐ hòu, méi yǒu shí jiān zhào gù jiā lǐ.",
+      "tr": "En çok, çok yapınca evle ilgilenmeye zaman kalmamasından kaygılanıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_046",
       "speaker": "张伟",
-      "zh": "没事，不客气。",
-      "pinyin": "Méishì, bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "家里的事我们可以重新分，不让你全做。",
+      "pinyin": "Jiā lǐ de shì wǒ men kě yǐ chóng xīn fēn, bù ràng nǐ quán zuò.",
+      "tr": "Ev işlerini yeniden paylaşabiliriz; hepsini sana bırakmayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_047",
       "speaker": "李晨妻子",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "也要留下休息时间，不是空出来的每一分钟都用掉。",
+      "pinyin": "Yě yào liú xià xiū xī shí jiān, bú shì kòng chū lái de měi yì fēn zhōng dōu yòng diào.",
+      "tr": "Dinlenmeye de zaman ayırmalısın; boş kalan her dakikayı kullanmak gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_048",
       "speaker": "李晨",
-      "zh": "好，继续吧。",
-      "pinyin": "Hǎo, jìxù ba.",
-      "tr": "Devam edelim."
+      "zh": "先看平常一周的安排，比只看今天清楚。",
+      "pinyin": "Xiān kàn píng cháng yī zhōu de ān pái, bǐ zhǐ kàn jīn tiān qīng chǔ.",
+      "tr": "Önce normal bir haftanın düzenine bakalım; yalnızca bugüne bakmaktan daha açıklayıcı olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_049",
       "speaker": "刘梅",
-      "zh": "这是想法，对吧？",
-      "pinyin": "Zhèshì xiǎngfǎ, duì ba?",
-      "tr": "Bu, fikir mı?"
+      "zh": "我可以把做饭、接孩子和自己的时间都写出来。",
+      "pinyin": "Wǒ kě yǐ bǎ zuò fàn, jiē hái zi hé zì jǐ de shí jiān dōu xiě chū lái.",
+      "tr": "Yemek, çocukları alma ve kendime ayırdığım zamanı yazabilirim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_050",
       "speaker": "张伟",
-      "zh": "嗯，对，这是想法。",
-      "pinyin": "En, duì, zhèshì xiǎngfǎ.",
-      "tr": "Evet, bu fikir."
+      "zh": "接孩子有些时候我也能安排，我们一起看。",
+      "pinyin": "Jiē hái zi yǒu xiē shí hòu wǒ yě néng ān pái, wǒ men yì qǐ kàn.",
+      "tr": "Bazı günler çocukları almayı ben de düzenleyebilirim; birlikte bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_051",
       "speaker": "李晨妻子",
-      "zh": "想法呢？",
-      "pinyin": "Xiǎngfǎ ne?",
-      "tr": "Fikir nerede?"
+      "zh": "如果安排不过来，就先不试，这也不是失败。",
+      "pinyin": "Rú guǒ ān pái bù guò lái, jiù xiān bù shì, zhè yě bú shì shī bài.",
+      "tr": "Düzenleyemezsen şimdilik deneme; bu başarısızlık değildir."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_052",
       "speaker": "李晨",
-      "zh": "你看，就在这儿。",
-      "pinyin": "Nǐ kàn, jiù zài zhèér.",
-      "tr": "Fikir burada."
+      "zh": "对，先知道能不能做，比急着开始更好。",
+      "pinyin": "Duì, xiān zhī dào néng bù néng zuò, bǐ jí zhe kāi shǐ gèng hǎo.",
+      "tr": "Evet, yapılıp yapılamayacağını öğrenmek acele başlamaktan iyidir."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_053",
       "speaker": "刘梅",
-      "zh": "你要蛋糕吗？",
-      "pinyin": "Nǐ yào dàngāo ma?",
-      "tr": "Kek / pasta ister misin?"
+      "zh": "还有，朋友夸我，我不知道别人会不会真的想买。",
+      "pinyin": "Hái yǒu, péng yǒu kuā wǒ, wǒ bù zhī dào bié rén huì bú huì zhēn de xiǎng mǎi.",
+      "tr": "Bir de arkadaşlar övüyor; başkaları gerçekten almak ister mi bilmiyorum.",
+      "emotion": "curious",
+      "actionTr": "Beğenmekle satın almak istemeyi ayırır."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_054",
       "speaker": "张伟",
-      "zh": "我要蛋糕，谢谢。",
-      "pinyin": "Wǒyào dàngāo, xièxiè.",
-      "tr": "Kek / pasta istiyorum, teşekkürler."
+      "zh": "喜欢吃和愿意买是两件事，不能直接当成一样。",
+      "pinyin": "Xǐ huan chī hé yuàn yì mǎi shì liǎng jiàn shì, bù néng zhí jiē dàng chéng yī yàng.",
+      "tr": "Yemeyi sevmek ve satın almak istemek farklıdır; aynı sayamayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_055",
       "speaker": "李晨妻子",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "可以先听听大家怎么想，但别先收钱或答应日期。",
+      "pinyin": "Kě yǐ xiān tīng tīng dà jiā zěn me xiǎng, dàn bié xiān shōu qián huò dā yìng rì qī.",
+      "tr": "Önce insanların düşüncelerini dinleyebilirsin ama para alma veya tarih sözü verme."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_056",
       "speaker": "李晨",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "问题问清楚，也告诉他们现在只是了解。",
+      "pinyin": "Wèn tí wèn qīng chǔ, yě gào sù tā men xiàn zài zhǐ shì liǎo jiě.",
+      "tr": "Soruyu açık sor ve şu an yalnızca araştırdığını söyle."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_057",
       "speaker": "刘梅",
-      "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
-      "tr": "İş mi arıyorsun?"
+      "zh": "那我问的是喜欢什么，不是叫大家马上订。",
+      "pinyin": "Nà wǒ wèn de shì xǐ huan shén me, bú shì jiào dà jiā mǎ shàng dìng.",
+      "tr": "O zaman neleri sevdiklerini sorarım; hemen sipariş vermelerini istemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_058",
       "speaker": "张伟",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "对，记下回答，不用听到一句好话就加很多东西。",
+      "pinyin": "Duì, jì xià huí dá, bù yòng tīng dào yī jù hǎo huà jiù jiā hěn duō dōng xi.",
+      "tr": "Evet, cevapları kaydet; bir güzel söz duyunca bir sürü şey ekleme."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_059",
       "speaker": "李晨妻子",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısın?"
+      "zh": "如果有人想要你不会做的，也可以直接说不会。",
+      "pinyin": "Rú guǒ yǒu rén xiǎng yào nǐ bú huì zuò de, yě kě yǐ zhí jiē shuō bú huì.",
+      "tr": "Yapamadığın bir şeyi isterlerse açıkça bilmediğini söyleyebilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_060",
       "speaker": "李晨",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "不需要为了这个想法，今晚又学很多种。",
+      "pinyin": "Bù xū yào wèi le zhè ge xiǎng fǎ, jīn wǎn yòu xué hěn duō zhǒng.",
+      "tr": "Bu fikir için bu akşam bir sürü çeşit öğrenmen gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_061",
       "speaker": "刘梅",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "我昨天那种最熟，但也要看看能不能每次做好。",
+      "pinyin": "Wǒ zuó tiān nà zhǒng zuì shú, dàn yě yào kàn kàn néng bù néng měi cì zuò hǎo.",
+      "tr": "Dünkü çeşidi en iyi biliyorum ama her seferinde iyi yapabilir miyim bakmalıyım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_062",
       "speaker": "张伟",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "做给家人时可以记录一下，不用多做一堆。",
+      "pinyin": "Zuò gěi jiā rén shí kě yǐ jì lù yī xià, bù yòng duō zuò yī duī.",
+      "tr": "Aile için yaparken kayıt tutabilirsin; bir yığın daha yapman gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_063",
       "speaker": "李晨妻子",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "记下哪里顺、哪里不顺，下次才知道怎么调整。",
+      "pinyin": "Jì xià nǎ lǐ shùn, nǎ lǐ bù shùn, xià cì cái zhī dào zěn me tiáo zhěng.",
+      "tr": "Nelerin iyi, nelerin kötü gittiğini yaz; sonra nasıl düzelteceğini anlarsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_064",
       "speaker": "李晨",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "如果这次不一样，也先找原因，不急着说能卖。",
+      "pinyin": "Rú guǒ zhè cì bù yí yàng, yě xiān zhǎo yuán yīn, bù jí zhe shuō néng mài.",
+      "tr": "Bu kez farklı olursa nedenini ara; satılır demek için acele etme."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_065",
       "speaker": "刘梅",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "听完我觉得有路可以看，但还不能马上走。",
+      "pinyin": "Tīng wán wǒ jué de yǒu lù kě yǐ kàn, dàn hái bù néng mǎ shàng zǒu.",
+      "tr": "Dinleyince incelenecek bir yol olduğunu düşünüyorum ama hemen ilerleyemem.",
+      "emotion": "happy",
+      "actionTr": "Yeni bir araştırma yolu gördüğünü söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_066",
       "speaker": "张伟",
-      "zh": "你好，来这边吧。",
-      "pinyin": "Nǐhǎo, lái zhèbiān ba.",
-      "tr": "Merhaba!"
+      "zh": "没关系，今天得到一个新的方向就够了。",
+      "pinyin": "Méi guān xì, jīn tiān dé dào yí gè xīn de fāng xiàng jiù gòu le.",
+      "tr": "Sorun değil; bugün yeni bir yön bulmak yeterli."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_067",
       "speaker": "李晨妻子",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "我提出想法，不替你决定，也不会催你。",
+      "pinyin": "Wǒ tí chū xiǎng fǎ, bù tì nǐ jué dìng, yě bú huì cuī nǐ.",
+      "tr": "Fikri ben söyledim ama senin yerine karar vermem ve acele ettirmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_068",
       "speaker": "李晨",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "我们下次见面再聊，也可以聊别的，不只问这个。",
+      "pinyin": "Wǒ men xià cì jiàn miàn zài liáo, yě kě yǐ liáo bié de, bù zhǐ wèn zhè ge.",
+      "tr": "Bir dahaki görüşmede konuşuruz; başka şeylerden de söz ederiz, yalnızca bunu sormayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_069",
       "speaker": "刘梅",
-      "zh": "这个是钱，对吗？",
-      "pinyin": "Zhège shì qián, duì ma?",
-      "tr": "Bu, para mı?"
+      "zh": "谢谢，这样我不会觉得朋友见面都在等我的答案。",
+      "pinyin": "Xiè xiè, zhè yàng wǒ bú huì jué de péng yǒu jiàn miàn dōu zài děng wǒ de dá àn.",
+      "tr": "Teşekkür ederim; böylece arkadaşlarımın her görüşmede cevabımı beklediğini düşünmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_070",
       "speaker": "张伟",
-      "zh": "嗯，对，这是钱。",
-      "pinyin": "En, duì, zhè shì qián.",
-      "tr": "Evet, bu para."
+      "zh": "先喝口茶，纸上已经有几个问题了。",
+      "pinyin": "Xiān hē kǒu chá, zhǐ shàng yǐ jīng yǒu jǐ gè wèn tí le.",
+      "tr": "Önce biraz çay iç; kâğıtta birkaç soru oluştu bile."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_071",
       "speaker": "李晨妻子",
-      "zh": "钱呢？",
-      "pinyin": "Qián ne?",
-      "tr": "Para nerede?"
+      "zh": "我也喝一点，刚才一直说，茶都快凉了。",
+      "pinyin": "Wǒ yě hē yì diǎn, gāng cái yì zhí shuō, chá dōu kuài liáng le.",
+      "tr": "Ben de içeyim; konuşurken çay neredeyse soğudu."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_072",
       "speaker": "李晨",
-      "zh": "钱在这儿。",
-      "pinyin": "Qián zài zhèér.",
-      "tr": "Para burada."
+      "zh": "那我们停一会儿，别把聊天变成开会。",
+      "pinyin": "Nà wǒ men tíng yī huì er, bié bǎ liáo tiān biàn chéng kāi huì.",
+      "tr": "O zaman biraz duralım; sohbeti toplantıya çevirmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_073",
       "speaker": "刘梅",
-      "zh": "这个是想法吗？",
-      "pinyin": "Zhège shì xiǎngfǎ ma?",
-      "tr": "Bu, fikir mı?"
+      "zh": "好，这块你们也尝一点，我没有准备很多。",
+      "pinyin": "Hǎo, zhè kuài nǐ men yě cháng yì diǎn, wǒ méi yǒu zhǔn bèi hěn duō.",
+      "tr": "Olur, siz de bu parçadan tadın; çok hazırlamadım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_074",
       "speaker": "张伟",
-      "zh": "没错，是想法。",
-      "pinyin": "Méicuò, shì xiǎngfǎ.",
-      "tr": "Evet, bu fikir."
+      "zh": "我们分着尝就好，不用为了聊天再做新的。",
+      "pinyin": "Wǒ men fēn zhe cháng jiù hǎo, bù yòng wèi le liáo tiān zài zuò xīn de.",
+      "tr": "Paylaşarak tadabiliriz; sohbet için yenisini yapman gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_075",
       "speaker": "李晨妻子",
-      "zh": "你看到那想法了吗？",
-      "pinyin": "Nǐ kàndào nà xiǎngfǎ le ma?",
-      "tr": "Fikir nerede?"
+      "zh": "谢谢，我先尝味道，不把它当成今天要卖的东西。",
+      "pinyin": "Xiè xiè, wǒ xiān cháng wèi dào, bù bǎ tā dàng chéng jīn tiān yào mài de dōng xi.",
+      "tr": "Teşekkür ederim; tadına bakayım, bugün satılacak bir ürün gibi düşünmeyeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_076",
       "speaker": "李晨",
-      "zh": "想法在这儿。",
-      "pinyin": "Xiǎngfǎ zài zhèér.",
-      "tr": "Fikir burada."
+      "zh": "这样才轻松，今天还是朋友一起喝茶。",
+      "pinyin": "Zhè yàng cái qīng sōng, jīn tiān hái shì péng yǒu yì qǐ hē chá.",
+      "tr": "Böyle daha rahat; bugün hâlâ arkadaşlar olarak çay içiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_077",
       "speaker": "刘梅",
-      "zh": "你要蛋糕吗？",
-      "pinyin": "Nǐ yào dàngāo ma?",
-      "tr": "Kek / pasta ister misin?"
+      "zh": "你们觉得昨天邻居说的甜味怎么样？我想听具体一点。",
+      "pinyin": "Nǐ men jué de zuó tiān lín jū shuō de tián wèi zěn me yàng? wǒ xiǎng tīng jù tǐ yì diǎn.",
+      "tr": "Dün komşunun söylediği tatlılık hakkında ne düşünüyorsunuz? Biraz daha somut duymak isterim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_078",
       "speaker": "张伟",
-      "zh": "我要蛋糕，谢谢。",
-      "pinyin": "Wǒyào dàngāo, xièxiè.",
-      "tr": "Kek / pasta istiyorum, teşekkürler."
+      "zh": "我喜欢，不过我的口味不能代表每个人。",
+      "pinyin": "Wǒ xǐ huan, bù guò wǒ de kǒu wèi bù néng dài biǎo měi gè rén.",
+      "tr": "Ben sevdim ama benim damak tadım herkesi temsil etmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_079",
       "speaker": "李晨妻子",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Olur."
+      "zh": "对，我也觉得好吃，问别人时可以问喜欢哪一点。",
+      "pinyin": "Duì, wǒ yě jué de hǎo chī, wèn bié rén shí kě yǐ wèn xǐ huan nǎ yì diǎn.",
+      "tr": "Evet, ben de sevdim; başkalarına hangi yönünü sevdiklerini sorabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_080",
       "speaker": "李晨",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "把不同的回答留下，不用只记说好的。",
+      "pinyin": "Bǎ bù tóng de huí dá liú xià, bù yòng zhǐ jì shuō hǎo de.",
+      "tr": "Farklı cevapları da sakla; yalnızca olumlu olanları yazma."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_081",
       "speaker": "刘梅",
-      "zh": "你在找工作吗？",
-      "pinyin": "Nǐ zài zhǎo gōngzuò ma?",
-      "tr": "İş mi arıyorsun?"
+      "zh": "我把“问清楚，不急着改”写在旁边。",
+      "pinyin": "Wǒ bǎ “ wèn qīng chǔ, bù jí zhe gǎi ” xiě zài páng biān.",
+      "tr": "Yanına “iyice sor, değiştirmek için acele etme” yazıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_082",
       "speaker": "张伟",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "这样就不容易听到什么就马上变。",
+      "pinyin": "Zhè yàng jiù bù róng yì tīng dào shén me jiù mǎ shàng biàn.",
+      "tr": "Böylece duyduğun her şey üzerine hemen değiştirmezsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_083",
       "speaker": "李晨妻子",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "也先别拿这个去和别人比，先知道自己能做什么。",
+      "pinyin": "Yě xiān bié ná zhè ge qù hé bié rén bǐ, xiān zhī dào zì jǐ néng zuò shén me.",
+      "tr": "Başkalarıyla karşılaştırmaya da acele etme; önce ne yapabildiğini öğren."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_084",
       "speaker": "李晨",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "家人和朋友可以帮你想，但最后还是你的安排。",
+      "pinyin": "Jiā rén hé péng yǒu kě yǐ bāng nǐ xiǎng, dàn zuì hòu hái shì nǐ de ān pái.",
+      "tr": "Aile ve arkadaşlar düşünmene yardım eder ama son düzenleme yine senindir."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_085",
       "speaker": "刘梅",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "纸上已经有时间、记录和要查的事，先到这里吧。",
+      "pinyin": "Zhǐ shàng yǐ jīng yǒu shí jiān, jì lù hé yào chá de shì, xiān dào zhè lǐ ba.",
+      "tr": "Kâğıtta süre, kayıt ve araştırılacaklar var; şimdilik burada bırakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_086",
       "speaker": "张伟",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "好，我把笔放下，今天不再加一大串问题。",
+      "pinyin": "Hǎo, wǒ bǎ bǐ fàng xià, jīn tiān bù zài jiā yī dà chuàn wèn tí.",
+      "tr": "Tamam, kalemi bırakayım; bugün bir sürü soru daha eklemeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_087",
       "speaker": "李晨妻子",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "你留下这张纸，下次想起来就不会从头乱找。",
+      "pinyin": "Nǐ liú xià zhè zhāng zhǐ, xià cì xiǎng qǐ lái jiù bú huì cóng tóu luàn zhǎo.",
+      "tr": "Kâğıdı sakla; yeniden düşündüğünde baştan araman gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_088",
       "speaker": "李晨",
-      "zh": "没问题。",
-      "pinyin": "Méi wèntí.",
-      "tr": "Olur."
+      "zh": "我们也不用把纸拿走，你自己看着最方便。",
+      "pinyin": "Wǒ men yě bù yòng bǎ zhǐ ná zǒu, nǐ zì jǐ kàn zhe zuì fāng biàn.",
+      "tr": "Kâğıdı götürmemiz gerekmiyor; sende kalması daha kolay."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_089",
       "speaker": "刘梅",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "谢谢，我会先了解，不先告诉别人已经开始了。",
+      "pinyin": "Xiè xiè, wǒ huì xiān liǎo jiě, bù xiān gào sù bié rén yǐ jīng kāi shǐ le.",
+      "tr": "Teşekkür ederim; önce araştıracağım, başlamışım gibi söylemeyeceğim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_090",
       "speaker": "张伟",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "我们也一样，有人问就说现在只是想法。",
+      "pinyin": "Wǒ men yě yī yàng, yǒu rén wèn jiù shuō xiàn zài zhǐ shì xiǎng fǎ.",
+      "tr": "Biz de öyle; soran olursa şimdilik fikir olduğunu söyleriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_091",
       "speaker": "李晨妻子",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "对，我不会替你答应订单或时间。",
+      "pinyin": "Duì, wǒ bú huì tì nǐ dā yìng dìng dān huò shí jiān.",
+      "tr": "Evet, senin yerine sipariş veya tarih sözü vermeyeceğim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_092",
       "speaker": "李晨",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "以后真要走下一步，再把情况说清楚。",
+      "pinyin": "Yǐ hòu zhēn yào zǒu xià yī bù, zài bǎ qíng kuàng shuō qīng chǔ.",
+      "tr": "Gerçekten sonraki adımı atarsan durumu açıkça konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_093",
       "speaker": "刘梅",
-      "zh": "这是钱吧？",
-      "pinyin": "Zhè shì qián ba?",
-      "tr": "Bu, para mı?"
+      "zh": "除了这个，我也想多认识这里的人，不一直待在家。",
+      "pinyin": "Chú le zhè ge, wǒ yě xiǎng duō rèn shí zhè lǐ de rén, bù yī zhí dāi zài jiā.",
+      "tr": "Bunun dışında buradaki insanları tanımak da istiyorum; hep evde kalmayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_094",
       "speaker": "张伟",
-      "zh": "对，就是钱。",
-      "pinyin": "Duì, jiùshì qián.",
-      "tr": "Evet, bu para."
+      "zh": "那有社区活动的时候，我们一家可以去看看。",
+      "pinyin": "Nà yǒu shè qū huó dòng de shí hòu, wǒ men yī jiā kě yǐ qù kàn kàn.",
+      "tr": "O zaman topluluk etkinliği olduğunda ailece bakabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_095",
       "speaker": "李晨妻子",
-      "zh": "钱呢？",
-      "pinyin": "Qián ne?",
-      "tr": "Para nerede?"
+      "zh": "去聊天认识朋友就很好，不用带着卖蛋糕的任务。",
+      "pinyin": "Qù liáo tiān rèn shí péng yǒu jiù hěn hǎo, bù yòng dài zhe mài dàn gāo de rèn wù.",
+      "tr": "Sohbet edip arkadaş tanımak güzel olur; kek satma görevi götürmek gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_096",
       "speaker": "李晨",
-      "zh": "今天挺顺利的。",
-      "pinyin": "Jīntiān tǐng shùnlì de.",
-      "tr": "Bugün oldukça iyi geçti."
+      "zh": "先看看活动信息，再安排哪天有空。",
+      "pinyin": "Xiān kàn kàn huó dòng xìn xī, zài ān pái nǎ tiān yǒu kòng.",
+      "tr": "Önce etkinlik bilgisine bakıp hangi gün uygun olduğumuzu planlayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_097",
       "speaker": "刘梅",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "好，今天听到一个新的想法，也认识了自己的问题。",
+      "pinyin": "Hǎo, jīn tiān tīng dào yí gè xīn de xiǎng fǎ, yě rèn shí le zì jǐ de wèn tí.",
+      "tr": "Güzel, bugün yeni bir fikir duydum ve sorularımı gördüm.",
+      "emotion": "happy",
+      "actionTr": "Yeni fikri ve kendi sorularını öğrendiğini belirtir."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_098",
       "speaker": "张伟",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "慢慢来，家里的事我们一起做，别一下给自己太多。",
+      "pinyin": "Màn màn lái, jiā lǐ de shì wǒ men yì qǐ zuò, bié yī xià gěi zì jǐ tài duō.",
+      "tr": "Yavaşça ilerle; ev işlerini birlikte yaparız, kendine birden çok yük verme."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_099",
       "speaker": "李晨妻子",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "那这次就先这样，喝完茶我们也该回去了。",
+      "pinyin": "Nà zhè cì jiù xiān zhè yàng, hē wán chá wǒ men yě gāi huí qù le.",
+      "tr": "O zaman şimdilik böyle kalsın; çaydan sonra biz de dönelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC047_100",
       "speaker": "李晨",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "谢谢招待，下次见面再慢慢聊。",
+      "pinyin": "Xiè xiè zhāo dài, xià cì jiàn miàn zài màn màn liáo.",
+      "tr": "Ağırladığınız için teşekkürler; bir dahaki sefer yine sakince konuşuruz."
     }
-  ]
+  ],
+  "editorialRevision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1"
 }

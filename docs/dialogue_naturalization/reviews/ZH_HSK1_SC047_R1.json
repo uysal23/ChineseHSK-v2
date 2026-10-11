@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC047",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.48,
+  "meanNewZhLength": 19.69,
+  "continuityNoteTr": "SC046 komşuların beğenmesi sonrası Li Chen eşi ilk küçük satış fikrini önerir. Liu Mei isteğini/süreyi/aile işlerini/maliyeti/yerel gereklilikleri araştıracak, sipariş ve para alınmaz, karar henüz verilmez. Dört yetişkin canonical Liu Mei/Zhang Wei/Li Chen/eşi. SC048 topluluk etkinliğine insan tanımak için geçiş; satış görevi uydurulmaz.",
+  "lengthDeviationPercent": 203.86,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
