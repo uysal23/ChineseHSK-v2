@@ -1,0 +1,70 @@
+{
+  "sceneId": "ZH_HSK1_SC048",
+  "imageSha256": "d3b4a60dcb87de95cd319ad9ea2f9f1a51823525ddd51e79cd0848c1b7d52624",
+  "referenceSceneId": "ZH_HSK1_SC048",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "社区工作人员",
+    "新朋友",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Community craft table and new friendship; four family canon references; original staff and new friend identity; Yutong maturity corrected in second generation",
+  "anchors": {
+    "张伟": [
+      0.211,
+      0.303
+    ],
+    "刘梅": [
+      0.391,
+      0.366
+    ],
+    "社区工作人员": [
+      0.868,
+      0.41
+    ],
+    "新朋友": [
+      0.725,
+      0.373
+    ]
+  },
+  "canonicalReferences": [
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_LIUMEI_001/base.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGLELE_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGLELE_001/base.webp",
+      "sha256": "526122dbc40f79e2bed7ed485d902cd27759745058eaf08eaae29da6fe9a07ed"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGWEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGWEI_001/base.webp",
+      "sha256": "8d6a3fafff7c4a0e46b2c8ba623f47ad8c40d9a62e41d1b57d31230af97c0e38"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGYUTONG_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGYUTONG_001/base.webp",
+      "sha256": "590f141d903899c312ebf05e9a1e8d24dc43d3301ae3485de5241b076f820ea2"
+    }
+  ],
+  "supportingIdentityReferences": {
+    "社区工作人员": {
+      "characterId": "CHR_ZH_AUTO_506A555294",
+      "sourceSceneId": "ZH_HSK1_SC048"
+    },
+    "新朋友": {
+      "characterId": "CHR_ZH_AUTO_09FE351CF0",
+      "sourceSceneId": "ZH_HSK1_SC048"
+    }
+  },
+  "supportingReferenceImageSha256": "a57bd185f9e2cd51593d367bb38f5ed749bf191c626dd81e64932381c6147802",
+  "supportingCanonicalBitmapAvailable": false
+}

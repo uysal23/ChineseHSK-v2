@@ -1,9 +1,9 @@
 {
-  "naturalizationVersion": 5,
-  "status": "FINAL",
+  "naturalizationVersion": 13,
+  "status": "FINAL_NATIVE_RELEASE_CANDIDATE_V13",
   "sceneId": "ZH_HSK1_SC048",
   "level": "HSK1",
-  "sceneCategory": "food",
+  "sceneCategory": "family",
   "sourceTitleZh": "社区活动",
   "sourceTitleTr": "Mahalle Etkinliği",
   "sourceMiniAdventureTr": "Aile yerel bir topluluk etkinliğine katılıp yeni insanlarla tanışır.",
@@ -11,702 +11,719 @@
     {
       "id": "DLG_ZH_HSK1_SC048_001",
       "speaker": "张伟",
-      "zh": "一家人参加社区活动。",
-      "pinyin": "Yījiārén cānjiā shèqūhuódòng.",
-      "tr": "Aile mahalle etkinliğine katılıyor."
+      "zh": "今天的社区活动在这里吗？",
+      "pinyin": "Jīn tiān de shè qū huó dòng zài zhè lǐ ma?",
+      "tr": "Bugünkü mahalle etkinliği burada mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_002",
       "speaker": "刘梅",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "是这里，门口有彩色的气球。",
+      "pinyin": "Shì zhè lǐ, mén kǒu yǒu cǎi sè de qì qiú.",
+      "tr": "Evet, burada; girişte renkli balonlar var."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_003",
       "speaker": "社区工作人员",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "欢迎你们！第一次来吗？",
+      "pinyin": "Huān yíng nǐ men! dì yī cì lái ma?",
+      "tr": "Hoş geldiniz! İlk kez mi geliyorsunuz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_004",
       "speaker": "新朋友",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısınız?"
+      "zh": "我也是第一次来，刚才差点走错门。",
+      "pinyin": "Wǒ yě shì dì yī cì lái, gāng cái chà diǎn zǒu cuò mén.",
+      "tr": "Ben de ilk kez geliyorum; az önce neredeyse yanlış kapıya girdim.",
+      "emotion": "playful",
+      "actionTr": "Yanlış kapıyı hatırlayıp hafifçe gülümser."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_005",
       "speaker": "张伟",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "我们跟着音乐走过来的。",
+      "pinyin": "Wǒ men gēn zhe yīn yuè zǒu guò lái de.",
+      "tr": "Biz müzik sesini takip ederek geldik."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_006",
       "speaker": "刘梅",
-      "zh": "社区呢？",
-      "pinyin": "Shèqū ne?",
-      "tr": "Mahalle / topluluk nerede?"
+      "zh": "你一个人来的吗？",
+      "pinyin": "Nǐ yí gè rén lái de ma?",
+      "tr": "Sen tek başına mı geldin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_007",
       "speaker": "社区工作人员",
-      "zh": "你看，你看，社区在那边。",
-      "pinyin": "Nǐ kàn, nǐ kàn, shèqū zài nàbiān.",
-      "tr": "Mahalle / topluluk şu tarafta."
+      "zh": "她先到了，她的朋友一会儿来。",
+      "pinyin": "Tā xiān dào le, tā de péng you yī huì er lái.",
+      "tr": "O erken geldi; arkadaşı birazdan gelecek."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_008",
       "speaker": "新朋友",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "对，她去公园那边接家人了。",
+      "pinyin": "Duì, tā qù gōng yuán nà biān jiē jiā rén le.",
+      "tr": "Evet, ailesini karşılamak için parkın o tarafına gitti."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_009",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "原来公园还有一个门。",
+      "pinyin": "Yuán lái gōng yuán hái yǒu yí gè mén.",
+      "tr": "Demek parkın bir girişi daha var."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_010",
       "speaker": "刘梅",
-      "zh": "今天有活动吗？",
-      "pinyin": "Jīntiān yǒu huódòng ma?",
-      "tr": "Bugün etkinlik var mı?"
+      "zh": "孩子们都在看气球，没注意门。",
+      "pinyin": "Hái zi men dōu zài kàn qì qiú, méi zhù yì mén.",
+      "tr": "Çocuklar balonlara bakıyordu, kapıya dikkat etmediler."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_011",
       "speaker": "社区工作人员",
-      "zh": "是的。",
-      "pinyin": "Shì de.",
-      "tr": "Evet."
+      "zh": "没关系，从这个门进去也可以。",
+      "pinyin": "Méi guān xì, cóng zhè ge mén jìn qù yě kě yǐ.",
+      "tr": "Sorun değil; bu kapıdan da girebilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_012",
       "speaker": "新朋友",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısın?"
+      "zh": "里面很热闹，我们一起进去吧。",
+      "pinyin": "Lǐ miàn hěn rè nào, wǒ men yì qǐ jìn qù ba.",
+      "tr": "İçerisi çok hareketli; birlikte girelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_013",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "好，不过我们还不知道有什么活动。",
+      "pinyin": "Hǎo, bù guò wǒ men hái bù zhī dào yǒu shén me huó dòng.",
+      "tr": "Olur, ama henüz hangi etkinliklerin olduğunu bilmiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_014",
       "speaker": "刘梅",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "我们想找家人能一起玩的。",
+      "pinyin": "Wǒ men xiǎng zhǎo jiā rén néng yì qǐ wán de.",
+      "tr": "Ailece birlikte yapabileceğimiz bir şey arıyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_015",
       "speaker": "社区工作人员",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "前面可以画画，右边可以做小花。",
+      "pinyin": "Qián miàn kě yǐ huà huà, yòu biān kě yǐ zuò xiǎo huā.",
+      "tr": "İleride resim çizebilir, sağ tarafta küçük çiçekler yapabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_016",
       "speaker": "新朋友",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "做小花？是用纸做的吗？",
+      "pinyin": "Zuò xiǎo huā? shì yòng zhǐ zuò de ma?",
+      "tr": "Küçük çiçek yapmak mı? Kâğıttan mı yapılıyor?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_017",
       "speaker": "张伟",
-      "zh": "没问题。",
-      "pinyin": "Méi wèntí.",
-      "tr": "Olur."
+      "zh": "听起来乐乐会喜欢。",
+      "pinyin": "Tīng qǐ lái lè le huì xǐ huan.",
+      "tr": "Kulağa Lele'nin seveceği bir şey gibi geliyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_018",
       "speaker": "刘梅",
-      "zh": "这是我们的人。",
-      "pinyin": "Zhèshì wǒmen de rén.",
-      "tr": "Bu bizim insan."
+      "zh": "雨桐也喜欢画画，我们先问问孩子们。",
+      "pinyin": "Yǔ tóng yě xǐ huan huà huà, wǒ men xiān wèn wèn hái zi men.",
+      "tr": "Yutong da resim çizmeyi sever; önce çocuklara soralım."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_019",
       "speaker": "社区工作人员",
-      "zh": "你好，来这边吧。",
-      "pinyin": "Nǐhǎo, lái zhèbiān ba.",
-      "tr": "Merhaba!"
+      "zh": "两边都可以去，不用现在选。",
+      "pinyin": "Liǎng biān dōu kě yǐ qù, bù yòng xiàn zài xuǎn.",
+      "tr": "İki tarafa da gidebilirsiniz; hemen seçmeniz gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_020",
       "speaker": "新朋友",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "那我先看看画画的桌子。",
+      "pinyin": "Nà wǒ xiān kàn kàn huà huà de zhuō zi.",
+      "tr": "O zaman önce resim masasına bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_021",
       "speaker": "张伟",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "桌子前面怎么没有人？",
+      "pinyin": "Zhuō zi qián miàn zěn me méi yǒu rén?",
+      "tr": "Masanın önünde neden kimse yok?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_022",
       "speaker": "刘梅",
-      "zh": "他们还不认识很多人。",
-      "pinyin": "Tāmen hái bù rènshí hěnduō rén.",
-      "tr": "Henüz çok fazla kişi tanımıyorlar."
+      "zh": "可能还没开始，我们来早了。",
+      "pinyin": "Kě néng hái méi kāi shǐ, wǒ men lái zǎo le.",
+      "tr": "Belki daha başlamamıştır; erken geldik."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_023",
       "speaker": "社区工作人员",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "不是，大家在树下，那里凉快。",
+      "pinyin": "Bú shì, dà jiā zài shù xià, nà lǐ liáng kuài.",
+      "tr": "Öyle değil; herkes ağacın altında, orası daha serin.",
+      "emotion": "neutral",
+      "actionTr": "Ağacın altındaki masayı eliyle gösterir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_024",
       "speaker": "新朋友",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "我刚才也没看见，气球把桌子挡住了。",
+      "pinyin": "Wǒ gāng cái yě méi kàn jiàn, qì qiú bǎ zhuō zi dǎng zhù le.",
+      "tr": "Ben de az önce görmedim; balonlar masayı kapatıyordu."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_025",
       "speaker": "张伟",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "现在看见了，有几张小椅子。",
+      "pinyin": "Xiàn zài kàn jiàn le, yǒu jǐ zhāng xiǎo yǐ zi.",
+      "tr": "Şimdi gördüm; birkaç küçük sandalye var."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_026",
       "speaker": "刘梅",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Tamam."
+      "zh": "大人可以坐在孩子旁边吗？",
+      "pinyin": "Dà rén kě yǐ zuò zài hái zi páng biān ma?",
+      "tr": "Yetişkinler çocukların yanına oturabilir mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_027",
       "speaker": "社区工作人员",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "可以，今天就是让家人一起参加。",
+      "pinyin": "Kě yǐ, jīn tiān jiù shì ràng jiā rén yì qǐ cān jiā.",
+      "tr": "Evet; bugün ailelerin birlikte katılması için düzenlendi."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_028",
       "speaker": "新朋友",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "那我也想试试，很久没画画了。",
+      "pinyin": "Nà wǒ yě xiǎng shì shì, hěn jiǔ méi huà huà le.",
+      "tr": "Ben de denemek istiyorum; uzun zamandır resim çizmedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_029",
       "speaker": "张伟",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "你想画什么？",
+      "pinyin": "Nǐ xiǎng huà shén me?",
+      "tr": "Ne çizmek istiyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_030",
       "speaker": "刘梅",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "先别问我，我连纸在哪儿都没找到。",
+      "pinyin": "Xiān bié wèn wǒ, wǒ lián zhǐ zài nǎr dōu méi zhǎo dào.",
+      "tr": "Önce bana sorma; kâğıdın nerede olduğunu bile bulamadım.",
+      "emotion": "playful",
+      "actionTr": "Boş masaya bakıp gülümser."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_031",
       "speaker": "社区工作人员",
-      "zh": "你要饭吗？",
-      "pinyin": "Nǐ yàofàn ma?",
-      "tr": "Yemek ister misin?"
+      "zh": "白纸在桌子上，笔在小盒子里。",
+      "pinyin": "Bái zhǐ zài zhuō zi shàng, bǐ zài xiǎo hé zi lǐ.",
+      "tr": "Beyaz kâğıt masanın üzerinde, kalemler küçük kutuda."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_032",
       "speaker": "新朋友",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yàofàn, xièxiè.",
-      "tr": "Yemek istiyorum, teşekkürler."
+      "zh": "我找到了，这里还有绿色的笔。",
+      "pinyin": "Wǒ zhǎo dào le, zhè lǐ hái yǒu lǜ sè de bǐ.",
+      "tr": "Buldum; burada yeşil kalem de var."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_033",
       "speaker": "张伟",
-      "zh": "行。",
-      "pinyin": "Xíng.",
-      "tr": "Olur."
+      "zh": "绿色正好可以画公园。",
+      "pinyin": "Lǜ sè zhèng hǎo kě yǐ huà gōng yuán.",
+      "tr": "Yeşil, parkı çizmek için tam uygun."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_034",
       "speaker": "刘梅",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我们家前几天也去了公园。",
+      "pinyin": "Wǒ men jiā qián jǐ tiān yě qù le gōng yuán.",
+      "tr": "Biz de birkaç gün önce ailece parka gittik."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_035",
       "speaker": "社区工作人员",
-      "zh": "你看到公园了吗？",
-      "pinyin": "Nǐ kàndào gōngyuán le ma?",
-      "tr": "Park nerede?"
+      "zh": "那可以把今天认识的人也画进去。",
+      "pinyin": "Nà kě yǐ bǎ jīn tiān rèn shi de rén yě huà jìn qù.",
+      "tr": "Bugün tanıştığınız insanları da resme ekleyebilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_036",
       "speaker": "新朋友",
-      "zh": "你看，就在那边。",
-      "pinyin": "Nǐ kàn, jiù zài nàbiān.",
-      "tr": "Park şu tarafta."
+      "zh": "可是我们还不知道彼此的名字。",
+      "pinyin": "Kě shì wǒ men hái bù zhī dào bǐ cǐ de míng zi.",
+      "tr": "Ama henüz birbirimizin adını bilmiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_037",
       "speaker": "张伟",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "我叫张伟，这是刘梅。",
+      "pinyin": "Wǒ jiào zhāng wěi, zhè shì liú méi.",
+      "tr": "Ben Zhang Wei; bu da Liu Mei."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_038",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "你好，很高兴认识你。",
+      "pinyin": "Nǐ hǎo, hěn gāo xìng rèn shi nǐ.",
+      "tr": "Merhaba, tanıştığımıza sevindim."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_039",
       "speaker": "社区工作人员",
-      "zh": "今天忙吗？",
-      "pinyin": "Jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "我负责这边的活动，有事可以找我。",
+      "pinyin": "Wǒ fù zé zhè biān de huó dòng, yǒu shì kě yǐ zhǎo wǒ.",
+      "tr": "Bu taraftaki etkinliklerden ben sorumluyum; bir şey olursa beni bulabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_040",
       "speaker": "新朋友",
-      "zh": "有一点。",
-      "pinyin": "Yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "我就住在公园对面，我们离得不远。",
+      "pinyin": "Wǒ jiù zhù zài gōng yuán duì miàn, wǒ men lí de bù yuǎn.",
+      "tr": "Ben parkın karşısında oturuyorum; birbirimize uzak değiliz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_041",
       "speaker": "张伟",
-      "zh": "没关系，别急。",
-      "pinyin": "Méiguānxì, biéjí.",
-      "tr": "Sorun değil."
+      "zh": "那以后可能经常见面。",
+      "pinyin": "Nà yǐ hòu kě néng jīng cháng jiàn miàn.",
+      "tr": "Öyleyse bundan sonra sık sık karşılaşabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_042",
       "speaker": "刘梅",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "今天多认识一个朋友，真好。",
+      "pinyin": "Jīn tiān duō rèn shi yí gè péng you, zhēn hǎo.",
+      "tr": "Bugün yeni bir arkadaş edinmek ne güzel."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_043",
       "speaker": "社区工作人员",
-      "zh": "今天他们认识了新朋友。",
-      "pinyin": "Jīntiān tāmen rènshí le xīn péngyǒu.",
-      "tr": "Bugün yeni arkadaşlar edindiler."
+      "zh": "你们慢慢画，我先去拿几张纸。",
+      "pinyin": "Nǐ men màn màn huà, wǒ xiān qù ná jǐ zhāng zhǐ.",
+      "tr": "Siz rahatça çizin; ben birkaç kâğıt daha alayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_044",
       "speaker": "新朋友",
-      "zh": "真好！",
-      "pinyin": "Zhēn hǎo!",
-      "tr": "Harika!"
+      "zh": "我帮你拿吧，我还没开始画。",
+      "pinyin": "Wǒ bāng nǐ ná ba, wǒ hái méi kāi shǐ huà.",
+      "tr": "Taşımana yardım edeyim; ben daha çizmeye başlamadım."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_045",
       "speaker": "张伟",
-      "zh": "好，谢谢你。",
-      "pinyin": "Hǎo, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我把椅子往里面放一点。",
+      "pinyin": "Wǒ bǎ yǐ zi wǎng lǐ miàn fàng yì diǎn.",
+      "tr": "Sandalyeyi biraz içeri çekeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_046",
       "speaker": "刘梅",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "这样大家就能一起坐了。",
+      "pinyin": "Zhè yàng dà jiā jiù néng yì qǐ zuò le.",
+      "tr": "Böylece hepimiz birlikte oturabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_047",
       "speaker": "社区工作人员",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "谢谢，走路的地方也要留出来。",
+      "pinyin": "Xiè xiè, zǒu lù de dì fāng yě yào liú chū lái.",
+      "tr": "Teşekkürler; yürümek için de yer bırakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_048",
       "speaker": "新朋友",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "这张椅子放这里，够吗？",
+      "pinyin": "Zhè zhāng yǐ zi fàng zhè lǐ, gòu ma?",
+      "tr": "Bu sandalyeyi buraya koysam yeter mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_049",
       "speaker": "张伟",
-      "zh": "你看到社区了吗？",
-      "pinyin": "Nǐ kàndào shèqū le ma?",
-      "tr": "Mahalle / topluluk nerede?"
+      "zh": "够了，旁边的人可以过去。",
+      "pinyin": "Gòu le, páng biān de rén kě yǐ guò qù.",
+      "tr": "Yeter; yanımızdaki insanlar geçebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_050",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Mahalle / topluluk şu tarafta."
+      "zh": "我们先画，等会儿再去做纸花。",
+      "pinyin": "Wǒ men xiān huà, děng huì er zài qù zuò zhǐ huā.",
+      "tr": "Önce resim çizelim; sonra kâğıt çiçek yapmaya gidelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_051",
       "speaker": "社区工作人员",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbái le.",
-      "tr": "Anladım."
+      "zh": "画画以后还有别的活动吗？",
+      "pinyin": "Huà huà yǐ hòu hái yǒu bié de huó dòng ma?",
+      "tr": "Resimden sonra başka etkinlik var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_052",
       "speaker": "新朋友",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "先把这一张画完吧，你的树还没有叶子。",
+      "pinyin": "Xiān bǎ zhè yī zhāng huà wán ba, nǐ de shù hái méi yǒu yè zi.",
+      "tr": "Önce bu resmi bitir; ağacında henüz yaprak yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_053",
       "speaker": "张伟",
-      "zh": "今天有活动吗？",
-      "pinyin": "Jīntiān yǒu huódòng ma?",
-      "tr": "Bugün etkinlik var mı?"
+      "zh": "下午大家会一起唱歌，现在还早。",
+      "pinyin": "Xià wǔ dà jiā huì yì qǐ chàng gē, xiàn zài hái zǎo.",
+      "tr": "Öğleden sonra birlikte şarkı söylenecek; daha erken."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_054",
       "speaker": "刘梅",
-      "zh": "对。",
-      "pinyin": "Duì.",
-      "tr": "Evet."
+      "zh": "那我有时间慢慢画了。",
+      "pinyin": "Nà wǒ yǒu shí jiān màn màn huà le.",
+      "tr": "Öyleyse rahatça çizmek için vaktim var."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_055",
       "speaker": "社区工作人员",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısın?"
+      "zh": "你画的房子怎么在树上？",
+      "pinyin": "Nǐ huà de fáng zi zěn me zài shù shàng?",
+      "tr": "Çizdiğin ev neden ağacın üzerinde?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_056",
       "speaker": "新朋友",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "那不是房子，是树上的小鸟。",
+      "pinyin": "Nà bú shì fáng zi, shì shù shàng de xiǎo niǎo.",
+      "tr": "O ev değil, ağacın üzerindeki küçük kuş."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_057",
       "speaker": "张伟",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "从这边看，真的有点像房子。",
+      "pinyin": "Cóng zhè biān kàn, zhēn de yǒu diǎn xiàng fáng zi.",
+      "tr": "Bu taraftan bakınca gerçekten biraz eve benziyor.",
+      "emotion": "playful",
+      "actionTr": "Resimdeki kuşa eğilerek bakar."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_058",
       "speaker": "刘梅",
-      "zh": "你好，来这边吧。",
-      "pinyin": "Nǐhǎo, lái zhèbiān ba.",
-      "tr": "Merhaba!"
+      "zh": "我加一个小嘴巴，就看得出来了。",
+      "pinyin": "Wǒ jiā yí gè xiǎo zuǐ bā, jiù kàn de chū lái le.",
+      "tr": "Küçük bir gaga eklersem belli olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_059",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "现在像了，它在看我们呢。",
+      "pinyin": "Xiàn zài xiàng le, tā zài kàn wǒ men ne.",
+      "tr": "Şimdi kuşa benzedi; bize bakıyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_060",
       "speaker": "新朋友",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "旁边可以再画几个人，像今天这样。",
+      "pinyin": "Páng biān kě yǐ zài huà jǐ gè rén, xiàng jīn tiān zhè yàng.",
+      "tr": "Yanına birkaç insan daha çizebilirsin; bugünkü gibi.",
+      "emotion": "comforting",
+      "actionTr": "Resmin boş alanını gösterir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_061",
       "speaker": "张伟",
-      "zh": "这是我们的人。",
-      "pinyin": "Zhèshì wǒmen de rén.",
-      "tr": "Bu bizim insan."
+      "zh": "画上你的新朋友吧。",
+      "pinyin": "Huà shàng nǐ de xīn péng you ba.",
+      "tr": "Yeni arkadaşını da çiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_062",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "那我画在这里，可以吗？",
+      "pinyin": "Nà wǒ huà zài zhè lǐ, kě yǐ ma?",
+      "tr": "O zaman kendimi buraya çizeyim, olur mu?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_063",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "当然可以，这张画是我们一起画的。",
+      "pinyin": "Dāng rán kě yǐ, zhè zhāng huà shì wǒ men yì qǐ huà de.",
+      "tr": "Tabii; bu resmi birlikte çiziyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_064",
       "speaker": "新朋友",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "等画好了，我们把它放在哪里？",
+      "pinyin": "Děng huà hǎo le, wǒ men bǎ tā fàng zài nǎ lǐ?",
+      "tr": "Bitirdiğimizde resmi nereye koyacağız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_065",
       "speaker": "张伟",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "可以带回家，也可以放在这张大桌子上。",
+      "pinyin": "Kě yǐ dài huí jiā, yě kě yǐ fàng zài zhè zhāng dà zhuō zi shàng.",
+      "tr": "Eve götürebilir veya şu büyük masaya bırakabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_066",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "我想先让朋友看看，等会儿再带回家。",
+      "pinyin": "Wǒ xiǎng xiān ràng péng you kàn kàn, děng huì er zài dài huí jiā.",
+      "tr": "Önce arkadaşıma göstermek, sonra eve götürmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_067",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "你朋友还没有到吗？",
+      "pinyin": "Nǐ péng you hái méi yǒu dào ma?",
+      "tr": "Arkadaşın hâlâ gelmedi mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_068",
       "speaker": "新朋友",
-      "zh": "嗯，好啊。",
-      "pinyin": "En, hǎo a.",
-      "tr": "Olur."
+      "zh": "她可能去了另一个门，要不要问问她？",
+      "pinyin": "Tā kě néng qù le lìng yí gè mén, yào bù yào wèn wèn tā?",
+      "tr": "Belki diğer kapıya gitmiştir; ona sorsak mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_069",
       "speaker": "张伟",
-      "zh": "你要饭吗？",
-      "pinyin": "Nǐ yàofàn ma?",
-      "tr": "Yemek ister misin?"
+      "zh": "你可以给她打电话，说你在画画的地方。",
+      "pinyin": "Nǐ kě yǐ gěi tā dǎ diàn huà, shuō nǐ zài huà huà de dì fāng.",
+      "tr": "Onu arayıp resim yapılan yerde olduğunu söyleyebilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_070",
       "speaker": "刘梅",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yàofàn, xièxiè.",
-      "tr": "Yemek istiyorum, teşekkürler."
+      "zh": "好，我去旁边打，不挡着大家。",
+      "pinyin": "Hǎo, wǒ qù páng biān dǎ, bù dǎng zhe dà jiā.",
+      "tr": "Tamam, herkesi engellememek için kenarda arayayım.",
+      "emotion": "neutral",
+      "actionTr": "Telefonla konuşmak için geçiş yolundan çekilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_071",
       "speaker": "社区工作人员",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "我们先收好笔，别让它掉到地上。",
+      "pinyin": "Wǒ men xiān shōu hǎo bǐ, bié ràng tā diào dào dì shàng.",
+      "tr": "Önce kalemleri toparlayalım; yere düşmesinler."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_072",
       "speaker": "新朋友",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "蓝色的笔在乐乐手里，他还要画一条路。",
+      "pinyin": "Lán sè de bǐ zài lè le shǒu lǐ, tā hái yào huà yī tiáo lù.",
+      "tr": "Mavi kalem Lele'de; bir yol daha çizecek."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_073",
       "speaker": "张伟",
-      "zh": "那社区呢？",
-      "pinyin": "Nà shèqū ne?",
-      "tr": "Mahalle / topluluk nerede?"
+      "zh": "让他画完吧，盒子先留在这里。",
+      "pinyin": "Ràng tā huà wán ba, hé zi xiān liú zài zhè lǐ.",
+      "tr": "Bitirsin; kutu şimdilik burada kalsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_074",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Mahalle / topluluk şu tarafta."
+      "zh": "她接电话了，真的在另一个门。",
+      "pinyin": "Tā jiē diàn huà le, zhēn de zài lìng yí gè mén.",
+      "tr": "Telefonu açtı; gerçekten diğer kapıdaymış."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_075",
       "speaker": "社区工作人员",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "那我去接她过来？",
+      "pinyin": "Nà wǒ qù jiē tā guò lái?",
+      "tr": "Gidip onu buraya getireyim mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_076",
       "speaker": "新朋友",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我们在这里等，你不用跑。",
+      "pinyin": "Wǒ men zài zhè lǐ děng, nǐ bù yòng pǎo.",
+      "tr": "Biz burada bekleriz; koşmana gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_077",
       "speaker": "张伟",
-      "zh": "今天有活动吗？",
-      "pinyin": "Jīntiān yǒu huódòng ma?",
-      "tr": "Bugün etkinlik var mı?"
+      "zh": "从树旁边往左走，就能看见那个门。",
+      "pinyin": "Cóng shù páng biān wǎng zuǒ zǒu, jiù néng kàn jiàn nà ge mén.",
+      "tr": "Ağacın yanından sola gidince o kapıyı görürsün."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_078",
       "speaker": "刘梅",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "不用了，她已经看见气球了，很快就到。",
+      "pinyin": "Bù yòng le, tā yǐ jīng kàn jiàn qì qiú le, hěn kuài jiù dào.",
+      "tr": "Gerek kalmadı; balonları görmüş, yakında gelir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_079",
       "speaker": "社区工作人员",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "原来气球也能帮人找路。",
+      "pinyin": "Yuán lái qì qiú yě néng bāng rén zhǎo lù.",
+      "tr": "Demek balonlar yol bulmaya da yardımcı oluyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_080",
       "speaker": "新朋友",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "今天第一次来，我们也靠它找到了这里。",
+      "pinyin": "Jīn tiān dì yī cì lái, wǒ men yě kào tā zhǎo dào le zhè lǐ.",
+      "tr": "Bugün ilk kez geldik; biz de burayı onların sayesinde bulduk."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_081",
       "speaker": "张伟",
-      "zh": "这是我们的朋友。",
-      "pinyin": "Zhèshì wǒmen de péngyǒu.",
-      "tr": "Bu bizim arkadaş."
+      "zh": "以后你们就认识路了。",
+      "pinyin": "Yǐ hòu nǐ men jiù rèn shi lù le.",
+      "tr": "Bundan sonra yolu biliyor olacaksınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_082",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "也认识了新朋友，下次就不怕找不到人了。",
+      "pinyin": "Yě rèn shi le xīn péng you, xià cì jiù bù pà zhǎo bú dào rén le.",
+      "tr": "Yeni arkadaş da tanıdık; bir dahaki sefere kimseyi bulamamaktan çekinmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_083",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "快到中午了，孩子们有点饿。",
+      "pinyin": "Kuài dào zhōng wǔ le, hái zi men yǒu diǎn è.",
+      "tr": "Öğlen yaklaşıyor; çocuklar biraz acıktı."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_084",
       "speaker": "新朋友",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "我们带了饭，可以在哪里吃？",
+      "pinyin": "Wǒ men dài le fàn, kě yǐ zài nǎ lǐ chī?",
+      "tr": "Yemek getirdik; nerede yiyebiliriz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC048_085",
       "speaker": "张伟",
-      "zh": "这是我们的人。",
-      "pinyin": "Zhèshì wǒmen de rén.",
-      "tr": "Bu bizim insan."
+      "zh": "那边有桌子，吃饭前可以去洗手。",
+      "pinyin": "Nà biān yǒu zhuō zi, chī fàn qián kě yǐ qù xǐ shǒu.",
+      "tr": "Şu tarafta masa var; yemekten önce ellerinizi yıkayabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_086",
       "speaker": "刘梅",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "我没带饭，等朋友来了，我们一起出去吃。",
+      "pinyin": "Wǒ méi dài fàn, děng péng you lái le, wǒ men yì qǐ chū qù chī.",
+      "tr": "Ben yemek getirmedim; arkadaşım gelince birlikte dışarıda yiyeceğiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_087",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "好，我们吃完再过来看看。",
+      "pinyin": "Hǎo, wǒ men chī wán zài guò lái kàn kàn.",
+      "tr": "Tamam; yedikten sonra tekrar buraya bakmaya geliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_088",
       "speaker": "新朋友",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "先把画拿好，别放在饭盒下面。",
+      "pinyin": "Xiān bǎ huà ná hǎo, bié fàng zài fàn hé xià miàn.",
+      "tr": "Önce resmi düzgün tut; yemek kabının altına koyma."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_089",
       "speaker": "张伟",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "纸花的桌子就在吃饭的地方旁边。",
+      "pinyin": "Zhǐ huā de zhuō zi jiù zài chī fàn de dì fāng páng biān.",
+      "tr": "Kâğıt çiçek masası yemek yenilen yerin hemen yanında."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_090",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "太好了，吃完不用走很远。",
+      "pinyin": "Tài hǎo le, chī wán bù yòng zǒu hěn yuǎn.",
+      "tr": "Harika; yemekten sonra uzağa yürümek gerekmeyecek."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_091",
       "speaker": "社区工作人员",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "今天比我想的轻松。",
+      "pinyin": "Jīn tiān bǐ wǒ xiǎng de qīng sōng.",
+      "tr": "Bugün düşündüğümden daha rahat geçti."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_092",
       "speaker": "新朋友",
-      "zh": "没问题。",
-      "pinyin": "Méi wèntí.",
-      "tr": "Olur."
+      "zh": "我也是，刚来时还不知道跟谁说话。",
+      "pinyin": "Wǒ yě shì, gāng lái shí hái bù zhī dào gēn shuí shuō huà.",
+      "tr": "Ben de öyle; geldiğimde kiminle konuşacağımı bilmiyordum.",
+      "emotion": "happy",
+      "actionTr": "Yeni arkadaşına rahatça dönüp konuşur."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_093",
       "speaker": "张伟",
-      "zh": "你要饭吗？",
-      "pinyin": "Nǐ yàofàn ma?",
-      "tr": "Yemek ister misin?"
+      "zh": "社区活动就是给大家认识彼此的机会。",
+      "pinyin": "Shè qū huó dòng jiù shì gěi dà jiā rèn shi bǐ cǐ de jī huì.",
+      "tr": "Mahalle etkinlikleri insanlara birbirini tanıma fırsatı verir."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_094",
       "speaker": "刘梅",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yàofàn, xièxiè.",
-      "tr": "Yemek istiyorum, teşekkürler."
+      "zh": "现在我已经想下次再来了。",
+      "pinyin": "Xiàn zài wǒ yǐ jīng xiǎng xià cì zài lái le.",
+      "tr": "Şimdiden bir dahaki sefere tekrar gelmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_095",
       "speaker": "社区工作人员",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Olur."
+      "zh": "我们在这里快住了三个月，今天又认识了新的人。",
+      "pinyin": "Wǒ men zài zhè lǐ kuài zhù le sān gè yuè, jīn tiān yòu rèn shi le xīn de rén.",
+      "tr": "Burada neredeyse üç aydır yaşıyoruz; bugün yeni insanlar daha tanıdık.",
+      "emotion": "neutral",
+      "actionTr": "Ailesine bakarak geçen üç ayı düşünür."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_096",
       "speaker": "新朋友",
-      "zh": "今天挺顺利的。",
-      "pinyin": "Jīntiān tǐng shùnlì de.",
-      "tr": "Bugün oldukça iyi geçti."
+      "zh": "是啊，公园、学校，还有这些朋友，都慢慢熟悉了。",
+      "pinyin": "Shì a, gōng yuán, xué xiào, hái yǒu zhè xiē péng you, dōu màn màn shú xī le.",
+      "tr": "Evet; park, okul ve bu arkadaşlar giderek tanıdık geliyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_097",
       "speaker": "张伟",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "下次见面，记得带你们今天的画来。",
+      "pinyin": "Xià cì jiàn miàn, jì de dài nǐ men jīn tiān de huà lái.",
+      "tr": "Bir dahaki buluşmada bugünkü resminizi getirmeyi unutmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_098",
       "speaker": "刘梅",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "我还要看看那只像房子的小鸟。",
+      "pinyin": "Wǒ hái yào kàn kàn nà zhǐ xiàng fáng zi de xiǎo niǎo.",
+      "tr": "Eve benzeyen o küçük kuşu da yeniden görmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_099",
       "speaker": "社区工作人员",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "好，我们先去洗手，一会儿见。",
+      "pinyin": "Hǎo, wǒ men xiān qù xǐ shǒu, yī huì er jiàn.",
+      "tr": "Tamam; önce ellerimizi yıkayalım, birazdan görüşürüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC048_100",
       "speaker": "新朋友",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "一会儿见，吃完饭再一起做纸花。",
+      "pinyin": "Yī huì er jiàn, chī wán fàn zài yì qǐ zuò zhǐ huā.",
+      "tr": "Birazdan görüşürüz; yemekten sonra birlikte kâğıt çiçek yapalım."
     }
-  ]
+  ],
+  "editorialRevision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1"
 }

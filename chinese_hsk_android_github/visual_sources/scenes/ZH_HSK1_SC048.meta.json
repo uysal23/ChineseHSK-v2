@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC048",
   "generationSceneId": "ZH_HSK1_SC048",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC048.json",
-  "dialogueSha256": "d18c03b5de78d25213f8287f2bd502ca8cb5e0cb2290379b226094f26887fb03",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC048.json",
+  "dialogueSha256": "eace45564878138d412b2b35e689236fdb9d63157fde44dea98aa41e2e165876",
   "titleTr": "Mahalle Etkinliği",
   "locationId": "LOC_ZH_COMMUNITY_EVENT_001",
   "scenePurposeTr": "Aile mahalle etkinliğine katılır; topluluk görevlisi yön gösterir ve yeni bir arkadaşla tanışırlar.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC047",
     "nextSceneId": "ZH_HSK1_SC049"
   },
-  "sourceGeneratedFilename": "mahalle_şenliğine_hoş_geldiniz.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC048_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC048.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC048.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "a57bd185f9e2cd51593d367bb38f5ed749bf191c626dd81e64932381c6147802"
+    "sha256": "d3b4a60dcb87de95cd319ad9ea2f9f1a51823525ddd51e79cd0848c1b7d52624",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "SC048 six identities inspected: canonical parents, older teenage Yutong and small boy Lele; original bob/red-vest community staff and adult bangs/denim new friend preserved. Supporting canonical bitmap absent; existing scene used as identity reference. Named four speaking mouths; children non-speaking. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "d3b4a60dcb87de95cd319ad9ea2f9f1a51823525ddd51e79cd0848c1b7d52624",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.211,
+        0.303
+      ],
+      "刘梅": [
+        0.391,
+        0.366
+      ],
+      "社区工作人员": [
+        0.868,
+        0.41
+      ],
+      "新朋友": [
+        0.725,
+        0.373
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC048 six identities inspected: canonical parents, older teenage Yutong and small boy Lele; original bob/red-vest community staff and adult bangs/denim new friend preserved. Supporting canonical bitmap absent; existing scene used as identity reference. Named four speaking mouths; children non-speaking. Model review only; native human/device pending."
+  }
 }

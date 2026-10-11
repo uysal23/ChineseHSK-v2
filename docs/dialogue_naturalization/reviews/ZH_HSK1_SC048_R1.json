@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC048",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 8,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.36,
+  "meanNewZhLength": 13.6,
+  "continuityNoteTr": "SC047 kek satışını yalnız araştırma fikri olarak bırakır; SC048 aile etkinliğinde tanışma, ortak resim, yanlış kapı ve öğle yemeği üzerinden ilerler. SC049 için yeni kasabadaki üç aya doğal geçiş yapılır. Satış veya izin iddiası yoktur.",
+  "lengthDeviationPercent": 113.84,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
