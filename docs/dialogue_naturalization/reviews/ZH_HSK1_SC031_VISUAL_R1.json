@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC031",
+  "imageSha256": "20fdc6d0dd540bc5dca4d5f34d50e6f705a637eb1f88cde93d52d0018bba982a",
+  "referenceSceneId": "ZH_HSK1_SC019",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "同事",
+    "保安",
+    "经理"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC031 office entry own accesscard found in bag, canonical father no tie, adult female workplace colleague lilac blazer ponytail, uniformed male guard and originalSC029 male manager no glasses charcoal suit burgundy tie. Four named mouths.",
+  "anchors": {
+    "张伟": [
+      0.552,
+      0.273
+    ],
+    "同事": [
+      0.34,
+      0.301
+    ],
+    "保安": [
+      0.14,
+      0.286
+    ],
+    "经理": [
+      0.861,
+      0.258
+    ]
+  }
+}

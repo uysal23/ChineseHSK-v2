@@ -1549,6 +1549,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC031": {
+      "imageSha256": "20fdc6d0dd540bc5dca4d5f34d50e6f705a637eb1f88cde93d52d0018bba982a",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.552,
+          0.273
+        ],
+        "同事": [
+          0.34,
+          0.301
+        ],
+        "保安": [
+          0.14,
+          0.286
+        ],
+        "经理": [
+          0.861,
+          0.258
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

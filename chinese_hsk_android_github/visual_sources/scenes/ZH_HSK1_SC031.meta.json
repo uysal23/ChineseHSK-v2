@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC031",
   "generationSceneId": "ZH_HSK1_SC031",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC031.json",
-  "dialogueSha256": "b29c1641c1852b7b8716027d03d076f7fe1b7f99ef1e1dffacacf4127b638736",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC031.json",
+  "dialogueSha256": "3fc682b41e3a11631efff7fb46d8940aec3c6914afd023d0da31e8f4f9ccb4cf",
   "titleTr": "İlk İş Günü",
   "locationId": "LOC_ZH_COMPANY_001",
   "scenePurposeTr": "Zhang Wei yeni işindeki ilk gününde güvenlik, iş kartı, yönetici ve iş arkadaşıyla tanışır.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC030",
     "nextSceneId": "ZH_HSK1_SC032"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC031.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC031_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC031.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC031.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "10a4acdecabe42383e1230f9bf841752bd13b14c2e787c45b00a6d3eb1e0475b"
+    "sha256": "20fdc6d0dd540bc5dca4d5f34d50e6f705a637eb1f88cde93d52d0018bba982a",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,6 +59,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC031 dört yetişkin: Zhang Wei siyah gözlük/navy ceket/açık mavi gömlek/kravatsız; yetişkin kadın çalışma arkadaşı lilac blazer/at kuyruğu/lanyard; erkek güvenlik üniforma/şapka; müdür SC029 özgün erkek kimliği charcoal takım/burgundy kravat/gözlüksüz. Kart çantada bulunur, kendi adı kontrol edilir. Model incelemesi; native insan ve cihaz testi bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "20fdc6d0dd540bc5dca4d5f34d50e6f705a637eb1f88cde93d52d0018bba982a",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.552,
+        0.273
+      ],
+      "同事": [
+        0.34,
+        0.301
+      ],
+      "保安": [
+        0.14,
+        0.286
+      ],
+      "经理": [
+        0.861,
+        0.258
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC031 dört yetişkin: Zhang Wei siyah gözlük/navy ceket/açık mavi gömlek/kravatsız; yetişkin kadın çalışma arkadaşı lilac blazer/at kuyruğu/lanyard; erkek güvenlik üniforma/şapka; müdür SC029 özgün erkek kimliği charcoal takım/burgundy kravat/gözlüksüz. Kart çantada bulunur, kendi adı kontrol edilir. Model incelemesi; native insan ve cihaz testi bekliyor."
+  }
 }
