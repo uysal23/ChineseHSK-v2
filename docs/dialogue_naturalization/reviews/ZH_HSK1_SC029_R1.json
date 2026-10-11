@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC029",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.27,
+  "meanNewZhLength": 17.58,
+  "continuityNoteTr": "SC02709.30 randevusu, SC028 mavi gömlek; SC029 üç gerçek kişiyle görüşme ve temel bilgisayar becerisi. Sonuç SC030 şirket aramasına bırakılır. Zhang dört repliklik sırada iki kez bulunur, tek kişidir.",
+  "lengthDeviationPercent": 180.38,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

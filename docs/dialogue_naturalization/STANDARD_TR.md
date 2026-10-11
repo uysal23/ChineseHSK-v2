@@ -174,3 +174,5 @@ SC026: 27/300 metin, 26/300 adla ağız kalibrasyonu. İş ilanlarını değerle
 SC027: 28/300 metin, 27/300 adla ağız kalibrasyonu. İş ilanlarını değerlendirme, kendi/ofis numaralarını ayırma ve karşılıklı telefon yanıtlarına hazırlık. Gerçek tek arama 98’de biter, yarın 09.30 görüşme randevusu alınır; iş kabulü varsayılmaz. SC028 kıyafet hazırlığına bağlanır. Ses/entegrasyon/dinleme/cihaz testi bekliyor. APK/release başlatılmadı.
 
 SC028: 29/300 metin, 28/300 adla ağız kalibrasyonu. Rahat mavi gömlek seçimi, yaka ve kol düğmesi kontrolü; SC029 gerçek görüşme. Model incelemesi; ses entegrasyonu, native insan ve cihaz kontrolleri bekliyor. APK/release başlatılmadı.
+
+SC029: 30/300 metin, 29/300 adla ağız kalibrasyonu. Üç kişiyle iş görüşmesi, bilgisayar/belge kontrolü; sonuç SC030 aramasına bırakılır. Şirket görevlisi SC027 kimliği, baba SC028 kravatsız gömlek uyumu düzeltildi. Ses entegrasyonu/native insan/cihaz testi bekliyor. APK/release başlatılmadı.

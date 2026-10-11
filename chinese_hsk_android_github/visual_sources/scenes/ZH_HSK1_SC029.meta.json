@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC029",
   "generationSceneId": "ZH_HSK1_SC029",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC029.json",
-  "dialogueSha256": "f26dd6b4055d3408aad6ee99658685d5d331374e7a1711ddb9d117bbe3d6387f",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC029.json",
+  "dialogueSha256": "e5743c8cbacb9f47cd579a62784bba7fc585c5da428273fc3443b81b273927db",
   "titleTr": "İş Görüşmesine Geliş",
   "locationId": "LOC_ZH_COMPANY_001",
   "scenePurposeTr": "Zhang Wei şirkete iş görüşmesi için gelir ve şirket çalışanı ile yönetici tarafından karşılanır.",
@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK1_SC028",
     "nextSceneId": "ZH_HSK1_SC030"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC029.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC029_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC029.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC029.webp",
   "image": {
@@ -35,7 +35,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "496c2fdb2983d980f6d41fa7b58574fbd996748acc1d2d8ffb53d40fd3d0c5bd"
+    "sha256": "38838cb3e6dae3f6294e404e4fd744cf715286c4c4a0e8c81e01bfe51dff7c3d",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -55,6 +57,34 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC029 üç benzersiz yetişkin: Zhang Wei açık mavi gömlek, navy ceket, siyah gözlük, kravatsız; şirket görevlisi SC027 ile aynı omuz boyu saç/navy beyaz kıyafet; müdür özgün erkek kimliği. Bilgisayar, boş belgeler ve giriş kartı görünür. Zhang konuşmacı sırasında iki kez bulunur, iki kişi değildir. Sonuç SC030 aramasına bırakılır. Model incelemesi; native insan ve cihaz testi bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "38838cb3e6dae3f6294e404e4fd744cf715286c4c4a0e8c81e01bfe51dff7c3d",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.262,
+        0.326
+      ],
+      "经理": [
+        0.85,
+        0.358
+      ],
+      "公司职员": [
+        0.571,
+        0.352
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC029 üç benzersiz yetişkin: Zhang Wei açık mavi gömlek, navy ceket, siyah gözlük, kravatsız; şirket görevlisi SC027 ile aynı omuz boyu saç/navy beyaz kıyafet; müdür özgün erkek kimliği. Bilgisayar, boş belgeler ve giriş kartı görünür. Zhang konuşmacı sırasında iki kez bulunur, iki kişi değildir. Sonuç SC030 aramasına bırakılır. Model incelemesi; native insan ve cihaz testi bekliyor."
+  }
 }
