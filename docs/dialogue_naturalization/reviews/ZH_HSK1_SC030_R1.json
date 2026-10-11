@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC030",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 12,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 5.95,
+  "meanNewZhLength": 17.43,
+  "continuityNoteTr": "SC029 sonucu beklenen görüşme; SC030 şirket aramasıyla kabul kesinleşir. Aile küçük pasta ve akşam yemeğiyle kutlar, yeni işe ait eşyaları Zhang kontrol eder. SC031 çalışma kartı olayı; başlangıç tarihi uydurulmaz.",
+  "lengthDeviationPercent": 192.94,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC030",
   "generationSceneId": "ZH_HSK1_SC030",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC030.json",
-  "dialogueSha256": "eb05907446dc49ef4f2afbab5dbcc7c82a24deddfd97f185603c75c094e49091",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC030.json",
+  "dialogueSha256": "6bcad86e4a2e6a3bf3c0676971d4ac414fa6b374d8cf97a7669fe709ab5647d5",
   "titleTr": "Şirketten Güzel Haber",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Şirketten gelen olumlu haber üzerine Zhang Wei ve ailesi birlikte sevinir.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC029",
     "nextSceneId": "ZH_HSK1_SC031"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC030.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC030_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC030.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC030.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "c5f27bb6d1b872583a921c34c9691f04379ad588f239ea0dc88aa4e91b7f9339"
+    "sha256": "a06e32b1ea016ebd7c0375fa4d2294f9c4f1dc8552546f8ea5170e3fae691f0f",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,6 +59,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC030 dört kanonik aile üyesiyle küçük iş kabulü kutlaması: baba açık mavi gömlek/siyah gözlük/kravatsız, anne krem-yeşil/alçak topuz, Yutong lilac/yüksek at kuyruğu, Lele mavi-yeşil-beyaz hoodie. Akşam yemeği ve küçük mum/yazı olmayan pasta, telefon kenarda. Native insan ve cihaz testi bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "a06e32b1ea016ebd7c0375fa4d2294f9c4f1dc8552546f8ea5170e3fae691f0f",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.54,
+        0.369
+      ],
+      "刘梅": [
+        0.739,
+        0.335
+      ],
+      "张雨桐": [
+        0.299,
+        0.311
+      ],
+      "张乐乐": [
+        0.818,
+        0.469
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC030 dört kanonik aile üyesiyle küçük iş kabulü kutlaması: baba açık mavi gömlek/siyah gözlük/kravatsız, anne krem-yeşil/alçak topuz, Yutong lilac/yüksek at kuyruğu, Lele mavi-yeşil-beyaz hoodie. Akşam yemeği ve küçük mum/yazı olmayan pasta, telefon kenarda. Native insan ve cihaz testi bekliyor."
+  }
 }
