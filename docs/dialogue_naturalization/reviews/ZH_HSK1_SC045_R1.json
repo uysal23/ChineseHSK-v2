@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC045",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 5.97,
+  "meanNewZhLength": 17.1,
+  "continuityNoteTr": "SC043 ilk sınav hazırlığı ve SC044 sınıf çizimi sonrası aile evde toplanır. Zhang yeni şirkette ilk ay maaşını telefonda görür; ihtiyaç parasını ayırıp yakın restoranda sade yemek planlar. Lele küçük tavuklu erişte ister; yer ve açık oluş telefonla doğrulanır. Mimi evde kalır. Yutong sonuç puanı uydurulmadan sınavda soruyu okuduğunu paylaşır. SC046 anne komşulara kek sonraki olaydır.",
+  "lengthDeviationPercent": 186.43,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

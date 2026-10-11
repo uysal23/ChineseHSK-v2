@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC045",
+  "imageSha256": "79d2d397c8efad21daac6d6ce5938496bcef721681b52e309dd52a77936dc532",
+  "referenceSceneId": "ZH_HSK1_SC037",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC045 first salary modest dinner planning, phone and menu, canonical family evening living room; four visible human mouths",
+  "anchors": {
+    "张伟": [
+      0.544,
+      0.37
+    ],
+    "刘梅": [
+      0.304,
+      0.285
+    ],
+    "张雨桐": [
+      0.759,
+      0.412
+    ],
+    "张乐乐": [
+      0.308,
+      0.493
+    ]
+  }
+}
