@@ -1,0 +1,56 @@
+{
+  "sceneId": "ZH_HSK1_SC049",
+  "imageSha256": "08b2b16c07ecefa60f3cce9e9aee7be3377f9c295d9fae011cd2140b6d84f5d2",
+  "referenceSceneId": "ZH_HSK1_SC049",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Home reflection on first three months; four canonical family references and appropriate ages, craft drawing paper flowers art box",
+  "anchors": {
+    "张伟": [
+      0.236,
+      0.3
+    ],
+    "刘梅": [
+      0.535,
+      0.318
+    ],
+    "张雨桐": [
+      0.715,
+      0.222
+    ],
+    "张乐乐": [
+      0.729,
+      0.487
+    ]
+  },
+  "canonicalReferences": [
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_LIUMEI_001/base.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGLELE_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGLELE_001/base.webp",
+      "sha256": "526122dbc40f79e2bed7ed485d902cd27759745058eaf08eaae29da6fe9a07ed"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGWEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGWEI_001/base.webp",
+      "sha256": "8d6a3fafff7c4a0e46b2c8ba623f47ad8c40d9a62e41d1b57d31230af97c0e38"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGYUTONG_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGYUTONG_001/base.webp",
+      "sha256": "590f141d903899c312ebf05e9a1e8d24dc43d3301ae3485de5241b076f820ea2"
+    }
+  ]
+}

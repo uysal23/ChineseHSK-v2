@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC049",
   "generationSceneId": "ZH_HSK1_SC049",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC049.json",
-  "dialogueSha256": "542ff05d8061faa740b4b6c9200e8cd9e909706120f9815970f68f623075036b",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC049.json",
+  "dialogueSha256": "7e48ebc894d6854a89fbface44db98e52d3fe2f6b2ee00c019324705f17f4fca",
   "titleTr": "Yeni Kasabada Üç Ay",
   "locationId": "LOC_ZH_CITY_VIEW_001",
   "scenePurposeTr": "Zhang ailesi yeni kasabadaki üçüncü aylarını birlikte değerlendirir ve yeni yaşamlarından memnun olduklarını konuşur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC048",
     "nextSceneId": "ZH_HSK1_SC050"
   },
-  "sourceGeneratedFilename": "altın_saatte_aile_yürüyüşü.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC049_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC049.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC049.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "74c5ba5205e62bfe58f12d81485bcfffac4e22566ec2914e67ec7bc00da5bc0a"
+    "sha256": "08b2b16c07ecefa60f3cce9e9aee7be3377f9c295d9fae011cd2140b6d84f5d2",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "SC049 four canonical family identities and actual mouths inspected: mature parents, older teen Yutong, small boy Lele. Home interior, park/bird drawing, paper flowers and empty art box match revised text. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "08b2b16c07ecefa60f3cce9e9aee7be3377f9c295d9fae011cd2140b6d84f5d2",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.236,
+        0.3
+      ],
+      "刘梅": [
+        0.535,
+        0.318
+      ],
+      "张雨桐": [
+        0.715,
+        0.222
+      ],
+      "张乐乐": [
+        0.729,
+        0.487
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC049 four canonical family identities and actual mouths inspected: mature parents, older teen Yutong, small boy Lele. Home interior, park/bird drawing, paper flowers and empty art box match revised text. Model review only; native human/device pending."
+  }
 }

@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC049",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 10,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.35,
+  "meanNewZhLength": 14.73,
+  "continuityNoteTr": "SC048 etkinlik resmi ve kâğıt çiçekler evde incelenir; aile ilk üç ayı okul, iş, eski/yeni arkadaşlar ve ev üzerinden karşılaştırır. Eski arkadaşlar için 旧的朋友 ifadesi çocuk sorusuyla daha doğal 以前的朋友/老朋友 olarak açıklanır. SC050 iki aile yemeğine resim götürme geçişi vardır.",
+  "lengthDeviationPercent": 131.97,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
