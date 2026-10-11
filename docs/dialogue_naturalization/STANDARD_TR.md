@@ -210,3 +210,5 @@ SC041: 42/300 metin,41/300 ağız kalibrasyonu. Veteriner ziyareti ve SC042 ür�
 SC042: 43/300 metin,42/300 ağız kalibrasyonu. Pet mağazasında yazılı veteriner bilgisiyle mama seçimi. Canonical aile ve mağaza görevlisi kontrol edildi. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC043: 44/300 metin,43/300 ağız kalibrasyonu. İlk sınav öncesi Yutong aile desteğiyle soruları ve çantasını hazırlar; SC044 Lele çizim anlatımı geçişi. Canonical aile kontrol edildi. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC044: 45/300 metin,44/300 ağız kalibrasyonu. Lele aile çizimini sınıfta anlatır. Yanlış kız kimliği küçük oğlan olarak düzeltildi; iki sınıf arkadaşı 100 ID bazında ayrı ağızlara bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.

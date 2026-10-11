@@ -28,9 +28,9 @@
         "zh": "画",
         "pinyin": "huà",
         "tr": "resim",
-        "exampleZh": "这是画。",
-        "examplePinyin": "Zhè shì huà.",
-        "exampleTr": "Bu resim.",
+        "exampleZh": "老师，我把昨天画的家人带来了，现在可以说吗？",
+        "examplePinyin": "Lǎo shī, wǒ bǎ zuó tiān huà de jiā rén dài lái le, xiàn zài kě yǐ shuō ma?",
+        "exampleTr": "Öğretmenim, dün çizdiğim aile resmini getirdim; şimdi anlatabilir miyim?",
         "kind": "active"
       },
       {
@@ -38,9 +38,9 @@
         "zh": "家人",
         "pinyin": "jiārén",
         "tr": "aile",
-        "exampleZh": "这是家人。",
-        "examplePinyin": "Zhè shì jiārén.",
-        "exampleTr": "Bu aile.",
+        "exampleZh": "老师，我把昨天画的家人带来了，现在可以说吗？",
+        "examplePinyin": "Lǎo shī, wǒ bǎ zuó tiān huà de jiā rén dài lái le, xiàn zài kě yǐ shuō ma?",
+        "exampleTr": "Öğretmenim, dün çizdiğim aile resmini getirdim; şimdi anlatabilir miyim?",
         "kind": "active"
       },
       {
@@ -48,9 +48,9 @@
         "zh": "妈妈",
         "pinyin": "māma",
         "tr": "anne",
-        "exampleZh": "这是妈妈。",
-        "examplePinyin": "Zhè shì māma.",
-        "exampleTr": "Bu anne.",
+        "exampleZh": "旁边是妈妈，她的头发在后面，我画得不太清楚。",
+        "examplePinyin": "Páng biān shì mā ma, tā de tóu fà zài hòu miàn, wǒ huà de bù tài qīng chǔ.",
+        "exampleTr": "Yanındaki annem; saçı arkada, çok net çizemedim.",
         "kind": "active"
       },
       {
@@ -58,9 +58,9 @@
         "zh": "爸爸",
         "pinyin": "bàba",
         "tr": "baba",
-        "exampleZh": "这是爸爸。",
-        "examplePinyin": "Zhè shì bàba.",
-        "exampleTr": "Bu baba.",
+        "exampleZh": "这是爸爸，他有眼镜，我把眼镜也画上了。",
+        "examplePinyin": "Zhè shì bà ba, tā yǒu yǎn jìng, wǒ bǎ yǎn jìng yě huà shàng le.",
+        "exampleTr": "Bu babam; gözlüğü var, ben de çizdim.",
         "kind": "active"
       },
       {
@@ -68,9 +68,9 @@
         "zh": "老师",
         "pinyin": "lǎoshī",
         "tr": "öğretmen",
-        "exampleZh": "这是老师。",
-        "examplePinyin": "Zhè shì lǎoshī.",
-        "exampleTr": "Bu öğretmen.",
+        "exampleZh": "老师，我把昨天画的家人带来了，现在可以说吗？",
+        "examplePinyin": "Lǎo shī, wǒ bǎ zuó tiān huà de jiā rén dài lái le, xiàn zài kě yǐ shuō ma?",
+        "exampleTr": "Öğretmenim, dün çizdiğim aile resmini getirdim; şimdi anlatabilir miyim?",
         "kind": "active"
       },
       {
@@ -78,9 +78,9 @@
         "zh": "学生",
         "pinyin": "xuésheng",
         "tr": "öğrenci",
-        "exampleZh": "这是学生。",
-        "examplePinyin": "Zhè shì xuésheng.",
-        "exampleTr": "Bu öğrenci.",
+        "exampleZh": "是的，学生分享的时候，大家先听，再提问题。",
+        "examplePinyin": "Shì de, xué shēng fēn xiǎng de shí hòu, dà jiā xiān tīng, zài tí wèn tí.",
+        "exampleTr": "Evet; bir öğrenci paylaşırken önce dinleyip sonra soru sorarız.",
         "kind": "active"
       },
       {
@@ -88,9 +88,9 @@
         "zh": "图片",
         "pinyin": "túpiàn",
         "tr": "resim / görsel",
-        "exampleZh": "这是图片。",
-        "examplePinyin": "Zhè shì túpiàn.",
-        "exampleTr": "Bu resim / görsel.",
+        "exampleZh": "球在哪里？这张图片里我没有找到。",
+        "examplePinyin": "Qiú zài nǎ lǐ? zhè zhāng tú piàn lǐ wǒ méi yǒu zhǎo dào.",
+        "exampleTr": "Top nerede? Bu resimde bulamadım.",
         "kind": "review"
       },
       {
@@ -98,9 +98,9 @@
         "zh": "学校",
         "pinyin": "xuéxiào",
         "tr": "okul",
-        "exampleZh": "这是学校。",
-        "examplePinyin": "Zhè shì xuéxiào.",
-        "exampleTr": "Bu okul.",
+        "exampleZh": "那你今天把画带到学校，也有一点紧张吗？",
+        "examplePinyin": "Nà nǐ jīn tiān bǎ huà dài dào xué xiào, yě yǒu yì diǎn jǐn zhāng ma?",
+        "exampleTr": "Peki sen de resmi okula getirirken biraz heyecanlandın mı?",
         "kind": "review"
       }
     ],
@@ -111,40 +111,40 @@
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
           "画",
-          "在",
-          "这里"
+          "拿稳",
+          "先"
         ],
         "answerTokens": [
-          "画",
-          "在",
-          "这里"
+          "先",
+          "拿稳",
+          "画"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC044_002",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "这是___。",
+        "blankSentenceZh": "这是我的___。",
         "options": [
-          "画",
           "家人",
-          "妈妈"
+          "考试",
+          "医院"
         ],
-        "answer": "画"
+        "answer": "家人"
       },
       {
         "id": "SENT_ZH_HSK1_SC044_003",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "这里",
-          "在",
-          "家人"
+          "妈妈",
+          "绿色的衣服",
+          "穿"
         ],
         "answerTokens": [
-          "家人",
-          "在",
-          "这里"
+          "妈妈",
+          "穿",
+          "绿色的衣服"
         ]
       },
       {
@@ -152,37 +152,41 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "这是",
-          "妈妈"
+          "爸爸",
+          "有",
+          "眼镜"
         ],
         "answerTokens": [
-          "这是",
-          "妈妈"
+          "爸爸",
+          "有",
+          "眼镜"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC044_005",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "家人在___。",
+        "blankSentenceZh": "___，现在可以说吗？",
         "options": [
-          "这里",
-          "谢谢",
-          "很好"
+          "老师",
+          "图片",
+          "球"
         ],
-        "answer": "这里"
+        "answer": "老师"
       },
       {
         "id": "SENT_ZH_HSK1_SC044_006",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "在哪儿",
-          "画"
+          "学生",
+          "分享",
+          "认真听"
         ],
         "answerTokens": [
-          "画",
-          "在哪儿"
+          "学生",
+          "分享",
+          "认真听"
         ]
       },
       {
@@ -190,92 +194,92 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "我",
-          "喜欢",
-          "妈妈"
+          "图片里",
+          "没有",
+          "球"
         ],
         "answerTokens": [
-          "我",
-          "喜欢",
-          "妈妈"
+          "图片里",
+          "没有",
+          "球"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC044_008",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "___，谢谢。",
+        "blankSentenceZh": "我把画带到___。",
         "options": [
-          "好的",
-          "在哪儿",
-          "不是"
+          "学校",
+          "水里",
+          "药里"
         ],
-        "answer": "好的"
+        "answer": "学校"
       },
       {
         "id": "SENT_ZH_HSK1_SC044_009",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "一起",
-          "我们",
-          "吧"
+          "先听完",
+          "再",
+          "提问题"
         ],
         "answerTokens": [
-          "我们",
-          "一起",
-          "吧"
+          "先听完",
+          "再",
+          "提问题"
         ]
       }
     ],
     "comprehensionQuestions": [
       {
         "id": "COMP_ZH_HSK1_SC044_001",
-        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "questionTr": "Lele resimde kaç aile üyesi çizmiştir?",
         "optionsTr": [
-          "Lele’nin Resmi",
-          "Bir havaalanı yolculuğu",
-          "Bir spor maçı"
+          "Dört",
+          "İki",
+          "Altı"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC044_002",
-        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "questionTr": "Yeşil yuvarlak şekil nedir?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Belli değil"
+          "Güneş",
+          "Ağacın yaprakları",
+          "Gözlük"
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "COMP_ZH_HSK1_SC044_003",
-        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "questionTr": "Top neden resimde görünmez?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sahne bitmiyor"
+          "Lele bu kez aile ve parkı çizmiştir",
+          "Top kaybolmuştur",
+          "Öğretmen silmiştir"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC044_004",
-        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "questionTr": "Resim anlatıldıktan sonra nereye konur?",
         "optionsTr": [
-          "Zhang ailesinin yeni kasabadaki yaşamına",
-          "Bir tarih belgeseline",
-          "Bir spor turnuvasına"
+          "Su bardağına",
+          "Yere",
+          "Çalışma dosyasına"
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       }
     ],
     "pronunciationItems": [
       {
         "id": "PRON_ZH_HSK1_SC044_001",
-        "zh": "这是画。",
-        "pinyin": "Zhè shì huà.",
-        "tr": "Bu resim.",
+        "zh": "老师，我把昨天画的家人带来了，现在可以说吗？",
+        "pinyin": "Lǎo shī, wǒ bǎ zuó tiān huà de jiā rén dài lái le, xiàn zài kě yǐ shuō ma?",
+        "tr": "Öğretmenim, dün çizdiğim aile resmini getirdim; şimdi anlatabilir miyim?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -286,9 +290,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC044_002",
-        "zh": "这是家人。",
-        "pinyin": "Zhè shì jiārén.",
-        "tr": "Bu aile.",
+        "zh": "旁边是妈妈，她的头发在后面，我画得不太清楚。",
+        "pinyin": "Páng biān shì mā ma, tā de tóu fà zài hòu miàn, wǒ huà de bù tài qīng chǔ.",
+        "tr": "Yanındaki annem; saçı arkada, çok net çizemedim.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -299,9 +303,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC044_003",
-        "zh": "这是妈妈。",
-        "pinyin": "Zhè shì māma.",
-        "tr": "Bu anne.",
+        "zh": "球在哪里？这张图片里我没有找到。",
+        "pinyin": "Qiú zài nǎ lǐ? zhè zhāng tú piàn lǐ wǒ méi yǒu zhǎo dào.",
+        "tr": "Top nerede? Bu resimde bulamadım.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -312,9 +316,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC044_004",
-        "zh": "这是爸爸。",
-        "pinyin": "Zhè shì bàba.",
-        "tr": "Bu baba.",
+        "zh": "是的，学生分享的时候，大家先听，再提问题。",
+        "pinyin": "Shì de, xué shēng fēn xiǎng de shí hòu, dà jiā xiān tīng, zài tí wèn tí.",
+        "tr": "Evet; bir öğrenci paylaşırken önce dinleyip sonra soru sorarız.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -327,69 +331,54 @@
     "interactiveDialogue": [
       {
         "id": "INT_ZH_HSK1_SC044_001",
-        "promptZh": "画在哪儿？",
-        "promptPinyin": "Huà zài nǎr?",
-        "promptTr": "Resim nerede?",
+        "promptZh": "画挡住脸了，怎么办？",
+        "promptPinyin": "Huà dǎng zhù liǎn le, zěn me bàn?",
+        "promptTr": "Resim yüzünü kapatırsa ne yapmalı?",
         "options": [
           {
-            "zh": "在这里。",
-            "tr": "Burada.",
+            "zh": "把画放低一点，让大家看清楚。",
+            "tr": "Herkesin görmesi için resmi biraz indiririm.",
             "correct": true
           },
           {
-            "zh": "谢谢。",
-            "tr": "Teşekkürler.",
-            "correct": false
-          },
-          {
-            "zh": "我很好。",
-            "tr": "Ben iyiyim.",
+            "zh": "一直藏在纸后面。",
+            "tr": "Kâğıdın arkasında saklanırım.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC044_002",
-        "promptZh": "这是家人吗？",
-        "promptPinyin": "Zhè shì jiārén ma?",
-        "promptTr": "Bu aile mı?",
+        "promptZh": "同学看不懂树叶，怎么办？",
+        "promptPinyin": "Tóng xué kàn bù dǒng shù yè, zěn me bàn?",
+        "promptTr": "Arkadaş yaprakları anlayamazsa ne yapmalı?",
         "options": [
           {
-            "zh": "对，是的。",
-            "tr": "Evet.",
+            "zh": "用话说明。",
+            "tr": "Sözle açıklarım.",
             "correct": true
           },
           {
-            "zh": "我叫张伟。",
-            "tr": "Benim adım Zhang Wei.",
-            "correct": false
-          },
-          {
-            "zh": "明天见。",
-            "tr": "Yarın görüşürüz.",
+            "zh": "把整张画藏起来。",
+            "tr": "Bütün resmi saklarım.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC044_003",
-        "promptZh": "你喜欢妈妈吗？",
-        "promptPinyin": "Nǐ xǐhuan māma ma?",
-        "promptTr": "Anne seviyor musun?",
+        "promptZh": "别人说话的时候呢？",
+        "promptPinyin": "Bié rén shuō huà de shí hòu ne?",
+        "promptTr": "Başkası konuşurken ne yapmalı?",
         "options": [
           {
-            "zh": "喜欢。",
-            "tr": "Seviyorum.",
+            "zh": "先听完，再提问题。",
+            "tr": "Önce dinleyip sonra soru sorarım.",
             "correct": true
           },
           {
-            "zh": "在右边。",
-            "tr": "Sağ tarafta.",
-            "correct": false
-          },
-          {
-            "zh": "五点。",
-            "tr": "Saat beş.",
+            "zh": "马上抢走画。",
+            "tr": "Resmi hemen alırım.",
             "correct": false
           }
         ]
@@ -429,702 +418,720 @@
     {
       "id": "DLG_ZH_HSK1_SC044_001",
       "speaker": "张乐乐",
-      "zh": "乐乐画了全家福。",
-      "pinyin": "Lèlè huà le quánjiāfú.",
-      "tr": "Lele bir aile resmi çizdi."
+      "zh": "老师，我把昨天画的家人带来了，现在可以说吗？",
+      "pinyin": "Lǎo shī, wǒ bǎ zuó tiān huà de jiā rén dài lái le, xiàn zài kě yǐ shuō ma?",
+      "tr": "Öğretmenim, dün çizdiğim aile resmini getirdim; şimdi anlatabilir miyim?",
+      "emotion": "worried",
+      "actionTr": "Lele sınıfta ailesinin resmini anlatmak için izin ister."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_002",
       "speaker": "老师",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "可以，先把画拿稳，让大家看得见。",
+      "pinyin": "Kě yǐ, xiān bǎ huà ná wěn, ràng dà jiā kàn de jiàn.",
+      "tr": "Olur; önce resmi düzgün tut, herkes görebilsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_003",
       "speaker": "同学",
-      "zh": "是。",
-      "pinyin": "Shì.",
-      "tr": "Evet."
+      "zh": "我看到四个人，可是下面有点挡住了。",
+      "pinyin": "Wǒ kàn dào sì gè rén, kě shì xià miàn yǒu diǎn dǎng zhù le.",
+      "tr": "Dört kişi görüyorum ama alt tarafı biraz kapanmış."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_004",
       "speaker": "同学",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "乐乐，把手往边上放一点吧。",
+      "pinyin": "Lè le, bǎ shǒu wǎng biān shàng fàng yì diǎn ba.",
+      "tr": "Lele, ellerini biraz kenara çek."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_005",
       "speaker": "张乐乐",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "这样呢？我怕拿高了看不到大家。",
+      "pinyin": "Zhè yàng ne? wǒ pà ná gāo le kàn bú dào dà jiā.",
+      "tr": "Böyle mi? Çok kaldırırsam sizi görememekten korkuyorum.",
+      "emotion": "curious",
+      "actionTr": "Resmi yüzünü kapatmadan tutmayı dener."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_006",
       "speaker": "老师",
-      "zh": "这是画吗？",
-      "pinyin": "Zhè shì huà ma?",
-      "tr": "Bu, resim mı?"
+      "zh": "现在正好，你不用把脸藏在纸后面。",
+      "pinyin": "Xiàn zài zhèng hǎo, nǐ bù yòng bǎ liǎn cáng zài zhǐ hòu miàn.",
+      "tr": "Şimdi iyi; yüzünü kâğıdın arkasına saklamana gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_007",
       "speaker": "同学",
-      "zh": "对，这是画。",
-      "pinyin": "Duì, zhè shì huà.",
-      "tr": "Evet, bu resim."
+      "zh": "我能看清左边那个人了。",
+      "pinyin": "Wǒ néng kàn qīng zuǒ biān nà ge rén le.",
+      "tr": "Soldaki kişiyi artık net görebiliyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_008",
       "speaker": "同学",
-      "zh": "画在哪儿？",
-      "pinyin": "Huà zài nǎér?",
-      "tr": "Resim nerede?"
+      "zh": "我想先听听你画的是谁。",
+      "pinyin": "Wǒ xiǎng xiān tīng tīng nǐ huà de shì shuí.",
+      "tr": "Önce kimi çizdiğini duymak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_009",
       "speaker": "张乐乐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Resim burada."
+      "zh": "这是爸爸，他有眼镜，我把眼镜也画上了。",
+      "pinyin": "Zhè shì bà ba, tā yǒu yǎn jìng, wǒ bǎ yǎn jìng yě huà shàng le.",
+      "tr": "Bu babam; gözlüğü var, ben de çizdim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_010",
       "speaker": "老师",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "你选了一个容易认出来的地方，很好。",
+      "pinyin": "Nǐ xuǎn le yí gè róng yì rèn chū lái de dì fāng, hěn hǎo.",
+      "tr": "Onu tanımayı kolaylaştıran bir özelliği seçmişsin; güzel."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_011",
       "speaker": "同学",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "我刚才以为那两条线是眼睛。",
+      "pinyin": "Wǒ gāng cái yǐ wéi nà liǎng tiáo xiàn shì yǎn jīng.",
+      "tr": "Az önce o iki çizgiyi göz sandım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_012",
       "speaker": "同学",
-      "zh": "认识你很高兴。",
-      "pinyin": "Rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "听你说了，我才看出是眼镜。",
+      "pinyin": "Tīng nǐ shuō le, wǒ cái kàn chū shì yǎn jìng.",
+      "tr": "Sen söyleyince gözlük olduğunu anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_013",
       "speaker": "张乐乐",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "旁边是妈妈，她的头发在后面，我画得不太清楚。",
+      "pinyin": "Páng biān shì mā ma, tā de tóu fà zài hòu miàn, wǒ huà de bù tài qīng chǔ.",
+      "tr": "Yanındaki annem; saçı arkada, çok net çizemedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_014",
       "speaker": "老师",
-      "zh": "这是我们的妈妈。",
-      "pinyin": "Zhèshì wǒmen de māmā.",
-      "tr": "Bu bizim anne."
+      "zh": "不用每个地方都一样，你可以用话说明。",
+      "pinyin": "Bù yòng měi gè dì fāng dōu yī yàng, nǐ kě yǐ yòng huà shuō míng.",
+      "tr": "Her ayrıntının aynı olması gerekmez; sözle açıklayabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_015",
       "speaker": "同学",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "我看到她穿绿色的衣服。",
+      "pinyin": "Wǒ kàn dào tā chuān lǜ sè de yī fú.",
+      "tr": "Yeşil kıyafet giydiğini görüyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_016",
       "speaker": "同学",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "她旁边高一点的是姐姐吗？",
+      "pinyin": "Tā páng biān gāo yì diǎn de shì jiě jie ma?",
+      "tr": "Yanındaki biraz daha uzun kişi ablan mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_017",
       "speaker": "张乐乐",
-      "zh": "我也这么想。",
-      "pinyin": "Wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "对，姐姐比我大，我画她的时候用了紫色。",
+      "pinyin": "Duì, jiě jie bǐ wǒ dà, wǒ huà tā de shí hòu yòng le zǐ sè.",
+      "tr": "Evet, ablam benden büyük; onu çizerken mor kullandım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_018",
       "speaker": "老师",
-      "zh": "这是我们的爸爸。",
-      "pinyin": "Zhèshì wǒmen de bàbà.",
-      "tr": "Bu bizim baba."
+      "zh": "那最后那个穿蓝色的小朋友呢？",
+      "pinyin": "Nà zuì hòu nà ge chuān lán sè de xiǎo péng yǒu ne?",
+      "tr": "Peki son, mavi giyen küçük çocuk kim?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_019",
       "speaker": "同学",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "我猜是乐乐自己。",
+      "pinyin": "Wǒ cāi shì lè le zì jǐ.",
+      "tr": "Bence Lele’nin kendisi."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_020",
       "speaker": "同学",
-      "zh": "太好了，认识你很高兴。",
-      "pinyin": "Tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "因为他今天也穿着蓝色。",
+      "pinyin": "Yīn wèi tā jīn tiān yě chuān zhe lán sè.",
+      "tr": "Çünkü bugün de mavi giyiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_021",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "你们猜对了，那是我，我还画了自己的头发。",
+      "pinyin": "Nǐ men cāi duì le, nà shì wǒ, wǒ hái huà le zì jǐ de tóu fà.",
+      "tr": "Doğru bildiniz; o benim, kendi saçımı da çizdim.",
+      "emotion": "happy",
+      "actionTr": "Sınıfın küçük mavi figürü kendisi olarak tanımasına sevinir."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_022",
       "speaker": "老师",
-      "zh": "老师请他介绍家人。",
-      "pinyin": "Lǎoshī qǐng tā jièshào jiārén.",
-      "tr": "Öğretmen ailesini tanıtmasını istiyor."
+      "zh": "大家都找到四个人了，你还想说什么？",
+      "pinyin": "Dà jiā dōu zhǎo dào sì gè rén le, nǐ hái xiǎng shuō shén me?",
+      "tr": "Herkes dört kişiyi buldu; başka ne anlatmak istersin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_023",
       "speaker": "同学",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "我想问，下面的绿色是草吗？",
+      "pinyin": "Wǒ xiǎng wèn, xià miàn de lǜ sè shì cǎo ma?",
+      "tr": "Alttaki yeşil şeyin çimen olup olmadığını sormak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_024",
       "speaker": "同学",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "我看到旁边还有一棵树。",
+      "pinyin": "Wǒ kàn dào páng biān hái yǒu yī kē shù.",
+      "tr": "Yanında bir de ağaç görüyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_025",
       "speaker": "张乐乐",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "是草，我们一起去过公园，我想起那一天。",
+      "pinyin": "Shì cǎo, wǒ men yì qǐ qù guò gōng yuán, wǒ xiǎng qǐ nà yī tiān.",
+      "tr": "Çimen; birlikte parka gitmiştik, o günü düşündüm."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_026",
       "speaker": "老师",
-      "zh": "行。",
-      "pinyin": "Xíng.",
-      "tr": "Tamam."
+      "zh": "所以这张画不只是人，也有你记得的地方。",
+      "pinyin": "Suǒ yǐ zhè zhāng huà bù zhǐ shì rén, yě yǒu nǐ jì de de dì fāng.",
+      "tr": "O zaman bu resimde yalnızca insanlar değil, hatırladığın yer de var."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_027",
       "speaker": "同学",
-      "zh": "这是我们的老师。",
-      "pinyin": "Zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "树上那个圆圆的是什么？",
+      "pinyin": "Shù shàng nà ge yuán yuán de shì shén me?",
+      "tr": "Ağacın üzerindeki yuvarlak şey ne?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_028",
       "speaker": "同学",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "是不是你画的太阳？",
+      "pinyin": "Shì bú shì nǐ huà de tài yáng?",
+      "tr": "Çizdiğin güneş olabilir mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_029",
       "speaker": "张乐乐",
-      "zh": "嗯，太好了，认识你很高兴。",
-      "pinyin": "En, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "太阳在上面，这个是树叶，我画成一团了。",
+      "pinyin": "Tài yáng zài shàng miàn, zhè ge shì shù yè, wǒ huà chéng yī tuán le.",
+      "tr": "Güneş yukarıda; bu yapraklar, tek bir kütle gibi çizdim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_030",
       "speaker": "老师",
-      "zh": "嗯，我也这么想。",
-      "pinyin": "En, wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "你说清楚了，我们就不会看错。",
+      "pinyin": "Nǐ shuō qīng chǔ le, wǒ men jiù bú huì kàn cuò.",
+      "tr": "Açıkladığın için artık yanlış anlamayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_031",
       "speaker": "同学",
-      "zh": "这是我们的学生。",
-      "pinyin": "Zhèshì wǒmen de xuéshēng.",
-      "tr": "Bu bizim öğrenci."
+      "zh": "我刚才看的是上面的黄色，确实是太阳。",
+      "pinyin": "Wǒ gāng cái kàn de shì shàng miàn de huáng sè, què shí shì tài yáng.",
+      "tr": "Az önce yukarıdaki sarı şeye baktım; gerçekten güneşmiş."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_032",
       "speaker": "同学",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "绿色的树叶和下面的草颜色一样。",
+      "pinyin": "Lǜ sè de shù yè hé xià miàn de cǎo yán sè yī yàng.",
+      "tr": "Yeşil yapraklarla alttaki çimen aynı renk."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_033",
       "speaker": "张乐乐",
-      "zh": "嗯，认识你很高兴。",
-      "pinyin": "En, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我的绿色笔就这一支，所以都用了它。",
+      "pinyin": "Wǒ de lǜ sè bǐ jiù zhè yī zhī, suǒ yǐ dōu yòng le tā.",
+      "tr": "Yalnızca bir yeşil kalemim var; ikisinde de onu kullandım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_034",
       "speaker": "老师",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "同一种颜色也能画不同的东西，不用担心。",
+      "pinyin": "Tóng yī zhǒng yán sè yě néng huà bù tóng de dōng xi, bù yòng dān xīn.",
+      "tr": "Aynı renkle farklı şeyler çizilebilir; endişelenme."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_035",
       "speaker": "同学",
-      "zh": "这是图片，对吗？",
-      "pinyin": "Zhèshì túpiàn, duì ma?",
-      "tr": "Bu, resim / görsel mı?"
+      "zh": "那你画这张用了多久？",
+      "pinyin": "Nà nǐ huà zhè zhāng yòng le duō jiǔ?",
+      "tr": "Peki bunu ne kadar sürede çizdin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_036",
       "speaker": "同学",
-      "zh": "嗯，这就是图片。",
-      "pinyin": "En, zhè jiùshì túpiàn.",
-      "tr": "Evet, bu resim / görsel."
+      "zh": "是不是昨天放学以后画的？",
+      "pinyin": "Shì bú shì zuó tiān fàng xué yǐ hòu huà de?",
+      "tr": "Dün okuldan sonra mı çizdin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_037",
       "speaker": "张乐乐",
-      "zh": "图片在哪儿？",
-      "pinyin": "Túpiàn zài nǎér?",
-      "tr": "Resim / görsel nerede?"
+      "zh": "对，昨天回家画的，晚上又看了一遍。",
+      "pinyin": "Duì, zuó tiān huí jiā huà de, wǎn shàng yòu kàn le yī biàn.",
+      "tr": "Evet, dün evde çizdim; akşam tekrar baktım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_038",
       "speaker": "老师",
-      "zh": "图片在这里。",
-      "pinyin": "Túpiàn zài zhèlǐ.",
-      "tr": "Resim / görsel burada."
+      "zh": "你有没有想改的地方？",
+      "pinyin": "Nǐ yǒu méi yǒu xiǎng gǎi de dì fāng?",
+      "tr": "Değiştirmek istediğin bir yer oldu mu?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_039",
       "speaker": "同学",
-      "zh": "学校在哪儿？",
-      "pinyin": "Xuéxiào zài nǎér?",
-      "tr": "Okul nerede?"
+      "zh": "我看这只手比另一只大。",
+      "pinyin": "Wǒ kàn zhè zhǐ shǒu bǐ lìng yī zhī dà.",
+      "tr": "Bu elin diğerinden büyük olduğunu görüyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_040",
       "speaker": "同学",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Okul şu tarafta."
+      "zh": "不过四个人都很开心，我喜欢他们的脸。",
+      "pinyin": "Bù guò sì gè rén dōu hěn kāi xīn, wǒ xǐ huan tā men de liǎn.",
+      "tr": "Ama dört kişi de mutlu; yüzlerini beğendim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_041",
       "speaker": "张乐乐",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "那只手我画大了，本来想再改，可纸快破了。",
+      "pinyin": "Nà zhǐ shǒu wǒ huà dà le, běn lái xiǎng zài gǎi, kě zhǐ kuài pò le.",
+      "tr": "O eli büyük çizdim; düzeltmek istedim ama kâğıt neredeyse yırtılıyordu.",
+      "emotion": "sad",
+      "actionTr": "Büyük çizdiği eli silerken kâğıdın zorlandığını anlatır."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_042",
       "speaker": "老师",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "停下来也对，这张已经能让我们看到你的意思。",
+      "pinyin": "Tíng xià lái yě duì, zhè zhāng yǐ jīng néng ràng wǒ men kàn dào nǐ de yì si.",
+      "tr": "Durman da iyi olmuş; resim ne anlatmak istediğini gösteriyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_043",
       "speaker": "同学",
-      "zh": "乐乐高兴地介绍了大家。",
-      "pinyin": "Lèlè gāoxìng dì jièshào le dàjiā.",
-      "tr": "Lele herkesi sevinçle tanıtıyor."
+      "zh": "我有一次改太多，纸真的破了。",
+      "pinyin": "Wǒ yǒu yī cì gǎi tài duō, zhǐ zhēn de pò le.",
+      "tr": "Ben bir keresinde çok düzelttim; kâğıt gerçekten yırtıldı."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_044",
       "speaker": "同学",
-      "zh": "太好了！",
-      "pinyin": "Tàihǎole!",
-      "tr": "Harika!"
+      "zh": "我后来换一张重新画，没有一直擦。",
+      "pinyin": "Wǒ hòu lái huàn yī zhāng chóng xīn huà, méi yǒu yì zhí cā.",
+      "tr": "Sonra başka kâğıda yeniden çizdim; sürekli silmedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_045",
       "speaker": "张乐乐",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我今天先拿这张来，不想因为一只手就全藏起来。",
+      "pinyin": "Wǒ jīn tiān xiān ná zhè zhāng lái, bù xiǎng yīn wèi yī zhī shǒu jiù quán cáng qǐ lái.",
+      "tr": "Bugün bu resmi getirdim; bir el yüzünden hepsini saklamak istemedim.",
+      "emotion": "comforting",
+      "actionTr": "Tek bir kusur yüzünden resmi saklamamaya karar verir."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_046",
       "speaker": "老师",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "你愿意分享很好，也可以以后再画新的。",
+      "pinyin": "Nǐ yuàn yì fēn xiǎng hěn hǎo, yě kě yǐ yǐ hòu zài huà xīn de.",
+      "tr": "Paylaşman güzel; daha sonra yeni resimler de çizebilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_047",
       "speaker": "同学",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "我听明白了，那只手不是你画错了一个人。",
+      "pinyin": "Wǒ tīng míng bái le, nà zhǐ shǒu bú shì nǐ huà cuò le yí gè rén.",
+      "tr": "Anladım; o el, kişiyi yanlış çizdiğin anlamına gelmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_048",
       "speaker": "同学",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "我最想知道你们在公园做了什么。",
+      "pinyin": "Wǒ zuì xiǎng zhī dào nǐ men zài gōng yuán zuò le shén me.",
+      "tr": "Ben en çok parkta ne yaptığınızı öğrenmek istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_049",
       "speaker": "张乐乐",
-      "zh": "那这是画吗？",
-      "pinyin": "Nà zhè shì huà ma?",
-      "tr": "Bu, resim mı?"
+      "zh": "我们看了花，也一起玩球，后来坐着喝水。",
+      "pinyin": "Wǒ men kàn le huā, yě yì qǐ wán qiú, hòu lái zuò zhe hē shuǐ.",
+      "tr": "Çiçeklere baktık, birlikte top oynadık; sonra oturup su içtik."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_050",
       "speaker": "老师",
-      "zh": "没错，这是画。",
-      "pinyin": "Méicuò, zhè shì huà.",
-      "tr": "Evet, bu resim."
+      "zh": "你可以从里面挑一件，给大家多说一点。",
+      "pinyin": "Nǐ kě yǐ cóng lǐ miàn tiāo yī jiàn, gěi dà jiā duō shuō yì diǎn.",
+      "tr": "Bunlardan birini seçip biraz daha anlatabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_051",
       "speaker": "同学",
-      "zh": "画呢？",
-      "pinyin": "Huà ne?",
-      "tr": "Resim nerede?"
+      "zh": "球在哪里？这张图片里我没有找到。",
+      "pinyin": "Qiú zài nǎ lǐ? zhè zhāng tú piàn lǐ wǒ méi yǒu zhǎo dào.",
+      "tr": "Top nerede? Bu resimde bulamadım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_052",
       "speaker": "同学",
-      "zh": "嗯，就在这里。",
-      "pinyin": "En, jiù zài zhèlǐ.",
-      "tr": "Resim burada."
+      "zh": "可能他没有把所有东西都画进去。",
+      "pinyin": "Kě néng tā méi yǒu bǎ suǒ yǒu dōng xi dōu huà jìn qù.",
+      "tr": "Belki bütün şeyleri resme çizmedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_053",
       "speaker": "张乐乐",
-      "zh": "嗯，这是我们的家人。",
-      "pinyin": "En, zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "对，我没有画球，这次先画家人和公园。",
+      "pinyin": "Duì, wǒ méi yǒu huà qiú, zhè cì xiān huà jiā rén hé gōng yuán.",
+      "tr": "Evet, topu çizmedim; bu kez ailemi ve parkı çizdim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_054",
       "speaker": "老师",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "画里没有的，你也能告诉我们，不用马上补上。",
+      "pinyin": "Huà lǐ méi yǒu de, nǐ yě néng gào sù wǒ men, bù yòng mǎ shàng bǔ shàng.",
+      "tr": "Resimde olmayanı sözle de anlatabilirsin; hemen eklemen gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_055",
       "speaker": "同学",
-      "zh": "对，认识你很高兴。",
-      "pinyin": "Duì, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "那你说玩球的时候，我听就好了。",
+      "pinyin": "Nà nǐ shuō wán qiú de shí hòu, wǒ tīng jiù hǎo le.",
+      "tr": "Top oynadığınızı anlatınca dinlemem yeterli."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_056",
       "speaker": "同学",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我刚才差点叫你现在拿笔画一个。",
+      "pinyin": "Wǒ gāng cái chà diǎn jiào nǐ xiàn zài ná bǐ huà yí gè.",
+      "tr": "Az önce sana hemen kalem alıp bir top çizmeni söyleyecektim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_057",
       "speaker": "张乐乐",
-      "zh": "嗯，这是我们的妈妈。",
-      "pinyin": "En, zhèshì wǒmen de māmā.",
-      "tr": "Bu bizim anne."
+      "zh": "我先把话说完，等下再收画，不在这里改。",
+      "pinyin": "Wǒ xiān bǎ huà shuō wán, děng xià zài shōu huà, bù zài zhè lǐ gǎi.",
+      "tr": "Önce anlatmayı bitireyim; sonra resmi kaldırırım, burada değiştirmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_058",
       "speaker": "老师",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "好，你站得稳吗？累了可以把画放桌上。",
+      "pinyin": "Hǎo, nǐ zhàn de wěn ma? lèi le kě yǐ bǎ huà fàng zhuō shàng.",
+      "tr": "Peki, rahat duruyor musun? Yorulduysan resmi masaya koyabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_059",
       "speaker": "同学",
-      "zh": "好，认识你很高兴。",
-      "pinyin": "Hǎo, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我帮你把这边的笔拿开。",
+      "pinyin": "Wǒ bāng nǐ bǎ zhè biān de bǐ ná kāi.",
+      "tr": "Bu taraftaki kalemleri kaldırmana yardım edeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_060",
       "speaker": "同学",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我把杯子移开，纸就不会碰到水。",
+      "pinyin": "Wǒ bǎ bēi zi yí kāi, zhǐ jiù bú huì pèng dào shuǐ.",
+      "tr": "Bardağı çekeyim; kâğıt suya değmesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_061",
       "speaker": "张乐乐",
-      "zh": "嗯，这是我们的爸爸。",
-      "pinyin": "En, zhèshì wǒmen de bàbà.",
-      "tr": "Bu bizim baba."
+      "zh": "谢谢，我把画放这里，大家还是看得到吧？",
+      "pinyin": "Xiè xiè, wǒ bǎ huà fàng zhè lǐ, dà jiā hái shì kàn de dào ba?",
+      "tr": "Teşekkür ederim; resmi buraya koyayım, yine görebiliyor musunuz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_062",
       "speaker": "老师",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "看得到，我们围着桌子看，不用抢着拿。",
+      "pinyin": "Kàn de dào, wǒ men wéi zhe zhuō zi kàn, bù yòng qiǎng zhe ná.",
+      "tr": "Görebiliyoruz; masanın çevresinden bakalım, kapmak gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_063",
       "speaker": "同学",
-      "zh": "嗯，很高兴认识你。",
-      "pinyin": "En, hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我不会把它拉过来，我在这里看。",
+      "pinyin": "Wǒ bú huì bǎ tā lā guò lái, wǒ zài zhè lǐ kàn.",
+      "tr": "Kendime çekmeyeceğim; buradan bakarım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_064",
       "speaker": "同学",
-      "zh": "对，我也是。",
-      "pinyin": "Duì, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我也等你说完再问。",
+      "pinyin": "Wǒ yě děng nǐ shuō wán zài wèn.",
+      "tr": "Ben de sorumu sormak için bitirmeni beklerim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_065",
       "speaker": "张乐乐",
-      "zh": "嗯，这是我们的老师。",
-      "pinyin": "En, zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "还有，我姐姐今天有考试，她昨天有点怕。",
+      "pinyin": "Hái yǒu, wǒ jiě jie jīn tiān yǒu kǎo shì, tā zuó tiān yǒu diǎn pà.",
+      "tr": "Bir de ablamın bugün sınavı var; dün biraz korkuyordu."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_066",
       "speaker": "老师",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "那你今天把画带到学校，也有一点紧张吗？",
+      "pinyin": "Nà nǐ jīn tiān bǎ huà dài dào xué xiào, yě yǒu yì diǎn jǐn zhāng ma?",
+      "tr": "Peki sen de resmi okula getirirken biraz heyecanlandın mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_067",
       "speaker": "同学",
-      "zh": "我也很高兴认识你。",
-      "pinyin": "Wǒ yě hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我站起来说话也会紧张。",
+      "pinyin": "Wǒ zhàn qǐ lái shuō huà yě huì jǐn zhāng.",
+      "tr": "Ben de ayağa kalkıp konuşurken heyecanlanırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_068",
       "speaker": "同学",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我怕别人听不到，就越说越快。",
+      "pinyin": "Wǒ pà bié rén tīng bú dào, jiù yuè shuō yuè kuài.",
+      "tr": "Duyulmamaktan korkunca giderek hızlı konuşurum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_069",
       "speaker": "张乐乐",
-      "zh": "嗯，这是我们的学生。",
-      "pinyin": "En, zhèshì wǒmen de xuéshēng.",
-      "tr": "Bu bizim öğrenci."
+      "zh": "我刚才也是，爸爸说可以先做眼前的一件事。",
+      "pinyin": "Wǒ gāng cái yě shì, bà ba shuō kě yǐ xiān zuò yǎn qián de yī jiàn shì.",
+      "tr": "Ben de az önce öyleydim; babam önümüzdeki işi birer birer yapabileceğimizi söyledi.",
+      "emotion": "worried",
+      "actionTr": "Lele babasının birer birer ilerleme sözünü hatırlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_070",
       "speaker": "老师",
-      "zh": "你好，来了！",
-      "pinyin": "Nǐhǎo, lái le!",
-      "tr": "Merhaba!"
+      "zh": "现在你已经介绍了家人，还回答了大家的问题。",
+      "pinyin": "Xiàn zài nǐ yǐ jīng jiè shào le jiā rén, hái huí dá le dà jiā de wèn tí.",
+      "tr": "Şimdi aileni tanıttın ve herkesin sorularını yanıtladın."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_071",
       "speaker": "同学",
-      "zh": "对，太好了，认识你很高兴。",
-      "pinyin": "Duì, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我知道谁是你姐姐了，不会把她当成你。",
+      "pinyin": "Wǒ zhī dào shuí shì nǐ jiě jie le, bú huì bǎ tā dàng chéng nǐ.",
+      "tr": "Ablanın kim olduğunu biliyorum; onu sen sanmam."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_072",
       "speaker": "同学",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我也知道绿色的那一团是树叶。",
+      "pinyin": "Wǒ yě zhī dào lǜ sè de nà yī tuán shì shù yè.",
+      "tr": "Ben de o yeşil kütlenin yaprak olduğunu biliyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_073",
       "speaker": "张乐乐",
-      "zh": "现在这是画吗？",
-      "pinyin": "Xiànzài zhè shì huà ma?",
-      "tr": "Bu, resim mı?"
+      "zh": "那我说得比自己想的清楚一点。",
+      "pinyin": "Nà wǒ shuō de bǐ zì jǐ xiǎng de qīng chǔ yì diǎn.",
+      "tr": "Demek ki düşündüğümden biraz daha açık anlatmışım.",
+      "emotion": "happy",
+      "actionTr": "Dinleyicilerin anlamasıyla kendine güveni artar."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_074",
       "speaker": "老师",
-      "zh": "嗯，这就是画。",
-      "pinyin": "En, zhè jiùshì huà.",
-      "tr": "Evet, bu resim."
+      "zh": "是的，学生分享的时候，大家先听，再提问题。",
+      "pinyin": "Shì de, xué shēng fēn xiǎng de shí hòu, dà jiā xiān tīng, zài tí wèn tí.",
+      "tr": "Evet; bir öğrenci paylaşırken önce dinleyip sonra soru sorarız."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_075",
       "speaker": "同学",
-      "zh": "请问，画在哪儿？",
-      "pinyin": "Qǐngwèn, huà zài nǎér?",
-      "tr": "Resim nerede?"
+      "zh": "我刚才只问我看不懂的，没有说整张不好。",
+      "pinyin": "Wǒ gāng cái zhǐ wèn wǒ kàn bù dǒng de, méi yǒu shuō zhěng zhāng bù hǎo.",
+      "tr": "Yalnızca anlamadığım şeyi sordum; bütün resim kötü demedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_076",
       "speaker": "同学",
-      "zh": "对，就在这里。",
-      "pinyin": "Duì, jiù zài zhèlǐ.",
-      "tr": "Resim burada."
+      "zh": "我也想把自己的家人画出来，再告诉你们。",
+      "pinyin": "Wǒ yě xiǎng bǎ zì jǐ de jiā rén huà chū lái, zài gào sù nǐ men.",
+      "tr": "Ben de ailemi çizip size anlatmak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_077",
       "speaker": "张乐乐",
-      "zh": "对，这是我们的家人。",
-      "pinyin": "Duì, zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "你们也画的话，我想看看你们的家人。",
+      "pinyin": "Nǐ men yě huà de huà, wǒ xiǎng kàn kàn nǐ men de jiā rén.",
+      "tr": "Siz de çizerseniz ailenizi görmek isterim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_078",
       "speaker": "老师",
-      "zh": "你好，来了！",
-      "pinyin": "Nǐhǎo, lái le!",
-      "tr": "Merhaba!"
+      "zh": "以后有机会轮到大家，今天先把乐乐的画看完。",
+      "pinyin": "Yǐ hòu yǒu jī huì lún dào dà jiā, jīn tiān xiān bǎ lè le de huà kàn wán.",
+      "tr": "Sonra herkesin sırası gelecek; bugün Lele’nin resmini bitirelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_079",
       "speaker": "同学",
-      "zh": "太好了，很高兴认识你。",
-      "pinyin": "Tàihǎole, hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我还有最后一个问题，为什么四个人的手连着？",
+      "pinyin": "Wǒ hái yǒu zuì hòu yí gè wèn tí, wèi shén me sì gè rén de shǒu lián zhe?",
+      "tr": "Son bir sorum var; dört kişinin elleri neden birleşik?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_080",
       "speaker": "同学",
-      "zh": "对，我也这么想。",
-      "pinyin": "Duì, wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "是因为你们一起走吗？",
+      "pinyin": "Shì yīn wèi nǐ men yì qǐ zǒu ma?",
+      "tr": "Birlikte yürüdüğünüz için mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_081",
       "speaker": "张乐乐",
-      "zh": "对，这是我们的妈妈。",
-      "pinyin": "Duì, zhèshì wǒmen de māmā.",
-      "tr": "Bu bizim anne."
+      "zh": "对，我想让大家看出我们是一家人。",
+      "pinyin": "Duì, wǒ xiǎng ràng dà jiā kàn chū wǒ men shì yī jiā rén.",
+      "tr": "Evet; bir aile olduğumuzu göstermek istedim.",
+      "emotion": "happy",
+      "actionTr": "El ele çizimin aile bağını anlattığını açıklar."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_082",
       "speaker": "老师",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "这个想法很清楚，不需要画得和照片完全一样。",
+      "pinyin": "Zhè ge xiǎng fǎ hěn qīng chǔ, bù xū yào huà de hé zhào piān wán quán yī yàng.",
+      "tr": "Bu fikir açık; fotoğrafın aynısı gibi çizmen gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_083",
       "speaker": "同学",
-      "zh": "好，太好了，认识你很高兴。",
-      "pinyin": "Hǎo, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我喜欢这个地方，我家人有时也牵着我。",
+      "pinyin": "Wǒ xǐ huan zhè ge dì fāng, wǒ jiā rén yǒu shí yě qiān zhe wǒ.",
+      "tr": "Bu kısmı beğendim; ailem de bazen elimi tutar."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_084",
       "speaker": "同学",
-      "zh": "嗯，我也一样。",
-      "pinyin": "En, wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "我现在看懂你为什么把他们画得很近了。",
+      "pinyin": "Wǒ xiàn zài kàn dǒng nǐ wèi shén me bǎ tā men huà de hěn jìn le.",
+      "tr": "Şimdi neden onları birbirine yakın çizdiğini anladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_085",
       "speaker": "张乐乐",
-      "zh": "对，这是我们的爸爸。",
-      "pinyin": "Duì, zhèshì wǒmen de bàbà.",
-      "tr": "Bu bizim baba."
+      "zh": "我今天就说这些，老师，画要放哪里？",
+      "pinyin": "Wǒ jīn tiān jiù shuō zhè xiē, lǎo shī, huà yào fàng nǎ lǐ?",
+      "tr": "Bugün bunları anlatacaktım; öğretmenim, resmi nereye koyayım?"
     },
     {
       "id": "DLG_ZH_HSK1_SC044_086",
       "speaker": "老师",
-      "zh": "你好，来了！",
-      "pinyin": "Nǐhǎo, lái le!",
-      "tr": "Merhaba!"
+      "zh": "先放作品夹里，别折起来，回家再给家人看。",
+      "pinyin": "Xiān fàng zuò pǐn jiá lǐ, bié zhé qǐ lái, huí jiá zài gěi jiá rén kàn.",
+      "tr": "Önce çalışma dosyana koy; katlama, eve gidince ailene göster."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_087",
       "speaker": "同学",
-      "zh": "是啊，认识你很高兴。",
-      "pinyin": "Shì a, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "你的纸角有点弯，我帮你按住边上。",
+      "pinyin": "Nǐ de zhǐ jiǎo yǒu diǎn wān, wǒ bāng nǐ àn zhù biān shàng.",
+      "tr": "Kâğıdının köşesi biraz kıvrılmış; kenarını tutayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_088",
       "speaker": "同学",
-      "zh": "好，我也这么想。",
-      "pinyin": "Hǎo, wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "我拿开这支笔，让你放得平一点。",
+      "pinyin": "Wǒ ná kāi zhè zhī bǐ, ràng nǐ fàng de píng yì diǎn.",
+      "tr": "Bu kalemi çekeyim; daha düz koyabilesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_089",
       "speaker": "张乐乐",
-      "zh": "对，这是我们的老师。",
-      "pinyin": "Duì, zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "好了，画没有碰到水，也没有弄破。",
+      "pinyin": "Hǎo le, huà méi yǒu pèng dào shuǐ, yě méi yǒu nòng pò.",
+      "tr": "Tamam; resim suya değmedi ve yırtılmadı."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_090",
       "speaker": "老师",
-      "zh": "你好，很高兴见到你！",
-      "pinyin": "Nǐhǎo, hěn gāoxìng jiàndào nǐ!",
-      "tr": "Merhaba!"
+      "zh": "谢谢大家认真听，也谢谢你说明自己的想法。",
+      "pinyin": "Xiè xiè dà jiā rèn zhēn tīng, yě xiè xiè nǐ shuō míng zi jǐ de xiǎng fǎ.",
+      "tr": "Dikkatle dinlediğiniz için teşekkürler; düşünceni anlattığın için sana da teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_091",
       "speaker": "同学",
-      "zh": "是啊，太好了，认识你很高兴。",
-      "pinyin": "Shì a, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "乐乐，你回家可以告诉姐姐你今天说完了。",
+      "pinyin": "Lè le, nǐ huí jiā kě yǐ gào sù jiě jie nǐ jīn tiān shuō wán le.",
+      "tr": "Lele, eve gidince ablana bugün anlatmayı bitirdiğini söyleyebilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_092",
       "speaker": "同学",
-      "zh": "对，我也一样。",
-      "pinyin": "Duì, wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "也许她也会把考试的事告诉你。",
+      "pinyin": "Yě xǔ tā yě huì bǎ kǎo shì de shì gào sù nǐ.",
+      "tr": "Belki o da sınavını sana anlatır."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_093",
       "speaker": "张乐乐",
-      "zh": "对，这是我们的学生。",
-      "pinyin": "Duì, zhèshì wǒmen de xuéshēng.",
-      "tr": "Bu bizim öğrenci."
+      "zh": "我会先听她说，再说我的画。",
+      "pinyin": "Wǒ huì xiān tīng tā shuō, zài shuō wǒ de huà.",
+      "tr": "Önce onu dinleyip sonra resmimi anlatırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_094",
       "speaker": "老师",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "好，现在收好作品夹，准备下一项活动。",
+      "pinyin": "Hǎo, xiàn zài shōu hǎo zuò pǐn jiā, zhǔn bèi xià yī xiàng huó dòng.",
+      "tr": "Güzel; şimdi dosyanı kaldır ve sonraki etkinliğe hazırlan."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_095",
       "speaker": "同学",
-      "zh": "没错，太好了，认识你很高兴。",
-      "pinyin": "Méicuò, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我回座位了，不再把画拿起来看。",
+      "pinyin": "Wǒ huí zuò wèi le, bù zài bǎ huà ná qǐ lái kàn.",
+      "tr": "Yerime dönüyorum; resmi tekrar kaldırıp bakmayacağım."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_096",
       "speaker": "同学",
-      "zh": "今天学了很多。",
-      "pinyin": "Jīntiān xuéle hěnduō.",
-      "tr": "Bugün çok şey öğrendik."
+      "zh": "我也收好自己的笔，桌上留空。",
+      "pinyin": "Wǒ yě shōu hǎo zì jǐ de bǐ, zhuō shàng liú kòng.",
+      "tr": "Ben de kalemimi kaldırayım; masa boş kalsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_097",
       "speaker": "张乐乐",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "老师，谢谢您，我刚才没有一直盯着纸了。",
+      "pinyin": "Lǎo shī, xiè xiè nín, wǒ gāng cái méi yǒu yì zhí dīng zhe zhǐ le.",
+      "tr": "Öğretmenim, teşekkür ederim; az önce sürekli kâğıda bakmadım.",
+      "emotion": "happy",
+      "actionTr": "Kâğıda sürekli bakmadan konuşabildiğini fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_098",
       "speaker": "老师",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "你看着大家说，大家也更容易听清楚。",
+      "pinyin": "Nǐ kàn zhe dà jiā shuō, dà jiā yě gèng róng yì tīng qīng chǔ.",
+      "tr": "Herkese bakarak konuşunca seni anlamaları kolaylaşıyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_099",
       "speaker": "同学",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "我听到你的声音了，你不用再说很快。",
+      "pinyin": "Wǒ tīng dào nǐ de shēng yīn le, nǐ bù yòng zài shuō hěn kuài.",
+      "tr": "Sesini duydum; çok hızlı konuşmana gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC044_100",
       "speaker": "同学",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "下次轮到我，我也先拿稳画，再慢慢说。",
+      "pinyin": "Xià cì lún dào wǒ, wǒ yě xiān ná wěn huà, zài màn màn shuō.",
+      "tr": "Bir dahaki sefere sıra bana gelince resmi düzgün tutup yavaşça anlatacağım."
     }
   ],
   "production": {
@@ -1156,6 +1163,6 @@
     },
     "continuityNoteTr": "Lele’nin Resmi olayı ana aile kronolojisinde sahne 44 olarak kaydedilir."
   },
-  "editorialStatus": "generated_full_v1_requires_native_review",
+  "editorialStatus": "contextual_simplified_chinese_r1_model_reviewed_audio_pending",
   "dialogueCount": 100
 }

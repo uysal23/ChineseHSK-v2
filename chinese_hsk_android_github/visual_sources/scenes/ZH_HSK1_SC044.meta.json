@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC044",
   "generationSceneId": "ZH_HSK1_SC044",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC044.json",
-  "dialogueSha256": "b7aa82d8eb7ed194c55a45d1e1b3211a2fefa996f69ab902efd28961d642d953",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC044.json",
+  "dialogueSha256": "fa5c93f8daa0982dbf1478440fa9a1f379451f605facf4f40930ae4d98ab7d15",
   "titleTr": "Lele’nin Aile Resmi",
   "locationId": "LOC_ZH_SCHOOL_CLASSROOM_001",
   "scenePurposeTr": "Lele sınıfta çizdiği aile resmini öğretmeni ve sınıf arkadaşıyla paylaşır.",
@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK1_SC043",
     "nextSceneId": "ZH_HSK1_SC045"
   },
-  "sourceGeneratedFilename": "sınıfta_gururla_gösterilen_aile_resmi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC044_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC044.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC044.webp",
   "image": {
@@ -35,7 +35,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "ca4281ad70f84e563624be8c8969d16c7628aea29949608b8f03c779a384b1a1"
+    "sha256": "63a5ab345f0ece0bf7c0c5e5aae6931c7d2ab58e402451ed56bf74b9e42a2595",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,449 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC044 canonical small BOY Lele blue; adult female teacher white/cream bun; boy classmate navy and girl classmate rust orange bob/clip. Four human mouths visible. Same 同学 speaker explicitly bound to separate boy/girl by dialogue ID. Family drawing identities match canonical reference. Model QA only; human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "63a5ab345f0ece0bf7c0c5e5aae6931c7d2ab58e402451ed56bf74b9e42a2595",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张乐乐": [
+        0.393,
+        0.473
+      ],
+      "老师": [
+        0.247,
+        0.289
+      ]
+    },
+    "personAnchors": {
+      "张乐乐": [
+        0.393,
+        0.473
+      ],
+      "老师": [
+        0.247,
+        0.289
+      ],
+      "CLASSMATE_BOY": [
+        0.86,
+        0.529
+      ],
+      "CLASSMATE_GIRL": [
+        0.68,
+        0.521
+      ]
+    },
+    "dialogueAnchors": {
+      "DLG_ZH_HSK1_SC044_001": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_002": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_003": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_004": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_005": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_006": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_007": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_008": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_009": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_010": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_011": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_012": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_013": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_014": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_015": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_016": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_017": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_018": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_019": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_020": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_021": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_022": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_023": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_024": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_025": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_026": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_027": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_028": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_029": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_030": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_031": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_032": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_033": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_034": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_035": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_036": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_037": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_038": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_039": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_040": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_041": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_042": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_043": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_044": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_045": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_046": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_047": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_048": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_049": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_050": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_051": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_052": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_053": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_054": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_055": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_056": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_057": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_058": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_059": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_060": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_061": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_062": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_063": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_064": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_065": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_066": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_067": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_068": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_069": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_070": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_071": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_072": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_073": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_074": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_075": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_076": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_077": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_078": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_079": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_080": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_081": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_082": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_083": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_084": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_085": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_086": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_087": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_088": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_089": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_090": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_091": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_092": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_093": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_094": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_095": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_096": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      },
+      "DLG_ZH_HSK1_SC044_097": {
+        "speaker": "张乐乐",
+        "personKey": "张乐乐"
+      },
+      "DLG_ZH_HSK1_SC044_098": {
+        "speaker": "老师",
+        "personKey": "老师"
+      },
+      "DLG_ZH_HSK1_SC044_099": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_BOY"
+      },
+      "DLG_ZH_HSK1_SC044_100": {
+        "speaker": "同学",
+        "personKey": "CLASSMATE_GIRL"
+      }
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC044 canonical small BOY Lele blue; adult female teacher white/cream bun; boy classmate navy and girl classmate rust orange bob/clip. Four human mouths visible. Same 同学 speaker explicitly bound to separate boy/girl by dialogue ID. Family drawing identities match canonical reference. Model QA only; human/device pending."
+  }
 }

@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC044",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.96,
+  "meanNewZhLength": 16.22,
+  "continuityNoteTr": "SC043 Lele çizimini sınıfta anlatacağını söylemiştir. SC044 sınıfta dört kişilik aileyi, parkı ve el ele çizimini tanıtır; iki ayrı sınıf arkadaşı sırayla sorar. Kusuru saklamadan açıklar; dosyaya kaldırır. Yutong aynı gün sınavdadır, Lele sonucu uydurmaz. SC045 babanın ilk maaş aile yemeği sonraki olaydır. Speaker aynı 同学 olsa da üçüncü sıra çocuk erkek, dördüncü sıra çocuk kızdır; açık dialogue ID/person ağız bağları zorunludur.",
+  "lengthDeviationPercent": 133.05,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
