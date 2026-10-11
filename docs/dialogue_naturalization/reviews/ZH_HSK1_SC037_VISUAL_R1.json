@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC037",
+  "imageSha256": "a23565fc2f1769bf68ee9f29cb9725a19e89551a3528709bf19a7f50477ef385",
+  "referenceSceneId": "ZH_HSK1_SC028",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC037 daytime park outing: father Zhang Wei black rectangular glasses/navy/light blue, mother Liu Mei cream/green/low bun, small boy Lele blue and older teen Yutong lilac/high pony; four visible named mouths",
+  "anchors": {
+    "张伟": [
+      0.439,
+      0.273
+    ],
+    "刘梅": [
+      0.605,
+      0.318
+    ],
+    "张乐乐": [
+      0.272,
+      0.449
+    ],
+    "张雨桐": [
+      0.777,
+      0.364
+    ]
+  }
+}

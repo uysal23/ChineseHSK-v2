@@ -1,9 +1,9 @@
 {
-  "naturalizationVersion": 5,
-  "status": "FINAL",
+  "naturalizationVersion": 13,
+  "status": "FINAL_NATIVE_RELEASE_CANDIDATE_V13",
   "sceneId": "ZH_HSK1_SC037",
   "level": "HSK1",
-  "sceneCategory": "weather",
+  "sceneCategory": "family",
   "sourceTitleZh": "公园里的星期天",
   "sourceTitleTr": "Parkta Bir Pazar",
   "sourceMiniAdventureTr": "Aile parkta yürür, oynar ve çevreyi keşfeder.",
@@ -11,702 +11,721 @@
     {
       "id": "DLG_ZH_HSK1_SC037_001",
       "speaker": "张伟",
-      "zh": "星期天一家人去公园。",
-      "pinyin": "Xīngqītiān yījiārén qù gōngyuán.",
-      "tr": "Pazar günü aile parka gidiyor."
+      "zh": "今天天气真好，我们终于来看看这个公园了。",
+      "pinyin": "Jīn tiān tiān qì zhēn hǎo, wǒ men zhōng yú lái kàn kàn zhè ge gōng yuán le.",
+      "tr": "Bugün hava çok güzel, sonunda bu parka bakmaya geldik."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_002",
       "speaker": "刘梅",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "是啊，上次在家里说想跑着玩，今天可以先找地方。",
+      "pinyin": "Shì a, shàng cì zài jiā lǐ shuō xiǎng pǎo zhe wán, jīn tiān kě yǐ xiān zhǎo dì fāng.",
+      "tr": "Evet, evde koşarak oynamaktan söz etmiştik, bugün uygun yer arayabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_003",
       "speaker": "张乐乐",
-      "zh": "对。",
-      "pinyin": "Duì.",
-      "tr": "Evet."
+      "zh": "我带了球，现在就能玩吗？",
+      "pinyin": "Wǒ dài le qiú, xiàn zài jiù néng wán ma?",
+      "tr": "Topu getirdim, hemen oynayabilir miyim?",
+      "emotion": "curious",
+      "actionTr": "Lele topunu gösterip oynayabileceklerini sorar."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_004",
       "speaker": "张雨桐",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "先看路，别一进公园就把球放出去。",
+      "pinyin": "Xiān kàn lù, bié yī jìn gōng yuán jiù bǎ qiú fàng chū qù.",
+      "tr": "Önce yola bak, parka girer girmez topu bırakma."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_005",
       "speaker": "张伟",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "姐姐说得对，我们先走一走，看哪里合适。",
+      "pinyin": "Jiě jie shuō de duì, wǒ men xiān zǒu yī zǒu, kàn nǎ lǐ hé shì.",
+      "tr": "Ablan doğru söylüyor, önce yürüyüp uygun yer bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_006",
       "speaker": "刘梅",
-      "zh": "公园在哪儿？",
-      "pinyin": "Gōngyuán zài nǎér?",
-      "tr": "Park nerede?"
+      "zh": "这边有水，先别在旁边追球，我们往里面走。",
+      "pinyin": "Zhè biān yǒu shuǐ, xiān bié zài páng biān zhuī qiú, wǒ men wǎng lǐ miàn zǒu.",
+      "tr": "Burada su var, yanında topun peşinden gitmeyelim, içeri yürüyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_007",
       "speaker": "张乐乐",
-      "zh": "公园在那边。",
-      "pinyin": "Gōngyuán zài nàbiān.",
-      "tr": "Park şu tarafta."
+      "zh": "那我拿着，不滚到水里去。",
+      "pinyin": "Nà wǒ ná zhe, bù gǔn dào shuǐ lǐ qù.",
+      "tr": "O zaman tutarım, suya yuvarlamam."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_008",
       "speaker": "张雨桐",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbái le.",
-      "tr": "Anladım."
+      "zh": "拿稳一点，想看什么先停下来再指。",
+      "pinyin": "Ná wěn yì diǎn, xiǎng kàn shén me xiān tíng xià lái zài zhǐ.",
+      "tr": "Sağlam tut, bir şey göstermek istersen önce dur."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_009",
       "speaker": "张伟",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "乐乐刚才指那棵树，是看到什么了吗？",
+      "pinyin": "Lè le gāng cái zhǐ nà kē shù, shì kàn dào shén me le ma?",
+      "tr": "Lele az önce o ağacı gösterdi, ne gördün?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_010",
       "speaker": "刘梅",
-      "zh": "这个是天气吗？",
-      "pinyin": "Zhège shì tiānqì ma?",
-      "tr": "Bu, hava mı?"
+      "zh": "我们也停一下，让他慢慢说。",
+      "pinyin": "Wǒ men yě tíng yī xià, ràng tā màn màn shuō.",
+      "tr": "Biz de duralım, sakince anlatsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_011",
       "speaker": "张乐乐",
-      "zh": "没错，是天气。",
-      "pinyin": "Méicuò, shì tiānqì.",
-      "tr": "Evet, bu hava."
+      "zh": "树上好像有一只鸟，我想让你们看。",
+      "pinyin": "Shù shàng hǎo xiàng yǒu yī zhī niǎo, wǒ xiǎng ràng nǐ men kàn.",
+      "tr": "Ağaçta kuş var gibi, size göstermek istiyorum.",
+      "emotion": "curious",
+      "actionTr": "Lele ağaçtaki kuşu işaret eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_012",
       "speaker": "张雨桐",
-      "zh": "天气呢？",
-      "pinyin": "Tiānqì ne?",
-      "tr": "Hava nerede?"
+      "zh": "我看到了，在叶子旁边，不是那个树枝。",
+      "pinyin": "Wǒ kàn dào le, zài yè zi páng biān, bú shì nà ge shù zhī.",
+      "tr": "Gördüm, yaprak yanında, o dal değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_013",
       "speaker": "张伟",
-      "zh": "你看，天气在这儿。",
-      "pinyin": "Nǐ kàn, tiānqì zài zhèér.",
-      "tr": "Hava burada."
+      "zh": "哦，我也找到了，你们的眼睛比我快。",
+      "pinyin": "Ó, wǒ yě zhǎo dào le, nǐ men de yǎn jīng bǐ wǒ kuài.",
+      "tr": "Ah, ben de buldum, siz daha hızlı gördünüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_014",
       "speaker": "刘梅",
-      "zh": "这个是树吗？",
-      "pinyin": "Zhège shì shù ma?",
-      "tr": "Bu, ağaç mı?"
+      "zh": "不是眼睛快，是我们先听乐乐说在哪儿。",
+      "pinyin": "Bú shì yǎn jīng kuài, shì wǒ men xiān tīng lè le shuō zài nǎr.",
+      "tr": "Hızlı görmekten değil, önce Lelenin nerede dediğini dinledik."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_015",
       "speaker": "张乐乐",
-      "zh": "嗯，对，这是树。",
-      "pinyin": "En, duì, zhè shì shù.",
-      "tr": "Evet, bu ağaç."
+      "zh": "那它飞走以后，我们还要等它回来吗？",
+      "pinyin": "Nà tā fēi zǒu yǐ hòu, wǒ men hái yào děng tā huí lái ma?",
+      "tr": "Uçup giderse dönmesini beklememiz gerekir mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_016",
       "speaker": "张雨桐",
-      "zh": "树呢？",
-      "pinyin": "Shù ne?",
-      "tr": "Ağaç nerede?"
+      "zh": "不一定，我们继续走，说不定还会看见别的。",
+      "pinyin": "Bù yí dìng, wǒ men jì xù zǒu, shuō bù dìng hái huì kàn jiàn bié de.",
+      "tr": "Şart değil, yürüyelim, başka şeyler de görebiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_017",
       "speaker": "张伟",
-      "zh": "你看，树在这儿。",
-      "pinyin": "Nǐ kàn, shù zài zhèér.",
-      "tr": "Ağaç burada."
+      "zh": "好，我不一直盯着这一棵树了。",
+      "pinyin": "Hǎo, wǒ bù yī zhí dīng zhe zhè yī kē shù le.",
+      "tr": "Peki, yalnızca bu ağaca bakıp durmam."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_018",
       "speaker": "刘梅",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "前面有椅子，累了可以坐，不用马上把公园走完。",
+      "pinyin": "Qián miàn yǒu yǐ zi, lèi le kě yǐ zuò, bù yòng mǎ shàng bǎ gōng yuán zǒu wán.",
+      "tr": "İleride bank var, yorulursak otururuz, parkı hemen bitirmemiz gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_019",
       "speaker": "张乐乐",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "今天我们一家人出来，就是慢慢看看，不赶时间。",
+      "pinyin": "Jīn tiān wǒ men yī jiā rén chū lái, jiù shì màn màn kàn kàn, bù gǎn shí jiān.",
+      "tr": "Bugün ailece çıktık, sakince çevreye bakacağız, acelemiz yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_020",
       "speaker": "张雨桐",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "那每个人都可以说想看哪里，别只听一个人的。",
+      "pinyin": "Nà měi gè rén dōu kě yǐ shuō xiǎng kàn nǎ lǐ, bié zhǐ tīng yí gè rén de.",
+      "tr": "O zaman herkes neresi istediğini söylesin, yalnızca birini dinlemeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_021",
       "speaker": "张伟",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "我想找能玩球的地方，不过也想看那边的花。",
+      "pinyin": "Wǒ xiǎng zhǎo néng wán qiú de dì fāng, bù guò yě xiǎng kàn nà biān de huā.",
+      "tr": "Top oynanacak yer aramak istiyorum ama şuradaki çiçeklere de bakmak isterim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_022",
       "speaker": "刘梅",
-      "zh": "乐乐想去很多地方。",
-      "pinyin": "Lèlè xiǎng qù hěnduō dìfāng.",
-      "tr": "Lele birçok yere gitmek istiyor."
+      "zh": "那先看花吧，走过去也顺路。",
+      "pinyin": "Nà xiān kàn huā ba, zǒu guò qù yě shùn lù.",
+      "tr": "Önce çiçeklere bakalım, yol üstünde."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_023",
       "speaker": "张乐乐",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "你两个都想看，今天想法可真不少。",
+      "pinyin": "Nǐ liǎng gè dōu xiǎng kàn, jīn tiān xiǎng fǎ kě zhēn bù shǎo.",
+      "tr": "İkisini de istiyorsun, bugün çok fikrin var."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_024",
       "speaker": "张雨桐",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "我也想看花，我们可以一起过去。",
+      "pinyin": "Wǒ yě xiǎng kàn huā, wǒ men kě yǐ yì qǐ guò qù.",
+      "tr": "Ben de çiçeklere bakmak isterim, birlikte gidebiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_025",
       "speaker": "张伟",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "好，走到这边以后别踩到花，站在路上看。",
+      "pinyin": "Hǎo, zǒu dào zhè biān yǐ hòu bié cǎi dào huā, zhàn zài lù shàng kàn.",
+      "tr": "Peki, varınca çiçeklere basmayalım, yoldan bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_026",
       "speaker": "刘梅",
-      "zh": "嗯，好。",
-      "pinyin": "En, hǎo.",
-      "tr": "Tamam."
+      "zh": "手里拿着球就别俯身太急，掉了先叫我们。",
+      "pinyin": "Shǒu lǐ ná zhe qiú jiù bié fǔ shēn tài jí, diào le xiān jiào wǒ men.",
+      "tr": "Top elindeyken hızlı eğilme, düşerse önce bize seslen."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_027",
       "speaker": "张乐乐",
-      "zh": "这是我们的孩子。",
-      "pinyin": "Zhèshì wǒmen de háizi.",
-      "tr": "Bu bizim çocuk."
+      "zh": "我会拿好，这朵小花的颜色真亮。",
+      "pinyin": "Wǒ huì ná hǎo, zhè duǒ xiǎo huā de yán sè zhēn liàng.",
+      "tr": "İyi tutarım, bu küçük çiçeğin rengi çok canlı."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_028",
       "speaker": "张雨桐",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "好看就用眼睛看，不摘回家也能记住。",
+      "pinyin": "Hǎo kàn jiù yòng yǎn jīng kàn, bù zhāi huí jiā yě néng jì zhù.",
+      "tr": "Güzelse bak, eve götürmeden de hatırlayabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_029",
       "speaker": "张伟",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "你说得好，公园里的花留给大家看。",
+      "pinyin": "Nǐ shuō de hǎo, gōng yuán lǐ de huā liú gěi dà jiā kàn.",
+      "tr": "Güzel söyledin, parktaki çiçekler herkes için kalsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_030",
       "speaker": "刘梅",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "想回家再看，我们可以拍一张照片。",
+      "pinyin": "Xiǎng huí jiā zài kàn, wǒ men kě yǐ pāi yī zhāng zhào piān.",
+      "tr": "Eve dönünce bakmak istersek fotoğraf çekebiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_031",
       "speaker": "张乐乐",
-      "zh": "这是球，对吗？",
-      "pinyin": "Zhè shì qiú, duì ma?",
-      "tr": "Bu, top mı?"
+      "zh": "那给我和花拍一张，不要我蹲在花里面。",
+      "pinyin": "Nà gěi wǒ hé huā pāi yī zhāng, bú yào wǒ dūn zài huā lǐ miàn.",
+      "tr": "O zaman beni çiçeklerle çekin, çiçeklerin arasına oturmayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_032",
       "speaker": "张雨桐",
-      "zh": "对，就是球。",
-      "pinyin": "Duì, jiùshì qiú.",
-      "tr": "Evet, bu top."
+      "zh": "站这边就能拍到，爸爸不用踩进去。",
+      "pinyin": "Zhàn zhè biān jiù néng pāi dào, bà ba bù yòng cǎi jìn qù.",
+      "tr": "Burada durunca kadraja girer, babamın içeri basması gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_033",
       "speaker": "张伟",
-      "zh": "球呢？",
-      "pinyin": "Qiú ne?",
-      "tr": "Top nerede?"
+      "zh": "好，我站在路上拍，你们先看镜头。",
+      "pinyin": "Hǎo, wǒ zhàn zài lù shàng pāi, nǐ men xiān kàn jìng tóu.",
+      "tr": "Peki, yoldan çekerim, kameraya bakın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_034",
       "speaker": "刘梅",
-      "zh": "你看，就在这儿。",
-      "pinyin": "Nǐ kàn, jiù zài zhèér.",
-      "tr": "Top burada."
+      "zh": "乐乐先把球抱稳，拍完再继续走。",
+      "pinyin": "Lè le xiān bǎ qiú bào wěn, pāi wán zài jì xù zǒu.",
+      "tr": "Lele, önce topu sağlam tut, sonra yürürüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_035",
       "speaker": "张乐乐",
-      "zh": "我们坐自行车吗？",
-      "pinyin": "Wǒmen zuò zìxíngchē ma?",
-      "tr": "Bisiklet ile mi gidiyoruz?"
+      "zh": "拍好了吗？我刚才还看着花呢。",
+      "pinyin": "Pāi hǎo le ma? Wǒ gāng cái hái kàn zhe huā ne.",
+      "tr": "Çekildi mi? Az önce hâlâ çiçeğe bakıyordum.",
+      "emotion": "playful",
+      "actionTr": "Lele fotoğrafta çiçeğe baktığını fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_036",
       "speaker": "张雨桐",
-      "zh": "对，我们坐自行车。",
-      "pinyin": "Duì, wǒmen zuò zìxíngchē.",
-      "tr": "Evet, bisiklet ile gidiyoruz."
+      "zh": "拍好了，不用每张都看镜头，这样也自然。",
+      "pinyin": "Pāi hǎo le, bù yòng měi zhāng dōu kàn jìng tóu, zhè yàng yě zì rán.",
+      "tr": "Çekildi, her fotoğrafta kameraya bakman gerekmez, bu da doğal."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_037",
       "speaker": "张伟",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "那我们再走一段，前面是不是有人骑自行车？",
+      "pinyin": "Nà wǒ men zài zǒu yī duàn, qián miàn shì bú shì yǒu rén qí zì xíng chē?",
+      "tr": "Biraz daha yürüyelim, ileride bisiklete binen var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_038",
       "speaker": "刘梅",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "是的，先看他们走哪边，我们别突然横过去。",
+      "pinyin": "Shì de, xiān kàn tā men zǒu nǎ biān, wǒ men bié tū rán héng guò qù.",
+      "tr": "Evet, hangi taraftan gittiklerine bakalım, aniden önlerinden geçmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_039",
       "speaker": "张乐乐",
-      "zh": "今天忙吗？",
-      "pinyin": "Jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "我看见了，我不抱着球跑到前面去。",
+      "pinyin": "Wǒ kàn jiàn le, wǒ bù bào zhe qiú pǎo dào qián miàn qù.",
+      "tr": "Gördüm, topu tutup önlerine koşmam."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_040",
       "speaker": "张雨桐",
-      "zh": "有一点。",
-      "pinyin": "Yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "等他们过去以后再走，我们还能看看前面的空地。",
+      "pinyin": "Děng tā men guò qù yǐ hòu zài zǒu, wǒ men hái néng kàn kàn qián miàn de kòng dì.",
+      "tr": "Geçince yürürüz, ilerideki açık alana da bakarız."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_041",
       "speaker": "张伟",
-      "zh": "没关系。",
-      "pinyin": "Méiguānxì.",
-      "tr": "Sorun değil."
+      "zh": "这边没有自行车，不过我们也看看地上有没有水。",
+      "pinyin": "Zhè biān méi yǒu zì xíng chē, bù guò wǒ men yě kàn kàn dì shàng yǒu méi yǒu shuǐ.",
+      "tr": "Bu tarafta bisiklet yok, yine de yerde su var mı bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_042",
       "speaker": "刘梅",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "地上是干的，孩子们可以在这里玩一会儿。",
+      "pinyin": "Dì shàng shì gān de, hái zi men kě yǐ zài zhè lǐ wán yī huì er.",
+      "tr": "Yer kuru, çocuklar burada biraz oynayabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_043",
       "speaker": "张乐乐",
-      "zh": "大家一起散步和玩球。",
-      "pinyin": "Dàjiā yìqǐ sànbù hé wánqiú.",
-      "tr": "Herkes birlikte yürüyüp top oynuyor."
+      "zh": "姐姐，你站那边，我把球给你。",
+      "pinyin": "Jiě jie, nǐ zhàn nà biān, wǒ bǎ qiú gěi nǐ.",
+      "tr": "Abla, sen orada dur, topu sana atayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_044",
       "speaker": "张雨桐",
-      "zh": "太棒了！",
-      "pinyin": "Tàibàngle!",
-      "tr": "Harika!"
+      "zh": "好，先近一点，我接住了再往后走。",
+      "pinyin": "Hǎo, xiān jìn yì diǎn, wǒ jiē zhù le zài wǎng hòu zǒu.",
+      "tr": "Tamam, önce yakın duralım, tutunca geri giderim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_045",
       "speaker": "张伟",
-      "zh": "好，谢谢你。",
-      "pinyin": "Hǎo, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我站旁边看，你们别把球扔到路上。",
+      "pinyin": "Wǒ zhàn páng biān kàn, nǐ men bié bǎ qiú rēng dào lù shàng.",
+      "tr": "Yanınızda durup bakacağım, topu yola atmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_046",
       "speaker": "刘梅",
-      "zh": "没事，不客气。",
-      "pinyin": "Méishì, bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "乐乐，看着姐姐的手，轻一点就可以。",
+      "pinyin": "Lè le, kàn zhe jiě jie de shǒu, qīng yì diǎn jiù kě yǐ.",
+      "tr": "Lele, ablanın ellerine bak, hafifçe atman yeterli."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_047",
       "speaker": "张乐乐",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "这样吗？姐姐，你接住了吗？",
+      "pinyin": "Zhè yàng ma? jiě jie, nǐ jiē zhù le ma?",
+      "tr": "Böyle mi? Abla, tuttun mu?",
+      "emotion": "curious",
+      "actionTr": "Lele ablasının topu tutup tutmadığını sorar."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_048",
       "speaker": "张雨桐",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "接住了！这次我给你，你把两只手打开。",
+      "pinyin": "Jiē zhù le! zhè cì wǒ gěi nǐ, nǐ bǎ liǎng zhǐ shǒu dǎ kāi.",
+      "tr": "Tuttum! Şimdi sana atacağım, iki elini aç."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_049",
       "speaker": "张伟",
-      "zh": "那公园呢？",
-      "pinyin": "Nà gōngyuán ne?",
-      "tr": "Park nerede?"
+      "zh": "这个球不大，两只手一起接会好一些。",
+      "pinyin": "Zhè ge qiú bù dà, liǎng zhǐ shǒu yì qǐ jiē huì hǎo yī xiē.",
+      "tr": "Bu top büyük değil, iki elle tutmak daha kolay olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_050",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Park şu tarafta."
+      "zh": "没接住也没事，球停下来以后再去拿。",
+      "pinyin": "Méi jiē zhù yě méi shì, qiú tíng xià lái yǐ hòu zài qù ná.",
+      "tr": "Tutamazsan sorun değil, top durunca almaya git."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_051",
       "speaker": "张乐乐",
-      "zh": "嗯，知道了。",
-      "pinyin": "En, zhīdào le.",
-      "tr": "Anladım."
+      "zh": "哎，掉在我脚边了，我不用跑。",
+      "pinyin": "Āi, diào zài wǒ jiǎo biān le, wǒ bù yòng pǎo.",
+      "tr": "Aa, ayağımın yanına düştü, koşmam gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_052",
       "speaker": "张雨桐",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "对，你捡起来，我们再试一次。",
+      "pinyin": "Duì, nǐ jiǎn qǐ lái, wǒ men zài shì yī cì.",
+      "tr": "Evet, alıp bir daha deneyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_053",
       "speaker": "张伟",
-      "zh": "这个是天气吗？",
-      "pinyin": "Zhège shì tiānqì ma?",
-      "tr": "Bu, hava mı?"
+      "zh": "这次接住了吧？我看你的手没有收回去。",
+      "pinyin": "Zhè cì jiē zhù le ba? wǒ kàn nǐ de shǒu méi yǒu shōu huí qù.",
+      "tr": "Bu kez tuttun, değil mi? Ellerini geri çekmediğini gördüm."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_054",
       "speaker": "刘梅",
-      "zh": "嗯，对，这是天气。",
-      "pinyin": "En, duì, zhèshì tiānqì.",
-      "tr": "Evet, bu hava."
+      "zh": "他还笑着呢，刚才有一点着急，现在好多了。",
+      "pinyin": "Tā hái xiào zhe ne, gāng cái yǒu yì diǎn zháo jí, xiàn zài hǎo duō le.",
+      "tr": "Gülümsüyor da, az önce biraz telaşlıydı, şimdi daha iyi."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_055",
       "speaker": "张乐乐",
-      "zh": "你看到那天气了吗？",
-      "pinyin": "Nǐ kàndào nà tiānqì le ma?",
-      "tr": "Hava nerede?"
+      "zh": "我接住了！爸爸，你也来玩吧。",
+      "pinyin": "Wǒ jiē zhù le! bà ba, nǐ yě lái wán ba.",
+      "tr": "Tuttum! Baba, sen de oyna.",
+      "emotion": "happy",
+      "actionTr": "Lele topu tutunca babasını oyuna çağırır."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_056",
       "speaker": "张雨桐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Hava burada."
+      "zh": "那我往旁边站一点，让爸爸进来。",
+      "pinyin": "Nà wǒ wǎng páng biān zhàn yì diǎn, ràng bà ba jìn lái.",
+      "tr": "O zaman biraz yana geçip babama yer açayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_057",
       "speaker": "张伟",
-      "zh": "这个是树吗？",
-      "pinyin": "Zhège shì shù ma?",
-      "tr": "Bu, ağaç mı?"
+      "zh": "不用让给我，我们三个人一起玩。",
+      "pinyin": "Bù yòng ràng gěi wǒ, wǒ men sān gè rén yì qǐ wán.",
+      "tr": "Yerini bana vermene gerek yok, üçümüz birlikte oynayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_058",
       "speaker": "刘梅",
-      "zh": "对，就是树。",
-      "pinyin": "Duì, jiùshì shù.",
-      "tr": "Evet, bu ağaç."
+      "zh": "我在这里看着，也帮你们看看旁边有没有人。",
+      "pinyin": "Wǒ zài zhè lǐ kàn zhe, yě bāng nǐ men kàn kàn páng biān yǒu méi yǒu rén.",
+      "tr": "Ben burada izleyip yanımıza biri geliyor mu bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_059",
       "speaker": "张乐乐",
-      "zh": "那树在哪儿？",
-      "pinyin": "Nàshù zài nǎér?",
-      "tr": "Ağaç nerede?"
+      "zh": "那我先给姐姐，姐姐再给爸爸，对吗？",
+      "pinyin": "Nà wǒ xiān gěi jiě jie, jiě jie zài gěi bà ba, duì ma?",
+      "tr": "Önce ablama, sonra ablam babama atacak, doğru mu?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_060",
       "speaker": "张雨桐",
-      "zh": "树在这儿。",
-      "pinyin": "Shù zài zhèér.",
-      "tr": "Ağaç burada."
+      "zh": "对，爸爸最后给你，这样每个人都能接到。",
+      "pinyin": "Duì, bà ba zuì hòu gěi nǐ, zhè yàng měi gè rén dōu néng jiē dào.",
+      "tr": "Evet, babam da sana atacak, böylece herkes tutabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_061",
       "speaker": "张伟",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "我准备好了，雨桐，你可以给我了。",
+      "pinyin": "Wǒ zhǔn bèi hǎo le, yǔ tóng, nǐ kě yǐ gěi wǒ le.",
+      "tr": "Hazırım Yutong, bana atabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_062",
       "speaker": "刘梅",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "你们站得有点远，乐乐不用跟着往后走。",
+      "pinyin": "Nǐ men zhàn de yǒu diǎn yuǎn, Lè le bù yòng gēn zhe wǎng hòu zǒu.",
+      "tr": "Biraz uzakta duruyorsunuz, Lele sizinle geri gitmesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_063",
       "speaker": "张乐乐",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "爸爸，我在这里，你给我近一点。",
+      "pinyin": "Bà ba, wǒ zài zhè lǐ, nǐ gěi wǒ jìn yì diǎn.",
+      "tr": "Baba, ben buradayım, bana daha yakından at."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_064",
       "speaker": "张雨桐",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "爸爸走过来了，这次你不用用很大的力气。",
+      "pinyin": "Bà ba zǒu guò lái le, zhè cì nǐ bù yòng yòng hěn dà de lì qì.",
+      "tr": "Babam yaklaştı, bu kez fazla güç kullanman gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_065",
       "speaker": "张伟",
-      "zh": "这是我们的孩子。",
-      "pinyin": "Zhèshì wǒmen de háizi.",
-      "tr": "Bu bizim çocuk."
+      "zh": "给你！接住以后先站好，再给姐姐。",
+      "pinyin": "Gěi nǐ! jiē zhù yǐ hòu xiān zhàn hǎo, zài gěi jiě jie.",
+      "tr": "Al! Tutunca önce düzgün dur, sonra ablana at."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_066",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "这次三个人都接住了，可以休息一下吗？",
+      "pinyin": "Zhè cì sān gè rén dōu jiē zhù le, kě yǐ xiū xī yī xià ma?",
+      "tr": "Bu kez üçünüz de tuttunuz, biraz dinlenebilir miyiz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_067",
       "speaker": "张乐乐",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "我还想玩一次，最后一次，好不好？",
+      "pinyin": "Wǒ hái xiǎng wán yī cì, zuì hòu yī cì, hǎo bù hǎo?",
+      "tr": "Bir kez daha oynamak istiyorum, son kez olur mu?",
+      "emotion": "curious",
+      "actionTr": "Lele son bir tur ister."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_068",
       "speaker": "张雨桐",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "好，玩完这一轮，我们一起去妈妈那里。",
+      "pinyin": "Hǎo, wán wán zhè yī lún, wǒ men yì qǐ qù mā ma nà lǐ.",
+      "tr": "Tamam, bu tur bitince birlikte annemin yanına gidelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_069",
       "speaker": "张伟",
-      "zh": "这个是球吗？",
-      "pinyin": "Zhège shì qiú ma?",
-      "tr": "Bu, top mı?"
+      "zh": "好，最后一轮从乐乐这里开始。",
+      "pinyin": "Hǎo, zuì hòu yī lún cóng lè le zhè lǐ kāi shǐ.",
+      "tr": "Tamam, son tur Lele ile başlasın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_070",
       "speaker": "刘梅",
-      "zh": "没错，是球。",
-      "pinyin": "Méicuò, shì qiú.",
-      "tr": "Evet, bu top."
+      "zh": "我给你们留了地方，球也可以放在包旁边。",
+      "pinyin": "Wǒ gěi nǐ men liú le dì fāng, qiú yě kě yǐ fàng zài bāo páng biān.",
+      "tr": "Size yer ayırdım, topu da çantanın yanına koyabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_071",
       "speaker": "张乐乐",
-      "zh": "那球在哪儿？",
-      "pinyin": "Nàqiú zài nǎér?",
-      "tr": "Top nerede?"
+      "zh": "姐姐，给你！这次没有掉下来。",
+      "pinyin": "Jiě jie, gěi nǐ! zhè cì méi yǒu diào xià lái.",
+      "tr": "Abla, al! Bu kez düşmedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_072",
       "speaker": "张雨桐",
-      "zh": "球在这儿。",
-      "pinyin": "Qiú zài zhèér.",
-      "tr": "Top burada."
+      "zh": "我接住了，爸爸，这是今天最后一个球。",
+      "pinyin": "Wǒ jiē zhù le, bà ba, zhè shì jīn tiān zuì hòu yí gè qiú.",
+      "tr": "Tuttum, baba, bugün son atışımız bu."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_073",
       "speaker": "张伟",
-      "zh": "公园呢？",
-      "pinyin": "Gōngyuán ne?",
-      "tr": "Park nerede?"
+      "zh": "我也接住了。来，球给乐乐拿着。",
+      "pinyin": "Wǒ yě jiē zhù le. lái, qiú gěi lè le ná zhe.",
+      "tr": "Ben de tuttum. Al, topu Lele taşısın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_074",
       "speaker": "刘梅",
-      "zh": "你看，公园在那边。",
-      "pinyin": "Nǐ kàn, gōngyuán zài nàbiān.",
-      "tr": "Park şu tarafta."
+      "zh": "先坐下来喝水，你们的脸都红了。",
+      "pinyin": "Xiān zuò xià lái hē shuǐ, nǐ men de liǎn dōu hóng le.",
+      "tr": "Önce oturup su için, hepinizin yüzü kızardı.",
+      "emotion": "comforting",
+      "actionTr": "Liu Mei kızaran yüzleri görünce su içmelerini önerir."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_075",
       "speaker": "张乐乐",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbái le.",
-      "tr": "Anladım."
+      "zh": "妈妈，我的水在哪里？我有点热。",
+      "pinyin": "Mā ma, wǒ de shuǐ zài nǎ lǐ? wǒ yǒu diǎn rè.",
+      "tr": "Anne, suyum nerede? Biraz sıcakladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_076",
       "speaker": "张雨桐",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "你的水在小包里，我帮你拿出来。",
+      "pinyin": "Nǐ de shuǐ zài xiǎo bāo lǐ, wǒ bāng nǐ ná chū lái.",
+      "tr": "Suyun küçük çantada, çıkarayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_077",
       "speaker": "张伟",
-      "zh": "这是天气吗？",
-      "pinyin": "Zhèshì tiānqì ma?",
-      "tr": "Bu, hava mı?"
+      "zh": "喝完把水放好，我们不用马上走。",
+      "pinyin": "Hē wán bǎ shuǐ fàng hǎo, wǒ men bù yòng mǎ shàng zǒu.",
+      "tr": "İçince suyu yerine koyun, hemen yürümemiz gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_078",
       "speaker": "刘梅",
-      "zh": "嗯，对，这是天气。",
-      "pinyin": "En, duì, zhèshì tiānqì.",
-      "tr": "Evet, bu hava."
+      "zh": "这里有树，坐在下面比刚才舒服。",
+      "pinyin": "Zhè lǐ yǒu shù, zuò zài xià miàn bǐ gāng cái shū fú.",
+      "tr": "Burada ağaç var, altında oturmak az öncekinden daha rahat."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_079",
       "speaker": "张乐乐",
-      "zh": "天气呢？",
-      "pinyin": "Tiānqì ne?",
-      "tr": "Hava nerede?"
+      "zh": "树下面不那么热，我想在这里坐一会儿。",
+      "pinyin": "Shù xià miàn bù nà me rè, wǒ xiǎng zài zhè lǐ zuò yī huì er.",
+      "tr": "Ağacın altında o kadar sıcak değil, biraz burada oturmak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_080",
       "speaker": "张雨桐",
-      "zh": "你看，就在这儿。",
-      "pinyin": "Nǐ kàn, jiù zài zhèér.",
-      "tr": "Hava burada."
+      "zh": "我也想坐一会儿，刚才跑了几步就热了。",
+      "pinyin": "Wǒ yě xiǎng zuò yī huì er, gāng cái pǎo le jǐ bù jiù rè le.",
+      "tr": "Ben de biraz oturmak istiyorum, az önce birkaç adım koşunca sıcakladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_081",
       "speaker": "张伟",
-      "zh": "这个是树吗？",
-      "pinyin": "Zhège shì shù ma?",
-      "tr": "Bu, ağaç mı?"
+      "zh": "今天的天气很好，可是玩的时候还是会热。",
+      "pinyin": "Jīn tiān de tiān qì hěn hǎo, kě shì wán de shí hòu hái shì huì rè.",
+      "tr": "Bugün hava güzel ama oynarken yine de sıcaklıyor insan."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_082",
       "speaker": "刘梅",
-      "zh": "嗯，对，这是树。",
-      "pinyin": "En, duì, zhè shì shù.",
-      "tr": "Evet, bu ağaç."
+      "zh": "所以先喝水，觉得累了就休息，别一直跑。",
+      "pinyin": "Suǒ yǐ xiān hē shuǐ, jué de lèi le jiù xiū xī, bié yì zhí pǎo.",
+      "tr": "Bu yüzden önce su içip yorulunca dinlenin, sürekli koşmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_083",
       "speaker": "张乐乐",
-      "zh": "那树在哪儿？",
-      "pinyin": "Nàshù zài nǎér?",
-      "tr": "Ağaç nerede?"
+      "zh": "爸爸，那个孩子也拿着球，他会来这里玩吗？",
+      "pinyin": "Bà ba, nà ge hái zi yě ná zhe qiú, tā huì lái zhè lǐ wán ma?",
+      "tr": "Baba, o çocuk da top taşıyor, buraya oynamaya gelir mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_084",
       "speaker": "张雨桐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Ağaç burada."
+      "zh": "他和家人在那边，我们先别拿自己的球去找他。",
+      "pinyin": "Tā hé jiā rén zài nà biān, wǒ men xiān bié ná zì jǐ de qiú qù zhǎo tā.",
+      "tr": "Ailesiyle orada, önce kendi topumuzla yanına gitmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_085",
       "speaker": "张伟",
-      "zh": "这是我们的家人。",
-      "pinyin": "Zhèshì wǒmen de jiārén.",
-      "tr": "Bu bizim aile."
+      "zh": "如果他过来，可以先问他想不想一起玩。",
+      "pinyin": "Rú guǒ tā guò lái, kě yǐ xiān wèn tā xiǎng bù xiǎng yì qǐ wán.",
+      "tr": "Gelirse birlikte oynamak istiyor mu sorabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_086",
       "speaker": "刘梅",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "不过我们刚休息，先把水喝完再说。",
+      "pinyin": "Bù guò wǒ men gāng xiū xī, xiān bǎ shuǐ hē wán zài shuō.",
+      "tr": "Ama daha yeni dinleniyoruz, önce suyumuzu bitirelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_087",
       "speaker": "张乐乐",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "好，我先坐着。上次我也和别的孩子一起玩了。",
+      "pinyin": "Hǎo, wǒ xiān zuò zhe. shàng cì wǒ yě hé bié de hái zi yì qǐ wán le.",
+      "tr": "Tamam, önce oturayım. Geçen sefer de başka bir çocukla oynadım.",
+      "emotion": "neutral",
+      "actionTr": "Lele önce oturmayı kabul edip önceki ortak oyunu hatırlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_088",
       "speaker": "张雨桐",
-      "zh": "嗯，好啊。",
-      "pinyin": "En, hǎo a.",
-      "tr": "Olur."
+      "zh": "这次你先问别人，还知道等一等，已经好多了。",
+      "pinyin": "Zhè cì nǐ xiān wèn bié rén, hái zhī dào děng yī děng, yǐ jīng hǎo duō le.",
+      "tr": "Bu kez önce karşındakine sorup beklemeyi de biliyorsun, çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_089",
       "speaker": "张伟",
-      "zh": "这是我们的孩子。",
-      "pinyin": "Zhèshì wǒmen de háizi.",
-      "tr": "Bu bizim çocuk."
+      "zh": "我们出来玩，大家都舒服才好。",
+      "pinyin": "Wǒ men chū lái wán, dà jiā dōu shū fú cái hǎo.",
+      "tr": "Dışarıya oynamaya çıkınca herkesin rahat etmesi güzel."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_090",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "现在你们还想看看什么？我们可以再走一小段。",
+      "pinyin": "Xiàn zài nǐ men hái xiǎng kàn kàn shén me? wǒ men kě yǐ zài zǒu yī xiǎo duàn.",
+      "tr": "Şimdi başka neye bakmak istersiniz? Biraz daha yürüyebiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_091",
       "speaker": "张乐乐",
-      "zh": "好，我们慢慢来。",
-      "pinyin": "Hǎo, wǒmen mànmànlái.",
-      "tr": "Tamam, yavaş yavaş ilerleyelim."
+      "zh": "我想看看卖冰淇淋的地方，不过球也要带上。",
+      "pinyin": "Wǒ xiǎng kàn kàn mài bīng qí lín de dì fāng, bù guò qiú yě yào dài shàng.",
+      "tr": "Dondurma satılan yere bakmak istiyorum ama topu da götürelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_092",
       "speaker": "张雨桐",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "刚才来的路上有一家小店，我们可以走回去看看。",
+      "pinyin": "Gāng cái lái de lù shàng yǒu yī jiā xiǎo diàn, wǒ men kě yǐ zǒu huí qù kàn kàn.",
+      "tr": "Az önce geldiğimiz yolda küçük bir dükkân vardı, dönüp bakabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_093",
       "speaker": "张伟",
-      "zh": "这个是球，对吗？",
-      "pinyin": "Zhège shì qiú, duì ma?",
-      "tr": "Bu, top mı?"
+      "zh": "可以，先把水和包都拿好，别落在这里。",
+      "pinyin": "Kě yǐ, xiān bǎ shuǐ hé bāo dōu ná hǎo, bié là zài zhè lǐ.",
+      "tr": "Olur, önce suyu ve çantaları alın, burada bırakmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_094",
       "speaker": "刘梅",
-      "zh": "嗯，对，这是球。",
-      "pinyin": "En, duì, zhè shì qiú.",
-      "tr": "Evet, bu top."
+      "zh": "我拿包，乐乐拿球。雨桐，你的水带了吗？",
+      "pinyin": "Wǒ ná bāo, lè le ná qiú. yǔ tóng, nǐ de shuǐ dài le ma?",
+      "tr": "Çantayı ben alayım, Lele topu alsın. Yutong, suyunu aldın mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_095",
       "speaker": "张乐乐",
-      "zh": "你看到球了吗？",
-      "pinyin": "Nǐ kàndào qiú le ma?",
-      "tr": "Top nerede?"
+      "zh": "姐姐的水在她手里，我的球也在这里。",
+      "pinyin": "Jiě jie de shuǐ zài tā shǒu lǐ, wǒ de qiú yě zài zhè lǐ.",
+      "tr": "Ablamın suyu elinde, benim topum da burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_096",
       "speaker": "张雨桐",
-      "zh": "今天挺顺利的。",
-      "pinyin": "Jīntiān tǐng shùnlì de.",
-      "tr": "Bugün oldukça iyi geçti."
+      "zh": "都拿好了，爸爸，我们还是从刚才那条路走吗？",
+      "pinyin": "Dōu ná hǎo le, bà ba, wǒ men hái shì cóng gāng cái nà tiáo lù zǒu ma?",
+      "tr": "Her şeyi aldık, baba, yine az önceki yoldan mı gidelim?"
     },
     {
       "id": "DLG_ZH_HSK1_SC037_097",
       "speaker": "张伟",
-      "zh": "好啊。",
-      "pinyin": "Hǎo a.",
-      "tr": "Olur."
+      "zh": "对，那条路人少一点，我们慢慢走回去。",
+      "pinyin": "Duì, nà tiáo lù rén shǎo yì diǎn, wǒ men màn màn zǒu huí qù.",
+      "tr": "Evet, o yol daha az kalabalık, yavaşça geri yürüyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_098",
       "speaker": "刘梅",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "到了店里先看看有什么，再问多少钱。",
+      "pinyin": "Dào le diàn lǐ xiān kàn kàn yǒu shén me, zài wèn duō shǎo qián.",
+      "tr": "Dükkâna gelince önce neler var bakalım, sonra fiyatını sorarız."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_099",
       "speaker": "张乐乐",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "好，我不跑过去，跟你们一起走。",
+      "pinyin": "Hǎo, wǒ bù pǎo guò qù, gēn nǐ men yì qǐ zǒu.",
+      "tr": "Tamam, koşarak gitmem, sizinle yürürüm.",
+      "emotion": "happy",
+      "actionTr": "Lele ailesiyle yürümeyi kabul eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC037_100",
       "speaker": "张雨桐",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "走吧，球拿好，我们一起去那家小店。",
+      "pinyin": "Zǒu ba, qiú ná hǎo, wǒ men yì qǐ qù nà jiā xiǎo diàn.",
+      "tr": "Hadi, topu sıkı tut, birlikte o küçük dükkâna gidelim."
     }
-  ]
+  ],
+  "editorialRevision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1"
 }

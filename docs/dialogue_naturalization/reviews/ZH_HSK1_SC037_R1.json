@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC037",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.38,
+  "meanNewZhLength": 17.31,
+  "continuityNoteTr": "SC036 oyuncak paylaşma deneyiminden sonraki park gezisinde Lele ablası ve babasıyla sırayla top oynar. Aile kuşu, çiçekleri ve bisiklet yolunu birlikte keşfeder; sonra gölgede su içer. Sonunda dondurma dükkânına yürür; dondurmanın düşmesi SC038e bırakılır.",
+  "lengthDeviationPercent": 171.32,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

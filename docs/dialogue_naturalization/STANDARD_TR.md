@@ -194,3 +194,5 @@ SC034: 35/300 metin,34/300 ağız kalibrasyonu. Kaçırılan otobüs, tahmini s�
 SC035: 36/300 metin,35/300 ağız kalibrasyonu. Dört yetişkin ilk ev yemeğinde konuşur; çocuklar kadraj dışında. Anne topuz ve baba kravatsız kimlikleri korundu. SC036 oyuncak paylaşımına geçiş. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC036: 37/300 metin,36/300 ağız kalibrasyonu. Küçük misafir çocuk Yutongdan ayırt edildi; evde akşam oyuncak paylaşımı ve SC037 park geçişi tutarlı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC037: 38/300 metin,37/300 ağız kalibrasyonu. Dört aile üyesi parkta birlikte keşfeder, sırayla top oynar ve su içer; SC038 dondurma dükkânı geçişi tutarlı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
