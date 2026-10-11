@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC046",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.04,
+  "meanNewZhLength": 17.96,
+  "continuityNoteTr": "SC045 aile dışarıda sade yemek planından sonra SC046 Liu Mei evde komşusuna kek ve çay sunar. Aynı apartman komşusu lavanta kıyafetli yetişkin kadın; ebeveynler canonical, Lele küçük oğlan. Yutong ekran dışı, fazladan konuşmacı yok. Kek soğumuş, küçük parçalar tadılır, kuru meyve açıklanır; komşu azını ailesine götürür. Satış gerçekleşmez, SC047 Li Chen eşinin iş fikri sonraki olaydır.",
+  "lengthDeviationPercent": 197.35,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

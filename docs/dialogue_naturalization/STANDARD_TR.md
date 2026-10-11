@@ -214,3 +214,5 @@ SC043: 44/300 metin,43/300 ağız kalibrasyonu. İlk sınav öncesi Yutong aile 
 SC044: 45/300 metin,44/300 ağız kalibrasyonu. Lele aile çizimini sınıfta anlatır. Yanlış kız kimliği küçük oğlan olarak düzeltildi; iki sınıf arkadaşı 100 ID bazında ayrı ağızlara bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC045: 46/300 metin,45/300 ağız kalibrasyonu. İlk maaş sonrası ihtiyaç parası ayrılır, küçük aile yemeği planlanır ve restoran yeri doğrulanır. Canonical aile düzeltildi; dört gerçek ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC046: 47/300 metin,46/300 ağız kalibrasyonu. Liu Mei komşusuna kek ve çay sunar, küçük parça eve götürülür; satış yapılmaz. Canonical ebeveynler ve küçük oğlan Lele düzeltildi; dört gerçek ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
