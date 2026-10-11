@@ -29,9 +29,9 @@
         "zh": "宠物店",
         "pinyin": "chǒngwùdiàn",
         "tr": "pet mağazası",
-        "exampleZh": "这是宠物店。",
-        "examplePinyin": "Zhè shì chǒngwùdiàn.",
-        "exampleTr": "Bu pet mağazası.",
+        "exampleZh": "我刚进宠物店的时候想看玩具，现在知道先找什么了。",
+        "examplePinyin": "Wǒ gāng jìn chǒng wù diàn de shí hòu xiǎng kàn wán jù, xiàn zài zhī dào xiān zhǎo shén me le.",
+        "exampleTr": "Pet mağazasına girince oyuncaklara bakmak istedim, şimdi önce ne arayacağımı biliyorum.",
         "kind": "active"
       },
       {
@@ -39,9 +39,9 @@
         "zh": "猫粮",
         "pinyin": "māoliáng",
         "tr": "kedi maması",
-        "exampleZh": "这是猫粮。",
-        "examplePinyin": "Zhè shì māoliáng.",
-        "exampleTr": "Bu kedi maması.",
+        "exampleZh": "您好，我们想找兽医写的这种猫粮，您这里有吗？",
+        "examplePinyin": "Nín hǎo, wǒ men xiǎng zhǎo shòu yī xiě de zhè zhǒng māo liáng, nín zhè lǐ yǒu ma?",
+        "exampleTr": "Merhaba, veterinerin yazdığı bu mamayı arıyoruz, sizde var mı?",
         "kind": "active"
       },
       {
@@ -49,9 +49,9 @@
         "zh": "猫",
         "pinyin": "māo",
         "tr": "kedi",
-        "exampleZh": "这是猫。",
-        "examplePinyin": "Zhè shì māo.",
-        "exampleTr": "Bu kedi.",
+        "exampleZh": "它是给猫吃的吧？不是药？",
+        "examplePinyin": "Tā shì gěi māo chī de ba? bú shì yào?",
+        "exampleTr": "Kedi maması, değil mi? İlaç değil mi?",
         "kind": "active"
       },
       {
@@ -59,9 +59,9 @@
         "zh": "钱",
         "pinyin": "qián",
         "tr": "para",
-        "exampleZh": "这是钱。",
-        "examplePinyin": "Zhè shì qián.",
-        "exampleTr": "Bu para.",
+        "exampleZh": "这包要多少钱？请先告诉我们价格。",
+        "examplePinyin": "Zhè bāo yào duō shǎo qián? qǐng xiān gào sù wǒ men jià gé.",
+        "exampleTr": "Bu paket kaç para? Önce fiyatını söyler misiniz?",
         "kind": "active"
       },
       {
@@ -69,9 +69,9 @@
         "zh": "元",
         "pinyin": "yuán",
         "tr": "yuan",
-        "exampleZh": "这是元。",
-        "examplePinyin": "Zhè shì yuán.",
-        "exampleTr": "Bu yuan.",
+        "exampleZh": "这一包三十元，是你们刚才看的小包。",
+        "examplePinyin": "Zhè yī bāo sān shí yuán, shì nǐ men gāng cái kàn de xiǎo bāo.",
+        "exampleTr": "Bu paket otuz yuan, az önce baktığınız küçük paket.",
         "kind": "active"
       },
       {
@@ -79,9 +79,9 @@
         "zh": "商店",
         "pinyin": "shāngdiàn",
         "tr": "mağaza",
-        "exampleZh": "这是商店。",
-        "examplePinyin": "Zhè shì shāngdiàn.",
-        "exampleTr": "Bu mağaza.",
+        "exampleZh": "我们今天在商店先核对这个产品，其他东西先不买。",
+        "examplePinyin": "Wǒ men jīn tiān zài shāng diàn xiān hé duì zhè ge chǎn pǐn, qí tā dōng xi xiān bù mǎi.",
+        "exampleTr": "Bugün mağazada önce bu ürünü karşılaştıralım, başka şey almayalım.",
         "kind": "active"
       },
       {
@@ -89,9 +89,9 @@
         "zh": "包",
         "pinyin": "bāo",
         "tr": "çanta",
-        "exampleZh": "这是包。",
-        "examplePinyin": "Zhè shì bāo.",
-        "exampleTr": "Bu çanta.",
+        "exampleZh": "我跟着你们，不自己拿旁边的包。",
+        "examplePinyin": "Wǒ gēn zhe nǐ men, bù zì jǐ ná páng biān de bāo.",
+        "exampleTr": "Sizinle geleyim, yandaki paketleri kendim almayayım.",
         "kind": "review"
       },
       {
@@ -99,9 +99,9 @@
         "zh": "药",
         "pinyin": "yào",
         "tr": "ilaç",
-        "exampleZh": "这是药。",
-        "examplePinyin": "Zhè shì yào.",
-        "exampleTr": "Bu ilaç.",
+        "exampleZh": "对，这是猫粮。药的事按兽医的说明处理，不在这里随便买。",
+        "examplePinyin": "Duì, zhè shì māo liáng. yào de shì àn shòu yī de shuō míng chǔ lǐ, bù zài zhè lǐ suí biàn mǎi.",
+        "exampleTr": "Evet, mama bu. İlaç konusunu veterinerin açıklamasına göre yaparız, burada rastgele almayız.",
         "kind": "review"
       }
     ],
@@ -111,41 +111,41 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "宠物店",
-          "在",
-          "这里"
+          "这种",
+          "猫粮",
+          "我们想找"
         ],
         "answerTokens": [
-          "宠物店",
-          "在",
-          "这里"
+          "我们想找",
+          "这种",
+          "猫粮"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC042_002",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "这是___。",
+        "blankSentenceZh": "咪咪在___等我们。",
         "options": [
-          "宠物店",
-          "猫粮",
-          "猫"
+          "家里",
+          "商店",
+          "学校"
         ],
-        "answer": "宠物店"
+        "answer": "家里"
       },
       {
         "id": "SENT_ZH_HSK1_SC042_003",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "这里",
-          "在",
-          "猫粮"
+          "产品信息",
+          "核对",
+          "先"
         ],
         "answerTokens": [
-          "猫粮",
-          "在",
-          "这里"
+          "先",
+          "核对",
+          "产品信息"
         ]
       },
       {
@@ -153,37 +153,41 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "这是",
-          "猫"
+          "一包",
+          "买",
+          "我们"
         ],
         "answerTokens": [
-          "这是",
-          "猫"
+          "我们",
+          "买",
+          "一包"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC042_005",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "猫粮在___。",
+        "blankSentenceZh": "这一包三十___。",
         "options": [
-          "这里",
-          "谢谢",
-          "很好"
+          "元",
+          "猫",
+          "商店"
         ],
-        "answer": "这里"
+        "answer": "元"
       },
       {
         "id": "SENT_ZH_HSK1_SC042_006",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "在哪儿",
-          "宠物店"
+          "小票",
+          "收好",
+          "把"
         ],
         "answerTokens": [
-          "宠物店",
-          "在哪儿"
+          "把",
+          "小票",
+          "收好"
         ]
       },
       {
@@ -191,82 +195,82 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "我",
-          "喜欢",
-          "猫"
+          "今天",
+          "玩具",
+          "不买"
         ],
         "answerTokens": [
-          "我",
-          "喜欢",
-          "猫"
+          "今天",
+          "不买",
+          "玩具"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC042_008",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "___，谢谢。",
+        "blankSentenceZh": "包装和说明先___。",
         "options": [
-          "好的",
-          "在哪儿",
-          "不是"
+          "保留",
+          "跑步",
+          "喝"
         ],
-        "answer": "好的"
+        "answer": "保留"
       },
       {
         "id": "SENT_ZH_HSK1_SC042_009",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "一起",
-          "我们",
-          "吧"
+          "安静",
+          "让咪咪",
+          "休息"
         ],
         "answerTokens": [
-          "我们",
-          "一起",
-          "吧"
+          "让咪咪",
+          "安静",
+          "休息"
         ]
       }
     ],
     "comprehensionQuestions": [
       {
         "id": "COMP_ZH_HSK1_SC042_001",
-        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "questionTr": "Aile ürünü nasıl doğrular?",
         "optionsTr": [
-          "Eczane/Pet Ürünü Alışverişi",
-          "Bir havaalanı yolculuğu",
-          "Bir spor maçı"
+          "Veterinerin yazılı bilgisiyle karşılaştırır",
+          "Yalnızca renk seçer",
+          "Oyuncağa bakar"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC042_002",
-        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "questionTr": "Bir küçük paket kaç yuan?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Belli değil"
+          "Üç",
+          "Otuz",
+          "On"
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "COMP_ZH_HSK1_SC042_003",
-        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "questionTr": "Bugün ayrıca ne almazlar?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sahne bitmiyor"
+          "Mama",
+          "Gerekli paket",
+          "Oyuncak"
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "COMP_ZH_HSK1_SC042_004",
-        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "questionTr": "Mimi nerede beklemektedir?",
         "optionsTr": [
-          "Zhang ailesinin yeni kasabadaki yaşamına",
-          "Bir tarih belgeseline",
-          "Bir spor turnuvasına"
+          "Evde",
+          "Mağazanın ağacında",
+          "Parkta"
         ],
         "correctIndex": 0
       }
@@ -274,9 +278,9 @@
     "pronunciationItems": [
       {
         "id": "PRON_ZH_HSK1_SC042_001",
-        "zh": "这是宠物店。",
-        "pinyin": "Zhè shì chǒngwùdiàn.",
-        "tr": "Bu pet mağazası.",
+        "zh": "您好，我们想找兽医写的这种猫粮，您这里有吗？",
+        "pinyin": "Nín hǎo, wǒ men xiǎng zhǎo shòu yī xiě de zhè zhǒng māo liáng, nín zhè lǐ yǒu ma?",
+        "tr": "Merhaba, veterinerin yazdığı bu mamayı arıyoruz, sizde var mı?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -287,9 +291,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC042_002",
-        "zh": "这是猫粮。",
-        "pinyin": "Zhè shì māoliáng.",
-        "tr": "Bu kedi maması.",
+        "zh": "它是给猫吃的吧？不是药？",
+        "pinyin": "Tā shì gěi māo chī de ba? bú shì yào?",
+        "tr": "Kedi maması, değil mi? İlaç değil mi?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -300,9 +304,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC042_003",
-        "zh": "这是猫。",
-        "pinyin": "Zhè shì māo.",
-        "tr": "Bu kedi.",
+        "zh": "这包要多少钱？请先告诉我们价格。",
+        "pinyin": "Zhè bāo yào duō shǎo qián? qǐng xiān gào sù wǒ men jià gé.",
+        "tr": "Bu paket kaç para? Önce fiyatını söyler misiniz?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -313,9 +317,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC042_004",
-        "zh": "这是钱。",
-        "pinyin": "Zhè shì qián.",
-        "tr": "Bu para.",
+        "zh": "这一包三十元，是你们刚才看的小包。",
+        "pinyin": "Zhè yī bāo sān shí yuán, shì nǐ men gāng cái kàn de xiǎo bāo.",
+        "tr": "Bu paket otuz yuan, az önce baktığınız küçük paket.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -328,69 +332,54 @@
     "interactiveDialogue": [
       {
         "id": "INT_ZH_HSK1_SC042_001",
-        "promptZh": "宠物店在哪儿？",
-        "promptPinyin": "Chǒngwùdiàn zài nǎr?",
-        "promptTr": "Pet mağazası nerede?",
+        "promptZh": "包装很像，怎么选？",
+        "promptPinyin": "Bāo zhuāng hěn xiàng, zěn me xuǎn?",
+        "promptTr": "Ambalajlar benziyor, nasıl seçelim?",
         "options": [
           {
-            "zh": "在这里。",
-            "tr": "Burada.",
+            "zh": "核对完整产品信息。",
+            "tr": "Tam ürün bilgisini karşılaştıralım.",
             "correct": true
           },
           {
-            "zh": "谢谢。",
-            "tr": "Teşekkürler.",
-            "correct": false
-          },
-          {
-            "zh": "我很好。",
-            "tr": "Ben iyiyim.",
+            "zh": "只看颜色。",
+            "tr": "Yalnızca renge bakalım.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC042_002",
-        "promptZh": "这是猫粮吗？",
-        "promptPinyin": "Zhè shì māoliáng ma?",
-        "promptTr": "Bu kedi maması mı?",
+        "promptZh": "买好以后要留什么？",
+        "promptPinyin": "Mǎi hǎo yǐ hòu yào liú shén me?",
+        "promptTr": "Aldıktan sonra neyi saklayalım?",
         "options": [
           {
-            "zh": "对，是的。",
-            "tr": "Evet.",
+            "zh": "说明、包装信息和小票。",
+            "tr": "Açıklama, ambalaj bilgileri ve fişi.",
             "correct": true
           },
           {
-            "zh": "我叫张伟。",
-            "tr": "Benim adım Zhang Wei.",
-            "correct": false
-          },
-          {
-            "zh": "明天见。",
-            "tr": "Yarın görüşürüz.",
+            "zh": "什么都不留。",
+            "tr": "Hiçbir şey saklamayalım.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC042_003",
-        "promptZh": "你喜欢猫吗？",
-        "promptPinyin": "Nǐ xǐhuan māo ma?",
-        "promptTr": "Kedi seviyor musun?",
+        "promptZh": "咪咪今天需要休息，怎么办？",
+        "promptPinyin": "Mī mī jīn tiān xū yào xiū xī, zěn me bàn?",
+        "promptTr": "Mimi bugün dinlenmeli, ne yapalım?",
         "options": [
           {
-            "zh": "喜欢。",
-            "tr": "Seviyorum.",
+            "zh": "安静照顾，不追着玩。",
+            "tr": "Sakince bakıp oyuna zorlamayalım.",
             "correct": true
           },
           {
-            "zh": "在右边。",
-            "tr": "Sağ tarafta.",
-            "correct": false
-          },
-          {
-            "zh": "五点。",
-            "tr": "Saat beş.",
+            "zh": "一直用玩具叫它。",
+            "tr": "Sürekli oyuncakla çağıralım.",
             "correct": false
           }
         ]
@@ -430,702 +419,720 @@
     {
       "id": "DLG_ZH_HSK1_SC042_001",
       "speaker": "刘梅",
-      "zh": "家人去宠物店。",
-      "pinyin": "Jiārén qù chǒngwùdiàn.",
-      "tr": "Aile pet mağazasına gidiyor."
+      "zh": "您好，我们想找兽医写的这种猫粮，您这里有吗？",
+      "pinyin": "Nín hǎo, wǒ men xiǎng zhǎo shòu yī xiě de zhè zhǒng māo liáng, nín zhè lǐ yǒu ma?",
+      "tr": "Merhaba, veterinerin yazdığı bu mamayı arıyoruz, sizde var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_002",
       "speaker": "张伟",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "我们把信息带来了，不想只看包装买错。",
+      "pinyin": "Wǒ men bǎ xìn xī dài lái le, bù xiǎng zhǐ kàn bāo zhuāng mǎi cuò.",
+      "tr": "Bilgileri getirdik, yalnızca ambalaja bakıp yanlış almak istemiyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_003",
       "speaker": "店员",
-      "zh": "是。",
-      "pinyin": "Shì.",
-      "tr": "Evet."
+      "zh": "我先看看您写的名字，再带您去那边的架子。",
+      "pinyin": "Wǒ xiān kàn kàn nín xiě de míng zi, zài dài nín qù nà biān de jià zi.",
+      "tr": "Önce yazdığınız isme bakayım, sonra sizi o rafa götüreyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_004",
       "speaker": "张乐乐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "妈妈，咪咪在家等，我们买好就回去吧。",
+      "pinyin": "Mā ma, mī mī zài jiā děng, wǒ men mǎi hǎo jiù huí qù ba.",
+      "tr": "Anne, Mimi evde bekliyor, alıp dönelim.",
+      "emotion": "worried",
+      "actionTr": "Lele Mimi’nin evde beklediğini hatırlatır."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_005",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "好，我们先找需要的，不先看玩具。",
+      "pinyin": "Hǎo, wǒ men xiān zhǎo xū yào de, bù xiān kàn wán jù.",
+      "tr": "Tamam, önce gerekeni bulalım, oyuncaklara önce bakmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_006",
       "speaker": "张伟",
-      "zh": "请问，宠物店在哪儿？",
-      "pinyin": "Qǐngwèn, chǒngwùdiàn zài nǎér?",
-      "tr": "Pet mağazası nerede?"
+      "zh": "您看这张纸，下面还有产品的信息。",
+      "pinyin": "Nín kàn zhè zhāng zhǐ, xià miàn hái yǒu chǎn pǐn de xìn xī.",
+      "tr": "Bu kâğıda bakın, altında ürün bilgisi de var."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_007",
       "speaker": "店员",
-      "zh": "你看，宠物店在那边。",
-      "pinyin": "Nǐ kàn, chǒngwùdiàn zài nàbiān.",
-      "tr": "Pet mağazası şu tarafta."
+      "zh": "看到了，这种在里面一排，我带你们过去。",
+      "pinyin": "Kàn dào le, zhè zhǒng zài lǐ miàn yī pái, wǒ dài nǐ men guò qù.",
+      "tr": "Gördüm, bu tür içerideki sırada, sizi götüreyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_008",
       "speaker": "张乐乐",
-      "zh": "知道了。",
-      "pinyin": "Zhīdào le.",
-      "tr": "Anladım."
+      "zh": "我跟着你们，不自己拿旁边的包。",
+      "pinyin": "Wǒ gēn zhe nǐ men, bù zì jǐ ná páng biān de bāo.",
+      "tr": "Sizinle geleyim, yandaki paketleri kendim almayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_009",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "这里有好多种，我们慢慢核对。",
+      "pinyin": "Zhè lǐ yǒu hǎo duō zhǒng, wǒ men màn màn hé duì.",
+      "tr": "Burada birçok tür var, yavaşça karşılaştıralım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_010",
       "speaker": "张伟",
-      "zh": "你要猫粮吗？",
-      "pinyin": "Nǐ yào māo liáng ma?",
-      "tr": "Kedi maması ister misin?"
+      "zh": "这个名字很像，不过后面还有不一样的字。",
+      "pinyin": "Zhè ge míng zi hěn xiàng, bù guò hòu miàn hái yǒu bù yí yàng de zì.",
+      "tr": "Bu isim çok benziyor ama sonunda farklı bir yazı var."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_011",
       "speaker": "店员",
-      "zh": "我要猫粮，谢谢。",
-      "pinyin": "Wǒyào māo liáng, xièxiè.",
-      "tr": "Kedi maması istiyorum, teşekkürler."
+      "zh": "是的，那是另一种，不是纸上写的这一包。",
+      "pinyin": "Shì de, nà shì lìng yī zhǒng, bú shì zhǐ shàng xiě de zhè yī bāo.",
+      "tr": "Evet, o başka tür, kâğıtta yazan paket değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_012",
       "speaker": "张乐乐",
-      "zh": "行。",
-      "pinyin": "Xíng.",
-      "tr": "Olur."
+      "zh": "那我不指这个了，要看完整的名字。",
+      "pinyin": "Nà wǒ bù zhǐ zhè ge le, yào kàn wán zhěng de míng zi.",
+      "tr": "O zaman bunu göstermeyeyim, tam isme bakmalıyız.",
+      "emotion": "curious",
+      "actionTr": "Lele tam ürün ismine bakmaları gerektiğini anlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_013",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "请您把对应的那包拿给我们看看。",
+      "pinyin": "Qǐng nín bǎ duì yìng de nà bāo ná gěi wǒ men kàn kàn.",
+      "tr": "Uygun paketi gösterir misiniz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_014",
       "speaker": "张伟",
-      "zh": "这是猫吗？",
-      "pinyin": "Zhè shì māo ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "我们也看看大小，不能名字对了就不看别的。",
+      "pinyin": "Wǒ men yě kàn kàn dà xiǎo, bù néng míng zi duì le jiù bù kàn bié de.",
+      "tr": "Boyutuna da bakalım, isim doğru diye diğerine bakmayı bırakmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_015",
       "speaker": "店员",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "这包是小的，产品信息在背面，你们可以先看。",
+      "pinyin": "Zhè bāo shì xiǎo de, chǎn pǐn xìn xī zài bèi miàn, nǐ men kě yǐ xiān kàn.",
+      "tr": "Bu küçük paket, ürün bilgileri arkasında, önce bakabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_016",
       "speaker": "张乐乐",
-      "zh": "请问，猫在哪儿？",
-      "pinyin": "Qǐngwèn, māo zài nǎér?",
-      "tr": "Kedi nerede?"
+      "zh": "它是给猫吃的吧？不是药？",
+      "pinyin": "Tā shì gěi māo chī de ba? bú shì yào?",
+      "tr": "Kedi maması, değil mi? İlaç değil mi?",
+      "emotion": "curious",
+      "actionTr": "Lele mamayla ilacı ayırt etmeye çalışır."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_017",
       "speaker": "刘梅",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Kedi burada."
+      "zh": "对，这是猫粮。药的事按兽医的说明处理，不在这里随便买。",
+      "pinyin": "Duì, zhè shì māo liáng. yào de shì àn shòu yī de shuō míng chǔ lǐ, bù zài zhè lǐ suí biàn mǎi.",
+      "tr": "Evet, mama bu. İlaç konusunu veterinerin açıklamasına göre yaparız, burada rastgele almayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_018",
       "speaker": "张伟",
-      "zh": "这是钱吗？",
-      "pinyin": "Zhè shì qián ma?",
-      "tr": "Bu, para mı?"
+      "zh": "我们今天在商店先核对这个产品，其他东西先不买。",
+      "pinyin": "Wǒ men jīn tiān zài shāng diàn xiān hé duì zhè ge chǎn pǐn, qí tā dōng xi xiān bù mǎi.",
+      "tr": "Bugün mağazada önce bu ürünü karşılaştıralım, başka şey almayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_019",
       "speaker": "店员",
-      "zh": "嗯，这就是钱。",
-      "pinyin": "En, zhè jiùshì qián.",
-      "tr": "Evet, bu para."
+      "zh": "没问题，您拿着纸和包装一起看，有不清楚的就问。",
+      "pinyin": "Méi wèn tí, nín ná zhe zhǐ hé bāo zhuāng yì qǐ kàn, yǒu bù qīng chǔ de jiù wèn.",
+      "tr": "Sorun değil, kâğıtla ambalaja birlikte bakın, anlamadığınızı sorun."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_020",
       "speaker": "张乐乐",
-      "zh": "请问，钱在哪儿？",
-      "pinyin": "Qǐngwèn, qián zài nǎér?",
-      "tr": "Para nerede?"
+      "zh": "我帮爸爸拿纸，可是包还是让大人拿。",
+      "pinyin": "Wǒ bāng bà ba ná zhǐ, kě shì bāo hái shì ràng dà rén ná.",
+      "tr": "Babamın kâğıdını tutayım ama paketi yetişkin tutsun."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_021",
       "speaker": "刘梅",
-      "zh": "嗯，就在这里。",
-      "pinyin": "En, jiù zài zhèlǐ.",
-      "tr": "Para burada."
+      "zh": "名字是一样的，下面的说明也和我们记的对上了。",
+      "pinyin": "Míng zi shì yī yàng de, xià miàn de shuō míng yě hé wǒ men jì de duì shàng le.",
+      "tr": "İsim aynı, aşağıdaki açıklama da notumuzla uyuşuyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_022",
       "speaker": "张伟",
-      "zh": "他们不知道哪种猫粮合适。",
-      "pinyin": "Tāmen bù zhīdào nǎzhǒng māo liáng héshì.",
-      "tr": "Hangi kedi mamasının uygun olduğunu bilmiyorlar."
+      "zh": "我再看一遍这几个字，刚才那包和它确实不一样。",
+      "pinyin": "Wǒ zài kàn yī biàn zhè jǐ gè zì, gāng cái nà bāo hé tā què shí bù yí yàng.",
+      "tr": "Bu yazıya bir daha bakayım, az önceki paket gerçekten farklı."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_023",
       "speaker": "店员",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "这两包放得近，第一次找的人容易看错。",
+      "pinyin": "Zhè liǎng bāo fàng de jìn, dì yī cì zhǎo de rén róng yì kàn cuò.",
+      "tr": "İki paket yakın duruyor, ilk kez arayan karıştırabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_024",
       "speaker": "张乐乐",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "还好我们带了纸，不然我只看猫的图片。",
+      "pinyin": "Hái hǎo wǒ men dài le zhǐ, bù rán wǒ zhǐ kàn māo de tú piàn.",
+      "tr": "İyi ki kâğıdı getirdik, yoksa yalnızca kedi resmine bakardım.",
+      "emotion": "happy",
+      "actionTr": "Lele yazılı bilgiyi getirmelerinin yararını fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_025",
       "speaker": "刘梅",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "图片不能告诉我们是不是同一种，要看产品信息。",
+      "pinyin": "Tú piàn bù néng gào sù wǒ men shì bú shì tóng yī zhǒng, yào kàn chǎn pǐn xìn xī.",
+      "tr": "Resim aynı tür olup olmadığını söylemez, ürün bilgisine bakmalıyız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_026",
       "speaker": "张伟",
-      "zh": "嗯，好。",
-      "pinyin": "En, hǎo.",
-      "tr": "Tamam."
+      "zh": "这包要多少钱？请先告诉我们价格。",
+      "pinyin": "Zhè bāo yào duō shǎo qián? qǐng xiān gào sù wǒ men jià gé.",
+      "tr": "Bu paket kaç para? Önce fiyatını söyler misiniz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_027",
       "speaker": "店员",
-      "zh": "这是元，对吗？",
-      "pinyin": "Zhè shì yuán, duì ma?",
-      "tr": "Bu, yuan mı?"
+      "zh": "这一包三十元，是你们刚才看的小包。",
+      "pinyin": "Zhè yī bāo sān shí yuán, shì nǐ men gāng cái kàn de xiǎo bāo.",
+      "tr": "Bu paket otuz yuan, az önce baktığınız küçük paket."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_028",
       "speaker": "张乐乐",
-      "zh": "对，这是元。",
-      "pinyin": "Duì, zhè shì yuán.",
-      "tr": "Evet, bu yuan."
+      "zh": "不是三元吧？我怕听错了。",
+      "pinyin": "Bú shì sān yuán ba? wǒ pà tīng cuò le.",
+      "tr": "Üç yuan değil, değil mi? Yanlış duymaktan korktum."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_029",
       "speaker": "刘梅",
-      "zh": "元呢？",
-      "pinyin": "Yuán ne?",
-      "tr": "Yuan nerede?"
+      "zh": "是三十元，你听清楚了。",
+      "pinyin": "Shì sān shí yuán, nǐ tīng qīng chǔ le.",
+      "tr": "Otuz yuan, doğru duydun."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_030",
       "speaker": "张伟",
-      "zh": "对，就在这里。",
-      "pinyin": "Duì, jiù zài zhèlǐ.",
-      "tr": "Yuan burada."
+      "zh": "好，我们买一包，先不买很多。",
+      "pinyin": "Hǎo, wǒ men mǎi yī bāo, xiān bù mǎi hěn duō.",
+      "tr": "Tamam, bir paket alalım, önce fazla almayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_031",
       "speaker": "店员",
-      "zh": "商店在哪儿？",
-      "pinyin": "Shāngdiàn zài nǎér?",
-      "tr": "Mağaza nerede?"
+      "zh": "可以，我先放到柜台，你们还有要核对的吗？",
+      "pinyin": "Kě yǐ, wǒ xiān fàng dào guì tái, nǐ men hái yǒu yào hé duì de ma?",
+      "tr": "Olur, önce tezgâha koyayım, kontrol edeceğiniz başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_032",
       "speaker": "张乐乐",
-      "zh": "商店在那边。",
-      "pinyin": "Shāngdiàn zài nàbiān.",
-      "tr": "Mağaza şu tarafta."
+      "zh": "妈妈，咪咪今天就能吃这个吗？",
+      "pinyin": "Mā ma, mī mī jīn tiān jiù néng chī zhè ge ma?",
+      "tr": "Anne, Mimi bugün bunu yiyebilir mi?",
+      "emotion": "curious",
+      "actionTr": "Lele eve gidince mamayı hemen kullanıp kullanmayacaklarını sorar."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_033",
       "speaker": "刘梅",
-      "zh": "明白了。",
-      "pinyin": "Míngbái le.",
-      "tr": "Anladım."
+      "zh": "怎么吃要看兽医写的计划，不是买到了就随便倒很多。",
+      "pinyin": "Zěn me chī yào kàn shòu yī xiě de jì huà, bú shì mǎi dào le jiù suí biàn dào hěn duō.",
+      "tr": "Nasıl yiyeceği için veterinerin planına bakmalıyız, aldık diye çokça dökmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_034",
       "speaker": "张伟",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "对，我们回去按说明做，现在把需要的信息留好。",
+      "pinyin": "Duì, wǒ men huí qù àn shuō míng zuò, xiàn zài bǎ xū yào de xìn xī liú hǎo.",
+      "tr": "Evet, dönünce açıklamaya göre yaparız, şimdi gereken bilgiyi saklayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_035",
       "speaker": "店员",
-      "zh": "这是包吗？",
-      "pinyin": "Zhè shì bāo ma?",
-      "tr": "Bu, çanta mı?"
+      "zh": "包装上的信息也可以拍下来，和医生写的一起保存。",
+      "pinyin": "Bāo zhuāng shàng de xìn xī yě kě yǐ pāi xià lái, hé yī shēng xiě de yì qǐ bǎo cún.",
+      "tr": "Ambalaj bilgilerini de fotoğraflayıp doktorun yazdığıyla saklayabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_036",
       "speaker": "张乐乐",
-      "zh": "对，这是包。",
-      "pinyin": "Duì, zhè shì bāo.",
-      "tr": "Evet, bu çanta."
+      "zh": "爸爸，你拍的时候把我拿的纸也放旁边吧。",
+      "pinyin": "Bà ba, nǐ pāi de shí hòu bǎ wǒ ná de zhǐ yě fàng páng biān ba.",
+      "tr": "Baba, fotoğraf çekerken tuttuğum kâğıdı da yanına koy."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_037",
       "speaker": "刘梅",
-      "zh": "包在哪儿？",
-      "pinyin": "Bāo zài nǎér?",
-      "tr": "Çanta nerede?"
+      "zh": "好，纸平着放，别挡住包装上的字。",
+      "pinyin": "Hǎo, zhǐ píng zhe fàng, bié dǎng zhù bāo zhuāng shàng de zì.",
+      "tr": "Tamam, kâğıdı düz koyalım, ambalajdaki yazıyı kapatmasın."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_038",
       "speaker": "张伟",
-      "zh": "你看，包在这儿。",
-      "pinyin": "Nǐ kàn, bāo zài zhèér.",
-      "tr": "Çanta burada."
+      "zh": "拍好了，两边都看得清楚。",
+      "pinyin": "Pāi hǎo le, liǎng biān dōu kàn de qīng chǔ.",
+      "tr": "Çektim, iki taraf da açıkça görünüyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_039",
       "speaker": "店员",
-      "zh": "这是药，对吗？",
-      "pinyin": "Zhè shì yào, duì ma?",
-      "tr": "Bu, ilaç mı?"
+      "zh": "那我把这一包拿到柜台，买的就是这包。",
+      "pinyin": "Nà wǒ bǎ zhè yī bāo ná dào guì tái, mǎi de jiù shì zhè bāo.",
+      "tr": "O zaman bu paketi tezgâha götüreyim, alacağınız paket bu."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_040",
       "speaker": "张乐乐",
-      "zh": "对，这是药。",
-      "pinyin": "Duì, zhè shì yào.",
-      "tr": "Evet, bu ilaç."
+      "zh": "我看着呢，没有换成刚才那个很像的。",
+      "pinyin": "Wǒ kàn zhe ne, méi yǒu huàn chéng gāng cái nà ge hěn xiàng de.",
+      "tr": "Bakıyorum, az önceki benzeyenle değiştirilmedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_041",
       "speaker": "刘梅",
-      "zh": "药呢？",
-      "pinyin": "Yào ne?",
-      "tr": "Ilaç nerede?"
+      "zh": "我们跟您过去，不过先不打开包装。",
+      "pinyin": "Wǒ men gēn nín guò qù, bù guò xiān bù dǎ kāi bāo zhuāng.",
+      "tr": "Sizinle gelelim ama ambalajı açmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_042",
       "speaker": "张伟",
-      "zh": "药在这里。",
-      "pinyin": "Yào zài zhèlǐ.",
-      "tr": "Ilaç burada."
+      "zh": "封口还是好的，我看看有没有破的地方。",
+      "pinyin": "Fēng kǒu hái shì hǎo de, wǒ kàn kàn yǒu méi yǒu pò de dì fāng.",
+      "tr": "Ağzı sağlam, yırtık yer var mı bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_043",
       "speaker": "店员",
-      "zh": "店员帮他们找到了。",
-      "pinyin": "Diànyuán bāng tāmen zhǎodào le.",
-      "tr": "Mağaza çalışanı bulmalarına yardım ediyor."
+      "zh": "可以看，这一包没有开过，您再检查一下。",
+      "pinyin": "Kě yǐ kàn, zhè yī bāo méi yǒu kāi guò, nín zài jiǎn chá yī xià.",
+      "tr": "Bakabilirsiniz, bu paket açılmadı, siz de kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_044",
       "speaker": "张乐乐",
-      "zh": "太好了！",
-      "pinyin": "Tàihǎole!",
-      "tr": "Harika!"
+      "zh": "我不捏它，站旁边就能看见。",
+      "pinyin": "Wǒ bù niē tā, zhàn páng biān jiù néng kàn jiàn.",
+      "tr": "Sıkmayayım, yanında durunca görebiliyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_045",
       "speaker": "刘梅",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "这边没有破，信息也都还在。",
+      "pinyin": "Zhè biān méi yǒu pò, xìn xī yě dōu hái zài.",
+      "tr": "Bu tarafta yırtık yok, bilgiler de duruyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_046",
       "speaker": "张伟",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "刚才问的是三十元，这里也是这个价钱吧？",
+      "pinyin": "Gāng cái wèn de shì sān shí yuán, zhè lǐ yě shì zhè ge jià qián ba?",
+      "tr": "Az önce otuz yuan demiştiniz, burada da fiyat aynı, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_047",
       "speaker": "店员",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "对，一包三十元，没有另外拿别的东西。",
+      "pinyin": "Duì, yī bāo sān shí yuán, méi yǒu lìng wài ná bié de dōng xi.",
+      "tr": "Evet, bir paket otuz yuan, başka bir şey eklemedik."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_048",
       "speaker": "张乐乐",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "那我们的钱够吗？爸爸已经拿手机了。",
+      "pinyin": "Nà wǒ men de qián gòu ma? bà ba yǐ jīng ná shǒu jī le.",
+      "tr": "Paramız yeterli mi? Babam telefonunu çıkardı."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_049",
       "speaker": "刘梅",
-      "zh": "宠物店呢？",
-      "pinyin": "Chǒngwùdiàn ne?",
-      "tr": "Pet mağazası nerede?"
+      "zh": "够的，爸爸付款，你不用担心这个。",
+      "pinyin": "Gòu de, bà ba fù kuǎn, nǐ bù yòng dān xīn zhè ge.",
+      "tr": "Yeterli, baban ödeyecek, buna kaygılanma."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_050",
       "speaker": "张伟",
-      "zh": "宠物店在那边。",
-      "pinyin": "Chǒngwùdiàn zài nàbiān.",
-      "tr": "Pet mağazası şu tarafta."
+      "zh": "我来付，付之前再确认是一包。",
+      "pinyin": "Wǒ lái fù, fù zhī qián zài què rèn shì yī bāo.",
+      "tr": "Ben ödeyeyim, ödemeden önce bir paket olduğunu doğrulayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_051",
       "speaker": "店员",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "是一包，我给您一张小票，请留好。",
+      "pinyin": "Shì yī bāo, wǒ gěi nín yī zhāng xiǎo piào, qǐng liú hǎo.",
+      "tr": "Bir paket, fiş vereceğim, saklayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_052",
       "speaker": "张乐乐",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "小票也是纸，我们和医生写的一起放好吗？",
+      "pinyin": "Xiǎo piào yě shì zhǐ, wǒ men hé yī shēng xiě de yì qǐ fàng hǎo ma?",
+      "tr": "Fiş de kâğıt, doktorun yazdığıyla birlikte koyalım mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_053",
       "speaker": "刘梅",
-      "zh": "猫粮你要吗？",
-      "pinyin": "Māo liáng nǐ yào ma?",
-      "tr": "Kedi maması ister misin?"
+      "zh": "可以，不过先别把它弄湿，放到包里。",
+      "pinyin": "Kě yǐ, bù guò xiān bié bǎ tā nòng shī, fàng dào bāo lǐ.",
+      "tr": "Olur ama ıslatmadan çantaya koyalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_054",
       "speaker": "张伟",
-      "zh": "那我要猫粮，谢谢。",
-      "pinyin": "Nà wǒ yào māo liáng, xièxiè.",
-      "tr": "Kedi maması istiyorum, teşekkürler."
+      "zh": "付款好了，您看看有没有收到。",
+      "pinyin": "Fù kuǎn hǎo le, nín kàn kàn yǒu méi yǒu shōu dào.",
+      "tr": "Ödeme yapıldı, geldi mi kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_055",
       "speaker": "店员",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "收到了，这包可以拿走，小票在这里。",
+      "pinyin": "Shōu dào le, zhè bāo kě yǐ ná zǒu, xiǎo piào zài zhè lǐ.",
+      "tr": "Geldi, bu paketi alabilirsiniz, fiş burada."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_056",
       "speaker": "张乐乐",
-      "zh": "谢谢，帮大忙了。",
-      "pinyin": "Xièxiè, bāng dàmáng le.",
-      "tr": "Teşekkür ederim."
+      "zh": "谢谢。我能帮妈妈拿小票，不拿重的包。",
+      "pinyin": "Xiè xiè. wǒ néng bāng mā ma ná xiǎo piào, bù ná zhòng de bāo.",
+      "tr": "Teşekkürler, annemin fişini tutabilirim, ağır paketi taşımayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_057",
       "speaker": "刘梅",
-      "zh": "这是猫，对吗？",
-      "pinyin": "Zhè shì māo, duì ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "那你把小票给我，我和产品说明一起收好。",
+      "pinyin": "Nà nǐ bǎ xiǎo piào gěi wǒ, wǒ hé chǎn pǐn shuō míng yì qǐ shōu hǎo.",
+      "tr": "O zaman fişi bana ver, ürün açıklamasıyla birlikte saklayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_058",
       "speaker": "张伟",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "猫粮我拿，别把包装压在包底下。",
+      "pinyin": "Māo liáng wǒ ná, bié bǎ bāo zhuāng yā zài bāo dǐ xià.",
+      "tr": "Mamayı ben taşıyayım, ambalajı çantanın altında ezmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_059",
       "speaker": "店员",
-      "zh": "那请问，猫在哪儿？",
-      "pinyin": "Nà qǐngwèn, māo zài nǎér?",
-      "tr": "Kedi nerede?"
+      "zh": "我给您一个袋子，提起来会方便一点。",
+      "pinyin": "Wǒ gěi nín yí gè dài zi, tí qǐ lái huì fāng biàn yì diǎn.",
+      "tr": "Poşet vereyim, taşımak daha rahat olur."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_060",
       "speaker": "张乐乐",
-      "zh": "猫在这里。",
-      "pinyin": "Māo zài zhèlǐ.",
-      "tr": "Kedi burada."
+      "zh": "袋子里只放猫粮，纸还在妈妈的包里。",
+      "pinyin": "Dài zi lǐ zhǐ fàng māo liáng, zhǐ hái zài mā ma de bāo lǐ.",
+      "tr": "Poşette yalnızca mama olsun, kâğıt annemin çantasında."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_061",
       "speaker": "刘梅",
-      "zh": "那这是钱吗？",
-      "pinyin": "Nà zhè shì qián ma?",
-      "tr": "Bu, para mı?"
+      "zh": "对，东西放清楚，回去找的时候不用翻半天。",
+      "pinyin": "Duì, dōng xi fàng qīng chǔ, huí qù zhǎo de shí hòu bù yòng fān bàn tiān.",
+      "tr": "Evet, düzenli koyalım, evde ararken uzun uzun karıştırmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_062",
       "speaker": "张伟",
-      "zh": "对，这是钱。",
-      "pinyin": "Duì, zhè shì qián.",
-      "tr": "Evet, bu para."
+      "zh": "我们今天要找的买到了，不再多拿别的。",
+      "pinyin": "Wǒ men jīn tiān yào zhǎo de mǎi dào le, bù zài duō ná bié de.",
+      "tr": "Bugün aradığımızı aldık, başka bir şey eklemeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_063",
       "speaker": "店员",
-      "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎér?",
-      "tr": "Para nerede?"
+      "zh": "好的，店里还有很多东西，以后需要再来看。",
+      "pinyin": "Hǎo de, diàn lǐ hái yǒu hěn duō dōng xi, yǐ hòu xū yào zài lái kàn.",
+      "tr": "Tamam, mağazada birçok şey var, gerekirse sonra bakarsınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_064",
       "speaker": "张乐乐",
-      "zh": "你看，钱在这儿。",
-      "pinyin": "Nǐ kàn, qián zài zhèér.",
-      "tr": "Para burada."
+      "zh": "那边的玩具很好看，不过咪咪今天要休息。",
+      "pinyin": "Nà biān de wán jù hěn hǎo kàn, bù guò mī mī jīn tiān yào xiū xī.",
+      "tr": "Oradaki oyuncak güzel ama Mimi bugün dinlenmeli.",
+      "emotion": "neutral",
+      "actionTr": "Lele oyuncakları beğense de kedinin dinlenmesi gerektiğini söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_065",
       "speaker": "刘梅",
-      "zh": "这是元吗？",
-      "pinyin": "Zhè shì yuán ma?",
-      "tr": "Bu, yuan mı?"
+      "zh": "对，今天先让它休息，不能一直叫它陪我们玩。",
+      "pinyin": "Duì, jīn tiān xiān ràng tā xiū xī, bù néng yì zhí jiào tā péi wǒ men wán.",
+      "tr": "Evet, bugün önce dinlensin; sürekli bizimle oynaması için çağıramayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_066",
       "speaker": "张伟",
-      "zh": "嗯，这就是元。",
-      "pinyin": "En, zhè jiùshì yuán.",
-      "tr": "Evet, bu yuan."
+      "zh": "今天先把照顾它的事做好，玩具以后再说。",
+      "pinyin": "Jīn tiān xiān bǎ zhào gù tā de shì zuò hǎo, wán jù yǐ hòu zài shuō.",
+      "tr": "Bugün önce bakım işini yapalım, oyuncakları sonra konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_067",
       "speaker": "店员",
-      "zh": "元在哪儿？",
-      "pinyin": "Yuán zài nǎér?",
-      "tr": "Yuan nerede?"
+      "zh": "你们先买需要的就好，不用每次来都买很多。",
+      "pinyin": "Nǐ men xiān mǎi xū yào de jiù hǎo, bù yòng měi cì lái dōu mǎi hěn duō.",
+      "tr": "Önce gerekeni almanız yeterli, her gelişte çok şey almanız gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_068",
       "speaker": "张乐乐",
-      "zh": "元在这里。",
-      "pinyin": "Yuán zài zhèlǐ.",
-      "tr": "Yuan burada."
+      "zh": "我刚进宠物店的时候想看玩具，现在知道先找什么了。",
+      "pinyin": "Wǒ gāng jìn chǒng wù diàn de shí hòu xiǎng kàn wán jù, xiàn zài zhī dào xiān zhǎo shén me le.",
+      "tr": "Pet mağazasına girince oyuncaklara bakmak istedim, şimdi önce ne arayacağımı biliyorum.",
+      "emotion": "happy",
+      "actionTr": "Lele önce gerekeni aramayı öğrendiğini belirtir."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_069",
       "speaker": "刘梅",
-      "zh": "那商店在哪儿？",
-      "pinyin": "Nà shāngdiàn zài nǎér?",
-      "tr": "Mağaza nerede?"
+      "zh": "你帮着拿纸和看名字，也是帮咪咪。",
+      "pinyin": "Nǐ bāng zhe ná zhǐ hé kàn míng zi, yě shì bāng mī mī.",
+      "tr": "Kâğıdı tutup isme bakman da Mimi’ye yardım etmek."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_070",
       "speaker": "张伟",
-      "zh": "你看，商店在那边。",
-      "pinyin": "Nǐ kàn, shāngdiàn zài nàbiān.",
-      "tr": "Mağaza şu tarafta."
+      "zh": "不过包装上难懂的字还是我们来确认，不让你猜。",
+      "pinyin": "Bù guò bāo zhuāng shàng nán dǒng de zì hái shì wǒ men lái què rèn, bù ràng nǐ cāi.",
+      "tr": "Ama ambalajdaki zor yazıları biz doğrulayalım, sana tahmin ettirmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_071",
       "speaker": "店员",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbái le.",
-      "tr": "Anladım."
+      "zh": "有疑问也可以把包装信息发给兽医，请他确认。",
+      "pinyin": "Yǒu yí wèn yě kě yǐ bǎ bāo zhuāng xìn xī fā gěi shòu yī, qǐng tā què rèn.",
+      "tr": "Sorunuz varsa ambalaj bilgilerini veterinere gönderip doğrulatabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_072",
       "speaker": "张乐乐",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我们已经拍好了，不用把包拆开再拍。",
+      "pinyin": "Wǒ men yǐ jīng pāi hǎo le, bù yòng bǎ bāo chāi kāi zài pāi.",
+      "tr": "Fotoğrafını çektik, açıp tekrar çekmemiz gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_073",
       "speaker": "刘梅",
-      "zh": "那请问，宠物店在哪儿？",
-      "pinyin": "Nà qǐngwèn, chǒngwùdiàn zài nǎér?",
-      "tr": "Pet mağazası nerede?"
+      "zh": "这样就好，回家先看看咪咪的情况。",
+      "pinyin": "Zhè yàng jiù hǎo, huí jiā xiān kàn kàn mī mī de qíng kuàng.",
+      "tr": "Böyle iyi, eve dönünce önce Mimi’ye bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_074",
       "speaker": "张伟",
-      "zh": "嗯，你看，宠物店在那边。",
-      "pinyin": "En, nǐ kàn, chǒngwùdiàn zài nàbiān.",
-      "tr": "Pet mağazası şu tarafta."
+      "zh": "对，不能按我们自己的想法随便喂。",
+      "pinyin": "Duì, bù néng àn wǒ men zì jǐ de xiǎng fǎ suí biàn wèi.",
+      "tr": "Evet, kendi düşüncemize göre rastgele besleyemeyiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_075",
       "speaker": "店员",
-      "zh": "嗯，知道了。",
-      "pinyin": "En, zhīdào le.",
-      "tr": "Anladım."
+      "zh": "包装也先保留，后面还要看产品信息。",
+      "pinyin": "Bāo zhuāng yě xiān bǎo liú, hòu miàn hái yào kàn chǎn pǐn xìn xī.",
+      "tr": "Ambalajı da saklayın, sonra ürün bilgilerine bakmanız gerekebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_076",
       "speaker": "张乐乐",
-      "zh": "嗯，谢谢你。",
-      "pinyin": "En, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "爸爸，不把这个包扔了，我记住了。",
+      "pinyin": "Bà ba, bù bǎ zhè ge bāo rēng le, wǒ jì zhù le.",
+      "tr": "Baba, bu ambalajı atmayalım, hatırladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_077",
       "speaker": "刘梅",
-      "zh": "现在你要猫粮吗？",
-      "pinyin": "Xiànzài nǐ yào māo liáng ma?",
-      "tr": "Kedi maması ister misin?"
+      "zh": "先用好里面的东西，包装让大人处理。",
+      "pinyin": "Xiān yòng hǎo lǐ miàn de dōng xi, bāo zhuāng ràng dà rén chǔ lǐ.",
+      "tr": "Önce içindekini düzgün kullanalım, ambalajla yetişkin ilgilensin."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_078",
       "speaker": "张伟",
-      "zh": "对，我要猫粮，谢谢。",
-      "pinyin": "Duì, wǒyào māo liáng, xièxiè.",
-      "tr": "Kedi maması istiyorum, teşekkürler."
+      "zh": "我把小票也收好了，我们可以走了。",
+      "pinyin": "Wǒ bǎ xiǎo piào yě shōu hǎo le, wǒ men kě yǐ zǒu le.",
+      "tr": "Fişi de sakladım, gidebiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_079",
       "speaker": "店员",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Olur."
+      "zh": "还有问题吗？没有的话我帮您把袋口放好。",
+      "pinyin": "Hái yǒu wèn tí ma? méi yǒu de huà wǒ bāng nín bǎ dài kǒu fàng hǎo.",
+      "tr": "Başka soru var mı? Yoksa poşetin ağzını düzenleyeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_080",
       "speaker": "张乐乐",
-      "zh": "真的谢谢你。",
-      "pinyin": "Zhēnde xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我想问，这个商店的东西都是给猫的吗？",
+      "pinyin": "Wǒ xiǎng wèn, zhè ge shāng diàn de dōng xi dōu shì gěi māo de ma?",
+      "tr": "Bu mağazadaki her şey kedi için mi diye sormak istiyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_081",
       "speaker": "刘梅",
-      "zh": "这个是猫吗？",
-      "pinyin": "Zhège shì māo ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "不都是，所以我们刚才才要看清楚猫粮的信息。",
+      "pinyin": "Bù dōu shì, suǒ yǐ wǒ men gāng cái cái yào kàn qīng chǔ māo liáng de xìn xī.",
+      "tr": "Hepsi değil, bu yüzden mama bilgisini dikkatle kontrol ettik."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_082",
       "speaker": "张伟",
-      "zh": "对，这是猫。",
-      "pinyin": "Duì, zhè shì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "不同动物用的不能只看颜色来分，对吗？",
+      "pinyin": "Bù tóng dòng wù yòng de bù néng zhǐ kàn yán sè lái fēn, duì ma?",
+      "tr": "Farklı hayvanlar için olanları yalnızca renge göre ayıramayız, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC042_083",
       "speaker": "店员",
-      "zh": "现在请问，猫在哪儿？",
-      "pinyin": "Xiànzài qǐngwèn, māo zài nǎér?",
-      "tr": "Kedi nerede?"
+      "zh": "对，要看写的是什么，也要看自己需要什么。",
+      "pinyin": "Duì, yào kàn xiě de shì shén me, yě yào kàn zì jǐ xū yào shén me.",
+      "tr": "Evet, ne yazdığına ve neye ihtiyacınız olduğuna bakmalısınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_084",
       "speaker": "张乐乐",
-      "zh": "嗯，猫在这里。",
-      "pinyin": "En, māo zài zhèlǐ.",
-      "tr": "Kedi burada."
+      "zh": "那我们没有拿错，不是只挑颜色好看的。",
+      "pinyin": "Nà wǒ men méi yǒu ná cuò, bú shì zhǐ tiāo yán sè hǎo kàn de.",
+      "tr": "O zaman yanlış almadık, yalnızca güzel renkliyi seçmedik."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_085",
       "speaker": "刘梅",
-      "zh": "这是钱，对吗？",
-      "pinyin": "Zhè shì qián, duì ma?",
-      "tr": "Bu, para mı?"
+      "zh": "是的，我们拿着写好的信息买，这样清楚一些。",
+      "pinyin": "Shì de, wǒ men ná zhe xiě hǎo de xìn xī mǎi, zhè yàng qīng chǔ yī xiē.",
+      "tr": "Evet, yazılı bilgiyle aldık, böyle daha açık oldu."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_086",
       "speaker": "张伟",
-      "zh": "没错，这是钱。",
-      "pinyin": "Méicuò, zhè shì qián.",
-      "tr": "Evet, bu para."
+      "zh": "今天也谢谢您带我们找，不然架子上那么多不好认。",
+      "pinyin": "Jīn tiān yě xiè xiè nín dài wǒ men zhǎo, bù rán jià zi shàng nà me duō bù hǎo rèn.",
+      "tr": "Bugün gösterdiğiniz için de teşekkürler, rafta çok ürün var, ayırmak zor olurdu."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_087",
       "speaker": "店员",
-      "zh": "那请问，钱在哪儿？",
-      "pinyin": "Nà qǐngwèn, qián zài nǎér?",
-      "tr": "Para nerede?"
+      "zh": "不客气，第一次买可以先问，慢慢就熟悉了。",
+      "pinyin": "Bú kè qì, dì yī cì mǎi kě yǐ xiān wèn, màn màn jiù shú xī le.",
+      "tr": "Rica ederim, ilk kez alırken sorabilirsiniz, zamanla tanırsınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_088",
       "speaker": "张乐乐",
-      "zh": "好，就在这里。",
-      "pinyin": "Hǎo, jiù zài zhèlǐ.",
-      "tr": "Para burada."
+      "zh": "我没有自己乱拿，等妈妈说了才看。",
+      "pinyin": "Wǒ méi yǒu zì jǐ luàn ná, děng mā ma shuō le cái kàn.",
+      "tr": "Kendim rastgele almadım, annem söyleyince baktım.",
+      "emotion": "happy",
+      "actionTr": "Lele raflardan izinsiz ürün almadığını söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_089",
       "speaker": "刘梅",
-      "zh": "那这是元，对吗？",
-      "pinyin": "Nà zhè shì yuán, duì ma?",
-      "tr": "Bu, yuan mı?"
+      "zh": "你做得好，不过现在先跟我们走，别站在路中间。",
+      "pinyin": "Nǐ zuò de hǎo, bù guò xiàn zài xiān gēn wǒ men zǒu, bié zhàn zài lù zhōng jiān.",
+      "tr": "İyi yaptın ama şimdi bizimle gel, yolun ortasında durma."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_090",
       "speaker": "张伟",
-      "zh": "嗯，这就是元。",
-      "pinyin": "En, zhè jiùshì yuán.",
-      "tr": "Evet, bu yuan."
+      "zh": "我拿袋子，妈妈拿包，乐乐走在旁边。",
+      "pinyin": "Wǒ ná dài zi, mā ma ná bāo, lè le zǒu zài páng biān.",
+      "tr": "Poşeti ben, çantayı annen taşısın, Lele yanımızda yürüsün."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_091",
       "speaker": "店员",
-      "zh": "那元呢？",
-      "pinyin": "Nàyuán ne?",
-      "tr": "Yuan nerede?"
+      "zh": "门口在那边，出门小心，袋子拿稳。",
+      "pinyin": "Mén kǒu zài nà biān, chū mén xiǎo xīn, dài zi ná wěn.",
+      "tr": "Çıkış o tarafta, dikkatli çıkın, poşeti sağlam tutun."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_092",
       "speaker": "张乐乐",
-      "zh": "你看，元在这儿。",
-      "pinyin": "Nǐ kàn, yuán zài zhèér.",
-      "tr": "Yuan burada."
+      "zh": "我跟上了，回去以后先看看咪咪。",
+      "pinyin": "Wǒ gēn shàng le, huí qù yǐ hòu xiān kàn kàn mī mī.",
+      "tr": "Geldim, dönünce önce Mimi’ye bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_093",
       "speaker": "刘梅",
-      "zh": "请问，商店在哪儿？",
-      "pinyin": "Qǐngwèn, shāngdiàn zài nǎér?",
-      "tr": "Mağaza nerede?"
+      "zh": "还要给姐姐说我们已经买到了，她也在家帮忙看着。",
+      "pinyin": "Hái yào gěi jiě jie shuō wǒ men yǐ jīng mǎi dào le, tā yě zài jiā bāng máng kàn zhe.",
+      "tr": "Aldığımızı ablana da söyleyelim, evde o da Mimi’ye bakıyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_094",
       "speaker": "张伟",
-      "zh": "嗯，商店在那边。",
-      "pinyin": "En, shāngdiàn zài nàbiān.",
-      "tr": "Mağaza şu tarafta."
+      "zh": "我告诉她，不用再出去找同样的东西了。",
+      "pinyin": "Wǒ gào sù tā, bù yòng zài chū qù zhǎo tóng yàng de dōng xi le.",
+      "tr": "Ona söyleyeyim, aynı şeyi aramak için yeniden çıkmasına gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_095",
       "speaker": "店员",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "好，你们慢慢走，有需要再来。",
+      "pinyin": "Hǎo, nǐ men màn màn zǒu, yǒu xū yào zài lái.",
+      "tr": "Tamam, yavaş gidin, gerekirse yine gelin."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_096",
       "speaker": "张乐乐",
-      "zh": "今天挺顺利的。",
-      "pinyin": "Jīntiān tǐng shùnlì de.",
-      "tr": "Bugün oldukça iyi geçti."
+      "zh": "再见，谢谢你，没有把很像的那一包给我们。",
+      "pinyin": "Zài jiàn, xiè xiè nǐ, méi yǒu bǎ hěn xiàng de nà yī bāo gěi wǒ men.",
+      "tr": "Hoşça kalın, teşekkürler, benzeyen diğer paketi bize vermediniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_097",
       "speaker": "刘梅",
-      "zh": "我也这么想。",
-      "pinyin": "Wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "再见，我们把纸、包和小票都带好了。",
+      "pinyin": "Zài jiàn, wǒ men bǎ zhǐ, bāo hé xiǎo piào dōu dài hǎo le.",
+      "tr": "Hoşça kalın, kâğıdı, paketi ve fişi aldık."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_098",
       "speaker": "张伟",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "走吧，买东西的事做完了，回家照顾咪咪。",
+      "pinyin": "Zǒu ba, mǎi dōng xi de shì zuò wán le, huí jiā zhào gù mī mī.",
+      "tr": "Hadi, alışveriş bitti, eve dönüp Mimi’ye bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_099",
       "speaker": "店员",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "再见，希望你们回去照顾得顺利。",
+      "pinyin": "Zài jiàn, xī wàng nǐ men huí qù zhào gù de shùn lì.",
+      "tr": "Hoşça kalın, umarım evde bakım işleri yolunda gider."
     },
     {
       "id": "DLG_ZH_HSK1_SC042_100",
       "speaker": "张乐乐",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "我也会安静帮忙，回家以后不马上让咪咪陪我玩。",
+      "pinyin": "Wǒ yě huì ān jìng bāng máng, huí jiā yǐ hòu bù mǎ shàng ràng mī mī péi wǒ wán.",
+      "tr": "Ben de sakince yardım ederim; eve dönünce hemen Mimi’nin benimle oynamasını istemem.",
+      "emotion": "comforting",
+      "actionTr": "Lele Mimi’yi oyuna zorlamadan sakince yardım edeceğini söyler."
     }
   ],
   "production": {
@@ -1157,6 +1164,6 @@
     },
     "continuityNoteTr": "Eczane/Pet Ürünü Alışverişi olayı ana aile kronolojisinde sahne 42 olarak kaydedilir."
   },
-  "editorialStatus": "generated_full_v1_requires_native_review",
+  "editorialStatus": "contextual_simplified_chinese_r1_model_reviewed_audio_pending",
   "dialogueCount": 100
 }

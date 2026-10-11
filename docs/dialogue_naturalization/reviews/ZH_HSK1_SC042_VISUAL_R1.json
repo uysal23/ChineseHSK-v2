@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC042",
+  "imageSha256": "a0898c0ee831bd08d151236d7df58774e3c91aec5c3d2d198a53dcf8dbac2c34",
+  "referenceSceneId": "ZH_HSK1_SC037",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "刘梅",
+    "张伟",
+    "店员",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC042 pet shop correct food purchase; canonical parents and small boy Lele, adult female brown cap/apron clerk; four visible human mouths",
+  "anchors": {
+    "刘梅": [
+      0.783,
+      0.321
+    ],
+    "张伟": [
+      0.524,
+      0.274
+    ],
+    "店员": [
+      0.18,
+      0.274
+    ],
+    "张乐乐": [
+      0.663,
+      0.555
+    ]
+  }
+}

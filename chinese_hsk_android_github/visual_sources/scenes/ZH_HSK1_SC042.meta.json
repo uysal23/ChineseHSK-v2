@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC042",
   "generationSceneId": "ZH_HSK1_SC042",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC042.json",
-  "dialogueSha256": "ce09e667cffcd8e1093fea0ff8b1af238a0fb172e39fb7badde7f640ea543143",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC042.json",
+  "dialogueSha256": "09707ee131fb814fd0931e245fee61da62b06f39163db5be2d04689998f6b64e",
   "titleTr": "Pet Mağazası",
   "locationId": "LOC_ZH_PET_SHOP_001",
   "scenePurposeTr": "Aile pet mağazasına gider; mağazanın yerini ve Mimi için ürünleri konuşur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC041",
     "nextSceneId": "ZH_HSK1_SC043"
   },
-  "sourceGeneratedFilename": "ailece_sevimli_kedi_mağazası_alışverişi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC042_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC042.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC042.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "2395177bbcbe4670144c89cf7a5dd22e9868c4e3cc0724feb66a8f9ef91a68c4"
+    "sha256": "a0898c0ee831bd08d151236d7df58774e3c91aec5c3d2d198a53dcf8dbac2c34",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC042 canonical parents and small boy Lele; adult female pet shop clerk with brown cap/apron. Cat food and written product information visible; Mimi remains at home. Four named human mouths inspected; model QA only, human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "a0898c0ee831bd08d151236d7df58774e3c91aec5c3d2d198a53dcf8dbac2c34",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "刘梅": [
+        0.783,
+        0.321
+      ],
+      "张伟": [
+        0.524,
+        0.274
+      ],
+      "店员": [
+        0.18,
+        0.274
+      ],
+      "张乐乐": [
+        0.663,
+        0.555
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC042 canonical parents and small boy Lele; adult female pet shop clerk with brown cap/apron. Cat food and written product information visible; Mimi remains at home. Four named human mouths inspected; model QA only, human/device pending."
+  }
 }

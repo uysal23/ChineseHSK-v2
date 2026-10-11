@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC042",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.23,
+  "meanNewZhLength": 18.06,
+  "continuityNoteTr": "SC041den sonra Mimi eve yerleştirilir, Yutong evde gözler. Liu Mei/Zhang Wei/Lele pet mağazasında veterinerin yazılı bilgisiyle doğru küçük mama paketini eşleştirir; 30 yuan bir paket alır. Ürün bilgisi ve fiş saklanır, oyuncak ve rastgele ilaç alınmaz. Mimi mağazada gösterilmez. SC043 Yutong sınav heyecanı sonraki aile sahnesidir.",
+  "lengthDeviationPercent": 189.89,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

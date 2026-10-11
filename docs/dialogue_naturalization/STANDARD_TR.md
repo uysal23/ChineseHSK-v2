@@ -206,3 +206,5 @@ Ses denetimi: mevcut Kokoro işi 38144116461 başarılı; SC001–034 için 3400
 SC040: 41/300 metin,40/300 ağız kalibrasyonu. Yanlış komşu paketi açılmadan isim/adres/telefonla doğrulanıp doğru kapıya teslim edilir. Canonical ebeveynler düzeltildi; dört ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC041: 42/300 metin,41/300 ağız kalibrasyonu. Veteriner ziyareti ve SC042 ürün bilgisi geçişi. Canonical aile ve Mimi kontrol edildi. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC042: 43/300 metin,42/300 ağız kalibrasyonu. Pet mağazasında yazılı veteriner bilgisiyle mama seçimi. Canonical aile ve mağaza görevlisi kontrol edildi. Ses/insan/cihaz bekliyor; APK/release yok.
