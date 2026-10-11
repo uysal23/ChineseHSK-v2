@@ -182,3 +182,5 @@ SC030: 31/300 metin, 30/300 adla ağız kalibrasyonu. Şirket aramasıyla kabul,
 SC001–SC027: mevcut Kokoro run37992209624 başarıyla üretildi;2700 metin/konuşmacı/kast/key/Opus eşleşmesi doğrulandı. Altı seviyeli yerel pakete2700 yeni eşleşme eklendi;27300 diğer eşleşme ve dosya aynı kaldı. Kurulum/dinleme/native insan/cihaz bekliyor; tamamlanan ses sahnesi sayısı artırılmadı. APK/release yok.
 
 SC031: 32/300 metin,31/300 adla ağız kalibrasyonu. Yeni iş kartı çantada bulunur, ad kontrol edilip kendi kartıyla giriş yapılır. Müdür SC029 kimliğine düzeltildi, baba kravatsız. SC032 öğlen tanışmaya bağlanır. Ses entegrasyonu/native insan/cihaz bekliyor. APK/release yok.
+
+SC032: 33/300 metin,32/300 ağız kalibrasyonu. Öğle molası tanışması: Lin Xiao ve Chen Ming aynı 同事 etiketi korunarak ayrı dialogue ID/kişi ağızlarına bağlandı. SC033 menü seçimine geçiş. Ses entegrasyonu/native insan/cihaz bekliyor. APK/release yok.

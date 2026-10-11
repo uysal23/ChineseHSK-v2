@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC032",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 13,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.52,
+  "meanNewZhLength": 18.48,
+  "continuityNoteTr": "SC031 kart çantanın küçük gözünde bulundu. SC032 öğle molasında Zhang, sabah yardımcı olan yetişkin Lin Xiao ve yeni yetişkin çalışma arkadaşı Chen Ming ile tanışır; erkek müdür destek olur. Dört konuşmacı birlikte öğle yemeğine gider. SC033 menü seçimi henüz yapılmadı; sonraki sahnede yardım istenir.",
+  "lengthDeviationPercent": 183.44,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

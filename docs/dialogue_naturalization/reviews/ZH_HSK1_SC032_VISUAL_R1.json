@@ -1,0 +1,26 @@
+{
+  "sceneId": "ZH_HSK1_SC032",
+  "imageSha256": "8245d17d0d642a3aa1a6d0cc0fbb8481cc0db0fbb9d8fd9cfe9809eaad40a207",
+  "referenceSceneId": "ZH_HSK1_SC019",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "LIN_XIAO",
+    "CHEN_MING",
+    "经理"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC032 workplace lunch-break introductions: Zhang Wei, adult Lin Xiao, adult Chen Ming and original male manager. Four mouths; shared colleague labels resolved by explicit dialogue ID/person bindings",
+  "anchors": {
+    "张伟": [
+      0.457,
+      0.282
+    ],
+    "经理": [
+      0.852,
+      0.296
+    ]
+  }
+}
