@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC039",
+  "imageSha256": "1b4a659d14ee036bd0bc7e61df69f0249ff1c94d717f2a9664c031c5d90050ee",
+  "referenceSceneId": "ZH_HSK1_SC028",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "张乐乐",
+    "张雨桐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC039 family sheltering under shop awning in rain WITHOUT umbrellas: Zhang Wei glasses/navy/light blue, Liu Mei cream/green/low bun holding ball, small boy Lele blue, older teen Yutong lilac/high pony; four named mouths",
+  "anchors": {
+    "张伟": [
+      0.421,
+      0.278
+    ],
+    "刘梅": [
+      0.546,
+      0.33
+    ],
+    "张乐乐": [
+      0.376,
+      0.457
+    ],
+    "张雨桐": [
+      0.729,
+      0.365
+    ]
+  }
+}

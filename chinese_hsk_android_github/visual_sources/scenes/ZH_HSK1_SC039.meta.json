@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC039",
   "generationSceneId": "ZH_HSK1_SC039",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC039.json",
-  "dialogueSha256": "d7de335093e065a00629c855b020d98a90e923377be61371bac32bab61f13090",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC039.json",
+  "dialogueSha256": "d87ba0167faca5875953ee8de7d0d1366595b7226be756210e3a4a8bd12e4b17",
   "titleTr": "Yağmurda Eve Dönüş",
   "locationId": "LOC_ZH_NEIGHBORHOOD_001",
   "scenePurposeTr": "Aile parktan eve dönerken yağmura yakalanır ve hava durumunu konuşur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC038",
     "nextSceneId": "ZH_HSK1_SC040"
   },
-  "sourceGeneratedFilename": "yağmurlu_akşamda_aile_yürüyüşü.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC039_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC039.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC039.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "d2f8bfc23284657a81197307db858c29504ddfd20b8a1d0bf4f7cf5a64c83915"
+    "sha256": "1b4a659d14ee036bd0bc7e61df69f0249ff1c94d717f2a9664c031c5d90050ee",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC039 yağmurda dükkân saçak altı: Zhang Wei siyah dikdörtgen gözlük/navy/light blue; Liu Mei cream/green/low bun topu tutar; Lele küçük erkek blue/white/green; Yutong daha büyük ergen lilac/high pony. Dört gerçek ağız incelendi. Şemsiyeler evde kalmıştır, görselde şemsiye yok. Model incelemesi; insan/cihaz bekliyor.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "1b4a659d14ee036bd0bc7e61df69f0249ff1c94d717f2a9664c031c5d90050ee",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.421,
+        0.278
+      ],
+      "刘梅": [
+        0.546,
+        0.33
+      ],
+      "张乐乐": [
+        0.376,
+        0.457
+      ],
+      "张雨桐": [
+        0.729,
+        0.365
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC039 yağmurda dükkân saçak altı: Zhang Wei siyah dikdörtgen gözlük/navy/light blue; Liu Mei cream/green/low bun topu tutar; Lele küçük erkek blue/white/green; Yutong daha büyük ergen lilac/high pony. Dört gerçek ağız incelendi. Şemsiyeler evde kalmıştır, görselde şemsiye yok. Model incelemesi; insan/cihaz bekliyor."
+  }
 }

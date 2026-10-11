@@ -198,3 +198,5 @@ SC036: 37/300 metin,36/300 ağız kalibrasyonu. Küçük misafir çocuk Yutongda
 SC037: 38/300 metin,37/300 ağız kalibrasyonu. Dört aile üyesi parkta birlikte keşfeder, sırayla top oynar ve su içer; SC038 dondurma dükkânı geçişi tutarlı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC038: 39/300 metin,38/300 ağız kalibrasyonu. Lele’nin düşen dondurması yerine küçük bardakta yenisi alınır. Yanlış kız/baba/anne kadrosu canonical kimliklerle düzeltildi; SC039 eve dönüş geçişi tutarlı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC039: 40/300 metin,39/300 ağız kalibrasyonu. Aile şemsiyeler evde kaldığından saçak altına sığınır, yağmur azalınca eve döner. Yanlış kimlikler ve açık şemsiyeler düzeltildi; SC040 paket olayı sonraya bırakıldı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
