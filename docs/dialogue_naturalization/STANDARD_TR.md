@@ -204,3 +204,5 @@ SC039: 40/300 metin,39/300 ağız kalibrasyonu. Aile şemsiyeler evde kaldığı
 Ses denetimi: mevcut Kokoro işi 38144116461 başarılı; SC001–034 için 3400 metin/konuşmacı/kast/anahtar ve Opus başlığı eşleşti. Kaynak 2d0b389669dedc314240a6be958ee1783c367e55. Runtime entegrasyonu ve dinleme bekliyor; completed ses sayısı artırılmadı. APK/release başlatılmadı.
 
 SC040: 41/300 metin,40/300 ağız kalibrasyonu. Yanlış komşu paketi açılmadan isim/adres/telefonla doğrulanıp doğru kapıya teslim edilir. Canonical ebeveynler düzeltildi; dört ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC041: 42/300 metin,41/300 ağız kalibrasyonu. Veteriner ziyareti ve SC042 ürün bilgisi geçişi. Canonical aile ve Mimi kontrol edildi. Ses/insan/cihaz bekliyor; APK/release yok.

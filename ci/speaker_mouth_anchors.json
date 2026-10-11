@@ -2613,6 +2613,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC041": {
+      "imageSha256": "540634deae7ee5dd3dc44e765b9160109953918a32ccf90a7d4836cf8af2ffe9",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "刘梅": [
+          0.601,
+          0.356
+        ],
+        "张伟": [
+          0.82,
+          0.248
+        ],
+        "兽医": [
+          0.237,
+          0.416
+        ],
+        "张乐乐": [
+          0.717,
+          0.543
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }

@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC041",
   "generationSceneId": "ZH_HSK1_SC041",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC041.json",
-  "dialogueSha256": "b4951e00e448d5fed30079c2dde8e8d386c6a1fa20d01e85b6cf19a8591b0abb",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC041.json",
+  "dialogueSha256": "90e29f8f54fd066cbccc9336251928aa5131b8d24e6dcb080f5d980c7e3f154c",
   "titleTr": "Mimi Veterinerde",
   "locationId": "LOC_ZH_VET_CLINIC_001",
   "scenePurposeTr": "Mimi yemek yemeyince aile onu veterinere götürür ve veteriner muayene eder.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC040",
     "nextSceneId": "ZH_HSK1_SC042"
   },
-  "sourceGeneratedFilename": "veterinerde_mimi_nin_şefkatli_muayenesi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC041_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC041.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC041.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "bc5eefebc4a35af1dea0471e3d5f727ff9b5401c2b543bc2140247f54728a5c2"
+    "sha256": "540634deae7ee5dd3dc44e765b9160109953918a32ccf90a7d4836cf8af2ffe9",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC041 canonical Liu Mei cream/green low bun; Zhang Wei glasses/navy/light blue; small boy Lele blue; adult female vet white/blue stethoscope. Orange-white tabby Mimi is not a speaker. Four human mouths inspected; model QA only, human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "540634deae7ee5dd3dc44e765b9160109953918a32ccf90a7d4836cf8af2ffe9",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "刘梅": [
+        0.601,
+        0.356
+      ],
+      "张伟": [
+        0.82,
+        0.248
+      ],
+      "兽医": [
+        0.237,
+        0.416
+      ],
+      "张乐乐": [
+        0.717,
+        0.543
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC041 canonical Liu Mei cream/green low bun; Zhang Wei glasses/navy/light blue; small boy Lele blue; adult female vet white/blue stethoscope. Orange-white tabby Mimi is not a speaker. Four human mouths inspected; model QA only, human/device pending."
+  }
 }

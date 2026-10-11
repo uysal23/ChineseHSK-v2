@@ -11,702 +11,723 @@
     {
       "id": "DLG_ZH_HSK1_SC041_001",
       "speaker": "刘梅",
-      "zh": "咪咪今天不吃饭。",
-      "pinyin": "Mīmī jīntiān bù chīfàn.",
-      "tr": "Mimi bugün yemek yemiyor."
+      "zh": "医生，咪咪今天不怎么吃饭，我们有点担心。",
+      "pinyin": "Yī shēng, mī mī jīn tiān bù zěn me chī fàn, wǒ men yǒu diǎn dān xīn.",
+      "tr": "Doktor, Mimi bugün pek yemek yemiyor, biraz endişeliyiz.",
+      "emotion": "worried",
+      "actionTr": "Liu Mei Mimi’nin az yediğini anlatır."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_002",
       "speaker": "张伟",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "平时一放饭它就过来，今天只是闻了闻。",
+      "pinyin": "Píng shí yī fàng fàn tā jiù guò lái, jīn tiān zhǐ shì wén le wén.",
+      "tr": "Normalde mamayı koyunca gelir, bugün yalnızca kokladı."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_003",
       "speaker": "兽医",
-      "zh": "没错。",
-      "pinyin": "Méicuò.",
-      "tr": "Evet."
+      "zh": "先把它的箱子放稳，慢慢告诉我从什么时候开始。",
+      "pinyin": "Xiān bǎ tā de xiāng zi fàng wěn, màn màn gào sù wǒ cóng shén me shí hòu kāi shǐ.",
+      "tr": "Önce taşıma kutusunu sağlam koyun, ne zamandan beri olduğunu anlatın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_004",
       "speaker": "张乐乐",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısınız?"
+      "zh": "早上我叫它，它没有像平时那样跑过来。",
+      "pinyin": "Zǎo shàng wǒ jiào tā, tā méi yǒu xiàng píng shí nà yàng pǎo guò lái.",
+      "tr": "Sabah çağırdım, her zamanki gibi koşarak gelmedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_005",
       "speaker": "刘梅",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "昨天晚上还吃了一些，今天早上就没怎么吃。",
+      "pinyin": "Zuó tiān wǎn shàng hái chī le yī xiē, jīn tiān zǎo shàng jiù méi zěn me chī.",
+      "tr": "Dün akşam biraz yedi, bu sabah pek yemedi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_006",
       "speaker": "张伟",
-      "zh": "这是猫吗？",
-      "pinyin": "Zhè shì māo ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "我们换了水，也把饭放到它平时吃的地方。",
+      "pinyin": "Wǒ men huàn le shuǐ, yě bǎ fàn fàng dào tā píng shí chī de dì fāng.",
+      "tr": "Suyunu değiştirdik, mamasını da normalde yediği yere koyduk."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_007",
       "speaker": "兽医",
-      "zh": "嗯，这就是猫。",
-      "pinyin": "En, zhè jiùshì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "它有没有喝水？你们见到的情况可以先说。",
+      "pinyin": "Tā yǒu méi yǒu hē shuǐ? nǐ men jiàn dào de qíng kuàng kě yǐ xiān shuō.",
+      "tr": "Su içti mi? Gördüklerinizi anlatabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_008",
       "speaker": "张乐乐",
-      "zh": "猫呢？",
-      "pinyin": "Māo ne?",
-      "tr": "Kedi nerede?"
+      "zh": "我看见它走到水旁边，可是没有一直看着。",
+      "pinyin": "Wǒ kàn jiàn tā zǒu dào shuǐ páng biān, kě shì méi yǒu yì zhí kàn zhe.",
+      "tr": "Suyun yanına gittiğini gördüm ama sürekli izlemedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_009",
       "speaker": "刘梅",
-      "zh": "你看，猫在这儿。",
-      "pinyin": "Nǐ kàn, māo zài zhèér.",
-      "tr": "Kedi burada."
+      "zh": "我也没看清喝了多少，不能说它完全没喝。",
+      "pinyin": "Wǒ yě méi kàn qīng hē le duō shǎo, bù néng shuō tā wán quán méi hē.",
+      "tr": "Ne kadar içtiğini ben de görmedim, hiç içmedi diyemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_010",
       "speaker": "张伟",
-      "zh": "这是我们的兽医。",
-      "pinyin": "Zhèshì wǒmen de shòuyī.",
-      "tr": "Bu bizim veteriner."
+      "zh": "我们没有给它吃别的东西，先带到医院来看看。",
+      "pinyin": "Wǒ men méi yǒu gěi tā chī bié de dōng xi, xiān dài dào yī yuàn lái kàn kàn.",
+      "tr": "Başka bir şey yedirmedik, önce hastaneye getirdik."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_011",
       "speaker": "兽医",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "好，不确定的就说不确定，我先检查一下。",
+      "pinyin": "Hǎo, bù què dìng de jiù shuō bù què dìng, wǒ xiān jiǎn chá yī xià.",
+      "tr": "Tamam, emin olmadığınız şeyi belirtin, önce muayene edeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_012",
       "speaker": "张乐乐",
-      "zh": "太好了，认识你很高兴。",
-      "pinyin": "Tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "医生，它会不会很难受？它不能跟我们说话。",
+      "pinyin": "Yī shēng, tā huì bú huì hěn nán shòu? tā bù néng gēn wǒ men shuō huà.",
+      "tr": "Doktor, çok rahatsız oluyor olabilir mi? Bize anlatamıyor.",
+      "emotion": "worried",
+      "actionTr": "Lele konuşamayan kedinin rahatsız olup olmadığını sorar."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_013",
       "speaker": "刘梅",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "乐乐，我们先让医生看，别一直摸它。",
+      "pinyin": "Lè le, wǒ men xiān ràng yī shēng kàn, bié yì zhí mō tā.",
+      "tr": "Lele, önce doktor muayene etsin, sürekli dokunma.",
+      "emotion": "comforting",
+      "actionTr": "Anne Lele’nin muayene sırasında sakin beklemesine yardım eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_014",
       "speaker": "张伟",
-      "zh": "这是我们的医生。",
-      "pinyin": "Zhèshì wǒmen de yīshēng.",
-      "tr": "Bu bizim doktor."
+      "zh": "我在旁边扶着箱子，需要我帮忙您就说。",
+      "pinyin": "Wǒ zài páng biān fú zhe xiāng zi, xū yào wǒ bāng máng nín jiù shuō.",
+      "tr": "Ben yanında kutuyu tutayım, yardım gerekirse söyleyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_015",
       "speaker": "兽医",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "现在先让它安静一点，我把它慢慢抱出来。",
+      "pinyin": "Xiàn zài xiān ràng tā ān jìng yì diǎn, wǒ bǎ tā màn màn bào chū lái.",
+      "tr": "Önce sakin kalmasını sağlayalım, yavaşça çıkarayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_016",
       "speaker": "张乐乐",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "我往后站一点，不把手伸到它前面。",
+      "pinyin": "Wǒ wǎng hòu zhàn yì diǎn, bù bǎ shǒu shēn dào tā qián miàn.",
+      "tr": "Biraz geriye geçeyim, elimi önüne uzatmayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_017",
       "speaker": "刘梅",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "咪咪平时不太喜欢陌生的地方，可能会紧张。",
+      "pinyin": "Mī mī píng shí bù tài xǐ huan mò shēng de dì fāng, kě néng huì jǐn zhāng.",
+      "tr": "Mimi yabancı yerleri pek sevmiyor, gerilebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_018",
       "speaker": "张伟",
-      "zh": "医院呢？",
-      "pinyin": "Yīyuàn ne?",
-      "tr": "Hastane nerede?"
+      "zh": "箱子里有它在家用的小垫子，刚才带上了。",
+      "pinyin": "Xiāng zi lǐ yǒu tā zài jiā yòng de xiǎo diàn zi, gāng cái dài shàng le.",
+      "tr": "Kutuda evde kullandığı küçük örtü var, yanımıza aldık."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_019",
       "speaker": "兽医",
-      "zh": "医院在那边。",
-      "pinyin": "Yīyuàn zài nàbiān.",
-      "tr": "Hastane şu tarafta."
+      "zh": "可以留在旁边，我会注意它的反应。",
+      "pinyin": "Kě yǐ liú zài páng biān, wǒ huì zhù yì tā de fǎn yìng.",
+      "tr": "Yanında kalabilir, tepkilerine dikkat edeceğim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_020",
       "speaker": "张乐乐",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "它看着妈妈了，是不是认出妈妈的声音了？",
+      "pinyin": "Tā kàn zhe mā ma le, shì bú shì rèn chū mā ma de shēng yīn le?",
+      "tr": "Anneme baktı, sesini mi tanıdı acaba?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_021",
       "speaker": "刘梅",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我在这里，咪咪，先让医生帮你看看。",
+      "pinyin": "Wǒ zài zhè lǐ, mī mī, xiān ràng yī shēng bāng nǐ kàn kàn.",
+      "tr": "Buradayım Mimi, önce doktor sana baksın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_022",
       "speaker": "张伟",
-      "zh": "家人有一点担心。",
-      "pinyin": "Jiārén yǒu yìdiǎn dānxīn.",
-      "tr": "Aile biraz endişeli."
+      "zh": "乐乐，声音轻一点，它现在已经很紧张了。",
+      "pinyin": "Lè le, shēng yīn qīng yì diǎn, tā xiàn zài yǐ jīng hěn jǐn zhāng le.",
+      "tr": "Lele, biraz alçak sesle konuş, zaten gergin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_023",
       "speaker": "兽医",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "它在看周围，我们慢慢来，不急着说结论。",
+      "pinyin": "Tā zài kàn zhōu wéi, wǒ men màn màn lái, bù jí zhe shuō jié lùn.",
+      "tr": "Etrafına bakıyor, yavaş ilerleyelim, hemen sonuç söylemeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_024",
       "speaker": "张乐乐",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "好，我只看，不再一直问它怎么了。",
+      "pinyin": "Hǎo, wǒ zhǐ kàn, bù zài yì zhí wèn tā zěn me le.",
+      "tr": "Tamam, yalnızca bakayım, sürekli ne olduğunu sormayayım.",
+      "emotion": "neutral",
+      "actionTr": "Lele yalnızca izlemeyi kabul eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_025",
       "speaker": "刘梅",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "医生，检查的时候我们还需要告诉您什么？",
+      "pinyin": "Yī shēng, jiǎn chá de shí hòu wǒ men hái xū yào gào sù nín shén me?",
+      "tr": "Doktor, muayenede başka ne anlatmamız gerekiyor?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_026",
       "speaker": "张伟",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Tamam."
+      "zh": "我记得昨天的饭没有换，吃的还是平时那一种。",
+      "pinyin": "Wǒ jì de zuó tiān de fàn méi yǒu huàn, chī de hái shì píng shí nà yī zhǒng.",
+      "tr": "Dün mamasını değiştirmedik diye hatırlıyorum, her zamankiydi."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_027",
       "speaker": "兽医",
-      "zh": "这是药吗？",
-      "pinyin": "Zhè shì yào ma?",
-      "tr": "Bu, ilaç mı?"
+      "zh": "这些也记下来吧，还有最近和平时不同的情况。",
+      "pinyin": "Zhè xiē yě jì xià lái ba, hái yǒu zuì jìn hé píng shí bù tóng de qíng kuàng.",
+      "tr": "Bunları da kaydedelim, son günlerde normalden farklı durumları da anlatın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_028",
       "speaker": "张乐乐",
-      "zh": "嗯，这就是药。",
-      "pinyin": "En, zhè jiùshì yào.",
-      "tr": "Evet, bu ilaç."
+      "zh": "我昨天和它玩了一会儿，可是没有给它吃零食。",
+      "pinyin": "Wǒ zuó tiān hé tā wán le yī huì er, kě shì méi yǒu gěi tā chī líng shí.",
+      "tr": "Dün onunla biraz oynadım ama ödül maması vermedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_029",
       "speaker": "刘梅",
-      "zh": "请问，药在哪儿？",
-      "pinyin": "Qǐngwèn, yào zài nǎér?",
-      "tr": "Ilaç nerede?"
+      "zh": "我们回家后也看了它，没有发现它吃别的东西。",
+      "pinyin": "Wǒ men huí jiā hòu yě kàn le tā, méi yǒu fā xiàn tā chī bié de dōng xi.",
+      "tr": "Eve dönünce baktık, başka bir şey yediğini görmedik."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_030",
       "speaker": "张伟",
-      "zh": "药在这里。",
-      "pinyin": "Yào zài zhèlǐ.",
-      "tr": "Ilaç burada."
+      "zh": "如果还有想起来的，我们再告诉您，不乱猜。",
+      "pinyin": "Rú guǒ hái yǒu xiǎng qǐ lái de, wǒ men zài gào sù nín, bù luàn cāi.",
+      "tr": "Başka bir şey hatırlarsak söyleriz, tahminde bulunmayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_031",
       "speaker": "兽医",
-      "zh": "你要水吗？",
-      "pinyin": "Nǐ yào shuǐ ma?",
-      "tr": "Su ister misin?"
+      "zh": "好，我先完成检查，再和你们说下一步。",
+      "pinyin": "Hǎo, wǒ xiān wán chéng jiǎn chá, zài hé nǐ men shuō xià yī bù.",
+      "tr": "Tamam, önce muayeneyi tamamlayıp sonraki adımı anlatayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_032",
       "speaker": "张乐乐",
-      "zh": "我要水，谢谢。",
-      "pinyin": "Wǒyào shuǐ, xièxiè.",
-      "tr": "Su istiyorum, teşekkürler."
+      "zh": "爸爸，我想帮咪咪，可是不知道做什么。",
+      "pinyin": "Bà ba, wǒ xiǎng bāng mī mī, kě shì bù zhī dào zuò shén me.",
+      "tr": "Baba, Mimi’ye yardım etmek istiyorum ama ne yapacağımı bilmiyorum.",
+      "emotion": "worried",
+      "actionTr": "Lele nasıl yardım edeceğini bilmediğini söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_033",
       "speaker": "刘梅",
-      "zh": "行。",
-      "pinyin": "Xíng.",
-      "tr": "Olur."
+      "zh": "你安静等着，就是在帮它，不用每次都伸手。",
+      "pinyin": "Nǐ ān jìng děng zhe, jiù shì zài bāng tā, bù yòng měi cì dōu shēn shǒu.",
+      "tr": "Sakince beklemek de yardım etmek, her seferinde elini uzatman gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_034",
       "speaker": "张伟",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "等医生说完，我们把要做的事记好。",
+      "pinyin": "Děng yī shēng shuō wán, wǒ men bǎ yào zuò de shì jì hǎo.",
+      "tr": "Doktor anlatınca yapacaklarımızı kaydedelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_035",
       "speaker": "兽医",
-      "zh": "你要饭吗？",
-      "pinyin": "Nǐ yàofàn ma?",
-      "tr": "Yemek ister misin?"
+      "zh": "谢谢你们配合，它现在比刚出来时安静一些了。",
+      "pinyin": "Xiè xiè nǐ men pèi hé, tā xiàn zài bǐ gāng chū lái shí ān jìng yī xiē le.",
+      "tr": "İşbirliğiniz için teşekkürler, ilk çıktığından biraz daha sakin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_036",
       "speaker": "张乐乐",
-      "zh": "我要饭，谢谢。",
-      "pinyin": "Wǒ yàofàn, xièxiè.",
-      "tr": "Yemek istiyorum, teşekkürler."
+      "zh": "那我就站这里，它可以看见我。",
+      "pinyin": "Nà wǒ jiù zhàn zhè lǐ, tā kě yǐ kàn jiàn wǒ.",
+      "tr": "O zaman burada durayım, beni görebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_037",
       "speaker": "刘梅",
-      "zh": "嗯，好。",
-      "pinyin": "En, hǎo.",
-      "tr": "Olur."
+      "zh": "医生，能先告诉我们检查发现了什么吗？",
+      "pinyin": "Yī shēng, néng xiān gào sù wǒ men jiǎn chá fā xiàn le shén me ma?",
+      "tr": "Doktor, muayenede ne gördüğünüzü anlatır mısınız?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_038",
       "speaker": "张伟",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "如果需要再检查，我们也想知道为什么。",
+      "pinyin": "Rú guǒ xū yào zài jiǎn chá, wǒ men yě xiǎng zhī dào wèi shén me.",
+      "tr": "Başka muayene gerekiyorsa nedenini de bilmek isteriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_039",
       "speaker": "兽医",
-      "zh": "请问，家在哪儿？",
-      "pinyin": "Qǐngwèn, jiā zài nǎér?",
-      "tr": "Ev nerede?"
+      "zh": "我会把现在看到的和还需要观察的分开说明。",
+      "pinyin": "Wǒ huì bǎ xiàn zài kàn dào de hé hái xū yào guān chá de fēn kāi shuō míng.",
+      "tr": "Şimdi gördüklerimle hâlâ gözlem gerektirenleri ayrı ayrı açıklayacağım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_040",
       "speaker": "张乐乐",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
-      "tr": "Ev şu tarafta."
+      "zh": "我也听着，不过太难的地方请妈妈再跟我说。",
+      "pinyin": "Wǒ yě tīng zhe, bù guò tài nán de dì fāng qǐng mā ma zài gēn wǒ shuō.",
+      "tr": "Ben de dinliyorum ama zor kısımları annem bana tekrar anlatsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_041",
       "speaker": "刘梅",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "好，我们先听，不在您说话时一起问。",
+      "pinyin": "Hǎo, wǒ men xiān tīng, bù zài nín shuō huà shí yì qǐ wèn.",
+      "tr": "Tamam, önce dinleyelim, siz anlatırken hepimiz aynı anda sormayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_042",
       "speaker": "张伟",
-      "zh": "嗯，谢谢你。",
-      "pinyin": "En, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我用手机记一下，回家后就不会忘。",
+      "pinyin": "Wǒ yòng shǒu jī jì yī xià, huí jiā hòu jiù bú huì wàng.",
+      "tr": "Telefona not alayım, eve dönünce unutmayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_043",
       "speaker": "兽医",
-      "zh": "兽医说咪咪没有大问题。",
-      "pinyin": "Shòuyī shuō mīmī méiyǒu dà wèntí.",
-      "tr": "Veteriner Mimi’nin ciddi bir sorunu olmadığını söylüyor."
+      "zh": "现在的检查结果我已经记录了，接下来要按这个计划观察。",
+      "pinyin": "Xiàn zài de jiǎn chá jié guǒ wǒ yǐ jīng jì lù le, jiē xià lái yào àn zhè ge jì huà guān chá.",
+      "tr": "Şimdiki muayene sonucunu kaydettim, bundan sonra bu plana göre gözlem yapacağız."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_044",
       "speaker": "张乐乐",
-      "zh": "太好了！",
-      "pinyin": "Tàihǎole!",
-      "tr": "Harika!"
+      "zh": "是不是回家以后还要看看它吃不吃？",
+      "pinyin": "Shì bú shì huí jiā yǐ hòu hái yào kàn kàn tā chī bù chī?",
+      "tr": "Eve dönünce de yiyip yemediğine mi bakacağız?",
+      "emotion": "curious",
+      "actionTr": "Lele evde yemesini gözleyip gözlemeyeceklerini sorar."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_045",
       "speaker": "刘梅",
-      "zh": "对，谢谢你。",
-      "pinyin": "Duì, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我们会看的，也把看到的情况记下来。",
+      "pinyin": "Wǒ men huì kàn de, yě bǎ kàn dào de qíng kuàng jì xià lái.",
+      "tr": "Bakacağız, gördüklerimizi de kaydedeceğiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_046",
       "speaker": "张伟",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "不过不让孩子一个人照顾，主要还是我们来做。",
+      "pinyin": "Bù guò bù ràng hái zi yí gè rén zhào gù, zhǔ yào hái shì wǒ men lái zuò.",
+      "tr": "Ama bakımı tek başına çocuğa bırakmayacağız, asıl biz ilgileneceğiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_047",
       "speaker": "兽医",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "对，家长负责记录和联系医院，孩子可以帮忙提醒。",
+      "pinyin": "Duì, jiā zhǎng fù zé jì lù hé lián xì yī yuàn, hái zi kě yǐ bāng máng tí xǐng.",
+      "tr": "Evet, kayıt ve hastaneyle iletişim yetişkinlerin işi, çocuk hatırlatarak yardım edebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_048",
       "speaker": "张乐乐",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "那我提醒妈妈看看咪咪，不自己给它吃东西。",
+      "pinyin": "Nà wǒ tí xǐng mā ma kàn kàn mī mī, bù zì jǐ gěi tā chī dōng xi.",
+      "tr": "O zaman anneme Mimi’ye bakmasını hatırlatayım, kendim bir şey yedirmeyeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_049",
       "speaker": "刘梅",
-      "zh": "这个是猫吗？",
-      "pinyin": "Zhège shì māo ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "医生，药的问题也请您说明，我们不自己买来喂。",
+      "pinyin": "Yī shēng, yào de wèn tí yě qǐng nín shuō míng, wǒ men bù zì jǐ mǎi lái wèi.",
+      "tr": "Doktor, ilaç konusunu da açıklayın, kendi başımıza alıp vermeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_050",
       "speaker": "张伟",
-      "zh": "嗯，这就是猫。",
-      "pinyin": "En, zhè jiùshì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "家里的药不会给猫用，这一点我们先记住。",
+      "pinyin": "Jiā lǐ de yào bú huì gěi māo yòng, zhè yì diǎn wǒ men xiān jì zhù.",
+      "tr": "Evdeki ilaçları kediye vermeyeceğiz, bunu aklımızda tutalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_051",
       "speaker": "兽医",
-      "zh": "那猫呢？",
-      "pinyin": "Nàmāo ne?",
-      "tr": "Kedi nerede?"
+      "zh": "用不用药、怎么用，我会写在这次的说明里，不清楚就问我。",
+      "pinyin": "Yòng bù yòng yào, zěn me yòng, wǒ huì xiě zài zhè cì de shuō míng lǐ, bù qīng chǔ jiù wèn wǒ.",
+      "tr": "İlaç gerekip gerekmediğini ve kullanımını bu ziyaretin açıklamasına yazacağım, anlaşılmazsa sorun."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_052",
       "speaker": "张乐乐",
-      "zh": "嗯，你看，猫在这儿。",
-      "pinyin": "En, nǐ kàn, māo zài zhèér.",
-      "tr": "Kedi burada."
+      "zh": "我不会拿自己的药给它，那不是它的。",
+      "pinyin": "Wǒ bú huì ná zì jǐ de yào gěi tā, nà bú shì tā de.",
+      "tr": "Kendi ilacımı ona vermem, ona ait değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_053",
       "speaker": "刘梅",
-      "zh": "嗯，这是我们的兽医。",
-      "pinyin": "En, zhèshì wǒmen de shòuyī.",
-      "tr": "Bu bizim veteriner."
+      "zh": "好，我们按说明做，不懂的地方先问。",
+      "pinyin": "Hǎo, wǒ men àn shuō míng zuò, bù dǒng de dì fāng xiān wèn.",
+      "tr": "Tamam, açıklamaya göre yapalım, anlamadığımızı önce soralım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_054",
       "speaker": "张伟",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "如果回家后情况有变化，我们联系这里，对吗？",
+      "pinyin": "Rú guǒ huí jiā hòu qíng kuàng yǒu biàn huà, wǒ men lián xì zhè lǐ, duì ma?",
+      "tr": "Eve dönünce durumu değişirse burayla iletişim kuracağız, doğru mu?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_055",
       "speaker": "兽医",
-      "zh": "嗯，太好了，认识你很高兴。",
-      "pinyin": "En, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "对，联系方法和需要再来的情况也写在这里，请先看清楚。",
+      "pinyin": "Duì, lián xì fāng fǎ hé xū yào zài lái de qíng kuàng yě xiě zài zhè lǐ, qǐng xiān kàn qīng chǔ.",
+      "tr": "Evet, iletişim bilgisi ve yeniden gelmesi gereken durumlar da burada, önce dikkatle okuyun."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_056",
       "speaker": "张乐乐",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "爸爸，你拍下来了吗？我怕纸不见了。",
+      "pinyin": "Bà ba, nǐ pāi xià lái le ma? wǒ pà zhǐ bú jiàn le.",
+      "tr": "Baba, fotoğrafını çektin mi? Kâğıt kaybolur diye korkuyorum.",
+      "emotion": "worried",
+      "actionTr": "Lele açıklama kâğıdının kaybolmasından endişe eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_057",
       "speaker": "刘梅",
-      "zh": "嗯，这是我们的医生。",
-      "pinyin": "En, zhèshì wǒmen de yīshēng.",
-      "tr": "Bu bizim doktor."
+      "zh": "纸我放在包里，爸爸也留一张照片。",
+      "pinyin": "Zhǐ wǒ fàng zài bāo lǐ, bà ba yě liú yī zhāng zhào piān.",
+      "tr": "Kâğıdı çantama koyayım, baban da bir fotoğrafını saklasın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_058",
       "speaker": "张伟",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "已经拍好了，我们两个人都能找到。",
+      "pinyin": "Yǐ jīng pāi hǎo le, wǒ men liǎng gè rén dōu néng zhǎo dào.",
+      "tr": "Çektim, ikimiz de bulabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_059",
       "speaker": "兽医",
-      "zh": "嗯，很高兴认识你。",
-      "pinyin": "En, hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "这样好，回去后遇到不清楚的地方不要凭记忆猜。",
+      "pinyin": "Zhè yàng hǎo, huí qù hòu yù dào bù qīng chǔ de dì fāng bú yào píng jì yì cāi.",
+      "tr": "Böyle iyi, dönünce anlamadığınız kısmı hafızanızdan tahmin etmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_060",
       "speaker": "张乐乐",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我也不用一直问妈妈，她可以看这张纸。",
+      "pinyin": "Wǒ yě bù yòng yì zhí wèn mā ma, tā kě yǐ kàn zhè zhāng zhǐ.",
+      "tr": "Ben de sürekli anneme sormam, bu kâğıda bakabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_061",
       "speaker": "刘梅",
-      "zh": "请问，医院在哪儿？",
-      "pinyin": "Qǐngwèn, yīyuàn zài nǎér?",
-      "tr": "Hastane nerede?"
+      "zh": "我们想记清楚兽医的建议，您刚才提到的那种猫粮也能写下来吗？",
+      "pinyin": "Wǒ men xiǎng jì qīng chǔ shòu yī de jiàn yì, nín gāng cái tí dào de nà zhǒng māo liáng yě néng xiě xià lái ma?",
+      "tr": "Veterinerin önerisini doğru kaydetmek istiyoruz, az önce belirttiğiniz mamayı da yazabilir misiniz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_062",
       "speaker": "张伟",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Hastane şu tarafta."
+      "zh": "我们想去宠物店找，不过怕买到名字很像的。",
+      "pinyin": "Wǒ men xiǎng qù chǒng wù diàn zhǎo, bù guò pà mǎi dào míng zi hěn xiàng de.",
+      "tr": "Pet mağazasında aramak istiyoruz ama adı benzeyeni almaktan çekiniyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_063",
       "speaker": "兽医",
-      "zh": "知道了。",
-      "pinyin": "Zhīdào le.",
-      "tr": "Anladım."
+      "zh": "可以，我写清楚产品信息，你们拿着去核对。",
+      "pinyin": "Kě yǐ, wǒ xiě qīng chǔ chǎn pǐn xìn xī, nǐ men ná zhe qù hé duì.",
+      "tr": "Olur, ürün bilgisini açıkça yazayım, götürüp karşılaştırın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_064",
       "speaker": "张乐乐",
-      "zh": "对，太好了，谢谢。",
-      "pinyin": "Duì, tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "是猫粮吗？不是我们吃的饭吧？",
+      "pinyin": "Shì māo liáng ma? bú shì wǒ men chī de fàn ba?",
+      "tr": "Kedi maması mı? Bizim yediğimiz yemek değil, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_065",
       "speaker": "刘梅",
-      "zh": "这是药，对吗？",
-      "pinyin": "Zhè shì yào, duì ma?",
-      "tr": "Bu, ilaç mı?"
+      "zh": "是给咪咪的，不拿我们的饭随便代替。",
+      "pinyin": "Shì gěi mī mī de, bù ná wǒ men de fàn suí biàn dài tì.",
+      "tr": "Mimi için, kendi yemeğimizle gelişigüzel değiştirmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_066",
       "speaker": "张伟",
-      "zh": "没错，这是药。",
-      "pinyin": "Méicuò, zhè shì yào.",
-      "tr": "Evet, bu ilaç."
+      "zh": "买的时候看清楚，不能只因为包装像就拿走。",
+      "pinyin": "Mǎi de shí hòu kàn qīng chǔ, bù néng zhǐ yīn wèi bāo zhuāng xiàng jiù ná zǒu.",
+      "tr": "Alırken dikkatle bakalım, ambalajı benziyor diye almayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_067",
       "speaker": "兽医",
-      "zh": "那请问，药在哪儿？",
-      "pinyin": "Nà qǐngwèn, yào zài nǎér?",
-      "tr": "Ilaç nerede?"
+      "zh": "如果店里没有同一种，先问我，再决定要不要换。",
+      "pinyin": "Rú guǒ diàn lǐ méi yǒu tóng yī zhǒng, xiān wèn wǒ, zài jué dìng yào bù yào huàn.",
+      "tr": "Mağazada aynı ürün yoksa değiştirmeden önce bana sorun."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_068",
       "speaker": "张乐乐",
-      "zh": "嗯，药在这里。",
-      "pinyin": "En, yào zài zhèlǐ.",
-      "tr": "Ilaç burada."
+      "zh": "那我可以帮妈妈找字，不过最后让大人确认。",
+      "pinyin": "Nà wǒ kě yǐ bāng mā ma zhǎo zì, bù guò zuì hòu ràng dà rén què rèn.",
+      "tr": "O zaman annemle yazıyı arayabilirim ama son kararı yetişkin versin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_069",
       "speaker": "刘梅",
-      "zh": "水你要吗？",
-      "pinyin": "Shuǐ nǐ yào ma?",
-      "tr": "Su ister misin?"
+      "zh": "你可以帮忙看，猫的事情我们一起做。",
+      "pinyin": "Nǐ kě yǐ bāng máng kàn, māo de shì qíng wǒ men yì qǐ zuò.",
+      "tr": "Bakarak yardım edebilirsin, kediyle ilgili işleri birlikte yaparız."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_070",
       "speaker": "张伟",
-      "zh": "那我要水，谢谢。",
-      "pinyin": "Nà wǒ yào shuǐ, xièxiè.",
-      "tr": "Su istiyorum, teşekkürler."
+      "zh": "我们先把咪咪送回家，再安排谁去买。",
+      "pinyin": "Wǒ men xiān bǎ mī mī sòng huí jiā, zài ān pái shuí qù mǎi.",
+      "tr": "Önce Mimi’yi eve götürelim, sonra kimin almaya gideceğini ayarlayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_071",
       "speaker": "兽医",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Olur."
+      "zh": "先让它安静回去，路上把箱子放稳。",
+      "pinyin": "Xiān ràng tā ān jìng huí qù, lù shàng bǎ xiāng zi fàng wěn.",
+      "tr": "Önce sakince dönmesini sağlayın, yolda taşıma kutusunu sağlam tutun."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_072",
       "speaker": "张乐乐",
-      "zh": "好，太好了，谢谢。",
-      "pinyin": "Hǎo, tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我不提箱子，爸爸提，这样不会晃。",
+      "pinyin": "Wǒ bù tí xiāng zi, bà ba tí, zhè yàng bú huì huǎng.",
+      "tr": "Kutuyu ben taşımayayım, babam taşısın, böyle sallanmaz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_073",
       "speaker": "刘梅",
-      "zh": "那这是猫吗？",
-      "pinyin": "Nà zhè shì māo ma?",
-      "tr": "Bu, kedi mı?"
+      "zh": "我看看垫子是不是还在里面，没有拿错吧？",
+      "pinyin": "Wǒ kàn kàn diàn zi shì bú shì hái zài lǐ miàn, méi yǒu ná cuò ba?",
+      "tr": "Örtü hâlâ içinde mi bakayım, başka bir şey almadık, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_074",
       "speaker": "张伟",
-      "zh": "嗯，这就是猫。",
-      "pinyin": "En, zhè jiùshì māo.",
-      "tr": "Evet, bu kedi."
+      "zh": "是我们的垫子，我来把箱子准备好。",
+      "pinyin": "Shì wǒ men de diàn zi, wǒ lái bǎ xiāng zi zhǔn bèi hǎo.",
+      "tr": "Bizim örtümüz, kutuyu hazırlayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_075",
       "speaker": "兽医",
-      "zh": "现在猫呢？",
-      "pinyin": "Xiànzài māo ne?",
-      "tr": "Kedi nerede?"
+      "zh": "我把咪咪放回去，你们先别一起伸手。",
+      "pinyin": "Wǒ bǎ mī mī fàng huí qù, nǐ men xiān bié yì qǐ shēn shǒu.",
+      "tr": "Mimi’yi geri koyayım, hepiniz aynı anda elinizi uzatmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_076",
       "speaker": "张乐乐",
-      "zh": "猫在这里。",
-      "pinyin": "Māo zài zhèlǐ.",
-      "tr": "Kedi burada."
+      "zh": "我在旁边等，咪咪可以慢慢进去。",
+      "pinyin": "Wǒ zài páng biān děng, mī mī kě yǐ màn màn jìn qù.",
+      "tr": "Yanında bekleyeyim, Mimi yavaşça girebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_077",
       "speaker": "刘梅",
-      "zh": "对，这是我们的兽医。",
-      "pinyin": "Duì, zhèshì wǒmen de shòuyī.",
-      "tr": "Bu bizim veteriner."
+      "zh": "进去以后门要关好，您帮我们看一下可以吗？",
+      "pinyin": "Jìn qù yǐ hòu mén yào guān hǎo, nín bāng wǒ men kàn yī xià kě yǐ ma?",
+      "tr": "Girince kapağı düzgün kapatalım, kontrol eder misiniz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_078",
       "speaker": "张伟",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "我也看看两边，带来时是这样关的。",
+      "pinyin": "Wǒ yě kàn kàn liǎng biān, dài lái shí shì zhè yàng guān de.",
+      "tr": "Ben de iki tarafına bakayım, getirirken böyle kapattık."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_079",
       "speaker": "兽医",
-      "zh": "认识你很高兴。",
-      "pinyin": "Rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "已经关好了，放稳后再提起来，不急着走。",
+      "pinyin": "Yǐ jīng guān hǎo le, fàng wěn hòu zài tí qǐ lái, bù jí zhe zǒu.",
+      "tr": "Kapandı, sağlam yerleştirip kaldırın, aceleyle gitmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_080",
       "speaker": "张乐乐",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "咪咪在里面看我，我不把门再打开。",
+      "pinyin": "Mī mī zài lǐ miàn kàn wǒ, wǒ bù bǎ mén zài dǎ kāi.",
+      "tr": "Mimi içeriden bana bakıyor, kapağı tekrar açmayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_081",
       "speaker": "刘梅",
-      "zh": "对，这是我们的医生。",
-      "pinyin": "Duì, zhèshì wǒmen de yīshēng.",
-      "tr": "Bu bizim doktor."
+      "zh": "我们还有检查说明和产品信息，都放好了。",
+      "pinyin": "Wǒ men hái yǒu jiǎn chá shuō míng hé chǎn pǐn xìn xī, dōu fàng hǎo le.",
+      "tr": "Muayene açıklaması ve ürün bilgisi de var, hepsi yerinde."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_082",
       "speaker": "张伟",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "手机上的联系方式也存好了，回家找得到。",
+      "pinyin": "Shǒu jī shàng de lián xì fāng shì yě cún hǎo le, huí jiā zhǎo de dào.",
+      "tr": "Telefondaki iletişim bilgisini de kaydettim, evde bulabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_083",
       "speaker": "兽医",
-      "zh": "对，太好了，认识你很高兴。",
-      "pinyin": "Duì, tàihǎole, rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "好，离开前还有不明白的地方吗？",
+      "pinyin": "Hǎo, lí kāi qián hái yǒu bù míng bái de dì fāng ma?",
+      "tr": "Tamam, gitmeden anlamadığınız başka bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC041_084",
       "speaker": "张乐乐",
-      "zh": "我也这么想。",
-      "pinyin": "Wǒ yě zhème xiǎng.",
-      "tr": "Ben de."
+      "zh": "我想知道，咪咪没吃饭是不是因为不喜欢我了？",
+      "pinyin": "Wǒ xiǎng zhī dào, mī mī méi chī fàn shì bú shì yīn wèi bù xǐ huan wǒ le?",
+      "tr": "Mimi yemek yemediği için beni artık sevmiyor mu acaba?",
+      "emotion": "sad",
+      "actionTr": "Lele kedinin onu artık sevmediğini düşünür."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_085",
       "speaker": "刘梅",
-      "zh": "医院在哪儿？",
-      "pinyin": "Yīyuàn zài nǎér?",
-      "tr": "Hastane nerede?"
+      "zh": "不是因为你，不能这样想，今天我们是来帮助它的。",
+      "pinyin": "Bú shì yīn wèi nǐ, bù néng zhè yàng xiǎng, jīn tiān wǒ men shì lái bāng zhù tā de.",
+      "tr": "Senin yüzünden değil, böyle düşünme, bugün ona yardım etmeye geldik.",
+      "emotion": "comforting",
+      "actionTr": "Anne bunun Lele’nin suçu olmadığını anlatır."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_086",
       "speaker": "张伟",
-      "zh": "你看，医院在那边。",
-      "pinyin": "Nǐ kàn, yīyuàn zài nàbiān.",
-      "tr": "Hastane şu tarafta."
+      "zh": "猫没有像平时那样吃，我们就认真看看，不责怪谁。",
+      "pinyin": "Māo méi yǒu xiàng píng shí nà yàng chī, wǒ men jiù rèn zhēn kàn kàn, bù zé guài shuí.",
+      "tr": "Kedi normaldeki gibi yemediğinde dikkatle bakarız, kimseyi suçlamayız."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_087",
       "speaker": "兽医",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "吃得少有不同原因，我们要根据观察和检查来判断。",
+      "pinyin": "Chī de shǎo yǒu bù tóng yuán yīn, wǒ men yào gēn jù guān chá hé jiǎn chá lái pàn duàn.",
+      "tr": "Az yemenin farklı nedenleri olabilir, gözlem ve muayeneye göre değerlendiririz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_088",
       "speaker": "张乐乐",
-      "zh": "好，谢谢你。",
-      "pinyin": "Hǎo, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "那我不猜了，回家以后轻轻跟它说话。",
+      "pinyin": "Nà wǒ bù cāi le, huí jiā yǐ hòu qīng qīng gēn tā shuō huà.",
+      "tr": "O zaman tahmin etmeyeyim, evde onunla hafif sesle konuşayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_089",
       "speaker": "刘梅",
-      "zh": "那这是药，对吗？",
-      "pinyin": "Nà zhè shì yào, duì ma?",
-      "tr": "Bu, ilaç mı?"
+      "zh": "好，也给它安静的地方，不一直追着它玩。",
+      "pinyin": "Hǎo, yě gěi tā ān jìng de dì fāng, bù yī zhí zhuī zhe tā wán.",
+      "tr": "Tamam, sakin bir yer de sağlayalım, oynamak için sürekli peşinden gitmeyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_090",
       "speaker": "张伟",
-      "zh": "没错，这是药。",
-      "pinyin": "Méicuò, zhè shì yào.",
-      "tr": "Evet, bu ilaç."
+      "zh": "今天的事记清楚了，等一下我们再看买猫粮的安排。",
+      "pinyin": "Jīn tiān de shì jì qīng chǔ le, děng yí xià wǒ men zài kàn mǎi māo liáng de ān pái.",
+      "tr": "Bugün yapacaklarımız belli, birazdan mama alışverişini düzenleriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_091",
       "speaker": "兽医",
-      "zh": "药在哪儿？",
-      "pinyin": "Yào zài nǎér?",
-      "tr": "Ilaç nerede?"
+      "zh": "按照写下来的信息去问，有问题再联系我们。",
+      "pinyin": "Àn zhào xiě xià lái de xìn xī qù wèn, yǒu wèn tí zài lián xì wǒ men.",
+      "tr": "Yazılı bilgileri göstererek sorun, sorun olursa bize ulaşın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_092",
       "speaker": "张乐乐",
-      "zh": "你看，药在这儿。",
-      "pinyin": "Nǐ kàn, yào zài zhèér.",
-      "tr": "Ilaç burada."
+      "zh": "医生，谢谢你帮咪咪，也谢谢你跟我说清楚。",
+      "pinyin": "Yī shēng, xiè xiè nǐ bāng mī mī, yě xiè xiè nǐ gēn wǒ shuō qīng chǔ.",
+      "tr": "Doktor, Mimi’ye yardım ettiğiniz ve bana açıkladığınız için teşekkürler.",
+      "emotion": "happy",
+      "actionTr": "Lele veterinere teşekkür eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_093",
       "speaker": "刘梅",
-      "zh": "现在你要水吗？",
-      "pinyin": "Xiànzài nǐ yào shuǐ ma?",
-      "tr": "Su ister misin?"
+      "zh": "谢谢，我们会按计划观察，不只看它现在安静就忘了。",
+      "pinyin": "Xiè xiè, wǒ men huì àn jì huà guān chá, bù zhǐ kàn tā xiàn zài ān jìng jiù wàng le.",
+      "tr": "Teşekkürler, şimdi sakin diye unutmayıp plana göre gözlem yapacağız."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_094",
       "speaker": "张伟",
-      "zh": "对，我要水，谢谢。",
-      "pinyin": "Duì, wǒyào shuǐ, xièxiè.",
-      "tr": "Su istiyorum, teşekkürler."
+      "zh": "箱子我拿，乐乐跟着妈妈，我们慢慢回家。",
+      "pinyin": "Xiāng zi wǒ ná, lè le gēn zhe mā ma, wǒ men màn màn huí jiā.",
+      "tr": "Kutuyu ben taşıyayım, Lele annesiyle gelsin, yavaşça eve dönelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_095",
       "speaker": "兽医",
-      "zh": "可以。",
-      "pinyin": "Kěyǐ.",
-      "tr": "Olur."
+      "zh": "好，路上小心，说明收好，再见。",
+      "pinyin": "Hǎo, lù shàng xiǎo xīn, shuō míng shōu hǎo, zài jiàn.",
+      "tr": "Tamam, yolda dikkatli olun, açıklamayı saklayın, hoşça kalın."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_096",
       "speaker": "张乐乐",
-      "zh": "今天挺顺利的。",
-      "pinyin": "Jīntiān tǐng shùnlì de.",
-      "tr": "Bugün oldukça iyi geçti."
+      "zh": "再见，咪咪，我们回家了。",
+      "pinyin": "Zài jiàn, mī mī, wǒ men huí jiā le.",
+      "tr": "Hoşça kalın, Mimi, eve dönüyoruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_097",
       "speaker": "刘梅",
-      "zh": "嗯，我也一样。",
-      "pinyin": "En, wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "我们先把它安顿好，再去宠物店核对那种猫粮。",
+      "pinyin": "Wǒ men xiān bǎ tā ān dùn hǎo, zài qù chǒng wù diàn hé duì nà zhǒng māo liáng.",
+      "tr": "Önce onu yerleştirip sonra pet mağazasında o mamayı kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_098",
       "speaker": "张伟",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "好，不直接凭印象买，把医生写的带上。",
+      "pinyin": "Hǎo, bù zhí jiē píng yìn xiàng mǎi, bǎ yī shēng xiě de dài shàng.",
+      "tr": "Tamam, aklımızda kalanla almayalım, doktorun yazdığını götürelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_099",
       "speaker": "兽医",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "对，没找到就先问，别随便换。",
+      "pinyin": "Duì, méi zhǎo dào jiù xiān wèn, bié suí biàn huàn.",
+      "tr": "Evet, bulamazsanız önce sorun, gelişigüzel değiştirmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC041_100",
       "speaker": "张乐乐",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "我记住了，先照顾咪咪，再一起把事情做好。",
+      "pinyin": "Wǒ jì zhù le, xiān zhào gù mī mī, zài yì qǐ bǎ shì qíng zuò hǎo.",
+      "tr": "Hatırladım, önce Mimi’ye bakıp sonra işleri birlikte yapalım."
     }
-  ]
+  ],
+  "editorialRevision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1"
 }
