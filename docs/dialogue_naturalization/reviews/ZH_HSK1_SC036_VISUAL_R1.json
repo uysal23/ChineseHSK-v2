@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC036",
+  "imageSha256": "c0c81068152d282ec3ab702163072dbcd3d32669dbf06f3d3ef08300fa138d64",
+  "referenceSceneId": "ZH_HSK1_SC028",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张乐乐",
+    "小朋友",
+    "张雨桐",
+    "刘梅"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC036 indoor evening toy sharing: small boy Lele, distinct orange/bob visiting girl, older teen Yutong lilac/high pony and mother Liu Mei cream/green/low bun; four visible named mouths",
+  "anchors": {
+    "张乐乐": [
+      0.291,
+      0.465
+    ],
+    "小朋友": [
+      0.662,
+      0.486
+    ],
+    "张雨桐": [
+      0.499,
+      0.31
+    ],
+    "刘梅": [
+      0.768,
+      0.271
+    ]
+  }
+}

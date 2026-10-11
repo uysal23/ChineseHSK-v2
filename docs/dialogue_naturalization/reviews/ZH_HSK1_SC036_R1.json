@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC036",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 13,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.67,
+  "meanNewZhLength": 17.19,
+  "continuityNoteTr": "SC035 aile yemeğinden sonra aynı akşam ev içinde oyuncak paylaşma sorunu. Lele ve komşu küçük kız aynı kırmızı arabayı ister; ergen Yutong ve Liu Mei konuşarak sıra belirlemelerini destekler. Misafir çocuk orange/short bob ile Yutong lilac/high pony ayrılır. Önce yol sonuna kadar sürme, sonra ortak kapı kurma, son olarak evde hafif top yuvarlama; parkta koşma gelecekteki SC037ye bırakılır. Pasta daha sonra paylaşılır.",
+  "lengthDeviationPercent": 157.72,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

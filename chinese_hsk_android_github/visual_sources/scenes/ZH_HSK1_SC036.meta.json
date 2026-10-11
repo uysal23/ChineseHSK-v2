@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC036",
   "generationSceneId": "ZH_HSK1_SC036",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC036.json",
-  "dialogueSha256": "abdfbd9c3a0455a353a49f85e2fe3fb83c617cab298e5d313853c3e6899e2328",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC036.json",
+  "dialogueSha256": "f180d28ccf5f1e50887445a44bd5692be1b99d476e42dc3e3eba90098bfa0596",
   "titleTr": "Çocuklar Birlikte Oynuyor",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Lele bir çocuk arkadaşıyla oyuncaklarla oynar; Yutong ve Liu Mei sahneye eşlik eder.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC035",
     "nextSceneId": "ZH_HSK1_SC037"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC036.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC036_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC036.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC036.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "27f83d50cd6f5ec6bd6b82f721e109dc2e34490806739bf590ef787e2d6a4bf2"
+    "sha256": "c0c81068152d282ec3ab702163072dbcd3d32669dbf06f3d3ef08300fa138d64",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -57,6 +59,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC036 evde akşam oyuncak paylaşımı: Lele küçük erkek mavi hoodie; misafir küçük kız orange sweatshirt/kısa bob/turuncu toka; Yutong daha büyük ergen lilac hoodie/yüksek at kuyruğu; Liu Mei cream/green/low bun. Dört farklı yüz ve ağız kontrol edildi. Tek kırmızı araba ve top. Model incelemesi; insan/cihaz bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "c0c81068152d282ec3ab702163072dbcd3d32669dbf06f3d3ef08300fa138d64",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张乐乐": [
+        0.291,
+        0.465
+      ],
+      "小朋友": [
+        0.662,
+        0.486
+      ],
+      "张雨桐": [
+        0.499,
+        0.31
+      ],
+      "刘梅": [
+        0.768,
+        0.271
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC036 evde akşam oyuncak paylaşımı: Lele küçük erkek mavi hoodie; misafir küçük kız orange sweatshirt/kısa bob/turuncu toka; Yutong daha büyük ergen lilac hoodie/yüksek at kuyruğu; Liu Mei cream/green/low bun. Dört farklı yüz ve ağız kontrol edildi. Tek kırmızı araba ve top. Model incelemesi; insan/cihaz bekliyor."
+  }
 }

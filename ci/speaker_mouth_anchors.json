@@ -2493,6 +2493,30 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC036": {
+      "imageSha256": "c0c81068152d282ec3ab702163072dbcd3d32669dbf06f3d3ef08300fa138d64",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张乐乐": [
+          0.291,
+          0.465
+        ],
+        "小朋友": [
+          0.662,
+          0.486
+        ],
+        "张雨桐": [
+          0.499,
+          0.31
+        ],
+        "刘梅": [
+          0.768,
+          0.271
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
