@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC034",
+  "imageSha256": "907bc4d92213c5412e53dd2d25cf73b9e746489dce7f5f2db6d76885c28115c7",
+  "referenceSceneId": "ZH_HSK1_SC019",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "乘客",
+    "工作人员",
+    "刘梅"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC034 missed bus departing, three adults at stop plus canonical wife on video phone; four measured mouths including phone screen",
+  "anchors": {
+    "张伟": [
+      0.476,
+      0.326
+    ],
+    "乘客": [
+      0.151,
+      0.291
+    ],
+    "工作人员": [
+      0.775,
+      0.357
+    ],
+    "刘梅": [
+      0.535,
+      0.364
+    ]
+  }
+}

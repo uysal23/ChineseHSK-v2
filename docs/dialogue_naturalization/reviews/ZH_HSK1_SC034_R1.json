@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC034",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 13,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.43,
+  "meanNewZhLength": 19.0,
+  "continuityNoteTr": "SC033 öğlen soru sorma deneyiminden sonra aynı gün iş çıkışı Zhang eve dönüş seferini kaçırır. Duraktaki yetişkin yolcu ve kadın görevli destek olur; Liu Mei evden video görüşmesindedir. Hat doğrudur, sonraki sefer yaklaşık 15 dakika tahmindir; henüz binilmez. Son eş repliği bitmeden telefon kapatılmaz. SC035 sonraki evde aile yemeğine geçer.",
+  "lengthDeviationPercent": 195.49,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

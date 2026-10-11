@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC034",
   "generationSceneId": "ZH_HSK1_SC034",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC034.json",
-  "dialogueSha256": "b0ab9552443118761511a057f7824bdf52faa2b326290ad05f8d161a5d35fc33",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC034.json",
+  "dialogueSha256": "1759c3c116e837acbb3e28af080c1934f97a55bb20967a06bcaf5727816589d8",
   "titleTr": "İşten Eve Otobüsle",
   "locationId": "LOC_ZH_BUS_STOP_001",
   "scenePurposeTr": "Zhang Wei iş çıkışı otobüsle eve döner; durakta yolcu ve görevliyle konuşurken Liu Mei ile telefon üzerinden iletişim kurar.",
@@ -30,7 +30,7 @@
     "previousSceneId": "ZH_HSK1_SC033",
     "nextSceneId": "ZH_HSK1_SC035"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC034.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC034_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC034.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC034.webp",
   "image": {
@@ -38,7 +38,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "2404a372f3304afd031e0887d08f1df1219de5e2e62bc5826514e185b7206612"
+    "sha256": "907bc4d92213c5412e53dd2d25cf73b9e746489dce7f5f2db6d76885c28115c7",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,6 +60,38 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC034: Zhang navy blazer/kravatsız; yetişkin erkek yolcu; kadın durak görevlisi; telefonda Liu Mei cream/green/low bun. Kaçırılan otobüs arka planda kapıları kapalı gider. Liu Mei gerçek telefon ekranı ağzına bağlandı. 15 dakika yalnızca tahmin. Model incelemesi, insan/cihaz testi bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "907bc4d92213c5412e53dd2d25cf73b9e746489dce7f5f2db6d76885c28115c7",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.476,
+        0.326
+      ],
+      "乘客": [
+        0.151,
+        0.291
+      ],
+      "工作人员": [
+        0.775,
+        0.357
+      ],
+      "刘梅": [
+        0.535,
+        0.364
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC034: Zhang navy blazer/kravatsız; yetişkin erkek yolcu; kadın durak görevlisi; telefonda Liu Mei cream/green/low bun. Kaçırılan otobüs arka planda kapıları kapalı gider. Liu Mei gerçek telefon ekranı ağzına bağlandı. 15 dakika yalnızca tahmin. Model incelemesi, insan/cihaz testi bekliyor."
+  }
 }

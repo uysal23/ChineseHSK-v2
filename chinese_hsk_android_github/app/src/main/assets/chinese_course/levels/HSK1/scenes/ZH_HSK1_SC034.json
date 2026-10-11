@@ -28,9 +28,9 @@
         "zh": "公交车",
         "pinyin": "gōngjiāochē",
         "tr": "otobüs",
-        "exampleZh": "这是公交车。",
-        "examplePinyin": "Zhè shì gōngjiāochē.",
-        "exampleTr": "Bu otobüs.",
+        "exampleZh": "哎，公交车刚走吗？我还是晚了一点。",
+        "examplePinyin": "Āi, gōng jiāo chē gāng zǒu ma? wǒ hái shì wǎn le yì diǎn.",
+        "exampleTr": "Ah, otobüs az önce mi gitti? Biraz geç kaldım.",
         "kind": "active"
       },
       {
@@ -38,9 +38,9 @@
         "zh": "时间",
         "pinyin": "shíjiān",
         "tr": "zaman",
-        "exampleZh": "这是时间。",
-        "examplePinyin": "Zhè shì shíjiān.",
-        "exampleTr": "Bu zaman.",
+        "exampleZh": "下一班的时间要看这边的信息，先确认路线。",
+        "examplePinyin": "Xià yī bān de shí jiān yào kàn zhè biān de xìn xī, xiān què rèn lù xiàn.",
+        "exampleTr": "Sonraki seferin saati buradaki bilgiden bakılır, önce hattı doğrulayalım.",
         "kind": "active"
       },
       {
@@ -48,9 +48,9 @@
         "zh": "路",
         "pinyin": "lù",
         "tr": "yol",
-        "exampleZh": "这是路。",
-        "examplePinyin": "Zhè shì lù.",
-        "exampleTr": "Bu yol.",
+        "exampleZh": "对，我没有走错路，今天下班出来慢了一点。",
+        "examplePinyin": "Duì, wǒ méi yǒu zǒu cuò lù, jīn tiān xià bān chū lái màn le yì diǎn.",
+        "exampleTr": "Evet, yanlış yola gitmedim, bugün iş çıkışında biraz geciktim.",
         "kind": "active"
       },
       {
@@ -58,9 +58,9 @@
         "zh": "家",
         "pinyin": "jiā",
         "tr": "ev",
-        "exampleZh": "这是家。",
-        "examplePinyin": "Zhè shì jiā.",
-        "exampleTr": "Bu ev.",
+        "exampleZh": "那先问清楚，我在家等你，不用着急跑。",
+        "examplePinyin": "Nà xiān wèn qīng chǔ, wǒ zài jiā děng nǐ, bù yòng zháo jí pǎo.",
+        "exampleTr": "Önce sorup öğren, evde seni bekliyorum, aceleyle koşma.",
         "kind": "active"
       },
       {
@@ -68,9 +68,9 @@
         "zh": "今天",
         "pinyin": "jīntiān",
         "tr": "bugün",
-        "exampleZh": "今天很好。",
-        "examplePinyin": "Jīntiān hěn hǎo.",
-        "exampleTr": "Bugün çok güzel.",
+        "exampleZh": "对，我没有走错路，今天下班出来慢了一点。",
+        "examplePinyin": "Duì, wǒ méi yǒu zǒu cuò lù, jīn tiān xià bān chū lái màn le yì diǎn.",
+        "exampleTr": "Evet, yanlış yola gitmedim, bugün iş çıkışında biraz geciktim.",
         "kind": "active"
       },
       {
@@ -78,9 +78,9 @@
         "zh": "车站",
         "pinyin": "chēzhàn",
         "tr": "istasyon",
-        "exampleZh": "这是车站。",
-        "examplePinyin": "Zhè shì chēzhàn.",
-        "exampleTr": "Bu istasyon.",
+        "exampleZh": "没赶上，我到车站的时候它已经开走了。",
+        "examplePinyin": "Méi gǎn shàng, wǒ dào chē zhàn de shí hòu tā yǐ jīng kāi zǒu le.",
+        "exampleTr": "Yetişemedim, durağa geldiğimde gitmişti.",
         "kind": "active"
       },
       {
@@ -88,9 +88,9 @@
         "zh": "电话",
         "pinyin": "diànhuà",
         "tr": "telefon",
-        "exampleZh": "这是电话。",
-        "examplePinyin": "Zhè shì diànhuà.",
-        "exampleTr": "Bu telefon.",
+        "exampleZh": "谢谢你帮他看。张伟，先把包放稳，别边走边打电话。",
+        "examplePinyin": "Xiè xiè nǐ bāng tā kàn. zhāng wěi, xiān bǎ bāo fàng wěn, bié biān zǒu biān dǎ diàn huà.",
+        "exampleTr": "Kontrol ettiğiniz için teşekkürler. Zhang Wei, çantanı sabitle, yürürken konuşma.",
         "kind": "review"
       },
       {
@@ -98,9 +98,9 @@
         "zh": "钱",
         "pinyin": "qián",
         "tr": "para",
-        "exampleZh": "这是钱。",
-        "examplePinyin": "Zhè shì qián.",
-        "exampleTr": "Bu para.",
+        "exampleZh": "我会看清楚的。钱也准备好了，今天不用临时找。",
+        "examplePinyin": "Wǒ huì kàn qīng chǔ de. qián yě zhǔn bèi hǎo le, jīn tiān bù yòng lín shí zhǎo.",
+        "exampleTr": "Kontrol edeceğim, param da hazır, bugün son anda aramam gerekmiyor.",
         "kind": "review"
       }
     ],
@@ -111,40 +111,40 @@
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
           "公交车",
-          "在",
-          "这里"
+          "等",
+          "下一班"
         ],
         "answerTokens": [
-          "公交车",
-          "在",
-          "这里"
+          "等",
+          "下一班",
+          "公交车"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC034_002",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "这是___。",
+        "blankSentenceZh": "我在___等车。",
         "options": [
-          "公交车",
-          "时间",
-          "路"
+          "车站",
+          "菜单",
+          "办公室"
         ],
-        "answer": "公交车"
+        "answer": "车站"
       },
       {
         "id": "SENT_ZH_HSK1_SC034_003",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "这里",
-          "在",
-          "时间"
+          "时间",
+          "确认",
+          "先"
         ],
         "answerTokens": [
-          "时间",
-          "在",
-          "这里"
+          "先",
+          "确认",
+          "时间"
         ]
       },
       {
@@ -152,37 +152,41 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "这是",
-          "路"
+          "家",
+          "回",
+          "我要"
         ],
         "answerTokens": [
-          "这是",
-          "路"
+          "我要",
+          "回",
+          "家"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC034_005",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "时间在___。",
+        "blankSentenceZh": "上车前先看清___。",
         "options": [
-          "这里",
-          "谢谢",
-          "很好"
+          "路线",
+          "饭",
+          "名字"
         ],
-        "answer": "这里"
+        "answer": "路线"
       },
       {
         "id": "SENT_ZH_HSK1_SC034_006",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "在哪儿",
-          "公交车"
+          "电话",
+          "收好",
+          "先"
         ],
         "answerTokens": [
-          "公交车",
-          "在哪儿"
+          "先",
+          "收好",
+          "电话"
         ]
       },
       {
@@ -190,92 +194,92 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "我",
-          "喜欢",
-          "路"
+          "今天",
+          "下班",
+          "晚一点"
         ],
         "answerTokens": [
-          "我",
-          "喜欢",
-          "路"
+          "今天",
+          "晚一点",
+          "下班"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC034_008",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "___，谢谢。",
+        "blankSentenceZh": "我把___放回小袋子。",
         "options": [
-          "好的",
-          "在哪儿",
-          "不是"
+          "钱",
+          "公交车",
+          "车站"
         ],
-        "answer": "好的"
+        "answer": "钱"
       },
       {
         "id": "SENT_ZH_HSK1_SC034_009",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "一起",
-          "我们",
-          "吧"
+          "车",
+          "不要",
+          "追"
         ],
         "answerTokens": [
-          "我们",
-          "一起",
-          "吧"
+          "不要",
+          "追",
+          "车"
         ]
       }
     ],
     "comprehensionQuestions": [
       {
         "id": "COMP_ZH_HSK1_SC034_001",
-        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "questionTr": "Zhang neyi kaçırdı?",
         "optionsTr": [
-          "Otobüsü Kaçırmak",
-          "Bir havaalanı yolculuğu",
-          "Bir spor maçı"
+          "Eve dönüş otobüsünü",
+          "Öğle yemeğini",
+          "İş görüşmesini"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC034_002",
-        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "questionTr": "Sonraki sefer için verilen süre nasıl açıklanır?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Belli değil"
+          "Kesin saat",
+          "Yaklaşık on beş dakika, değişebilir",
+          "Bir gün sonra"
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "COMP_ZH_HSK1_SC034_003",
-        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "questionTr": "Liu Mei nereden konuşur?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sahne bitmiyor"
+          "Otobüs içinden",
+          "İşyerinden",
+          "Evden telefon görüşmesiyle"
         ],
-        "correctIndex": 0
+        "correctIndex": 2
       },
       {
         "id": "COMP_ZH_HSK1_SC034_004",
-        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "questionTr": "Binmeden ne doğrulanmalı?",
         "optionsTr": [
-          "Zhang ailesinin yeni kasabadaki yaşamına",
-          "Bir tarih belgeseline",
-          "Bir spor turnuvasına"
+          "Başkalarının adı",
+          "Hat ve gidilecek yön",
+          "Yemek menüsü"
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       }
     ],
     "pronunciationItems": [
       {
         "id": "PRON_ZH_HSK1_SC034_001",
-        "zh": "这是公交车。",
-        "pinyin": "Zhè shì gōngjiāochē.",
-        "tr": "Bu otobüs.",
+        "zh": "哎，公交车刚走吗？我还是晚了一点。",
+        "pinyin": "Āi, gōng jiāo chē gāng zǒu ma? wǒ hái shì wǎn le yì diǎn.",
+        "tr": "Ah, otobüs az önce mi gitti? Biraz geç kaldım.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -286,9 +290,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC034_002",
-        "zh": "这是时间。",
-        "pinyin": "Zhè shì shíjiān.",
-        "tr": "Bu zaman.",
+        "zh": "按现在的信息，下一班大约十五分钟后到。",
+        "pinyin": "Àn xiàn zài de xìn xī, xià yī bān dà yuē shí wǔ fēn zhōng hòu dào.",
+        "tr": "Şimdiki bilgiye göre sonraki sefer yaklaşık on beş dakika sonra.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -299,9 +303,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC034_003",
-        "zh": "这是路。",
-        "pinyin": "Zhè shì lù.",
-        "tr": "Bu yol.",
+        "zh": "对，这是现在的预计时间，路上情况变了也会变。",
+        "pinyin": "Duì, zhè shì xiàn zài de yù jì shí jiān, lù shàng qíng kuàng biàn le yě huì biàn.",
+        "tr": "Evet, bu şimdiki tahmin, yol koşulları değişirse süre de değişir.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -312,9 +316,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC034_004",
-        "zh": "这是家。",
-        "pinyin": "Zhè shì jiā.",
-        "tr": "Bu ev.",
+        "zh": "我问过了，这里等下一班，上车前再看路线。",
+        "pinyin": "Wǒ wèn guò le, zhè lǐ děng xià yī bān, shàng chē qián zài kàn lù xiàn.",
+        "tr": "Sordum, burada sonraki sefer beklenir, binmeden hattı kontrol ederim.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -327,69 +331,54 @@
     "interactiveDialogue": [
       {
         "id": "INT_ZH_HSK1_SC034_001",
-        "promptZh": "公交车在哪儿？",
-        "promptPinyin": "Gōngjiāochē zài nǎr?",
-        "promptTr": "Otobüs nerede?",
+        "promptZh": "下一班什么时候到？",
+        "promptPinyin": "Xià yī bān shén me shí hòu dào?",
+        "promptTr": "Sonraki sefer ne zaman gelir?",
         "options": [
           {
-            "zh": "在这里。",
-            "tr": "Burada.",
+            "zh": "大约十五分钟后到，时间可能会变。",
+            "tr": "Yaklaşık on beş dakika sonra, süre değişebilir.",
             "correct": true
           },
           {
-            "zh": "谢谢。",
-            "tr": "Teşekkürler.",
-            "correct": false
-          },
-          {
-            "zh": "我很好。",
-            "tr": "Ben iyiyim.",
+            "zh": "一定现在就到。",
+            "tr": "Kesinlikle hemen gelir.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC034_002",
-        "promptZh": "这是时间吗？",
-        "promptPinyin": "Zhè shì shíjiān ma?",
-        "promptTr": "Bu zaman mı?",
+        "promptZh": "公交车走了怎么办？",
+        "promptPinyin": "Gōng jiāo chē zǒu le zěn me bàn?",
+        "promptTr": "Otobüs gittiyse ne yaparsın?",
         "options": [
           {
-            "zh": "对，是的。",
-            "tr": "Evet.",
+            "zh": "留在车站等下一班。",
+            "tr": "Durakta sonraki seferi beklerim.",
             "correct": true
           },
           {
-            "zh": "我叫张伟。",
-            "tr": "Benim adım Zhang Wei.",
-            "correct": false
-          },
-          {
-            "zh": "明天见。",
-            "tr": "Yarın görüşürüz.",
+            "zh": "跑到路上追车。",
+            "tr": "Yola koşup peşinden giderim.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC034_003",
-        "promptZh": "你喜欢路吗？",
-        "promptPinyin": "Nǐ xǐhuan lù ma?",
-        "promptTr": "Yol seviyor musun?",
+        "promptZh": "上车前先做什么？",
+        "promptPinyin": "Shàng chē qián xiān zuò shén me?",
+        "promptTr": "Binmeden önce ne yaparsın?",
         "options": [
           {
-            "zh": "喜欢。",
-            "tr": "Seviyorum.",
+            "zh": "先看清路线。",
+            "tr": "Önce hattı kontrol ederim.",
             "correct": true
           },
           {
-            "zh": "在右边。",
-            "tr": "Sağ tarafta.",
-            "correct": false
-          },
-          {
-            "zh": "五点。",
-            "tr": "Saat beş.",
+            "zh": "别人上车我就上。",
+            "tr": "Başkası binince ben de binerim.",
             "correct": false
           }
         ]
@@ -429,702 +418,728 @@
     {
       "id": "DLG_ZH_HSK1_SC034_001",
       "speaker": "张伟",
-      "zh": "张伟下班要坐公交车回家。",
-      "pinyin": "Zhāngwěi xiàbān yào zuò gōngjiāochē huíjiā.",
-      "tr": "Zhang Wei işten sonra otobüsle eve dönecek."
+      "zh": "哎，公交车刚走吗？我还是晚了一点。",
+      "pinyin": "Āi, gōng jiāo chē gāng zǒu ma? wǒ hái shì wǎn le yì diǎn.",
+      "tr": "Ah, otobüs az önce mi gitti? Biraz geç kaldım.",
+      "emotion": "worried",
+      "actionTr": "Zhang giden otobüse bakıp hayal kırıklığı yaşar."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_002",
       "speaker": "乘客",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "刚走，别追了，前面有车，站在这里安全些。",
+      "pinyin": "Gāng zǒu, bié zhuī le, qián miàn yǒu chē, zhàn zài zhè lǐ ān quán xiē.",
+      "tr": "Az önce gitti, peşinden koşma, ileride araç var, burada durmak daha güvenli.",
+      "emotion": "comforting",
+      "actionTr": "Yolcu Zhangı koşmadan durakta beklemeye davet eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_003",
       "speaker": "工作人员",
-      "zh": "对。",
-      "pinyin": "Duì.",
-      "tr": "Evet."
+      "zh": "您要去哪里？我帮您看看下一班。",
+      "pinyin": "Nín yào qù nǎ lǐ? wǒ bāng nín kàn kàn xià yī bān.",
+      "tr": "Nereye gideceksiniz? Sonraki seferi kontrol edeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_004",
       "speaker": "刘梅",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısınız?"
+      "zh": "张伟，我听见你那边的声音了，没赶上车吗？",
+      "pinyin": "Zhāng wěi, wǒ tīng jiàn nǐ nà biān de shēng yīn le, méi gǎn shàng chē ma?",
+      "tr": "Zhang Wei, oradaki sesleri duydum, otobüse yetişemedin mi?",
+      "emotion": "worried",
+      "actionTr": "Liu Mei telefonda eşinin telaşını fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_005",
       "speaker": "张伟",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "没赶上，我到车站的时候它已经开走了。",
+      "pinyin": "Méi gǎn shàng, wǒ dào chē zhàn de shí hòu tā yǐ jīng kāi zǒu le.",
+      "tr": "Yetişemedim, durağa geldiğimde gitmişti."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_006",
       "speaker": "乘客",
-      "zh": "我们坐公交车吗？",
-      "pinyin": "Wǒmen zuò gōngjiāochē ma?",
-      "tr": "Otobüs ile mi gidiyoruz?"
+      "zh": "我也在等，不是只有您一个人错过。",
+      "pinyin": "Wǒ yě zài děng, bú shì zhǐ yǒu nín yí gè rén cuò guò.",
+      "tr": "Ben de bekliyorum, kaçıran yalnızca siz değilsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_007",
       "speaker": "工作人员",
-      "zh": "对，我们坐公交车。",
-      "pinyin": "Duì, wǒmen zuò gōngjiāochē.",
-      "tr": "Evet, otobüs ile gidiyoruz."
+      "zh": "下一班的时间要看这边的信息，先确认路线。",
+      "pinyin": "Xià yī bān de shí jiān yào kàn zhè biān de xìn xī, xiān què rèn lù xiàn.",
+      "tr": "Sonraki seferin saati buradaki bilgiden bakılır, önce hattı doğrulayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_008",
       "speaker": "刘梅",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "那先问清楚，我在家等你，不用着急跑。",
+      "pinyin": "Nà xiān wèn qīng chǔ, wǒ zài jiā děng nǐ, bù yòng zháo jí pǎo.",
+      "tr": "Önce sorup öğren, evde seni bekliyorum, aceleyle koşma.",
+      "emotion": "comforting",
+      "actionTr": "Liu Mei evde beklediğini söyleyip eşini sakinleştirir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_009",
       "speaker": "张伟",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "好的。我要回家，这是我住的地方，您看看。",
+      "pinyin": "Hǎo de. wǒ yào huí jiā, zhè shì wǒ zhù de dì fāng, nín kàn kàn.",
+      "tr": "Peki, eve döneceğim, oturduğum yer bu, bakabilir misiniz?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_010",
       "speaker": "乘客",
-      "zh": "这是时间，对吗？",
-      "pinyin": "Zhèshì shíjiān, duì ma?",
-      "tr": "Bu, zaman mı?"
+      "zh": "给工作人员看就好，我不看您的地址。",
+      "pinyin": "Gěi gōng zuò rén yuán kàn jiù hǎo, wǒ bù kàn nín de dì zhǐ.",
+      "tr": "Görevliye göstermeniz yeter, adresinize bakmayayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_011",
       "speaker": "工作人员",
-      "zh": "对，这是时间。",
-      "pinyin": "Duì, zhèshì shíjiān.",
-      "tr": "Evet, bu zaman."
+      "zh": "我看到了，这条路可以坐这班车，不过要等下一班。",
+      "pinyin": "Wǒ kàn dào le, zhè tiáo lù kě yǐ zuò zhè bān chē, bù guò yào děng xià yī bān.",
+      "tr": "Gördüm, bu yönde bu otobüse binebilirsiniz ama sonrakini bekleyeceksiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_012",
       "speaker": "刘梅",
-      "zh": "时间在哪儿？",
-      "pinyin": "Shíjiān zài nǎér?",
-      "tr": "Zaman nerede?"
+      "zh": "那路线没错，只是这一班没赶上，对吗？",
+      "pinyin": "Nà lù xiàn méi cuò, zhǐ shì zhè yī bān méi gǎn shàng, duì ma?",
+      "tr": "O zaman hat doğru, yalnızca bu sefer kaçtı, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_013",
       "speaker": "张伟",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Zaman burada."
+      "zh": "对，我没有走错路，今天下班出来慢了一点。",
+      "pinyin": "Duì, wǒ méi yǒu zǒu cuò lù, jīn tiān xià bān chū lái màn le yì diǎn.",
+      "tr": "Evet, yanlış yola gitmedim, bugün iş çıkışında biraz geciktim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_014",
       "speaker": "乘客",
-      "zh": "请问，路在哪儿？",
-      "pinyin": "Qǐngwèn, lù zài nǎér?",
-      "tr": "Yol nerede?"
+      "zh": "第一天去新地方，算时间不容易，慢慢就熟了。",
+      "pinyin": "Dì yī tiān qù xīn dì fāng, suàn shí jiān bù róng yì, màn màn jiù shú le.",
+      "tr": "Yeni yerde ilk gün zamanı hesaplamak kolay değil, yavaşça alışırsınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_015",
       "speaker": "工作人员",
-      "zh": "你看，路在那边。",
-      "pinyin": "Nǐ kàn, lù zài nàbiān.",
-      "tr": "Yol şu tarafta."
+      "zh": "您问下一班什么时候到，我现在帮您查。",
+      "pinyin": "Nín wèn xià yī bān shén me shí hòu dào, wǒ xiàn zài bāng nín chá.",
+      "tr": "Sonrakinin ne zaman geleceğini soruyorsunuz, şimdi kontrol edeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_016",
       "speaker": "刘梅",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "谢谢你帮他看。张伟，先把包放稳，别边走边打电话。",
+      "pinyin": "Xiè xiè nǐ bāng tā kàn. zhāng wěi, xiān bǎ bāo fàng wěn, bié biān zǒu biān dǎ diàn huà.",
+      "tr": "Kontrol ettiğiniz için teşekkürler. Zhang Wei, çantanı sabitle, yürürken konuşma."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_017",
       "speaker": "张伟",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我站着没动，电话也拿好了。还要等很久吗？",
+      "pinyin": "Wǒ zhàn zhe méi dòng, diàn huà yě ná hǎo le. hái yào děng hěn jiǔ ma?",
+      "tr": "Duruyorum, telefonu da tutuyorum, çok mu beklemek gerekiyor?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_018",
       "speaker": "乘客",
-      "zh": "请问，家在哪儿？",
-      "pinyin": "Qǐngwèn, jiā zài nǎér?",
-      "tr": "Ev nerede?"
+      "zh": "我刚来不久，也想知道时间，我们一起听。",
+      "pinyin": "Wǒ gāng lái bù jiǔ, yě xiǎng zhī dào shí jiān, wǒ men yì qǐ tīng.",
+      "tr": "Ben de yeni geldim, saati merak ediyorum, birlikte dinleyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_019",
       "speaker": "工作人员",
-      "zh": "你看，家在那边。",
-      "pinyin": "Nǐ kàn, jiā zài nàbiān.",
-      "tr": "Ev şu tarafta."
+      "zh": "按现在的信息，下一班大约十五分钟后到。",
+      "pinyin": "Àn xiàn zài de xìn xī, xià yī bān dà yuē shí wǔ fēn zhōng hòu dào.",
+      "tr": "Şimdiki bilgiye göre sonraki sefer yaklaşık on beş dakika sonra.",
+      "emotion": "neutral",
+      "actionTr": "Görevli tahmini bekleme süresini açıklarken bilgi panosunu gösterir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_020",
       "speaker": "刘梅",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "十五分钟啊，那你可以等一等，不用马上换车。",
+      "pinyin": "Shí wǔ fēn zhōng a, nà nǐ kě yǐ děng yī děng, bù yòng mǎ shàng huàn chē.",
+      "tr": "On beş dakika mı, o zaman biraz bekleyebilirsin, hemen araç değiştirmene gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_021",
       "speaker": "张伟",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "好，我先等。这个时间一定准吗？",
+      "pinyin": "Hǎo, wǒ xiān děng. zhè ge shí jiān yí dìng zhǔn ma?",
+      "tr": "Peki, bekleyeyim, bu süre kesin mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_022",
       "speaker": "乘客",
-      "zh": "他错过了这班车。",
-      "pinyin": "Tā cuòguò le zhè bānchē.",
-      "tr": "Bu otobüsü kaçırdı."
+      "zh": "路上车多的时候会慢一点，我以前也遇到过。",
+      "pinyin": "Lù shàng chē duō de shí hòu huì màn yì diǎn, wǒ yǐ qián yě yù dào guò.",
+      "tr": "Yolda trafik olunca biraz gecikebilir, ben de yaşadım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_023",
       "speaker": "工作人员",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "对，这是现在的预计时间，路上情况变了也会变。",
+      "pinyin": "Duì, zhè shì xiàn zài de yù jì shí jiān, lù shàng qíng kuàng biàn le yě huì biàn.",
+      "tr": "Evet, bu şimdiki tahmin, yol koşulları değişirse süre de değişir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_024",
       "speaker": "刘梅",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "那别把十五分钟当成一定到，晚一点也先看信息。",
+      "pinyin": "Nà bié bǎ shí wǔ fēn zhōng dàng chéng yí dìng dào, wǎn yì diǎn yě xiān kàn xìn xī.",
+      "tr": "On beş dakikada kesin gelir diye düşünme, gecikirse bilgiyi kontrol et."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_025",
       "speaker": "张伟",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "明白了，谢谢说明，我刚才还以为是准确时间。",
+      "pinyin": "Míng bái le, xiè xiè shuō míng, wǒ gāng cái hái yǐ wéi shì zhǔn què shí jiān.",
+      "tr": "Anladım, açıkladığınız için teşekkürler, kesin saat sandım.",
+      "emotion": "happy",
+      "actionTr": "Zhang tahmini süre ile kesin saat arasındaki farkı anlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_026",
       "speaker": "乘客",
-      "zh": "嗯，好。",
-      "pinyin": "En, hǎo.",
-      "tr": "Tamam."
+      "zh": "您第一次坐这条路吧？难怪会这样问。",
+      "pinyin": "Nín dì yī cì zuò zhè tiáo lù ba? nán guài huì zhè yàng wèn.",
+      "tr": "Bu hatta ilk kez biniyorsunuz, değil mi? Bu yüzden sordunuz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_027",
       "speaker": "工作人员",
-      "zh": "今天忙吗？",
-      "pinyin": "Jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "第一次问清楚就好，信息更新在这边看。",
+      "pinyin": "Dì yī cì wèn qīng chǔ jiù hǎo, xìn xī gēng xīn zài zhè biān kàn.",
+      "tr": "İlk seferde net öğrenmek iyi, güncellemeye buradan bakabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_028",
       "speaker": "刘梅",
-      "zh": "有一点。",
-      "pinyin": "Yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "你记住看哪里了吗？回头不清楚再问一次也行。",
+      "pinyin": "Nǐ jì zhù kàn nǎ lǐ le ma? huí tóu bù qīng chǔ zài wèn yī cì yě xíng.",
+      "tr": "Nereye bakacağını öğrendin mi? Gerekirse yine sorabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_029",
       "speaker": "张伟",
-      "zh": "没关系。",
-      "pinyin": "Méiguānxì.",
-      "tr": "Sorun değil."
+      "zh": "记住了，在这个车站看这边，不只看刚才走的车。",
+      "pinyin": "Jì zhù le, zài zhè ge chē zhàn kàn zhè biān, bù zhǐ kàn gāng cái zǒu de chē.",
+      "tr": "Öğrendim, bu durakta buraya bakılır, yalnızca giden otobüse değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_030",
       "speaker": "乘客",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "对，车开走了也没关系，下一班还会来。",
+      "pinyin": "Duì, chē kāi zǒu le yě méi guān xì, xià yī bān hái huì lái.",
+      "tr": "Evet, gitmiş olması sorun değil, sonraki gelecek."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_031",
       "speaker": "工作人员",
-      "zh": "车站在哪儿？",
-      "pinyin": "Chēzhàn zài nǎér?",
-      "tr": "Istasyon nerede?"
+      "zh": "不过上车前还要看清路线，别看到车就上。",
+      "pinyin": "Bù guò shàng chē qián hái yào kàn qīng lù xiàn, bié kàn dào chē jiù shàng.",
+      "tr": "Ama binmeden hattı kontrol edin, herhangi bir otobüse binmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_032",
       "speaker": "刘梅",
-      "zh": "就在那边。",
-      "pinyin": "Jiù zài nàbiān.",
-      "tr": "Istasyon şu tarafta."
+      "zh": "听见了，张伟，先确认再上，我也放心一点。",
+      "pinyin": "Tīng jiàn le, zhāng wěi, xiān què rèn zài shàng, wǒ yě fàng xīn yì diǎn.",
+      "tr": "Duydum, Zhang Wei, kontrol edip bin, ben de rahat ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_033",
       "speaker": "张伟",
-      "zh": "知道了。",
-      "pinyin": "Zhīdào le.",
-      "tr": "Anladım."
+      "zh": "我会看清楚的。钱也准备好了，今天不用临时找。",
+      "pinyin": "Wǒ huì kàn qīng chǔ de. qián yě zhǔn bèi hǎo le, jīn tiān bù yòng lín shí zhǎo.",
+      "tr": "Kontrol edeceğim, param da hazır, bugün son anda aramam gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_034",
       "speaker": "乘客",
-      "zh": "嗯，谢谢你。",
-      "pinyin": "En, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "那就好，不过别一直拿在手上，先放好。",
+      "pinyin": "Nà jiù hǎo, bù guò bié yì zhí ná zài shǒu shàng, xiān fàng hǎo.",
+      "tr": "Güzel ama elinizde tutup durmayın, yerine koyun."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_035",
       "speaker": "工作人员",
-      "zh": "这是电话吗？",
-      "pinyin": "Zhèshì diànhuà ma?",
-      "tr": "Bu, telefon mı?"
+      "zh": "乘车怎么付钱按这条线的要求来，上车时再确认。",
+      "pinyin": "Chéng chē zěn me fù qián àn zhè tiáo xiàn de yāo qiú lái, shàng chē shí zài què rèn.",
+      "tr": "Ödemeyi bu hattın kuralına göre yapın, binerken kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_036",
       "speaker": "刘梅",
-      "zh": "没错，这是电话。",
-      "pinyin": "Méicuò, zhèshì diànhuà.",
-      "tr": "Evet, bu telefon."
+      "zh": "你先收好东西，家里的事不用这会儿全问完。",
+      "pinyin": "Nǐ xiān shōu hǎo dōng xi, jiā lǐ de shì bù yòng zhè huì er quán wèn wán.",
+      "tr": "Eşyalarını kaldır, evdeki her şeyi şimdi sormana gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_037",
       "speaker": "张伟",
-      "zh": "电话在哪儿？",
-      "pinyin": "Diànhuà zài nǎér?",
-      "tr": "Telefon nerede?"
+      "zh": "好，我把钱放回小袋子，等车来了再拿。",
+      "pinyin": "Hǎo, wǒ bǎ qián fàng huí xiǎo dài zi, děng chē lái le zài ná.",
+      "tr": "Peki, parayı küçük göze koyayım, otobüs gelince çıkarırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_038",
       "speaker": "乘客",
-      "zh": "嗯，就在这里。",
-      "pinyin": "En, jiù zài zhèlǐ.",
-      "tr": "Telefon burada."
+      "zh": "这边可以站着等，也能坐里面的椅子。",
+      "pinyin": "Zhè biān kě yǐ zhàn zhe děng, yě néng zuò lǐ miàn de yǐ zi.",
+      "tr": "Burada ayakta veya içerideki bankta bekleyebilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_039",
       "speaker": "工作人员",
-      "zh": "这是钱吗？",
-      "pinyin": "Zhè shì qián ma?",
-      "tr": "Bu, para mı?"
+      "zh": "请留在等车的位置，别站到路上去。",
+      "pinyin": "Qǐng liú zài děng chē de wèi zhì, bié zhàn dào lù shàng qù.",
+      "tr": "Lütfen bekleme alanında kalın, yola çıkmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_040",
       "speaker": "刘梅",
-      "zh": "嗯，这就是钱。",
-      "pinyin": "En, zhè jiùshì qián.",
-      "tr": "Evet, bu para."
+      "zh": "我看到你还在站台里，这样就好，先安心等。",
+      "pinyin": "Wǒ kàn dào nǐ hái zài zhàn tái lǐ, zhè yàng jiù hǎo, xiān ān xīn děng.",
+      "tr": "Durak alanında olduğunu görüyorum, iyi, rahatça bekle."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_041",
       "speaker": "张伟",
-      "zh": "钱在哪儿？",
-      "pinyin": "Qián zài nǎér?",
-      "tr": "Para nerede?"
+      "zh": "我现在不追车了，刚才差点只顾着往前跑。",
+      "pinyin": "Wǒ xiàn zài bù zhuī chē le, gāng cái chà diǎn zhǐ gù zhe wǎng qián pǎo.",
+      "tr": "Artık peşinden koşmuyorum, az önce yalnızca ileri koşmayı düşündüm.",
+      "emotion": "worried",
+      "actionTr": "Zhang az önce koşmaya yeltenmesini düşünür."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_042",
       "speaker": "乘客",
-      "zh": "钱在这里。",
-      "pinyin": "Qián zài zhèlǐ.",
-      "tr": "Para burada."
+      "zh": "看着车走会急，我懂，不过下一班比追车安全。",
+      "pinyin": "Kàn zhe chē zǒu huì jí, wǒ dǒng, bù guò xià yī bān bǐ zhuī chē ān quán.",
+      "tr": "Otobüs gidince acele etmek istenir, anlıyorum ama sonrakini beklemek daha güvenli."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_043",
       "speaker": "工作人员",
-      "zh": "他问到了下一班车的时间。",
-      "pinyin": "Tā wèndào le xià yī bānchē de shíjiān.",
-      "tr": "Sonraki otobüsün saatini öğrendi."
+      "zh": "如果车来了，也请等停稳以后再靠近。",
+      "pinyin": "Rú guǒ chē lái le, yě qǐng děng tíng wěn yǐ hòu zài kào jìn.",
+      "tr": "Otobüs geldiğinde de durmasını bekleyip yaklaşın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_044",
       "speaker": "刘梅",
-      "zh": "太好了！",
-      "pinyin": "Tàihǎole!",
-      "tr": "Harika!"
+      "zh": "你听工作人员的，我这边不用马上等到你回来。",
+      "pinyin": "Nǐ tīng gōng zuò rén yuán de, wǒ zhè biān bù yòng mǎ shàng děng dào nǐ huí lái.",
+      "tr": "Görevliyi dinle, benim hemen dönmeni beklemem gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_045",
       "speaker": "张伟",
-      "zh": "对，谢谢你。",
-      "pinyin": "Duì, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "家里的晚饭会不会因为我晚到就凉了？",
+      "pinyin": "Jiā lǐ de wǎn fàn huì bú huì yīn wèi wǒ wǎn dào jiù liáng le?",
+      "tr": "Geç kaldığım için evde yemek soğur mu?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_046",
       "speaker": "乘客",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "您先跟家里说明，别为了晚饭赶得太急。",
+      "pinyin": "Nín xiān gēn jiā lǐ shuō míng, bié wèi le wǎn fàn gǎn de tài jí.",
+      "tr": "Önce evdekilere anlatın, yemek için fazla acele etmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_047",
       "speaker": "工作人员",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "等车时可以看看更新的信息，有变化我会告诉您。",
+      "pinyin": "Děng chē shí kě yǐ kàn kàn gēng xīn de xìn xī, yǒu biàn huà wǒ huì gào sù nín.",
+      "tr": "Beklerken güncellemeye bakabilirsiniz, değişirse haber veririm."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_048",
       "speaker": "刘梅",
-      "zh": "嗯，我们继续。",
-      "pinyin": "En, wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "饭还没都做好呢，你不用替锅里的饭着急。",
+      "pinyin": "Fàn hái méi dōu zuò hǎo ne, nǐ bù yòng tì guō lǐ de fàn zháo jí.",
+      "tr": "Yemeklerin hepsi hazır değil, tenceredeki yemek için acele etme.",
+      "emotion": "playful",
+      "actionTr": "Liu Mei tenceredeki yemek üzerinden sıcak bir şaka yapar."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_049",
       "speaker": "张伟",
-      "zh": "那我们坐公交车吗？",
-      "pinyin": "Nà wǒmen zuò gōngjiāochē ma?",
-      "tr": "Otobüs ile mi gidiyoruz?"
+      "zh": "哈哈，你这么说，我就没那么紧张了。",
+      "pinyin": "Hā hā, nǐ zhè me shuō, wǒ jiù méi nà me jǐn zhāng le.",
+      "tr": "Ha ha, böyle söyleyince daha rahatladım.",
+      "emotion": "happy",
+      "actionTr": "Zhang eşinin şakasına gülümser."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_050",
       "speaker": "乘客",
-      "zh": "对，我们坐公交车。",
-      "pinyin": "Duì, wǒmen zuò gōngjiāochē.",
-      "tr": "Evet, otobüs ile gidiyoruz."
+      "zh": "那就好。您今天是第一天上班吗？",
+      "pinyin": "Nà jiù hǎo. nín jīn tiān shì dì yī tiān shàng bān ma?",
+      "tr": "Güzel, bugün işte ilk gününüz mü?"
     },
     {
       "id": "DLG_ZH_HSK1_SC034_051",
       "speaker": "工作人员",
-      "zh": "那准备好了吗？",
-      "pinyin": "Nà zhǔnbèi hǎolema?",
-      "tr": "Hazır mısınız?"
+      "zh": "您慢慢聊，注意听到站信息就行。",
+      "pinyin": "Nín màn màn liáo, zhù yì tīng dào zhàn xìn xī jiù xíng.",
+      "tr": "Sakince konuşabilirsiniz, sefer duyurularını dinlemeniz yeter."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_052",
       "speaker": "刘梅",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "是啊，他今天认识了新同事，中午也一起吃饭了。",
+      "pinyin": "Shì a, tā jīn tiān rèn shí le xīn tóng shì, zhōng wǔ yě yì qǐ chī fàn le.",
+      "tr": "Evet, bugün yeni çalışma arkadaşlarıyla tanıştı, öğlen birlikte yediler."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_053",
       "speaker": "张伟",
-      "zh": "这是时间吗？",
-      "pinyin": "Zhèshì shíjiān ma?",
-      "tr": "Bu, zaman mı?"
+      "zh": "你怎么先替我介绍了？我还想回家慢慢讲。",
+      "pinyin": "Nǐ zěn me xiān tì wǒ jiè shào le? wǒ hái xiǎng huí jiā màn màn jiǎng.",
+      "tr": "Neden önce sen anlattın? Eve dönünce anlatacaktım.",
+      "emotion": "playful",
+      "actionTr": "Zhang gününü eve dönünce anlatmak istediğini söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_054",
       "speaker": "乘客",
-      "zh": "嗯，这就是时间。",
-      "pinyin": "En, zhè jiùshì shíjiān.",
-      "tr": "Evet, bu zaman."
+      "zh": "听起来今天事情不少，晚一点回去也有话聊。",
+      "pinyin": "Tīng qǐ lái jīn tiān shì qíng bù shǎo, wǎn yì diǎn huí qù yě yǒu huà liáo.",
+      "tr": "Bugün çok şey olmuş gibi, biraz geç dönseniz de anlatacak şey var."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_055",
       "speaker": "工作人员",
-      "zh": "时间呢？",
-      "pinyin": "Shíjiān ne?",
-      "tr": "Zaman nerede?"
+      "zh": "新来的时候先确认回家的路线，这样很好。",
+      "pinyin": "Xīn lái de shí hòu xiān què rèn huí jiā de lù xiàn, zhè yàng hěn hǎo.",
+      "tr": "Yeni geldiğinizde eve dönüş hattını kontrol etmeniz iyi."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_056",
       "speaker": "刘梅",
-      "zh": "你看，时间在这儿。",
-      "pinyin": "Nǐ kàn, shíjiān zài zhèér.",
-      "tr": "Zaman burada."
+      "zh": "我只是说了一点，剩下的等你回来讲。",
+      "pinyin": "Wǒ zhǐ shì shuō le yì diǎn, shèng xià de děng nǐ huí lái jiǎng.",
+      "tr": "Yalnızca biraz anlattım, gerisini dönünce anlatırsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_057",
       "speaker": "张伟",
-      "zh": "那请问，路在哪儿？",
-      "pinyin": "Nà qǐngwèn, lù zài nǎér?",
-      "tr": "Yol nerede?"
+      "zh": "好，我留下最有意思的，回家再说。",
+      "pinyin": "Hǎo, wǒ liú xià zuì yǒu yì si de, huí jiā zài shuō.",
+      "tr": "Peki, en ilginç kısmı eve dönünce anlatayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_058",
       "speaker": "乘客",
-      "zh": "嗯，就在那边。",
-      "pinyin": "En, jiù zài nàbiān.",
-      "tr": "Yol şu tarafta."
+      "zh": "我们等车也不无聊了，不过别忘了看前面。",
+      "pinyin": "Wǒ men děng chē yě bù wú liáo le, bù guò bié wàng le kàn qián miàn.",
+      "tr": "Beklemek de sıkıcı olmadı ama ileriyi gözlemeyi unutmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_059",
       "speaker": "工作人员",
-      "zh": "好，我知道了。",
-      "pinyin": "Hǎo, wǒ zhīdào le.",
-      "tr": "Anladım."
+      "zh": "现在预计时间没有变，还要再等一会儿。",
+      "pinyin": "Xiàn zài yù jì shí jiān méi yǒu biàn, hái yào zài děng yī huì er.",
+      "tr": "Tahmini süre değişmedi, biraz daha beklemek gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_060",
       "speaker": "刘梅",
-      "zh": "谢谢。",
-      "pinyin": "Xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "听到了，没有变化就按刚才说的等。",
+      "pinyin": "Tīng dào le, méi yǒu biàn huà jiù àn gāng cái shuō de děng.",
+      "tr": "Duydum, değişmediyse söylendiği gibi bekle."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_061",
       "speaker": "张伟",
-      "zh": "那请问，家在哪儿？",
-      "pinyin": "Nà qǐngwèn, jiā zài nǎér?",
-      "tr": "Ev nerede?"
+      "zh": "我可以把电话先关了吗？电不太多了。",
+      "pinyin": "Wǒ kě yǐ bǎ diàn huà xiān guān le ma? diàn bù tài duō le.",
+      "tr": "Görüşmeyi kapatabilir miyim? Şarjım pek kalmadı.",
+      "emotion": "curious",
+      "actionTr": "Zhang telefonu korumak için görüşmeyi bitirmeyi önerir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_062",
       "speaker": "乘客",
-      "zh": "对，就在那边。",
-      "pinyin": "Duì, jiù zài nàbiān.",
-      "tr": "Ev şu tarafta."
+      "zh": "等车的时候省一点电挺好，到了还可能要用。",
+      "pinyin": "Děng chē de shí hòu shěng yì diǎn diàn tǐng hǎo, dào le hái kě néng yào yòng.",
+      "tr": "Beklerken şarjı korumak iyi, varınca gerekebilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_063",
       "speaker": "工作人员",
-      "zh": "明白了。",
-      "pinyin": "Míngbái le.",
-      "tr": "Anladım."
+      "zh": "如果需要问路，您也可以直接问我，不一定用电话。",
+      "pinyin": "Rú guǒ xū yào wèn lù, nín yě kě yǐ zhí jiē wèn wǒ, bù yí dìng yòng diàn huà.",
+      "tr": "Yol sormanız gerekirse bana da sorabilirsiniz, telefon şart değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_064",
       "speaker": "刘梅",
-      "zh": "好，谢谢你。",
-      "pinyin": "Hǎo, xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "可以，不过先把回家这条路确认好，我们再挂。",
+      "pinyin": "Kě yǐ, bù guò xiān bǎ huí jiā zhè tiáo lù què rèn hǎo, wǒ men zài guà.",
+      "tr": "Kapatabilirsin ama önce eve dönüş hattını doğrulayalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_065",
       "speaker": "张伟",
-      "zh": "那今天忙吗？",
-      "pinyin": "Nà jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "我问过了，这里等下一班，上车前再看路线。",
+      "pinyin": "Wǒ wèn guò le, zhè lǐ děng xià yī bān, shàng chē qián zài kàn lù xiàn.",
+      "tr": "Sordum, burada sonraki sefer beklenir, binmeden hattı kontrol ederim."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_066",
       "speaker": "乘客",
-      "zh": "嗯，有一点。",
-      "pinyin": "En, yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "您已经记住了，别让刚才错过一班变成一直担心。",
+      "pinyin": "Nín yǐ jīng jì zhù le, bié ràng gāng cái cuò guò yī bān biàn chéng yì zhí dān xīn.",
+      "tr": "Öğrendiniz, bir sefer kaçırmak sürekli kaygıya dönüşmesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_067",
       "speaker": "工作人员",
-      "zh": "嗯，没关系。",
-      "pinyin": "En, méiguānxì.",
-      "tr": "Sorun değil."
+      "zh": "对，如果方向不清楚，出示刚才的信息再问。",
+      "pinyin": "Duì, rú guǒ fāng xiàng bù qīng chǔ, chū shì gāng cái de xìn xī zài wèn.",
+      "tr": "Evet, yönü bilmiyorsanız az önceki bilgiyi gösterip sorun."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_068",
       "speaker": "刘梅",
-      "zh": "对，我们继续。",
-      "pinyin": "Duì, wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "那我放心了，到了家附近再给我消息就好。",
+      "pinyin": "Nà wǒ fàng xīn le, dào le jiā fù jìn zài gěi wǒ xiāo xī jiù hǎo.",
+      "tr": "O zaman rahatladım, evin yakınına varınca haber ver."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_069",
       "speaker": "张伟",
-      "zh": "那车站在哪儿？",
-      "pinyin": "Nà chēzhàn zài nǎér?",
-      "tr": "Istasyon nerede?"
+      "zh": "好，不过电话快没电时我先留着，不一路聊天。",
+      "pinyin": "Hǎo, bù guò diàn huà kuài méi diàn shí wǒ xiān liú zhe, bù yī lù liáo tiān.",
+      "tr": "Peki ama şarj azalırsa telefonu korurum, yol boyu konuşmam."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_070",
       "speaker": "乘客",
-      "zh": "你看，车站在那边。",
-      "pinyin": "Nǐ kàn, chēzhàn zài nàbiān.",
-      "tr": "Istasyon şu tarafta."
+      "zh": "这就对了，先把重要的信息留好。",
+      "pinyin": "Zhè jiù duì le, xiān bǎ zhòng yào de xìn xī liú hǎo.",
+      "tr": "Doğru, önce önemli bilgileri saklayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_071",
       "speaker": "工作人员",
-      "zh": "嗯，知道了。",
-      "pinyin": "En, zhīdào le.",
-      "tr": "Anladım."
+      "zh": "等车位置就在这里，您不用换到对面。",
+      "pinyin": "Děng chē wèi zhì jiù zài zhè lǐ, nín bù yòng huàn dào duì miàn.",
+      "tr": "Bekleme alanı burası, karşıya geçmenize gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_072",
       "speaker": "刘梅",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "听见了吗？还是这个车站，别一着急又走开。",
+      "pinyin": "Tīng jiàn le ma? hái shì zhè ge chē zhàn, bié yī zháo jí yòu zǒu kāi.",
+      "tr": "Duydun mu? Yine bu durak, acele edip uzaklaşma."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_073",
       "speaker": "张伟",
-      "zh": "现在我们坐公交车吗？",
-      "pinyin": "Xiànzài wǒmen zuò gōngjiāochē ma?",
-      "tr": "Otobüs ile mi gidiyoruz?"
+      "zh": "听见了，我就在这里等，不换车站。",
+      "pinyin": "Tīng jiàn le, wǒ jiù zài zhè lǐ děng, bù huàn chē zhàn.",
+      "tr": "Duydum, burada beklerim, durağı değiştirmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_074",
       "speaker": "乘客",
-      "zh": "对，我们坐公交车。",
-      "pinyin": "Duì, wǒmen zuò gōngjiāochē.",
-      "tr": "Evet, otobüs ile gidiyoruz."
+      "zh": "我也等这一边，我们可以互相提醒。",
+      "pinyin": "Wǒ yě děng zhè yī biān, wǒ men kě yǐ hù xiāng tí xǐng.",
+      "tr": "Ben de bu tarafta bekliyorum, birbirimize hatırlatabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_075",
       "speaker": "工作人员",
-      "zh": "那准备得怎么样了？",
-      "pinyin": "Nà zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısınız?"
+      "zh": "互相提醒可以，上车前还是各自确认要去哪里。",
+      "pinyin": "Hù xiāng tí xǐng kě yǐ, shàng chē qián hái shì gè zì què rèn yào qù nǎ lǐ.",
+      "tr": "Hatırlatabilirsiniz ama binmeden herkes kendi yönünü kontrol etsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_076",
       "speaker": "刘梅",
-      "zh": "嗯，都准备好了。",
-      "pinyin": "En, dōu zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "对，你别只跟着别人走，自己的路自己确认。",
+      "pinyin": "Duì, nǐ bié zhǐ gēn zhe bié rén zǒu, zì jǐ de lù zì jǐ què rèn.",
+      "tr": "Evet, yalnızca başkalarının peşinden gitme, kendi yolunu doğrula."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_077",
       "speaker": "张伟",
-      "zh": "这个是时间吗？",
-      "pinyin": "Zhège shì shíjiān ma?",
-      "tr": "Bu, zaman mı?"
+      "zh": "明白，我不是因为他上车就跟着上。",
+      "pinyin": "Míng bái, wǒ bú shì yīn wèi tā shàng chē jiù gēn zhe shàng.",
+      "tr": "Anladım, o bindi diye ben de binmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_078",
       "speaker": "乘客",
-      "zh": "没错，这是时间。",
-      "pinyin": "Méicuò, zhèshì shíjiān.",
-      "tr": "Evet, bu zaman."
+      "zh": "哈哈，说得对，我下车的地方也可能和您不一样。",
+      "pinyin": "Hā hā, shuō de duì, wǒ xià chē de dì fāng yě kě néng hé nín bù yí yàng.",
+      "tr": "Ha ha, doğru, ineceğim yer sizinkinden farklı olabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_079",
       "speaker": "工作人员",
-      "zh": "那时间呢？",
-      "pinyin": "Nà shíjiān ne?",
-      "tr": "Zaman nerede?"
+      "zh": "所以先看方向，再看自己的下车地点。",
+      "pinyin": "Suǒ yǐ xiān kàn fāng xiàng, zài kàn zì jǐ de xià chē dì diǎn.",
+      "tr": "Bu yüzden önce yönü sonra kendi ineceğiniz yeri kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_080",
       "speaker": "刘梅",
-      "zh": "嗯，你看，时间在这儿。",
-      "pinyin": "En, nǐ kàn, shíjiān zài zhèér.",
-      "tr": "Zaman burada."
+      "zh": "很好，问清楚以后就不用一直猜了。",
+      "pinyin": "Hěn hǎo, wèn qīng chǔ yǐ hòu jiù bù yòng yì zhí cāi le.",
+      "tr": "Güzel, net öğrenince sürekli tahmin etmen gerekmez."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_081",
       "speaker": "张伟",
-      "zh": "路在哪儿？",
-      "pinyin": "Lù zài nǎér?",
-      "tr": "Yol nerede?"
+      "zh": "我刚才担心的是晚回家，现在知道怎么等就好多了。",
+      "pinyin": "Wǒ gāng cái dān xīn de shì wǎn huí jiā, xiàn zài zhī dào zěn me děng jiù hǎo duō le.",
+      "tr": "Az önce eve geç dönmekten kaygılandım, şimdi nasıl bekleyeceğimi biliyorum.",
+      "emotion": "comforting",
+      "actionTr": "Zhang bekleme planını bildiği için rahatlar."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_082",
       "speaker": "乘客",
-      "zh": "嗯，你看，路在那边。",
-      "pinyin": "En, nǐ kàn, lù zài nàbiān.",
-      "tr": "Yol şu tarafta."
+      "zh": "错过一班确实烦，不过今天已经有办法了。",
+      "pinyin": "Cuò guò yī bān què shí fán, bù guò jīn tiān yǐ jīng yǒu bàn fǎ le.",
+      "tr": "Sefer kaçırmak can sıkıcı ama artık ne yapacağınız belli."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_083",
       "speaker": "工作人员",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "有事可以再问，别站着不好意思开口。",
+      "pinyin": "Yǒu shì kě yǐ zài wèn, bié zhàn zhe bù hǎo yì sī kāi kǒu.",
+      "tr": "Bir şey olursa yine sorun, çekinip susmayın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_084",
       "speaker": "刘梅",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "你今天已经问过好几次了，再问也没关系。",
+      "pinyin": "Nǐ jīn tiān yǐ jīng wèn guò hǎo jǐ cì le, zài wèn yě méi guān xì.",
+      "tr": "Bugün birkaç kez sordun, yeniden sormanda sorun yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_085",
       "speaker": "张伟",
-      "zh": "家呢？",
-      "pinyin": "Jiā ne?",
-      "tr": "Ev nerede?"
+      "zh": "是啊，午饭的时候学会了问，现在回家也用上了。",
+      "pinyin": "Shì a, wǔ fàn de shí hòu xué huì le wèn, xiàn zài huí jiā yě yòng shàng le.",
+      "tr": "Evet, öğlen soru sormayı öğrendim, eve dönüşte de işe yaradı."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_086",
       "speaker": "乘客",
-      "zh": "嗯，你看，家在那边。",
-      "pinyin": "En, nǐ kàn, jiā zài nàbiān.",
-      "tr": "Ev şu tarafta."
+      "zh": "那今天不是只记住同事名字，还记住了怎么问路。",
+      "pinyin": "Nà jīn tiān bú shì zhǐ jì zhù tóng shì míng zi, hái jì zhù le zěn me wèn lù.",
+      "tr": "Bugün yalnızca çalışma arkadaşlarının adını değil, yol sormayı da öğrendiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_087",
       "speaker": "工作人员",
-      "zh": "我明白了。",
-      "pinyin": "Wǒ míngbái le.",
-      "tr": "Anladım."
+      "zh": "如果预计时间变了，这里会更新，请再看一眼。",
+      "pinyin": "Rú guǒ yù jì shí jiān biàn le, zhè lǐ huì gēng xīn, qǐng zài kàn yī yǎn.",
+      "tr": "Tahmini süre değişirse burada güncellenir, tekrar bakın."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_088",
       "speaker": "刘梅",
-      "zh": "真的谢谢你。",
-      "pinyin": "Zhēnde xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "我也记住了，你等到车再上，我先回去看晚饭。",
+      "pinyin": "Wǒ yě jì zhù le, nǐ děng dào chē zài shàng, wǒ xiān huí qù kàn wǎn fàn.",
+      "tr": "Ben de öğrendim, otobüsü bekleyip bin, ben yemeğe bakayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_089",
       "speaker": "张伟",
-      "zh": "现在今天忙吗？",
-      "pinyin": "Xiànzài jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "好，你去忙吧，谢谢你陪我等这会儿。",
+      "pinyin": "Hǎo, nǐ qù máng ba, xiè xiè nǐ péi wǒ děng zhè huì er.",
+      "tr": "Peki, işine bak, biraz benimle beklediğin için teşekkürler."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_090",
       "speaker": "乘客",
-      "zh": "对，有一点。",
-      "pinyin": "Duì, yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "您爱人也挺耐心的，大家都不急就容易些。",
+      "pinyin": "Nín ài rén yě tǐng nài xīn de, dà jiā dōu bù jí jiù róng yì xiē.",
+      "tr": "Eşiniz de sabırlı, herkes sakin olunca kolaylaşıyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_091",
       "speaker": "工作人员",
-      "zh": "对，没关系。",
-      "pinyin": "Duì, méiguānxì.",
-      "tr": "Sorun değil."
+      "zh": "现在还没到下一班的时间，您可以安心等。",
+      "pinyin": "Xiàn zài hái méi dào xià yī bān de shí jiān, nín kě yǐ ān xīn děng.",
+      "tr": "Henüz sonraki seferin zamanı gelmedi, sakince bekleyebilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_092",
       "speaker": "刘梅",
-      "zh": "好，我们继续。",
-      "pinyin": "Hǎo, wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "那我们先说到这里，回家以后再聊今天的事。",
+      "pinyin": "Nà wǒ men xiān shuō dào zhè lǐ, huí jiā yǐ hòu zài liáo jīn tiān de shì.",
+      "tr": "O zaman görüşmeyi bitirelim, eve dönünce bugünü konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_093",
       "speaker": "张伟",
-      "zh": "车站呢？",
-      "pinyin": "Chēzhàn ne?",
-      "tr": "Istasyon nerede?"
+      "zh": "好，挂电话前再跟你说一声，我在站台里面。",
+      "pinyin": "Hǎo, guà diàn huà qián zài gēn nǐ shuō yī shēng, wǒ zài zhàn tái lǐ miàn.",
+      "tr": "Peki, kapatmadan söyleyeyim, durak alanındayım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_094",
       "speaker": "乘客",
-      "zh": "嗯，你看，车站在那边。",
-      "pinyin": "En, nǐ kàn, chēzhàn zài nàbiān.",
-      "tr": "Istasyon şu tarafta."
+      "zh": "我们都看见了，您没有站到路上去。",
+      "pinyin": "Wǒ men dōu kàn jiàn le, nín méi yǒu zhàn dào lù shàng qù.",
+      "tr": "Görüyoruz, yola çıkmadınız."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_095",
       "speaker": "工作人员",
-      "zh": "对，明白了。",
-      "pinyin": "Duì, míngbái le.",
-      "tr": "Anladım."
+      "zh": "对，就留在这个位置，车到站停稳再上。",
+      "pinyin": "Duì, jiù liú zài zhè ge wèi zhì, chē dào zhàn tíng wěn zài shàng.",
+      "tr": "Evet, burada kalın, otobüs durunca binin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_096",
       "speaker": "刘梅",
-      "zh": "路线现在清楚了。",
-      "pinyin": "Lùxiàn xiànzài qīngchǔ le.",
-      "tr": "Bugün çok şey öğrendik."
+      "zh": "知道了，你准备好就挂吧，晚一点见。",
+      "pinyin": "Zhī dào le, nǐ zhǔn bèi hǎo jiù guà ba, wǎn yì diǎn jiàn.",
+      "tr": "Anladım, hazır olunca kapat, sonra görüşürüz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_097",
       "speaker": "张伟",
-      "zh": "我也是。",
-      "pinyin": "Wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "晚一点见。我准备收好电话，等下一班公交车。",
+      "pinyin": "Wǎn yì diǎn jiàn. wǒ zhǔn bèi shōu hǎo diàn huà, děng xià yī bān gōng jiāo chē.",
+      "tr": "Sonra görüşürüz, telefonu kaldırıp sonraki otobüsü beklemeye hazırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_098",
       "speaker": "乘客",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "好，我也继续等，车来了再看是不是这条路。",
+      "pinyin": "Hǎo, wǒ yě jì xù děng, chē lái le zài kàn shì bú shì zhè tiáo lù.",
+      "tr": "Peki, ben de bekleyeyim, gelince doğru hat mı kontrol ederiz."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_099",
       "speaker": "工作人员",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "需要帮助就叫我，别急着追已经开走的车。",
+      "pinyin": "Xū yào bāng zhù jiù jiào wǒ, bié jí zhe zhuī yǐ jīng kāi zǒu de chē.",
+      "tr": "Yardım gerekirse seslenin, gitmiş otobüsün peşinden acele etmeyin."
     },
     {
       "id": "DLG_ZH_HSK1_SC034_100",
       "speaker": "刘梅",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "嗯，回家见，慢慢来就好。",
+      "pinyin": "Èn, huí jiā jiàn, màn màn lái jiù hǎo.",
+      "tr": "Tamam, evde görüşürüz, sakince gelmen yeter.",
+      "emotion": "comforting",
+      "actionTr": "Liu Mei görüşmenin son sözünde sakin gelmesini ister."
     }
   ],
   "production": {
@@ -1156,6 +1171,6 @@
     },
     "continuityNoteTr": "Otobüsü Kaçırmak olayı ana aile kronolojisinde sahne 34 olarak kaydedilir."
   },
-  "editorialStatus": "generated_full_v1_requires_native_review",
+  "editorialStatus": "contextual_simplified_chinese_r1_model_reviewed_audio_pending",
   "dialogueCount": 100
 }

@@ -188,3 +188,5 @@ SC032: 33/300 metin,32/300 ağız kalibrasyonu. Öğle molası tanışması: Lin
 SC033: 34/300 metin,33/300 ağız kalibrasyonu. Öğle siparişi dört kişiyle düzeltildi; Lin Xiao/Chen Ming ayrı ID ağızlarına bağlandı. Siparişler kişi bazında doğrulandı; SC034 akşam dönüş yoluna bağlanır. Ses entegrasyonu/insan/cihaz bekliyor; APK/release yok.
 
 SC001–SC031: 3100 ses eşleştirmesi kaynak metin/konuşmacı/ses kastı/key ve gerçek Opus başlıklarıyla doğrulandı. Kokoro düzeni aynı. Dinleme ve runtime entegrasyon bekliyor; ses tamamlanmış sayılmaz. SC032–SC033 sonraki ses paketi bekliyor. APK/release yok.
+
+SC034: 35/300 metin,34/300 ağız kalibrasyonu. Kaçırılan otobüs, tahmini süre ve evdeki Liu Mei video görüşmesi tutarlı. Telefon ağzı görsel hashine bağlandı. Ses/insan/cihaz bekliyor. APK/release yok.

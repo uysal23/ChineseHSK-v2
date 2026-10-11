@@ -2445,6 +2445,30 @@
         }
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK1_SC034": {
+      "imageSha256": "907bc4d92213c5412e53dd2d25cf73b9e746489dce7f5f2db6d76885c28115c7",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "张伟": [
+          0.476,
+          0.326
+        ],
+        "乘客": [
+          0.151,
+          0.291
+        ],
+        "工作人员": [
+          0.775,
+          0.357
+        ],
+        "刘梅": [
+          0.535,
+          0.364
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
