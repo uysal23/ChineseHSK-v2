@@ -1,0 +1,26 @@
+{
+  "sceneId": "ZH_HSK1_SC033",
+  "imageSha256": "99f765528cae7538ec25ca467d6acb9da709375439ad2a821ef406e57257e8a8",
+  "referenceSceneId": "ZH_HSK1_SC032",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "LIN_XIAO",
+    "CHEN_MING",
+    "服务员"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC033 lunch ordering with canonical SC032 coworkers and adult waitress; no served food yet; explicit Lin Xiao and Chen Ming ID bindings",
+  "anchors": {
+    "张伟": [
+      0.248,
+      0.345
+    ],
+    "服务员": [
+      0.845,
+      0.227
+    ]
+  }
+}

@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC033",
   "generationSceneId": "ZH_HSK1_SC033",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC033.json",
-  "dialogueSha256": "eb185423b76b7712371998cc539f3da871568b3a660ca673aaad049968de640b",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC033.json",
+  "dialogueSha256": "7f3802fb546f5caed65eddc3ca417429511e32ea84b1f2f0a5fe0c8262d2c619",
   "titleTr": "İş Arkadaşıyla Öğle Yemeği",
   "locationId": "LOC_ZH_RESTAURANT_001",
   "scenePurposeTr": "Zhang Wei iş arkadaşıyla öğle yemeğine çıkar ve garsona sipariş verir.",
@@ -28,7 +28,7 @@
     "previousSceneId": "ZH_HSK1_SC032",
     "nextSceneId": "ZH_HSK1_SC034"
   },
-  "sourceGeneratedFilename": "ZH_HSK1_SC033.webp",
+  "sourceGeneratedFilename": "ZH_HSK1_SC033_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC033.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC033.webp",
   "image": {
@@ -36,7 +36,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "75a930c2e8ef9a159f3d60f32a04dc0d1585da240f9a34aaa2b108a56f1c54fb"
+    "sha256": "99f765528cae7538ec25ca467d6acb9da709375439ad2a821ef406e57257e8a8",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,6 +58,450 @@
   },
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
-  "qaNoteTr": "Kullanıcının son onaylı görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi.",
-  "binaryIntegrityChecked": true
+  "qaNoteTr": "SC033 öğle siparişi: Zhang gözlük/navy blazer/kravatsız; Lin Xiao lilac blazer/at kuyruğu; Chen Ming teal gömlek; kadın garson beyaz gömlek/siyah önlük/topuz. Dört ağız görünür. Aynı 同事 etiketi ayrı ID/kişilere bağlandı. Üç müşterinin siparişi henüz servis edilmedi. Model incelemesi; insan ve cihaz testi bekliyor.",
+  "binaryIntegrityChecked": true,
+  "mouthAnchorCalibration": {
+    "imageSha256": "99f765528cae7538ec25ca467d6acb9da709375439ad2a821ef406e57257e8a8",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.248,
+        0.345
+      ],
+      "服务员": [
+        0.845,
+        0.227
+      ]
+    },
+    "personAnchors": {
+      "张伟": [
+        0.248,
+        0.345
+      ],
+      "LIN_XIAO": [
+        0.53,
+        0.358
+      ],
+      "CHEN_MING": [
+        0.752,
+        0.345
+      ],
+      "服务员": [
+        0.845,
+        0.227
+      ]
+    },
+    "dialogueAnchors": {
+      "DLG_ZH_HSK1_SC033_001": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_002": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_003": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_004": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_005": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_006": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_007": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_008": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_009": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_010": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_011": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_012": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_013": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_014": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_015": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_016": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_017": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_018": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_019": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_020": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_021": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_022": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_023": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_024": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_025": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_026": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_027": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_028": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_029": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_030": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_031": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_032": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_033": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_034": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_035": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_036": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_037": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_038": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_039": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_040": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_041": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_042": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_043": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_044": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_045": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_046": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_047": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_048": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_049": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_050": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_051": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_052": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_053": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_054": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_055": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_056": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_057": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_058": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_059": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_060": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_061": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_062": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_063": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_064": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_065": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_066": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_067": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_068": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_069": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_070": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_071": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_072": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_073": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_074": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_075": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_076": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_077": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_078": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_079": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_080": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_081": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_082": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_083": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_084": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_085": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_086": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_087": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_088": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_089": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_090": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_091": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_092": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_093": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_094": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_095": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_096": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      },
+      "DLG_ZH_HSK1_SC033_097": {
+        "speaker": "张伟",
+        "personKey": "张伟"
+      },
+      "DLG_ZH_HSK1_SC033_098": {
+        "speaker": "同事",
+        "personKey": "LIN_XIAO"
+      },
+      "DLG_ZH_HSK1_SC033_099": {
+        "speaker": "服务员",
+        "personKey": "服务员"
+      },
+      "DLG_ZH_HSK1_SC033_100": {
+        "speaker": "同事",
+        "personKey": "CHEN_MING"
+      }
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC033 öğle siparişi: Zhang gözlük/navy blazer/kravatsız; Lin Xiao lilac blazer/at kuyruğu; Chen Ming teal gömlek; kadın garson beyaz gömlek/siyah önlük/topuz. Dört ağız görünür. Aynı 同事 etiketi ayrı ID/kişilere bağlandı. Üç müşterinin siparişi henüz servis edilmedi. Model incelemesi; insan ve cihaz testi bekliyor."
+  }
 }

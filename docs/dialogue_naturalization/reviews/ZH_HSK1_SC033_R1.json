@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC033",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 13,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 5.86,
+  "meanNewZhLength": 17.49,
+  "continuityNoteTr": "SC032 tanışılan Lin Xiao ve Chen Ming öğle masasında Zhang ile bulunur; erkek müdür bitişik masada ve kadraj dışında. Zhang karar vermekte zorlanır, arkadaşlarının ve garsonun yardımıyla az acılı tavuklu pilav/çorbasız seçer. Chen Ming tavuksuz erişte, Lin Xiao pilav ve sebze çorbası seçer. Yemekler henüz gelmedi; akşam dönüş yolunun kontrolü SC034 otobüs sahnesine bağlanır.",
+  "lengthDeviationPercent": 198.46,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
