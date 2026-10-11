@@ -28,9 +28,9 @@
         "zh": "考试",
         "pinyin": "kǎoshì",
         "tr": "sınav",
-        "exampleZh": "这是考试。",
-        "examplePinyin": "Zhè shì kǎoshì.",
-        "exampleTr": "Bu sınav.",
+        "exampleZh": "妈妈，我明天要考试，书看完了，可心里还是不安。",
+        "examplePinyin": "Mā ma, wǒ míng tiān yào kǎo shì, shū kàn wán le, kě xīn lǐ hái shì bù ān.",
+        "exampleTr": "Anne, yarın sınavım var; kitabı bitirdim ama içim hâlâ rahat değil.",
         "kind": "active"
       },
       {
@@ -38,9 +38,9 @@
         "zh": "学习",
         "pinyin": "xuéxí",
         "tr": "ders çalışma / öğrenme",
-        "exampleZh": "我在学习。",
-        "examplePinyin": "Wǒ zài xuéxí.",
-        "exampleTr": "Ders çalışıyorum.",
+        "exampleZh": "你今天已经学习很久了吧？",
+        "examplePinyin": "Nǐ jīn tiān yǐ jīng xué xí hěn jiǔ le ba?",
+        "exampleTr": "Bugün zaten uzun süre çalıştın, değil mi?",
         "kind": "active"
       },
       {
@@ -48,9 +48,9 @@
         "zh": "学校",
         "pinyin": "xuéxiào",
         "tr": "okul",
-        "exampleZh": "这是学校。",
-        "examplePinyin": "Zhè shì xuéxiào.",
-        "exampleTr": "Bu okul.",
+        "exampleZh": "都怕，这是我到新学校后的第一次考试。",
+        "examplePinyin": "Dōu pà, zhè shì wǒ dào xīn xué xiào hòu de dì yī cì kǎo shì.",
+        "exampleTr": "İkisinden de; yeni okula geldikten sonraki ilk sınavım.",
         "kind": "active"
       },
       {
@@ -58,9 +58,9 @@
         "zh": "书",
         "pinyin": "shū",
         "tr": "kitap",
-        "exampleZh": "这是书。",
-        "examplePinyin": "Zhè shì shū.",
-        "exampleTr": "Bu kitap.",
+        "exampleZh": "妈妈，我明天要考试，书看完了，可心里还是不安。",
+        "examplePinyin": "Mā ma, wǒ míng tiān yào kǎo shì, shū kàn wán le, kě xīn lǐ hái shì bù ān.",
+        "exampleTr": "Anne, yarın sınavım var; kitabı bitirdim ama içim hâlâ rahat değil.",
         "kind": "active"
       },
       {
@@ -68,9 +68,9 @@
         "zh": "试卷",
         "pinyin": "shìjuàn",
         "tr": "sınav kâğıdı",
-        "exampleZh": "这是试卷。",
-        "examplePinyin": "Zhè shì shìjuàn.",
-        "exampleTr": "Bu sınav kâğıdı.",
+        "exampleZh": "我怕拿到试卷以后，一个字都想不起来。",
+        "examplePinyin": "Wǒ pà ná dào shì juàn yǐ hòu, yí gè zì dōu xiǎng bù qǐ lái.",
+        "exampleTr": "Sınav kâğıdını alınca hiçbir şeyi hatırlayamamaktan korkuyorum.",
         "kind": "active"
       },
       {
@@ -78,9 +78,9 @@
         "zh": "老师",
         "pinyin": "lǎoshī",
         "tr": "öğretmen",
-        "exampleZh": "这是老师。",
-        "examplePinyin": "Zhè shì lǎoshī.",
-        "exampleTr": "Bu öğretmen.",
+        "exampleZh": "这本书，还有老师发的这两张练习。",
+        "examplePinyin": "Zhè běn shū, hái yǒu lǎo shī fā de zhè liǎng zhāng liàn xí.",
+        "exampleTr": "Bu kitap ve öğretmenin verdiği bu iki alıştırma kâğıdı.",
         "kind": "active"
       },
       {
@@ -88,9 +88,9 @@
         "zh": "今天",
         "pinyin": "jīntiān",
         "tr": "bugün",
-        "exampleZh": "今天很好。",
-        "examplePinyin": "Jīntiān hěn hǎo.",
-        "exampleTr": "Bugün çok güzel.",
+        "exampleZh": "你今天已经学习很久了吧？",
+        "examplePinyin": "Nǐ jīn tiān yǐ jīng xué xí hěn jiǔ le ba?",
+        "exampleTr": "Bugün zaten uzun süre çalıştın, değil mi?",
         "kind": "review"
       },
       {
@@ -98,9 +98,9 @@
         "zh": "晚上",
         "pinyin": "wǎnshang",
         "tr": "akşam",
-        "exampleZh": "晚上见。",
-        "examplePinyin": "Wǎnshang jiàn.",
-        "exampleTr": "Akşam görüşürüz.",
+        "exampleZh": "已经是晚上了，复习完也要留时间休息。",
+        "examplePinyin": "Yǐ jīng shì wǎn shàng le, fù xí wán yě yào liú shí jiān xiū xī.",
+        "exampleTr": "Artık akşam oldu; tekrardan sonra dinlenmeye de zaman bırakmalısın.",
         "kind": "review"
       }
     ],
@@ -110,41 +110,41 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "考试",
-          "在",
-          "这里"
+          "明天",
+          "我",
+          "要考试"
         ],
         "answerTokens": [
-          "考试",
-          "在",
-          "这里"
+          "我",
+          "明天",
+          "要考试"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC043_002",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "这是___。",
+        "blankSentenceZh": "这是新___的第一次考试。",
         "options": [
-          "考试",
           "学校",
-          "书"
+          "商店",
+          "医院"
         ],
-        "answer": "考试"
+        "answer": "学校"
       },
       {
         "id": "SENT_ZH_HSK1_SC043_003",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "这里",
-          "在",
-          "学校"
+          "看完问题",
+          "先",
+          "再写答案"
         ],
         "answerTokens": [
-          "学校",
-          "在",
-          "这里"
+          "先",
+          "看完问题",
+          "再写答案"
         ]
       },
       {
@@ -152,11 +152,13 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "这是",
-          "书"
+          "这本",
+          "书",
+          "我看完了"
         ],
         "answerTokens": [
-          "这是",
+          "我看完了",
+          "这本",
           "书"
         ]
       },
@@ -164,25 +166,27 @@
         "id": "SENT_ZH_HSK1_SC043_005",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "学校在___。",
+        "blankSentenceZh": "拿到___以后先看题。",
         "options": [
-          "这里",
-          "谢谢",
-          "很好"
+          "试卷",
+          "水杯",
+          "猫粮"
         ],
-        "answer": "这里"
+        "answer": "试卷"
       },
       {
         "id": "SENT_ZH_HSK1_SC043_006",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "在哪儿",
-          "考试"
+          "老师说的",
+          "拿出来",
+          "内容"
         ],
         "answerTokens": [
-          "考试",
-          "在哪儿"
+          "老师说的",
+          "内容",
+          "拿出来"
         ]
       },
       {
@@ -190,82 +194,82 @@
         "type": "word_order",
         "promptTr": "Kelimeleri doğru sıraya koy.",
         "tokens": [
-          "我",
-          "喜欢",
-          "书"
+          "学习",
+          "今天",
+          "很久了"
         ],
         "answerTokens": [
-          "我",
-          "喜欢",
-          "书"
+          "今天",
+          "学习",
+          "很久了"
         ]
       },
       {
         "id": "SENT_ZH_HSK1_SC043_008",
         "type": "fill_blank",
         "promptTr": "Boşluğu doğru kelimeyle doldur.",
-        "blankSentenceZh": "___，谢谢。",
+        "blankSentenceZh": "___复习完要休息。",
         "options": [
-          "好的",
-          "在哪儿",
-          "不是"
+          "晚上",
+          "学校",
+          "书"
         ],
-        "answer": "好的"
+        "answer": "晚上"
       },
       {
         "id": "SENT_ZH_HSK1_SC043_009",
         "type": "sentence_repair",
         "promptTr": "Yanlış sıradaki cümleyi düzelt.",
         "tokens": [
-          "一起",
-          "我们",
-          "吧"
+          "书包",
+          "收好",
+          "早点休息"
         ],
         "answerTokens": [
-          "我们",
-          "一起",
-          "吧"
+          "收好",
+          "书包",
+          "早点休息"
         ]
       }
     ],
     "comprehensionQuestions": [
       {
         "id": "COMP_ZH_HSK1_SC043_001",
-        "questionTr": "Bu sahnenin ana olayı nedir?",
+        "questionTr": "Yutong neden endişelidir?",
         "optionsTr": [
-          "Yutong’un İlk Sınavı",
-          "Bir havaalanı yolculuğu",
-          "Bir spor maçı"
+          "Yeni okuldaki ilk sınavı vardır",
+          "Mağazada ürün arar",
+          "Treni kaçırır"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC043_002",
-        "questionTr": "Sahnede küçük bir sorun yaşanıyor mu?",
+        "questionTr": "Yanlış yaptığı soruda neyi atlamıştır?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Belli değil"
+          "Son cümleyi",
+          "Bütün kitabı",
+          "Kendi adını"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK1_SC043_003",
-        "questionTr": "Sorun sahne sonunda çözülüyor mu?",
+        "questionTr": "Aile bu akşam nasıl çalışmayı önerir?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sahne bitmiyor"
+          "Bütün kitabı yeniden yazmak",
+          "Yalnızca emin olmadığı yerlere bakmak",
+          "Hiç ara vermemek"
         ],
-        "correctIndex": 0
+        "correctIndex": 1
       },
       {
         "id": "COMP_ZH_HSK1_SC043_004",
-        "questionTr": "Sahnenin amacı hangi hikâyeye bağlıdır?",
+        "questionTr": "Lele ertesi gün ne yapacaktır?",
         "optionsTr": [
-          "Zhang ailesinin yeni kasabadaki yaşamına",
-          "Bir tarih belgeseline",
-          "Bir spor turnuvasına"
+          "Aile resmini sınıfta anlatmak",
+          "Sınav kâğıdını satmak",
+          "Mimi’yi mağazaya götürmek"
         ],
         "correctIndex": 0
       }
@@ -273,9 +277,9 @@
     "pronunciationItems": [
       {
         "id": "PRON_ZH_HSK1_SC043_001",
-        "zh": "这是考试。",
-        "pinyin": "Zhè shì kǎoshì.",
-        "tr": "Bu sınav.",
+        "zh": "妈妈，我明天要考试，书看完了，可心里还是不安。",
+        "pinyin": "Mā ma, wǒ míng tiān yào kǎo shì, shū kàn wán le, kě xīn lǐ hái shì bù ān.",
+        "tr": "Anne, yarın sınavım var; kitabı bitirdim ama içim hâlâ rahat değil.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -286,9 +290,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC043_002",
-        "zh": "我在学习。",
-        "pinyin": "Wǒ zài xuéxí.",
-        "tr": "Ders çalışıyorum.",
+        "zh": "你今天已经学习很久了吧？",
+        "pinyin": "Nǐ jīn tiān yǐ jīng xué xí hěn jiǔ le ba?",
+        "tr": "Bugün zaten uzun süre çalıştın, değil mi?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -299,9 +303,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC043_003",
-        "zh": "这是学校。",
-        "pinyin": "Zhè shì xuéxiào.",
-        "tr": "Bu okul.",
+        "zh": "我怕拿到试卷以后，一个字都想不起来。",
+        "pinyin": "Wǒ pà ná dào shì juàn yǐ hòu, yí gè zì dōu xiǎng bù qǐ lái.",
+        "tr": "Sınav kâğıdını alınca hiçbir şeyi hatırlayamamaktan korkuyorum.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -312,9 +316,9 @@
       },
       {
         "id": "PRON_ZH_HSK1_SC043_004",
-        "zh": "这是书。",
-        "pinyin": "Zhè shì shū.",
-        "tr": "Bu kitap.",
+        "zh": "已经是晚上了，复习完也要留时间休息。",
+        "pinyin": "Yǐ jīng shì wǎn shàng le, fù xí wán yě yào liú shí jiān xiū xī.",
+        "tr": "Artık akşam oldu; tekrardan sonra dinlenmeye de zaman bırakmalısın.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -327,69 +331,54 @@
     "interactiveDialogue": [
       {
         "id": "INT_ZH_HSK1_SC043_001",
-        "promptZh": "考试在哪儿？",
-        "promptPinyin": "Kǎoshì zài nǎr?",
-        "promptTr": "Sınav nerede?",
+        "promptZh": "看到难题很紧张，怎么办？",
+        "promptPinyin": "Kàn dào nán tí hěn jǐn zhāng, zěn me bàn?",
+        "promptTr": "Zor soruyu görünce heyecanlanınca ne yapmalı?",
         "options": [
           {
-            "zh": "在这里。",
-            "tr": "Burada.",
+            "zh": "先看会的题，再慢慢做。",
+            "tr": "Önce bildiğim sorulara bakıp yavaşça yaparım.",
             "correct": true
           },
           {
-            "zh": "谢谢。",
-            "tr": "Teşekkürler.",
-            "correct": false
-          },
-          {
-            "zh": "我很好。",
-            "tr": "Ben iyiyim.",
+            "zh": "不读完就写。",
+            "tr": "Bitirmeden yazarım.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC043_002",
-        "promptZh": "这是学校吗？",
-        "promptPinyin": "Zhè shì xuéxiào ma?",
-        "promptTr": "Bu okul mı?",
+        "promptZh": "写错一个字，说明什么？",
+        "promptPinyin": "Xiě cuò yí gè zì, shuō míng shén me?",
+        "promptTr": "Bir kelimeyi yanlış yazmak ne anlama gelir?",
         "options": [
           {
-            "zh": "对，是的。",
-            "tr": "Evet.",
+            "zh": "知道哪里要改。",
+            "tr": "Nereyi düzelteceğimi anlarım.",
             "correct": true
           },
           {
-            "zh": "我叫张伟。",
-            "tr": "Benim adım Zhang Wei.",
-            "correct": false
-          },
-          {
-            "zh": "明天见。",
-            "tr": "Yarın görüşürüz.",
+            "zh": "什么都不会。",
+            "tr": "Hiçbir şey bilmiyorum.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK1_SC043_003",
-        "promptZh": "你喜欢书吗？",
-        "promptPinyin": "Nǐ xǐhuan shū ma?",
-        "promptTr": "Kitap seviyor musun?",
+        "promptZh": "晚上复习完以后呢？",
+        "promptPinyin": "Wǎn shàng fù xí wán yǐ hòu ne?",
+        "promptTr": "Akşam tekrarı bitirince ne yapmalı?",
         "options": [
           {
-            "zh": "喜欢。",
-            "tr": "Seviyorum.",
+            "zh": "收好书包，早点休息。",
+            "tr": "Çantayı hazırlayıp erken dinlenirim.",
             "correct": true
           },
           {
-            "zh": "在右边。",
-            "tr": "Sağ tarafta.",
-            "correct": false
-          },
-          {
-            "zh": "五点。",
-            "tr": "Saat beş.",
+            "zh": "一直看时间，不休息。",
+            "tr": "Sürekli saate bakıp dinlenmem.",
             "correct": false
           }
         ]
@@ -429,702 +418,720 @@
     {
       "id": "DLG_ZH_HSK1_SC043_001",
       "speaker": "张雨桐",
-      "zh": "雨桐明天有第一次考试。",
-      "pinyin": "Yǔtóng míngtiān yǒu dìyīcì kǎoshì.",
-      "tr": "Yutong’un yarın ilk sınavı var."
+      "zh": "妈妈，我明天要考试，书看完了，可心里还是不安。",
+      "pinyin": "Mā ma, wǒ míng tiān yào kǎo shì, shū kàn wán le, kě xīn lǐ hái shì bù ān.",
+      "tr": "Anne, yarın sınavım var; kitabı bitirdim ama içim hâlâ rahat değil.",
+      "emotion": "worried",
+      "actionTr": "Yutong kitabını bitirse de ilk sınav için endişesini söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_002",
       "speaker": "刘梅",
-      "zh": "是吗？",
-      "pinyin": "Shì ma?",
-      "tr": "Öyle mi?"
+      "zh": "先坐一会儿，你最担心什么？",
+      "pinyin": "Xiān zuò yī huì er, nǐ zuì dān xīn shén me?",
+      "tr": "Önce biraz otur, en çok neden endişeleniyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_003",
       "speaker": "张伟",
-      "zh": "对。",
-      "pinyin": "Duì.",
-      "tr": "Evet."
+      "zh": "我们已经把咪咪照顾好了，今晚可以陪你看看。",
+      "pinyin": "Wǒ men yǐ jīng bǎ mī mī zhào gù hǎo le, jīn wǎn kě yǐ péi nǐ kàn kàn.",
+      "tr": "Mimi’nin bakımını yaptık; bu akşam seninle birlikte bakabiliriz."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_004",
       "speaker": "张乐乐",
-      "zh": "准备得怎么样了？",
-      "pinyin": "Zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısınız?"
+      "zh": "姐姐，你是怕题太难，还是怕忘了？",
+      "pinyin": "Jiě jie, nǐ shì pà tí tài nán, hái shì pà wàng le?",
+      "tr": "Abla, soruların zor olmasından mı, unutmaktan mı korkuyorsun?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_005",
       "speaker": "张雨桐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırız."
+      "zh": "都怕，这是我到新学校后的第一次考试。",
+      "pinyin": "Dōu pà, zhè shì wǒ dào xīn xué xiào hòu de dì yī cì kǎo shì.",
+      "tr": "İkisinden de; yeni okula geldikten sonraki ilk sınavım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_006",
       "speaker": "刘梅",
-      "zh": "今天有考试吗？",
-      "pinyin": "Jīntiān yǒu kǎoshì ma?",
-      "tr": "Bugün sınav var mı?"
+      "zh": "新地方让人紧张，准备过的东西不会一下都忘掉。",
+      "pinyin": "Xīn dì fāng ràng rén jǐn zhāng, zhǔn bèi guò de dōng xi bú huì yī xià dōu wàng diào.",
+      "tr": "Yeni bir yer insanı heyecanlandırır; hazırlandığın her şeyi birden unutmazsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_007",
       "speaker": "张伟",
-      "zh": "没错。",
-      "pinyin": "Méicuò.",
-      "tr": "Evet."
+      "zh": "把老师说要看的内容拿出来，我们先确认一下。",
+      "pinyin": "Bǎ lǎo shī shuō yào kàn de nèi róng ná chū lái, wǒ men xiān què rèn yī xià.",
+      "tr": "Öğretmenin bakmanızı söylediği konuları çıkar, önce kontrol edelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_008",
       "speaker": "张乐乐",
-      "zh": "都准备好了吗？",
-      "pinyin": "Dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "我把桌上的杯子拿开，给你放书。",
+      "pinyin": "Wǒ bǎ zhuō shàng de bēi zi ná kāi, gěi nǐ fàng shū.",
+      "tr": "Masadaki bardağı kaldırayım, kitabına yer açılsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_009",
       "speaker": "张雨桐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "这本书，还有老师发的这两张练习。",
+      "pinyin": "Zhè běn shū, hái yǒu lǎo shī fā de zhè liǎng zhāng liàn xí.",
+      "tr": "Bu kitap ve öğretmenin verdiği bu iki alıştırma kâğıdı."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_010",
       "speaker": "刘梅",
-      "zh": "你在学习吗？",
-      "pinyin": "Nǐ zài xuéxí ma?",
-      "tr": "Ders mi çalışıyorsun?"
+      "zh": "你今天已经学习很久了吧？",
+      "pinyin": "Nǐ jīn tiān yǐ jīng xué xí hěn jiǔ le ba?",
+      "tr": "Bugün zaten uzun süre çalıştın, değil mi?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_011",
       "speaker": "张伟",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "我们只看不放心的地方，不用从头再看一遍。",
+      "pinyin": "Wǒ men zhǐ kàn bù fàng xīn de dì fāng, bù yòng cóng tóu zài kàn yī biàn.",
+      "tr": "Yalnızca emin olmadığın yerlere bakalım; baştan okumaya gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_012",
       "speaker": "张乐乐",
-      "zh": "那都准备好了吗？",
-      "pinyin": "Nà dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "我坐旁边，不碰你的纸。",
+      "pinyin": "Wǒ zuò páng biān, bù pèng nǐ de zhǐ.",
+      "tr": "Yanında oturayım, kâğıtlarına dokunmam."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_013",
       "speaker": "张雨桐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "我怕拿到试卷以后，一个字都想不起来。",
+      "pinyin": "Wǒ pà ná dào shì juàn yǐ hòu, yí gè zì dōu xiǎng bù qǐ lái.",
+      "tr": "Sınav kâğıdını alınca hiçbir şeyi hatırlayamamaktan korkuyorum.",
+      "emotion": "worried",
+      "actionTr": "Sınav kâğıdını görünce unutacağını düşünür."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_014",
       "speaker": "刘梅",
-      "zh": "学校在哪儿？",
-      "pinyin": "Xuéxiào zài nǎér?",
-      "tr": "Okul nerede?"
+      "zh": "现在只是想到明天，还没真的看到题呢。",
+      "pinyin": "Xiàn zài zhǐ shì xiǎng dào míng tiān, hái méi zhēn de kàn dào tí ne.",
+      "tr": "Şimdi yalnızca yarını düşünüyorsun; soruları henüz görmedin."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_015",
       "speaker": "张伟",
-      "zh": "学校在那边。",
-      "pinyin": "Xuéxiào zài nàbiān.",
-      "tr": "Okul şu tarafta."
+      "zh": "先看一道你会的，让自己慢慢开始。",
+      "pinyin": "Xiān kàn yī dào nǐ huì de, ràng zì jǐ màn màn kāi shǐ.",
+      "tr": "Önce bildiğin bir soruya bak, yavaşça başla."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_016",
       "speaker": "张乐乐",
-      "zh": "明白了。",
-      "pinyin": "Míngbái le.",
-      "tr": "Anladım."
+      "zh": "像我画画，先画一个圆，再画别的。",
+      "pinyin": "Xiàng wǒ huà huà, xiān huà yí gè yuán, zài huà bié de.",
+      "tr": "Benim resim çizmem gibi; önce bir daire, sonra başka şeyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_017",
       "speaker": "张雨桐",
-      "zh": "太好了，谢谢。",
-      "pinyin": "Tàihǎole, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "对，一点一点来可能好一些。",
+      "pinyin": "Duì, yì diǎn yì diǎn lái kě néng hǎo yī xiē.",
+      "tr": "Evet, adım adım yapmak daha iyi olabilir."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_018",
       "speaker": "刘梅",
-      "zh": "这是书吗？",
-      "pinyin": "Zhè shì shū ma?",
-      "tr": "Bu, kitap mı?"
+      "zh": "那我们现在试一道，你自己读题。",
+      "pinyin": "Nà wǒ men xiàn zài shì yī dào, nǐ zì jǐ dú tí.",
+      "tr": "O zaman şimdi bir soruyla deneyelim; soruyu kendin oku."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_019",
       "speaker": "张伟",
-      "zh": "没错，这是书。",
-      "pinyin": "Méicuò, zhè shì shū.",
-      "tr": "Evet, bu kitap."
+      "zh": "先告诉我们题里让你做什么，不急着答。",
+      "pinyin": "Xiān gào sù wǒ men tí lǐ ràng nǐ zuò shén me, bù jí zhe dá.",
+      "tr": "Önce sorunun ne istediğini söyle; yanıt vermeye acele etme."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_020",
       "speaker": "张乐乐",
-      "zh": "请问，书在哪儿？",
-      "pinyin": "Qǐngwèn, shū zài nǎér?",
-      "tr": "Kitap nerede?"
+      "zh": "我也听，不过我不会先说答案。",
+      "pinyin": "Wǒ yě tīng, bù guò wǒ bú huì xiān shuō dá àn.",
+      "tr": "Ben de dinliyorum ama cevabı önce söylemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_021",
       "speaker": "张雨桐",
-      "zh": "你看，书在这儿。",
-      "pinyin": "Nǐ kàn, shū zài zhèér.",
-      "tr": "Kitap burada."
+      "zh": "这里问今天有几个人去学校。",
+      "pinyin": "Zhè lǐ wèn jīn tiān yǒu jǐ gè rén qù xué xiào.",
+      "tr": "Burada bugün kaç kişinin okula gittiği soruluyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_022",
       "speaker": "刘梅",
-      "zh": "她觉得有一点难。",
-      "pinyin": "Tā juéde yǒu yìdiǎn nán.",
-      "tr": "Biraz zor olduğunu düşünüyor."
+      "zh": "你已经知道问的是什么了，接着看下面。",
+      "pinyin": "Nǐ yǐ jīng zhī dào wèn de shì shén me le, jiē zhe kàn xià miàn.",
+      "tr": "Ne sorulduğunu anladın; şimdi altına bak."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_023",
       "speaker": "张伟",
-      "zh": "别急。",
-      "pinyin": "Biéjí.",
-      "tr": "Panik yapma."
+      "zh": "名字旁边有数字，你可以自己找。",
+      "pinyin": "Míng zi páng biān yǒu shù zì, nǐ kě yǐ zì jǐ zhǎo.",
+      "tr": "İsimlerin yanında sayılar var; kendin bulabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_024",
       "speaker": "张乐乐",
-      "zh": "我来看看。",
-      "pinyin": "Wǒlái kànkàn.",
-      "tr": "Ben bir bakayım."
+      "zh": "姐姐拿笔的时候，手没有刚才那么快了。",
+      "pinyin": "Jiě jie ná bǐ de shí hòu, shǒu méi yǒu gāng cái nà me kuài le.",
+      "tr": "Abla kalemi tutarken eli az önceki kadar hızlı hareket etmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_025",
       "speaker": "张雨桐",
-      "zh": "我们一起吧。",
-      "pinyin": "Wǒmen yìqǐ ba.",
-      "tr": "Birlikte yapalım."
+      "zh": "我找到两个名字，所以答案是两个人。",
+      "pinyin": "Wǒ zhǎo dào liǎng gè míng zi, suǒ yǐ dá àn shì liǎng gè rén.",
+      "tr": "İki isim buldum; cevap iki kişi.",
+      "emotion": "happy",
+      "actionTr": "Yutong sorudaki iki ismi bulur."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_026",
       "speaker": "刘梅",
-      "zh": "好的。",
-      "pinyin": "Hǎo de.",
-      "tr": "Tamam."
+      "zh": "看看你写的和题目对不对。",
+      "pinyin": "Kàn kàn nǐ xiě de hé tí mù duì bú duì.",
+      "tr": "Yazdığın şeyin soruya uyup uymadığına bak."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_027",
       "speaker": "张伟",
-      "zh": "这是试卷吗？",
-      "pinyin": "Zhèshì shìjuàn ma?",
-      "tr": "Bu, sınav kâğıdı mı?"
+      "zh": "很好，你不是不会，只是开始时太急。",
+      "pinyin": "Hěn hǎo, nǐ bú shì bú huì, zhǐ shì kāi shǐ shí tài jí.",
+      "tr": "Güzel; bilmiyor değilsin, başlangıçta fazla acele ediyorsun."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_028",
       "speaker": "张乐乐",
-      "zh": "没错，这是试卷。",
-      "pinyin": "Méicuò, zhèshì shìjuàn.",
-      "tr": "Evet, bu sınav kâğıdı."
+      "zh": "那我不给你说“快一点”了。",
+      "pinyin": "Nà wǒ bù gěi nǐ shuō “ kuài yì diǎn ” le.",
+      "tr": "O zaman sana “daha hızlı” demeyeceğim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_029",
       "speaker": "张雨桐",
-      "zh": "请问，试卷在哪儿？",
-      "pinyin": "Qǐngwèn, shìjuàn zài nǎér?",
-      "tr": "Sınav kâğıdı nerede?"
+      "zh": "谢谢，我一听快一点，就更想不起来。",
+      "pinyin": "Xiè xiè, wǒ yī tīng kuài yì diǎn, jiù gèng xiǎng bù qǐ lái.",
+      "tr": "Teşekkür ederim; daha hızlı denince hatırlamam daha da zorlaşıyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_030",
       "speaker": "刘梅",
-      "zh": "你看，试卷在这儿。",
-      "pinyin": "Nǐ kàn, shìjuàn zài zhèér.",
-      "tr": "Sınav kâğıdı burada."
+      "zh": "我们不催你，这里还有哪里不明白？",
+      "pinyin": "Wǒ men bù cuī nǐ, zhè lǐ hái yǒu nǎ lǐ bù míng bái?",
+      "tr": "Seni acele ettirmeyeceğiz; burada başka nereyi anlamadın?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_031",
       "speaker": "张伟",
-      "zh": "这是我们的老师。",
-      "pinyin": "Zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "把不懂的地方指出来，一次看一个。",
+      "pinyin": "Bǎ bù dǒng de dì fāng zhǐ chū lái, yī cì kàn yí gè.",
+      "tr": "Anlamadığın yeri göster; birer birer bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_032",
       "speaker": "张乐乐",
-      "zh": "你好！",
-      "pinyin": "Nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "我把这张放旁边，别和另一张混在一起。",
+      "pinyin": "Wǒ bǎ zhè zhāng fàng páng biān, bié hé lìng yī zhāng hùn zài yì qǐ.",
+      "tr": "Bu kâğıdı kenara koyayım; diğeriyle karışmasın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_033",
       "speaker": "张雨桐",
-      "zh": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "这一题我做错了，两次都少看了最后一句。",
+      "pinyin": "Zhè yī tí wǒ zuò cuò le, liǎng cì dōu shǎo kàn le zuì hòu yī jù.",
+      "tr": "Bu soruyu yanlış yaptım; iki seferde de son cümleyi atladım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_034",
       "speaker": "刘梅",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "那不是所有内容都不会，是漏看了一句。",
+      "pinyin": "Nà bú shì suǒ yǒu nèi róng dōu bú huì, shì lòu kàn le yī jù.",
+      "tr": "Bu, her şeyi bilmediğin anlamına gelmez; bir cümleyi atlamışsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_035",
       "speaker": "张伟",
-      "zh": "今天忙吗？",
-      "pinyin": "Jīntiān máng ma?",
-      "tr": "Bugün yoğun musun?"
+      "zh": "你再读到最后，看看答案会不会变。",
+      "pinyin": "Nǐ zài dú dào zuì hòu, kàn kàn dá àn huì bú huì biàn.",
+      "tr": "Sonuna kadar yeniden oku; cevabın değişiyor mu bak."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_036",
       "speaker": "张乐乐",
-      "zh": "有一点。",
-      "pinyin": "Yǒu yìdiǎn.",
-      "tr": "Biraz."
+      "zh": "我等你读完，不插话。",
+      "pinyin": "Wǒ děng nǐ dú wán, bù chā huà.",
+      "tr": "Bitirmeni bekleyeceğim, sözünü kesmem."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_037",
       "speaker": "张雨桐",
-      "zh": "没关系。",
-      "pinyin": "Méiguānxì.",
-      "tr": "Sorun değil."
+      "zh": "最后说有一个人没去，所以应该是一人。",
+      "pinyin": "Zuì hòu shuō yǒu yí gè rén méi qù, suǒ yǐ yīng gāi shì yī rén.",
+      "tr": "Sonunda bir kişinin gitmediği yazıyor; o yüzden bir kişi olmalı.",
+      "emotion": "curious",
+      "actionTr": "Son cümleyi yeniden okuyup yanıtını düzeltir."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_038",
       "speaker": "刘梅",
-      "zh": "我们继续。",
-      "pinyin": "Wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "对，你自己找到原因了。",
+      "pinyin": "Duì, nǐ zì jǐ zhǎo dào yuán yīn le.",
+      "tr": "Evet, nedenini kendin buldun."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_039",
       "speaker": "张伟",
-      "zh": "晚上有时间吗？",
-      "pinyin": "Wǎnshàng yǒu shíjiān ma?",
-      "tr": "Akşam vaktin var mı?"
+      "zh": "明天也记住看完问题，再写答案。",
+      "pinyin": "Míng tiān yě jì zhù kàn wán wèn tí, zài xiě dá àn.",
+      "tr": "Yarın da soruyu bitirip sonra yanıt yazmayı hatırla."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_040",
       "speaker": "张乐乐",
-      "zh": "有。",
-      "pinyin": "Yǒu.",
-      "tr": "Var."
+      "zh": "我也要听完老师的话再开始画。",
+      "pinyin": "Wǒ yě yào tīng wán lǎo shī de huà zài kāi shǐ huà.",
+      "tr": "Ben de öğretmenin söylediklerini bitirip sonra çizime başlamalıyım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_041",
       "speaker": "张雨桐",
-      "zh": "晚上见。",
-      "pinyin": "Wǎnshàng jiàn.",
-      "tr": "Akşam görüşürüz."
+      "zh": "弟弟，你明天也有事要做吗？",
+      "pinyin": "Dì di, nǐ míng tiān yě yǒu shì yào zuò ma?",
+      "tr": "Kardeşim, yarın senin de yapacağın bir şey var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_042",
       "speaker": "刘梅",
-      "zh": "好。",
-      "pinyin": "Hǎo.",
-      "tr": "Tamam."
+      "zh": "先让姐姐把这里看完，你的事一会儿再说。",
+      "pinyin": "Xiān ràng jiě jie bǎ zhè lǐ kàn wán, nǐ de shì yī huì er zài shuō.",
+      "tr": "Önce ablan burayı bitirsin; seninkini birazdan konuşuruz."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_043",
       "speaker": "张伟",
-      "zh": "家人陪她一起学习。",
-      "pinyin": "Jiārén péi tā yìqǐ xuéxí.",
-      "tr": "Ailesi onunla birlikte çalışıyor."
+      "zh": "这两题看清楚了，还有别的要问吗？",
+      "pinyin": "Zhè liǎng tí kàn qīng chǔ le, hái yǒu bié de yào wèn ma?",
+      "tr": "Bu iki soru anlaşıldı; başka sormak istediğin var mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_044",
       "speaker": "张乐乐",
-      "zh": "太好了！",
-      "pinyin": "Tàihǎole!",
-      "tr": "Harika!"
+      "zh": "我先记住自己的事，等姐姐。",
+      "pinyin": "Wǒ xiān jì zhù zì jǐ de shì, děng jiě jie.",
+      "tr": "Ben kendi işimi aklımda tutayım, ablamı bekleyeyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_045",
       "speaker": "张雨桐",
-      "zh": "谢谢你。",
-      "pinyin": "Xièxiè nǐ.",
-      "tr": "Teşekkür ederim."
+      "zh": "还有几个词，我读得出来，可是容易写错。",
+      "pinyin": "Hái yǒu jǐ gè cí, wǒ dú de chū lái, kě shì róng yì xiě cuò.",
+      "tr": "Birkaç kelime daha var; okuyabiliyorum ama yazarken kolayca hata yapıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_046",
       "speaker": "刘梅",
-      "zh": "不客气。",
-      "pinyin": "Bù kèqì.",
-      "tr": "Rica ederim."
+      "zh": "挑两个最不熟的，别把整本书都抄一遍。",
+      "pinyin": "Tiāo liǎng gè zuì bù shú de, bié bǎ zhěng běn shū dōu chāo yī biàn.",
+      "tr": "En az bildiğin ikisini seç; bütün kitabı yeniden kopyalama."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_047",
       "speaker": "张伟",
-      "zh": "现在好了。",
-      "pinyin": "Xiànzài hǎo le.",
-      "tr": "Şimdi tamam."
+      "zh": "看一次，盖住，再试着写出来。",
+      "pinyin": "Kàn yī cì, gài zhù, zài shì zhe xiě chū lái.",
+      "tr": "Bir kez bak, üzerini kapat ve yazmayı dene."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_048",
       "speaker": "张乐乐",
-      "zh": "嗯，我们继续。",
-      "pinyin": "En, wǒmen jìxù.",
-      "tr": "Devam edelim."
+      "zh": "我能帮你挡住这一行吗？",
+      "pinyin": "Wǒ néng bāng nǐ dǎng zhù zhè yī háng ma?",
+      "tr": "Bu satırı kapatmana yardım edebilir miyim?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_049",
       "speaker": "张雨桐",
-      "zh": "那今天有考试吗？",
-      "pinyin": "Nà jīntiān yǒu kǎoshì ma?",
-      "tr": "Bugün sınav var mı?"
+      "zh": "可以，只挡这一行，下面还有别的字。",
+      "pinyin": "Kě yǐ, zhǐ dǎng zhè yī xíng, xià miàn hái yǒu bié de zì.",
+      "tr": "Olur, yalnızca bu satırı kapat; altında başka kelimeler var."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_050",
       "speaker": "刘梅",
-      "zh": "是。",
-      "pinyin": "Shì.",
-      "tr": "Evet."
+      "zh": "写完再打开看看，错了就知道要改哪里。",
+      "pinyin": "Xiě wán zài dǎ kāi kàn kàn, cuò le jiù zhī dào yào gǎi nǎ lǐ.",
+      "tr": "Yazdıktan sonra açıp bak; yanlışsa nereyi düzelteceğini anlarsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_051",
       "speaker": "张伟",
-      "zh": "现在都准备好了吗？",
-      "pinyin": "Xiànzài dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "不用因为一个字错了就说自己什么都不会。",
+      "pinyin": "Bù yòng yīn wèi yí gè zì cuò le jiù shuō zì jǐ shén me dōu bú huì.",
+      "tr": "Bir kelimeyi yanlış yazdın diye hiçbir şey bilmediğini söylemene gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_052",
       "speaker": "张乐乐",
-      "zh": "准备好了。",
-      "pinyin": "Zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "我画错一只手的时候，也不能把整张都说成不好。",
+      "pinyin": "Wǒ huà cuò yī zhī shǒu de shí hòu, yě bù néng bǎ zhěng zhāng dōu shuō chéng bù hǎo.",
+      "tr": "Bir eli yanlış çizince ben de bütün resim kötü diyemem."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_053",
       "speaker": "张雨桐",
-      "zh": "那你在学习吗？",
-      "pinyin": "Nà nǐ zài xuéxí ma?",
-      "tr": "Ders mi çalışıyorsun?"
+      "zh": "这句话让我好受一点，我总是看着错的地方。",
+      "pinyin": "Zhè jù huà ràng wǒ hǎo shòu yì diǎn, wǒ zǒng shì kàn zhe cuò de dì fāng.",
+      "tr": "Bu söz beni biraz rahatlattı; hep yanlışlara bakıyorum.",
+      "emotion": "sad",
+      "actionTr": "Yutong yalnızca yanlışlarına baktığını fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_054",
       "speaker": "刘梅",
-      "zh": "嗯，对。",
-      "pinyin": "En, duì.",
-      "tr": "Evet."
+      "zh": "改错很有用，也要看到已经学会的。",
+      "pinyin": "Gǎi cuò hěn yǒu yòng, yě yào kàn dào yǐ jīng xué huì de.",
+      "tr": "Yanlışları düzeltmek yararlı; öğrendiklerini de görmelisin."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_055",
       "speaker": "张伟",
-      "zh": "那准备得怎么样了？",
-      "pinyin": "Nà zhǔnbèi dé zěnmeyàng le?",
-      "tr": "Hazır mısın?"
+      "zh": "你刚才两道题都自己说清楚了。",
+      "pinyin": "Nǐ gāng cái liǎng dào tí dōu zì jǐ shuō qīng chǔ le.",
+      "tr": "Az önce iki soruyu da kendin açıkça anlattın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_056",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "还有这个字，你已经写对了。",
+      "pinyin": "Hái yǒu zhè ge zì, nǐ yǐ jīng xiě duì le.",
+      "tr": "Bir de bu kelimeyi artık doğru yazdın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_057",
       "speaker": "张雨桐",
-      "zh": "学校呢？",
-      "pinyin": "Xuéxiào ne?",
-      "tr": "Okul nerede?"
+      "zh": "真的，我刚才一直没看到它。",
+      "pinyin": "Zhēn de, wǒ gāng cái yì zhí méi kàn dào tā.",
+      "tr": "Gerçekten, az önce hiç fark etmemiştim.",
+      "emotion": "happy",
+      "actionTr": "Doğru yazdığı kelimeyi fark eder."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_058",
       "speaker": "刘梅",
-      "zh": "你看，学校在那边。",
-      "pinyin": "Nǐ kàn, xuéxiào zài nàbiān.",
-      "tr": "Okul şu tarafta."
+      "zh": "现在把要看的几处放一起，其他书可以收起来。",
+      "pinyin": "Xiàn zài bǎ yào kàn de jǐ chù fàng yì qǐ, qí tā shū kě yǐ shōu qǐ lái.",
+      "tr": "Şimdi bakacağın birkaç yeri bir araya koy; diğer kitapları kaldırabilirsin."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_059",
       "speaker": "张伟",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "桌子收拾整齐一点，心里也不会那么乱。",
+      "pinyin": "Zhuō zi shōu shí zhěng qí yì diǎn, xīn lǐ yě bú huì nà me luàn.",
+      "tr": "Masa biraz düzenlenince kafan da o kadar karışmaz."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_060",
       "speaker": "张乐乐",
-      "zh": "嗯，谢谢。",
-      "pinyin": "En, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我把不用的书放回去，姐姐说放哪本。",
+      "pinyin": "Wǒ bǎ bù yòng de shū fàng huí qù, jiě jie shuō fàng nǎ běn.",
+      "tr": "Kullanılmayan kitabı geri koyayım; ablam hangisi olduğunu söylesin."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_061",
       "speaker": "张雨桐",
-      "zh": "那这是书吗？",
-      "pinyin": "Nà zhè shì shū ma?",
-      "tr": "Bu, kitap mı?"
+      "zh": "把这本放回书架吧，这两张留下。",
+      "pinyin": "Bǎ zhè běn fàng huí shū jià ba, zhè liǎng zhāng liú xià.",
+      "tr": "Bu kitabı rafa koy; bu iki kâğıt kalsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_062",
       "speaker": "刘梅",
-      "zh": "对，这是书。",
-      "pinyin": "Duì, zhè shì shū.",
-      "tr": "Evet, bu kitap."
+      "zh": "你想再看一会儿，还是先喝点水？",
+      "pinyin": "Nǐ xiǎng zài kàn yī huì er, hái shì xiān hē diǎn shuǐ?",
+      "tr": "Biraz daha bakmak mı, önce su içmek mi istersin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_063",
       "speaker": "张伟",
-      "zh": "书在哪儿？",
-      "pinyin": "Shū zài nǎér?",
-      "tr": "Kitap nerede?"
+      "zh": "已经是晚上了，复习完也要留时间休息。",
+      "pinyin": "Yǐ jīng shì wǎn shàng le, fù xí wán yě yào liú shí jiān xiū xī.",
+      "tr": "Artık akşam oldu; tekrardan sonra dinlenmeye de zaman bırakmalısın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_064",
       "speaker": "张乐乐",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Kitap burada."
+      "zh": "水杯在这里，我没有放在试卷上。",
+      "pinyin": "Shuǐ bēi zài zhè lǐ, wǒ méi yǒu fàng zài shì juàn shàng.",
+      "tr": "Bardak burada; sınav kâğıdının üzerine koymadım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_065",
       "speaker": "张雨桐",
-      "zh": "这个是试卷吗？",
-      "pinyin": "Zhège shì shìjuàn ma?",
-      "tr": "Bu, sınav kâğıdı mı?"
+      "zh": "先喝水吧，我刚才一直没停。",
+      "pinyin": "Xiān hē shuǐ ba, wǒ gāng cái yì zhí méi tíng.",
+      "tr": "Önce su içeyim; az önce hiç ara vermedim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_066",
       "speaker": "刘梅",
-      "zh": "对，这是试卷。",
-      "pinyin": "Duì, zhèshì shìjuàn.",
-      "tr": "Evet, bu sınav kâğıdı."
+      "zh": "慢慢喝，我们顺便看看明天带的东西。",
+      "pinyin": "Màn màn hē, wǒ men shùn biàn kàn kàn míng tiān dài de dōng xi.",
+      "tr": "Yavaşça iç; bir yandan yarın götüreceklerine bakalım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_067",
       "speaker": "张伟",
-      "zh": "试卷呢？",
-      "pinyin": "Shìjuàn ne?",
-      "tr": "Sınav kâğıdı nerede?"
+      "zh": "笔和学校需要的东西都准备了吗？",
+      "pinyin": "Bǐ hé xué xiào xū yào de dōng xi dōu zhǔn bèi le ma?",
+      "tr": "Kalem ve okulun istediği şeyler hazır mı?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_068",
       "speaker": "张乐乐",
-      "zh": "试卷在这里。",
-      "pinyin": "Shìjuàn zài zhèlǐ.",
-      "tr": "Sınav kâğıdı burada."
+      "zh": "书包在椅子上，我给你拿过来。",
+      "pinyin": "Shū bāo zài yǐ zi shàng, wǒ gěi nǐ ná guò lái.",
+      "tr": "Çantan sandalyede; sana getireyim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_069",
       "speaker": "张雨桐",
-      "zh": "嗯，这是我们的老师。",
-      "pinyin": "En, zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "两支笔在里面，老师说要带的东西也放好了。",
+      "pinyin": "Liǎng zhī bǐ zài lǐ miàn, lǎo shī shuō yào dài de dōng xi yě fàng hǎo le.",
+      "tr": "İçinde iki kalem var; öğretmenin istediklerini de koydum."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_070",
       "speaker": "刘梅",
-      "zh": "你好啊！",
-      "pinyin": "Nǐhǎo a!",
-      "tr": "Merhaba!"
+      "zh": "那就不用明天早上着急找了。",
+      "pinyin": "Nà jiù bù yòng míng tiān zǎo shàng zháo jí zhǎo le.",
+      "tr": "O zaman yarın sabah aceleyle aramana gerek kalmaz."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_071",
       "speaker": "张伟",
-      "zh": "嗯，很高兴认识你。",
-      "pinyin": "En, hěn gāoxìng rènshí nǐ.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "把书包放在门边，今晚别再拿里面的笔。",
+      "pinyin": "Bǎ shū bāo fàng zài mén biān, jīn wǎn bié zài ná lǐ miàn de bǐ.",
+      "tr": "Çantanı kapının yanına koy; bu akşam içindeki kalemleri tekrar alma."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_072",
       "speaker": "张乐乐",
-      "zh": "嗯，我也是。",
-      "pinyin": "En, wǒ yě shì.",
-      "tr": "Ben de."
+      "zh": "我有自己的笔，不拿姐姐的。",
+      "pinyin": "Wǒ yǒu zì jǐ de bǐ, bù ná jiě jie de.",
+      "tr": "Benim kendi kalemim var; ablamınkini almam."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_073",
       "speaker": "张雨桐",
-      "zh": "现在今天有考试吗？",
-      "pinyin": "Xiànzài jīntiān yǒu kǎoshì ma?",
-      "tr": "Bugün sınav var mı?"
+      "zh": "如果明天题很难，我还是会紧张。",
+      "pinyin": "Rú guǒ míng tiān tí hěn nán, wǒ hái shì huì jǐn zhāng.",
+      "tr": "Yarın sorular zorsa yine heyecanlanacağım.",
+      "emotion": "worried",
+      "actionTr": "Zor sorulardan hâlâ çekindiğini açıklar."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_074",
       "speaker": "刘梅",
-      "zh": "嗯，是。",
-      "pinyin": "En, shì.",
-      "tr": "Evet."
+      "zh": "紧张也可以慢慢做，不一定要完全不紧张。",
+      "pinyin": "Jǐn zhāng yě kě yǐ màn màn zuò, bù yí dìng yào wán quán bù jǐn zhāng.",
+      "tr": "Heyecanlıyken de yavaşça yapabilirsin; hiç korkmaman gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_075",
       "speaker": "张伟",
-      "zh": "准备好了吗？",
-      "pinyin": "Zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "先做会的，遇到不明白的再按老师说的办法处理。",
+      "pinyin": "Xiān zuò huì de, yù dào bù míng bái de zài àn lǎo shī shuō de bàn fǎ chǔ lǐ.",
+      "tr": "Önce bildiklerini yap; anlamadığında öğretmenin söylediği şekilde ilerle."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_076",
       "speaker": "张乐乐",
-      "zh": "都准备好了。",
-      "pinyin": "Dōu zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "我不说你一定每题都对，但我相信你会认真看。",
+      "pinyin": "Wǒ bù shuō nǐ yí dìng měi tí dōu duì, dàn wǒ xiāng xìn nǐ huì rèn zhēn kàn.",
+      "tr": "Her soruyu kesin doğru yaparsın demiyorum ama dikkatle bakacağına inanıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_077",
       "speaker": "张雨桐",
-      "zh": "现在你在学习吗？",
-      "pinyin": "Xiànzài nǐ zài xuéxí ma?",
-      "tr": "Ders mi çalışıyorsun?"
+      "zh": "这样说比“不能错”好多了。",
+      "pinyin": "Zhè yàng shuō bǐ “ bù néng cuò ” hǎo duō le.",
+      "tr": "Bunu söylemen “yanlış yapamazsın” demenden çok daha iyi."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_078",
       "speaker": "刘梅",
-      "zh": "对，没错。",
-      "pinyin": "Duì, méicuò.",
-      "tr": "Evet."
+      "zh": "考试是看看学得怎么样，不是看你是不是好孩子。",
+      "pinyin": "Kǎo shì shì kàn kàn xué de zěn me yàng, bú shì kàn nǐ shì bú shì hǎo hái zi.",
+      "tr": "Sınav, ne öğrendiğine bakar; iyi bir çocuk olup olmadığına değil."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_079",
       "speaker": "张伟",
-      "zh": "你觉得都准备好了吗？",
-      "pinyin": "Nǐ juéde dōu zhǔnbèi hǎolema?",
-      "tr": "Hazır mısın?"
+      "zh": "考完回来，我们再一起看需要继续学习的地方。",
+      "pinyin": "Kǎo wán huí lái, wǒ men zài yì qǐ kàn xū yào jì xù xué xí de dì fāng.",
+      "tr": "Sınavdan dönünce çalışman gereken yerlere birlikte bakarız."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_080",
       "speaker": "张乐乐",
-      "zh": "嗯，准备好了。",
-      "pinyin": "En, zhǔnbèi hǎo le.",
-      "tr": "Hazırım."
+      "zh": "不管怎么样，你还是我的姐姐。",
+      "pinyin": "Bù guǎn zěn me yàng, nǐ hái shì wǒ de jiě jie.",
+      "tr": "Ne olursa olsun sen yine benim ablamsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_081",
       "speaker": "张雨桐",
-      "zh": "那学校呢？",
-      "pinyin": "Nà xuéxiào ne?",
-      "tr": "Okul nerede?"
+      "zh": "谢谢你们，我现在没刚才那么怕了。",
+      "pinyin": "Xiè xiè nǐ men, wǒ xiàn zài méi gāng cái nà me pà le.",
+      "tr": "Teşekkür ederim; şimdi az önceki kadar korkmuyorum.",
+      "emotion": "comforting",
+      "actionTr": "Aile desteğiyle korkusunun azaldığını söyler."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_082",
       "speaker": "刘梅",
-      "zh": "嗯，学校在那边。",
-      "pinyin": "En, xuéxiào zài nàbiān.",
-      "tr": "Okul şu tarafta."
+      "zh": "那把最后两个词看完，今天就到这里。",
+      "pinyin": "Nà bǎ zuì hòu liǎng gè cí kàn wán, jīn tiān jiù dào zhè lǐ.",
+      "tr": "O zaman son iki kelimeye bak; bugünlük bu kadar olsun."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_083",
       "speaker": "张伟",
-      "zh": "嗯，我懂了。",
-      "pinyin": "En, wǒ dǒng le.",
-      "tr": "Anladım."
+      "zh": "不再加新的内容，按你已经准备的来。",
+      "pinyin": "Bù zài jiā xīn de nèi róng, àn nǐ yǐ jīng zhǔn bèi de lái.",
+      "tr": "Yeni konular eklemeyelim; hazırlandıklarınla ilerleyelim."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_084",
       "speaker": "张乐乐",
-      "zh": "好，谢谢。",
-      "pinyin": "Hǎo, xièxiè.",
-      "tr": "Teşekkür ederim."
+      "zh": "我等你收好，再说我的画。",
+      "pinyin": "Wǒ děng nǐ shōu hǎo, zài shuō wǒ de huà.",
+      "tr": "Eşyalarını toplamanı bekleyeyim; sonra resmimi anlatırım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_085",
       "speaker": "张雨桐",
-      "zh": "这个是书吗？",
-      "pinyin": "Zhège shì shū ma?",
-      "tr": "Bu, kitap mı?"
+      "zh": "看完了，这次两个都写对了，我把纸收起来。",
+      "pinyin": "Kàn wán le, zhè cì liǎng gè dōu xiě duì le, wǒ bǎ zhǐ shōu qǐ lái.",
+      "tr": "Bitirdim; bu kez ikisini de doğru yazdım, kâğıdı kaldırıyorum."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_086",
       "speaker": "刘梅",
-      "zh": "对，这是书。",
-      "pinyin": "Duì, zhè shì shū.",
-      "tr": "Evet, bu kitap."
+      "zh": "好，明天要用的放好，今晚用的也收好。",
+      "pinyin": "Hǎo, míng tiān yào yòng de fàng hǎo, jīn wǎn yòng de yě shōu hǎo.",
+      "tr": "Güzel; yarın kullanacaklarını da bu akşam kullandıklarını da yerine koy."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_087",
       "speaker": "张伟",
-      "zh": "书呢？",
-      "pinyin": "Shū ne?",
-      "tr": "Kitap nerede?"
+      "zh": "早点休息，明天早上我们一起出门。",
+      "pinyin": "Zǎo diǎn xiū xī, míng tiān zǎo shàng wǒ men yì qǐ chū mén.",
+      "tr": "Erken dinlen; yarın sabah birlikte çıkarız."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_088",
       "speaker": "张乐乐",
-      "zh": "嗯，你看，书在这儿。",
-      "pinyin": "En, nǐ kàn, shū zài zhèér.",
-      "tr": "Kitap burada."
+      "zh": "姐姐，现在我可以给你看家人的画了吗？",
+      "pinyin": "Jiě jie, xiàn zài wǒ kě yǐ gěi nǐ kàn jiā rén de huà le ma?",
+      "tr": "Abla, şimdi sana aile resmimi gösterebilir miyim?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_089",
       "speaker": "张雨桐",
-      "zh": "那这是试卷吗？",
-      "pinyin": "Nà zhè shì shìjuàn ma?",
-      "tr": "Bu, sınav kâğıdı mı?"
+      "zh": "可以，我也想看，你画了谁？",
+      "pinyin": "Kě yǐ, wǒ yě xiǎng kàn, nǐ huà le shuí?",
+      "tr": "Olur, ben de görmek istiyorum; kimi çizdin?"
     },
     {
       "id": "DLG_ZH_HSK1_SC043_090",
       "speaker": "刘梅",
-      "zh": "嗯，这就是试卷。",
-      "pinyin": "En, zhè jiùshì shìjuàn.",
-      "tr": "Evet, bu sınav kâğıdı."
+      "zh": "别看太久，姐姐今天要早点睡。",
+      "pinyin": "Bié kàn tài jiǔ, jiě jie jīn tiān yào zǎo diǎn shuì.",
+      "tr": "Çok uzun bakmayalım; ablan bugün erken uyuyacak."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_091",
       "speaker": "张伟",
-      "zh": "试卷在哪儿？",
-      "pinyin": "Shìjuàn zài nǎér?",
-      "tr": "Sınav kâğıdı nerede?"
+      "zh": "先让他简单说一下，明天还有机会讲。",
+      "pinyin": "Xiān ràng tā jiǎn dān shuō yī xià, míng tiān hái yǒu jī huì jiǎng.",
+      "tr": "Önce kısaca anlatsın; yarın da anlatma fırsatı var."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_092",
       "speaker": "张乐乐",
-      "zh": "嗯，你看，试卷在这儿。",
-      "pinyin": "En, nǐ kàn, shìjuàn zài zhèér.",
-      "tr": "Sınav kâğıdı burada."
+      "zh": "我画了我们四个人，明天要在班里说。",
+      "pinyin": "Wǒ huà le wǒ men sì gè rén, míng tiān yào zài bān lǐ shuō.",
+      "tr": "Dördümüzü çizdim; yarın sınıfta anlatacağım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_093",
       "speaker": "张雨桐",
-      "zh": "对，这是我们的老师。",
-      "pinyin": "Duì, zhèshì wǒmen de lǎoshī.",
-      "tr": "Bu bizim öğretmen."
+      "zh": "那我们都有一点紧张，不过都准备过了。",
+      "pinyin": "Nà wǒ men dōu yǒu yì diǎn jǐn zhāng, bù guò dōu zhǔn bèi guò le.",
+      "tr": "O zaman ikimiz de biraz heyecanlıyız ama hazırlandık."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_094",
       "speaker": "刘梅",
-      "zh": "嗨，你好！",
-      "pinyin": "Hāi, nǐhǎo!",
-      "tr": "Merhaba!"
+      "zh": "对，一次做好眼前的一件事就行。",
+      "pinyin": "Duì, yī cì zuò hǎo yǎn qián de yī jiàn shì jiù xíng.",
+      "tr": "Evet, önündeki işi birer birer yapman yeterli."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_095",
       "speaker": "张伟",
-      "zh": "认识你很高兴。",
-      "pinyin": "Rènshí nǐ hěn gāoxìng.",
-      "tr": "Tanıştığımıza memnun oldum."
+      "zh": "现在书包和画都放好，明早就少一件要找的事。",
+      "pinyin": "Xiàn zài shū bāo hé huà dōu fàng hǎo, míng zǎo jiù shǎo yī jiàn yào zhǎo de shì.",
+      "tr": "Şimdi çantayı ve resmi yerleştirelim; sabah arayacağımız bir şey azalsın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_096",
       "speaker": "张乐乐",
-      "zh": "今天学了很多。",
-      "pinyin": "Jīntiān xuéle hěnduō.",
-      "tr": "Bugün çok şey öğrendik."
+      "zh": "我把画放好，不再拿出来改了。",
+      "pinyin": "Wǒ bǎ huà fàng hǎo, bù zài ná chū lái gǎi le.",
+      "tr": "Resmimi yerine koyayım; yeniden düzeltmek için çıkarmayacağım."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_097",
       "speaker": "张雨桐",
-      "zh": "我也一样。",
-      "pinyin": "Wǒ yě yīyàng.",
-      "tr": "Ben de."
+      "zh": "我也不再翻书了，晚安，明天回来再告诉你们。",
+      "pinyin": "Wǒ yě bù zài fān shū le, wǎn ān, míng tiān huí lái zài gào sù nǐ men.",
+      "tr": "Ben de artık kitabı açmayacağım; iyi geceler, yarın dönünce anlatırım.",
+      "emotion": "neutral",
+      "actionTr": "Kitabı kapatıp sabah anlatmak üzere iyi geceler der."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_098",
       "speaker": "刘梅",
-      "zh": "都好了吗？",
-      "pinyin": "Dōu hǎolema?",
-      "tr": "Her şey tamam mı?"
+      "zh": "晚安，今天已经很认真了。",
+      "pinyin": "Wǎn ān, jīn tiān yǐ jīng hěn rèn zhēn le.",
+      "tr": "İyi geceler; bugün çok özenli çalıştın."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_099",
       "speaker": "张伟",
-      "zh": "都好了。",
-      "pinyin": "Dōu hǎo le.",
-      "tr": "Her şey tamam."
+      "zh": "晚安，早上我们会叫你，不用一直看时间。",
+      "pinyin": "Wǎn ān, zǎo shàng wǒ men huì jiào nǐ, bù yòng yì zhí kàn shí jiān.",
+      "tr": "İyi geceler; sabah seni uyandırırız, sürekli saate bakmana gerek yok."
     },
     {
       "id": "DLG_ZH_HSK1_SC043_100",
       "speaker": "张乐乐",
-      "zh": "走吧。",
-      "pinyin": "Zǒu ba.",
-      "tr": "Hadi gidelim."
+      "zh": "姐姐晚安，我明天也会先听清楚再说。",
+      "pinyin": "Jiě jie wǎn ān, wǒ míng tiān yě huì xiān tīng qīng chǔ zài shuō.",
+      "tr": "İyi geceler abla; ben de yarın önce iyice dinleyip sonra konuşacağım."
     }
   ],
   "production": {
@@ -1156,6 +1163,6 @@
     },
     "continuityNoteTr": "Yutong’un İlk Sınavı olayı ana aile kronolojisinde sahne 43 olarak kaydedilir."
   },
-  "editorialStatus": "generated_full_v1_requires_native_review",
+  "editorialStatus": "contextual_simplified_chinese_r1_model_reviewed_audio_pending",
   "dialogueCount": 100
 }

@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC043",
   "generationSceneId": "ZH_HSK1_SC043",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC043.json",
-  "dialogueSha256": "258cb6f4cf3c24ddca33f3b3414ba46e74e39553b8f671a3b078a96b09628a65",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC043.json",
+  "dialogueSha256": "e58a7c12238151aa68598dd8ac8526ba89df86480f60212d1406dd3929ecde52",
   "titleTr": "Yutong’un Sınav Hazırlığı",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Yutong ilk sınavına hazırlanır; ailesi çalışma sırasında ona destek olur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC042",
     "nextSceneId": "ZH_HSK1_SC044"
   },
-  "sourceGeneratedFilename": "ailece_ders_çalışma_neşesi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC043_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC043.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC043.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "7a350cc7839885c1cccd800a39150dfa09fffeab3ca90b4b7f2008c518a4b18e"
+    "sha256": "1ff14cb2c9bd19f8d2c8cc5aa023182ccbd73e40f881614d120c999cdf5e8b97",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak entegre edildi."
+  "qaNoteTr": "SC043 canonical older teen Yutong lilac/high ponytail, mature mother cream/green low bun, father rectangular glasses/navy/light blue/white, small boy Lele blue. Evening family exam support with books/practice sheets. Four named human mouths inspected; model QA only, human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "1ff14cb2c9bd19f8d2c8cc5aa023182ccbd73e40f881614d120c999cdf5e8b97",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张雨桐": [
+        0.507,
+        0.419
+      ],
+      "刘梅": [
+        0.352,
+        0.265
+      ],
+      "张伟": [
+        0.744,
+        0.241
+      ],
+      "张乐乐": [
+        0.247,
+        0.459
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC043 canonical older teen Yutong lilac/high ponytail, mature mother cream/green low bun, father rectangular glasses/navy/light blue/white, small boy Lele blue. Evening family exam support with books/practice sheets. Four named human mouths inspected; model QA only, human/device pending."
+  }
 }

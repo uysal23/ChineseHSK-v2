@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC043",
+  "imageSha256": "1ff14cb2c9bd19f8d2c8cc5aa023182ccbd73e40f881614d120c999cdf5e8b97",
+  "referenceSceneId": "ZH_HSK1_SC037",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张雨桐",
+    "刘梅",
+    "张伟",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC043 evening home study first exam preparation; older teen Yutong supported by canonical parents and small boy Lele; four visible human mouths",
+  "anchors": {
+    "张雨桐": [
+      0.507,
+      0.419
+    ],
+    "刘梅": [
+      0.352,
+      0.265
+    ],
+    "张伟": [
+      0.744,
+      0.241
+    ],
+    "张乐乐": [
+      0.247,
+      0.459
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC043",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.1,
+  "meanNewZhLength": 16.43,
+  "continuityNoteTr": "SC042 sonrası Mimi bakımı yapılmış, aile evdedir. Yutong yeni okuldaki ilk sınavdan önce unutma korkusunu paylaşır; soruyu sonuna kadar okur, eksik okuma hatasını bulur, iki kelimeyi çalışır, çantasını hazırlayıp dinlenir. Lele aile çizimini yarın sınıfta anlatacağını söyler; SC044 geçişi. İlk sınav sonucu önceden uydurulmaz.",
+  "lengthDeviationPercent": 169.34,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
