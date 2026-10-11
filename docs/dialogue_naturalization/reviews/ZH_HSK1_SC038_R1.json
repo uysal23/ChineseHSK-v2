@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC038",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 10,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.36,
+  "meanNewZhLength": 17.22,
+  "continuityNoteTr": "SC037 park gezisi ve top oyunundan sonra dükkânda Lele iki eli doluyken dondurmasını düşürür. Anne topu alır; baba yaralanma kontrolü ve ödeme yapar; görevli temizler ve küçük bardakta beş yuanlık çilekli verir. Lele sakinleşir, çöplerini atar; yan tarafta bekleyen Yutongla eve dönüş için buluşurlar. Yağmur SC039da başlar.",
+  "lengthDeviationPercent": 170.75,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC038",
+  "imageSha256": "b7b117968a949cf4cb103d81527c1f8d5eb0eb7fb4638407f8ec04779cc8ee87",
+  "referenceSceneId": "ZH_HSK1_SC028",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "店员",
+    "张伟",
+    "张乐乐",
+    "刘梅"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC038 park ice cream accident: small boy Lele blue, mother Liu Mei cream/green holding ball, father Zhang Wei black rectangular glasses/navy/light blue, adult female employee brown cap/apron preparing replacement cup; four named mouths",
+  "anchors": {
+    "店员": [
+      0.122,
+      0.286
+    ],
+    "张伟": [
+      0.742,
+      0.248
+    ],
+    "张乐乐": [
+      0.52,
+      0.502
+    ],
+    "刘梅": [
+      0.768,
+      0.469
+    ]
+  }
+}

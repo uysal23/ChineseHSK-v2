@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC038",
   "generationSceneId": "ZH_HSK1_SC038",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC038.json",
-  "dialogueSha256": "b9c7689af7ae60adbd0822169e50ea27f9222f1899968d15845cd85321cdf7c6",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC038.json",
+  "dialogueSha256": "a591939274d6e5dff8a48681dcb3f3e6cc905010980209daf35a55b849df72c0",
   "titleTr": "Dondurma Alışverişi",
   "locationId": "LOC_ZH_ICE_CREAM_SHOP_001",
   "scenePurposeTr": "Lele ailesiyle dondurma alır; dondurma seçimi ve isteme ifadeleri konuşulur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC037",
     "nextSceneId": "ZH_HSK1_SC039"
   },
-  "sourceGeneratedFilename": "ailece_dondurma_keyfi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC038_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC038.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC038.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "5c9ae8d5348a87f752f785c4797adbec059948df012f0dee601a0e3cfb894cc2"
+    "sha256": "b7b117968a949cf4cb103d81527c1f8d5eb0eb7fb4638407f8ec04779cc8ee87",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC038 park yanı dondurma dükkânı: küçük erkek Lele blue/white/green; Liu Mei cream/green/low bun; Zhang Wei siyah dikdörtgen gözlük/navy/light blue; yetişkin kadın görevli brown cap/apron. Dört gerçek ağız incelendi. Yerde düşmüş dondurma, annede top ve görevlide bardakta yenisi mevcut. Model incelemesi; insan/cihaz bekliyor.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "b7b117968a949cf4cb103d81527c1f8d5eb0eb7fb4638407f8ec04779cc8ee87",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "店员": [
+        0.122,
+        0.286
+      ],
+      "张伟": [
+        0.742,
+        0.248
+      ],
+      "张乐乐": [
+        0.52,
+        0.502
+      ],
+      "刘梅": [
+        0.768,
+        0.469
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC038 park yanı dondurma dükkânı: küçük erkek Lele blue/white/green; Liu Mei cream/green/low bun; Zhang Wei siyah dikdörtgen gözlük/navy/light blue; yetişkin kadın görevli brown cap/apron. Dört gerçek ağız incelendi. Yerde düşmüş dondurma, annede top ve görevlide bardakta yenisi mevcut. Model incelemesi; insan/cihaz bekliyor."
+  }
 }
