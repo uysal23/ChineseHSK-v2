@@ -1,0 +1,63 @@
+{
+  "sceneId": "ZH_HSK1_SC050",
+  "imageSha256": "d66cc755b85acf11f6f44b7d8be9e8612f4b8503d6825ffe378863a288fd5206",
+  "referenceSceneId": "ZH_HSK1_SC050",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "李晨",
+    "李晨妻子",
+    "张雨桐",
+    "张乐乐",
+    "咪咪"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Two families dinner with canonical adults, older teen and small boy; Mimi on floor; dessert and previous drawing on side table",
+  "anchors": {
+    "张伟": [
+      0.214,
+      0.332
+    ],
+    "刘梅": [
+      0.425,
+      0.331
+    ],
+    "李晨": [
+      0.685,
+      0.308
+    ],
+    "李晨妻子": [
+      0.878,
+      0.349
+    ]
+  },
+  "canonicalReferences": [
+    {
+      "file": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_LIUMEI_001.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "file": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_ZHANGLELE_001.webp",
+      "sha256": "526122dbc40f79e2bed7ed485d902cd27759745058eaf08eaae29da6fe9a07ed"
+    },
+    {
+      "file": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_ZHANGWEI_001.webp",
+      "sha256": "8d6a3fafff7c4a0e46b2c8ba623f47ad8c40d9a62e41d1b57d31230af97c0e38"
+    },
+    {
+      "file": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_ZHANGYUTONG_001.webp",
+      "sha256": "590f141d903899c312ebf05e9a1e8d24dc43d3301ae3485de5241b076f820ea2"
+    },
+    {
+      "file": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc047\\wife_canon.webp",
+      "sha256": "c31bc89b5b4033d0770acd58452dd1dad8afb863ac3d579c58322251c78508cd"
+    },
+    {
+      "file": "C:\\Users\\uysal\\Documents\\Codex\\2026-10-04\\referenced-chatgpt-conversation-this-is-an\\work\\dialogue_revision_r1\\art\\CHR_ZH_LICHEN_001.webp",
+      "sha256": "4744427915611b835018a74f27b7abf3446721126c7b1eb76157410a44caad0b"
+    }
+  ]
+}

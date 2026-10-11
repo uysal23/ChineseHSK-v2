@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC050",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 10,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.34,
+  "meanNewZhLength": 15.11,
+  "continuityNoteTr": "SC049 üç aylık ev/okul/iş değerlendirmesinin ardından iki aile ortak yemek yer; etkinlik resmi ve küçük kuş şakası sürer. Kek iş fikri yalnız araştırma aşamasında kalır. Sabah eşzamanlı hazırlığın zorluğu ve önceden çanta/kıyafet hazırlığı HSK2 SC001 banyo sırasına geçiş sağlar.",
+  "lengthDeviationPercent": 138.33,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

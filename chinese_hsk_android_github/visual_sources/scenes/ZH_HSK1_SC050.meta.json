@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC050",
   "generationSceneId": "ZH_HSK1_SC050",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC050.json",
-  "dialogueSha256": "97d333879ac7ebc7979733710a7058644f080c63815b7241d326f79e34bc4b48",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC050.json",
+  "dialogueSha256": "628abefe825a727115042893614087aeb14dbc0561bd5ecafc8f0257523e9ccd",
   "titleTr": "İki Aile Birlikte Yemekte",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Zhang ailesi ve Li Chen ailesi sıcak bir ev sofrasında birlikte yemek yer.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC049",
     "nextSceneId": "ZH_HSK2_SC001"
   },
-  "sourceGeneratedFilename": "sıcacık_aile_sofrası_ve_neşeli_kedi.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC050_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC050.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC050.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "d4ab9a130b9e577d44c4b72d8b247e64f980e629d55ef3b8b856e13a381931ba"
+    "sha256": "d66cc755b85acf11f6f44b7d8be9e8612f4b8503d6825ffe378863a288fd5206",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "SC050 four canonical adult speaking identities and actual mouths inspected; Zhang Wei navy/lightblue, Liu Mei cream/green gathered hair, Li Chen mature43 thin glasses charcoal/brown polo, wife mature40 bob rust/cream. Non-speaking older teen Yutong, small boy Lele and orange-white Mimi reviewed. Dinner, fruitcake dessert and park/bird drawing match text. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "d66cc755b85acf11f6f44b7d8be9e8612f4b8503d6825ffe378863a288fd5206",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.214,
+        0.332
+      ],
+      "刘梅": [
+        0.425,
+        0.331
+      ],
+      "李晨": [
+        0.685,
+        0.308
+      ],
+      "李晨妻子": [
+        0.878,
+        0.349
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC050 four canonical adult speaking identities and actual mouths inspected; Zhang Wei navy/lightblue, Liu Mei cream/green gathered hair, Li Chen mature43 thin glasses charcoal/brown polo, wife mature40 bob rust/cream. Non-speaking older teen Yutong, small boy Lele and orange-white Mimi reviewed. Dinner, fruitcake dessert and park/bird drawing match text. Model review only; native human/device pending."
+  }
 }

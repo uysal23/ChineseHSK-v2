@@ -227,3 +227,5 @@ SC047: 48/300 metin,47/300 ağız kalibrasyonu. Li Chen eşi ilk kek iş fikrini
 SC048: 49/300 metin,48/300 ağız kalibrasyonu. Topluluk etkinliğinde tanışma, ortak resim, yanlış kapı ve öğle yemeği. Altı görsel kimlik incelendi; dört konuşmacının gerçek ağızları görsel hashine bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC049: 50/300 metin,49/300 ağız kalibrasyonu. Evde ilk üç ay, eski/yeni ev ve arkadaşlar konuşulur; sonraki iki aile yemeğine geçilir. Dört canonical aile kimliği ve gerçek ağızları görsel hashine bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
+
+SC050: 51/300 metin,50/300 ağız kalibrasyonu. HSK1 50 sahnenin metni tamamlandı; iki ailenin yemeği okul/iş/arkadaşlık ve ertesi sabah hazırlığına bağlandı. Dört yetişkin ağızları görsel hashine bağlı, çocuklar ve kedi konuşmaz. Sonraki metin HSK2 SC001. Ses/insan/cihaz bekliyor; APK/release yok.
