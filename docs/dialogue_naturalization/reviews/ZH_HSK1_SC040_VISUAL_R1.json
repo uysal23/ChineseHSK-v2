@@ -1,0 +1,34 @@
+{
+  "sceneId": "ZH_HSK1_SC040",
+  "imageSha256": "cbaecb94d309f5f64c7ce1ca64e70976fd3cccdab89702a258100f0549b153b5",
+  "referenceSceneId": "ZH_HSK1_SC028",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "快递员",
+    "张伟",
+    "刘梅",
+    "邻居"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "SC040 sealed misdelivered parcel at apartment doorway: canonical Zhang Wei glasses/navy/light blue, Liu Mei cream/green low bun, blue courier, mature short wavy hair lavender female neighbor; four mouths",
+  "anchors": {
+    "快递员": [
+      0.235,
+      0.291
+    ],
+    "张伟": [
+      0.407,
+      0.27
+    ],
+    "刘梅": [
+      0.612,
+      0.333
+    ],
+    "邻居": [
+      0.849,
+      0.363
+    ]
+  }
+}

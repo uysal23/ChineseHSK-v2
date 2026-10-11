@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK1_SC040",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 9,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 6.74,
+  "meanNewZhLength": 18.05,
+  "continuityNoteTr": "SC039 eve dönüşten sonraki ayrı kapı teslim olayında kurye komşunun paketini Zhang ailesine verir. İsim ve kapı numarası uyuşmayınca açmadan doğrularlar; yan komşu telefon bilgisini sessizce kontrol eder. Kurye kaydı düzeltir ve kutuyu komşunun kapısına taşır. SC041 Mimi veteriner olayı burada başlatılmaz.",
+  "lengthDeviationPercent": 167.8,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}

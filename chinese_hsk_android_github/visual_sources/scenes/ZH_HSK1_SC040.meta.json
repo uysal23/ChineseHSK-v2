@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK1_SC040",
   "generationSceneId": "ZH_HSK1_SC040",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK1/ZH_HSK1_SC040.json",
-  "dialogueSha256": "7b11d7fdd7e5183d504ed16ff9a72288883b2d00f90af87dc90abaa69b48f839",
+  "dialogueSource": "ci/dialogue_final_v13/HSK1/ZH_HSK1_SC040.json",
+  "dialogueSha256": "ef94971e7b9cd6d59a2ceabbe0124ebc88438fdbcf11bc7797bb5011debdab0f",
   "titleTr": "Kapıda Kargo",
   "locationId": "LOC_ZH_NEW_HOME_001",
   "scenePurposeTr": "Kurye yeni eve paket getirir; aile ve komşu teslimat sırasında paketi konuşur.",
@@ -29,7 +29,7 @@
     "previousSceneId": "ZH_HSK1_SC039",
     "nextSceneId": "ZH_HSK1_SC041"
   },
-  "sourceGeneratedFilename": "sıcak_komşuluk_teslimatı.png",
+  "sourceGeneratedFilename": "ZH_HSK1_SC040_R1.png",
   "finalAssetFilename": "ZH_HSK1_SC040.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK1_SC040.webp",
   "image": {
@@ -37,7 +37,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "efa274f89c3da222a42fadb52a6ed885846de2dad51a4c019c27057b647ae237"
+    "sha256": "cbaecb94d309f5f64c7ce1ca64e70976fd3cccdab89702a258100f0549b153b5",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-11"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -58,5 +60,37 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "2026-09-26: kilitli diyalog, oyuncu kadrosu, kritik nesneler ve 9:16 CGI kurallarına göre doğrulanan son görsel uygulama asseti olarak eşlendi."
+  "qaNoteTr": "SC040 ev kapısında yanlış paket: Zhang Wei siyah dikdörtgen gözlük/navy/light blue; Liu Mei cream/green/low bun; yetişkin erkek kurye blue cap/uniform; daha olgun yetişkin kadın komşu kısa dalgalı saç lavender/beige tote. Dört ayrı gerçek ağız incelendi. Kutu kapalı; kimlik ve adres doğrulanır. Model incelemesi; insan/cihaz bekliyor.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "cbaecb94d309f5f64c7ce1ca64e70976fd3cccdab89702a258100f0549b153b5",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "快递员": [
+        0.235,
+        0.291
+      ],
+      "张伟": [
+        0.407,
+        0.27
+      ],
+      "刘梅": [
+        0.612,
+        0.333
+      ],
+      "邻居": [
+        0.849,
+        0.363
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "SC040 ev kapısında yanlış paket: Zhang Wei siyah dikdörtgen gözlük/navy/light blue; Liu Mei cream/green/low bun; yetişkin erkek kurye blue cap/uniform; daha olgun yetişkin kadın komşu kısa dalgalı saç lavender/beige tote. Dört ayrı gerçek ağız incelendi. Kutu kapalı; kimlik ve adres doğrulanır. Model incelemesi; insan/cihaz bekliyor."
+  }
 }

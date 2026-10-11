@@ -202,3 +202,5 @@ SC038: 39/300 metin,38/300 ağız kalibrasyonu. Lele’nin düşen dondurması y
 SC039: 40/300 metin,39/300 ağız kalibrasyonu. Aile şemsiyeler evde kaldığından saçak altına sığınır, yağmur azalınca eve döner. Yanlış kimlikler ve açık şemsiyeler düzeltildi; SC040 paket olayı sonraya bırakıldı. 100 sıra/ID ve dört gerçek ağız korundu. Ses/insan/cihaz bekliyor; APK/release yok.
 
 Ses denetimi: mevcut Kokoro işi 38144116461 başarılı; SC001–034 için 3400 metin/konuşmacı/kast/anahtar ve Opus başlığı eşleşti. Kaynak 2d0b389669dedc314240a6be958ee1783c367e55. Runtime entegrasyonu ve dinleme bekliyor; completed ses sayısı artırılmadı. APK/release başlatılmadı.
+
+SC040: 41/300 metin,40/300 ağız kalibrasyonu. Yanlış komşu paketi açılmadan isim/adres/telefonla doğrulanıp doğru kapıya teslim edilir. Canonical ebeveynler düzeltildi; dört ağız hash ile bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
