@@ -229,3 +229,6 @@ SC048: 49/300 metin,48/300 ağız kalibrasyonu. Topluluk etkinliğinde tanışma
 SC049: 50/300 metin,49/300 ağız kalibrasyonu. Evde ilk üç ay, eski/yeni ev ve arkadaşlar konuşulur; sonraki iki aile yemeğine geçilir. Dört canonical aile kimliği ve gerçek ağızları görsel hashine bağlandı. Ses/insan/cihaz bekliyor; APK/release yok.
 
 SC050: 51/300 metin,50/300 ağız kalibrasyonu. HSK1 50 sahnenin metni tamamlandı; iki ailenin yemeği okul/iş/arkadaşlık ve ertesi sabah hazırlığına bağlandı. Dört yetişkin ağızları görsel hashine bağlı, çocuklar ve kedi konuşmaz. Sonraki metin HSK2 SC001. Ses/insan/cihaz bekliyor; APK/release yok.
+
+
+HSK1 SC001–SC047 ses denetimi (2026-10-17): 38161649133 başarıyla tamamlandı. Kaynak e9b3032cca15b101c3a917ce09381fa297fea4db için 4700 replik metin/konuşmacı/kast/anahtar ve Opus başlık kontrolünden geçti. 5000 eşleme, 4909 benzersiz ses. Uygulama entegrasyonu, dinleme ve Android oynatımı bekliyor; tamamlanmış ses sayısı artırılmadı.
