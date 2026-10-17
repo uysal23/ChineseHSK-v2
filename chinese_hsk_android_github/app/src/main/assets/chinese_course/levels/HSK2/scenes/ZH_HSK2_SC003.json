@@ -11,702 +11,722 @@
     {
       "id": "DLG_ZH_HSK2_SC003_001",
       "speaker": "刘梅",
-      "zh": "今天的菜很新鲜。",
-      "pinyin": "Jīntiān de cài hěn xīnxiān.",
-      "tr": "Bugünkü sebzeler çok taze."
+      "zh": "你也来买菜？我刚从车站那边过来。",
+      "pinyin": "Nǐ yě lái mǎi cài? wǒ gāng cóng chē zhàn nà biān guò lái.",
+      "tr": "Sen de mi alışverişe geldin? Ben az önce durak tarafından geldim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_002",
       "speaker": "摊主",
-      "zh": "今天有不少事情要做。",
-      "pinyin": "Jīntiān yǒu bùshǎo shìqíng yào zuò.",
-      "tr": "Bugün yapılacak epey iş var."
+      "zh": "两位慢慢看，今天的蔬菜刚摆出来。",
+      "pinyin": "Liǎng wèi màn màn kàn, jīn tiān de shū cài gāng bǎi chū lái.",
+      "tr": "Rahatça bakın; bugünkü sebzeleri yeni tezgâha koydum."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_003",
       "speaker": "邻居",
-      "zh": "我们先从最重要的开始。",
-      "pinyin": "Wǒmen xiān cóng zuì zhòngyào de kāishǐ.",
-      "tr": "Önce en önemli olana bakalım."
+      "zh": "我也刚到，正想看看西红柿。",
+      "pinyin": "Wǒ yě gāng dào, zhèng xiǎng kàn kàn xī hóng shì.",
+      "tr": "Ben de yeni geldim; domateslere bakmak istiyordum."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_004",
       "speaker": "刘梅",
-      "zh": "行，一步一步来。",
-      "pinyin": "Xíng, yībù yībù lái.",
-      "tr": "Tamam, sakin sakin ilerleyelim."
+      "zh": "这些西红柿看起来很新鲜，怎么卖？",
+      "pinyin": "Zhè xiē xī hóng shì kàn qǐ lái hěn xīn xiān, zěn me mài?",
+      "tr": "Bu domatesler çok taze görünüyor; nasıl satılıyor?",
+      "emotion": "curious",
+      "actionTr": "Domateslere ve fiyat levhasına bakar."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_005",
       "speaker": "摊主",
-      "zh": "你看，这个蔬菜在这儿。",
-      "pinyin": "Nǐ kàn, zhège shūcài zài zhèér.",
-      "tr": "Bu sebze burada."
+      "zh": "按斤卖，价格写在前面这块牌子上。",
+      "pinyin": "Àn jīn mài, jià gé xiě zài qián miàn zhè kuài pái zi shàng.",
+      "tr": "Jin üzerinden satılıyor; fiyatı öndeki levhada yazıyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_006",
       "speaker": "邻居",
-      "zh": "知道了。",
-      "pinyin": "Zhīdào le.",
-      "tr": "Anladım."
+      "zh": "你站这边看，刚才袋子挡住了一点。",
+      "pinyin": "Nǐ zhàn zhè biān kàn, gāng cái dài zi dǎng zhù le yì diǎn.",
+      "tr": "Bu taraftan bak; az önce poşet biraz kapatıyordu."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_007",
       "speaker": "刘梅",
-      "zh": "这样我就懂了。",
-      "pinyin": "Zhèyàng wǒ jiù dǒng le.",
-      "tr": "Demek böyleymiş."
+      "zh": "看到了，我先挑几个，不要太多。",
+      "pinyin": "Kàn dào le, wǒ xiān tiāo jǐ gè, bú yào tài duō.",
+      "tr": "Gördüm; önce birkaç tane seçeyim, fazla istemiyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_008",
       "speaker": "摊主",
-      "zh": "你看，这个水果在这儿。",
-      "pinyin": "Nǐ kàn, zhège shuǐguǒ zài zhèér.",
-      "tr": "Bu meyve burada."
+      "zh": "可以，挑好放在这个小篮子里，我给您称。",
+      "pinyin": "Kě yǐ, tiāo hǎo fàng zài zhè ge xiǎo lán zi lǐ, wǒ gěi nín chēng.",
+      "tr": "Olur; seçtiklerinizi şu küçük sepete koyun, tartayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_009",
       "speaker": "邻居",
-      "zh": "好，我记住了。",
-      "pinyin": "Hǎo, wǒ jìzhù le.",
-      "tr": "Bunu aklımda tutacağım."
+      "zh": "你今天准备做什么菜？",
+      "pinyin": "Nǐ jīn tiān zhǔn bèi zuò shén me cài?",
+      "tr": "Bugün ne yemek yapmayı düşünüyorsun?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_010",
       "speaker": "刘梅",
-      "zh": "嗯，听明白了。",
-      "pinyin": "En, tīng míngbái le.",
-      "tr": "Oldukça net görünüyor."
+      "zh": "想做西红柿鸡蛋，还想买一点青菜。",
+      "pinyin": "Xiǎng zuò xī hóng shì jī dàn, hái xiǎng mǎi yì diǎn qīng cài.",
+      "tr": "Domatesli yumurta yapmak istiyorum; biraz yeşillik de alacağım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_011",
       "speaker": "摊主",
-      "zh": "这个我要两斤。",
-      "pinyin": "Zhège wǒyào liǎngjīn.",
-      "tr": "Bundan bir kilo istiyorum."
+      "zh": "青菜在旁边，这一把是今天早上送来的。",
+      "pinyin": "Qīng cài zài páng biān, zhè yī bǎ shì jīn tiān zǎo shang sòng lái de.",
+      "tr": "Yeşillik yan tarafta; şu demet bu sabah geldi."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_012",
       "speaker": "邻居",
-      "zh": "好，我们就这样做。",
-      "pinyin": "Hǎo, wǒmen jiù zhèyàng zuò.",
-      "tr": "Tamam, o zaman buna göre ilerleyelim."
+      "zh": "叶子看着不错，不过先想想家里还有没有。",
+      "pinyin": "Yè zi kàn zhe bù cuò, bù guò xiān xiǎng xiǎng jiā lǐ hái yǒu méi yǒu.",
+      "tr": "Yaprakları güzel görünüyor ama önce evde var mı düşün."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_013",
       "speaker": "刘梅",
-      "zh": "我觉得可以。",
-      "pinyin": "Wǒ juéde kěyǐ.",
-      "tr": "Bence olur."
+      "zh": "家里还有半把，那今天买一小把就够了。",
+      "pinyin": "Jiā lǐ hái yǒu bàn bǎ, nà jīn tiān mǎi yī xiǎo bǎ jiù gòu le.",
+      "tr": "Evde yarım demet var; bugün küçük bir demet yeter."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_014",
       "speaker": "摊主",
-      "zh": "这个价格可以接受。",
-      "pinyin": "Zhège jiàgé kěyǐ jiēshòu.",
-      "tr": "Bu fiyat kabul edilebilir."
+      "zh": "好，您先放这里，和西红柿分开称。",
+      "pinyin": "Hǎo, nín xiān fàng zhè lǐ, hé xī hóng shì fēn kāi chēng.",
+      "tr": "Tamam; önce buraya koyun, domateslerden ayrı tartayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_015",
       "speaker": "邻居",
-      "zh": "对，这个很重要。",
-      "pinyin": "Duì, zhège hěn zhòngyào.",
-      "tr": "Evet, bu önemli."
+      "zh": "分开也好，看得清楚各买了多少。",
+      "pinyin": "Fēn kāi yě hǎo, kàn de qīng chǔ gè mǎi le duō shǎo.",
+      "tr": "Ayrı olması iyi; hangisinden ne kadar aldığımız anlaşılır."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_016",
       "speaker": "刘梅",
-      "zh": "我们别忘了。",
-      "pinyin": "Wǒmen biéwàngle.",
-      "tr": "Bunu unutmayalım."
+      "zh": "这几个西红柿有一斤吗？",
+      "pinyin": "Zhè jǐ gè xī hóng shì yǒu yī jīn ma?",
+      "tr": "Şu birkaç domates bir jin geliyor mu?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_017",
       "speaker": "摊主",
-      "zh": "这个价格有点贵。",
-      "pinyin": "Zhège jiàgé yǒudiǎn guì.",
-      "tr": "Bu fiyat biraz pahalı."
+      "zh": "还差一点，要不要再加一个小的？",
+      "pinyin": "Hái chà yì diǎn, yào bù yào zài jiā yí gè xiǎo de?",
+      "tr": "Biraz eksik; küçük bir tane daha ekleyelim mi?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_018",
       "speaker": "邻居",
-      "zh": "那现在怎么办？",
-      "pinyin": "Nà xiànzài zěnmebàn?",
-      "tr": "Peki şimdi ne yapacağız?"
+      "zh": "先看你的需要，不一定非要正好一斤。",
+      "pinyin": "Xiān kàn nǐ de xū yào, bù yí dìng fēi yào zhèng hǎo yī jīn.",
+      "tr": "Önce ihtiyacına bak; tam bir jin olması şart değil.",
+      "emotion": "neutral",
+      "actionTr": "Tam bir jin almanın şart olmadığını sakince hatırlatır."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_019",
       "speaker": "刘梅",
-      "zh": "没关系，我们先想个办法。",
-      "pinyin": "Méiguānxì, wǒmen xiān xiǎnggèbànfǎ.",
-      "tr": "Sorun değil, önce bir çözüm düşünelim."
+      "zh": "那就这些吧，够我们一家吃一顿了。",
+      "pinyin": "Nà jiù zhè xiē ba, gòu wǒ men yī jiā chī yī dùn le.",
+      "tr": "O zaman bunlar yeter; ailemize bir öğünlük yeter."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_020",
       "speaker": "摊主",
-      "zh": "我觉得先做最简单的比较好。",
-      "pinyin": "Wǒ juéde xiān zuò zuì jiǎndān de bǐjiào hǎo.",
-      "tr": "Bence önce en kolay olanı yapmak daha iyi."
+      "zh": "好的，按实际重量算，不多加。",
+      "pinyin": "Hǎo de, àn shí jì zhòng liàng suàn, bù duō jiā.",
+      "tr": "Tamam; gerçek ağırlığına göre hesaplarım, eklemem."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_021",
       "speaker": "邻居",
-      "zh": "这样比较快。",
-      "pinyin": "Zhèyàng bǐjiào kuài.",
-      "tr": "Böyle daha hızlı olur."
+      "zh": "我以前总怕买少了，最后常常吃不完。",
+      "pinyin": "Wǒ yǐ qián zǒng pà mǎi shǎo le, zuì hòu cháng cháng chī bù wán.",
+      "tr": "Eskiden hep az almaktan korkardım; sonunda çoğu zaman bitiremezdik."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_022",
       "speaker": "刘梅",
-      "zh": "这些菜特别新鲜。",
-      "pinyin": "Zhèxiē cài tèbié xīnxiān.",
-      "tr": "Bu sebzeler çok taze."
+      "zh": "我也是，所以今天只买这几种。",
+      "pinyin": "Wǒ yě shì, suǒ yǐ jīn tiān zhǐ mǎi zhè jǐ zhǒng.",
+      "tr": "Ben de öyle; bu yüzden bugün sadece şu birkaç çeşidi alıyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_023",
       "speaker": "摊主",
-      "zh": "对，这个也要注意。",
-      "pinyin": "Duì, zhège yě yào zhùyì.",
-      "tr": "Evet, buna da dikkat etmek gerekiyor."
+      "zh": "买得合适就好，新鲜的菜也要及时吃。",
+      "pinyin": "Mǎi de hé shì jiù hǎo, xīn xiān de cài yě yào jí shí chī.",
+      "tr": "İhtiyacınız kadar almak iyi; taze sebze de zamanında yenmeli."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_024",
       "speaker": "邻居",
-      "zh": "那就先写下来。",
-      "pinyin": "Nà jiù xiān xiě xiàlái.",
-      "tr": "O zaman önce yazalım."
+      "zh": "这边还有水果，要不要一起看？",
+      "pinyin": "Zhè biān hái yǒu shuǐ guǒ, yào bù yào yì qǐ kàn?",
+      "tr": "Burada meyve de var; meyvelere de bakalım mı?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_025",
       "speaker": "刘梅",
-      "zh": "我们先买。",
-      "pinyin": "Wǒmen xiānmǎi.",
-      "tr": "Önce satın almak."
+      "zh": "要的，孩子们昨天说想吃苹果。",
+      "pinyin": "Yào de, hái zi men zuó tiān shuō xiǎng chī píng guǒ.",
+      "tr": "Evet; çocuklar dün elma yemek istediklerini söyledi."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_026",
       "speaker": "摊主",
-      "zh": "这个办法不错。",
-      "pinyin": "Zhège bànfǎ bùcuò.",
-      "tr": "Bu yöntem fena değil."
+      "zh": "苹果在右边，您可以看看大小。",
+      "pinyin": "Píng guǒ zài yòu biān, nín kě yǐ kàn kàn dà xiǎo.",
+      "tr": "Elmalar sağda; boylarına bakabilirsiniz."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_027",
       "speaker": "邻居",
-      "zh": "我们可以试试。",
-      "pinyin": "Wǒmen kěyǐ shìshì.",
-      "tr": "Deneyebiliriz."
+      "zh": "乐乐拿太大的可能吃不完，小一点的方便。",
+      "pinyin": "Lè le ná tài dà de kě néng chī bù wán, xiǎo yì diǎn de fāng biàn.",
+      "tr": "Lele çok büyük olanı bitiremeyebilir; küçüğü daha uygun olur."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_028",
       "speaker": "刘梅",
-      "zh": "就在这里。",
-      "pinyin": "Jiù zài zhèlǐ.",
-      "tr": "Bu sebze burada."
+      "zh": "那我选小一点的，雨桐也可以放一个在包里。",
+      "pinyin": "Nà wǒ xuǎn xiǎo yì diǎn de, yǔ tóng yě kě yǐ fàng yí gè zài bāo lǐ.",
+      "tr": "O zaman küçüklerinden seçeyim; Yutong da çantasına bir tane koyabilir."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_029",
       "speaker": "摊主",
-      "zh": "我以前没注意到。",
-      "pinyin": "Wǒ yǐqián méi zhùyì dào.",
-      "tr": "Daha önce dikkat etmemiştim."
+      "zh": "这边有几个小的，表面您再看一下。",
+      "pinyin": "Zhè biān yǒu jǐ gè xiǎo de, biǎo miàn nín zài kàn yī xià.",
+      "tr": "Bu tarafta birkaç küçük var; yüzeylerini de kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_030",
       "speaker": "邻居",
-      "zh": "现在知道了。",
-      "pinyin": "Xiànzài zhīdào le.",
-      "tr": "Şimdi öğrendim."
+      "zh": "这个有一点碰伤，换旁边那个吧。",
+      "pinyin": "Zhè ge yǒu yì diǎn pèng shāng, huàn páng biān nà ge ba.",
+      "tr": "Bu biraz ezilmiş; yanındakini alalım.",
+      "emotion": "neutral",
+      "actionTr": "Elmadaki ezik yeri gösterir."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_031",
       "speaker": "刘梅",
-      "zh": "嗯，就在这里。",
-      "pinyin": "En, jiù zài zhèlǐ.",
-      "tr": "Bu çanta burada."
+      "zh": "谢谢，我刚才只顾着看大小了。",
+      "pinyin": "Xiè xiè, wǒ gāng cái zhǐ gù zhe kàn dà xiǎo le.",
+      "tr": "Teşekkürler; az önce sadece boyuna bakıyordum.",
+      "emotion": "happy",
+      "actionTr": "Komşusuna teşekkür eder."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_032",
       "speaker": "摊主",
-      "zh": "说得对。",
-      "pinyin": "Shuōdéduì.",
-      "tr": "Doğru söylüyorsun."
+      "zh": "不客气，挑好以后我再给您确认数量。",
+      "pinyin": "Bú kè qì, tiāo hǎo yǐ hòu wǒ zài gěi nín què rèn shù liàng.",
+      "tr": "Rica ederim; seçince sayısını tekrar teyit ederim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_033",
       "speaker": "邻居",
-      "zh": "这样更方便。",
-      "pinyin": "Zhèyàng gèng fāngbiàn.",
-      "tr": "Böyle daha kullanışlı."
+      "zh": "苹果要装在菜上面，别被压着。",
+      "pinyin": "Píng guǒ yào zhuāng zài cài shàng miàn, bié bèi yā zhe.",
+      "tr": "Elmalar sebzelerin üstüne konulsun; ezilmesinler."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_034",
       "speaker": "刘梅",
-      "zh": "先快一点做，等会儿再检查。",
-      "pinyin": "Xiānkuài yìdiǎn zuò, děnghuìer zài jiǎnchá.",
-      "tr": "Önce biraz hızlı yapalım, sonra yeniden kontrol ederiz."
+      "zh": "我带了自己的购物包，可以分开放。",
+      "pinyin": "Wǒ dài le zì jǐ de gòu wù bāo, kě yǐ fēn kāi fàng.",
+      "tr": "Kendi alışveriş çantamı getirdim; ayrı koyabilirim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_035",
       "speaker": "摊主",
-      "zh": "这个做完以后再做下一个。",
-      "pinyin": "Zhège zuò wán yǐhòu zài zuò xià yígè.",
-      "tr": "Bunu bitirdikten sonra diğerini yapalım."
+      "zh": "那很好，青菜放一边，水果放另一边。",
+      "pinyin": "Nà hěn hǎo, qīng cài fàng yī biān, shuǐ guǒ fàng lìng yī biān.",
+      "tr": "Bu iyi; yeşillik bir tarafa, meyve diğer tarafa."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_036",
       "speaker": "邻居",
-      "zh": "这个办法看起来更合适。",
-      "pinyin": "Zhège bànfǎ kànqǐlái gèng héshì.",
-      "tr": "Bu yöntem daha uygun görünüyor."
+      "zh": "你的包挺大，不过也别一下买太重。",
+      "pinyin": "Nǐ de bāo tǐng dà, bù guò yě bié yī xià mǎi tài zhòng.",
+      "tr": "Çantan büyük ama bir kerede çok ağır alışveriş yapma."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_037",
       "speaker": "刘梅",
-      "zh": "我刚才已经试过了。",
-      "pinyin": "Wǒ gāngcái yǐjīng shìguò le.",
-      "tr": "Az önce zaten denedim."
+      "zh": "我走回家，不想提太重，这些就够了。",
+      "pinyin": "Wǒ zǒu huí jiā, bù xiǎng tí tài zhòng, zhè xiē jiù gòu le.",
+      "tr": "Eve yürüyerek döneceğim; ağır taşımak istemiyorum, bunlar yeter."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_038",
       "speaker": "摊主",
-      "zh": "不行的话就换一个办法。",
-      "pinyin": "Bùxíng dehuà jiù huàn yígè bànfǎ.",
-      "tr": "Olmazsa başka bir yöntem deneyelim."
+      "zh": "好，那我先算蔬菜，再算水果。",
+      "pinyin": "Hǎo, nà wǒ xiān suàn shū cài, zài suàn shuǐ guǒ.",
+      "tr": "Tamam; önce sebzeleri, sonra meyveleri hesaplayayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_039",
       "speaker": "邻居",
-      "zh": "可以，你先来。",
-      "pinyin": "Kěyǐ, nǐ xiānlái.",
-      "tr": "Olur, önce sen yap."
+      "zh": "你看看称上的数字，和刚才说的一样吗？",
+      "pinyin": "Nǐ kàn kàn chèng shàng de shù zì, hé gāng cái shuō de yī yàng ma?",
+      "tr": "Terazideki sayılara bak; az önce konuştuğumuz gibi mi?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_040",
       "speaker": "刘梅",
-      "zh": "做完以后告诉我。",
-      "pinyin": "Zuò wán yǐhòu gàosù wǒ.",
-      "tr": "Bitirince bana söyle."
+      "zh": "西红柿这份我看清楚了，青菜是多少？",
+      "pinyin": "Xī hóng shì zhè fèn wǒ kàn qīng chǔ le, qīng cài shì duō shǎo?",
+      "tr": "Domatesin miktarını gördüm; yeşillik ne kadar?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_041",
       "speaker": "摊主",
-      "zh": "没问题，我记得。",
-      "pinyin": "Méi wèntí, wǒ jìde.",
-      "tr": "Sorun yok, hatırlıyorum."
+      "zh": "青菜是这一份重量，价格按刚才牌子上的算。",
+      "pinyin": "Qīng cài shì zhè yī fèn zhòng liàng, jià gé àn gāng cái pái zi shàng de suàn.",
+      "tr": "Yeşilliğin ağırlığı şu; fiyatı az önceki levhaya göre hesaplanıyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_042",
       "speaker": "邻居",
-      "zh": "现在好多了。",
-      "pinyin": "Xiànzài hǎoduō le.",
-      "tr": "Şimdi çok daha iyi."
+      "zh": "我们可以一项一项看，不用急着付钱。",
+      "pinyin": "Wǒ men kě yǐ yī xiàng yī xiàng kàn, bù yòng jí zhe fù qián.",
+      "tr": "Kalem kalem bakabiliriz; hemen ödeme yapmaya gerek yok.",
+      "emotion": "comforting",
+      "actionTr": "Ödemeden önce kalemleri kontrol etmek için zaman tanır."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_043",
       "speaker": "刘梅",
-      "zh": "还差一点。",
-      "pinyin": "Hái chàyìdiǎn.",
-      "tr": "Biraz daha eksik var."
+      "zh": "对，我今天在车站也学到，先问清楚再买。",
+      "pinyin": "Duì, wǒ jīn tiān zài chē zhàn yě xué dào, xiān wèn qīng chǔ zài mǎi.",
+      "tr": "Evet; bugün durakta da öğrendim, önce iyice sorup sonra almak gerekiyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_044",
       "speaker": "摊主",
-      "zh": "我来帮你吧。",
-      "pinyin": "Wǒlái bāng nǐ ba.",
-      "tr": "Sana yardım edeyim."
+      "zh": "您有什么不清楚的就问，我给您说。",
+      "pinyin": "Nín yǒu shén me bù qīng chǔ de jiù wèn, wǒ gěi nín shuō.",
+      "tr": "Anlamadığınız bir şey varsa sorun; açıklayayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_045",
       "speaker": "邻居",
-      "zh": "谢谢，这样快多了。",
-      "pinyin": "Xièxiè, zhèyàng kuài duō le.",
-      "tr": "Teşekkürler, böyle çok daha hızlı."
+      "zh": "她丈夫差点把一天的车卡买成一个月的。",
+      "pinyin": "Tā zhàng fū chà diǎn bǎ yī tiān de chē kǎ mǎi chéng yí gè yuè de.",
+      "tr": "Eşi az kalsın bir günlük otobüs kartı yerine bir aylık alıyordu."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_046",
       "speaker": "刘梅",
-      "zh": "我们再检查一次。",
-      "pinyin": "Wǒmen zài jiǎnchá yīcì.",
-      "tr": "Bir kez daha kontrol edelim."
+      "zh": "幸好没付款，后来换对了。",
+      "pinyin": "Xìng hǎo méi fù kuǎn, hòu lái huàn duì le.",
+      "tr": "İyi ki ödeme yapmamıştık; sonra doğru olanı aldık."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_047",
       "speaker": "摊主",
-      "zh": "这次没有问题了。",
-      "pinyin": "Zhècì méiyǒu wèntí le.",
-      "tr": "Bu kez sorun kalmadı."
+      "zh": "买东西先看名字和价格，这个习惯挺好。",
+      "pinyin": "Mǎi dōng xi xiān kàn míng zi hé jià gé, zhè ge xí guàn tǐng hǎo.",
+      "tr": "Alışverişte önce ürün adına ve fiyatına bakmak güzel bir alışkanlık."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_048",
       "speaker": "邻居",
-      "zh": "好了，问题终于解决了。",
-      "pinyin": "Hǎo le, wèntí zhōngyú jiějué le.",
-      "tr": "Tamam, sorun sonunda çözüldü."
+      "zh": "今天买菜也一样，先说想要多少。",
+      "pinyin": "Jīn tiān mǎi cài yě yī yàng, xiān shuō xiǎng yào duō shǎo.",
+      "tr": "Bugünkü sebze alışverişinde de öyle; önce ne kadar istediğini söyle."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_049",
       "speaker": "刘梅",
-      "zh": "今天又知道了一个新办法。",
-      "pinyin": "Jīntiān yòu zhīdào le yígè xīn bànfǎ.",
-      "tr": "Bugün yeni bir yöntem daha öğrendik."
+      "zh": "那我再确认一下，西红柿、青菜，还有这几个苹果。",
+      "pinyin": "Nà wǒ zài què rèn yī xià, xī hóng shì, qīng cài, hái yǒu zhè jǐ gè píng guǒ.",
+      "tr": "O zaman bir kez daha teyit edeyim: domates, yeşillik ve şu birkaç elma."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_050",
       "speaker": "摊主",
-      "zh": "下次我们会准备得更好。",
-      "pinyin": "Xiàcì wǒmen huì zhǔnbèi dé gènghǎo.",
-      "tr": "Bir dahaki sefere daha iyi hazırlanırız."
+      "zh": "对，没有别的，我把这三份分开放。",
+      "pinyin": "Duì, méi yǒu bié de, wǒ bǎ zhè sān fèn fēn kāi fàng.",
+      "tr": "Evet; başka yok, bu üçünü ayrı koyuyorum."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_051",
       "speaker": "邻居",
-      "zh": "我也是这么想的。",
-      "pinyin": "Wǒ yě shì zhème xiǎng de.",
-      "tr": "Ben de böyle düşünüyorum."
+      "zh": "用你包里的小隔层，就不会互相压了。",
+      "pinyin": "Yòng nǐ bāo lǐ de xiǎo gé céng, jiù bú huì hù xiāng yā le.",
+      "tr": "Çantanın küçük bölmesini kullanırsan birbirlerini ezmezler."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_052",
       "speaker": "刘梅",
-      "zh": "那就这么决定吧。",
-      "pinyin": "Nà jiù zhème juédìng ba.",
-      "tr": "O zaman böyle karar verelim."
+      "zh": "明白，苹果放这边，青菜留在上面。",
+      "pinyin": "Míng bái, píng guǒ fàng zhè biān, qīng cài liú zài shàng miàn.",
+      "tr": "Anladım; elmalar bu tarafa, yeşillik üstte kalsın."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_053",
       "speaker": "摊主",
-      "zh": "好，我们继续。",
-      "pinyin": "Hǎo, wǒmen jìxù.",
-      "tr": "Tamam, devam edelim."
+      "zh": "这样装很稳，您提起来试试。",
+      "pinyin": "Zhè yàng zhuāng hěn wěn, nín tí qǐ lái shì shì.",
+      "tr": "Böyle sağlam olur; kaldırıp deneyin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_054",
       "speaker": "邻居",
-      "zh": "对，就在这里。",
-      "pinyin": "Duì, jiù zài zhèlǐ.",
-      "tr": "Bu sebze burada."
+      "zh": "包没有歪，看着挺好。",
+      "pinyin": "Bāo méi yǒu wāi, kàn zhe tǐng hǎo.",
+      "tr": "Çanta yana yatmıyor; iyi görünüyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_055",
       "speaker": "刘梅",
-      "zh": "好，我会记着。",
-      "pinyin": "Hǎo, wǒhuì jìzhe.",
-      "tr": "Evet, aklımda."
+      "zh": "那一共多少钱？请您再说一遍。",
+      "pinyin": "Nà yī gòng duō shǎo qián? qǐng nín zài shuō yī biàn.",
+      "tr": "O zaman toplam ne kadar? Lütfen tekrar söyleyin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_056",
       "speaker": "摊主",
-      "zh": "好，就在这里。",
-      "pinyin": "Hǎo, jiù zài zhèlǐ.",
-      "tr": "Bu meyve burada."
+      "zh": "总价在这里，三项加在一起，您看清楚再付。",
+      "pinyin": "Zǒng jià zài zhè lǐ, sān xiàng jiā zài yì qǐ, nín kàn qīng chǔ zài fù.",
+      "tr": "Toplam burada; üç kalemin toplamı, iyice bakıp ödeyin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_057",
       "speaker": "邻居",
-      "zh": "这个办法很实用。",
-      "pinyin": "Zhège bànfǎ hěn shíyòng.",
-      "tr": "Bu çok kullanışlı."
+      "zh": "我也看了一遍，没有多算别的东西。",
+      "pinyin": "Wǒ yě kàn le yī biàn, méi yǒu duō suàn bié de dōng xi.",
+      "tr": "Ben de baktım; fazladan bir şey eklenmemiş."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_058",
       "speaker": "刘梅",
-      "zh": "嗯，这个我要两斤。",
-      "pinyin": "En, zhège wǒyào liǎngjīn.",
-      "tr": "Bundan bir kilo istiyorum."
+      "zh": "好的，我用手机付，您稍等一下。",
+      "pinyin": "Hǎo de, wǒ yòng shǒu jī fù, nín shāo děng yí xià.",
+      "tr": "Tamam; telefonla ödeyeyim, biraz bekleyin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_059",
       "speaker": "摊主",
-      "zh": "这个以后还会用。",
-      "pinyin": "Zhège yǐhòu háihuìyòng.",
-      "tr": "Bunu ileride yine kullanacağız."
+      "zh": "不急，包可以先放台上，站稳了再拿手机。",
+      "pinyin": "Bù jí, bāo kě yǐ xiān fàng tái shàng, zhàn wěn le zài ná shǒu jī.",
+      "tr": "Acele etmeyin; çantayı tezgâha koyup düzgün durunca telefonu çıkarın."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_060",
       "speaker": "邻居",
-      "zh": "嗯，这个价格可以接受。",
-      "pinyin": "En, zhège jiàgé kěyǐ jiēshòu.",
-      "tr": "Bu fiyat kabul edilebilir."
+      "zh": "我帮你扶着包，你拿手机方便一点。",
+      "pinyin": "Wǒ bāng nǐ fú zhe bāo, nǐ ná shǒu jī fāng biàn yì diǎn.",
+      "tr": "Çantanı tutayım; telefonunu rahatça çıkarırsın."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_061",
       "speaker": "刘梅",
-      "zh": "那我再说一遍。",
-      "pinyin": "Nà wǒ zàishuō yībiàn.",
-      "tr": "Bir kez daha söyleyeyim."
+      "zh": "谢谢，付好了，您收到没有？",
+      "pinyin": "Xiè xiè, fù hǎo le, nín shōu dào méi yǒu?",
+      "tr": "Teşekkürler; ödedim, geldi mi?",
+      "emotion": "happy",
+      "actionTr": "Çantayı tutan komşusuna gülümser."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_062",
       "speaker": "摊主",
-      "zh": "嗯，这些菜特别新鲜。",
-      "pinyin": "En, zhèxiē cài tèbié xīnxiān.",
-      "tr": "Bu sebzeler çok taze."
+      "zh": "收到了，东西都在这里，您再检查一下。",
+      "pinyin": "Shōu dào le, dōng xi dōu zài zhè lǐ, nín zài jiǎn chá yī xià.",
+      "tr": "Geldi; aldıklarınız burada, tekrar kontrol edin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_063",
       "speaker": "邻居",
-      "zh": "嗯，现在明白多了。",
-      "pinyin": "En, xiànzài míngbái duō le.",
-      "tr": "Şimdi daha net."
+      "zh": "别忘了包带，刚才压在青菜下面了。",
+      "pinyin": "Bié wàng le bāo dài, gāng cái yā zài qīng cài xià miàn le.",
+      "tr": "Askıyı unutma; az önce yeşilliğin altında kaldı."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_064",
       "speaker": "刘梅",
-      "zh": "嗯，我们先买。",
-      "pinyin": "En, wǒmen xiānmǎi.",
-      "tr": "Önce satın almak."
+      "zh": "找到了，这次没有把包落下。",
+      "pinyin": "Zhǎo dào le, zhè cì méi yǒu bǎ bāo là xià.",
+      "tr": "Buldum; bu kez çantayı unutmadım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_065",
       "speaker": "摊主",
-      "zh": "嗯，我记住了。",
-      "pinyin": "En, wǒ jìzhù le.",
-      "tr": "Evet, aklımda."
+      "zh": "您带自己的包挺好，也装得稳。",
+      "pinyin": "Nín dài zì jǐ de bāo tǐng hǎo, yě zhuāng de wěn.",
+      "tr": "Kendi çantanızı getirmeniz iyi; eşyalar da sağlam duruyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_066",
       "speaker": "邻居",
-      "zh": "这个蔬菜在这里。",
-      "pinyin": "Zhège shūcài zài zhèlǐ.",
-      "tr": "Bu sebze burada."
+      "zh": "我也买这几个西红柿，麻烦您称一下。",
+      "pinyin": "Wǒ yě mǎi zhè jǐ gè xī hóng shì, má fán nín chēng yī xià.",
+      "tr": "Ben de şu birkaç domatesi alacağım; lütfen tartar mısınız?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_067",
       "speaker": "刘梅",
-      "zh": "这个挺实用的。",
-      "pinyin": "Zhège tǐng shíyòng de.",
-      "tr": "Bu çok kullanışlı."
+      "zh": "你慢慢来，我刚好把手机收好。",
+      "pinyin": "Nǐ màn màn lái, wǒ gāng hǎo bǎ shǒu jī shōu hǎo.",
+      "tr": "Sen acele etme; ben de telefonumu kaldırayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_068",
       "speaker": "摊主",
-      "zh": "是啊，就在这里。",
-      "pinyin": "Shì a, jiù zài zhèlǐ.",
-      "tr": "Bu çanta burada."
+      "zh": "您这份不到一斤，就按实际重量算。",
+      "pinyin": "Nín zhè fèn bú dào yī jīn, jiù àn shí jì zhòng liàng suàn.",
+      "tr": "Sizinki bir jinden az; gerçek ağırlığına göre hesaplayayım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_069",
       "speaker": "邻居",
-      "zh": "嗯，这个以后还会用。",
-      "pinyin": "En, zhège yǐhòu háihuìyòng.",
-      "tr": "Bunu ileride yine kullanacağız."
+      "zh": "好，不用再加，我家里也还有。",
+      "pinyin": "Hǎo, bù yòng zài jiā, wǒ jiā lǐ yě hái yǒu.",
+      "tr": "Tamam; eklemeye gerek yok, evde de var."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_070",
       "speaker": "刘梅",
-      "zh": "嗯，这个蔬菜在这里。",
-      "pinyin": "En, zhège shūcài zài zhèlǐ.",
-      "tr": "Bu sebze burada."
+      "zh": "我们今天都买得不多，晚上应该能吃完。",
+      "pinyin": "Wǒ men jīn tiān dōu mǎi de bù duō, wǎn shàng yīng gāi néng chī wán.",
+      "tr": "Bugün ikimiz de az aldık; akşama bitirebiliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_071",
       "speaker": "摊主",
-      "zh": "我再说一遍。",
-      "pinyin": "Wǒ zàishuō yībiàn.",
-      "tr": "Bir kez daha söyleyeyim."
+      "zh": "少买一点，吃完再来，不容易放坏。",
+      "pinyin": "Shǎo mǎi yì diǎn, chī wán zài lái, bù róng yì fàng huài.",
+      "tr": "Az alıp bitince tekrar gelirsiniz; böyle kolayca bozulmaz."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_072",
       "speaker": "邻居",
-      "zh": "嗯，你看，这个水果在这儿。",
-      "pinyin": "En, nǐ kàn, zhège shuǐguǒ zài zhèér.",
-      "tr": "Bu meyve burada."
+      "zh": "我喜欢这样，不用每天想还有什么没吃。",
+      "pinyin": "Wǒ xǐ huan zhè yàng, bù yòng měi tiān xiǎng hái yǒu shén me méi chī.",
+      "tr": "Böylesini seviyorum; her gün neyi bitirmedik diye düşünmem gerekmiyor."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_073",
       "speaker": "刘梅",
-      "zh": "这样就更清楚了。",
-      "pinyin": "Zhèyàng jiù gèng qīngchǔ le.",
-      "tr": "Şimdi daha net."
+      "zh": "下次我也先看冰箱，再出来买。",
+      "pinyin": "Xià cì wǒ yě xiān kàn bīng xiāng, zài chū lái mǎi.",
+      "tr": "Bir dahaki sefere ben de önce buzdolabına bakıp alışverişe çıkarım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_074",
       "speaker": "摊主",
-      "zh": "对，这个我要两斤。",
-      "pinyin": "Duì, zhège wǒyào liǎngjīn.",
-      "tr": "Bundan bir kilo istiyorum."
+      "zh": "看好家里有什么，再告诉我想买多少。",
+      "pinyin": "Kàn hǎo jiā lǐ yǒu shén me, zài gào sù wǒ xiǎng mǎi duō shǎo.",
+      "tr": "Evde ne kaldığına bakıp sonra ne kadar almak istediğinizi söyleyin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_075",
       "speaker": "邻居",
-      "zh": "对，我记住了。",
-      "pinyin": "Duì, wǒ jìzhù le.",
-      "tr": "Evet, aklımda."
+      "zh": "也可以写个小单子，不过别只顾着看单子。",
+      "pinyin": "Yě kě yǐ xiě gè xiǎo dān zi, bù guò bié zhǐ gù zhe kàn dān zi.",
+      "tr": "Küçük bir liste de yazabilirsin ama sadece listeye bakıp kalma."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_076",
       "speaker": "刘梅",
-      "zh": "对，这个价格可以接受。",
-      "pinyin": "Duì, zhège jiàgé kěyǐ jiēshòu.",
-      "tr": "Bu fiyat kabul edilebilir."
+      "zh": "还要看新不新鲜，像刚才那个苹果。",
+      "pinyin": "Hái yào kàn xīn bù xīn xiān, xiàng gāng cái nà ge píng guǒ.",
+      "tr": "Taze olup olmadığına da bakmalı; az önceki elma gibi."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_077",
       "speaker": "摊主",
-      "zh": "嗯，这个很有用。",
-      "pinyin": "En, zhège hěn yǒuyòng.",
-      "tr": "Bu çok kullanışlı."
+      "zh": "对，有碰伤的直接告诉我，可以换。",
+      "pinyin": "Duì, yǒu pèng shāng de zhí jiē gào sù wǒ, kě yǐ huàn.",
+      "tr": "Evet; ezilmiş görürseniz doğrudan söyleyin, değiştirebiliriz."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_078",
       "speaker": "邻居",
-      "zh": "对，这些菜特别新鲜。",
-      "pinyin": "Duì, zhèxiē cài tèbié xīnxiān.",
-      "tr": "Bu sebzeler çok taze."
+      "zh": "有问题问清楚，比回家才发现方便。",
+      "pinyin": "Yǒu wèn tí wèn qīng chǔ, bǐ huí jiā cái fā xiàn fāng biàn.",
+      "tr": "Sorunu sormak, eve gidince fark etmekten daha kolay."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_079",
       "speaker": "刘梅",
-      "zh": "以后也会用到。",
-      "pinyin": "Yǐhòu yě huì yòngdào.",
-      "tr": "Bunu ileride yine kullanacağız."
+      "zh": "我以前不好意思问，今天问了反而放心。",
+      "pinyin": "Wǒ yǐ qián bù hǎo yì sī wèn, jīn tiān wèn le fǎn ér fàng xīn.",
+      "tr": "Eskiden sormaya çekinirdim; bugün sorunca rahatladım.",
+      "emotion": "neutral",
+      "actionTr": "Sormaya çekindiğini açıklar."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_080",
       "speaker": "摊主",
-      "zh": "对，我们先买。",
-      "pinyin": "Duì, wǒmen xiānmǎi.",
-      "tr": "Önce satın almak."
+      "zh": "问价格、问重量都没关系，您买得明白就好。",
+      "pinyin": "Wèn jià gé, wèn zhòng liàng dōu méi guān xì, nín mǎi de míng bái jiù hǎo.",
+      "tr": "Fiyat veya ağırlık sormanız sorun değil; ne aldığınızı bilmeniz yeter."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_081",
       "speaker": "邻居",
-      "zh": "嗯，我再说一遍。",
-      "pinyin": "En, wǒ zàishuō yībiàn.",
-      "tr": "Bir kez daha söyleyeyim."
+      "zh": "刚来不熟悉很正常，来几次就认识了。",
+      "pinyin": "Gāng lái bù shú xī hěn zhèng cháng, lái jǐ cì jiù rèn shi le.",
+      "tr": "Yeni gelince alışık olmamak normal; birkaç kez gelince tanırsın."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_082",
       "speaker": "刘梅",
-      "zh": "没错，就在这里。",
-      "pinyin": "Méicuò, jiù zài zhèlǐ.",
-      "tr": "Bu sebze burada."
+      "zh": "这三个月认识了你们，买东西也没那么紧张。",
+      "pinyin": "Zhè sān gè yuè rèn shi le nǐ men, mǎi dōng xi yě méi nà me jǐn zhāng.",
+      "tr": "Bu üç ayda sizleri tanıyınca alışverişte de o kadar gerilmiyorum.",
+      "emotion": "happy",
+      "actionTr": "Üç ayda çevresine alıştığını söyler."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_083",
       "speaker": "摊主",
-      "zh": "嗯，现在明白多了。",
-      "pinyin": "En, xiànzài míngbái duō le.",
-      "tr": "Şimdi daha net."
+      "zh": "我们也记得常来的客人，下次见面就熟了。",
+      "pinyin": "Wǒ men yě jì de cháng lái de kè rén, xià cì jiàn miàn jiù shú le.",
+      "tr": "Biz de sık gelen müşterileri hatırlarız; sonra daha tanıdık oluruz."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_084",
       "speaker": "邻居",
-      "zh": "你看，这个包在这儿。",
-      "pinyin": "Nǐ kàn, zhège bāo zài zhèér.",
-      "tr": "Bu çanta burada."
+      "zh": "说起来，乐乐明天早上还坐校车吗？",
+      "pinyin": "Shuō qǐ lái, lè le míng tiān zǎo shang hái zuò xiào chē ma?",
+      "tr": "Bu arada, Lele yarın sabah da okul servisine binecek mi?"
     },
     {
       "id": "DLG_ZH_HSK2_SC003_085",
       "speaker": "刘梅",
-      "zh": "嗯，我记住了。",
-      "pinyin": "En, wǒ jìzhù le.",
-      "tr": "Evet, aklımda."
+      "zh": "要坐，雨桐跟他出门的时间不太一样。",
+      "pinyin": "Yào zuò, yǔ tóng gēn tā chū mén de shí jiān bù tài yī yàng.",
+      "tr": "Binecek; Yutong'un çıkış saati onunkinden biraz farklı."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_086",
       "speaker": "摊主",
-      "zh": "嗯，你看，这个蔬菜在这儿。",
-      "pinyin": "En, nǐ kàn, zhège shūcài zài zhèér.",
-      "tr": "Bu sebze burada."
+      "zh": "早上这边路上人多，出门记得留点时间。",
+      "pinyin": "Zǎo shàng zhè biān lù shàng rén duō, chū mén jì de liú diǎn shí jiān.",
+      "tr": "Sabah burada yol kalabalık olur; çıkarken biraz pay bırakın."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_087",
       "speaker": "邻居",
-      "zh": "嗯，这个很有用。",
-      "pinyin": "En, zhège hěn yǒuyòng.",
-      "tr": "Bu çok kullanışlı."
+      "zh": "我明天也早起，有需要可以叫我。",
+      "pinyin": "Wǒ míng tiān yě zǎo qǐ, yǒu xū yào kě yǐ jiào wǒ.",
+      "tr": "Ben de yarın erken kalkacağım; gerekirse beni çağırabilirsin.",
+      "emotion": "comforting",
+      "actionTr": "Gerekirse ertesi sabah yardım edebileceğini söyler."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_088",
       "speaker": "刘梅",
-      "zh": "这个水果在这里。",
-      "pinyin": "Zhège shuǐguǒ zài zhèlǐ.",
-      "tr": "Bu meyve burada."
+      "zh": "谢谢，先把菜带回家，明天的事今晚再安排。",
+      "pinyin": "Xiè xiè, xiān bǎ cài dài huí jiā, míng tiān de shì jīn wǎn zài ān pái.",
+      "tr": "Teşekkürler; önce alışverişi eve götüreyim, yarını akşam planlarız."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_089",
       "speaker": "摊主",
-      "zh": "以后还用得上。",
-      "pinyin": "Yǐhòu hái yòngdéshàng.",
-      "tr": "Bunu ileride yine kullanacağız."
+      "zh": "好的，两位的东西都齐了，慢走。",
+      "pinyin": "Hǎo de, liǎng wèi de dōng xi dōu qí le, màn zǒu.",
+      "tr": "Tamam; ikinizin de aldıkları tamam, güle güle gidin."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_090",
       "speaker": "邻居",
-      "zh": "好，这个我要两斤。",
-      "pinyin": "Hǎo, zhège wǒyào liǎngjīn.",
-      "tr": "Bundan bir kilo istiyorum."
+      "zh": "你的包在这边，我的在那边，别拿反了。",
+      "pinyin": "Nǐ de bāo zài zhè biān, wǒ de zài nà biān, bié ná fǎn le.",
+      "tr": "Senin çantan burada, benimki orada; ters almayalım."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_091",
       "speaker": "刘梅",
-      "zh": "对，我再说一遍。",
-      "pinyin": "Duì, wǒ zàishuō yībiàn.",
-      "tr": "Bir kez daha söyleyeyim."
+      "zh": "对，我的是有小隔层的这个。",
+      "pinyin": "Duì, wǒ de shì yǒu xiǎo gé céng de zhè ge.",
+      "tr": "Evet; benimki küçük bölmesi olan şu çanta."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_092",
       "speaker": "摊主",
-      "zh": "好，这个价格可以接受。",
-      "pinyin": "Hǎo, zhège jiàgé kěyǐ jiēshòu.",
-      "tr": "Bu fiyat kabul edilebilir."
+      "zh": "都拿对了，有不明白的下次再问。",
+      "pinyin": "Dōu ná duì le, yǒu bù míng bái de xià cì zài wèn.",
+      "tr": "İkiniz de doğru aldınız; anlamadığınız olursa yine sorun."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_093",
       "speaker": "邻居",
-      "zh": "嗯，现在明白多了。",
-      "pinyin": "En, xiànzài míngbái duō le.",
-      "tr": "Şimdi daha net."
+      "zh": "回去的路我也熟，我们一起走。",
+      "pinyin": "Huí qù de lù wǒ yě shú, wǒ men yì qǐ zǒu.",
+      "tr": "Dönüş yolunu ben de biliyorum; birlikte gidelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_094",
       "speaker": "刘梅",
-      "zh": "好，这些菜特别新鲜。",
-      "pinyin": "Hǎo, zhèxiē cài tèbié xīnxiān.",
-      "tr": "Bu sebzeler çok taze."
+      "zh": "好，不过我先把苹果往里面放稳一点。",
+      "pinyin": "Hǎo, bù guò wǒ xiān bǎ píng guǒ wǎng lǐ miàn fàng wěn yì diǎn.",
+      "tr": "Tamam ama önce elmaları içeriye daha sağlam yerleştireyim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_095",
       "speaker": "摊主",
-      "zh": "好，那我买两斤。",
-      "pinyin": "Hǎo, nà wǒ mǎi liǎngjīn.",
-      "tr": "Tamam, o zaman bir kilo alayım."
+      "zh": "这个小隔层正好挡着，不会滚出来。",
+      "pinyin": "Zhè ge xiǎo gé céng zhèng hǎo dǎng zhe, bú huì gǔn chū lái.",
+      "tr": "Şu küçük bölme tutuyor; yuvarlanıp çıkmazlar."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_096",
       "speaker": "邻居",
-      "zh": "问题解决了。",
-      "pinyin": "Wèntí jiějué le.",
-      "tr": "Sorun çözüldü."
+      "zh": "现在就放心了，你提着试试。",
+      "pinyin": "Xiàn zài jiù fàng xīn le, nǐ tí zhe shì shì.",
+      "tr": "Şimdi içimiz rahat; kaldırıp dene."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_097",
       "speaker": "刘梅",
-      "zh": "大家都轻松多了。",
-      "pinyin": "Dàjiā dōu qīngsōng duō le.",
-      "tr": "Herkes çok daha rahatladı."
+      "zh": "谢谢，今天买得刚好，也没有提太重。",
+      "pinyin": "Xiè xiè, jīn tiān mǎi de gāng hǎo, yě méi yǒu tí tài zhòng.",
+      "tr": "Teşekkürler; bugün tam gerektiği kadar aldım, çok ağır da olmadı.",
+      "emotion": "happy",
+      "actionTr": "Dengeli alışveriş çantasını kaldırır."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_098",
       "speaker": "摊主",
-      "zh": "今天很顺利。",
-      "pinyin": "Jīntiān hěn shùnlì.",
-      "tr": "Bugün işler yolunda gitti."
+      "zh": "不客气，两位回去路上小心。",
+      "pinyin": "Bú kè qì, liǎng wèi huí qù lù shàng xiǎo xīn.",
+      "tr": "Rica ederim; ikiniz de dönüş yolunda dikkatli olun."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_099",
       "speaker": "邻居",
-      "zh": "下次会更容易。",
-      "pinyin": "Xiàcì huì gèng róngyì.",
-      "tr": "Bir dahaki sefere daha kolay olacak."
+      "zh": "再见，我们一起往家那边走。",
+      "pinyin": "Zài jiàn, wǒ men yì qǐ wǎng jiā nà biān zǒu.",
+      "tr": "Hoşça kalın; biz birlikte ev tarafına gidelim."
     },
     {
       "id": "DLG_ZH_HSK2_SC003_100",
       "speaker": "刘梅",
-      "zh": "好，我们回去吧。",
-      "pinyin": "Hǎo, wǒmen huíqù ba.",
-      "tr": "Tamam, geri dönelim."
+      "zh": "好，我把包拿稳了，我们走吧。",
+      "pinyin": "Hǎo, wǒ bǎ bāo ná wěn le, wǒ men zǒu ba.",
+      "tr": "Tamam; çantamı sağlam tuttum, gidelim."
     }
   ],
   "productionStatus": "complete",
@@ -730,9 +750,9 @@
         "zh": "蔬菜",
         "pinyin": "shūcài",
         "tr": "sebze",
-        "exampleZh": "这个蔬菜在这里。",
-        "examplePinyin": "Zhège shūcài zài zhèlǐ.",
-        "exampleTr": "Bu sebze burada.",
+        "exampleZh": "两位慢慢看，今天的蔬菜刚摆出来。",
+        "examplePinyin": "Liǎng wèi màn màn kàn, jīn tiān de shū cài gāng bǎi chū lái.",
+        "exampleTr": "Rahatça bakın; bugünkü sebzeleri yeni tezgâha koydum.",
         "kind": "active"
       },
       {
@@ -740,9 +760,9 @@
         "zh": "水果",
         "pinyin": "shuǐguǒ",
         "tr": "meyve",
-        "exampleZh": "这个水果在这里。",
-        "examplePinyin": "Zhège shuǐguǒ zài zhèlǐ.",
-        "exampleTr": "Bu meyve burada.",
+        "exampleZh": "这边还有水果，要不要一起看？",
+        "examplePinyin": "Zhè biān hái yǒu shuǐ guǒ, yào bù yào yì qǐ kàn?",
+        "exampleTr": "Burada meyve de var; meyvelere de bakalım mı?",
         "kind": "active"
       },
       {
@@ -750,9 +770,9 @@
         "zh": "斤",
         "pinyin": "jīn",
         "tr": "yarım kilo ölçüsü",
-        "exampleZh": "这个我要两斤。",
-        "examplePinyin": "Zhège wǒ yào liǎng jīn.",
-        "exampleTr": "Bundan bir kilo istiyorum.",
+        "exampleZh": "按斤卖，价格写在前面这块牌子上。",
+        "examplePinyin": "Àn jīn mài, jià gé xiě zài qián miàn zhè kuài pái zi shàng.",
+        "exampleTr": "Jin üzerinden satılıyor; fiyatı öndeki levhada yazıyor.",
         "kind": "active"
       },
       {
@@ -760,9 +780,9 @@
         "zh": "价格",
         "pinyin": "jiàgé",
         "tr": "fiyat",
-        "exampleZh": "这个价格可以接受。",
-        "examplePinyin": "Zhège jiàgé kěyǐ jiēshòu.",
-        "exampleTr": "Bu fiyat kabul edilebilir.",
+        "exampleZh": "按斤卖，价格写在前面这块牌子上。",
+        "examplePinyin": "Àn jīn mài, jià gé xiě zài qián miàn zhè kuài pái zi shàng.",
+        "exampleTr": "Jin üzerinden satılıyor; fiyatı öndeki levhada yazıyor.",
         "kind": "active"
       },
       {
@@ -770,9 +790,9 @@
         "zh": "新鲜",
         "pinyin": "xīnxiān",
         "tr": "taze",
-        "exampleZh": "这些菜特别新鲜。",
-        "examplePinyin": "Zhèxiē cài tèbié xīnxiān.",
-        "exampleTr": "Bu sebzeler çok taze.",
+        "exampleZh": "这些西红柿看起来很新鲜，怎么卖？",
+        "examplePinyin": "Zhè xiē xī hóng shì kàn qǐ lái hěn xīn xiān, zěn me mài?",
+        "exampleTr": "Bu domatesler çok taze görünüyor; nasıl satılıyor?",
         "kind": "active"
       },
       {
@@ -780,9 +800,9 @@
         "zh": "买",
         "pinyin": "mǎi",
         "tr": "satın almak",
-        "exampleZh": "我们先买。",
-        "examplePinyin": "Wǒmen xiān mǎi.",
-        "exampleTr": "Önce satın almak.",
+        "exampleZh": "你也来买菜？我刚从车站那边过来。",
+        "examplePinyin": "Nǐ yě lái mǎi cài? wǒ gāng cóng chē zhàn nà biān guò lái.",
+        "exampleTr": "Sen de mi alışverişe geldin? Ben az önce durak tarafından geldim.",
         "kind": "active"
       },
       {
@@ -790,9 +810,9 @@
         "zh": "蔬菜",
         "pinyin": "shūcài",
         "tr": "sebze",
-        "exampleZh": "这个蔬菜在这里。",
-        "examplePinyin": "Zhège shūcài zài zhèlǐ.",
-        "exampleTr": "Bu sebze burada.",
+        "exampleZh": "两位慢慢看，今天的蔬菜刚摆出来。",
+        "examplePinyin": "Liǎng wèi màn màn kàn, jīn tiān de shū cài gāng bǎi chū lái.",
+        "exampleTr": "Rahatça bakın; bugünkü sebzeleri yeni tezgâha koydum.",
         "kind": "review"
       },
       {
@@ -800,9 +820,9 @@
         "zh": "包",
         "pinyin": "bāo",
         "tr": "çanta",
-        "exampleZh": "这个包在这里。",
-        "examplePinyin": "Zhège bāo zài zhèlǐ.",
-        "exampleTr": "Bu çanta burada.",
+        "exampleZh": "那我选小一点的，雨桐也可以放一个在包里。",
+        "examplePinyin": "Nà wǒ xuǎn xiǎo yì diǎn de, yǔ tóng yě kě yǐ fàng yí gè zài bāo lǐ.",
+        "exampleTr": "O zaman küçüklerinden seçeyim; Yutong da çantasına bir tane koyabilir.",
         "kind": "review"
       }
     ],
@@ -810,45 +830,43 @@
       {
         "type": "word_order",
         "tokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "先",
+          "挑",
+          "几个",
+          "我"
         ],
         "answerTokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "我",
+          "先",
+          "挑",
+          "几个"
         ],
         "id": "SENT_ZH_HSK2_SC003_001",
         "promptTr": "Kelimeleri doğru sıraya koy."
       },
       {
         "type": "fill_blank",
-        "blankSentenceZh": "蔬菜比水果___一点。",
+        "blankSentenceZh": "这些西红柿看起来很___，怎么卖？",
         "options": [
-          "好",
-          "先",
-          "已经"
+          "新鲜",
+          "价格",
+          "包"
         ],
-        "answer": "好",
+        "answer": "新鲜",
         "id": "SENT_ZH_HSK2_SC003_002",
         "promptTr": "Boşluğu doğru kelimeyle doldur."
       },
       {
         "type": "sentence_repair",
         "tokens": [
-          "更好",
-          "水果",
-          "比",
-          "蔬菜"
+          "在",
+          "旁边",
+          "青菜"
         ],
         "answerTokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "青菜",
+          "在",
+          "旁边"
         ],
         "id": "SENT_ZH_HSK2_SC003_003",
         "promptTr": "Yanlış sıradaki cümleyi düzelt."
@@ -856,45 +874,53 @@
       {
         "type": "word_order",
         "tokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "带了",
+          "自己的",
+          "购物包",
+          "我"
         ],
         "answerTokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "我",
+          "带了",
+          "自己的",
+          "购物包"
         ],
         "id": "SENT_ZH_HSK2_SC003_004",
         "promptTr": "Kelimeleri doğru sıraya koy."
       },
       {
         "type": "fill_blank",
-        "blankSentenceZh": "蔬菜比水果___一点。",
+        "blankSentenceZh": "这几个西红柿有一___吗？",
         "options": [
-          "好",
-          "先",
-          "已经"
+          "斤",
+          "水果",
+          "蔬菜"
         ],
-        "answer": "好",
+        "answer": "斤",
         "id": "SENT_ZH_HSK2_SC003_005",
         "promptTr": "Boşluğu doğru kelimeyle doldur."
       },
       {
         "type": "sentence_repair",
         "tokens": [
-          "更好",
+          "先",
+          "算",
+          "蔬菜",
+          "，",
+          "再",
+          "算",
           "水果",
-          "比",
-          "蔬菜"
+          "我"
         ],
         "answerTokens": [
+          "我",
+          "先",
+          "算",
           "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "，",
+          "再",
+          "算",
+          "水果"
         ],
         "id": "SENT_ZH_HSK2_SC003_006",
         "promptTr": "Yanlış sıradaki cümleyi düzelt."
@@ -902,45 +928,43 @@
       {
         "type": "word_order",
         "tokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "用",
+          "手机",
+          "付",
+          "我"
         ],
         "answerTokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "我",
+          "用",
+          "手机",
+          "付"
         ],
         "id": "SENT_ZH_HSK2_SC003_007",
         "promptTr": "Kelimeleri doğru sıraya koy."
       },
       {
         "type": "fill_blank",
-        "blankSentenceZh": "蔬菜比水果___一点。",
+        "blankSentenceZh": "我带了自己的购物___，可以分开放。",
         "options": [
-          "好",
-          "先",
-          "已经"
+          "包",
+          "价格",
+          "斤"
         ],
-        "answer": "好",
+        "answer": "包",
         "id": "SENT_ZH_HSK2_SC003_008",
         "promptTr": "Boşluğu doğru kelimeyle doldur."
       },
       {
         "type": "sentence_repair",
         "tokens": [
-          "更好",
-          "水果",
-          "比",
-          "蔬菜"
+          "走",
+          "吧",
+          "我们"
         ],
         "answerTokens": [
-          "蔬菜",
-          "比",
-          "水果",
-          "更好"
+          "我们",
+          "走",
+          "吧"
         ],
         "id": "SENT_ZH_HSK2_SC003_009",
         "promptTr": "Yanlış sıradaki cümleyi düzelt."
@@ -949,51 +973,51 @@
     "comprehensionQuestions": [
       {
         "id": "COMP_ZH_HSK2_SC003_001",
-        "questionTr": "Sahnenin ana olayı hangisidir?",
+        "questionTr": "Liu Mei neden az yeşillik alıyor?",
         "optionsTr": [
-          "Liu Mei Mahalle Pazarında",
-          "Bir havaalanı yolculuğu",
-          "Bir tarih dersi"
+          "Evde yarım demet kaldığı için",
+          "Yeşillik sevmediği için",
+          "Satıcı olmadığı için"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK2_SC003_002",
-        "questionTr": "Karakterler sahnede günlük bir problemi çözmeye çalışıyor mu?",
+        "questionTr": "Domates tam bir jin değilse ne yapılıyor?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Belli değil"
+          "Gerçek ağırlığına göre hesaplanıyor",
+          "Mutlaka bir jin tamamlanıyor",
+          "Ücretsiz veriliyor"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK2_SC003_003",
-        "questionTr": "Sahne sonunda ana sorun çözülüyor mu?",
+        "questionTr": "Elmada ne fark ediliyor?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sahne yarım kalıyor"
+          "Biraz ezik",
+          "Yazı",
+          "Boya"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK2_SC003_004",
-        "questionTr": "Bu sahne hangi büyük hikâyenin parçasıdır?",
+        "questionTr": "Ürünler nasıl taşınıyor?",
         "optionsTr": [
-          "Zhang ailesinin yeni kasabadaki ilk yılı",
-          "Bir bilim kurgu macerası",
-          "Bir spor ligi"
+          "Kendi bölmeli çantasında",
+          "Okul çantası olmadan elde",
+          "Hepsi tek kutuda ezilerek"
         ],
         "correctIndex": 0
       },
       {
         "id": "COMP_ZH_HSK2_SC003_005",
-        "questionTr": "Sahnede neden-sonuç veya sıralama dili kullanılıyor mu?",
+        "questionTr": "Komşu ertesi sabah için ne söylüyor?",
         "optionsTr": [
-          "Evet",
-          "Hayır",
-          "Sadece sayılar var"
+          "Gerekirse yardım için çağrılabileceğini",
+          "Pazarın kapalı olduğunu",
+          "Yeni kart alacağını"
         ],
         "correctIndex": 0
       }
@@ -1001,9 +1025,9 @@
     "pronunciationItems": [
       {
         "id": "PRON_ZH_HSK2_SC003_001",
-        "zh": "这个蔬菜在这里。",
-        "pinyin": "Zhège shūcài zài zhèlǐ.",
-        "tr": "Bu sebze burada.",
+        "zh": "这些西红柿看起来很新鲜，怎么卖？",
+        "pinyin": "Zhè xiē xī hóng shì kàn qǐ lái hěn xīn xiān, zěn me mài?",
+        "tr": "Bu domatesler çok taze görünüyor; nasıl satılıyor?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -1014,9 +1038,9 @@
       },
       {
         "id": "PRON_ZH_HSK2_SC003_002",
-        "zh": "这个水果在这里。",
-        "pinyin": "Zhège shuǐguǒ zài zhèlǐ.",
-        "tr": "Bu meyve burada.",
+        "zh": "按斤卖，价格写在前面这块牌子上。",
+        "pinyin": "Àn jīn mài, jià gé xiě zài qián miàn zhè kuài pái zi shàng.",
+        "tr": "Jin üzerinden satılıyor; fiyatı öndeki levhada yazıyor.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -1027,9 +1051,9 @@
       },
       {
         "id": "PRON_ZH_HSK2_SC003_003",
-        "zh": "这个我要两斤。",
-        "pinyin": "Zhège wǒ yào liǎng jīn.",
-        "tr": "Bundan bir kilo istiyorum.",
+        "zh": "这几个西红柿有一斤吗？",
+        "pinyin": "Zhè jǐ gè xī hóng shì yǒu yī jīn ma?",
+        "tr": "Şu birkaç domates bir jin geliyor mu?",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -1040,9 +1064,9 @@
       },
       {
         "id": "PRON_ZH_HSK2_SC003_004",
-        "zh": "这个价格可以接受。",
-        "pinyin": "Zhège jiàgé kěyǐ jiēshòu.",
-        "tr": "Bu fiyat kabul edilebilir.",
+        "zh": "先看你的需要，不一定非要正好一斤。",
+        "pinyin": "Xiān kàn nǐ de xū yào, bù yí dìng fēi yào zhèng hǎo yī jīn.",
+        "tr": "Önce ihtiyacına bak; tam bir jin olması şart değil.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -1053,9 +1077,9 @@
       },
       {
         "id": "PRON_ZH_HSK2_SC003_005",
-        "zh": "这些菜特别新鲜。",
-        "pinyin": "Zhèxiē cài tèbié xīnxiān.",
-        "tr": "Bu sebzeler çok taze.",
+        "zh": "我也看了一遍，没有多算别的东西。",
+        "pinyin": "Wǒ yě kàn le yī biàn, méi yǒu duō suàn bié de dōng xi.",
+        "tr": "Ben de baktım; fazladan bir şey eklenmemiş.",
         "scoring": [
           "pronunciation",
           "toneAccuracy",
@@ -1068,92 +1092,92 @@
     "interactiveDialogue": [
       {
         "id": "INT_ZH_HSK2_SC003_001",
-        "promptZh": "现在怎么办？",
-        "promptPinyin": "Xiànzài zěnme bàn?",
-        "promptTr": "Şimdi ne yapacağız?",
+        "promptZh": "这些西红柿怎么卖？",
+        "promptPinyin": "Zhè xiē xī hóng shì zěn me mài?",
+        "promptTr": "Bu domatesler nasıl satılıyor?",
         "options": [
           {
-            "zh": "我们先想个办法。",
-            "tr": "Önce bir çözüm düşünelim.",
+            "zh": "按斤卖。",
+            "tr": "Jin üzerinden.",
             "correct": true
           },
           {
-            "zh": "昨天是星期三。",
-            "tr": "Dün çarşambaydı.",
+            "zh": "在学校。",
+            "tr": "Okulda.",
             "correct": false
           },
           {
-            "zh": "我有两本书。",
-            "tr": "İki kitabım var.",
+            "zh": "明天上车。",
+            "tr": "Yarın otobüse bin.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK2_SC003_002",
-        "promptZh": "这个蔬菜怎么样？",
-        "promptPinyin": "Zhège shūcài zěnmeyàng?",
-        "promptTr": "Bu sebze nasıl?",
+        "promptZh": "还要加一个吗？",
+        "promptPinyin": "Hái yào jiā yí gè ma?",
+        "promptTr": "Bir tane daha ekleyelim mi?",
         "options": [
           {
-            "zh": "我觉得不错。",
-            "tr": "Bence fena değil.",
+            "zh": "不用，这些就够了。",
+            "tr": "Gerek yok; bunlar yeter.",
             "correct": true
           },
           {
-            "zh": "我叫张伟。",
-            "tr": "Benim adım Zhang Wei.",
+            "zh": "手机在家。",
+            "tr": "Telefon evde.",
             "correct": false
           },
           {
-            "zh": "在二楼。",
-            "tr": "İkinci katta.",
+            "zh": "这是一张卡。",
+            "tr": "Bu bir kart.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK2_SC003_003",
-        "promptZh": "为什么？",
-        "promptPinyin": "Wèishénme?",
-        "promptTr": "Neden?",
+        "promptZh": "这个苹果有碰伤，怎么办？",
+        "promptPinyin": "Zhè ge píng guǒ yǒu pèng shāng, zěn me bàn?",
+        "promptTr": "Bu elma biraz ezilmiş; ne yapalım?",
         "options": [
           {
-            "zh": "因为这样更方便。",
-            "tr": "Çünkü böyle daha kullanışlı.",
+            "zh": "换旁边那个吧。",
+            "tr": "Yanındakini alalım.",
             "correct": true
           },
           {
-            "zh": "三个人。",
-            "tr": "Üç kişi.",
+            "zh": "一直等车。",
+            "tr": "Otobüs beklemeye devam edelim.",
             "correct": false
           },
           {
-            "zh": "红色的。",
-            "tr": "Kırmızı olan.",
+            "zh": "先上课。",
+            "tr": "Önce derse girelim.",
             "correct": false
           }
         ]
       },
       {
         "id": "INT_ZH_HSK2_SC003_004",
-        "promptZh": "准备好了吗？",
-        "promptPinyin": "Zhǔnbèi hǎo le ma?",
-        "promptTr": "Hazır mısın?",
+        "promptZh": "一共多少钱？",
+        "promptPinyin": "Yī gòng duō shǎo qián?",
+        "promptTr": "Toplam ne kadar?",
         "options": [
           {
-            "zh": "已经准备好了。",
-            "tr": "Çoktan hazırım.",
+            "zh": "先把三项加在一起。",
+            "tr": "Önce üç kalemi toplayalım.",
             "correct": true
           },
           {
-            "zh": "比昨天。",
-            "tr": "Dünden daha.",
+            "zh": "我在公园。",
+            "tr": "Parktayım.",
             "correct": false
           },
           {
-            "zh": "在银行。",
-            "tr": "Bankada.",
+            "zh": "不要洗手。",
+            "tr": "Ellerini yıkama.",
             "correct": false
           }
         ]
@@ -1217,6 +1241,6 @@
     },
     "continuityNoteTr": "Liu Mei Mahalle Pazarında olayı Zhang ailesinin yeni kasabadaki ilk yılı içinde HSK2 sahne 3 olarak kaydedilir."
   },
-  "editorialStatus": "generated_full_v1_requires_native_review",
+  "editorialStatus": "contextual_simplified_chinese_r1_model_reviewed_audio_pending",
   "dialogueCount": 100
 }

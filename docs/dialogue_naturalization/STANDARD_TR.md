@@ -238,3 +238,5 @@ HSK2 SC001: 52/300 metin,51/300 ağız kalibrasyonu. Banyo sırası ihtiyaca gö
 HSK1 SC001–SC050 ses denetimi (2026-10-17): 39017114823 başarıyla tamamlandı. Kaynak f1b8587097d5d0e9eb4b6c6fbbd63cfc25619df7 için 5000 replik metin/konuşmacı/kast/anahtar ve Opus başlık kontrolünden geçti; 4999 benzersiz ses. Uygulama entegrasyonu, dinleme ve Android oynatımı bekliyor; tamamlanmış ses sayısı artırılmadı.
 
 HSK2 SC001: 53/300 metin,52/300 ağız kalibrasyonu. Günlük/aylık kart karışıklığı ödeme öncesi çözülür; fiyat/süre/güzergâh teyidi ve pazar sahnesine geçiş. Üç gerçek konuşmacı ağzı görsel hashine bağlı. 5300 replik kontrolü sıfır uyarı. Ses/insan/cihaz bekliyor; APK/release yok.
+
+HSK2 SC001: 54/300 metin,53/300 ağız kalibrasyonu. Pazarda miktar/fiyat/tazelik, ayrı tartım ve toplam teyidiyle alışveriş yapılır; komşu ertesi sabah yardım teklif eder. Üç gerçek konuşmacı ağzı görsel hashine bağlı. 5400 replik kontrolü sıfır uyarı. Ses/insan/cihaz bekliyor; APK/release yok.

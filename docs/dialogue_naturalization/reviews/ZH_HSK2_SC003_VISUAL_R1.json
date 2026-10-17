@@ -1,0 +1,46 @@
+{
+  "sceneId": "ZH_HSK2_SC003",
+  "imageSha256": "0f6155861792d0bbd141babc16bb7e610cbb307812ee75ac1c452ba47cfc86a9",
+  "referenceSceneId": "ZH_HSK2_SC003",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "摊主",
+    "刘梅",
+    "邻居"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Market quantity and price comparison, three adult women, canonical Liu Mei, source vendor and established lavender neighbor from SC046, produce scale divided bag",
+  "anchors": {
+    "摊主": [
+      0.228,
+      0.264
+    ],
+    "刘梅": [
+      0.51,
+      0.257
+    ],
+    "邻居": [
+      0.843,
+      0.283
+    ]
+  },
+  "identityReferences": [
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_LIUMEI_001.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_4E05F85519",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\hsk2_sc003\\input\\chinese_hsk_android_github\\app\\src\\main\\assets\\chinese_course\\media\\scenes\\ZH_HSK2_SC003.webp",
+      "sha256": "ed4cf19b51089ca184639b5eddf7903f5383c15b72ed961e37714b392e0b06e8"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_E985EDCD56",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc046\\art\\ZH_HSK1_SC046_R1.webp",
+      "sha256": "c69ee2ca644fae76765d15bc25ef83b4b5d28e5d45577f8ac25901acb07d2748"
+    }
+  ]
+}

@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK2_SC003",
   "generationSceneId": "ZH_HSK2_SC003",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC003.json",
-  "dialogueSha256": "d949253c26a00ae88798badb62bcff05b2a95c14622c46b60a374140c7b7bdc7",
+  "dialogueSource": "ci/dialogue_final_v13/HSK2/ZH_HSK2_SC003.json",
+  "dialogueSha256": "bded160686fcbe6fa20d7fdf59051f5bec62a3fbee4cf8fdb3c095f5ec374c21",
   "titleTr": "Taze Sebze ve Meyve Pazarı",
   "locationId": "LOC_ZH_MARKET_001",
   "scenePurposeTr": "Liu Mei, komşusuyla birlikte pazarda taze sebze ve meyve seçer; pazar satıcısı ürünleri gösterir.",
@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC002",
     "nextSceneId": "ZH_HSK2_SC004"
   },
-  "sourceGeneratedFilename": "sıcacık_mahalle_pazarı_sohbeti.png",
+  "sourceGeneratedFilename": "ZH_HSK2_SC003_R1.png",
   "finalAssetFilename": "ZH_HSK2_SC003.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC003.webp",
   "image": {
@@ -35,7 +35,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "ed4cf19b51089ca184639b5eddf7903f5383c15b72ed961e37714b392e0b06e8"
+    "sha256": "0f6155861792d0bbd141babc16bb7e610cbb307812ee75ac1c452ba47cfc86a9",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-17"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,33 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "HSK2 SC003 canonical Liu Mei, source woman vendor CHR_ZH_AUTO_4E05F85519 mauve/burgundy apron and neighbor CHR_ZH_AUTO_E985EDCD56 lavender/floral from SC046 reviewed. Three named actual mouths, produce scale and divided reusable bag inspected. Supporting base bitmap unavailable; scene identity references used. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "0f6155861792d0bbd141babc16bb7e610cbb307812ee75ac1c452ba47cfc86a9",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "摊主": [
+        0.228,
+        0.264
+      ],
+      "刘梅": [
+        0.51,
+        0.257
+      ],
+      "邻居": [
+        0.843,
+        0.283
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "HSK2 SC003 canonical Liu Mei, source woman vendor CHR_ZH_AUTO_4E05F85519 mauve/burgundy apron and neighbor CHR_ZH_AUTO_E985EDCD56 lavender/floral from SC046 reviewed. Three named actual mouths, produce scale and divided reusable bag inspected. Supporting base bitmap unavailable; scene identity references used. Model review only; native human/device pending."
+  }
 }

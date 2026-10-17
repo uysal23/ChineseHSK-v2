@@ -3309,6 +3309,26 @@
         ]
       },
       "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+    },
+    "ZH_HSK2_SC003": {
+      "imageSha256": "0f6155861792d0bbd141babc16bb7e610cbb307812ee75ac1c452ba47cfc86a9",
+      "width": 941,
+      "height": 1672,
+      "anchors": {
+        "摊主": [
+          0.228,
+          0.264
+        ],
+        "刘梅": [
+          0.51,
+          0.257
+        ],
+        "邻居": [
+          0.843,
+          0.283
+        ]
+      },
+      "reviewStatus": "MODEL_VISUAL_CALIBRATION"
     }
   }
 }
