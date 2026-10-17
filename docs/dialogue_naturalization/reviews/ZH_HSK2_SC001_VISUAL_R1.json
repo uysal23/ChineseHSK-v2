@@ -1,0 +1,59 @@
+{
+  "sceneId": "ZH_HSK2_SC001",
+  "imageSha256": "15f7f2949d39de8f1d658842487358dcbfd965b2fe1ca7a3c4716b8c18b3e7ff",
+  "referenceSceneId": "ZH_HSK2_SC001",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "刘梅",
+    "张伟",
+    "张雨桐",
+    "张乐乐"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Family bathroom queue at new home, four canonical ages, comb outside, water bottles prepared bags and non-speaking Mimi",
+  "anchors": {
+    "刘梅": [
+      0.376,
+      0.274
+    ],
+    "张伟": [
+      0.847,
+      0.217
+    ],
+    "张雨桐": [
+      0.602,
+      0.25
+    ],
+    "张乐乐": [
+      0.212,
+      0.422
+    ]
+  },
+  "canonicalReferences": [
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_LIUMEI_001/base.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGLELE_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGLELE_001/base.webp",
+      "sha256": "526122dbc40f79e2bed7ed485d902cd27759745058eaf08eaae29da6fe9a07ed"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGWEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGWEI_001/base.webp",
+      "sha256": "8d6a3fafff7c4a0e46b2c8ba623f47ad8c40d9a62e41d1b57d31230af97c0e38"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGYUTONG_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGYUTONG_001/base.webp",
+      "sha256": "590f141d903899c312ebf05e9a1e8d24dc43d3301ae3485de5241b076f820ea2"
+    }
+  ],
+  "requiredNonSpeakingCast": [
+    "咪咪"
+  ]
+}
