@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK2_SC002",
   "generationSceneId": "ZH_HSK2_SC002",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC002.json",
-  "dialogueSha256": "7f76d584438e3742fb690e1bd82613be3cef4f6212974378e66989687cc56af4",
+  "dialogueSource": "ci/dialogue_final_v13/HSK2/ZH_HSK2_SC002.json",
+  "dialogueSha256": "810df58aa1751cae40781fc1564010e888e2ab3755058481510a24c99fadf4ca",
   "titleTr": "Otobüs Kartı Almak",
   "locationId": "LOC_ZH_TRANSIT_SERVICE_001",
   "scenePurposeTr": "Zhang Wei, Liu Mei ile birlikte ulaşım hizmet noktasında bir otobüs kartı alır.",
@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC001",
     "nextSceneId": "ZH_HSK2_SC003"
   },
-  "sourceGeneratedFilename": "ulaşım_kartı_i_çin_neşeli_danışma.png",
+  "sourceGeneratedFilename": "ZH_HSK2_SC002_R1.png",
   "finalAssetFilename": "ZH_HSK2_SC002.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC002.webp",
   "image": {
@@ -35,7 +35,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "38b7a6f4fb277ff5b26db173b13ea213969848ef3c809f7ff7fb01daa638cb5a"
+    "sha256": "3e57e2230e0f5a900e8e34338ed1eeba63534c1e0cfef0b275821201a160867d",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-17"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,33 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "HSK2 SC002 mature canonical parents and original female service staff CHR_ZH_AUTO_7F81595D7E from existing source scene. Two cards and comparison sheet reflect daily/monthly clarification before payment. Three named mouths inspected. Supporting base bitmap unavailable; original scene identity retained. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "3e57e2230e0f5a900e8e34338ed1eeba63534c1e0cfef0b275821201a160867d",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "张伟": [
+        0.304,
+        0.318
+      ],
+      "刘梅": [
+        0.502,
+        0.363
+      ],
+      "工作人员": [
+        0.784,
+        0.44
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "HSK2 SC002 mature canonical parents and original female service staff CHR_ZH_AUTO_7F81595D7E from existing source scene. Two cards and comparison sheet reflect daily/monthly clarification before payment. Three named mouths inspected. Supporting base bitmap unavailable; original scene identity retained. Model review only; native human/device pending."
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "sceneId": "ZH_HSK2_SC002",
+  "imageSha256": "3e57e2230e0f5a900e8e34338ed1eeba63534c1e0cfef0b275821201a160867d",
+  "referenceSceneId": "ZH_HSK2_SC002",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "张伟",
+    "刘梅",
+    "工作人员"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Bus service counter, three adult speakers, two transit card choices, source staff identity and canonical parent references",
+  "anchors": {
+    "张伟": [
+      0.304,
+      0.318
+    ],
+    "刘梅": [
+      0.502,
+      0.363
+    ],
+    "工作人员": [
+      0.784,
+      0.44
+    ]
+  },
+  "canonicalReferences": [
+    {
+      "characterId": "CHR_ZH_ZHANGWEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_ZHANGWEI_001/base.webp",
+      "sha256": "8d6a3fafff7c4a0e46b2c8ba623f47ad8c40d9a62e41d1b57d31230af97c0e38"
+    },
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "ci/runtime_characters/CHR_ZH_LIUMEI_001/base.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    }
+  ],
+  "supportingIdentityReference": {
+    "characterId": "CHR_ZH_AUTO_7F81595D7E",
+    "sourceSceneId": "ZH_HSK2_SC002",
+    "imageSha256": "38b7a6f4fb277ff5b26db173b13ea213969848ef3c809f7ff7fb01daa638cb5a",
+    "baseBitmapAvailable": false
+  }
+}

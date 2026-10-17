@@ -1,0 +1,21 @@
+{
+  "sceneId": "ZH_HSK2_SC002",
+  "revision": "CONTEXTUAL_SIMPLIFIED_CHINESE_R1",
+  "turnCount": 100,
+  "uniqueZhCount": 100,
+  "idsPreserved": true,
+  "speakerOrderPreserved": true,
+  "simplifiedChineseCheck": "PASS",
+  "activeVocabularyPreserved": true,
+  "emotionCueCount": 6,
+  "modelContextualReadThrough": true,
+  "independentNativeHumanReview": false,
+  "voicePipelineChanged": false,
+  "audioStatus": "PENDING_EXISTING_PIPELINE",
+  "mouthAnchorStatus": "MODEL_VISUAL_CALIBRATION",
+  "meanOldZhLength": 8.71,
+  "meanNewZhLength": 16.11,
+  "continuityNoteTr": "HSK2 SC001 sonunda sözü edilen kart alımı gerçekleşir. Günlük yerine aylık kart ödeme öncesi fark edilir; süre/güzergâh/fiyat tablosu teyit edilerek günlük kart alınır. Gerçek dünya ücret/rakam iddiası yoktur; kurgu istasyon görevlisi açıklaması. Liu Mei pazara gider, HSK2 SC003 geçişi.",
+  "lengthDeviationPercent": 84.96,
+  "lengthNoteTr": "Anlamlı tepki zinciri nedeniyle yumuşak ±15% uzunluk hedefi aşılır; 100 replik ve kimlikler korunur."
+}
