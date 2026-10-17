@@ -3,8 +3,8 @@
   "sceneId": "ZH_HSK2_SC004",
   "generationSceneId": "ZH_HSK2_SC004",
   "manifestVersion": "LOCKED_V2",
-  "dialogueSource": "ci/dialogue_final_v5/HSK2/ZH_HSK2_SC004.json",
-  "dialogueSha256": "961103d992888f2d8017f2853dc6f8279f05712560da0f76237ad68a222c9c40",
+  "dialogueSource": "ci/dialogue_final_v13/HSK2/ZH_HSK2_SC004.json",
+  "dialogueSha256": "38633bde7e8002562bbb23ffe309e8bedb2a567d9de3aa7c2269d36080735ec4",
   "titleTr": "Okul Servisini Kaçırmak",
   "locationId": "LOC_ZH_SCHOOL_BUS_STOP_001",
   "scenePurposeTr": "Lele okul servisini kaçırır; Liu Mei ve komşu onunla birlikte durakta durumu değerlendirir.",
@@ -27,7 +27,7 @@
     "previousSceneId": "ZH_HSK2_SC003",
     "nextSceneId": "ZH_HSK2_SC005"
   },
-  "sourceGeneratedFilename": "kaçırılan_otobüs_komşu_desteği.png",
+  "sourceGeneratedFilename": "ZH_HSK2_SC004_R1.png",
   "finalAssetFilename": "ZH_HSK2_SC004.webp",
   "finalAsset": "app/src/main/assets/chinese_course/media/scenes/ZH_HSK2_SC004.webp",
   "image": {
@@ -35,7 +35,9 @@
     "height": 1672,
     "format": "WEBP",
     "orientation": "9:16_vertical",
-    "sha256": "a3a41c6d426af0cea5b9de11655fc6ce9dda6e52b83355afdb67787550d0a20e"
+    "sha256": "f34399833fa8a8833735af8332e97aa4977903bded23a42fa2e07817e8e6b52e",
+    "quality": "optimized_webp_q70",
+    "sourceRevision": "CANONICAL_CAST_CORRECTION_R1_2026-10-17"
   },
   "manifestChecklist": {
     "dialogueChecked": true,
@@ -56,5 +58,33 @@
   "qaStatus": "PASS",
   "status": "FINAL_SOURCE_OVERRIDE",
   "binaryIntegrityChecked": true,
-  "qaNoteTr": "Kullanıcının son üretilen görseli LOCKED_V2 manifestoya göre bu sceneId için final source asset olarak yeniden entegre edildi."
+  "qaNoteTr": "HSK2 SC004 canonical Liu Mei and Lele plus established lavender/floral neighbor CHR_ZH_AUTO_E985EDCD56 from SC003. Three full visible faces and named mouths inspected, mother phone, neighbor keys, distant departed schoolbus and sidewalk match scene. Model review; native/device pending. Model review only; native human/device pending.",
+  "mouthAnchorCalibration": {
+    "imageSha256": "f34399833fa8a8833735af8332e97aa4977903bded23a42fa2e07817e8e6b52e",
+    "width": 941,
+    "height": 1672,
+    "anchors": {
+      "刘梅": [
+        0.274,
+        0.279
+      ],
+      "张乐乐": [
+        0.52,
+        0.415
+      ],
+      "邻居": [
+        0.794,
+        0.332
+      ]
+    },
+    "reviewStatus": "MODEL_VISUAL_CALIBRATION"
+  },
+  "postGenerationVisualQA": {
+    "status": "PASS",
+    "inspectedAfterGeneration": true,
+    "dialogueMatch": true,
+    "speakerCountMatch": true,
+    "canonicalCharacterContinuityChecked": true,
+    "noteTr": "HSK2 SC004 canonical Liu Mei and Lele plus established lavender/floral neighbor CHR_ZH_AUTO_E985EDCD56 from SC003. Three full visible faces and named mouths inspected, mother phone, neighbor keys, distant departed schoolbus and sidewalk match scene. Model review; native/device pending. Model review only; native human/device pending."
+  }
 }

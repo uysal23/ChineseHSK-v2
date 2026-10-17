@@ -1,0 +1,46 @@
+{
+  "sceneId": "ZH_HSK2_SC004",
+  "imageSha256": "f34399833fa8a8833735af8332e97aa4977903bded23a42fa2e07817e8e6b52e",
+  "referenceSceneId": "ZH_HSK2_SC004",
+  "castLockSource": "docs/visuals/CHARACTER_CAST_LOCK_TR.md",
+  "exactMainCast": [
+    "刘梅",
+    "张乐乐",
+    "邻居"
+  ],
+  "modelVisualReview": "PASS",
+  "nativeHumanReview": false,
+  "androidTimingTest": "PENDING",
+  "promptSummary": "Missed schoolbus, mother calls school, Lele listens on sidewalk, established lavender neighbor offers ride already on her route; three face mouths visible",
+  "anchors": {
+    "刘梅": [
+      0.274,
+      0.279
+    ],
+    "张乐乐": [
+      0.52,
+      0.415
+    ],
+    "邻居": [
+      0.794,
+      0.332
+    ]
+  },
+  "identityReferences": [
+    {
+      "characterId": "CHR_ZH_LIUMEI_001",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_LIUMEI_001.webp",
+      "sha256": "517b7d20120e58f7a292b3870ede671ed3d2116aeeca0f7b96c80ebfaf78a748"
+    },
+    {
+      "characterId": "CHR_ZH_ZHANGLELE_001",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\sc048\\canon\\CHR_ZH_ZHANGLELE_001.webp",
+      "sha256": "526122dbc40f79e2bed7ed485d902cd27759745058eaf08eaae29da6fe9a07ed"
+    },
+    {
+      "characterId": "CHR_ZH_AUTO_E985EDCD56",
+      "source": "C:\\Users\\uysal\\.codex\\visualizations\\2026\\10\\04\\01a1052b-31b9-7c00-9ebc-cb340e0f28e0\\hsk2_sc003\\art\\ZH_HSK2_SC003_R1.webp",
+      "sha256": "0f6155861792d0bbd141babc16bb7e610cbb307812ee75ac1c452ba47cfc86a9"
+    }
+  ]
+}
